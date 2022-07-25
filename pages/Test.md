@@ -1,3 +1,4 @@
+- #tags #test
 - #spaced
 - Tema global 1
 	- Subtema 1 #flashcard
@@ -6,4 +7,5 @@
 	- Subtema 2 #spaced
 -
 - ---
--
+- ¿Qué es una tarea? #card #flashcard
+	- {{cloze Algo}} malo...

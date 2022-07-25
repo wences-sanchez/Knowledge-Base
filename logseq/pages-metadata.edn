@@ -28,9 +28,6 @@
  {:block/name "favorites",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "flashcard",
-  :block/created-at 1658771529681,
-  :block/updated-at 1658771529681}
  {:block/name "in-progress",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277799}
@@ -46,9 +43,6 @@
  {:block/name "readme",
   :block/created-at 1658772234839,
   :block/updated-at 1658772234839}
- {:block/name "spaced",
-  :block/created-at 1658771517977,
-  :block/updated-at 1658771517977}
  {:block/name "todo",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}

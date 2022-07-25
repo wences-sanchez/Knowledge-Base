@@ -1,0 +1,9 @@
+- #spaced
+- Tema global 1
+	- Subtema 1 #flashcard
+	- Solución 1
+-
+	- Subtema 2 #spaced
+-
+- ---
+-

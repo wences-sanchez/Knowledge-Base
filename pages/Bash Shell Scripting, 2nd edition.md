@@ -189,4 +189,7 @@
 		- It's the same thing as argument. But argument is a preferred name.
 		- A **variable** is a key with a name that can refer to a specific value
 	- How are quotes used in Bash?
-		-
+		- **Double quotes** (or **weak** quotes)are used to avoid interpretation of **spaces**
+			- echo "my value"
+		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
+			- echo the current '$SHELL' is $SHELL

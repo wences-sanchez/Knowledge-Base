@@ -75,5 +75,5 @@
 -
 - ---
 - #### Flashcards
--
+- Tell me the command
 - echo -e is for special characters

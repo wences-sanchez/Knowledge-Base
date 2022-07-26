@@ -178,7 +178,7 @@
 	- Bash don't use data types
 	- **declare** can be used to set specific variable attributes:
 		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
-		- **declare [-a|-A] MYARRAY** is
+		- **declare [-a|-A] MYARRAY** is used to define an indexed ()or associative array.
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

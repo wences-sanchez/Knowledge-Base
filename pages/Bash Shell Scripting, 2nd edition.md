@@ -49,11 +49,11 @@
 				- User specific files are:
 					- **~/.bash_profile**
 					- **~/.bashrc**
-	- About exit codes: #flashcard
-		- If 0, the command was executed successfully
-		- If 1, there was a generic error
-		- The developer of a program can decide to code other exit codes as well
-			- This is done by **exit n**
+		- About exit codes: #flashcard
+			- If 0, the command was executed successfully
+			- If 1, there was a generic error
+			- The developer of a program can decide to code other exit codes as well
+				- This is done by **exit n**
 -
 - ---
 - #spaced

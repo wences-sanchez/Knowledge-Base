@@ -175,7 +175,8 @@
 			- echo "my value"
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
 			- echo the current '$SHELL' is $SHELL
-	- Bash don
+	- Bash don't use data types
+	-
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

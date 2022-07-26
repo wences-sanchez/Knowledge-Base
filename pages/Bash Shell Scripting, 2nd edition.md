@@ -278,7 +278,7 @@
 		- These are far better and faster than sed because sed is an external command in Bash.
 		- Also, another use is in extended globbings, to retrieve extensions and remove them in filenames.
 	- **let** is used to assing arithmetic operations to a variable
-	- But $(( some op )) is the best
+	- But $(( some op )) is the best option
 	-
 -
 - ---

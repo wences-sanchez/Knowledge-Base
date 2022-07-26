@@ -206,9 +206,9 @@
 	- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
 	- HERE-Doc means *Here, not there*l
 	  ```
-	  ftp localhost <<END
+	  ftp localhost <<EOF
 	  # some content
-	  END
+	  EOF
 	  ```
 	-
 -

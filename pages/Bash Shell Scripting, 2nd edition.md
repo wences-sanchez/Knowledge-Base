@@ -95,7 +95,7 @@
 		- `$ cut -d -f 1 /etc/passwd`
 	- **sort** allows you to sort items
 		- **sort -n** for numeric sort
-		-
+		- **sort -d** for
 	-
 - ---
 - #### Flashcards

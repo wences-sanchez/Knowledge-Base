@@ -8,4 +8,5 @@
 -
 - A way of getting info about commands is: `help <command>`
 -
-- If you put any character just after the name of a variable, the shell will believe that is part of the name and will do noti
+- If you put any character just after the name of a variable, the shell will believe that is part of the name and will do nothing but prints a space
+-

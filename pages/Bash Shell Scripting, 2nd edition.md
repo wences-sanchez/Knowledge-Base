@@ -177,7 +177,7 @@
 			- echo the current '$SHELL' is $SHELL
 	- Bash don't use data types
 	- **declare** can be used to set specific variable attributes:
-	-
+		-
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

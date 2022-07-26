@@ -70,7 +70,9 @@
 - For more advanced and more complex tasks, it might have sense develop a **Python** script. But **Bash** will be native (and maybe more suitable for not-so-complex tasks), so in the real world you have to learn both.
 - ---
 -
--
+- #spaced
 - ### Lesson 4: Learning Linux Essentials for Shell Scripting
+-
+- ---
 -
 - echo -e is for special characters

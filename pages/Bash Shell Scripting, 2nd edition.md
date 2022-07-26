@@ -187,7 +187,7 @@
 		- ```
 		- echo enter a value
 		- read value
-		-
+		- echo you have entered
 		- ```
 - ---
 - #### Flashcards

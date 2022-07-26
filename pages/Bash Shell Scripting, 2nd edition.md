@@ -125,4 +125,5 @@
 	- Things to consider when writing scritps:
 		- 1. Put the shebang: `#!/bin/bash`
 		  2. Comment, comment, comment... :D Also for yourself!!!!
-		  3. Use whi
+		  3. Use white lines
+		  4. Org

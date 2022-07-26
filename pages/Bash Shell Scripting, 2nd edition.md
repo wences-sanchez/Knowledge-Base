@@ -263,7 +263,7 @@
 		- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
 - ---
 - #spaced
-- ### Lesson 7: Transforming input
+- ### Lesson 7: Transforming nput
 -
 - ---
 -

@@ -162,4 +162,5 @@
 -
 - ### Lesson 6: Working with Variables and Arguments
 	- An argument is anything that can be put behind the name of a command or script
-		- ls -l /etc has 2 arguments
+		- **ls -l /etc** has 2 arguments
+	- An

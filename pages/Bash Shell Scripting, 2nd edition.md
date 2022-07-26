@@ -134,7 +134,7 @@
 -
 	- The token $? returns the exit-code of the las command
 -
-	- ##
+	- ####
 	- **help** provides an overview
 	- **man bash** offers more information
 		- You can search it with `/`

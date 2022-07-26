@@ -90,7 +90,7 @@
 		- If you use -l the output shows only the name of the matched files
 	- #### Regexps
 		- It's always important to understand them
-		- You have to be careful with **Extended Regular Expressions**! So you should use **grep -E**
+		- You have to be careful with **Extended Regular Expressions!** So you should use **grep -E**
 		-
 - ---
 - #### Flashcards

@@ -33,7 +33,6 @@
 		- This is done by **exit n**
 - ---
 - #### Notes
-- #spaced
 	- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
 		- With `alias` you can print all the aliased commands
 		- With `alias brief='my command'` you can write your own alias

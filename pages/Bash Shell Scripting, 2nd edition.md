@@ -35,7 +35,6 @@
 		- This is done by **exit n**
 - ---
 - #### Flashcards
-  collapsed:: true
 	- Explain what is alias #flashcard
 		- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
 			- With `alias` you can print all the aliased commands

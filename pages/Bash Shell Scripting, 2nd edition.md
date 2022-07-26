@@ -184,7 +184,7 @@
 	- **In Bash, the variables are NOT case sensitive**
 -
 	- When **read** is used, the shell script execution will stop to read user input
-	-
+		- ``
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

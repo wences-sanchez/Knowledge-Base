@@ -187,7 +187,7 @@
 		- ```
 		- echo enter a value
 		- read value # or more
-		- echo you have entered $value # ore m
+		- echo you have entered $value # or more
 		- ```
 -
 	-

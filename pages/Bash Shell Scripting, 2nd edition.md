@@ -84,7 +84,7 @@
 		- But try to avoid it because it's a little tricky 😉.
 	- #### Grep command
 		- **grep** is an external command that helps you filter text
-		- It's recommended to put the text pattern between **single quotes** to avoid interpretation by the shell
+		- It's recommended to put the text pattern between **single quotes** to avoid interpretation by the shell!!!
 			- **Because we don't want those regular expressions to be interpreted by the shell.**
 		- You can use -B n and -A n where n is the number of lines before and after the match in its context
 		- If you use -l the output shows only the name of the matched files

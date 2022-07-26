@@ -88,15 +88,15 @@
 			- **Because we don't want those regular expressions to be interpreted by the shell.**
 		- You can use -B n and -A n where n is the number of lines before and after the match in its context
 		- If you use -l the output shows only the name of the matched files
-		- #### Regexps
-			- It's always important to understand them
-			- You have to be careful with **Extended Regular Expressions!** So you should use **grep -E**
+	- #### Regexps
+		- It's always important to understand them
+		- You have to be careful with **Extended Regular Expressions!** So you should use **grep -E**
 		- **cut** allows you to filter out fields, based on a field separator
 			- `$ cut -d : -f 1 /etc/passwd`
-		- **sort** allows you to sort items
-			- **sort -n** for numeric sort (to order numbers properly)
-			- **sort -d** for dictionary order
-			-
+	- **sort** allows you to sort items
+		- **sort -n** for numeric sort (to order numbers properly)
+		- **sort -d** for dictionary order
+		-
 		- **sed** is a powerful command which was created when UI didn't exist. An example
 			- `$ sed -i 's/bot/bet/' myfile`
 				- changes the occurrences of bot to bet

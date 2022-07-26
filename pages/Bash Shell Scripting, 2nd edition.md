@@ -6,4 +6,4 @@
 -
 - STDIN, STDOUT and STDERR are file descriptors. They are flexible and dynamically allocated.
 -
-- A way of gett
+- A way of getting info about comman

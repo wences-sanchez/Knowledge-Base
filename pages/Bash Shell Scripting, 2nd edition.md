@@ -140,7 +140,7 @@
 		- You can search it with `/`
 	- But the best resource is:
 		- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
-		- [](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
+		- [Bash Guide for Beginner](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
 		-
 - ---
 - #### Flashcards

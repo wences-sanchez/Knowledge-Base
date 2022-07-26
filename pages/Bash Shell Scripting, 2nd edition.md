@@ -1,5 +1,5 @@
 -
-- #tags #O'Reilly
+- #tags #O'Reilly-
 - ## Module 1: Before Writing your First Shell Script
 -
 - ### Lesson 1: Setting up the Course Environment

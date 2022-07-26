@@ -181,7 +181,7 @@
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*
 	-
-	- **The variables are NOT case sensitive**
+	- **In The variables are NOT case sensitive**
 -
 -
 - ---

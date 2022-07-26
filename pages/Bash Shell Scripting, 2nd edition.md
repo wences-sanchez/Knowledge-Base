@@ -11,8 +11,7 @@
 -
 - If you put any character just after the name of a variable, the shell will believe that is part of the name and will do nothing but prints a space
 -
-- #spaced
-	- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
+- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
 	- With `alias` you can print all the aliased commands
 	- With `alias brief='my command'` you can write your own alias
 	- With `unalias <alias>` you can delete a created alias

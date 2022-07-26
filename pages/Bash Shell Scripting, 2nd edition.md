@@ -66,4 +66,4 @@
 -
 - **printf** exists in Bash because of C-Shell, which was C code.
 -
-- For more advanced and more complex tasks, it might have sense develop a Python script. But Bash will be native, so in
+- For more advanced and more complex tasks, it might have sense develop a Python script. But Bash will be native (), so in the real world

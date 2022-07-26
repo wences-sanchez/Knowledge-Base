@@ -136,7 +136,8 @@
 -
 	- **help** provides an overview
 	- **man bash** offers more information
-		- You can search it with
+		- You can search it with `/`
+	-
 - ---
 - #### Flashcards
 - Why do we have to indicate the exact path when calling a script in Linux? #flashcard

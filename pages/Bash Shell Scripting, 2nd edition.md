@@ -58,4 +58,6 @@
 - ---
 - ### Lesson 3: Shell scripts in a DevOps environment
 -
-- The purpose of DevOps is to shorten the system develo
+- The purpose of DevOps is to shorten the system development life cycle.
+-
+-

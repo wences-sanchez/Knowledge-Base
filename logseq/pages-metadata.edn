@@ -46,9 +46,6 @@
  {:block/name "jul 25th, 2022",
   :block/created-at 1658772234682,
   :block/updated-at 1658773372841}
- {:block/name "jul 26th, 2022",
-  :block/created-at 1658817739288,
-  :block/updated-at 1658817739288}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -76,6 +73,9 @@
  {:block/name "todo",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+ {:block/name "tuesday, 26-07-2022",
+  :block/created-at 1658817843867,
+  :block/updated-at 1658818116571}
  {:block/name "wait",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}

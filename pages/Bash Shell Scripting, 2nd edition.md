@@ -131,6 +131,7 @@
 		  6. Always finish with an *exit N*
 -
 	- The scripts cannot be executed from a relative path because of security concerns of Linux
+-
 	-
 - ---
 - #### Flashcards

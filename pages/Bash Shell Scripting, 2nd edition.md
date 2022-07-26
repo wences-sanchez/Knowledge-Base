@@ -97,7 +97,7 @@
 		- **sort -n** for numeric sort (to order numbers properly)
 		- **sort -d** for dictionary order
 		-
-	- **sed** is
+	- **sed** is a powerful command which
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

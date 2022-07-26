@@ -140,6 +140,8 @@
 		- You can search it with `/`
 	- But the best resource is:
 		- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
+		- https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html
+		-
 - ---
 - #### Flashcards
 - Why do we have to indicate the exact path when calling a script in Linux? #flashcard

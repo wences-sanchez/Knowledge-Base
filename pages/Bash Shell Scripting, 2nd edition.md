@@ -154,5 +154,6 @@
 	- *Bash Scripting Guide*
 - How could you add a directory to PATH? #flashcard
 	- By:
-		- `$ export PATH=$PATH:`
+		- `$ export PATH=$PATH:$( pwd )`
+	-
 	-

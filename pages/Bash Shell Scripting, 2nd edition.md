@@ -4,4 +4,4 @@
 -
 - ### Lesson 2: Getting Familiar with Bash
 -
-- STDIN, STDOUT and
+- STDIN, STDOUT and STDERR are file

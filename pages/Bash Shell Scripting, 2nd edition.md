@@ -8,4 +8,4 @@
 -
 - A way of getting info about commands is: `help <command>`
 -
-- If you put any character just after
+- If you put any character just after the name of a variable, the shell

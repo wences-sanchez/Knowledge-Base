@@ -171,8 +171,8 @@
 	- A **variable** is a key with a name that can refer to a specific value
 -
 	- About quotes in Bash:
-		- **Double quotes** (or weak queot)are used to avoid interpretation of **spaces**
-		- **Single quotes** are used to avoid interpretation of **anything**
+		- **Double quotes** (or weak quotes)are used to avoid interpretation of **spaces**
+		- **Single quotes** (or strong )are used to avoid interpretation of **anything**
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

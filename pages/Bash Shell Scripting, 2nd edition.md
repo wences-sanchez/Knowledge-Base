@@ -127,4 +127,4 @@
 		  2. Comment, comment, comment... :D Also for yourself!!!!
 		  3. Use white lines
 		  4. Organize your code in blocks
-		  5. Extensions of the
+		  5. Extensions of the names are useful when

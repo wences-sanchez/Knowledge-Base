@@ -245,20 +245,21 @@
 		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*
-- You can check your variables with **grep** in **$ set**
-- You can refer to script arguments with a number:
-	- $1, $2, ... $9, ${10}, ${11}...
-- To address all, use $@ or $*
-	- With quotes, $@ expands proper arguments
-	- But $* makes all a single arg
-- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
-- HERE-Doc means *Here, not there*l
-  ```
-  ftp localhost <<EOF
-  # some content
-  EOF
-  ```
-- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
+-
+	- You can check your variables with **grep** in **$ set**
+	- You can refer to script arguments with a number:
+		- $1, $2, ... $9, ${10}, ${11}...
+	- To address all, use $@ or $*
+		- With quotes, $@ expands proper arguments
+		- But $* makes all a single arg
+	- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
+	- HERE-Doc means *Here, not there*l
+	  ```
+	  ftp localhost <<EOF
+	  # some content
+	  EOF
+	  ```
+	- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
 - ---
 - #spaced
 - ### Lesson 7: Transforming input

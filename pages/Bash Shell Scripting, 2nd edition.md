@@ -157,5 +157,5 @@
 		- `$ export PATH=$PATH:$( pwd )`
 		- With *:* because that's the path delimiter
 	- Or:
-		- `$ cp myscript /usr/local/bin`
+		- `$ sudo cp myscript /usr/local/bin`
 	-

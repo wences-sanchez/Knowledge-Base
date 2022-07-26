@@ -94,7 +94,7 @@
 	- **cut** allows you to filter out fields, based on a field separator
 		- `$ cut -d : -f 1 /etc/passwd`
 	- **sort** allows you to sort items
-		- **sort -n** for numeric sort
+		- **sort -n** for numeric sort (for )
 		- **sort -d** for dictionary order
 		-
 	-

@@ -23,4 +23,4 @@
 			- **~/.bash_profile**
 			- **~/.bashrc**
 - Bourne shell (**/bin/sh**) was the original shell
-- Bash is Bourn Again SHell, a remake of the original Bourne she
+- Bash is Bourn Again SHell, a remake of the original Bourne shell that was invented in the 70

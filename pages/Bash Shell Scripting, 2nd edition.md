@@ -134,10 +134,11 @@
 -
 	- The token $? returns the exit-code of the las command
 -
+	- ##
 	- **help** provides an overview
 	- **man bash** offers more information
 		- You can search it with `/`
-	- But th
+	- But the best resource is
 - ---
 - #### Flashcards
 - Why do we have to indicate the exact path when calling a script in Linux? #flashcard

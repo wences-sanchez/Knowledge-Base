@@ -88,7 +88,7 @@
 			- **Because we don't want those regular expressions to be interpreted by the shell.**
 		- You can use -B n and -A n where n is the number of lines before and after the match in its context
 		- If you use -l the output shows only the name of the matched files
-	- #### Regex
+	- #### Regexs
 	-
 - ---
 - #### Flashcards

@@ -6,4 +6,4 @@
 -
 - STDIN, STDOUT and STDERR are file descriptors. They are flexible and dynamically allocated.
 -
-- A way of getting info about commands is: `hel`
+- A way of getting info about commands is: `help command>`

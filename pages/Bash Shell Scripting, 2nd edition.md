@@ -240,7 +240,7 @@
 			- echo "my value"
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
 			- echo the current '$SHELL' is $SHELL
-	- **declare** can be used to set specific variable attributes:
+	- **declare** can be used to set specific variable attributes: #spaced
 		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*

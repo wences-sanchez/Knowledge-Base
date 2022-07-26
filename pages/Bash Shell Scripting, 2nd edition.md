@@ -264,7 +264,7 @@
 - ---
 - #spaced
 - ### Lesson 7: Transforming Input
-- We can define a default value for a variable with **:-
+- We can define a default value for a variable with **:-** at the right
 -
 - ---
 - #### Flashcards

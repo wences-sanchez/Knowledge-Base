@@ -26,4 +26,4 @@
 - Bash is Bourn Again SHell, a remake of the original Bourne shell that was invented in the 70's
 	- The default shell on most Linux distros
 - About exit codes:
-	- If 0
+	- If 0, the command was

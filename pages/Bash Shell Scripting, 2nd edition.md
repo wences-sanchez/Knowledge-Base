@@ -27,4 +27,5 @@
 	- The default shell on most Linux distros
 - About exit codes:
 	- If 0, the command was executed successfully
-	- If 1, there
+	- If 1, there was a generic error
+	- The de

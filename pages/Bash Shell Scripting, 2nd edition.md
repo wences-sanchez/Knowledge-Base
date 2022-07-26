@@ -212,6 +212,8 @@
 	  ```
 	- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
 -
+-
+-
 - #### Lab-6
 - ![image.png](../assets/image_1658849651994_0.png)
 -

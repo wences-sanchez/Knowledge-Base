@@ -102,6 +102,7 @@
 			- changes the occurrences of bot to bet
 		- `$ sed -i -e '2d' myfile`
 			- deletes the second line of myfile
+	-
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

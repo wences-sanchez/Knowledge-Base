@@ -210,7 +210,7 @@
 	  # some content
 	  EOF
 	  ```
-	-
+	- Inside a function, it doesn't matter
 -
 -
 - ---

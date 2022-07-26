@@ -132,4 +132,5 @@
 	- The scripts cannot be executed from a relative path because of security concerns of Linux
 -
 - ---
-- #### Fa
+- #### Flashcards
+- The scripts cannot be executed from a relative path because of security concerns of Linux

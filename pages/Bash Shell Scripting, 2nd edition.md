@@ -198,6 +198,7 @@
 	- It's a good idea check the number of arguments
 	-
 	- You can check your variables with **grep** in **$ set**
+	-
 -
 - ---
 - #### Flashcards

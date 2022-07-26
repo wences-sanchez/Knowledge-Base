@@ -93,7 +93,8 @@
 		- You have to be careful with **Extended Regular Expressions!** So you should use **grep -E**
 	- **cut** allows you to filter out fields, based on a field separator
 		- `$ cut -d -f 1 /etc/passwd`
-	- **sort** allows you to sort items,
+	- **sort** allows you to sort items
+		-
 	-
 - ---
 - #### Flashcards

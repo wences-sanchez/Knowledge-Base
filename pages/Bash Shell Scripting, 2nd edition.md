@@ -190,7 +190,7 @@
 		- echo you have entered $value # or more
 		- ```
 -
-	- If we start a script, we'd better be aware that is a subshell and the dire
+	- If we start a script, we'd better be aware that is a subshell and the directory won
 -
 - ---
 - #### Flashcards

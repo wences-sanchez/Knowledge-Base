@@ -15,4 +15,4 @@
 	- With `alias brief='my command'` you can write your own alias
 	- With `unalias <alias>` you can delete a created alias
 -
-- Bash startup files are used to provide default s
+- Bash startup files are used to provide default settings for the opea

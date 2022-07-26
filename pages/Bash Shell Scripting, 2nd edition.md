@@ -34,7 +34,7 @@
 	- The developer of a program can decide to code other exit codes as well
 		- This is done by **exit n**
 - ---
-- #### Notes
+- #### Flashcards
 	- Explain what is alias #flashcard
 		- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
 			- With `alias` you can print all the aliased commands

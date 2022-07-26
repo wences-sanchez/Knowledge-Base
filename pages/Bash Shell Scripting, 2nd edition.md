@@ -82,7 +82,7 @@
 		- It's more complicated because of its syntax.
 		- That's because many people prefer using **echo -e**
 		- But try to avoid it because it's a little tricky 😉.
-	- ##
+	- ###
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

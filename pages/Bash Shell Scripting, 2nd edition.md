@@ -19,3 +19,4 @@
 	- These startup files are shell scripts themselves
 		- **/etc/profile** is a generic startup fiel that is started for every login shell
 		- **/etc/bashrc** is a generic startup file that is started when opening a subshell
+		-

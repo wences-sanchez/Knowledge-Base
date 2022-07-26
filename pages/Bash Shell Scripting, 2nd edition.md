@@ -4,4 +4,6 @@
 -
 - ### Lesson 2: Getting Familiar with Bash
 -
-- STDIN, STDOUT and STDERR are file descriptors. They are flexible and d
+- STDIN, STDOUT and STDERR are file descriptors. They are flexible and dynamically allocated.
+-
+-

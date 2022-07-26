@@ -191,7 +191,7 @@
 		- ```
 -
 	- If we start a script, we'd better be aware that is a subshell and the directory won't last.
-		-
+		- But source does
 	- It's a good idea check the number of arguments
 	-
 -

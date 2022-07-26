@@ -66,4 +66,4 @@
 -
 - **printf** exists in Bash because of C-Shell, which was C code.
 -
-- For more advanced and more complex tasks, it might has
+- For more advanced and more complex tasks, it might have sense develop

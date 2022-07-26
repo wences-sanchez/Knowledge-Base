@@ -117,3 +117,6 @@
 	- **echo -e** is for special characters
 	- `$ echo -e "Estoy partido\nen dos"`
 	- **printf** is an alternative, but is more like C-Shell...
+-
+- ---
+-

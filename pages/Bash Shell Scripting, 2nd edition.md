@@ -1,5 +1,7 @@
 - #tags #O'Reilly-Learning #Bash #Videos
-- # Bash H
+- # Bash Shell Scripting, 2nd edition
+-
+-
 - ## Module 1: Before Writing your First Shell Script
 -
 - ### Lesson 1: Setting up the Course Environment

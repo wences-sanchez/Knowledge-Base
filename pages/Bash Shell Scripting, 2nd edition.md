@@ -235,4 +235,4 @@
 			- echo the current '$SHELL' is $SHELL
 - ---
 -
-	- ###
+	- ### Lesson 7

@@ -128,7 +128,7 @@
 		  3. Use white lines
 		  4. Organize your code in blocks
 		  5. Extensions of the names are useful when in Windows
-		  6.
+		  6. Always finish with a
 -
 	- The scripts cannot be executed from a relative path because of security concerns of Linux
 	-

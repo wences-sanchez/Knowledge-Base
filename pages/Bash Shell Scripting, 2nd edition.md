@@ -172,8 +172,9 @@
 -
 	- About quotes in Bash:
 		- **Double quotes** (or **weak** quotes)are used to avoid interpretation of **spaces**
-			- echo
+			- echo "my value"
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
+			- echo
 		-
 - ---
 - #### Flashcards

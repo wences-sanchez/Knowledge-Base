@@ -203,7 +203,7 @@
 	- To address all, use $@ or $*
 		- With quotes, $@ expands proper arguments
 		- But $* makes all a single arg
-	- Shift command
+	- Shift command pushes the arguments to the left, and
 -
 - ---
 - #### Flashcards

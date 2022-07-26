@@ -152,5 +152,5 @@
 	- The token $? returns the exit-code of the las command
 - What do you have to type in Google to search Bash stuff? #flashcard
 	- *Bash Scripting Guide*
-	-
+-
 	-

@@ -152,7 +152,7 @@
 	- The token $? returns the exit-code of the las command
 - What do you have to type in Google to search Bash stuff? #flashcard
 	- *Bash Scripting Guide*
-- How could you make a script to call it PATH? #flashcard
+- How could you make a script to call it wherever? #flashcard
 	- By:
 		- `$ export PATH=$PATH:$( pwd )`
 	- With *:* because that's the path delimiter

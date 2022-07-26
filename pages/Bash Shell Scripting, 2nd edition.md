@@ -110,7 +110,7 @@
 - ### Lab-4
 - ![image.png](../assets/image_1658832196013_0.png)
 	- Remember that when a variable of some Linux file is required to be processed, you just have to find the column or the delimiters that round it #dev-notes
-	- With **awk -F : '{ print $0 }'**
+	- With **awk -F : '{ print $0 }'**, we print the whole line
 	-
 	-
 - ---

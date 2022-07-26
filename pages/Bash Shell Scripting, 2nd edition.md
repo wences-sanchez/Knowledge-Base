@@ -79,7 +79,7 @@
 		- **printf** is an alternative, but is more like C-Shell...
 -
 	- printf does not print a new line character by default.
-		- It's more
+		- It's more complicated because of
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

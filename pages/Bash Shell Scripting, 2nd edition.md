@@ -103,7 +103,7 @@
 		- `$ sed -i -e '2d' myfile`
 			- deletes the second line of myfile
 	- **awk** is great to filter text, the same age as *sed*. Example:
-		- `$ awk -F : '/wences'`
+		- `$ awk -F : '/wences/ { print $4 }'`
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

@@ -28,4 +28,5 @@
 - About exit codes:
 	- If 0, the command was executed successfully
 	- If 1, there was a generic error
-	- The de
+	- The developer of a program can decide to code other exit codes as well
+	-

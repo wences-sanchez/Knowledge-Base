@@ -1,16 +1,4 @@
-[{:block/name "!",
-  :block/created-at 1658834950462,
-  :block/updated-at 1658834950462}
- {:block/name "!/bin",
-  :block/created-at 1658834950469,
-  :block/updated-at 1658834950469}
- {:block/name "!/bin/bash",
-  :block/created-at 1658834953500,
-  :block/updated-at 1658834953500}
- {:block/name "!/bin/bash**",
-  :block/created-at 1658834950457,
-  :block/updated-at 1658834950457}
- {:block/name "12-factor apps",
+[{:block/name "12-factor apps",
   :block/created-at 1658825284556,
   :block/updated-at 1658825284556}
  {:block/name "a",
@@ -58,15 +46,18 @@
  {:block/name "in-progress",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277799}
- {:block/name "jul 25th, 2022",
-  :block/created-at 1658772234682,
-  :block/updated-at 1658773372841}
- {:block/name "jul 26th, 2022",
-  :block/created-at 1658817739288,
-  :block/updated-at 1658817739288}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name "monday, 07",
+  :block/created-at 1658839096868,
+  :block/updated-at 1658839096868}
+ {:block/name "monday, 07/25",
+  :block/created-at 1658839096870,
+  :block/updated-at 1658839096870}
+ {:block/name "monday, 07/25/2022",
+  :block/created-at 1658839096865,
+  :block/updated-at 1658839096865}
  {:block/name "now",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -91,6 +82,15 @@
  {:block/name "todo",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+ {:block/name "tuesday, 07",
+  :block/created-at 1658839096803,
+  :block/updated-at 1658839096803}
+ {:block/name "tuesday, 07/26",
+  :block/created-at 1658839096805,
+  :block/updated-at 1658839096805}
+ {:block/name "tuesday, 07/26/2022",
+  :block/created-at 1658839096801,
+  :block/updated-at 1658839096801}
  {:block/name "videos",
   :block/created-at 1658838871148,
   :block/updated-at 1658838871148}

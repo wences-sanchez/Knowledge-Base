@@ -25,3 +25,4 @@
 - Bourne shell (**/bin/sh**) was the original shell
 - Bash is Bourn Again SHell, a remake of the original Bourne shell that was invented in the 70's
 	- The default shell on most Linux distros
+- Abotu

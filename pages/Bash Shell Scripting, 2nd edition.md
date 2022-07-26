@@ -34,11 +34,11 @@
 - ---
 - #### Notes
 	- Explain what is alias #flashcard
-	- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
-		- With `alias` you can print all the aliased commands
-		- With `alias brief='my command'` you can write your own alias
-		- With `unalias <alias>` you can delete a created alias
-- #spaced
+		- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
+			- With `alias` you can print all the aliased commands
+			- With `alias brief='my command'` you can write your own alias
+			- With `unalias <alias>` you can delete a created alias
+-
 	- Bash startup files are used to provide default settings for the operating system enviroment.
 		- These startup files are shell scripts themselves
 			- **/etc/profile** is a generic startup fiel that is started for every login shell

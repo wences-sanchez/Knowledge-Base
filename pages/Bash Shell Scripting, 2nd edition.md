@@ -8,4 +8,4 @@
 -
 - A way of getting info about commands is: `help <command>`
 -
-- If you put any
+- If you put any character just after

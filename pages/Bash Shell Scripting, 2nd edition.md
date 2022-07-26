@@ -235,4 +235,4 @@
 			- echo the current '$SHELL' is $SHELL
 - ---
 -
-	- ### Lesson 7
+	- ### Lesson 7: Transforming input

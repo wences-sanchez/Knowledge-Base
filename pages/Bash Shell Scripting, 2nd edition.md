@@ -62,3 +62,4 @@
 -
 - [[12-factor Apps]]
 -
+- **Idempotency** is a

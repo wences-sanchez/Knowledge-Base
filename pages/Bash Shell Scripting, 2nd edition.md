@@ -224,7 +224,6 @@
 -
 - ---
 - #### Flashcards
-  collapsed:: true
 	- What is an argument? #flashcard
 		- An **argument** is anything that can be put behind the name of a command or script
 		- **ls -l /etc** has 2 arguments

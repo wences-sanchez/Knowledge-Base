@@ -34,12 +34,12 @@
 	- The developer of a program can decide to code other exit codes as well
 		- This is done by **exit n**
 - ---
-	- #### Flashcards
-		- Explain what is alias #flashcard
-			- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
-				- With `alias` you can print all the aliased commands
-				- With `alias brief='my command'` you can write your own alias
-				- With `unalias <alias>` you can delete a created alias
+- #### Flashcards
+	- Explain what is alias #flashcard
+		- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
+			- With `alias` you can print all the aliased commands
+			- With `alias brief='my command'` you can write your own alias
+			- With `unalias <alias>` you can delete a created alias
 -
 	- Name the files which contain the default settings of the shell boots #flashcard
 		- Bash startup files are used to provide default settings for the operating system enviroment.

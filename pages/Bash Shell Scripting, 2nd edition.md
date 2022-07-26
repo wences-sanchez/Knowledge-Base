@@ -190,7 +190,7 @@
 		- echo you have entered $value # or more
 		- ```
 -
-	- If
+	- If we start a script
 -
 - ---
 - #### Flashcards

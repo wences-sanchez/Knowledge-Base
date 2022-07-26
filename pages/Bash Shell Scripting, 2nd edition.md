@@ -171,7 +171,7 @@
 	- A **variable** is a key with a name that can refer to a specific value
 -
 	- About quotes in Bash:
-		-
+		- Double quotes are
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

@@ -246,10 +246,10 @@
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*
 -
-	- About
-	- You can check your variables with **grep** in **$ set**
-	- You can refer to script arguments with a number:
-		- $1, $2, ... $9, ${10}, ${11}...
+	- About variables in Bash #flashcard
+		- You can check your variables with **grep** in **$ set**
+		- You can refer to script arguments with a number:
+			- $1, $2, ... $9, ${10}, ${11}...
 	- To address all, use $@ or $*
 		- With quotes, $@ expands proper arguments
 		- But $* makes all a single arg

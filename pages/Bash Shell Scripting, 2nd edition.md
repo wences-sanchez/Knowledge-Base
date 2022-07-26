@@ -183,7 +183,7 @@
 	-
 	- **In Bash, the variables are NOT case sensitive**
 -
-	-
+	- When **read** is used, the
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

@@ -98,7 +98,7 @@
 		- **sort -d** for dictionary order
 		-
 	- **sed** is a powerful command which was created when UI didn't exist. An example
-		- `$ sed -i 's/bot/bet/'`
+		- `$ sed -i 's/bot/bet/' file`
 			- changes the occurrences of bot to bet
 		- `$ sed -i -e '2d' `
 		-

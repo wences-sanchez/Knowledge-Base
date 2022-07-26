@@ -174,7 +174,7 @@
 		- **Double quotes** (or **weak** quotes)are used to avoid interpretation of **spaces**
 			- echo "my value"
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
-			- echo The current
+			- echo The current '$SHELL' is $SHELL
 		-
 - ---
 - #### Flashcards

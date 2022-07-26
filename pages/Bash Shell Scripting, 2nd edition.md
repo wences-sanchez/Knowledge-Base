@@ -161,4 +161,4 @@
 			- `$ sudo cp myscript /usr/local/bin`
 -
 - ### Lesson 6: Working with Variables and Arguments
-	- An argument is anything that can be put behind th
+	- An argument is anything that can be put be

@@ -188,4 +188,4 @@
 		- A **posicional parameter** is another word for an argument.
 		- It's the same thing as argument. But argument is a preferred name.
 		- A **variable** is a key with a name that can refer to a specific value
-	-
+	- How are quotes

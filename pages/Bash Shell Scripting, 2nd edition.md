@@ -201,7 +201,8 @@
 	- You can refer to script arguments with a number:
 		- $1, $2, ... $9, ${10}, ${11}...
 	- To address all, use $@ or $*
-		- With quotes, $@ expand
+		- With quotes, $@ expand proper arguments
+		- B
 -
 - ---
 - #### Flashcards

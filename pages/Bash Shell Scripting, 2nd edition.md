@@ -102,7 +102,8 @@
 			- changes the occurrences of bot to bet
 		- `$ sed -i -e '2d' myfile`
 			- deletes the second line of myfile
-	- **awk** is great to filter text, the same
+	- **awk** is great to filter text, the same age as sed
+	-
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

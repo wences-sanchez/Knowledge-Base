@@ -210,7 +210,7 @@
 	  # some content
 	  EOF
 	  ```
-	- Inside a function, it doesn't matter
+	- Inside a function, it doesn't matter if the variable is only inside the scope
 -
 -
 - ---

@@ -73,7 +73,7 @@
 - #spaced
 - ### Lesson 4: Learning Linux Essentials for Shell Scripting
 -
-	- Tell me the command in Bash for printing message and be respectful about special characters #flashcard
+	- Tell me the command in Bash for printing message and be respectful about special characters
 		- **echo -e** is for special characters
 		- `$ echo -e "Estoy partido\nen dos"`
 		- **printf** is an alternative, but is more like C-Shell...

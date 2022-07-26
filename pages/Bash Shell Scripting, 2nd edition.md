@@ -60,4 +60,5 @@
 -
 - The purpose of DevOps is to shorten the system development life cycle.
 -
+- [[12-factor Apps]]
 -

@@ -128,9 +128,10 @@
 		  3. Use white lines
 		  4. Organize your code in blocks
 		  5. Extensions of the names are useful when in Windows
+		  6.
 -
 	- The scripts cannot be executed from a relative path because of security concerns of Linux
--
+	-
 - ---
 - #### Flashcards
 - Why do we have to indicate the exact path when calling a script in Linux? #flashcard

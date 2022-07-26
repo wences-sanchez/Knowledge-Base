@@ -190,7 +190,8 @@
 		- echo you have entered $value # or more
 		- ```
 -
-	- If we start a script, we'd better be aware that is a subshell and the directory won't last
+	- If we start a script, we'd better be aware that is a subshell and the directory won't last.
+		-
 	- It's a good idea check the number of arguments
 	-
 -

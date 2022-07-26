@@ -90,7 +90,7 @@
 		- If you use -l the output shows only the name of the matched files
 	- #### Regexps
 		- It's always important to understand them
-		- You have to be careful with **
+		- You have to be careful with **Extended Regular Expressions**!,
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

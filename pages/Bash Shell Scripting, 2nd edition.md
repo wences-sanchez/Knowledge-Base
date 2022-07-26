@@ -109,7 +109,7 @@
 		- You can use **type <command>** to check them
 - ### Lab-4
 - ![image.png](../assets/image_1658832196013_0.png)
-	- Remember that when a variable of some Linux file is required to be processed, you just have to find the column or the
+	- Remember that when a variable of some Linux file is required to be processed, you just have to find the column or the delimiters that
 	-
 - ---
 - #### Flashcards

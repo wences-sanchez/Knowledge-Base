@@ -80,7 +80,7 @@
 -
 	- printf does not print a new line character by default.
 		- It's more complicated because of its syntax.
-		- That's because many peopel
+		- That's because many people prefer using **
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

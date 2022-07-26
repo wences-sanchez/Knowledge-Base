@@ -270,10 +270,11 @@
 -
 - ---
 - #### Flashcards
-- How do you set a default value for a variable in Bash? #flashcard
+- How do you deal with a default value for a variable in Bash? #flashcard
 	- If we want to use the default, NOT set it,
 		- With ${myvar**:-**default_value}
 	- If we want to set that to the default value,
 		- With ${myvar**:=**default_value}
-	- If we want to print an error message
+	- If we want to print an error message,
+	-
 -

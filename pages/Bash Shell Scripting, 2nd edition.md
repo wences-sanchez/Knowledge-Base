@@ -92,6 +92,8 @@
 		- It's always important to understand them
 		- You have to be careful with **Extended Regular Expressions!** So you should use **grep -E**
 		-
+		-
+		-
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

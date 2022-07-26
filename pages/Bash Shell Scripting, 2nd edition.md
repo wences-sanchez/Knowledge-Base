@@ -56,4 +56,5 @@
 			- This is done by **exit n**
 -
 - ---
-- ### Lesson 3: Shell scripts in a
+- ### Lesson 3: Shell scripts in a DevOps environment
+-

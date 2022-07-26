@@ -108,6 +108,9 @@
 	- You **shouldn't** use **external tools**. Because they are on disk so that they will be very slow in your scripts.
 		- You can use **type <command>** to check them
 		-
+		-
+-
+	-
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

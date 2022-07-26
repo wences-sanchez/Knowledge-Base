@@ -147,6 +147,7 @@
 - ![image.png](../assets/image_1658837096262_0.png)
 - ---
 - #### Flashcards
+  collapsed:: true
 	- Why do we have to indicate the exact path when calling a script in Linux? #flashcard
 		- The scripts cannot be executed from a relative path because of security concerns of Linux
 	- How do we know the exit code of the last command? #flashcard

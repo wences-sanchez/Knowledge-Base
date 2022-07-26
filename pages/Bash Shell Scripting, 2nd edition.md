@@ -173,6 +173,7 @@
 	- About quotes in Bash:
 		- **Double quotes** (or **weak** quotes)are used to avoid interpretation of **spaces**
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
+		-
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

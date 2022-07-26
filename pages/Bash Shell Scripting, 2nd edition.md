@@ -16,4 +16,4 @@
 	- With `unalias <alias>` you can delete a created alias
 -
 - Bash startup files are used to provide default settings for the operating system enviroment.
-- These startu
+- These startup files are shell scripts themsel

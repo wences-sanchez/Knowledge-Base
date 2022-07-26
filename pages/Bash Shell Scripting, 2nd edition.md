@@ -187,7 +187,7 @@
 		- ```
 		  echo enter a value
 		  read value # or more
-		  echo you have entered $varl
+		  echo you have entered $value # or more
 		- echo enter a value
 		- read value # or more
 		- echo you have entered $value # or more

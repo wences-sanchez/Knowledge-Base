@@ -165,4 +165,4 @@
 		- **ls -l /etc** has 2 arguments
 	- An **option** is an argument that changes the behavior of the command or script, and its functionality is programmed into the command
 		- In **ls -l /etc**, **-l** is used as an option
-	- A
+	- A **posicional parameter** is another

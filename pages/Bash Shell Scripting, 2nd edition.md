@@ -142,6 +142,8 @@
 		- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
 		- [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
 -
+	- You
+-
 - #### Lab
 - ![image.png](../assets/image_1658837096262_0.png)
 - ---

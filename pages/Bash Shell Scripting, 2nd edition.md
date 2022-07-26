@@ -158,5 +158,6 @@
 		- With *:* because that's the path delimiter
 	- Or:
 		- `$ sudo cp myscript /usr/local/bin`
-- ### Lesson 6: Working with Variables and A
+-
+- ### Lesson 6: Working with Variables and Arguments
 	-

@@ -250,16 +250,16 @@
 		- You can check your variables with **grep** in **$ set**
 		- You can refer to script arguments with a number:
 			- $1, $2, ... $9, ${10}, ${11}...
-	- To address all, use $@ or $*
-		- With quotes, $@ expands proper arguments
-		- But $* makes all a single arg
-	- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
-	- HERE-Doc means *Here, not there*l
-	  ```
-	  ftp localhost <<EOF
-	  # some content
-	  EOF
-	  ```
+		- To address all, use $@ or $*
+			- With quotes, $@ expands proper arguments
+			- But $* makes all a single arg
+		- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
+		- HERE-Doc means *Here, not there*l
+		  ```
+		  ftp localhost <<EOF
+		  # some content
+		  EOF
+		  ```
 	- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
 - ---
 - #spaced

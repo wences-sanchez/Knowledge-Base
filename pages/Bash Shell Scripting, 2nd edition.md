@@ -84,7 +84,7 @@
 		- But try to avoid it because it's a little tricky 😉.
 	- #### Grep command
 		- **grep** is an external command that helps you filter text
-		- It's recommended to put the text pattern between single quotes to avoid interpretation by the shell
+		- It's recommended to put the text pattern between **single quotes** to avoid interpretation by the shell
 		-
 - ---
 - #### Flashcards

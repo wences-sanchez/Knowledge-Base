@@ -40,7 +40,6 @@
 			- With `alias` you can print all the aliased commands
 			- With `alias brief='my command'` you can write your own alias
 			- With `unalias <alias>` you can delete a created alias
--
 	- Name the files which contain the default settings of the shell boots #flashcard
 		- Bash startup files are used to provide default settings for the operating system enviroment.
 			- These startup files are shell scripts themselves

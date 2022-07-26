@@ -124,7 +124,7 @@
 - ### Lesson 5: Creating your First Shell Script
 	- Things to consider when writing scritps:
 		- 1. Put the shebang: `#!/bin/bash`
-		  2. Comment, comment, comment... :D Also for yourself!!!!
+		  2. 2. Comment, comment, comment... :D Also for yourself!!!!
 		  3. Use white lines
 		  4. Organize your code in blocks
 		  5. Extensions of the names are useful when in Windows

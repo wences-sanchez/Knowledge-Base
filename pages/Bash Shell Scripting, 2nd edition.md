@@ -137,4 +137,5 @@
 - #### Flashcards
 - Why do we have to indicate the exact path when calling a script in Linux? #flashcard
 	- The scripts cannot be executed from a relative path because of security concerns of Linux
--
+- The token $? returns the exit-code of the las command
+	-

@@ -185,6 +185,7 @@
 -
 	- When **read** is used, the shell script execution will stop to read user input
 		- ```
+		  echo enter a value
 		- echo enter a value
 		- read value # or more
 		- echo you have entered $value # or more

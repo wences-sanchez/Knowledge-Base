@@ -39,7 +39,7 @@
 			- With `alias brief='my command'` you can write your own alias
 			- With `unalias <alias>` you can delete a created alias
 -
-	- Ne
+	- Name the files which contai
 	- Bash startup files are used to provide default settings for the operating system enviroment.
 		- These startup files are shell scripts themselves
 			- **/etc/profile** is a generic startup fiel that is started for every login shell

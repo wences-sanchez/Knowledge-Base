@@ -264,7 +264,8 @@
 - ---
 - #spaced
 - ### Lesson 7: Transforming Input
-- When we want define a default value for a variable with **:-** at the right of the name.
+- When we want
+- define a default value for a variable with **:-** at the right of the name.
 - How do you deal with a default value for a variable in Bash? #flashcard
 	- If we want to use the default, NOT set it,
 		- With ${myvar**:-**default_value}

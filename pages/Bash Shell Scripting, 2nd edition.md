@@ -74,5 +74,5 @@
 - ### Lesson 4: Learning Linux Essentials for Shell Scripting
 -
 - ---
-- #### Note
+- #### Flashcards
 - echo -e is for special characters

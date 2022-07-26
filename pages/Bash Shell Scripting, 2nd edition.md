@@ -203,7 +203,7 @@
 	- To address all, use $@ or $*
 		- With quotes, $@ expands proper arguments
 		- But $* makes all a single arg
-	- Shift command pushes the arguments to the left , and cannot be undone i <-- i +1
+	- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1
 -
 -
 - ---

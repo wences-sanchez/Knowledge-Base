@@ -202,7 +202,7 @@
 		- $1, $2, ... $9, ${10}, ${11}...
 	- To address all, use $@ or $*
 		- With quotes, $@ expand proper arguments
-		- B
+		- But $* makes all
 -
 - ---
 - #### Flashcards

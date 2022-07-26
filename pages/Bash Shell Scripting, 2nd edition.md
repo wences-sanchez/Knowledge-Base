@@ -153,5 +153,6 @@
 - What do you have to type in Google to search Bash stuff? #flashcard
 	- *Bash Scripting Guide*
 - How could you add a directory to PATH? #flashcard
-	-
+	- By:
+		-
 	-

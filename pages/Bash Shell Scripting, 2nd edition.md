@@ -22,4 +22,4 @@
 		- User specific files are:
 			- **~/.bash_profile**
 			- **~/.bashrc**
-- Bourn
+- Bourne shell (/bin/sh) wa

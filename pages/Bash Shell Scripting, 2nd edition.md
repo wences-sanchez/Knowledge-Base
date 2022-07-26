@@ -62,4 +62,6 @@
 -
 - [[12-factor Apps]]
 -
-- **Idempotency** is a
+- **Idempotency** is a very important aspect
+-
+-

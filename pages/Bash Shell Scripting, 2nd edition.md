@@ -105,7 +105,7 @@
 	- **awk** is great to filter text, the same age as *sed*. Example:
 		- `$ awk -F : '/wences/ { print $4 }' /etc/passwd`
 			- Shows the id of user wences
-	- You shouldn't use external tools. Bea
+	- You shouldn't use external tools. Because they are on disk
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

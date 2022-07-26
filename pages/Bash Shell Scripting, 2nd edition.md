@@ -177,7 +177,6 @@
 			- echo the current '$SHELL' is $SHELL
 	- Bash don't use data types
 	- **declare** can be used to set specific variable attributes:
-	  collapsed:: true
 		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*

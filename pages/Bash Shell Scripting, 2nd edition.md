@@ -10,4 +10,6 @@
 -
 - If you put any character just after the name of a variable, the shell will believe that is part of the name and will do nothing but prints a space
 -
-- **alias** is a Bash internal command that allows us to define our own ones to sum up
+- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
+-
+-

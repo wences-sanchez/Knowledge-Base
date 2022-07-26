@@ -164,4 +164,4 @@
 	- An **argument** is anything that can be put behind the name of a command or script
 		- **ls -l /etc** has 2 arguments
 	- An **option** is an argument that changes the behavior of the command or script, and its functionality is programmed into the command
-		- **l
+		- In **ls -l /etc**

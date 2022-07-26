@@ -89,7 +89,7 @@
 		- You can use -B n and -A n where n is the number of lines before and after the match in its context
 		- If you use -l the output shows only the name of the matched files
 	- #### Regexps
-	-
+		-
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

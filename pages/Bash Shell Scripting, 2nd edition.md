@@ -204,7 +204,9 @@
 		- With quotes, $@ expands proper arguments
 		- But $* makes all a single arg
 	- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
-	- HERE-Doc means *Here, not there*
+	- HERE-Doc means *Here, not there*l
+	  ```
+	  ftp localhost <<END
 	- `# some t
 	- ```
 -

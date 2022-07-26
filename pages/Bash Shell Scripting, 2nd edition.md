@@ -199,7 +199,8 @@
 	-
 	- You can check your variables with **grep** in **$ set**
 	- You can refer to script arguments with a number:
-		- $1, $2, ... $9, ${10}, ${}
+		- $1, $2, ... $9, ${10}, ${11}...
+	- To a
 -
 - ---
 - #### Flashcards

@@ -275,7 +275,7 @@
 		- ![image.png](../assets/image_1658852482928_0.png)
 		- This can be used to filter directories and filenames
 		- ![image.png](../assets/image_1658853602066_0.png)
-		- These are far better and faster than sed becua
+		- These are far better and faster than sed because sed is an external command in Bash
 -
 -
 - ---

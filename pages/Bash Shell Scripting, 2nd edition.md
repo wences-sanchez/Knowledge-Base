@@ -274,7 +274,8 @@
 	- About pattern matching operators:
 		- ![image.png](../assets/image_1658852482928_0.png)
 		- This can be used to filter directories and filenames
-		-
+		- ![image.png](../assets/image_1658853602066_0.png)
+		- These
 -
 -
 - ---

@@ -171,9 +171,9 @@
 	- A **variable** is a key with a name that can refer to a specific value
 -
 	- About quotes in Bash:
-		- **Double quotes** (or **weak** quotes)are used to avoid interpretation of **spaces**
+		- **Double quotes** (or **weak** quotes) are used to avoid interpretation of **spaces**
 			- echo "my value"
-		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
+		- **Single quotes** (or **strong** quotes) are used to avoid interpretation of **anything**
 			- echo the current '$SHELL' is $SHELL
 	- Bash don't use data types
 	- **declare** can be used to set specific variable attributes:

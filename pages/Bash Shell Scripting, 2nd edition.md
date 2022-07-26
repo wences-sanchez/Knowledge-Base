@@ -138,7 +138,8 @@
 	- **help** provides an overview
 	- **man bash** offers more information
 		- You can search it with `/`
-	- But the best resource is
+	- But the best resource is:
+		-
 - ---
 - #### Flashcards
 - Why do we have to indicate the exact path when calling a script in Linux? #flashcard

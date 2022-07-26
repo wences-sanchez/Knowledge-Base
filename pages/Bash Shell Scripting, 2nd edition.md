@@ -194,7 +194,7 @@
 		- But **source** does
 		- And source does change the directory
 		- And doesn't have *shebang*
-		- And works
+		- And works when importing internally
 	- It's a good idea check the number of arguments
 	-
 	-

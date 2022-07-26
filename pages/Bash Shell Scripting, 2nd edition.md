@@ -124,4 +124,4 @@
 - ### Lesson 5: Creating your First Shell Script
 	- Things to consider when writing scritps:
 		- 1. Put the shebang: `#!/bin/bash`
-		  2.
+		  2. Comment, comment

@@ -176,7 +176,7 @@
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
 			- echo the current '$SHELL' is $SHELL
 	- Bash don't use data types
-	- **declare**
+	- **declare** can be used to set specifi
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

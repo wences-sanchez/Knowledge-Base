@@ -271,7 +271,7 @@
 			- With ${myvar**:=**default_value}
 		- If we want to print an error message,
 			- With ${myvar**:?**error_msg}
-	-
+	- About pattern matching operators
 	- ![image.png](../assets/image_1658852482928_0.png)
 	-
 -

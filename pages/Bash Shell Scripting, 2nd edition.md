@@ -279,7 +279,7 @@
 		- Also, another use is in extended globbings, to retrieve extensions and remove them in filenames.
 	- **let** is used to assing arithmetic operations to a variable
 	- But **$(( some op ))** is the best option
-	-
+	- **bc** is the same than mo
 -
 - ---
 - #### Flashcards

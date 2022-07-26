@@ -155,5 +155,5 @@
 - How could you add a directory to PATH? #flashcard
 	- By:
 		- `$ export PATH=$PATH:$( pwd )`
-	- With *:* because that's d
+	- With *:* because that's the path delimiter
 	-

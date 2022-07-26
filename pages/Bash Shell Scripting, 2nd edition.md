@@ -4,4 +4,4 @@
 -
 - ### Lesson 2: Getting Familiar with Bash
 -
-- STDIN
+- STDIN, STDOUT and

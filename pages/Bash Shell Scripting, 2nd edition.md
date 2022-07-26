@@ -172,7 +172,7 @@
 -
 	- About quotes in Bash:
 		- Double quotes are used to avoid interpretation of spaces
-		-
+		- Single
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

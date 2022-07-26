@@ -97,7 +97,7 @@
 		- **sort -n** for numeric sort (to order numbers properly)
 		- **sort -d** for dictionary order
 		-
-	- **sed** is a powerful command which was created when UI didn't exist
+	- **sed** is a powerful command which was created when UI didn't exist. An example
 		- `$ sed -i 's/bot/bet/'`
 		- changes the occurrences of bot to bet
 		-

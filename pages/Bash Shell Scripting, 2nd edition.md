@@ -193,7 +193,7 @@
 	- If we start a script, we'd better be aware that is a subshell and the directory won't last.
 		- But **source** does
 		- And source does change the directory
-		- And doesn't have
+		- And doesn't have *shebang*
 	- It's a good idea check the number of arguments
 	-
 	-

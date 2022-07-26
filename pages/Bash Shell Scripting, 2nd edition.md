@@ -83,7 +83,7 @@
 		- That's because many people prefer using **echo -e**
 		- But try to avoid it because it's a little tricky 😉.
 	- #### Grep command
-		- **grep** is an
+		- **grep** is an external command that
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

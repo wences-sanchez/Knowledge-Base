@@ -75,5 +75,5 @@
 -
 - ---
 - #### Flashcards
-- Tell me the command in Bash for printing message and be
+- Tell me the command in Bash for printing message and be respectful about character
 - echo -e is for special characters

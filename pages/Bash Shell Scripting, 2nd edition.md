@@ -158,5 +158,5 @@
 		- With *:* because that's the path delimiter
 	- Or:
 		- `$ sudo cp myscript /usr/local/bin`
-	-
+- ##
 	-

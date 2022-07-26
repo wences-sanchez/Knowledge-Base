@@ -268,4 +268,5 @@
 -
 - ---
 - #### Flashcards
-- How do you set a default value for a variable
+- How do you set a default value for a variable in Bash?
+-

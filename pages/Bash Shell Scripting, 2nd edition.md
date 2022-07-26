@@ -133,4 +133,4 @@
 -
 - ---
 - #### Flashcards
-- Why do we have to put tThe scripts cannot be executed from a relative path because of security concerns of Linux
+- Why do we have to indicate the eThe scripts cannot be executed from a relative path because of security concerns of Linux

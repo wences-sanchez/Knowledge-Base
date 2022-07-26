@@ -198,7 +198,7 @@
 	- It's a good idea check the number of arguments
 	-
 	- You can check your variables with **grep** in **$ set**
-	- You can re
+	- You can refer to script arg
 -
 - ---
 - #### Flashcards

@@ -77,4 +77,4 @@
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard
 	- **echo -e** is for special characters
-	-
+	- `$ echo ""`

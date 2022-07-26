@@ -273,5 +273,5 @@
 	- If we want to use the default, NOT set it,
 		- With ${myvar**:-**default_value}
 	- If we want to set that to the default value,
-		- With $
+		- With ${myvar:=}
 -

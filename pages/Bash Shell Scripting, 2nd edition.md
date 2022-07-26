@@ -78,36 +78,36 @@
 		- `$ echo -e "Estoy partido\nen dos"`
 		- **printf** is an alternative, but is more like C-Shell...
 		-
--
-	- **printf** does not print a new line character by default.
-		- It's more complicated because of its syntax.
-		- That's because many people prefer using **echo -e**
-		- But try to avoid it because it's a little tricky 😉.
-	- #### Grep command
-		- **grep** is an external command that helps you filter text
-		- It's recommended to put the text pattern between **single quotes** to avoid interpretation by the shell**!!!**
-			- **Because we don't want those regular expressions to be interpreted by the shell.**
-		- You can use -B n and -A n where n is the number of lines before and after the match in its context
-		- If you use -l the output shows only the name of the matched files
-	- #### Regexps
-		- It's always important to understand them
-		- You have to be careful with **Extended Regular Expressions!** So you should use **grep -E**
-	- **cut** allows you to filter out fields, based on a field separator
-		- `$ cut -d : -f 1 /etc/passwd`
-	- **sort** allows you to sort items
-		- **sort -n** for numeric sort (to order numbers properly)
-		- **sort -d** for dictionary order
-		-
-	- **sed** is a powerful command which was created when UI didn't exist. An example
-		- `$ sed -i 's/bot/bet/' myfile`
-			- changes the occurrences of bot to bet
-		- `$ sed -i -e '2d' myfile`
-			- deletes the second line of myfile
-	- **awk** is great to filter text, the same age as *sed*. Example:
-		- `$ awk -F : '/wences/ { print $4 }' /etc/passwd`
-			- Shows the id of user wences
-	- You **shouldn't** use **external tools**. Because they are on disk so that they will be very slow in your scripts.
-		- You can use **type <command>** to check them
+	-
+		- **printf** does not print a new line character by default.
+			- It's more complicated because of its syntax.
+			- That's because many people prefer using **echo -e**
+			- But try to avoid it because it's a little tricky 😉.
+		- #### Grep command
+			- **grep** is an external command that helps you filter text
+			- It's recommended to put the text pattern between **single quotes** to avoid interpretation by the shell**!!!**
+				- **Because we don't want those regular expressions to be interpreted by the shell.**
+			- You can use -B n and -A n where n is the number of lines before and after the match in its context
+			- If you use -l the output shows only the name of the matched files
+		- #### Regexps
+			- It's always important to understand them
+			- You have to be careful with **Extended Regular Expressions!** So you should use **grep -E**
+		- **cut** allows you to filter out fields, based on a field separator
+			- `$ cut -d : -f 1 /etc/passwd`
+		- **sort** allows you to sort items
+			- **sort -n** for numeric sort (to order numbers properly)
+			- **sort -d** for dictionary order
+			-
+		- **sed** is a powerful command which was created when UI didn't exist. An example
+			- `$ sed -i 's/bot/bet/' myfile`
+				- changes the occurrences of bot to bet
+			- `$ sed -i -e '2d' myfile`
+				- deletes the second line of myfile
+		- **awk** is great to filter text, the same age as *sed*. Example:
+			- `$ awk -F : '/wences/ { print $4 }' /etc/passwd`
+				- Shows the id of user wences
+		- You **shouldn't** use **external tools**. Because they are on disk so that they will be very slow in your scripts.
+			- You can use **type <command>** to check them
 - #### Lab-4
 - ![image.png](../assets/image_1658832196013_0.png)
 	- Remember that when a variable of some Linux file is required to be processed, you just have to find the column or the delimiters that round it #dev-notes

@@ -4,4 +4,4 @@
 -
 - ### Lesson 2: Getting Familiar with Bash
 -
-- STDIN, STDOUT and STDERR are file
+- STDIN, STDOUT and STDERR are file descriptors.

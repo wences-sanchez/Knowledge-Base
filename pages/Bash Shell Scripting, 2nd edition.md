@@ -129,4 +129,4 @@
 		  4. Organize your code in blocks
 		  5. Extensions of the names are useful when in Windows
 -
-	- The scripts cannot be executed
+	- The scripts cannot be executed from a relative path beca

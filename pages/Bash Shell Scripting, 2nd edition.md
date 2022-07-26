@@ -98,7 +98,8 @@
 		- **sort -d** for dictionary order
 		-
 	- **sed** is a powerful command which was created when UI didn't exist
-		- `$ sed -i 's/bot/bet/'` changes the o
+		- `$ sed -i 's/bot/bet/'` changes the occurrences of bot to bet
+		-
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

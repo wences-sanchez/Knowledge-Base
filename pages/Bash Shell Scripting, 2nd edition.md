@@ -177,7 +177,8 @@
 			- echo the current '$SHELL' is $SHELL
 	- Bash don't use data types
 	- **declare** can be used to set specific variable attributes:
-		- **declare -r ANSWER=yes** sets *$ANSWER as a read-only varialb
+		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
+		-
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

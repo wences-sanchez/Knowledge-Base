@@ -83,7 +83,7 @@
 		- That's because many people prefer using **echo -e**
 		- But try to avoid it because it's a little tricky 😉.
 	- #### GREP
-		-
+		- **grep**
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

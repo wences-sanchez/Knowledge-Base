@@ -78,9 +78,9 @@
 		- `$ echo -e "Estoy partido\nen dos"`
 		- **printf** is an alternative, but is more like C-Shell...
 -
-	- printf does not print a new line character by default.
+	- **printf** does not print a new line character by default.
 		- It's more complicated because of its syntax.
-		- That's because many people prefer using **
+		- That's because many people prefer using **echo -e**
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

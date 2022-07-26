@@ -83,7 +83,8 @@
 		- That's because many people prefer using **echo -e**
 		- But try to avoid it because it's a little tricky 😉.
 	- #### Grep command
-		- **grep** is an external command that
+		- **grep** is an external command that helps you filter text
+		-
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

@@ -180,7 +180,10 @@
 		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*
-	- The variables are NOT case sensitive
+	-
+	- **The variables are NOT case sensitive**
+-
+-
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

@@ -207,7 +207,7 @@
 	- HERE-Doc means *Here, not there*
 	- ```
 	- lftp localhost <<END
-	- # s
+	- `# some t
 	- ```
 -
 -

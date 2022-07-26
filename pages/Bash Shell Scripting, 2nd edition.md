@@ -108,7 +108,8 @@
 	- You **shouldn't** use **external tools**. Because they are on disk so that they will be very slow in your scripts.
 		- You can use **type <command>** to check them
 - ### Lab-4
--
+- ![image.png](../assets/image_1658832196013_0.png)
+	-
 	-
 - ---
 - #### Flashcards

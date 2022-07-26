@@ -148,7 +148,7 @@
 	- The scripts cannot be executed from a relative path because of security concerns of Linux
 - How do we know the exit code of the last command? #flashcard
 	- The token $? returns the exit-code of the las command
-- What do you have to type in Google to search Bash stuff?
+- What do you have to type in Google to search Bash stuff? #flashcard
 	- *Bash Scripting Guide*
 	-
 	-

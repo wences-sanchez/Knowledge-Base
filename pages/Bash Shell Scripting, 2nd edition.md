@@ -155,5 +155,7 @@
 - How could you make a script to call it wherever? #flashcard
 	- By:
 		- `$ export PATH=$PATH:$( pwd )`
-	- With *:* because that's the path delimiter
+		- With *:* because that's the path delimiter
+	- Or:
+		-
 	-

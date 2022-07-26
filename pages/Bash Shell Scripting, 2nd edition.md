@@ -189,6 +189,9 @@
 		- read value
 		- echo you have entered $value
 		- ```
+-
+	-
+-
 - ---
 - #### Flashcards
 	- What is an argument? #flashcard

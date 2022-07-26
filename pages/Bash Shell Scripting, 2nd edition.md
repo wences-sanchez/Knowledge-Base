@@ -270,5 +270,5 @@
 - ---
 - #### Flashcards
 - How do you set a default value for a variable in Bash? #flashcard
-	- With ${myvar**:-**default_value}
+	- If we wantWith ${myvar**:-**default_value}
 -

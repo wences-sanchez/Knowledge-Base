@@ -23,4 +23,4 @@
 			- **~/.bash_profile**
 			- **~/.bashrc**
 - Bourne shell (**/bin/sh**) was the original shell
-- Bash is
+- Bash is Bourn Again SHell, a rme

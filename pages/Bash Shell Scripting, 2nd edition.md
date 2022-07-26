@@ -276,5 +276,5 @@
 	- If we want to set that to the default value,
 		- With ${myvar**:=**default_value}
 	- If we want to print an error message,
-	-
+		- With ${}
 -

@@ -64,4 +64,4 @@
 -
 - **Idempotency** is a very important aspect
 -
-- **printf** exists in
+- **printf** exists in Bash because of C-B

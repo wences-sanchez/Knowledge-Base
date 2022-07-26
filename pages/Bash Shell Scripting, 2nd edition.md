@@ -1,4 +1,2 @@
 - ## Module 1: Before Writing your First Shell Script
--
-- ###
-##### Lesson 1: Setting up the Course Environment
+- ### Lesson 1: Setting up the Course Environment

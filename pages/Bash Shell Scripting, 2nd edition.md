@@ -17,4 +17,4 @@
 -
 - Bash startup files are used to provide default settings for the operating system enviroment.
 	- These startup files are shell scripts themselves
-		-
+		- /etc/profile is a generic

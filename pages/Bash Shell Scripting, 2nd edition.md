@@ -2,4 +2,4 @@
 -
 - ### Lesson 1: Setting up the Course Environment
 -
--
+- ### Lesson 2

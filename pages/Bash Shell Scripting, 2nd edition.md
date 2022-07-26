@@ -78,16 +78,16 @@
 		- `$ echo -e "Estoy partido\nen dos"`
 		- **printf** is an alternative, but is more like C-Shell...
 	-
-		- **printf** does not print a new line character by default.
-			- It's more complicated because of its syntax.
-			- That's because many people prefer using **echo -e**
-			- But try to avoid it because it's a little tricky 😉.
-		- #### Grep command
-			- **grep** is an external command that helps you filter text
-			- It's recommended to put the text pattern between **single quotes** to avoid interpretation by the shell**!!!**
-				- **Because we don't want those regular expressions to be interpreted by the shell.**
-			- You can use -B n and -A n where n is the number of lines before and after the match in its context
-			- If you use -l the output shows only the name of the matched files
+	- **printf** does not print a new line character by default.
+		- It's more complicated because of its syntax.
+		- That's because many people prefer using **echo -e**
+		- But try to avoid it because it's a little tricky 😉.
+	- #### Grep command
+		- **grep** is an external command that helps you filter text
+		- It's recommended to put the text pattern between **single quotes** to avoid interpretation by the shell**!!!**
+			- **Because we don't want those regular expressions to be interpreted by the shell.**
+		- You can use -B n and -A n where n is the number of lines before and after the match in its context
+		- If you use -l the output shows only the name of the matched files
 		- #### Regexps
 			- It's always important to understand them
 			- You have to be careful with **Extended Regular Expressions!** So you should use **grep -E**

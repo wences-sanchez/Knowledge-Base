@@ -86,7 +86,8 @@
 		- **grep** is an external command that helps you filter text
 		- It's recommended to put the text pattern between **single quotes** to avoid interpretation by the shell
 			- **Because we don't want those regular expressions to be interpreted by the shell.**
-		- You can use -B n and -A n where n is the number of lines before and after the match in context
+		- You can use -B n and -A n where n is the number of lines before and after the match in its context
+		-
 - ---
 - #### Flashcards
 - Tell me the command in Bash for printing message and be respectful about special characters #flashcard

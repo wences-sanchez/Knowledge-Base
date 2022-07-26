@@ -91,7 +91,8 @@
 	- #### Regexps
 		- It's always important to understand them
 		- You have to be careful with **Extended Regular Expressions!** So you should use **grep -E**
-	- **cut** allows you to filter out fields, based on a field separator: **$ cut -d **
+	- **cut** allows you to filter out fields, based on a field separator
+		- **$ cut -d **
 	-
 - ---
 - #### Flashcards

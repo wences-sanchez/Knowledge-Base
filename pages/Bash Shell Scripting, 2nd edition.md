@@ -379,4 +379,5 @@
 		  done
 		  ```
 	- How can you restrict a variable to a function? #flashcard
-		- With **local** var
+		- With **local** var=value
+		-

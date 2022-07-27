@@ -398,5 +398,6 @@
 	-
 - ---
 - #### Flashcards
-	- How to create an a
+	- How to create an array in Bash? #flashcard
+		-
 - ---

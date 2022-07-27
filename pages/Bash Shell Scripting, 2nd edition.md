@@ -335,5 +335,6 @@
 - #### Flashcards
 	- With `read VAR`, you are already saving it in $VAR #dev-notes
 	- Syntax of case in Bash: #spaced
-		- case $VAR in
+		- ```
+		  case $VAR in
 -

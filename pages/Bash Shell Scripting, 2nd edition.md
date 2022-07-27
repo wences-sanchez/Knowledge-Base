@@ -441,5 +441,5 @@
 	- How can you build a range of numbers in the shell? #flashcard
 		- With somethin like this`{1..10}`
 		- Remember the curly brackets!!
-	-
+	- How can
 - ---

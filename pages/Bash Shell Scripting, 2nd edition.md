@@ -396,7 +396,7 @@
 - ---
 - ### Lesson 11: Using Arrays #spaced
 	- You can use **declare -A** to buid an asociative array in Bash.
-		-
+		- **decl
 	- **${!myArray[@]}** imprime todos los valores
 	- **${#myArray[@]}** imprime la longitud
 	- ```

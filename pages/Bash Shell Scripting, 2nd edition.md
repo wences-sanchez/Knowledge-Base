@@ -285,7 +285,7 @@
 	-
 - #### Lab 7
 	- ![image.png](../assets/image_1658906736055_0.png)
-	- Hay que
+	- Hay que incluir los parámetros de patte
 -
 - ---
 - #### Flashcards

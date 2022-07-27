@@ -363,5 +363,6 @@
 - #### Flashcards
 	- What is the syntax of **getopts**? #flashcard
 		- ```
-		  while getopts "hs:
+		  while getopts "hs:" arg; do
+		  case $arg in
 		  ```

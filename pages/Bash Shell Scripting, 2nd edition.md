@@ -305,7 +305,7 @@
 	- **help test** lists all the arguments =)
 	- We can write tests in another way:
 		- && for and
-		-
+		- || for
 -
 - ---
 - #### Flashcards

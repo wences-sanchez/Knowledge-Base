@@ -438,5 +438,6 @@
 		- `myArray=(content with spaces)` # Without '$'
 		- In order to print it, simply put:
 			- `"${myArray[@]}"`
-	- How can you build a range of numbers ins
+	- How can you build a range of numbers in the shell?
+		-
 - ---

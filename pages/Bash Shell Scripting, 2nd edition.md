@@ -360,6 +360,7 @@
 		- `while getopts "ab:" opts` evaluate options **a** and **b** and put them in a temporary variable **opts**
 	-
 	- ![image.png](../assets/image_1658920893035_0.png)
+	- ![image.png](../assets/image_1658920984226_0.png)
 	-
 - ---
 - #### Flashcards

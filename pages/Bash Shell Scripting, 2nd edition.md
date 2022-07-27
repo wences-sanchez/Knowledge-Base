@@ -310,7 +310,7 @@
 	- `[[ ]]` offer some features that [ ] don't provide
 		- 1. Conditional statements
 		  2. ` [[ 1 < 2 ]]`
-		  3.
+		  3. Quotes
 - ---
 - #### Flashcards
 	- How do you do to search about special meanings of every test character in Bash? #flashcard #dev-notes

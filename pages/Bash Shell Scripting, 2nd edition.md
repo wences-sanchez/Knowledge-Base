@@ -386,5 +386,5 @@
 	- How could you create a menu in Bash? #flashcard
 		- ![image.png](../assets/image_1658921094274_0.png)
 	- What is the use of **trap**?
-		- You can catch OS signals with it as CTL^C and prevent the scri
+		- You can catch OS signals with it as CTL^C and prevent the scrpt to stop
 		-

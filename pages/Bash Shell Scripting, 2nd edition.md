@@ -407,7 +407,8 @@
 	  done
 	  ```
 	- **myArray+=(newItem)** for append values
-	- **readarray** accepts the input and turns it int oa
+	- **readarray** accepts the input and turns it into an array
+	-
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard

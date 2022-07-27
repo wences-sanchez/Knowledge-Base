@@ -383,5 +383,7 @@
 		  ```
 	- How can you restrict a variable to a function? #flashcard
 		- With **local** var=value
-	- How could you create a menu in Bash
+	- How could you create a menu in Bash?
+		- ![image.png](../assets/image_1658921094274_0.png)
+		-
 		-

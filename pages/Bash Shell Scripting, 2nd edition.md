@@ -314,6 +314,6 @@
 		- With **$ help test**
 	- How can you write a condition of a test in one token depending its output? #flashcard #dev-notes
 		- `[ -d /home/wences ] && echo directory exists`
-		- `[ -d /home/noone ] || echo direc`
+		- `[ -d /home/noone ] || echo directory does not exist`
 		-
 -

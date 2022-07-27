@@ -287,7 +287,7 @@
 	- ![image.png](../assets/image_1658906736055_0.png)
 	- Hay que incluir los parámetros de pattern matching dentro de las llaves del nombre del parámetro: #spaced #dev-notes
 		- `mv ${file} ${file%*.txt}`
--
+	-
 - ---
 - #### Flashcards
 - How do you deal with a default value for a variable in Bash? #flashcard

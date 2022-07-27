@@ -443,6 +443,7 @@
 		- Remember the curly brackets!!
 	- How do you iterate over an array in Bash? #flashcard
 		- With **"${myArray[@}]}"**
-		-
-		-
+-
+- ---
+-
 - ---

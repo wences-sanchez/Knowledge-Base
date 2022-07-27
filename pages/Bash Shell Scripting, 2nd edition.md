@@ -400,5 +400,6 @@
 - #### Flashcards
 	- How to create an array in Bash? #flashcard
 		- `myArray=(content with spaces)` # Without '$'
-		- In order to print it, simply put: `"${myArray[@]}"`
+		- In order to print it, simply put:
+			- `"${myArray[@]}"`
 - ---

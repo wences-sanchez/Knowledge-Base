@@ -369,5 +369,5 @@
 		          echo "usage"
 		          ;;
 		      s)
-		  
+		          strengt=$
 		  ```

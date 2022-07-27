@@ -407,7 +407,7 @@
 	  done
 	  ```
 	- **myArray+=(newItem)** for append values
-	-
+	- **readarray
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard

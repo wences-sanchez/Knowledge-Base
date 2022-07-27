@@ -307,5 +307,5 @@
 -
 - ---
 - #### Flashcards
-	- How do you do to search about special meanings of every test character in Bash?
+	- How do you do to search about special meanings of every test character in Bash? #flashcard
 -

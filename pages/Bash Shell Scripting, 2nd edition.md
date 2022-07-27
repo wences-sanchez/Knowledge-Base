@@ -370,5 +370,7 @@
 		          ;;
 		      s)
 		          strengt=$OPTARG
-		          echo 
+		          echo $strength
+		          ;;
+		  
 		  ```

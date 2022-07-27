@@ -312,7 +312,7 @@
 		  2. ` [[ 1 < 2 ]]`
 		  3. Quotes not required if the $var expands itself and contains spaces. `[ ]` reports `operator expected`
 - #### Lab
-- ![image.png](../assets/image_1658912649559_0.png)
+	- ![image.png](../assets/image_1658912649559_0.png)
 -
 - ---
 - #### Flashcards

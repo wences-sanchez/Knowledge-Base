@@ -399,6 +399,6 @@
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard
-		- `$ myArray=(content)` # Without '$'
+		- `$ myArray=(content with spaces)` # Without '$'
 		-
 - ---

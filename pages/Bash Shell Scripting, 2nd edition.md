@@ -369,5 +369,6 @@
 		          echo "usage"
 		          ;;
 		      s)
-		          strengt=$
+		          strengt=$OPTARG
+		          echo 
 		  ```

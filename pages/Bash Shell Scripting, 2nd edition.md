@@ -333,5 +333,5 @@
 -
 - ---
 - #### Flashcards
-	- With `read VAR
+	- With `read VAR`, you are already
 -

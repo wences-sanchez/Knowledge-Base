@@ -330,8 +330,8 @@
 - ### Lesson 9: Using Conditionals and Loops
 	- ![image.png](../assets/image_1658916677427_0.png)
 - #### Lab
-- ![image.png](../assets/image_1658918638779_0.png)
--
+	- ![image.png](../assets/image_1658918638779_0.png)
+	-
 -
 - ---
 - #### Flashcards

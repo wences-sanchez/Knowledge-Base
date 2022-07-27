@@ -348,5 +348,5 @@
 		       ;;
 		  esac
 		  ```
-	- Syntax of until in Bash #spaced
+	-
 -

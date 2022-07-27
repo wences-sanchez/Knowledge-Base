@@ -105,6 +105,8 @@
 				- Shows the id of user wences
 		- You **shouldn't** use **external tools**. Because they are on disk so that they will be very slow in your scripts.
 			- You can use **type <command>** to check them
+- ---
+-
 - #### Lab-4
 - ![image.png](../assets/image_1658832196013_0.png)
 	- Remember that when a variable of some Linux file is required to be processed, you just have to find the column or the delimiters that round it #dev-notes

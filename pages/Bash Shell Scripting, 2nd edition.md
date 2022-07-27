@@ -264,7 +264,7 @@
 		- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
 - ---
 -
-- ### Lesson 7: Transforming Input
+- ### Lesson 7: Transforming Input #spaced
 	- When we want to define a default value for a variable in Bash:
 		- If we want to use the default, NOT set it,
 			- With ${myvar**:-**default_value}

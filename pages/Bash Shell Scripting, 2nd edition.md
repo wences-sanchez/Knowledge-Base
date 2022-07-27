@@ -355,4 +355,5 @@
 -
 - ## Module 4: Advanced Bash Scripting Options
 -
-- ### Lesson 10: Using
+- ### Lesson 10: Using Advanced Scripting Options
+-

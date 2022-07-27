@@ -311,7 +311,7 @@
 		- 1. Conditional statements
 		  2. ` [[ 1 < 2 ]]`
 		  3. Quotes not required if the $var expands itself and contains spaces. `[ ]` reports `operator expected`
-		-
+- ####
 - ---
 - #### Flashcards
 	- How do you do to search about special meanings of every test character in Bash? #flashcard #dev-notes

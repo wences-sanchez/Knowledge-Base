@@ -385,6 +385,6 @@
 		- With **local** var=value
 	- How could you create a menu in Bash? #flashcard
 		- ![image.png](../assets/image_1658921094274_0.png)
-	- What is the use of **trap**?
+	- What is the use of **trap**? #flashcard
 		- You can catch OS signals with it as CTL^C and prevent the scrpt to stop
 		-

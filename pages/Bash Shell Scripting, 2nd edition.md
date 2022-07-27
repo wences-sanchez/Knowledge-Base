@@ -286,7 +286,7 @@
 - #### Lab 7
 	- ![image.png](../assets/image_1658906736055_0.png)
 	- Hay que incluir los parámetros de pattern matching dentro de las llaves del nombre del parámetro: #spaced #dev-notes
-		- mv ${file}
+		- mv ${file} ${file%}
 -
 - ---
 - #### Flashcards

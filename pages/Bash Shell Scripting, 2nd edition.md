@@ -344,7 +344,7 @@
 		       echo dont
 		      ;;
 		  *)
-		      okay
+		      echo okay
 		       ;;
 		  esac
 		  ```

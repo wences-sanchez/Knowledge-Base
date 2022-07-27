@@ -316,6 +316,6 @@
 	- How can you write a condition of a test in one token depending its output? #flashcard #dev-notes
 		- `[ -d /home/wences ] && echo directory exists`
 		- `[ -d /home/noone ] || echo directory does not exist`
-		- But the **||**, if it's false, acts as a true wh
+		- But the **||**, if it's false, acts as a true when there's a following
 		-
 -

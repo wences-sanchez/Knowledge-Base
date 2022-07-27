@@ -389,3 +389,4 @@
 		- You can catch OS signals with it as CTL^C and prevent the scrpt to stop
 		- You can forbid a `rm -f dir`
 		-
+		-

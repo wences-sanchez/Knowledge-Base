@@ -58,13 +58,13 @@
 - ### Lesson 3: Shell scripts in a DevOps environment #spaced
 -
 	- The purpose of DevOps is to shorten the system development life cycle.
--
+	-
 	- [[12-factor Apps]]
--
+	-
 	- **Idempotency** is a very important aspect
--
+	-
 	- **printf** exists in Bash because of C-Shell, which was C code.
--
+	-
 	- For more advanced and more complex tasks, it might have sense develop a **Python** script. But **Bash** will be native (and maybe more suitable for not-so-complex tasks), so in the real world you have to learn both.
 - ---
 -

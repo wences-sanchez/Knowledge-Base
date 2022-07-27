@@ -399,5 +399,5 @@
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard
-		- `$ m`
+		- `$ myArray=(*)`
 - ---

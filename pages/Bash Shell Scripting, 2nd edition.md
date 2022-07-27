@@ -301,4 +301,6 @@
 - ---
 - ## Module 3: Using Conditional Statements
 -
-- ### Lesson 8:
+- ### Lesson 8: Using if and if then else
+-
+-

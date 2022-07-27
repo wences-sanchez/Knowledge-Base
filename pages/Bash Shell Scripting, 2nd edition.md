@@ -445,5 +445,5 @@
 		- With **"${myArray[@}]}"**
 -
 - ---
-- ### Lesson 12
+- ### Lesson 12: Script Best Pract
 - ---

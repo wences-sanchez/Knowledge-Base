@@ -404,7 +404,7 @@
 	  	echo "${myArray[$i]}"
 	  done
 	  ```
-	-
+	- **myArray
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard

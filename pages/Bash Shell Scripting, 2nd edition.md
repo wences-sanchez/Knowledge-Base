@@ -8,11 +8,13 @@
 - ### Lesson 2: Getting Familiar with Bash #flashcard
 	- STDIN, STDOUT and STDERR are file descriptors. They are flexible and dynamically allocated.
 	- A way of getting info about commands is: `help|info|man <command>`
-	- If you put any character just after the name of a variable, the shell will believe that is part of the name and will do nothing but prints a space
+- If you put any character just after the name of a variable, the shell will believe that is part of the name and will do nothing but prints a space
+-
 	- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
 		- With `alias` you can print all the aliased commands
 		- With `alias brief='my command'` you can write your own alias
 		- With `unalias <alias>` you can delete a created alias
+-
 	- Bash startup files are used to provide default settings for the operating system enviroment.
 		- These startup files are shell scripts themselves
 			- **/etc/profile** is a generic startup fiel that is started for every login shell
@@ -20,14 +22,14 @@
 			- User specific files are:
 				- **~/.bash_profile**
 				- **~/.bashrc**
-		- Bourne shell (**/bin/sh**) was the original shell
-		- Bash is Bourn Again SHell, a remake of the original Bourne shell that was invented in the 70's
-			- The default shell on most Linux distros
-		- About exit codes:
-			- If 0, the command was executed successfully
-			- If 1, there was a generic error
-			- The developer of a program can decide to code other exit codes as well
-				- This is done by **exit n**
+	- Bourne shell (**/bin/sh**) was the original shell
+	- Bash is Bourn Again SHell, a remake of the original Bourne shell that was invented in the 70's
+		- The default shell on most Linux distros
+	- About exit codes:
+		- If 0, the command was executed successfully
+		- If 1, there was a generic error
+		- The developer of a program can decide to code other exit codes as well
+			- This is done by **exit n**
 - ---
 - #### Flashcards
 	- Explain what is alias #flashcard

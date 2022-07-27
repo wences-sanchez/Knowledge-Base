@@ -8,7 +8,6 @@
 - ### Lesson 2: Getting Familiar with Bash #flashcard
 	- STDIN, STDOUT and STDERR are file descriptors. They are flexible and dynamically allocated.
 -
-	- A way of getting info about commands is: `help|info|man <command>`
 -
 	- If you put any character just after the name of a variable, the shell will believe that is part of the name and will do nothing but prints a space
 -

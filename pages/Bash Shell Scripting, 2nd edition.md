@@ -354,8 +354,9 @@
 -
 - ---
 - #### Flashcards
-	- With `read VAR`, you are already saving it in $VAR #dev-notes
+	- With `read VAR`, you are already saving it in $VAR #spaced #dev-notes
 	- Syntax of case in Bash: #spaced
+	  collapsed:: true
 		- ```
 		  case $VAR in
 		  yes|si)

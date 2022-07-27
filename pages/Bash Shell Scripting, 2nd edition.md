@@ -189,34 +189,34 @@
 		-
 		- **In Bash, the variables are NOT case sensitive**
 	-
-		- When **read** is used, the shell script execution will stop to read user input
-			- ```
-			  echo enter a value
-			  read value # or more
-			  echo you have entered $value # or more
-			  ```
--
+	- When **read** is used, the shell script execution will stop to read user input
+		- ```
+		  echo enter a value
+		  read value # or more
+		  echo you have entered $value # or more
+		  ```
+	-
 	- If we start a script, we'd better be aware that is a subshell and the directory won't last.
 		- But **source** does
 		- And source does change the directory
 		- And doesn't have *shebang*
 		- And works when importing internally
-	- It's a good idea check the number of arguments
-	-
-	- You can check your variables with **grep** in **$ set**
-	- You can refer to script arguments with a number:
-		- $1, $2, ... $9, ${10}, ${11}...
-	- To address all, use $@ or $*
-		- With quotes, $@ expands proper arguments
-		- But $* makes all a single arg
-	- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
-	- HERE-Doc means *Here, not there*l
-	  ```
-	  ftp localhost <<EOF
-	  # some content
-	  EOF
-	  ```
-	- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
+		- It's a good idea check the number of arguments
+		-
+		- You can check your variables with **grep** in **$ set**
+		- You can refer to script arguments with a number:
+			- $1, $2, ... $9, ${10}, ${11}...
+		- To address all, use $@ or $*
+			- With quotes, $@ expands proper arguments
+			- But $* makes all a single arg
+		- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
+		- HERE-Doc means *Here, not there*l
+		  ```
+		  ftp localhost <<EOF
+		  # some content
+		  EOF
+		  ```
+		- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
 -
 - ---
 - #### Lab-6

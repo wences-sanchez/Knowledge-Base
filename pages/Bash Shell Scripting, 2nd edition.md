@@ -404,7 +404,7 @@
 	  	echo "${myArray[$i]}"
 	  done
 	  ```
-	- **myArray
+	- **myArray+=(newIte)
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard

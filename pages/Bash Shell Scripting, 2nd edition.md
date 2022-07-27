@@ -344,5 +344,7 @@
 		       echo don't
 		      ;;
 		  *)
-		      oka
+		      okay
+		       ;;
+		  esac
 -

@@ -338,5 +338,7 @@
 		- ```
 		  case $VAR in
 		  yes)
-		      echo that'sn
+		      echo that's nice
+		      ;;
+		  no)
 -

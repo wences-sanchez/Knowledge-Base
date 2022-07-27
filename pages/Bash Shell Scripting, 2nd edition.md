@@ -446,7 +446,7 @@
 -
 - ---
 - ### Lesson 12: Script Best Practicces, Debugging and Analyzing
--
+	-
 -
 - ---
 -

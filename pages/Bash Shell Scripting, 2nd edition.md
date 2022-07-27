@@ -399,7 +399,10 @@
 	- **${!myArray[@]}** imprime todos los valores
 	- **${#myArray[@]}** imprime la longitud
 	- ```
-	  
+	  for i in "${!myArray[@]}"
+	  do
+	  	echo "${myArray[$i]}"
+	  done
 	  ```
 	-
 - ---

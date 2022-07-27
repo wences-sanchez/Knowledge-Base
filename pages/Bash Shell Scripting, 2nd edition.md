@@ -360,5 +360,5 @@
 		- `while getopts "ab:" opts` evaluate options **a** and **b** and put them in a temporary variable **opts**
 		-
 - ---
-- #### Flashcars
+- #### Flashcards
 -

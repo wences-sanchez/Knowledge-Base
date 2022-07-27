@@ -311,7 +311,9 @@
 		- 1. Conditional statements
 		  2. ` [[ 1 < 2 ]]`
 		  3. Quotes not required if the $var expands itself and contains spaces. `[ ]` reports `operator expected`
-- ####
+- #### Lab
+- º![image.png](../assets/image_1658912649559_0.png)
+-
 - ---
 - #### Flashcards
 	- How do you do to search about special meanings of every test character in Bash? #flashcard #dev-notes

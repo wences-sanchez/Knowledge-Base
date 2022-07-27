@@ -326,11 +326,13 @@
 		  2. ` [[ 1 < 2 ]]`
 		  3. Quotes not required if the $var expands itself and contains spaces. `[ ]` reports `operator expected`
 - #### Lab
+  collapsed:: true
 	- ![image.png](../assets/image_1658912649559_0.png)
 -
 - ---
 - #### Flashcards
 	- How do you do to search about special meanings of every test character in Bash? #flashcard #dev-notes
+	  collapsed:: true
 		- With **$ help test**
 	- How can you write a condition of a test in one token depending its output? #flashcard #dev-notes
 		- `[ -d /home/wences ] && echo directory exists`

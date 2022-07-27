@@ -175,19 +175,19 @@
 	- A **posicional parameter** is another word for an argument.
 		- It's the same thing as argument. But argument is a preferred name.
 	- A **variable** is a key with a name that can refer to a specific value
--
+	-
 	- About quotes in Bash:
 		- **Double quotes** (or **weak** quotes) are used to avoid interpretation of **spaces**
 			- echo "my value"
 		- **Single quotes** (or **strong** quotes) are used to avoid interpretation of **anything**
 			- echo the current '$SHELL' is $SHELL
-	- Bash don't use data types
-	- **declare** can be used to set specific variable attributes:
-		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
-		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
-		- **declare -p var** tells you about *var*
-	-
-	- **In Bash, the variables are NOT case sensitive**
+		- Bash don't use data types
+		- **declare** can be used to set specific variable attributes:
+			- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
+			- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
+			- **declare -p var** tells you about *var*
+		-
+		- **In Bash, the variables are NOT case sensitive**
 -
 	- When **read** is used, the shell script execution will stop to read user input
 		- ```

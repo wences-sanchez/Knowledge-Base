@@ -394,4 +394,7 @@
 		- You can catch OS signals with it as CTL^C and prevent the scrpt to stop
 		- You can assign actions that happen when those signals are executed or pressed
 - ---
-- ### Lesson 11: Using Arra
+- ### Lesson 11: Using Arrays
+-
+- ---
+-

@@ -383,5 +383,5 @@
 		  ```
 	- How can you restrict a variable to a function? #flashcard
 		- With **local** var=value
-	- How could
+	- How could you create a menu in Bash
 		-

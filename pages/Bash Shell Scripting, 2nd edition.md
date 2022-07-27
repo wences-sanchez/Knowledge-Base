@@ -289,7 +289,6 @@
 		- `mv ${file} ${file%*.txt}`
 	- With **bash -x** you can view the script execution line by line so that you can debug it
 	-
-	-
 - ---
 - #### Flashcards
 - How do you deal with a default value for a variable in Bash? #flashcard

@@ -359,6 +359,7 @@
 	- **getopts** is a cool feature
 		- `while getopts "ab:" opts` evaluate options **a** and **b** and put them in a temporary variable **opts**
 	-
+	- ![image.png](../assets/image_1658920893035_0.png)
 	-
 - ---
 - #### Flashcards

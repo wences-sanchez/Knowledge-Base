@@ -132,18 +132,18 @@
 		  4. Organize your code in blocks
 		  5. Extensions of the names are useful when in Windows
 		  6. Always finish with an *exit N*
--
+	-
 	- The scripts cannot be executed from a relative path because of security concerns of Linux
--
+	-
 	- The token $? returns the exit-code of the las command
--
+	-
 	- #### Resources for help
-	- **help** provides an overview
-	- **man bash** offers more information
-		- You can search it with `/`
-	- But the best resource is:
-		- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
-		- [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
+		- **help** provides an overview
+		- **man bash** offers more information
+			- You can search it with `/`
+		- But the best resource is:
+			- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
+			- [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
 -
 - ---
 -

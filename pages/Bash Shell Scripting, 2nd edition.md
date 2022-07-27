@@ -386,5 +386,5 @@
 	- How could you create a menu in Bash? #flashcard
 		- ![image.png](../assets/image_1658921094274_0.png)
 	- What is the use of **trap**?
-		-
+		- You can catch signals with it
 		-

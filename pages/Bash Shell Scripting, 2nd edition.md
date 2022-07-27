@@ -378,4 +378,4 @@
 		      esac
 		  done
 		  ```
-	- How can you make a variable
+	- How can you restrict a variable

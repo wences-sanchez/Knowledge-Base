@@ -104,7 +104,7 @@
 				- Shows the id of user wences
 		- You **shouldn't** use **external tools**. Because they are on disk so that they will be very slow in your scripts.
 			- You can use **type <command>** to check them
-			- You'll recognize them because
+			- You'll recognize them because the output of `$ type `
 - ---
 -
 - #### Lab-4

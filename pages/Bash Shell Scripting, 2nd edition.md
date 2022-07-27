@@ -395,7 +395,7 @@
 		- You can assign actions that happen when those signals are executed or pressed
 - ---
 - ### Lesson 11: Using Arrays #spaced
-	- You can use
+	- You can use **declare -A** to
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard

@@ -327,5 +327,6 @@
 			- `$ sed 's/.$//'`
 -
 - ---
-- ### Lesson 9: Using
+- ### Lesson 9: Using Conditionals and Loops
+	-
 -

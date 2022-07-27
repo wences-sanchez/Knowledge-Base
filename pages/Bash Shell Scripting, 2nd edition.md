@@ -151,6 +151,7 @@
 -
 -
 - #### Lab
+  collapsed:: true
 	- ![image.png](../assets/image_1658837096262_0.png)
 - ---
 - #### Flashcards

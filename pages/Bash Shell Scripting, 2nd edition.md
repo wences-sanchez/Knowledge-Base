@@ -337,4 +337,5 @@
 	- Syntax of case in Bash: #spaced
 		- ```
 		  case $VAR in
+		  yes)
 -

@@ -124,7 +124,8 @@
 -
 - ## Module 2: Shell Scripting Fundamentals
 -
-- ### Lesson 5: Creating your First Shell Script
+- ### Lesson 5: Creating your First Shell Script #spaced
+	-
 	- Things to consider when writing scritps:
 		- 1. Put the shebang: `#!/bin/bash`
 		  2. 2. Comment, comment, comment... :D Also for yourself!!!!

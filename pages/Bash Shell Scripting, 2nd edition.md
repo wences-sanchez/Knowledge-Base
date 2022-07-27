@@ -439,5 +439,5 @@
 		- In order to print it, simply put:
 			- `"${myArray[@]}"`
 	- How can you build a range of numbers in the shell?
-		-
+		- With `{}`
 - ---

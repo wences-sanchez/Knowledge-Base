@@ -367,5 +367,7 @@
 		  case $arg in
 		      h)
 		          echo "usage"
-		          
+		          ;;
+		      s)
+		  
 		  ```

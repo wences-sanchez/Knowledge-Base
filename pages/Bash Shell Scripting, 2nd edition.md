@@ -307,7 +307,7 @@
 			- [ -d /home/wences ] && echo directory exists`
 		- || for OR (but acts as BEFORE NOT with its left argument)
 			- [ -d /home/noone ] || echo directory does not exist`
-	- **
+	- `[[]]`
 - ---
 - #### Flashcards
 	- How do you do to search about special meanings of every test character in Bash? #flashcard #dev-notes

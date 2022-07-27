@@ -141,7 +141,7 @@
 		- **help** provides an overview
 		- **man bash** offers more information
 			- You can search it with `/`
-		- But the best resource is:
+		- But the best resources are:
 			- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
 			- [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
 -

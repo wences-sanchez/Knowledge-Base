@@ -288,7 +288,8 @@
 	- Hay que incluir los parámetros de pattern matching dentro de las llaves del nombre del parámetro: #spaced #dev-notes
 		- `mv ${file} ${file%*.txt}`
 	- With **bash -x** you can view the script execution line by line so that you can debug it #spaced #dev-notes
-	-
+-
+- ---
 	-
 	-
 - ---

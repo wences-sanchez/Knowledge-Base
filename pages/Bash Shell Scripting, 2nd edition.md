@@ -395,7 +395,8 @@
 		- You can assign actions that happen when those signals are executed or pressed
 - ---
 - ### Lesson 11: Using Arrays #spaced
-	- You can use **declare -A** to buid an asociative array in Bash
+	- You can use **declare -A** to buid an asociative array in Bash.
+		-
 	- **${!myArray[@]}** imprime todos los valores
 	- **${#myArray[@]}** imprime la longitud
 	- ```

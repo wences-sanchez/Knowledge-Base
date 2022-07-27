@@ -307,7 +307,7 @@
 		- && for and
 			- [ -d /home/wences ] && echo directory exists`
 		- || for OR (or NOT the BEFORE)
-		-
+			- [ -d /home/noone ] || echo directory does not exist`
 -
 - ---
 - #### Flashcards

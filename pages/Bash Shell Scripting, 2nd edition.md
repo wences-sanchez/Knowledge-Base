@@ -314,6 +314,6 @@
 		- With **$ help test**
 	- How can you write a condition of a test in one token depending its output? #flashcard #dev-notes
 		- `[ -f /home/wences ] && echo file exists`
-		-
+		- ``
 		-
 -

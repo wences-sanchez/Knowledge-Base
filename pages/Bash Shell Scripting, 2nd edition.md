@@ -404,7 +404,8 @@
 	  	echo "${myArray[$i]}"
 	  done
 	  ```
-	- **myArray+=(newItem)** for ad
+	- **myArray+=(newItem)** for append values
+	-
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard

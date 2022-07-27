@@ -342,4 +342,7 @@
 		      ;;
 		  no)
 		       echo don't
+		      ;;
+		  *)
+		      oka
 -

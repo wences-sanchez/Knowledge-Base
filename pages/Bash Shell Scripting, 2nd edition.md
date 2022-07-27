@@ -446,6 +446,7 @@
 -
 - ---
 - ### Lesson 12: Script Best Practicces, Debugging and Analyzing
+	- ![image.png](../assets/image_1658936962415_0.png)
 	-
 -
 - ---

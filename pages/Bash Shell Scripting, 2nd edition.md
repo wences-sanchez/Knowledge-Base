@@ -385,5 +385,6 @@
 		- With **local** var=value
 	- How could you create a menu in Bash? #flashcard
 		- ![image.png](../assets/image_1658921094274_0.png)
-	- Wa
+	- What is the use of **trap**?
+		-
 		-

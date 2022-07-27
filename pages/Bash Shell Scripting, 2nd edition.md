@@ -306,7 +306,7 @@
 	- We can write tests in another way:
 		- && for and
 			- [ -d /home/wences ] && echo directory exists`
-		- || for OR (but acts as BEFORE)
+		- || for OR (but acts as BEFORE NOT ti)
 			- [ -d /home/noone ] || echo directory does not exist`
 -
 - ---

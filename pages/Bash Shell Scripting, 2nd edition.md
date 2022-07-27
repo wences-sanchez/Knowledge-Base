@@ -379,3 +379,4 @@
 		  done
 		  ```
 	- How can you restrict a variable to a function? #flashcard
+		- With **

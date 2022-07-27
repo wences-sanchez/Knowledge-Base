@@ -333,5 +333,6 @@
 -
 - ---
 - #### Flashcards
-	- With `read VAR`, you are already saving it in $VA
+	- With `read VAR`, you are already saving it in $VAR #dev-notes
+	-
 -

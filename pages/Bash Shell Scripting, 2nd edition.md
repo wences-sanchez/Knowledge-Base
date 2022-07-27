@@ -438,4 +438,5 @@
 		- `myArray=(content with spaces)` # Without '$'
 		- In order to print it, simply put:
 			- `"${myArray[@]}"`
+	-
 - ---

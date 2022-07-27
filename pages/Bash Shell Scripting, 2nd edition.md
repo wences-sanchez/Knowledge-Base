@@ -7,12 +7,16 @@
 -
 - ### Lesson 2: Getting Familiar with Bash #flashcard
 	- STDIN, STDOUT and STDERR are file descriptors. They are flexible and dynamically allocated.
+	-
 	- A way of getting info about commands is: `help|info|man <command>`
+	-
 	- If you put any character just after the name of a variable, the shell will believe that is part of the name and will do nothing but prints a space
+	-
 	- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
 		- With `alias` you can print all the aliased commands
 		- With `alias brief='my command'` you can write your own alias
 		- With `unalias <alias>` you can delete a created alias
+	-
 	- Bash startup files are used to provide default settings for the operating system enviroment.
 		- These startup files are shell scripts themselves
 			- **/etc/profile** is a generic startup fiel that is started for every login shell
@@ -20,14 +24,14 @@
 			- User specific files are:
 				- **~/.bash_profile**
 				- **~/.bashrc**
-		- Bourne shell (**/bin/sh**) was the original shell
-		- Bash is Bourn Again SHell, a remake of the original Bourne shell that was invented in the 70's
-			- The default shell on most Linux distros
-		- About exit codes:
-			- If 0, the command was executed successfully
-			- If 1, there was a generic error
-			- The developer of a program can decide to code other exit codes as well
-				- This is done by **exit n**
+	- Bourne shell (**/bin/sh**) was the original shell
+	- Bash is Bourn Again SHell, a remake of the original Bourne shell that was invented in the 70's
+		- The default shell on most Linux distros
+	- About exit codes:
+		- If 0, the command was executed successfully
+		- If 1, there was a generic error
+		- The developer of a program can decide to code other exit codes as well
+			- This is done by **exit n**
 - ---
 - #### Flashcards
 	- Explain what is alias #flashcard
@@ -54,13 +58,13 @@
 - ### Lesson 3: Shell scripts in a DevOps environment #spaced
 -
 	- The purpose of DevOps is to shorten the system development life cycle.
--
+	-
 	- [[12-factor Apps]]
--
+	-
 	- **Idempotency** is a very important aspect
--
+	-
 	- **printf** exists in Bash because of C-Shell, which was C code.
--
+	-
 	- For more advanced and more complex tasks, it might have sense develop a **Python** script. But **Bash** will be native (and maybe more suitable for not-so-complex tasks), so in the real world you have to learn both.
 - ---
 -
@@ -128,18 +132,18 @@
 		  4. Organize your code in blocks
 		  5. Extensions of the names are useful when in Windows
 		  6. Always finish with an *exit N*
--
+	-
 	- The scripts cannot be executed from a relative path because of security concerns of Linux
--
+	-
 	- The token $? returns the exit-code of the las command
--
+	-
 	- #### Resources for help
-	- **help** provides an overview
-	- **man bash** offers more information
-		- You can search it with `/`
-	- But the best resource is:
-		- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
-		- [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
+		- **help** provides an overview
+		- **man bash** offers more information
+			- You can search it with `/`
+		- But the best resources are:
+			- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
+			- [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
 -
 - ---
 -
@@ -171,48 +175,48 @@
 	- A **posicional parameter** is another word for an argument.
 		- It's the same thing as argument. But argument is a preferred name.
 	- A **variable** is a key with a name that can refer to a specific value
--
+	-
 	- About quotes in Bash:
 		- **Double quotes** (or **weak** quotes) are used to avoid interpretation of **spaces**
 			- echo "my value"
 		- **Single quotes** (or **strong** quotes) are used to avoid interpretation of **anything**
 			- echo the current '$SHELL' is $SHELL
-	- Bash don't use data types
-	- **declare** can be used to set specific variable attributes:
-		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
-		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
-		- **declare -p var** tells you about *var*
+		- Bash don't use data types
+		- **declare** can be used to set specific variable attributes:
+			- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
+			- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
+			- **declare -p var** tells you about *var*
+		-
+		- **In Bash, the variables are NOT case sensitive**
 	-
-	- **In Bash, the variables are NOT case sensitive**
--
 	- When **read** is used, the shell script execution will stop to read user input
 		- ```
 		  echo enter a value
 		  read value # or more
 		  echo you have entered $value # or more
 		  ```
--
+	-
 	- If we start a script, we'd better be aware that is a subshell and the directory won't last.
 		- But **source** does
 		- And source does change the directory
 		- And doesn't have *shebang*
 		- And works when importing internally
-	- It's a good idea check the number of arguments
-	-
-	- You can check your variables with **grep** in **$ set**
-	- You can refer to script arguments with a number:
-		- $1, $2, ... $9, ${10}, ${11}...
-	- To address all, use $@ or $*
-		- With quotes, $@ expands proper arguments
-		- But $* makes all a single arg
-	- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
-	- HERE-Doc means *Here, not there*l
-	  ```
-	  ftp localhost <<EOF
-	  # some content
-	  EOF
-	  ```
-	- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
+		- It's a good idea check the number of arguments
+		-
+		- You can check your variables with **grep** in **$ set**
+		- You can refer to script arguments with a number:
+			- $1, $2, ... $9, ${10}, ${11}...
+		- To address all, use $@ or $*
+			- With quotes, $@ expands proper arguments
+			- But $* makes all a single arg
+		- Shift command pushes the arguments to the left *N* positions, and cannot be undone i <-- i +1 (*N*)
+		- HERE-Doc means *Here, not there*l
+		  ```
+		  ftp localhost <<EOF
+		  # some content
+		  EOF
+		  ```
+		- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
 -
 - ---
 - #### Lab-6
@@ -303,6 +307,12 @@
 			- [ -d /home/wences ] && echo directory exists`
 		- || for OR (but acts as BEFORE NOT with its left argument)
 			- [ -d /home/noone ] || echo directory does not exist`
+	- `[[ ]]` offer some features that [ ] don't provide
+		- 1. Conditional statements
+		  2. ` [[ 1 < 2 ]]`
+		  3. Quotes not required if the $var expands itself and contains spaces. `[ ]` reports `operator expected`
+- #### Lab
+	- ![image.png](../assets/image_1658912649559_0.png)
 -
 - ---
 - #### Flashcards
@@ -312,6 +322,31 @@
 		- `[ -d /home/wences ] && echo directory exists`
 		- `[ -d /home/noone ] || echo directory does not exist`
 		- But the **||**, if it's false, acts as a true when there's a following **&&** (as a pure logical OR)
-		-
+	- How can you remove the last character in Bash? #dev-notes
+		- With **sed**, by:
+			- `$ sed 's/.$//'`
+-
+- ---
+- ### Lesson 9: Using Conditionals and Loops
+	- ![image.png](../assets/image_1658916677427_0.png)
+	- **case**
+-
+- ---
+- #### Flashcards
+	- With `read VAR`, you are already saving it in $VAR #dev-notes
+	- Syntax of case in Bash: #spaced
+		- ```
+		  case $VAR in
+		  yes|si)
+		      echo that is nice
+		      ;;
+		  no)
+		       echo dont
+		      ;;
+		  *)
+		      echo okay
+		       ;;
+		  esac
+		  ```
 		-
 -

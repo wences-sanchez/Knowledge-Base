@@ -440,5 +440,5 @@
 			- `"${myArray[@]}"`
 	- How can you build a range of numbers in the shell?
 		- With somethin like this`{1..10}`
-		- Remember the
+		- Remember the curly brackets!!
 - ---

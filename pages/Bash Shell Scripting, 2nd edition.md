@@ -378,4 +378,4 @@
 		      esac
 		  done
 		  ```
-	- How ca n
+	- How can you make a variable

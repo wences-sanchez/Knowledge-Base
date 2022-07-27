@@ -303,7 +303,8 @@
 -
 - ### Lesson 8: Using if and if then else #spaced
 	- **help test** lists all the arguments =)
-	- We can write
+	- We can write tests in another way:
+		- &&
 -
 - ---
 - #### Flashcards

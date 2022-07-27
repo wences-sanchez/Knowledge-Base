@@ -325,5 +325,6 @@
 	- How can you remove the last character in Bash? #dev-notes
 		- With **sed**, by:
 			- `$ sed 's/.$//'`
-		-
+-
+-
 -

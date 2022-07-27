@@ -442,4 +442,5 @@
 		- With somethin like this`{1..10}`
 		- Remember the curly brackets!!
 	- How do you iterate over an array in Bash?
+		-
 - ---

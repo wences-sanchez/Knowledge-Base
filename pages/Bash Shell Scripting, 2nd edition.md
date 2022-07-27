@@ -281,7 +281,7 @@
 	- **let** is used to assing arithmetic operations to a variable
 	- But **$(( some op ))** is the best option
 	- **bc** is the same than *mod*
-	-
+	- It's better
 -
 - ---
 - #### Flashcards

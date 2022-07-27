@@ -372,6 +372,9 @@
 		          strengt=$OPTARG
 		          echo $strength
 		          ;;
+		      *)
+		          default
+		          ;;
 		      esac
 		  done
 		  ```

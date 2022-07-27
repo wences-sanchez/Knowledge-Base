@@ -327,5 +327,5 @@
 			- `$ sed 's/.$//'`
 -
 - ---
-- ### Lesson 9:
+- ### Lesson 9: Using
 -

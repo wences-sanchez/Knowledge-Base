@@ -363,5 +363,5 @@
 - #### Flashcards
 	- What is the syntax of **getopts**? #flashcard
 		- ```
-		  
+		  while getopts "hs:
 		  ```

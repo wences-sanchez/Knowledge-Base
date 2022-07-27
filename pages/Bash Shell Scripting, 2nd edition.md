@@ -26,13 +26,13 @@
 				- **~/.bash_profile**
 				- **~/.bashrc**
 	- Bourne shell (**/bin/sh**) was the original shell
-- Bash is Bourn Again SHell, a remake of the original Bourne shell that was invented in the 70's
-	- The default shell on most Linux distros
-- About exit codes:
-	- If 0, the command was executed successfully
-	- If 1, there was a generic error
-	- The developer of a program can decide to code other exit codes as well
-		- This is done by **exit n**
+	- Bash is Bourn Again SHell, a remake of the original Bourne shell that was invented in the 70's
+		- The default shell on most Linux distros
+	- About exit codes:
+		- If 0, the command was executed successfully
+		- If 1, there was a generic error
+		- The developer of a program can decide to code other exit codes as well
+			- This is done by **exit n**
 - ---
 - #### Flashcards
 	- Explain what is alias #flashcard

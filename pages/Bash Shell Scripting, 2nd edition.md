@@ -322,6 +322,6 @@
 		- `[ -d /home/wences ] && echo directory exists`
 		- `[ -d /home/noone ] || echo directory does not exist`
 		- But the **||**, if it's false, acts as a true when there's a following **&&** (as a pure logical OR)
-	- How can you remove the
+	- How can you remove the last character in
 		-
 -

@@ -385,6 +385,7 @@
 - ---
 -
 - #### Lab
+  collapsed:: true
 	- ![image.png](../assets/image_1658921914012_0.png)
 -
 - ---

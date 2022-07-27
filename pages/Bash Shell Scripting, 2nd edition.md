@@ -357,7 +357,7 @@
 -
 - ### Lesson 10: Using Advanced Scripting Options
 	- **getopts** is a cool feature
-		- `while getopts `
+		- `while getopts "ab:" opts`
 - ---
 -
 -

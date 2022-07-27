@@ -4,6 +4,9 @@
 	- Otro subtitulo
 	-
 	- Y otro más
+	- Esta es una flashcard #flashcard
+		- No sé si funcionará :(
+	-
 - Este es un flashcard #flashcard
 	- Contenido 1
 	  Contenido 2

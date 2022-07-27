@@ -361,4 +361,5 @@
 		-
 - ---
 - #### Flashcards
-	- What is the syntax of getopts?
+	- What is the syntax of **getopts**? #flashcard
+		-

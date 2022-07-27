@@ -395,7 +395,8 @@
 		- You can assign actions that happen when those signals are executed or pressed
 - ---
 - ### Lesson 11: Using Arrays #spaced
-	- You can use **declare -A** to buid an asociative array in
+	- You can use **declare -A** to buid an asociative array in Bash
+	-
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard

@@ -391,6 +391,7 @@
 - ---
 - #### Flashcards
 	- What is the syntax of **getopts**? #flashcard
+	  collapsed:: true
 		- ```
 		  while getopts "hs:" arg; do
 		  case $arg in
@@ -410,6 +411,7 @@
 	- How can you restrict a variable to a function? #flashcard
 		- With **local** var=value
 	- How could you create a menu in Bash? #flashcard
+	  collapsed:: true
 		- ![image.png](../assets/image_1658921094274_0.png)
 	- What is the use of **trap**? #flashcard
 		- You can catch OS signals with it as CTL^C and prevent the scrpt to stop

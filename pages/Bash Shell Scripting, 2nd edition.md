@@ -1,4 +1,3 @@
--
 - #tags #O'Reilly-Learning #Bash #Videos
 - ## Module 1: Before Writing your First Shell Script
 -

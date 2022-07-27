@@ -227,7 +227,8 @@
 -
 - ---
 - #### Lab-6
-- ![image.png](../assets/image_1658849651994_0.png)
+  collapsed:: true
+	- ![image.png](../assets/image_1658849651994_0.png)
 -
 - ---
 - #### Flashcards

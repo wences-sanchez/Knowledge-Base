@@ -358,7 +358,8 @@
 - ### Lesson 10: Using Advanced Scripting Options
 	- **getopts** is a cool feature
 		- `while getopts "ab:" opts` evaluate options **a** and **b** and put them in a temporary variable **opts**
-		-
+	-
+	-
 - ---
 - #### Flashcards
 	- What is the syntax of **getopts**? #flashcard

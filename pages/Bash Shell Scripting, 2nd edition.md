@@ -338,10 +338,10 @@
 		- ```
 		  case $VAR in
 		  yes)
-		      echo that's nice
+		      echo that is nice
 		      ;;
 		  no)
-		       echo don't
+		       echo dont
 		      ;;
 		  *)
 		      okay

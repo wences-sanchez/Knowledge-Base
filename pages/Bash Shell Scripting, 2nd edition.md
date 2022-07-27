@@ -396,7 +396,8 @@
 - ---
 - ### Lesson 11: Using Arrays #spaced
 	- You can use **declare -A** to buid an asociative array in Bash
-	- **${!myArray[@]}**
+	- **${!myArray[@]}** imprime todos los valores
+	-
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard

@@ -462,7 +462,7 @@
 	-
 	- We can use `grep -v <command>` to remove the prompt  lines
 	-
-	- We use
+	- We use (for sending std)
 	-
 	-
 -

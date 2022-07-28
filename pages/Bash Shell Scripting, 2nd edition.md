@@ -449,8 +449,20 @@
 	- ![image.png](../assets/image_1658936962415_0.png)
 -
 	- **bash -x** is very useful because we don't have to change our code
+-
+- ---
+-
+- ---
+-
+- ### Lesson 13: Exploring Cool Scripts
+	- It's better to store the command information in one variable and create N variables for selectin its specific values
+	- Services inside systemd are a better way to create scripts that need reboot, for example
+	-
+	- An idea to keep the middle part of a variable is getting the last (or first) part and then, again, getting the first (or last) part of that result.
+	-
+	- We can use `grep -v <command>` to remove the prompt  lines
+	-
+	- We use (for sending *stdout* and *stderr*)
+	-
 	-
 -
-- ---
--
-- ---

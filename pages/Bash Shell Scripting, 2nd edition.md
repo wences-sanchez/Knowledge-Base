@@ -455,4 +455,4 @@
 - ---
 -
 - ### Lesson 13: Exploring Cool Scripts
-	- It's better to so
+	- It's better to store the command information in one lin

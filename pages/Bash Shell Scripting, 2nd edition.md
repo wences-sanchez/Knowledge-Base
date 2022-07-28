@@ -458,7 +458,7 @@
 	- It's better to store the command information in one variable and create N variables for selectin its specific values
 	- Services inside systemd are a better way to create scripts that need reboot, for example
 	-
-	- An idea to keep the middle part of a variable is getting the last (or first) part and then, again, getting the first part of that result.
+	- An idea to keep the middle part of a variable is getting the last (or first) part and then, again, getting the first (or last) part of that result.
 	-
 	-
 -

@@ -456,7 +456,9 @@
 -
 - ### Lesson 13: Exploring Cool Scripts
 	- It's better to store the command information in one variable and create N variables for selectin its specific values
-	- Services inside systemd are a better way to create scripts that
+	- Services inside systemd are a better way to create scripts that need reboot, for example
+	-
+	-
 	-
 	-
 -

@@ -159,12 +159,8 @@
 	- Why do we have to indicate the exact path when calling a script in Linux? #flashcard
 	  collapsed:: true
 		- The scripts cannot be executed from a relative path because of security concerns of Linux
-	- How do we know the exit code of the last command? #flashcard
-	  collapsed:: true
-		- The token $? returns the exit-code of the las command
 	- How can we check the exit code of the last command in Bash? #flaschard
 		- With the token **$?**
-	-
 	- What do you have to type in Google to search Bash stuff? #flashcard
 	  collapsed:: true
 		- *Bash Scripting Guide*

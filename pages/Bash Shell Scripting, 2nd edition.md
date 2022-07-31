@@ -392,6 +392,7 @@
 - #### Flashcards
 	- What is the syntax of **getopts**? #flashcard
 	  collapsed:: true
+		- The below one:
 		- ```
 		  while getopts "hs:" arg; do
 		  case $arg in

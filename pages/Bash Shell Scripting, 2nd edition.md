@@ -55,7 +55,8 @@
 -
 - ---
 -
-- ### Lesson 3: Shell scripts in a DevOps environment
+- ### Lesson 3: Shell scripts in a DevOps environment: #spaced
+-
 -
 	- The purpose of DevOps is to shorten the system development life cycle.
 	-

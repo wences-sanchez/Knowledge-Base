@@ -335,7 +335,8 @@
 	  collapsed:: true
 		- With **$ help test**
 	- How could you do to search about special meanings of every test character in Bash? #flaschard
-		- With $
+		- With $ help test
+	-
 	- How can you check the condition of a test in one token depending its output? #flashcard #dev-notes
 	  collapsed:: true
 		- `[ -d /home/wences ] && echo directory exists`

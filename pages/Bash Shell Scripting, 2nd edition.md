@@ -163,7 +163,7 @@
 	  collapsed:: true
 		- The token $? returns the exit-code of the las command
 	- How can we check the exit code of the last command in Bash? #flaschard
-		-
+		- With the token $?**
 	- What do you have to type in Google to search Bash stuff? #flashcard
 	  collapsed:: true
 		- *Bash Scripting Guide*

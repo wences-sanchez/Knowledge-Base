@@ -333,8 +333,9 @@
 	  collapsed:: true
 		- With $ help test
 	-
-	- How can you check the condition of a test in one token depending its output? #flashcard #dev-notes
+	- How can you check the condition of one test in one token depending its output? #flashcard #dev-notes
 	  collapsed:: true
+		-
 		- `[ -d /home/wences ] && echo directory exists`
 		- `[ -d /home/noone ] || echo directory does not exist`
 		- But the **||**, if it's false, acts as a true when there's a following **&&** (as a pure logical OR)

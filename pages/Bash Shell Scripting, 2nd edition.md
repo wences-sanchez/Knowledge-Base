@@ -163,7 +163,7 @@
 		- With the token **$?**
 	- What do you have to type in Google to search Bash stuff? #flashcard
 	  collapsed:: true
-		- *Bash Scripting Guide*
+		- Bash Scripting Guide
 	- How could you make a script to call it wherever? #flashcard
 	  collapsed:: true
 		- By:

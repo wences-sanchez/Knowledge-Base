@@ -162,7 +162,7 @@
 	- How do we know the exit code of the last command? #flashcard
 	  collapsed:: true
 		- The token $? returns the exit-code of the las command
-	- How can we check the exit
+	- How can we check the exit code of the last command in
 	- What do you have to type in Google to search Bash stuff? #flashcard
 	  collapsed:: true
 		- *Bash Scripting Guide*

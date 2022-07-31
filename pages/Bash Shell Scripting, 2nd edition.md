@@ -256,8 +256,7 @@
 		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*
-	- About variables in Bash #flashcard
-	  collapsed:: true
+	- About the variables in Bash #flashcard
 		- You can check your variables with **grep** in **$ set**
 		- You can refer to script arguments with a number:
 			- $1, $2, ... $9, ${10}, ${11}...

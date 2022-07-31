@@ -161,7 +161,7 @@
 		- The scripts cannot be executed from a relative path because of security concerns of Linux
 	- How can we check the exit code of the last command in Bash? #flaschard
 		- With the token **$?**
-	- What do you have to type in Google to search Bash stuff? #flashcard
+	- What do you have to type in internet or Google to search Bash stuff? #flashcard
 	  collapsed:: true
 		- Bash Scripting Guide
 	- How could you make a script to call it wherever? #flashcard

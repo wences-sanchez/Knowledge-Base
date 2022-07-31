@@ -300,7 +300,7 @@
 	- With **bash -x** you can view the script execution line by line so that you can debug it #spaced #dev-notes
 - ---
 - #### Flashcards
-- How do you deal with a default value for a variable in Bash? #flashcard
+- How do you deal with a default value for one variable in Bash? #flashcard
   collapsed:: true
 	- If we want to use the default, NOT set it,
 		- With ${myvar**:-**default_value}

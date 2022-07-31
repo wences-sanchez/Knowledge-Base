@@ -357,6 +357,7 @@
 	- With `read VAR`, you are already saving it in $VAR #spaced #dev-notes
 	- Syntax of case in Bash: #flashcard
 	  collapsed:: true
+		-
 		- ```
 		  case $VAR in
 		  yes|si)

@@ -236,10 +236,11 @@
 	  collapsed:: true
 		- An **argument** is anything that can be put behind the name of a command or script
 		- **ls -l /etc** has 2 arguments
-	- What's an option? #
+	- What's an option? #flashcard
 	  collapsed:: true
 		- An **option** is an argument that changes the behavior of the command or script, and its functionality is programmed into the command
 		- In **ls -l /etc**, **-l** is used as an option
+	-
 	- What is a posicional parameter? #flashcard
 	  collapsed:: true
 		- A **posicional parameter** is another word for an argument.

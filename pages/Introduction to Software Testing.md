@@ -10,4 +10,5 @@
 	- ### Lesson 2: Why and How we Test
 		- Types of tests:
 			- Unit tests: testing individual classes / functions
-			- Integration tests:
+			- Integration tests: testing packages / subsystems
+			-

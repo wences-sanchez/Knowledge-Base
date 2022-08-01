@@ -230,7 +230,7 @@
 
  ;; Mobile photo uploading setup
  ;; :mobile/photo
- ;; {:allow-editing? true}
+;; {:allow-editing? true}
 
  ;; Mobile features options
  ;; Gestures

@@ -57,7 +57,7 @@
   :block/updated-at 1658772277798}
  {:block/name "monday, 01-08-2022",
   :block/created-at 1659337536169,
-  :block/updated-at 1659337640687}
+  :block/updated-at 1659339209975}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1658839142679,
   :block/updated-at 1658839142679}
@@ -70,9 +70,6 @@
  {:block/name "o'reilly-learning",
   :block/created-at 1658825284488,
   :block/updated-at 1658825284488}
- {:block/name "prueba",
-  :block/created-at 1658911330099,
-  :block/updated-at 1658911330099}
  {:block/name "readme",
   :block/created-at 1658772234839,
   :block/updated-at 1658772234839}

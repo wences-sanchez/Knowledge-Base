@@ -13,4 +13,4 @@
 			- **Integration tests:** testing packages / subsystems
 			- **System tests:** testing the entire system
 		- Even with **TDD**, there is *re-test* when you modify your code.
-		- The function $$$${f(x)}
+		- The function f(x) of

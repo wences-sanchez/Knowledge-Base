@@ -39,6 +39,7 @@
 		- We have to automate testing output upon ***the oracle***.
 		-
 		- Anatomy of a Test:
-			- 1.
+			- 1. Setup:
+			  2. Invocatio
 			-
 		-

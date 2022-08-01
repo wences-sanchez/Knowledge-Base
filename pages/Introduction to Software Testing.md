@@ -32,5 +32,6 @@
 				- [X] Optimistic
 				  For the most part, testing is 'optimistic,' meaning that it will state that your program is correct when in fact it is incorrect for certain inputs.  Testing can be pessimistic, but only if the tests are incorrectly specified. If a tester incorrectly states the outcome of the test, then that test may incorrectly flag a program as misbehaving.
 	- ### Lesson 3: What is a Test?
-		- We have to provide inputs in order to tes
+		- We have to provide inputs in order to test.
+			- Val
 		-

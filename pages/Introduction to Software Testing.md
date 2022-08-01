@@ -3,4 +3,5 @@
 		- **Verification** VS **Validation**
 			- **Validation** is when we make sure that the actual product against the expected result from the user's perspective. It's a dynamic testing. It answers the question:
 				- > Are we building the product right?
-			- **Verification** is when we check that the software is free from bugs, technically speaking. Upon our internal requirements. It answers the question
+			- **Verification** is when we check that the software is free from bugs, technically speaking. Upon our internal requirements. It answers the question:
+				- > Are we building the right

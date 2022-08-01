@@ -16,7 +16,7 @@
 		- The function f(x) of a program is not continuous, so we can't derive its output (unlike other engineering fields) to test it. #Curiosities
 		- *Optimistic* VS *Pesimistic* **testing** #flaschard
 			- Optimistic means that the system gives you a lot of outputs. And the most of them are false positives.
-				- They say your program is right, when in fact it may be wrong in some cases.
+				- > They say your program is right, when in fact it may be wrong in some cases.
 			-
 		-
 		- #### Questions

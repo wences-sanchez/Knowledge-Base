@@ -16,7 +16,7 @@
 		- The function f(x) of a program is not continuous, so we can't derive its output (unlike other engineering fields) to test it. #Curiosities
 		-
 		- #### Questions
-			- Pregunta 3
+			- ##### Pregunta 3
 			  
 			  Is testing a (primarily) optimistic or pessimistic verification technique?
 			  

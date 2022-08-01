@@ -38,5 +38,5 @@
 			- By the called *Oracle*
 		- We have to automate testing output upon ***the oracle***.
 		-
-		-
+		- Anatomy of a
 		-

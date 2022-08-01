@@ -36,5 +36,5 @@
 			- Valious picked up data i.e. border cases
 		- How do we know if the output is right?
 			- By the called *Oracle*
-		- We have to automate testing output upon *the oracle*.
+		- We have to automate testing output upon ***the oracle***.
 		-

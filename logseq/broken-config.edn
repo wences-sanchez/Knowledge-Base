@@ -9,7 +9,7 @@
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,
  ;; or ":todo" for TODO/DOING style.
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; The app will ignore those directories or files.
  ;; E.g. "/archived" "/test.md"
@@ -32,7 +32,7 @@
 
  ;; Specify the date on which the week starts.
  ;; Goes from 0 to 6 (Monday to Sunday), default to 6
- :start-of-week 6
+ :start-of-week 0
 
  ;; Specify a custom CSS import
  ;; This option take precedence over your local `logseq/custom.css` file
@@ -214,6 +214,8 @@
 
  ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
+ :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 0}, :checkbox {:counts 0}, :parentheses {:counts 2}, :command {:counts 0}, :calendar {:counts 0}, :paint {:counts 0}, :list {:counts 0}, :link {:counts 0}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 3}, :tag {:counts 11}, :brackets {:counts 1}, :italic {:counts 0}, :a-b {:counts 1}, :rotate-clockwise {:counts 0}}
+ :journal/page-title-format "EEEE, dd-MM-yyyy"
 
  ;; Properties to exclude from having property pages
  ;; E.g. #{:duration :author}
@@ -228,7 +230,7 @@
 
  ;; Mobile photo uploading setup
  ;; :mobile/photo
- ;; {:allow-editing? true}
+;; {:allow-editing? true}
 
  ;; Mobile features options
  ;; Gestures
@@ -252,4 +254,6 @@
  ;; :quick-capture-templates
  ;; {:text "[[quick capture]] **{time}**: {text} from {url}"
  ;;  :media "[[quick capture]] **{time}**: {url}"}
+ 
+ {"spellcheck":{"dictionaries":["en","es"],"dictionary":""}}
  }

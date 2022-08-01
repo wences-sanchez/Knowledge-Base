@@ -35,5 +35,6 @@
 		- We have to provide inputs in order to test.
 			- Valious picked up data i.e. border cases
 		- How do we know if the output is right?
-			- By the called
+			- By the called *Oracle*
+			-
 		-

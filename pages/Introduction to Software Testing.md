@@ -42,6 +42,6 @@
 			- 1. Setup:
 			  2. Invocation:
 			  3. Assessment:
-			  4. 4
+			  4. Teardown:
 			-
 		-

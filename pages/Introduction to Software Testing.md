@@ -7,4 +7,4 @@
 				- > Are we building the product right?
 		- According to **Turing's halting problem**, it is theoretically not possible at all to check a perfect verification of one program by having another one checking it. #Curiosities
 		- ![image.png](../assets/image_1659351422358_0.png)
-		-
+	- ### Lesson 2: W

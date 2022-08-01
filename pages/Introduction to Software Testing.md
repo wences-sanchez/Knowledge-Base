@@ -41,7 +41,7 @@
 		- Anatomy of a Test:
 			- 1. Setup:
 			  2. Invocation: Merely the execution of a single test case.
-			  3. Assessment: The act of observing the behavior of 
+			  3. Assessment: The act of observing the behavior of that 
 			  4. Teardown:
 			-
 		-

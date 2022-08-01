@@ -15,7 +15,7 @@
 		- Even with **TDD**, there is *re-test* when you modify your code.
 		- The function f(x) of a program is not continuous, so we can't derive its output (unlike other engineering fields) to test it. #Curiosities
 		- *Optimistic* VS *Pessimistic* **testing** #flaschard
-			- Optimistic means that the system gives you a lot of outputs. An
+			- Optimistic means that the system gives you a lot of outputs. And you have to be careful because o
 				- > They say your program is right, when in fact it may be wrong in some cases.
 			- Pessimistic means that the system gives you a lot of false negatives that you (the human) have to discard.
 				- > They'll say your program is wrong when in fact your program may be right.

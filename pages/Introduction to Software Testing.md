@@ -1,5 +1,5 @@
 - ## Week 1
 	- ### Lesson 1: Introduction to Testing
 		- **Verification** VS **Validation**
-			- **Validation** is when we make sure that we
+			- **Validation** is when we check
 			- **Verification** is when we make sure that the software is going to meet the user's needs.

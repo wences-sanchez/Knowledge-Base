@@ -12,4 +12,4 @@
 			- **Unit tests:** testing individual classes / functions
 			- **Integration tests:** testing packages / subsystems
 			- **System tests:** testing the entire system
-		- Even
+		- Even with TDD, there is re-tes

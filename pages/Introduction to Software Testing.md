@@ -1,5 +1,6 @@
 - ## Week 1
 	- ### Lesson 1: Introduction to Testing
 		- **Verification** VS **Validation**
-			- **Validation** is when we check the actual product against the expected result from the user's perspective. It's a dynamic testing. It answer the question
+			- **Validation** is when we check the actual product against the expected result from the user's perspective. It's a dynamic testing. It answer the question:
+				- Are we building the
 			- **Verification** is when we make sure that the software is going to meet the user's needs.

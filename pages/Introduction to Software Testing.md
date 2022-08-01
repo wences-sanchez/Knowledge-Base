@@ -40,6 +40,8 @@
 		-
 		- Anatomy of a Test:
 			- 1. Setup:
-			  2. Invocatio
+			  2. Invocation:
+			  3. Assessment:
+			  4. 4
 			-
 		-

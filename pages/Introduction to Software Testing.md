@@ -1,4 +1,4 @@
-- #tags #Coursera
+- #tags #Coursera #QA
 - ## Week 1
 	- ### Lesson 1: Introduction to Testing
 		- **Verification** VS **Validation** #spaced

@@ -5,4 +5,4 @@
 				- > Are we building the right product?
 			- **Verification** is when we check that the software is free from bugs, technically speaking. Upon our internal requirements. It answers the question:
 				- > Are we building the product right?
-		- According to Turing's halting problem, it is not po
+		- According to Turing's halting problem, it is not possible at all

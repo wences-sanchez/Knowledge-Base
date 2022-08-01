@@ -40,7 +40,7 @@
 		-
 		- Anatomy of a Test:
 			- 1. Setup:
-			  2. Invocation:
+			  2. Invocation: Merely the execution 
 			  3. Assessment:
 			  4. Teardown:
 			-

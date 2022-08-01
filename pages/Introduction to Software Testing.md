@@ -19,7 +19,8 @@
 			- ##### Pregunta 3
 			- Is testing a (primarily) optimistic or pessimistic verification technique?
 			  
-			  Optimistic
+			  - [] Optimistic
+			  - 
 			  
 			  Pessimistic
 			  

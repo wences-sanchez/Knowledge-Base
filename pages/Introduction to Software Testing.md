@@ -1,5 +1,4 @@
 - ## Week 1
 	- ### Lesson 1: Introduction to Testing
 		- **Verification** VS **Validation**
-			- **Verification** is whito
-			- I am regularly.
+			- **Verification** is wh

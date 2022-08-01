@@ -17,7 +17,7 @@
 		- *Optimistic* VS *Pessimistic* **testing** #flaschard
 			- Optimistic means that the system gives you a lot of outputs. And most of them are false positives.
 				- > They say your program is right, when in fact it may be wrong in some cases.
-			- Pessimistic
+			- Pessimistic means that the system gir
 		-
 		- #### Questions
 			- ##### Pregunta 3

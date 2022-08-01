@@ -17,16 +17,16 @@
 		-
 		- #### Questions
 			- ##### Pregunta 3
-		- Is testing a (primarily) optimistic or pessimistic verification technique?
-		  
-		  **0 / 1 punto**
-		  
-		  Optimistic
-		  
-		  Pessimistic
-		  
-		  Incorrecto
-		  
-		  No.  For the most part, testing is 'optimistic,' meaning that it will state that your program is correct when in fact it is incorrect for certain inputs.  Testing can be pessimistic, but only if the tests are incorrectly specified. If a tester incorrectly states the outcome of the test, then that test may incorrectly flag a program as misbehaving.
+			- Is testing a (primarily) optimistic or pessimistic verification technique?
+			  
+			  **0 / 1 punto**
+			  
+			  Optimistic
+			  
+			  Pessimistic
+			  
+			  Incorrecto
+			  
+			  No.  For the most part, testing is 'optimistic,' meaning that it will state that your program is correct when in fact it is incorrect for certain inputs.  Testing can be pessimistic, but only if the tests are incorrectly specified. If a tester incorrectly states the outcome of the test, then that test may incorrectly flag a program as misbehaving.
 		-
 		-

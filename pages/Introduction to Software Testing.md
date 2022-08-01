@@ -42,6 +42,6 @@
 			- 1. Setup: How you put the software under test into the state under which the test input would make sense.
 			  2. Invocation: Merely the execution of a single test case.
 			  3. Assessment: The act of observing the behavior of that software under test.
-			  4. Teardown:
+			  4. Teardown: The opposi
 			-
 		-

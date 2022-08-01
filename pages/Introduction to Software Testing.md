@@ -13,5 +13,6 @@
 			- **Integration tests:** testing packages / subsystems
 			- **System tests:** testing the entire system
 		- Even with **TDD**, there is *re-test* when you modify your code.
-		- The function f(x) of a program is not continuous, so we can't derive its output (unlike other engineering fields) to test it. #C
+		- The function f(x) of a program is not continuous, so we can't derive its output (unlike other engineering fields) to test it.
+		-
 		-

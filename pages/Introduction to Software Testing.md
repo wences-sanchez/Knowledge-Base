@@ -175,8 +175,7 @@
 				- **Scope:** means you know your domain.
 					- There's no way to properly definen your testws without knowing the bounds and the domain within your project works.
 				- **Schedule**: should include actual and current schedule
-				- Resources: People, materials, consumables, equipment, servers, ==
-				- ==time, testing tools, all of that's important.==
+				- Resources: People, materials, consumables, equipment, servers, time, testing tools, all of that's important.
 				- Who is the domain expert?
 				- Who's the technological whiz?
 				- Who's the testing guru?

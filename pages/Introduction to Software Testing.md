@@ -214,7 +214,7 @@
 				- Next, functional testing
 			- System Validation Test
 				- Once the feature is complete, we test
-				- We ensure
+				- We ensure the modules will work together properly
 			- Customer Acceptance Test / CAT Plan
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?

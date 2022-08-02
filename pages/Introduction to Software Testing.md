@@ -199,7 +199,7 @@
 				- ==Engineers are smart people. You're a **smart** person. We'll test something that we know needs to happen even if it isn't explicit in those requirements.==
 				- ==This is an opportunity to go to the managers and designers and expose a potential problem in the project. The requirements are missing something==
 				- Improves communication between developers and management
-				- Measuring software quality is the inten
+				- Measuring software quality is the intent (and must be planned)
 				- Creating a plan and sticking to it makes it easier
 				- Ensure that everyhing is completed
 				- Know when to stop

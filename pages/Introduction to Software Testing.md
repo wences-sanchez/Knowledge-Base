@@ -238,8 +238,8 @@
 	- ## Lesson 2: Software Defect Reports
 		- #### Software Defect Reports
 			- What is the defect Lifecycle? #flaschard
-				- 1. Analyze
-				  2. Report
+				- 1. Analyze: Analyze bug to ensure proper reporting
+				  2. Report: Make 
 				  3. Track
 				  4. Retest
 				  5. Close

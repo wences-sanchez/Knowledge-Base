@@ -4,9 +4,6 @@
  {:block/name "a",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
- {:block/name "aug 2nd, 2022",
-  :block/created-at 1659445154335,
-  :block/updated-at 1659445168637}
  {:block/name "b",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -60,7 +57,7 @@
   :block/updated-at 1658772277799}
  {:block/name "introduction to software testing",
   :block/created-at 1659337626251,
-  :block/updated-at 1659362957011}
+  :block/updated-at 1659457043985}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -100,12 +97,12 @@
  {:block/name "test",
   :block/created-at 1658773372838,
   :block/updated-at 1658775369612}
- {:block/name "thursday, 28-07-2022",
-  :block/created-at 1658999466203,
-  :block/updated-at 1658999466203}
  {:block/name "todo",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+ {:block/name "tuesday, 02-08-2022",
+  :block/created-at 1659423572393,
+  :block/updated-at 1659457176576}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1658839142633,
   :block/updated-at 1659034356945}
@@ -118,6 +115,9 @@
  {:block/name "waiting",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name "wednesday, 03-08-2022",
+  :block/created-at 1659457079263,
+  :block/updated-at 1659457079263}
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1658904407313, 
   :block/updated-at 1659034399816}]

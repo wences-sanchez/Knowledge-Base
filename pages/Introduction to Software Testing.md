@@ -237,7 +237,7 @@
 	- ---
 	- ## Lesson 2: Software Defect Reports
 		- #### Software Defect Reports
-			-
+			- Defect L
 -
 -
 -

@@ -183,7 +183,7 @@
 					- Hopefully, these come right out of our process so there is never anything new here.
 					- It just puts it in front of management and development one more time.
 					- We are not the starting testing unless, or if we find five defects, we stop.
-					- That is, if we find too many defects, we hand it back to development for further unit testing before we really start our own work.
+					- That is, if we find too many defects, we hand it **back to development** for further unit testing before we really start our own work.
 -
 -
 -

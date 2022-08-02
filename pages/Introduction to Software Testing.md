@@ -218,6 +218,7 @@
 			- Customer Acceptance Test / CAT Plan
 		- #### Test (Status) Reports
 			- You have to communicate, you are not isolated.
+			- You have to compare the
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  

@@ -60,11 +60,11 @@
 				- **Latent errors**, which become:
 				- **Effective errors** if the system reaches a state where the error can manifest, which may cause:
 				- **Failures** if the error causes a visible deviation from service from the user's perspective (*e.g. the program crashes*)
-		- Achieving a dependable system involves utilizing four kinds of methods:
-			- **Fault avoidance:** preventing by construction (*e.g. Java features*)
-			- **Fault tolerance:** by redundancy.
-			- **Error removal:** minimizing, by *verification*, the presence of latent errors. (This is where **testing** stands).
-			- **Error forecasting:** estimating, by *evaluation*, the presence, the creation, and the consequences of errors.
+			- Achieving a dependable system involves utilizing four kinds of methods:
+				- **Fault avoidance:** preventing by construction (*e.g. Java features*)
+				- **Fault tolerance:** by redundancy.
+				- **Error removal:** minimizing, by *verification*, the presence of latent errors. (This is where **testing** stands).
+				- **Error forecasting:** estimating, by *evaluation*, the presence, the creation, and the consequences of errors.
 		- Schema: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472}
 			- **Dependability**:
 				- **Impairments** (*things we're trying to avoid*):

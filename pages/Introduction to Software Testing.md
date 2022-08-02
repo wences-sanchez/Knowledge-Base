@@ -197,7 +197,6 @@
 				- Help in writing test cases
 					- List all the tests you can thinck of (this is very valuable). Always as a traceability matrix.
 				- and that does happen.
-				- Engineers are smart people. You're a smart person.
 				- We'll test something that we know needs to
 				- happen even if it isn't explicit in those requirements.
 				- This is an opportunity to go to the managers and

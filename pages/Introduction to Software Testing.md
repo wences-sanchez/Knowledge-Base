@@ -190,7 +190,8 @@
 				- That is, if we find too many defects, we hand it **back to development** for further unit testing before we really start our own work.
 		- #### Importance of a Good Test Plan
 			- We use the Test Plan as a tool, not as a product.
-			- We have to be specific abou
+			- We have to be specific about what and who.
+			-
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  

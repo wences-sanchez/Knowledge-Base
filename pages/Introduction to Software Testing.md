@@ -98,8 +98,7 @@
 				  
 				  Correct: availability says the system is running, reliability says that it is doing the right thing.
 			- Pregunta 4
-			- A correct system (with respect to its requirements) will be safe.
-			- **1 / 1 punto**
+			  A correct system (with respect to its requirements) will be safe.
 			- True
 			- False
 			- Correcto

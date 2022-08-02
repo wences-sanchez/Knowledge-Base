@@ -188,7 +188,15 @@
 				- It just puts it in front of management and development one more time.
 				- We are not the starting testing unless, or if we find *five* **defects**, we stop.
 				- That is, if we find too many defects, we hand it **back to development** for further unit testing before we really start our own work.
-		- ####
+		- #### Quiz
+			- Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
+			- **0 / 1 punto**
+			- System Validation Test
+			- Customer Acceptance Test
+			- Unit Test
+			- Unit Testing Plan
+			- Incorrecto
+			- System validation test is the process of checking if a system meets its specifications.
 -
 -
 -

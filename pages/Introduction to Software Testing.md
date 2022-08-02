@@ -266,7 +266,7 @@
 			  :END:
 			- 2. Description content:
 				- You have to describe the problem, what you did, what happened as the result. Be expresive.
-				- Avoid vague or confusing terms (*frequently, sometimes,...*)
+				- Avoid vague or confusing terms (*frequently, sometimes, ...*)
 				-
 			-
 			-

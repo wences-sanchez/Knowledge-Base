@@ -48,5 +48,5 @@
 	- ### Lesson 1: Testing Principles
 		- **Dependability** is what you would expect.
 			- We're interested in determining whether or not the software is dependable, that is whether it delivers a service such that we can rely on it.
-		-
+		- **Service** is
 	-

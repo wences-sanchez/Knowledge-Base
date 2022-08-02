@@ -109,6 +109,7 @@
 			- The *flakey* tests are flakey often because the program is *flakey*. But it *could* also be a **bad test** or environment.
 			-
 		- Quizzes
+		  collapsed:: true
 			- Pregunta 3
 			  
 			  *Is availability is the same as reliability?*
@@ -127,7 +128,7 @@
 				- Correcto: *False*
 				  
 				  > Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
-			- Pregunta 5 
+			- Pregunta 5 #flaschard 
 			  
 			  *A correct system will be reliable.*
 			  

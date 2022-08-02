@@ -45,5 +45,6 @@
 			  4. **Teardown**: The opposite of the setup. Cleaning any resources.
 - ---
 - ## Week 2
-	- ### Lesson 1: Testing
+	- ### Lesson 1: Testing Principles
+		-
 	-

@@ -104,6 +104,7 @@
 			- The **testing techniques** can tell your where to find more efficiently bugs, but they won't be as useful when comparing whether the system meets the **requirements**.
 			-
 		- Quizzes
+		  collapsed:: true
 			- Pregunta 3
 			  
 			  *Is availability is the same as reliability?*

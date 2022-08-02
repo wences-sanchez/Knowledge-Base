@@ -265,7 +265,7 @@
 			  CLOCK: [2022-08-02 Tue 17:27:43]--[2022-08-02 Tue 17:27:44] =>  00:00:01
 			  :END:
 			- 2. Description content:
-				- Description: What you did to reach to the problem.
+				- You have to describe the What you did to reach to the problem.
 			-
 			-
 -

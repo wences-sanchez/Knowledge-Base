@@ -195,7 +195,7 @@
 				- Organize, schedule and manage testing effort
 					- Be specific about who des what and when.
 				- Help in writing test cases
-					- List all the tests you can thinck of (this is very valuable). Always  as a matrix.
+					- List all the tests you can thinck of (this is very valuable). Always as a trmatrix.
 				- Improves communication between developers and management
 				- Measuring software qual
 			-

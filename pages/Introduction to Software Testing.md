@@ -271,7 +271,8 @@
 		- #### Software Defect Reports: Track, Retest and Close
 			- Track
 				- Having a board is very useful
-			-
+			- Retest
+				-
 			-
 -
 -

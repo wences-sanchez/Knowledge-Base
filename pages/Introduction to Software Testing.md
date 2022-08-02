@@ -258,7 +258,7 @@
 			  3. Enter it into the system
 			  4. Make sure it gets fixed
 			-
-			- Communicate with the developer, but make you
+			- Communicate with the developer, but make your own decisions
 			-
 -
 -

@@ -69,7 +69,8 @@
 				- Impairments (*things we're trying to avoid*):
 					- Faults: the mistakes and other things to avoid.
 					- Errors: all programmers make mistakes.
-					- Failures: eventually those mistakes introduce errors into the code. We want those not lead ti.
+					- Failures: eventually those mistakes introduce errors into the code. We want those not lead into failures.
+				- Mean
 		-
 -
 -

@@ -92,7 +92,7 @@
 			  
 			  *Is availability is the same as reliability?*
 			  
-			  - [ ] True
+			  [ ] True
 			  [ ] False
 				- Correcto: False
 				  

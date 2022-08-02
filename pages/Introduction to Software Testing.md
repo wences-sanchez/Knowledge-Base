@@ -249,7 +249,7 @@
 			- What is the Analysis of a software defect?
 				- Find the root-cause
 				- Determine if it is reproducible or repeatable
-				- A
+				- Attempt to isolate the defect
 			-
 -
 -

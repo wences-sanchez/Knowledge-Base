@@ -83,7 +83,7 @@
 					- Other measure metrics:
 						- **Safety**: absence of catastrophic consequences
 						- **Integrity**: absences of improper system alteration (*exploitability*)
-						- **Maintainabilitiy**
+						- **Maintainability**:
 		-
 		-
 -

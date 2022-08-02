@@ -85,7 +85,7 @@
 						- **Integrity**: absences of improper system alteration (*exploitability*)
 						- **Maintainability**: ability for a process to undergo modifications and repairs
 			- Formulas: ![image.png](../assets/image_1659426971116_0.png)
-			-
+			- Bu
 		-
 		-
 -

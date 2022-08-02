@@ -64,3 +64,10 @@
 			- **Fault tolerance:** by redundancy.
 			- **Error removal:** minimizing, by *verification*, the presence of latent errors. (This is where **testing** stands).
 			- **Error forecasting:** estimating, by *evaluation*, the presence, the creation, and the consequences of errors.
+-
+-
+-
+-
+-
+-
+-

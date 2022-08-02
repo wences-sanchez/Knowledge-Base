@@ -174,7 +174,8 @@
 			- ![image.png](../assets/image_1659438258912_0.png)
 				- **Scope:** means you know your domain.
 					- There's no way to properly definen your testws without knowing the bounds and the domain within your project works.
-				- Schedule: Include actual and current schedule
+				- **Schedule**: should include actual and current schedule
+				-
 -
 -
 -

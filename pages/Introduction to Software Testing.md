@@ -205,21 +205,19 @@
 				- Creating a plan and sticking to it makes it easier
 				- Ensure that everyhing is completed
 				- Know when to stop
-				-
-				-
-			- It's hard to say *no, it's not for production*. But Agile makes that easier (unlike a waterfall process).
+		- It's hard to say *no, it's not for production*. But Agile makes that easier (unlike a waterfall process).
 			-
-		- #### Quiz
-			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
-			  
-			  [] System Validation Test
-			  [] Customer Acceptance Test
-			  [] Unit Test
-			  [] Unit Testing Plan
-				- Incorrecto: ~~System Validation Test~~
-					- System validation test is the process of checking if a system meets its specifications.
-				- Correcto: *Customer Acceptance Test*
-					- Customer testing is done between the developer and the customer. It ensures the final product is acceptable to the customer.
+			- #### Quiz
+				- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
+				  
+				  [] System Validation Test
+				  [] Customer Acceptance Test
+				  [] Unit Test
+				  [] Unit Testing Plan
+					- Incorrecto: ~~System Validation Test~~
+						- System validation test is the process of checking if a system meets its specifications.
+					- Correcto: *Customer Acceptance Test*
+						- Customer testing is done between the developer and the customer. It ensures the final product is acceptable to the customer.
 -
 -
 -

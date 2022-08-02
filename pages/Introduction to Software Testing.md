@@ -237,12 +237,12 @@
 	- ---
 	- ## Lesson 2: Software Defect Reports
 		- #### Software Defect Reports
-			- Defect Lifecycle:
+			- WhaDefect Lifecycle:
 				- 1. Analyze
 				  2. Report
 				  3. Track
 				  4. Retest
-				  5.
+				  5. Close
 -
 -
 -

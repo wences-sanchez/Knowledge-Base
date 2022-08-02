@@ -274,7 +274,7 @@
 			- Retest
 				- I can have 3 outcomes:
 					- 1. Problem has indeed been fixed
-					  2.
+					  2. Problem rem
 			-
 -
 -

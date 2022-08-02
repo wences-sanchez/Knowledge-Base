@@ -52,4 +52,5 @@
 		- A **failure** occurs when the delivered service deviates from the service specification.
 		- An **error** is that part of the system that can lead to a failure.
 			- Errors can be **latent** or **effective** *(active)*.
-		- A **fault** is the root cause of the error
+		- A **fault** is the root cause of the error.
+			- It can be human caused

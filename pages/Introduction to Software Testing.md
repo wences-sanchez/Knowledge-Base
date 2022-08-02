@@ -140,7 +140,8 @@
 				- For example, a car with a big boat tied by ropes in a very weird way.
 	- ### Lesson 3: Introduction to Systematic Testing
 		- #### Structural Testing
-			-
+			- Code Coverage
+				-
 -
 -
 -

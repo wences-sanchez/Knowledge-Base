@@ -182,10 +182,8 @@
 				- **Entry and Exit criteria**: When will we stop testing.
 					- Hopefully, these come right out of our process so there is never anything new here.
 					- It just puts it in front of management and development one more time.
-				- Reproduce el video desde :2:56 y sigue la transcripción2:5
-				- We are not the starting testing unless, or if we find five defects, we stop.
-				- That is, if we find too many defects, we hand it back to development for
-				- further unit testing before we really start our own work.
+					- We are not the starting testing unless, or if we find five defects, we stop.
+					- That is, if we find too many defects, we hand it back to development for further unit testing before we really start our own work.
 -
 -
 -

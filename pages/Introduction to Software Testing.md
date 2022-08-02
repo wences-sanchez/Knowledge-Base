@@ -106,7 +106,13 @@
 				- Correcto: False
 				  
 				  > Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
-		-
+			- Pregunta 5
+			- A correct system will be reliable.
+			- **1 / 1 punto**
+			- True
+			- False
+			- Correcto
+			- Reliability is defined in terms of meeting requirements; by definition, a correct system is reliable.
 		-
 -
 -

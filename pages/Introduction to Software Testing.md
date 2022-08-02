@@ -176,18 +176,18 @@
 			-
 		- Mention the components of a Test Plan: #flaschard
 			- ![image.png](../assets/image_1659438258912_0.png)
-				- **Scope:** means you know your domain.
-					- There's no way to properly definen your testws without knowing the bounds and the domain within your project works.
-				- **Schedule**: should include actual and current schedule
-				- **Resources**: People, materials, consumables, equipment, servers, time, testing tools, all of that's important.
-					- Who is the domain expert?
-					- Who's the technological whiz?
-					- Who's the testing guru?
-				- **Entry and Exit criteria**: When will we stop testing.
-					- Hopefully, these come right out of our process so there is never anything new here.
-					- It just puts it in front of management and development one more time.
-					- We are not the starting testing unless, or if we find *five* **defects**, we stop.
-					- That is, if we find too many defects, we hand it **back to development** for further unit testing before we really start our own work.
+			- **Scope:** means you know your domain.
+				- There's no way to properly definen your testws without knowing the bounds and the domain within your project works.
+			- **Schedule**: should include actual and current schedule
+			- **Resources**: People, materials, consumables, equipment, servers, time, testing tools, all of that's important.
+				- Who is the domain expert?
+				- Who's the technological whiz?
+				- Who's the testing guru?
+			- **Entry and Exit criteria**: When will we stop testing.
+				- Hopefully, these come right out of our process so there is never anything new here.
+				- It just puts it in front of management and development one more time.
+				- We are not the starting testing unless, or if we find *five* **defects**, we stop.
+				- That is, if we find too many defects, we hand it **back to development** for further unit testing before we really start our own work.
 -
 -
 -

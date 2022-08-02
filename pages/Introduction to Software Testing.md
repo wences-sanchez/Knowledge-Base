@@ -101,7 +101,7 @@
 				- ...
 			- ![image.png](../assets/image_1659429528495_0.png)
 		- #### Testing Principles: How
-			- The testing
+			- The testing techniques can tell
 		- Quizzes
 			- Pregunta 3
 			  

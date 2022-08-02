@@ -144,7 +144,7 @@
 		- #### Mutation Testing
 			- When do we say that a mutant is *killed* in Mutation testing? #flaschard
 				- A mutant is *killed* when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program.
-				- If all our test
+				- If all our tests pass, then we have a probble
 			- ![image.png](../assets/image_1659433909397_0.png)
 			- ![image.png](../assets/image_1659433953975_0.png)
 			-

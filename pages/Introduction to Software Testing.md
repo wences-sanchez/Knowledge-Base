@@ -92,6 +92,8 @@
 		- #### Testing Principles: Where
 			- Programmers tend to make mistakes in some frequent places or ways:
 				- Floating points
+				- Pointers
+				- Parallelism
 				-
 		- Quizzes
 			- Pregunta 3

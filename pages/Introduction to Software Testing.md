@@ -80,6 +80,7 @@
 				- Measures: two different *metrics*
 					- Reliability: continuity of correct service
 					- Availability: the readiness of the software to respond user requests.
+			-
 		-
 -
 -

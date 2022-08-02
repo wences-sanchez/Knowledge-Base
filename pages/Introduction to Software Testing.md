@@ -109,7 +109,6 @@
 			- The *flakey* tests are flakey often because the program is *flakey*. But it *could* also be a **bad test** or environment.
 			-
 		- Quizzes
-		  collapsed:: true
 			- Pregunta 3
 			  
 			  *Is availability is the same as reliability?*

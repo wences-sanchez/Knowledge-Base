@@ -179,7 +179,7 @@
 					- Who is the domain expert?
 					- Who's the technological whiz?
 					- Who's the testing guru?
-				- Entry and Exit criteria:
+				- **Entry and Exit criteria**:
 -
 -
 -

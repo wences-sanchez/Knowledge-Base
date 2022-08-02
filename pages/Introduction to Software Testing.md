@@ -219,7 +219,7 @@
 		- #### Test (Status) Reports
 			- You have to communicate, you are not isolated.
 			- You have to compare the existing schedule versus the actual schedule that's being done.
-			- And list
+			- And list what defects are still open
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  

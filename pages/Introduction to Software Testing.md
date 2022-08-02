@@ -245,7 +245,7 @@
 				  5. **Close**: Close bug when problem is fixed
 		- #### Software Defect Reports: Analysis
 			- Ideally by a tester or developer, not the user.
-			- Even reported, we don't know if
+			- Even reported, we don't know most of the times the exa
 			-
 -
 -

@@ -75,6 +75,7 @@
 						- Error removal: we run tests against the software and we're going to remove some of those errors from the code.
 						- Error forecasting: based on the above, we might do error forecasting that says: *"well, our big test suite is reliable"*
 					- Procurement: we can look at certain techniques that will prevent falls from being introduced in the first place
+						-
 		-
 -
 -

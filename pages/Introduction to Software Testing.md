@@ -143,7 +143,8 @@
 			- A product could meet the validation but also be very bad. (**That's not the goal XD**)
 				- For example, a car with a big boat tied by ropes in a very weird way.
 	- ### Lesson 3: Introduction to Systematic Testing
-		- About *Lesson 3: Introduction ot*
+		- About *Lesson 3: Introduction to Systematic Testing* #spaced
+		-
 		- #### Structural Testing
 			- Code Coverage
 		- #### Mutation Testing

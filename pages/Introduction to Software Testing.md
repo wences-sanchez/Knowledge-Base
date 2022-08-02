@@ -197,6 +197,8 @@
 			  [] Unit Testing Plan
 				- Incorrecto: ~~System Validation Test~~
 				- System validation test is the process of checking if a system meets its specifications.
+				- Correcto
+				- Customer testing is done between the developer and the customer. It ensures the final product is acceptable to the customer.:
 -
 -
 -

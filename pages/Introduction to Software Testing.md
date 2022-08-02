@@ -201,10 +201,11 @@
 				- Improves communication between developers and management
 				- Measuring software quality is the intent (and must be planned)
 				- Developing good test sets takes planning
-				- More effective arguments when you ah
+				- More effective arguments when you have the facts
 				- Creating a plan and sticking to it makes it easier
 				- Ensure that everyhing is completed
 				- Know when to stop
+				-
 				-
 			- It's hard to say *no, it's not for production*. But Agile makes that easier (unlike a waterfall process).
 			-

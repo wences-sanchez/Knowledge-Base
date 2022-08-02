@@ -175,7 +175,7 @@
 				- **Scope:** means you know your domain.
 					- There's no way to properly definen your testws without knowing the bounds and the domain within your project works.
 				- **Schedule**: should include actual and current schedule
-				-
+					-
 -
 -
 -

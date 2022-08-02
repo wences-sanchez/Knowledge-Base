@@ -54,4 +54,5 @@
 			- Errors can be **latent** or **effective** *(active)*.
 		- A **fault** is the root cause of the error.
 			- It can be human caused (a *programmer's mistake*) or physical (a *short-circuit*)
-		-
+		- So we have:
+			-

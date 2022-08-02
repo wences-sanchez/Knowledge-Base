@@ -67,7 +67,7 @@
 		- Schema: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472}
 			- Dependability:
 				- Impairments (*things we're trying to avoid*):
-					- Faults:
+					- Faults: The mistakes
 		-
 -
 -

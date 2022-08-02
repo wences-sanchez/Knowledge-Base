@@ -204,7 +204,7 @@
 				- Ensure that everyhing is completed
 				- Know when to stop
 				-
-			- It's hard to say *no, it's not for production. But Agile makes that easier (unlike a )
+			- It's hard to say *no, it's not for production. But Agile makes that easier (unlike a waterfall )
 			-
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?

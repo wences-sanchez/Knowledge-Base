@@ -94,7 +94,8 @@
 				- Floating points
 				- Pointers
 				- Parallelism
-				-
+				- ...
+			-
 		- Quizzes
 			- Pregunta 3
 			  

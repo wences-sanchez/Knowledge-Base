@@ -256,7 +256,8 @@
 			- 1. Ensure it is not a duplicate
 			  2. Talk with the developer
 			  3. Enter it into the system
-			- Make sure it gets fixed
+			  4. Make sure it gets fixed
+			-
 			-
 -
 -

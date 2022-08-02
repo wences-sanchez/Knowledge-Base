@@ -168,8 +168,7 @@
 	- ### Lesson 1: Fundamental Testing Processes
 		- #### What is a test plan?
 			- ![image.png](../assets/image_1659437816019_0.png)
-			- This plan is created by testers. To check if we build the thing right.
-			-
+			- This plan is created by testers. To check if we build the thing righ
 -
 -
 -

@@ -61,4 +61,4 @@
 			- **Failures** if the error causes a visible deviation from service from the user's perspective (*e.g. the program crashes*)
 		- Achieving a dependable system involves utilizing four kinds of methods:
 			- **Fault avoidance:** preventing by construction (*e.g. Java features*)
-			-
+			- **Fault tolerance:**

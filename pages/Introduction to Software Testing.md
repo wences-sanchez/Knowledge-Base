@@ -165,7 +165,8 @@
 			-
 - ---
 - ## Week 3
-	- ### Lesson 1
+	- ### Lesson 1: Fundamental Testing Processes
+		-
 -
 -
 -

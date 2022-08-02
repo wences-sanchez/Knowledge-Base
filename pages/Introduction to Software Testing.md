@@ -192,6 +192,7 @@
 			- We use the Test Plan as a tool, not as a product.
 			- We have to be specific about what and who.
 			- A test plan is useful to:
+				- Organize, schedule
 				- Measuring software qual
 			-
 		- #### Quiz

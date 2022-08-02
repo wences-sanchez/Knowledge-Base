@@ -53,4 +53,4 @@
 		- An **error** is that part of the system that can lead to a failure.
 			- Errors can be **latent** or **effective** *(active)*.
 		- A **fault** is the root cause of the error.
-			- It can be human caused (a *programmer's mistake*) or physical
+			- It can be human caused (a *programmer's mistake*) or physical (a **)

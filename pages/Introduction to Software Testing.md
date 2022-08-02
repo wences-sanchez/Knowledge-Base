@@ -212,7 +212,7 @@
 			- Design **Verification** Test
 				- First, **integration** tests
 				- Next, **functional** testing
-				- We ensure that the modules will properly work together.
+				- We ensure that the **modules** will properly work together.
 			- System Validation Test
 				- Once the feature is complete, we test
 			- Customer Acceptance Test / CAT Plan

@@ -210,8 +210,8 @@
 			- Unit Test / Unit Test Plan
 				- White-box testing at its core
 			- Design Verification Test
-				- First, integration tests
-				- Next, functional testing
+				- First, **integration** tests
+				- Next, **functional** testing
 			- System Validation Test
 				- Once the feature is complete, we test
 				- We ensure that the modules will properly work together.

@@ -45,5 +45,5 @@
 			  4. **Teardown**: The opposite of the setup. Cleaning any resources.
 - ---
 - ## Week 2
-	-
+	- ###
 	-

@@ -200,6 +200,7 @@
 				- ==This is an opportunity to go to the managers and designers and expose a potential problem in the project. The requirements are missing something==
 				- Improves communication between developers and management
 				- Measuring software qual
+			- It's hard
 			-
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?

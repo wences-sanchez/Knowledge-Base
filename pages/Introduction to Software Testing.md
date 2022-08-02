@@ -269,7 +269,8 @@
 				- Avoid vague or confusing terms (*frequently, sometimes, ...*)
 			- ...
 		- #### Software Defect Reports: Track, Retest and Close
-			-
+			- Track
+				-
 			-
 -
 -

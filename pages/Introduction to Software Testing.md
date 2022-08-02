@@ -101,8 +101,8 @@
 			  
 			  *A correct system (with respect to its requirements) will be safe.*
 			  
-			  True
-			  False
+			  [ ] True
+			  [ ] False
 				- Correcto
 				  Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
 		-

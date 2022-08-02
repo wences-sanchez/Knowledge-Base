@@ -76,7 +76,7 @@
 						- Error forecasting: based on the above, we might do error forecasting that says: *"well, our big test suite is reliable"*
 					- Procurement:
 						- Fault avoidance: we can look at certain techniques that will prevent falls from being introduced in the first place
-						-
+						- Fault tolerance
 						-
 		-
 -

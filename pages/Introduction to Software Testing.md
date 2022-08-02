@@ -118,7 +118,7 @@
 				- Correcto: False
 				  
 				  >Correct: availability says the system is running, reliability says that it is doing the right thing.
-			- Pregunta 4
+			- Pregunta 4 #flaschard 
 			  
 			  *A correct system (with respect to its requirements) will be safe.*
 			  
@@ -127,7 +127,7 @@
 				- Correcto: *False*
 				  
 				  > Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
-			- Pregunta 5
+			- Pregunta 5 
 			  
 			  *A correct system will be reliable.*
 			  

@@ -71,7 +71,8 @@
 					- Errors: all programmers make mistakes.
 					- Failures: eventually those mistakes introduce errors into the code. We want those not lead into failures.
 				- Means:
-					-
+					- Validation:
+						-
 		-
 -
 -

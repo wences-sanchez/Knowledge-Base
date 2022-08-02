@@ -193,8 +193,9 @@
 			- We have to be specific about what and who.
 			- A test plan is useful to:
 				- Organize, schedule and manage testing effort
-					- Be specific about who des wa
+					- Be specific about who des what and when.
 				- Help in writing test cases
+					- Lis
 				- Improves communication between developers and management
 				- Measuring software qual
 			-

@@ -141,7 +141,7 @@
 	- ### Lesson 3: Introduction to Systematic Testing
 		- #### Structural Testing
 			- Code Coverage
-		-
+		- ####
 -
 -
 -

@@ -253,7 +253,8 @@
 				- Investigate alternative paths to the issue (to better solve the problem)
 				- Decide if it is worth reporting (formally)
 		- #### Software Defect Reports: Reporting
-			-
+			- Ensure it is not a duplicate
+			- Tal
 			-
 -
 -

@@ -276,6 +276,7 @@
 					- 1. Problem has indeed been fixed
 					  2. Problem remains (unchanged)
 					  3. Problem is replaced by a new problem
+					-
 			-
 -
 -

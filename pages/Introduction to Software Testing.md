@@ -51,4 +51,4 @@
 		- **Service** is the system behavior as it's perceived by the user of the system.
 		- A **failure** occurs when the delivered service deviates from the service specification.
 		- An **error** is that part of the system that can lead to a failure.
-		-
+		- A **fault** is the

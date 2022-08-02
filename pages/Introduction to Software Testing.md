@@ -210,6 +210,7 @@
 			- Unit Test / Unit Test Plan
 				- White-box testing at its core
 			- Design Verification Test
+				- First,
 			- System Validation Test (once the feature is complete, we test)
 			- Customer Acceptance Test / CAT Plan
 		- #### Quiz

@@ -136,7 +136,7 @@
 	- ### Lesson 2: Testing Principles: When (V Model)
 		- While the *V-Model* obviously has many drawbacks, we could pick up from it the idea of **test** at every stage of the **development lifecycle** (even though it's not a testing framework)
 		- **Validation & Verification**
-			- A product could meet the validation but also be very bad. (That's not the goal XD)
+			- A product could meet the validation but also be very bad. (**That's not the goal XD**)
 				- For example, a car with a big boat tied by ropes in a very weird way.
 -
 -

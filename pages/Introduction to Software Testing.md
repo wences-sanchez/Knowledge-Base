@@ -200,7 +200,7 @@
 				- ==This is an opportunity to go to the managers and designers and expose a potential problem in the project. The requirements are missing something==
 				- Improves communication between developers and management
 				- Measuring software qual
-				- Cra
+				- Creating a plan
 			- It's hard to say *no
 			-
 		- #### Quiz

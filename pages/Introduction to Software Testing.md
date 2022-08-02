@@ -244,7 +244,8 @@
 				  4. **Retest**: Retest bug
 				  5. **Close**: Close bug when problem is fixed
 		- #### Software Defect Reports: Analysis
-			- Ideally by a tester or developer
+			- Ideally by a tester or developer, not the user.
+			-
 			-
 -
 -

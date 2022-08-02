@@ -236,7 +236,8 @@
 					- Customer testing is done between the developer and the customer. It ensures the final product is acceptable to the customer.
 	- ---
 	- ## Lesson 2: Software Defect Reports
-		- ####
+		- #### Software Defect Reports
+			-
 -
 -
 -

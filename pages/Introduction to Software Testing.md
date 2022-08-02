@@ -180,8 +180,7 @@
 					- Who's the technological whiz?
 					- Who's the testing guru?
 				- **Entry and Exit criteria**:
-				- ==Hopefully, these come right out of our process so ==
-				- ==there is never anything new here.==
+				- Hopefully, these come right out of our process so there is never anything new here.
 				- It just puts it in front of management and development one more time.
 				- Reproduce el video desde :2:56 y sigue la transcripción2:56
 				- We are not the starting testing unless, or if we find five defects, we stop.

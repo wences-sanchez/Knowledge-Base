@@ -66,7 +66,7 @@
 			- **Error forecasting:** estimating, by *evaluation*, the presence, the creation, and the consequences of errors.
 		- Schema: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472}
 			- Dependability:
-				-
+				- Impairments ()
 		-
 -
 -

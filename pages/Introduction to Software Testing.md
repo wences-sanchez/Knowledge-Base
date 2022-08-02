@@ -169,7 +169,7 @@
 		- #### What is a test plan?
 			- ![image.png](../assets/image_1659437816019_0.png)
 			- This plan is created by testers.
-			- The DVT *(Design Verification Test)* checks if we build the
+			- The DVT *(Design Verification Test)* checks if we build the right thing
 -
 -
 -

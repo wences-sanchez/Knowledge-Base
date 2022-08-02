@@ -240,8 +240,8 @@
 			- What is the defect Lifecycle? #flaschard
 				- 1. Analyze: Analyze bug to ensure proper reporting
 				  2. Report: Make report
-				  3. Track: Track status 
-				  4. Retest
+				  3. Track: Track status of the fix
+				  4. Retest: Retest bug
 				  5. Close
 -
 -

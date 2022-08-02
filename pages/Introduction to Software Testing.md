@@ -93,7 +93,7 @@
 			- Programmers tend to make mistakes in some frequent places or ways:
 				- Floating points (inherently imprecise in comparisons)
 				- Pointers (memory difficult issues)
-				- Parallelism (d)
+				- Parallelism (deadlock)
 				- ...
 			-
 		- Quizzes

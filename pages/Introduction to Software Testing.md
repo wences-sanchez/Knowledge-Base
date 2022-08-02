@@ -68,7 +68,7 @@
 			- Dependability:
 				- Impairments (*things we're trying to avoid*):
 					- Faults: the mistakes and other things to avoid.
-					- Errors:
+					- Errors: all programmers
 		-
 -
 -

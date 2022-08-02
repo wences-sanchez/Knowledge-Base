@@ -99,6 +99,7 @@
 				- Complex boolean expressions
 				- Casts and conversions between types
 				- ...
+			- ![image.png](../assets/image_1659429528495_0.png)
 			-
 		- Quizzes
 			- Pregunta 3

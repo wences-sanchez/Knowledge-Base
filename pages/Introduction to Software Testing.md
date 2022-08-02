@@ -97,7 +97,7 @@
 				- Numeric limits / boundaries
 				- Interrupts
 				- Complex boolean expressions
-				- Casts and conversions
+				- Casts and conversions between types
 				- ...
 			-
 		- Quizzes

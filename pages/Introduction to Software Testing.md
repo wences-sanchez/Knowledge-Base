@@ -243,7 +243,7 @@
 				  3. **Track**: Track status of the fix
 				  4. **Retest**: Retest bug
 				  5. **Close**: Close bug when problem is fixed
--
+		-
 -
 -
 -

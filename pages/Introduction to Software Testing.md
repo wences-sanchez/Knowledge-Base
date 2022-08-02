@@ -100,8 +100,9 @@
 			- Pregunta 4
 			  A correct system (with respect to its requirements) will be safe.
 			  True
-			- Correcto
-			- Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
+			  False
+				- Correcto
+				  Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
 		-
 		-
 -

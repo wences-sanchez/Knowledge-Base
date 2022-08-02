@@ -370,7 +370,6 @@
 		       ;;
 		  esac
 		  ```
-	-
 - ---
 -
 - ## Module 4: Advanced Bash Scripting Options

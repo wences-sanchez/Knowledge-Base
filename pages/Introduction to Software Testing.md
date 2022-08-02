@@ -72,7 +72,8 @@
 					- Failures: eventually those mistakes introduce errors into the code. We want those not lead into failures.
 				- Means:
 					- Validation:
-						- Error removal: we run tests against the software and we're going to
+						- Error removal: we run tests against the software and we're going to remove some of those errors from the code.
+						-
 		-
 -
 -

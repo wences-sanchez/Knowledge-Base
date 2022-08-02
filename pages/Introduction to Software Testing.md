@@ -217,7 +217,7 @@
 				- Once the feature is complete, we test
 			- Customer Acceptance Test / CAT Plan
 		- #### Test (Status) Reports
-			-
+			- You have to communicate
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  

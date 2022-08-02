@@ -57,4 +57,4 @@
 		- So we have:
 			- **Faults**, which are the cause of:
 			- **Latent errors**, which become:
-			- **Effective errors**
+			- **Effective errors** if the system reaches a state where the eror

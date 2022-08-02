@@ -68,6 +68,7 @@
 			- Dependability:
 				- Impairments (*things we're trying to avoid*):
 					- Faults: things to avoid.
+					- Errors:
 		-
 -
 -

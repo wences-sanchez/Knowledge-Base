@@ -149,7 +149,15 @@
 					- Otherwise, (if our tests catch the negative outputs) we'll have found new valid test cases and our test suite will be more comprehensive.
 			- ![image.png](../assets/image_1659433909397_0.png)
 			- ![image.png](../assets/image_1659433953975_0.png)
-		- ###Quizes
+		- #### Quizzes
+			- Pregunta 8
+			- Adaptive cruise control software that continues to run in the presence of multiple hardware and service failures but regularly misjudges the distance between cars by a substantial amount is an example of a ______ system.
+			- **1 punto**
+			- certainly reliable
+			- certainly correct
+			- certainly safe
+			- certainly incorrect
+			- certainly robust
 -
 -
 -

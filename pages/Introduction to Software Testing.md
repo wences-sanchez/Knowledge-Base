@@ -260,7 +260,8 @@
 			-
 			- Communicate with the developer, but make your own decisions
 		- #### Software Defect Reports: Report Content
-			- 1. Title: Must convey in a limited number of words enough information that the problem can be understood
+			- TODO 1. Title: Must convey in a limited number of words enough information that the problem can be understood.
+			  2.
 			- Description: What you did to reach to the problem (no more)
 			-
 			-

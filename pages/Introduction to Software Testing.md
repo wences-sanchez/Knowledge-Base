@@ -73,8 +73,8 @@
 				- **Means**:
 					- **Validation**:
 						- **Error removal**: we run tests against the software and we're going to remove some of those errors from the code.
-						- Error forecasting: based on the above, we might do error forecasting that says: *"well, our big test suite is reliable"*
-					- Procurement:
+						- **Error forecasting**: based on the above, we might do error forecasting that says: *"well, our big test suite is reliable"*
+					- **Procurement**:
 						- Fault avoidance: we can look at certain techniques that will prevent falls from being introduced in the first place
 						- Fault tolerance: we know that there's a certain level of errors that we're going to find in code. And we're going to build things around those possibly erroneous components, in such a way that the system can continue to operate, even in the presence of errors.
 				- Measures: two different *metrics*

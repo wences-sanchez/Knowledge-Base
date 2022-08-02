@@ -68,7 +68,8 @@
 			- Dependability:
 				- Impairments (*things we're trying to avoid*):
 					- Faults: the mistakes and other things to avoid.
-					- Errors: all programmers make mistakes, and eventually introduce errors into the code. We want those not lead to failures.
+					- Errors: all programmers make mistakes.
+					- Failures:eventually introduce errors into the code. We want those not lead to failures.
 		-
 -
 -

@@ -94,7 +94,7 @@
 				- Floating points (inherently imprecise in comparisons)
 				- Pointers (memory difficult issues)
 				- Parallelism (deadlock)
-				- Numeric limits / boundaries
+				- Numeric limits / boundaries (boundary val)
 				- Interrupts
 				- Complex boolean expressions
 				- Casts and conversions between types

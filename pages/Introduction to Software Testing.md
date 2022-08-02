@@ -65,7 +65,8 @@
 				- **Fault tolerance:** by redundancy.
 				- **Error removal:** minimizing, by *verification*, the presence of latent errors. (This is where **testing** stands).
 				- **Error forecasting:** estimating, by *evaluation*, the presence, the creation, and the consequences of errors.
-		- Explain the graph: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472}
+		- Explain the graph: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472} #flaschard
+			-
 			- **Dependability**:
 				- **Impairments** (*things we're trying to avoid*):
 					- **Faults**: the mistakes and other things to avoid.

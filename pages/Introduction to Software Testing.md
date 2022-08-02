@@ -47,19 +47,19 @@
 - ## Week 2
 	- ### Lesson 1: Testing Principles
 		- About *Lesson 1: Testing Principles* #spaced
-		- **Dependability** is what you would expect.
-			- We're interested in determining whether or not the software is dependable, that is whether it delivers a service such that we can rely on it.
-		- **Service** is the system behavior as it's perceived by the user of the system.
-		- A **failure** occurs when the delivered service deviates from the service specification.
-		- An **error** is that part of the system that can lead to a failure.
-			- Errors can be **latent** or **effective** *(active)*.
-		- A **fault** is the root cause of the error.
-			- It can be human caused (a *programmer's mistake*) or physical (a *short-circuit*)
-		- So we have:
-			- **Faults**, which are the cause of:
-			- **Latent errors**, which become:
-			- **Effective errors** if the system reaches a state where the error can manifest, which may cause:
-			- **Failures** if the error causes a visible deviation from service from the user's perspective (*e.g. the program crashes*)
+			- **Dependability** is what you would expect.
+				- We're interested in determining whether or not the software is dependable, that is whether it delivers a service such that we can rely on it.
+			- **Service** is the system behavior as it's perceived by the user of the system.
+			- A **failure** occurs when the delivered service deviates from the service specification.
+			- An **error** is that part of the system that can lead to a failure.
+				- Errors can be **latent** or **effective** *(active)*.
+			- A **fault** is the root cause of the error.
+				- It can be human caused (a *programmer's mistake*) or physical (a *short-circuit*)
+			- So we have:
+				- **Faults**, which are the cause of:
+				- **Latent errors**, which become:
+				- **Effective errors** if the system reaches a state where the error can manifest, which may cause:
+				- **Failures** if the error causes a visible deviation from service from the user's perspective (*e.g. the program crashes*)
 		- Achieving a dependable system involves utilizing four kinds of methods:
 			- **Fault avoidance:** preventing by construction (*e.g. Java features*)
 			- **Fault tolerance:** by redundancy.

@@ -58,4 +58,5 @@
 			- **Faults**, which are the cause of:
 			- **Latent errors**, which become:
 			- **Effective errors** if the system reaches a state where the error can manifest, which may cause:
-			- **Failures** if the error causes a visible deviation from service from the user's perspective (e.g. the program crashes)
+			- **Failures** if the error causes a visible deviation from service from the user's perspective (*e.g. the program crashes*)
+			-

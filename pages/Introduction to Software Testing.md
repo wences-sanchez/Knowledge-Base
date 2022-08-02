@@ -208,7 +208,7 @@
 			- It's hard to say *no, it's not for production*. But Agile makes that easier (unlike a waterfall process).
 		- #### Stages of Software Testing Process
 			- Unit Test / Unit Test Plan
-				-
+				- White-box tes
 			- Design Verification Test
 			- System Validation Test (once the feature is complete, we test)
 			- Customer Acceptance Test / CAT Plan

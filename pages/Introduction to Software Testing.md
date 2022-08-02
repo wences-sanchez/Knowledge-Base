@@ -84,7 +84,7 @@
 						- **Safety**: absence of catastrophic consequences
 						- **Integrity**: absences of improper system alteration (*exploitability*)
 						- **Maintainability**: ability for a process to undergo modifications and repairs
-			-
+			- Formulas
 		-
 		-
 -

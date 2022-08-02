@@ -142,7 +142,7 @@
 		- #### Structural Testing
 			- Code Coverage
 		- #### Mutation Testing
-			- A mutant is *killed* when
+			- A mutant is *killed* when there exists one o
 			- ![image.png](../assets/image_1659433909397_0.png)
 			- ![image.png](../assets/image_1659433953975_0.png)
 			-

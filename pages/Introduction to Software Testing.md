@@ -80,7 +80,8 @@
 				- **Measures**: two different *metrics*
 					- **Reliability**: continuity of correct service
 					- **Availability**: the readiness of the software to respond user requests.
-					- **Safety**: absence of
+					- **Safety**: absence of catastrophic consequences
+					-
 		-
 		-
 -

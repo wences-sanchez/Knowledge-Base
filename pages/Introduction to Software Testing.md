@@ -94,7 +94,9 @@
 				- Floating points (inherently imprecise in comparisons)
 				- Pointers (memory difficult issues)
 				- Parallelism (deadlock)
-				- Numeric limits
+				- Numeric limits / boundaries
+				- Interrupts
+				-
 				- ...
 			-
 		- Quizzes

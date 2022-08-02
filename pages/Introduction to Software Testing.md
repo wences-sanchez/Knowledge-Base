@@ -260,7 +260,8 @@
 			-
 			- Communicate with the developer, but make your own decisions
 		- #### Software Defect Reports: Report Content
-			- 1
+			- 1. Title
+			  2.
 			- Description: What you did to reach to the problem (no more)
 			-
 			-

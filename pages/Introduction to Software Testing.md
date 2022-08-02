@@ -132,7 +132,7 @@
 			  [ ] False
 				- Correcto: *True*
 				  > Reliability is defined in terms of meeting requirements; by definition, a correct system is reliable.
-	-
+	- ###
 -
 -
 -

@@ -95,7 +95,7 @@
 				- Pointers (memory difficult issues)
 				- Parallelism (deadlock)
 				- Numeric limits / boundaries (boundary values)
-				- Interrupts ()
+				- Interrupts (hardware i)
 				- Complex boolean expressions
 				- Casts and conversions between types
 				- ...

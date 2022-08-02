@@ -146,7 +146,7 @@
 				- A mutant is *killed* when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program.
 				- If all our tests pass after creating mutants in our AUT, then we have a problem.
 				- The next step should be write more test cases (in order to *kill* them) if the tests pass.
-				- Otherwise, we'll have found new valid
+				- Otherwise, we'll have found new valid test cases and our
 			- ![image.png](../assets/image_1659433909397_0.png)
 			- ![image.png](../assets/image_1659433953975_0.png)
 			-

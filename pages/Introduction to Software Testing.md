@@ -137,7 +137,7 @@
 				- Correcto: *True*
 				  > Reliability is defined in terms of meeting requirements; by definition, a correct system is reliable.
 		-
-	- ### Lesson 2: Testing Principles: When (V Model)
+	- ### Lesson 2: Testing Principles: When (V Model) #spaced
 		- While the *V-Model* obviously has many drawbacks, we could pick up from it the idea of **test** at every stage of the **development lifecycle** (even though it's not a testing framework)
 		- **Validation & Verification**
 			- A product could meet the validation but also be very bad. (**That's not the goal XD**)

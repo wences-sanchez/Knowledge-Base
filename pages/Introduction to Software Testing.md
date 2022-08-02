@@ -260,7 +260,7 @@
 			-
 			- Communicate with the developer, but make your own decisions
 		- #### Software Defect Reports: Report Content
-			- 1. Title: Must convey in a limited number of words enough information t
+			- 1. Title: Must convey in a limited number of words enough information that the problem can be understood
 			- Description: What you did to reach to the problem (no more)
 			-
 			-

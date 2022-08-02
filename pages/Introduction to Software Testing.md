@@ -195,7 +195,7 @@
 				- Organize, schedule and manage testing effort
 					- Be specific about who des what and when.
 				- Help in writing test cases
-					- List all the tests you can thinck of
+					- List all the tests you can thinck of (this is ver)
 				- Improves communication between developers and management
 				- Measuring software qual
 			-

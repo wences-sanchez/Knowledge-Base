@@ -201,7 +201,8 @@
 				- Improves communication between developers and management
 				- Measuring software qual
 				- Creating a plan and sticking to it makes it easier
-				- Ensure th
+				- Ensure that everyhing is completed
+				-
 			- It's hard to say *no
 			-
 		- #### Quiz

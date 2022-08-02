@@ -256,7 +256,7 @@
 			- Ensure it is not a duplicate
 			- Talk with the developer
 			- Enter it into the system
-			-
+			- Make sure it gets fixed
 			-
 -
 -

@@ -218,7 +218,7 @@
 			- Customer Acceptance Test / CAT Plan
 		- #### Test (Status) Reports
 			- You have to communicate, you are not isolated.
-			- You have to compare the
+			- You have to compare the existing schedule versus the actual
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  

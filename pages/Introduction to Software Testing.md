@@ -212,9 +212,9 @@
 			- Design **Verification** Test
 				- First, **integration** tests
 				- Next, **functional** testing
+				- We ensure that the modules will properly work together.
 			- System Validation Test
 				- Once the feature is complete, we test
-				- We ensure that the modules will properly work together.
 			- Customer Acceptance Test / CAT Plan
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?

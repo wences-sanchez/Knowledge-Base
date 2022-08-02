@@ -214,6 +214,7 @@
 
  ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
+ :journal/page-title-format "EEEE, dd-MM-yyyy"
 
  ;; Properties to exclude from having property pages
  ;; E.g. #{:duration :author}

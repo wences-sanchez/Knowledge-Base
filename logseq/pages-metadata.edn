@@ -4,6 +4,9 @@
  {:block/name "a",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+ {:block/name "aug 2nd, 2022",
+  :block/created-at 1659423503642,
+  :block/updated-at 1659423503642}
  {:block/name "b",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -63,7 +66,7 @@
   :block/updated-at 1658772277798}
  {:block/name "monday, 01-08-2022",
   :block/created-at 1659337536169,
-  :block/updated-at 1659348151713}
+  :block/updated-at 1659423516560}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1658839142679,
   :block/updated-at 1658839142679}
@@ -103,6 +106,9 @@
  {:block/name "todo",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+ {:block/name "tuesday, 02-08-2022",
+  :block/created-at 1659423572393,
+  :block/updated-at 1659423572393}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1658839142633,
   :block/updated-at 1659034356945}

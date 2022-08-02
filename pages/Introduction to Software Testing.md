@@ -192,9 +192,9 @@
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  
 			  [] System Validation Test
-			  Customer Acceptance Test
-			  Unit Test
-			  Unit Testing Plan
+			  [] Customer Acceptance Test
+			  [] Unit Test
+			  [] Unit Testing Plan
 				- Incorrecto
 				- System validation test is the process of checking if a system meets its specifications.
 -

@@ -260,7 +260,7 @@
 			-
 			- Communicate with the developer, but make your own decisions
 		- #### Software Defect Reports: Report Content
-			- Description: What you did to
+			- Description: What you did to reach
 			-
 -
 -

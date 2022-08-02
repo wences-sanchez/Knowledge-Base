@@ -88,7 +88,19 @@
 		- Bugs flow:
 			- ![image.png](../assets/image_1659427299208_0.png)
 		- Quizzes
-			-
+			- Pregunta 3
+			  
+			  Availability is the same as reliability.
+			  
+			  **1 / 1 punto**
+			  
+			  True
+			  
+			  False
+			  
+			  Correcto
+			  
+			  Correct: availability says the system is running, reliability says that it is doing the right thing.
 		-
 		-
 -

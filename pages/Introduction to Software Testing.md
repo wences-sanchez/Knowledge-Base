@@ -239,7 +239,10 @@
 		- #### Software Defect Reports
 			- Defect Lifecycle:
 				- 1. Analyze
-				  2.
+				  2. Report
+				  3. Track
+				  4. Retest
+				  5.
 -
 -
 -

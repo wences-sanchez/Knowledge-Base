@@ -250,7 +250,7 @@
 				- Find the root-cause
 				- Determine if it is reproducible or repeatable
 				- Attempt to isolate the defect
-				-
+				- Investigate alternative paths tot
 			-
 -
 -

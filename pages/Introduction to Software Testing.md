@@ -208,9 +208,10 @@
 			- It's hard to say *no, it's not for production*. But Agile makes that easier (unlike a waterfall process).
 		- #### Stages of Software Testing Process
 			- Unit Test / Unit Test Plan
+				-
 			- Design Verification Test
 			- System Validation Test (once the feature is complete, we test)
-			- Customer Acceptance Test Plan
+			- Customer Acceptance Test / CAT Plan
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  

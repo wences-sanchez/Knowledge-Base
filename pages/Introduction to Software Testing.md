@@ -172,7 +172,7 @@
 			- This plan is created by testers.
 			- The DVT *(Design Verification Test)* checks if we build the thing right.
 			- The SVT *(System Validation Test)* checks if we build the right thing.
-			- There is also the ()Customer Acceptance Test)
+			- There is also the CAT *(Customer Acceptance Test)*
 			- ![image.png](../assets/image_1659438258912_0.png)
 				- **Scope:** means you know your domain.
 					- There's no way to properly definen your testws without knowing the bounds and the domain within your project works.

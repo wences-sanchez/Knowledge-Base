@@ -260,8 +260,11 @@
 			-
 			- Communicate with the developer, but make your own decisions
 		- #### Software Defect Reports: Report Content
-			- TODO 1. Title: Must convey in a limited number of words enough information that the problem can be understood.
-			  2.
+			- 1. Title: Must convey in a limited number of words enough information that the problem can be understood.
+			  :LOGBOOK:
+			  CLOCK: [2022-08-02 Tue 17:27:43]--[2022-08-02 Tue 17:27:44] =>  00:00:01
+			  :END:
+			- 2.
 			- Description: What you did to reach to the problem (no more)
 			-
 			-

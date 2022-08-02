@@ -141,7 +141,9 @@
 	- ### Lesson 3: Introduction to Systematic Testing
 		- #### Structural Testing
 			- Code Coverage
-		- ####
+		- #### Mutation Testing
+			- ![image.png](../assets/image_1659433909397_0.png)
+			-
 -
 -
 -

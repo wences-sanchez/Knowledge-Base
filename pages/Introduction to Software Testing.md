@@ -253,9 +253,9 @@
 				- Investigate alternative paths to the issue (to better solve the problem)
 				- Decide if it is worth reporting (formally)
 		- #### Software Defect Reports: Reporting
-			- Ensure it is not a duplicate
-			- Talk with the developer
-			- Enter it into the system
+			- 1. Ensure it is not a duplicate
+			  2. Talk with the developer
+			  3. Enter it into the system
 			- Make sure it gets fixed
 			-
 -

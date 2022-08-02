@@ -201,6 +201,7 @@
 				- Improves communication between developers and management
 				- Measuring software quality is the intent (and must be planned)
 				- Developing good test sets takes planning
+				- Mo
 				- Creating a plan and sticking to it makes it easier
 				- Ensure that everyhing is completed
 				- Know when to stop

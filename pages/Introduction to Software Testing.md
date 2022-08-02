@@ -103,7 +103,7 @@
 			  
 			  [ ] True
 			  [ ] False
-				- Correcto
+				- Correcto: False
 				  Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
 		-
 		-

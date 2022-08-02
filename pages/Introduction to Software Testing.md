@@ -260,8 +260,7 @@
 			-
 			- Communicate with the developer, but make your own decisions
 		- #### Software Defect Reports: Report Content
-			- 1. Title
-			  2.
+			- 1. Title: Mus
 			- Description: What you did to reach to the problem (no more)
 			-
 			-

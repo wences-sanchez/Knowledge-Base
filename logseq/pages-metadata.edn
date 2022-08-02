@@ -5,8 +5,8 @@
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
  {:block/name "aug 2nd, 2022",
-  :block/created-at 1659423503642,
-  :block/updated-at 1659423503642}
+  :block/created-at 1659445154335,
+  :block/updated-at 1659445168637}
  {:block/name "b",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -35,8 +35,8 @@
   :block/created-at 1659355629307,
   :block/updated-at 1659355629307}
  {:block/name "curiosities",
-  :block/created-at 1659351216531,
-  :block/updated-at 1659351216531}
+  :block/created-at 1659378302560,
+  :block/updated-at 1659378302560}
  {:block/name "dev-notes",
   :block/created-at 1658832523329,
   :block/updated-at 1658832523329}
@@ -92,8 +92,8 @@
   :block/created-at 1659337536585,
   :block/updated-at 1659337536585}
  {:block/name "sw-testing",
-  :block/created-at 1659355668909,
-  :block/updated-at 1659355668909}
+  :block/created-at 1659378302553,
+  :block/updated-at 1659378302553}
  {:block/name "tags",
   :block/created-at 1658775007501,
   :block/updated-at 1658775007501}
@@ -106,9 +106,6 @@
  {:block/name "todo",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
- {:block/name "tuesday, 02-08-2022",
-  :block/created-at 1659423572393,
-  :block/updated-at 1659423572393}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1658839142633,
   :block/updated-at 1659034356945}

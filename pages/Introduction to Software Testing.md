@@ -109,9 +109,10 @@
 			- Pregunta 5
 			  
 			  A correct system will be reliable.
-			- True
-			- False
-			- Correcto
+			  True
+			  False
+			  
+			  Correcto
 			- Reliability is defined in terms of meeting requirements; by definition, a correct system is reliable.
 		-
 -

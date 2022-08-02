@@ -243,7 +243,7 @@
 				  3. **Track**: Track status of the fix
 				  4. **Retest**: Retest bug
 				  5. **Close**: Close bug when problem is fixed
-		- #### Software Defect Reports: Analysis
+		- #### Software Defect Reports: Analysis #spaced
 			- Ideally by a tester or developer, not the user.
 			- Even reported, we don't know most of the times the exact root cause.
 			- What is the Analysis of a software defect?

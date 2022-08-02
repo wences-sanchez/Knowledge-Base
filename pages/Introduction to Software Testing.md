@@ -112,7 +112,7 @@
 			  
 			  [ ] True
 			  [ ] False
-			- Correcto
+				- Correcto
 			- Reliability is defined in terms of meeting requirements; by definition, a correct system is reliable.
 		-
 -

@@ -202,7 +202,8 @@
 				- Measuring software qual
 				- Creating a plan and sticking to it makes it easier
 				- Ensure that everyhing is completed
-				-
+				- Know when to stop
+				- Have
 			- It's hard to say *no
 			-
 		- #### Quiz

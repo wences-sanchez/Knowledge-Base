@@ -254,7 +254,9 @@
 				- Decide if it is worth reporting (formally)
 		- #### Software Defect Reports: Reporting
 			- Ensure it is not a duplicate
-			- Tal
+			- Talk with the developer
+			- Enter it into the system
+			-
 			-
 -
 -

@@ -57,4 +57,5 @@
 		- So we have:
 			- **Faults**, which are the cause of:
 			- **Latent errors**, which become:
-			- **Effective errors** if the system reaches a state where the error can manifest, whicc
+			- **Effective errors** if the system reaches a state where the error can manifest, which may cause:
+			- **

@@ -209,7 +209,7 @@
 		- #### Stages of Software Testing Process
 			- Unit Test / Unit Test Plan
 			- Design Verification Test
-			-
+			- System Validation Test (o)
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  

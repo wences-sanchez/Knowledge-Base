@@ -101,7 +101,7 @@
 				- ...
 			- ![image.png](../assets/image_1659429528495_0.png)
 		- #### Testing Principles: How
-			- The testing techniques can tell your where to find more
+			- The testing techniques can tell your where to find more efficiently bugss
 		- Quizzes
 			- Pregunta 3
 			  

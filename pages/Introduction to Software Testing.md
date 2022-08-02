@@ -251,7 +251,7 @@
 				- Determine if it is reproducible or repeatable
 				- Attempt to isolate the defect
 				- Investigate alternative paths to the issue (to better solve the problem)
-				- Dic
+				- Decide if it is worth reporting
 			-
 -
 -

@@ -195,7 +195,7 @@
 			  [] Customer Acceptance Test
 			  [] Unit Test
 			  [] Unit Testing Plan
-				- Incorrecto
+				- Incorrecto:
 				- System validation test is the process of checking if a system meets its specifications.
 -
 -

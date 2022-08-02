@@ -193,6 +193,7 @@
 			- We have to be specific about what and who.
 			- A test plan is useful to:
 				- Organize, schedule and manage testing effort
+				- Help in writing test cases
 				-
 				- Measuring software qual
 			-

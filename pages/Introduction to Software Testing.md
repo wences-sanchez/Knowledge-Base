@@ -101,7 +101,7 @@
 				- ...
 			- ![image.png](../assets/image_1659429528495_0.png)
 		- #### Testing Principles: How
-			- The testing techniques can tell your where to find more efficiently bugs, but they won't be as useful
+			- The testing techniques can tell your where to find more efficiently bugs, but they won't be as useful when comparing if the system mee
 		- Quizzes
 			- Pregunta 3
 			  

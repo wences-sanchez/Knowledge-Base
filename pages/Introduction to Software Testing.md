@@ -102,7 +102,7 @@
 			- ![image.png](../assets/image_1659429528495_0.png)
 		- #### Testing Principles: How
 			- The **testing techniques** can tell your where to find more efficiently bugs, but they won't be as useful when comparing whether the system meets the **requirements**.
-			- The flakey tests are flakey o
+			- The flakey tests are flakey often because the program is flake
 		- Quizzes
 		  collapsed:: true
 			- Pregunta 3

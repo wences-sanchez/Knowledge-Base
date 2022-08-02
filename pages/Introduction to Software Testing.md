@@ -46,7 +46,7 @@
 - ---
 - ## Week 2
 	- ### Lesson 1: Testing Principles
-		- ==dependability is what you would expect.==
-		- ==We're interested in determining whether or not the software is dependable, ==
+		- dependability is what you would expect.
+		- We're interested in determining whether or not the software is dependable, ==
 		- ==that is whether it delivers a service such that we can rely on it.==
 	-

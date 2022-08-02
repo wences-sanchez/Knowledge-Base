@@ -81,7 +81,7 @@
 					- **Reliability**: continuity of correct service
 					- **Availability**: the readiness of the software to respond user requests.
 					- **Safety**: absence of catastrophic consequences
-					- **Integrity**: an
+					- **Integrity**: absences of improper system alteration ()
 		-
 		-
 -

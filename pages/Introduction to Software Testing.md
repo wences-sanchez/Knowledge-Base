@@ -97,6 +97,7 @@
 				- Correcto: False
 				  
 				  Correct: availability says the system is running, reliability says that it is doing the right thing.
+			-
 		-
 		-
 -

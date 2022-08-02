@@ -237,7 +237,9 @@
 	- ---
 	- ## Lesson 2: Software Defect Reports
 		- #### Software Defect Reports
-			- Defect L
+			- Defect Lifecycle:
+				- 1. Analyze
+				  2.
 -
 -
 -

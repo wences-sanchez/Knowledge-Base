@@ -82,7 +82,7 @@
 					- **Availability**: the readiness of the software to respond user requests.
 					- **Safety**: absence of catastrophic consequences
 					- **Integrity**: absences of improper system alteration (*exploitability*)
-					-
+					- Maintan
 		-
 		-
 -

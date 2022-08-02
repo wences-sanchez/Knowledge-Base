@@ -151,7 +151,7 @@
 			- ![image.png](../assets/image_1659433953975_0.png)
 		- #### Quizzes
 			- Pregunta 8: Adaptive cruise control software that continues to run in the presence of multiple hardware and service failures but regularly misjudges the distance between cars by a substantial amount is an example of a ______ system.
-			- - [ ] certainly reliable
+			  - [ ] certainly reliable
 			  - [ ] certainly correct
 			  - [ ] certainly safe
 			  - [ ] certainly incorrect

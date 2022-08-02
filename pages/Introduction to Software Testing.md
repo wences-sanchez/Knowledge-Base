@@ -221,6 +221,7 @@
 			- And list what defects are still open, so that the managers can see what things are still wrong.
 			- You have to communicate, you are not isolated.
 		- #### Risk-based Test Planning
+			- ![image.png](../assets/image_1659451466829_0.png)
 			-
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?

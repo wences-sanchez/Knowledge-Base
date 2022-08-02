@@ -138,7 +138,7 @@
 		- **Validation & Verification**
 			- A product could meet the validation but also be very bad. (**That's not the goal XD**)
 				- For example, a car with a big boat tied by ropes in a very weird way.
-	- ###
+	- ### Lesson 3: Introduction to Systematic TEsti
 -
 -
 -

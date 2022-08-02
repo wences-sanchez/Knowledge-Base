@@ -167,6 +167,7 @@
 - ## Week 3
 	- ### Lesson 1: Fundamental Testing Processes
 		- #### What is a test plan?
+			- ![image.png](../assets/image_1659437816019_0.png)
 			-
 -
 -

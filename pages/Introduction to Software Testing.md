@@ -79,7 +79,7 @@
 						- Fault tolerance: we know that there's a certain level of errors that we're going to find in code. And we're going to build things around those possibly erroneous components, in such a way that the system can continue to operate, even in the presence of errors.
 				- Measures: two different *metrics*
 					- Reliability
-					- Availability: the readiness o
+					- Availability: the readiness of the software to respond user requests.
 		-
 -
 -

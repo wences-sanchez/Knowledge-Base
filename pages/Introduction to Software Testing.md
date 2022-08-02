@@ -145,7 +145,7 @@
 			- When do we say that a mutant is *killed* in Mutation testing? #flaschard
 				- A mutant is *killed* when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program.
 				- If all our tests pass after creating mutants in our AUT, then we have a problem.
-				- The next step should be write more test cases (in order to kill them)
+				- The next step should be write more test cases (in order to *kill* them)
 			- ![image.png](../assets/image_1659433909397_0.png)
 			- ![image.png](../assets/image_1659433953975_0.png)
 			-

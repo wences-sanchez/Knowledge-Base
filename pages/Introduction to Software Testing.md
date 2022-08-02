@@ -96,6 +96,7 @@
 				- Parallelism (deadlock)
 				- Numeric limits / boundaries
 				- Interrupts
+				- Complex boolean expressions
 				-
 				- ...
 			-

@@ -50,4 +50,4 @@
 			- We're interested in determining whether or not the software is dependable, that is whether it delivers a service such that we can rely on it.
 		- **Service** is the system behavior as it's perceived by the user of the system.
 		- A **failure** occurs when the delivered service deviates from the service specification.
-		- An **error** is that part of the system that
+		- An **error** is that part of the system that can lead to a failur

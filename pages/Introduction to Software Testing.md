@@ -90,7 +90,7 @@
 		-
 		- ![image.png](../assets/image_1659428454929_0.png)
 		- #### Testing Principles: Where
-			- Programmers
+			- Programmers tend to make mistakes in some frequent
 		- Quizzes
 			- Pregunta 3
 			  

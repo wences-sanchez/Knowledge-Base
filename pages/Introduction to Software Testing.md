@@ -258,6 +258,7 @@
 			  3. Enter it into the system
 			  4. Make sure it gets fixed
 			-
+			- Communicate
 			-
 -
 -

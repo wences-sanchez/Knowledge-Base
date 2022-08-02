@@ -62,4 +62,4 @@
 		- Achieving a dependable system involves utilizing four kinds of methods:
 			- **Fault avoidance:** preventing by construction (*e.g. Java features*)
 			- **Fault tolerance:** by redundancy.
-			- **E
+			- **Error removal**:

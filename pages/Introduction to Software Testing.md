@@ -92,8 +92,8 @@
 			  
 			  *Is availability is the same as reliability?*
 			  
-			  [] True
-			  [] False
+			  - [ ] True
+			  [ ] False
 				- Correcto: False
 				  
 				  Correct: availability says the system is running, reliability says that it is doing the right thing.

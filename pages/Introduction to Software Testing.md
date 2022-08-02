@@ -190,7 +190,8 @@
 				- That is, if we find too many defects, we hand it **back to development** for further unit testing before we really start our own work.
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
-			  System Validation Test
+			  
+			  [] System Validation Test
 			  Customer Acceptance Test
 			  Unit Test
 			  Unit Testing Plan

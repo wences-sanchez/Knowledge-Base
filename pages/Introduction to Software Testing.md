@@ -92,11 +92,9 @@
 			  
 			  *Is availability is the same as reliability?*
 			  
-			  **1 / 1 punto**
+			  [] True
 			  
-			  True
-			  
-			  False
+			  [] False
 			  
 			  Correcto
 			  

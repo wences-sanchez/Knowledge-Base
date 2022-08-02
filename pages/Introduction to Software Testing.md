@@ -237,7 +237,7 @@
 	- ---
 	- ## Lesson 2: Software Defect Reports
 		- #### Software Defect Reports
-			- WhaDefect Lifecycle:
+			- What is the defect Lifecycle? #flaschard
 				- 1. Analyze
 				  2. Report
 				  3. Track

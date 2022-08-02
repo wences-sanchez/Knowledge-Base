@@ -73,7 +73,7 @@
 				- Means:
 					- Validation:
 						- Error removal: we run tests against the software and we're going to remove some of those errors from the code.
-						-
+						- Error forecasting:
 		-
 -
 -

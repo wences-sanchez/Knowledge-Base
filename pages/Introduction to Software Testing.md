@@ -246,7 +246,8 @@
 		- #### Software Defect Reports: Analysis
 			- Ideally by a tester or developer, not the user.
 			- Even reported, we don't know most of the times the exact root cause.
-			- What is the Analysis of a soft
+			- What is the Analysis of a software defect?
+				- Find the root
 			-
 -
 -

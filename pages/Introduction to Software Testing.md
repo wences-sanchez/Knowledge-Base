@@ -242,7 +242,7 @@
 				  2. Report: Make report
 				  3. Track: Track status of the fix
 				  4. Retest: Retest bug
-				  5. Close
+				  5. Close: Close bu
 -
 -
 -

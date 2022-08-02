@@ -222,7 +222,8 @@
 			- You have to communicate, you are not isolated.
 		- #### Risk-based Test Planning #spaced
 			- ![image.png](../assets/image_1659451466829_0.png)
-			- Testing is our primary means of reducing **risk**.
+			- **Testing** is our primary means of reducing **risk**.
+			-
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  

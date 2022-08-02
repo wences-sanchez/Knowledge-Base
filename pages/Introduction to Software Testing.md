@@ -56,4 +56,4 @@
 			- It can be human caused (a *programmer's mistake*) or physical (a *short-circuit*)
 		- So we have:
 			- **Faults**, that are the cause of:
-			-
+			- **Latent errors**,

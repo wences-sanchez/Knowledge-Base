@@ -92,7 +92,7 @@
 		- #### Testing Principles: Where
 			- Programmers tend to make mistakes in some frequent places or ways:
 				- Floating points (inherently imprecise in comparisons)
-				- Pointers
+				- Pointers (memory issues)
 				- Parallelism
 				- ...
 			-

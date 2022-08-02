@@ -28,6 +28,12 @@
  {:block/name "contents",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name "coursera",
+  :block/created-at 1659355629307,
+  :block/updated-at 1659355629307}
+ {:block/name "curiosities",
+  :block/created-at 1659351216531,
+  :block/updated-at 1659351216531}
  {:block/name "dev-notes",
   :block/created-at 1658832523329,
   :block/updated-at 1658832523329}
@@ -51,13 +57,13 @@
   :block/updated-at 1658772277799}
  {:block/name "introduction to software testing",
   :block/created-at 1659337626251,
-  :block/updated-at 1659342026056}
+  :block/updated-at 1659362957011}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
  {:block/name "monday, 01-08-2022",
   :block/created-at 1659337536169,
-  :block/updated-at 1659343955841}
+  :block/updated-at 1659348151713}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1658839142679,
   :block/updated-at 1658839142679}
@@ -82,6 +88,9 @@
  {:block/name "sunday, 31-07-2022",
   :block/created-at 1659337536585,
   :block/updated-at 1659337536585}
+ {:block/name "sw-testing",
+  :block/created-at 1659355668909,
+  :block/updated-at 1659355668909}
  {:block/name "tags",
   :block/created-at 1658775007501,
   :block/updated-at 1658775007501}

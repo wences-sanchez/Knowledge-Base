@@ -220,7 +220,7 @@
 			- You have to compare the existing schedule versus the actual schedule that's being done.
 			- And list what defects are still open, so that the managers can see what things are still wrong.
 			- You have to communicate, you are not isolated.
-		- #### Risk-based Test Planning
+		- #### Risk-based Test Planning #spaced
 			- ![image.png](../assets/image_1659451466829_0.png)
 			-
 		- #### Quiz

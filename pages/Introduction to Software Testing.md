@@ -270,7 +270,7 @@
 			- ...
 		- #### Software Defect Reports: Track, Retest and Close
 			- Track
-				-
+				- Having
 			-
 -
 -

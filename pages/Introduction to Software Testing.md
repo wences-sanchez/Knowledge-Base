@@ -65,9 +65,9 @@
 			- **Error removal:** minimizing, by *verification*, the presence of latent errors. (This is where **testing** stands).
 			- **Error forecasting:** estimating, by *evaluation*, the presence, the creation, and the consequences of errors.
 		- Schema: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472}
-			- Dependability:
-				- Impairments (*things we're trying to avoid*):
-					- Faults: the mistakes and other things to avoid.
+			- **Dependability**:
+				- **Impairments** (*things we're trying to avoid*):
+					- **Faults**: the mistakes and other things to avoid.
 					- Errors: all programmers make mistakes.
 					- Failures: eventually those mistakes introduce errors into the code. We want those not lead into failures.
 				- Means:

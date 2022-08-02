@@ -58,4 +58,4 @@
 			- **Faults**, which are the cause of:
 			- **Latent errors**, which become:
 			- **Effective errors** if the system reaches a state where the error can manifest, which may cause:
-			- **
+			- **Failures** if the error causes a

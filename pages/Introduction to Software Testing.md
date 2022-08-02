@@ -90,7 +90,7 @@
 		- Quizzes
 			- Pregunta 3
 			  
-			  Availability is the same as reliability.
+			  Is availability is the same as reliability.
 			  
 			  **1 / 1 punto**
 			  

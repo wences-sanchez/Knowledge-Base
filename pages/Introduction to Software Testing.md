@@ -211,7 +211,7 @@
 				- White-box testing at its core
 			- Design Verification Test
 				- First, integration tests
-				-
+				- Next, functio
 			- System Validation Test
 				- Once the feature is complete, we test
 			- Customer Acceptance Test / CAT Plan

@@ -209,7 +209,7 @@
 		- #### Stages of Software Testing Process
 			- Unit Test / Unit Test Plan
 				- White-box testing at its core
-			- Design Verification Test
+			- Design **Verification** Test
 				- First, **integration** tests
 				- Next, **functional** testing
 			- System Validation Test

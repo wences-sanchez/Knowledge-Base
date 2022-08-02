@@ -192,7 +192,7 @@
 			- We use the Test Plan as a tool, not as a product.
 			- We have to be specific about what and who.
 			- A test plan is useful to:
-				-
+				- Measuring software
 		- #### Quiz
 			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  

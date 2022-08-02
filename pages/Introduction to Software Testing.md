@@ -260,7 +260,7 @@
 			-
 			- Communicate with the developer, but make your own decisions
 		- #### Software Defect Reports: Report Content
-			- 1. Title: Mus
+			- 1. Title: Must convey in a limited numbe
 			- Description: What you did to reach to the problem (no more)
 			-
 			-

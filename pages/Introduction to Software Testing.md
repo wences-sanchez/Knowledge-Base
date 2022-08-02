@@ -190,9 +190,7 @@
 				- That is, if we find too many defects, we hand it **back to development** for further unit testing before we really start our own work.
 		- #### Quiz
 			- Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
-			- **0 / 1 punto**
-			- System Validation Test
-			- Customer Acceptance Test
+			  System Validation Test
 			- Unit Test
 			- Unit Testing Plan
 			- Incorrecto

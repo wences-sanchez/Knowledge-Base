@@ -171,8 +171,8 @@
 			- This plan is created by testers.
 			- The DVT *(Design Verification Test)* checks if we build the thing right.
 			- The SVT *(System Validation Test)* checks if we build the right thing.
+			- ![image.png](../assets/image_1659438258912_0.png)
 			-
-				-
 -
 -
 -

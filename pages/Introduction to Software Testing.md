@@ -248,7 +248,8 @@
 			- Even reported, we don't know most of the times the exact root cause.
 			- What is the Analysis of a software defect?
 				- Find the root-cause
-				- Determine if it
+				- Determine if it is reproducible or repeatable
+				-
 			-
 -
 -

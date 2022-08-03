@@ -370,8 +370,9 @@
 					- Even Java can't solve the problem of different platforms
 					- Factors:
 						- Change in date/time
-						- nderlying OS
+						- Underlying OS
 						- GUI framework (pointer, cursor...)
 						- Amount of available memory
 						- Processor speed
 						- Pointers
+					-

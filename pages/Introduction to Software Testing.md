@@ -281,7 +281,8 @@
 - ## Week 4
 	- ### Lesson 1: Test Doubles
 		- #### Test Doubles: Introduction
-			- Test Doubles are lightweight versions of components that are necessary to test some class or system, usually designated the System Under Test (SUT)
+			- **Test Doubles** are lightweight versions of components that are necessary to test some class or system, usually designated the System Under Test (SUT).
+			-
 -
 -
 -

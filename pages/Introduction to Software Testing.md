@@ -375,4 +375,5 @@
 						- Amount of available memory
 						- Processor speed
 						- Pointers
-				- You could test each thread independently just in order to not have a flae
+				- You could test each thread independently just in order to not have a flakey test.
+			-

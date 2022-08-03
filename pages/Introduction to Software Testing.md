@@ -292,7 +292,7 @@
 			- **Mockito** is a popular framework for creating **test doubles** in *Java*. And it integrates well with JUnit, so that we can quickly construct these *Test Stubs* and *Mock Objects*.
 			- The **goal** is to be able to mock away dependencies for the **unit tests**.
 			- **Mockito** is useful to test things that aren't yet developed or difficult to recreate or simulate:
-				- Dummy objectss
+				- Dummy Objects and Test Stubs
 		-
 		- #### Test Doubles: Input
 			- There are three *ways* of providing **Test Inputs**:

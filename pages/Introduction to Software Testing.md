@@ -302,11 +302,11 @@
 		- #### Quiz
 			- During constructing test doubles, you wish to provide outputs for just a handful of values. What do you use?
 			  
-			  [] Dummy Objects
+			  [ ] Dummy Objects
 			  [ ] Test Doubles
 			  [ ] Test Stubs
 			  [ ] Mock Objects
-			-
+				-
 -
 -
 -

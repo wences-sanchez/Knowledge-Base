@@ -354,5 +354,6 @@
 	- ---
 	- ### Lesson 2: Assessing Adequacy
 		- #### Assessing Adequacy and Code Coverage Analysis with JaCoCo
-	- ### Lesson 3: Flakey Tests and How to avoid
+	- ### Lesson 3: Flakey Tests and How to Avoid Them
+		-
 -

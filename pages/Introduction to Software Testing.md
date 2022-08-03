@@ -358,7 +358,7 @@
 		- #### Flakey Tests and How to Avoid Them
 			- What makes a test flakey?
 				- 1. Concurrency
-				  2.
+					-
 				- 2. Timing
 				- 3. Change in Environment
 -

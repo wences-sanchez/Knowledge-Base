@@ -300,7 +300,13 @@
 				- Test Stubs are the ones which provide those *dummy objects* input data, *pretend* fake responses to a handful of inputs that won't necessarily make the test fail.
 				- Fake Objects are used when we develop lightweight versions of *heavyweight* processes (like databases).
 		- #### Quiz
-			-
+			- #flaschard
+			- When providing test inputs for test doubles, we want to use ____ and ____.
+			- **1 punto**
+			- Mock objects; Spy objects
+			- Dummy objects; Mock objects
+			- Test stubs; Spy objects
+			- Dummy objects; Test stubs
 			- #flaschard **Pregunta 2:** During constructing test doubles, you wish to provide outputs for just a handful of values. What do you use?
 			  
 			  [ ] Dummy Objects

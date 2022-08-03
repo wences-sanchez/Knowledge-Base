@@ -294,7 +294,8 @@
 			- **Mockito** is useful to test things that aren't yet developed or difficult to recreate or simulate.
 		-
 		- #### Test Doubles: Input
-			- There are three ways of providing Test Inputs:
+			- There are three *ways* of providing **Test Inputs**:
+				-
 -
 -
 -

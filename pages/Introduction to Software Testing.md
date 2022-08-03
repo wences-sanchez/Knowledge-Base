@@ -332,7 +332,8 @@
 					- Methods called in proper order
 					- Methods called / not called
 					- Proper parameters to method calls
-			- **Mock Objects** allow us to observe interactions of fal
+			- **Mock Objects** allow us to observe interactions of fake objects
+			- **Spy Objects** allow
 -
 -
 -

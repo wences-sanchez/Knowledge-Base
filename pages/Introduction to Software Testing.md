@@ -295,7 +295,8 @@
 		-
 		- #### Test Doubles: Input
 			- There are three *ways* of providing **Test Inputs**:
-				- Dummy Objects are used when we fill a parameter in a function that c
+				- Dummy Objects are used when we fill a parameter in a function that could be null
+				- Test Stubs
 -
 -
 -

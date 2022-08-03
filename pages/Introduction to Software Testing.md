@@ -299,7 +299,12 @@
 				- Dummy Objects are used when we fill a parameter in a function that cannot be null
 				- Test Stubs are the ones which provide those *dummy objects* input data, *pretend* fake responses to a handful of inputs that won't necessarily make the test fail.
 				- Fake Objects are used when we develop lightweight versions of *heavyweight* processes (like databases).
-		- ####
+		- #### Quiz
+			- During constructing test doubles, you wish to provide outputs for just a handful of values. What do you use?
+			- Dummy Objects
+			- Test Doubles
+			- Test Stubs
+			- Mock Objects
 -
 -
 -

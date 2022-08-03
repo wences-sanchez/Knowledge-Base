@@ -159,7 +159,7 @@
 	- Why do we have to indicate the exact path when calling a script in Linux? #flashcard
 	  collapsed:: true
 		- The scripts cannot be executed from a relative path because of security concerns of Linux
-	- How can we check the exit code of the last command in Bash? #flaschard
+	- How can we check the exit code of the last command in Bash? #flashcard
 		- With the token **$?**
 	- What do you have to type in Google to search Bash stuff? #flashcard
 	  collapsed:: true
@@ -328,7 +328,7 @@
 -
 - ---
 - #### Flashcards
-	- How could you do to search about special meanings of every test character in Bash? #flaschard #dev-notes
+	- How could you do to search about special meanings of every test character in Bash? #flashcard #dev-notes
 	  collapsed:: true
 		- With $ help test
 	-

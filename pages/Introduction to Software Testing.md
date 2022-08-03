@@ -15,7 +15,7 @@
 			- **System tests:** testing the entire system
 		- Even with **TDD**, there is *re-test* when you modify your code.
 		- The function f(x) of a program is not continuous, so we can't derive its output (unlike other engineering fields) to test it. #Curiosities
-		- *Optimistic* VS *Pessimistic* **testing** #flaschard
+		- *Optimistic* VS *Pessimistic* **testing** #flashcard
 			- **Optimistic** means that the system gives you a lot of outputs. And you'll have to be careful because of the false positives.
 				- > They say your program is right, when in fact it may be wrong in some cases.
 			- **Pessimistic** means that the system gives you a lot of false negatives that you (the human) have to discard.
@@ -38,7 +38,7 @@
 			- By the called *Oracle*
 		- We have to automate testing output upon ***the oracle***.
 		-
-		- Anatomy of the parts of a Test: #flaschard
+		- Anatomy of the parts of a Test: #flashcard
 			- 1. **Setup**: How you put the software under test into the state under which the test input would make sense.
 			  2. **Invocation**: Merely the execution of a single test case.
 			  3. **Assessment**: The act of observing the behavior of that software under test.
@@ -66,7 +66,7 @@
 				- **Fault tolerance:** by redundancy.
 				- **Error removal:** minimizing, by *verification*, the presence of latent errors. (This is where **testing** stands).
 				- **Error forecasting:** estimating, by *evaluation*, the presence, the creation, and the consequences of errors.
-		- Explain the graph: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472} #flaschard
+		- Explain the graph: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472} #flashcard
 			-
 			- **Dependability**:
 				- **Impairments** (*things we're trying to avoid*):
@@ -93,7 +93,7 @@
 				- ![image.png](../assets/image_1659427299208_0.png)
 			-
 			- ![image.png](../assets/image_1659428454929_0.png)
-		- #### Testing Principles: Where #flaschard
+		- #### Testing Principles: Where #flashcard
 			- Programmers tend to make mistakes in some frequent places or ways:
 				- Floating points (inherently imprecise in comparisons)
 				- Pointers (memory difficult issues)
@@ -115,11 +115,11 @@
 			  *Is availability is the same as reliability?*
 			  
 			  [ ] True
-			  [ ] False #flaschard
+			  [ ] False #flashcard
 				- Correcto: False
 				  
 				  >Correct: availability says the system is running, reliability says that it is doing the right thing.
-			- Pregunta 4 #flaschard 
+			- Pregunta 4 #flashcard 
 			  
 			  *A correct system (with respect to its requirements) will be safe.*
 			  
@@ -128,7 +128,7 @@
 				- Correcto: *False*
 				  
 				  > Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
-			- Pregunta 5 #flaschard 
+			- Pregunta 5 #flashcard 
 			  
 			  *A correct system will be reliable.*
 			  
@@ -147,7 +147,7 @@
 			- #### Structural Testing
 				- Code Coverage
 			- #### Mutation Testing
-				- When do we say that a mutant is *killed* in Mutation testing? #flaschard
+				- When do we say that a mutant is *killed* in Mutation testing? #flashcard
 					- A mutant is *killed* when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program.
 					- If all our tests pass after creating mutants in our AUT, then we have a problem.
 						- The next step should be write more test cases (in order to *kill* them) if the tests pass.
@@ -156,7 +156,7 @@
 				- ![image.png](../assets/image_1659433953975_0.png)
 		- #### Quizzes
 		  collapsed:: true
-			- #flaschard Pregunta 8: Adaptive cruise control software that continues to run in the presence of multiple hardware and service failures but regularly misjudges the distance between cars by a substantial amount is an example of a ______ system.
+			- #flashcard Pregunta 8: Adaptive cruise control software that continues to run in the presence of multiple hardware and service failures but regularly misjudges the distance between cars by a substantial amount is an example of a ______ system.
 			  
 			  [ ] certainly reliable
 			  [ ] certainly correct
@@ -167,14 +167,14 @@
 - ---
 - ## Week 3
 	- ### Lesson 1: Fundamental Testing Processes
-		- #### What is a test plan? #flaschard
+		- #### What is a test plan? #flashcard
 			- ![image.png](../assets/image_1659437816019_0.png)
 			- This plan is created by testers.
 			- The DVT *(Design Verification Test)* checks if we build the thing right.
 			- The SVT *(System Validation Test)* checks if we build the right thing.
 			- There is also the CAT *(Customer Acceptance Test)*
 			-
-		- Mention the components of a Test Plan: #flaschard
+		- Mention the components of a Test Plan: #flashcard
 			- ![image.png](../assets/image_1659438258912_0.png)
 			- **Scope:** means you know your domain.
 				- There's no way to properly definen your tests without knowing the bounds and the domain within your project works.
@@ -224,7 +224,7 @@
 			- ![image.png](../assets/image_1659451466829_0.png)
 			- **Testing** is our primary means of reducing **risk**.
 		- #### Quiz
-			- Question 2: #flaschard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
+			- Question 2: #flashcard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
 			  
 			  [] System Validation Test
 			  [] Customer Acceptance Test
@@ -237,7 +237,7 @@
 	- ---
 	- ## Lesson 2: Software Defect Reports
 		- #### Software Defect Reports
-			- What is the defect (bug) lifecycle? #flaschard
+			- What is the defect (bug) lifecycle? #flashcard
 				- 1. **Analyze**: Analyze bug to ensure proper reporting
 				  2. **Report**: Make report
 				  3. **Track**: Track status of the fix

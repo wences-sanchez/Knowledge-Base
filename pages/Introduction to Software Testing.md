@@ -358,7 +358,7 @@
 		- #### Flakey Tests and How to Avoid Them
 			- What makes a test flakey?
 				- 1. Concurrency
-					-
+					- Introduces subtle failures int o
 				- 2. Timing
 				- 3. Change in Environment
 -

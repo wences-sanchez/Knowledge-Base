@@ -353,5 +353,6 @@
 -
 	- ---
 	- ### Lesson 2: Assessing Adequacy
-		- #### Assessing Adequacy and Code Coverage Analysis
+		- #### Assessing Adequacy and Code Coverage Analysis with JaCoCo
+			-
 -

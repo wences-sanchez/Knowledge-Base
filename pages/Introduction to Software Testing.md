@@ -110,29 +110,26 @@
 			-
 		- Quizzes
 		  collapsed:: true
-			- #Flashcard Pregunta 3
+		- #flashcard Pregunta 3
+		  
+		  *Is availability is the same as reliability?*
+		  
+		  [ ] True
+		  [ ] False
+			- Correcto: False
 			  
-			  *Is availability is the same as reliability?*
-			  
-			  [ ] True
-			  [ ] False
-				- Correcto: False
-				  
-				  >Correct: availability says the system is running, reliability says that it is doing the right thing.
-			- Pregunta 4 #flashcard 
-			  
+			  >Correct: availability says the system is running, reliability says that it is doing the right thing.
+			- Pregunta 4
 			  *A correct system (with respect to its requirements) will be safe.*
-			  
 			  [ ] True
-			  [ ] False
+			  [ ] False #flashcard
 				- Correcto: *False*
 				  
 				  > Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
-			- #FPregunta 5
+			- Pregunta 5
 			  *A correct system will be reliable.*
-			   
 			  [ ] True
-			  [ ] False
+			  [ ] False #flashcard
 				- Correcto: *True*
 				  > Reliability is defined in terms of meeting requirements; by definition, a correct system is reliable.
 		-

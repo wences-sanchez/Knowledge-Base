@@ -363,7 +363,7 @@
 						- Multiple processes
 					- Results from multiple threads may be generated in:
 						- Differente orders
-						-
+						- Different timings
 				- 2. Timing
 				- 3. Change in Environment
 -

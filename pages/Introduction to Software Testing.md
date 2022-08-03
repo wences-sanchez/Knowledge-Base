@@ -301,10 +301,10 @@
 				- Fake Objects are used when we develop lightweight versions of *heavyweight* processes (like databases).
 		- #### Quiz
 			- During constructing test doubles, you wish to provide outputs for just a handful of values. What do you use?
-				- Dummy Objects
-				- Test Doubles
-				- Test Stubs
-				- Mock Objects
+			- Dummy Objects
+			- Test Doubles
+			- Test Stubs
+			- Mock Objects
 -
 -
 -

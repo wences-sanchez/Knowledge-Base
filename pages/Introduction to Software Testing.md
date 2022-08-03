@@ -294,7 +294,7 @@
 			- **Mockito** is useful to test things that aren't yet developed or difficult to recreate or simulate.
 		-
 		- #### Test Doubles: Input
-			- There are t
+			- There are three ways of pri
 -
 -
 -

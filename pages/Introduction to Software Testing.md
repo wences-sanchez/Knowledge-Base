@@ -317,7 +317,7 @@
 			  
 			  [ ] Test Stubs
 			  [ ] Fake Objects
-				- Incorrecto: *~~Fake Objects~~*
+				- Incorrecto: *~~Test Stubs~~*
 				- Test stubs would only provide outputs for a few values.
 -
 -

@@ -286,6 +286,7 @@
 			- The **Test Doubles** can be:
 				- Dummy Objects: dummy values required as parameters that we fill
 				- Test Stubs: provide dummy input data sources used by the SUT.
+				-
 -
 -
 -

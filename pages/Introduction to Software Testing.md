@@ -314,6 +314,7 @@
 			  [ ] Test Doubles
 			  [ ] Test Stubs
 			  [ ] Mock Objects
+				-
 			- #flaschard **Pregunta 3:** During testing, you find that the unit tests require the use of a computationally expensive database. What could you use as a test double?
 			  
 			  [ ] Test Stubs

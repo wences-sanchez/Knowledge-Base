@@ -372,5 +372,5 @@
 						- Change in date/time
 						- underlying OS
 						- GUI framework (pointer, cursor...)
-						- memory
+						- amount of memory
 						- processor speed

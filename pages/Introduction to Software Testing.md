@@ -313,8 +313,7 @@
 			  [ ] Test Doubles
 			  [ ] Test Stubs
 			  [ ] Mock Objects
--
--
+			-
 -
 -
 -

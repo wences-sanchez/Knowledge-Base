@@ -357,5 +357,7 @@
 	- ### Lesson 3: Flakey Tests and How to Avoid Them
 		- #### Flakey Tests and How to Avoid Them
 			- What makes a test flakey?
-				-
+				- Concurrency
+				- Timing
+				- Change in Environtm
 -

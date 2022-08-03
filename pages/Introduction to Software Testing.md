@@ -341,7 +341,8 @@
 			  Spy; Mock
 			  Dummy; Mock
 			  Mock; Spy
-				-
+				- Correcto: *
+				- Mock objects allow observation of the interaction of fake objects whereas spy objects allow us to observe the interactions of real objects.
 			- #flashcard **Pregunta 6:**
 			  In Mockito, it is possible to create an object that is both a stub and a mock.
 			  

@@ -289,7 +289,7 @@
 				- **Fake Objects**: use in-memory lightweight implementations of *'heavyweight'* processes like databases.
 				- **Mock Objects**: check indirect results produced by the SUT.
 				- The first three provide *Test Inputs*,  and the last one: *Mock Objects*, allow us to minitor the test in a finer-grained way.
-				- **Mockito*
+				- **Mockito**
 -
 -
 -

@@ -345,8 +345,8 @@
 			  In Mockito, it is possible to create an object that is both a stub and a mock.
 			  
 			  [ ] True
-			  False
--
+			  [ ] False
+				-
 -
 -
 -

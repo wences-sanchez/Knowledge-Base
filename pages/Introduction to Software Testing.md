@@ -306,7 +306,9 @@
 			  [ ] Dummy objects; Mock objects
 			  [ ] Test stubs; Spy objects
 			  [ ] Dummy objects; Test stubs
-				-
+				- SDummy objects; Test stubs
+				- Correcto
+				- Correct! These would be dummy objects and test stubs. Mock and spy objects are used for outputs.
 			- #flaschard **Pregunta 2:** During constructing test doubles, you wish to provide outputs for just a handful of values. What do you use?
 			  
 			  [ ] Dummy Objects

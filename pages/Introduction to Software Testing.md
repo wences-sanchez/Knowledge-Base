@@ -128,10 +128,9 @@
 				- Correcto: *False*
 				  
 				  > Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
-			- Pregunta 5 #flashcard 
-			  
+			- #FPregunta 5
 			  *A correct system will be reliable.*
-			  
+			   
 			  [ ] True
 			  [ ] False
 				- Correcto: *True*
@@ -156,7 +155,6 @@
 		- #### Quizzes
 		  collapsed:: true
 			- #flashcard Pregunta 8: Adaptive cruise control software that continues to run in the presence of multiple hardware and service failures but regularly misjudges the distance between cars by a substantial amount is an example of a ______ system.
-			  
 			  [ ] certainly reliable
 			  [ ] certainly correct
 			  [ ] certainly safe

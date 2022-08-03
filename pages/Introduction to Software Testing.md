@@ -285,7 +285,7 @@
 				- Like databases, real components that are not yet finished,...
 			- The **Test Doubles** can be:
 				- Dummy Objects: dummy values that we fill
-				- Test Stubs:
+				- Test Stubs: provide dummy input data ssourc
 -
 -
 -

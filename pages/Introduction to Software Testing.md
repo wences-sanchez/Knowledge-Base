@@ -371,4 +371,4 @@
 					- Factors:
 						- Change in date/time
 						- underlying OS
-						- GUI
+						- GUI framework (pointer, c)

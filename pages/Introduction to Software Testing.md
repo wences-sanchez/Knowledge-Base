@@ -336,10 +336,12 @@
 				- > Test stubs would only provide outputs for a few values.
 				- > Fake objects would replace expensive with cheap (for instance, an in memory database).
 			- #flashcard **Pregunta 4:** <...> objects allow us to observe interactions of fake objects. <...> objects allow us to observe interactions of real objects.
+			  
 			  Mock; Dummy
 			  Spy; Mock
 			  Dummy; Mock
 			  Mock; Spy
+				-
 -
 -
 -

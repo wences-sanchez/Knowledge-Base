@@ -364,7 +364,7 @@
 					- Results from multiple threads may be generated in:
 						- Different orders
 						- Different timings
-					- ...and may legitimately produce **different results** if threads are no
+					- ...and may legitimately produce **different results** if threads are not independent fromone a
 				- 2. Timing
 				- 3. Change in Environment
 -

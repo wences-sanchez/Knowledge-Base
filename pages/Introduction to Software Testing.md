@@ -332,7 +332,7 @@
 					- Methods called in proper order
 					- Methods called / not called
 					- Proper parameters to method calls
-			-
+			- **Mock Objects** allow
 -
 -
 -

@@ -375,4 +375,4 @@
 						- Amount of available memory
 						- Processor speed
 						- Pointers
-				- You could
+				- You could test each thread

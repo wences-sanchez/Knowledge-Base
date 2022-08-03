@@ -319,6 +319,8 @@
 			  [ ] Fake Objects
 				- Incorrecto: *~~Test Stubs~~*
 				- > Test stubs would only provide outputs for a few values.
+				- Correcto
+				- Fake objects would replace expensive with cheap (for instance, an in memory database).
 -
 -
 -

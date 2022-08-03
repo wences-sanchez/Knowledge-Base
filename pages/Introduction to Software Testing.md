@@ -335,7 +335,7 @@
 				- Incorrecto: *~~Test Stubs~~*
 				- > Test stubs would only provide outputs for a few values.
 				- > Fake objects would replace expensive with cheap (for instance, an in memory database).
-			- #flashcard ______ objects allow us to observe interactions of fake objects. _____ objects allow us to observe interactions of real objects.
+			- #flashcard ___ objects allow us to observe interactions of fake objects. _____ objects allow us to observe interactions of real objects.
 			- **1 punto**
 			- Mock; Dummy
 			- Spy; Mock

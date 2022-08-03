@@ -288,7 +288,7 @@
 				- **Test Stubs**: provide dummy input data sources used by the SUT.
 				- **Fake Objects**: use in-memory lightweight implementations of *'heavyweight'* processes like databases.
 				- **Mock Objects**: check indirect results produced by the SUT.
-				- The first three provide *Test Inputs*,  and the last one: *Mock Objects*,
+				- The first three provide *Test Inputs*,  and the last one: *Mock Objects*, a
 -
 -
 -

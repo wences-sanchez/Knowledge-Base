@@ -352,5 +352,6 @@
 				- > Yes; an example of this is found in the lecture at approximately 3 minutes.
 -
 	- ---
-	- ### Lesson
+	- ### Lesson 2: Assessing Adequacy
+		-
 -

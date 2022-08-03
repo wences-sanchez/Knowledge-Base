@@ -226,7 +226,6 @@
 			- **Testing** is our primary means of reducing **risk**.
 		- #### Quiz
 			- Question 2: #flashcard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
-			  
 			  [] System Validation Test
 			  [] Customer Acceptance Test
 			  [] Unit Test

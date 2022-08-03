@@ -366,5 +366,5 @@
 						- Different timings
 					- ...and may legitimately produce **different results** if threads are not independent from one another.
 				- 2. Timing
-				- 3. Change in Environment
+				- 3. Change in **Environment**
 -

@@ -289,7 +289,7 @@
 				- **Fake Objects**: use in-memory lightweight implementations of *'heavyweight'* processes like databases.
 				- **Mock Objects**: check indirect results produced by the SUT.
 			- The first three provide *Test Inputs*,  and the last one: *Mock Objects*, allow us to minitor the test in a finer-grained way.
-			- **Mockito** is a popular framework for creating **test doubles** in *Java*. And it integrates well with JUnit, so that we can quickly an
+			- **Mockito** is a popular framework for creating **test doubles** in *Java*. And it integrates well with JUnit, so that we can quickly construct these Test Stu
 -
 -
 -

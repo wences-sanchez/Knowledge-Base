@@ -364,7 +364,7 @@
 					- Results from multiple threads may be generated in:
 						- Different orders
 						- Different timings
-					- ...and may legit
+					- ...and may legitimately produce **dife
 				- 2. Timing
 				- 3. Change in Environment
 -

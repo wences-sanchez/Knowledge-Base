@@ -281,7 +281,7 @@
 - ## Week 4
 	- ### Lesson 1: Test Doubles
 		- #### Test Doubles: Introduction
-			- Test Doubles are lightw
+			- Test Doubles are lightweight versions of components that are ne
 -
 -
 -

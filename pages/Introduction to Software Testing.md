@@ -325,7 +325,8 @@
 				- Incorrecto: *~~Test Stubs~~*
 				- > Test stubs would only provide outputs for a few values.
 				- > Fake objects would replace expensive with cheap (for instance, an in memory database).
-		- #### Test Doubles:
+		- #### Test Doubles: Output
+			-
 -
 -
 -

@@ -375,4 +375,4 @@
 						- Amount of available memory
 						- Processor speed
 						- Pointers
-				- You could test each thread independently just in do
+				- You could test each thread independently just in order to not have a flae

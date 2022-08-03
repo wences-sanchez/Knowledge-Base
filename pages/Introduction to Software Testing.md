@@ -310,7 +310,6 @@
 			- **Mocks** and **spies** will allow **fine grain monitoring** of the *system under test*.
 			-
 		- #### Quiz
-		  collapsed:: true
 			- #flaschard **Pregunta 1:** When providing test inputs for test doubles, we want to use ____ and ____.
 			  
 			  [ ] Mock objects; Spy objects

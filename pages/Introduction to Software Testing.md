@@ -296,7 +296,7 @@
 		- #### Test Doubles: Input
 			- There are three *ways* of providing **Test Inputs**:
 				- Dummy Objects are used when we fill a parameter in a function that cannot be null
-				- Test Stubs are the ones which provide those *dummy objects* input data, *pretend* ca
+				- Test Stubs are the ones which provide those *dummy objects* input data, *pretend* responses
 				- Fake Objects are used when we build lightweight versions of *heavyweight* processes (like databases).
 -
 -

@@ -27,7 +27,7 @@
   :block/updated-at 1658772277798}
  {:block/name "contents",
   :block/created-at 1658772277798,
-  :block/updated-at 1658772277798}
+  :block/updated-at 1659465268593}
  {:block/name "coursera",
   :block/created-at 1659355629307,
   :block/updated-at 1659355629307}
@@ -102,7 +102,7 @@
   :block/updated-at 1658772277799}
  {:block/name "tuesday, 02-08-2022",
   :block/created-at 1659423572393,
-  :block/updated-at 1659457176576}
+  :block/updated-at 1659465191834}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1658839142633,
   :block/updated-at 1659034356945}

@@ -277,8 +277,8 @@
 					  2. Problem remains (unchanged)
 					  3. Problem is replaced by a new problem
 			- Close
-				-
-			-
+- ---
+-
 -
 -
 -

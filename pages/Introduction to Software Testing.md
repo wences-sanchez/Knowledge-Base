@@ -367,5 +367,5 @@
 					- ...and may legitimately produce **different results** if threads are not independent from one another.
 				- 2. Timing
 				- 3. Change in **Environment**
-					- Even Java can't assure
+					- Even Java can't solve
 -

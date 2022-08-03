@@ -284,7 +284,7 @@
 			- **Test Doubles** are lightweight versions of components that are necessary to test some class or system, usually designated the System Under Test (**SUT**).
 				- Like databases, real components that are not yet finished,...
 			- The **Test Doubles** can be:
-				- Dummy Objects: dummy values required as parameters that we fill
+				- **Dummy Objects**: dummy values required as parameters that we fill
 				- Test Stubs: provide dummy input data sources used by the SUT.
 				- Fake Objects: use in-memory lightweight implementations of *'heavyweight'* processes like databases
 -

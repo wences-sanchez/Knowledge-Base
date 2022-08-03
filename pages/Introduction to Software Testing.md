@@ -330,7 +330,8 @@
 			- Testing is more than checking **function outputs**.
 				- We want to test **interactions**
 					- Methods called in proper order
-					-
+					- Methods called / not called
+					- Proper paramete
 -
 -
 -

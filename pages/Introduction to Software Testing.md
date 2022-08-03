@@ -357,7 +357,7 @@
 	- ### Lesson 3: Flakey Tests and How to Avoid Them
 		- #### Flakey Tests and How to Avoid Them
 			- What makes a test flakey?
-				- 1. Concurrency
+				- 1. **Concurrency**
 					- Introduces subtle failures into code and tests:
 						- Multiple threads
 						- Multiple processes

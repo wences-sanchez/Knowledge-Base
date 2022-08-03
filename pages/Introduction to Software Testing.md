@@ -288,7 +288,7 @@
 				- **Test Stubs**: provide dummy input data sources used by the SUT.
 				- **Fake Objects**: use in-memory lightweight implementations of *'heavyweight'* processes like databases.
 				- **Mock Objects**: check indirect results produced by the SUT.
-			- The first three provide *Test Inputs*,  and the last one: *Mock Objects*, allow us to minitor the test in a finer-grained way.
+			- The first three provide *Test Inputs*,  and the last one: *Mock Objects*, allow us to monitor the test in a finer-grained way.
 			- **Mockito** is a popular framework for creating **test doubles** in *Java*. And it integrates well with JUnit, so that we can quickly construct these *Test Stubs* and *Mock Objects*.
 			- The **goal** is to be able to mock away dependencies for the **unit tests**.
 			- **Mockito** is useful to test things that aren't yet developed or difficult to recreate or simulate:

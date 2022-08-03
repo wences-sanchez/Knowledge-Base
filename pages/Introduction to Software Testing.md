@@ -353,5 +353,5 @@
 -
 	- ---
 	- ### Lesson 2: Assessing Adequacy
-		- #### Assessing
+		- #### Assessing Adequacy and Code Coverage Analysis
 -

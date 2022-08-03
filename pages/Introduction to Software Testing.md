@@ -143,15 +143,14 @@
 			- A product could meet the validation but also be very bad. (**That's not the goal XD**)
 				- For example, a car with a big boat tied by ropes in a very weird way.
 	- ### Lesson 3: Introduction to Systematic Testing
-		- About *Lesson 3: Introduction to Systematic Testing* #spaced
-			- #### Structural Testing
-				- Code Coverage
-			- #### Mutation Testing
-				- When do we say that a mutant is *killed* in Mutation testing? #flashcard
-					- A mutant is *killed* when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program.
-					- If all our tests pass after creating mutants in our AUT, then we have a problem.
-						- The next step should be write more test cases (in order to *kill* them) if the tests pass.
-						- Otherwise, (if our tests catch the negative outputs) we'll have found new valid test cases and our test suite will be more comprehensive.
+		- #### Structural Testing
+		- Code Coverage
+		- #### Mutation Testing
+			- When do we say that a mutant is *killed* in Mutation testing? #flashcard
+				- A mutant is *killed* when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program.
+				- If all our tests pass after creating mutants in our AUT, then we have a problem.
+					- The next step should be write more test cases (in order to *kill* them) if the tests pass.
+					- Otherwise, (if our tests catch the negative outputs) we'll have found new valid test cases and our test suite will be more comprehensive.
 				- ![image.png](../assets/image_1659433909397_0.png)
 				- ![image.png](../assets/image_1659433953975_0.png)
 		- #### Quizzes

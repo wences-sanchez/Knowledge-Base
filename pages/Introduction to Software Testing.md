@@ -287,7 +287,8 @@
 				- **Dummy Objects**: dummy values required as parameters that we fill.
 				- **Test Stubs**: provide dummy input data sources used by the SUT.
 				- **Fake Objects**: use in-memory lightweight implementations of *'heavyweight'* processes like databases.
-				- Mock Objects: check indirect results produced by the SUT
+				- **Mock Objects**: check indirect results produced by the SUT.
+				-
 -
 -
 -

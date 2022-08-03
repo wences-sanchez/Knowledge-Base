@@ -328,7 +328,7 @@
 				- > Fake objects would replace expensive with cheap (for instance, an in memory database).
 		- #### Test Doubles: Output
 			- Testing is more than checking **function outputs**.
-				- We want to test inte
+				- We want to test **interactions**
 -
 -
 -

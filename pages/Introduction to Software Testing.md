@@ -307,7 +307,7 @@
 					- Proper parameters to method calls
 			- **Mock Objects** allow us to observe **interactions** of *fake* objects
 			- **Spy Objects** allow us to observe **interactions** of *real* objects.
-			- **Mocks** and **spies** will allow fine grain monitoring of the system under test.
+			- **Mocks** and **spies** will allow **fine grain monitoring** of the system under test.
 			-
 		- #### Quiz
 		  collapsed:: true

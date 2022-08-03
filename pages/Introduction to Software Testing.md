@@ -305,7 +305,8 @@
 			  - Dummy Objects
 			  - Test Doubles
 			  - Test Stubs
-			  Mock Objects
+			  - Mock Objects
+			-
 -
 -
 -

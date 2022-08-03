@@ -342,8 +342,7 @@
 			  Dummy; Mock
 			  Mock; Spy
 			- #flashcard
-			- ### 6 .
-			  Pregunta 6
+			- **Pregunta 6**
 			  
 			  In Mockito, it is possible to create an object that is both a stub and a mock.
 			  

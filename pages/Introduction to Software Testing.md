@@ -353,5 +353,5 @@
 -
 	- ---
 	- ### Lesson 2: Assessing Adequacy
-		-
+		- #### Assessing
 -

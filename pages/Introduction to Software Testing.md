@@ -361,7 +361,8 @@
 					- Introduces subtle failures into code and tests:
 						- Multiple threads
 						- Multiple processes
-					- Results from multiple threads
+					- Results from multiple threads may be generated in:
+						-
 				- 2. Timing
 				- 3. Change in Environment
 -

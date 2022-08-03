@@ -47,7 +47,6 @@
 - ## Week 2
 	- ### Lesson 1: Testing Principles
 		- About *Lesson 1: Testing Principles* #spaced
-		  collapsed:: true
 			- **Dependability** is what you would expect.
 				- We're interested in determining whether or not the software is dependable, that is whether it delivers a service such that we can rely on it.
 			- **Service** is the system behavior as it's perceived by the user of the system.

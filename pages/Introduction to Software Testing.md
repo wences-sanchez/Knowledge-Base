@@ -371,4 +371,6 @@
 					- Factors:
 						- Change in date/time
 						- underlying OS
-						- GUI framework (pointer, c)
+						- GUI framework (pointer, cursor...)
+						- memory
+						-

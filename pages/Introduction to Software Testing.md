@@ -295,7 +295,7 @@
 		-
 		- #### Test Doubles: Input
 			- There are three *ways* of providing **Test Inputs**:
-				- * Dummy
+				- Dummy Objects
 -
 -
 -

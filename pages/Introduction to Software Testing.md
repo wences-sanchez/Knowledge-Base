@@ -359,7 +359,8 @@
 			- What makes a test flakey?
 				- 1. Concurrency
 					- Introduces subtle failures into code and tests:
-						-
+						- Multiple threads
+						- Multiple processes
 				- 2. Timing
 				- 3. Change in Environment
 -

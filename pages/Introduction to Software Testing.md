@@ -370,4 +370,5 @@
 					- Even Java can't solve the problem of different platforms
 					- Factors:
 						- Change in date/time
-						-
+						- underlying OS
+						- GUI

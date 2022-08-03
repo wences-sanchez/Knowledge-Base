@@ -301,10 +301,8 @@
 				- Fake Objects are used when we develop lightweight versions of *heavyweight* processes (like databases).
 		- #### Quiz
 			- #flaschard **Pregunta 1:** When providing test inputs for test doubles, we want to use ____ and ____.
-			- **1 punto**
-			- Mock objects; Spy objects
-			- Dummy objects; Mock objects
-			- Test stubs; Spy objects
+			  Mock objects; Spy objects
+			  Dummy objects; Mock objects
 			- Dummy objects; Test stubs
 			- #flaschard **Pregunta 2:** During constructing test doubles, you wish to provide outputs for just a handful of values. What do you use?
 			  

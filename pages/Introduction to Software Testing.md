@@ -331,7 +331,8 @@
 				- We want to test **interactions**
 					- Methods called in proper order
 					- Methods called / not called
-					- Proper paramete
+					- Proper parameters to method calls
+			-
 -
 -
 -

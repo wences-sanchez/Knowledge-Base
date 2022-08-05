@@ -12,7 +12,7 @@
 	- >> **Note:If the terminal is already opened, please skip this step.**
 	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1_ContainersAndDocker/images/env&cmdlinetools_1.png)
 	- 1. Verify that `docker` CLI is installed.
-	- ```
+	- ```ada
 	- docker
 	- ```
 	- You should see the following output, although the version may be different:

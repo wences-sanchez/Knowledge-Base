@@ -1,0 +1,144 @@
+- #+BEGIN_EXPORT hiccup
+  [:center {} "\n      " [:img {:src "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/labs_module_1_images_IDSNlogo.png", :width "300"}] "\n    "]
+  #+END_EXPORT
+# Creating an IBM Cloud Container Registry Namespace
+## Objectives
+
+  
+
+After completing this lab, you will be able to:
+	- Describe the IBM Cloud Container Registry service
+	- Create a Container Registry namespace
+## Lab Overview
+
+  
+
+In this lab you will create an IBM Cloud Container Registry namespace, which you will use in a subsequent labs.
+## Pre-requisites
+
+  
+
+You will need an IBM Cloud account to do this lab. If you have not created one already, click on this [link](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CC0100EN-SkillsNetwork/labs/IBMCloud_accountCreation/CreateIBMCloudAccount.md.html) and follow the instructions to create an IBM Cloud account.
+## About IBM Cloud
+
+  
+
+The IBM Cloud platform is deployed across data centers around the
+ world. It combines platform as a service (PaaS) with infrastructure as a
+ service (IaaS) to provide an integrated experience. The platform scales
+ and supports both large enterprise businesses and small development 
+teams and organizations.
+
+  
+
+The platform is built to support your needs, whether it's working
+ only in the public cloud or taking advantage of a multicloud deployment
+ model. IBM Cloud offers a variety of services, including Compute, 
+Network, Storage, Management, Security, Databases, Analytics, AI, and 
+Cloud Paks.
+## About IBM Cloud Container Registry namespaces
+
+  
+
+IBM Cloud® Container Registry provides a multi-tenant, encrypted 
+private image registry that you can use to store and access your 
+container images in a highly available and scalable architecture. The 
+namespace is a slice of the registry to which you can push your images. 
+The namespace will be a part of the image name when you tag and push an 
+image. For example,  `us.icr.io/<my_namespace>/<my_repo>:<my_tag>` .
+# Create a Container Registry namespace
+	- Go to the [IBM Cloud catalog](https://cloud.ibm.com/catalog?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursescc20117568655-2022-01-01) page.
+	- In the **Catalog** search box, type  `Container Registry` .
+	  
+	  
+	  
+	  
+	  
+	      ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/createns_2.png)
+	- Click on **Container Registry** in the search results.
+	  
+	  
+	  
+	      ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/createns_3.png)
+	- You can now read about the Container Registry service and 
+	  visit links for API documentation and docs about how to use the service.
+	  
+	  
+	  
+	      ![Registry catalog](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/registry-catalog.png)
+	- At the top right, click **Get started**.
+	  
+	  
+	  
+	      ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/createns_5.png)
+	- Ensure that the location is set to **Dallas**.
+	  
+	  
+	  
+	      ![Container Registry location](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/registry-location.png)
+	- On the left hand side panel, click the **Namespaces** tab.
+	  
+	  
+	  
+	      ![Container Registry namespaces menu](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/registry-namespaces-menu.png)
+	- On the right side of the Namespaces panel, click **Create**.
+	  
+	  
+	  
+	      ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/createns_8.png)
+	- A **Create namespace** panel opens.
+	  
+	  
+	  
+	      ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/createns_9.png)
+	- In the **Resource group** field, select the name 
+	  of the resource group you would like this namespace to reside in. For 
+	  this lab, you can simply leave the selection as **Default**.
+	  
+	  
+	  
+	      ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/createns_10.png)
+	- In the **Name** field, type a unique name for the
+	   namespace. The name must be unique across all users of the Container 
+	  Registry service in this region.
+	  
+	  
+	  
+	      ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/createns_11.png)
+	- Click **Create** at the bottom of the panel to create the namespace.
+	  
+	  
+	  
+	      ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/createns_12.png)
+	  
+	  
+	  You now have a namespace (as below) to which you can push images.
+	  
+	      ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/createns_13.png)
+	  
+	  
+	  Congratulations! You have completed the first lab for the first module of this course.
+## Changelog
+
+  
+
+    
+      | 
+         | Date | 
+         | Version | 
+         | Changed by | 
+         | Change Description | 
+       |
+
+    | ---- |
+
+    
+      | 
+         | 2022-04-08 | 
+         | 1.1 | 
+         | K Sundararajan | 
+         | Updated Lab instructions | 
+       |
+##
+### © IBM Corporation 2022. All rights reserved.
+###

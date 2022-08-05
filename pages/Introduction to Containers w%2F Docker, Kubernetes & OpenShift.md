@@ -2,7 +2,7 @@ title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
 
 - ## Week 1
 	- ### Introduction to Containers
-		- A container is a
+		- A container is an executab
 		- ![image.png](../assets/image_1659713334665_0.png)
 	-
 	-

@@ -16,5 +16,5 @@ title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
 				- A container is therefore a running image, an instance of an image. Since images are read-only, a write layer is placed on top of images to enable the container to execute.
 				- ![image.png](../assets/image_1659714500691_0.png)
 				- The `-t` option of `$ docker build -t <name> .` indicates the *"tag"* option
-			-
+		-
 	-

@@ -15,7 +15,7 @@ title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
 				- In a sense, images are templates or blueprints for a container.
 				- ==You can also think of images as snapshots of a container.==
 				- A container is therefore a running image.
-				- ==Since images are read-only, a write layer is placed on top ==
+				- ==Since images are read-only, a write layer is placed on top
 				- ==of images to enable the container to execute.==
 				- ![image.png](../assets/image_1659714500691_0.png)
 			-

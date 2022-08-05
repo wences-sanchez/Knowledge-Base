@@ -18,6 +18,7 @@ title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
 				- The `-t` option of `$ docker build -t <name> .` indicates the *"tag"* option
 		-
 		- #### [[IBM-DevOps-Containers-Lab-1]]
-		- ####
+		- #### [[IBM-DevOps-Containers-Lab-2]]
+		-
 -
 -

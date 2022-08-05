@@ -17,4 +17,4 @@ title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
 				- ![image.png](../assets/image_1659714500691_0.png)
 				- The `-t` option of `$ docker build -t <name> .` indicates the *"tag"* option
 		-
-		- #### Lab
+		- #### Lab-

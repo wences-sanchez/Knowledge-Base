@@ -9,8 +9,7 @@ title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
 				- ![image.png](../assets/image_1659713334665_0.png)
 		- #### Building Containerss Images
 			- What is a Dockerfile?
-				- ==A Dockerfile is the blueprint from which an image is built.==
-				- ==builds that image.==
+				- A Dockerfile is the blueprint from which an image is built. The Dockerfile outlines all the steps to be taken to build the desired image; Docker then
 				- ==It's important to note the difference between a container and an image, which can also be ==
 				- ==called a container image.==
 				- ==These are not interchangeable terms, but rather two distinct things.==

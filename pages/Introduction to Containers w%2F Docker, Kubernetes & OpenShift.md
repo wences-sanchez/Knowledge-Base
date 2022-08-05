@@ -7,7 +7,7 @@ title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
 				- A **container** is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere, whether on a desktop, on-premisies, or in the cloud.
 				- Its key benefits are: **portabillity** and **lightweight**.
 				- ![image.png](../assets/image_1659713334665_0.png)
-		- #### Building Containerss Images
+		- #### Building Containers Images
 			- What is a Dockerfile? #flashcard
 				- A Dockerfile is the blueprint from which an image is built. The Dockerfile outlines all the steps to be taken to build the desired image; Docker then builds that image.
 				- It's important to note the difference between a container and an image, which can also be called a container image.

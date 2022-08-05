@@ -8,5 +8,6 @@ title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
 				- Its key benefits are: **portabillity** and **lightweight**.
 				- ![image.png](../assets/image_1659713334665_0.png)
 		- #### Building Containerss Images
+			- ![image.png](../assets/image_1659714500691_0.png)
 			-
 	-

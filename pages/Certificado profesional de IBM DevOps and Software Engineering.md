@@ -1,2 +1,2 @@
-- {{embed [[Certificado profesional de IBM DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift]]}}
+- {{embed [[Introduction to Containers with Docker, Kubernetes & OpenShift]]}}
 -

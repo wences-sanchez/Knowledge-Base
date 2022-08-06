@@ -4,3 +4,4 @@
 	- TODO Otra tarea de Knowledge
 	- TODO #Daily
 	- TODO Docker - Deep Dive >[2022-08-08 - 2022-08-10](#agenda://?start=1659965400000&end=1660138508320)
+	- TODO Using Terraform to Manage Infrastructure >[2022-08-11 - 2022-08-14](#agenda://?start=1660255199000&end=1660514399000)

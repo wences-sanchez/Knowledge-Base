@@ -1,4 +1,4 @@
-title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
+title:: Introduction to Containers with Docker, Kubernetes & OpenShift
 
 - ## Week 1
 	- ### Understanding the Benefits of Containers

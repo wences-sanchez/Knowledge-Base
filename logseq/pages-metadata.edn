@@ -1,4 +1,7 @@
-[{:block/name "12-factor apps",
+[{:block/name "\"introduction to containers w",
+  :block/created-at 1659780227462,
+  :block/updated-at 1659780227462}
+ {:block/name "12-factor apps",
   :block/created-at 1658825284556,
   :block/updated-at 1658825284556}
  {:block/name "a",
@@ -25,6 +28,18 @@
  {:block/name "card",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering",
+  :block/created-at 1659780224923,
+  :block/updated-at 1659780224923}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/introduction to containers w",
+  :block/created-at 1659781198477,
+  :block/updated-at 1659781198477}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
+  :block/created-at 1659781198469,
+  :block/updated-at 1659781198469}
  {:block/name "contents",
   :block/created-at 1658772277798,
   :block/updated-at 1659465268593}
@@ -58,12 +73,38 @@
  {:block/name "fpregunta",
   :block/created-at 1659546736876,
   :block/updated-at 1659546736876}
+ {:block/name "friday, 05-08-2022",
+  :block/created-at 1659780224957,
+  :block/updated-at 1659781198481}
+ {:block/name "ibm-devops-containers-lab-1",
+  :block/created-at 1659780225517,
+  :block/updated-at 1659780225517}
+ {:block/name "ibm-devops-containers-lab-1-web",
+  :block/created-at 1659781248064,
+  :block/updated-at 1659781248064}
+ {:block/name "ibm-devops-containers-lab-2",
+  :block/created-at 1659780226631,
+  :block/updated-at 1659780226631}
  {:block/name "in-progress",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277799}
+ {:block/name "introduction to containers w",
+  :block/created-at 1659780224933,
+  :block/updated-at 1659780224933}
+ {:block/name
+  "introduction to containers w/ docker, kubernetes & openshift",
+  :block/created-at 1659780224920,
+  :block/updated-at 1659780224920}
+ {:block/name
+  "introduction to containers with docker, kubernetes & openshift",
+  :block/created-at 1659780227455,
+  :block/updated-at 1659780227455}
  {:block/name "introduction to software testing",
   :block/created-at 1659337626251,
   :block/updated-at 1659520927952}
+ {:block/name "java",
+  :block/created-at 1659780224946,
+  :block/updated-at 1659780224946}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -85,6 +126,9 @@
  {:block/name "readme",
   :block/created-at 1658772234839,
   :block/updated-at 1658772234839}
+ {:block/name "saturday, 06-08-2022",
+  :block/created-at 1659780224370,
+  :block/updated-at 1659780224370}
  {:block/name "saturday, 30-07-2022",
   :block/created-at 1659337536262,
   :block/updated-at 1659337536262}

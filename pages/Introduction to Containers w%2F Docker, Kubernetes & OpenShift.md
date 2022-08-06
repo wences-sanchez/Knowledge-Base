@@ -1,3 +1,3 @@
-title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
+title:: Introduction to Containers w/ Docker, Kubernetes & OpenShift
 
 -

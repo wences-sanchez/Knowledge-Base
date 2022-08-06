@@ -20,6 +20,3 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 		- #### [[IBM-DevOps-Containers-Lab-1]]
 		- #### [[IBM-DevOps-Containers-Lab-2]]
 		-
--
--
-title:: Certificado profesional de IBM DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift

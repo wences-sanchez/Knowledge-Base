@@ -1,7 +1,4 @@
-[{:block/name "\"introduction to containers w",
-  :block/created-at 1659780227462,
-  :block/updated-at 1659780227462}
- {:block/name "12-factor apps",
+[{:block/name "12-factor apps",
   :block/created-at 1658825284556,
   :block/updated-at 1658825284556}
  {:block/name "a",
@@ -33,10 +30,6 @@
   :block/created-at 1659780224923,
   :block/updated-at 1659780224923}
  {:block/name
-  "certificado profesional de ibm devops and software engineering/introduction to containers w",
-  :block/created-at 1659781198477,
-  :block/updated-at 1659781198477}
- {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
   :block/created-at 1659781198469,
   :block/updated-at 1659781198469}
@@ -58,9 +51,6 @@
  {:block/name "done",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "english",
-  :block/created-at 1659531597209,
-  :block/updated-at 1659531597209}
  {:block/name "favorites",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -70,18 +60,12 @@
  {:block/name "flashcard",
   :block/created-at 1658774346828,
   :block/updated-at 1658774346828}
- {:block/name "fpregunta",
-  :block/created-at 1659546736876,
-  :block/updated-at 1659546736876}
  {:block/name "friday, 05-08-2022",
   :block/created-at 1659780224957,
   :block/updated-at 1659781198481}
  {:block/name "ibm-devops-containers-lab-1",
   :block/created-at 1659780225517,
   :block/updated-at 1659780225517}
- {:block/name "ibm-devops-containers-lab-1-web",
-  :block/created-at 1659781248064,
-  :block/updated-at 1659781248064}
  {:block/name "ibm-devops-containers-lab-2",
   :block/created-at 1659780226631,
   :block/updated-at 1659780226631}
@@ -91,10 +75,6 @@
  {:block/name "introduction to containers w",
   :block/created-at 1659780224933,
   :block/updated-at 1659780224933}
- {:block/name
-  "introduction to containers w/ docker, kubernetes & openshift",
-  :block/created-at 1659780224920,
-  :block/updated-at 1659780224920}
  {:block/name
   "introduction to containers with docker, kubernetes & openshift",
   :block/created-at 1659780227455,

@@ -6,5 +6,5 @@
 	- TODO Docker - Deep Dive >[2022-08-08 - 2022-08-13](#agenda://?start=1659909600000&end=1660383133865)
 	- TODO Implementing a Full CI/CD Pipeline >[2022-08-18 - 2022-08-26](#agenda://?start=1660773600000&end=1661506414838)
 	- TODO Kubernetes Deep Dive >[2022-08-22 - 2022-08-23](#agenda://?start=1661205599000&end=1661291999000)
-	- TODO Ansible: From Basics to Guru >[2022-08-24 - 2022-08-26](#agenda://?start=1661378399000&end=1661551199000)
+	- TODO Ansible: From Basics to Guru >[2022-08-15 - 2022-08-17](#agenda://?start=1660556086840&end=1660728891560)
 	- TODO Introduction to Containers with Docker, Kubernetes & OpenShift >[2022-08-29 - 2022-08-31](#agenda://?start=1661810399000&end=1661983199000)

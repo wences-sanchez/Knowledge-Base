@@ -1,5 +1,4 @@
 - Agenda
-	- TODO Tarea de proyecto >[2022-08-06](#agenda://?start=1659736800000&end=1659736800000)
 	- TODO Ta
 	- TODO Otra tarea de Knowledge
 	- TODO #Daily

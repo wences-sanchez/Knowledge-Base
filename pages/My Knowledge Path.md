@@ -7,3 +7,4 @@
 	- TODO Kubernetes Deep Dive >[2022-08-27 - 2022-08-29](#agenda://?start=1661592907954&end=1661765713385)
 	- TODO Ansible: From Basics to Guru >[2022-08-15 - 2022-08-17](#agenda://?start=1660556086840&end=1660728891560)
 	- TODO Repasar UNI >[2022-08-30 - 2022-09-03](#agenda://?start=1661810400000&end=1662197869049)
+	- TODO Jenkins Essential Training >[2022-08-08](#agenda://?start=1659965400000&end=1659969000000)

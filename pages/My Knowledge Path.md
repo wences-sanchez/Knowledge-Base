@@ -2,7 +2,6 @@
 	- TODO Ta
 	- TODO Otra tarea de Knowledge
 	- TODO #Daily
-	- TODO Docker - Deep Dive >[2022-08-08 - 2022-08-13](#agenda://?start=1659909600000&end=1660383133865)
 	- TODO Implementing a Full CI/CD Pipeline >[2022-08-18 - 2022-08-26](#agenda://?start=1660773600000&end=1661506414838)
 	- TODO Kubernetes Deep Dive >[2022-08-27 - 2022-08-29](#agenda://?start=1661592907954&end=1661765713385)
 	- TODO Ansible: From Basics to Guru >[2022-08-15 - 2022-08-17](#agenda://?start=1660556086840&end=1660728891560)

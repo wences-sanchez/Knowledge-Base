@@ -1,4 +1,4 @@
-title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
+title:: Certificado profesional de IBM DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift
 
 - ## Week 1
 	- ### Understanding the Benefits of Containers
@@ -20,5 +20,3 @@ title:: "Introduction to Containers w/ Docker, Kubernetes & OpenShift"
 		- #### [[IBM-DevOps-Containers-Lab-1]]
 		- #### [[IBM-DevOps-Containers-Lab-2]]
 		-
--
--

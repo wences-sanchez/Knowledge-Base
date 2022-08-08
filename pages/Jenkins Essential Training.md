@@ -17,4 +17,5 @@
 	- ### Assignment
 		- TODO Deploy a Jenkins Server in AWS
 			- TODO Use the latest version of Ubuntu Server
-			- TODO Install NGIN
+			- TODO Install NGINX as a proxy to Jenkins
+			-

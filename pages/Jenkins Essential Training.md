@@ -77,6 +77,6 @@
 		  }
 		  ```
 		-
-	- Some commands to write in the steps of a pipeline. More at: https
+	- Some commands to write in the steps of a pipeline. More at: https://www.jenkins.io/doc/pipelin
 		- ![image.png](../assets/image_1659976322192_0.png)
 	-

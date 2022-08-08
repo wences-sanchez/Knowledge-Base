@@ -20,12 +20,12 @@
 		  :LOGBOOK:
 		  CLOCK: [2022-08-08 Mon 16:27:23]
 		  :END:
-			- DOING Use the latest version of Ubuntu Server
+			- DONE Use the latest version of Ubuntu Server
 			  :LOGBOOK:
-			  CLOCK: [2022-08-08 Mon 16:27:26]
+			  CLOCK: [2022-08-08 Mon 16:27:26]--[2022-08-08 Mon 17:40:52] =>  01:13:26
 			  :END:
-			- TODO Install NGINX as a proxy to Jenkins
-			- TODO Install and Configure Jenkins
+			- DONE Install NGINX as a proxy to Jenkins
+			- DONE Install and Configure Jenkins
 			-
 	-
 		-

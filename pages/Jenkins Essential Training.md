@@ -26,6 +26,6 @@
 			  :END:
 			- DONE Install NGINX as a proxy to Jenkins
 			- DONE Install and Configure Jenkins
-			-
+	-
 	-
 		-

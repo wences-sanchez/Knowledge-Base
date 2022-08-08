@@ -46,7 +46,7 @@
 			- ```
 			  agent {
 			      docker {
-			  
+			          image 'maven'
 			      }
 			  }
 			  ```

@@ -7,11 +7,8 @@
 		- **Jenkins** is the perfect **tool** for **automating processes**, tied to the build, test, release and deploy stages.
 		- When tools like Jenkins are used to automate the build and test stages, the process is known as **continuous integration** .
 		-
-		- Jenkins automates building and testing
-		- by running commands that create the software artifact
-		- and run it through a series of tests.
-		- This artifact could be a container image, Java archive,
-		- a windows executable, or any other sort of software package.
+		- Jenkins automates building and testing by running commands that create the software artifact and run it through a series of tests.
+		- This artifact could be a container image, Java archive, a windows executable, or any other sort of software package.
 		- Once the tests have passed,
 		- the artifact can be moved on
 		- to the next stage in the process.

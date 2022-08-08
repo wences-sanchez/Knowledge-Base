@@ -104,4 +104,5 @@
 		  }
 		  ```
 	- ### Notes
-		- If you want to show a message indicating a formal window, you can do it with `input` (more info at Jenkins help section)
+		- If you want to show a message indicating a formal window, you can do it with `input` (more info at Jenkins help section) #spaced #daily-notes
+		-

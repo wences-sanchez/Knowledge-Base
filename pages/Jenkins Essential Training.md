@@ -83,5 +83,6 @@
 		- Environment variables
 			- In upper case.
 			- Can be global or local to any stage
+			- They can be called env
 		- Current Build variables
 		- Parameters

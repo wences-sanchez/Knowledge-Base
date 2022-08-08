@@ -82,5 +82,6 @@
 	- Jenkins has 3 types of variables: #flashcard
 		- Environment variables
 			- In upper case.
+			- Can be global or local to an
 		- Current Build variables
 		- Parameters

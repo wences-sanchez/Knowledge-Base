@@ -35,4 +35,4 @@
 		- | Scripted Pipeline | Declarative Pipeline |
 		  |`node {}` |  `pipeline { }` |
 		  | Groovy-based DSL | Specifically designed for configuring Jenkins projects as code |
-	- What are the four different
+	- What are the four different parameters to specif

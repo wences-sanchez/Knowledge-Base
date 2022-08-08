@@ -16,9 +16,9 @@
 		- The next step is to **deploy**.
 		- You can't type an `apt-get` without `-y` inside a *User Data*
 	- ### Assignment
-		- DOING Deploy a Jenkins Server in AWS
+		- DONE Deploy a Jenkins Server in AWS
 		  :LOGBOOK:
-		  CLOCK: [2022-08-08 Mon 16:27:23]
+		  CLOCK: [2022-08-08 Mon 16:27:23]--[2022-08-08 Mon 17:41:03] =>  01:13:40
 		  :END:
 			- DONE Use the latest version of Ubuntu Server
 			  :LOGBOOK:

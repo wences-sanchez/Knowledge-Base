@@ -97,10 +97,10 @@
 	- ### Conditional Expressions
 		- ```
 		  when {
-		  	expression { statement }
+		  	< expression [{ statement }] >
 		  }
 		  steps {
-		  	
+		  	echo 'step'
 		  }
 		  ```
 -

@@ -15,8 +15,14 @@
 		- The **release** stage is where the **delivery** happens. Jenkins may **upload** a container image to a repository, or make a jar file **available** for downloading. Ultimately, delivering the artifact means that a version of the application is **available** and **ready** to be used.
 		- The next step is to **deploy**.
 	- ### Assignment
-		- TODO Deploy a Jenkins Server in AWS
-			- TODO Use the latest version of Ubuntu Server
+		- DOING Deploy a Jenkins Server in AWS
+		  :LOGBOOK:
+		  CLOCK: [2022-08-08 Mon 16:27:23]
+		  :END:
+			- DOING Use the latest version of Ubuntu Server
+			  :LOGBOOK:
+			  CLOCK: [2022-08-08 Mon 16:27:26]
+			  :END:
 			- TODO Install NGINX as a proxy to Jenkins
 			- TODO Install and Configure Jenkins
 			-

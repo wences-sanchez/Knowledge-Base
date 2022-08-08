@@ -1,4 +1,4 @@
-- ## Jenkins and DevOps
+- ## 1. Jenkins and DevOps
 	- Image explaining the use of Jenkins
 		- ![image.png](../assets/image_1659967471696_0.png)
 		- The *loop* is divided into two groups with the first group representing the **development** stages of the cycle, and the second group representing the **operational** stages.

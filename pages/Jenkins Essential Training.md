@@ -16,7 +16,8 @@
 		- The next step is to **deploy**.
 		- You can't type an `apt-get` without `-y` inside a *User Data*
 		- If you want to use another IP than `localhost`, you have to deploy Jenkins in a cloud server.
-	-
+		-
+		- Jenkins is the perfect tool for automating processes tied to the build, test, release, and deploy stages.
 	- ### Assignment
 		- DONE Deploy a Jenkins Server in AWS
 		  :LOGBOOK:

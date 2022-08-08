@@ -86,5 +86,5 @@
 			- They can be called `env.NAME` or `NAME`
 		- Current Build variables
 			- Refers to the currently running build values.
-			- `currentB`
+			- `currentBuild.xxx`
 		- Parameters

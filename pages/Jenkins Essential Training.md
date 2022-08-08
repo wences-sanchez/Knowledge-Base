@@ -6,4 +6,5 @@
 		- In the **operations** group we continue the cycle with **release**, **deploy**, **operate** and **monitor**.
 		- **Jenkins** is the perfect **tool** for **automating processes**, tied to the build, test, release and deploy stages.
 		- When tools like Jenkins are used to automate the build and test stages, the process is known as **continuous integration** .
-	-
+		-
+			-

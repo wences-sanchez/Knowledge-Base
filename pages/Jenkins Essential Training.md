@@ -39,7 +39,8 @@
 		  | Groovy-based DSL | Specifically designed for configuring Jenkins projects as code |
 	- What are the four different parameters to specify an agent in Jenkins? #flaschard
 		- **any**: Run on the first available system
-		- label: When we need to be specific about the agent that runs the pipeline, we can use the label parameter.
+			-
+		- **label**: When we need to be specific about the agent that runs the pipeline, we can use the label parameter.
 		- docker
 		- none
 		-

@@ -3,4 +3,3 @@
 	- TODO Otra tarea de Knowledge
 	- TODO #Daily
 	- TODO Repasar UNI >[2022-08-30 - 2022-09-03](#agenda://?start=1661810400000&end=1662197869049)
-	- TODO Serverless Concepts >[2022-08-19](#agenda://?start=1660915800000&end=1660919400000)

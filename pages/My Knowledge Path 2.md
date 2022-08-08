@@ -3,6 +3,5 @@
 	- TODO Ta
 	- TODO Otra tarea de Knowledge
 	- TODO #Daily
-	- TODO Kubernetes Deep Dive >[2022-08-22 - 2022-08-23](#agenda://?start=1661205599000&end=1661291999000)
 	- TODO Ansible: From Basics to Guru >[2022-08-24 - 2022-08-26](#agenda://?start=1661378399000&end=1661551199000)
 	- TODO Introduction to Containers with Docker, Kubernetes & OpenShift >[2022-08-29 - 2022-08-31](#agenda://?start=1661810399000&end=1661983199000)

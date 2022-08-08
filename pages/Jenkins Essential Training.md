@@ -16,4 +16,5 @@
 		- The next step is to **deploy**.
 	- ### Assignment
 		- TODO Deploy a Jenkins Server in AWS
-			- TODO Use the latest version of
+			- TODO Use the latest version of Ubuntu Server
+			- TODO Install NGIN

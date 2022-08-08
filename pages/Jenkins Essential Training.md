@@ -50,5 +50,5 @@
 			  	}
 			  }
 			  ```
-		- **none**: Defer agent selection to where stages.
+		- **none**: Defer agent selection to what is pe stages.
 		-

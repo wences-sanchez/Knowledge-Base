@@ -31,6 +31,7 @@
 			- DONE Install and Configure Jenkins
 	-
 	- |---|---|
-	- `node {}` |
+	- `node {}` |  `pipeline { }`
+		-
 		-
 			-

@@ -77,6 +77,6 @@
 		  }
 		  ```
 		-
-	- Some commands to write in the steps of a pipeline
+	- Some commands to write in the steps of a pipeline. More at: https
 		- ![image.png](../assets/image_1659976322192_0.png)
 	-

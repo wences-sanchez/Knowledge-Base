@@ -1,10 +1,7 @@
 - ## Jenkins and DevOps
 	- Image explaining the use of Jenkins
 		- ![image.png](../assets/image_1659967471696_0.png)
-		- The loop is divided into two groups
-		- with the first group representing
-		- the development stages of the cycle,
-		- and the second group representing the operational stages.
+		- The loop is divided into two groups with the first group representing the development stages of the cycle, and the second group representing the operational stages.
 		- In the development group
 		- we start with the stage labeled plan
 		- and then move on to code, build and test.

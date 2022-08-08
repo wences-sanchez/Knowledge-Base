@@ -85,5 +85,5 @@
 			- Can be global or local to any stage
 			- They can be called `env.NAME` or `NAME`
 		- Current Build variables
-			- Refers to the
+			- Refers to the currently running build
 		- Parameters

@@ -83,6 +83,6 @@
 		- Environment variables
 			- In upper case.
 			- Can be global or local to any stage
-			- They can be called env
+			- They can be called env.NAME or `NAME
 		- Current Build variables
 		- Parameters

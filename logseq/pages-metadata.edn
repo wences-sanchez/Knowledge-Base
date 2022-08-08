@@ -110,7 +110,7 @@
   :block/updated-at 1659423516560}
  {:block/name "monday, 08-08-2022",
   :block/created-at 1659941666436,
-  :block/updated-at 1659948409637}
+  :block/updated-at 1659961489386}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1658839142679,
   :block/updated-at 1658839142679}
@@ -158,7 +158,7 @@
   :block/updated-at 1658775007501}
  {:block/name "templates",
   :block/created-at 1659864619938,
-  :block/updated-at 1659864619938}
+  :block/updated-at 1659961372129}
  {:block/name "test",
   :block/created-at 1658773372838,
   :block/updated-at 1658775369612}

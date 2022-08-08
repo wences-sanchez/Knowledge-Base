@@ -2,7 +2,7 @@
 	- Image explaining the use of Jenkins
 		- ![image.png](../assets/image_1659967471696_0.png)
 		- The *loop* is divided into two groups with the first group representing the **development** stages of the cycle, and the second group representing the **operational** stages.
-		- In the **development** group we start with the stage labeled plan and then move on to code, build and test.
+		- In the **development** group we start with the stage labeled **plan** and then move on to **code**, build and test.
 		- In the operations group we continue the cycle with release, deploy, operate and monitor.
 		- Jenkins is the perfect tool for automating processes, tied to the build, test, release and deploy stages.
 		- When tools like Jenkins are used to automate the build and test stages, the process is known as continuous integration.

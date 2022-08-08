@@ -50,5 +50,6 @@
 			  	}
 			  }
 			  ```
-		- **none**: Defer agent selection to what is specified in  stages.
+		- **none**: Defer agent selection to what is specified in its more granular stages.
+		-
 		-

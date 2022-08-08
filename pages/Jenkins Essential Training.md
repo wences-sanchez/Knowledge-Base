@@ -77,6 +77,6 @@
 		  }
 		  ```
 		-
-	- Some commands to w
+	- Some commands to write in the steps of a pipeline
 		- ![image.png](../assets/image_1659976322192_0.png)
 	-

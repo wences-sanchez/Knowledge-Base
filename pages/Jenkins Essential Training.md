@@ -16,4 +16,4 @@
 		- The next step is to **deploy**.
 	- ### Assignment
 		- TODO Deploy a Jenkins Server in AWS
-			-
+			- TODO Use the latest version of

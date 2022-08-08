@@ -27,5 +27,5 @@
 			- TODO Install NGINX as a proxy to Jenkins
 			- TODO Install and Configure Jenkins
 			-
+	-
 		-
-			-

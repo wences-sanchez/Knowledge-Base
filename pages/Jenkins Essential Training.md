@@ -104,4 +104,4 @@
 		  }
 		  ```
 	- ### Notes
-		- If you want to show a message indicating a formal window, you can do it with `
+		- If you want to show a message indicating a formal window, you can do it with `input` (more info at )

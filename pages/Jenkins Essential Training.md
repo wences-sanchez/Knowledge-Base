@@ -40,4 +40,6 @@
 	- What are the four different parameters to specify an agent in Jenkins? #flaschard
 		- any
 		- label
+		- docker
+		- none
 		-

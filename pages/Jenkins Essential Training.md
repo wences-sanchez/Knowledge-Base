@@ -51,5 +51,5 @@
 			  }
 			  ```
 		- **none**: Defer agent selection to what is specified in its more granular stages.
-	- Example of
+	- Example of Jenkins Pipeline Outl
 		-

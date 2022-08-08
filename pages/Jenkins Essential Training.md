@@ -50,5 +50,5 @@
 			  	}
 			  }
 			  ```
-		- **none**:
+		- **none**: Defer agent selection to stages
 		-

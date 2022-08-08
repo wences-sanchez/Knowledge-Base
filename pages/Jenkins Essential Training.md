@@ -77,6 +77,6 @@
 		  }
 		  ```
 		-
-	- Some commands to write in the steps of a pipeline. More at: https://www.jenkins.io/doc/pipeline/steps/workflow-
+	- Some commands to write in the steps of a pipeline. More at: https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/
 		- ![image.png](../assets/image_1659976322192_0.png)
 	-

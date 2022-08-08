@@ -52,7 +52,29 @@
 			  ```
 		- **none**: Defer agent selection to what is specified in its more granular stages.
 	- Example of Jenkins Pipeline Outline: #flashcard
+	  collapsed:: true
 		- ```
-		  
+		  pipeline {
+		  	agent any
+		      stages {
+		      	stage('build') {
+		          	steps {
+		              	echo "Step 1"
+		              }
+		          }
+		          stage('test') {
+		          	steps {
+		              	echo "Step 1"
+		                  echo "Step 2"
+		              }
+		          }
+		          stage('deploy') {
+		          	steps {
+		              	echo "Step 1"
+		              }
+		          }
+		      }
+		  }
 		  ```
 		-
+	-

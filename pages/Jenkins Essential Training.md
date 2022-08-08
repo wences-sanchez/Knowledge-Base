@@ -33,7 +33,7 @@
 	-
 	- | Scripted Pipeline | Declarative Pipeline |
 	  |`node {}` |  `pipeline { }`|
-	  |||
+	  |Groovy-based DSL||
 		-
 		-
 		-

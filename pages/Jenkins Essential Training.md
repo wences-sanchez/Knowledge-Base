@@ -31,8 +31,9 @@
 			- DONE Install and Configure Jenkins
 	-
 	-
-	- | Scripted Pipeline | 
+	- | Scripted Pipeline | Declarative Pipeline |
 	  |`node {}` |  `pipeline { }`|
+		-
 		-
 		-
 		-

@@ -77,6 +77,6 @@
 		  }
 		  ```
 		-
-	-
+	- Some commands to w
 		- ![image.png](../assets/image_1659976322192_0.png)
 	-

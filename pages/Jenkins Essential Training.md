@@ -10,8 +10,7 @@
 		- **Jenkins** automates **building** and **testing** by running commands that create the software artifact and run it through a series of tests.
 		- This **artifact** could be a **container image**, Java **archive**, a windows **executable**, or any other sort of **software** package.
 		- Once the tests have passed, the artifact can be moved on to the next **stage** in the process.
-		- Continuous delivery and deployment are often referred to as CD.
-		- CD is tied to the release and deploy stages of the DevOps Life Cycle.
+		- Continuous delivery and deployment are often referred to as CD. CD is tied to the release and deploy stages of the DevOps Life Cycle.
 		- These stages take an artifact and make it available for use, or actually put it to work.
 		- The release stage is where the delivery happens. Jenkins may upload a container image to a repository, or make a jar file available for downloading. Ultimately, delivering the artifact means that a version of the application is available and ready to be used.
 		- The next step is to deploy.

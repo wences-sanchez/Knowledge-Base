@@ -90,7 +90,7 @@
 		- Parameters
 			- They are defined in a `parameters { }` section
 			- If the defaults fail, the first execution will fail.
-			- The different parameters we define, this is when we decide the interface
+			- The different parameters we define, this is when we decide the interface options of the job.
 			-
 	- **Pipeline Steps** is the best way to visualize what our script is running
 -

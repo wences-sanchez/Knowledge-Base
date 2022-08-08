@@ -51,5 +51,6 @@
 			  }
 			  ```
 		- **none**: Defer agent selection to what is specified in its more granular stages.
-	- Example of Jenkins Pipeline Outline:
+	- Example of Jenkins Pipeline Outline: #flashcard
+		-
 		-

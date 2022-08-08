@@ -16,6 +16,7 @@
 		- The next step is to **deploy**.
 		- You can't type an `apt-get` without `-y` inside a *User Data*
 		- If you want to use another IP than `localhost`, you have to deploy Jenkins in a cloud server.
+	-
 	- ### Assignment
 		- DONE Deploy a Jenkins Server in AWS
 		  :LOGBOOK:

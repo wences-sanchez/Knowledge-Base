@@ -30,7 +30,7 @@
 			- DONE Install NGINX as a proxy to Jenkins
 			- DONE Install and Configure Jenkins
 	-
-	-
+- ## 2. The j
 	- | Scripted Pipeline | Declarative Pipeline |
 	  |`node {}` |  `pipeline { }` |
 	  | Groovy-based DSL | Specifically designed for configuring Jenkins projects as code |

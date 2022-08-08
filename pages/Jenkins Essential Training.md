@@ -42,6 +42,6 @@
 			- `agent any`
 		- **label**: When we need to be specific about the agent that runs the pipeline, we can use the label parameter.
 			- `agent { label 'linux' } `
-		- **docker**: This is useful for projects that need to build environments
+		- **docker**: This is useful for projects that need to build environments that are
 		- none
 		-

@@ -41,7 +41,7 @@
 		- **any**: Run on the first available system
 			- `agent any`
 		- **label**: When we need to be specific about the agent that runs the pipeline, we can use the label parameter.
-			- `agent { } `
+			- `agent { label 'linux' } `
 		- docker
 		- none
 		-

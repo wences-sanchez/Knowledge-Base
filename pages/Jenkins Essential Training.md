@@ -1,3 +1,5 @@
+tags::
+
 - ## 1. Jenkins and DevOps
 	- Image explaining the use of Jenkins
 		- ![image.png](../assets/image_1659967471696_0.png)

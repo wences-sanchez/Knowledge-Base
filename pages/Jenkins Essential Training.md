@@ -33,6 +33,7 @@
 	-
 	- | Scripted Pipeline | Declarative Pipeline |
 	  |`node {}` |  `pipeline { }`|
+	  |||
 		-
 		-
 		-

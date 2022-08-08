@@ -44,6 +44,8 @@
 			- `agent { label 'linux' } `
 		- **docker**: This is useful for projects that need to build environments that are fresh and consistently provisioned on each build.
 			- ```
+			  agent {
+			  }
 			  ```
 		- none
 		-

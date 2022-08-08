@@ -14,4 +14,4 @@
 		- These **stages** take an **artifact** and make it available for use, or actually put it to **work**.
 		- The **release** stage is where the **delivery** happens. Jenkins may **upload** a container image to a repository, or make a jar file **available** for downloading. Ultimately, delivering the artifact means that a version of the application is **available** and **ready** to be used.
 		- The next step is to **deploy**.
-	- ###
+	- ### A

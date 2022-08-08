@@ -81,4 +81,5 @@
 		- ![image.png](../assets/image_1659976322192_0.png)
 	- Jenkins has 3 types of variables: #flashcard
 		- Environment variables
-		-
+		- Current Build
+		- Parameters

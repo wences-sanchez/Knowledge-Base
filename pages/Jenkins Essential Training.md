@@ -31,7 +31,7 @@
 			- DONE Install and Configure Jenkins
 	-
 - ## 2. The Jenkins Pipeline
-	- Comparison between
+	- Comparison between paradigms in
 	- | Scripted Pipeline | Declarative Pipeline |
 	  |`node {}` |  `pipeline { }` |
 	  | Groovy-based DSL | Specifically designed for configuring Jenkins projects as code |

@@ -1,5 +1,5 @@
 - #tags #Jenkins
-- tags: #Jenkins
+- tags:: #Jenkins
 -
 - ## 1. Jenkins and DevOps
 	- Image explaining the use of Jenkins

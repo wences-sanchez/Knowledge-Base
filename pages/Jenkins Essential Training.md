@@ -39,7 +39,7 @@
 		  | Groovy-based DSL | Specifically designed for configuring Jenkins projects as code |
 	- What are the four different parameters to specify an agent in Jenkins? #flaschard
 		- any: Run on the first available system
-		- label:
+		- label: When w
 		- docker
 		- none
 		-

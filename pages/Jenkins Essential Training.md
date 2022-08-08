@@ -88,4 +88,5 @@
 			- Refers to the currently running build values.
 			- `currentBuild.xxx`
 		- Parameters
-	- Pipeline Steps is the best way to visualize what our script is running
+	- **Pipeline Steps** is the best way to visualize what our script is running
+-

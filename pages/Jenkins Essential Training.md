@@ -95,5 +95,7 @@
 			-
 	- **Pipeline Steps** is the best way to visualize what our script is running
 	- ### Conditional Expressions
-		-
+		- ```
+		  
+		  ```
 -

@@ -1,36 +1,9 @@
 [{:block/name "12-factor apps",
   :block/created-at 1658825284556,
   :block/updated-at 1658825284556}
- {:block/name "2022_08_05 2",
-  :block/created-at 1659943111209,
-  :block/updated-at 1659943111209}
- {:block/name "2022_08_06 2",
-  :block/created-at 1659943111131,
-  :block/updated-at 1659943111131}
- {:block/name "2022_08_07 2",
-  :block/created-at 1659943111452,
-  :block/updated-at 1659943111452}
- {:block/name "62ee44f7-9707-488e-8135-9fe1df0b96d6",
-  :block/created-at 1659864619934,
-  :block/updated-at 1659864619934}
  {:block/name "a",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
- {:block/name "aug 1st, 2022",
-  :block/created-at 1659941663752,
-  :block/updated-at 1659941663752}
- {:block/name "aug 3rd, 2022",
-  :block/created-at 1659941664149,
-  :block/updated-at 1659941664149}
- {:block/name "aug 5th, 2022",
-  :block/created-at 1659941663575,
-  :block/updated-at 1659941663575}
- {:block/name "aug 7th, 2022",
-  :block/created-at 1659941663727,
-  :block/updated-at 1659941663727}
- {:block/name "aug 8th, 2022",
-  :block/created-at 1659940997414,
-  :block/updated-at 1659941954053}
  {:block/name "b",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -69,12 +42,6 @@
  {:block/name "curiosities",
   :block/created-at 1659378302560,
   :block/updated-at 1659378302560}
- {:block/name "daily",
-  :block/created-at 1659864619449,
-  :block/updated-at 1659864619449}
- {:block/name "daily log",
-  :block/created-at 1659864618983,
-  :block/updated-at 1659864618983}
  {:block/name "dev-notes",
   :block/created-at 1658832523329,
   :block/updated-at 1658832523329}
@@ -84,12 +51,6 @@
  {:block/name "done",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "draws/2022-08-08-08-55-35.excalidraw",
-  :block/created-at 1659943818343,
-  :block/updated-at 1659943818343}
- {:block/name "draws/2022-08-08-08-55-53.excalidraw",
-  :block/created-at 1659943818343,
-  :block/updated-at 1659943818343}
  {:block/name "favorites",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -99,6 +60,9 @@
  {:block/name "flashcard",
   :block/created-at 1658774346828,
   :block/updated-at 1658774346828}
+ {:block/name "friday, 05-08-2022",
+  :block/created-at 1659780224957,
+  :block/updated-at 1659781198481}
  {:block/name "ibm-devops-containers-lab-1",
   :block/created-at 1659780225517,
   :block/updated-at 1659780225517}
@@ -108,39 +72,28 @@
  {:block/name "in-progress",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277799}
+ {:block/name "introduction to containers w",
+  :block/created-at 1659780224933,
+  :block/updated-at 1659780224933}
+ {:block/name
+  "introduction to containers with docker, kubernetes & openshift",
+  :block/created-at 1659780227455,
+  :block/updated-at 1659780227455}
  {:block/name "introduction to software testing",
   :block/created-at 1659337626251,
   :block/updated-at 1659520927952}
  {:block/name "java",
   :block/created-at 1659780224946,
   :block/updated-at 1659780224946}
- {:block/name "jul 25th, 2022",
-  :block/created-at 1659941663989,
-  :block/updated-at 1659941663989}
- {:block/name "jul 26th, 2022",
-  :block/created-at 1659941662617,
-  :block/updated-at 1659941662617}
- {:block/name "jul 27th, 2022",
-  :block/created-at 1659941663776,
-  :block/updated-at 1659941663776}
- {:block/name "jul 30th, 2022",
-  :block/created-at 1659941663847,
-  :block/updated-at 1659941663847}
- {:block/name "jul 31st, 2022",
-  :block/created-at 1659941663674,
-  :block/updated-at 1659941663674}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "monday, 08-08-2022",
-  :block/created-at 1659941666436,
-  :block/updated-at 1659941666436}
- {:block/name "my knowledge path",
-  :block/created-at 1659864619566,
-  :block/updated-at 1659865075073}
- {:block/name "my knowledge path 2",
-  :block/created-at 1659943111418,
-  :block/updated-at 1659943111418}
+ {:block/name "monday, 01-08-2022",
+  :block/created-at 1659337536169,
+  :block/updated-at 1659423516560}
+ {:block/name "monday, 25-07-2022",
+  :block/created-at 1658839142679,
+  :block/updated-at 1658839142679}
  {:block/name "now",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -155,22 +108,22 @@
   :block/updated-at 1658772234839}
  {:block/name "saturday, 06-08-2022",
   :block/created-at 1659780224370,
-  :block/updated-at 1659879930867}
- {:block/name "saturday, 17-09-2022",
-  :block/created-at 1659864619059,
-  :block/updated-at 1659864619059}
+  :block/updated-at 1659780224370}
+ {:block/name "saturday, 30-07-2022",
+  :block/created-at 1659337536262,
+  :block/updated-at 1659337536262}
  {:block/name "spaced",
   :block/created-at 1658774346833,
   :block/updated-at 1658774346833}
+ {:block/name "sunday, 31-07-2022",
+  :block/created-at 1659337536585,
+  :block/updated-at 1659509034066}
  {:block/name "sw-testing",
   :block/created-at 1659378302553,
   :block/updated-at 1659378302553}
  {:block/name "tags",
   :block/created-at 1658775007501,
   :block/updated-at 1658775007501}
- {:block/name "templates",
-  :block/created-at 1659864619938,
-  :block/updated-at 1659864619938}
  {:block/name "test",
   :block/created-at 1658773372838,
   :block/updated-at 1658775369612}
@@ -180,12 +133,9 @@
  {:block/name "tuesday, 02-08-2022",
   :block/created-at 1659423572393,
   :block/updated-at 1659536492574}
- {:block/name "uno",
-  :block/created-at 1659943111364,
-  :block/updated-at 1659943111364}
- {:block/name "uno/dos",
-  :block/created-at 1659943111363,
-  :block/updated-at 1659943111363}
+ {:block/name "tuesday, 26-07-2022",
+  :block/created-at 1658839142633,
+  :block/updated-at 1659034356945}
  {:block/name "videos",
   :block/created-at 1658838871148,
   :block/updated-at 1658838871148}
@@ -196,5 +146,8 @@
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
  {:block/name "wednesday, 03-08-2022",
-  :block/created-at 1659457079263, 
-  :block/updated-at 1659531773892}]
+  :block/created-at 1659457079263,
+  :block/updated-at 1659531773892}
+ {:block/name "wednesday, 27-07-2022",
+  :block/created-at 1658904407313, 
+  :block/updated-at 1659034399816}]

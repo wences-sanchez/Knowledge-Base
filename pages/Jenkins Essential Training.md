@@ -209,4 +209,4 @@
 		- A Docker can always have the latest versions of the libraries!
 	-
 	- ### Assignment
-		- Impr
+		- Improve a Docker agent pipeline

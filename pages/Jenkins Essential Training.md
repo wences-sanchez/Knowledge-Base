@@ -84,7 +84,7 @@
 			- In upper case.
 			- Can be global or local to any stage
 			- They can be called `env.NAME` or `NAME`
-			- And they are inside an
+			- And they are inside a `environ`
 		- Current Build variables
 			- Refers to the currently running build values.
 			- `currentBuild.xxx`

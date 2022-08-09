@@ -105,6 +105,10 @@
 		  ```
 	- ### Notes
 		- If you want to show a message indicating a formal window, you can do it with `input` (more info at Jenkins help section) #spaced #daily-notes
+		- ```
+		  choice(name: 'CHOICE', choices: ['One', 'Two', 'Three'], description: 'Pick something')
+		  ```
+		-
 	- ### Assignments
 		- Create a pipeline which accepts parameters
 		- DOING Complete the assignment

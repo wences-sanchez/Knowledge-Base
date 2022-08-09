@@ -112,10 +112,11 @@
 				- The first parameter is called `ENVIRONMENT`
 					- With values: `DEVELOPMENT`, `STAGING` and `PRODUCTION`
 					- With default: `DEVELOPMENT`
-				- TODO Create th
+				- TODO Create the first parameter
 				- The second parameter is `APIKEY`.
 					- It's a secret and shouldn't be exposed
 					- The default is `123ABC`
+				- TODO
 				- The last parameter is `CHANGELOG`
 					- It accepts freeform text that can be added to a report.
 			- About its stages (three stages):

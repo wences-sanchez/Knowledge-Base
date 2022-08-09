@@ -111,5 +111,5 @@
 				- With values: `DEVELOPMENT`, `STAGING` and `PRODUCTION`
 				- With default: `DEVELOPMENT`
 			- The second parameter is `APIKEY`.
-				- It's a password
+				- It's a password and sho
 				-

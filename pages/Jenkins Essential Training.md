@@ -239,5 +239,8 @@
 	- When an artifact is created or used, **Jenkins** generates an MD5 checksum using the artifact. **Jenkins** saves it in a internal **database**.
 	-
 	- ### Assignment
-		-
+		- Use the pipeline syntax tool to generate snippets for:
+		- Tool configuration
+		- Collecting test results
+		- Archiving artifacts
 	-

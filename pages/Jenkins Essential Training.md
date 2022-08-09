@@ -175,7 +175,7 @@
 	-
 	-
 	- ### Assignment
-		- TODO Complete the asssignment
+		- DONE Complete the asssignment
 		  :LOGBOOK:
 		  CLOCK: [2022-08-09 Tue 12:53:28]--[2022-08-09 Tue 13:41:12] =>  00:47:44
 		  :END:

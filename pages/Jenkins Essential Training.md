@@ -167,4 +167,4 @@
 				-
 -
 - ## 3. Integrate Jenkins with Version Control Systems
-	- env.WORKSPACE
+	- env.WORKSPACE includes the abso

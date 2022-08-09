@@ -171,3 +171,5 @@
 		- env.WORKSPACE includes the absolute path of our project.
 	- To get the status badges we need the "embeddable build status" plugin for jenkins
 	-
+	- ### Assignem
+	-

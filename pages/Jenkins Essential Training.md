@@ -172,5 +172,6 @@
 	- To get the status badges we need the "embeddable build status" plugin for jenkins
 	-
 	- ### Assignment
-		- TODO
+		- TODO Complete the asssignment
+			- TODO Create a new
 	-

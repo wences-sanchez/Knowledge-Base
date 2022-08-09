@@ -191,9 +191,6 @@
 			  :LOGBOOK:
 			  CLOCK: [2022-08-09 Tue 13:05:56]--[2022-08-09 Tue 13:41:03] =>  00:35:07
 			  :END:
-			- CANCELED Update the README.md file in the repository
-			  :LOGBOOK:
-			  CLOCK: [2022-08-09 Tue 13:42:33]
-			  :END:
+			- Update the README.md file in the repository
 			-
 	-

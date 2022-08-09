@@ -209,6 +209,7 @@
 		- A Docker can always have the latest versions of the libraries!
 	-
 	- ### Assignment
+	  collapsed:: true
 		- #### Improve a Docker agent pipeline
 		- DONE Completar el Assignment
 		  :LOGBOOK:

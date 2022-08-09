@@ -169,5 +169,5 @@
 - ## 3. Integrate Jenkins with Version Control Systems
 	- Where can you find the absolute path of a Jenkins project? #flashcard
 		- env.WORKSPACE includes the absolute path of our project.
-	-
+	- To get the status badges we need the
 	-

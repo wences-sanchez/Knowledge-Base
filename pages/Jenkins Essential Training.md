@@ -191,6 +191,9 @@
 			  :LOGBOOK:
 			  CLOCK: [2022-08-09 Tue 13:05:56]--[2022-08-09 Tue 13:41:03] =>  00:35:07
 			  :END:
-			- TODO Update the README.md file in the repository
+			- DONE Update the README.md file in the repository
+			  :LOGBOOK:
+			  CLOCK: [2022-08-09 Tue 13:47:04]--[2022-08-09 Tue 13:47:04] =>  00:00:00
+			  :END:
 			-
 	-

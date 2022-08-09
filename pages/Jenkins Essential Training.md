@@ -121,7 +121,6 @@
 			  ```
 		- Which Jenkins tool would you use for building a file?
 			- `writeFile file: 'name_file', text: 'default_content'`
-		-
 	- ### Assignments
 	  collapsed:: true
 		- Create a pipeline which accepts parameters
@@ -166,3 +165,5 @@
 				  :END:
 					- Use the CHANGELOG parameter for the report content. Use the ENVIRONMENT parameter for the name of the report file.
 				-
+-
+-

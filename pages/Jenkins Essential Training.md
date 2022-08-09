@@ -121,7 +121,7 @@
 			  ```
 		- Which Jenkins tool would you use for building a file?
 			- `writeFile file: 'name_file', text: 'default_content'`
-			-
+		-
 	- ### Assignments
 		- Create a pipeline which accepts parameters
 		- TODO Complete the assignment

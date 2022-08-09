@@ -223,6 +223,6 @@
 			  CLOCK: [2022-08-09 Tue 17:45:59]--[2022-08-09 Tue 17:48:45] =>  00:02:46
 			  :END:
 			- Create a pipeline job using the exercise files: [Jenkinsfile](https://github.com/LinkedInLearning/essential-jenkins-2468076/blob/main/Ch04/04_04-challenge-docker-agent/Jenkinsfile)
-			- TODO Run the pipeline
-			- TODO Update the pipeline
+			- Run the pipeline
+			- Update the pipeline
 			- TODO Compare the runtimes

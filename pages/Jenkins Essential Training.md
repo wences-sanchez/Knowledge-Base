@@ -227,4 +227,4 @@
 			- Run the pipeline
 			- Update the pipeline
 			- Compare the runtimes
-	- Put a cache inside the env
+	- Put a cache inside the environment (instead of in )

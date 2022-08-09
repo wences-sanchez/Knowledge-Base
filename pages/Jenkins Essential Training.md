@@ -119,7 +119,7 @@
 				- TODO Create the second parameter
 				- The last parameter is `CHANGELOG`
 					- It accepts freeform text that can be added to a report.
-				-
+				- TODO Create the third parameter
 			- About its stages (three stages):
 				- Deploy
 					- Only deploy to the PRODUCTION environment

@@ -209,8 +209,8 @@
 		- A Docker can always have the latest versions of the libraries!
 	-
 	- ### Assignment
-		- #### TODO Improve a Docker agent pipeline
-			- Completar el A
+		- #### Improve a Docker agent pipeline
+			- Completar el Assignment
 			- TODO Install Docker on the Jenkins server
 			- TODO Install the Docker Pipeline plugin
 			- TODO Create a pipeline job using the exercise files: [Jenkinsfile](https://github.com/LinkedInLearning/essential-jenkins-2468076/blob/main/Ch04/04_04-challenge-docker-agent/Jenkinsfile)

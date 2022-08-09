@@ -120,4 +120,5 @@
 				- Deploy
 					- Only deploy to the PRODUCTION environment
 				- Report
-					- Use the CHANGELOG parameter for the report content. Use the ENVIRONMENT parameter for the name of the report fi
+					- Use the CHANGELOG parameter for the report content. Use the ENVIRONMENT parameter for the name of the report file.
+				-

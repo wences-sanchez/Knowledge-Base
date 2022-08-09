@@ -120,4 +120,4 @@
 				- Deploy
 					- Only deploy to the PRODUCTION environment
 				- Report
-					- Use the
+					- Use the CHANGELOG parameter t

@@ -210,9 +210,9 @@
 	-
 	- ### Assignment
 		- #### Improve a Docker agent pipeline
-		- DOING Completar el Assignment
+		- TODO Completar el Assignment
 		  :LOGBOOK:
-		  CLOCK: [2022-08-09 Tue 17:43:08]
+		  CLOCK: [2022-08-09 Tue 17:43:08]--[2022-08-09 Tue 18:03:48] =>  00:20:40
 		  :END:
 			- DONE Install Docker on the Jenkins server
 			  :LOGBOOK:

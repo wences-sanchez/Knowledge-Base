@@ -150,9 +150,9 @@
 				  CLOCK: [2022-08-09 Tue 11:04:14]--[2022-08-09 Tue 11:10:51] =>  00:06:37
 				  :END:
 			- About its stages (three stages):
-			- DOING Create the three stages
+			- TODO Create the three stages
 			  :LOGBOOK:
-			  CLOCK: [2022-08-09 Tue 11:16:23]
+			  CLOCK: [2022-08-09 Tue 11:16:23]--[2022-08-09 Tue 11:43:33] =>  00:27:10
 			  :END:
 				- Deploy
 				- DONE Create the deploy stage

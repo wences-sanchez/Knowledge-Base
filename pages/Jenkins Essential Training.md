@@ -123,7 +123,7 @@
 			- About its stages (three stages):
 			- TODO Create the three stages
 				- Deploy
-					-
+				- TODO Cr
 					- Only deploy to the PRODUCTION environment
 				- Production
 					- Use the CHANGELOG parameter for the report content. Use the ENVIRONMENT parameter for the name of the report file.

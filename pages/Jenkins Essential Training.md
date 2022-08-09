@@ -129,7 +129,7 @@
 				- The second parameter is `APIKEY`.
 					- It's a secret and shouldn't be exposed
 					- The default is `123ABC`
-				- TODO Create the second parameter
+				- LATER Create the second parameter
 				  :LOGBOOK:
 				  CLOCK: [2022-08-09 Tue 11:04:08]--[2022-08-09 Tue 11:04:10] =>  00:00:02
 				  :END:

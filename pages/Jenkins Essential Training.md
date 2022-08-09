@@ -108,4 +108,5 @@
 	- ### Assignments
 		- Create a pipeline which accepts parameters
 			- The first is called `ENVIRONMENT`
-				- With values: DEVELOPMENT`, `STAGING` and `PRODUCTION`
+				- With values: `DEVELOPMENT`, `STAGING` and `PRODUCTION`
+				-

@@ -109,5 +109,6 @@
 		- Create a pipeline which accepts parameters
 			- The first parameter is called `ENVIRONMENT`
 				- With values: `DEVELOPMENT`, `STAGING` and `PRODUCTION`
-				- With defaul
+				- With default: `DEVELOPMENT`
+				-
 				-

@@ -141,7 +141,10 @@
 				  CLOCK: [2022-08-09 Tue 11:04:14]--[2022-08-09 Tue 11:10:51] =>  00:06:37
 				  :END:
 			- About its stages (three stages):
-			- TODO Create the three stages
+			- DOING Create the three stages
+			  :LOGBOOK:
+			  CLOCK: [2022-08-09 Tue 11:16:23]
+			  :END:
 				- Deploy
 				- TODO Create the deploy stage
 					- Only deploy to the PRODUCTION environment

@@ -123,6 +123,7 @@
 			- `writeFile file: 'name_file', text: 'default_content'`
 		-
 	- ### Assignments
+	  collapsed:: true
 		- Create a pipeline which accepts parameters
 		- DONE Complete the assignment
 		  :LOGBOOK:

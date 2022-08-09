@@ -167,5 +167,5 @@
 				-
 -
 - ## 3. Integrate Jenkins with Version Control Systems
-	- Where can you i
+	- Where can you find the absolute path of a Jan
 	- env.WORKSPACE includes the absolute path of our project.

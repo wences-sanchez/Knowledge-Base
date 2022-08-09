@@ -116,9 +116,10 @@
 				- The second parameter is `APIKEY`.
 					- It's a secret and shouldn't be exposed
 					- The default is `123ABC`
-				- TODO
+				- TODO Create the second parameter
 				- The last parameter is `CHANGELOG`
 					- It accepts freeform text that can be added to a report.
+				-
 			- About its stages (three stages):
 				- Deploy
 					- Only deploy to the PRODUCTION environment

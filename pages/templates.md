@@ -4,5 +4,6 @@
   template:: Today-Tasks
   template-including-parent:: false
 	- {{renderer agenda, task-list}}
-	- #### ¿Qué
+	- #### ¿Qué has aprendido hoy?
+		-
 -

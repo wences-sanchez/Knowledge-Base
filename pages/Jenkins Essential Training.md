@@ -202,5 +202,6 @@
 		- The Docker are more consistent.
 		- They have to run in a node
 	- You can use `git branch: 'master', url: ...`
-	- You can use `agent { label 'linux'}` or `agent `
+	- You can use `agent { label 'linux'}` or `agent { docker ... }`
+	-
 	-

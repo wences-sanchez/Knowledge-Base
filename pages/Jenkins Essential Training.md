@@ -110,5 +110,5 @@
 			- The first parameter is called `ENVIRONMENT`
 				- With values: `DEVELOPMENT`, `STAGING` and `PRODUCTION`
 				- With default: `DEVELOPMENT`
-				-
+			- The
 				-

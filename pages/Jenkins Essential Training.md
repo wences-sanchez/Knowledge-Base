@@ -210,4 +210,9 @@
 	-
 	- ### Assignment
 		- #### Improve a Docker agent pipeline
-			-
+			- Install Docker on the Jenkins server
+			- Install the Docker Pipeline plugin
+			- Create a pipeline job using the exercise files: [Jenkinsfile](https://github.com/LinkedInLearning/essential-jenkins-2468076/blob/main/Ch04/04_04-challenge-docker-agent/Jenkinsfile)
+			- Run the pipeline
+			- Update the pipeline
+			- Compare the runtimes

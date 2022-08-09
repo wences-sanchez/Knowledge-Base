@@ -176,9 +176,9 @@
 		  :LOGBOOK:
 		  CLOCK: [2022-08-09 Tue 12:53:28]
 		  :END:
-			- DOING Create a new GitHub repository
+			- DONE Create a new GitHub repository
 			  :LOGBOOK:
-			  CLOCK: [2022-08-09 Tue 12:53:30]
+			  CLOCK: [2022-08-09 Tue 12:53:30]--[2022-08-09 Tue 13:00:54] =>  00:07:24
 			  :END:
 			- TODO Create a pipeline job that pulls code from the repository
 			- TODO Install the Embeddable Status plugin.

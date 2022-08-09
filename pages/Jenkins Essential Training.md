@@ -238,5 +238,5 @@
 	- We can use the **plugin** `copyArtifact` for pulling artifacts from one **job** to another (**not** steps)
 	- When an artifact is created or used, **Jenkins** generates an MD5 checksum using the artifact. **Jenkins** saves it in a internal **database**.
 	-
-		-
+	-
 	-

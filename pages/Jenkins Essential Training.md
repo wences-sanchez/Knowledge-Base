@@ -173,5 +173,6 @@
 	-
 	- ### Assignment
 		- TODO Complete the asssignment
-			- TODO Create a new
+			- TODO Create a new GitHub repository
+			- TODO
 	-

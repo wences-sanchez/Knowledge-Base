@@ -115,7 +115,10 @@
 				- The first parameter is called `ENVIRONMENT`
 					- With values: `DEVELOPMENT`, `STAGING` and `PRODUCTION`
 					- With default: `DEVELOPMENT`
-				- TODO Create the first parameter
+				- DOING Create the first parameter
+				  :LOGBOOK:
+				  CLOCK: [2022-08-09 Tue 10:45:18]
+				  :END:
 				- The second parameter is `APIKEY`.
 					- It's a secret and shouldn't be exposed
 					- The default is `123ABC`

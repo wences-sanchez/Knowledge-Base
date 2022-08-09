@@ -239,7 +239,7 @@
 	- When an artifact is created or used, **Jenkins** generates an MD5 checksum using the artifact. **Jenkins** saves it in a internal **database**.
 	-
 	- ### Assignment
-		- :
+		- Complete the ta:
 			- TODO Tool configuration
 			- TODO Collecting test results
 			- TODO Archiving artifacts

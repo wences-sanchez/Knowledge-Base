@@ -232,4 +232,4 @@
 - ---
 - ## 5. Artifacts and Testing
 	- Artifacts can be compiled binaries like Docker images, or zip files, or a text file, or a xml file...
-	- The core function `archiveArtifacts` gives us a built ste
+	- The core function `archiveArtifacts` gives us a built step for identifying the files we

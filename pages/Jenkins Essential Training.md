@@ -131,7 +131,7 @@
 					- The default is `123ABC`
 				- LATER Create the second parameter
 				  :LOGBOOK:
-				  CLOCK: [2022-08-09 Tue 11:04:08]--[2022-08-09 Tue 10:5:10] =>  00:00:02
+				  CLOCK: [2022-08-09 Tue 11:04:08]--[2022-08-09 Tue 11:04:10] =>  00:00:02
 				  :END:
 				- The last parameter is `CHANGELOG`
 					- It accepts freeform text that can be added to a report.

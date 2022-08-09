@@ -241,6 +241,6 @@
 	- ### Assignment
 		- Complete the following tasks:
 			- TODO Add and manage a maven Tool configuration for Jenkins
-			- TODO Collecting test results from the file .xml
-			- TODO Archiving artifacts
+			- TODO Collecting test results from the file .xml in the pipeline
+			- TODO Archiving the artifacts
 	-

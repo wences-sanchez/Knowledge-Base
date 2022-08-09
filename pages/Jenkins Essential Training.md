@@ -231,4 +231,4 @@
 	- Put a cache inside the environment (instead of in /tmp, for example) boost the performance of the pipeline.
 - ---
 - ## 5. Artifacts and Testing
-	-
+	- Artifacts can be compiled binaries or

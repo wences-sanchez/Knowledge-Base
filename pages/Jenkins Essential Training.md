@@ -196,7 +196,7 @@
 			  CLOCK: [2022-08-09 Tue 13:47:04]--[2022-08-09 Tue 13:47:04] =>  00:00:00
 			  :END:
 - ---
-- ## 4. Agents and Distributed Builds
+- ## 4. Agents and Distributed Builds #spaced
 	- ![image.png](../assets/image_1660046446612_0.png)
 	- A Jenkins node type can be SSH or Docker.
 		- The Docker are more consistent.

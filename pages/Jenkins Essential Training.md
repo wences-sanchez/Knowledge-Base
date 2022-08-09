@@ -123,9 +123,9 @@
 			-
 	- ### Assignments
 		- Create a pipeline which accepts parameters
-		- DOING Complete the assignment
+		- TODO Complete the assignment
 		  :LOGBOOK:
-		  CLOCK: [2022-08-09 Tue 10:45:15]
+		  CLOCK: [2022-08-09 Tue 10:45:15]--[2022-08-09 Tue 11:43:52] =>  00:58:37
 		  :END:
 			- About its parameters:
 				- The first parameter is called `ENVIRONMENT`

@@ -110,5 +110,6 @@
 			- The first parameter is called `ENVIRONMENT`
 				- With values: `DEVELOPMENT`, `STAGING` and `PRODUCTION`
 				- With default: `DEVELOPMENT`
-			- The second parameter is `A
+			- The second parameter is `APIKEY`.
+				-
 				-

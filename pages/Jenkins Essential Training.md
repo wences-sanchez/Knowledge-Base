@@ -206,5 +206,5 @@
 	-
 	- ### Add a Docker Agent
 		- You have to install the Docker Pipeline plugin in Jenkins
-		- A Docker can have always the latest versions of the libraries!
+		- A Docker can always have the latest versions of the libraries!
 	-

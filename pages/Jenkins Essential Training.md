@@ -172,8 +172,14 @@
 	- To get the status badges we need the "embeddable build status" plugin for jenkins
 	-
 	- ### Assignment
-		- TODO Complete the asssignment
-			- TODO Create a new GitHub repository
+		- DOING Complete the asssignment
+		  :LOGBOOK:
+		  CLOCK: [2022-08-09 Tue 12:53:28]
+		  :END:
+			- DOING Create a new GitHub repository
+			  :LOGBOOK:
+			  CLOCK: [2022-08-09 Tue 12:53:30]
+			  :END:
 			- TODO Create a pipeline job that pulls code from the repository
 			- TODO Install the Embeddable Status plugin.
 			- TODO Update the README.md file in the repository

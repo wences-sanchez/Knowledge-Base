@@ -240,7 +240,7 @@
 	-
 	- ### Assignment
 		- Complete the following tasks:
-			- TODO Tool configuration
+			- TODO Add and manage a maven Tool configuration for Jenkins
 			- TODO Collecting test results
 			- TODO Archiving artifacts
 	-

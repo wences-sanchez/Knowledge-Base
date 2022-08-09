@@ -176,5 +176,6 @@
 			- TODO Create a new GitHub repository
 			- TODO Create a pipeline job that pulls code from the repository
 			- TODO Install the Embeddable Status plugin.
-			- TODO Update the READ
+			- TODO Update the README.md file in the repository
+			-
 	-

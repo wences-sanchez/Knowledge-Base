@@ -213,6 +213,6 @@
 			- TODO Install Docker on the Jenkins server
 			- TODO Install the Docker Pipeline plugin
 			- TODO Create a pipeline job using the exercise files: [Jenkinsfile](https://github.com/LinkedInLearning/essential-jenkins-2468076/blob/main/Ch04/04_04-challenge-docker-agent/Jenkinsfile)
-			- Run the pipeline
-			- Update the pipeline
-			- Compare the runtimes
+			- TODO Run the pipeline
+			- TODO Update the pipeline
+			- TODO Compare the runtimes

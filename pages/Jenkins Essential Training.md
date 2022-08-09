@@ -129,9 +129,10 @@
 				- The second parameter is `APIKEY`.
 					- It's a secret and shouldn't be exposed
 					- The default is `123ABC`
-				- LATER Create the second parameter
+				- DOING Create the second parameter
 				  :LOGBOOK:
 				  CLOCK: [2022-08-09 Tue 11:04:08]--[2022-08-09 Tue 10:59:10] =>  00:00:02
+				  CLOCK: [2022-08-09 Tue 11:05:41]
 				  :END:
 				- The last parameter is `CHANGELOG`
 					- It accepts freeform text that can be added to a report.

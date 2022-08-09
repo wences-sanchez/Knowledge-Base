@@ -210,7 +210,7 @@
 	-
 	- ### Assignment
 		- #### Improve a Docker agent pipeline
-		- TODO Completar el Assignment
+		- DONE Completar el Assignment
 		  :LOGBOOK:
 		  CLOCK: [2022-08-09 Tue 17:43:08]--[2022-08-09 Tue 18:03:48] =>  00:20:40
 		  :END:
@@ -225,4 +225,4 @@
 			- Create a pipeline job using the exercise files: [Jenkinsfile](https://github.com/LinkedInLearning/essential-jenkins-2468076/blob/main/Ch04/04_04-challenge-docker-agent/Jenkinsfile)
 			- Run the pipeline
 			- Update the pipeline
-			- TODO Compare the runtimes
+			- Compare the runtimes

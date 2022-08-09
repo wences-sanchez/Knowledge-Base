@@ -180,11 +180,14 @@
 			  :LOGBOOK:
 			  CLOCK: [2022-08-09 Tue 12:53:30]--[2022-08-09 Tue 13:00:54] =>  00:07:24
 			  :END:
-			- DOING Create a pipeline job that pulls code from the repository
+			- DONE Create a pipeline job that pulls code from the repository
 			  :LOGBOOK:
-			  CLOCK: [2022-08-09 Tue 13:05:52]
+			  CLOCK: [2022-08-09 Tue 13:05:52]--[2022-08-09 Tue 13:05:54] =>  00:00:02
 			  :END:
-			- TODO Install the Embeddable Status plugin.
+			- DOING Install the Embeddable Status plugin.
+			  :LOGBOOK:
+			  CLOCK: [2022-08-09 Tue 13:05:56]
+			  :END:
 			- TODO Update the README.md file in the repository
 			-
 	-

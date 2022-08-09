@@ -107,6 +107,6 @@
 		- If you want to show a message indicating a formal window, you can do it with `input` (more info at Jenkins help section) #spaced #daily-notes
 	- ### Assignments
 		- Create a pipeline which accepts parameters
-			- The first is called `ENVIRONMENT`
+			- The first parameter is called `ENVIRONMENT`
 				- With values: `DEVELOPMENT`, `STAGING` and `PRODUCTION`
 				-

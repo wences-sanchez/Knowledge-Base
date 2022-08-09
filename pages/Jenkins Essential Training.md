@@ -158,9 +158,9 @@
 				- DONE Create the deploy stage
 					- Only deploy to the PRODUCTION environment
 				- Production
-				- DOING Create the production stage
+				- TODO Create the production stage
 				  :LOGBOOK:
-				  CLOCK: [2022-08-09 Tue 11:23:45]
+				  CLOCK: [2022-08-09 Tue 11:23:45]--[2022-08-09 Tue 11:43:49] =>  00:20:04
 				  :END:
 					- Use the CHANGELOG parameter for the report content. Use the ENVIRONMENT parameter for the name of the report file.
 				-

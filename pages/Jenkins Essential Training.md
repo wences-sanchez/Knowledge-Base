@@ -129,10 +129,16 @@
 				- The second parameter is `APIKEY`.
 					- It's a secret and shouldn't be exposed
 					- The default is `123ABC`
-				- TODO Create the second parameter
+				- DONE Create the second parameter
+				  :LOGBOOK:
+				  CLOCK: [2022-08-09 Tue 11:04:08]--[2022-08-09 Tue 11:04:10] =>  00:00:02
+				  :END:
 				- The last parameter is `CHANGELOG`
 					- It accepts freeform text that can be added to a report.
-				- TODO Create the third parameter
+				- DOING Create the third parameter
+				  :LOGBOOK:
+				  CLOCK: [2022-08-09 Tue 11:04:14]
+				  :END:
 			- About its stages (three stages):
 			- TODO Create the three stages
 				- Deploy

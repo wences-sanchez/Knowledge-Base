@@ -240,7 +240,7 @@
 	-
 	- ### Assignment
 		- Use the pipeline syntax tool to generate snippets for:
-			- Tool configuration
-		- Collecting test results
-		- Archiving artifacts
+			- TODO Tool configuration
+			- TODO Collecting test results
+			- TODO Archiving artifacts
 	-

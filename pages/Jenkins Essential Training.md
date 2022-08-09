@@ -122,9 +122,9 @@
 				- The first parameter is called `ENVIRONMENT`
 					- With values: `DEVELOPMENT`, `STAGING` and `PRODUCTION`
 					- With default: `DEVELOPMENT`
-				- DOING Create the first parameter
+				- DONE Create the first parameter
 				  :LOGBOOK:
-				  CLOCK: [2022-08-09 Tue 10:45:18]
+				  CLOCK: [2022-08-09 Tue 10:45:18]--[2022-08-09 Tue 10:58:27] =>  00:13:09
 				  :END:
 				- The second parameter is `APIKEY`.
 					- It's a secret and shouldn't be exposed

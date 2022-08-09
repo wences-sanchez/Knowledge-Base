@@ -205,5 +205,6 @@
 	- You can use `agent { label 'linux'}` or `agent { docker ... }`
 	-
 	- ### Add a Docker Agent
-		- You have to install the Docker Pipeline
+		- You have to install the Docker Pipeline plugin in Jenkins
+		-
 	-

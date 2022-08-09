@@ -110,6 +110,13 @@
 			  choice(name: 'CHOICE', choices: ['One', 'Two', 'Three'], description: 'Pick something')
 			  ...
 			  echo "Choice: ${params.CHOICE}"
+			  ...
+			  when {
+			  	expression { params.ENVIRONMENT == 'PRODUCTION' }
+			  }
+			  steps {
+			  	...
+			  }
 			  ```
 		-
 	- ### Assignments
@@ -146,9 +153,12 @@
 			  CLOCK: [2022-08-09 Tue 11:16:23]
 			  :END:
 				- Deploy
-				- TODO Create the deploy stage
+				- DONE Create the deploy stage
 					- Only deploy to the PRODUCTION environment
 				- Production
-				- TODO Create the production stage
+				- DOING Create the production stage
+				  :LOGBOOK:
+				  CLOCK: [2022-08-09 Tue 11:23:45]
+				  :END:
 					- Use the CHANGELOG parameter for the report content. Use the ENVIRONMENT parameter for the name of the report file.
 				-

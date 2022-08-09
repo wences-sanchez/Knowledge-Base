@@ -118,7 +118,7 @@
 			  	...
 			  }
 			  ```
-		- Which Jenkins tool
+		- Which Jenkins tool would you use for
 	- ### Assignments
 		- Create a pipeline which accepts parameters
 		- DOING Complete the assignment

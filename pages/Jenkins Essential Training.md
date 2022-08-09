@@ -214,9 +214,9 @@
 		  :LOGBOOK:
 		  CLOCK: [2022-08-09 Tue 17:43:08]
 		  :END:
-			- DOING Install Docker on the Jenkins server
+			- DONE Install Docker on the Jenkins server
 			  :LOGBOOK:
-			  CLOCK: [2022-08-09 Tue 17:43:10]
+			  CLOCK: [2022-08-09 Tue 17:43:10]--[2022-08-09 Tue 17:45:57] =>  00:02:47
 			  :END:
 			- TODO Install the Docker Pipeline plugin
 			- TODO Create a pipeline job using the exercise files: [Jenkinsfile](https://github.com/LinkedInLearning/essential-jenkins-2468076/blob/main/Ch04/04_04-challenge-docker-agent/Jenkinsfile)

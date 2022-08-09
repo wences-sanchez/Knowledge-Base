@@ -114,5 +114,8 @@
 				- It's a secret and shouldn't be exposed
 				- The default is `123ABC`
 			- The last parameter is `CHANGELOG`
-				- It accepts freeform text that
+				- It accepts freeform text that can be added to a report.
+				-
+				-
+				-
 				-

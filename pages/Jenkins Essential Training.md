@@ -198,5 +198,6 @@
 - ---
 - ## 4. Agents and Distributed Builds
 	- ![image.png](../assets/image_1660046446612_0.png)
-	- A Jenkins node type can be SS
+	- A Jenkins node type can be SSH or Docker.
+	-
 	-

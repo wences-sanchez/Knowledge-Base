@@ -119,6 +119,6 @@
 			- About its stages (three stages):
 				- Deploy
 					- Only deploy to the PRODUCTION environment
-				- Produc
+				- Production
 					- Use the CHANGELOG parameter for the report content. Use the ENVIRONMENT parameter for the name of the report file.
 				-

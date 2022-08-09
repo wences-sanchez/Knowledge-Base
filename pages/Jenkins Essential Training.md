@@ -174,5 +174,5 @@
 	- ### Assignment
 		- TODO Complete the asssignment
 			- TODO Create a new GitHub repository
-			- TODO
+			- TODO Create a pipeline job that pulls code for
 	-

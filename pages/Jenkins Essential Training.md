@@ -159,7 +159,7 @@
 				- DONE Create the deploy stage
 					- Only deploy to the PRODUCTION environment
 				- Production
-				- TODO Create the production stage
+				- DONE Create the production stage
 				  :LOGBOOK:
 				  CLOCK: [2022-08-09 Tue 11:23:45]--[2022-08-09 Tue 11:43:49] =>  00:20:04
 				  :END:

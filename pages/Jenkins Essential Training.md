@@ -187,9 +187,9 @@
 			  :LOGBOOK:
 			  CLOCK: [2022-08-09 Tue 13:05:52]--[2022-08-09 Tue 13:05:54] =>  00:00:02
 			  :END:
-			- DOING Install the Embeddable Status plugin.
+			- DONE Install the Embeddable Status plugin.
 			  :LOGBOOK:
-			  CLOCK: [2022-08-09 Tue 13:05:56]
+			  CLOCK: [2022-08-09 Tue 13:05:56]--[2022-08-09 Tue 13:41:03] =>  00:35:07
 			  :END:
 			- TODO Update the README.md file in the repository
 			-

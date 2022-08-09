@@ -124,7 +124,7 @@
 		-
 	- ### Assignments
 		- Create a pipeline which accepts parameters
-		- TODO Complete the assignment
+		- DONE Complete the assignment
 		  :LOGBOOK:
 		  CLOCK: [2022-08-09 Tue 10:45:15]--[2022-08-09 Tue 11:43:52] =>  00:58:37
 		  :END:
@@ -151,7 +151,7 @@
 				  CLOCK: [2022-08-09 Tue 11:04:14]--[2022-08-09 Tue 11:10:51] =>  00:06:37
 				  :END:
 			- About its stages (three stages):
-			- TODO Create the three stages
+			- DONE Create the three stages
 			  :LOGBOOK:
 			  CLOCK: [2022-08-09 Tue 11:16:23]--[2022-08-09 Tue 11:43:33] =>  00:27:10
 			  :END:

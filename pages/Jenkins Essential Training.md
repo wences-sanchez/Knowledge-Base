@@ -167,4 +167,5 @@
 				-
 -
 - ## 3. Integrate Jenkins with Version Control Systems
-	- env.WORKSPACE includes the abso
+	-
+	- env.WORKSPACE includes the absolute path of our project.

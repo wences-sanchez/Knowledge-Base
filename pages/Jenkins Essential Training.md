@@ -108,6 +108,8 @@
 		- Example of list in parameter in Jenkins #spaced
 			- ```
 			  choice(name: 'CHOICE', choices: ['One', 'Two', 'Three'], description: 'Pick something')
+			  ...
+			  echo "Choice: ${params.CHOICE}"
 			  ```
 		-
 	- ### Assignments

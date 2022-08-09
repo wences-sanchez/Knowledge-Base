@@ -199,5 +199,6 @@
 - ## 4. Agents and Distributed Builds
 	- ![image.png](../assets/image_1660046446612_0.png)
 	- A Jenkins node type can be SSH or Docker.
-		- The Docker are more
+		- The Docker are more consistent.
+		- They have to run in a node
 	-

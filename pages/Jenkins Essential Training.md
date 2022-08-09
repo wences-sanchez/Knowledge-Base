@@ -230,7 +230,7 @@
 	-
 	- Put a cache inside the environment (instead of in /tmp, for example) boost the performance of the pipeline.
 - ---
-- ## 5. Artifacts and Testing
+- ## 5. Artifacts and Testing #spaced
 	- Artifacts can be compiled binaries like Docker images, or zip files, or a text file, or a xml file...
 	- The core function `archiveArtifacts` gives us a built step for identifying the files we want to save during or after a build.
 	- `archiveArtifacts` is often placed in the **post** section of a pipeline.

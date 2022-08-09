@@ -136,9 +136,9 @@
 				  :END:
 				- The last parameter is `CHANGELOG`
 					- It accepts freeform text that can be added to a report.
-				- DOING Create the third parameter
+				- DONE Create the third parameter
 				  :LOGBOOK:
-				  CLOCK: [2022-08-09 Tue 11:04:14]
+				  CLOCK: [2022-08-09 Tue 11:04:14]--[2022-08-09 Tue 11:10:51] =>  00:06:37
 				  :END:
 			- About its stages (three stages):
 			- TODO Create the three stages

@@ -233,5 +233,5 @@
 - ## 5. Artifacts and Testing
 	- Artifacts can be compiled binaries like Docker images, or zip files, or a text file, or a xml file...
 	- The core function `archiveArtifacts` gives us a built step for identifying the files we want to save during or after a build.
-	- `archiveArtifacts` is often placed in the post section of a pipeline.
-	- The post block
+	- `archiveArtifacts` is often placed in the **post** section of a pipeline.
+	- The **post** block

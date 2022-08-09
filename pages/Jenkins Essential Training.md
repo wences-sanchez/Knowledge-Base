@@ -125,7 +125,7 @@
 				- Deploy
 				- TODO Create the deploy stage
 					- Only deploy to the PRODUCTION environment
-				- TODO Create the production stage
 				- Production
+				- TODO Create the production stage
 					- Use the CHANGELOG parameter for the report content. Use the ENVIRONMENT parameter for the name of the report file.
 				-

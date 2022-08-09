@@ -201,5 +201,5 @@
 	- A Jenkins node type can be SSH or Docker.
 		- The Docker are more consistent.
 		- They have to run in a node
-	- You can
+	- You can use `git branch: '`
 	-

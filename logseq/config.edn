@@ -165,7 +165,7 @@
             [(< ?d ?next)]]
     :inputs [:today :7d-after]
     :collapsed? false}
-    {:title "⚠️ OVERDUE"
+    {:title "🔥 OVERDUE"
         :query [:find (pull ?b [*])
           :in $ ?start ?today
           :where

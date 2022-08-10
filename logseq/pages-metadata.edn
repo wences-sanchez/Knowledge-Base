@@ -185,7 +185,7 @@
   :block/updated-at 1659536492574}
  {:block/name "tuesday, 09-08-2022",
   :block/created-at 1660029983644,
-  :block/updated-at 1660064917415}
+  :block/updated-at 1660125047720}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1658839142633,
   :block/updated-at 1659034356945}
@@ -207,6 +207,9 @@
  {:block/name "wednesday, 03-08-2022",
   :block/created-at 1659457079263,
   :block/updated-at 1659531773892}
+ {:block/name "wednesday, 10-08-2022",
+  :block/created-at 1660124752451,
+  :block/updated-at 1660125126020}
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1658904407313, 
   :block/updated-at 1659034399816}]

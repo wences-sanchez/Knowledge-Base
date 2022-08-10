@@ -1,7 +1,7 @@
 - #tags #Jenkins
 - tags:: #Jenkins #DevOps
 - ## 1. Jenkins and DevOps
-	- Image explaining the use of Jenkins
+	- Image explaining the use of Jenkins #spaced
 		- ![image.png](../assets/image_1659967471696_0.png)
 		- The *loop* is divided into two groups with the first group representing the **development** stages of the cycle, and the second group representing the **operational** stages.
 		- In the **development** group we start with the stage labeled **plan** and then move on to **code**, **build** and **test**.
@@ -196,7 +196,7 @@
 			  CLOCK: [2022-08-09 Tue 13:47:04]--[2022-08-09 Tue 13:47:04] =>  00:00:00
 			  :END:
 - ---
-- ## 4. Agents and Distributed Builds
+- ## 4. Agents and Distributed Builds #spaced
 	- ![image.png](../assets/image_1660046446612_0.png)
 	- A Jenkins node type can be SSH or Docker.
 		- The Docker are more consistent.
@@ -207,4 +207,41 @@
 	- ### Add a Docker Agent
 		- You have to install the Docker Pipeline plugin in Jenkins
 		- A Docker can always have the latest versions of the libraries!
+	-
+	- ### Assignment
+	  collapsed:: true
+		- #### Improve a Docker agent pipeline
+		- DONE Completar el Assignment
+		  :LOGBOOK:
+		  CLOCK: [2022-08-09 Tue 17:43:08]--[2022-08-09 Tue 18:03:48] =>  00:20:40
+		  :END:
+			- DONE Install Docker on the Jenkins server
+			  :LOGBOOK:
+			  CLOCK: [2022-08-09 Tue 17:43:10]--[2022-08-09 Tue 17:45:57] =>  00:02:47
+			  :END:
+			- DONE Install the Docker Pipeline plugin
+			  :LOGBOOK:
+			  CLOCK: [2022-08-09 Tue 17:45:59]--[2022-08-09 Tue 17:48:45] =>  00:02:46
+			  :END:
+			- Create a pipeline job using the exercise files: [Jenkinsfile](https://github.com/LinkedInLearning/essential-jenkins-2468076/blob/main/Ch04/04_04-challenge-docker-agent/Jenkinsfile)
+			- Run the pipeline
+			- Update the pipeline
+			- Compare the runtimes
+	-
+	- Put a cache inside the environment (instead of in /tmp, for example) boost the performance of the pipeline.
+- ---
+- ## 5. Artifacts and Testing #spaced
+	- Artifacts can be compiled binaries like Docker images, or zip files, or a text file, or a xml file...
+	- The core function `archiveArtifacts` gives us a built step for identifying the files we want to save during or after a build.
+	- `archiveArtifacts` is often placed in the **post** section of a pipeline.
+	- The **post** block runs after all sections of a pipeline, so any steps inside the block are run after other operations have finished.
+	- We can use the **plugin** `copyArtifact` for pulling artifacts from one **job** to another (**not** steps)
+	- When an artifact is created or used, **Jenkins** generates an MD5 checksum using the artifact. **Jenkins** saves it in a internal **database**.
+	-
+	- ### Assignment
+		- TODO Manage the test creation and storing in Jenkins:
+		  SCHEDULED: <2022-08-10 Wed>
+			- TODO Add and manage a maven Tool configuration for Jenkins
+			- TODO Collecting test results from the file .xml in the pipeline
+			- TODO Archiving the resultant artifacts
 	-

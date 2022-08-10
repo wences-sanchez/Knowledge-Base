@@ -16,6 +16,9 @@
  {:block/name "a",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+ {:block/name "aws",
+  :block/created-at 1660029985876,
+  :block/updated-at 1660029985876}
  {:block/name "b",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -29,8 +32,8 @@
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
  {:block/name "canceled",
-  :block/created-at 1658772277798,
-  :block/updated-at 1658772277798}
+  :block/created-at 1660045579874,
+  :block/updated-at 1660045579874}
  {:block/name "cancelled",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -60,9 +63,15 @@
  {:block/name "daily log",
   :block/created-at 1659864618983,
   :block/updated-at 1659864618983}
+ {:block/name "daily-notes",
+  :block/created-at 1660029984464,
+  :block/updated-at 1660029984464}
  {:block/name "dev-notes",
   :block/created-at 1658832523329,
   :block/updated-at 1658832523329}
+ {:block/name "devops",
+  :block/created-at 1660029984401,
+  :block/updated-at 1660029984401}
  {:block/name "doing",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -102,6 +111,12 @@
  {:block/name "java",
   :block/created-at 1659780224946,
   :block/updated-at 1659780224946}
+ {:block/name "jenkins",
+  :block/created-at 1660029984396,
+  :block/updated-at 1660029984396}
+ {:block/name "jenkins essential training",
+  :block/created-at 1660029984474,
+  :block/updated-at 1660064519806}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -110,7 +125,7 @@
   :block/updated-at 1659423516560}
  {:block/name "monday, 08-08-2022",
   :block/created-at 1659941666436,
-  :block/updated-at 1659961489386}
+  :block/updated-at 1660047535182}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1658839142679,
   :block/updated-at 1658839142679}
@@ -158,7 +173,7 @@
   :block/updated-at 1658775007501}
  {:block/name "templates",
   :block/created-at 1659864619938,
-  :block/updated-at 1659961372129}
+  :block/updated-at 1660030049048}
  {:block/name "test",
   :block/created-at 1658773372838,
   :block/updated-at 1658775369612}
@@ -168,6 +183,9 @@
  {:block/name "tuesday, 02-08-2022",
   :block/created-at 1659423572393,
   :block/updated-at 1659536492574}
+ {:block/name "tuesday, 09-08-2022",
+  :block/created-at 1660029983644,
+  :block/updated-at 1660125047720}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1658839142633,
   :block/updated-at 1659034356945}
@@ -189,6 +207,9 @@
  {:block/name "wednesday, 03-08-2022",
   :block/created-at 1659457079263,
   :block/updated-at 1659531773892}
+ {:block/name "wednesday, 10-08-2022",
+  :block/created-at 1660124752451,
+  :block/updated-at 1660125126020}
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1658904407313, 
   :block/updated-at 1659034399816}]

@@ -78,7 +78,7 @@
 		  ```
 		-
 	- Some commands to write in the steps of a pipeline. More at: https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/
-		- ![image.png](../assets/image_1659976322192_0.png)
+		- ![image.png](../assets/image_1659976322192_0)
 	- Jenkins has 3 types of variables: #flashcard
 		- Environment variables
 			- In upper case.

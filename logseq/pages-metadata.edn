@@ -116,7 +116,7 @@
   :block/updated-at 1660029984396}
  {:block/name "jenkins essential training",
   :block/created-at 1660029984474,
-  :block/updated-at 1660064519806}
+  :block/updated-at 1660140701115}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -185,7 +185,10 @@
   :block/updated-at 1659536492574}
  {:block/name "tuesday, 09-08-2022",
   :block/created-at 1660029983644,
-  :block/updated-at 1660125047720}
+  :block/updated-at 1660159876529}
+ {:block/name "tuesday, 16-08-2022",
+  :block/created-at 1660158105615,
+  :block/updated-at 1660158105615}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1658839142633,
   :block/updated-at 1659034356945}
@@ -209,7 +212,7 @@
   :block/updated-at 1659531773892}
  {:block/name "wednesday, 10-08-2022",
   :block/created-at 1660124752451,
-  :block/updated-at 1660125126020}
+  :block/updated-at 1660159772212}
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1658904407313, 
   :block/updated-at 1659034399816}]

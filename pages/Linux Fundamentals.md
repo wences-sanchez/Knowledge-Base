@@ -26,7 +26,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/usr/share/doc/` directory contains some (maybe) useful information
 		- #### Lab
 			- TODO Use man and related resources to find out how to change the hostname of your computer
-			- TODO
+			- TODO Read the help output for **ip** and find howe
 		-
 		-
 		-

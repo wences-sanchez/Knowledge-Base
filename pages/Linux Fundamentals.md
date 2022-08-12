@@ -4,4 +4,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	- ### Lesson 1: [[Installing Linux]]
 		- The FSF originated because Unix became very expensive.
 		- RedHat is the most successful linux distribution
-			- Free Linux distribution based on RedHat are Rocky and
+			- Free Linux distribution based on RedHat are Rocky and Alma Linux

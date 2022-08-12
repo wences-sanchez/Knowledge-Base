@@ -23,7 +23,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- The command `$ history` shows **a list** of your last typed **commands**
 		- `$ pinfo` is another way of viewing the info contents.
 		- `$ tldr`
-		- `/usr/share`
+		- `/usr/share/doc/` directory
 		-
 		-
 		-

@@ -25,7 +25,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `$ tldr` could contain (if any) examples of the command passed as a parameter
 		- `/usr/share/doc/` directory contains some (maybe) useful information
 		- #### Lab
-			- TODO Use man and related resources to find out how to change the hostname of your computer
+			- TODO Use **man** and related resources to find out how to change the **hostname** of your computer
 			- TODO Read the help output for **ip** and find howe you can bring down a link
 		-
 		-

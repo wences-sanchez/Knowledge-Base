@@ -17,6 +17,6 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `$ sudo` allows authorized users to run tasks with escalated privileges
 			- But to use it, you have to be a member of the sudo (or wheel) group
 		-
-		-
+			-
 		-
 		-

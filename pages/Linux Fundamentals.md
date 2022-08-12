@@ -1,3 +1,3 @@
 tags:: #O'Reilly-Learning #Linux #Videos
 
-- ## Module
+- ## Module 1: Essential Commands

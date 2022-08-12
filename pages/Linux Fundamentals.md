@@ -8,7 +8,6 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Oracle is also based on RedHat
 		- Ubuntu is based on Debian
 	- ### Lesson 2: [[Using Essential Tools]]
-	  id:: 62f6387f-8424-416c-9a84-e9c46f041769
 		- Use root is an alternative to sudo.
 			- Root is dangerous. You shouldn't use that directly
 		- I you are a user belonging to wheel or sudo, you can use sudo to run commands with administrator privileges.

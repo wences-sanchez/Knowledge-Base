@@ -18,7 +18,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- But to use it, you have to be a member of the sudo (or wheel) group
 		- The network interface *lo* is for **loopback**
 		- The file **/etc/hosts** is for hosts resolution
-		- The command `$ history` shows **a list** of your last typed commands
+		- The command `$ history` shows **a list** of your last typed **commands**
+		-
 		-
 		-
 		-

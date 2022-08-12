@@ -25,9 +25,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `$ tldr` could contain (if any) examples of the command passed as a parameter
 		- `/usr/share/doc/` directory contains some (maybe) useful information
 		- #### Lab
-			- DOING Use **man** and related resources to find out how to change the **hostname** of your computer
+			- DONE Use **man** and related resources to find out how to change the **hostname** of your computer
+			  collapsed:: true
 			  :LOGBOOK:
-			  CLOCK: [2022-08-12 Fri 14:34:36]
+			  CLOCK: [2022-08-12 Fri 14:34:36]--[2022-08-12 Fri 14:37:11] =>  00:02:35
+			  CLOCK: [2022-08-12 Fri 14:37:12]--[2022-08-12 Fri 14:37:14] =>  00:00:02
 			  :END:
 				- `$ sudo hostname <new_name>`
 			- TODO Read the help output for **ip** and find howe you can bring down a **link**

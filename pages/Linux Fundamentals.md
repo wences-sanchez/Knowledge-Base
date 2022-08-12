@@ -24,7 +24,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `$ pinfo` is another way of viewing the info contents.
 		- `$ tldr` could contain (if any) examples of the command passed as a parameter
 		- `/usr/share/doc/` directory contains some (maybe) useful information
-		-
+		- ####
 		-
 		-
 		-

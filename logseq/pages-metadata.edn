@@ -20,12 +20,6 @@
  {:block/name "62ee44f7-9707-488e-8135-9fe1df0b96d6",
   :block/created-at 1659864619934,
   :block/updated-at 1659864619934}
- {:block/name "62f6387f-8424-416c-9a84-e9c46f041769",
-  :block/created-at 1660307092332,
-  :block/updated-at 1660307092332}
- {:block/name "62f6461c-f1b4-4b0b-bd96-bf4458c0af3b",
-  :block/created-at 1660307159551,
-  :block/updated-at 1660307159551}
  {:block/name "a",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -53,9 +47,6 @@
  {:block/name "card",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "cert prep: comptia linux+ (xk0-004)",
-  :block/created-at 1660298014151,
-  :block/updated-at 1660300484181}
  {:block/name
   "certificado profesional de ibm devops and software engineering",
   :block/created-at 1660315975038,
@@ -94,9 +85,6 @@
  {:block/name "done",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "essential commands",
-  :block/created-at 1660301804678,
-  :block/updated-at 1660301804678}
  {:block/name "existo",
   :block/created-at 1659947334568,
   :block/updated-at 1659947334568}
@@ -127,9 +115,6 @@
  {:block/name "in-progress",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277799}
- {:block/name "installing linux",
-  :block/created-at 1660301841976,
-  :block/updated-at 1660307159553}
  {:block/name "introduction to software testing",
   :block/created-at 1660315974591,
   :block/updated-at 1660315974591}
@@ -145,15 +130,6 @@
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "linkedin-learning",
-  :block/created-at 1660298226221,
-  :block/updated-at 1660298226221}
- {:block/name "linux",
-  :block/created-at 1660298226217,
-  :block/updated-at 1660298226217}
- {:block/name "linux fundamentals",
-  :block/created-at 1660301662310,
-  :block/updated-at 1660308760150}
  {:block/name "monday, 01-08-2022",
   :block/created-at 1660315974600,
   :block/updated-at 1660315974600}
@@ -202,9 +178,6 @@
  {:block/name "sw-testing",
   :block/created-at 1659378302553,
   :block/updated-at 1659378302553}
- {:block/name "system hardware",
-  :block/created-at 1660300484177,
-  :block/updated-at 1660300484177}
  {:block/name "tags",
   :block/created-at 1658775007501,
   :block/updated-at 1658775007501}
@@ -238,9 +211,6 @@
  {:block/name "uno/dos",
   :block/created-at 1660315975434,
   :block/updated-at 1660315975434}
- {:block/name "using essential tools",
-  :block/created-at 1660303514254,
-  :block/updated-at 1660307092333}
  {:block/name "videos",
   :block/created-at 1658838871148,
   :block/updated-at 1658838871148}

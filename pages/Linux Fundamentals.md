@@ -38,7 +38,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :END:
 				- I didn't fully understand the task :(
 				- Solution:
-					- `$ ip link set <network_d> down`
+					- `$ sudo ip link set <network_device> down`
 					-
 		-
 		-

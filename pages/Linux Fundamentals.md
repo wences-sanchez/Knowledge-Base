@@ -10,5 +10,5 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	- ### Lesson 2: [[Using Essential Tools]]
 		- Use root is an alternative to sudo.
 			- Root is dangerous. You shouldn't use that directly
-		- I you are a user belonging to wheel or sudo,
+		- I you are a user belonging to wheel or sudo, you can use sudo to run commands
 		-

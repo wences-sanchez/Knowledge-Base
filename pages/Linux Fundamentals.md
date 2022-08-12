@@ -32,12 +32,13 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  CLOCK: [2022-08-12 Fri 14:37:12]--[2022-08-12 Fri 14:37:14] =>  00:00:02
 			  :END:
 				- `$ sudo hostname <new_name>`
-			- DOING Read the help output for **ip** and find how you can bring down a **link**
+			- DONE Read the help output for **ip** and find how you can bring down a **link**
 			  :LOGBOOK:
-			  CLOCK: [2022-08-12 Fri 14:37:26]
+			  CLOCK: [2022-08-12 Fri 14:37:26]--[2022-08-12 Fri 14:52:40] =>  00:15:14
 			  :END:
 				- I didn't fully understand the task :(
 				- Solution:
+				  collapsed:: true
 					- `$ sudo ip link set <network_device> down`
 					-
 		-

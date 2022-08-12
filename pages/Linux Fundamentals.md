@@ -38,7 +38,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :END:
 				- I didn't fully understand the task :(
 				- Solution:
-					- `$ ip link set down`
+					- `$ ip link set <network_d> down`
 					-
 		-
 		-

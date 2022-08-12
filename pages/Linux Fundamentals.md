@@ -8,4 +8,5 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Oracle is also based on RedHat
 		- Ubuntu is based on Debian
 	- ### Lesson 2: [[Using Essential Tools]]
-		- Use
+		- Use root is an alternative to sudo.
+			- Root is

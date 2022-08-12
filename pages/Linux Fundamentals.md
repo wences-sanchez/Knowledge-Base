@@ -2,7 +2,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 
 - ## Module 1: [[Essential Commands]]
 	- ### Lesson 1: [[Installing Linux]]
-	  id:: 62f631ec-cdbd-469b-9ea3-df806e7925af
+	  id:: 62f6461c-f1b4-4b0b-bd96-bf4458c0af3b
 		- The FSF originated because Unix had become very expensive.
 		- RedHat is the most successful linux distribution
 			- Free Linux distribution based on RedHat are Rocky and Alma Linux

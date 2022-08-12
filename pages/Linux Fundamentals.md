@@ -22,7 +22,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- The file **/etc/hosts** is for hosts resolution
 		- The command `$ history` shows **a list** of your last typed **commands**
 		- `$ pinfo` is another way of viewing the info contents.
-		-
+		- ``
 		-
 		-
 		-

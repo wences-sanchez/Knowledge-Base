@@ -32,7 +32,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  CLOCK: [2022-08-12 Fri 14:37:12]--[2022-08-12 Fri 14:37:14] =>  00:00:02
 			  :END:
 				- `$ sudo hostname <new_name>`
-			- TODO Read the help output for **ip** and find howe you can bring down a **link**
+			- TODO Read the help output for **ip** and find how you can bring down a **link**
 			-
 		-
 		-

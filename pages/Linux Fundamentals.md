@@ -36,7 +36,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :LOGBOOK:
 			  CLOCK: [2022-08-12 Fri 14:37:26]
 			  :END:
-				- I didn
+				- I didn't fully understand the tas
 		-
 		-
 		-

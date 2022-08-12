@@ -19,7 +19,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- The network interface *lo* is for **loopback**
 		- The file **/etc/hosts** is for hosts resolution
 		- The command `$ history` shows **a list** of your last typed **commands**
-		- ``
+		- `$ pinfo` is another
 		-
 		-
 		-

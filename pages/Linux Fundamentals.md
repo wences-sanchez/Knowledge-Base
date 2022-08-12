@@ -1,9 +1,9 @@
 tags:: #O'Reilly-Learning #Linux #Videos
 
 - ## Module 1: [[Essential Commands]]
-- {{embed ((62f631ec-cdbd-469b-9ea3-df806e7925af))}}
-	-
-	-
+	- {{embed ((62f631ec-cdbd-469b-9ea3-df806e7925af))}}
+		-
+		-
 	- ### Lesson 2: [[Using Essential Tools]]
 		- Use root is an alternative to sudo.
 			- Root is dangerous. You shouldn't use that directly

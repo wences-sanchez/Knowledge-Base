@@ -16,6 +16,6 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- When used with a username as argument, a user shell is opened.
 		- `$ sudo` allows authorized users to run tasks with escalated privileges
 			- But to use it, you have to be a member of the sudo (or wheel) group
-		- The network interface *
+		- The network interface *lo* is for loopback
 		-
 		-

@@ -5,4 +5,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- The FSF originated because Unix became very expensive.
 		- RedHat is the most successful linux distribution
 			- Free Linux distribution based on RedHat are Rocky and Alma Linux
-			- Oracle is
+			- Oracle is also based on RedHat

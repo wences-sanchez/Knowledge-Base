@@ -165,4 +165,5 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- Hard links are pointing to the same inode on the same file system
 		- Symbolic links are shortcuts and add additional flexibility
 			- Symbolic links can exist on a directory
-			- Cross-deviced are allowed
+			- Cross-deviced ones are allowed
+		- Every file

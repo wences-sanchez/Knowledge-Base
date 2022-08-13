@@ -95,7 +95,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ ls a[a-e]*`
 			- The range function won't work for numbers if they are not in `{ }`.
 				- The `[ ]` are only for wildcards, they will print nothing.
-			- The `.` will only match a dot, not any character like regex are used to match.
+			- The `.` (in wildcards) will only match a dot, not any character like regex are used to match.
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

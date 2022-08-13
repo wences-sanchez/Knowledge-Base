@@ -177,3 +177,18 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- ![image.png](../assets/image_1660386646097_0.png)
 		- #### 4.2 Managing Hard and Symbolic Links
 			- You can use
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-

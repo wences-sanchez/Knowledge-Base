@@ -50,6 +50,6 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-
-		-
+		- Regular users have w
 		-
 		-

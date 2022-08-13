@@ -71,7 +71,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/proc` provides an interface to what the kernel is doing.
 		- `/root`. The home directory for the *root* user (obviously protected)
 		- `/run` is for temporary files that processes create dynamically in a private environment when needed
-		-
+		- `
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

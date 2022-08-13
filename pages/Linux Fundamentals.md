@@ -1,5 +1,5 @@
 tags:: #O'Reilly-Learning #Linux #Videos
-#tags #O'Reilly-Learning #Linux
+#tags #O'Reilly-Learning #Linux #Videos
 
 - ## Module 1: [[Essential Commands]]
 	- ### Lesson 1: [[Installing Linux]]

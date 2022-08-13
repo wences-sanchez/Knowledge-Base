@@ -85,7 +85,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `/tmp`
 				- That's why all the tutorial examples write in `/tmp`!!
 		- If you use `$ ls -ld /<directory>`, you'll see properties and not contents of a directory
-		- The second column in the output of `$ ls -l` is the number of links in the
+		- The second column in the output of `$ ls -l` is the number of links in the directory
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

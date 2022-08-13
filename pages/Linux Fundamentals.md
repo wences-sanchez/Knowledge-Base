@@ -92,7 +92,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `$ ls a?*`
 			- `$ ls a[nm]*`
 			- `$ ls a[a-e]*`
-		- The range function won't work for numbers
+		- The range function won't work for numbers if they are not in ``
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

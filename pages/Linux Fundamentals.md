@@ -185,7 +185,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Examples:
 				- `$ find / -name "hosts"`
 				- `$ find / -name "hosts*"`
-				- `$ find / -name`
+				- `$ find / -user linda`
 				- `$ find / -name`
 				- `$ find / -name`
 				- `$ find / -name`

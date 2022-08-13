@@ -101,7 +101,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- In this case, just the final dot for the extension file.
 			- The `?` (in wildcards) does **not** match any previous character.
 				- It just matches a single character **(any)**, but **one**
-				-
+					- `$ `
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

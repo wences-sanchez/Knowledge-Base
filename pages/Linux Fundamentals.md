@@ -161,4 +161,3 @@ tags:: #O'Reilly-Learning #Linux #Videos
 						- `$ ls t???` -> temp (if exists)
 				- It's just one character
 			-
-				-

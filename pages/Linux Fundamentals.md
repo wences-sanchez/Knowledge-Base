@@ -194,7 +194,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			-
 			- You shoud round the keyword with double quotes when using `$ find`
 			- -exec has two parts:
-				- The command: For example: `cp {} `
+				- The command: For example: `cp {} /root/linda/`
+				-
 			-
 	-
 		- #### Flashcards

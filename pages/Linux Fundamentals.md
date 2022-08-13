@@ -100,7 +100,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- The `.` (in wildcards) will only match a dot, not any character like regex are used to match.
 				- In this case, just the final dot for the extension file.
 			- The `?` (in wildcards) does **not** match any previous character.
-				- It just matches a single character **(any)**
+				- It just matches a single character **(any)**, but **one**
+				-
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

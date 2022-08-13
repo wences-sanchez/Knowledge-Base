@@ -92,7 +92,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `$ ls a?*`
 			- `$ ls a[nm]*`
 			- `$ ls a[a-e]*`
-		-
+		- The range function wo
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

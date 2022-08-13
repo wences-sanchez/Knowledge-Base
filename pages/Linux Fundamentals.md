@@ -67,7 +67,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Devices is what allows you to access your hardware.
 		- `/home` is the own user directory
 		- `/media` and `/mnt` are for mounting stuff
-		-
+		- `/opt`
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-
 		- Regular users have write-access to **two** directories only:

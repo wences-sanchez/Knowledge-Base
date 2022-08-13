@@ -86,7 +86,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- That's why all the tutorial examples write in `/tmp`!!
 	-
 		- #### Flashcards
-			- Explain each directory of the Linux hierarchy:
+			- Explain each directory of the Linux hierarchy: #flashcard
 				- `/usr` is for your program files
 				- `/var` is the directory that different services use to dynamically create files.
 					- `/var/log` contains your log files and

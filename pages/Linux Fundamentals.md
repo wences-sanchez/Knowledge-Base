@@ -41,7 +41,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				  collapsed:: true
 					- `$ sudo ip link set <network_device> down`
 					-
-	- ### Lesson 3: Essential File
+	- ### Lesson 3: Essential File Management Tools
+		-
 		-
 		-
 		-

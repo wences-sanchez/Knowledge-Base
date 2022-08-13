@@ -44,6 +44,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				  collapsed:: true
 					- `$ sudo ip link set <network_device> down`
 					-
+	-
 		- #### Flashcards
 			- How can you open a shell as another user? #flashcard
 			  collapsed:: true

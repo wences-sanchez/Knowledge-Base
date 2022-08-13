@@ -65,7 +65,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/boot` contains everything that you need to boot.
 		- `/dev` is where you'll find devices.
 			- Devices is what allows you to access your hardware.
-			-
+		- `/home
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

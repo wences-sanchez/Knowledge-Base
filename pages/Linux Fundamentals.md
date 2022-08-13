@@ -203,7 +203,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- #### 4.4 Using Advanced find Options
 			- Examples:
 				- `$ find / -type f -size +1G`
-				- `$ find /etc -exec grep -l student {} \;`
+				- `$ find /etc -exec grep -l student {} \; -exec cp {} `
 				- `$ find / -type f -size +1G`
 				- `$ find / -type f -size +1G`
 				- `$ find / -type f -size +1G`

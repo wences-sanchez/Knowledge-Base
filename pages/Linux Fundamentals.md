@@ -103,7 +103,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- It just matches a single character **(any)**, but **one**
 					- `$ ls t???` -> temp (if exists)
 			- `$ cp -a` copies all (visible) files
-				- You'll have to add './.*
+				- You'll have to add `'./.*'`
 			- `$ cp -R` copies all the files (including subdirectories)
 			-
 	-

@@ -86,6 +86,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- That's why all the tutorial examples write in `/tmp`!!
 		- If you use `$ ls -ld /<directory>`, you'll see properties and not contents of a directory
 		- The **second** column in the output of `$ ls -l` is the number of **links** in the directory
+		- About
 		- Wildcards are also known as globbing
 		- Some examples of wildcards:
 			- `$ ls a*`

@@ -112,11 +112,14 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :LOGBOOK:
 			  CLOCK: [2022-08-13 Sat 11:59:16]--[2022-08-13 Sat 12:00:12] =>  00:00:56
 			  :END:
-			- DOING Copy all files that have a name starting with an a, b or c from /etc to /tmp/files
+			- DONE Copy all files that have a name starting with an a, b or c from /etc to /tmp/files
 			  :LOGBOOK:
-			  CLOCK: [2022-08-13 Sat 12:00:14]
+			  CLOCK: [2022-08-13 Sat 12:00:14]--[2022-08-13 Sat 12:01:48] =>  00:01:34
 			  :END:
-			- TODO From /tmp/files, move all files that have a name starting with an a or b to /tmp/files/photos, and files with a name starting with a c to /tmp/files/videos
+			- DOING From /tmp/files, move all files that have a name starting with an a or b to /tmp/files/photos, and files with a name starting with a c to /tmp/files/videos
+			  :LOGBOOK:
+			  CLOCK: [2022-08-13 Sat 12:01:50]
+			  :END:
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

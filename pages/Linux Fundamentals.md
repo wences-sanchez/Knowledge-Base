@@ -103,7 +103,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- It just matches a single character **(any)**, but **one**
 					- `$ ls t???` -> temp (if exists)
 			- `$ cp -a` copy all (visible) files
-			- `$ cp -R` copies all the files (including )
+			- `$ cp -R` copies all the files (including subdirectories)
+			-
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

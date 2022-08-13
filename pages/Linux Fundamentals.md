@@ -96,7 +96,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- The range function won't work for numbers if they are not in `{ }`.
 				- The `[ ]` are only for wildcards, they will print nothing.
 			- The `.` (in wildcards) will only match a dot, not any character like regex are used to match.
-				- In this case, just the d
+				- In this case, just the final dot for the extension file
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

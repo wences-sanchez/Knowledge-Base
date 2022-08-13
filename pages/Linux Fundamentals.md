@@ -183,8 +183,12 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- The **second column of $ls** indicates the number of **hard links** that exist in the directory
 		- #### 4.3 Finding Files with find
 			- Examples:
+				- `$ find / -name `
 				- `$ find / -name`
-				-
+				- `$ find / -name`
+				- `$ find / -name`
+				- `$ find / -name`
+				- `$ find / -name`
 -
 -
 -

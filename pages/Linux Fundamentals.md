@@ -116,9 +116,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :LOGBOOK:
 			  CLOCK: [2022-08-13 Sat 12:00:14]--[2022-08-13 Sat 12:01:48] =>  00:01:34
 			  :END:
-			- DOING From /tmp/files, move all files that have a name starting with an a or b to /tmp/files/photos, and files with a name starting with a c to /tmp/files/videos
+			- DONE From /tmp/files, move all files that have a name starting with an a or b to /tmp/files/photos, and files with a name starting with a c to /tmp/files/videos
 			  :LOGBOOK:
-			  CLOCK: [2022-08-13 Sat 12:01:50]
+			  CLOCK: [2022-08-13 Sat 12:01:50]--[2022-08-13 Sat 12:03:15] =>  00:01:25
 			  :END:
 	-
 		- #### Flashcards

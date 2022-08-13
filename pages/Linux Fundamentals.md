@@ -102,9 +102,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- The `?` (in wildcards) does **not** match any previous character.
 				- It just matches a single character **(any)**, but **one**
 					- `$ ls t???` -> temp (if exists)
-			- `$ cp -a` copies all (visible) files
-				- You'll have to add `'./.*'` to `-a` to include hidden ones
-			- `$ cp -R` copies all the files (including subdirectories)
+		- `$ cp -a` copies all (visible) files
+			- You'll have to add `'./.*'` to `-a` to include hidden ones
+		- `$ cp -R` copies all the files (including subdirectories)
 			-
 	-
 		- #### Flashcards

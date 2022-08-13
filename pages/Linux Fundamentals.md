@@ -72,7 +72,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/root`. The home directory for the *root* user (obviously protected)
 		- `/run` is for temporary files that processes create dynamically in a private environment when needed
 		- `/sys` is for managing hardware (an advanced directory)
-		- `/tmp` is for temporary files which is
+		- `/tmp` is for temporary files. Is writeable by an
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

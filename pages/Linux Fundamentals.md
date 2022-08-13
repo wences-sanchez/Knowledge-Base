@@ -204,7 +204,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Examples:
 				- `$ find / -type f -size +1G`
 				- `$ find /etc -exec grep -l student {} \; -exec cp {} find/contents/ \;`
-				- `$ find / `
+				- `$ find /etc/ -name '*' `
 				- `$ find / -type f -size +1G`
 				- `$ find / -type f -size +1G`
 			-

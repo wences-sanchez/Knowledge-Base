@@ -42,7 +42,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					- `$ sudo ip link set <network_device> down`
 					-
 	- ### Lesson 3: [[Essential File Management Tools]]
-		-
+		- ``
 		-
 		-
 		-

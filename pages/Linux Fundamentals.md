@@ -90,8 +90,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- Some examples of wildcards:
 			- `$ ls a*`
 			- `$ ls a?*`
-			- `$ ls a[nm]*
-			- `$ ls a[a-e]*
+			- `$ ls a[nm]*`
+			- `$ ls a[a-e]*`
 			-
 	-
 		- #### Flashcards

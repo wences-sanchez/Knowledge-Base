@@ -86,7 +86,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- That's why all the tutorial examples write in `/tmp`!!
 		- If you use `$ ls -ld /<directory>`, you'll see properties and not contents of a directory
 		- The **second** column in the output of `$ ls -l` is the number of **links** in the directory
-		- About wildcards
+		- About **wildcards**
 			- Wildcards are also known as globbing
 			- Some examples of wildcards:
 				- `$ ls a*`
@@ -95,7 +95,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ ls a[a-e]*`
 			- The range function won't work for numbers if they are not in `{ }`.
 				- The `[ ]` are only for wildcards, they will print nothing.
-			-
+			- The
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

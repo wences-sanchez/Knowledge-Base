@@ -202,7 +202,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- So we just scape it.
 		- #### 4.4 Using Advanced find Options
 			- Examples:
-				-
+				- `$ find `
 			-
 	-
 		- #### Flashcards

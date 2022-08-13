@@ -108,7 +108,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- It's recommended to use **absolute** paths to avoid confusion!!
 		-
 		- #### Lab
-			-
+			- Create a di
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

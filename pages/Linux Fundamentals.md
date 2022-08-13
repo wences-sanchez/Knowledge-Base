@@ -171,4 +171,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- The **blocks** are physical allocation unit on disc that a file is using.
 		- A **hard link** points to the name of an **inode**.
 		- A **symbolic link** (**NOT** ~~soft~~)
-		- A **hard link** points to the inode itself, but a **symbolic link** p
+		- A **hard link** points to the inode itself, unlike a **symbolic link**,

@@ -192,7 +192,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -user linda -exec cp {} /root/linda \;`
 				- `$ find / -perm /4000`
 			-
-			- You shoud round the keyword with double quotes when using
+			- You shoud round the keyword with double quotes when using `$ find`
+			-
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard

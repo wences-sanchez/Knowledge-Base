@@ -69,7 +69,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/media` and `/mnt` are for mounting stuff
 		- `/opt` is an optional directory (not always used)
 		- `/proc` provides an interface to what the kernel is doing.
-		- `/root`.
+		- `/root`. The home directory for
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-
 		- Regular users have write-access to **two** directories only:

@@ -195,7 +195,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- You shoud round the keyword with double quotes when using `$ find`
 			- -exec has two parts:
 				- The command: For example: `cp {} /root/linda/`
-			- The -exec option needs a semicolon to be included in its syntax. But the shell reads that semicolon as a special character. So we s
+			- The -exec option needs a semicolon to be included in its syntax. But the shell reads that semicolon as a special character.
+			- So we just scape it.
 			-
 	-
 		- #### Flashcards

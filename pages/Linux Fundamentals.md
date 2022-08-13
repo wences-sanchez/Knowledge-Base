@@ -74,7 +74,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/sys` is for managing hardware (an advanced directory)
 		- `/tmp` is for temporary files. Is writeable by anybody.
 		- `/usr` contains your programs and binaries.
-			- If you write a script or anything you want to provide it on the system you should copy it to `/usr/local` (if it's a binary)
+			- If you write a script or anything you want to provide it on the system you should copy it to `/usr/local` (if it's a binary, preferably to `)
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

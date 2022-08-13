@@ -180,7 +180,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- If you configurate or modify one of the files, the others are modified too.
 				- They are indeed the same file
 			- It's a good idea to use **absolute** paths when creating symbolic links
-			-
+			- The second column
 			-
 -
 -

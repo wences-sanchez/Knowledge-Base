@@ -201,7 +201,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- But the shell reads that semicolon as a special character.
 				- So we just scape it.
 		- #### 4.4 Using Advanced find Options
-			-
+			- Examples:
+				-
 			-
 	-
 		- #### Flashcards

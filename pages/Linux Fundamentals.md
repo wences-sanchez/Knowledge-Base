@@ -87,7 +87,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- If you use `$ ls -ld /<directory>`, you'll see properties and not contents of a directory
 		- The **second** column in the output of `$ ls -l` is the number of **links** in the directory
 		- Wildcards are also known as globbing
-		- Some e
+		- Some examples of wildcards:
+			-
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

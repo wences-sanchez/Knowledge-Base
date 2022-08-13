@@ -45,7 +45,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/usr` is for your program files
 		- `/var` is the directory that different services use to dynamically create files.
 			- `/var/log` contains your log files and
-			- `` anything needed to be
+			- `/var/cache` anything needed to be
 		-
 		-
 		-

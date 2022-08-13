@@ -179,7 +179,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- You can use `$ ls */<your-file>` to easily find a file
 			- If you configurate or modify one of the files, the others are modified too.
 				- They are indeed the same file
-			-
+			- I
 -
 -
 -

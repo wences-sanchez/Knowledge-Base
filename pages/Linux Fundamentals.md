@@ -194,6 +194,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard
+			  collapsed:: true
 				- A link is a file system entry that refers to another file or directory
 				- Hard links are pointing to the same inode on the same file system
 				- Symbolic links are shortcuts and add additional flexibility
@@ -207,7 +208,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- A **hard link** points to the inode itself, unlike a **symbolic link**, which points just to the name of the file
 				- ![image.png](../assets/image_1660386646097_0.png)
 				- It's a good idea to use **absolute** paths when creating symbolic links
--
+			- The **second column of $ls** indicates the number of **hard links** that exist in the directory
 -
 -
 -

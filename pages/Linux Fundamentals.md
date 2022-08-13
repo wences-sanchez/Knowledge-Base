@@ -33,6 +33,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :END:
 				- `$ sudo hostname <new_name>`
 			- DONE Read the help output for **ip** and find how you can bring down a **link**
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2022-08-12 Fri 14:37:26]--[2022-08-12 Fri 14:52:40] =>  00:15:14
 			  :END:

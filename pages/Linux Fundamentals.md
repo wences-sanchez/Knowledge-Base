@@ -192,7 +192,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -user linda -exec cp {} /root/linda \;`
 				- `$ find / -perm /4000`
 			-
-			- You shoud
+			- You shoud round the
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard

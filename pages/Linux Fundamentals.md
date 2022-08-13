@@ -177,7 +177,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- ![image.png](../assets/image_1660386646097_0.png)
 		- #### 4.2 Managing Hard and Symbolic Links
 			- You can use `$ ls */<your-file>` to easily find a file
-			- If you configurate or modify one of the files, the others are
+			- If you configurate or modify one of the files, the others are modified too.
+			-
 -
 -
 -

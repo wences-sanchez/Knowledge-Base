@@ -194,7 +194,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			-
 			- You shoud round the keyword with double quotes when using `$ find`
 			- -exec has two parts:
-				- The command: For example: `cp {} /root/linda/`
+				- The first command: For example: `cp {}`
 				- and its slash and semicolon ending
 			- Why that trailing `\;` at the end of a find command?
 				- The -exec option needs a semicolon to be included in its syntax.

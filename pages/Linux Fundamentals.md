@@ -106,7 +106,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- You'll have to add `'./.*'` to `-a` to include hidden ones
 		- `$ cp -R` copies all the files (including subdirectories)
 		- It's recommended to use **absolute** paths to avoid confusion!!
-		- ###
+		-
+		- #### Lab
+			-
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

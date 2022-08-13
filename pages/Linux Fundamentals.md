@@ -90,7 +90,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- Some examples of wildcards:
 			- ls a*
 			- ls a?*
-			- ls
+			- ls a[nm]*
+			- ls a
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

@@ -186,7 +186,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -name "hosts"`
 				- `$ find / -name "hosts*"`
 				- `$ find / -user linda`
-				- `$ find / -name`
+				- `$ find / -size +2G`
 				- `$ find / -name`
 				- `$ find / -name`
 -

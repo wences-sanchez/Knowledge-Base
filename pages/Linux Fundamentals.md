@@ -193,7 +193,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -perm /4000`
 	-
 		- #### Flashcards
-			- Describe what is a hard link? #flashcard
+			- Describe what is a hard link in Linux. #flashcard
 				- A link is a file system entry that refers to another file or directory
 				- Hard links are pointing to the same inode on the same file system
 				- Symbolic links are shortcuts and add additional flexibility

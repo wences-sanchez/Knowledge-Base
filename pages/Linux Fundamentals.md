@@ -84,7 +84,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `/home`
 			- `/tmp`
 				- That's why all the tutorial examples write in `/tmp`!!
-		- If you use `$ ls -ld /<directory>`,
+		- If you use `$ ls -ld /<directory>`, you'll se
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

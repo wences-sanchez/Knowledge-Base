@@ -76,7 +76,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/usr` contains your programs and binaries.
 			- If you write a script or anything you want to provide it on the system you should copy it to `/usr/local` (if it's a binary, preferably to `/usr/local/bin`)
 		- `/var` is for stuff that is created dynamically.
-			- In the `/var/log` directory, that's where
+			- In the `/var/log` directory, that's where your lo
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

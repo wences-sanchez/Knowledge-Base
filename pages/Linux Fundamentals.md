@@ -66,7 +66,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/dev` is where you'll find devices.
 			- Devices is what allows you to access your hardware.
 		- `/home` is the own user directory
-		- ``/mnt` is for mounting stuff
+		- `/media` and `/mnt` are for mounting stuff
+			-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-
 		- Regular users have write-access to **two** directories only:

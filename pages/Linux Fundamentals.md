@@ -44,7 +44,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	- ### Lesson 3: [[Essential File Management Tools]]
 		- `/usr` is for your program files
 		- `/var` is the directory that different services use to dynamically create files.
-			- `/var/log` contains your log files and anything needed to be
+			- `/var/log` contains your log files and
+			- `` anything needed to be
 		-
 		-
 		-

@@ -41,7 +41,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				  collapsed:: true
 					- `$ sudo ip link set <network_device> down`
 					-
-		-
+	-
 		-
 		-
 		-

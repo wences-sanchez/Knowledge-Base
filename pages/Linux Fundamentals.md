@@ -47,7 +47,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `/var/log` contains your log files and
 			- `/var/cache` contains anything needed to be cached
 		- `/etc` contains your configuration files
-		- Linux Foundation is the organization who is behind and who is
+		- Linux Foundation is the organization who is behind and who is responsible of
 		-
 		-
 		-

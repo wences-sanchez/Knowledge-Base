@@ -181,7 +181,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- They are indeed the same file
 			- It's a good idea to use **absolute** paths when creating symbolic links
 			- The **second column of $ls** indicates the number of **hard links** that exist in the directory
-			-
+		-
 			-
 -
 -

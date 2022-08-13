@@ -187,7 +187,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -name "hosts*"`
 				- `$ find / -user linda`
 				- `$ find / -size +2G`
-				- `$ find / -user linda -exec cp {} `
+				- `$ find / -user linda -exec cp {} /root/linda \;`
 				- `$ find / -name`
 -
 -

@@ -86,4 +86,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- That's why all the tutorial examples write in `/tmp`!!
 	-
 		- #### Flashcards
-			- E
+			- Explain each directory of Linu

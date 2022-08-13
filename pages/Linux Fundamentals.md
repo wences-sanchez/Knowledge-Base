@@ -70,5 +70,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `/home`
 			- `/tmp`
 				- That's why all the tutorial examples write in `/tmp`!!
-			-
 		-

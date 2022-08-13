@@ -193,6 +193,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -perm /4000`
 			-
 			- You shoud round the keyword with double quotes when using `$ find`
+			- -exe
 			-
 	-
 		- #### Flashcards

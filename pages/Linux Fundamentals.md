@@ -89,9 +89,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- Wildcards are also known as globbing
 		- Some examples of wildcards:
 			- $ ls a*
-			- ls a?*
-			- ls a[nm]*
-			- ls a[a-e]*
+			- $ ls a?*
+			- `$ ls a[nm]*
+			- `$ ls a[a-e]*
 			-
 	-
 		- #### Flashcards

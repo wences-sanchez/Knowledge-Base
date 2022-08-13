@@ -194,7 +194,18 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	-
 		- #### Flashcards
 			- Describe what is a hard link? #flashcard
-				-
+				- A link is a file system entry that refers to another file or directory
+				- Hard links are pointing to the same inode on the same file system
+				- Symbolic links are shortcuts and add additional flexibility
+					- Symbolic links can exist on a directory
+					- Cross-deviced ones are allowed
+				- Every file Linux file system has an **inode**, and the inode contains complete administration of the file (but its name).
+				- From the **inode**, a reference is made to the **blocks**.
+				- The **blocks** are physical allocation unit on disc that a file is using.
+				- A **hard link** points to the name of an **inode**.
+				- A **symbolic link** (**NOT** ~~soft~~)
+				- A **hard link** points to the inode itself, unlike a **symbolic link**, which points just to the name of the file
+				- ![image.png](../assets/image_1660386646097_0.png)
 -
 -
 -

@@ -200,7 +200,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- The -exec option needs a semicolon to be included in its syntax.
 				- But the shell reads that semicolon as a special character.
 				- So we just scape it.
-			-
+		-
 			-
 	-
 		- #### Flashcards

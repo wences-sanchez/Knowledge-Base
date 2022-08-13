@@ -84,7 +84,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `/home`
 			- `/tmp`
 				- That's why all the tutorial examples write in `/tmp`!!
-	-
+		-
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

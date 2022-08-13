@@ -207,7 +207,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find /etc/ -name '*' -type f | xargs grep "127.0.0.1"`
 				- `$ find /etc/ -name '*ini' -printf '%s, %p\n' | sort -rn`
 				- `$ find / -name "student" -type f ! -path '*/proc/*' ! -path '*/tmp/*'`
-			- You can search text inside ever
+			- You can search text inside every one of your
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard

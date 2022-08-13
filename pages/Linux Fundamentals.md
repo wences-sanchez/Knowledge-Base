@@ -167,4 +167,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Symbolic links can exist on a directory
 			- Cross-deviced ones are allowed
 		- Every file Linux file system has an **inode**, and the inode contains complete administration of the file (but its name).
-		- From the **inode**
+		- From the **inode**,

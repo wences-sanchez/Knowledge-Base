@@ -46,6 +46,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					-
 		- #### Flashcards
 			- How can you open a shell as another user? #flashcard
+			  collapsed:: true
 				- `$ su - [<user>]` can be used to open a shell as another user.
 					- When used without arguments, a  root shell is opened after entering the root password
 					- When used with a username as argument, a user shell is opened.

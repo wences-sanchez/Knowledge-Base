@@ -107,7 +107,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `$ cp -R` copies all the files (including subdirectories)
 		- It's recommended to use **absolute** paths to avoid confusion!!
 		-
-		- #### Lab
+		- #### Lab {{renderer :todomaster}}
 			- TODO Create a directory structure /tmp/files/pictures, /tmp/files/photos and /tmp/files/videos
 			- TODO Coppy all files that have a name starting with an a, b or c from /etc to /tmp/files
 			- TODO From /tmp/files, move all files that have a name starting with an a or b to /tmp/files/photos, and files with a name starting with a c to /tmp/files/videos

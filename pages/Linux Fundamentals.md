@@ -53,5 +53,6 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- Regular users have write-access to two directories only:
 			- `/home`
 			- `/tmp`
-				- That's why all the tutorial examples write in
+				- That's why all the tutorial examples write in `/tmp`!!
+		-
 		-

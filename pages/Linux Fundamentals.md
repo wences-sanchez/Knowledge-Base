@@ -206,7 +206,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find /etc -exec grep -l student {} \; -exec cp {} find/contents/ \;`
 				- `$ find /etc/ -name '*' -type f | xargs grep "127.0.0.1"`
 				- `$ find /etc/ -name '*ini' -printf '%s, %p\n' | sort -rn`
-				- `$ find / -name "student" -type f ! -path '*/proc/*'`
+				- `$ find / -name "student" -type f ! -path '*/proc/*' ! -path ''`
 			-
 	-
 		- #### Flashcards

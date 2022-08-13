@@ -64,7 +64,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/lib` and `/lib64` include libraries belonging to the files in `/bin` and `/sbin`
 		- `/boot` contains everything that you need to boot.
 		- `/dev` is where you'll find devices.
-			- Devices is what allows you to access your hardware,a
+			- Devices is what allows you to access your hardware.
+			-
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

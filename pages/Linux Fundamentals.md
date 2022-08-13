@@ -141,5 +141,5 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- The `?` (in wildcards) does **not** match any previous character.
 					- It just matches a single character **(any)**, but **one**
 						- `$ ls t???` -> temp (if exists)
-				- It's just one
+				- It's just one character
 				-

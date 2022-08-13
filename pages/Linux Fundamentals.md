@@ -193,7 +193,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -perm /4000`
 	-
 		- #### Flashcards
-			- hat is a hard link?
+			- Describe what is a hard link? #flashcard
+				-
 -
 -
 -

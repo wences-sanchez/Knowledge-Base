@@ -73,7 +73,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/run` is for temporary files that processes create dynamically in a private environment when needed
 		- `/sys` is for managing hardware (an advanced directory)
 		- `/tmp` is for temporary files. Is writeable by anybody.
-		- `/usr` contains your programs and binaries
+		- `/usr` contains your programs and binaries.
+			-
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

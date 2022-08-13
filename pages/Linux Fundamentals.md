@@ -88,8 +88,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- The **second** column in the output of `$ ls -l` is the number of **links** in the directory
 		- Wildcards are also known as globbing
 		- Some examples of wildcards:
-			- $ ls a*
-			- $ ls a?*
+			- `$ ls a*`
+			- `$ ls a?*`
 			- `$ ls a[nm]*
 			- `$ ls a[a-e]*
 			-

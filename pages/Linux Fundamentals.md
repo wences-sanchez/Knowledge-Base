@@ -49,7 +49,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/etc` contains your configuration files
 		- `/bin` stands for binary. And, in Linux, a binary is a command, a command file, a program file that can be used by ordinary users.
 			- `/sbin` is a system binary. You need sudo privileges in order to use that.
-			- `/bin` now points to `/usr/bin`. So nowadays, the `/bin` directory doesn't have a function an
+			- `/bin` now points to `/usr/bin`. So, in, the `/bin` directory doesn't have a function anymore
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

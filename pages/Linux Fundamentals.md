@@ -48,6 +48,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `/var/cache` contains anything needed to be cached
 		- `/etc` contains your configuration files
 		-
+		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-
 		- Regular users have write-access to **two** directories only:

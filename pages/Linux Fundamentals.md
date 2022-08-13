@@ -42,6 +42,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					- `$ sudo ip link set <network_device> down`
 					-
 	- ### Lesson 3: [[Essential File Management Tools]]
+	  id:: 62f66ba7-794b-4605-a7dc-145760843477
 		- `/usr` is for your program files
 		- `/var` is the directory that different services use to dynamically create files.
 			- `/var/log` contains your log files and

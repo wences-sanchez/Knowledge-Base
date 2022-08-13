@@ -191,7 +191,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -size +2G`
 				- `$ find / -user linda -exec cp {} /root/linda \;`
 				- `$ find / -perm /4000`
-		-
+-
+	- a
 -
 -
 -

@@ -170,4 +170,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- From the **inode**, a reference is made to the **blocks**.
 		- The **blocks** are physical allocation unit on disc that a file is using.
 		- A **hard link** points to the name of an **inode**.
-		-
+		- A **symbo**

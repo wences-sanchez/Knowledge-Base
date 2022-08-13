@@ -86,4 +86,35 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- That's why all the tutorial examples write in `/tmp`!!
 	-
 		- #### Flashcards
-			- Explain each directory of Linu
+			- Explain each directory of Linux hierarchy:
+				- `/usr` is for your program files
+				- `/var` is the directory that different services use to dynamically create files.
+					- `/var/log` contains your log files and
+					- `/var/cache` contains anything needed to be cached
+				- `/etc` contains your configuration files
+				- `/bin` stands for binary. And, in Linux, a binary is a command, a command file, a program file that can be used by ordinary users.
+					- `/sbin` is a system binary. You need sudo privileges in order to use that.
+					- `/bin` now points to `/usr/bin`. So, nowadays, the `/bin` directory doesn't have a function anymore and everything is now stored in `/usr/bin`
+				- `/lib` and `/lib64` include libraries belonging to the files in `/bin` and `/sbin`
+				- `/boot` contains everything that you need to boot.
+				- `/dev` is where you'll find devices.
+					- Devices is what allows you to access your hardware.
+				- `/home` is the own user directory
+				- `/media` and `/mnt` are for mounting stuff
+				- `/opt` is an optional directory (not always used)
+				- `/proc` provides an interface to what the kernel is doing.
+				- `/root`. The home directory for the *root* user (obviously protected)
+				- `/run` is for temporary files that processes create dynamically in a private environment when needed
+				- `/sys` is for managing hardware (an advanced directory)
+				- `/tmp` is for temporary files. Is writeable by anybody.
+				- `/usr` contains your programs and binaries.
+					- If you write a script or anything you want to provide it on the system you should copy it to `/usr/local` (if it's a binary, preferably to `/usr/local/bin`)
+				- `/var` is for stuff that is created dynamically.
+					- In the `/var/log` directory, that's where your logging service **might** write files (*might* because nowadays those are found in **systemd-journald**)
+				-
+				- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
+				-
+				- Regular users have write-access to **two** directories only:
+					- `/home`
+					- `/tmp`
+						- That's why all the tutorial examples write in `/tmp`!!

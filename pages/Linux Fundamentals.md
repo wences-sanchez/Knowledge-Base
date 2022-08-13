@@ -191,6 +191,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -size +2G`
 				- `$ find / -user linda -exec cp {} /root/linda \;`
 				- `$ find / -perm /4000`
+				-
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard
@@ -209,6 +210,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- ![image.png](../assets/image_1660386646097_0.png)
 				- It's a good idea to use **absolute** paths when creating symbolic links
 			- What means the second column (that number) in the output of the `$ ls -l` command? #flashcard
+			  collapsed:: true
 				- The **second column of $ls** indicates the number of **hard links** that exist in the directory
 -
 -

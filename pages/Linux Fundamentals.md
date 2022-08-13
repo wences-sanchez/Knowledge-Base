@@ -192,7 +192,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -user linda -exec cp {} /root/linda \;`
 				- `$ find / -perm /4000`
 	-
-		- ##
+		- #### Flashcards
+			-
 -
 -
 -

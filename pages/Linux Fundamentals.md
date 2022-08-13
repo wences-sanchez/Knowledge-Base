@@ -194,7 +194,6 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard
-			  collapsed:: true
 				- A link is a file system entry that refers to another file or directory
 				- Hard links are pointing to the same inode on the same file system
 				- Symbolic links are shortcuts and add additional flexibility

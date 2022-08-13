@@ -1,7 +1,7 @@
 tags:: #O'Reilly-Learning #Linux #Videos
 #tags #O'Reilly-Learning #Linux #Videos
 
-- ## Module 1: [[Essential Commands]]
+- ## Module 1: [[Linux Essential Commands]]
 	- ### Lesson 1: [[Installing Linux]]
 	  id:: 62f6461c-f1b4-4b0b-bd96-bf4458c0af3b
 		- The FSF originated because Unix had become very expensive.

@@ -108,7 +108,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- It's recommended to use **absolute** paths to avoid confusion!!
 		-
 		- #### Lab
-			- Create a directory structure /tmp/files/pictures, /tmp/files/photos and /tmp/files
+			- Create a directory structure /tmp/files/pictures, /tmp/files/photos and /tmp/files/videos
+			-
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

@@ -108,6 +108,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- It's recommended to use **absolute** paths to avoid confusion!!
 		-
 		- #### Lab
+		  collapsed:: true
 			- DONE Create a directory structure /tmp/files/pictures, /tmp/files/photos and /tmp/files/videos
 			  :LOGBOOK:
 			  CLOCK: [2022-08-13 Sat 11:59:16]--[2022-08-13 Sat 12:00:12] =>  00:00:56
@@ -122,6 +123,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :END:
 	-
 		- #### Flashcards
+		  collapsed:: true
 			- Explain each directory of the Linux hierarchy: #flashcard
 			  collapsed:: true
 				- `/usr` is for your program files

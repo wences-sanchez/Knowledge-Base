@@ -208,7 +208,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find /etc/ -name '*ini' -printf '%s, %p\n' | sort -rn`
 				- `$ find / -name "student" -type f ! -path '*/proc/*' ! -path '*/tmp/*'`
 			- You can search text inside every one of your files with:
-				- `$ find / -exec grep "<keyword" {} \;`
+				- `$ find / -exec grep "<keyword>" {} \;`
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard

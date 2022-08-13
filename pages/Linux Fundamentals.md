@@ -44,7 +44,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					- `$ sudo ip link set <network_device> down`
 					-
 		- #### Flashcards
-			- Alternative, `$ su -` can be used to open a shell as another user.
+			- How can yAlternative, `$ su -` can be used to open a shell as another user.
 				- When used without arguments, a  root shell is opened after entering the root password
 				- When used with a username as argument, a user shell is opened.
 	- ### Lesson 3: [[Essential File Management Tools]]

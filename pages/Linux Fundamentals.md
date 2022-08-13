@@ -93,7 +93,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `$ ls a[nm]*`
 			- `$ ls a[a-e]*`
 		- The range function won't work for numbers if they are not in `{ }`.
-			- The `[ ]`
+			- The `[ ]` are only for globbing, t
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

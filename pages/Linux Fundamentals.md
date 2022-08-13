@@ -176,7 +176,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- A **hard link** points to the inode itself, unlike a **symbolic link**, which points just to the name of the file
 			- ![image.png](../assets/image_1660386646097_0.png)
 		- #### 4.2 Managing Hard and Symbolic Links
-			- You can use `$ ls */<your-file>` to
+			- You can use `$ ls */<your-file>` to easily find a file
+			-
 -
 -
 -

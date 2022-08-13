@@ -202,7 +202,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- So we just scape it.
 		- #### 4.4 Using Advanced find Options
 			- Examples:
-				- `$ find / -type f -size +`
+				- `$ find / -type f -size +1G`
+				- `$ find / -type f -size +1G`
+				- `$ find / -type f -size +1G`
+				- `$ find / -type f -size +1G`
+				- `$ find / -type f -size +1G`
 			-
 	-
 		- #### Flashcards

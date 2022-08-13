@@ -203,7 +203,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- #### 4.4 Using Advanced find Options
 			- Examples:
 				- `$ find / -type f -size +1G`
-				- `$ find / `
+				- `$ find /etc -e`
 				- `$ find / -type f -size +1G`
 				- `$ find / -type f -size +1G`
 				- `$ find / -type f -size +1G`

@@ -52,6 +52,6 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		-
 		- Regular users have write-access to two directories only:
 			- /home
-			-
+			- /tmp
 		-
 		-

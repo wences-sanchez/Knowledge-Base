@@ -68,7 +68,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/home` is the own user directory
 		- `/media` and `/mnt` are for mounting stuff
 		- `/opt` is an optional directory (not always used)
-		- `/proc`
+		- `/proc` pro
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-
 		- Regular users have write-access to **two** directories only:

@@ -46,7 +46,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/var` is the directory that different services use to dynamically create files.
 			- `/var/log` contains your log files and
 			- `/var/cache` contains anything needed to be cached
-			-
+			- ``
 		-
 		-
 		-

@@ -112,7 +112,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :LOGBOOK:
 			  CLOCK: [2022-08-13 Sat 11:59:16]--[2022-08-13 Sat 12:00:12] =>  00:00:56
 			  :END:
-			- DOING Coppy all files that have a name starting with an a, b or c from /etc to /tmp/files
+			- DOING Copy all files that have a name starting with an a, b or c from /etc to /tmp/files
 			  :LOGBOOK:
 			  CLOCK: [2022-08-13 Sat 12:00:14]
 			  :END:

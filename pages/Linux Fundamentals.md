@@ -43,7 +43,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				  collapsed:: true
 					- `$ sudo ip link set <network_device> down`
 					-
-		- ###
+		- #### Flashcards
+			-
 	- ### Lesson 3: [[Essential File Management Tools]]
 	  id:: 62f66ba7-794b-4605-a7dc-145760843477
 		- `/usr` is for your program files

@@ -102,7 +102,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- The `?` (in wildcards) does **not** match any previous character.
 				- It just matches a single character **(any)**, but **one**
 					- `$ ls t???` -> temp (if exists)
-			- `$ cp -a
+			- `$ cp -a`
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

@@ -166,4 +166,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- Symbolic links are shortcuts and add additional flexibility
 			- Symbolic links can exist on a directory
 			- Cross-deviced ones are allowed
-		- Every file Linux file system has an **inode**, and the inode contains complete
+		- Every file Linux file system has an **inode**, and the inode contains complete administration of the file.

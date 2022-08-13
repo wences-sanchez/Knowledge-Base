@@ -110,7 +110,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- #### Lab
 			- Create a directory structure /tmp/files/pictures, /tmp/files/photos and /tmp/files/videos
 			- Coppy all files that have a name starting with an a, b or c from /etc to /tmp/files
-			- From
+			- From /tmp/files, move all if
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard

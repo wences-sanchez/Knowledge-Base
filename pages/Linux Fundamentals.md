@@ -108,7 +108,10 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- It's recommended to use **absolute** paths to avoid confusion!!
 		-
 		- #### Lab
-			- TODO Create a directory structure /tmp/files/pictures, /tmp/files/photos and /tmp/files/videos
+			- DOING Create a directory structure /tmp/files/pictures, /tmp/files/photos and /tmp/files/videos
+			  :LOGBOOK:
+			  CLOCK: [2022-08-13 Sat 11:59:16]
+			  :END:
 			- TODO Coppy all files that have a name starting with an a, b or c from /etc to /tmp/files
 			- TODO From /tmp/files, move all files that have a name starting with an a or b to /tmp/files/photos, and files with a name starting with a c to /tmp/files/videos
 	-

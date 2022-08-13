@@ -205,7 +205,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -type f -size +1G`
 				- `$ find /etc -exec grep -l student {} \; -exec cp {} find/contents/ \;`
 				- `$ find /etc/ -name '*' -type f | xargs grep "127.0.0.1"`
-				- `$ find / -type f -siz`
+				- `$ find /etc/ -name '*' `
 				- `$ find / -type f -size +1G`
 			-
 	-

@@ -168,4 +168,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Cross-deviced ones are allowed
 		- Every file Linux file system has an **inode**, and the inode contains complete administration of the file (but its name).
 		- From the **inode**, a reference is made to the **blocks**.
-		- The **blocks** are physical allocation unit on disc that
+		- The **blocks** are physical allocation unit on disc that a file

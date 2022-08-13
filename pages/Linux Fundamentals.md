@@ -160,4 +160,5 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					- It just matches a single character **(any)**, but **one**
 						- `$ ls t???` -> temp (if exists)
 				- It's just one character
-	- ### Lesson 4:
+	- ### Lesson 4: [[Advanced File Management Tools]]
+		-

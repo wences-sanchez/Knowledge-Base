@@ -94,7 +94,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ ls a[nm]*`
 				- `$ ls a[a-e]*`
 				- `$ ls -d [ab]???`
-					- looks for
+					- looks for the first
 			- The range function won't work for numbers if they are not in `{ }`.
 				- The `[ ]` are only for wildcards, they will print nothing.
 			- The `.` (in wildcards) will only match a dot, not any character like regex are used to match.

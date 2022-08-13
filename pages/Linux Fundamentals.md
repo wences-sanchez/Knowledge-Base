@@ -163,4 +163,5 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	- ### Lesson 4: [[Advanced File Management Tools]]
 		- A link is a file system entry that refers to another file or directory
 		- Hard links are pointing to the same inode on the same file system
-		- Symbolic links are shortcut
+		- Symbolic links are shortcuts and add additional flexibility
+			-

@@ -63,7 +63,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `/bin` now points to `/usr/bin`. So, nowadays, the `/bin` directory doesn't have a function anymore and everything is now stored in `/usr/bin`
 		- `/lib` and `/lib64` include libraries belonging to the files in `/bin` and `/sbin`
 		- `/boot` contains everything that you need to boot.
-		- `/dev` is where
+		- `/dev` is where you'll find devices.
+		-
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

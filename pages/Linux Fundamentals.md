@@ -87,6 +87,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	-
 		- #### Flashcards
 			- Explain each directory of the Linux hierarchy: #flashcard
+			  collapsed:: true
 				- `/usr` is for your program files
 				- `/var` is the directory that different services use to dynamically create files.
 					- `/var/log` contains your log files and

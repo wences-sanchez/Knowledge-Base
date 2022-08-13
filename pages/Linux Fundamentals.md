@@ -62,7 +62,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `/sbin` is a system binary. You need sudo privileges in order to use that.
 			- `/bin` now points to `/usr/bin`. So, nowadays, the `/bin` directory doesn't have a function anymore and everything is now stored in `/usr/bin`
 		- `/lib` and `/lib64` include libraries belonging to the files in `/bin` and `/sbin`
-		- `/boot` contains ever
+		- `/boot` contains everything that
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

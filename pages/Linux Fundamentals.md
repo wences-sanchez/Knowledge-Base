@@ -181,6 +181,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- They are indeed the same file
 			- It's a good idea to use **absolute** paths when creating symbolic links
 			-
+			-
 -
 -
 -

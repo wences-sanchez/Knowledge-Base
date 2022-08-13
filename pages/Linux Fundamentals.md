@@ -75,7 +75,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- `/tmp` is for temporary files. Is writeable by anybody.
 		- `/usr` contains your programs and binaries.
 			- If you write a script or anything you want to provide it on the system you should copy it to `/usr/local` (if it's a binary, preferably to `/usr/local/bin`)
-		- `/var` is
+		- `/var` is for stuff that i
 		-
 		- Linux Foundation is the organization who is behind and who is responsible of **all** Linux distributions.
 		-

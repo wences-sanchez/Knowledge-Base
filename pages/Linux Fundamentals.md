@@ -161,7 +161,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 						- `$ ls t???` -> temp (if exists)
 				- It's just one character
 	- ### Lesson 4: [[Advanced File Management Tools]]
-		- ####
+		- #### Understanding
 		- A link is a file system entry that refers to another file or directory
 		- Hard links are pointing to the same inode on the same file system
 		- Symbolic links are shortcuts and add additional flexibility

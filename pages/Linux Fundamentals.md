@@ -172,3 +172,4 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- A **hard link** points to the name of an **inode**.
 		- A **symbolic link** (**NOT** ~~soft~~)
 		- A **hard link** points to the inode itself, unlike a **symbolic link**, which points just to the name of the file
+		- ![image.png](../assets/image_1660386646097_0.png)

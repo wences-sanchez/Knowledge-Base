@@ -9,7 +9,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Free Linux distribution based on RedHat are Rocky and Alma Linux
 			- Oracle is also based on RedHat
 		- Ubuntu is based on Debian
-	- ### Lesson 2: [[Using Essential Tools]]
+	- ### Lesson 2: [[Using Essential Tools]] #spaced
 	  id:: 62f6387f-8424-416c-9a84-e9c46f041769
 		- Use root is an alternative to sudo.
 			- Root is dangerous. You shouldn't use that directly

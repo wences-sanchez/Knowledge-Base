@@ -43,7 +43,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					-
 	- ### Lesson 3: [[Essential File Management Tools]]
 		- `/usr` is for your program files
-		- `/var` is the directory that different services are using to dynamically create files.
+		- `/var` is the directory that different services use to dynamically create files.
 		-
 		-
 		-

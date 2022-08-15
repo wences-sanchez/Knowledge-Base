@@ -37,7 +37,7 @@
 		- | Scripted Pipeline | Declarative Pipeline |
 		  |`node {}` |  `pipeline { }` |
 		  | Groovy-based DSL | Specifically designed for configuring Jenkins projects as code |
-	- What are the four different parameters to specify an agent in Jenkins? #flaschard
+	- What are the four different parameters to specify an agent in Jenkins? #flashcard
 		- **any**: Run on the first available system
 			- `agent any`
 		- **label**: When we need to be specific about the agent that runs the pipeline, we can use the label parameter.

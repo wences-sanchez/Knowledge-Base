@@ -213,12 +213,17 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- **find**  is very powerful, but also because of that, is somewhat slow.
 			- **locate** is much faster. But works on a database that needs to be defined using **updatedb**
 			- **which** is useful to find the exact location of binary files from the *$PATH* variable. For finding executables.
-		- #### Archiving Files with tar
+		- #### 4.6 Archiving Files with tar
 			- **tar** is the Tape Archiver, and was created a long time ago
 			- Usages (without compression):
 				- `$ tar -cvf my_archive.tar /home`
 				- `$ tar -xvf my_archive`
-				-
+		- #### 4.7 Managing Files Compression
+			- There exist other alternatives to *zip* like:
+				- gzip
+				- bzip2
+				- xzip
+			-
 			-
 			-
 	-

@@ -359,6 +359,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- It's a good idea to use the **-E** parameter of **grep**
 		- You have to scape the `{ }` in your grep command
 		-
+		- It's almost
 		-
 		-
 		-

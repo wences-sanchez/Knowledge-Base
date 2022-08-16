@@ -315,6 +315,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- For example, `$ grep llinda *` searches text *linda* in all files in the current directory
 				- With **-C<num>** it shows you the context before and after
 		- #### Lab
+		  collapsed:: true
 			- DONE Use **vim** to create a text file **users** containing the following text:
 			  :LOGBOOK:
 			  CLOCK: [2022-08-16 Tue 13:48:49]--[2022-08-16 Tue 13:49:44] =>  00:00:55
@@ -329,15 +330,18 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :LOGBOOK:
 			  CLOCK: [2022-08-16 Tue 13:49:46]--[2022-08-16 Tue 13:50:37] =>  00:00:51
 			  :END:
-			- DOING Use the appropriate tool to print the last line only from this file
+			- DONE Use the appropriate tool to print the last line only from this file
 			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 13:50:40]
+			  CLOCK: [2022-08-16 Tue 13:50:40]--[2022-08-16 Tue 13:51:41] =>  00:01:01
 			  :END:
-			- TODO Print the contents of this text file on-screen in reversed order
+			- DONE Print the contents of this text file on-screen in reversed order
+			  :LOGBOOK:
+			  CLOCK: [2022-08-16 Tue 13:51:42]--[2022-08-16 Tue 13:51:58] =>  00:00:16
+			  :END:
 			-
 			-
 			-
-		- ####
+	-
 -
 -
 -

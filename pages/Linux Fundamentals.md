@@ -369,6 +369,10 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- length($0)
 		- `$ awk -F : '/linda/ { print $3 }' /etc/passwd`
 		-
+	- #### 6.5 Getting Started with sed
+		- `$ sed -i s/<to-remove>/<new>/g my-file`
+		- `-i` is for input
+		- `-g
 		-
 		-
 -

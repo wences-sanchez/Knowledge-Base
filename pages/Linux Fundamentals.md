@@ -228,10 +228,12 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- When we mount a device in (for example, `/dev/sda1`) the root directory, anything that you write to files somewhere in the root directory, will be written to this `/dev/sda1`
 				- Another example: when you mount a `/dev/sdb1` device (a usb plug) in the `/mnt` directory, if you write files to the `/mnt` directory then really the files end up there on your `/dev/sdb1` device.
 				- And at the moment you disconnect your `/dev/sdb1`device, the files that you've just written to it are gone, because the mount is no longer there. So the files will dissapear gone to that device.
+				- You should type **umount** right before disconnecting your device
 			- **lsblk** lists block devices
 			- **mount** lists all current mounts (including administrative ones)
 			- **df -h** presents mounted devices (including available disk space)
 			- **findmnt** shows all mounts
+			-
 			-
 			-
 			-

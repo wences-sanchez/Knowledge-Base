@@ -350,6 +350,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- ![image.png](../assets/image_1660651484172_0.png)
 		- You can use `\b` para referenciar un final de una palabra
 		- It's a good idea to use the **-E** parameter of **grep**
+		- You have to scape the `{ }` in your grep command
+		-
 		-
 		-
 		-

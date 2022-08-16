@@ -363,8 +363,10 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		-
 	- #### 6.4 An introduction to awk
 		- `$ awk '{ print $0 }' /etc/passwd`
-		-
-		-
+		- `$ awk [ -F <sep> ] '{ <awk-statement> }' file`
+		- awk-statements:
+			- print
+			- length($0)
 		-
 		-
 		-

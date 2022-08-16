@@ -300,8 +300,12 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- You can use the shortcut SHIFT + Z Z to exit vim saving your file
 		- #### 5.4 Browsing Text Files with more and less
 			- **more** was the original file pager
-				- In **more**
+				- In **more** there is no way of go backwards
 			- **less** was developed to offer som more advanced features
+			- **$ less -l** automatically update the file
+		- #### 5.5 Using head and tail to see file start and end
+			- `$ head -3 my-file`
+				- will show only the
 			-
 		- ####
 -

@@ -224,7 +224,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- bzip2 (-j)
 				- xzip (-J)
 		- #### 4.8 Mounting File Systems
-			-
+			- In order to **mount** the devices, we have to include them in the Linux file **structure**, because that won't change.
+			- When we mount a device in (for example) the root directory, anything that you write to files some
 			-
 			-
 	-

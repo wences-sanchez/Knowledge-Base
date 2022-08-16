@@ -361,6 +361,10 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		-
 		- It's almost mandatory to type `[:lower:]` and `[:upper:]` instead of a-z and A-Z because the latter won't work with many languages
 		-
+	- #### 6.4 An introduction to awk
+		- `$ awk '{ print $0 }' /etc/passwd`
+		-
+		-
 		-
 		-
 		-

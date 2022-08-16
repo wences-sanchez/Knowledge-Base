@@ -376,12 +376,19 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- Be aware that there is no undo!!
 		-
 	- #### Lab
-		- TODO Lesson 6 Lab: Working with Text Files
-			- TODO Use `sed` to display the fifth line of the file *users* that you created in Lesson 5 Lab
+		- DOING Lesson 6 Lab: Working with Text Files
+		  :LOGBOOK:
+		  CLOCK: [2022-08-16 Tue 17:08:27]
+		  :END:
+			- DOING Use `sed` to display the fifth line of the file *users* that you created in Lesson 5 Lab
+			  :LOGBOOK:
+			  CLOCK: [2022-08-16 Tue 17:08:28]
+			  :END:
 			- TODO Use `awk` in a pipe to filter the first column out of the results of the command `ps aux`
 			- TODO Use `grep` to show the names of all files in `/etc` that have lines starting with the text *'root'*
 			- TODO Use `grep` to show all lines from all files in *users* that contain one or two letters `n`
-			- TODO Use `grep` to find all files that contain the string "anna" wher
+			- TODO Use `grep` to find all files that contain the string "anna" where nothing occurs behind the string
+			-
 		-
 		-
 -

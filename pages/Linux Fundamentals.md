@@ -233,7 +233,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- **mount** lists all current mounts (including administrative ones)
 			- **df -h** presents mounted devices (including available disk space)
 			- **findmnt** shows all mounts
-			-
+		- #### Lab
+			- TODO Find all files in `/etc` that have a size smaller than 1000 bytes and copy those to `/tmp/files/pictures`
+			- TODO In `/tmp/files`, create a symbolic link to `/var`
+			- TODO Create a compressed archive file of the `/home` directory
+			- TODO Extract this compressed archive file with relative file names in `
 			-
 			-
 			-

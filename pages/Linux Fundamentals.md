@@ -258,12 +258,15 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- Solution:
 				  collapsed:: true
 					- `$ tar -czvf home.tar.gz /home`
-			- DOING Extract this compressed archive file with relative file names in `/tmp/archive`
+			- DONE Extract this compressed archive file with relative file names in `/tmp/archive`
+			  collapsed:: true
 			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 11:06:47]
+			  CLOCK: [2022-08-16 Tue 11:06:47]--[2022-08-16 Tue 11:13:06] =>  00:06:19
+			  CLOCK: [2022-08-16 Tue 11:13:09]--[2022-08-16 Tue 11:13:10] =>  00:00:01
 			  :END:
 				- Solution:
-					- `$ tar -xzfv /tmp/archive`
+				  collapsed:: true
+					- `$ tar -xfv /tmp/archive`
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard

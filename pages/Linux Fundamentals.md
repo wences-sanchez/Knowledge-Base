@@ -305,7 +305,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- **$ less -l** automatically update the file
 		- #### 5.5 Using head and tail to see file start and end
 			- `$ head -3 my-file`
-				- will show only the
+				- will show only the first 3 lines of *my-file*
+		- #### 5.6 Displaying File Contents with cat and tac
+			- **cat** has some nice options
+				- **-A** shows all non-printable characters
+			- **tac** shows the files. But in reverse order!
 			-
 		- ####
 -

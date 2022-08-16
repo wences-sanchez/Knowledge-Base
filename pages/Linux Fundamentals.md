@@ -246,11 +246,14 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :LOGBOOK:
 			  CLOCK: [2022-08-16 Tue 10:59:49]--[2022-08-16 Tue 11:01:24] =>  00:01:35
 			  :END:
-			- DOING Create a compressed archive file of the `/home` directory
+			- DONE Create a compressed archive file of the `/home` directory
 			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 11:01:26]
+			  CLOCK: [2022-08-16 Tue 11:01:26]--[2022-08-16 Tue 11:06:45] =>  00:05:19
 			  :END:
-			- TODO Extract this compressed archive file with relative file names in `/tmp/archive`
+			- DOING Extract this compressed archive file with relative file names in `/tmp/archive`
+			  :LOGBOOK:
+			  CLOCK: [2022-08-16 Tue 11:06:47]
+			  :END:
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard

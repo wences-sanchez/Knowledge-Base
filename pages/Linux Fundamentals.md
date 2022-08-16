@@ -411,10 +411,13 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			  :END:
 				- Solution:
 					- `$ grep 'n\{1,2\}' users`
-			- DOING Use `grep` to find all files that contain the string "anna" where nothing occurs behind the string
+			- TODO Use `grep` to find all files that contain the string "anna" where nothing occurs behind the string
 			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 17:37:03]
+			  CLOCK: [2022-08-16 Tue 17:37:03]--[2022-08-16 Tue 17:38:41] =>  00:01:38
 			  :END:
+				- Solution:
+					- `$ grep 'anna.' users`
+					-
 			-
 		-
 		-

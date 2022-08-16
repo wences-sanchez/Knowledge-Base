@@ -290,8 +290,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	- ---
 	-
 	- ### Lesson 5: [[Working with Text Files]]
-		-
--
+		- In some systems, you'll only find **vi**.
+			- That's the reason because it's preferred over *nano*
+		- #### 5.2 Und
 -
 -
 -

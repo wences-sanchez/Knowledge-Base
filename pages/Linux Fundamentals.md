@@ -298,6 +298,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- You should try **$ vimtutor**
 		- #### 5.3 Creating Text Files with vim
 			- You can use the shortcut SHIFT + Z Z to exit vim saving your file
+		- #### 5.4 Browsing Text Files with more and less
+			- **more** was the original file pager
+				- In **more**
+			- **less** was developed to offer som more advanced features
+			-
 		- ####
 -
 -

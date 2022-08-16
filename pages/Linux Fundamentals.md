@@ -183,7 +183,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- They are indeed the same file
 			- It's a good idea to use **absolute** paths when creating symbolic links
 			- The **second column of $ls** indicates the number of **hard links** that exist in the directory
-		- #### 4.3 Finding Files with find
+		- #### 4.3 Finding Files with find #spaced
 			- Examples:
 				- `$ find / -name "hosts"`
 				- `$ find / -name "hosts*"`
@@ -200,7 +200,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- The -exec option needs a semicolon to be included in its syntax.
 				- But the shell reads that semicolon as a special character.
 				- So we just scape it.
-		- #### 4.4 Using Advanced find Options
+		- #### 4.4 Using Advanced find Options #spaced
 			- Examples:
 				- `$ find / -type f -size +1G`
 				- `$ find /etc -exec grep -l student {} \; -exec cp {} find/contents/ \;`
@@ -209,7 +209,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -name "student" -type f ! -path '*/proc/*' ! -path '*/tmp/*'`
 			- You can search text inside every one of your files with:
 				- `$ find / -exec grep "<keyword>" {} \;`
-		- #### 4.5 Using which and locate
+		- #### 4.5 Using which and locate #spaced
 			- **find**  is very powerful, but also because of that, is somewhat slow.
 			- **locate** is much faster. But works on a database that needs to be defined using **updatedb**
 			- **which** is useful to find the exact location of binary files from the *$PATH* variable. For finding executables.
@@ -223,7 +223,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- gzip
 				- bzip2 (-j)
 				- xzip (-J)
-		- #### 4.8 Mounting File Systems
+		- #### 4.8 Mounting File Systems #spaced
 			- In order to **mount** the devices, we have to include them in the Linux file **structure**, because that won't change.
 			- When we mount a device in (for example, `/dev/sda1`) the root directory, anything that you write to files somewhere in the root directory, will be written to this `/dev/sda1`
 				- Another example: when you mount a `/dev/sdb1` device (a usb plug) in the `/mnt` directory, if you write files to the `/mnt` directory then really the files end up there on your `/dev/sdb1` device.
@@ -233,14 +233,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- **mount** lists all current mounts (including administrative ones)
 			- **df -h** presents mounted devices (including available disk space)
 			- **findmnt** shows all mounts
-		- #### Lab
+		- #### Lab {{renderer :todomaster}}
 			- TODO Find all files in `/etc` that have a size smaller than 1000 bytes and copy those to `/tmp/files/pictures`
 			- TODO In `/tmp/files`, create a symbolic link to `/var`
 			- TODO Create a compressed archive file of the `/home` directory
-			- TODO Extract this compressed archive file with relative file names in `
-			-
-			-
-			-
+			- TODO Extract this compressed archive file with relative file names in `/tmp/archive`
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard

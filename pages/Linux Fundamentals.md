@@ -434,6 +434,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- **sudo** is a more sophisticated way, preferred.
 		- ![image.png](../assets/image_1660668276842_0.png)
 		-
+		- The fingerprint is the identity.
+		-
 		-
 -
 -

@@ -221,8 +221,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- #### 4.7 Managing Files Compression
 			- There exist other alternatives to *zip* like:
 				- gzip
-				- bzip2
-				- xzip
+				- bzip2 (-j)
+				- xzip (-J)
+		- #### 4.8 Mounting File Systems
 			-
 			-
 			-

@@ -211,9 +211,13 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ find / -exec grep "<keyword>" {} \;`
 		- #### 4.5 Using which and locate
 			- **find**  is very powerful, but also because of that, is somewhat slow.
-			- **locate** is much faster, but works on a database that needs to be defined using **updatedb**
+			- **locate** is much faster. But works on a database that needs to be defined using **updatedb**
 			- **which** is useful to find the exact location of binary files from the *$PATH* variable. For finding executables.
-			-
+		- #### Archiving Files with tar
+			- **tar** is the Tape Archiver, and was created a long time ago
+			- Uses:
+				- `$ tar -cvf my_archive.tar /home`
+				-
 			-
 			-
 	-

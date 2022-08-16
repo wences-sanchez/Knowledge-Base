@@ -428,6 +428,10 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- The best alternative is to use **sudo**
 		-
 		- **su** is for Switch User, it allows you to open a shell as a specific user.
+		- Use **su** to open a subshell, not all environment variables are set as the target user
+		- Use **su -** to open a login shell, environment variables are set as the target user
+		-
+		- **sudo** is a more sophisticated way, preferred.
 		-
 		-
 -

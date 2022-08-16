@@ -381,13 +381,26 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		  CLOCK: [2022-08-16 Tue 17:08:27]
 		  :END:
 			- DONE Use `sed` to display the fifth line of the file *users* that you created in Lesson 5 Lab
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2022-08-16 Tue 17:08:28]--[2022-08-16 Tue 17:21:37] =>  00:13:09
 			  :END:
 				- Solution:
-					- `$ sed -n 5`
-			- TODO Use `awk` in a pipe to filter the first column out of the results of the command `ps aux`
-			- TODO Use `grep` to show the names of all files in `/etc` that have lines starting with the text *'root'*
+				  collapsed:: true
+					- `$ sed -n 5p users`
+			- DONE Use `awk` in a pipe to filter the first column out of the results of the command `ps aux`
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2022-08-16 Tue 17:22:20]--[2022-08-16 Tue 17:25:41] =>  00:03:21
+			  CLOCK: [2022-08-16 Tue 17:25:45]--[2022-08-16 Tue 17:25:46] =>  00:00:01
+			  :END:
+				- Solution:
+				  collapsed:: true
+					- `$ ps aux | awk '{ print $1 }'`
+			- DOING Use `grep` to show the names of all files in `/etc` that have lines starting with the text *'root'*
+			  :LOGBOOK:
+			  CLOCK: [2022-08-16 Tue 17:25:48]
+			  :END:
 			- TODO Use `grep` to show all lines from all files in *users* that contain one or two letters `n`
 			- TODO Use `grep` to find all files that contain the string "anna" where nothing occurs behind the string
 			-

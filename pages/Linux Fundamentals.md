@@ -367,6 +367,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- awk-statements:
 			- print
 			- length($0)
+		- `$ awk -F : '/linda/ { print $3 }' /etc/passwd`
 		-
 		-
 		-

@@ -361,68 +361,73 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		-
 		- It's almost mandatory to type `[:lower:]` and `[:upper:]` instead of a-z and A-Z because the latter won't work with many languages
 		-
-	- #### 6.4 An introduction to awk
-		- `$ awk '{ print $0 }' /etc/passwd`
-		- `$ awk [ -F <sep> ] '{ <awk-statement> }' file`
-		- awk-statements:
-			- print
-			- length($0)
-		- `$ awk -F : '/linda/ { print $3 }' /etc/passwd`
-		-
-	- #### 6.5 Getting Started with sed
-		- `$ sed -i s/<to-remove>/<new>/g my-file`
-		- `-i` is for input
-		- `-g` is for global
-		- Be aware that there is no undo!!
-		-
-	- #### Lab
-		- DONE Lesson 6 Lab: Working with Text Files
-		  :LOGBOOK:
-		  CLOCK: [2022-08-16 Tue 17:08:27]--[2022-08-16 Tue 17:43:59] =>  00:35:32
-		  :END:
-			- DONE Use `sed` to display the fifth line of the file *users* that you created in Lesson 5 Lab
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 17:08:28]--[2022-08-16 Tue 17:21:37] =>  00:13:09
-			  :END:
-				- Solution:
-				  collapsed:: true
-					- `$ sed -n 5p users`
-			- DONE Use `awk` in a pipe to filter the first column out of the results of the command `ps aux`
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 17:22:20]--[2022-08-16 Tue 17:25:41] =>  00:03:21
-			  CLOCK: [2022-08-16 Tue 17:25:45]--[2022-08-16 Tue 17:25:46] =>  00:00:01
-			  :END:
-				- Solution:
-				  collapsed:: true
-					- `$ ps aux | awk '{ print $1 }'`
-			- DONE Use `grep` to show the names of all files in `/etc` that have lines starting with the text *'root'*
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 17:25:48]--[2022-08-16 Tue 17:29:43] =>  00:03:55
-			  :END:
-				- Solution:
-				  collapsed:: true
-					- `$ grep -lr '^root' /etc/`
-			- DONE Use `grep` to show all lines from all files in *users* that contain one or two letters `n`
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 17:29:46]--[2022-08-16 Tue 17:35:28] =>  00:05:42
-			  :END:
-				- Solution:
-					- `$ grep 'n\{1,2\}' users`
-			- DONE Use `grep` to find all files that contain the string "anna" where nothing occurs behind the string
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 17:37:03]--[2022-08-16 Tue 17:38:41] =>  00:01:38
-			  :END:
-				- Solution:
-				  collapsed:: true
-					- `$ grep 'anna.' users`
-					- `$ grep -R 'anna$' users`
-					-
+		- #### 6.4 An introduction to awk
+			- `$ awk '{ print $0 }' /etc/passwd`
+			- `$ awk [ -F <sep> ] '{ <awk-statement> }' file`
+			- awk-statements:
+				- print
+				- length($0)
+			- `$ awk -F : '/linda/ { print $3 }' /etc/passwd`
 			-
+		- #### 6.5 Getting Started with sed
+			- `$ sed -i s/<to-remove>/<new>/g my-file`
+			- `-i` is for input
+			- `-g` is for global
+			- Be aware that there is no undo!!
+			-
+		- #### Lab
+			- DONE Lesson 6 Lab: Working with Text Files
+			  :LOGBOOK:
+			  CLOCK: [2022-08-16 Tue 17:08:27]--[2022-08-16 Tue 17:43:59] =>  00:35:32
+			  :END:
+				- DONE Use `sed` to display the fifth line of the file *users* that you created in Lesson 5 Lab
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2022-08-16 Tue 17:08:28]--[2022-08-16 Tue 17:21:37] =>  00:13:09
+				  :END:
+					- Solution:
+					  collapsed:: true
+						- `$ sed -n 5p users`
+				- DONE Use `awk` in a pipe to filter the first column out of the results of the command `ps aux`
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2022-08-16 Tue 17:22:20]--[2022-08-16 Tue 17:25:41] =>  00:03:21
+				  CLOCK: [2022-08-16 Tue 17:25:45]--[2022-08-16 Tue 17:25:46] =>  00:00:01
+				  :END:
+					- Solution:
+					  collapsed:: true
+						- `$ ps aux | awk '{ print $1 }'`
+				- DONE Use `grep` to show the names of all files in `/etc` that have lines starting with the text *'root'*
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2022-08-16 Tue 17:25:48]--[2022-08-16 Tue 17:29:43] =>  00:03:55
+				  :END:
+					- Solution:
+					  collapsed:: true
+						- `$ grep -lr '^root' /etc/`
+				- DONE Use `grep` to show all lines from all files in *users* that contain one or two letters `n`
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2022-08-16 Tue 17:29:46]--[2022-08-16 Tue 17:35:28] =>  00:05:42
+				  :END:
+					- Solution:
+						- `$ grep 'n\{1,2\}' users`
+				- DONE Use `grep` to find all files that contain the string "anna" where nothing occurs behind the string
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2022-08-16 Tue 17:37:03]--[2022-08-16 Tue 17:38:41] =>  00:01:38
+				  :END:
+					- Solution:
+					  collapsed:: true
+						- `$ grep 'anna.' users`
+						- `$ grep -R 'anna$' users`
+						-
+	- ### Lesson 7: [[Connecting to a Server]]
+		- The **root** user exists in Linux kernel space.
+		- Linux distros either remove any root or fence it.
+		- The best alternative is to use **sudo**
+		-
+		- **su** is for Switch User, it allows you to open a shell as a specific user.
 		-
 		-
 -

@@ -234,9 +234,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- **$ df -h** presents mounted devices (including available disk space)
 			- **$ findmnt** shows all mounts
 		- #### Lab {{renderer :todomaster}}
-			- DOING Find all files in `/etc` that have a size smaller than 1000 bytes and copy those to `/tmp/files/pictures`
+			- TODO Find all files in `/etc` that have a size smaller than 1000 bytes and copy those to `/tmp/files/pictures`
 			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 10:21:16]
+			  CLOCK: [2022-08-16 Tue 10:21:16]--[2022-08-16 Tue 10:52:45] =>  00:31:29
 			  :END:
 			- TODO In `/tmp/files`, create a symbolic link to `/var`
 			- TODO Create a compressed archive file of the `/home` directory

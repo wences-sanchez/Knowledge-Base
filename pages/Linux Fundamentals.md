@@ -359,7 +359,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- It's a good idea to use the **-E** parameter of **grep**
 		- You have to scape the `{ }` in your grep command
 		-
-		- It's almost
+		- It's almost mandatory to type `[:lower:]` and `[:upper:]` instead of a-z and A-Z because the latter won't work with many languages
+		-
 		-
 		-
 		-

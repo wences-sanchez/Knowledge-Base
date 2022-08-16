@@ -313,8 +313,10 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- #### 5.7 Working with grep
 			- **grep** is used to search text strings or regular expressions in files (or using pipe in command output)
 				- For example, `$ grep llinda *` searches text *linda* in all files in the current directory
-				-
-				-
+				- With **-C<num>** it shows you the context before and after
+		- #### Lab
+			- TODO Use vim to create a text file **users**
+			-
 			-
 		- ####
 -

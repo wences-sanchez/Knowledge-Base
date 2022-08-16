@@ -215,8 +215,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- **which** is useful to find the exact location of binary files from the *$PATH* variable. For finding executables.
 		- #### Archiving Files with tar
 			- **tar** is the Tape Archiver, and was created a long time ago
-			- Uses:
+			- Usages (without compression):
 				- `$ tar -cvf my_archive.tar /home`
+				- `$ tar -xvf my_archive`
 				-
 			-
 			-

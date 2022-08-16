@@ -35,6 +35,9 @@
  {:block/name "advanced file management tools",
   :block/created-at 1660385967232,
   :block/updated-at 1660385967232}
+ {:block/name "advanced text file processing",
+  :block/created-at 1660652497354,
+  :block/updated-at 1660652497354}
  {:block/name "aws",
   :block/created-at 1660029985876,
   :block/updated-at 1660029985876}
@@ -159,13 +162,16 @@
   :block/updated-at 1660316566646}
  {:block/name "linux fundamentals",
   :block/created-at 1660316566670,
-  :block/updated-at 1660391337099}
+  :block/updated-at 1660652497355}
  {:block/name "monday, 01-08-2022",
   :block/created-at 1660315974600,
   :block/updated-at 1660315974600}
  {:block/name "monday, 08-08-2022",
   :block/created-at 1660315976840,
   :block/updated-at 1660315976840}
+ {:block/name "monday, 15-08-2022",
+  :block/created-at 1660631529094,
+  :block/updated-at 1660631529094}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1660315973345,
   :block/updated-at 1660315973345}
@@ -195,7 +201,7 @@
   :block/updated-at 1660315976205}
  {:block/name "saturday, 13-08-2022",
   :block/created-at 1660373272169,
-  :block/updated-at 1660392401585}
+  :block/updated-at 1660652434689}
  {:block/name "saturday, 17-09-2022",
   :block/created-at 1660315977409,
   :block/updated-at 1660315977409}
@@ -229,6 +235,9 @@
  {:block/name "thursday, 11-08-2022",
   :block/created-at 1660315984981,
   :block/updated-at 1660315984981}
+ {:block/name "thursday, 18-08-2022",
+  :block/created-at 1660631592139,
+  :block/updated-at 1660631668091}
  {:block/name "todo",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -239,8 +248,8 @@
   :block/created-at 1660315984914,
   :block/updated-at 1660315984914}
  {:block/name "tuesday, 16-08-2022",
-  :block/created-at 1660158105615,
-  :block/updated-at 1660158105615}
+  :block/created-at 1660632166068,
+  :block/updated-at 1660632166068}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1660315973459,
   :block/updated-at 1660315973459}
@@ -272,5 +281,8 @@
   :block/created-at 1660124752451,
   :block/updated-at 1660159772212}
  {:block/name "wednesday, 27-07-2022",
-  :block/created-at 1660315973792, 
-  :block/updated-at 1660315973792}]
+  :block/created-at 1660315973792,
+  :block/updated-at 1660315973792}
+ {:block/name "working with text files",
+  :block/created-at 1660642164634, 
+  :block/updated-at 1660642164634}]

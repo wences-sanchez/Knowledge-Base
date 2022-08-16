@@ -9,6 +9,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Free Linux distribution based on RedHat are Rocky and Alma Linux
 			- Oracle is also based on RedHat
 		- Ubuntu is based on Debian
+	- ---
+	-
 	- ### Lesson 2: [[Using Essential Tools]] #spaced
 	  id:: 62f6387f-8424-416c-9a84-e9c46f041769
 		- Use root is an alternative to sudo.
@@ -51,6 +53,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `$ su - [<user>]` can be used to open a shell as another user.
 					- When used without arguments, a  root shell is opened after entering the root password
 					- When used with a username as argument, a user shell is opened.
+	- ---
+	-
 	- ### Lesson 3: [[Essential File Management Tools]]
 	  id:: 62f66ba7-794b-4605-a7dc-145760843477
 		- `/usr` is for your program files

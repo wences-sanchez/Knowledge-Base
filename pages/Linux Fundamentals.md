@@ -405,11 +405,16 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- Solution:
 				  collapsed:: true
 					- `$ grep -lr '^root' /etc/`
-			- DOING Use `grep` to show all lines from all files in *users* that contain one or two letters `n`
+			- TODO Use `grep` to show all lines from all files in *users* that contain one or two letters `n`
 			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 17:29:46]
+			  CLOCK: [2022-08-16 Tue 17:29:46]--[2022-08-16 Tue 17:35:28] =>  00:05:42
 			  :END:
-			- TODO Use `grep` to find all files that contain the string "anna" where nothing occurs behind the string
+				- Solution:
+					- `$ grep 'n\{1,2\}' users`
+			- DOING Use `grep` to find all files that contain the string "anna" where nothing occurs behind the string
+			  :LOGBOOK:
+			  CLOCK: [2022-08-16 Tue 17:37:03]
+			  :END:
 			-
 		-
 		-

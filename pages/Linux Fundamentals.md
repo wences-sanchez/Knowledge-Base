@@ -210,7 +210,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- You can search text inside every one of your files with:
 				- `$ find / -exec grep "<keyword>" {} \;`
 		- #### 4.5 Using which and locate
-			- **find**  is very powerful, but also be
+			- **find**  is very powerful, but also because of that, is somewhat slow.
+			- **locate** is much faster, but works on a database that needs to be defined using **updatedb**
+			- **which** is useful to find the exact location of binary files from the *$PATH* variable. For finding executables.
+			-
+			-
 			-
 	-
 		- #### Flashcards

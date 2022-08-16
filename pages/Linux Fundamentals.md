@@ -310,6 +310,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- **cat** has some nice options
 				- **-A** shows all non-printable characters
 			- **tac** shows the files. But in reverse order!
+		- #### 5.7 Working with grep
+			- **grep** is used to search text strings or regular expressions in files (or using pipe in command output)
+				- For example, `$ grep llinda *` searches text *linda* in all files in the current directory
+				-
+				-
 			-
 		- ####
 -

@@ -225,7 +225,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- xzip (-J)
 		- #### 4.8 Mounting File Systems
 			- In order to **mount** the devices, we have to include them in the Linux file **structure**, because that won't change.
-			- When we mount a device in (for example) the root directory, anything that you write to files some
+			- When we mount a device in (for example, `/dev/sda1`) the root directory, anything that you write to files somewhere in the root directory, will be written to this `/dev/sda1`
+				- Another example: when you mount a `/dev/sdb1` device (a usb plug) in the `/mnt` directory, if you write files to the `/mnt` directory then really the files end up there on your `/dev/sdb1` device.
+				-
 			-
 			-
 	-

@@ -432,6 +432,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- Use **su -** to open a login shell, environment variables are set as the target user
 		-
 		- **sudo** is a more sophisticated way, preferred.
+		- ![image.png](../assets/image_1660668276842_0.png)
 		-
 		-
 -

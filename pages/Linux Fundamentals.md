@@ -224,7 +224,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- bzip2 (-j)
 				- xzip (-J)
 		- #### 4.8 Mounting File Systems #spaced
-			- In order to **mount** the devices, we have to include them in the Linux file **structure**, because that won't change.
+			- In order to **mount** the devices, we have to include them in the Linux **file structure**, because that won't change.
 			- When we mount a device in (for example, `/dev/sda1`) the root directory, anything that you write to files somewhere in the root directory, will be written to this `/dev/sda1`
 				- Another example: when you mount a `/dev/sdb1` device (a usb plug) in the `/mnt` directory, if you write files to the `/mnt` directory then really the files end up there on your `/dev/sdb1` device.
 				- And at the moment you disconnect your `/dev/sdb1`device, the files that you've just written to it are gone, because the mount is no longer there. So the files will dissapear gone to that device.
@@ -287,9 +287,10 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- What means the second column (that number) in the output of the `$ ls -l` command? #flashcard
 			  collapsed:: true
 				- The **second column of $ls** indicates the number of **hard links** that exist in the directory
--
--
--
+	- ---
+	-
+	- ### Lesson 5: [[Working with Text Files]]
+		-
 -
 -
 -

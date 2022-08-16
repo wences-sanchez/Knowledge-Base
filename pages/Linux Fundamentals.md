@@ -372,7 +372,12 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	- #### 6.5 Getting Started with sed
 		- `$ sed -i s/<to-remove>/<new>/g my-file`
 		- `-i` is for input
-		- `-g
+		- `-g` is for global
+		- Be aware that there is no undo!!
+		-
+	- #### Lab
+		- TODO Lesson 6 Lab: Working with Text Files
+			- TODO
 		-
 		-
 -

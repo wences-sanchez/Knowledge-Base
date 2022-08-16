@@ -344,6 +344,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 	- ### Lesson 6: Advanced Text File Processing
 		- **cut** filters out columns from text files
 		- **sort** sorts the result (for example, from the **cut** command)
+		- If the regex is an extended one, it won't always work!
+		- There are different regex languages, so searching in Google might not work.
+		- Table of regula expressions:
+			- ![image.png](../assets/image_1660651484172_0.png)
+		-
 		-
 		-
 -

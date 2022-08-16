@@ -243,17 +243,27 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				  collapsed:: true
 					- `$ sudo find /etc -size -1000c -exec cp {} /tmp/files/pictures` \\;
 			- DONE In `/tmp/files`, create a symbolic link to `/var`
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2022-08-16 Tue 10:59:49]--[2022-08-16 Tue 11:01:24] =>  00:01:35
 			  :END:
+				- Solution:
+				  collapsed:: true
+					- `$ cd /tmp/files && ln -s /var var`
 			- DONE Create a compressed archive file of the `/home` directory
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2022-08-16 Tue 11:01:26]--[2022-08-16 Tue 11:06:45] =>  00:05:19
 			  :END:
+				- Solution:
+				  collapsed:: true
+					- `$ tar -czvf home.tar.gz /home`
 			- DOING Extract this compressed archive file with relative file names in `/tmp/archive`
 			  :LOGBOOK:
 			  CLOCK: [2022-08-16 Tue 11:06:47]
 			  :END:
+				- Solution:
+					- `$ tar -xzfv /tmp/archive`
 	-
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard

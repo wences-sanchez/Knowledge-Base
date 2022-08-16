@@ -294,8 +294,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- That's the reason because it's preferred over *nano*
 		- #### 5.2 Understanding Working with vim
 			- If you want to replace some text, you use:
-				- `:%s/old/newg`
+				- `:%s/old/new/g`
 			- You should try **$ vimtutor**
+		- #### 5.3 Creating Text Files with vim
 			-
 -
 -

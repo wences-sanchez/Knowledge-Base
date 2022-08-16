@@ -397,11 +397,18 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- Solution:
 				  collapsed:: true
 					- `$ ps aux | awk '{ print $1 }'`
-			- DOING Use `grep` to show the names of all files in `/etc` that have lines starting with the text *'root'*
+			- DONE Use `grep` to show the names of all files in `/etc` that have lines starting with the text *'root'*
+			  collapsed:: true
 			  :LOGBOOK:
-			  CLOCK: [2022-08-16 Tue 17:25:48]
+			  CLOCK: [2022-08-16 Tue 17:25:48]--[2022-08-16 Tue 17:29:43] =>  00:03:55
 			  :END:
-			- TODO Use `grep` to show all lines from all files in *users* that contain one or two letters `n`
+				- Solution:
+				  collapsed:: true
+					- `$ grep -lr '^root' /etc/`
+			- DOING Use `grep` to show all lines from all files in *users* that contain one or two letters `n`
+			  :LOGBOOK:
+			  CLOCK: [2022-08-16 Tue 17:29:46]
+			  :END:
 			- TODO Use `grep` to find all files that contain the string "anna" where nothing occurs behind the string
 			-
 		-

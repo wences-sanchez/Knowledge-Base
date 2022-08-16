@@ -233,7 +233,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- **$ mount** lists all current mounts (including administrative ones)
 			- **$ df -h** presents mounted devices (including available disk space)
 			- **$ findmnt** shows all mounts
-		- #### Lab {{renderer :todomaster}}
+		- #### Lab
+		  collapsed:: true
 			- DONE Find all files in `/etc` that have a size smaller than 1000 bytes and copy those to `/tmp/files/pictures`
 			  collapsed:: true
 			  :LOGBOOK:
@@ -341,6 +342,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			-
 			-
 			-
+		-
 	- ### Lesson 6: Advanced Text File Processing
 		- **cut** filters out columns from text files
 		- **sort** sorts the result (for example, from the **cut** command)

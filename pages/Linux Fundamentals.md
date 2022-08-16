@@ -297,7 +297,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `:%s/old/new/g`
 			- You should try **$ vimtutor**
 		- #### 5.3 Creating Text Files with vim
-			-
+			- You can use the shortcut SHIFT + Z Z to exit vim saving your file
+		- ####
 -
 -
 -

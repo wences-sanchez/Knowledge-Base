@@ -377,7 +377,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		-
 	- #### Lab
 		- TODO Lesson 6 Lab: Working with Text Files
-			- TODO
+			- TODO Use `sed` to display the fifth line of the file *users* that you created in Lesson 5 Lab
+			- TODO Use `awk` in a pipe to filter the first column out of the results of the command `ps aux`
+			- TODO Use `grep` to show the names of all files in `/etc` that have lines starting with the text *'root'*
+			- TODO Use `grep` to show all lines from all files in *users* that contain one or two letters `n`
+			- TODO Use `grep` to find all files that contain the string "anna" wher
 		-
 		-
 -

@@ -229,12 +229,15 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- Another example: when you mount a `/dev/sdb1` device (a usb plug) in the `/mnt` directory, if you write files to the `/mnt` directory then really the files end up there on your `/dev/sdb1` device.
 				- And at the moment you disconnect your `/dev/sdb1`device, the files that you've just written to it are gone, because the mount is no longer there. So the files will dissapear gone to that device.
 				- You should type **umount** right before disconnecting your device
-			- **lsblk** lists block devices
-			- **mount** lists all current mounts (including administrative ones)
-			- **df -h** presents mounted devices (including available disk space)
-			- **findmnt** shows all mounts
+			- **$ lsblk** lists block devices
+			- **$ mount** lists all current mounts (including administrative ones)
+			- **$ df -h** presents mounted devices (including available disk space)
+			- **$ findmnt** shows all mounts
 		- #### Lab {{renderer :todomaster}}
-			- TODO Find all files in `/etc` that have a size smaller than 1000 bytes and copy those to `/tmp/files/pictures`
+			- DOING Find all files in `/etc` that have a size smaller than 1000 bytes and copy those to `/tmp/files/pictures`
+			  :LOGBOOK:
+			  CLOCK: [2022-08-16 Tue 10:21:16]
+			  :END:
 			- TODO In `/tmp/files`, create a symbolic link to `/var`
 			- TODO Create a compressed archive file of the `/home` directory
 			- TODO Extract this compressed archive file with relative file names in `/tmp/archive`

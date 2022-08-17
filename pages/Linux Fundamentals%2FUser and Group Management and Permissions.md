@@ -68,6 +68,6 @@ tags:: Linux, O'Reilly-Learning, Videos
 	- ### 11.5 Mounting File Systems
 		- ![image.png](../assets/image_1660731898952_0.png)
 	- ### 11.6 Making Mounts Persistent
-		-
+		- To make mounts persistent, you have to type in the
 		-
 		-

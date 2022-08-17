@@ -48,4 +48,5 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- Linux works with partitions. It doesn't take the whole hard disk.
 		- ![image.png](../assets/image_1660730475334_0.png)
 		-
-	-
+		- To address disks, Linux provides devices files in **/dev**
+			- 1.

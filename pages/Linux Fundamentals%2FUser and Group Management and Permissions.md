@@ -32,6 +32,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 	- ![image.png](../assets/image_1660728332725_0.png)
 	- ![image.png](../assets/image_1660728433213_0.png)
 	- You can use `chmod user:group` to change the owner of files also.
+	- ### 10.3 Understanding Advanced Linux Permissions
 	-
 -
 	-

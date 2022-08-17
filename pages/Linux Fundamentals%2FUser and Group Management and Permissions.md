@@ -15,6 +15,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- Users and their properties are stored in `/etc/passwd`
 		- ![image.png](../assets/image_1660725345251_0.png)
 		-
-		- Groups are stored in ``
+		- Groups are stored in `/etc/group`
+		-
 		-
 	-

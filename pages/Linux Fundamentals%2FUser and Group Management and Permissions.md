@@ -69,6 +69,10 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- ![image.png](../assets/image_1660731898952_0.png)
 	- ### 11.6 Making Mounts Persistent
 		- To make mounts persistent, you have to include them in the **/etc/fstab** file (following its syntax)
-		- To verify our mounts
+		- To verify our mounts, we can use the following commands:
+			- `$ mount`
+			- `$ lsblk`
+			- `$ df -h`
+			- `$ findmnt`
 		-
 		-

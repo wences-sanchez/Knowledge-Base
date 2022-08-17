@@ -27,8 +27,9 @@ tags:: Linux, O'Reilly-Learning, Videos
 -
 	- ### Lab
 		- ![image.png](../assets/image_1660727964073_0.png)
-- ## Lesson 10: [[Permissions Management]]
+- ## Lesson 10: [[Permissions Management]] #spaced
 	- The reason why Linux has no virus is because its files are not executable by default. You have to make them executable personally. #Curiosities
 	- ![image.png](../assets/image_1660728332725_0.png)
+	- ![image.png](../assets/image_1660728433213_0.png)
 	-
 	-

@@ -34,6 +34,6 @@ tags:: Linux, O'Reilly-Learning, Videos
 	- You can use `chmod user:group` to change the owner of files also.
 	- ### 10.3 Understanding Advanced Linux Permissions
 	- ### 10.4 Managing Advanced Linux Permissions
-		-
+		- `$ sudo chmod u+s `
 -
 	-

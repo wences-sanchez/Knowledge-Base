@@ -21,7 +21,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- `$ sudo chage <user>`
 			- Asks for input about pasword configuration parameters of <user>
 	- ### 9.8 Managing Current Sessions
-		- `who` and `w` show who is currenntly logged in
-		- `loginctl`
+		- `$ who` and `$ w` show who is currenntly logged in
+		- `$ loginctl` allows for current session management
 		-
 	-

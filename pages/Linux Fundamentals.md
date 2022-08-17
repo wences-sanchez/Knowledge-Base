@@ -464,8 +464,14 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `source <file>` is for updating the environment variables
 			-
 			- #### Lab
-				- TODO Modify your environment so that after login, all users have access to the following:
-					- TODO An alias with the name `ipconfig` that runs the `ip addr show` command
+				- DOING Modify your environment so that after login, all users have access to the following:
+				  :LOGBOOK:
+				  CLOCK: [2022-08-17 Wed 09:45:07]
+				  :END:
+					- DOING An alias with the name `ipconfig` that runs the `ip addr show` command
+					  :LOGBOOK:
+					  CLOCK: [2022-08-17 Wed 09:45:10]
+					  :END:
 					- TODO A variable with the name *COLOR* that is set to the value red
 					- TODO Ensure the alias is available in subshells also
 		-

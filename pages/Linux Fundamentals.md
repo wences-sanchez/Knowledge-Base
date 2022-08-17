@@ -454,7 +454,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- #### Bash is case-sensitive
 			- #### /home/wences/.local/bin is a bin directory included directory!!!
 			-
-			- `alias wences='ls -l /home/wences'`
+			- About alias:
+				- `alias wences='ls -l /home/wences'`
+				-
 			-
 			-
 		-

@@ -437,9 +437,11 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- ![image.png](../assets/image_1660668276842_0.png)
 		-
 		- The fingerprint is the identity.
-		-
+	-
+	- #### Flashcards
+		- How can you lo
 	- ---
-		- ### Lesson 8: [[Working with the Bash Shell]]
+		- ### Lesson 8: [[Working with the Bash Shell]] #spaced
 			- The `&>` sends both file descriptors 1 and 2 to the specified output
 			- #### 8.3 Working with history
 				- Commands a user types are written to `~/.bash_history`
@@ -463,7 +465,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `/etc/bashrc` is processed every time a subshell is started
 					- A user-specific `~/.bashrc` file may be used
 				- `source <file>` is for updating the environment variables
-			-
+		-
 			- #### Lab
 			  collapsed:: true
 				- DONE Modify your environment so that after login, all users have access to the following:

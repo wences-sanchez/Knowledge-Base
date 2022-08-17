@@ -43,5 +43,6 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- ![image.png](../assets/image_1660730151418_0.png)
 		-
 - ---
--
+- ## Lesson 11: Storage Management Essentials
+	-
 	-

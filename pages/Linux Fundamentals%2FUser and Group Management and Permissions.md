@@ -9,6 +9,6 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- Because of group ownership, every user must be a member of at least one group.
 		- Tip: Use `$ useradd` with **-m**
 			- For creating the home directory
-		-
+		- `$sudo groupadd sales`
 		-
 	-

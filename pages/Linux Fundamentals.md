@@ -462,9 +462,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `/etc/bashrc` is processed every time a subshell is started
 					- A user-specific `~/.bashrc` file may be used
 				- `source <file>` is for updating the environment variables
-				-
 			-
-			-
+			- #### Lab
+				- TODO M
 		-
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard

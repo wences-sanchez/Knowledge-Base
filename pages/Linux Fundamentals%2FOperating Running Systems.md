@@ -8,4 +8,5 @@ tags:: O'Reilly-Learning, Linux, Videos
 		- ### 12.1 Understanding IPv4 Basics
 			- ![image.png](../assets/image_1660733391929_0.png)
 		- ### 12.2 Understanding IPv6 Basics
+			- Addresses are 128 bits and It's written in hexadecimal
 			-

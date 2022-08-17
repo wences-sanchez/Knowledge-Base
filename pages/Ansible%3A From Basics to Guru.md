@@ -1,46 +1,33 @@
+title:: Ansible: From Basics to Guru
+
 # ANSIBLE: FROM BASICS TO GURU
 
 #tags #O'Reilly #Ansible
-
-
 # Module 1: Getting Started
-
 ## Lesson 1: Preparing your Managed Infrastructure
 
 What is Ansible (generally)? #flashcard
 - Ansible is a configuration management tool
 - It is used  to manage configuration on a pre-deployed infrastructure
 - It's a DevOps tool
-
-#flashcard 
-What is the control node?
-
----
-Where the Ansible software is installed
-
----
-
-
-
+  
+  #flashcard 
+  What is the control node?
+  
+  ---
+  Where the Ansible software is installed
+  
+  ---
 - The control node needs Ansible installed
 - The manages nodes need SSH, a user account, privilege escalation (be careful with SSH keys).
-
-
-
 - DNS or /etc/hosts are generic solutions that provide hostname to IP address resolving
 - Ansible also needs an inventory:
-    - To identify managed hosts
-    - To define host groups to be used by Ansible
-
-
+	- To identify managed hosts
+	- To define host groups to be used by Ansible
 ### Understanding Ad-hoc Commands
 
 * With _command_ we can run any shell command in Ansible
-
-
-
 ### 1.7 Configuring Linux Managed Hosts with Ad-hoc Commands
-
 ### 1.9 Understanding ansible.cfg
 
 * You can put the settings in ansible.cfg instead of the playbooks or CLI
@@ -53,7 +40,7 @@ Where the Ansible software is installed
 ---
 
 
-#spaced 
+#spaced
 ## Lesson 2: Using Ad-hoc Commands
 
 
@@ -66,25 +53,19 @@ Where the Ansible software is installed
 ¿Cómo puedo consultar los módulos de Ansible desde la terminal?
 * **ansible-doc [-t module] -l** muestra todos los módulos
 * **ansible-doc ...** muestra un módulo específico que introduzcamos
-
-
-
-
 ### Módulos más importantes de Ansible
 - **command**: For running arbitrary commands on the managed nodes
 - **shell**: Same as *command* but allows pipes and redirects
 - **package**: For managing packages
 - **user**: For user management 
-
-But be aware of idempotency!!!
-* If a task founds that its change is alreasy done, it doesn't fail. It just notifies *change: false*
-
-
-
----
----
-
-
+  
+  But be aware of idempotency!!!
+  * If a task founds that its change is alreasy done, it doesn't fail. It just notifies *change: false*
+  
+  
+  
+  ---
+  ---
 ## Lesson 3: Using Ansible Playbook
 
 * A playbook is a collection of plays
@@ -117,23 +98,19 @@ But be aware of idempotency!!!
 * There is no easy way to undo a playbook
 
 ---
-
 ## Lesson 4: Using Ansible Tower
 
 * Ansible Tower has more features that are not in the CLI version:
-  1. Role-Based access control
-  2. Caching of passwords
-  3. Workflow designer
+1. Role-Based access control
+2. Caching of passwords
+3. Workflow designer
 
 * Ansible automation platform is a very useful site =)
 
 ---
-
-
 # Module 2: Developing Flexible Playbooks
 
 #spaced
-
 ## Lesson 5: Working with Variables
 
 * You should separate information from the code
@@ -143,9 +120,9 @@ But be aware of idempotency!!!
 * Las variables se definen con:
 ```
 vars:
-  user: lisa
+user: lisa
 tasks:
-  - ...
+- ...
 ```
 
 * Hay que tener en cuenta que las variables se convierten en valores al rodearlas con llaves. En cualquier sitio.
@@ -162,28 +139,28 @@ tasks:
 7. Using **vars_pronpt:** to request values from the user while running the playbook
 
 2. We put the variables like this:
-   `key: var`
+ `key: var`
 
 3. **set_fact** is a module that can be used anywhere in the playbook (nice!). It's dynamic.
-   We write it like this:
+ We write it like this:
 ```
 - name: ...
-  tasks:
-  - set_fact:
-      my_var: my_value
-  - debug:
-      msg: The value is {{ my_var }}
+tasks:
+- set_fact:
+    my_var: my_value
+- debug:
+    msg: The value is {{ my_var }}
 ```
 
 7. **vars_prompt** to sensitive info
-   * When we specify `private: no`, the user can see the answer
+ * When we specify `private: no`, the user can see the answer
 
 ```
 - name: ...
-  vars_prompt:
-  - name: package
-    prompt: Wich package do you want?
-    private: no
+vars_prompt:
+- name: package
+  prompt: Wich package do you want?
+  private: no
 ```
 
 * It is possible to put variables inside a file that matches a host or group and then just simply target to it in the `hosts:` section.
@@ -195,7 +172,7 @@ tasks:
 But is always recommended to use the ansible_facts key.
 
 ---
-#spaced 
+#spaced
 ### 5.6 Speeding up Fact Collection
 
 > The issue is in some conditions, **fact collection** may be very **slow**. 
@@ -211,7 +188,6 @@ But is always recommended to use the ansible_facts key.
 * Cuando escribimos en YAML líneas con guiones, las líneas siguientes que están al mismo nivel están dentro del mismo item o elemento de esa lista. #spaced #daily-notes #Ansible
 
 ---
-
 ### 5.8 Using magic variables
 
 * **hostvars** can be used to address facts or inventory variables from other hosts:
@@ -228,7 +204,7 @@ But is always recommended to use the ansible_facts key.
 
 ---
 
-#spaced 
+#spaced
 ## Lesson 6: Using Conditionals
 
 * Si una task falla, el handler **NO** se ejecutará
@@ -236,20 +212,17 @@ But is always recommended to use the ansible_facts key.
 * Si una task no cambia nada, el handler **NO** se ejecutará
 
 * *ansible_distribution* shows the OS distro
-
 ### 6.5 Using Blocks
 
 * **block:** is useful to group some tasks with a *when:*, for example
 
 * **block:** ... **rescue:** ... **always:** ... // is used to make try-catchs
 * But remember not to use idempotency!!
-
 ### 6.6 Using loop
 
 * The **loop** syntax is preferred over **with_X**
 
 * If you don't specify the list in the main section of the task (you use *loop*), the task will rerun N times
-
 ### 6.7 Managing Failure with the fail Module
 
 * Use **fail** to express a negative output with a message. **failed_when** to know if it occured
@@ -258,16 +231,15 @@ But is always recommended to use the ansible_facts key.
 
 * With **fail** module, you can print an error message, indicating with **when: `<expr> ` the case.
 * Using `<variable>.err` is a good idea to approach it.
-
 ### 6.8 Using the assert Module
 
 * With the assert Module you can set *fail* and *ok* messages
 
 * To see all the facts of a machine:
-  **$ ansible `<host>` -m setup
+**$ ansible `<host>` -m setup
 ---
 
-#spaced 
+#spaced
 ## Lesson 7: Managing Files
 
 * **Synchronize** is more efficient than **copy**
@@ -278,60 +250,43 @@ But is always recommended to use the ansible_facts key.
 * With **find** we can search inside a file as we do in Unix
 
 * When we are in a conditional, we don't put "'
-
 - The **fetch** module lets us to copy files from remote to local
-
----
-
-- How can you copy content from a remote machine to a local host in Ansible? #flashcard 
+  
+  ---
+- How can you copy content from a remote machine to a local host in Ansible? #flashcard
 	- With the **fetch** module
-
-- What is the exact syntax of register a variable in Ansible? #flashcard 
+- What is the exact syntax of register a variable in Ansible? #flashcard
 	- With: `register: <var>` inside the parent module
-
 - Remember to remove the `{ }` when dealing with conditionals in Ansible!!!!
 - And include the `' '`#spaced 
-
-
-
----
+  
+  
+  
+  ---
 ## Lesson 8: Using Roles and Collections
-
 ### Collections
-
 - Collections are new in Ansible
-
 ### Roles
 - The pre_task are executed before the roles
 - `$ ansible-galaxy role install <role_name>`
-- 
+-
 - Its website is galaxy.ansible.com
 - `$ ansible-galaxy role list` lists all the roles installed
 - **default** can be overwritten by **vars** in the roles directory
 - The tasks/main.yml contains the principal part
 - Inside taks/, we can organize our code in different files .yml
-
 - templates/ dir contains the templates
-
 - In a playbook, it's a collection of tasks,
 	- `include_vars: # ...`
 	- `include tasks: # ...`
-
-
-- ![[Pasted image 20220729132914.png]] 
-
+- ![[Pasted image 20220729132914.png]]
 - Collections are NOT a default part of Ansible2.9
-
-- You can use a requirements.ym file to install multiple 
+- You can use a requirements.ym file to install multiple
 - **default** values are for values that are going to crash the role if not
 - We have to include the rol inside a playbook in order to run it
-
----
-
+  
+  ---
 # Module 3: Advanced Ansible Management
-
 ## Lesson 9: Ansible Best Practices and Optimization
-
-- What is the difference between include and import in Ansible? #flashcard 
+- What is the difference between include and import in Ansible? #flashcard
 	- *Include* is dynamic, *Import* is added statically (before the actual play is started).
-

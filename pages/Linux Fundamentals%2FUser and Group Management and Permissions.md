@@ -16,6 +16,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- ![image.png](../assets/image_1660725345251_0.png)
 		-
 		- Groups are stored in `/etc/group`
+		- Use **$ vigr** to edit `/etc/group`
 		-
 		-
 	-

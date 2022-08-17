@@ -46,5 +46,6 @@ tags:: Linux, O'Reilly-Learning, Videos
 - ## Lesson 11: Storage Management Essentials
 	- ### 11.1 Understanding Linux Storage Solutions
 		- Linux works with partitions. It doesn't take the whole hard disk.
+		- ![image.png](../assets/image_1660730475334_0.png)
 		-
 	-

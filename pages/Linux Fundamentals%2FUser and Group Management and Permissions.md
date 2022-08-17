@@ -38,6 +38,10 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- Use the **diff** command, it's useful to compare
 	- ### 10.5 Managing umask
 		- ![image.png](../assets/image_1660729682125_0.png)
+-
+	- ### Lab
+		- ![image.png](../assets/image_1660730151418_0.png)
 		-
+- ---
 -
 	-

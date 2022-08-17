@@ -439,7 +439,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- The fingerprint is the identity.
 		-
 	- ---
-		- ### Lesson 8
+		- ### Lesson 8: [[Working with the Bash Shell]]
+			-
 			-
 -
 -

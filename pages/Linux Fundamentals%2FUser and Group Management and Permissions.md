@@ -35,6 +35,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 	- ### 10.3 Understanding Advanced Linux Permissions
 	- ### 10.4 Managing Advanced Linux Permissions
 		- `$ sudo chmod u+s myfile` means only the file user can run it.
+		- Use the **diff** command, it's useful to compare
 		-
 -
 	-

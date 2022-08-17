@@ -461,6 +461,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					- `/etc/profile.d` is used as a snapin directory that contains additional configuration
 				- `/etc/bashrc` is processed every time a subshell is started
 					- A user-specific `~/.bashrc` file may be used
+				- `source <file>` is for updating the environment variables
 				-
 			-
 			-

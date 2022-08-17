@@ -24,5 +24,8 @@ tags:: Linux, O'Reilly-Learning, Videos
 	- ### 9.8 Managing Current Sessions
 		- `$ who` and `$ w` show who is currenntly logged in
 		- `$ loginctl` allows for current session management
+-
+	- ### Lab
+		- ![image.png](../assets/image_1660727964073_0.png)
 		-
 	-

@@ -10,5 +10,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- Tip: Use `$ useradd` with **-m**
 			- For creating the home directory
 		- `$sudo groupadd sales`
+		- `$ sudo usermod -aG sales bill`
+	-
 		-
 	-

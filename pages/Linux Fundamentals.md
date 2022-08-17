@@ -442,7 +442,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- ### Lesson 8: [[Working with the Bash Shell]]
 			- The `&>` sends both file descriptors 1 and 2 to the specified output
 			- #### 8.3 Working with history
-				- Commands a user types are written to ~/.bash_history`
+				- Commands a user types are written to `~/.bash_history`
 				-
 		-
 			- #### Flashcards

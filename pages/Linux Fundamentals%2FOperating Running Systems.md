@@ -5,4 +5,7 @@ tags:: O'Reilly-Learning, Linux, Videos
 - # Module 3: Operating Running Systems
 -
 	- ## Lesson 12: Managing Networking
-		- ### 12
+		- ### 12.1 Understanding IPv4 Basics
+			- ![image.png](../assets/image_1660733391929_0.png)
+		- ### 12.2 Understanding IPv6 Basics
+			-

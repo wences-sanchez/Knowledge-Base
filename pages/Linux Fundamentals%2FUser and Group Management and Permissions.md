@@ -59,4 +59,5 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- In MBR, a maximum of 4 partitions can be written to the 512 bytes boot sector
 		- Extended partitios can only be used to include logical partitions.
 		- **$ fdisk** is the most important utility to create MBR partitions
-	- ### 11.3 Creating GPT
+	- ### 11.3 Creating GPT Partitions
+		-

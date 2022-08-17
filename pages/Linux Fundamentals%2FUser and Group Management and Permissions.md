@@ -66,3 +66,6 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- **vfat** is the only file system type that is compatible with Linux, Windows and Mac.
 		- ![image.png](../assets/image_1660731682870_0.png)
 		-
+		- ![image.png](../assets/image_1660731852238_0.png)
+		-
+		-

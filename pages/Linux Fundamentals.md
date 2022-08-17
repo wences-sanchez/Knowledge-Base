@@ -444,7 +444,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- #### 8.3 Working with history
 				- Commands a user types are written to `~/.bash_history`
 				- Use:
-					- history -c
+					- **history -c** to clear the current history
+					- **history -w** to write the current history
+					- history -d to delete a specific line from history
 		-
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard

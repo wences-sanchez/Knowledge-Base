@@ -347,7 +347,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			-
 	- ---
 	-
-	- ### Lesson 6: [[Advanced Text File Processing]]
+	- ### Lesson 6: [[Advanced Text File Processing]] #spaced
 		- **cut** filters out columns from text files
 		- **sort** sorts the result (for example, from the **cut** command)
 		- If the regex is an extended one, it won't always work!
@@ -364,7 +364,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- `$ awk '{ print $0 }' /etc/passwd`
 			- `$ awk [ -F <sep> ] '{ <awk-statement> }' file`
 			- awk-statements:
-				- print
+				- print $0
 				- length($0)
 			- `$ awk -F : '/linda/ { print $3 }' /etc/passwd`
 			-

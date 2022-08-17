@@ -446,7 +446,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- Use:
 					- **history -c** to clear the current history
 					- **history -w** to write the current history
-					- history -d to delete a specific line from history
+					- **history -d** to delete a specific line from history
+				-
 		-
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard

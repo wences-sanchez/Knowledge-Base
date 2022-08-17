@@ -457,6 +457,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- About alias:
 				- `alias wences='ls -l /home/wences'`
 			- #### 8.7 Working with Bash Startup Files
+				- `/etc/environment` contains a list of variables
 				- `/etc/profile` is executed while users login
 					- `/etc/profile.d` is used as a snapin directory that contains additional configuration
 				- `/etc/bashrc` is processed every time a subshell is started

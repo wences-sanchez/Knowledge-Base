@@ -486,7 +486,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard
 					- With `&>`
-	- ## Module 2: User and
+	- ## Module 2: [[User and Group Management and Permissions]]
+	-
 -
 -
 -

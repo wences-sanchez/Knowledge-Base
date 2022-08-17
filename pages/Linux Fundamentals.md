@@ -459,7 +459,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- #### 8.7 Working with Bash Startup Files
 				- `/etc/profile` is executed while users login
 					- `/etc/profile.d` is used as a snapin directory that contains additional configuration
-				- `/etc/bashrc` is processed ever
+				- `/etc/bashrc` is processed every time a subshell is started
+					- A user-specific `~/.bashrc` file may be used
+				-
 			-
 			-
 		-

@@ -456,7 +456,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			-
 			- About alias:
 				- `alias wences='ls -l /home/wences'`
-				-
+			- #### 8.7 Working with Bash Stra
 			-
 			-
 		-

@@ -421,6 +421,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 						- `$ grep 'anna.' users`
 						- `$ grep -R 'anna$' users`
 						-
+	- ---
+	-
 	- ### Lesson 7: [[Connecting to a Server]]
 		- The **root** user exists in Linux kernel space.
 		- Linux distros either remove any root or fence it.

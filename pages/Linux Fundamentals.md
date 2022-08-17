@@ -454,6 +454,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- #### Bash is case-sensitive
 			- #### /home/wences/.local/bin is a bin directory included directory!!!
 			-
+			- `alias wences='ls -l /home/wences'`
+			-
+			-
 		-
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard

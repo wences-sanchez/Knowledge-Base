@@ -451,7 +451,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- And use:
 					- **Ctrl-r** for reverse-i-search
 					- **$ !nn** to execute that line command from history
-				-
+			-
 		-
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard

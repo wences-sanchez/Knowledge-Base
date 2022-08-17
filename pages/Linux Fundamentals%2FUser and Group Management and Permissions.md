@@ -64,4 +64,5 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- To use a partition, a file system must be created on top of it.
 		- ![image.png](../assets/image_1660731499029_0.png)
 		- **vfat** is the only file system type that is compatible with Linux, Windows and Mac.
+		- ![image.png](../assets/image_1660731682870_0.png)
 		-

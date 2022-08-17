@@ -63,4 +63,4 @@ tags:: Linux, O'Reilly-Learning, Videos
 	- ### 11.4 Creating File Systems
 		- To use a partition, a file system must be created on top of it.
 		- ![image.png](../assets/image_1660731499029_0.png)
-		-
+		- **vfat** is the only file system type

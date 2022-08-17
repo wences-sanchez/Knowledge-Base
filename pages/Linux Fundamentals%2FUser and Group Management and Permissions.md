@@ -20,6 +20,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 	- ### 9.7 Managing Password Properties
 		- `$ sudo chage <user>`
 			- Asks for input about pasword configuration parameters of <user>
-		-
+	- ### 9.8 Managing Current Sessions
+		- **`who`**
 		-
 	-

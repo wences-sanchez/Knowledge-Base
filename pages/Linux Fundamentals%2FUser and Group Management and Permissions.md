@@ -57,4 +57,6 @@ tags:: Linux, O'Reilly-Learning, Videos
 	- ### 11.2 Creating MBR Partitions
 		- Master Boot Record (MBR) is the old solution for addresssing disks
 		- In MBR, a maximum of 4 partitions can be written to the 512 bytes boot sector
-		- Extended partitios can only be used to inc
+		- Extended partitios can only be used to include logical partitions.
+		- **$ fdisk** is the most important utility to create MBR partitions
+		-

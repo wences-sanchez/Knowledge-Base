@@ -495,7 +495,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					- With `&>`
 	- ## Module 2: [[Linux Fundamentals/User and Group Management and Permissions]]
 -
--
+	- ## Module 3: [[Linux Fundamentals/Operating Running Systems]]
+	-
 -
 -
 -

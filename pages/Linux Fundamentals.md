@@ -439,7 +439,12 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- The fingerprint is the identity.
 	-
 	- #### Flashcards
-		- How can you lo
+		- How can you login as another user? And as a root user? #flashcard
+			- **su** is for Switch User, it allows you to open a shell as a specific user.
+			- Use **su** to open a subshell, not all environment variables are set as the target user
+			- Use **su -** to open a login shell, environment variables are set as the target user
+			-
+			- **sudo** is a more sophisticated way, preferred.
 	- ---
 		- ### Lesson 8: [[Working with the Bash Shell]] #spaced
 			- The `&>` sends both file descriptors 1 and 2 to the specified output

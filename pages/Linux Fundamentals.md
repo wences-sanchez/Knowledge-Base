@@ -444,7 +444,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			-
 		-
 			- #### Flashcards
-				- How could you send (in Linux)both file descriptors 1 and 2
+				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard
+					- With `&>`
 			-
 -
 -

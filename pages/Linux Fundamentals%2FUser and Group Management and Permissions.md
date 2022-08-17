@@ -8,6 +8,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- Every Linux user is a member of at least one group, and while creating a file on Linux, that group will become group owner.
 		- Because of group ownership, every user must be a member of at least one group.
 		- Tip: Use `$ useradd` with **-m**
-			- For creating the
+			- For creating the home directory
+		-
 		-
 	-

@@ -11,6 +11,8 @@ tags:: Linux, O'Reilly-Learning, Videos
 			- For creating the home directory
 		- `$sudo groupadd sales`
 		- `$ sudo usermod -aG sales bill`
-	-
+	- ### 9.5 Managing User and Group Properties
+		- Users and their properties are stored in `/etc/passwd`
+		-
 		-
 	-

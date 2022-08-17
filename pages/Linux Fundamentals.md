@@ -465,9 +465,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `source <file>` is for updating the environment variables
 			-
 			- #### Lab
-				- DOING Modify your environment so that after login, all users have access to the following:
+				- DONE Modify your environment so that after login, all users have access to the following:
 				  :LOGBOOK:
-				  CLOCK: [2022-08-17 Wed 09:45:07]
+				  CLOCK: [2022-08-17 Wed 09:45:07]--[2022-08-17 Wed 10:00:05] =>  00:14:58
 				  :END:
 					- DONE An alias with the name `ipconfig` that runs the `ip addr show` command
 					  :LOGBOOK:
@@ -477,9 +477,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					  :LOGBOOK:
 					  CLOCK: [2022-08-17 Wed 09:54:37]--[2022-08-17 Wed 09:56:05] =>  00:01:28
 					  :END:
-					- DOING Ensure the alias is available in subshells also
+					- DONE Ensure the alias is available in subshells also
 					  :LOGBOOK:
-					  CLOCK: [2022-08-17 Wed 09:56:08]
+					  CLOCK: [2022-08-17 Wed 09:56:08]--[2022-08-17 Wed 09:59:57] =>  00:03:49
 					  :END:
 		-
 			- #### Flashcards

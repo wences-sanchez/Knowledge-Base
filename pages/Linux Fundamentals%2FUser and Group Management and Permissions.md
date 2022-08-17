@@ -4,6 +4,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 - #tags #O'Reilly-Learning #Linux #Videos
 - ## Lesson 9: [[User and Group Management]]
 	- ### 9.2 Understanding the Role of Ownership
-		- Every Linux user is a
+		- When a user creates a file on Linux, that user becomes the file owner.
+		- Every Linux user is a member of at least one group, and while creating a file on Linux, that group will become group owner.
 		- Because of group ownership, every user must be a member of at least one group.
 	-

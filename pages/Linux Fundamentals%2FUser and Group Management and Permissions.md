@@ -54,4 +54,6 @@ tags:: Linux, O'Reilly-Learning, Videos
 			- **/dev/vda** -> KVM hard disk
 			- **/dev/nvme0n1** -> First NVME hard disk
 			- **/dev/sr0** -> Optical drive
-		-
+	- ### Creating MBR Partitions
+		- Master Boot Record (MBR) is the old solution for addresssing disks
+		- In MBR, a maximum of 4 pa

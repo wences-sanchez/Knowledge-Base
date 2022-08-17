@@ -74,5 +74,8 @@ tags:: Linux, O'Reilly-Learning, Videos
 			- `$ lsblk`
 			- `$ df -h`
 			- `$ findmnt`
+-
+	- ### Lab
+		- ![image.png](../assets/image_1660732517591_0.png)
 		-
-		-
+	-

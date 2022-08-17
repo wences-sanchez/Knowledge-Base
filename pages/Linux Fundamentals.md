@@ -447,7 +447,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					- **history -c** to clear the current history
 					- **history -w** to write the current history
 					- **history -d** to delete a specific line from history
-				-
+				- And use:
+					- **Ctrl-r** for reverse-i-search
+					-
 		-
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard

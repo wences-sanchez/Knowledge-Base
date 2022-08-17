@@ -375,6 +375,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- Be aware that there is no undo!!
 			-
 		- #### Lab
+		  collapsed:: true
 			- DONE Lesson 6 Lab: Working with Text Files
 			  :LOGBOOK:
 			  CLOCK: [2022-08-16 Tue 17:08:27]--[2022-08-16 Tue 17:43:59] =>  00:35:32

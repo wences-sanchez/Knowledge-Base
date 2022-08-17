@@ -469,11 +469,14 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				  :LOGBOOK:
 				  CLOCK: [2022-08-17 Wed 09:45:07]
 				  :END:
-					- DOING An alias with the name `ipconfig` that runs the `ip addr show` command
+					- DONE An alias with the name `ipconfig` that runs the `ip addr show` command
 					  :LOGBOOK:
-					  CLOCK: [2022-08-17 Wed 09:45:10]
+					  CLOCK: [2022-08-17 Wed 09:45:10]--[2022-08-17 Wed 09:54:35] =>  00:09:25
 					  :END:
-					- TODO A variable with the name *COLOR* that is set to the value red
+					- DOING A variable with the name *COLOR* that is set to the value red
+					  :LOGBOOK:
+					  CLOCK: [2022-08-17 Wed 09:54:37]
+					  :END:
 					- TODO Ensure the alias is available in subshells also
 		-
 			- #### Flashcards

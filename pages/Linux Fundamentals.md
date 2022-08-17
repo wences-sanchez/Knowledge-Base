@@ -473,11 +473,14 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					  :LOGBOOK:
 					  CLOCK: [2022-08-17 Wed 09:45:10]--[2022-08-17 Wed 09:54:35] =>  00:09:25
 					  :END:
-					- DOING A variable with the name *COLOR* that is set to the value red
+					- DONE A variable with the name *COLOR* that is set to the value red
 					  :LOGBOOK:
-					  CLOCK: [2022-08-17 Wed 09:54:37]
+					  CLOCK: [2022-08-17 Wed 09:54:37]--[2022-08-17 Wed 09:56:05] =>  00:01:28
 					  :END:
-					- TODO Ensure the alias is available in subshells also
+					- DOING Ensure the alias is available in subshells also
+					  :LOGBOOK:
+					  CLOCK: [2022-08-17 Wed 09:56:08]
+					  :END:
 		-
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard

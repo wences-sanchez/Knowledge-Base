@@ -13,6 +13,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- `$ sudo usermod -aG sales bill`
 	- ### 9.5 Managing User and Group Properties
 		- Users and their properties are stored in `/etc/passwd`
+		- ![image.png](../assets/image_1660725345251_0.png)
 		-
 		-
 	-

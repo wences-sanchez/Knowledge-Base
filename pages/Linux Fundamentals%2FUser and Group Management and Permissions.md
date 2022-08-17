@@ -18,6 +18,8 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- Groups are stored in `/etc/group`
 		- Use **$ vigr** to edit `/etc/group`
 	- ### 9.7 Managing Password Properties
-		- ``
+		- `$ sudo chage <user>`
+			- Asks for input about pasword configuration parameters of <user>
+			-
 		-
 	-

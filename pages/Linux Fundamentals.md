@@ -293,7 +293,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- The **second column of $ls** indicates the number of **hard links** that exist in the directory
 	- ---
 	-
-	- ### Lesson 5: [[Working with Text Files]]
+	- ### Lesson 5: [[Working with Text Files]] #spaced
 		- In some systems, you'll only find **vi**.
 			- That's the reason because it's preferred over *nano*
 		- #### 5.2 Understanding Working with vim

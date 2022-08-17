@@ -449,6 +449,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					- **history -d** to delete a specific line from history
 				- And use:
 					- **Ctrl-r** for reverse-i-search
+					- **!nn** to execute that line command from history
 					-
 		-
 			- #### Flashcards

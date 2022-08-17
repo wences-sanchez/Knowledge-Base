@@ -1,2 +1,0 @@
-- ## Lesson 9: User and Group Management
-	-

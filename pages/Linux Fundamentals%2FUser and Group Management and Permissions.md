@@ -50,7 +50,8 @@ tags:: Linux, O'Reilly-Learning, Videos
 		-
 		- To address disks, Linux provides devices files in **/dev**
 			- **/dev/sda** -> First SCSI hard disk
-			- **/dev/sdb** -> First SCSI hard disk
-			- **/dev/sda** -> First SCSI hard disk
-			- **/dev/sda** -> First SCSI hard disk
-			- **/dev/sda** -> First SCSI hard disk
+			- **/dev/sdb** -> Second SCSI hard disk
+			- **/dev/vda** -> KVM hard disk
+			- **/dev/nvme0n1** -> First NVME hard disk
+			- **/dev/sr0** -> Optical drive
+			-

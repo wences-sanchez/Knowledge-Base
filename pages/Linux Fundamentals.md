@@ -465,6 +465,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- `source <file>` is for updating the environment variables
 			-
 			- #### Lab
+			  collapsed:: true
 				- DONE Modify your environment so that after login, all users have access to the following:
 				  :LOGBOOK:
 				  CLOCK: [2022-08-17 Wed 09:45:07]--[2022-08-17 Wed 10:00:05] =>  00:14:58
@@ -485,7 +486,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard
 					- With `&>`
-			-
+	- ## Module 2: User and
 -
 -
 -

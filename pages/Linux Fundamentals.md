@@ -451,7 +451,8 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- And use:
 					- **Ctrl-r** for reverse-i-search
 					- **$ !nn** to execute that line command from history
-			- ##### Bash is case-sensitive
+			- #### Bash is case-sensitive
+			- #### /home/wences/.local/bin is a bin directory included directory!!!
 			-
 		-
 			- #### Flashcards

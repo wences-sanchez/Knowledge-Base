@@ -61,4 +61,6 @@ tags:: Linux, O'Reilly-Learning, Videos
 		- **$ fdisk** is the most important utility to create MBR partitions
 	- ### 11.3 Creating GPT Partitions
 	- ### 11.4 Creating File Systems
-		- To use a partition, a file system must be created on top of it
+		- To use a partition, a file system must be created on top of it.
+		- ![image.png](../assets/image_1660731499029_0.png)
+		-

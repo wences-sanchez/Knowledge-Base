@@ -465,7 +465,9 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			-
 			- #### Lab
 				- TODO Modify your environment so that after login, all users have access to the following:
-					- TODO An alias with the name `ipconfig` that runs the `ip addr show<`
+					- TODO An alias with the name `ipconfig` that runs the `ip addr show` command
+					- TODO A variable with the name *COLOR* that is set to the value red
+					- TODO Ensure the alias is available in subshells also
 		-
 			- #### Flashcards
 				- How could you send (in Linux) both file descriptors 1 and 2 to the specified output? #flashcard

@@ -443,7 +443,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 			- The `&>` sends both file descriptors 1 and 2 to the specified output
 			- #### 8.3 Working with history
 				- Commands a user types are written to `~/.bash_history`
-				- $
+				- $ history sow
 				- Use:
 					- **history -c** to clear the current history
 					- **history -w** to write the current history

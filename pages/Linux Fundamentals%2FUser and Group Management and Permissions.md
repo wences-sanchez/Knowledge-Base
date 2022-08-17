@@ -44,7 +44,7 @@ tags:: Linux, O'Reilly-Learning, Videos
 		-
 - ---
 - ## Lesson 11: Storage Management Essentials
-	- ### 11.1 Understanding Linux Storage Solutions
+	- ### 11.1 Understanding Linux Storage Solutions #spaced
 		- Linux works with partitions. It doesn't take the whole hard disk.
 		- ![image.png](../assets/image_1660730475334_0.png)
 		-
@@ -54,4 +54,4 @@ tags:: Linux, O'Reilly-Learning, Videos
 			- **/dev/vda** -> KVM hard disk
 			- **/dev/nvme0n1** -> First NVME hard disk
 			- **/dev/sr0** -> Optical drive
-			-
+		-

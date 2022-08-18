@@ -151,7 +151,7 @@ category:: #books
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- text-shadow: -4px 4px 3px #999999; #space
+	- `text-shadow: -4px 4px 3px #999999;` #space
 		- ([Location 3878](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3878))
 		- #[[orange]] #[[naranja]]
 	- -

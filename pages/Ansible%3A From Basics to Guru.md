@@ -40,7 +40,11 @@ title:: Ansible: From Basics to Guru
 			- If a task founds that its change is already done, it doesn't fail. It just notifies *change: false*
 			-
 		- #### Lab
-			- TODO Use ad-hoc commands to request ansible facts for your Windows server
+			- DOING Use ad-hoc commands to request ansible facts for your Windows server
+			  :LOGBOOK:
+			  CLOCK: [2022-08-18 Thu 17:24:12]
+			  :END:
+			- TODO Use ad-hoc commands to create a user anna on your Windows server
 			-
 	- ---
 	- ### Lesson 3: Using Ansible Playbook

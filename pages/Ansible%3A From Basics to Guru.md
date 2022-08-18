@@ -40,7 +40,8 @@ title:: Ansible: From Basics to Guru
 			- If a task founds that its change is already done, it doesn't fail. It just notifies *change: false*
 			-
 		- #### Lab
-			- ####
+			- TODO Use ad-hoc commands to request ansible facts for your Windows server
+			-
 	- ---
 	- ### Lesson 3: Using Ansible Playbook
 		- A playbook is a collection of plays

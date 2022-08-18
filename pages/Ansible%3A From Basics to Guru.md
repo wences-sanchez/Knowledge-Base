@@ -23,19 +23,13 @@ title:: Ansible: From Basics to Guru
 			- You can put the settings in ansible.cfg instead of the playbooks or CLI
 			- Se puede poner los datos que no queramos tener que escribir cada vez en el fichero **ansible.cfg**
 	- ---
-	-
 	- ### Lesson 2: Using Ad-hoc Commands
-	  
-	  
-	  * An ansible module is a Python script
-	  
-	  * In Ad-hoc commands, -m is for address a specific module and -a for module arguments
-	  
-	  
-	  
-	  ¿Cómo puedo consultar los módulos de Ansible desde la terminal?
-	  * **ansible-doc [-t module] -l** muestra todos los módulos
-	  * **ansible-doc ...** muestra un módulo específico que introduzcamos
+	- An ansible module is a Python script
+	- In Ad-hoc commands, -m is for address a specific module and -a for module arguments
+	-
+	- ¿Cómo puedo consultar los módulos de Ansible desde la terminal?
+	- **ansible-doc [-t module] -l** muestra todos los módulos
+	- *ansible-doc ...** muestra un módulo específico que introduzcamos
 ### Módulos más importantes de Ansible
 - **command**: For running arbitrary commands on the managed nodes
 - **shell**: Same as *command* but allows pipes and redirects

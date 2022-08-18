@@ -16,15 +16,12 @@ title:: Ansible: From Basics to Guru
 		- Ansible also needs an inventory:
 			- To identify managed hosts
 			- To define host groups to be used by Ansible
-		- ### Understanding Ad-hoc Commands
-		  
-		  * With _command_ we can run any shell command in Ansible
-		- ### 1.7 Configuring Linux Managed Hosts with Ad-hoc Commands
-		- ### 1.9 Understanding ansible.cfg
-		  
-		  * You can put the settings in ansible.cfg instead of the playbooks or CLI
-		  
-		  * Se puede poner los datos que no queramos tener que escribir cada vez en el fichero **ansible.cfg**
+		- #### Understanding Ad-hoc Commands
+		- With _command_ we can run any shell command in Ansible
+		- #### 1.7 Configuring Linux Managed Hosts with Ad-hoc Commands
+		- #### 1.9 Understanding ansible.cfg
+		- You can put the settings in ansible.cfg instead of the playbooks or CLI
+		- Se puede poner los datos que no queramos tener que escribir cada vez en el fichero **ansible.cfg**
 ## Lesson 2: Using Ad-hoc Commands
 
 

@@ -48,7 +48,7 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 		- (Page 15)
 	- -
 	- -
-	- Si Ansible no está instalado en tu máquina (por ejemplo, porque utilices Windows como sistema operativo), necesitas utilizar el aprovisionamiento con ansible_local, tal como:
+	- Si Ansible no está instalado en tu máquina (por ejemplo, porque utilices Windows como sistema operativo), necesitas utilizar el aprovisionamiento con ansible_local, tal como: #carta
 		- ```
 		  config.vm.provision "ansible_local" do |ansible|
 		  	ansible.playbook ="provisioning/playbook.yml"

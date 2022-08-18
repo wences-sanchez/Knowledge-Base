@@ -17,23 +17,25 @@ title:: Ansible: From Basics to Guru
 			- To identify managed hosts
 			- To define host groups to be used by Ansible
 		- #### Understanding Ad-hoc Commands
-		- With _command_ we can run any shell command in Ansible
+			- With _command_ we can run any shell command in Ansible
 		- #### 1.7 Configuring Linux Managed Hosts with Ad-hoc Commands
 		- #### 1.9 Understanding ansible.cfg
-		- You can put the settings in ansible.cfg instead of the playbooks or CLI
-		- Se puede poner los datos que no queramos tener que escribir cada vez en el fichero **ansible.cfg**
-## Lesson 2: Using Ad-hoc Commands
-
-
-* An ansible module is a Python script
-
-* In Ad-hoc commands, -m is for address a specific module and -a for module arguments
-
-
-
-¿Cómo puedo consultar los módulos de Ansible desde la terminal?
-* **ansible-doc [-t module] -l** muestra todos los módulos
-* **ansible-doc ...** muestra un módulo específico que introduzcamos
+			- You can put the settings in ansible.cfg instead of the playbooks or CLI
+			- Se puede poner los datos que no queramos tener que escribir cada vez en el fichero **ansible.cfg**
+	- ---
+	-
+	- ### Lesson 2: Using Ad-hoc Commands
+	  
+	  
+	  * An ansible module is a Python script
+	  
+	  * In Ad-hoc commands, -m is for address a specific module and -a for module arguments
+	  
+	  
+	  
+	  ¿Cómo puedo consultar los módulos de Ansible desde la terminal?
+	  * **ansible-doc [-t module] -l** muestra todos los módulos
+	  * **ansible-doc ...** muestra un módulo específico que introduzcamos
 ### Módulos más importantes de Ansible
 - **command**: For running arbitrary commands on the managed nodes
 - **shell**: Same as *command* but allows pipes and redirects

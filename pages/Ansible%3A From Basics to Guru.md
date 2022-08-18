@@ -6,11 +6,11 @@ title:: Ansible: From Basics to Guru
 -
 	- ## Lesson 1: Preparing your Managed Infrastructure
 	-
-	- What is Ansible (generally)? #card
+	- What is Ansible (generally)? #carta
 		- Ansible is a configuration management tool
 		- It is used  to manage configuration on a pre-deployed infrastructure
 		- It's a DevOps tool
-	- What is the control node? #card
+	- What is the control node? #carta
 		- Where the Ansible software is installed
 	- The control node needs Ansible installed
 	- The manages nodes need SSH, a user account, privilege escalation (be careful with SSH keys).
@@ -27,14 +27,6 @@ title:: Ansible: From Basics to Guru
 	  * You can put the settings in ansible.cfg instead of the playbooks or CLI
 	  
 	  * Se puede poner los datos que no queramos tener que escribir cada vez en el fichero **ansible.cfg**
-	  
-	  
-	  ---
-	  
-	  ---
-	  
-	  
-	  #spaced
 ## Lesson 2: Using Ad-hoc Commands
 
 

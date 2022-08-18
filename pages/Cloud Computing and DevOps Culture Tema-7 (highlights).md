@@ -9,7 +9,13 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/0986d8bf-2723-4f35-ad26-3209485cdcef.png)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Ventajas y desventajas de usar plantillas para instalar aplicaiones en instancias. #card
+	- Ventajas y desventajas de usar plantillas para instalar aplicaciones en instancias. #card
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2022-08-18T22:00:00.000Z
+	  card-last-reviewed:: 2022-08-18T12:47:03.523Z
+	  card-last-score:: 1
 		- Las  AMI  específicas  de  una  organización incluyen,  generalmente:  software corporativo (sistemas operativos reforzados), software antivirus y suites de software de  oficina.  Tienen  la  posibilidad  de  incluir  software  de  aplicación  que  viene empaquetado junto con la AMI o puede contener scripts y software que permitan a la  instancia  de  instalar  el  software  de  aplicación  al  momento  del  lanzamiento, llamada booting. ¿Cuáles  son  los  pros  y  contras  de  cargar,  de  antemano,  software  de  nivel  de aplicación en una AMI? Como ventaja, hemos de indicar que pueden  ser lanzados con  gran  rapidez,  ya  que  no  es  necesario  instalar  ningún  software  adicional  en  el arranque.  Como  desventaja,  hay  que  indicar  que  puede  ser  necesario  crear  una nueva AMI cada vez que haya cambios de software a nivel de aplicación.
 		- (Page 21)
 	- -

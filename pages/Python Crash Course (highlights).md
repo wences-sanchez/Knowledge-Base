@@ -131,6 +131,12 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- -
 		- -
 		- Make the order of the list cars inverse. #card
+		  card-last-interval:: -1
+		  card-repeats:: 1
+		  card-ease-factor:: 2.5
+		  card-next-schedule:: 2022-08-18T22:00:00.000Z
+		  card-last-reviewed:: 2022-08-18T12:47:17.646Z
+		  card-last-score:: 1
 			- cars.reverse()
 		- -
 		- -

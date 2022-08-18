@@ -38,8 +38,9 @@ title:: Ansible: From Basics to Guru
 			-
 			- But be aware of idempotency!!!
 			- If a task founds that its change is already done, it doesn't fail. It just notifies *change: false*
+			-
 		- #### Lab
-		-
+			- ####
 	- ---
 	- ### Lesson 3: Using Ansible Playbook
 		- A playbook is a collection of plays

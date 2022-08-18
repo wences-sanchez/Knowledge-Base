@@ -28,21 +28,15 @@ title:: Ansible: From Basics to Guru
 	- In Ad-hoc commands, -m is for address a specific module and -a for module arguments
 	-
 	- ¿Cómo puedo consultar los módulos de Ansible desde la terminal?
-	- **ansible-doc [-t module] -l** muestra todos los módulos
-	- *ansible-doc ...** muestra un módulo específico que introduzcamos
-### Módulos más importantes de Ansible
-- **command**: For running arbitrary commands on the managed nodes
-- **shell**: Same as *command* but allows pipes and redirects
-- **package**: For managing packages
-- **user**: For user management 
-  
-  But be aware of idempotency!!!
-  * If a task founds that its change is alreasy done, it doesn't fail. It just notifies *change: false*
-  
-  
-  
-  ---
-  ---
+		- **ansible-doc [-t module] -l** muestra todos los módulos
+		- **ansible-doc ...** muestra un módulo específico que introduzcamos
+	- ### Módulos más importantes de Ansible
+		- **command**: For running arbitrary commands on the managed nodes
+		- **shell**: Same as *command* but allows pipes and redirects
+		- **package**: For managing packages
+		- **user**: For user management
+		- But be aware of idempotency!!!
+		- If a task founds that its change is alreasy done, it doesn't fail. It just notifies *change: false*
 ## Lesson 3: Using Ansible Playbook
 
 * A playbook is a collection of plays

@@ -44,7 +44,7 @@ title:: Ansible: From Basics to Guru
 			  :LOGBOOK:
 			  CLOCK: [2022-08-18 Thu 17:24:12]
 			  :END:
-			- TODO Use ad-hoc commands to create a user anna on your Windows server
+			- TODO Use ad-hoc commands to create a user *anna* on your Windows server
 			-
 	- ---
 	- ### Lesson 3: Using Ansible Playbook

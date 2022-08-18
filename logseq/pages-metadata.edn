@@ -38,6 +38,12 @@
  {:block/name "advanced text file processing",
   :block/created-at 1660652497354,
   :block/updated-at 1660652497354}
+ {:block/name "ansible",
+  :block/created-at 1660735792291,
+  :block/updated-at 1660735792291}
+ {:block/name "ansible: from basics to guru",
+  :block/created-at 1660735792327,
+  :block/updated-at 1660735792327}
  {:block/name "aws",
   :block/created-at 1660029985876,
   :block/updated-at 1660029985876}
@@ -121,9 +127,15 @@
  {:block/name "friday, 05-08-2022",
   :block/created-at 1660315975479,
   :block/updated-at 1660315975479}
+ {:block/name "friday, 09-09-2022",
+  :block/created-at 1660734137723,
+  :block/updated-at 1660734144035}
  {:block/name "friday, 12-08-2022",
   :block/created-at 1660214678273,
   :block/updated-at 1660373313379}
+ {:block/name "friday, 19-08-2022",
+  :block/created-at 1660735421159,
+  :block/updated-at 1660735421159}
  {:block/name "ibm-devops-containers-lab-1",
   :block/created-at 1660315979804,
   :block/updated-at 1660315979804}
@@ -165,7 +177,14 @@
   :block/updated-at 1660316566646}
  {:block/name "linux fundamentals",
   :block/created-at 1660316566670,
-  :block/updated-at 1660668960369}
+  :block/updated-at 1660732707457}
+ {:block/name "linux fundamentals/operating running systems",
+  :block/created-at 1660732707454,
+  :block/updated-at 1660733534830}
+ {:block/name
+  "linux fundamentals/user and group management and permissions",
+  :block/created-at 1660385607690,
+  :block/updated-at 1660732518667}
  {:block/name "monday, 01-08-2022",
   :block/created-at 1660315974600,
   :block/updated-at 1660315974600}
@@ -196,6 +215,12 @@
  {:block/name "operating running system",
   :block/created-at 1660385674273,
   :block/updated-at 1660385674273}
+ {:block/name "pasted image 20220729132914.png",
+  :block/created-at 1660735792318,
+  :block/updated-at 1660735792318}
+ {:block/name "permissions management",
+  :block/created-at 1660728121466,
+  :block/updated-at 1660728121466}
  {:block/name "readme",
   :block/created-at 1660315973090,
   :block/updated-at 1660315973090}
@@ -204,7 +229,7 @@
   :block/updated-at 1660315976205}
  {:block/name "saturday, 13-08-2022",
   :block/created-at 1660373272169,
-  :block/updated-at 1660669779157}
+  :block/updated-at 1660734097798}
  {:block/name "saturday, 17-09-2022",
   :block/created-at 1660315977409,
   :block/updated-at 1660315977409}
@@ -262,9 +287,9 @@
  {:block/name "uno/dos",
   :block/created-at 1660315975434,
   :block/updated-at 1660315975434}
- {:block/name "user and group management and permissions",
-  :block/created-at 1660385607690,
-  :block/updated-at 1660385607690}
+ {:block/name "user and group management",
+  :block/created-at 1660724017543,
+  :block/updated-at 1660724017543}
  {:block/name "using essential tools",
   :block/created-at 1660316566300,
   :block/updated-at 1660316566300}
@@ -285,10 +310,13 @@
   :block/updated-at 1660159772212}
  {:block/name "wednesday, 17-08-2022",
   :block/created-at 1660718011676,
-  :block/updated-at 1660718011676}
+  :block/updated-at 1660735243000}
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1660315973792,
   :block/updated-at 1660315973792}
  {:block/name "working with text files",
-  :block/created-at 1660642164634, 
-  :block/updated-at 1660642164634}]
+  :block/created-at 1660642164634,
+  :block/updated-at 1660642164634}
+ {:block/name "working with the bash shell",
+  :block/created-at 1660718617468, 
+  :block/updated-at 1660718617468}]

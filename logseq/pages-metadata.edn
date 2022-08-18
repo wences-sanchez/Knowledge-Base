@@ -1,13 +1,79 @@
-[{:block/name "\"introduction to containers w",
+[{:block/name " -e ",
+  :block/created-at 1660807930950,
+  :block/updated-at 1660807930950}
+ {:block/name " -e /etc",
+  :block/created-at 1660807930952,
+  :block/updated-at 1660807930952}
+ {:block/name " -e /etc/redhat-release || -e ",
+  :block/created-at 1660807930955,
+  :block/updated-at 1660807930955}
+ {:block/name " -e /etc/redhat-release || -e /etc",
+  :block/created-at 1660807930958,
+  :block/updated-at 1660807930958}
+ {:block/name " -e /etc/redhat-release || -e /etc/system-release ",
+  :block/created-at 1660807930943,
+  :block/updated-at 1660807930943}
+ {:block/name " -e file$i ",
+  :block/created-at 1660807929464,
+  :block/updated-at 1660807929464}
+ {:block/name " -x ",
+  :block/created-at 1660807930945,
+  :block/updated-at 1660807930945}
+ {:block/name " -x /usr",
+  :block/created-at 1660807930947,
+  :block/updated-at 1660807930947}
+ {:block/name " -x /usr/bin",
+  :block/created-at 1660807930948,
+  :block/updated-at 1660807930948}
+ {:block/name " -x /usr/bin/yum ",
+  :block/created-at 1660807930941,
+  :block/updated-at 1660807930941}
+ {:block/name "!",
+  :block/created-at 1660807814531,
+  :block/updated-at 1660807814531}
+ {:block/name "!/bin",
+  :block/created-at 1660807814534,
+  :block/updated-at 1660807814534}
+ {:block/name "!/bin/bash",
+  :block/created-at 1660807814529,
+  :block/updated-at 1660807814529}
+ {:block/name "!/path",
+  :block/created-at 1660807817544,
+  :block/updated-at 1660807817544}
+ {:block/name "!/path/to",
+  :block/created-at 1660807817546,
+  :block/updated-at 1660807817546}
+ {:block/name "!/path/to/java",
+  :block/created-at 1660807817541,
+  :block/updated-at 1660807817541}
+ {:block/name "!/usr",
+  :block/created-at 1660807929496,
+  :block/updated-at 1660807929496}
+ {:block/name "!/usr/bin",
+  :block/created-at 1660807929497,
+  :block/updated-at 1660807929497}
+ {:block/name "!/usr/bin/python3",
+  :block/created-at 1660807929490,
+  :block/updated-at 1660807929490}
+ {:block/name "\"introduction to containers w",
   :block/created-at 1660315062268,
   :block/updated-at 1660315062268}
  {:block/name
   "\"introduction to containers w/ docker, kubernetes & openshift\"",
   :block/created-at 1660315981954,
   :block/updated-at 1660315981954}
+ {:block/name "(nop)",
+  :block/created-at 1660808033132,
+  :block/updated-at 1660808033132}
+ {:block/name "1",
+  :block/created-at 1660807935427,
+  :block/updated-at 1660807935427}
  {:block/name "12-factor apps",
   :block/created-at 1658825284556,
   :block/updated-at 1658825284556}
+ {:block/name "2",
+  :block/created-at 1660807935438,
+  :block/updated-at 1660807935438}
  {:block/name "2022_08_05 2",
   :block/created-at 1660315975057,
   :block/updated-at 1660315975057}
@@ -17,6 +83,21 @@
  {:block/name "2022_08_07 2",
   :block/created-at 1660315976488,
   :block/updated-at 1660315976488}
+ {:block/name "3",
+  :block/created-at 1660807935450,
+  :block/updated-at 1660807935450}
+ {:block/name "4",
+  :block/created-at 1660807935463,
+  :block/updated-at 1660807935463}
+ {:block/name "4sysops.com",
+  :block/created-at 1660807957279,
+  :block/updated-at 1660807957279}
+ {:block/name "5",
+  :block/created-at 1660807935479,
+  :block/updated-at 1660807935479}
+ {:block/name "6",
+  :block/created-at 1660807935494,
+  :block/updated-at 1660807935494}
  {:block/name "62ee44f7-9707-488e-8135-9fe1df0b96d6",
   :block/created-at 1659864619934,
   :block/updated-at 1659864619934}
@@ -29,9 +110,24 @@
  {:block/name "62f66ba7-794b-4605-a7dc-145760843477",
   :block/created-at 1660375167178,
   :block/updated-at 1660375167178}
+ {:block/name "999999",
+  :block/created-at 1660807706520,
+  :block/updated-at 1660807706520}
+ {:block/name ">",
+  :block/created-at 1660807955795,
+  :block/updated-at 1660807955795}
+ {:block/name "[email protected",
+  :block/created-at 1660807944523,
+  :block/updated-at 1660807944523}
+ {:block/name "]",
+  :block/created-at 1660807944526,
+  :block/updated-at 1660807944526}
  {:block/name "a",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+ {:block/name "administración-de-sistemas-para-la-cloud",
+  :block/created-at 1660807926579,
+  :block/updated-at 1660807926579}
  {:block/name "advanced file management tools",
   :block/created-at 1660385967232,
   :block/updated-at 1660385967232}
@@ -44,18 +140,67 @@
  {:block/name "ansible: from basics to guru",
   :block/created-at 1660735792327,
   :block/updated-at 1660735792327}
+ {:block/name "antonio lopez",
+  :block/created-at 1660807782312,
+  :block/updated-at 1660807782312}
+ {:block/name
+  "antonio machado, jordi vila delclòs, and raquel ramírez de arellano",
+  :block/created-at 1660808003285,
+  :block/updated-at 1660808003285}
+ {:block/name "arnon axelrod",
+  :block/created-at 1660807793834,
+  :block/updated-at 1660807793834}
+ {:block/name "articles",
+  :block/created-at 1660807790593,
+  :block/updated-at 1660807790593}
+ {:block/name "arun gupta",
+  :block/created-at 1660807752295,
+  :block/updated-at 1660807752295}
+ {:block/name "askubuntu.com",
+  :block/created-at 1660807918029,
+  :block/updated-at 1660807918029}
+ {:block/name "author",
+  :block/created-at 1660807705471,
+  :block/updated-at 1660807705471}
  {:block/name "aws",
   :block/created-at 1660029985876,
   :block/updated-at 1660029985876}
+ {:block/name "azul",
+  :block/created-at 1660807707819,
+  :block/updated-at 1660807707819}
  {:block/name "b",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
  {:block/name "bash",
   :block/created-at 1658825284486,
   :block/updated-at 1658825284486}
+ {:block/name "bash shell redirect output and errors to ",
+  :block/created-at 1660807951413,
+  :block/updated-at 1660807951413}
+ {:block/name "bash shell redirect output and errors to /dev",
+  :block/created-at 1660807951416,
+  :block/updated-at 1660807951416}
  {:block/name "bash shell scripting, 2nd edition",
   :block/created-at 1660315973441,
   :block/updated-at 1660315973441}
+ {:block/name "beginnersbook.com",
+  :block/created-at 1660807819977,
+  :block/updated-at 1660807819977}
+ {:block/name "bertrand russell",
+  :block/created-at 1660807835998,
+  :block/updated-at 1660807835998}
+ {:block/name "bill burnett and dave evans",
+  :block/created-at 1660807896083,
+  :block/updated-at 1660807896083}
+ {:block/name "bill phillips",
+  :block/created-at 1660807724396,
+  :block/updated-at 1660807724396}
+ {:block/name "blue",
+  :block/created-at 1660807707820,
+  :block/updated-at 1660807707820}
+ {:block/name "books",
+  :block/created-at 1660807705469,
+  :block/updated-at 1660807705469}
  {:block/name "c",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -68,6 +213,15 @@
  {:block/name "card",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name "carlo rovelli",
+  :block/created-at 1660807857792,
+  :block/updated-at 1660807857792}
+ {:block/name "category",
+  :block/created-at 1660807705481,
+  :block/updated-at 1660807705481}
+ {:block/name "cem kaner, james marcus bach, bret pettichord",
+  :block/created-at 1660807747490,
+  :block/updated-at 1660807747490}
  {:block/name "cert prep: comptia linux+ (xk0-004)",
   :block/created-at 1660316566250,
   :block/updated-at 1660316566250}
@@ -79,18 +233,55 @@
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
   :block/created-at 1660315975029,
   :block/updated-at 1660315975029}
+ {:block/name "charles dickens",
+  :block/created-at 1660807906202,
+  :block/updated-at 1660807906202}
+ {:block/name "charles dickens, john mclenan (illustrator)",
+  :block/created-at 1660807769940,
+  :block/updated-at 1660807769940}
+ {:block/name
+  "chip heath, dan heath, marta torent lã³pez de lamadrid (translator)",
+  :block/created-at 1660807862277,
+  :block/updated-at 1660807862277}
+ {:block/name "chris bernhardt",
+  :block/created-at 1660808071890,
+  :block/updated-at 1660808071890}
+ {:block/name "chris f. a. johnson, jayant varma",
+  :block/created-at 1660808068659,
+  :block/updated-at 1660808068659}
+ {:block/name "cloud-computing-and-devops-culture",
+  :block/created-at 1660807933801,
+  :block/updated-at 1660807933801}
+ {:block/name "code",
+  :block/created-at 1660807819180,
+  :block/updated-at 1660807819180}
+ {:block/name "colección poesía salvat",
+  :block/created-at 1660808006085,
+  :block/updated-at 1660808006085}
  {:block/name "connecting to a server",
   :block/created-at 1660667287032,
   :block/updated-at 1660667287032}
+ {:block/name "contenedores",
+  :block/created-at 1660808029684,
+  :block/updated-at 1660808029684}
  {:block/name "contents",
   :block/created-at 1660316145971,
   :block/updated-at 1660316145971}
  {:block/name "coursera",
   :block/created-at 1659355629307,
   :block/updated-at 1659355629307}
+ {:block/name "coursera.org",
+  :block/created-at 1660807807674,
+  :block/updated-at 1660807807674}
+ {:block/name "cs",
+  :block/created-at 1660807821723,
+  :block/updated-at 1660807821723}
  {:block/name "curiosities",
   :block/created-at 1659378302560,
   :block/updated-at 1659378302560}
+ {:block/name "cyberciti.biz",
+  :block/created-at 1660807952024,
+  :block/updated-at 1660807952024}
  {:block/name "daily",
   :block/created-at 1659864619449,
   :block/updated-at 1659864619449}
@@ -100,24 +291,72 @@
  {:block/name "daily-notes",
   :block/created-at 1660029984464,
   :block/updated-at 1660029984464}
+ {:block/name "david sawyer mcfarland",
+  :block/created-at 1660807705465,
+  :block/updated-at 1660807705465}
  {:block/name "dev-notes",
   :block/created-at 1658832523329,
   :block/updated-at 1658832523329}
+ {:block/name "devconnected.com",
+  :block/created-at 1660808016691,
+  :block/updated-at 1660808016691}
  {:block/name "devops",
   :block/created-at 1660029984401,
   :block/updated-at 1660029984401}
+ {:block/name "devops course",
+  :block/created-at 1660807895201,
+  :block/updated-at 1660807895201}
+ {:block/name "devopsdays",
+  :block/created-at 1660807788578,
+  :block/updated-at 1660807788578}
+ {:block/name "docker",
+  :block/created-at 1660808018651,
+  :block/updated-at 1660808018651}
+ {:block/name "docs.python.org",
+  :block/created-at 1660807840862,
+  :block/updated-at 1660807840862}
  {:block/name "doing",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
  {:block/name "done",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name "doug lowe",
+  :block/created-at 1660807952823,
+  :block/updated-at 1660807952823}
+ {:block/name "dr. gabija  toleikyte",
+  :block/created-at 1660807905394,
+  :block/updated-at 1660807905394}
+ {:block/name "e. lockhart",
+  :block/created-at 1660807903175,
+  :block/updated-at 1660807903175}
+ {:block/name "eckhart tolle",
+  :block/created-at 1660807904139,
+  :block/updated-at 1660807904139}
+ {:block/name "entornos-ci-cd",
+  :block/created-at 1660808013198,
+  :block/updated-at 1660808013198}
+ {:block/name "eric matthes",
+  :block/created-at 1660808006974,
+  :block/updated-at 1660808006974}
  {:block/name "essential file management tools",
   :block/created-at 1660373717546,
   :block/updated-at 1660375167180}
+ {:block/name "ethan thorpe",
+  :block/created-at 1660807788406,
+  :block/updated-at 1660807788406}
+ {:block/name "evernote.com",
+  :block/created-at 1660807824049,
+  :block/updated-at 1660807824049}
  {:block/name "existo",
   :block/created-at 1659947334568,
   :block/updated-at 1659947334568}
+ {:block/name "failure=3",
+  :block/created-at 1660808027119,
+  :block/updated-at 1660808027119}
+ {:block/name "favorite",
+  :block/created-at 1660807860691,
+  :block/updated-at 1660807860691}
  {:block/name "favorites",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -136,12 +375,69 @@
  {:block/name "friday, 19-08-2022",
   :block/created-at 1660735421159,
   :block/updated-at 1660735421159}
+ {:block/name "full-title",
+  :block/created-at 1660807705474,
+  :block/updated-at 1660807705474}
+ {:block/name "george hrabovsky and leonard susskind",
+  :block/created-at 1660807852883,
+  :block/updated-at 1660807852883}
+ {:block/name "gestión de proyectos",
+  :block/created-at 1660808011355,
+  :block/updated-at 1660808011355}
+ {:block/name "guru99.com",
+  :block/created-at 1660807822425,
+  :block/updated-at 1660807822425}
+ {:block/name "hans bergsten",
+  :block/created-at 1660807714835,
+  :block/updated-at 1660807714835}
+ {:block/name "hanumant deshmukh",
+  :block/created-at 1660807771309,
+  :block/updated-at 1660807771309}
+ {:block/name "helpbuilder.west-wind.com",
+  :block/created-at 1660807831623,
+  :block/updated-at 1660807831623}
+ {:block/name "henry roth",
+  :block/created-at 1660807791330,
+  :block/updated-at 1660807791330}
+ {:block/name "herbert schildt",
+  :block/created-at 1660807775380,
+  :block/updated-at 1660807775380}
+ {:block/name "herman melville",
+  :block/created-at 1660807793044,
+  :block/updated-at 1660807793044}
+ {:block/name "hermann hesse",
+  :block/created-at 1660807727620,
+  :block/updated-at 1660807727620}
+ {:block/name "herramientas-de-automatización-de-despliegues",
+  :block/created-at 1660807984692,
+  :block/updated-at 1660807984692}
+ {:block/name "herramientas-devops",
+  :block/created-at 1660807914347,
+  :block/updated-at 1660807914347}
+ {:block/name "hyperskill.org",
+  :block/created-at 1660807819041,
+  :block/updated-at 1660807819041}
+ {:block/name "ian g. clifton",
+  :block/created-at 1660807721871,
+  :block/updated-at 1660807721871}
+ {:block/name "ian mcewan",
+  :block/created-at 1660807795455,
+  :block/updated-at 1660807795455}
+ {:block/name "ian sommerville",
+  :block/created-at 1660808001666,
+  :block/updated-at 1660808001666}
  {:block/name "ibm-devops-containers-lab-1",
   :block/created-at 1660315979804,
   :block/updated-at 1660315979804}
  {:block/name "ibm-devops-containers-lab-2",
   :block/created-at 1660315979807,
   :block/updated-at 1660315979807}
+ {:block/name "ichi.pro",
+  :block/created-at 1660807895196,
+  :block/updated-at 1660807895196}
+ {:block/name "immanuel kant",
+  :block/created-at 1660807835028,
+  :block/updated-at 1660807835028}
  {:block/name "implementing a full ci-cd pipeline",
   :block/created-at 1659948044636,
   :block/updated-at 1659948044636}
@@ -154,18 +450,54 @@
  {:block/name "introduction to software testing",
   :block/created-at 1660315974591,
   :block/updated-at 1660375685084}
+ {:block/name "james turnbull",
+  :block/created-at 1660808018566,
+  :block/updated-at 1660808018566}
+ {:block/name "janelle brown",
+  :block/created-at 1660807961414,
+  :block/updated-at 1660807961414}
+ {:block/name "janet gregory y lisa crispin",
+  :block/created-at 1660807750626,
+  :block/updated-at 1660807750626}
  {:block/name "java",
   :block/created-at 1659780224946,
   :block/updated-at 1659780224946}
+ {:block/name "jeanne boyarsky, scott selikoff",
+  :block/created-at 1660807798575,
+  :block/updated-at 1660807798575}
  {:block/name "jenkins",
   :block/created-at 1660029984396,
   :block/updated-at 1660029984396}
  {:block/name "jenkins essential training",
   :block/created-at 1660029984474,
   :block/updated-at 1660375709572}
+ {:block/name "joakim verona",
+  :block/created-at 1660807768159,
+  :block/updated-at 1660807768159}
+ {:block/name "john arundel",
+  :block/created-at 1660808066253,
+  :block/updated-at 1660808066253}
+ {:block/name "john morris roberts",
+  :block/created-at 1660807857010,
+  :block/updated-at 1660807857010}
+ {:block/name "john v. guttag",
+  :block/created-at 1660807874970,
+  :block/updated-at 1660807874970}
+ {:block/name "joël dicker",
+  :block/created-at 1660807803934,
+  :block/updated-at 1660807803934}
+ {:block/name "ken follett",
+  :block/created-at 1660807859029,
+  :block/updated-at 1660807859029}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name "learn",
+  :block/created-at 1660807853232,
+  :block/updated-at 1660807853232}
+ {:block/name "learning.oreilly.com",
+  :block/created-at 1660807806007,
+  :block/updated-at 1660807806007}
  {:block/name "linkedin-learning",
   :block/created-at 1660316566236,
   :block/updated-at 1660316566236}
@@ -185,6 +517,36 @@
   "linux fundamentals/user and group management and permissions",
   :block/created-at 1660385607690,
   :block/updated-at 1660732518667}
+ {:block/name "linuxconfig.org",
+  :block/created-at 1660807814439,
+  :block/updated-at 1660807814439}
+ {:block/name "literature",
+  :block/created-at 1660807770016,
+  :block/updated-at 1660807770016}
+ {:block/name "marcel proust",
+  :block/created-at 1660807769023,
+  :block/updated-at 1660807769023}
+ {:block/name "marcel proust and pedro salinas",
+  :block/created-at 1660807891560,
+  :block/updated-at 1660807891560}
+ {:block/name "marko luksa",
+  :block/created-at 1660808026673,
+  :block/updated-at 1660808026673}
+ {:block/name "martinfowler.com",
+  :block/created-at 1660807885966,
+  :block/updated-at 1660807885966}
+ {:block/name "matt haig",
+  :block/created-at 1660807863900,
+  :block/updated-at 1660807863900}
+ {:block/name "michael heap",
+  :block/created-at 1660807983624,
+  :block/updated-at 1660807983624}
+ {:block/name "michael hyatt",
+  :block/created-at 1660807860293,
+  :block/updated-at 1660807860293}
+ {:block/name "mind",
+  :block/created-at 1660807832607,
+  :block/updated-at 1660807832607}
  {:block/name "monday, 01-08-2022",
   :block/created-at 1660315974600,
   :block/updated-at 1660315974600}
@@ -203,27 +565,103 @@
  {:block/name "my knowledge path 2",
   :block/created-at 1660315983964,
   :block/updated-at 1660315983964}
+ {:block/name "naranja",
+  :block/created-at 1660807707911,
+  :block/updated-at 1660807707911}
+ {:block/name "neil degrasse tyson",
+  :block/created-at 1660807871446,
+  :block/updated-at 1660807871446}
+ {:block/name "nishant verma",
+  :block/created-at 1660807909762,
+  :block/updated-at 1660807909762}
+ {:block/name "note",
+  :block/created-at 1660808072176,
+  :block/updated-at 1660808072176}
  {:block/name "now",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
  {:block/name "o'reilly",
   :block/created-at 1658825283861,
   :block/updated-at 1658825283861}
+ {:block/name "o'reilly media",
+  :block/created-at 1660807806824,
+  :block/updated-at 1660807806824}
  {:block/name "o'reilly-learning",
   :block/created-at 1658825284488,
   :block/updated-at 1658825284488}
  {:block/name "operating running system",
   :block/created-at 1660385674273,
   :block/updated-at 1660385674273}
+ {:block/name "orange",
+  :block/created-at 1660807707913,
+  :block/updated-at 1660807707913}
+ {:block/name "oscar wilde and mauro armiño",
+  :block/created-at 1660807797510,
+  :block/updated-at 1660807797510}
+ {:block/name "pablo beytía y jorge acevedo guerra",
+  :block/created-at 1660807749373,
+  :block/updated-at 1660807749373}
  {:block/name "pasted image 20220729132914.png",
   :block/created-at 1660735792318,
   :block/updated-at 1660735792318}
+ {:block/name "patrick rothfuss",
+  :block/created-at 1660807832406,
+  :block/updated-at 1660807832406}
+ {:block/name "paulo coelho",
+  :block/created-at 1660807839512,
+  :block/updated-at 1660807839512}
  {:block/name "permissions management",
   :block/created-at 1660728121466,
   :block/updated-at 1660728121466}
+ {:block/name "pink",
+  :block/created-at 1660807707857,
+  :block/updated-at 1660807707857}
+ {:block/name "por jesús angulo",
+  :block/created-at 1660807894410,
+  :block/updated-at 1660807894410}
+ {:block/name "problem",
+  :block/created-at 1660808012410,
+  :block/updated-at 1660808012410}
+ {:block/name "programiz.com",
+  :block/created-at 1660807851292,
+  :block/updated-at 1660807851292}
+ {:block/name "puppet",
+  :block/created-at 1660808066360,
+  :block/updated-at 1660808066360}
+ {:block/name "python",
+  :block/created-at 1660807837331,
+  :block/updated-at 1660807837331}
+ {:block/name "qa",
+  :block/created-at 1660807907265,
+  :block/updated-at 1660807907265}
+ {:block/name "qtpselenium.com",
+  :block/created-at 1660807908170,
+  :block/updated-at 1660807908170}
+ {:block/name "quantum",
+  :block/created-at 1660808072078,
+  :block/updated-at 1660808072078}
  {:block/name "readme",
   :block/created-at 1660315973090,
   :block/updated-at 1660315973090}
+ {:block/name
+  "richard p. feynman, robert b. leighton, and matthew sands",
+  :block/created-at 1660807854884,
+  :block/updated-at 1660807854884}
+ {:block/name "richard phillips feynman",
+  :block/created-at 1660807855774,
+  :block/updated-at 1660807855774}
+ {:block/name "robert c. martin",
+  :block/created-at 1660807756386,
+  :block/updated-at 1660807756386}
+ {:block/name "robin nixon",
+  :block/created-at 1660807728391,
+  :block/updated-at 1660807728391}
+ {:block/name "roger pate",
+  :block/created-at 1660807874164,
+  :block/updated-at 1660807874164}
+ {:block/name "rosa",
+  :block/created-at 1660807707855,
+  :block/updated-at 1660807707855}
  {:block/name "saturday, 06-08-2022",
   :block/created-at 1660315976205,
   :block/updated-at 1660315976205}
@@ -236,9 +674,61 @@
  {:block/name "saturday, 30-07-2022",
   :block/created-at 1660315973907,
   :block/updated-at 1660315973907}
+ {:block/name "sci",
+  :block/created-at 1660807855030,
+  :block/updated-at 1660807855030}
+ {:block/name "science",
+  :block/created-at 1660807852990,
+  :block/updated-at 1660807852990}
+ {:block/name "secdevops",
+  :block/created-at 1660807913011,
+  :block/updated-at 1660807913011}
+ {:block/name "selenium-python.readthedocs.io",
+  :block/created-at 1660807825729,
+  :block/updated-at 1660807825729}
+ {:block/name "self-help",
+  :block/created-at 1660807833793,
+  :block/updated-at 1660807833793}
+ {:block/name "sir ken robinson, aronica lou",
+  :block/created-at 1660807833693,
+  :block/updated-at 1660807833693}
+ {:block/name "smartbear.com",
+  :block/created-at 1660807842412,
+  :block/updated-at 1660807842412}
+ {:block/name "softwareengineering.stackexchange.com",
+  :block/created-at 1660807829058,
+  :block/updated-at 1660807829058}
  {:block/name "spaced",
   :block/created-at 1658774346833,
   :block/updated-at 1658774346833}
+ {:block/name
+  "spencer krum, william van hevelingen, ben kero, james turnbull y jeffrey mccune",
+  :block/created-at 1660807760339,
+  :block/updated-at 1660807760339}
+ {:block/name "sqa.stackexchange.com",
+  :block/created-at 1660807908949,
+  :block/updated-at 1660807908949}
+ {:block/name "sricharan vadapalli",
+  :block/created-at 1660807809968,
+  :block/updated-at 1660807809968}
+ {:block/name "stackoverflow.com",
+  :block/created-at 1660807820796,
+  :block/updated-at 1660807820796}
+ {:block/name "stephen fleming",
+  :block/created-at 1660807794653,
+  :block/updated-at 1660807794653}
+ {:block/name "steve mcconnell",
+  :block/created-at 1660807773551,
+  :block/updated-at 1660807773551}
+ {:block/name "steven m. southwick and dennis s. charney",
+  :block/created-at 1660807792121,
+  :block/updated-at 1660807792121}
+ {:block/name "success=1",
+  :block/created-at 1660808027122,
+  :block/updated-at 1660808027122}
+ {:block/name "sue monk kidd",
+  :block/created-at 1660807899410,
+  :block/updated-at 1660807899410}
  {:block/name "sunday, 07-08-2022",
   :block/created-at 1660315976546,
   :block/updated-at 1660315976546}
@@ -254,12 +744,24 @@
  {:block/name "tags",
   :block/created-at 1658775007501,
   :block/updated-at 1658775007501}
+ {:block/name "tal ben-shahar and ana garcía bertrán",
+  :block/created-at 1660807910628,
+  :block/updated-at 1660807910628}
  {:block/name "templates",
   :block/created-at 1660315984263,
   :block/updated-at 1660315984263}
+ {:block/name "terraform.io",
+  :block/created-at 1660807947540,
+  :block/updated-at 1660807947540}
  {:block/name "test",
   :block/created-at 1658773372838,
   :block/updated-at 1658775369612}
+ {:block/name "theagileadmin.com",
+  :block/created-at 1660807790591,
+  :block/updated-at 1660807790591}
+ {:block/name "theodor kallifatides",
+  :block/created-at 1660808070130,
+  :block/updated-at 1660808070130}
  {:block/name "thursday, 11-08-2022",
   :block/created-at 1660315984981,
   :block/updated-at 1660315984981}
@@ -281,18 +783,45 @@
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1660315973459,
   :block/updated-at 1660315973459}
+ {:block/name "type:",
+  :block/created-at 1660808020804,
+  :block/updated-at 1660808020804}
+ {:block/name "uni",
+  :block/created-at 1660807913009,
+  :block/updated-at 1660807913009}
+ {:block/name "unir",
+  :block/created-at 1660807912902,
+  :block/updated-at 1660807912902}
+ {:block/name "unix ",
+  :block/created-at 1660808022391,
+  :block/updated-at 1660808022391}
+ {:block/name "unix.stackexchange.com",
+  :block/created-at 1660807943755,
+  :block/updated-at 1660807943755}
+ {:block/name "unmesh gundecha, satya avasarala",
+  :block/created-at 1660807780506,
+  :block/updated-at 1660807780506}
  {:block/name "uno",
   :block/created-at 1659947327750,
   :block/updated-at 1659947327750}
  {:block/name "uno/dos",
   :block/created-at 1660315975434,
   :block/updated-at 1660315975434}
+ {:block/name "url",
+  :block/created-at 1660807790606,
+  :block/updated-at 1660807790606}
  {:block/name "user and group management",
   :block/created-at 1660724017543,
   :block/updated-at 1660724017543}
  {:block/name "using essential tools",
   :block/created-at 1660316566300,
   :block/updated-at 1660316566300}
+ {:block/name "vagrantup.com",
+  :block/created-at 1660808071018,
+  :block/updated-at 1660808071018}
+ {:block/name "varios autores",
+  :block/created-at 1660807772818,
+  :block/updated-at 1660807772818}
  {:block/name "videos",
   :block/created-at 1658838871148,
   :block/updated-at 1658838871148}
@@ -314,9 +843,45 @@
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1660315973792,
   :block/updated-at 1660315973792}
+ {:block/name "what is ",
+  :block/created-at 1660807950471,
+  :block/updated-at 1660807950471}
+ {:block/name "what is /dev",
+  :block/created-at 1660807950474,
+  :block/updated-at 1660807950474}
+ {:block/name "what's a command line way to find large files",
+  :block/created-at 1660807967081,
+  :block/updated-at 1660807967081}
+ {:block/name "william faulkner",
+  :block/created-at 1660807872297,
+  :block/updated-at 1660807872297}
+ {:block/name "william penberthy",
+  :block/created-at 1660807717058,
+  :block/updated-at 1660807717058}
+ {:block/name "william shakespeare",
+  :block/created-at 1660807759567,
+  :block/updated-at 1660807759567}
  {:block/name "working with text files",
   :block/created-at 1660642164634,
   :block/updated-at 1660642164634}
  {:block/name "working with the bash shell",
-  :block/created-at 1660718617468, 
-  :block/updated-at 1660718617468}]
+  :block/created-at 1660718617468,
+  :block/updated-at 1660718617468}
+ {:block/name "xeridia.com",
+  :block/created-at 1660807893542,
+  :block/updated-at 1660807893542}
+ {:block/name "yevgeniy brikman",
+  :block/created-at 1660807999839,
+  :block/updated-at 1660807999839}
+ {:block/name "yogesh raheja, giuseppe borgese, nathaniel felsen",
+  :block/created-at 1660808002463,
+  :block/updated-at 1660808002463}
+ {:block/name "{cc.attrs.xxx}",
+  :block/created-at 1660807752941,
+  :block/updated-at 1660807752941}
+ {:block/name "{cc.attrs}",
+  :block/created-at 1660807752935,
+  :block/updated-at 1660807752935}
+ {:block/name "{user.xxx}",
+  :block/created-at 1660807752937, 
+  :block/updated-at 1660807752937}]

@@ -39,38 +39,36 @@ title:: Ansible: From Basics to Guru
 		- But be aware of idempotency!!!
 		- If a task founds that its change is already done, it doesn't fail. It just notifies *change: false*
 	- ---
-## Lesson 3: Using Ansible Playbook
-
-* A playbook is a collection of plays
-
-* Ansible goes task by task, waiting every host to finishes it before moving on to the next.
-
-
-
-* `-vv` fails
-* `-vvvv` complete debugging
-
-* If the desired state is the same, we'll see *OK*, otherwise we'll see *Changed*
-
-* Fact Gathering is only useful if we are using variables. We can disable it with `gather_facts: false` if don't
-
----
-
-#spaced
-> Let's run it Ansible playbook on run and test httpd.yaml. As you can see, we are skipping the fact gathering that makes it really much faster. And then it's trying to install the package again. 
-
-> That's something that's not needed anymore because we have already done that in the play that we were just running. 
-
-> **But the thing is that behind package management there is yum/dnf on recent RedHat that needs to update package cash and stuff like that. And that always takes a minute or so.** So there we go start and enable service that also shoot not take too much time.
-
----
-
-#spaced
-* If a task fails to run a specific host, the following ones are not executed unless we specify `ignore_errors: true`
-
-* There is no easy way to undo a playbook
-
----
+	- ### Lesson 3: Using Ansible Playbook
+		- A playbook is a collection of plays
+		- Ansible goes task by task, waiting every host to finishes it before moving on to the next.
+		  
+		  
+		  
+		  * `-vv` fails
+		  * `-vvvv` complete debugging
+		  
+		  * If the desired state is the same, we'll see *OK*, otherwise we'll see *Changed*
+		  
+		  * Fact Gathering is only useful if we are using variables. We can disable it with `gather_facts: false` if don't
+		  
+		  ---
+		  
+		  #spaced
+		  > Let's run it Ansible playbook on run and test httpd.yaml. As you can see, we are skipping the fact gathering that makes it really much faster. And then it's trying to install the package again. 
+		  
+		  > That's something that's not needed anymore because we have already done that in the play that we were just running. 
+		  
+		  > **But the thing is that behind package management there is yum/dnf on recent RedHat that needs to update package cash and stuff like that. And that always takes a minute or so.** So there we go start and enable service that also shoot not take too much time.
+		  
+		  ---
+		  
+		  #spaced
+		  * If a task fails to run a specific host, the following ones are not executed unless we specify `ignore_errors: true`
+		  
+		  * There is no easy way to undo a playbook
+		  
+		  ---
 ## Lesson 4: Using Ansible Tower
 
 * Ansible Tower has more features that are not in the CLI version:

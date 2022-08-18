@@ -35,8 +35,10 @@ title:: Ansible: From Basics to Guru
 		- **shell**: Same as *command* but allows pipes and redirects
 		- **package**: For managing packages
 		- **user**: For user management
+		-
 		- But be aware of idempotency!!!
-		- If a task founds that its change is alreasy done, it doesn't fail. It just notifies *change: false*
+		- If a task founds that its change is already done, it doesn't fail. It just notifies *change: false*
+	- ---
 ## Lesson 3: Using Ansible Playbook
 
 * A playbook is a collection of plays

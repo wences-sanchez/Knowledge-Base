@@ -192,7 +192,7 @@
   :block/updated-at 1660809057996}
  {:block/name "ansible: from basics to guru",
   :block/created-at 1660735792327,
-  :block/updated-at 1660735792327}
+  :block/updated-at 1660826029317}
  {:block/name "antología poética (highlights)",
   :block/created-at 1660809098824,
   :block/updated-at 1660809099483}
@@ -380,7 +380,7 @@
   :block/updated-at 1660809009098}
  {:block/name "cloud computing and devops culture tema-7 (highlights)",
   :block/created-at 1660809012759,
-  :block/updated-at 1660809013412}
+  :block/updated-at 1660826823562}
  {:block/name "cloud computing and devops culture tema-8 (highlights)",
   :block/created-at 1660809014259,
   :block/updated-at 1660809014856}
@@ -1241,7 +1241,7 @@
   :block/updated-at 1660807837331}
  {:block/name "python crash course (highlights)",
   :block/created-at 1660809104278,
-  :block/updated-at 1660809104925}
+  :block/updated-at 1660826837789}
  {:block/name "python file naming convention? (highlights)",
   :block/created-at 1660808809029,
   :block/updated-at 1660808809723}
@@ -1519,7 +1519,7 @@
   :block/updated-at 1660315984981}
  {:block/name "thursday, 18-08-2022",
   :block/created-at 1660631592139,
-  :block/updated-at 1660811715111}
+  :block/updated-at 1660825506667}
  {:block/name "tiny python projects (highlights)",
   :block/created-at 1660808830467,
   :block/updated-at 1660808831065}
@@ -1598,7 +1598,7 @@
   :block/updated-at 1660316566300}
  {:block/name "vagrant by hashicorp (highlights)",
   :block/created-at 1660809210341,
-  :block/updated-at 1660809210955}
+  :block/updated-at 1660811942609}
  {:block/name "vagrantup.com",
   :block/created-at 1660808071018,
   :block/updated-at 1660808071018}

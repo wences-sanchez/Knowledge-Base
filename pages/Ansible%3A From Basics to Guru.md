@@ -1,8 +1,7 @@
 title:: Ansible: From Basics to Guru
 
-# ANSIBLE: FROM BASICS TO GURU
-
-#tags #O'Reilly #Ansible
+- #tags #O'Reilly #Ansible
+-
 # Module 1: Getting Started
 ## Lesson 1: Preparing your Managed Infrastructure
 

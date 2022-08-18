@@ -241,10 +241,7 @@ tags:: #[[O'Reilly-Learning]]
 			  You can put any valid reference within the curly braces, and Terraform will convert it to a string. For example, here’s how you can use var.server_port inside of the User Data string:
 			  
 			  user_data = <<-EOF
-			              #!/bin/bash
-			              echo "Hello, World" > index.html
-			              nohup busybox httpd -f -p ${var.server_port} &
-			              EOF
+			              ```
 		- -
 		- -
 		- How do you interpolate a variable in Terraform? #card

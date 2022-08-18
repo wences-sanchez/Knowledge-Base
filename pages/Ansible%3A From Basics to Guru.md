@@ -5,36 +5,36 @@ title:: Ansible: From Basics to Guru
 # Module 1: Getting Started
 -
 	- ## Lesson 1: Preparing your Managed Infrastructure
-	  
-	  What is Ansible (generally)? #flashcard
-	- Ansible is a configuration management tool
-	- It is used  to manage configuration on a pre-deployed infrastructure
-	- It's a DevOps tool
+	-
+	- What is Ansible (generally)? #flashcard
+		- Ansible is a configuration management tool
+		- It is used  to manage configuration on a pre-deployed infrastructure
+		- It's a DevOps tool
 	- What is the control node? #flashcard
 		- Where the Ansible software is installed
-- The control node needs Ansible installed
-- The manages nodes need SSH, a user account, privilege escalation (be careful with SSH keys).
-- DNS or /etc/hosts are generic solutions that provide hostname to IP address resolving
-- Ansible also needs an inventory:
-	- To identify managed hosts
-	- To define host groups to be used by Ansible
-### Understanding Ad-hoc Commands
-
-* With _command_ we can run any shell command in Ansible
-### 1.7 Configuring Linux Managed Hosts with Ad-hoc Commands
-### 1.9 Understanding ansible.cfg
-
-* You can put the settings in ansible.cfg instead of the playbooks or CLI
-
-* Se puede poner los datos que no queramos tener que escribir cada vez en el fichero **ansible.cfg**
-
-
----
-
----
-
-
-#spaced
+	- The control node needs Ansible installed
+	- The manages nodes need SSH, a user account, privilege escalation (be careful with SSH keys).
+	- DNS or /etc/hosts are generic solutions that provide hostname to IP address resolving
+	- Ansible also needs an inventory:
+		- To identify managed hosts
+		- To define host groups to be used by Ansible
+	- ### Understanding Ad-hoc Commands
+	  
+	  * With _command_ we can run any shell command in Ansible
+	- ### 1.7 Configuring Linux Managed Hosts with Ad-hoc Commands
+	- ### 1.9 Understanding ansible.cfg
+	  
+	  * You can put the settings in ansible.cfg instead of the playbooks or CLI
+	  
+	  * Se puede poner los datos que no queramos tener que escribir cada vez en el fichero **ansible.cfg**
+	  
+	  
+	  ---
+	  
+	  ---
+	  
+	  
+	  #spaced
 ## Lesson 2: Using Ad-hoc Commands
 
 

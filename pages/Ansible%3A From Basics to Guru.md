@@ -3,20 +3,15 @@ title:: Ansible: From Basics to Guru
 - #tags #O'Reilly #Ansible
 -
 # Module 1: Getting Started
-## Lesson 1: Preparing your Managed Infrastructure
-
-What is Ansible (generally)? #flashcard
-- Ansible is a configuration management tool
-- It is used  to manage configuration on a pre-deployed infrastructure
-- It's a DevOps tool
-  
-  #flashcard 
-  What is the control node?
-  
-  ---
-  Where the Ansible software is installed
-  
-  ---
+-
+	- ## Lesson 1: Preparing your Managed Infrastructure
+	  
+	  What is Ansible (generally)? #flashcard
+	- Ansible is a configuration management tool
+	- It is used  to manage configuration on a pre-deployed infrastructure
+	- It's a DevOps tool
+	- What is the control node? #flashcard
+		- Where the Ansible software is installed
 - The control node needs Ansible installed
 - The manages nodes need SSH, a user account, privilege escalation (be careful with SSH keys).
 - DNS or /etc/hosts are generic solutions that provide hostname to IP address resolving

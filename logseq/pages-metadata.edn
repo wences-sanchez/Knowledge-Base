@@ -334,6 +334,10 @@
   :block/created-at 1660315975038,
   :block/updated-at 1660315975038}
  {:block/name
+  "certificado profesional de ibm devops and software engineering/ibm-devops-containers",
+  :block/created-at 1661079515287,
+  :block/updated-at 1661079515287}
+ {:block/name
   "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-1",
   :block/created-at 1660920792051,
   :block/updated-at 1660920792051}
@@ -1342,9 +1346,6 @@
  {:block/name "saturday, 06-08-2022",
   :block/created-at 1660315976205,
   :block/updated-at 1660315976205}
- {:block/name "saturday, 13-08-2022",
-  :block/created-at 1660373272169,
-  :block/updated-at 1660734097798}
  {:block/name "saturday, 17-09-2022",
   :block/created-at 1660315977409,
   :block/updated-at 1660315977409}

@@ -126,6 +126,9 @@
  {:block/name "a",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+ {:block/name "acloudguru",
+  :block/created-at 1660906763441,
+  :block/updated-at 1660906763441}
  {:block/name
   "administacion de sistemas para la cloud tema-1 (highlights)",
   :block/created-at 1660808946092,
@@ -314,6 +317,9 @@
  {:block/name "carlo rovelli",
   :block/created-at 1660807857792,
   :block/updated-at 1660807857792}
+ {:block/name "carta",
+  :block/created-at 1660900313054,
+  :block/updated-at 1660900313054}
  {:block/name "category",
   :block/created-at 1660807705481,
   :block/updated-at 1660807705481}
@@ -328,9 +334,21 @@
   :block/created-at 1660315975038,
   :block/updated-at 1660315975038}
  {:block/name
+  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-1",
+  :block/created-at 1660920792051,
+  :block/updated-at 1660920792051}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-2",
+  :block/created-at 1660920822394,
+  :block/updated-at 1660921375046}
+ {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
   :block/created-at 1660315975029,
-  :block/updated-at 1660315975029}
+  :block/updated-at 1660921011484}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/introduction to devops",
+  :block/created-at 1660981875738,
+  :block/updated-at 1660993767373}
  {:block/name "charles dickens",
   :block/created-at 1660807906202,
   :block/updated-at 1660807906202}
@@ -684,7 +702,7 @@
   :block/updated-at 1660373313379}
  {:block/name "friday, 19-08-2022",
   :block/created-at 1660735421159,
-  :block/updated-at 1660735421159}
+  :block/updated-at 1660981562674}
  {:block/name "full-title",
   :block/created-at 1660807705474,
   :block/updated-at 1660807705474}
@@ -880,6 +898,9 @@
  {:block/name "ian sommerville",
   :block/created-at 1660808001666,
   :block/updated-at 1660808001666}
+ {:block/name "ibm",
+  :block/created-at 1660920950959,
+  :block/updated-at 1660920950959}
  {:block/name "ibm-devops-containers-lab-1",
   :block/created-at 1660315979804,
   :block/updated-at 1660315979804}
@@ -928,6 +949,12 @@
   "introduction - universidad de minnesota | coursera (highlights)",
   :block/created-at 1660808784283,
   :block/updated-at 1660808784882}
+ {:block/name "introduction to aws",
+  :block/created-at 1660907752552,
+  :block/updated-at 1660907752552}
+ {:block/name "introduction to aws (legacy)",
+  :block/created-at 1660907734421,
+  :block/updated-at 1660910944643}
  {:block/name
   "introduction to computation and programming using python (highlights)",
   :block/created-at 1660808868345,
@@ -1018,6 +1045,9 @@
  {:block/name "la verdad sobre el caso harry quebert (highlights)",
   :block/created-at 1660808778679,
   :block/updated-at 1660808779274}
+ {:block/name "labs",
+  :block/created-at 1660921278603,
+  :block/updated-at 1660921278603}
  {:block/name "later",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -1036,6 +1066,9 @@
  {:block/name "learning php, mysql & javascript (highlights)",
   :block/created-at 1660808647080,
   :block/updated-at 1660808647655}
+ {:block/name "learning-path-aws-developer",
+  :block/created-at 1660906937773,
+  :block/updated-at 1660906937773}
  {:block/name "learning.oreilly.com",
   :block/created-at 1660807806007,
   :block/updated-at 1660807806007}
@@ -1315,6 +1348,9 @@
  {:block/name "saturday, 17-09-2022",
   :block/created-at 1660315977409,
   :block/updated-at 1660315977409}
+ {:block/name "saturday, 20-08-2022",
+  :block/created-at 1660981481606,
+  :block/updated-at 1660993100797}
  {:block/name "saturday, 30-07-2022",
   :block/created-at 1660315973907,
   :block/updated-at 1660315973907}
@@ -1519,7 +1555,7 @@
   :block/updated-at 1660315984981}
  {:block/name "thursday, 18-08-2022",
   :block/created-at 1660631592139,
-  :block/updated-at 1660825506667}
+  :block/updated-at 1660900362333}
  {:block/name "tiny python projects (highlights)",
   :block/created-at 1660808830467,
   :block/updated-at 1660808831065}
@@ -1632,6 +1668,9 @@
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1660315973792,
   :block/updated-at 1660315973792}
+ {:block/name "week 1",
+  :block/created-at 1660992923506,
+  :block/updated-at 1660993170978}
  {:block/name "wenceslao sanchez's highlights and notes (highlights)",
   :block/created-at 1660808782416,
   :block/updated-at 1660808783012}

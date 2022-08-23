@@ -1,7 +1,7 @@
 tags:: O'Reilly-Learning, Docker, Videos
 
-- ## Week 1: Introduction
-	- ### Introduction to Local Development VS VirtualBox VS Docker -- WHY use docker?
+- ## Chapter 1: Introduction
+	- ### Introduction to Local Development VS VirtualBox VS Docker -- WHY use docker? #spaced
 		- The configuration of the DEV always tends to be different form PROD.
 		- #### The local development environment
 			- The problem is that the local PC of a dev can't provide the same things than a Server.
@@ -18,4 +18,5 @@ tags:: O'Reilly-Learning, Docker, Videos
 			- The main difference is that the processes run on the **OS**
 			- There are not logs inside the containers but their own logs and stuff.
 				- Containers **immutable**
-			- We use containers because they are isolated copies of the server environments (without any config )
+			- We use containers because they are isolated copies of the server environments (without any local config stuff).
+	-

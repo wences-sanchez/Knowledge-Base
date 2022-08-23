@@ -239,9 +239,16 @@
 	- When an artifact is created or used, **Jenkins** generates an MD5 checksum using the artifact. **Jenkins** saves it in a internal **database**.
 	-
 	- ### Assignment
-		- TODO Manage the test creation and storing in Jenkins:
+		- DOING Manage the test creation and storing in Jenkins:
 		  SCHEDULED: <2022-08-11 Thu>
-			- TODO Add and manage a maven Tool configuration for Jenkins
+		  :LOGBOOK:
+		  CLOCK: [2022-08-23 Tue 18:39:42]
+		  :END:
+			- DOING Add and manage a maven Tool configuration for Jenkins
+			  :LOGBOOK:
+			  CLOCK: [2022-08-23 Tue 18:39:40]
+			  :END:
+				-
 			- TODO Collecting test results from the file .xml in the pipeline
 			- TODO Archiving the resultant artifacts
 	-

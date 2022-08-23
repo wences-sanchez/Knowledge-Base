@@ -19,4 +19,4 @@ tags:: O'Reilly-Learning, Docker, Videos
 			- There are not logs inside the containers but their own logs and stuff.
 				- Containers **immutable**
 			- We use containers because they are isolated copies of the server environments (without any local config stuff).
-	-
+-

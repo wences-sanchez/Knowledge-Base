@@ -21,5 +21,6 @@ tags:: O'Reilly-Learning, Docker, Videos
 			- We use containers because they are isolated copies of the server environments (without any local config stuff).
 - ## Chapter 2: Installation
 - ## Chapter 3: Understanding Docker Run with Volume mounting and important flags step by step
-	-
+	- ### Running a single Docker Container Explained Step-by-step
+		-
 -

@@ -12,4 +12,6 @@ tags:: O'Reilly-Learning, Docker, Videos
 			- An alternative is **Vagrant**
 				- But its scripts to provision are very large
 				- Also, speed is a negative factor on local environment
-		- Configuration drift => differences with
+			- **Configuration drift** => differences between environments
+		- #### Containers
+			-

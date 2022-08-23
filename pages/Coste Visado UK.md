@@ -6,5 +6,6 @@
 	  |Available needed|1270p|
 	  | In Euros | 2373p -> 2812€|
 -
-- ##
+- ## Cost of the trip
+	- |
 -

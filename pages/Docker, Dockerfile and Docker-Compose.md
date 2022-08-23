@@ -14,4 +14,6 @@ tags:: O'Reilly-Learning, Docker, Videos
 				- Also, speed is a negative factor on local environment
 			- **Configuration drift** => differences between environments
 		- #### Containers
+			- A container is not so much different from a Virtual Machine
+			- The main difference is that the processes run on the OS
 			-

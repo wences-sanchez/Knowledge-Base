@@ -5,4 +5,5 @@ tags:: O'Reilly-Learning, Docker, Videos
 		- The configuration of the DEV always tends to be different form PROD.
 		- #### The local development environment
 			- The problem is that the local PC of a dev can't provide the same things than a Server.
-		-
+			- We can't rely on our local PCs
+			- Its performance is

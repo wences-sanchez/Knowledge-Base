@@ -17,5 +17,3 @@
 - ## Ammount
 	- 2812€ + 1733€ ==> 4545€ =~=> 5000€
 -
--
-- I am the king of English.

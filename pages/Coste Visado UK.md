@@ -13,7 +13,8 @@
 	  | Estimated cost of food (15p / 15days) | 225p |
 	  | In Euros | 1462p -> **1733€** |
 	-
--
+- ## Cost of the exam
+	-
 - ## Ammount
 	- 2812€ + 1733€ ==> 4545€ =~=> 5000€
 -

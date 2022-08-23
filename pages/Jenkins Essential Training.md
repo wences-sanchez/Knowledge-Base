@@ -249,9 +249,6 @@
 			  CLOCK: [2022-08-23 Tue 18:39:40]
 			  :END:
 				- First, we have to set up a tool configuration for Maven
-				  :LOGBOOK:
-				  CLOCK: [2022-08-23 Tue 18:42:09]
-				  :END:
 				-
 			- TODO Collecting test results from the file .xml in the pipeline
 			- TODO Archiving the resultant artifacts

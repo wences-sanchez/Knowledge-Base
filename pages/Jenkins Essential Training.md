@@ -248,7 +248,7 @@
 			  :LOGBOOK:
 			  CLOCK: [2022-08-23 Tue 18:39:40]
 			  :END:
-				-
+				- First,
 			- TODO Collecting test results from the file .xml in the pipeline
 			- TODO Archiving the resultant artifacts
 	-

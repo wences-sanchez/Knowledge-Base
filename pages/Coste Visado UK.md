@@ -1,2 +1,2 @@
 - | Detail | Cost |
-	- Pay the application fee | From 625
+	-

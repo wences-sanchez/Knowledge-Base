@@ -244,7 +244,6 @@
 		  :LOGBOOK:
 		  CLOCK: [2022-08-23 Tue 18:39:42]
 		  :END:
-			-
 			- DOING Add and manage a maven Tool configuration for Jenkins
 			  :LOGBOOK:
 			  CLOCK: [2022-08-23 Tue 18:39:40]

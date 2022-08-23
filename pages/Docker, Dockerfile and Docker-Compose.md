@@ -6,4 +6,5 @@ tags:: O'Reilly-Learning, Docker, Videos
 		- #### The local development environment
 			- The problem is that the local PC of a dev can't provide the same things than a Server.
 			- We can't rely on our local PCs
-			- Its performance is
+			- Its performance is worse
+			-

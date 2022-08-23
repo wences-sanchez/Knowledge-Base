@@ -9,5 +9,6 @@
 - ## Cost of the trip
 	- | Concept | Cost |
 	  | --- | --- |
-	  |  |  |
+	  | London Kaplan Centre | 1237p |
+	  | In Euros | 1537€ |
 -

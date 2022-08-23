@@ -8,4 +8,8 @@ tags:: O'Reilly-Learning, Docker, Videos
 			- We can't rely on our local PCs
 			- Its performance is worse
 		- #### Virtual Machines
-			- There is no muchsupport for them
+			- There is really no much support for them
+			- An alternative is **Vagrant**
+			- But its scripts to provision are very large
+			- Also, speed is a factor on local environment
+			-

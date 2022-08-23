@@ -25,6 +25,7 @@ tags:: O'Reilly-Learning, Docker, Videos
 		- Inside a Docker Container, **only one** process is running.
 	- ### Running multiple Docker Containers, detaching and docker attach step by step
 	- ### Running Docker Containers with a Shared Host File System (Volume Mounting)
-		- `$ docker run -v my_vol ubuntu /bin/bash`
+		- `$ docker run -v my_vol ubuntu /bin/bash -c "ls -la /my_vol/my_file.txt"`
+		-
 		-
 -

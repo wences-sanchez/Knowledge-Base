@@ -352,7 +352,7 @@
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to devops",
   :block/created-at 1660981875738,
-  :block/updated-at 1660993767373}
+  :block/updated-at 1661244269659}
  {:block/name "charles dickens",
   :block/created-at 1660807906202,
   :block/updated-at 1660807906202}
@@ -472,6 +472,9 @@
  {:block/name "core java volume i—fundamentals (highlights)",
   :block/created-at 1660808796056,
   :block/updated-at 1660808796649}
+ {:block/name "coste visado uk",
+  :block/created-at 1661250863023,
+  :block/updated-at 1661252461043}
  {:block/name "course_slides_annotated.pdf (highlights)",
   :block/created-at 1660808906032,
   :block/updated-at 1660808906640}
@@ -563,6 +566,9 @@
  {:block/name "docker",
   :block/created-at 1660808018651,
   :block/updated-at 1660808018651}
+ {:block/name "docker, dockerfile and docker-compose",
+  :block/created-at 1661240706406,
+  :block/updated-at 1661240706406}
  {:block/name "docs.python.org",
   :block/created-at 1660807840862,
   :block/updated-at 1660807840862}
@@ -1157,6 +1163,9 @@
  {:block/name "monday, 15-08-2022",
   :block/created-at 1660631529094,
   :block/updated-at 1660631529094}
+ {:block/name "monday, 22-08-2022",
+  :block/created-at 1661240706412,
+  :block/updated-at 1661240706412}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1660315973345,
   :block/updated-at 1660315973345}
@@ -1351,7 +1360,7 @@
   :block/updated-at 1660315977409}
  {:block/name "saturday, 20-08-2022",
   :block/created-at 1660981481606,
-  :block/updated-at 1660993100797}
+  :block/updated-at 1661240717782}
  {:block/name "saturday, 30-07-2022",
   :block/created-at 1660315973907,
   :block/updated-at 1660315973907}
@@ -1581,6 +1590,9 @@
  {:block/name "tuesday, 16-08-2022",
   :block/created-at 1660632166068,
   :block/updated-at 1660632166068}
+ {:block/name "tuesday, 23-08-2022",
+  :block/created-at 1661240705246,
+  :block/updated-at 1661240705246}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1660315973459,
   :block/updated-at 1660315973459}

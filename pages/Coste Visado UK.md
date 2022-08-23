@@ -15,7 +15,7 @@
 		  | Estimated cost of food (15p / 15days) | 225p |
 		  | In Euros | 1460p -> **1732€** |
 	- ### 4 weeks
-	-
+		- 265€) 3671€
 - ## Cost of the exam
 	- 180p -> **214€**
 - ## Ammount

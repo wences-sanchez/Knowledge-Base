@@ -10,7 +10,7 @@
 	- | Concept | Cost |
 	  | --- | --- |
 	  | London Kaplan Centre | 1237p |
-	  | Estimated 
-	  | In Euros | 1537€ |
+	  | Estimated cost of food (15p / 15days) | 225p |
+	  | In Euros | 1462p € |
 	-
 -

@@ -175,5 +175,7 @@ tags:: Coursera, DevOps, IBM
 		  [ ] DevOps is Dev and Ops working together with the same mindset.
 		  [ ] DevOps is Dev and Ops with a wall of confusion between them. #flashcard
 			- Solution:
-				-
+			  collapsed:: true
+				- Correcto: *DevOps is Dev and Ops working together with the same mindset.*
+				- Correct. These teams also work together during the entire software lifecycle.
 		-

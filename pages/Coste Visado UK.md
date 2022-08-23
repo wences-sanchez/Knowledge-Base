@@ -7,5 +7,7 @@
 	  | In Euros | 2373p -> 2812€|
 -
 - ## Cost of the trip
-	- |
+	- | Concept | Cost |
+	  | --- | --- |
+	  | hola | bye|
 -

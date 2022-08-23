@@ -170,10 +170,11 @@ tags:: Coursera, DevOps, IBM
 		  [ ] DevOps is about teams using new tools such as automated pipelines for the fastest workflow possible. #flashcard
 			- Solution:
 		-
-		- Pregunta 15
-		- Select the correct statement regarding DevOps.
-		  [ ]DevOps is done primarily by Ops.
-		  DevOps is a separate team that sits between Dev and Ops.
-		  DevOps is Dev and Ops working together with the same mindset.
-		  DevOps is Dev and Ops with a wall of confusion between them.
+		- **Select the correct statement regarding DevOps.**
+		  [ ] DevOps is done primarily by Ops.
+		  [ ] DevOps is a separate team that sits between Dev and Ops.
+		  [ ] DevOps is Dev and Ops working together with the same mindset.
+		  [ ] DevOps is Dev and Ops with a wall of confusion between them. #flashcard
+			- Solution:
+				-
 		-

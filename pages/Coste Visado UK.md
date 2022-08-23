@@ -10,5 +10,7 @@
 	- | Concept | Cost |
 	  | --- | --- |
 	  | London Kaplan Centre | 1237p |
+	  | Estimated 
 	  | In Euros | 1537€ |
+	-
 -

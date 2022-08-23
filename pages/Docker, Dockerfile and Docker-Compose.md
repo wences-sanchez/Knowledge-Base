@@ -16,4 +16,6 @@ tags:: O'Reilly-Learning, Docker, Videos
 		- #### Containers
 			- A container is not so much different from a Virtual Machine
 			- The main difference is that the processes run on the **OS**
-			- There
+			- There are not logs inside the containers but their own logs and stuff.
+				- Containers **immutable**
+			-

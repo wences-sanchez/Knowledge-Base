@@ -10,7 +10,7 @@
 	- | Concept | Cost |
 	  | --- | --- |
 	  | London Kaplan Centre (just academy)| 753€ <- 635p |
-	  | Alojamiento | 
+	  | Alojamiento | 600p |
 	  | Estimated cost of food (15p / 15days) | 225p |
 	  | In Euros | 1462p -> **1733€** |
 	-

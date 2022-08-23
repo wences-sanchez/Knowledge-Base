@@ -20,5 +20,6 @@ tags:: O'Reilly-Learning, Docker, Videos
 				- Containers **immutable**
 			- We use containers because they are isolated copies of the server environments (without any local config stuff).
 - ## Chapter 2: Installation
--
+- ## Chapter 3: Understanding Docker Run with Volume mounting and important flags step by step
+	-
 -

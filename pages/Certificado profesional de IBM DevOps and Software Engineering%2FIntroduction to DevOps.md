@@ -168,7 +168,8 @@ tags:: Coursera, DevOps, IBM
 		  [ ] DevOps is primarily automation by DevOps Engineers.
 		  [ ] DevOps is about teams using new tools such as automated pipelines for the fastest workflow possible. #flashcard
 			- Solution:
-				-
+				- Correcto: *DevOps is a cultural change in which the development team and the operations team work together in cross-functional teams.*
+				- Correct. DevOps includes automation, fast deploys, and tools, but it is essentially about Dev and Ops working together.
 		- **Select the correct statement regarding DevOps.**
 		  [ ] DevOps is done primarily by Ops.
 		  [ ] DevOps is a separate team that sits between Dev and Ops.

@@ -164,8 +164,10 @@ tags:: Coursera, DevOps, IBM
 			- People will seek to do the activities that are rewarded, so measure what matters.
 		- Select the statement that correctly describes DevOps.
 		  
-		  DevOps is a cultural change in which the development team and the operations team work together in cross-functional teams.
-		- DevOps is the combining of the development team and the operations team into one team.
-		- DevOps is primarily automation by DevOps Engineers.
-		- DevOps is about teams using new tools such as automated pipelines for the fastest workflow possible.
+		  [ ] DevOps is a cultural change in which the development team and the operations team work together in cross-functional teams.
+		  [ ] DevOps is the combining of the development team and the operations team into one team.
+		  [ ] DevOps is primarily automation by DevOps Engineers.
+		  [ ] DevOps is about teams using new tools such as automated pipelines for the fastest workflow possible. #flashcard
+			- Solution:
+				-
 		-

@@ -12,4 +12,11 @@
   **I have a strong academic background in Computer Science**. I have studied an undergraduate degree in Computer Science in the Universidad of Cadiz and a postgraduate degree in the Universitat Politécnica of Catalunya (UPC).
   
   **Above all, I love learning**.  That's the reason why I have studied two Master's degree and I also like studying quantum mechanics in my spare time.
-- XXX, I believe my passion for computing and cross-functional experience would serve you well. I would love an opportunity to demonstrate all my knowledge and learn new things.
+  
+  XXX, I believe my passion for computing and cross-functional experience would serve you well. I would love an opportunity to demonstrate all my knowledge and learn new things.
+  
+  I appreciate your consideration. May we meet to discuss the role?
+  
+  Regards,
+  
+  Wenceslao Sánchez

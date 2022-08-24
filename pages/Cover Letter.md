@@ -11,4 +11,4 @@
   
   **I have a strong academic background in Computer Science**. I have studied an undergraduate degree in Computer Science in the Universidad of Cadiz and a postgraduate degree in the Universitat Politécnica of Catalunya (UPC).
   
-  **Above all, I love learning**.  That's the reason why I have studied two Master's degree and I also like studi
+  **Above all, I love learning**.  That's the reason why I have studied two Master's degree and I also like studying quantum mechanics

@@ -9,4 +9,4 @@
   
   **I have 1.5 years of experience as an IaC Automation Developer**. Automating and maintaining the servers of a bank using Puppet and Ansible. Also, developing scripts in Bash and Python.
   
-  **I have a strong academic background in Computer Science**. I have studied an undergraduate degree in Computer Science in the University of Cádiz and a postgraduate degree in the UPC of Catalonia
+  **I have a strong academic background in Computer Science**. I have studied an undergraduate degree in Computer Science in the University of Cádiz and a postgraduate degree in the Politechnical University of Catalonia (>U).

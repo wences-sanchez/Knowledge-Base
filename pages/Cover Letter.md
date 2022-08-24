@@ -1,2 +1,2 @@
 - Dear XXX:
-- I am an apassionate about computers since I was 11. I love coding so as design and automating things. I have experience as QA and developer automating things, and I enjoyed m
+- I am an apassionate about computers since I was 11. I love coding so as design and automating things. I have experience as QA and developer automating things, and I enjoyed both roles.

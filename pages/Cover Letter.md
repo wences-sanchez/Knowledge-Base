@@ -1,2 +1,2 @@
 - Dear XXX:
-- I am an apassionate ba
+- I am an apassionate about computers since I was 11. I love coding so as design and automate things.

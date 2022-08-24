@@ -5,5 +5,6 @@
   **What, specifically, would I bring to XXX in this role?**
   **Academical experience in a Master's degree in DevOps**. That is taught by the University of La Rioja (UNIR). In it, I have learn lots of technologies such as: AWS, Cloud Foundations, Terraform, Ansible, Linux, Containers or Jenkins.
   
-  **I have experience in both development and testing roles**. 2+ years of experience between QA Engineer and Developer. As a QA Engineer, I have been building and maintaining a framework of testing to test the servers of CaixaBank. As a developer, building a corporate web using PHP (in Everis); and implementing internal software solutions to help our company partners using Python as DevOps Developer(in Amaris Consulting).
--
+  **I have experience in both development and testing roles**. 2+ years of experience between QA Engineer and Developer. As a QA Engineer, I have been building and maintaining a framework of testing to test the servers of CaixaBank. As a developer, building a corporate web using PHP (in Everis); and implementing internal software solutions to help our company partners using Python as DevOps Developer (in Amaris Consulting).
+  
+  **I also have 1.5 year**

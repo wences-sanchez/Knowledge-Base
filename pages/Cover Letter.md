@@ -5,4 +5,4 @@
   **What, specifically, would I bring to XXX in this role?**
   **I am almost finishing an official Master's degree in DevOps**. That is taught by the University of La Rioja (UNIR). In it, I have learn lots of technologies such as: AWS, Cloud Foundations, Terraform, Ansible, Linux, Containers or Jenkins.
   
-  **I have experience in both development and testing roles**. 3+ years of experience between QA Engineer and DevOps Automation Engineer. As a QA Engineer, I have been building and maintaining a framework of testing based in Ruby to
+  **I have experience in both development and testing roles**. 3+ years of experience between QA Engineer and DevOps Automation Engineer. As a QA Engineer, I have been building and maintaining a framework of testing to test the servers of CaixaBank.

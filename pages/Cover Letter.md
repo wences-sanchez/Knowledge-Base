@@ -27,8 +27,8 @@
 	  
 	  I have been passionate about computer science since I was 11 years old. I love coding, as well as designing and automating. I have experience as a QA engineer and as a developer analysing and automating tasks, and I enjoy working in both roles.  
 	  
-	  What specifically would you bring to XXX in this role?
-	  Academic experience in a Master's Degree in DevOps. Which is taught by the University of La Rioja (UNIR). In it, I have learned many devops tools, and technologies such as: AWS, Cloud Foundations, Terraform, Ansible, Containers or Jenkins.  
+	  **What specifically would you bring to XXX in this role?**
+	  **Academic experience in a Master's Degree in DevOps**. Which is taught by the University of La Rioja (UNIR). In it, I have learned many devops tools, and technologies such as: AWS, Cloud Foundations, Terraform, Ansible, Containers or Jenkins.  
 	  
 	  I have experience in both development and testing roles. 2+ years of experience between QA Engineer and Developer. As a QA Engineer, I have been building and maintaining a test framework to test a bank's servers. As a developer, building a corporate website using PHP (at Everis); and implementing internal software solutions to help our business partners using Python as a DevOps Developer (at Amaris Consulting).  
 	  

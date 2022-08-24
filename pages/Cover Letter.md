@@ -1,2 +1,3 @@
 - Dear XXX:
-- I've been passionate about computers since I was 11 years old. I love coding, as well as designing and automating. I have experience as a QA and as a developer analysing and automating tasks, and I enjoy both roles.
+- I've been passionate about computers since I was 11 years old. I love coding, as well as designing and automating. I have experience as a QA and as a developer analysing and automating tasks, and I enjoy both roles.**
+  What, specifically, would I bring to XXX in this role?**

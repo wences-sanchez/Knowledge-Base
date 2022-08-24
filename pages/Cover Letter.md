@@ -30,7 +30,7 @@
 	  **What specifically would you bring to XXX in this role?**
 	  **Academic experience in a Master's Degree in DevOps**. Which is taught by the University of La Rioja (UNIR). In it, I have learned many devops tools, and technologies such as: AWS, Cloud Foundations, Terraform, Ansible, Containers or Jenkins.  
 	  
-	  I have experience in both development and testing roles. 2+ years of experience between QA Engineer and Developer. As a QA Engineer, I have been building and maintaining a test framework to test a bank's servers. As a developer, building a corporate website using PHP (at Everis); and implementing internal software solutions to help our business partners using Python as a DevOps Developer (at Amaris Consulting).  
+	  I have experience in both development and testing roles. 2+ years of experience between QA Engineer and Developer. As a QA Engineer, I have been building and maintaining a test framework to test a major bank's servers. As a developer, building a corporate website using PHP (at Everis); and implementing internal software solutions to help our partners using Python as a DevOps' mindset Developer (at Amaris Consulting).  
 	  
 	  I have 1.5 years of experience as an IaC Automation Developer. Automating and maintaining the servers of a major bank using Puppet and Ansible. Also developing scripts in Bash and Python.  
 	  

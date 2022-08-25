@@ -15,7 +15,7 @@ title:: LinkedIn Personal brand
 	  
 	  And, above all, I love learning. That's the reason why I am studyin a Master in DevOps having already another Master's degree and an undergraduate degree, both in Computer Science.
 - #### v0.2
-	- I've been passionate about computer science since I was 11 years old, and since I discovered software development in my undergraduate degree, I've been a fan of all things software. And not just coding, but also testing, design and automation.
+	- I've been passionate about computer science since I was 11 years old, and ~~since I discovered software development in my undergraduate degree, I've been~~ a fan of all things software. And not just coding, but also testing, design and automation.
 	  
 	  I'm good at automating tasks and also at analysing and testing software.
 	  

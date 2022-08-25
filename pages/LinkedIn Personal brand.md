@@ -17,6 +17,8 @@ title:: LinkedIn Personal brand
 - #### v0.2
 	- I've been passionate about computer science since I was 11 years old, and ~~since I discovered software development in my undergraduate degree, I've been~~ a fan of all things related to software. And not just coding, but also testing, design and automation.
 	  
+	  I
+	  
 	  I'm good at automating tasks and also at analysing and testing software.
 	  
 	  But I really like to consider myself a Scrum Developer with a DevOps mindset, as I have experience working in different roles like QA, development and automation.

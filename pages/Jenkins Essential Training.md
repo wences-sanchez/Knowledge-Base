@@ -2,7 +2,7 @@
 - tags:: #Jenkins #DevOps
 - ## 1. Jenkins and DevOps
 	- Image explaining the use of Jenkins #spaced
-		- ![image_1659967471696_0.png](../assets/image_1659967471696_0_1661272360548_0.png)
+		- ![image_1659967471696_0.png](../assets/image_1659967471696_0_1660211945049_0.png)
 		- The *loop* is divided into two groups with the first group representing the **development** stages of the cycle, and the second group representing the **operational** stages.
 		- In the **development** group we start with the stage labeled **plan** and then move on to **code**, **build** and **test**.
 		- In the **operations** group we continue the cycle with **release**, **deploy**, **operate** and **monitor**.
@@ -239,17 +239,9 @@
 	- When an artifact is created or used, **Jenkins** generates an MD5 checksum using the artifact. **Jenkins** saves it in a internal **database**.
 	-
 	- ### Assignment
-		- DOING Manage the test creation and storing in Jenkins:
+		- TODO Manage the test creation and storing in Jenkins:
 		  SCHEDULED: <2022-08-11 Thu>
-		  :LOGBOOK:
-		  CLOCK: [2022-08-23 Tue 18:39:42]
-		  :END:
-			- DOING Add and manage a maven Tool configuration for Jenkins
-			  :LOGBOOK:
-			  CLOCK: [2022-08-23 Tue 18:39:40]
-			  :END:
-				- First, we have to set up a tool configuration for Maven
-				-
+			- TODO Add and manage a maven Tool configuration for Jenkins
 			- TODO Collecting test results from the file .xml in the pipeline
 			- TODO Archiving the resultant artifacts
 	-

@@ -1,4 +1,4 @@
-title:: ### LinkedIn Personal brand
+title:: LinkedIn Personal brand
 
 - #### 1. What am I passionate about?
 	- I am passionate about computers since I was 11.

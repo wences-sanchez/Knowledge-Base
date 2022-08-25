@@ -484,6 +484,9 @@
  {:block/name "coursera.org",
   :block/created-at 1660807807674,
   :block/updated-at 1660807807674}
+ {:block/name "cover letter",
+  :block/created-at 1661350307155,
+  :block/updated-at 1661357626262}
  {:block/name "create empty matrix python (highlights)",
   :block/created-at 1660808824620,
   :block/updated-at 1660808825332}
@@ -1681,6 +1684,9 @@
  {:block/name "wednesday, 17-08-2022",
   :block/created-at 1660718011676,
   :block/updated-at 1660735243000}
+ {:block/name "wednesday, 24-08-2022",
+  :block/created-at 1661350300486,
+  :block/updated-at 1661361722385}
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1660315973792,
   :block/updated-at 1660315973792}

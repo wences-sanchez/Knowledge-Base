@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "path:pages tag:#Linux",
   "showTags": false,
   "showAttachments": false,

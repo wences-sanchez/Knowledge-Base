@@ -1,0 +1,475 @@
+title:: Learning PHP 7 (highlights)
+author:: [[Antonio Lopez]]
+full-title:: "Learning PHP 7"
+category:: #books
+
+- ![](https://images-na.ssl-images-amazon.com/images/I/514I--nQyqL._SL200_.jpg)
+- Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
+	- -
+	- The idea is simple: a configuration file specifies which base virtual machine we need to use from a set of available ones online and how you would like to customize it—that is, which commands you will want to run the first time you start the machine—this is called "provisioning". #space
+		- ([Location 385](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=385))
+	- -
+	- -
+	- You will probably get the Vagrant configuration from a public repository, and if this configuration ever changes, you can get the changes and reprovision your machine. It's easy, right? #space
+		- ([Location 387](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=387))
+	- -
+	- -
+	- $ vagrant up The first time you execute it, it will take some time as it will have to download the image from the repository, and then it will execute the provisioner.sh file. #space
+		- ([Location 420](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=420))
+	- -
+	- -
+	- HTTP stands for HyperText Transfer Protocol. As any other protocol, the goal is to allow two entities or nodes to communicate with each other. #space
+		- ([Location 578](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=578))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- HTTP is stateless; that is, it treats each request independently, unrelated to any previous one. This means that with this request and response sequence, the communication is finished. Any new requests will not be aware of this specific interchange of messages. #space
+		- ([Location 588](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=588))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- The URL of the message is the destination of the message. The request will contain the receiver's URL, and the response will contain the sender's. #space
+		- ([Location 592](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=592))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- http://myserver.com/greeting?name=Alex. #space
+		- ([Location 595](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=595))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- The HTTP method is the verb of the message. #space
+		- ([Location 599](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=599))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- GET: This asks the receiver about something, and the receiver usually sends this information back. The most common example is asking for a web page, where the receiver will respond with the HTML code of the requested page. #space
+		- ([Location 600](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=600))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- POST: This means that the sender wants to perform an action that will update the data that the receiver is holding. For example, the sender can ask the receiver to update his profile name. #space
+		- ([Location 602](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=602))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- The body part is usually present in response messages even though a request message can contain it too. #space
+		- ([Location 607](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=607))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- The headers on an HTTP message are the metadata that the receiver needs in order to understand the content of the message. #space
+		- ([Location 613](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=613))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- The status code is present in responses. #space
+		- ([Location 619](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=619))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Common status codes are: #space
+		- ([Location 622](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=622))
+	- -
+	- -
+	- Representing the parameters as part of the body is a common way to send information when submitting a form, but not the only one. You can add a query string to the URL, add JSON to the body of the message, and so on. #space
+		- ([Location 633](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=633))
+	- -
+	- -
+	- rather all of them in a generic way. The main reason for this choice of terminology is to try to separate HTTP from web applications. You will see at the end of the book that HTTP is used for more than just websites. #space
+		- ([Location 639](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=639))
+	- -
+	- -
+	- A web page is a single document with content. It contains links that open other web pages with different content. #space
+		- ([Location 642](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=642))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- A website is the set of web pages that usually live in the same server and are related to each other. #space
+		- ([Location 644](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=644))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- A web application is just a piece of software that runs on a client, which is usually a browser, and communicates with a server. #space
+		- ([Location 645](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=645))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- A server is a remote machine that receives requests from a client, processes them, and generates a response. This response will go back to the client, generally rendered by the browser in order to display it to the user. #space
+		- ([Location 646](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=646))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- So, what is the difference between a website and a web application? Well, the web application can be a small part of a bigger website with a specific functionality. #space
+		- ([Location 650](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=650))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Also, not all websites are web applications as a web application always does something but a website can just display information. #space
+		- ([Location 651](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=651))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Different ways of including JS You might notice that we included the CSS file reference at the end of the <head> section and JS at the end of <body>. You can actually include JS in both the <head> and the <body>; just bear in mind that the script will be executed as soon as it is included. If your script references fields that are not yet defined or other JS files that will be included later, JS will fail. #space
+		- ([Location 684](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=684))
+	- -
+	- -
+	- Recibiendo solicitudes por el protocolo HTTP #card
+		- A web server is no more than a piece of software running on a machine and listening to requests from a specific port.
+		- ([Location 692](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=692))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- The web server decides which web application—usually a file in the filesystem—needs to process the request. In order to decide, the web server usually considers the path of the URL; #space
+		- ([Location 702](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=702))
+	- -
+	- -
+	- There are powerful web servers that support high loads of traffic, such as Apache or Nginx, #space
+		- ([Location 709](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=709))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- El servidor web (en este caso el embebido) busca el fichero index.php primero #card
+		- $ php -S localhost:8000
+		- ([Location 723](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=723))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- If you do not change the default options, PHP will always try to find an index.php file in the directory in which you started the web server. If this is not found, PHP will try to find an index.html file. #space
+		- ([Location 738](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=738))
+	- -
+	- -
+	- you have to start the file with <?php. There are other options, and you can also finish the file with ?>, #space
+		- ([Location 768](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=768))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- <?php   echo 'hello world'; ?> bye world #space
+		- ([Location 771](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=771))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- you will see that it prints both messages, hello world and bye world. The reason why this happens is simple: you already know that the PHP code there prints the hello world message. What happens next is that anything outside the PHP tags will be interpreted as is. If there is an HTML code for instance, it would not be printed as is, but will be interpreted by the browser. #space
+		- ([Location 772](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=772))
+	- -
+	- -
+	- include: This will try to find and include the specified file each time it is invoked. If the file is not found, PHP will throw a warning, but will continue with the execution. #space
+		- ([Location 778](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=778))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- require: This will do the same as include, but PHP will throw an error instead of a warning if the file is not found. #space
+		- ([Location 780](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=780))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- include_once: This function will do what include does, but it will include the file only the first time that it is invoked. Subsequent calls will be ignored. #space
+		- ([Location 781](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=781))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- require_once: This works the same as require, but it will include the file only the first time that it is invoked. Subsequent calls will be ignored. #space
+		- ([Location 782](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=782))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Each function has its own usage, so it is not right to say that one is better than the other. #space
+		- ([Location 784](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=784))
+	- -
+	- -
+	- Moreover, as it is some HTML code, we might want to include it multiple times, so we did not choose the require_once option. #space
+		- ([Location 789](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=789))
+	- -
+	- -
+	- $a = 1; #space
+		- ([Location 802](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=802))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- PHP variables start with the $ sign followed by the variable name. A valid variable name starts with a letter or an underscore followed by any combination of letters, numbers, and/or underscores. It is case sensitive. #space
+		- ([Location 809](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=809))
+	- -
+	- -
+	- $1number = 12.3; // not valid! #space
+		- ([Location 811](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=811))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- PHP has eight primitive types, but for now, we will focus on its four scalar types: #space
+		- ([Location 818](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=818))
+	- -
+	- -
+	- Exponentiation (**) raises the first operand to the power of the second. #space
+		- ([Location 853](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=853))
+	- -
+	- -
+	- var_dump(1 <=> 2); // int less than 0 var_dump(1 <=> 1); // 0 var_dump(3 <=> 2); // int greater than 0 #space
+		- ([Location 877](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=877))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- The == (equals) operator evaluates two expressions after type juggling, that is, it will try to transform both expressions to the same type, and then compare them. Instead, the === (identical) operator evaluates two expressions without type juggling, so even if they look the same, if they are not of the same type, the comparison will return false. The same applies to != or <> (not equal to) and !== (not identical): #space
+		- ([Location 879](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=879))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- You can find the entire list of functions at http://php.net/manual/en/ref.strings.php, #space
+		- ([Location 953](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=953))
+	- -
+	- -
+	- strlen: This function returns the number of characters that the string contains. #space
+		- ([Location 960](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=960))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- trim: This function returns the string, removing all the blank spaces to the left and to the right. #space
+		- ([Location 961](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=961))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- strtoupper and strtolower: These functions return the string with all the characters in upper or lower case respectively. #space
+		- ([Location 962](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=962))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- str_replace: This function replaces all occurrences of a given string by the replacement string. #space
+		- ([Location 963](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=963))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- substr: This function extracts the string contained between the positions specified by parameters, with the first character being at position 0. #space
+		- ([Location 964](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=964))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- strpos: This function shows the position of the first occurrence of the given string. It returns false if the string cannot be found. #space
+		- ([Location 966](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=966))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- there is an operator for strings (.) which concatenates two strings #space
+		- ([Location 967](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=967))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- $empty1 = []; $empty2 = array(); $names1 = ['Harry', 'Ron', 'Hermione']; $names2 = array('Harry', 'Ron', 'Hermione'); #space
+		- ([Location 998](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=998))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- $status1 = [     'name' => 'James Potter',     'status' => 'dead' ]; $status2 = array(     'name' => 'James Potter',     'status' => 'dead' ); #space
+		- ([Location 999](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=999))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- Para hacer append del array #card
+		- $names[] = 'Neville';
+		- ([Location 1018](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1018))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- Para eliminar un elemento. 'status' es la clave a eliminar #card
+		- unset($status['status']);
+		- ([Location 1029](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1029))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- the empty function. That function actually works with strings too, an empty string being a string with no characters (' '). #space
+		- ([Location 1050](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1050))
+	- -
+	- -
+	- The isset function takes an array position, and returns true or false depending on whether that position exists or not: #space
+		- ([Location 1051](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1051))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- empty($string)); #space
+		- ([Location 1053](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1053))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- isset($names[3])); #space
+		- ([Location 1054](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1054))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- in_array. This function takes two values, the value that you want to search for and the array. The function returns true if the value is in the array and false otherwise. #space
+		- ([Location 1060](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1060))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- array_search. This function works in the same way except that instead of returning a Boolean, it returns the key where the value is found, or false otherwise. #space
+		- ([Location 1063](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1063))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- e #card
+		- $containsHermione = in_array('Hermione', $names);
+		- ([Location 1065](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1065))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- $wheresVoldemort = array_search('Voldemort', $names); #space
+		- ([Location 1068](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1068))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- sort, orders the values alphabetically. #space
+		- ([Location 1111](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1111))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- asort orders the values in the same way, but keeps the association of key-values. #space
+		- ([Location 1112](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1112))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- ksort orders the elements by their keys, alphabetically. #space
+		- ([Location 1113](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1113))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- An a in the name means associative, and thus, will preserve the key-value association. An r in the name means reverse, so the order will be from high to low. A k means key, so the sorting will be based on the keys instead of the values. #space
+		- ([Location 1118](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1118))
+	- -
+	- -
+	- We can get a list of the keys of the array with array_keys, and a list of its values with array_values: #space
+		- ([Location 1124](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1124))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- We can get the number of elements in an array with the count function: #space
+		- ([Location 1128](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1128))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- we can merge two or more arrays into one with array_merge: #space
+		- ([Location 1131](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1131))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- PHP stores all the parameters that come from the query string in an array called $_GET. #space
+		- ([Location 1157](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1157))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- When printing something with echo, PHP tries to transform everything it gets into strings. Since the string version of the Boolean false is an empty string, that would not be useful for our application. Casting the Boolean to an integer first assures that we will see a value, even if it is just a 0. #space
+		- ([Location 1172](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1172))
+	- -
+	- -
+	- with great power comes great responsibility, #space
+		- ([Location 1235](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1235))
+	- -
+	- -
+	- <?php if ($submitted): ?> #space
+		- ([Location 1293](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1293))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- <?php else: ?> #space
+		- ([Location 1296](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1296))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- <?php endif; ?> #space
+		- ([Location 1297](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1297))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- foreach ($names as $name) {     echo $name . " "; } #space
+		- ([Location 1373](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1373))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- foreach ($names as $key => $name) {     echo $key . " -> " . $name . " "; } #space
+		- ([Location 1374](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1374))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- <?php if (!$book['available']): ?>           <b>Not available</b> <?php endif; ?>         </li> <?php endforeach; ?> #space
+		- ([Location 1395](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1395))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- PHP does not support overloaded functions. #space
+		- ([Location 1416](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1416))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- As you can see, you can declare the arguments without knowing what their types are, so PHP would not be able to decide which function to use. #space
+		- ([Location 1417](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1417))
+	- -
+	- -
+	- pass the argument by reference. To do that, you add an ampersand (&) before the argument when declaring the function: #space
+		- ([Location 1442](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1442))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- function modify(&$a) {     $a = 3; } #space
+		- ([Location 1444](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1444))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- Usually, when someone uses a function, they expect a result, and they do not want the arguments provided by them to be modified. So try to avoid it; people will be grateful! #space
+		- ([Location 1449](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1449))
+	- -
+	- -
+	- declare(strict_types=1); #space
+		- ([Location 1467](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1467))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- function addNumbers(int $a, int $b, bool $printSum): int { #space
+		- ([Location 1467](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1467))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- file_put_contents(__DIR__ . '/books.json', $booksJson); #space
+		- ([Location 1569](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1569))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- $booksJson = json_encode($books); #space
+		- ([Location 1569](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1569))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- public function __construct(int $isbn, string $title, string $author, int $available) { #space
+		- ([Location 1665](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1665))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- __toString: This method is invoked when we try to cast an object to a string. #space
+		- ([Location 1687](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1687))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- rules. Each time you reference a class that PHP does not know about, it will ask the autoloader. If the autoloader can figure out which file that class is in, it will load it, and the execution of the program will continue as normal. If it does not, PHP will stop the execution. #space
+		- ([Location 1868](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1868))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- So, what is the autoloader? It is no more than a PHP function that gets a class name as a parameter, and it is expected to load a file. #space
+		- ([Location 1871](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1871))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- class Customer extends Person { #space
+		- ([Location 1932](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1932))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- parent::__construct($firstname, $surname); #space
+		- ([Location 1954](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1954))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- interface Customer { #space
+		- ([Location 2073](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=2073))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- class Basic implements Customer { #space
+		- ([Location 2083](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=2083))
+		- #[[orange]] #[[naranja]]
+	- -

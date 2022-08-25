@@ -1,0 +1,207 @@
+title:: Android Programming (highlights)
+author:: [[Bill Phillips]]
+full-title:: "Android Programming"
+category:: #books
+
+- ![](https://images-na.ssl-images-amazon.com/images/I/417fn1Op71L._SL200_.jpg)
+- Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
+	- -
+	- An activity is responsible for managing user interaction with a screen of information. #space
+		- ([Location 679](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=679))
+	- -
+	- -
+	- Widgets are the building blocks you use to compose a user interface. #space
+		- ([Location 765](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=765))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- Buttons, text input controls, and checkboxes are all types of widgets. #space
+		- ([Location 767](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=767))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- match_parent view will be as big as its parent wrap_content view will be as big as its contents require #space
+		- ([Location 850](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=850))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- setContentView(int layoutResID) #space
+		- ([Location 957](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=957))
+	- -
+	- -
+	- A resource is a piece of your application that is not code #space
+		- ([Location 961](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=961))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Resources for your project live in a subdirectory of the app/res directory. #space
+		- ([Location 964](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=964))
+	- -
+	- -
+	- To generate a resource ID for a widget, you include an android:id attribute in the widget’s definition. #space
+		- ([Location 1010](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1010))
+	- -
+	- -
+	- View findViewById(int id) #space
+		- ([Location 1056](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1056))
+	- -
+	- -
+	- public static Toast makeText(Context context, int resId, int duration) #space
+		- ([Location 1141](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1141))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- Toast.makeText(QuizActivity.this,                            R.string.correct_toast,                            Toast.LENGTH_SHORT).show(); #space
+		- ([Location 1174](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1174))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- Model objects have no knowledge of the user interface; their sole purpose is holding and managing data. #space
+		- ([Location 1347](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1347))
+	- -
+	- -
+	- View objects know how to draw themselves on the screen and how to respond to user input, like touches. #space
+		- ([Location 1351](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1351))
+	- -
+	- -
+	- They contain “application logic.” Controllers #space
+		- ([Location 1356](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1356))
+	- -
+	- -
+	- android:drawableRight="@drawable/arrow_right" #space
+		- ([Location 1692](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1692))
+	- -
+	- -
+	- children of the FrameLayout need android:layout_gravity attributes. #space
+		- ([Location 1957](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1957))
+	- -
+	- -
+	- protected void onSaveInstanceState(Bundle outState) #space
+		- ([Location 2000](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2000))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- A Bundle is a structure that maps string keys to values of certain limited types. #space
+		- ([Location 2005](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2005))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Testing the implementation of onSaveInstanceState(…) is a good idea #space
+		- ([Location 2052](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2052))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Log.d(TAG, "Current question index: " + mCurrentIndex); #space
+		- ([Location 2117](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2117))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- An intent is an object that a component can use to communicate with the OS. #space
+		- ([Location 2575](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2575))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Intent i = new Intent(QuizActivity.this, CheatActivity.class);                 startActivity(i); #space
+		- ([Location 2599](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2599))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- i.putExtra(EXTRA_ANSWER_IS_TRUE, answerIsTrue); #space
+		- ([Location 2676](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2676))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- startActivity(i); #space
+		- ([Location 2693](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2693))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- mAnswerIsTrue = getIntent().getBooleanExtra(EXTRA_ANSWER_IS_TRUE, false); #space
+		- ([Location 2711](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2711))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- startActivityForResult(i, REQUEST_CODE_CHEAT); #space
+		- ([Location 2762](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2762))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- There are two methods you can call in the child activity to send data back to the parent:     public final void setResult(int resultCode)     public final void setResult(int resultCode, Intent data) #space
+		- ([Location 2765](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2765))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- setResult(RESULT_OK, data); #space
+		- ([Location 2801](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2801))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- The final step is to override onActivityResult(int, int, Intent) in QuizActivity to handle the result. #space
+		- ([Location 2815](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2815))
+	- -
+	- -
+	- result.getBooleanExtra(EXTRA_ANSWER_SHOWN, false); #space
+		- ([Location 2824](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2824))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- The ViewAnimationUtils and its createCircularReveal method were both added to the Android SDK in API level 21, so this code would crash on a device running a lower version than that. #space
+		- ([Location 3060](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3060))
+	- -
+	- -
+	- A fragment is incapable of getting a view on screen itself. Only when it is placed in an activity’s hierarchy will its view appear. #space
+		- ([Location 3228](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3228))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- Notice that the container view is completely generic; #space
+		- ([Location 3429](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3429))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- The steps to creating a UI fragment are the same as those you followed to create an activity: compose a user interface by defining widgets in a layout file create the class and set its view to be the layout that you defined wire up the widgets inflated from the layout in code #space
+		- ([Location 3450](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3450))
+	- -
+	- -
+	- Its job is to present the details of a specific crime and update those details as the user changes them. #space
+		- ([Location 3519](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3519))
+	- -
+	- -
+	- Fragment.onCreate(Bundle) #space
+		- ([Location 3525](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3525))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- public View onCreateView(LayoutInflater inflater, ViewGroup container,             Bundle savedInstanceState) {         View v = inflater.inflate(R.layout.fragment_crime, container, false);         return v;     } #space
+		- ([Location 3559](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3559))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- FragmentManager fm = getSupportFragmentManager();         Fragment fragment = fm.findFragmentById(R.id.fragment_container);         if (fragment == null) {             fragment = new CrimeFragment(); #space
+		- ([Location 3640](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3640))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- A style is an XML resource that contains attributes that describe how a widget should look and behave. #space
+		- ([Location 3904](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3904))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- A theme is a collection of styles. #space
+		- ([Location 3915](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3915))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Android provides density-independent dimension units that you can use to get the same size on different screen densities. #space
+		- ([Location 3938](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3938))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- dip.” You typically use this for margins, padding, or anything else for which you would otherwise specify size with a pixel value. #space
+		- ([Location 3947](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3947))
+	- -
+	- -
+	- You will almost always use sp to set display text size. #space
+		- ([Location 3953](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3953))
+		- #[[blue]] #[[azul]]
+	- -

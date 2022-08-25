@@ -1,0 +1,32 @@
+tags:: O'Reilly-Learning, Docker, Videos
+
+- ## Chapter 1: Introduction
+	- ### Introduction to Local Development VS VirtualBox VS Docker -- WHY use docker? #spaced
+		- The configuration of the DEV always tends to be different form PROD.
+		- #### The local development environment
+			- The problem is that the local PC of a dev can't provide the same things than a Server.
+			- We can't rely on our local PCs
+			- Its performance is worse
+		- #### Virtual Machines
+			- There is really no much support for them
+			- An alternative is **Vagrant**
+				- But its scripts to provision are very large
+				- Also, speed is a negative factor on local environment
+			- **Configuration drift** => differences between environments
+		- #### Containers
+			- A container is not so much different from a Virtual Machine
+			- The main difference is that the processes run on the **OS**
+			- There are not logs inside the containers but their own logs and stuff.
+				- Containers **immutable**
+			- We use containers because they are isolated copies of the server environments (without any local config stuff).
+- ## Chapter 2: Installation
+- ## Chapter 3: Understanding Docker Run with Volume mounting and important flags step by step
+	- ### Running a single Docker Container Explained Step-by-step
+		- Inside a Docker Container, **only one** process is running.
+	- ### Running multiple Docker Containers, detaching and docker attach step by step
+	- ### Running Docker Containers with a Shared Host File System (Volume Mounting)
+		- `$ docker run -v my_dir:/my_vol ubuntu /bin/bash -c "ls -la > /my_vol/my_file.txt"`
+		-
+		-
+		-
+-

@@ -1,0 +1,98 @@
+title:: Selenium WebDriver 3 Practical Guide (highlights)
+author:: [[Unmesh Gundecha, Satya Avasarala]]
+full-title:: "Selenium WebDriver 3 Practical Guide"
+category:: #books
+
+- ![](https://images-na.ssl-images-amazon.com/images/I/51nYrf6CcmL._SL200_.jpg)
+- Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
+	- -
+	- Selenium is a set of tools for automating browsers. #space
+		- ([Location 316](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=316))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- Selenium 3.0 offers three important tools, Selenium WebDriver, Selenium Server, and Selenium IDE. Each of these tools provides features to create, debug, and run tests on supported browsers #space
+		- ([Location 429](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=429))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Selenium WebDriver accepts commands using the JSON-Wire protocol (also called Client API) and sends them to a browser launched by the specific driver class (such as ChromeDriver, FirefoxDriver, or IEDriver). This is implemented through a browser-specific browser driver. #space
+		- ([Location 432](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=432))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Selenium Server allows us to run tests on browser instances running on remote machines and in parallel, #space
+		- ([Location 445](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=445))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Selenium IDE is a Firefox add-on that allows users to record, edit, debug, and play back tests captured in the Selenese format, #space
+		- ([Location 451](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=451))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- The Selenium IDE for Firefox stopped working after the Firefox 55 moved to the WebExtension format from XPI format and it is currently no longer maintained. #space
+		- ([Location 455](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=455))
+	- -
+	- -
+	- Apache Maven provides support for managing the life cycle of a test project. Maven is used to define the project structure, dependencies, build, and test-management. #space
+		- ([Location 481](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=481))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- Buscar y comparar con junit #card
+		- TestNG
+		- ([Location 490](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=490))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- A web page is composed of many different types of HTML elements, such as links, textboxes, dropdown buttons, a body, labels, and forms. These are called WebElements in the context of WebDriver. #space
+		- ([Location 574](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=574))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- UI-automation using Selenium is mostly about locating these WebElements on a web page and executing user actions on them. #space
+		- ([Location 601](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=601))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- According to WebDriver's Javadoc (http://selenium.googlecode.com/git/docs/api/java/index.html), the method declaration is as follows: WebElement findElement(By by) #space
+		- ([Location 639](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=639))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- There are eight different ways to locate a WebElement on a web page. #space
+		- ([Location 644](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=644))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- The method declaration of the findElements() method is as follows: java.util.List findElements(By by) #space
+		- ([Location 652](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=652))
+		- #[[pink]] #[[rosa]]
+	- -
+	- -
+	- There are eight different locating mechanisms; that is, eight different ways to identify an HTML element on a web page. They are located by ID, Name, ClassName, TagName, LinkText, PartialLinkText, XPath, and CSS Selector. #space
+		- ([Location 695](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=695))
+		- #[[blue]] #[[azul]]
+	- -
+	- -
+	- driver.findElement(By.id("search")); #space
+		- ([Location 707](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=707))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- driver.findElement(By.name("q")); #space
+		- ([Location 731](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=731))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- La clase es la del CSS! Ya sea especificada en el .css o en el .html #card
+		- driver.findElement(By.className("search-button"));
+		- ([Location 756](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=756))
+		- #[[orange]] #[[naranja]]
+	- -
+	- -
+	- As the name suggests, the By.linkText locating mechanism can only be used to identify the HTML links. #space
+		- ([Location 768](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=768))
+		- #[[pink]] #[[rosa]]
+	- -

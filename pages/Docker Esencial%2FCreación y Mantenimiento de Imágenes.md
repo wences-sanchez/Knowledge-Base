@@ -9,5 +9,6 @@ tags:: Docker, LinkedIn-Learning
 	- ## 2. Partiendo de una imagen base
 		- Tendremos normalmente que empezar desde una versión Linux estándar.
 		- Se indica en el Dockerfile con: **FROM** <image>
+			- Con esto se heredará todo. Todos los metadatos, los datos, los comandos...
 		-
 -

@@ -37,5 +37,7 @@ tags:: Docker, LinkedIn-Learning
 	- ## 5. Redes en Docker
 		- Docker nos ofrece 3 tipos de redes diferentes:
 			- #### 1. Bridge
-				- Es donde arrancarían todos nuestros con
+				- Es donde arrancarían todos nuestros contenedores por defecto.
+				- Es una red que crea un puente entre la interfaz de red del contenedor que arrancan
+			- #### 2.
 		-

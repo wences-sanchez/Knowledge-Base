@@ -25,4 +25,5 @@ tags:: Docker, LinkedIn-Learning
 			- Así, siempre tenemos acceso al estado anterior del fichero, parecido a *GIT*. --> Una capa se crea sobre la otra haciendo (mismo nombre) commits a la imagen base (la primera obligatoria del FROM).
 			- Las capas que son iguales entre contenedores, Docker es suficientemente inteligente como para no duplicarlas. Las mantiene en una única referencia.
 	- ## 3. Sistemas de ficheros en Docker
-		- El **storage driver**
+		- El **storage driver** es el sistema de ficheros que Docker utiliza para almacenar las capas en disco.
+			- Docker NO almacena simplemente los ficheros tal cual, sino que usa un sistema para poder almacenar capa a capa

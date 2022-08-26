@@ -10,6 +10,8 @@ tags:: Docker, LinkedIn-Learning
 		- Los recursos de los servidores estaban al 0% (antes de máquinas virtuales)
 			- Después llegaron las máquinas virtuales y se segmentaron sus recursos y se emuló su estructura de capas del SO.
 			- ![image.png](../assets/image_1661524893063_0.png)
+			- En cambio, al
+			- ![image.png](../assets/image_1661524952485_0.png)
 			-
 -
 -

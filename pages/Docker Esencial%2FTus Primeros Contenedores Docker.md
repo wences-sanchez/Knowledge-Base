@@ -10,6 +10,7 @@ tags:: Docker, LinkedIn-Learning
 	- ## 3. Instalación de Docker en GNU/Linux
 		- Hay que asegurarse siempre de que instalamos la aplicación desde cero.
 	- ## 4. Descarga tu Primera imágen
-		- Para mostrar
+		- Para mostrar las imágenes, hacemos: `$ docker images`
+		-
 		-
 -

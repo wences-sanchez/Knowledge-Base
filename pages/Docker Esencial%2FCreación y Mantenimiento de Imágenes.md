@@ -7,5 +7,7 @@ tags:: Docker, LinkedIn-Learning
 		- Un Dockerfile no es otra cosa que un fichero de texto donde se encuentra la definición de cómo Docker tiene que crear y construir esta imagen.
 		- `$ docker build -t <mi-nombre[:mi-tag]> .`
 	- ## 2. Partiendo de una imagen base
+		- Tendremos normalmente que empezar desde una versión Linux estándar.
+		- Se indica en el Dockerfile con: **FROM** <image>
 		-
 -

@@ -12,6 +12,8 @@ tags:: Docker, LinkedIn-Learning
 			- ![image.png](../assets/image_1661524893063_0.png)
 			- En cambio, al usar contenedores, es:
 			- ![image.png](../assets/image_1661524952485_0.png)
-			- Podemos delimitar poniendo diferentes límites a la
+			- Podemos delimitar poniendo diferentes límites a los contenedores.
+			- Podemos limitarlos cada una de ellos a unos recursos dados.
+			- Y no tenemos que arrancar un SO
 -
 -

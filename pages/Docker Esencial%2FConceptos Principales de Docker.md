@@ -27,4 +27,7 @@ tags:: Docker, LinkedIn-Learning
 	- ## 3. Sistemas de ficheros en Docker
 		- El **storage driver** es el sistema de ficheros que Docker utiliza para almacenar las capas en disco.
 			- Docker NO almacena simplemente los ficheros tal cual, sino que usa un sistema para poder almacenar capa a capa los contenidos de los contenedores
-			- Hay varios. Los más comunes son **AUFS**
+			- Hay varios. Los más comunes son **AUFS** y **OverlayFS** (overlay2)
+				- Overlay2 es más rápido
+			-
+			-

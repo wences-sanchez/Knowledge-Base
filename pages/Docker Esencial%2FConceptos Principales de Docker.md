@@ -19,4 +19,6 @@ tags:: Docker, LinkedIn-Learning
 	- ## 2. Contenedores y Capas en Docker
 		- Los contenedores en Docker son el resultado de poner en marcha una imágen que hayamos tomado, ya sea de un reopositorio, o que hayamos modificado con un *Dockerfile* nosotros.
 		-
-		- Pueden estar: EXIT, PU¡
+		- Pueden estar: EXIT, PAUSED o RUNNING
+		- Sus datos se almacenan en capas
+			- DTodos los cambios que se hacen, en vez de creares

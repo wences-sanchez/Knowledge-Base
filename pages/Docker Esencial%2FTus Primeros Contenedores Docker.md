@@ -22,6 +22,8 @@ tags:: Docker, LinkedIn-Learning
 			- Hay que tener cuidado porque si encontramos algo útil, se borrará todo inmediatamente al salir
 	- ## 6. Ejecutar diferentes versiones de Docker al mismo tiempo
 		- Podemos usar, con Docker, versiones diferentes del software que estamos ejecutando
-		- Así, podemos
+		- Así, podemos coger un software para hacerle pruebas y testearlo con diferentes versiones del Sistema Operativo.
+			- Y testear si el fallo de un dev es a causa de su versión
+		-
 		-
 -

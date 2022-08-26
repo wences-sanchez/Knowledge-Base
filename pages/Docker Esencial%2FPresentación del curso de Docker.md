@@ -22,7 +22,11 @@ tags:: Docker, LinkedIn-Learning
 			- Y no tenemos que arrancar un SO, sino la aplicación directamente.
 	-
 		- ### Flashcards
-			-
+			- ¿Qué problemas específicos desencadenaron la necesidad de contenedores? #flashcard
+				- Resumidamente, por:
+					- las **librerías**,
+					- **entornos de ejecución** (de SOs) y de
+					- **recursos entre procesos**.
 	- ## 2. Qué es Docker
 		- Docker es una plataforma de contenedores Windows y Linux, que funciona tanto en Linux como en Windows como en MacOS.
 		- Docker está basado en ficheros de definición (o **Dockerfile**s), que contiene lo siguiente:

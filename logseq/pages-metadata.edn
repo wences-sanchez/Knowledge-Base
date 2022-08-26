@@ -127,8 +127,8 @@
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
  {:block/name "acloudguru",
-  :block/created-at 1660906763441,
-  :block/updated-at 1660906763441}
+  :block/created-at 1661536423584,
+  :block/updated-at 1661536423584}
  {:block/name
   "administacion de sistemas para la cloud tema-1 (highlights)",
   :block/created-at 1660808946092,
@@ -318,8 +318,8 @@
   :block/created-at 1660807857792,
   :block/updated-at 1660807857792}
  {:block/name "carta",
-  :block/created-at 1660900313054,
-  :block/updated-at 1660900313054}
+  :block/created-at 1660994052651,
+  :block/updated-at 1660994052651}
  {:block/name "category",
   :block/created-at 1660807705481,
   :block/updated-at 1660807705481}
@@ -338,21 +338,9 @@
   :block/created-at 1661079515287,
   :block/updated-at 1661079515287}
  {:block/name
-  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-1",
-  :block/created-at 1660920792051,
-  :block/updated-at 1660920792051}
- {:block/name
-  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-2",
-  :block/created-at 1660920822394,
-  :block/updated-at 1660921375046}
- {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
   :block/created-at 1660315975029,
   :block/updated-at 1660921011484}
- {:block/name
-  "certificado profesional de ibm devops and software engineering/introduction to devops",
-  :block/created-at 1660981875738,
-  :block/updated-at 1661244269659}
  {:block/name "charles dickens",
   :block/created-at 1660807906202,
   :block/updated-at 1660807906202}
@@ -472,9 +460,6 @@
  {:block/name "core java volume i—fundamentals (highlights)",
   :block/created-at 1660808796056,
   :block/updated-at 1660808796649}
- {:block/name "coste visado uk",
-  :block/created-at 1661250863023,
-  :block/updated-at 1661260375529}
  {:block/name "course_slides_annotated.pdf (highlights)",
   :block/created-at 1660808906032,
   :block/updated-at 1660808906640}
@@ -484,9 +469,6 @@
  {:block/name "coursera.org",
   :block/created-at 1660807807674,
   :block/updated-at 1660807807674}
- {:block/name "cover letter",
-  :block/created-at 1661350307155,
-  :block/updated-at 1661440254699}
  {:block/name "create empty matrix python (highlights)",
   :block/created-at 1660808824620,
   :block/updated-at 1660808825332}
@@ -569,9 +551,6 @@
  {:block/name "docker",
   :block/created-at 1660808018651,
   :block/updated-at 1660808018651}
- {:block/name "docker, dockerfile and docker-compose",
-  :block/created-at 1661240706406,
-  :block/updated-at 1661240706406}
  {:block/name "docs.python.org",
   :block/created-at 1660807840862,
   :block/updated-at 1660807840862}
@@ -605,9 +584,6 @@
  {:block/name "el enigma de la habitación 622 (highlights)",
   :block/created-at 1660808780188,
   :block/updated-at 1660808780799}
- {:block/name "el meu any de repòs i relaxació (highlights)",
-  :block/created-at 1661415279968,
-  :block/updated-at 1661415280646}
  {:block/name "el retrato de dorian gray (highlights)",
   :block/created-at 1660808766332,
   :block/updated-at 1660808766936}
@@ -720,8 +696,8 @@
   :block/created-at 1660735421159,
   :block/updated-at 1660981562674}
  {:block/name "friday, 26-08-2022",
-  :block/created-at 1661513172902,
-  :block/updated-at 1661513172902}
+  :block/created-at 1661536406404,
+  :block/updated-at 1661536406404}
  {:block/name "full-title",
   :block/created-at 1660807705474,
   :block/updated-at 1660807705474}
@@ -969,11 +945,11 @@
   :block/created-at 1660808784283,
   :block/updated-at 1660808784882}
  {:block/name "introduction to aws",
-  :block/created-at 1660907752552,
-  :block/updated-at 1660907752552}
+  :block/created-at 1660994050146,
+  :block/updated-at 1660994050146}
  {:block/name "introduction to aws (legacy)",
-  :block/created-at 1660907734421,
-  :block/updated-at 1660910944643}
+  :block/created-at 1661536423578,
+  :block/updated-at 1661536423578}
  {:block/name
   "introduction to computation and programming using python (highlights)",
   :block/created-at 1660808868345,
@@ -1086,17 +1062,14 @@
   :block/created-at 1660808647080,
   :block/updated-at 1660808647655}
  {:block/name "learning-path-aws-developer",
-  :block/created-at 1660906937773,
-  :block/updated-at 1660906937773}
+  :block/created-at 1661536423583,
+  :block/updated-at 1661536423583}
  {:block/name "learning.oreilly.com",
   :block/created-at 1660807806007,
   :block/updated-at 1660807806007}
  {:block/name "lessons learned in software testing (highlights)",
   :block/created-at 1660808687052,
   :block/updated-at 1660808687657}
- {:block/name "linkedin personal brand",
-  :block/created-at 1661419146763,
-  :block/updated-at 1661434717992}
  {:block/name "linkedin-learning",
   :block/created-at 1660316566236,
   :block/updated-at 1660316566236}
@@ -1108,7 +1081,7 @@
   :block/updated-at 1660316566646}
  {:block/name "linux fundamentals",
   :block/created-at 1660316566670,
-  :block/updated-at 1660391337099}
+  :block/updated-at 1660732707457}
  {:block/name "linux fundamentals/operating running systems",
   :block/created-at 1660732707454,
   :block/updated-at 1660733534830}
@@ -1175,9 +1148,6 @@
  {:block/name "monday, 15-08-2022",
   :block/created-at 1660631529094,
   :block/updated-at 1660631529094}
- {:block/name "monday, 22-08-2022",
-  :block/created-at 1661240706412,
-  :block/updated-at 1661240706412}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1660315973345,
   :block/updated-at 1660315973345}
@@ -1372,13 +1342,10 @@
   :block/updated-at 1660315976205}
  {:block/name "saturday, 13-08-2022",
   :block/created-at 1661417750419,
-  :block/updated-at 1661417750419}
+  :block/updated-at 1661513695534}
  {:block/name "saturday, 17-09-2022",
   :block/created-at 1660315977409,
   :block/updated-at 1660315977409}
- {:block/name "saturday, 20-08-2022",
-  :block/created-at 1660981481606,
-  :block/updated-at 1661259770093}
  {:block/name "saturday, 30-07-2022",
   :block/created-at 1660315973907,
   :block/updated-at 1660315973907}
@@ -1586,10 +1553,7 @@
   :block/updated-at 1660315984981}
  {:block/name "thursday, 18-08-2022",
   :block/created-at 1660631592139,
-  :block/updated-at 1660900362333}
- {:block/name "thursday, 25-08-2022",
-  :block/created-at 1661415269226,
-  :block/updated-at 1661439998928}
+  :block/updated-at 1660825506667}
  {:block/name "tiny python projects (highlights)",
   :block/created-at 1660808830467,
   :block/updated-at 1660808831065}
@@ -1611,9 +1575,6 @@
  {:block/name "tuesday, 16-08-2022",
   :block/created-at 1660632166068,
   :block/updated-at 1660632166068}
- {:block/name "tuesday, 23-08-2022",
-  :block/created-at 1661240705246,
-  :block/updated-at 1661240705246}
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1660315973459,
   :block/updated-at 1660315973459}
@@ -1705,15 +1666,9 @@
  {:block/name "wednesday, 17-08-2022",
   :block/created-at 1660718011676,
   :block/updated-at 1660735243000}
- {:block/name "wednesday, 24-08-2022",
-  :block/created-at 1661350300486,
-  :block/updated-at 1661361722385}
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1660315973792,
   :block/updated-at 1660315973792}
- {:block/name "week 1",
-  :block/created-at 1660992923506,
-  :block/updated-at 1660993170978}
  {:block/name "wenceslao sanchez's highlights and notes (highlights)",
   :block/created-at 1660808782416,
   :block/updated-at 1660808783012}

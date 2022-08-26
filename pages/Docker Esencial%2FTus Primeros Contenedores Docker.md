@@ -12,6 +12,7 @@ tags:: Docker, LinkedIn-Learning
 	- ## 4. Descarga tu Primera imágen
 		- Para mostrar las imágenes, hacemos: `$ docker images`
 		- Si no decimos ningún tag, usará el *por defecto*, que es *latest*.
-		- Si queremos alguna otra versión, se ela
+		- Si queremos alguna otra versión, se la podemos especificar.
+		-
 		-
 -

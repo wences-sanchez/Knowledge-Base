@@ -32,5 +32,6 @@ tags:: Docker, LinkedIn-Learning
 	- ## 4. Tags en Docker
 		- Normalmente, se usan para etiquetar la versión del software que tenemos incluido en esa imagen.
 			- Puede ser tanto números como palabras
-		- Es buena práctica no usar *latest* porque si hay un contenedor sin etiqueta use
+		- Es buena práctica no usar *latest* porque si hay un contenedor sin etiqueta usará ese.
+		-
 		-

@@ -15,6 +15,8 @@ tags:: Docker, LinkedIn-Learning
 			- Podemos delimitar poniendo diferentes límites a los contenedores.
 			- Podemos limitarlos cada una de ellos a unos recursos dados.
 			- Y no tenemos que arrancar un SO, sino la aplicación directamente.
-		-
+-
+- ## 2. Qué es Docker
+	- Docker es una plataforma de contenedores Windows y Linux
 -
 -

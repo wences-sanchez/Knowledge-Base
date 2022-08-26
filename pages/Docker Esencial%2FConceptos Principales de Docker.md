@@ -1,3 +1,94 @@
 title:: Docker Esencial/Conceptos Principales de Docker
+tags:: Docker, LinkedIn-Learning
 
+- #tags #Docker #LinkedIn-Learning
 -
+- # Conceptos Principales de Docker
+	- ## 1. Imágenes en Docker
+		- Un registro Docker es un repositorio de imágenes Docker
+			- Podemos buscar SOs tanto como de apps específicas optimizado el contenedor
+		- Docker Store empieza a tener cosas más *enterprise* como plugins o soporte extra y certificaciones.
+		- Pero podemos usar el soporte y tecnología gratuitos de Docker.
+	-
+		- ### Flashcards
+			- Define registro en Docker: #flashcard
+				- Un **registro Docker** es un **repositorio** de **imágenes** Docker
+					- Podemos buscar SOs tanto como de apps específicas optimizado el contenedor
+				- Aparte, **Docker Store** empieza a tener cosas más *enterprise* como plugins o soporte extra y certificaciones.
+					- Pero podemos usar el soporte y tecnología gratuitos de Docker.
+	- ## 2. Contenedores y Capas en Docker
+		- Los contenedores en Docker son el resultado de poner en marcha una imágen que hayamos tomado, ya sea de un reopositorio, o que hayamos modificado con un *Dockerfile* nosotros.
+		-
+		- Pueden estar: EXIT, PAUSED o RUNNING
+		- Sus datos se almacenan en capas
+			- Desde la primera imagen que partimos (que es la que crea la base del contendor). Todos los cambios que se hacen, en vez de crearse sobre el fichero original, (es decir, modificar el almacenamiento que tenemos) van creando una capa encima que indica los cambios que se han realizado.
+			- Así, siempre tenemos acceso al estado anterior del fichero, parecido a *GIT*. --> Una capa se crea sobre la otra haciendo (mismo nombre) commits a la imagen base (la primera obligatoria del FROM).
+			- Las capas que son iguales entre contenedores, Docker es suficientemente inteligente como para no duplicarlas. Las mantiene en una única referencia.
+	-
+		- ### Flashcards
+			- Acerca de las capas y su estructura en Docker: #flashcard
+				- Desde la primera imagen que partimos (que es la que crea la base del contendor). Todos los cambios que se hacen, en vez de crearse sobre el fichero original, (es decir, modificar el almacenamiento que tenemos) van creando una capa encima que indica los cambios que se han realizado.
+				-
+				- Así, siempre tenemos acceso al estado anterior del fichero, parecido a *GIT*. --> Una capa se crea sobre la otra haciendo (mismo nombre) commits a la imagen base (la primera obligatoria del FROM).
+				-
+				- Las capas que son iguales entre contenedores, Docker es suficientemente inteligente como para no duplicarlas. Las mantiene en una única referencia.
+	- ## 3. Sistemas de ficheros en Docker
+		- El **storage driver** es el sistema de ficheros que Docker utiliza para almacenar las capas en disco.
+			- Docker NO almacena simplemente los ficheros tal cual, sino que usa un sistema para poder almacenar capa a capa los contenidos de los contenedores
+			- Hay varios. Los más comunes son **AUFS** y **OverlayFS** (overlay2)
+				- Overlay2 es el más rápido
+	-
+		- ### Flashcards
+			- ¿Qué es el **Storage driver** en Docker? #flashcard
+				- El **storage driver** es el sistema de ficheros que Docker utiliza para almacenar las capas en disco.
+					- Docker NO almacena simplemente los ficheros tal cual, sino que usa un sistema para poder almacenar capa a capa los contenidos de los contenedores
+					- Hay varios. Los más comunes son **AUFS** y **OverlayFS** (overlay2)
+						- Overlay2 es el más rápido
+	- ## 4. Tags en Docker #flashcard
+		- Normalmente, se usan para etiquetar la versión del software que tenemos incluido en esa imagen.
+			- Puede ser tanto números como palabras
+		- Es buena práctica no usar *latest* porque si hay un contenedor sin etiqueta usará ese.
+		- Cada imagen puede tener más de un tag. Y sobre la misma versión podemos hacer distinciones para tener instalados o no diferentes paquetes.
+	- ## 5. Redes en Docker
+		- Docker nos ofrece 3 tipos de redes diferentes:
+			- #### 1. Bridge
+				- Es donde arrancarían todos nuestros contenedores por defecto.
+				- Es una red que crea un puente entre la interfaz de red del contenedor que arrancamos y una interfaz de red virtual que se crea en nuestro equipo cuando instalamos Docker.
+			- #### 2. Host
+				- Lo que hace host es copiar la configuración de red del host (es decir, del servidor o máquina donde está Docker) en el contenedor que estamos arrancando
+			- #### 3. None
+				- Utiliza el driver `null`.
+				- Lo que hace es eliminar toda la configuración de red de nuestro contenedor.
+				- Si creamos un contenedor con **none**, solo tendremos la dirección de *loopback* 127.0.0.1 y no podremos conectarnos a ningún sitio más.
+		- Cuando instalamos Docker, nos crea una interfaz llamada **docker0**.
+			- Tiene una dirección IP privada y cuando se conecta a la red bridge, lo que hace es recibir por DHCP una dirección IP de este rango.
+			- Todos los contenedores harán NAT a esta IP y a través de la IP de salida de la máquina host o servidor en la que tenéis Docker instalado.
+		- Pero podemos crear también nosotros redes. Lo hacemos con:
+			- `$ docker network create --driver (bridge | host | none) <nombre-red>`
+			- Si hacemos un `$ ifconfig`, vemos que nos aparece una interfaz de red virtual nueva con las siglas.
+			- Dentro de ese rango de red, aparecerán todos los contenedores que ejecutemos en <nombre-red>.
+			- Estando las redes separadas y sin poder comunicarse una red con otras.
+				- Esto es mejor para la seguridad.
+	-
+		- ### Flashcards
+			- ¿Qué tres tipos de red ofrece Docker? #flashcard
+				- Docker nos ofrece 3 tipos de redes diferentes:
+					- #### 1. Bridge
+						- Es donde arrancarían todos nuestros contenedores por defecto.
+						- Es una red que crea un puente entre la interfaz de red del contenedor que arrancamos y una interfaz de red virtual que se crea en nuestro equipo cuando instalamos Docker.
+					- #### 2. Host
+						- Lo que hace host es copiar la configuración de red del host (es decir, del servidor o máquina donde está Docker) en el contenedor que estamos arrancando
+					- #### 3. None
+						- Utiliza el driver `null`.
+						- Lo que hace es eliminar toda la configuración de red de nuestro contenedor.
+						- Si creamos un contenedor con **none**, solo tendremos la dirección de *loopback* 127.0.0.1 y no podremos conectarnos a ningún sitio más.
+			- ¿Cómo podemos crear una red en Docker?
+				- Cuando instalamos Docker, nos crea una interfaz llamada **docker0**.
+					- Tiene una dirección IP privada y cuando se conecta a la red bridge, lo que hace es recibir por DHCP una dirección IP de este rango.
+					- Todos los contenedores harán NAT a esta IP y a través de la IP de salida de la máquina host o servidor en la que tenéis Docker instalado.
+				- Pero podemos crear también nosotros redes. Lo hacemos con:
+					- `$ docker network create --driver (bridge | host | none) <nombre-red>`
+					- Si hacemos un `$ ifconfig`, vemos que nos aparece una interfaz de red virtual nueva con las siglas.
+					- Dentro de ese rango de red, aparecerán todos los contenedores que ejecutemos en <nombre-red>.
+					- Estando las redes separadas y sin poder comunicarse una red con otras.
+						- Esto es mejor para la seguridad.

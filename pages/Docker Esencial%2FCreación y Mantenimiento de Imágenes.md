@@ -23,5 +23,6 @@ tags:: Docker, LinkedIn-Learning
 			  ```
 			- Luego:
 			- `$ docker build -t imagen-para-saludar .`
-			- `$ docker run --rm --name contenedor-que-saluda imagen-para-saludar cat `
+			- `$ docker run --rm --name contenedor-que-saluda imagen-para-saludar cat /tmp/saludo`
+			- `$ > Hola Mundo`
 -

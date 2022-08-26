@@ -69,4 +69,5 @@ tags:: Docker, LinkedIn-Learning
 			- Dentro de ese rango de red, aparecerán todos los contenedores que ejecutemos en <nombre-red>.
 			- Estando las redes separadas y sin poder comunicarse una red con otras.
 				- Esto es mejor para la seguridad.
--
+	-
+		- ### Fal

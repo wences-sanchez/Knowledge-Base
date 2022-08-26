@@ -47,4 +47,4 @@ tags:: Docker, LinkedIn-Learning
 				- Si creamos un contenedor con **none**, solo tendremos la dirección de *loopback* 127.0.0.1 y no podremos conectarnos a ningún sitio más.
 		- Cuando instalamos Docker, nos crea una interfaz llamada **docker0**.
 			- Tiene una dirección IP privada y cuando se conecta a la red bridge, lo que hace es recibir por DHCP una dirección IP de este rango.
-			- Todos los contenedores harán NAT a esta IP
+			- Todos los contenedores harán NAT a esta IP y a través de la IP de salida de la máquina host o servidor en la que tenéis Docker instalado.

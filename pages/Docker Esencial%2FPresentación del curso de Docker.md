@@ -8,6 +8,8 @@ tags:: Docker, LinkedIn-Learning
 		- No todas las aplicaciones necesitan las mismas versiones de librerías.
 		- Al estar consumiendo recursos todas las aplicaciones juntas, se pueden llegar a robar demasiados recursos
 		- Los recursos de los servidores estaban al 0% (antes de máquinas virtuales)
-			- Después llegaron las máquinas virtuales y se segmnen
+			- Después llegaron las máquinas virtuales y se segmentaron sus recursos y se emuló su estructura de capas del SO.
+			- ![image.png](../assets/image_1661524893063_0.png)
+			-
 -
 -

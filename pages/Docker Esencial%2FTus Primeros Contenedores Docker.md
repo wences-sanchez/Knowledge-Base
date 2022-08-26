@@ -25,6 +25,7 @@ tags:: Docker, LinkedIn-Learning
 		- Así, podemos coger un software para hacerle pruebas y testearlo con diferentes versiones del Sistema Operativo.
 			- Y testear si el fallo de un dev es a causa de su versión
 		- También podemos probar con distintas veriones de un software mismo (como por ejemplo **Python**)
+	- ## 7. Parar y borrar contenedores
 		-
 		-
 -

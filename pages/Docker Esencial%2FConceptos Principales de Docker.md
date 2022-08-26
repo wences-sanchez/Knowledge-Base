@@ -51,5 +51,7 @@ tags:: Docker, LinkedIn-Learning
 		- Pero podemos crear también nosotros redes. Lo hacemos con:
 			- `$ docker network create --driver (bridge | host | none) <nombre-red>`
 			- Si hacemos un `$ ifconfig`, vemos que nos aparece una interfaz de red virtual nueva con las siglas.
-			- Dentro de ese rango de red, aparecerán todos los contenedores que ejecutemos en <nombre-red>
+			- Dentro de ese rango de red, aparecerán todos los contenedores que ejecutemos en <nombre-red>.
+			- Estando las redes separadas y sin poder comunicarse una red con otras.
+				- Esto es mejor para la seguridad.
 -

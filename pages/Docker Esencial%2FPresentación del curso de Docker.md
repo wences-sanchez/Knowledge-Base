@@ -5,7 +5,11 @@ tags:: Docker, LinkedIn-Learning
 - # Presentación del curso de Docker
 	- ## 1. Qué es un contenedor
 		- Los contenedores aparecen por distintos problemas que pasaban:
-			- Resumidamente, por las **librerías**, **entornos de ejecución** (de SOs) y de **recursos entre procesos**.
+			- Resumidamente, por:
+				- las **librerías**,
+				- **entornos de ejecución** (de SOs) y de
+				- **recursos entre procesos**.
+			-
 			- No todas las aplicaciones necesitan las mismas versiones de librerías.
 			- Al estar consumiendo recursos todas las aplicaciones juntas, se pueden llegar a robar demasiados recursos
 			- Los recursos de los servidores estaban al 0% (antes de máquinas virtuales)

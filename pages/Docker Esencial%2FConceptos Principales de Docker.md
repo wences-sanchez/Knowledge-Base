@@ -21,4 +21,4 @@ tags:: Docker, LinkedIn-Learning
 		-
 		- Pueden estar: EXIT, PAUSED o RUNNING
 		- Sus datos se almacenan en capas
-			- DTodos los cambios que se hacen, en vez de creares
+			- Desde la primera imagen que partimos (que es la que crea la base del contendor). Todos los cambios que se hacen, en vez de creares

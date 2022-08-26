@@ -49,4 +49,6 @@ tags:: Docker, LinkedIn-Learning
 			- Tiene una dirección IP privada y cuando se conecta a la red bridge, lo que hace es recibir por DHCP una dirección IP de este rango.
 			- Todos los contenedores harán NAT a esta IP y a través de la IP de salida de la máquina host o servidor en la que tenéis Docker instalado.
 		- Pero podemos crear también nosotros redes. Lo hacemos con:
-			- `$ docker network create --driver (bridge | host | none) n`
+			- `$ docker network create --driver (bridge | host | none) <nombre-red>`
+			- Si hacemos un `$ ifconfig`, vemos que nos aparece
+-

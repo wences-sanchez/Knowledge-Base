@@ -39,12 +39,12 @@ tags:: Docker, LinkedIn-Learning
 				- Overlay2 es el más rápido
 	-
 		- ### Flashcards
-			- ¿Qué es el **Storage driver** en
-			- El **storage driver** es el sistema de ficheros que Docker utiliza para almacenar las capas en disco.
-				- Docker NO almacena simplemente los ficheros tal cual, sino que usa un sistema para poder almacenar capa a capa los contenidos de los contenedores
-				- Hay varios. Los más comunes son **AUFS** y **OverlayFS** (overlay2)
-					- Overlay2 es el más rápido
-	- ## 4. Tags en Docker
+			- ¿Qué es el **Storage driver** en Docker? #flashcard
+				- El **storage driver** es el sistema de ficheros que Docker utiliza para almacenar las capas en disco.
+					- Docker NO almacena simplemente los ficheros tal cual, sino que usa un sistema para poder almacenar capa a capa los contenidos de los contenedores
+					- Hay varios. Los más comunes son **AUFS** y **OverlayFS** (overlay2)
+						- Overlay2 es el más rápido
+	- ## 4. Tags en Docker #flashcard
 		- Normalmente, se usan para etiquetar la versión del software que tenemos incluido en esa imagen.
 			- Puede ser tanto números como palabras
 		- Es buena práctica no usar *latest* porque si hay un contenedor sin etiqueta usará ese.

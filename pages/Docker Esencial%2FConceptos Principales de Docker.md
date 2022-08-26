@@ -42,5 +42,7 @@ tags:: Docker, LinkedIn-Learning
 			- #### 2. Host
 				- Lo que hace host es copiar la configuración de red del host (es decir, del servidor o máquina donde está Docker) en el contenedor que estamos arrancando
 			- #### 3. None
-				-
+				- Utiliza el driver `null`.
+				- Lo que hace es eliminar toda la configuración de red de nuestro contenedor.
+				- Si creamos un contenedor con ****
 			-

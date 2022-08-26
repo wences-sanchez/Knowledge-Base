@@ -50,5 +50,6 @@ tags:: Docker, LinkedIn-Learning
 			- Todos los contenedores harán NAT a esta IP y a través de la IP de salida de la máquina host o servidor en la que tenéis Docker instalado.
 		- Pero podemos crear también nosotros redes. Lo hacemos con:
 			- `$ docker network create --driver (bridge | host | none) <nombre-red>`
-			- Si hacemos un `$ ifconfig`, vemos que nos aparece
+			- Si hacemos un `$ ifconfig`, vemos que nos aparece una interfaz de red virtual nueva con las siglas.
+			- Dentro de ese rango de red, aparecerán todos los contenedores que ejecutemos en <nombre-red>
 -

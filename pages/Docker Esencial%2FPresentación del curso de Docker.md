@@ -17,6 +17,7 @@ tags:: Docker, LinkedIn-Learning
 			- Y no tenemos que arrancar un SO, sino la aplicación directamente.
 -
 - ## 2. Qué es Docker
-	- Docker es una plataforma de contenedores Windows y Linux
+	- Docker es una plataforma de contenedores Windows y Linux, que funciona tanto en Linux como en Windows como en MacOS.
+	- Docker está basado en ficheros de definición (o Dockerfiles)
 -
 -

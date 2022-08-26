@@ -2,7 +2,7 @@ title:: Docker Esencial/Presentación del curso de Docker
 tags:: Docker, LinkedIn-Learning
 
 - #tags #Docker #LinkedIn-Learning
--
+- # Presentación del curso de Docker
 	- ## 1. Qué es un contenedor
 		- Los contenedores aparecen por distintos problemas que pasaban:
 			- No todas las aplicaciones necesitan las mismas versiones de librerías.

@@ -719,6 +719,9 @@
  {:block/name "friday, 19-08-2022",
   :block/created-at 1660735421159,
   :block/updated-at 1660981562674}
+ {:block/name "friday, 26-08-2022",
+  :block/created-at 1661513172902,
+  :block/updated-at 1661513172902}
  {:block/name "full-title",
   :block/created-at 1660807705474,
   :block/updated-at 1660807705474}

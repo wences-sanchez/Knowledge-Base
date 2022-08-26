@@ -22,6 +22,6 @@ tags:: Docker, LinkedIn-Learning
 			  RUN echo Hola Mundo > /tmp/saludo
 			  ```
 			- Luego:
-			- `$ docker build -t contenedor-que-saluda .`
-			- `$ docker run --rm --name `
+			- `$ docker build -t imagen-para-saludar .`
+			- `$ docker run --rm --name contenedor-que-saluda imagen-para-saludar cat `
 -

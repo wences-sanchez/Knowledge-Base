@@ -16,6 +16,7 @@ tags:: Docker, LinkedIn-Learning
 	- ## 5. Crear un Contenedor y ejecutar comandos en él
 		- Podemos ejecutar `$ docker run <nombre-imagen>`.
 			- Pero si lo ejecutamos así, no veremos nada
-			- Si no ejecutamos el contenedor de manera interactiva, el contenedor ejee
+			- Si no ejecutamos el contenedor de manera interactiva, el contenedor ejecuta el proceso y sale después (sin interacción)
+			-
 		-
 -

@@ -27,7 +27,7 @@ tags:: Docker, LinkedIn-Learning
 					- las **librerías**,
 					- **entornos de ejecución** (de SOs) y de
 					- **recursos entre procesos**.
-	- ## 2. Qué es Docker
+	- ## 2. Qué es Docker #spaced
 		- Docker es una plataforma de contenedores Windows y Linux, que funciona tanto en Linux como en Windows como en MacOS.
 		- Docker está basado en ficheros de definición (o **Dockerfile**s), que contiene lo siguiente:
 			- ![image.png](../assets/image_1661525275833_0.png)

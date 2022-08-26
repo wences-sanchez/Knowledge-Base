@@ -35,8 +35,14 @@ tags:: Docker, LinkedIn-Learning
 			- Además, tienen un uso muy eficiente de tiempo (y espacio).
 				- Ya que no tienen que arrancar ningún SO (y porque permiten hacer una gestión más eficiente de las capas, en común entre distintos contenedores).
 		-
-			-
-		- ## 3. Otras tecnologías de contenedores
+			- ### Flashcards
+				- ¿Qué son los Dockerfiles? #flashcard
+					- Docker está basado en ficheros de definición (o **Dockerfile**s), que contiene lo siguiente:
+						- ![image.png](../assets/image_1661525275833_0.png)
+						- La primera ventaja es que son de muy fácil distribución estos ficheros.
+						- Además, tienen un uso muy eficiente de tiempo (y espacio).
+							- Ya que no tienen que arrancar ningún SO (y porque permiten hacer una gestión más eficiente de las capas, en común entre distintos contenedores).
+		- ## 3. Otras tecnologías de contenedores #spaced
 			- Docker **NO** es la única tecnología de contenedores.
 			- Docker puede ejecutar (entre otras cosas) contenedores Windows en Windows
 			- **RKT** es otra tecnología de la competencia que algunas empresas usan por temas concretos de eficiencia.

@@ -44,5 +44,6 @@ tags:: Docker, LinkedIn-Learning
 			- #### 3. None
 				- Utiliza el driver `null`.
 				- Lo que hace es eliminar toda la configuración de red de nuestro contenedor.
-				- Si creamos un contenedor con ****
+				- Si creamos un contenedor con **none**, solo tendremos la dirección de *loopback* 127.0.0.1 y no podremos conectarnos a ningún sitio más.
+		-
 			-

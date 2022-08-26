@@ -14,6 +14,8 @@ tags:: Docker, LinkedIn-Learning
 		- Si no decimos ningún tag, usará el *por defecto*, que es *latest*.
 		- Si queremos alguna otra versión, se la podemos especificar.
 	- ## 5. Crear un Contenedor y ejecutar comandos en él
-		- ### Ejemplo apra
+		- Podemos ejecutar `$ docker run <nombre-imagen>`.
+			- Pero si lo ejecutamos así, no veremos nada
+			-
 		-
 -

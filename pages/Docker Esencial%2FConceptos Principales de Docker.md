@@ -9,11 +9,12 @@ tags:: Docker, LinkedIn-Learning
 			- Podemos buscar SOs tanto como de apps específicas optimizado el contenedor
 		- Docker Store empieza a tener cosas más *enterprise* como plugins o soporte extra y certificaciones.
 		- Pero podemos usar el soporte y tecnología gratuitos de Docker.
-	- aa
+	-
 		- ### Flashcards
 			- Define registro en Docker: #flashcard
 				- Un **registro Docker** es un **repositorio** de **imágenes** Docker
 					- Podemos buscar SOs tanto como de apps específicas optimizado el contenedor
 				- Aparte, **Docker Store** empieza a tener cosas más *enterprise* como plugins o soporte extra y certificaciones.
 					- Pero podemos usar el soporte y tecnología gratuitos de Docker.
+	- ## 2. Contenedores y Capas en Docker
 		-

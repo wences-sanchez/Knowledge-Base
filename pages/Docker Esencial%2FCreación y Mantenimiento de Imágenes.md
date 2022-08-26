@@ -23,5 +23,5 @@ tags:: Docker, LinkedIn-Learning
 			  ```
 			- Luego:
 			- `$ docker build -t contenedor-que-saluda .`
-			-
+			- `$ docker run --rm --name `
 -

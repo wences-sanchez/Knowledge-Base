@@ -22,7 +22,7 @@ tags:: Docker, LinkedIn-Learning
 		- ![image.png](../assets/image_1661525275833_0.png)
 		- La primera ventaja es que son de muy fácil distribución estos ficheros.
 		- Además, tienen un uso muy eficiente de tiempo (y espacio).
-			- Ya que no tienen que arrancar ningún SO.
+			- Ya que no tienen que arrancar ningún SO (y porque permiten hacer una gestión más eficiente de las capas, en común entre distintos cont3ene)
 		-
 -
 -

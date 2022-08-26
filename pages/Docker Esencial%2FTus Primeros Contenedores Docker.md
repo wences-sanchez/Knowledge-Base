@@ -29,6 +29,7 @@ tags:: Docker, LinkedIn-Learning
 		- Se pueden dejar corriendo en el background contenedores cuando añadimos **-d** al `$ docker run`
 		- Para deshacernos de los contenedores, hacemos:
 			- `$ docker rm <id-del-contenedor>`
-		-
+		- Hay que pararlos siempre los contenedores antes de borrarlos.
+	-
 		-
 -

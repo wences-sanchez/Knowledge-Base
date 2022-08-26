@@ -46,5 +46,10 @@ tags:: Docker, LinkedIn-Learning
 		- Para deshacernos de los contenedores, hacemos:
 			- `$ docker rm <id-del-contenedor>`
 		- Hay que pararlos siempre los contenedores antes de borrarlos.
-	- ¿Cómo puedes borrar una imagen en Docker?
+	- ¿Cómo puedes borrar una imagen en Docker? #flashcard
+		- Las imágenes que creamos también ocupan espacio en disco (no solo los conenedores)
+		- Para borrar imágenes, usamos:
+			- `$ docker rmi <nombre-imagen>`
+		- Si queremos borrar una imagen de la cual ya existen sus capas, no se borra. Simplemente elimina el puntero *tag* de la tabla.
+		- Solo se borran las capas cuando se borra la útlima imagen que las usa.
 -

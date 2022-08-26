@@ -13,5 +13,5 @@ tags:: Docker, LinkedIn-Learning
 		- El Dockerfile está en un directorio y se llama siempre Dockerfile.
 		- Nosotros le especificamos el nombre y tag de la imágen resultante con `$ docker build -t nombre:tag .`
 			- Con el `.` le indicamos la ruta del Dockerfile
-		-
+	- ## 3. Ejecutar comandos
 -

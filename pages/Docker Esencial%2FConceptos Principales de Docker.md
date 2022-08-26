@@ -17,4 +17,4 @@ tags:: Docker, LinkedIn-Learning
 				- Aparte, **Docker Store** empieza a tener cosas más *enterprise* como plugins o soporte extra y certificaciones.
 					- Pero podemos usar el soporte y tecnología gratuitos de Docker.
 	- ## 2. Contenedores y Capas en Docker
-		-
+		- Los contenedores en Docker son el resultado de poner en marcha una imágen

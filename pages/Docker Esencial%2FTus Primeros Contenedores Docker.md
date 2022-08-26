@@ -17,6 +17,7 @@ tags:: Docker, LinkedIn-Learning
 		- Podemos ejecutar `$ docker run <nombre-imagen>`.
 			- Pero si lo ejecutamos así, no veremos nada
 			- Si no ejecutamos el contenedor de manera interactiva, el contenedor ejecuta el proceso y sale después (sin interacción)
-			- Así, ejecutamos **-i** para interacción y **-t** para qe
+			- Así, ejecutamos **-i** para interacción y **-t** para que abra una terminal
+			-
 		-
 -

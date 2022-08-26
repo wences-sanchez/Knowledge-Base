@@ -20,7 +20,7 @@ tags:: Docker, LinkedIn-Learning
 				- Podemos delimitar poniendo diferentes límites a los contenedores.
 				- Podemos limitarlos cada una de ellos a unos recursos dados.
 				- Y no tenemos que arrancar un SO, sino la aplicación directamente.
--
+		-
 	- ## 2. Qué es Docker
 		- Docker es una plataforma de contenedores Windows y Linux, que funciona tanto en Linux como en Windows como en MacOS.
 		- Docker está basado en ficheros de definición (o **Dockerfile**s), que contiene lo siguiente:
@@ -28,12 +28,12 @@ tags:: Docker, LinkedIn-Learning
 			- La primera ventaja es que son de muy fácil distribución estos ficheros.
 			- Además, tienen un uso muy eficiente de tiempo (y espacio).
 				- Ya que no tienen que arrancar ningún SO (y porque permiten hacer una gestión más eficiente de las capas, en común entre distintos contenedores).
-	- ## 3. Otras tecnologías de contenedores
-		- Docker **NO** es la única tecnología de contenedores.
-		- Docker puede ejecutar (entre otras cosas) contenedores Windows en Windows
-		- **RKT** es otra tecnología de la competencia que algunas empresas usan por temas concretos de eficiencia.
-		-
-		-
-		-
+		- ## 3. Otras tecnologías de contenedores
+			- Docker **NO** es la única tecnología de contenedores.
+			- Docker puede ejecutar (entre otras cosas) contenedores Windows en Windows
+			- **RKT** es otra tecnología de la competencia que algunas empresas usan por temas concretos de eficiencia.
+			-
+			-
+			-
 -
 -

@@ -70,4 +70,16 @@ tags:: Docker, LinkedIn-Learning
 			- Estando las redes separadas y sin poder comunicarse una red con otras.
 				- Esto es mejor para la seguridad.
 	-
-		- ### Fal
+		- ### Flashcards
+			- ¿Qué tres tipos de red ofrece Docker? #flashcard
+				- Docker nos ofrece 3 tipos de redes diferentes:
+					- #### 1. Bridge
+						- Es donde arrancarían todos nuestros contenedores por defecto.
+						- Es una red que crea un puente entre la interfaz de red del contenedor que arrancamos y una interfaz de red virtual que se crea en nuestro equipo cuando instalamos Docker.
+					- #### 2. Host
+						- Lo que hace host es copiar la configuración de red del host (es decir, del servidor o máquina donde está Docker) en el contenedor que estamos arrancando
+					- #### 3. None
+						- Utiliza el driver `null`.
+						- Lo que hace es eliminar toda la configuración de red de nuestro contenedor.
+						- Si creamos un contenedor con **none**, solo tendremos la dirección de *loopback* 127.0.0.1 y no podremos conectarnos a ningún sitio más.
+			-

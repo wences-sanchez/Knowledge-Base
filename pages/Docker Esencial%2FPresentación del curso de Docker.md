@@ -25,7 +25,9 @@ tags:: Docker, LinkedIn-Learning
 			- Ya que no tienen que arrancar ningún SO (y porque permiten hacer una gestión más eficiente de las capas, en común entre distintos contenedores).
 - ## 3. Otras tecnologías de contenedores
 	- Docker **NO** es la única tecnología de contenedores.
-	- Docker puede ejecutar (entre otras cosas) contenedores Windows en Windoe
+	- Docker puede ejecutar (entre otras cosas) contenedores Windows en Windows
+	- **RKT** es otra tecnología de la competencia que algunas empresas usan por temas concretos de eficiencia.
+	-
 	-
 	-
 -

@@ -30,6 +30,8 @@ tags:: Docker, LinkedIn-Learning
 		- Para deshacernos de los contenedores, hacemos:
 			- `$ docker rm <id-del-contenedor>`
 		- Hay que pararlos siempre los contenedores antes de borrarlos.
-	-
+	- ## 8. Borrado de imágenes y tags
+		- Las imágenes que creamos también ocupan espacio en disco (no solo los conenedores)
+		-
 		-
 -

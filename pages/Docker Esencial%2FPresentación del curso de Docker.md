@@ -36,6 +36,8 @@ tags:: Docker, LinkedIn-Learning
 				- Ya que no tienen que arrancar ningún SO (y porque permiten hacer una gestión más eficiente de las capas, en común entre distintos contenedores).
 		-
 			- ### Flashcards
+				- ¿En qué tipo de contenedores se usa Docker? #flashcard
+					- Docker es una plataforma de contenedores Windows y Linux, que funciona tanto en Linux como en Windows como en MacOS.
 				- ¿Qué son los Dockerfiles? #flashcard
 					- Docker está basado en ficheros de definición (o **Dockerfile**s), que contiene lo siguiente:
 						- ![image.png](../assets/image_1661525275833_0.png)

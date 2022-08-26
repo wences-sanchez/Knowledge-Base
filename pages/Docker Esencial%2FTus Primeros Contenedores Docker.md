@@ -32,6 +32,8 @@ tags:: Docker, LinkedIn-Learning
 		- Hay que pararlos siempre los contenedores antes de borrarlos.
 	- ## 8. Borrado de imágenes y tags
 		- Las imágenes que creamos también ocupan espacio en disco (no solo los conenedores)
-		-
+		- Para borrar imágenes, usamos:
+			- `$ docker rmi <nombre-imagen>`
+		- Si
 		-
 -

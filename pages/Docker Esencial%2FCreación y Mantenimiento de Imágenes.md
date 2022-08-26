@@ -18,6 +18,10 @@ tags:: Docker, LinkedIn-Learning
 		- Con este comando lo que hacemos es durante la construcción de nuestra futura imagen ejecutar lo que nosotros queramos.
 			- Por ejemplo:
 			- ```
+			  FROM alpine:latest
+			  RUN echo Hola Mundo > /tmp/saludo
 			  ```
+			- Luego:
+			- `$ docker build -t contenedor-que-saluda .`
 			-
 -

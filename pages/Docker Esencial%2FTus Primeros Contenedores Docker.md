@@ -18,6 +18,7 @@ tags:: Docker, LinkedIn-Learning
 			- Pero si lo ejecutamos así, no veremos nada
 			- Si no ejecutamos el contenedor de manera interactiva, el contenedor ejecuta el proceso y sale después (sin interacción)
 			- Así, ejecutamos **-i** para interacción y **-t** para que abra una terminal
-			-
+		- Para borrar automáticamente contenedores, usamos **--rm**
+			- Hay que tener cuidado porque si encontramos algo útil, se borrará todo
 		-
 -

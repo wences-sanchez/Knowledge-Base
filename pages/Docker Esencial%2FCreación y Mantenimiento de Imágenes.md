@@ -14,5 +14,6 @@ tags:: Docker, LinkedIn-Learning
 		- Nosotros le especificamos el nombre y tag de la imágen resultante con `$ docker build -t nombre:tag .`
 			- Con el `.` le indicamos la ruta del Dockerfile
 	- ## 3. Ejecutar comandos en una imagen
-		-
+		- El primer comando útil que aprenderemos es **RUN**.
+		- Con este comando lo que hacemos es durante la construcción de nue
 -

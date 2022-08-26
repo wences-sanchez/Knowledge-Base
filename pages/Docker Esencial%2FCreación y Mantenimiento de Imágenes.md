@@ -26,3 +26,5 @@ tags:: Docker, LinkedIn-Learning
 			- `$ docker run --rm --name contenedor-que-saluda imagen-para-saludar cat /tmp/saludo`
 			- `$ > Hola Mundo`
 -
+- # Flashcards
+	-

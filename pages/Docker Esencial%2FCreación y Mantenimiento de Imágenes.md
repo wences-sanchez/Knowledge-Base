@@ -16,5 +16,8 @@ tags:: Docker, LinkedIn-Learning
 	- ## 3. Ejecutar comandos en una imagen
 		- El primer comando útil que aprenderemos es **RUN**.
 		- Con este comando lo que hacemos es durante la construcción de nuestra futura imagen ejecutar lo que nosotros queramos.
+			- Por ejemplo:
+			- ```
+			  ```
 			-
 -

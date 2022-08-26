@@ -20,6 +20,7 @@ tags:: Docker, LinkedIn-Learning
 			- Así, ejecutamos **-i** para interacción y **-t** para que abra una terminal
 		- Para borrar automáticamente contenedores, usamos **--rm**
 			- Hay que tener cuidado porque si encontramos algo útil, se borrará todo inmediatamente al salir
+	- ## 6. Ejecutar diferentes versiones de Docker al mismo tiempo
 		-
 		-
 -

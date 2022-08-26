@@ -37,7 +37,8 @@ tags:: Docker, LinkedIn-Learning
 		- Si queremos borrar una imagen de la cual ya existen sus capas, no se borra. Simplemente elimina el puntero *tag* de la tabla.
 		- Solo se borran las capas cuando se borra la útlima imagen que las usa.
 - ## Flashcards
-	- ¿Cómo relacionas Docker con el testeo de aplicaciones?
+	- ¿Cómo relacionas Docker con el testeo de aplicaciones? #flashcard
+		-
 	-
 	-
 -

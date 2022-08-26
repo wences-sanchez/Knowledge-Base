@@ -3,7 +3,7 @@ author:: [[Ottessa Moshfegh]]
 full-title:: "El Meu Any De Repòs I Relaxació"
 category:: #books
 
-- Highlights first synced by [[Readwise]] [[Friday, 26-08-2022]]
+- Highlights first synced by [[Readwise]] [[Thursday, 25-08-2022]]
 	- -
 	- -No soc una ionqui ni res d'això li deia jo a la defensiva.
 	  

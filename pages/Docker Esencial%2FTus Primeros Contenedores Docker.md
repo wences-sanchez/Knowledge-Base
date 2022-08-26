@@ -7,6 +7,7 @@ tags:: Docker, LinkedIn-Learning
 	- ## 1. Instalación de Docker en Windows
 		- Ahora, se puede instalar Docker en Windows usando Hyper-V =)
 	- ## 2. Instalación de Docker en Mac
-	- ## 3.
+	- ## 3. Instalación de Docker en GNU/Linux
+		-
 		-
 -

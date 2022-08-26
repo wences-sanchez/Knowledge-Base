@@ -39,6 +39,8 @@ tags:: Docker, LinkedIn-Learning
 			- #### 1. Bridge
 				- Es donde arrancarían todos nuestros contenedores por defecto.
 				- Es una red que crea un puente entre la interfaz de red del contenedor que arrancamos y una interfaz de red virtual que se crea en nuestro equipo cuando instalamos Docker.
-			- #### 2.Host
-				- Lo que hace host es copiar la configuración de red del host (es decir, del servidor o máquina donde está Docker)
-		-
+			- #### 2. Host
+				- Lo que hace host es copiar la configuración de red del host (es decir, del servidor o máquina donde está Docker) en el contenedor que estamos arrancando
+			- #### 3. None
+				-
+			-

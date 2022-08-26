@@ -33,5 +33,7 @@ tags:: Docker, LinkedIn-Learning
 		- Normalmente, se usan para etiquetar la versión del software que tenemos incluido en esa imagen.
 			- Puede ser tanto números como palabras
 		- Es buena práctica no usar *latest* porque si hay un contenedor sin etiqueta usará ese.
-		- Cada imagen puede tener más de un tag. Y sobre la misma versión
+		- Cada imagen puede tener más de un tag. Y sobre la misma versión podemos hacer distinciones para tener instalados o no diferentes paquetes.
+	- ## 5. Redes en Docker
+		-
 		-

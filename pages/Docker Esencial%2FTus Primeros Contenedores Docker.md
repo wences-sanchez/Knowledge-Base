@@ -22,5 +22,6 @@ tags:: Docker, LinkedIn-Learning
 			- Hay que tener cuidado porque si encontramos algo útil, se borrará todo inmediatamente al salir
 	- ## 6. Ejecutar diferentes versiones de Docker al mismo tiempo
 		- Podemos usar, con Docker, versiones diferentes del software que estamos ejecutando
+		- Así, podemos
 		-
 -

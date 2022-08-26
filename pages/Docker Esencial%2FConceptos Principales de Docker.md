@@ -30,5 +30,7 @@ tags:: Docker, LinkedIn-Learning
 			- Hay varios. Los más comunes son **AUFS** y **OverlayFS** (overlay2)
 				- Overlay2 es el más rápido
 	- ## 4. Tags en Docker
-		- Normalmente se usan para etiquetar la versión del fo
+		- Normalmente, se usan para etiquetar la versión del software que tenemos incluido en esa imagen.
+			- Puede ser tanto números como palabras
+			-
 		-

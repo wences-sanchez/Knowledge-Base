@@ -24,6 +24,14 @@ tags:: Docker, LinkedIn-Learning
 			- Desde la primera imagen que partimos (que es la que crea la base del contendor). Todos los cambios que se hacen, en vez de crearse sobre el fichero original, (es decir, modificar el almacenamiento que tenemos) van creando una capa encima que indica los cambios que se han realizado.
 			- Así, siempre tenemos acceso al estado anterior del fichero, parecido a *GIT*. --> Una capa se crea sobre la otra haciendo (mismo nombre) commits a la imagen base (la primera obligatoria del FROM).
 			- Las capas que son iguales entre contenedores, Docker es suficientemente inteligente como para no duplicarlas. Las mantiene en una única referencia.
+	-
+		- ### Flashcards
+			- Sus datos se almacenan en capas
+				- Desde la primera imagen que partimos (que es la que crea la base del contendor). Todos los cambios que se hacen, en vez de crearse sobre el fichero original, (es decir, modificar el almacenamiento que tenemos) van creando una capa encima que indica los cambios que se han realizado.
+				-
+				- Así, siempre tenemos acceso al estado anterior del fichero, parecido a *GIT*. --> Una capa se crea sobre la otra haciendo (mismo nombre) commits a la imagen base (la primera obligatoria del FROM).
+				-
+				- Las capas que son iguales entre contenedores, Docker es suficientemente inteligente como para no duplicarlas. Las mantiene en una única referencia.
 	- ## 3. Sistemas de ficheros en Docker
 		- El **storage driver** es el sistema de ficheros que Docker utiliza para almacenar las capas en disco.
 			- Docker NO almacena simplemente los ficheros tal cual, sino que usa un sistema para poder almacenar capa a capa los contenidos de los contenedores

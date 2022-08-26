@@ -21,4 +21,5 @@ tags:: Docker, LinkedIn-Learning
 		-
 		- Pueden estar: EXIT, PAUSED o RUNNING
 		- Sus datos se almacenan en capas
-			- Desde la primera imagen que partimos (que es la que crea la base del contendor). Todos los cambios que se hacen, en vez de crearse sobre el fichero original, (es decir, modificar el almacenamiento que tenemos) van creand
+			- Desde la primera imagen que partimos (que es la que crea la base del contendor). Todos los cambios que se hacen, en vez de crearse sobre el fichero original, (es decir, modificar el almacenamiento que tenemos) van creando una capa encima que indica los cambios que se han realizado.
+			- Así, siempre tenemos acceso al estado anterior del fichero, parecido a *GIT*. -->

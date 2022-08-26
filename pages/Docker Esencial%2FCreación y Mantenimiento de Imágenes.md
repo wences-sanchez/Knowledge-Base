@@ -10,5 +10,6 @@ tags:: Docker, LinkedIn-Learning
 		- Tendremos normalmente que empezar desde una versión Linux estándar.
 		- Se indica en el Dockerfile con: **FROM** <image>
 			- Con esto se heredará todo. Todos los metadatos, los datos, los comandos...
-		-
+		- El Dockerfile está en un directorio y se llama siempre Dockerfile.
+		- Nosotros le especificamos el nombre y tag de
 -

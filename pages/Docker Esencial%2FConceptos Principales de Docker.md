@@ -82,4 +82,13 @@ tags:: Docker, LinkedIn-Learning
 						- Utiliza el driver `null`.
 						- Lo que hace es eliminar toda la configuración de red de nuestro contenedor.
 						- Si creamos un contenedor con **none**, solo tendremos la dirección de *loopback* 127.0.0.1 y no podremos conectarnos a ningún sitio más.
-			-
+			- ¿Cómo podemos crear una red en Docker?
+				- Cuando instalamos Docker, nos crea una interfaz llamada **docker0**.
+					- Tiene una dirección IP privada y cuando se conecta a la red bridge, lo que hace es recibir por DHCP una dirección IP de este rango.
+					- Todos los contenedores harán NAT a esta IP y a través de la IP de salida de la máquina host o servidor en la que tenéis Docker instalado.
+				- Pero podemos crear también nosotros redes. Lo hacemos con:
+					- `$ docker network create --driver (bridge | host | none) <nombre-red>`
+					- Si hacemos un `$ ifconfig`, vemos que nos aparece una interfaz de red virtual nueva con las siglas.
+					- Dentro de ese rango de red, aparecerán todos los contenedores que ejecutemos en <nombre-red>.
+					- Estando las redes separadas y sin poder comunicarse una red con otras.
+						- Esto es mejor para la seguridad.

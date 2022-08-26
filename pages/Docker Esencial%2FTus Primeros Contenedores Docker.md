@@ -42,6 +42,9 @@ tags:: Docker, LinkedIn-Learning
 		- Así, podemos coger un software para hacerle pruebas y testearlo con diferentes versiones del Sistema Operativo.
 			- Y testear si el fallo de un dev es a causa de su versión
 		- También podemos probar con distintas veriones de un software mismo (como por ejemplo **Python**)
-	- ¿
-	-
+	- ¿Cómo puedes borrar un contenedor en Docker? #flashcard
+		- Para deshacernos de los contenedores, hacemos:
+			- `$ docker rm <id-del-contenedor>`
+		- Hay que pararlos siempre los contenedores antes de borrarlos.
+	- ¿Cómo puedes borrar una imagen en Docker?
 -

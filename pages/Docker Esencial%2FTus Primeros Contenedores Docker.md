@@ -26,6 +26,6 @@ tags:: Docker, LinkedIn-Learning
 			- Y testear si el fallo de un dev es a causa de su versión
 		- También podemos probar con distintas veriones de un software mismo (como por ejemplo **Python**)
 	- ## 7. Parar y borrar contenedores
-		-
+		- Se pueden dejar corriendo en el background cuando añadimos **-d** al
 		-
 -

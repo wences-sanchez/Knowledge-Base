@@ -62,6 +62,9 @@ tags:: Docker, LinkedIn-Learning
 		- La solución es hacer todos estos pasos en un único comando RUN. En una única capa.
 			- Por ejemplo, clonamos y borramos el contenido innecesario en una única línea o instrucción.
 	- ## 6. Ordenar los comandos de múltiples líneas
-		-
+		- Podemos poner cada paquete único en una única línea
+		- Y ordenarlos por orden alfabético para no duplicarla por error.
+		- Agregar `rm -rf /var/lib/apt/lists/` para borrar la caché de los paquetes de los repositorios apt o yum.
+	-
 		-
 		-

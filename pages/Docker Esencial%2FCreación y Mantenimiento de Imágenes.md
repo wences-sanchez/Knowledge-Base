@@ -51,7 +51,9 @@ tags:: Docker, LinkedIn-Learning
 	- ## 8. Publicar puertos de la imagen
 		- Podemos usar en el Dockerfile: `EXPOSE 80`
 			- Pero esto no es suficiente para servir datos. Es solo informativo para Docker a la hora de la conectividad de red luego tendremos que ejecutar algo más.
-		-
+		- Tenemos que decirle, no sólo al contenedor que ejecuta su puerto 80, sino a la máquina host que use un puerto suyo.
+			- `$ docker run -ti --rm -p 2222:80 mi-imagen:nginx`
+			-
 		-
 		-
 		-

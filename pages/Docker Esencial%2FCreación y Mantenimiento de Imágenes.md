@@ -25,7 +25,7 @@ tags:: Docker, LinkedIn-Learning
 			- `$ docker build -t imagen-para-saludar .`
 			- `$ docker run --rm --name contenedor-que-saluda imagen-para-saludar cat /tmp/saludo`
 			- `$ > Hola Mundo`
--
+		-
 - ## Flashcards
 	- Ejemplo completo (del flujo) de creación de Dockerfile y posterior despliegue en contenedor: #flashcard
 		- Por ejemplo:

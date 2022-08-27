@@ -11,5 +11,15 @@ tags:: Docker, LinkedIn-Learning
 		- Es importante NO depender de esta funcionalidad. Y limitarla a entornos de desarrollo.
 			- En Producción, se usarían: almacenamiento de objetos, sistema de ficheros de red o cluster para el almacenamiento o bases de datos, etc.
 		- **Sin estado** quiere decir que no almacenan la configuración y ficheros que utilizan sino que son totalmente ajenos a ello.
-		-
+	- ## 2. Usar un fichero Dockerignore
+		- La función de un fichero gitignore es evitar que algunos ficheros o directorios acaben versionados
+		- Dockerignore es muy parecido. Nos permite evitar que deternimados ficheros que tenemos en la ruta del proyecto acaben, tanto en el espacio de trabajo de Docker como en el contenedor o imagen que estamos creando.
+		- Es para que no suban a Docker
+		- **.dockerignore**
+			- ```
+			  # Este es un ejemplo de .dockerignore
+			  cache/
+			  downloads/
+			  */temp
+			  ```
 		-

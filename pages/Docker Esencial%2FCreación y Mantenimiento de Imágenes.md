@@ -19,12 +19,21 @@ tags:: Docker, LinkedIn-Learning
 			- Por ejemplo:
 			- ```
 			  FROM alpine:latest
-			  RUN echo Hola Mundo > /tmp/saludo
+			  RUN echo Hola Mundo > /root/saludo
 			  ```
 			- Luego:
 			- `$ docker build -t imagen-para-saludar .`
-			- `$ docker run --rm --name contenedor-que-saluda imagen-para-saludar cat /tmp/saludo`
+			- `$ docker run --rm --name contenedor-que-saluda imagen-para-saludar cat /root/saludo`
 			- `$ > Hola Mundo`
+		- Todo lo que se ejecuta con RUN se ejecuta como superusuario
+	- ## 4. Instalando paquetes en una imagen
+		- Podemos hacer `RUN apt-get install -y <paquetes>`
+		- Pero no podremos encontrar ningún paquete.
+			- Borran todas las caches de los repositorios **apt-get**
+			- Hay que hacer `$ apt-get update` antes!
+		- Docker guarda la información de las caches. Así que si organizamos bien nuestras capas, será mucho más eficiente.
+			- La cache, si no cambiamos las capas, no las ejecuta (si no cambian las líneas)
+		-
 		-
 - ## Flashcards
 	- Ejemplo completo (del flujo) de creación de Dockerfile y posterior despliegue en contenedor: #flashcard

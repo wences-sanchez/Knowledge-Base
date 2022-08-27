@@ -38,6 +38,17 @@ tags:: Docker, LinkedIn-Learning
 	- ## 5. Agregando ficheros en una imagen
 		- El comando **ADD** lo que hace es agregar un fichero que le digamos de una ruta que tiene que ser por lo menos comenzando en el sitio donde está el Dockerfile; y entonces la copia a la ruta que le digamos dentro de la imagen que estamos creando personalizada.
 			- Por ejemplo: `ADD ficheros/index.html /var/www/curso/index.html`
+	- ## 6. Configurando variables de entorno en la imagen
+		- Lo podemos hacer con **ENV** *variable1 valor1*
+			- También, con ENV variable2="valor2" variable3="valor3"
+	- ## 7. Ejecutar un comando al arrancar el contenedor
+		- Podemos hacer en el Dockerfile `CMD["uname"]`
+			- Entonces, al arrancar el contenedor, si no le especificamos nada, imprimirá *Linux* (si es un Linux)
+		- Podemos añadirle parámetros de la siguiente manera:
+			- `CMD ["uname", "-a"]`
+		- Más avanzado, podemos usar:
+			- `CMD ["nginx", "-g", "daemon off;]`
+		-
 		-
 		-
 - ## Flashcards

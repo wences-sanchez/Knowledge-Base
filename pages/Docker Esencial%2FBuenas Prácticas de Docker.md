@@ -56,4 +56,12 @@ tags:: Docker, LinkedIn-Learning
 		- Cada uno de los contenedores se tiene que ocupar de una sola aplicación --> **Debe correr un único proceso**
 			- Aunque a veces se puedan escalar horizontalmente (una misma aplicación)
 	- ## 5. Reducir la cantidad de capas
+		- Podemos ver las capas de una imagen con el comando `$ docker history`
+		- Si construimos una imagen con muchas capas y luego intentamos borralas, no funciona así Docker.
+			- Porque se almacenan todos los cambios que hacemos y aunque la borremos, siempre estará disponible su contenido. Como en *Git*.
+		- La solución es hacer todos estos pasos en un único comando RUN. En una única capa.
+			- Por ejemplo, clonamos y borramos el contenido innecesario en una única línea o instrucción.
+	- ## 6. Ordenar los comandos de múltiples líneas
+		-
+		-
 		-

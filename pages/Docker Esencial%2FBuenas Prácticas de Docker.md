@@ -46,5 +46,14 @@ tags:: Docker, LinkedIn-Learning
 				  downloads/
 				  */temp
 				  ```
-- ## 3. Evitar paquetes innecesarios
-	-
+	- ## 3. Evitar paquetes innecesarios
+		- Debemos instalar el mínimo de paquetes posible
+			- No instalar editores de texto ni paquetesSSH
+		- No solo por eficiencia de espacio y tiempo, sino por seguridad y mantenimiento.
+		- Probar primero la imágenes *alpine* antes de usarlas en Producción
+	- ## 4. Un contenedor, una función
+		- No es buena idea usar un contenedor como una máquina virtual :(
+		- Cada uno de los contenedores se tiene que ocupar de una sola aplicación --> **Debe correr un único proceso**
+			- Aunque a veces se puedan escalar horizontalmente (una misma aplicación)
+	- ## 5. Reducir la cantidad de capas
+		-

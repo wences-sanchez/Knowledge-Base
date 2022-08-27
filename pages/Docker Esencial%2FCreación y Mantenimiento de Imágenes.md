@@ -48,7 +48,11 @@ tags:: Docker, LinkedIn-Learning
 			- `CMD ["uname", "-a"]`
 		- Más avanzado, podemos usar:
 			- `CMD ["nginx", "-g", "daemon off;"]`
-			-
+	- ## 8. Publicar puertos de la imagen
+		- Podemos usar en el Dockerfile: `EXPOSE 80`
+			- Pero esto no es suficiente para servir datos. Es solo informativo para Docker a la hora de la conectividad de red luego tendremos que ejecutar algo más.
+		-
+		-
 		-
 		-
 		-
@@ -81,3 +85,16 @@ tags:: Docker, LinkedIn-Learning
 		- ¿Cómo podemos añadir un fichero a una imagen de contenedor? #flashcard
 			- Con **ADD**. El comando **ADD** lo que hace es agregar un fichero que le digamos de una ruta que tiene que ser por lo menos comenzando en el sitio donde está el Dockerfile; y entonces la copia a la ruta que le digamos dentro de la imagen que estamos creando personalizada.
 				- Por ejemplo: `ADD ficheros/index.html /var/www/curso/index.html`
+	- ### 6º
+		- ¿Cómo podemos añadir variables de entorno a una imagen? #flashcard
+			- Lo podemos hacer con **ENV** *variable1 valor1*
+				- También (en una sola línea) con ENV variable2="valor2" variable3="valor3"
+	- ### 7º
+		- ¿Cómo puedes automatizar el arranque de un contenedor (sin usar ENTRYPOINT)? #flashcard
+			- Podemos hacer en el Dockerfile `CMD["uname"]`
+				- Entonces, al arrancar el contenedor, si no le especificamos nada, imprimirá *Linux* (si es un Linux)
+			- Podemos añadirle parámetros de la siguiente manera:
+				- `CMD ["uname", "-a"]`
+			- Más avanzado, podemos usar:
+				- `CMD ["nginx", "-g", "daemon off;"]`
+				-

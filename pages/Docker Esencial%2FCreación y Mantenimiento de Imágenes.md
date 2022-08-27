@@ -33,6 +33,11 @@ tags:: Docker, LinkedIn-Learning
 			- Hay que hacer `$ apt-get update` antes!
 		- Docker guarda la información de las caches. Así que si organizamos bien nuestras capas, será mucho más eficiente.
 			- La cache, si no cambiamos las capas, no las ejecuta (si no cambian las líneas)
+			- Si volvemos a reutilizar el Dockerfile y no hemos modificado la línea del install, el Docker no será capaz de ejecutarla antes (para actualizar las dependencias).
+			- Así que lo mejor es incluir el *apt-get update -y* en la misma línea del *apt-get install -y* que vayamos a usar
+	- ## 5. Agregando ficheros en una imagen
+		- El comando **ADD** lo que hace es agregar un fichero que le digamos de una ruta que tiene que ser por lo menos comenzando en el sitio donde está el Dockerfile; y entonces la copia a la ruta que le digamos dentro de la imagen que estamos creando personalizada.
+			- Por ejemplo: `ADD ficheros/index.html /var/www/curso/index.html`
 		-
 		-
 - ## Flashcards

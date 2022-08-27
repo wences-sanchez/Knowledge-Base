@@ -47,18 +47,37 @@ tags:: Docker, LinkedIn-Learning
 		- Podemos añadirle parámetros de la siguiente manera:
 			- `CMD ["uname", "-a"]`
 		- Más avanzado, podemos usar:
-			- `CMD ["nginx", "-g", "daemon off;]`
+			- `CMD ["nginx", "-g", "daemon off;"]`
+			-
 		-
 		-
 		-
 - ## Flashcards
-	- Ejemplo completo (del flujo) de creación de Dockerfile y posterior despliegue en contenedor: #flashcard
-		- Por ejemplo:
-		- ```
-		  FROM alpine:latest
-		  RUN echo Hola Mundo > /tmp/saludo
-		  ```
-		- Luego:
-		- `$ docker build -t imagen-para-saludar .`
-		- `$ docker run --rm --name contenedor-que-saluda imagen-para-saludar cat /tmp/saludo`
-		- `$ > Hola Mundo`
+	- ### 3. Ejecutar comandos en una imagen
+		- Ejemplo completo (del flujo) de creación de Dockerfile y posterior despliegue en contenedor: #flashcard
+			- Por ejemplo:
+			- ```
+			  FROM alpine:latest
+			  RUN echo Hola Mundo > /root/saludo
+			  ```
+			- Luego:
+			- `$ docker build -t imagen-para-saludar .`
+			- `$ docker run --rm --name contenedor-que-saluda imagen-para-saludar cat /root/saludo`
+			- `$ > Hola Mundo`
+			- Todo lo que se ejecuta con *RUN* se ejecuta como superusuario
+	- ### 4. Instalando paquetes en una imagen
+		- ¿Cómo podemos instalar paquetes en un contenedor *Docker*? #flashcard
+			- Podemos hacer `RUN apt-get install -y <paquetes>`
+			- Pero no podremos encontrar ningún paquete.
+				- Borran todas las caches de los repositorios **apt-get**
+				- Hay que hacer `$ apt-get update` antes!
+		- ¿Cuál es la mejor práctica para hacer un buen uso de la cache al escribir un Dockerfile? #flashcard
+			- Docker guarda la información de las caches. Así que si organizamos bien nuestras capas, será mucho más eficiente.
+				- La cache, si no cambiamos las capas, no las ejecuta (si no cambian las líneas)
+				- Si volvemos a reutilizar el Dockerfile y no hemos modificado la línea del install, el Docker no será capaz de ejecutarla antes (para actualizar las dependencias).
+			- Así que lo mejor es incluir el *apt-get update -y* en la misma línea del *apt-get install -y* que vayamos a usar.
+				- Para que siempre actualice y para que haya menos capas y estén más modularizadas
+	- ### 5. Agregando ficheros en una imagen
+		- ¿Cómo podemos añadir un fichero a una imagen de contenedor? #flashcard
+			- Con **ADD**. El comando **ADD** lo que hace es agregar un fichero que le digamos de una ruta que tiene que ser por lo menos comenzando en el sitio donde está el Dockerfile; y entonces la copia a la ruta que le digamos dentro de la imagen que estamos creando personalizada.
+				- Por ejemplo: `ADD ficheros/index.html /var/www/curso/index.html`

@@ -18,7 +18,7 @@
  ;; When creating the new journal page, the app will use your template if there is one.
  ;; You only need to input your template name here.
  :default-templates
- {:journals ""}
+ {:journals "Mi-revision-diaria"}
 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
@@ -109,7 +109,7 @@
  ;;  :editor/down            ["ctrl+j" "down"]
  ;;  :editor/left            ["ctrl+h" "left"]
  ;;  :editor/right           ["ctrl+l" "right"]}
- :shortcuts {:go/backward "alt+left", :editor/zoom-out "alt+down", :go/forward "alt+right", :editor/zoom-in "alt+up"}
+ :shortcuts {}
 
  ;; By default, pressing `Enter` in the document mode will create a new line.
  ;; Set this to `true` so that it's the same behaviour as the usual outliner mode.
@@ -164,16 +164,7 @@
             [(> ?d ?start)]
             [(< ?d ?next)]]
     :inputs [:today :7d-after]
-    :collapsed? false}
-    {:title "🔥 OVERDUE"
-        :query [:find (pull ?b [*])
-          :in $ ?start ?today
-          :where
-          (task ?b #{"NOW" "LATER" "TODO" "DOING"})
-          (between ?b ?start ?today)]
-        :inputs [:56d :today]
-        :collapsed? false}
- ]}
+    :collapsed? false}]}
 
  ;; Add your own commands to speedup.
  ;; E.g. [["js" "Javascript"]]
@@ -224,8 +215,7 @@
  ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
  :journal/page-title-format "EEEE, dd-MM-yyyy"
- :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 0}, :checkbox {:counts 7}, :parentheses {:counts 2}, :command {:counts 1}, :calendar {:counts 5}, :paint {:counts 0}, :list {:counts 7}, :link {:counts 0}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 6}, :tag {:counts 5}, :brackets {:counts 2}, :italic {:counts 2}, :a-b {:counts 3}, :rotate-clockwise {:counts 0}}
- :graph/settings {:excluded-pages? false, :orphan-pages? true, :builtin-pages? false}
+ :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 0}, :checkbox {:counts 1}, :parentheses {:counts 1}, :command {:counts 0}, :calendar {:counts 0}, :paint {:counts 0}, :list {:counts 0}, :link {:counts 0}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 0}, :tag {:counts 5}, :brackets {:counts 2}, :italic {:counts 0}, :a-b {:counts 0}, :rotate-clockwise {:counts 0}}
 
  ;; Properties to exclude from having property pages
  ;; E.g. #{:duration :author}

@@ -1,10 +1,10 @@
-title:: Ansible: From Basics to Guru
+title:: Ansible: From Basics to Guru (Legacy)
 
 - #tags #O'Reilly #Ansible
 - ## Module 1: Getting Started
 -
 	- ### Lesson 1: Preparing your Managed Infrastructure
-		- What is Ansible (generally)? #flashcard
+		- What is Ansible (generally)?
 			- Ansible is a configuration management tool
 			- It is used  to manage configuration on a pre-deployed infrastructure
 			- It's a DevOps tool
@@ -40,10 +40,7 @@ title:: Ansible: From Basics to Guru
 			- If a task founds that its change is already done, it doesn't fail. It just notifies *change: false*
 			-
 		- #### Lab
-			- DOING Use ad-hoc commands to request ansible facts for your Windows server
-			  :LOGBOOK:
-			  CLOCK: [2022-08-18 Thu 17:24:12]
-			  :END:
+			- TODO Use ad-hoc commands to request ansible facts for your Windows server
 			- TODO Use ad-hoc commands to create a user *anna* on your Windows server
 			-
 	- ---

@@ -50,15 +50,10 @@ title:: Ansible: From Basics to Guru
 	- ### Lesson 3: Using Ansible Playbook
 		- A playbook is a collection of plays
 		- Ansible goes task by task, waiting every host to finishes it before moving on to the next.
-		  
-		  
-		  
-		  * `-vv` fails
-		  * `-vvvv` complete debugging
-		  
-		  * If the desired state is the same, we'll see *OK*, otherwise we'll see *Changed*
-		  
-		  * Fact Gathering is only useful if we are using variables. We can disable it with `gather_facts: false` if don't
+		- `-vv` fails
+		- `-vvvv` complete debugging
+		- If the desired state is the same, we'll see *OK*, otherwise we'll see *Changed*
+		- Fact Gathering is only useful if we are using variables. We can disable it with `gather_facts: false` if don't
 		  
 		  ---
 		  
@@ -126,9 +121,9 @@ tasks:
 - name: ...
 tasks:
 - set_fact:
-    my_var: my_value
+  my_var: my_value
 - debug:
-    msg: The value is {{ my_var }}
+  msg: The value is {{ my_var }}
 ```
 
 7. **vars_prompt** to sensitive info
@@ -138,8 +133,8 @@ tasks:
 - name: ...
 vars_prompt:
 - name: package
-  prompt: Wich package do you want?
-  private: no
+prompt: Wich package do you want?
+private: no
 ```
 
 * It is possible to put variables inside a file that matches a host or group and then just simply target to it in the `hosts:` section.

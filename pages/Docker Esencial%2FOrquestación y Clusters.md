@@ -18,6 +18,14 @@ tags:: Docker, LinkedIn-Learning
 		- Y sólo tenemos que mantener esa definición en un fichero.
 			- El sistema de orquestación será el que se encargará de comunicarse directamente con la API de ese sistema y encargarle lo necesario o también modificarlo.
 	- ## 2. Docker Compose
-		- Docker Compose
+		- **Docker Compose** es una herramienta para definir y correr aplicaciones Docker multi-contenedor.
+			- Está pensado, sobre todo, para el entorno de desarrollo y para aplicaciones que empiezan a ser complejas (porque raramente tienen un solo componente).
+		- **Docker Compose** se basa en un fichero YAML en el que se definen todos los contenedores y las relaciones que tienen entre ellos.
+		- *Docker Compose* **NO** está pensado para producción.
+		-
+	- ## 3. Docker Swarm
+		- **Docker Swarm** se traduce como: *Modo enjambre*
+		- Este modo permite, desde las herramientas de terminal, gestionar un cluster (o enjambre) de máquinas Docker, desplegar servicios y gestionar su comportamiento.
+		-
 		-
 -

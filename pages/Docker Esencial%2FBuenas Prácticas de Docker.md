@@ -55,12 +55,24 @@ tags:: Docker, LinkedIn-Learning
 		- No es buena idea usar un contenedor como una máquina virtual :(
 		- Cada uno de los contenedores se tiene que ocupar de una sola aplicación --> **Debe correr un único proceso**
 			- Aunque a veces se puedan escalar horizontalmente (una misma aplicación)
+	- ### Flashcards
+	  collapsed:: true
+		- Sobre paquetes y usos de contenedores. #flashcard
+			- Debemos instalar el mínimo de paquetes posible
+				- No instalar editores de texto ni paquetesSSH
+			- No solo por eficiencia de espacio y tiempo, sino por seguridad y mantenimiento.
+			- Probar primero la imágenes *alpine* antes de usarlas en Producción
+			- **No es buena idea** usar un contenedor como una máquina virtual :(
+			- Cada uno de los contenedores se tiene que ocupar de una sola aplicación --> **Debe correr un único proceso**
+				- Aunque a veces se puedan escalar horizontalmente (una misma aplicación)
 	- ## 5. Reducir la cantidad de capas
 		- Podemos ver las capas de una imagen con el comando `$ docker history`
 		- Si construimos una imagen con muchas capas y luego intentamos borralas, no funciona así Docker.
 			- Porque se almacenan todos los cambios que hacemos y aunque la borremos, siempre estará disponible su contenido. Como en *Git*.
 		- La solución es hacer todos estos pasos en un único comando RUN. En una única capa.
 			- Por ejemplo, clonamos y borramos el contenido innecesario en una única línea o instrucción.
+	- ### Flashcards
+		- ¿Cómo podemos ver las capas de una imagen en Docker?¿Cómo funcionan las capas y su borrado?
 	- ## 6. Ordenar los comandos de múltiples líneas
 		- Podemos poner cada paquete único en una única línea
 		- Y ordenarlos por orden alfabético para no duplicarla por error.

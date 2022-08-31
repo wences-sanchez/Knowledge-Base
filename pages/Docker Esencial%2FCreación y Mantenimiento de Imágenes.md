@@ -53,12 +53,9 @@ tags:: Docker, LinkedIn-Learning
 			- Pero esto no es suficiente para servir datos. Es solo informativo para Docker a la hora de la conectividad de red luego tendremos que ejecutar algo más.
 		- Tenemos que decirle, no sólo al contenedor que ejecuta su puerto 80, sino a la máquina host que use un puerto suyo.
 			- `$ docker run -ti --rm -p 2222:80 mi-imagen:nginx`
-			-
-		-
-		-
-		-
 		-
 - ## Flashcards
+  collapsed:: true
 	- ### 3. Ejecutar comandos en una imagen
 		- Ejemplo completo (del flujo) de creación de Dockerfile y posterior despliegue en contenedor: #flashcard
 			- Por ejemplo:

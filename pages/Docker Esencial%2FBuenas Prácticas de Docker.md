@@ -72,7 +72,13 @@ tags:: Docker, LinkedIn-Learning
 		- La solución es hacer todos estos pasos en un único comando RUN. En una única capa.
 			- Por ejemplo, clonamos y borramos el contenido innecesario en una única línea o instrucción.
 	- ### Flashcards
-		- ¿Cómo podemos ver las capas de una imagen en Docker?¿Cómo funcionan las capas y su borrado?
+	  collapsed:: true
+		- ¿Cómo podemos ver las capas de una imagen en Docker?¿Cómo funcionan las capas y su borrado? #flashcard
+			- Podemos ver las capas de una imagen con el comando `$ docker history`
+			- Si construimos una imagen con muchas capas y luego intentamos borralas, no funciona así Docker.
+				- Porque se almacenan todos los cambios que hacemos y aunque la borremos, siempre estará disponible su contenido. Como en *Git*.
+			- La solución es hacer todos estos pasos en un único comando RUN. En una única capa.
+				- Por ejemplo, clonamos y borramos el contenido innecesario en una única línea o instrucción.
 	- ## 6. Ordenar los comandos de múltiples líneas
 		- Podemos poner cada paquete único en una única línea
 		- Y ordenarlos por orden alfabético para no duplicarla por error.

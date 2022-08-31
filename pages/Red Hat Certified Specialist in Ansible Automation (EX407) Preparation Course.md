@@ -6,13 +6,21 @@ tags:: ACloudGuru, Ansible
 - ## Module 1: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Course Overview]]
 -
 - ## Module 2: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Understanding Core Components of Ansible]]
-	- Inventories are how Ansible locate and run against multiple systems.
-	- You can think of an inventory as a list of hosts
-	- Inventories are located in `/etc/ansible/hosts`, but that is configurable
-	- It could be formatted as an INI file or as a YAML file
+	- ### Inventories
+		- **Inventories** are how Ansible locate and run against multiple systems.
+		- You can think of an inventory as a list of hosts
+		- Inventories are located in `/etc/ansible/hosts`, but that is configurable
+		- It could be formatted as an INI file or as a YAML file
 	-
--
--
+		- When you are in the CLI, you have to specify the hosts against the control node will run and the module (with **-m**). It could be a built-in module.
+			- You can specify a custom inventory of yours (instead of the default) with the **-i** option.
+	-
+	- ### Modules
+		- **Modules** are essentially tools for particular tasks
+		- **Modules** (usually) take parameters
+		- They can run from the comamnd line or within a playbook
+		- There are a significant number of modules for many kinds of work
+		-
 -
 -
 -

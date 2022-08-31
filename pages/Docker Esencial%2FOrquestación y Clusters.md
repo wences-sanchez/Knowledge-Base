@@ -27,5 +27,10 @@ tags:: Docker, LinkedIn-Learning
 		- **Docker Swarm** se traduce como: *Modo enjambre*
 		- Este modo permite, desde las herramientas de terminal, gestionar un cluster (o enjambre) de máquinas Docker, desplegar servicios y gestionar su comportamiento.
 		-
+	- ## 4. Kubernetes
+		- **Kubernetes** es un sistema de gestión, creación y orquestación de clusters de contenedores, que además es software libre.
+		-
+	- ## 5. Amazon Container Service
+		-
 		-
 -

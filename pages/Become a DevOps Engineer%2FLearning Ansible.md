@@ -12,4 +12,10 @@ tags:: LinkedIn-Learning DevOps, Ansible
 			- It makes connection to other systems remotely.
 		- It uses YAML
 		- There is an alternative to Ansible Tower: AWX
+	-
+	- ### 2. Life before Ansible
+		- The silos mean the IT departments #Curiosities
+		- Now, the configuration is not done manually! =)
+	-
+	- ### 3. Ansible and Red Hat
 		-

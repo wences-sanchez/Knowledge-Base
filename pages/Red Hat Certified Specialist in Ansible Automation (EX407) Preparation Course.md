@@ -1,5 +1,7 @@
 - ## Module 1: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Course Overview]]
-	-
+-
+- ## Module 2: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Understanding Core Components of Ansible]]
+	- Inventories are
 -
 -
 -

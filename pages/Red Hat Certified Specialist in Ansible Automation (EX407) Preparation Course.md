@@ -85,7 +85,7 @@ tags:: ACloudGuru, Ansible
 		- You should read the file comprehensively and make little edits in it.
 	-
 	- #### Flashcards
-		- Where can the configuration files be located in Ansible?
+		- Where can the configuration files be located in Ansible? #flaschard
 			- Several possible locations (in order processed):
 				- 1. ANSIBLE_CONFIG (an environment variable)
 				  2. ansible.cfg (in the current directory)
@@ -93,6 +93,7 @@ tags:: ACloudGuru, Ansible
 				  4. /etc/ansible/ansible.cfg
 				- If one found, the process stops.
 			- Configuration can also be set in environment variables
+			- You should read the file comprehensively and make little edits in it.
 		-
 			-
 -

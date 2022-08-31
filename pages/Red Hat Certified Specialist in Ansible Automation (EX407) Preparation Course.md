@@ -21,19 +21,36 @@ tags:: ACloudGuru, Ansible
 		- They can run from the comamnd line or within a playbook
 		- There are a significant number of modules for many kinds of work
 		-
-	- **Variables**
+	- ### Variables
 		- Typically used for configuration values and various parameters
 		- Ansible variables may also be dictionaries.
 	-
-	- **Facts**
+	- ### Facts
 		- Facts provide certain information about a given target host.
 		- Facts are discovered by Ansible automatically when it reaches out to a host
 			- Fact gathering may be disabled
 			- It can be slow, but it retrieves the facts at that time and if you use variables you should use it.
 	-
-	- **Plays and Playbooks**
-		- The goal of a play is to map a group of hosts to some well-defined roles
-		- A play may use one or more modules to achieve a desired state on a gor
+	- ### Plays and Playbooks
+		- The goal of a **play** is to map a group of hosts to some well-defined **roles**
+		- A **play** may use one or more modules to achieve a desired state on a **group of hosts**
+		- A **playbook** is a series of **plays**
+		- A **playbook** may deploy new web servers, install a new application to existing application servers, and run SQL against some database servers to support the new application.
+		-
+	- ### Configuration Files
+		- Several possible locations (in order processed):
+			- 1. ANSIBLE_CONFIG (an environment variable)
+			  2. ansible.cfg (in the current directory)
+			  3. .ansible.cfg (in the home directory)
+			  4. /etc/ansible/ansible.cfg
+			- If one found, the process stops.
+		- Configuration can also be set in environment variables
+		-
+	- ### Ansible Configuration File
+		- You should read the
+		-
+		-
+		-
 -
 -
 -

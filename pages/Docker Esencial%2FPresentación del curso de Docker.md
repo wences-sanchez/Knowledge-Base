@@ -22,7 +22,6 @@ tags:: Docker, LinkedIn-Learning
 			- Y no tenemos que arrancar un SO, sino la aplicación directamente.
 	-
 		- ### Flashcards
-		  collapsed:: true
 			- ¿Qué problemas específicos desencadenaron la necesidad de contenedores? #flashcard
 				- Resumidamente, por:
 					- las **librerías**,
@@ -37,7 +36,6 @@ tags:: Docker, LinkedIn-Learning
 				- Ya que no tienen que arrancar ningún SO (y porque permiten hacer una gestión más eficiente de las capas, en común entre distintos contenedores).
 		-
 			- ### Flashcards
-			  collapsed:: true
 				- ¿En qué tipo de contenedores se usa Docker? #flashcard
 					- Docker es una plataforma de contenedores Windows y Linux, que funciona tanto en Linux como en Windows como en MacOS.
 				- ¿Qué son los Dockerfiles? #flashcard

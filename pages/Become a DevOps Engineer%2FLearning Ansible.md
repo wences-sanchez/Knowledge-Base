@@ -18,4 +18,12 @@ tags:: LinkedIn-Learning DevOps, Ansible
 		- Now, the configuration is not done manually! =)
 	-
 	- ### 3. Ansible and Red Hat
+		- Type in Google: *Red Hat Ansible Automation Platform*.
+			- It contains lots of learning resources
+		- Link: [Ansible Documentation](https://docs.ansible.com/ansible/latest/index.html)
+			- Or google *Ansible Documentation*!!!
+-
+- ## Module 2: [[Become a DevOps Engineer/Learning Ansible/Why Choose Ansible?]]
+	- ### 1. Ansible Ease of Use
+		- Ansible files are easy to read and understand
 		-

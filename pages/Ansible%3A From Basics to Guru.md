@@ -4,11 +4,11 @@ title:: Ansible: From Basics to Guru
 - ## Module 1: Getting Started
 -
 	- ### Lesson 1: Preparing your Managed Infrastructure
-		- What is Ansible (generally)? #carta
+		- What is Ansible (generally)? #flashcard
 			- Ansible is a configuration management tool
 			- It is used  to manage configuration on a pre-deployed infrastructure
 			- It's a DevOps tool
-		- What is the control node? #carta
+		- What is the control node?
 			- Where the Ansible software is installed
 		- The control node needs Ansible installed
 		- The manages nodes need SSH, a user account, privilege escalation (be careful with SSH keys).
@@ -89,7 +89,7 @@ title:: Ansible: From Basics to Guru
 	  
 	  * Si usamos variables, el **gather_facts** es **necesario**
 	  
-	  * There are different ways to define variables: #flashcard
+	  * There are different ways to define variables:
 	  1. In the play header using **vars:**
 	  2. In the play header using an include with **vars_files:**
 	  3. Using the **set_fact** module in a play
@@ -104,23 +104,23 @@ title:: Ansible: From Basics to Guru
 	  3. **set_fact** is a module that can be used anywhere in the playbook (nice!). It's dynamic.
 	   We write it like this:
 	  ```
-	  - name: ...
-	  tasks:
-	  - set_fact:
-	    my_var: my_value
-	  - debug:
-	    msg: The value is {{ my_var }}
-	  ```
-	  7. **vars_prompt** to sensitive info
-	   When we specify `private: no`, the user can see the answer
-	  
-	  ```
-	  - name: ...
-	  vars_prompt:
-	  - name: package
-	  prompt: Wich package do you want?
-	  private: no
-	  ```
+		- name: ...
+		  	  tasks:
+		- set_fact:
+		  my_var: my_value
+		- debug:
+		  msg: The value is {{ my_var }}
+		  	  ```
+		  	  7. **vars_prompt** to sensitive info
+		  	   When we specify `private: no`, the user can see the answer
+		  
+		  	  ```
+		- name: ...
+		  	  vars_prompt:
+		- name: package
+		  	  prompt: Wich package do you want?
+		  	  private: no
+		  	  ```
 	- It is possible to put variables inside a file that matches a host or group and then just simply target to it in the `hosts:` section.
 	- *ansible_facts** es una variable!! Como un diccionario con:
 	  `ansible_facts['key']['another_key']`	// Newest
@@ -139,7 +139,7 @@ title:: Ansible: From Basics to Guru
 		  
 		  ---
 		  
-		  * Cuando escribimos en YAML líneas con guiones, las líneas siguientes que están al mismo nivel están dentro del mismo item o elemento de esa lista. #spaced #daily-notes #Ansible
+		  * Cuando escribimos en YAML líneas con guiones, las líneas siguientes que están al mismo nivel están dentro del mismo item o elemento de esa lista.
 		  
 		  ---
 		- #### 5.8 Using magic variables
@@ -187,52 +187,40 @@ title:: Ansible: From Basics to Guru
 		  **$ ansible `<host>` -m setup
 -
 	- ### Lesson 7: Managing Files
-	  
-	  * **Synchronize** is more efficient than **copy**
-	  * But requires *rsync* in both hosts
-	  
-	  * We use *lineinfile* to add a line to a file. Also *blockinfile* is similar
-	  
-	  * With **find** we can search inside a file as we do in Unix
-	  
-	  * When we are in a conditional, we don't put "'
-	- The **fetch** module lets us to copy files from remote to local
-	  
-	  ---
-- How can you copy content from a remote machine to a local host in Ansible? #flashcard
-	- With the **fetch** module
-- What is the exact syntax of register a variable in Ansible? #flashcard
-	- With: `register: <var>` inside the parent module
-- Remember to remove the `{ }` when dealing with conditionals in Ansible!!!!
-- And include the `' '`#spaced 
-  
-  
-  
-  ---
-## Lesson 8: Using Roles and Collections
-### Collections
-- Collections are new in Ansible
-### Roles
-- The pre_task are executed before the roles
-- `$ ansible-galaxy role install <role_name>`
--
-- Its website is galaxy.ansible.com
-- `$ ansible-galaxy role list` lists all the roles installed
-- **default** can be overwritten by **vars** in the roles directory
-- The tasks/main.yml contains the principal part
-- Inside taks/, we can organize our code in different files .yml
-- templates/ dir contains the templates
-- In a playbook, it's a collection of tasks,
-	- `include_vars: # ...`
-	- `include tasks: # ...`
-- ![[Pasted image 20220729132914.png]]
-- Collections are NOT a default part of Ansible2.9
-- You can use a requirements.ym file to install multiple
-- **default** values are for values that are going to crash the role if not
-- We have to include the rol inside a playbook in order to run it
-  
-  ---
-# Module 3: Advanced Ansible Management
-## Lesson 9: Ansible Best Practices and Optimization
-- What is the difference between include and import in Ansible? #flashcard
-	- *Include* is dynamic, *Import* is added statically (before the actual play is started).
+		- **Synchronize** is more efficient than **copy**
+		- But requires *rsync* in both hosts
+		- We use *lineinfile* to add a line to a file. Also *blockinfile* is similar
+		- With **find** we can search inside a file as we do in Unix
+		- When we are in a conditional, we don't put "'
+		- The **fetch** module lets us to copy files from remote to local
+		-
+		- How can you copy content from a remote machine to a local host in Ansible?
+			- With the **fetch** module
+		- What is the exact syntax of register a variable in Ansible?
+			- With: `register: <var>` inside the parent module
+		- Remember to remove the `{ }` when dealing with conditionals in Ansible!!!!
+		- And include the `' '`
+	- ### Lesson 8: Using Roles and Collections
+		- #### Collections
+			- Collections are new in Ansible
+		- #### Roles
+			- The pre_task are executed before the roles
+			- `$ ansible-galaxy role install <role_name>`
+			- Its website is galaxy.ansible.com
+			- `$ ansible-galaxy role list` lists all the roles installed
+			- **default** can be overwritten by **vars** in the roles directory
+			- The tasks/main.yml contains the principal part
+			- Inside taks/, we can organize our code in different files .yml
+			- templates/ dir contains the templates
+			- In a playbook, it's a collection of tasks,
+				- `include_vars: # ...`
+				- `include tasks: # ...`
+			- ![[Pasted image 20220729132914.png]]
+			- Collections are NOT a default part of Ansible2.9
+			- You can use a requirements.ym file to install multiple
+			- **default** values are for values that are going to crash the role if not
+			- We have to include the rol inside a playbook in order to run it
+- ## Module 3: Advanced Ansible Management
+	- ### Lesson 9: Ansible Best Practices and Optimization
+		- What is the difference between include and import in Ansible?
+			- *Include* is dynamic, *Import* is added statically (before the actual play is started).

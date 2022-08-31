@@ -90,6 +90,13 @@ tags:: Docker, LinkedIn-Learning
 		- Pero para los comandos de capas ADD y COPY también busca el contenido dentro de los ficheros para comparlas y no ejecutarlas
 		- Para construir una imagen desde cero (porque queramos asegurarnos de que usamos las últimas versiones de los paquetes, por ejemplo), usamos:
 			- `$ docker build --nocache=true -t <nombre-imagen> .`
-		-
+	- ### Flashcards
+	  collapsed:: true
+		- En Docker, ¿cuándo se regenera exactamente la caché de las capas? #flashcard
+			- Docker busca las capas antes de generarlas.
+			- Si no encuentra una capa que sea la misma en la caché, entonces regenera todas las capas subsiguientes que haya en el Dockerfile nuevamente.
+			- Pero para los comandos de capas ADD y COPY también busca el contenido dentro de los ficheros para comparlas y no ejecutarlas
+			- Para construir una imagen desde cero (porque queramos asegurarnos de que usamos las últimas versiones de los paquetes, por ejemplo), usamos:
+				- `$ docker build --nocache=true -t <nombre-imagen> .`
 		-
 		-

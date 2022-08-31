@@ -30,7 +30,7 @@ tags:: Docker, LinkedIn-Learning
 		- Podemos hacer `RUN apt-get install -y <paquetes>`
 		- Pero no podremos encontrar ningún paquete.
 			- Borran todas las caches de los repositorios **apt-get**
-			- Hay que hacer `$ apt-get update` antes!
+			- **Hay que hacer `$ apt-get update` antes!**
 		- Docker guarda la información de las caches. Así que si organizamos bien nuestras capas, será mucho más eficiente.
 			- La cache, si no cambiamos las capas, no las ejecuta (si no cambian las líneas)
 			- Si volvemos a reutilizar el Dockerfile y no hemos modificado la línea del install, el Docker no será capaz de ejecutarla antes (para actualizar las dependencias).

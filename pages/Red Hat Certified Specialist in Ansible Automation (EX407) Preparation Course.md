@@ -21,6 +21,19 @@ tags:: ACloudGuru, Ansible
 		- They can run from the comamnd line or within a playbook
 		- There are a significant number of modules for many kinds of work
 		-
+	- **Variables**
+		- Typically used for configuration values and various parameters
+		- Ansible variables may also be dictionaries.
+	-
+	- **Facts**
+		- Facts provide certain information about a given target host.
+		- Facts are discovered by Ansible automatically when it reaches out to a host
+			- Fact gathering may be disabled
+			- It can be slow, but it retrieves the facts at that time and if you use variables you should use it.
+	-
+	- **Plays and Playbooks**
+		- The goal of a play is to map a group of hosts to some well-defined roles
+		- A play may use one or more modules to achieve a desired state on a gor
 -
 -
 -

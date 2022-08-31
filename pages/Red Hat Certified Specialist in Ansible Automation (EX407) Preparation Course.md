@@ -1,0 +1,113 @@
+title:: Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course
+tags:: ACloudGuru, Ansible
+
+- #tags #ACloudGuru #Ansible
+-
+- ## Module 1: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Course Overview]]
+-
+- ## Module 2: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Understanding Core Components of Ansible]]
+	- ### Inventories
+		- **Inventories** are how Ansible locate and run against multiple systems.
+		- You can think of an inventory as a list of hosts
+		- Inventories are located in `/etc/ansible/hosts`, but that is configurable
+		- It could be formatted as an INI file or as a YAML file
+	-
+		- When you are in the CLI, you have to specify the hosts against the control node will run and the module (with **-m**). It could be a built-in module.
+			- You can specify a custom inventory of yours (instead of the default) with the **-i** option.
+	- #### Flashcards
+	  collapsed:: true
+		- Talk about *inventories* in Ansible, how do we deal with them and where they are. Also how they are called. #flaschard
+			- **Inventories** are how Ansible locate and run against multiple systems.
+			- You can think of an inventory as a list of hosts
+			- Inventories are located in `/etc/ansible/hosts`, but that is configurable
+			- It could be formatted as an INI file or as a YAML file
+			-
+				- When you are in the CLI, you have to specify the hosts against the control node will run and the module (with **-m**). It could be a built-in module.
+					- You can specify a custom inventory of yours (instead of the default) with the **-i** option.
+		-
+	- ### Modules
+		- **Modules** are essentially tools for particular tasks
+		- **Modules** (usually) take parameters
+		- They can run from the comamnd line or within a playbook
+		- There are a significant number of modules for many kinds of work
+		-
+	- ### Variables
+		- Typically used for configuration values and various parameters
+		- Ansible variables may also be dictionaries.
+	-
+	- ### Facts
+		- Facts provide certain information about a given target host.
+		- Facts are discovered by Ansible automatically when it reaches out to a host
+			- Fact gathering may be disabled
+			- It can be slow, but it retrieves the facts at that time and if you use variables you should use it.
+	- #### Flashcards
+	  collapsed:: true
+		- About modules, variables and facts (when are facts caught?) #flaschard
+			- ### Modules
+				- **Modules** are essentially tools for particular tasks
+				- **Modules** (usually) take parameters
+				- They can run from the comamnd line or within a playbook
+				- There are a significant number of modules for many kinds of work
+				-
+			- ### Variables
+				- Typically used for configuration values and various parameters
+				- Ansible variables may also be dictionaries.
+			-
+			- ### Facts
+				- Facts provide certain information about a given target host.
+				- Facts are discovered by Ansible automatically when it reaches out to a host
+					- Fact gathering may be disabled
+					- It can be slow, but it retrieves the facts at that time and if you use variables you should use it.
+	- ### Plays and Playbooks
+		- The goal of a **play** is to map a group of hosts to some well-defined **roles**
+		- A **play** may use one or more modules to achieve a desired state on a **group of hosts**
+		- A **playbook** is a series of **plays**
+		- A **playbook** may deploy new web servers, install a new application to existing application servers, and run SQL against some database servers to support the new application.
+	-
+	- #### Flashcards
+	  collapsed:: true
+		- About plays and playbooks #flaschard
+			- The goal of a **play** is to map a group of hosts to some well-defined **roles**
+			- A **play** may use one or more modules to achieve a desired state on a **group of hosts**
+			- A **playbook** is a series of **plays**
+			- A **playbook** may deploy new web servers, install a new application to existing application servers, and run SQL against some database servers to support the new application.
+	- ### Configuration Files
+		- Several possible locations (in order processed):
+			- 1. ANSIBLE_CONFIG (an environment variable)
+			  2. ansible.cfg (in the current directory)
+			  3. .ansible.cfg (in the home directory)
+			  4. /etc/ansible/ansible.cfg
+			- If one found, the process stops.
+		- Configuration can also be set in environment variables
+		-
+	- ### Ansible Configuration File
+		- It's in `/etc/ansible/ansible.cfg`
+		- You should read the file comprehensively and make little edits in it.
+	-
+	- #### Flashcards
+		- Where can the configuration files be located in Ansible? #flaschard
+			- Several possible locations (in order processed):
+				- 1. ANSIBLE_CONFIG (an environment variable)
+				  2. ansible.cfg (in the current directory)
+				  3. .ansible.cfg (in the home directory)
+				  4. /etc/ansible/ansible.cfg
+				- If one found, the process stops.
+			- Configuration can also be set in environment variables
+			- You should read the file comprehensively and make little edits in it.
+		-
+			-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-

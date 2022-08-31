@@ -11,6 +11,7 @@ tags:: Docker, LinkedIn-Learning
 		- Pero podemos usar el soporte y tecnología gratuitos de Docker.
 	-
 		- ### Flashcards
+		  collapsed:: true
 			- Define registro en Docker: #flashcard
 				- Un **registro Docker** es un **repositorio** de **imágenes** Docker
 					- Podemos buscar SOs tanto como de apps específicas optimizado el contenedor

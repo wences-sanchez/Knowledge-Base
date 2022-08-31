@@ -22,6 +22,7 @@ tags:: Docker, LinkedIn-Learning
 			- Y no tenemos que arrancar un SO, sino la aplicación directamente.
 	-
 		- ### Flashcards
+		  collapsed:: true
 			- ¿Qué problemas específicos desencadenaron la necesidad de contenedores? #flashcard
 				- Resumidamente, por:
 					- las **librerías**,

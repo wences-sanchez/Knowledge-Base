@@ -27,6 +27,7 @@ tags:: Docker, LinkedIn-Learning
 			- Las capas que son iguales entre contenedores, Docker es suficientemente inteligente como para no duplicarlas. Las mantiene en una única referencia.
 	-
 		- ### Flashcards
+		  collapsed:: true
 			- Acerca de las capas y su estructura en Docker: #flashcard
 				- Desde la primera imagen que partimos (que es la que crea la base del contendor). Todos los cambios que se hacen, en vez de crearse sobre el fichero original, (es decir, modificar el almacenamiento que tenemos) van creando una capa encima que indica los cambios que se han realizado.
 				-
@@ -40,6 +41,7 @@ tags:: Docker, LinkedIn-Learning
 				- Overlay2 es el más rápido
 	-
 		- ### Flashcards
+		  collapsed:: true
 			- ¿Qué es el **Storage driver** en Docker? #flashcard
 				- El **storage driver** es el sistema de ficheros que Docker utiliza para almacenar las capas en disco.
 					- Docker NO almacena simplemente los ficheros tal cual, sino que usa un sistema para poder almacenar capa a capa los contenidos de los contenedores
@@ -72,6 +74,7 @@ tags:: Docker, LinkedIn-Learning
 				- Esto es mejor para la seguridad.
 	-
 		- ### Flashcards
+		  collapsed:: true
 			- ¿Qué tres tipos de red ofrece Docker? #flashcard
 				- Docker nos ofrece 3 tipos de redes diferentes:
 					- #### 1. Bridge

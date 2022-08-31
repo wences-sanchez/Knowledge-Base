@@ -41,6 +41,10 @@ title:: Ansible: From Basics to Guru (Legacy)
 			-
 		- #### Lab
 			- TODO Use ad-hoc commands to request ansible facts for your Windows server
+			  :LOGBOOK:
+			  CLOCK: [2022-08-18 Thu 17:24:12]--[2022-08-31 Wed 12:11:58] =>  306:47:46
+			  :END:
+			-
 			- TODO Use ad-hoc commands to create a user *anna* on your Windows server
 			-
 	- ---

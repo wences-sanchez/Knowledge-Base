@@ -84,5 +84,10 @@ tags:: Docker, LinkedIn-Learning
 		- Y ordenarlos por orden alfabético para no duplicarla por error.
 		- Agregar `rm -rf /var/lib/apt/lists/` para borrar la caché de los paquetes de los repositorios apt o yum.
 	-
+	- ## 7. Controlar la caché en Docker
+		- Docker busca las capas antes de generarlas.
+		- Si no encuentra una capa que sea la misma en la caché, entonces regenera todas las capas subsiguientes que haya en el Dockerfile nuevamente.
+		- Pero para los comandos de capas ADD y COPY también busca el contenido dentro de los ficheros para comparlas y no ejecutarlas
+		- Para construir una imagen desde cero (porque queramos)
 		-
 		-

@@ -104,9 +104,13 @@ tags:: ACloudGuru, Ansible
 			- Short answer: yes
 			- Long answer: they can be scoped to specific groups and hosts.
 			-
-			-
-			-
 		-
+		- What is the goal of an Ansible play? #flashcard
+			- To map a group of hosts to some well-defined roles
+		- Where is the Ansible inventory stored by default? #flashcard
+			- In `/etc/ansible/hosts`
+			- #flashcard
+			-
 		-
 			-
 -

@@ -94,7 +94,17 @@ tags:: ACloudGuru, Ansible
 				- If one found, the process stops.
 			- Configuration can also be set in environment variables
 			- You should read the file comprehensively and make little edits in it.
-		- Las variables de Ansible, ¿se pueden delimitar a que tengan únicamente un grupo, como ámbito? #flashcard
+		- Las variables de Ansible, ¿pueden ser globales, de alguna manera? #flashcard
+			- Sí, puedes definir variables para un solo grupo de hosts, por ejemplo.
+				- Puedes definirla para el grupo *default*, y así sería global a todos los hosts.
+			- También puedes usar variables de entorno del sistema como variables globales.
+		- Si uso una variable en un play, ¿será esta global? :: No, estará limitada al play y no podrá usarse fuera ni en el mismo playbook.
+		- Ansible variables, are they global? #flashcard
+			- Short answer: yes
+			- Long answer: they can be scoped to specific groups and hosts.
+			-
+			-
+			-
 		-
 		-
 			-

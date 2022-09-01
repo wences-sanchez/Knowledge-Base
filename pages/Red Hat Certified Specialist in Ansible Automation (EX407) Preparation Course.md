@@ -114,9 +114,9 @@ tags:: ACloudGuru, Ansible
 - ## Module 1:Labs #Labs
 	- ### Learning objectives:
 		- DONE Install Ansible on the control node.
-		- DOING Configure the `ansible` user on the control node for ssh shared key access to 
+		- TODO Configure the `ansible` user on the control node for ssh shared key access to 
 		  :LOGBOOK:
-		  CLOCK: [2022-09-01 Thu 17:28:36]
+		  CLOCK: [2022-09-01 Thu 17:28:36]--[2022-09-01 Thu 17:41:15] =>  00:12:39
 		  :END:
 		  managed nodes. Do not use a passphrase for the key pair.
 		- TODO Create a simple Ansible inventory on the control node in `/home/ansible/inventory` containing `node1` and `node2`.

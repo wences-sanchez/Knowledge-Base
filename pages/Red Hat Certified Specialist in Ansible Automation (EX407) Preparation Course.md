@@ -110,9 +110,18 @@ tags:: ACloudGuru, Ansible
 		- Where is the Ansible inventory stored by default? #flashcard
 			- In `/etc/ansible/hosts`
 			- #flashcard
-			-
-		-
-			-
+-
+- ## Module 1:Labs #Labs
+	- ### Learning objectives:
+		- DONE Install Ansible on the control node.
+		- DOING Configure the `ansible` user on the control node for ssh shared key access to 
+		  :LOGBOOK:
+		  CLOCK: [2022-09-01 Thu 17:28:36]
+		  :END:
+		  managed nodes. Do not use a passphrase for the key pair.
+		- TODO Create a simple Ansible inventory on the control node in `/home/ansible/inventory` containing `node1` and `node2`.
+		- TODO Configure sudo access for Ansible on `node1` and `node2` such that Ansible may use sudo for any command with no password prompt.
+		- TODO Verify each managed node is able to be accessed by Ansible from the control node using the `ping` module. Redirect the output of a successful command to `/home/ansible/output`.
 -
 -
 -

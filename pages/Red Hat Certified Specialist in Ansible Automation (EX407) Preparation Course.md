@@ -16,7 +16,7 @@ tags:: ACloudGuru, Ansible
 			- You can specify a custom inventory of yours (instead of the default) with the **-i** option.
 	- #### Flashcards
 	  collapsed:: true
-		- Talk about *inventories* in Ansible, how do we deal with them and where they are. Also how they are called. #flaschard
+		- Talk about *inventories* in Ansible, how do we deal with them and where they are. Also how they are called. #flashcard
 			- **Inventories** are how Ansible locate and run against multiple systems.
 			- You can think of an inventory as a list of hosts
 			- Inventories are located in `/etc/ansible/hosts`, but that is configurable
@@ -42,7 +42,7 @@ tags:: ACloudGuru, Ansible
 			- It can be slow, but it retrieves the facts at that time and if you use variables you should use it.
 	- #### Flashcards
 	  collapsed:: true
-		- About modules, variables and facts (when are facts caught?) #flaschard
+		- About modules, variables and facts (when are facts caught?) #flashcard
 			- ### Modules
 				- **Modules** are essentially tools for particular tasks
 				- **Modules** (usually) take parameters
@@ -66,7 +66,7 @@ tags:: ACloudGuru, Ansible
 	-
 	- #### Flashcards
 	  collapsed:: true
-		- About plays and playbooks #flaschard
+		- About plays and playbooks #flashcard
 			- The goal of a **play** is to map a group of hosts to some well-defined **roles**
 			- A **play** may use one or more modules to achieve a desired state on a **group of hosts**
 			- A **playbook** is a series of **plays**
@@ -85,7 +85,7 @@ tags:: ACloudGuru, Ansible
 		- You should read the file comprehensively and make little edits in it.
 	-
 	- #### Flashcards
-		- Where can the configuration files be located in Ansible? #flaschard
+		- Where can the configuration files be located in Ansible? #flashcard
 			- Several possible locations (in order processed):
 				- 1. ANSIBLE_CONFIG (an environment variable)
 				  2. ansible.cfg (in the current directory)
@@ -94,6 +94,8 @@ tags:: ACloudGuru, Ansible
 				- If one found, the process stops.
 			- Configuration can also be set in environment variables
 			- You should read the file comprehensively and make little edits in it.
+		- Las variables de Ansible, ¿se pueden delimitar a que tengan únicamente un grupo, como ámbito? #flashcard
+		-
 		-
 			-
 -

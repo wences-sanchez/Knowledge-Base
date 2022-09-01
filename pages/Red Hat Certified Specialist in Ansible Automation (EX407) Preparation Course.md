@@ -94,6 +94,7 @@ tags:: ACloudGuru, Ansible
 				- If one found, the process stops.
 			- Configuration can also be set in environment variables
 			- You should read the file comprehensively and make little edits in it.
+		-
 		- Las variables de Ansible, ¿pueden ser globales, de alguna manera? #flashcard
 			- Sí, puedes definir variables para un solo grupo de hosts, por ejemplo.
 				- Puedes definirla para el grupo *default*, y así sería global a todos los hosts.

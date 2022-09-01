@@ -29,3 +29,13 @@ tags:: #[[O'Reilly-Learning]]
 			  
 			  As this is an orchestration playbook and you don’t have a remote machine to connect to, you should add connection: local to your playbook. This tells Ansible that it should run on the local machine instead of trying to SSH to a remote machine (as there isn’t one available). We do this because the AWS modules in Ansible do not run against a remote host. Instead, they make HTTP requests to the Amazon API to perform actions such as creating a virtual machine.
 		- -
+- New highlights added [[Thursday, 01-09-2022]] at 6:01 PM
+	- 3. Inventory: Describing Your Servers
+		- -
+		- [Figure 3.2](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781098109141/files/assets/aur3_0302.png) #card
+			- To sum up, a playbook contains one or more plays. A play associates an unordered set of hosts with an ordered list of tasks. Each task is associated with exactly one module. Figure 3-2 depicts the relationships between playbooks, plays, hosts, tasks, and modules.
+		- -
+	- 4. Variables and Facts
+		- -
+		- If the inventory file is marked executable, Ansible will assume it is a dynamic inventory script and will execute the file instead of reading it. #space
+		- -

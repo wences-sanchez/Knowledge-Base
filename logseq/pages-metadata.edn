@@ -1392,6 +1392,18 @@
  {:block/name "real-world software development (highlights)",
   :block/created-at 1661943797956,
   :block/updated-at 1661943797956}
+ {:block/name
+  "red hat certified specialist in ansible automation (ex407) preparation course",
+  :block/created-at 1661966927880,
+  :block/updated-at 1661966986092}
+ {:block/name
+  "red hat certified specialist in ansible automation (ex407) preparation course/course overview",
+  :block/created-at 1661966927877,
+  :block/updated-at 1661966927877}
+ {:block/name
+  "red hat certified specialist in ansible automation (ex407) preparation course/understanding core components of ansible",
+  :block/created-at 1661966928028,
+  :block/updated-at 1661966928028}
  {:block/name "resilience (highlights)",
   :block/created-at 1661943798249,
   :block/updated-at 1661943798249}
@@ -1773,7 +1785,7 @@
   :block/updated-at 1660315973792}
  {:block/name "wednesday, 31-08-2022",
   :block/created-at 1661940316391,
-  :block/updated-at 1661942455247}
+  :block/updated-at 1661966933662}
  {:block/name "week 1",
   :block/created-at 1661943745391,
   :block/updated-at 1661943745391}

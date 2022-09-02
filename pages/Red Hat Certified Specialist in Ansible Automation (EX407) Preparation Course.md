@@ -140,9 +140,15 @@ tags:: ACloudGuru, Ansible
 				  collapsed:: true
 					- Crear un fichero de inventario (*inventory* por ejemplo) y añadir 127.0.0.1:2222
 			- DONE Configure sudo access for Ansible on `node1` and `node2` such that Ansible may use sudo for any command with no password prompt.
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2022-09-02 Fri 12:11:50]--[2022-09-02 Fri 13:09:37] =>  00:57:47
 			  :END:
+				- Work-around:
+				  collapsed:: true
+					- I have used an ad-hoc command with the **-u** option.
+					- I have learned that I can pass arguments to an ad-hoc commands with the -a option --> `$ ansible -i inventory all -m command -a 'echo Hola mundo!' ` # o con comillas dobles y espacios separando clave valor con '='
+					-
 			- DOING Verify each managed node is able to be accessed by Ansible from the control node using the `ping` module. Redirect the output of a successful command to `/home/ansible/output`.
 			  :LOGBOOK:
 			  CLOCK: [2022-09-02 Fri 13:09:40]

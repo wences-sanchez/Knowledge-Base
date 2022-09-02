@@ -110,7 +110,7 @@ tags:: ACloudGuru, Ansible
 		- Where is the Ansible inventory stored by default? #flashcard
 			- In `/etc/ansible/hosts`
 			- #flashcard
--
+		-
 	- ## Module 2: Labs #Labs
 		- ### Learning objectives: {{renderer :todomaster}}
 			- DONE Install Ansible on the control node.
@@ -119,11 +119,14 @@ tags:: ACloudGuru, Ansible
 			  CLOCK: [2022-09-01 Thu 17:28:36]--[2022-09-01 Thu 17:41:15] =>  00:12:39
 			  CLOCK: [2022-09-02 Fri 11:23:54]--[2022-09-02 Fri 12:02:41] =>  00:38:47
 			  :END:
-			- DOING Create a simple Ansible inventory on the control node in `/home/ansible/inventory` containing `node1` and `node2`.
+			- DONE Create a simple Ansible inventory on the control node in `/home/ansible/inventory` containing `node1` and `node2`.
 			  :LOGBOOK:
-			  CLOCK: [2022-09-02 Fri 12:03:26]
+			  CLOCK: [2022-09-02 Fri 12:03:26]--[2022-09-02 Fri 12:11:47] =>  00:08:21
 			  :END:
-			- TODO Configure sudo access for Ansible on `node1` and `node2` such that Ansible may use sudo for any command with no password prompt.
+			- DOING Configure sudo access for Ansible on `node1` and `node2` such that Ansible may use sudo for any command with no password prompt.
+			  :LOGBOOK:
+			  CLOCK: [2022-09-02 Fri 12:11:50]
+			  :END:
 			- TODO Verify each managed node is able to be accessed by Ansible from the control node using the `ping` module. Redirect the output of a successful command to `/home/ansible/output`.
 -
 -

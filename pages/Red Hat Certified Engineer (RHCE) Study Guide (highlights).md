@@ -34,11 +34,11 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- How do you see the Ansible full config? #card
 			- We will also be able to print the effective settings, that is, the default settings. For this, we have access to the command ansible-config, which has a stunning three subcommands:
-			  ansible-config view: Print the contents of the current effective Ansible configuration.
+			  **ansible-config view**: Print the contents of the current effective Ansible configuration.
 			  
-			  ansible-config dump: Print the effective settings, which are made up from explicit settings from the effective files and the default settings where an option is unset.
+			  **ansible-config dump**: Print the effective settings, which are made up from explicit settings from the effective files and the default settings where an option is unset.
 			  
-			  ansible-config list: This fully details the settings that can be made, either through variables or via directives in the configuration file or Playbook.
+			  **ansible-config list**: This fully details the settings that can be made, either through variables or via directives in the configuration file or Playbook.
 		- -
 		- -
 		- When testing if the Ansible configuration parameters are input correctly. #card

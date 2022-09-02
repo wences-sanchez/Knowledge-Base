@@ -1,6 +1,7 @@
 title:: Certificado profesional de IBM DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift
 
 - ## Week 1
+  collapsed:: true
 	- ### Understanding the Benefits of Containers
 		- #### Introduction to Containers
 			- What is a container? #flashcard
@@ -25,4 +26,11 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 			- An image is a read-only file that contains the source code, libraries, and dependencies that are needed to run an application.
 		- ¿Cuándo se le da nombre a una imagen en Docker? #flashcard
 			- En el momento del `$ docker build -t nombre:version .`
+			-
+-
+- ## Week 2
+	- ### Understanding Kubernetes Architecture
+		- #### Container Orchestration
+			- A tool for orchestration becomes necessary
+			- Kubernetes is **Open Source**
 			-

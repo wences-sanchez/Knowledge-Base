@@ -166,9 +166,9 @@ tags:: ACloudGuru, Ansible
 			  4. Check installed software
 			  5. Check system properties
 			  6. Gather system performance information
-	-
-	- You can run a shell ad-hoc command without typing shell with
-		- `$ ansible all -a "touch /tmp/my_new_file"`
+	- ### Running shell ad-hoc command without module #spaced
+		- You can run a shell ad-hoc command without typing shell with
+			- `$ ansible all -a "touch /tmp/my_new_file"`
 	- ### Common Modules
 		- Ping
 		- Setup
@@ -178,7 +178,26 @@ tags:: ACloudGuru, Ansible
 		- Copy
 		- File
 		- Git
+- ### Flashcards
+	- Mention the use cases of ad-hoc commands. #flashcard
+		- Use cases of ad-hoc commands:
+			- 1. To check log contents
+			  2. To control daemons on servers
+			  3. Process management (start, restart,...)
+			  4. Check installed software
+			  5. Check system properties
+			  6. Gather system performance information
+	- Mention at least eight of the most common modules in Ansible. #flashcard
+		- Ping
+		- Setup
+		- Package
+		- Service
+		- User
+		- Copy
+		- File
+		- Git
 		-
+	-
 -
 -
 -

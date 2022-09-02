@@ -442,6 +442,9 @@
  {:block/name "colección poesía salvat",
   :block/created-at 1660808006085,
   :block/updated-at 1660808006085}
+ {:block/name "como si existiese el perdón (highlights)",
+  :block/created-at 1662110440865,
+  :block/updated-at 1662110440865}
  {:block/name "complete guide to test automation (highlights)",
   :block/created-at 1661943761054,
   :block/updated-at 1661943761054}
@@ -536,6 +539,9 @@
  {:block/name "daily-notes",
   :block/created-at 1660029984464,
   :block/updated-at 1660029984464}
+ {:block/name "dan brown",
+  :block/created-at 1662110441378,
+  :block/updated-at 1662110441378}
  {:block/name
   "datetimeformatter support for single digit day of month and month of year (highlights)",
   :block/created-at 1661943767147,
@@ -746,12 +752,12 @@
  {:block/name "favorites",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "flaschard",
-  :block/created-at 1661943224445,
-  :block/updated-at 1661943224445}
  {:block/name "flashcard",
   :block/created-at 1660315974291,
   :block/updated-at 1660315974291}
+ {:block/name "friday, 02-09-2022",
+  :block/created-at 1662110437458,
+  :block/updated-at 1662120530458}
  {:block/name "friday, 05-08-2022",
   :block/created-at 1660315975479,
   :block/updated-at 1660315975479}
@@ -1185,6 +1191,9 @@
  {:block/name "marcel proust and pedro salinas",
   :block/created-at 1660807891560,
   :block/updated-at 1660807891560}
+ {:block/name "mariana travacio",
+  :block/created-at 1662110440876,
+  :block/updated-at 1662110440876}
  {:block/name
   "markdown editing basics - west wind html help builder (highlights)",
   :block/created-at 1661943791372,
@@ -1284,6 +1293,9 @@
  {:block/name "orange",
   :block/created-at 1660807707913,
   :block/updated-at 1660807707913}
+ {:block/name "origin (highlights)",
+  :block/created-at 1662110441364,
+  :block/updated-at 1662110441364}
  {:block/name "oscar wilde and mauro armiño",
   :block/created-at 1660807797510,
   :block/updated-at 1660807797510}
@@ -1393,13 +1405,21 @@
   :block/created-at 1661943797956,
   :block/updated-at 1661943797956}
  {:block/name
+  "red hat certified engineer (rhce) study guide (highlights)",
+  :block/created-at 1662118337763,
+  :block/updated-at 1662118338459}
+ {:block/name
   "red hat certified specialist in ansible automation (ex407) preparation course",
   :block/created-at 1661966927880,
-  :block/updated-at 1661966986092}
+  :block/updated-at 1662120361373}
  {:block/name
   "red hat certified specialist in ansible automation (ex407) preparation course/course overview",
   :block/created-at 1661966927877,
   :block/updated-at 1661966927877}
+ {:block/name
+  "red hat certified specialist in ansible automation (ex407) preparation course/run ad-hoc ansible commands",
+  :block/created-at 1662118554344,
+  :block/updated-at 1662118554344}
  {:block/name
   "red hat certified specialist in ansible automation (ex407) preparation course/understanding core components of ansible",
   :block/created-at 1661966928028,
@@ -1610,6 +1630,9 @@
  {:block/name "the data tier (highlights)",
   :block/created-at 1661943803705,
   :block/updated-at 1661943803705}
+ {:block/name "the devops career handbook (highlights)",
+  :block/created-at 1662110442443,
+  :block/updated-at 1662110442443}
  {:block/name "the devops engineer’s career guide (highlights)",
   :block/created-at 1661943803462,
   :block/updated-at 1661943803462}
@@ -1650,6 +1673,9 @@
  {:block/name "theodor kallifatides",
   :block/created-at 1660808070130,
   :block/updated-at 1660808070130}
+ {:block/name "thursday, 01-09-2022",
+  :block/created-at 1662110439933,
+  :block/updated-at 1662110439933}
  {:block/name "thursday, 11-08-2022",
   :block/created-at 1661943746792,
   :block/updated-at 1661943746792}
@@ -1785,7 +1811,7 @@
   :block/updated-at 1660315973792}
  {:block/name "wednesday, 31-08-2022",
   :block/created-at 1661940316391,
-  :block/updated-at 1661966933662}
+  :block/updated-at 1662120390233}
  {:block/name "week 1",
   :block/created-at 1661943745391,
   :block/updated-at 1661943745391}

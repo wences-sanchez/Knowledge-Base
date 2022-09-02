@@ -43,7 +43,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- When testing if the Ansible configuration parameters are input correctly. #card
 			- We do have to take care with this command, as there is absolutely no checking of the section headers we have used or of the key or values supplied. The file will print as long as it matches the INI file format. Checking the effective settings with the dump subcommand is so much more useful, especially when we filter with the --only-changed option. Come on; I will show you.
-			  $ ansible-config dump --only-changed
+			  **$ ansible-config dump --only-changed**
 			  DEFAULT_BECOME(/home/tux/.ansible.cfg) = True
 			  DEFAULT_BECOME_METHOD(/home/tux/.ansible.cfg) = sudo
 			  DEFAULT_HOST_LIST(/home/tux/.ansible.cfg) = ['/home/tux/inventory']

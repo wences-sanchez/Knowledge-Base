@@ -115,19 +115,30 @@ tags:: ACloudGuru, Ansible
 		- ### Learning objectives: {{renderer :todomaster}}
 			- DONE Install Ansible on the control node.
 			- DONE Configure the `ansible` user on the control node for ssh shared key access to managed nodes. Do not use a passphrase for the key pair.
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2022-09-01 Thu 17:28:36]--[2022-09-01 Thu 17:41:15] =>  00:12:39
 			  CLOCK: [2022-09-02 Fri 11:23:54]--[2022-09-02 Fri 12:02:41] =>  00:38:47
 			  :END:
 				- Solution:
+				  collapsed:: true
+					- [`$ ssh-copy-id` no funcionaba. Daba error de clave pública. Lo busqué en Internet y el problema era que las claves públicas no estaban --> no se podía conectar por ssh]
+					-
 					- `(wences@laptop)$ cat ~/.ssh/id_rsa.put`
-					- *C*
-					- `(vagrant@vm)$ vim /home/vagrant/.ssh/authorized_keys`
-					- *Copiar*
+					- *Copiar contenido en el portapapeles*
+					- `(vagrant@vm)$ vi /home/vagrant/.ssh/authorized_keys`
+					- *Pegar para añadir contenido del fichero anterior. Cerrar vi*
+					- `(vagrant@vm)$ exit`
+					- `(wences@laptop)$ ssh -p 2222 vagrant@127.0.0.1`
+					- *I'm inside!*
 			- DONE Create a simple Ansible inventory on the control node in `/home/ansible/inventory` containing `node1` and `node2`.
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2022-09-02 Fri 12:03:26]--[2022-09-02 Fri 12:11:47] =>  00:08:21
 			  :END:
+				- Solution:
+				  collapsed:: true
+					- Crear un fichero de inventario (*inventory* por ejemplo) y añadir 127.0.0.1:2222
 			- DOING Configure sudo access for Ansible on `node1` and `node2` such that Ansible may use sudo for any command with no password prompt.
 			  :LOGBOOK:
 			  CLOCK: [2022-09-02 Fri 12:11:50]

@@ -33,4 +33,8 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 		- #### Container Orchestration
 			- A tool for orchestration becomes necessary
 			- Kubernetes is **Open Source**
+			- ![image.png](../assets/image_1662137934969_0.png)
+	- ### Flashcards
+		- What is not *Kubernetes*? #flashcard
+			- ![image.png](../assets/image_1662137934969_0.png)
 			-

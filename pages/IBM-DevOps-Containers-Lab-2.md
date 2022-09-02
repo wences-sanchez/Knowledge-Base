@@ -198,8 +198,8 @@
 		- | 2022-04-19 | 1.2     | K Sundararajan | Updated Lab instructions |
 		- ### © IBM Corporation 2022\. All rights reserved.
 -
-- DOING Complete the lab
+- DONE Complete the lab
   :LOGBOOK:
-  CLOCK: [2022-09-02 Fri 17:58:15]
+  CLOCK: [2022-09-02 Fri 17:58:15]--[2022-09-02 Fri 18:30:19] =>  00:32:04
   :END:
 -

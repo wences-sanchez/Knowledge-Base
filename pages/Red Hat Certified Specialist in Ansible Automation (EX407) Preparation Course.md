@@ -160,7 +160,11 @@ tags:: ACloudGuru, Ansible
 - ## Module 3: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Run Ad-Hoc Ansible Commands]]
 	- Use cases of ad-hoc commands:
 		- 1. To check log contents
-		  2. T
+		  2. To control daemons on servers
+		  3. Process management (start, restart,...)
+		  4. Check installed software
+		  5. Check system properties
+		  6. Gather system performance information
 -
 -
 -

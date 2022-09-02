@@ -6,6 +6,7 @@ tags:: ACloudGuru, Ansible
 - ## Module 1: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Course Overview]]
 -
 - ## Module 2: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Understanding Core Components of Ansible]]
+  collapsed:: true
 	- ### Inventories
 		- **Inventories** are how Ansible locate and run against multiple systems.
 		- You can think of an inventory as a list of hosts
@@ -156,6 +157,10 @@ tags:: ACloudGuru, Ansible
 			- TODO Hacer lo mismo pero en los servidores de ACloudGuru
 			-
 -
+- ## Module 3: [[Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/Run Ad-Hoc Ansible Commands]]
+	- Use cases of ad-hoc commands:
+		- 1. To check log contents
+		  2. T
 -
 -
 -

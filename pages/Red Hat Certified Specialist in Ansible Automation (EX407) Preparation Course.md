@@ -119,6 +119,11 @@ tags:: ACloudGuru, Ansible
 			  CLOCK: [2022-09-01 Thu 17:28:36]--[2022-09-01 Thu 17:41:15] =>  00:12:39
 			  CLOCK: [2022-09-02 Fri 11:23:54]--[2022-09-02 Fri 12:02:41] =>  00:38:47
 			  :END:
+				- Solution:
+					- `(wences@laptop)$ cat ~/.ssh/id_rsa.put`
+					- *C*
+					- `(vagrant@vm)$ vim /home/vagrant/.ssh/authorized_keys`
+					- *Copiar*
 			- DONE Create a simple Ansible inventory on the control node in `/home/ansible/inventory` containing `node1` and `node2`.
 			  :LOGBOOK:
 			  CLOCK: [2022-09-02 Fri 12:03:26]--[2022-09-02 Fri 12:11:47] =>  00:08:21

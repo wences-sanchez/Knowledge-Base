@@ -112,15 +112,17 @@ tags:: ACloudGuru, Ansible
 			- #flashcard
 -
 	- ## Module 2: Labs #Labs
-		- ### Learning objectives:
+		- ### Learning objectives: {{renderer :todomaster}}
 			- DONE Install Ansible on the control node.
-			- DOING Configure the `ansible` user on the control node for ssh shared key access to 
+			- DONE Configure the `ansible` user on the control node for ssh shared key access to managed nodes. Do not use a passphrase for the key pair.
 			  :LOGBOOK:
 			  CLOCK: [2022-09-01 Thu 17:28:36]--[2022-09-01 Thu 17:41:15] =>  00:12:39
-			  CLOCK: [2022-09-02 Fri 11:23:54]
+			  CLOCK: [2022-09-02 Fri 11:23:54]--[2022-09-02 Fri 12:02:41] =>  00:38:47
 			  :END:
-			  managed nodes. Do not use a passphrase for the key pair.
-			- TODO Create a simple Ansible inventory on the control node in `/home/ansible/inventory` containing `node1` and `node2`.
+			- DOING Create a simple Ansible inventory on the control node in `/home/ansible/inventory` containing `node1` and `node2`.
+			  :LOGBOOK:
+			  CLOCK: [2022-09-02 Fri 12:03:26]
+			  :END:
 			- TODO Configure sudo access for Ansible on `node1` and `node2` such that Ansible may use sudo for any command with no password prompt.
 			- TODO Verify each managed node is able to be accessed by Ansible from the control node using the `ping` module. Redirect the output of a successful command to `/home/ansible/output`.
 -

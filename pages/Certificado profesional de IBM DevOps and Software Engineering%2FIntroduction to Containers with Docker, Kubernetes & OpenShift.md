@@ -19,4 +19,10 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 		-
 		- #### [[IBM-DevOps-Containers-Lab-1]]
 		- #### [[IBM-DevOps-Containers-Lab-2]]
-		-
+	-
+	- ### Quizz
+		- What is an image? #flashcard
+			- An image is a read-only file that contains the source code, libraries, and dependencies that are needed to run an application.
+		- ¿Cuándo se le da nombre a una imagen en Docker? #flashcard
+			- En el momento del `$ docker build -t nombre:version .`
+			-

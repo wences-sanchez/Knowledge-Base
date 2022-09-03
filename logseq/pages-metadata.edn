@@ -1311,6 +1311,15 @@
  {:block/name "pablo beytía y jorge acevedo guerra",
   :block/created-at 1660807749373,
   :block/updated-at 1660807749373}
+ {:block/name "pasted image 20220118121428.png",
+  :block/created-at 1662195340454,
+  :block/updated-at 1662195340454}
+ {:block/name "pasted image 20220118142331.png",
+  :block/created-at 1662195340462,
+  :block/updated-at 1662195340462}
+ {:block/name "pasted image 20220118143503.png",
+  :block/created-at 1662195340464,
+  :block/updated-at 1662195340464}
  {:block/name "pasted image 20220729132914.png",
   :block/created-at 1660735792318,
   :block/updated-at 1660735792318}
@@ -1456,6 +1465,9 @@
   "run a function only once in a class - python (highlights)",
   :block/created-at 1661943798824,
   :block/updated-at 1661943798824}
+ {:block/name "saturday, 03-09-2022",
+  :block/created-at 1662195057721,
+  :block/updated-at 1662195213175}
  {:block/name "saturday, 06-08-2022",
   :block/created-at 1660315976205,
   :block/updated-at 1660315976205}
@@ -1827,6 +1839,9 @@
  {:block/name "week 1",
   :block/created-at 1661943745391,
   :block/updated-at 1661943745391}
+ {:block/name "week-1_introduction to networking",
+  :block/created-at 1662195340469,
+  :block/updated-at 1662195340469}
  {:block/name "wenceslao sanchez's highlights and notes (highlights)",
   :block/created-at 1661943806700,
   :block/updated-at 1661943806700}

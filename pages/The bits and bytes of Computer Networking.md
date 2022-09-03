@@ -132,7 +132,19 @@ tags:: Coursera, Networking
 		- #### Basic Binary Math
 			- The subnet IP
 				- ![image.png](../assets/image_1662205075487_0.png)
-			-
+		- ### Flashcards
+			- What is subnetting? #flashcard
+				- **Subnetting** is the process of taking a large network and splitting it up into many individual and smaller subnetworks, or subnets.
+				- > Incorrect subnetting setups are a common problem you might run into as an IT Support Specialist, so it's important to have a strong understanding of how this works.
+			- How could you describe a gateway? #flashcard
+				- A **gateway** router specifically serves as the entry and exit path to a certain network. You can contrast this with core internet routers, which might only speak to other core routers.
+			- Describe a subnet mask and give one example of it #flashcard
+				- **Subnet masks** are 32-bit numbers that are normally written out as four octets in decimal.
+				- The number behind the slash stands for the *ones*, not for the *zeroes*!!!!
+					- ![image.png](../assets/image_1662204486320_0.png)
+				- The subnet IP's mask begins with *ones*, not with *zeroes*!!!
+					- ![image.png](../assets/image_1662205075487_0.png)
+					-
 -
 -
 -

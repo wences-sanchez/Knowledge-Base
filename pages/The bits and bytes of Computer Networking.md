@@ -44,8 +44,15 @@ tags:: Coursera, Networking
 					- ![image.png](../assets/image_1662200959197_0.png)
 				- Class C:
 					- ![image.png](../assets/image_1662201005683_0.png)
-				-
-				-
+				- Table:
+					- ![image.png](../assets/image_1662201401505_0.png)
+		- #### Address Resolution Protocol
+			- **ARP** is a protocol used to discover the hardware address of a node with a certain IP address
+			- An **ARP table** is a list of IP addresses and the MAC addresses associated with them.
+			- E
+			- ![image.png](../assets/image_1662201635737_0.png)
+			-
+			-
 	-
 	-
 	-

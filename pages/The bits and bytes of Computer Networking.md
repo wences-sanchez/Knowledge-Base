@@ -29,7 +29,23 @@ tags:: Coursera, Networking
 				-
 				- **Static**: They must be configured on a node manually. In most cases they are reserved for servers and network devices, and dynamic for clients. But not alway.
 		- #### IP Datagrams and Encapsulation
-			-
+			- Fields of an IP Datagram Header
+				- ![image.png](../assets/image_1662200525261_0.png)
+		- #### IP Address Classes
+			- IP addresses can be split into two sections:
+				- the network ID, and
+				- the host ID
+			- In the example of IBM having all the IPs which start with 9,
+				- ![image.png](../assets/image_1662200766911_0.png)
+			- The Address class system is a way of defining how the glogal IP address space is split up. Its types:
+				- Class A:
+					- ![image.png](../assets/image_1662200916058_0.png)
+				- Class B:
+					- ![image.png](../assets/image_1662200959197_0.png)
+				- Class C:
+					- ![image.png](../assets/image_1662201005683_0.png)
+				-
+				-
 	-
 	-
 	-

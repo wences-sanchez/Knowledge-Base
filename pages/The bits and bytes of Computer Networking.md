@@ -99,7 +99,7 @@ tags:: Coursera, Networking
 					- the host ID
 				- In the example of IBM having all the IPs which start with 9,
 					- ![image.png](../assets/image_1662200766911_0.png)
-			- Talk about the CIDR and give examples: #flashcard
+			- Talk about the IP classes and give examples: #flashcard
 			  collapsed:: true
 				- The Address class system is a way of defining how the glogal IP address space is split up. Its types:
 					- Class A:
@@ -115,9 +115,12 @@ tags:: Coursera, Networking
 	- ### Subnetting
 		- #### Subnetting
 			- **Subnetting** is the process of taking a large network and splitting it up into many individual and smaller subnetworks, or subnets.
+			- > Incorrect subnetting setups are a common problem you might run into as an IT Support Specialist, so it's important to have a strong understanding of how this works.
+			- A **gateway** router specifically serves as the entry and exit path to a certain network. You can contrast this with core internet routers, which might only speak to other core routers.
 			-
-		-
--
+		- #### Subnet Masks
+			- **Subnet masks** are 32-bit numbers that are normally written out as four octets in decimal.
+			-
 -
 -
 -

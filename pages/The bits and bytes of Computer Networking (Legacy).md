@@ -1,35 +1,19 @@
 - ## Week 1: Introduction to Networking
 	- ### The TCP/IP Five-Layer Network Model
 		- #### ¿Qué es un protocolo?
+			- Es un conjunto de estándares que los ordenadores deben seguir para comunicarse adecuadamente
+		- #### ¿A qué le llamamos “Networking”?
+			- Al ámbito completo de cómo los ordenadores se comunican entre sí con cada otro.  
+			  Networking incluye asegurarse de que:
+				- los ordenadores puedan escuchar a los demás,
+				- de que hablen protocolos que otros ordenadores puedan entender,
+				- de que repitan mensajes que no se hayan entregado totalmente, etc.
+				  Justo como los humanos nos comunicamos.
+		- #### La _capa física_ representa a los dispositivos físicos que interconectan los ordenadores
+			- Esto incluye las especificaciones para los cables de red y los conectores que unen dispositivos junto con la descripción de cómo las señales deben ser enviadas sobre esas conexiones.
+		- ####  Mientras que la capa física se refiere a todo lo relacionado con cables, conectores y señales enviadas, la {capa de enlace} es responsable de definir una manera común de interpretar esas señales, para que los dispositivos de red puedan comunicarse.
 		    
-		  Back: Es un conjunto de estándares que los ordenadores deben seguir para comunicarse adecuadamente
-		  <!--ID: 1643446012723-->
-		  END
-		  
-		  START
-		  Basic
-		  Front:
-#### ¿A qué le llamamos “Networking”?
-
-Back:
-Al ámbito completo de cómo los ordenadores se comunican entre sí con cada otro.  
-Networking incluye asegurarse de que:
-- los ordenadores puedan escuchar a los demás,
-- de que hablen protocolos que otros ordenadores puedan entender,
-- de que repitan mensajes que no se hayan entregado totalmente, etc.
-  Justo como los humanos nos comunicamos.
-  <!--ID: 1643446634395-->
-  END
-#### La {capa física} representa a los dispositivos físicos que interconectan los ordenadores
-  
-Esto incluye las especificaciones para los cables de red y los conectores que unen dispositivos junto con la descripción de cómo las señales deben ser enviadas sobre esas conexiones.
-  
-<!--ID: 1643445212943-->
-####  Mientras que la capa física se refiere a todo lo relacionado con cables, conectores y señales enviadas, la {capa de enlace} es responsable de definir una manera común de interpretar esas señales, para que los dispositivos de red puedan comunicarse.
-  
-![Untitled](layers%201%20to%202.png)
-  
-<!--ID: 1643442716996-->
+		  ![Untitled](layers%201%20to%202.png)
 #### Existen muchos protocolos en la capa de enlace, pero el más conocido es {Ethernet}, aunque las tecnologías inalámbricas son cada vez más populares.
 
    

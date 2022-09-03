@@ -16,26 +16,20 @@ tags:: Coursera, Self-Learning
 		- ### La <> representa a los dispositivos físicos que interconectan los ordenadores #flashcard
 			- Hidden word: *[capa física]*
 			- Esto incluye las especificaciones para los cables de red y los conectores que unen dispositivos junto con la descripción de cómo las señales deben ser enviadas sobre esas conexiones.
-		- ####  Mientras que la capa física se refiere a todo lo relacionado con cables, conectores y señales enviadas, la {capa de enlace} es responsable de definir una manera común de interpretar esas señales, para que los dispositivos de red puedan comunicarse.
-		    
-		  ![Untitled](layers%201%20to%202.png)
-#### Existen muchos protocolos en la capa de enlace, pero el más conocido es {Ethernet}, aunque las tecnologías inalámbricas son cada vez más populares.
-
-   
-<!--ID: 1643442717001-->
-#### Más allá de especificar los atributos de la capa física, los estándares Ethernet también definen un {protocolo} responsable de obtener datos de los nodos de la misma red o enlace.
-  
-  
-<!--ID: 1643442717006-->
-#### La tercera capa, la {capa de red}, también es conocida como la capa de Internet. Permite a diferentes redes comunicarse con otras a través de dispositivos conocidos como routers.
-  
-![Untitled](layers%201%20to%203.png)
-  
-<!--ID: 1643442717010-->
-#### De entre los conjuntos de redes conectadas a través de routers, la más famosa de ellas es {Internet}.
-  
-  
-<!--ID: 1643442717016-->
+		- Mientras que la capa física se refiere a todo lo relacionado con cables, conectores y señales enviadas, la {capa de enlace} es responsable de definir una manera común de interpretar esas señales, para que los dispositivos de red puedan comunicarse. #spaced
+			- ![image.png](../assets/image_1662206586194_0.png)
+			-
+		- Existen muchos protocolos en la capa de enlace, pero el más conocido es <>, aunque las tecnologías inalámbricas son cada vez más populares. #flashcard
+			- Hidden word: *[Ethernet]*
+		-
+		- #### Más allá de especificar los atributos de la capa física, los estándares Ethernet también definen un <> responsable de obtener datos de los nodos de la misma red o enlace. #flashcard
+			- Hidden word *[protocolo]*
+		-
+		- #### La tercera capa, la <<>>, también es conocida como la capa de Internet. Permite a diferentes redes comunicarse con otras a través de dispositivos conocidos como routers. #flashcard
+			- Hidden word: *[capa de red]*
+			- ![image.png](../assets/image_1662206925208_0.png)
+		- #### De entre los conjuntos de redes conectadas a través de routers, la más famosa de ellas es <<>>.
+			- Hidden word: *[Internet]*
 #### Mientras que la capa de enlace es responsable de obtener datos a través de un único enlace, la capa de red es responsable de obtener los datos entregados a través de {un conjunto de redes}. Es esta capa la que obtiene los datos entre dos sitios distintos.
   
 Como cuando un dispositivo en tu red local se conecta a un servidor en la Internet.

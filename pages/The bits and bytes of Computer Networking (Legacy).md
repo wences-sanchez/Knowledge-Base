@@ -42,9 +42,7 @@ tags:: Coursera, Self-Learning
 		- #### El protocolo más usado en la cuarta capa, la capa de transporte, es conocido como <<>>. #flashcard
 			- Hidden word: *[TCP (Transmission Control Protocol)]*
 			- Otros protocolos de transferencia de esta capa también usan IP para funcionar, como el protocolo UDP (User Datagram Protocol).
-#### La mayor diferencia entre TCP y UDP es que TCP provee mecanismos para asegurarse de {que los datos son fiables}, mientras que UDP no lo hace.
-      
-<!--ID: 1643445212954-->
+		- La mayor diferencia entre TCP y UDP es que TCP provee mecanismos para asegurarse de {que los datos son fiables}, mientras que UDP no lo hace.
 #### La quinta capa es la {capa de aplicación}
   
 ![Untitled](layers%201%20to%205.png)

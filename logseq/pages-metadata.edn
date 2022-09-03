@@ -175,9 +175,6 @@
   "advanced software testing - vol. 1, 2nd edition (highlights)",
   :block/created-at 1661943750879,
   :block/updated-at 1661943750879}
- {:block/name "advanced text file processing",
-  :block/created-at 1660652497354,
-  :block/updated-at 1660652497354}
  {:block/name "algorithms (highlights)",
   :block/created-at 1661943750408,
   :block/updated-at 1661943750408}
@@ -280,10 +277,6 @@
  {:block/name "become a devops engineer/learning ansible",
   :block/created-at 1661942455243,
   :block/updated-at 1661946341707}
- {:block/name
-  "become a devops engineer/learning ansible/what is ansible",
-  :block/created-at 1661946240531,
-  :block/updated-at 1661946240531}
  {:block/name
   "become a devops engineer/learning ansible/what is ansible?",
   :block/created-at 1661942886222,
@@ -451,9 +444,6 @@
  {:block/name "computer science illuminated (highlights)",
   :block/created-at 1661943761214,
   :block/updated-at 1661943761214}
- {:block/name "connecting to a server",
-  :block/created-at 1660667287032,
-  :block/updated-at 1660667287032}
  {:block/name "contenedores",
   :block/created-at 1660808029684,
   :block/updated-at 1662122655742}
@@ -752,6 +742,9 @@
  {:block/name "favorites",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name "file-path",
+  :block/created-at 1662195436568,
+  :block/updated-at 1662195436568}
  {:block/name "flashcard",
   :block/created-at 1660315974291,
   :block/updated-at 1660315974291}
@@ -1259,6 +1252,9 @@
  {:block/name "neil degrasse tyson",
   :block/created-at 1660807871446,
   :block/updated-at 1660807871446}
+ {:block/name "networking",
+  :block/created-at 1662196727625,
+  :block/updated-at 1662196727625}
  {:block/name "networking all-in-one for dummies (highlights)",
   :block/created-at 1661943792014,
   :block/updated-at 1661943792014}
@@ -1467,10 +1463,13 @@
   :block/updated-at 1661943798824}
  {:block/name "saturday, 03-09-2022",
   :block/created-at 1662195057721,
-  :block/updated-at 1662195213175}
+  :block/updated-at 1662205987773}
  {:block/name "saturday, 06-08-2022",
   :block/created-at 1660315976205,
   :block/updated-at 1660315976205}
+ {:block/name "saturday, 10-09-2022",
+  :block/created-at 1662205867932,
+  :block/updated-at 1662206026381}
  {:block/name "saturday, 13-08-2022",
   :block/created-at 1661943746993,
   :block/updated-at 1661943746993}
@@ -1534,6 +1533,9 @@
  {:block/name "self-help",
   :block/created-at 1660807833793,
   :block/updated-at 1660807833793}
+ {:block/name "self-learning",
+  :block/created-at 1662196757036,
+  :block/updated-at 1662196757036}
  {:block/name "serverfault.com",
   :block/created-at 1662136677739,
   :block/updated-at 1662136677739}
@@ -1645,6 +1647,12 @@
  {:block/name "the agile testing collection (highlights)",
   :block/created-at 1661943802782,
   :block/updated-at 1661943802782}
+ {:block/name "the bits and bytes of computer networking",
+  :block/created-at 1662196141182,
+  :block/updated-at 1662205566979}
+ {:block/name "the bits and bytes of computer networking (legacy)",
+  :block/created-at 1662195340469,
+  :block/updated-at 1662225373600}
  {:block/name "the book of longings (highlights)",
   :block/created-at 1661943803011,
   :block/updated-at 1661943803011}
@@ -1736,9 +1744,6 @@
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1660315973459,
   :block/updated-at 1660315973459}
- {:block/name "tuesday, 30-08-2022",
-  :block/created-at 1661940320301,
-  :block/updated-at 1661940320301}
  {:block/name "type:",
   :block/created-at 1660808020804,
   :block/updated-at 1660808020804}
@@ -1839,9 +1844,6 @@
  {:block/name "week 1",
   :block/created-at 1661943745391,
   :block/updated-at 1661943745391}
- {:block/name "week-1_introduction to networking",
-  :block/created-at 1662195340469,
-  :block/updated-at 1662195340469}
  {:block/name "wenceslao sanchez's highlights and notes (highlights)",
   :block/created-at 1661943806700,
   :block/updated-at 1661943806700}
@@ -1887,12 +1889,6 @@
  {:block/name "william shakespeare",
   :block/created-at 1660807759567,
   :block/updated-at 1660807759567}
- {:block/name "working with text files",
-  :block/created-at 1660642164634,
-  :block/updated-at 1660642164634}
- {:block/name "working with the bash shell",
-  :block/created-at 1660718617468,
-  :block/updated-at 1660718617468}
  {:block/name "xeridia.com",
   :block/created-at 1660807893542,
   :block/updated-at 1660807893542}

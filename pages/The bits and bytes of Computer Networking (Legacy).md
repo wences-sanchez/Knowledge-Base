@@ -28,27 +28,20 @@ tags:: Coursera, Self-Learning
 		- #### La tercera capa, la <<>>, también es conocida como la capa de Internet. Permite a diferentes redes comunicarse con otras a través de dispositivos conocidos como routers. #flashcard
 			- Hidden word: *[capa de red]*
 			- ![image.png](../assets/image_1662206925208_0.png)
-		- #### De entre los conjuntos de redes conectadas a través de routers, la más famosa de ellas es <<>>.
+		- #### De entre los conjuntos de redes conectadas a través de routers, la más famosa de ellas es <<>>. #flashcard
 			- Hidden word: *[Internet]*
-#### Mientras que la capa de enlace es responsable de obtener datos a través de un único enlace, la capa de red es responsable de obtener los datos entregados a través de {un conjunto de redes}. Es esta capa la que obtiene los datos entre dos sitios distintos.
-  
-Como cuando un dispositivo en tu red local se conecta a un servidor en la Internet.
-  
-<!--ID: 1643442417061-->
-#### El protocolo más usado en la capa de red es {IP (Internet Protocol)}.
-  
-IP (Internet Protocol) es el corazón de Internet y la mayoría de pequeñas redes a lo largo del mundo.
-  
-<!--ID: 1643442717022-->
-#### Mientras que la capa de red envía datos entre dos nodos individuales, la {capa de transporte} se encarga de solucionar qué cliente y qué programas del servidor tienen que recibir esos datos.
-  
-  
-<!--ID: 1643442717032-->
-#### El protocolo más usado en la cuarta capa, la capa de transporte, es conocido como {TCP (Transmission Control Protocol)}
-  
-Otros protocolos de transferencia de esta capa también usan IP para funcionar, como el protocolo UDP (User Datagram Protocol).
-  
-<!--ID: 1643442717036-->
+		- #### Mientras que la capa de enlace es responsable de obtener datos a través de un único enlace, la capa de red es responsable de obtener los datos entregados a través de <<>>. Es esta capa la que obtiene los datos entre dos sitios distintos. #flashcard
+			- Hidden word *[un conjunto de redes]*
+			- Como cuando un dispositivo en tu red local se conecta a un servidor en la Internet.
+			-
+		- #### El protocolo más usado en la capa de red es <<>>. #flashcard
+			- Hidden word: *[IP (Internet Protocol)]*
+			- IP (Internet Protocol) es el corazón de Internet y la mayoría de pequeñas redes a lo largo del mundo.
+		- #### Mientras que la capa de red envía datos entre dos nodos individuales, la <<>> se encarga de solucionar qué cliente y qué programas del servidor tienen que recibir esos datos. #flashcard
+			- Hidden word: *[capa de transporte]*
+		- #### El protocolo más usado en la cuarta capa, la capa de transporte, es conocido como <<>>. #flashcard
+			- Hidden word: *[TCP (Transmission Control Protocol)]*
+			- Otros protocolos de transferencia de esta capa también usan IP para funcionar, como el protocolo UDP (User Datagram Protocol).
 #### La mayor diferencia entre TCP y UDP es que TCP provee mecanismos para asegurarse de {que los datos son fiables}, mientras que UDP no lo hace.
       
 <!--ID: 1643445212954-->

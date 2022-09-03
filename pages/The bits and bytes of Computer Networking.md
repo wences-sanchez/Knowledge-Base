@@ -120,6 +120,8 @@ tags:: Coursera, Networking
 			-
 		- #### Subnet Masks
 			- **Subnet masks** are 32-bit numbers that are normally written out as four octets in decimal.
+			- ![image.png](../assets/image_1662204486320_0.png)
+		- #### Basic Binary Math
 			-
 -
 -

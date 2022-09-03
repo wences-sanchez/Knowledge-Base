@@ -28,7 +28,11 @@ tags:: Coursera, Networking
 				- **Dynamic**: They will be assigned automatically through a technology known as **Dynamic Host Configuration Protocol** (DHCP).
 				-
 				- **Static**: They must be configured on a node manually. In most cases they are reserved for servers and network devices, and dynamic for clients. But not alway.
-				-
+		- #### IP Datagrams and Encapsulation
+			-
+	-
+	-
+	-
 	- ### Flashcards
 	  collapsed:: true
 		- About LANs, their communication methods, and their problems. #flashcard

@@ -58,61 +58,64 @@ tags:: Coursera, Networking
 				- When the network interface with that IP receives the ARP broadcast, it sends back what is known as an ARP response.
 				- This response message will contain the MAC address  for the network interface in question.
 				- ![image.png](../assets/image_1662202381882_0.png)
-				-
+		- #### Sergio Path
 			-
-	-
-	-
-	-
-	- ### Flashcards
-		- About LANs, their communication methods, and their problems. #flashcard
-		  collapsed:: true
-			- On a LAN (Local Area Network), nodes can communicate with each other with their physical MAC addresses.
-				- But MAC addressing isn't a scheme that scales well.
-				- They aren't ordered in any systematic way
-					- There is no way of knowing where on the planet a certain MAC address might be at any one point in time, so it's not ideal for communicating across distances.
-				- We need another solution --> **That is the network layer**
-		- What is an IP and what can't be? #flashcard
-		  collapsed:: true
-			- IP addresses are a 32 bit long numbers made up of four octets (each octet is 8 bits).
-				- They can represent all decimal numbers from 0 to 255.
-				- ![image.png](../assets/image_1662199229331_0.png)
-				-
-				-
-			-
-		- Where do IP addresses belong? #flashcard
-		  collapsed:: true
-			- IP addresses belong to networks, not to the devices attached to those networks.
-				- My laptop will always have the same **MAC** address, but a different **IP** if I am in a cyber-cafe.
-				- The **LAN** at the Internet cafe, or the **LAN** at your house would each be individually responsible for handing out an IP address to your laptop if you power it on there.
-		- Mention the two types of IP addresses. #flashcard
-		  collapsed:: true
-			- IP addresses can be:
-				- **Dynamic**: They will be assigned automatically through a technology known as **Dynamic Host Configuration Protocol** (DHCP).
-				-
-				- **Static**: They must be configured on a node manually. In most cases they are reserved for servers and network devices, and dynamic for clients. But not alway.
-				-
-		- Talk about the network ID and host ID parts of an IP address. #flashcard
-		  collapsed:: true
-			- IP addresses can be split into two sections:
-				- the network ID, and
-				- the host ID
-			- In the example of IBM having all the IPs which start with 9,
-				- ![image.png](../assets/image_1662200766911_0.png)
-		- Talk about the CIDR and give examples: #flashcard
-		  collapsed:: true
-			- The Address class system is a way of defining how the glogal IP address space is split up. Its types:
-				- Class A:
-					- ![image.png](../assets/image_1662200916058_0.png)
-				- Class B:
-					- ![image.png](../assets/image_1662200959197_0.png)
-				- Class C:
-					- ![image.png](../assets/image_1662201005683_0.png)
-				- Table:
-					- ![image.png](../assets/image_1662201401505_0.png)
-		- What is ARP? #flashcard
-			- **ARP** is a protocol used to discover the hardware address of a node with a certain IP address
 			-
 		-
+			-
+				-
+		- ### Flashcards
+			- About LANs, their communication methods, and their problems. #flashcard
+			  collapsed:: true
+				- On a LAN (Local Area Network), nodes can communicate with each other with their physical MAC addresses.
+					- But MAC addressing isn't a scheme that scales well.
+					- They aren't ordered in any systematic way
+						- There is no way of knowing where on the planet a certain MAC address might be at any one point in time, so it's not ideal for communicating across distances.
+					- We need another solution --> **That is the network layer**
+			- What is an IP and what can't be? #flashcard
+			  collapsed:: true
+				- IP addresses are a 32 bit long numbers made up of four octets (each octet is 8 bits).
+					- They can represent all decimal numbers from 0 to 255.
+					- ![image.png](../assets/image_1662199229331_0.png)
+					-
+					-
+				-
+			- Where do IP addresses belong? #flashcard
+			  collapsed:: true
+				- IP addresses belong to networks, not to the devices attached to those networks.
+					- My laptop will always have the same **MAC** address, but a different **IP** if I am in a cyber-cafe.
+					- The **LAN** at the Internet cafe, or the **LAN** at your house would each be individually responsible for handing out an IP address to your laptop if you power it on there.
+			- Mention the two types of IP addresses. #flashcard
+			  collapsed:: true
+				- IP addresses can be:
+					- **Dynamic**: They will be assigned automatically through a technology known as **Dynamic Host Configuration Protocol** (DHCP).
+					-
+					- **Static**: They must be configured on a node manually. In most cases they are reserved for servers and network devices, and dynamic for clients. But not alway.
+					-
+			- Talk about the network ID and host ID parts of an IP address. #flashcard
+			  collapsed:: true
+				- IP addresses can be split into two sections:
+					- the network ID, and
+					- the host ID
+				- In the example of IBM having all the IPs which start with 9,
+					- ![image.png](../assets/image_1662200766911_0.png)
+			- Talk about the CIDR and give examples: #flashcard
+			  collapsed:: true
+				- The Address class system is a way of defining how the glogal IP address space is split up. Its types:
+					- Class A:
+						- ![image.png](../assets/image_1662200916058_0.png)
+					- Class B:
+						- ![image.png](../assets/image_1662200959197_0.png)
+					- Class C:
+						- ![image.png](../assets/image_1662201005683_0.png)
+					- Table:
+						- ![image.png](../assets/image_1662201401505_0.png)
+			- What is ARP? #flashcard
+				- **ARP** is a protocol used to discover the hardware address of a node with a certain IP address
+	- ### Subnetting
+		- #### Subnetting
+			- **Subnetting** is the process of taking a large network and splitting it up into many individual and smaller subnetworks, or subnets.
+			-
 		-
 -
 -

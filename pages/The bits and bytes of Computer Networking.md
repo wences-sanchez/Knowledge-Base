@@ -17,6 +17,26 @@ tags:: Coursera, Networking
 		- #### IP Addresses
 			- IP addresses are a 32 bit long numbers made up of four octets (each octet is 8 bits).
 				- They can represent all decimal numbers from 0 to 255.
+				- ![image.png](../assets/image_1662199229331_0.png)
+				-
 				-
 			- IP addresses belong to networks, not to the devices attached to those networks.
 				- My laptop will always have the same **MAC** address, but a different **IP** if I am in a cyber-cafe.
+				- The **LAN** at the Internet cafe, or the **LAN** at your house would each be individually responsible for handing out an IP address to your laptop if you power it on there.
+			-
+			- IP addresses can be:
+				- **Dynamic**: They will be assigned automatically through a technology known as **Dynamic Host Configuration Protocol** (DHCP).
+				-
+				- **Static**: They must be configured on a node manually. In most cases they are reserved for servers and network devices, and dynamic for clients. But not alway.
+				-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-

@@ -60,11 +60,8 @@ tags:: Coursera, Networking
 				- ![image.png](../assets/image_1662202381882_0.png)
 		- #### Sergio Path
 			-
-			-
-		-
-			-
-				-
 		- ### Flashcards
+		  collapsed:: true
 			- About LANs, their communication methods, and their problems. #flashcard
 			  collapsed:: true
 				- On a LAN (Local Area Network), nodes can communicate with each other with their physical MAC addresses.
@@ -111,7 +108,18 @@ tags:: Coursera, Networking
 					- Table:
 						- ![image.png](../assets/image_1662201401505_0.png)
 			- What is ARP? #flashcard
+			  collapsed:: true
 				- **ARP** is a protocol used to discover the hardware address of a node with a certain IP address
+			- Example of ARP use case #spaced
+			  collapsed:: true
+				- The host A needs to know the MAC address of an IP
+				- ![image.png](../assets/image_1662201635737_0.png)
+				- The host A sends a broadcast ARP message to the MAC broadcast address (which is all F's).
+				- Delivered to all computers
+				- ![image.png](../assets/image_1662201676119_0.png)
+				- When the network interface with that IP receives the ARP broadcast, it sends back what is known as an ARP response.
+				- This response message will contain the MAC address  for the network interface in question.
+				- ![image.png](../assets/image_1662202381882_0.png)
 	- ### Subnetting
 		- #### Subnetting
 			- **Subnetting** is the process of taking a large network and splitting it up into many individual and smaller subnetworks, or subnets.
@@ -122,6 +130,8 @@ tags:: Coursera, Networking
 			- **Subnet masks** are 32-bit numbers that are normally written out as four octets in decimal.
 			- ![image.png](../assets/image_1662204486320_0.png)
 		- #### Basic Binary Math
+			- The subnet IP
+				- ![image.png](../assets/image_1662205075487_0.png)
 			-
 -
 -

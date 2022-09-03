@@ -50,8 +50,14 @@ tags:: Coursera, Networking
 			- **ARP** is a protocol used to discover the hardware address of a node with a certain IP address
 			- An **ARP table** is a list of IP addresses and the MAC addresses associated with them.
 			- Example:
+				- The host A needs to know the MAC address of an IP
 				- ![image.png](../assets/image_1662201635737_0.png)
+				- The host A sends a broadcast ARP message to the MAC broadcast address (which is all F's).
+				- Delivered to all computers
 				- ![image.png](../assets/image_1662201676119_0.png)
+				- When the network interface with that IP receives the ARP broadcast, it sends back what is known as an ARP response.
+				- This response message will contain the MAC address  for the network interface in question.
+				- ![image.png](../assets/image_1662202381882_0.png)
 				-
 			-
 	-

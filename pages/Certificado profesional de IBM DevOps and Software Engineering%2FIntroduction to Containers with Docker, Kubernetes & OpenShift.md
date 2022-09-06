@@ -38,3 +38,6 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 		- What is not *Kubernetes*? #flashcard
 			- ![image.png](../assets/image_1662137934969_0.png)
 			-
+title:: Certificado profesional de IBM DevOps and Software Engineering/IBM-DevOps-Containers
+
+-

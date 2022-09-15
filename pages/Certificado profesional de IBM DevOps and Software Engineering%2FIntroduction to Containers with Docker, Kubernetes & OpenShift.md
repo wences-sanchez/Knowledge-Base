@@ -48,6 +48,17 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- The **Kubernetes scheduler**:
 					- It assigns newly created Pods to nodes.
 					- This means that the scheduler determines where your workloads should run within the cluster.
+				- The **Kubernetes Controller Manager**:
+					- The Kubernetes controller manager runs all the controller processes that monitor the cluster state and ensure that the actual state of a cluster matches the desired state.
+				- Finally, the **Cloud Controller Manager**:
+					- It links the Kubernetes cluster with the specified cloud provider, agnostically.
+			- About the **nodes** (**nodes** are the worker machines in a Kubernetes cluster):
+				- User applications are run on nodes
+				- May be a virtual or physical machine.
+				- Nodes are not created by Kubernetes itself, but rather by the cloud provider.
+				- This enables Kubernetes to run on a variety of infrastructures.
+				- The nodes are then managed by the control plane.
+				-
 			-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard

@@ -261,7 +261,8 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 		- #### ConfigMaps and Secrets
 		-
 		- #### Service Binding
-		-
+	-
+	- ### [[Certificado profesional de IBM DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Lab-4]]
 	-
 	- ### Flashcards
 		- What is a rolling update in Kubernetes? #flashcard

@@ -66,6 +66,8 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- Lastly, the **Kubernetes proxy** is a network proxy that runs on each node in a cluster.
 					- This proxy maintains network rules that allow communication to Pods running on nodes, in other words, communication to workloads running on your cluster.
 					- This communication can come from within or outside of the cluster.
+			- Controllers ensure that the actual state of the cluster matches the desired state.
+				-
 			-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard

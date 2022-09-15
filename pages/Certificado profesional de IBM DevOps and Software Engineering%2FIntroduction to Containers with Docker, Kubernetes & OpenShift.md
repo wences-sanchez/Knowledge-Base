@@ -98,7 +98,17 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 					- number of replicas
 					- pod template
 					- selector to identify which Pods it can acquire
-				- You shouldn't create a
+				- **You shouldn't create a ReplicaSet directly!**
+			- #### Deployment
+				- Provides updates for Pods and ReplicaSets
+				- Runs multiple replicas of your application
+				- Suitable for stateless applications
+				- It provides additional features (a higher level abstraction) to ReplicaSet like rollouts
+		-
+		- #### Kubectl CLI
+			-
+			-
+			-
 			-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard

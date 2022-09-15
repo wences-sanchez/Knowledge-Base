@@ -111,6 +111,8 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- `$ kubectl apply` --> create
 				- `$ kubectl get`  --> list
 				- `$ kubectl describe`  --> get info
+			- **Some further examples:**
+				- `$ kubectl config get-clusters`
 		-
 	- ### [[IBM-DevOps-Containers-Lab-3]]
 	-

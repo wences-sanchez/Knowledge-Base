@@ -106,6 +106,11 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- It provides additional features (a higher level abstraction) to ReplicaSet like rollouts
 		-
 		- #### Kubectl CLI
+		- #### Using Kubernetes
+			- **Basic Kubernetes commands:**
+				- `$ kubectl apply` --> create
+				- `$ kubectl get`  --> list
+				- `$ kubectl describe`  --> get info
 			-
 			-
 			-

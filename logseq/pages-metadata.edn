@@ -352,17 +352,17 @@
   :block/created-at 1661079515287,
   :block/updated-at 1661079515287}
  {:block/name
-  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-1",
-  :block/created-at 1661943755575,
-  :block/updated-at 1661943755575}
- {:block/name
-  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-2",
-  :block/created-at 1661943757564,
-  :block/updated-at 1661943757564}
- {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
   :block/created-at 1660315975029,
   :block/updated-at 1662138146150}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-1",
+  :block/created-at 1661943755575,
+  :block/updated-at 1661943755575}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-2",
+  :block/created-at 1661943757564,
+  :block/updated-at 1661943757564}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to devops",
   :block/created-at 1661943747140,
@@ -1732,6 +1732,9 @@
  {:block/name "tuesday, 02-08-2022",
   :block/created-at 1660315974691,
   :block/updated-at 1661942153409}
+ {:block/name "tuesday, 06-09-2022",
+  :block/created-at 1662457804983,
+  :block/updated-at 1662458238158}
  {:block/name "tuesday, 09-08-2022",
   :block/created-at 1661943746574,
   :block/updated-at 1661943746574}

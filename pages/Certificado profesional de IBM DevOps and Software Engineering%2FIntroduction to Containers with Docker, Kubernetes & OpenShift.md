@@ -52,7 +52,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 					- The Kubernetes controller manager runs all the controller processes that monitor the cluster state and ensure that the actual state of a cluster matches the desired state.
 				- Finally, the **Cloud Controller Manager**:
 					- It links the Kubernetes cluster with the specified cloud provider, agnostically.
-			- The **nodes** are the worker machines in a Kubernetes cluster):
+			- The **nodes** are the worker machines in a Kubernetes cluster:
 				- User applications are run on nodes
 				- May be a virtual or physical machine.
 				- Nodes are not created by Kubernetes itself, but rather by the cloud provider.
@@ -72,6 +72,41 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 		  collapsed:: true
 			- ![image.png](../assets/image_1662137934969_0.png)
 			- title:: Certificado profesional de IBM DevOps and Software Engineering/IBM-DevOps-Containers
-		- How is calle
--
+		- How is called a deployment in *Kubernetes*? #flashcard
+			- A **deployment** of **Kubernetes** is called a *cluster*.
+		- Explain what is the **Control Plane** in *Kubernetes* and which are its five components. #flashcard
+		  collapsed:: true
+			- The **Control Plane** makes decisions about the cluster and detects and responds to events in the cluster.
+			- The **Control Plane** consists of several components:
+				- First is the **Kubernetes API**:
+					- All the communications are managed by the Kubernetes API server
+				- Next is **etcd**:
+					- A highly available key value store that contains all the cluster data.
+					- When you tell Kubernetes to deploy your application, that deployment configuration is stored in **etcd**.
+					- **Etcd** is thus the source of truth for the state in a Kubernetes cluster, and the system works to bring the cluster state into line with what is stored in **etcd**.
+				- The **Kubernetes scheduler**:
+					- It assigns newly created Pods to nodes.
+					- This means that the scheduler determines where your workloads should run within the cluster.
+				- The **Kubernetes Controller Manager**:
+					- The Kubernetes controller manager runs all the controller processes that monitor the cluster state and ensure that the actual state of a cluster matches the desired state.
+				- Finally, the **Cloud Controller Manager**:
+					- It links the Kubernetes cluster with the specified cloud provider, agnostically.
+		- What is known as a **node** in *Kubernetes*? #flashcard
+		  collapsed:: true
+			- The **nodes** are the worker machines in a Kubernetes cluster:
+				- User applications are run on nodes
+				- May be a virtual or physical machine.
+				- Nodes are not created by Kubernetes itself, but rather by the cloud provider.
+				- This enables Kubernetes to run on a variety of infrastructures.
+				- The nodes are then managed by the control plane.
+		- Which three components do the nodes in Kubernetes have? #flashcard
+		  collapsed:: true
+			- The nodes are composed by:
+				- First, is the **kubelet**, the most important component.
+					- This controller communicates with the Kubernetes API server to receive new and modified Pod specifications and ensure that those Pods and their associated containers are running as desired.
+					- The kubelet also reports to the control plane on health and status.
+				- Container runtime
+				- Lastly, the **Kubernetes proxy** is a network proxy that runs on each node in a cluster.
+					- This proxy maintains network rules that allow communication to Pods running on nodes, in other words, communication to workloads running on your cluster.
+					- This communication can come from within or outside of the cluster.
 -

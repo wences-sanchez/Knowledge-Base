@@ -137,5 +137,26 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- Lastly, the **Kubernetes proxy** is a network proxy that runs on each node in a cluster.
 					- This proxy maintains network rules that allow communication to Pods running on nodes, in other words, communication to workloads running on your cluster.
 					- This communication can come from within or outside of the cluster.
-		- How would you define a *controller* in *K*
+		- How would you define a *controller* in *Kubernetes*? #flashcard
+		  collapsed:: true
+			- Controllers ensure that the actual state of the cluster matches the desired state.
+				- A control loop is defined as a non-terminating loop that regulates the state of a system.
+				- Like a thermostat.
+		- Define an object in *Kubernetes*. #flashcard
+			- **Kubernetes Objects** are persistent entities in Kubernetes.
+			- *"Persistent"* means that when you create an **object**, Kubernetes continually works to ensure that that object exists in the system, until and unless you modify or remove that **object**.
+			- You can use the Kubernetes API to work with them:
+			  collapsed:: true
+				- The kubectl CLI
+				- and the client libraries
+			- How are Kubernetes objects structured? #flashcard
+			  collapsed:: true
+				- **Objects** consist of two *parts*: **spec** and **status**
+					- The first is the field **"spec"**, which is provided by the user.
+						- The **spec** dictates the desired state for this object.
+					- The second field is the **"status"**, wich is provided by Kubernetes. The status describes the current state of the object—its actual state as opposed to its desired state.
+					- The status is updated if at any time the status of the object changes.
+					- The goal, of course, is for the desired state to match the current state, and Kubernetes continually works toward that end.
+				- In Kubernetes, the object names aren't allowed to have the same name if they belong to the same type.
+					- If the project is big, you can use *namespaces* for avoiding failures.
 -

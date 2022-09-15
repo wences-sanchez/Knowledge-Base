@@ -115,8 +115,11 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- `$ kubectl config get-clusters`
 				- `$ kubectl config get-contexts`
 				- `$ kubectl get pods`
+				- `$ kubectl get deployments`
 				- `$ kubectl describe pod hello-world`
 				- `$ kubectl delete pod hello-world`
+				- `$ kubectl expose deployment/hello-world`
+				-
 		-
 	- ### [[IBM-DevOps-Containers-Lab-3]]
 	-

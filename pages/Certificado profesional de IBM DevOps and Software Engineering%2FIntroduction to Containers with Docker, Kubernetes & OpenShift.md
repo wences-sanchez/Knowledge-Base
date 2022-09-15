@@ -111,10 +111,10 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- `$ kubectl apply` --> create
 				- `$ kubectl get`  --> list
 				- `$ kubectl describe`  --> get info
-			-
-			-
-			-
-			-
+		-
+	- ### [[IBM-DevOps-Containers-Lab-3]]
+	-
+	-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard
 		  collapsed:: true
@@ -187,5 +187,25 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- Represents processes running in your cluster
 				- It's a wrapper of a single (or multiple) container
 				- You can replicate a Pod to scale an application horizontally
+		- What is a ReplicaSet in Kubernetes and why you shouldn't use it? #flashcard
+		  collapsed:: true
+			- #### ReplicaSet
+				- Maintains a set of identical Pods
+				- Its definition consists of:
+					- number of replicas
+					- pod template
+					- selector to identify which Pods it can acquire
+				- **You shouldn't create a ReplicaSet directly!**
+			- #### Deployment
+				- Provides updates for Pods and ReplicaSets
+				- Runs multiple replicas of your application
+				- Suitable for stateless applications
+				- It provides additional features (a higher level abstraction) to ReplicaSet like rollouts
+		- Some basic commands... #flashcard
+			- **Basic Kubernetes commands:**
+				- `$ kubectl apply` --> create
+				- `$ kubectl get`  --> list
+				- `$ kubectl describe`  --> get info
+				-
 		-
 -

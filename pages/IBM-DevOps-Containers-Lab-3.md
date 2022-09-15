@@ -1,0 +1,225 @@
+- https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/instructions.md.html
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/labs_module_1_images_IDSNlogo.png)
+	- In this lab, you will:
+	- * Use the `kubectl` CLI
+	- * Create a Kubernetes Pod
+	- * Create a Kubernetes Deployment
+	- * Create a ReplicaSet that maintains a set number of replicas
+	- * Witness Kubernetes load balancing in action
+	- >> **Note: Kindly complete the lab in a single session without any break because the lab may go on offline mode and may cause errors. If you face any issues/errors during the lab process, please logout from the lab environment. Then clear your system cache and cookies and try to complete the lab.**
+	- ## Verify the environment and command line tools
+	- 1. If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.
+	- >> **Note: Please skip this step if the terminal already appears.**
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/env_cmd_1.png)
+	- 1. Verify that `kubectl` CLI is installed.
+	- ```applescript
+	- kubectl version
+	- ```
+	- You should see the following output, although the versions may be different:
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/env_cmd_2.png)
+	- 1. Change to your project folder.
+	- >> **Note: Please skip this step if you are already on the '/home/project' directory**
+	- ```gradle
+	- cd /home/project
+	- ```
+	- 1. Clone the git repository that contains the artifacts needed for this lab, if it doesn't already exist.
+	- ```awk
+	- [ ! -d 'CC201' ] && git clone https://github.com/ibm-developer-skills-network/CC201.git
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/env_cmd_4.png)
+	- 1. Change to the directory for this lab by running the following command. `cd` will change the working/current directory to the directory with the name specified, in this case **CC201/labs/2\_IntroKubernetes**.
+	- ```apache
+	- cd CC201/labs/2_IntroKubernetes/
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/env-tools-05.png)
+	- 1. List the contents of this directory to see the artifacts for this lab.
+	- ```ebnf
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/env_cmd_6.png)
+	- ## Use the `kubectl` CLI
+	- Recall that Kubernetes namespaces enable you to virtualize a cluster. You already have access to one namespace in a Kubernetes cluster, and `kubectl` is already set to target that cluster and namespace.
+	- Let's look at some basic `kubectl` commands.
+	- 1. `kubectl` requires configuration so that it targets the appropriate cluster. Get cluster information with the following command:
+	- ```dsconfig
+	- kubectl config get-clusters
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/kubectlCLI_1.png)
+	- 1. A `kubectl` context is a group of access parameters, including a cluster, a user, and a namespace. View your current context with the following command:
+	- ```dsconfig
+	- kubectl config get-contexts
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/kubectlCLI_2.png)
+	- 1. List all the Pods in your namespace. If this is a new session for you, you will not see any Pods.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/kubectlCLI_3.png)
+	- ## Create a Pod with an imperative command
+	- Now it's time to create your first Pod. This Pod will run the `hello-world` image you built and pushed to IBM Cloud Container Registry in the last lab. As explained in the videos for this module, you can create a Pod imperatively or declaratively. Let's do it imperatively first.
+	- 1. Export your namespace as an environment variable so that it can be used in subsequent commands.
+	- ```routeros
+	- export MY_NAMESPACE=sn-labs-$USERNAME
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_cmd_1.png)
+	- 1. Click the Explorer icon (it looks like a sheet of paper) on the left side of the window, and then navigate to the directory for this lab: `CC201 > labs > 2_IntroKubernetes`. Click on `Dockerfile`. This is the file that will be used to build our image.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_cmd_2.png)
+	- 1. Build and push the image again, as it may have been deleted automatically since you completed the first lab.
+	- ```gradle
+	- docker build -t us.icr.io/$MY_NAMESPACE/hello-world:1 . && docker push us.icr.io/$MY_NAMESPACE/hello-world:1
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_cmd_3.png)
+	- 1. Run the `hello-world` image as a container in Kubernetes.
+	- ```json
+	- kubectl run hello-world --image us.icr.io/$MY_NAMESPACE/hello-world:1 --overrides='{"spec":{"template":{"spec":{"imagePullSecrets":[{"name":"icr"}]}}}}'
+	- ```
+	- The `--overrides` option here enables us to specify the needed credentials to pull this image from IBM Cloud Container Registry. Note that this is an imperative command, as we told Kubernetes explicitly what to do: run `hello-world`.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_cmd_4.png)
+	- 1. List the Pods in your namespace.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_cmd_5a.png)
+	- Great, the previous command indeed created a Pod for us. You can see an auto-generated name was given to this Pod.
+	- You can also specify the wide option for the output to get more details about the resource.
+	- ```routeros
+	- kubectl get pods -o wide
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_cmd_5b.png)
+	- 1. Describe the Pod to get more details about it.
+	- ```ebnf
+	- kubectl describe pod hello-world
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_cmd_6.png)
+	- >> Note: The output shows the pod parameters like **Namespace, Pod Name, IP address, the time when the pod started running** and also the container parameters like **container ID, image name & ID, running status and the memory/CPU limits.**
+	- ```actionscript
+	- kubectl delete pod hello-world
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_cmd_7.png)
+	- This command takes a while to execute the deletion of the pod. Please wait till the terminal prompt appears again.
+	- 1. List the Pods to verify that none exist.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_cmd_8.png)
+	- ## Create a Pod with imperative object configuration
+	- Imperative object configuration lets you create objects by specifying the action to take (e.g., create, update, delete) while using a configuration file. A configuration file, `hello-world-create.yaml`, is provided to you in this directory.
+	- 1. Use the Explorer to view and edit the configuration file. Click the Explorer icon (it looks like a sheet of paper) on the left side of the window, and then navigate to the directory for this lab: `CC201 > labs > 2_IntroKubernetes`. Click `hello-world-create.yaml` to view the configuration file.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_confg_1.png)
+	- 1. Use the Explorer to edit `hello-world-create.yaml`. You need to insert your namespace where it says `<my_namespace>`. Make sure to save the file when you're done.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_confg_2.png)
+	- 1. Imperatively create a Pod using the provided configuration file.
+	- ```livecodeserver
+	- kubectl create -f hello-world-create.yaml
+	- ```
+	- Note that this is indeed imperative, as you explicitly told Kubernetes to _create_ the resources defined in the file.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_confg_3.png)
+	- 1. List the Pods in your namespace.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_confg_4.png)
+	- ```actionscript
+	- kubectl delete pod hello-world
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_confg-5.png)
+	- This command takes a while to execute the deletion of the pod. Please wait till the terminal prompt appears again.
+	- 1. List the Pods to verify that none exist.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imp_confg_6.png)
+	- ## Create a Pod with a declarative command
+	- The previous two ways to create a Pod were imperative -- we explicitly told `kubectl` what to do. While the imperative commands are easy to understand and run, they are not ideal for a production environment. Let's look at declarative commands.
+	- 1. A sample `hello-world-apply.yaml` file is provided in this directory. Use the Explorer again to open this file. Notice the following:
+	- * We are creating a Deployment (`kind: Deployment`).
+	- * There will be three replica Pods for this Deployment (`replicas: 3`).
+	- * The Pods should run the `hello-world` image (`- image: us.icr.io/<my_namespace>/hello-world:1`).
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/create_pod_declr_1.png)
+	- You can ignore the rest for now. We will get to a lot of those concepts in the next lab.
+	- 1. Use the Explorer to edit `hello-world-apply.yaml`. You need to insert your namespace where it says `<my_namespace>`. Make sure to save the file when you're done.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/create_pod_declr_2.png)
+	- 1. Use the `kubectl apply` command to set this configuration as the desired state in Kubernetes.
+	- ```coq
+	- kubectl apply -f hello-world-apply.yaml
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/create_pod_declr_3.png)
+	- 1. Get the Deployments to ensure that a Deployment was created.
+	- ```routeros
+	- kubectl get deployments
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/create_pod_declr_4.png)
+	- 1. List the Pods to ensure that three replicas exist.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/create_pod_declr_5.png)
+	- With declarative management, we did not tell Kubernetes which actions to perform. Instead, `kubectl` inferred that this Deployment needed to be created. If you delete a Pod now, a new one will be created in its place to maintain three replicas.
+	- 1. Note one of the Pod names from the previous step, replace the `pod_name` in the following command with the pod name that you noted and delete that Pod and list the pods. To see one pod being terminated, there by having just 2 pods, we will follow the **delete**, immediately with **get**.
+	- ```vim
+	- kubectl delete pod <pod_name> && kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/create_pod_declr_6.png)
+	- This command takes a while to execute the deletion of the pod. Please wait till the terminal prompt appears again.
+	- 1. List the Pods to see a new one being created.
+	- > You may have to run this command a few times as it may take a while to create the new pod.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ```apache
+	- NAME READY STATUS RESTARTS AGE
+	- hello-world-774ddf45b5-28k7j 1/1 Running 0 36s
+	- hello-world-774ddf45b5-9cbv2 1/1 Running 0 112s
+	- hello-world-774ddf45b5-svpf7 1/1 Running 0 112s
+	- ```
+	- The output should reflect three pods running.
+	- ## Load balancing the application
+	- Since there are three replicas of this application deployed in the cluster, Kubernetes will load balance requests across these three instances. Let's expose our application to the internet and see how Kubernetes load balances requests.
+	- 1. In order to access the application, we have to expose it to the internet using a Kubernetes Service.
+	- ```dockerfile
+	- kubectl expose deployment/hello-world
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/load_balancing_1.png)
+	- This command creates what is called a ClusterIP Service. This creates an IP address that accessible within the cluster.
+	- 1. List Services in order to see that this service was created.
+	- ```routeros
+	- kubectl get services
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/load_balancing_2.png)
+	- 1. Open a new terminal window using `Terminal > Split Terminal`.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/load_balancing_3.png)
+	- 1. Since the cluster IP is not accessible outside of the cluster, we need to create a proxy. Note that this is not how you would make an application externally accessible in a production scenario. Run this command in the new terminal window since your environment variables need to be accessible in the original window for subsequent commands.
+	- ```ebnf
+	- kubectl proxy
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/load_balancing_4.png)
+	- This command doesn't terminate until you terminate it. Keep it running so that you can continue to access your app.
+	- 1. In the original terminal window, ping the application to get a response.
+	- ```awk
+	- curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/load_balancing_5.png)
+	- Notice that this output includes the Pod name.
+	- 1. Run the command which runs a for loop ten times creating 10 different pods and note names for each new pod.
+	- ```awk
+	- for i in `seq 10`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/load_balancing_6.png)
+	- You should see more than one Pod name, and quite possibly all three Pod names, in the output. This is because Kubernetes load balances the requests across the three replicas, so each request could hit a different instance of our application.
+	- 1. Delete the Deployment and Service. This can be done in a single command by using slashes.
+	- ```awk
+	- kubectl delete deployment/hello-world service/hello-world
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/load_balancing_7.png)
+	- >> **Note: If you face any issues in typing further commands in the terminal, press Enter.**
+	- 1. Return to the terminal window running the `proxy` command and kill it using `Ctrl+C`.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/load_balancing_8.png)
+	- Congratulations! You have completed the lab for the second module of this course.
+	- > **Note:** Please delete your project from SN labs environment before signing out to ensure that further labs run correctly. To do the same, click on this [link](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/4%5FIntroOpenShift/oc%5F%5F%5Fsnlabs%5Fproj%5Fdeletion.md.html?utm%5Fmedium=Exinfluencer&utm%5Fsource=Exinfluencer&utm%5Fcontent=000026UJ&utm%5Fterm=10006555&utm%5Fid=NA-SkillsNetwork-Channel-SkillsNetworkCoursescc20117568655-2022-01-01)
+	- ## Changelog
+	- | Date       | Version | Changed by     | Change Description       |
+	- | ---------- | ------- | -------------- | ------------------------ |
+	- | 2022-04-08 | 1.1     | K Sundararajan | Updated Lab instructions |
+	- | 2022-04-12 | 1.2     | K Sundararajan | Updated Lab instructions |
+	- | 2022-04-19 | 1.3     | K Sundararajan | Updated Lab instructions |
+	- | 2022-08-26 | 1.4     | K Sundararajan | Updated Lab instructions |
+	- ### © IBM Corporation 2022\. All rights reserved.

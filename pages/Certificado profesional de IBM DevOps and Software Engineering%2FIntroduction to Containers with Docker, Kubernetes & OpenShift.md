@@ -278,4 +278,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 			- Can be configured based on desired state of CPU, memory,...
 			- ![image.png](../assets/image_1663243423582_0.png)
 			- The HPA can be configured by the CLI or within a file.
-		-
+-
+-
+- ## Week 4
+	-

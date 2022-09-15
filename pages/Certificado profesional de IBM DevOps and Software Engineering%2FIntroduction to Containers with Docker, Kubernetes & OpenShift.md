@@ -258,3 +258,8 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 			- **Rollout** allows us to change the version of a running app without stop it.
 			- **Rollout undo** gives us the chance of undo our app to a previous version if we want.
 		-
+		- #### ConfigMaps and Secrets
+		-
+	- ### Flashcards
+		-
+		-

@@ -36,7 +36,19 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 			- ![image.png](../assets/image_1662137934969_0.png)
 		- #### Kubernetes Architecture
 			- ![image.png](../assets/image_1663230207526_0.png)
-			- All the communications are managed by the
+			- A **deployment** of **Kubernetes** is called a *cluster*.
+			- The **Control Plane** makes decisions about the cluster and detects and responds to events in the cluster.
+			- The **Control Plane** consists of several components:
+				- First is the **Kubernetes API**:
+					- All the communications are managed by the Kubernetes API server
+				- Next is **etcd**:
+					- A highly available key value store that contains all the cluster data.
+					- When you tell Kubernetes to deploy your application, that deployment configuration is stored in **etcd**.
+					- **Etcd** is thus the source of truth for the state in a Kubernetes cluster, and the system works to bring the cluster state into line with what is stored in **etcd**.
+				- The **Kubernetes scheduler**:
+					- It assigns newly created Pods to nodes.
+					- This means that the scheduler determines where your workloads should run within the cluster.
+			-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard
 		  collapsed:: true

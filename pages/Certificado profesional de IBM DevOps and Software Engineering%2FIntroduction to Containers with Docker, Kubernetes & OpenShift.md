@@ -124,7 +124,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- `$ kubectl describe pod hello-world`
 				- `$ kubectl delete pod hello-world`
 				- `$ kubectl expose deployment/hello-world`
-			- ![image.png](../assets/image_1663240624916_0.png)
+			- ![image.png](../assets/image_1663240624916_0.png){:height 226, :width 425}
 			-
 		-
 	- ### [[IBM-DevOps-Containers-Lab-3]]
@@ -218,10 +218,21 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- Suitable for stateless applications
 				- It provides additional features (a higher level abstraction) to ReplicaSet like rollouts
 		- Some basic commands... #flashcard
-			- **Basic Kubernetes commands:**
-				- `$ kubectl apply` --> create
-				- `$ kubectl get`  --> list
-				- `$ kubectl describe`  --> get info
+		  collapsed:: true
+			- #### Using Kubernetes
+				- **Basic Kubernetes commands:**
+					- `$ kubectl apply` --> create
+					- `$ kubectl get`  --> list
+					- `$ kubectl describe`  --> get info
+				- **Some further examples:**
+					- `$ kubectl config get-clusters`
+					- `$ kubectl config get-contexts`
+					- `$ kubectl get pods`
+					- `$ kubectl get deployments`
+					- `$ kubectl describe pod hello-world`
+					- `$ kubectl delete pod hello-world`
+					- `$ kubectl expose deployment/hello-world`
+				- ![image.png](../assets/image_1663240624916_0.png){:height 226, :width 425}
 				-
 		-
 -
@@ -234,3 +245,11 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 			- It uses the labels to find its associated components
 			- **It's recommended to create a deployment instead!**
 		-
+		- #### Autoscaling
+			- ReplicaSet works with a set number of pods
+			- Horizontal Pod Autoscaler (HPA) enables scaling up and down as needed
+			- Can be configured based on desired state of CPU, memory,...
+			- ![image.png](../assets/image_1663243423582_0.png)
+			- The HPA can be configured by the CLI or within a file.
+		-
+			-

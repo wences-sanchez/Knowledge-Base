@@ -175,9 +175,6 @@
   "advanced software testing - vol. 1, 2nd edition (highlights)",
   :block/created-at 1661943750879,
   :block/updated-at 1661943750879}
- {:block/name "advanced text file processing",
-  :block/created-at 1660652497354,
-  :block/updated-at 1660652497354}
  {:block/name "algorithms (highlights)",
   :block/created-at 1661943750408,
   :block/updated-at 1661943750408}
@@ -281,10 +278,6 @@
   :block/created-at 1661942455243,
   :block/updated-at 1661946341707}
  {:block/name
-  "become a devops engineer/learning ansible/what is ansible",
-  :block/created-at 1661946240531,
-  :block/updated-at 1661946240531}
- {:block/name
   "become a devops engineer/learning ansible/what is ansible?",
   :block/created-at 1661942886222,
   :block/updated-at 1661945034802}
@@ -369,7 +362,7 @@
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
   :block/created-at 1660315975029,
-  :block/updated-at 1660921011484}
+  :block/updated-at 1662138146150}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to devops",
   :block/created-at 1661943747140,
@@ -442,18 +435,18 @@
  {:block/name "colección poesía salvat",
   :block/created-at 1660808006085,
   :block/updated-at 1660808006085}
+ {:block/name "como si existiese el perdón (highlights)",
+  :block/created-at 1662110440865,
+  :block/updated-at 1662110440865}
  {:block/name "complete guide to test automation (highlights)",
   :block/created-at 1661943761054,
   :block/updated-at 1661943761054}
  {:block/name "computer science illuminated (highlights)",
   :block/created-at 1661943761214,
   :block/updated-at 1661943761214}
- {:block/name "connecting to a server",
-  :block/created-at 1660667287032,
-  :block/updated-at 1660667287032}
  {:block/name "contenedores",
   :block/created-at 1660808029684,
-  :block/updated-at 1660808029684}
+  :block/updated-at 1662122655742}
  {:block/name "contenedores tema-1 (highlights)",
   :block/created-at 1661943761611,
   :block/updated-at 1661943761611}
@@ -536,6 +529,9 @@
  {:block/name "daily-notes",
   :block/created-at 1660029984464,
   :block/updated-at 1660029984464}
+ {:block/name "dan brown",
+  :block/created-at 1662110441378,
+  :block/updated-at 1662110441378}
  {:block/name
   "datetimeformatter support for single digit day of month and month of year (highlights)",
   :block/created-at 1661943767147,
@@ -746,12 +742,15 @@
  {:block/name "favorites",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "flaschard",
-  :block/created-at 1661943224445,
-  :block/updated-at 1661943224445}
+ {:block/name "file-path",
+  :block/created-at 1662195436568,
+  :block/updated-at 1662195436568}
  {:block/name "flashcard",
   :block/created-at 1660315974291,
   :block/updated-at 1660315974291}
+ {:block/name "friday, 02-09-2022",
+  :block/created-at 1662110437458,
+  :block/updated-at 1662133079254}
  {:block/name "friday, 05-08-2022",
   :block/created-at 1660315975479,
   :block/updated-at 1660315975479}
@@ -909,6 +908,9 @@
  {:block/name "historia de dos ciudades (highlights)",
   :block/created-at 1661943778310,
   :block/updated-at 1661943778310}
+ {:block/name "hls__contenedores_tema-1_1662122655208_0",
+  :block/created-at 1662122708236,
+  :block/updated-at 1662122882622}
  {:block/name
   "how can i match \"anything up until this sequence of characters\" in a regular expression? (highlights)",
   :block/created-at 1661943778596,
@@ -967,10 +969,10 @@
   :block/updated-at 1660920950959}
  {:block/name "ibm-devops-containers-lab-1",
   :block/created-at 1660315979804,
-  :block/updated-at 1660315979804}
+  :block/updated-at 1662133319699}
  {:block/name "ibm-devops-containers-lab-2",
   :block/created-at 1660315979807,
-  :block/updated-at 1660315979807}
+  :block/updated-at 1662136219062}
  {:block/name "ichi.pro",
   :block/created-at 1660807895196,
   :block/updated-at 1660807895196}
@@ -1185,6 +1187,9 @@
  {:block/name "marcel proust and pedro salinas",
   :block/created-at 1660807891560,
   :block/updated-at 1660807891560}
+ {:block/name "mariana travacio",
+  :block/created-at 1662110440876,
+  :block/updated-at 1662110440876}
  {:block/name
   "markdown editing basics - west wind html help builder (highlights)",
   :block/created-at 1661943791372,
@@ -1195,6 +1200,9 @@
  {:block/name "martinfowler.com",
   :block/created-at 1660807885966,
   :block/updated-at 1660807885966}
+ {:block/name "master en devops",
+  :block/created-at 1662122447675,
+  :block/updated-at 1662124509261}
  {:block/name "matt haig",
   :block/created-at 1660807863900,
   :block/updated-at 1660807863900}
@@ -1244,6 +1252,9 @@
  {:block/name "neil degrasse tyson",
   :block/created-at 1660807871446,
   :block/updated-at 1660807871446}
+ {:block/name "networking",
+  :block/created-at 1662196727625,
+  :block/updated-at 1662196727625}
  {:block/name "networking all-in-one for dummies (highlights)",
   :block/created-at 1661943792014,
   :block/updated-at 1661943792014}
@@ -1284,6 +1295,9 @@
  {:block/name "orange",
   :block/created-at 1660807707913,
   :block/updated-at 1660807707913}
+ {:block/name "origin (highlights)",
+  :block/created-at 1662110441364,
+  :block/updated-at 1662110441364}
  {:block/name "oscar wilde and mauro armiño",
   :block/created-at 1660807797510,
   :block/updated-at 1660807797510}
@@ -1293,6 +1307,15 @@
  {:block/name "pablo beytía y jorge acevedo guerra",
   :block/created-at 1660807749373,
   :block/updated-at 1660807749373}
+ {:block/name "pasted image 20220118121428.png",
+  :block/created-at 1662195340454,
+  :block/updated-at 1662195340454}
+ {:block/name "pasted image 20220118142331.png",
+  :block/created-at 1662195340462,
+  :block/updated-at 1662195340462}
+ {:block/name "pasted image 20220118143503.png",
+  :block/created-at 1662195340464,
+  :block/updated-at 1662195340464}
  {:block/name "pasted image 20220729132914.png",
   :block/created-at 1660735792318,
   :block/updated-at 1660735792318}
@@ -1392,6 +1415,26 @@
  {:block/name "real-world software development (highlights)",
   :block/created-at 1661943797956,
   :block/updated-at 1661943797956}
+ {:block/name
+  "red hat certified engineer (rhce) study guide (highlights)",
+  :block/created-at 1662118337763,
+  :block/updated-at 1662118338459}
+ {:block/name
+  "red hat certified specialist in ansible automation (ex407) preparation course",
+  :block/created-at 1661966927880,
+  :block/updated-at 1662120361373}
+ {:block/name
+  "red hat certified specialist in ansible automation (ex407) preparation course/course overview",
+  :block/created-at 1661966927877,
+  :block/updated-at 1661966927877}
+ {:block/name
+  "red hat certified specialist in ansible automation (ex407) preparation course/run ad-hoc ansible commands",
+  :block/created-at 1662118554344,
+  :block/updated-at 1662118554344}
+ {:block/name
+  "red hat certified specialist in ansible automation (ex407) preparation course/understanding core components of ansible",
+  :block/created-at 1661966928028,
+  :block/updated-at 1661966928028}
  {:block/name "resilience (highlights)",
   :block/created-at 1661943798249,
   :block/updated-at 1661943798249}
@@ -1418,9 +1461,15 @@
   "run a function only once in a class - python (highlights)",
   :block/created-at 1661943798824,
   :block/updated-at 1661943798824}
+ {:block/name "saturday, 03-09-2022",
+  :block/created-at 1662195057721,
+  :block/updated-at 1662205987773}
  {:block/name "saturday, 06-08-2022",
   :block/created-at 1660315976205,
   :block/updated-at 1660315976205}
+ {:block/name "saturday, 10-09-2022",
+  :block/created-at 1662205867932,
+  :block/updated-at 1662206026381}
  {:block/name "saturday, 13-08-2022",
   :block/created-at 1661943746993,
   :block/updated-at 1661943746993}
@@ -1484,6 +1533,12 @@
  {:block/name "self-help",
   :block/created-at 1660807833793,
   :block/updated-at 1660807833793}
+ {:block/name "self-learning",
+  :block/created-at 1662196757036,
+  :block/updated-at 1662196757036}
+ {:block/name "serverfault.com",
+  :block/created-at 1662136677739,
+  :block/updated-at 1662136677739}
  {:block/name "siddhartha (highlights)",
   :block/created-at 1661943801394,
   :block/updated-at 1661943801394}
@@ -1515,6 +1570,9 @@
  {:block/name "sricharan vadapalli",
   :block/created-at 1660807809968,
   :block/updated-at 1660807809968}
+ {:block/name "ssh-copy-id - permission denied (highlights)",
+  :block/created-at 1662136677158,
+  :block/updated-at 1662136677749}
  {:block/name "stackoverflow.com",
   :block/created-at 1660807820796,
   :block/updated-at 1660807820796}
@@ -1589,6 +1647,12 @@
  {:block/name "the agile testing collection (highlights)",
   :block/created-at 1661943802782,
   :block/updated-at 1661943802782}
+ {:block/name "the bits and bytes of computer networking",
+  :block/created-at 1662196141182,
+  :block/updated-at 1662205566979}
+ {:block/name "the bits and bytes of computer networking (legacy)",
+  :block/created-at 1662195340469,
+  :block/updated-at 1662225373600}
  {:block/name "the book of longings (highlights)",
   :block/created-at 1661943803011,
   :block/updated-at 1661943803011}
@@ -1598,6 +1662,9 @@
  {:block/name "the data tier (highlights)",
   :block/created-at 1661943803705,
   :block/updated-at 1661943803705}
+ {:block/name "the devops career handbook (highlights)",
+  :block/created-at 1662110442443,
+  :block/updated-at 1662110442443}
  {:block/name "the devops engineer’s career guide (highlights)",
   :block/created-at 1661943803462,
   :block/updated-at 1661943803462}
@@ -1638,6 +1705,9 @@
  {:block/name "theodor kallifatides",
   :block/created-at 1660808070130,
   :block/updated-at 1660808070130}
+ {:block/name "thursday, 01-09-2022",
+  :block/created-at 1662110439933,
+  :block/updated-at 1662110439933}
  {:block/name "thursday, 11-08-2022",
   :block/created-at 1661943746792,
   :block/updated-at 1661943746792}
@@ -1674,9 +1744,6 @@
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1660315973459,
   :block/updated-at 1660315973459}
- {:block/name "tuesday, 30-08-2022",
-  :block/created-at 1661940320301,
-  :block/updated-at 1661940320301}
  {:block/name "type:",
   :block/created-at 1660808020804,
   :block/updated-at 1660808020804}
@@ -1773,7 +1840,7 @@
   :block/updated-at 1660315973792}
  {:block/name "wednesday, 31-08-2022",
   :block/created-at 1661940316391,
-  :block/updated-at 1661942455247}
+  :block/updated-at 1662122172585}
  {:block/name "week 1",
   :block/created-at 1661943745391,
   :block/updated-at 1661943745391}
@@ -1822,12 +1889,6 @@
  {:block/name "william shakespeare",
   :block/created-at 1660807759567,
   :block/updated-at 1660807759567}
- {:block/name "working with text files",
-  :block/created-at 1660642164634,
-  :block/updated-at 1660642164634}
- {:block/name "working with the bash shell",
-  :block/created-at 1660718617468,
-  :block/updated-at 1660718617468}
  {:block/name "xeridia.com",
   :block/created-at 1660807893542,
   :block/updated-at 1660807893542}

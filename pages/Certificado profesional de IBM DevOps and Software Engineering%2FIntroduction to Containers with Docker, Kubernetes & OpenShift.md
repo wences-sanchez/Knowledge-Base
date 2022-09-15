@@ -92,7 +92,13 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- Represents processes running in your cluster
 				- It's a wrapper of a single (or multiple) container
 				- You can replicate a Pod to scale an application horizontally
-				-
+			- #### ReplicaSet
+				- Maintains a set of identical Pods
+				- Its definition consists of:
+					- number of replicas
+					- pod template
+					- selector to identify which Pods it can acquire
+				- You shouldn't create a
 			-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard
@@ -143,20 +149,28 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- A control loop is defined as a non-terminating loop that regulates the state of a system.
 				- Like a thermostat.
 		- Define an object in *Kubernetes*. #flashcard
+		  collapsed:: true
 			- **Kubernetes Objects** are persistent entities in Kubernetes.
 			- *"Persistent"* means that when you create an **object**, Kubernetes continually works to ensure that that object exists in the system, until and unless you modify or remove that **object**.
 			- You can use the Kubernetes API to work with them:
-			  collapsed:: true
 				- The kubectl CLI
 				- and the client libraries
-			- How are Kubernetes objects structured? #flashcard
-			  collapsed:: true
-				- **Objects** consist of two *parts*: **spec** and **status**
-					- The first is the field **"spec"**, which is provided by the user.
-						- The **spec** dictates the desired state for this object.
-					- The second field is the **"status"**, wich is provided by Kubernetes. The status describes the current state of the object—its actual state as opposed to its desired state.
-					- The status is updated if at any time the status of the object changes.
-					- The goal, of course, is for the desired state to match the current state, and Kubernetes continually works toward that end.
-				- In Kubernetes, the object names aren't allowed to have the same name if they belong to the same type.
-					- If the project is big, you can use *namespaces* for avoiding failures.
+		- How are Kubernetes objects structured? #flashcard
+		  collapsed:: true
+			- **Objects** consist of two *parts*: **spec** and **status**
+				- The first is the field **"spec"**, which is provided by the user.
+					- The **spec** dictates the desired state for this object.
+				- The second field is the **"status"**, wich is provided by Kubernetes. The status describes the current state of the object—its actual state as opposed to its desired state.
+				- The status is updated if at any time the status of the object changes.
+				- The goal, of course, is for the desired state to match the current state, and Kubernetes continually works toward that end.
+			- In Kubernetes, the object names aren't allowed to have the same name if they belong to the same type.
+				- If the project is big, you can use *namespaces* for avoiding failures.
+		- How would you describe a *pod* in Kubernetes? #flashcard
+		  collapsed:: true
+			- #### A pod,
+				- It's the simplest unit in Kubernetes
+				- Represents processes running in your cluster
+				- It's a wrapper of a single (or multiple) container
+				- You can replicate a Pod to scale an application horizontally
+		-
 -

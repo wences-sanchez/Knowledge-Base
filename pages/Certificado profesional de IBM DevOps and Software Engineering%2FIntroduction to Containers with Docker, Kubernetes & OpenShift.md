@@ -52,18 +52,26 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 					- The Kubernetes controller manager runs all the controller processes that monitor the cluster state and ensure that the actual state of a cluster matches the desired state.
 				- Finally, the **Cloud Controller Manager**:
 					- It links the Kubernetes cluster with the specified cloud provider, agnostically.
-			- About the **nodes** (**nodes** are the worker machines in a Kubernetes cluster):
+			- The **nodes** are the worker machines in a Kubernetes cluster):
 				- User applications are run on nodes
 				- May be a virtual or physical machine.
 				- Nodes are not created by Kubernetes itself, but rather by the cloud provider.
 				- This enables Kubernetes to run on a variety of infrastructures.
 				- The nodes are then managed by the control plane.
-				-
+			- The nodes are composed by:
+				- First, is the **kubelet**, the most important component.
+					- This controller communicates with the Kubernetes API server to receive new and modified Pod specifications and ensure that those Pods and their associated containers are running as desired.
+					- The kubelet also reports to the control plane on health and status.
+				- Container runtime
+				- Lastly, the **Kubernetes proxy** is a network proxy that runs on each node in a cluster.
+					- This proxy maintains network rules that allow communication to Pods running on nodes, in other words, communication to workloads running on your cluster.
+					- This communication can come from within or outside of the cluster.
 			-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard
 		  collapsed:: true
 			- ![image.png](../assets/image_1662137934969_0.png)
 			- title:: Certificado profesional de IBM DevOps and Software Engineering/IBM-DevOps-Containers
+		- How is calle
 -
 -

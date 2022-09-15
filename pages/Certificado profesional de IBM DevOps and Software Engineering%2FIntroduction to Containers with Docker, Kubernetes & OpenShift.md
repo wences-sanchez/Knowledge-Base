@@ -79,7 +79,13 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 			-
 			- **Objects** consist of two *parts*: **spec** and **status**
 				- The first is the field **"spec"**, which is provided by the user.
-					- The
+					- The **spec** dictates the desired state for this object.
+				- The second field is the **"status"**, wich is provided by Kubernetes. The status describes the current state of the object—its actual state as opposed to its desired state.
+				- The status is updated if at any time the status of the object changes.
+				- The goal, of course, is for the desired state to match the current state, and Kubernetes continually works toward that end.
+			- In Kubernetes, the object names aren't allowed to have the same name if they belong to the same type.
+				- If the project is big, you can use *namespaces* for avoiding failures.
+			-
 			-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard

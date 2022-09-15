@@ -67,7 +67,19 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 					- This proxy maintains network rules that allow communication to Pods running on nodes, in other words, communication to workloads running on your cluster.
 					- This communication can come from within or outside of the cluster.
 			- Controllers ensure that the actual state of the cluster matches the desired state.
-				-
+				- A control loop is defined as a non-terminating loop that regulates the state of a system.
+				- Like a thermostat.
+		-
+		- #### Introduction to Kubernetes Objects
+			- **Kubernetes Objects** are persistent entities in Kubernetes.
+			- *"Persistent"* means that when you create an **object**, Kubernetes continually works to ensure that that object exists in the system, until and unless you modify or remove that **object**.
+			- You can use the Kubernetes API to work with them:
+				- The kubectl CLI
+				- and the client libraries
+			-
+			- **Objects** consist of two *parts*: **spec** and **status**
+				- The first is the field **"spec"**, which is provided by the user.
+					- The
 			-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard

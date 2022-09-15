@@ -30,11 +30,13 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 -
 - ## Week 2
 	- ### Understanding Kubernetes Architecture
+	  collapsed:: true
 		- #### Container Orchestration
 			- A tool for orchestration becomes necessary
 			- Kubernetes is **Open Source**
 			- ![image.png](../assets/image_1662137934969_0.png)
 		- #### Kubernetes Architecture
+		  collapsed:: true
 			- ![image.png](../assets/image_1663230207526_0.png)
 			- A **deployment** of **Kubernetes** is called a *cluster*.
 			- The **Control Plane** makes decisions about the cluster and detects and responds to events in the cluster.
@@ -71,6 +73,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- Like a thermostat.
 		-
 		- #### Introduction to Kubernetes Objects
+		  collapsed:: true
 			- **Kubernetes Objects** are persistent entities in Kubernetes.
 			- *"Persistent"* means that when you create an **object**, Kubernetes continually works to ensure that that object exists in the system, until and unless you modify or remove that **object**.
 			- You can use the Kubernetes API to work with them:
@@ -87,6 +90,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- If the project is big, you can use *namespaces* for avoiding failures.
 			-
 		- #### Basic Kubernetes Objects
+		  collapsed:: true
 			- #### Pod
 				- It's the simplest unit in Kubernetes
 				- Represents processes running in your cluster
@@ -107,6 +111,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 		-
 		- #### Kubectl CLI
 		- #### Using Kubernetes
+		  collapsed:: true
 			- **Basic Kubernetes commands:**
 				- `$ kubectl apply` --> create
 				- `$ kubectl get`  --> list
@@ -126,6 +131,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 	-
 	-
 	- ### Flashcards
+	  collapsed:: true
 		- What is not *Kubernetes*? #flashcard
 		  collapsed:: true
 			- ![image.png](../assets/image_1662137934969_0.png)
@@ -219,3 +225,12 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				-
 		-
 -
+- ## Week 3
+	- ### Managing Applications with Kubernetes
+		- #### ReplicaSets
+			- ReplicaSets help us scale applications to meet increasing demand.
+			- It manages your pod by assuring they all are running.
+			- It maintaint the desired state
+			- It uses the labels to find its associated components
+			- **It's recommended to create a deployment instead!**
+		-

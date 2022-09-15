@@ -86,6 +86,13 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 			- In Kubernetes, the object names aren't allowed to have the same name if they belong to the same type.
 				- If the project is big, you can use *namespaces* for avoiding failures.
 			-
+		- #### Basic Kubernetes Objects
+			- #### Pod
+				- It's the simplest unit in Kubernetes
+				- Represents processes running in your cluster
+				- It's a wrapper of a single (or multiple) container
+				- You can replicate a Pod to scale an application horizontally
+				-
 			-
 	- ### Flashcards
 		- What is not *Kubernetes*? #flashcard
@@ -93,6 +100,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 			- ![image.png](../assets/image_1662137934969_0.png)
 			- title:: Certificado profesional de IBM DevOps and Software Engineering/IBM-DevOps-Containers
 		- How is called a deployment in *Kubernetes*? #flashcard
+		  collapsed:: true
 			- A **deployment** of **Kubernetes** is called a *cluster*.
 		- Explain what is the **Control Plane** in *Kubernetes* and which are its five components. #flashcard
 		  collapsed:: true
@@ -129,4 +137,5 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- Lastly, the **Kubernetes proxy** is a network proxy that runs on each node in a cluster.
 					- This proxy maintains network rules that allow communication to Pods running on nodes, in other words, communication to workloads running on your cluster.
 					- This communication can come from within or outside of the cluster.
+		- How would you define a *controller* in *K*
 -

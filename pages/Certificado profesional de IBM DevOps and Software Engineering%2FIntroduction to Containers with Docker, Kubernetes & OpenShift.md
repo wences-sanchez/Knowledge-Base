@@ -260,6 +260,9 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 		-
 		- #### ConfigMaps and Secrets
 		-
+		- #### Service Binding
+		-
+	-
 	- ### Flashcards
 		- What is a rolling update in Kubernetes? #flashcard
 		  collapsed:: true

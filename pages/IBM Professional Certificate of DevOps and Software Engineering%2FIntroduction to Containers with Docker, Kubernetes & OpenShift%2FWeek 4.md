@@ -24,8 +24,17 @@ tags:: Coursera, IBM-DevOps, Containers
 		- OpenShift is an improved way of the Kubernetes
 		-
 	- ### Builds
-		- A build is the process of transforming inputs into a resultant object
-			-
+		- A build in OpenShift is the process of transforming inputs into a resultant object
+			- For example, source code in a repo to a container image
+		- A build configuration, of BuildConfig, is an OpenShift-specific object that defines the process for a build to follow.
+		- So the BuidConfig is the blueprint, and the build is an instance of that blueprint put into action.
+		- OpenShift invokes the `docker build` command
+		- The OpenShift **Source-to-Image** (S2I) tool,
+			- It's a tool for building reproducible container images
+			- Injects application source into a container image to produce a ready-to-run image
+			- Eliminates the need to write a Dockerfile
+			- Includes predefined builder images
+		-
 		-
 		-
 		-

@@ -1,5 +1,8 @@
-title:: ## Week 3
+title:: IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 3
+tags:: Coursera, IBM-DevOps, Containers
 
+- #tags #Coursera #DevOps #Containers
+-
 - ### Managing Applications with Kubernetes
 	- #### ReplicaSets
 		- ReplicaSets help us scale applications to meet increasing demand.
@@ -25,7 +28,7 @@ title:: ## Week 3
 	-
 	- #### Service Binding
 -
-- ### [[Certificado profesional de IBM DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Lab-4]]
+- ### [[IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Lab-4]]
 -
 - ### Flashcards
 	- What is a rolling update in Kubernetes? #flashcard

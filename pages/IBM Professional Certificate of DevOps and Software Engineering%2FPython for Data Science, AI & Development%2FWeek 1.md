@@ -13,6 +13,9 @@ tags:: Coursera, DevOps, Python
 	- ### Expressions and Variables
 		- We can use the double slash for forcing integer division
 			- `my_int = 10 // 3`
+-
+- ## String Operations
+	- ### String Operations
 		-
 -
 -

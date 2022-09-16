@@ -82,5 +82,8 @@ tags:: Coursera, IBM-DevOps, Containers
 			- It can control and observe the traffic
 		-
 		-
+	- ### [[IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 4/Lab: Introduction to OpenShift]]
+		-
+		-
 		-
 		-

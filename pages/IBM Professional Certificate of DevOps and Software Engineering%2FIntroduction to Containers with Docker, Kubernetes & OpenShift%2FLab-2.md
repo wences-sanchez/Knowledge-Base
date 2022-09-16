@@ -1,4 +1,4 @@
-title:: Certificado profesional de IBM DevOps and Software Engineering/IBM-DevOps-Containers/Lab-2
+title:: IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Lab-2
 tags:: Coursera, Labs, IBM
 
 - https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/instructions.md.html?origin=www.coursera.org

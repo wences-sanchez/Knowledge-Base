@@ -1,0 +1,247 @@
+title:: IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Lab-4
+
+- https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/instructions.md.html
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/labs_module_1_images_IDSNlogo.png)
+	- In this lab, you will:
+	- * Scale an application with a ReplicaSet
+	- * Apply rolling updates to an application
+	- * Use a ConfigMap to store application configuration
+	- ## Verify the environment and command line tools
+	- 1. If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.
+	- ![New terminal](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/new-terminal.png)
+	- >> **NOTE:** It might take sometime for the Termainal Prompt to appear. In case you are unable to see the terminal prompt even after 5 minutes, please close the browser tab and relaunch the lab again.
+	- 1. Change to your project folder.
+	- >> **NOTE:** If you are already in the `/home/project` please skip this step.
+	- ```gradle
+	- cd /home/project
+	- ```
+	- 1. Clone the git repository that contains the artifacts needed for this lab, if it doesn't already exist.
+	- ```awk
+	- [ ! -d 'CC201' ] && git clone https://github.com/ibm-developer-skills-network/CC201.git
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_1.3.png)
+	- 1. Change to the directory for this lab.
+	- ```apache
+	- cd CC201/labs/3_K8sScaleAndUpdate/
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_1.4.png)
+	- 1. List the contents of this directory to see the artifacts for this lab.
+	- ```ebnf
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_1.5.png)
+	- ## Build and push application image to IBM Cloud Container Registry
+	- 1. Export your namespace as an environment variable so that it can be used in subsequent commands.
+	- ```routeros
+	- export MY_NAMESPACE=sn-labs-$USERNAME
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_2.1.png)
+	- 1. Use the Explorer to view the Dockerfile that will be used to build an image.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_2.2.png)
+	- 1. Build and push the image again, as it may have been deleted automatically since you completed the first lab.
+	- ```gradle
+	- docker build -t us.icr.io/$MY_NAMESPACE/hello-world:1 . && docker push us.icr.io/$MY_NAMESPACE/hello-world:1
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_2.3.png)
+	- > **NOTE:** If you have tried this lab earlier, there might be a possibility that the previous session is still persistent. In such case, you will see a **'Layer already Exists'** message instead of the **'Pushed'** message in the above output. We would recommend you to continue with the further steps of the lab.
+	- ## Deploy the application to Kubernetes
+	- 1. Use the Explorer to edit `deployment.yaml` in this directory. The path to this file is `CC201/labs/3_K8sScaleAndUpdate/`. You need to insert your namespace where it says `<my_namespace>`. Make sure to save the file when you're done.
+	- >> **NOTE**: To know your namespace, run `echo $MY_NAMESPACE` in the terminal
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_3.1.png)
+	- 1. Run your image as a Deployment.
+	- ```coq
+	- kubectl apply -f deployment.yaml
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_3.2.png)
+	- > **NOTE:** If you have tried this lab earlier, there might be a possibility that the previous session is still persistent. In such a case, you will see an **'Unchanged'** message instead of the **'Created'** message in the above output. We would recommend you to continue with the further steps of the lab.
+	- 1. List Pods until the status is "Running".
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_3.3.png)
+	- >> **NOTE:** Please move to the next step only after you see the pod status as **'Running'**. In case you see **'Container Creating'** as the output, please re-run the command in a few minutes.
+	- 1. In order to access the application, we have to expose it to the internet via a Kubernetes Service.
+	- ```dockerfile
+	- kubectl expose deployment/hello-world
+	- ```
+	- This creates a service of type **ClusterIP**.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_3.4.png)
+	- 1. Open a new terminal window using `Terminal > New Terminal`.
+	- >> **NOTE:** Do not close the terminal window you were working on.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_3.5.png)
+	- 1. Cluster IPs are only accesible within the cluster. To make this externally accessible, we will create a proxy.
+	- >> **Note:** This is not how you would make an application externally accessible in a production scenario.
+	- Run this command in the new terminal window since your environment variables need to be accessible in the original window for subsequent commands.
+	- ```ebnf
+	- kubectl proxy
+	- ```
+	- This command will continue running until it exits. Keep it running so that you can continue to access your app. ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_3.6.png)
+	- 1. Go back to your original terminal window, ping the application to get a response.
+	- >> **NOTE:** Do not close the terminal window where the `proxy` command is still running.
+	- ```awk
+	- curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_3.7.png)
+	- ## Scaling the application using a ReplicaSet
+	- In real-world situations, load on an application can vary over time. If our application begins experiencing heightened load, we want to scale it up to accommodate that load. There is a simple `kubectl` command for scaling.
+	- 1. Use the `scale` command to scale up your Deployment. Make sure to run this in the terminal window that is not running the `proxy` command.
+	- ```ini
+	- kubectl scale deployment hello-world --replicas=3
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_4.1.png)
+	- 1. Get Pods to ensure that there are now three Pods instead of just one. In addition, the status should eventually update to "Running" for all three.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_4.2.png)
+	- 1. As you did in the last lab, ping your application multiple times to ensure that Kubernetes is load-balancing across the replicas.
+	- ```awk
+	- for i in `seq 10`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_4.3.png)
+	- You should see that the queries are going to different Pods.
+	- 1. Similarly, you can use the `scale` command to scale down your Deployment.
+	- ```ini
+	- kubectl scale deployment hello-world --replicas=1
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_4.4.png)
+	- 1. Check the Pods to see that two are deleted or being deleted.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_4.5.png)
+	- 1. Please wait for some time & run the same command again to ensure that only one pod exists.
+	- ```routeros
+	- kubectl get pods
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/scaleapp_rs_6.png)
+	- ## Perform rolling updates
+	- Rolling updates are an easy way to update our application in an automated and controlled fashion. To simulate an update, let's first build a new version of our application and push it to Container Registry.
+	- 1. Use the Explorer to edit `app.js`. The path to this file is `CC201/labs/3_K8sScaleAndUpdate/`. Change the welcome message from `'Hello world from ' + hostname + '! Your app is up and running!\n'` to `'Welcome to ' + hostname + '! Your app is up and running!\n'`. Make sure to save the file when you're done.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.1.png)
+	- 1. Build and push this new version to Container Registry. Update the tag to indicate that this is a second version of this application. Make sure to use the terminal window that isn't running the `proxy` command.
+	- >> **NOTE:** Do not close the terminal that is running the `proxy` command
+	- ```gradle
+	- docker build -t us.icr.io/$MY_NAMESPACE/hello-world:2 . && docker push us.icr.io/$MY_NAMESPACE/hello-world:2
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.2.png)
+	- 1. List images in Container Registry to see all the different versions of this application that you have pushed so far.
+	- ```ebnf
+	- ibmcloud cr images
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.3.png)
+	- 1. Update the deployment to use this version instead.
+	- ```routeros
+	- kubectl set image deployment/hello-world hello-world=us.icr.io/$MY_NAMESPACE/hello-world:2
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.4.png)
+	- 1. Get a status of the rolling update by using the following command:
+	- ```ebnf
+	- kubectl rollout status deployment/hello-world
+	- ```
+	- You should see an output like this, indicating that the rollout succeeded: ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.5.png)
+	- 1. You can also get the Deployment with the `wide` option to see that the new tag is used for the image.
+	- ```routeros
+	- kubectl get deployments -o wide
+	- ```
+	- Look for the `IMAGES` column and ensure that the tag is `2`. ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.6.png)
+	- 1. Ping your application to ensure that the new welcome message is displayed.
+	- ```awk
+	- curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.7.png)
+	- 1. It's possible that a new version of an application contains a bug. In that case, Kubernetes can roll back the Deployment like this:
+	- ```ebnf
+	- kubectl rollout undo deployment/hello-world
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.8.png)
+	- 1. Get a status of the rolling update by using the following command:
+	- ```ebnf
+	- kubectl rollout status deployment/hello-world
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.9.png)
+	- 1. Get the Deployment with the `wide` option to see that the old tag is used.
+	- ```routeros
+	- kubectl get deployments -o wide
+	- ```
+	- Look for the `IMAGES` column and ensure that the tag is `1`. ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_5.10.png)
+	- 1. Ping your application to ensure that the earlier '**Hello World..Your app is up & running!**' message is displayed.
+	- ```awk
+	- curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/rolling_updates_11.png)
+	- ## Using a ConfigMap to store configuration
+	- ConfigMaps and Secrets are used to store configuration information separate from the code so that nothing is hardcoded. It also lets the application pick up configuration changes without needing to be redeployed. To demonstrate this, we'll store the application's message in a ConfigMap so that the message can be updated simply by updating the ConfigMap.
+	- 1. Create a ConfigMap that contains a new message.
+	- ```lua
+	- kubectl create configmap app-config
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.1.png)
+	- > **NOTE:** If you have tried this lab earlier, there might be a possibility that the previous session is still persistent. In such a case, you will see an **'error: failed to create configmap: configmaps "app-config" already exists'** message, instead of the **'Created'** message as below. We would recommend you to continue with the further steps of the lab.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/confmap_1b.png)
+	- 1. Use the Explorer to edit `deployment-configmap-env-var.yaml`. The path to this file is `CC201/labs/3_K8sScaleAndUpdate/`. You need to insert your namespace where it says `<my_namespace>`. Make sure to save the file when you're done.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.2.png)
+	- 1. In the same file, notice the section reproduced below. The bottom portion indicates that environment variables should be defined in the container from the data in a ConfigMap named `app-config`.
+	- ```yaml
+	- containers:
+	- - name: hello-world image: us.icr.io/<my_namespace>/hello-world:3 ports: - containerPort: 8080 envFrom: - configMapRef: name: app-config
+	- ```
+	- 1. Use the Explorer to open the `app.js` file. The path to this file is `CC201/labs/3_K8sScaleAndUpdate/`. Find the line that says, `res.send('Welcome to ' + hostname + '! Your app is up and running!\n')`.
+	- Edit this line to look like the following:
+	- ```stylus
+	- res.send(process.env.MESSAGE + '\n')
+	- ```
+	- Make sure to save the file when you're done. This change indicates that requests to the app will return the environment variable `MESSAGE`. ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.4.png)
+	- 1. Build and push a new image that contains your new application code.
+	- ```gradle
+	- docker build -t us.icr.io/$MY_NAMESPACE/hello-world:3 . && docker push us.icr.io/$MY_NAMESPACE/hello-world:3
+	- ```
+	- The `deployment-configmap-env-var.yaml` file is already configured to use the tag `3`. ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.5.png)
+	- 1. Apply the new Deployment configuration.
+	- ```maxima
+	- kubectl apply -f deployment-configmap-env-var.yaml
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.6.png)
+	- 1. Ping your application again to see if the message from the environment variable is returned.
+	- >> **NOTE:** You can run this command again. As it may not show the `"This message came from a ConfigMap!"` message right away.
+	- ```awk
+	- curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
+	- ```
+	- If you see the message, "This message came from a ConfigMap!", then great job! ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.7.png)
+	- > **NOTE:** If your previous session is still persisting, you might see the below output. If so, we would recommend you to move to the further steps of the lab.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/confmap_7b.png)
+	- 1. Because the configuration is separate from the code, the message can be changed without rebuilding the image. Using the following command, delete the old ConfigMap and create a new one with the same name but a different message.
+	- ```lua
+	- kubectl delete configmap app-config && kubectl create configmap app-config
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.8.png)
+	- 1. Restart the Deployment so that the containers restart. This is necessary since the environment variables are set at start time.
+	- ```ebnf
+	- kubectl rollout restart deployment hello-world
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.9.png)
+	- 1. Ping your application again to see if the new message from the environment variable is returned.
+	- ```awk
+	- curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.10.png)
+	- ```actionscript
+	- kubectl delete -f deployment-configmap-env-var.yaml
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.11.png)
+	- ```actionscript
+	- kubectl delete service hello-world
+	- ```
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.12.png)
+	- 1. Return to the other terminal window that is running the `proxy` command and kill it using `Ctrl+C`.
+	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/step_6.13.png)
+	- Congratulations! You have completed the lab for the third module of this course.
+	- > **Note:** Please delete your project from SN labs environment before signing out to ensure that further labs run correctly. To do the same, click on this [link](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/4%5FIntroOpenShift/oc%5F%5F%5Fsnlabs%5Fproj%5Fdeletion.md.html?utm%5Fmedium=Exinfluencer&utm%5Fsource=Exinfluencer&utm%5Fcontent=000026UJ&utm%5Fterm=10006555&utm%5Fid=NA-SkillsNetwork-Channel-SkillsNetworkCoursescc20117568655-2022-01-01)
+	- ## Changelog
+	- | Date       | Version | Changed by     | Change Description                |
+	- | ---------- | ------- | -------------- | --------------------------------- |
+	- | 2022-04-07 | 1.1     | Samaah Sarang  | Updated Lab instructions & images |
+	- | 2022-04-13 | 1.2     | Samaah Sarang  | Updated Lab instructions          |
+	- | 2022-04-14 | 1.3     | K Sundararajan | Updated Lab instructions & images |
+	- | 2022-04-18 | 1.4     | K Sundararajan | Updated Lab instructions          |
+	- | 2022-04-19 | 1.5     | K Sundararajan | Updated Lab instructions          |
+	- ### © IBM Corporation 2022\. All rights reserved.

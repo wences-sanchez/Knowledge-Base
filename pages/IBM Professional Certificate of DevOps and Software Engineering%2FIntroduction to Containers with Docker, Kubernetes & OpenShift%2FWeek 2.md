@@ -1,4 +1,4 @@
-title:: Certificado profesional de IBM DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 2
+title:: IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 2
 
 - #tags #Coursera #DevOps #Containers
 -
@@ -92,7 +92,6 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 			- `$ kubectl describe pod hello-world`
 			- `$ kubectl delete pod hello-world`
 			- `$ kubectl expose deployment/hello-world`
-		-
 		- ![image.png](../assets/image_1663240624916_0.png){:height 226, :width 425}
 		-
 	-

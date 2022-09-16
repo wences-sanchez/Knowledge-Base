@@ -1,4 +1,0 @@
-- Si esto sale... #flashcard #testing
-	- ...me llevaré un alegrón.
--
--

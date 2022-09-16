@@ -72,5 +72,15 @@ tags:: Coursera, IBM-DevOps, Containers
 			-
 		-
 	- ### Operators
+	- ### Istio
+		- Microservices have some challenges:
+			- Security between services
+			- Cascading failures
+		- *Istio* is a **Service Mesh**
+			- It secures the connection between services
+			- It connects the services with tests
+			- It can control and observe the traffic
+		-
+		-
 		-
 		-

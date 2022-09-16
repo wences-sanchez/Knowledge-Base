@@ -9,7 +9,16 @@ tags:: Coursera, IBM-DevOps, Containers
 			- Kubernetes does not: build container images (Docker does)
 			- Kubernetes does not: store images in a container registry
 		- Kubernetes is a good choice not just because itself but because its ecosystem
-			-
+	-
+	- ### Flashcards
+		- What things does Kubernetes not do? #flashcard
+		  collapsed:: true
+			- Kubernetes NO es una Platform-as-a-Service
+			- The ecosystem provides many services that Kubernetes does not
+				- Kubernetes does not: build container images (Docker does)
+				- Kubernetes does not: store images in a container registry
+			- Kubernetes is a good choice not just because itself but because its ecosystem
+	-
 	- ### Introduction to Red Hat OpenShift
 		- RedHat OpenShift is a hybrid cloud, enterprise Kubernetes application platform.
 			- It can be run on premises or in public and private clouds
@@ -19,6 +28,24 @@ tags:: Coursera, IBM-DevOps, Containers
 		- ![image.png](../assets/image_1663319734852_0.png)
 		- OKD --> Origin Kubernetes Distribution
 		- Kubernetes is like the kernel, OpenShift is like the distribution
+	-
+	- ### Flashcards
+		- Talk a little about OpenShift #flashcard
+			- RedHat OpenShift is a hybrid cloud, enterprise Kubernetes application platform.
+				- It can be run on premises or in public and private clouds
+				- Kubernetes is the underlying technology
+				- Provides additional tooling for applications
+			- OpenShift is an extension of Kubernetes
+			- ![image.png](../assets/image_1663319734852_0.png)
+			- OKD --> Origin Kubernetes Distribution
+			- Kubernetes is like the kernel, OpenShift is like the distribution
+			- *OpenShift is an improved way of the Kubernetes*
+			-
+			- The OpenShift **Source-to-Image** (S2I) tool,
+				- It's a tool for building reproducible container images
+				- Injects application source into a container image to produce a ready-to-run image
+				- Eliminates the need to write a Dockerfile
+				- Includes predefined builder images
 	-
 	- ### RedHat OpenShift and Kubernetes
 		- OpenShift is an improved way of the Kubernetes
@@ -35,6 +62,15 @@ tags:: Coursera, IBM-DevOps, Containers
 			- Eliminates the need to write a Dockerfile
 			- Includes predefined builder images
 		-
+	- ### Flashcards
+		- What is a build in OpenShift? #flashcard
+		  collapsed:: true
+			- A build in OpenShift is the process of transforming inputs into a resultant object
+				- For example, source code in a repo to a container image
+			- A build configuration, of BuildConfig, is an OpenShift-specific object that defines the process for a build to follow.
+			- So the BuidConfig is the blueprint, and the build is an instance of that blueprint put into action.
+			-
 		-
+	- ### Operators
 		-
 		-

@@ -27,10 +27,12 @@ tags:: Coursera, IBM-DevOps, Containers
 		- OpenShift is an extension of Kubernetes
 		- ![image.png](../assets/image_1663319734852_0.png)
 		- OKD --> Origin Kubernetes Distribution
+			- The OpenSource version of OpenShift
 		- Kubernetes is like the kernel, OpenShift is like the distribution
 	-
 	- ### Flashcards
 		- Talk a little about OpenShift #flashcard
+		  collapsed:: true
 			- RedHat OpenShift is a hybrid cloud, enterprise Kubernetes application platform.
 				- It can be run on premises or in public and private clouds
 				- Kubernetes is the underlying technology
@@ -38,6 +40,7 @@ tags:: Coursera, IBM-DevOps, Containers
 			- OpenShift is an extension of Kubernetes
 			- ![image.png](../assets/image_1663319734852_0.png)
 			- OKD --> Origin Kubernetes Distribution
+				- The OpenSource version of OpenShift
 			- Kubernetes is like the kernel, OpenShift is like the distribution
 			- *OpenShift is an improved way of the Kubernetes*
 			-

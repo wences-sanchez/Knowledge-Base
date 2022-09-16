@@ -17,8 +17,15 @@ tags:: Coursera, IBM-DevOps, Containers
 			- Provides additional tooling for applications
 		- OpenShift is an extension of Kubernetes
 		- ![image.png](../assets/image_1663319734852_0.png)
-		-
+		- OKD --> Origin Kubernetes Distribution
 		- Kubernetes is like the kernel, OpenShift is like the distribution
+	-
+	- ### RedHat OpenShift and Kubernetes
+		- OpenShift is an improved way of the Kubernetes
+		-
+	- ### Builds
+		- A build is the process of transforming inputs into a resultant object
+			-
 		-
 		-
 		-

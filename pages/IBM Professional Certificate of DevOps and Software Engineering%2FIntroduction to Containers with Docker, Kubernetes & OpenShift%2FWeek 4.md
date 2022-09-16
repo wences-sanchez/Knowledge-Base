@@ -49,6 +49,8 @@ tags:: Coursera, IBM-DevOps, Containers
 	-
 	- ### RedHat OpenShift and Kubernetes
 		- OpenShift is an improved way of the Kubernetes
+		- ![image.png](../assets/image_1663323195446_0.png)
+		-
 		-
 	- ### Builds
 		- A build in OpenShift is the process of transforming inputs into a resultant object
@@ -82,7 +84,7 @@ tags:: Coursera, IBM-DevOps, Containers
 			- It can control and observe the traffic
 		-
 		-
-	- ### [[IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 4/Lab: Introduction to OpenShift]]
+	- #### [[IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 4/Lab: Introduction to OpenShift]]
 		-
 		-
 		-

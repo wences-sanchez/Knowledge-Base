@@ -1,5 +1,7 @@
 title:: IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 4/Lab: Introduction to OpenShift
+tags:: Labs
 
+-
 - https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/4_IntroOpenShift/instructions.md.html
 	- ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/4_IntroOpenShift/images/IDSN-new-logo.png)
 	- In this lab, you will:

@@ -1,5 +1,6 @@
 title:: Certificado profesional de IBM DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift
 
+- #tags #Coursera #DevOps #Contenedores
 - ## Week 1
 	- ### Understanding the Benefits of Containers
 		- #### Introduction to Containers
@@ -135,7 +136,6 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 		- What is not *Kubernetes*? #flashcard
 		  collapsed:: true
 			- ![image.png](../assets/image_1662137934969_0.png)
-			- title:: Certificado profesional de IBM DevOps and Software Engineering/IBM-DevOps-Containers
 		- How is called a deployment in *Kubernetes*? #flashcard
 		  collapsed:: true
 			- A **deployment** of **Kubernetes** is called a *cluster*.
@@ -198,7 +198,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- If the project is big, you can use *namespaces* for avoiding failures.
 		- How would you describe a *pod* in Kubernetes? #flashcard
 		  collapsed:: true
-			- #### A pod,
+			- A pod,
 				- It's the simplest unit in Kubernetes
 				- Represents processes running in your cluster
 				- It's a wrapper of a single (or multiple) container
@@ -219,7 +219,7 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 				- It provides additional features (a higher level abstraction) to ReplicaSet like rollouts
 		- Some basic commands... #flashcard
 		  collapsed:: true
-			- #### Using Kubernetes
+			- Using Kubernetes
 				- **Basic Kubernetes commands:**
 					- `$ kubectl apply` --> create
 					- `$ kubectl get`  --> list

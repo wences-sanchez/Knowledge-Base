@@ -101,7 +101,6 @@ title:: Certificado profesional de IBM DevOps and Software Engineering/Introduct
 -
 - ### Flashcards
 	- What is not *Kubernetes*? #flashcard
-	  collapsed:: true
 		- ![image.png](../assets/image_1662137934969_0.png)
 		- title:: Certificado profesional de IBM DevOps and Software Engineering/IBM-DevOps-Containers
 	- How is called a deployment in *Kubernetes*? #flashcard

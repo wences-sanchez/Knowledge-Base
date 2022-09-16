@@ -1,5 +1,8 @@
 title:: IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 1
+tags:: Coursera, IBM-DevOps, Containers
 
+- #tags #Coursera #DevOps #Containers
+-
 - ### Understanding the Benefits of Containers
 	- #### Introduction to Containers
 		- What is a container? #flashcard

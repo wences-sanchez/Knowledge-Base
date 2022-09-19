@@ -2,6 +2,8 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 
 #tags #AWS #Learning-Path-AWS-Developer
 
+- ![Introduction to AWS_slides.pdf](../assets/Introduction_to_AWS_slides_1660906698136_0.pdf)
+-
 # Introduction to AWS
 	-
 	- ## Chapter 1: Introduction
@@ -39,9 +41,9 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 	- ## Chapter 4: Compute
 		-
 		- ### Considering Compute
-			- What does AWS Outposts do?
+			- What does AWS Outposts do? #flashcard
 				- It allows you to use your own servers instead of Amazon's to use AWS.
-			- What is AWS Snow Family?
+			- What is AWS Snow Family? #flashcard
 				- It's a service that lets you send data to Amazon either in a portable hard disk or in a trailer full of racks.
 		-
 		- ### Exploring EC2

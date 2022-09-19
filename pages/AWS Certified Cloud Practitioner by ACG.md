@@ -1,3 +1,5 @@
+- #tags #AWS #CCP-Exam
+-
 - The passing score is 7!
--
--
+- What is **cloud computing**, exactly?
+	- Cloud computing is the **delivery of computing services** over the internet.

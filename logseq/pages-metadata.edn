@@ -194,8 +194,8 @@
   :block/created-at 1661943746356,
   :block/updated-at 1661943746356}
  {:block/name "ansible: from basics to guru (legacy)",
-  :block/created-at 1660735792327,
-  :block/updated-at 1661940718131}
+  :block/created-at 1663348723772,
+  :block/updated-at 1663348723772}
  {:block/name "antología poética (highlights)",
   :block/created-at 1661943753021,
   :block/updated-at 1661943753021}
@@ -248,6 +248,9 @@
  {:block/name "b",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+ {:block/name "b2.1",
+  :block/created-at 1663349027713,
+  :block/updated-at 1663349027713}
  {:block/name "bash",
   :block/created-at 1658825284486,
   :block/updated-at 1658825284486}
@@ -279,8 +282,8 @@
   :block/updated-at 1661946341707}
  {:block/name
   "become a devops engineer/learning ansible/what is ansible?",
-  :block/created-at 1661942886222,
-  :block/updated-at 1661945034802}
+  :block/created-at 1663348724028,
+  :block/updated-at 1663348724028}
  {:block/name
   "become a devops engineer/learning ansible/why choose ansible?",
   :block/created-at 1661946257879,
@@ -348,21 +351,29 @@
   :block/created-at 1660315975038,
   :block/updated-at 1660315975038}
  {:block/name
+  "certificado profesional de ibm devops and software engineering/ibm-devops-containers",
+  :block/created-at 1663348712843,
+  :block/updated-at 1663348712843}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-1",
+  :block/created-at 1663349027305,
+  :block/updated-at 1663349027305}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-2",
+  :block/created-at 1663349027042,
+  :block/updated-at 1663349027042}
+ {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
-  :block/created-at 1660315975029,
-  :block/updated-at 1663255719145}
- {:block/name
-  "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-1",
-  :block/created-at 1661943755575,
-  :block/updated-at 1661943755575}
- {:block/name
-  "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-2",
-  :block/created-at 1661943757564,
-  :block/updated-at 1661943757564}
+  :block/created-at 1663349029806,
+  :block/updated-at 1663349029806}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-4",
-  :block/created-at 1663250796457,
-  :block/updated-at 1663250811141}
+  :block/created-at 1663349029801,
+  :block/updated-at 1663349029801}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 2",
+  :block/created-at 1663349029786,
+  :block/updated-at 1663349029786}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to devops",
   :block/created-at 1661943747140,
@@ -436,17 +447,20 @@
   :block/created-at 1660808006085,
   :block/updated-at 1660808006085}
  {:block/name "como si existiese el perdón (highlights)",
-  :block/created-at 1662110440865,
-  :block/updated-at 1662110440865}
+  :block/created-at 1663348724084,
+  :block/updated-at 1663348724084}
  {:block/name "complete guide to test automation (highlights)",
   :block/created-at 1661943761054,
   :block/updated-at 1661943761054}
  {:block/name "computer science illuminated (highlights)",
   :block/created-at 1661943761214,
   :block/updated-at 1661943761214}
+ {:block/name "containers",
+  :block/created-at 1663350776288,
+  :block/updated-at 1663350776288}
  {:block/name "contenedores",
-  :block/created-at 1660808029684,
-  :block/updated-at 1662122655742}
+  :block/created-at 1663348724115,
+  :block/updated-at 1663348724115}
  {:block/name "contenedores tema-1 (highlights)",
   :block/created-at 1661943761611,
   :block/updated-at 1661943761611}
@@ -590,8 +604,8 @@
   :block/created-at 1661536781206,
   :block/updated-at 1661536781206}
  {:block/name "docker esencial/buenas prácticas de docker",
-  :block/created-at 1661695807548,
-  :block/updated-at 1661695807548}
+  :block/created-at 1663348719311,
+  :block/updated-at 1663348719311}
  {:block/name "docker esencial/conceptos principales de docker",
   :block/created-at 1661544115374,
   :block/updated-at 1661544115374}
@@ -599,8 +613,8 @@
   :block/created-at 1661537303263,
   :block/updated-at 1661537303263}
  {:block/name "docker esencial/orquestación y clusters",
-  :block/created-at 1661940316383,
-  :block/updated-at 1661940316383}
+  :block/created-at 1663348719318,
+  :block/updated-at 1663348719318}
  {:block/name "docker esencial/presentación del curso de docker",
   :block/created-at 1661544115365,
   :block/updated-at 1661544115365}
@@ -664,6 +678,9 @@
  {:block/name "engineering software products (highlights)",
   :block/created-at 1661943770501,
   :block/updated-at 1661943770501}
+ {:block/name "english",
+  :block/created-at 1663349027714,
+  :block/updated-at 1663349027714}
  {:block/name
   "entendiendo devops en 5 minutos - autentia (highlights)",
   :block/created-at 1661943770440,
@@ -749,8 +766,8 @@
   :block/created-at 1660315974291,
   :block/updated-at 1660315974291}
  {:block/name "friday, 02-09-2022",
-  :block/created-at 1662110437458,
-  :block/updated-at 1662133079254}
+  :block/created-at 1663348722961,
+  :block/updated-at 1663348722961}
  {:block/name "friday, 05-08-2022",
   :block/created-at 1660315975479,
   :block/updated-at 1660315975479}
@@ -760,12 +777,18 @@
  {:block/name "friday, 12-08-2022",
   :block/created-at 1661943746660,
   :block/updated-at 1661943746660}
+ {:block/name "friday, 16-09-2022",
+  :block/created-at 1663348712608,
+  :block/updated-at 1663348712608}
  {:block/name "friday, 19-08-2022",
   :block/created-at 1660735421159,
   :block/updated-at 1660981562674}
  {:block/name "friday, 26-08-2022",
   :block/created-at 1661536406404,
   :block/updated-at 1661546134397}
+ {:block/name "friday, 30-09-2022",
+  :block/created-at 1663348723594,
+  :block/updated-at 1663348723594}
  {:block/name "full-title",
   :block/created-at 1660807705474,
   :block/updated-at 1660807705474}
@@ -809,6 +832,9 @@
  {:block/name "gestión de proyectos",
   :block/created-at 1660808011355,
   :block/updated-at 1660808011355}
+ {:block/name "grammar",
+  :block/created-at 1663349027731,
+  :block/updated-at 1663349027731}
  {:block/name "great expectations (highlights)",
   :block/created-at 1661943774021,
   :block/updated-at 1661943774021}
@@ -909,8 +935,8 @@
   :block/created-at 1661943778310,
   :block/updated-at 1661943778310}
  {:block/name "hls__contenedores_tema-1_1662122655208_0",
-  :block/created-at 1662122708236,
-  :block/updated-at 1662122882622}
+  :block/created-at 1663348729201,
+  :block/updated-at 1663348729201}
  {:block/name
   "how can i match \"anything up until this sequence of characters\" in a regular expression? (highlights)",
   :block/created-at 1661943778596,
@@ -967,6 +993,61 @@
  {:block/name "ibm",
   :block/created-at 1660920950959,
   :block/updated-at 1660920950959}
+ {:block/name
+  "ibm professional certificate of devops and software engineering",
+  :block/created-at 1663318225769,
+  :block/updated-at 1663318225769}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift",
+  :block/created-at 1663348721600,
+  :block/updated-at 1663348721600}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-1",
+  :block/created-at 1663348724648,
+  :block/updated-at 1663348724648}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-2",
+  :block/created-at 1663348725401,
+  :block/updated-at 1663348725401}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-4",
+  :block/created-at 1663348725082,
+  :block/updated-at 1663348725082}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 1",
+  :block/created-at 1663348725569,
+  :block/updated-at 1663348725569}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 2",
+  :block/created-at 1663348725823,
+  :block/updated-at 1663348725823}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 3",
+  :block/created-at 1663348726134,
+  :block/updated-at 1663348726134}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 4",
+  :block/created-at 1663348723537,
+  :block/updated-at 1663348723537}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 4/lab: introduction to openshift",
+  :block/created-at 1663348726405,
+  :block/updated-at 1663348726405}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 5",
+  :block/created-at 1663348723589,
+  :block/updated-at 1663348723589}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/python for data science, ai & development",
+  :block/created-at 1663348723548,
+  :block/updated-at 1663348723548}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 1",
+  :block/created-at 1663348727052,
+  :block/updated-at 1663348727052}
+ {:block/name "ibm-devops",
+  :block/created-at 1663317782452,
+  :block/updated-at 1663317782452}
  {:block/name "ibm-devops-containers-lab-1",
   :block/created-at 1660315979804,
   :block/updated-at 1662133319699}
@@ -974,8 +1055,8 @@
   :block/created-at 1660315979807,
   :block/updated-at 1662136219062}
  {:block/name "ibm-devops-containers-lab-3",
-  :block/created-at 1663237719215,
-  :block/updated-at 1663237807709}
+  :block/created-at 1663348725787,
+  :block/updated-at 1663348725787}
  {:block/name "ichi.pro",
   :block/created-at 1660807895196,
   :block/updated-at 1660807895196}
@@ -1028,6 +1109,10 @@
   "introduction to computation and programming using python (highlights)",
   :block/created-at 1661943780133,
   :block/updated-at 1661943780133}
+ {:block/name
+  "introduction to containers with docker, kubernetes & openshift",
+  :block/created-at 1663317875338,
+  :block/updated-at 1663317875338}
  {:block/name
   "introduction to git and github - inicio | coursera (highlights)",
   :block/created-at 1661943780712,
@@ -1109,8 +1194,8 @@
   :block/created-at 1661943784224,
   :block/updated-at 1661943784224}
  {:block/name "la historia de la nostalgia (highlights)",
-  :block/created-at 1663231516525,
-  :block/updated-at 1663231517072}
+  :block/created-at 1663348727838,
+  :block/updated-at 1663348727838}
  {:block/name "la síntesis de la libertad (highlights)",
   :block/created-at 1661943784391,
   :block/updated-at 1661943784391}
@@ -1207,8 +1292,8 @@
   :block/created-at 1660807885966,
   :block/updated-at 1660807885966}
  {:block/name "master en devops",
-  :block/created-at 1662122447675,
-  :block/updated-at 1662124509261}
+  :block/created-at 1663348727906,
+  :block/updated-at 1663348727906}
  {:block/name "matt haig",
   :block/created-at 1660807863900,
   :block/updated-at 1660807863900}
@@ -1237,6 +1322,9 @@
  {:block/name "monday, 01-08-2022",
   :block/created-at 1660315974600,
   :block/updated-at 1660315974600}
+ {:block/name "monday, 05-09-2022",
+  :block/created-at 1663349027396,
+  :block/updated-at 1663349027396}
  {:block/name "monday, 08-08-2022",
   :block/created-at 1660315976840,
   :block/updated-at 1660315976840}
@@ -1246,6 +1334,9 @@
  {:block/name "monday, 25-07-2022",
   :block/created-at 1660315973345,
   :block/updated-at 1660315973345}
+ {:block/name "monday, 29-08-2022",
+  :block/created-at 1663349027373,
+  :block/updated-at 1663349027373}
  {:block/name "my knowledge path",
   :block/created-at 1660315984032,
   :block/updated-at 1660315984032}
@@ -1305,14 +1396,20 @@
   :block/created-at 1660807707913,
   :block/updated-at 1660807707913}
  {:block/name "origin (highlights)",
-  :block/created-at 1662110441364,
-  :block/updated-at 1662110441364}
+  :block/created-at 1663348728045,
+  :block/updated-at 1663348728045}
  {:block/name "oscar wilde and mauro armiño",
   :block/created-at 1660807797510,
   :block/updated-at 1660807797510}
  {:block/name "ottessa moshfegh",
   :block/created-at 1661415280624,
   :block/updated-at 1661415280624}
+ {:block/name "oxford english file b2.1",
+  :block/created-at 1663349027394,
+  :block/updated-at 1663349027394}
+ {:block/name "oxford english file b2.1/unit 4",
+  :block/created-at 1663349027709,
+  :block/updated-at 1663349027709}
  {:block/name "pablo beytía y jorge acevedo guerra",
   :block/created-at 1660807749373,
   :block/updated-at 1660807749373}
@@ -1426,24 +1523,24 @@
   :block/updated-at 1661943797956}
  {:block/name
   "red hat certified engineer (rhce) study guide (highlights)",
-  :block/created-at 1662118337763,
-  :block/updated-at 1662118338459}
+  :block/created-at 1663348728145,
+  :block/updated-at 1663348728145}
  {:block/name
   "red hat certified specialist in ansible automation (ex407) preparation course",
   :block/created-at 1661966927880,
   :block/updated-at 1662120361373}
  {:block/name
   "red hat certified specialist in ansible automation (ex407) preparation course/course overview",
-  :block/created-at 1661966927877,
-  :block/updated-at 1661966927877}
+  :block/created-at 1663348719267,
+  :block/updated-at 1663348719267}
  {:block/name
   "red hat certified specialist in ansible automation (ex407) preparation course/run ad-hoc ansible commands",
   :block/created-at 1662118554344,
   :block/updated-at 1662118554344}
  {:block/name
   "red hat certified specialist in ansible automation (ex407) preparation course/understanding core components of ansible",
-  :block/created-at 1661966928028,
-  :block/updated-at 1661966928028}
+  :block/created-at 1663348719273,
+  :block/updated-at 1663348719273}
  {:block/name "resilience (highlights)",
   :block/created-at 1661943798249,
   :block/updated-at 1661943798249}
@@ -1471,14 +1568,14 @@
   :block/created-at 1661943798824,
   :block/updated-at 1661943798824}
  {:block/name "saturday, 03-09-2022",
-  :block/created-at 1662195057721,
-  :block/updated-at 1662205987773}
+  :block/created-at 1663348723351,
+  :block/updated-at 1663348723351}
  {:block/name "saturday, 06-08-2022",
   :block/created-at 1660315976205,
   :block/updated-at 1660315976205}
  {:block/name "saturday, 10-09-2022",
-  :block/created-at 1662205867932,
-  :block/updated-at 1662206026381}
+  :block/created-at 1663348723417,
+  :block/updated-at 1663348723417}
  {:block/name "saturday, 13-08-2022",
   :block/created-at 1661943746993,
   :block/updated-at 1661943746993}
@@ -1489,8 +1586,8 @@
   :block/created-at 1661943747145,
   :block/updated-at 1661943747145}
  {:block/name "saturday, 27-08-2022",
-  :block/created-at 1661695806259,
-  :block/updated-at 1661695806259}
+  :block/created-at 1663348719003,
+  :block/updated-at 1663348719003}
  {:block/name "saturday, 30-07-2022",
   :block/created-at 1660315973907,
   :block/updated-at 1660315973907}
@@ -1569,6 +1666,9 @@
  {:block/name "spaced",
   :block/created-at 1658774346833,
   :block/updated-at 1658774346833}
+ {:block/name "speaking recordings",
+  :block/created-at 1663349028239,
+  :block/updated-at 1663349028239}
  {:block/name
   "spencer krum, william van hevelingen, ben kero, james turnbull y jeffrey mccune",
   :block/created-at 1660807760339,
@@ -1580,8 +1680,8 @@
   :block/created-at 1660807809968,
   :block/updated-at 1660807809968}
  {:block/name "ssh-copy-id - permission denied (highlights)",
-  :block/created-at 1662136677158,
-  :block/updated-at 1662136677749}
+  :block/created-at 1663348728323,
+  :block/updated-at 1663348728323}
  {:block/name "stackoverflow.com",
   :block/created-at 1660807820796,
   :block/updated-at 1660807820796}
@@ -1610,8 +1710,8 @@
   :block/created-at 1661079459012,
   :block/updated-at 1661079459012}
  {:block/name "sunday, 28-08-2022",
-  :block/created-at 1661695804404,
-  :block/updated-at 1661696878871}
+  :block/created-at 1663348719058,
+  :block/updated-at 1663348719058}
  {:block/name "sunday, 31-07-2022",
   :block/created-at 1660315974297,
   :block/updated-at 1660315974297}
@@ -1653,15 +1753,21 @@
  {:block/name "test-driven python development (highlights)",
   :block/created-at 1661943803262,
   :block/updated-at 1661943803262}
+ {:block/name "testing",
+  :block/created-at 1663314717077,
+  :block/updated-at 1663314717077}
+ {:block/name "testing-2",
+  :block/created-at 1663314941843,
+  :block/updated-at 1663314941843}
  {:block/name "the agile testing collection (highlights)",
   :block/created-at 1661943802782,
   :block/updated-at 1661943802782}
  {:block/name "the bits and bytes of computer networking",
-  :block/created-at 1662196141182,
-  :block/updated-at 1662205566979}
+  :block/created-at 1663348723414,
+  :block/updated-at 1663348723414}
  {:block/name "the bits and bytes of computer networking (legacy)",
-  :block/created-at 1662195340469,
-  :block/updated-at 1662225373600}
+  :block/created-at 1663348728676,
+  :block/updated-at 1663348728676}
  {:block/name "the book of longings (highlights)",
   :block/created-at 1661943803011,
   :block/updated-at 1661943803011}
@@ -1672,8 +1778,8 @@
   :block/created-at 1661943803705,
   :block/updated-at 1661943803705}
  {:block/name "the devops career handbook (highlights)",
-  :block/created-at 1662110442443,
-  :block/updated-at 1662110442443}
+  :block/created-at 1663348728413,
+  :block/updated-at 1663348728413}
  {:block/name "the devops engineer’s career guide (highlights)",
   :block/created-at 1661943803462,
   :block/updated-at 1661943803462}
@@ -1715,14 +1821,14 @@
   :block/created-at 1660808070130,
   :block/updated-at 1660808070130}
  {:block/name "thursday, 01-09-2022",
-  :block/created-at 1662110439933,
-  :block/updated-at 1662110439933}
+  :block/created-at 1663348721795,
+  :block/updated-at 1663348721795}
  {:block/name "thursday, 11-08-2022",
   :block/created-at 1661943746792,
   :block/updated-at 1661943746792}
  {:block/name "thursday, 15-09-2022",
-  :block/created-at 1663227891448,
-  :block/updated-at 1663255692859}
+  :block/created-at 1663348722962,
+  :block/updated-at 1663348722962}
  {:block/name "thursday, 18-08-2022",
   :block/created-at 1660631592139,
   :block/updated-at 1660900362333}
@@ -1745,8 +1851,8 @@
   :block/created-at 1660315974691,
   :block/updated-at 1661942153409}
  {:block/name "tuesday, 06-09-2022",
-  :block/created-at 1662457804983,
-  :block/updated-at 1663242492601}
+  :block/created-at 1663348723395,
+  :block/updated-at 1663348723395}
  {:block/name "tuesday, 09-08-2022",
   :block/created-at 1661943746574,
   :block/updated-at 1661943746574}
@@ -1780,6 +1886,9 @@
  {:block/name "unir",
   :block/created-at 1660807912902,
   :block/updated-at 1660807912902}
+ {:block/name "unit-4",
+  :block/created-at 1663349027712,
+  :block/updated-at 1663349027712}
  {:block/name
   "unittest — unit testing framework — python 3.9.2rc1 documentation (highlights)",
   :block/created-at 1661943806535,
@@ -1854,8 +1963,8 @@
   :block/created-at 1660315973792,
   :block/updated-at 1660315973792}
  {:block/name "wednesday, 31-08-2022",
-  :block/created-at 1661940316391,
-  :block/updated-at 1662122172585}
+  :block/created-at 1663348719323,
+  :block/updated-at 1663348719323}
  {:block/name "week 1",
   :block/created-at 1661943745391,
   :block/updated-at 1661943745391}

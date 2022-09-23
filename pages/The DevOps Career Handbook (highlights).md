@@ -33,3 +33,9 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- DevOps was founded around 2008 when a developer and Agilist met at a conference and decided there needed to be a better way of developing software. The goal of DevOps is to remove silos between development and IT operation teams as well as shortening the feedback loop between developers and customers. DevOps is a mix of Lean, Agile, and XP methodologies #space
 		- -
+- New highlights added [[Friday, 23-09-2022]] at 3:25 PM
+	- -
+	- Being a continuous learner is a personal attribute that will get you hired.
+	  
+	  PRO TIP: YOU MUST BE A CONTINUOUS LEARNER IF YOU WISH TO SUCCEED IN DEVOPS #spaced
+	- -

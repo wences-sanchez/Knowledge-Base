@@ -1,4 +1,4 @@
-title:: IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 2
+title:: Certificado profesional de IBM DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 2
 
 - #tags #Coursera #DevOps #Containers
 -
@@ -92,6 +92,7 @@ title:: IBM Professional Certificate of DevOps and Software Engineering/Introduc
 			- `$ kubectl describe pod hello-world`
 			- `$ kubectl delete pod hello-world`
 			- `$ kubectl expose deployment/hello-world`
+		-
 		- ![image.png](../assets/image_1663240624916_0.png){:height 226, :width 425}
 		-
 	-
@@ -101,6 +102,7 @@ title:: IBM Professional Certificate of DevOps and Software Engineering/Introduc
 - ### Flashcards
 	- What is not *Kubernetes*? #flashcard
 		- ![image.png](../assets/image_1662137934969_0.png)
+		- title:: Certificado profesional de IBM DevOps and Software Engineering/IBM-DevOps-Containers
 	- How is called a deployment in *Kubernetes*? #flashcard
 	  collapsed:: true
 		- A **deployment** of **Kubernetes** is called a *cluster*.

@@ -17,18 +17,16 @@
 	- #### 5. Is pure freedom of speech is undesirable in today’s world?
 		- ![2022-09-15-14-58-05.mp3](../assets/2022-09-15-14-58-05.mp3)
 		-
-	- #### 6. Should you be free to tell an enemy your country’s national secrets?
-		- ![2022-09-16-14-49-49.mp3](../assets/2022-09-16-14-49-49.mp3)
-		-
-	- #### 7. Some countries forbid school teachers from introducing subjects like homosexuality in their classes. Is this denying free speech?
-		- ![2022-09-16-14-57-29.mp3](../assets/2022-09-16-14-57-29.mp3)
-		-
+-
+-
 -
 -
 - Later
   collapsed:: true
 	-
-	- (8)	Does the Internet open up the possibilities of totally free speech and freedom of expression?
+	- (6)	Should you be free to tell an enemy your country’s national secrets?
+	  (7)	Some countries forbid school teachers from introducing subjects like homosexuality in their classes. Is this denying free speech?
+	  (8)	Does the Internet open up the possibilities of totally free speech and freedom of expression?
 	  (9)	Many countries censor websites to control what their citizens can and cannot see. Is this dangerous?
 	  (10)	When do you have to be careful what you say?
 	  

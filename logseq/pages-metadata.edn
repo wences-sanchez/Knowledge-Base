@@ -238,6 +238,13 @@
  {:block/name "aws",
   :block/created-at 1660029985876,
   :block/updated-at 1660029985876}
+ {:block/name "aws certified cloud practitioner by acg",
+  :block/created-at 1663940091696,
+  :block/updated-at 1663940091696}
+ {:block/name
+  "aws certified cloud practitioner exam guide (highlights)",
+  :block/created-at 1663940091476,
+  :block/updated-at 1663940091476}
  {:block/name
   "aws: how to allow all tcp traffic between all instances in same vpc? (highlights)",
   :block/created-at 1661943748005,
@@ -340,6 +347,9 @@
  {:block/name "category",
   :block/created-at 1660807705481,
   :block/updated-at 1660807705481}
+ {:block/name "ccp-exam",
+  :block/created-at 1663939514196,
+  :block/updated-at 1663939514196}
  {:block/name "cem kaner, james marcus bach, bret pettichord",
   :block/created-at 1660807747490,
   :block/updated-at 1660807747490}
@@ -356,24 +366,32 @@
   :block/updated-at 1663348712843}
  {:block/name
   "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-1",
-  :block/created-at 1663349027305,
-  :block/updated-at 1663349027305}
+  :block/created-at 1663940091663,
+  :block/updated-at 1663940091663}
  {:block/name
   "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-2",
-  :block/created-at 1663349027042,
-  :block/updated-at 1663349027042}
+  :block/created-at 1663940092027,
+  :block/updated-at 1663940092027}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
-  :block/created-at 1663349029806,
-  :block/updated-at 1663349029806}
+  :block/created-at 1663940091791,
+  :block/updated-at 1663940091791}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-1",
+  :block/created-at 1663940091940,
+  :block/updated-at 1663940091940}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-2",
+  :block/created-at 1663940091788,
+  :block/updated-at 1663940091788}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-4",
-  :block/created-at 1663349029801,
-  :block/updated-at 1663349029801}
+  :block/created-at 1663940092629,
+  :block/updated-at 1663940092629}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 2",
-  :block/created-at 1663349029786,
-  :block/updated-at 1663349029786}
+  :block/created-at 1663940093061,
+  :block/updated-at 1663940093061}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to devops",
   :block/created-at 1661943747140,
@@ -492,8 +510,8 @@
   :block/created-at 1661943764209,
   :block/updated-at 1661943764209}
  {:block/name "contents",
-  :block/created-at 1660316145971,
-  :block/updated-at 1660811442389}
+  :block/created-at 1663940094421,
+  :block/updated-at 1663940094421}
  {:block/name "core java volume i--fundamentals (highlights)",
   :block/created-at 1661943764510,
   :block/updated-at 1661943764510}
@@ -645,6 +663,9 @@
  {:block/name "eckhart tolle",
   :block/created-at 1660807904139,
   :block/updated-at 1660807904139}
+ {:block/name "effective devops (highlights)",
+  :block/created-at 1663940093701,
+  :block/updated-at 1663940093701}
  {:block/name "effective devops with aws (highlights)",
   :block/created-at 1661943769361,
   :block/updated-at 1661943769361}
@@ -772,8 +793,8 @@
   :block/created-at 1660315975479,
   :block/updated-at 1660315975479}
  {:block/name "friday, 09-09-2022",
-  :block/created-at 1661943747483,
-  :block/updated-at 1661943747483}
+  :block/created-at 1663940093861,
+  :block/updated-at 1663940093861}
  {:block/name "friday, 12-08-2022",
   :block/created-at 1661943746660,
   :block/updated-at 1661943746660}
@@ -783,6 +804,9 @@
  {:block/name "friday, 19-08-2022",
   :block/created-at 1660735421159,
   :block/updated-at 1660981562674}
+ {:block/name "friday, 23-09-2022",
+  :block/created-at 1663939511402,
+  :block/updated-at 1663939511402}
  {:block/name "friday, 26-08-2022",
   :block/created-at 1661536406404,
   :block/updated-at 1661546134397}
@@ -949,6 +973,9 @@
   "how do you test that a python function throws an exception? (highlights)",
   :block/created-at 1661943778446,
   :block/updated-at 1661943778446}
+ {:block/name "how sre relates to devops (highlights)",
+  :block/created-at 1663940093582,
+  :block/updated-at 1663940093582}
  {:block/name "how to add a directory to the path? (highlights)",
   :block/created-at 1661943778499,
   :block/updated-at 1661943778499}
@@ -1100,11 +1127,8 @@
   :block/created-at 1661943779710,
   :block/updated-at 1661943779710}
  {:block/name "introduction to aws",
-  :block/created-at 1661943780574,
-  :block/updated-at 1661943780574}
- {:block/name "introduction to aws (legacy)",
-  :block/created-at 1661536423578,
-  :block/updated-at 1661536423578}
+  :block/created-at 1663940090748,
+  :block/updated-at 1663940090748}
  {:block/name
   "introduction to computation and programming using python (highlights)",
   :block/created-at 1661943780133,
@@ -1323,8 +1347,8 @@
   :block/created-at 1660315974600,
   :block/updated-at 1660315974600}
  {:block/name "monday, 05-09-2022",
-  :block/created-at 1663349027396,
-  :block/updated-at 1663349027396}
+  :block/created-at 1663940093878,
+  :block/updated-at 1663940093878}
  {:block/name "monday, 08-08-2022",
   :block/created-at 1660315976840,
   :block/updated-at 1660315976840}
@@ -1335,8 +1359,8 @@
   :block/created-at 1660315973345,
   :block/updated-at 1660315973345}
  {:block/name "monday, 29-08-2022",
-  :block/created-at 1663349027373,
-  :block/updated-at 1663349027373}
+  :block/created-at 1663940093846,
+  :block/updated-at 1663940093846}
  {:block/name "my knowledge path",
   :block/created-at 1660315984032,
   :block/updated-at 1660315984032}
@@ -1405,11 +1429,11 @@
   :block/created-at 1661415280624,
   :block/updated-at 1661415280624}
  {:block/name "oxford english file b2.1",
-  :block/created-at 1663349027394,
-  :block/updated-at 1663349027394}
+  :block/created-at 1663940093877,
+  :block/updated-at 1663940093877}
  {:block/name "oxford english file b2.1/unit 4",
-  :block/created-at 1663349027709,
-  :block/updated-at 1663349027709}
+  :block/created-at 1663940093971,
+  :block/updated-at 1663940093971}
  {:block/name "pablo beytía y jorge acevedo guerra",
   :block/created-at 1660807749373,
   :block/updated-at 1660807749373}
@@ -1667,8 +1691,8 @@
   :block/created-at 1658774346833,
   :block/updated-at 1658774346833}
  {:block/name "speaking recordings",
-  :block/created-at 1663349028239,
-  :block/updated-at 1663349028239}
+  :block/created-at 1663940094461,
+  :block/updated-at 1663940094461}
  {:block/name
   "spencer krum, william van hevelingen, ben kero, james turnbull y jeffrey mccune",
   :block/created-at 1660807760339,
@@ -1754,11 +1778,11 @@
   :block/created-at 1661943803262,
   :block/updated-at 1661943803262}
  {:block/name "testing",
-  :block/created-at 1663314717077,
-  :block/updated-at 1663314717077}
+  :block/created-at 1663940093618,
+  :block/updated-at 1663940093618}
  {:block/name "testing-2",
-  :block/created-at 1663314941843,
-  :block/updated-at 1663314941843}
+  :block/created-at 1663940093623,
+  :block/updated-at 1663940093623}
  {:block/name "the agile testing collection (highlights)",
   :block/created-at 1661943802782,
   :block/updated-at 1661943802782}

@@ -217,6 +217,24 @@
   "append a single character to a string or char array in java? (highlights)",
   :block/created-at 1661943753229,
   :block/updated-at 1661943753229}
+ {:block/name "aprende kubernetes",
+  :block/created-at 1664205288373,
+  :block/updated-at 1664210991580}
+ {:block/name "aprende kubernetes/cogiendo ritmo en kubernetes",
+  :block/created-at 1664205911795,
+  :block/updated-at 1664205911795}
+ {:block/name "aprende kubernetes/instalación de kubernetes",
+  :block/created-at 1664205828869,
+  :block/updated-at 1664211051239}
+ {:block/name "aprende kubernetes/introducción a kubernetes",
+  :block/created-at 1664205791419,
+  :block/updated-at 1664210651732}
+ {:block/name "aprende kubernetes/kubernetes avanzado",
+  :block/created-at 1664205939260,
+  :block/updated-at 1664205939260}
+ {:block/name "aprende kubernetes/primeros pasos en kubernetes",
+  :block/created-at 1664205881883,
+  :block/updated-at 1664205881883}
  {:block/name "arnon axelrod",
   :block/created-at 1660807793834,
   :block/updated-at 1660807793834}
@@ -1205,6 +1223,9 @@
  {:block/name "ken follett",
   :block/created-at 1660807859029,
   :block/updated-at 1660807859029}
+ {:block/name "kubernetes",
+  :block/created-at 1664206156268,
+  :block/updated-at 1664206156268}
  {:block/name "kubernetes in action (highlights)",
   :block/created-at 1661943784975,
   :block/updated-at 1661943784975}
@@ -1358,6 +1379,9 @@
  {:block/name "monday, 25-07-2022",
   :block/created-at 1660315973345,
   :block/updated-at 1660315973345}
+ {:block/name "monday, 26-09-2022",
+  :block/created-at 1664204942932,
+  :block/updated-at 1664214148711}
  {:block/name "monday, 29-08-2022",
   :block/created-at 1663940093846,
   :block/updated-at 1663940093846}
@@ -1855,7 +1879,7 @@
   :block/updated-at 1663348722962}
  {:block/name "thursday, 18-08-2022",
   :block/created-at 1660631592139,
-  :block/updated-at 1660900362333}
+  :block/updated-at 1664205153067}
  {:block/name "thursday, 25-08-2022",
   :block/created-at 1661943747365,
   :block/updated-at 1661943747365}

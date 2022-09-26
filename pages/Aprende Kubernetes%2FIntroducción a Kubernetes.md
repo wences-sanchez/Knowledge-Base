@@ -69,6 +69,12 @@ tags:: LinkedIn-Learning, Kubernetes
 	- ![image.png](../assets/image_1664207963644_0.png)
 	- Si tenemos solo un nodo en el Control Plane (o plano de control) no podremos tener balanceo de carga ni tolerancia a fallos.
 	-
+	- ### Flashcards
+		- Esquema general de la arquitectura de Kubernetes: #flashcard
+			- ![image.png](../assets/image_1664207963644_0.png)
+			-
+			-
+	-
 	-
 - ## Kubernetes: El plano de control
 	- ### Etcd
@@ -88,6 +94,25 @@ tags:: LinkedIn-Learning, Kubernetes
 		- Hace de intermediario entre componentes
 		- Es el punto de entrada administrativo
 	-
+	- ### Flashcards
+		- ¿Cuáles son los elementos del plano de control de Kubernetes? #flashcard
+			- ### Etcd
+				- Guarda todos los metadatos que tenemos de los objetos que hay en el clúster.
+					- Pueden ser las definiciones de los objetos, su configuración, su estado de ejecución... La fuente de la verdad
+				- Se puede externalizar
+			- ### Scheduler
+				- Asigna pods a los nodos.
+			- ### Controller Manager
+				- Ejecuta los controladores.
+				- Funciona como circuito de control:
+					- Mantiene nodos, jobs,... para que éstos estén dentro de un rango.
+			- ### Cloud Controller Manager
+				- Conecta con la API de la nube.
+				- Intermediario para generar recursos.
+			- ### API Server
+				- Hace de intermediario entre componentes
+				- Es el punto de entrada administrativo
+	-
 	-
 - ## Kubernetes: los Nodos
 	- ### Kubelet
@@ -105,6 +130,23 @@ tags:: LinkedIn-Learning, Kubernetes
 		- ConfigMap
 		- SecretMap
 	-
+	- ### Flashcards
+		- ¿Cuáles son los elementos del plano de datos de Kubernetes? #flashcard
+			- ### Kubelet
+				- Agente que vigila y arranca los pods.
+			- ### CRI / Runtime
+				- Software que ejecuta contenedores
+				- Descarga también las imágenes del registro
+				- Usa el protocolo CRI
+			- ### Kube-Proxy
+				- Balanceador de carga
+			- ### Objetos
+				- Pods
+				- Services
+				- Deployment
+				- ConfigMap
+				- SecretMap
+	-
 	-
 - ## Kubernetes: los namespaces y pods
 	- Un **pod** es un agrupamiento de uno o más contenedores que están relacionados entre sí porque necesitan estar juntos para colaborar y ejecutar algún tipo de cagra o de aplicación
@@ -114,6 +156,17 @@ tags:: LinkedIn-Learning, Kubernetes
 		- Porque mantiene un número determinado de pods. Para poder **gestionarlos**.
 	- El namespace por defecto que viene en Kubernetes para nuestras cosas es el **Default**
 		- Todos los namespaces se pueden comunicar entre sí
+	-
+	- ### Flashcards
+		- Acerca de pods en Kubernetes y de cómo usarlos. #flashcard
+			- Un **pod** es un agrupamiento de uno o más contenedores que están relacionados entre sí porque necesitan estar juntos para colaborar y ejecutar algún tipo de cagra o de aplicación
+			- Cada pod tiene una dirección IP que comparte con todos los nodos que hay dentro. Y pueden compartir también un volumen de disco, por ejemplo.
+			- Los pods comparten también los puertos libres (y ocupados :( )
+			- Pero un **deployment** es lo mejor
+				- Porque mantiene un número determinado de pods. Para poder **gestionarlos**.
+			- El namespace por defecto que viene en Kubernetes para nuestras cosas es el **Default**
+				- Todos los namespaces se pueden comunicar entre sí
+	-
 	-
 	-
 - ## Extendiendo Kubernetes

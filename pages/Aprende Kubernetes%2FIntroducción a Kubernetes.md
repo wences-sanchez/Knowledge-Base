@@ -70,5 +70,28 @@ tags:: LinkedIn-Learning, Kubernetes
 	- Si tenemos solo un nodo en el Control Plane (o plano de control) no podremos tener balanceo de carga ni tolerancia a fallos.
 	-
 	-
+- ## Kubernetes: El plano de control
+	- ### Etcd
+		- Guarda todos los metadatos que tenemos de los objetos que hay en el clúster.
+			- Pueden ser las definiciones de los objetos, su configuración, su estado de ejecución... La fuente de la verdad
+		- Se puede externalizar
+	- ### Scheduler
+		- Asigna pods a los nodos.
+	- ### Controller Manager
+		- Ejecuta los controladores.
+		- Funciona como circuito de control:
+			- Mantiene nodos, jobs,... para que éstos estén dentro de un rango.
+	- ### Cloud Congroller Manager
+		- Conecta con la API de la nube.
+		- Intermediario para generar recursos.
+	- ### API Server
+		- Hace de intermediario entre componentes
+		- Es el punto de entrada administrativo
+	-
+	-
+- ## Kubernetes: los Nodos
+	- ### Kubelet
+		-
+	-
 	-
 	-

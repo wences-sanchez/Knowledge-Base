@@ -10,12 +10,33 @@ tags:: LinkedIn-Learning, Kubernetes
 		- También con el **escalado** de las mismas.
 		- Y su **gestión**.
 		- Con **IaC**.
-	-
+-
+-
 - ## Historia breve de Kubernetes
 	- Acceso a través de una API.
 	-
 	-
 - ## La relación entre Kubernetes y Docker
 	- El kubelet es el módulo de Kubernetes que se encarga de la creación de los pods.
+	- El runtime por defecto es containerd, que es compatible con Docker.
+	-
+	-
+- ## Alternativas a Kubernetes
+	- Docker Swarm
+		- Menos comunidad y foros.
+		- Proyecto casi abandonado por Docker
+	- Hashicorp Nomad
+		- Más sencillo
+		- Más portable (diferentes backends)
+		- Menos herramientas externas VS el ecosistema de Kubernetes
+		- Extensible con herramientas Hashicorp
+	- Apache Mesos
+		- Más sencillo de todos
+		- Más genérico
+		- Soporta orquestación con Marathon
+		- Pero menos extendido.
+		-
+- ## Kubernetes: Arquitectura General
+	-
 	-
 	-

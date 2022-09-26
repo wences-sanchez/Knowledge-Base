@@ -81,7 +81,7 @@ tags:: LinkedIn-Learning, Kubernetes
 		- Ejecuta los controladores.
 		- Funciona como circuito de control:
 			- Mantiene nodos, jobs,... para que éstos estén dentro de un rango.
-	- ### Cloud Congroller Manager
+	- ### Cloud Controller Manager
 		- Conecta con la API de la nube.
 		- Intermediario para generar recursos.
 	- ### API Server
@@ -112,7 +112,12 @@ tags:: LinkedIn-Learning, Kubernetes
 	- Los pods comparten también los puertos libres (y ocupados :( )
 	- Pero un **deployment** es lo mejor
 		- Porque mantiene un número determinado de pods. Para poder **gestionarlos**.
-	- El namespace por defecto que viene en Kubernetes para nes el **Default**
+	- El namespace por defecto que viene en Kubernetes para nuestras cosas es el **Default**
+		- Todos los namespaces se pueden comunicar entre sí
+	-
+	-
+- ## Extendiendo Kubernetes
+	-
 	-
 	-
 	-

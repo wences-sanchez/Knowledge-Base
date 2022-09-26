@@ -91,7 +91,28 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 - ## Kubernetes: los Nodos
 	- ### Kubelet
-		-
+		- Agente que vigila y arranca los pods.
+	- ### CRI / Runtime
+		- Software que ejecuta contenedores
+		- Descarga también las imágenes del registro
+		- Usa el protocolo CRI
+	- ### Kube-Proxy
+		- Balanceador de carga
+	- ### Objetos
+		- Pods
+		- Services
+		- Deployment
+		- ConfigMap
+		- SecretMap
+	-
+	-
+- ## Kubernetes: los namespaces y pods
+	- Un **pod** es un agrupamiento de uno o más contenedores que están relacionados entre sí porque necesitan estar juntos para colaborar y ejecutar algún tipo de cagra o de aplicación
+	- Cada pod tiene una dirección IP que comparte con todos los nodos que hay dentro. Y pueden compartir también un volumen de disco, por ejemplo.
+	- Los pods comparten también los puertos libres (y ocupados :( )
+	- Pero un **deployment** es lo mejor
+		- Porque mantiene un número determinado de pods. Para poder **gestionarlos**.
+	- El namespace por defecto que viene en Kubernetes para nes el **Default**
 	-
 	-
 	-

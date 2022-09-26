@@ -11,4 +11,11 @@ tags:: LinkedIn-Learning, Kubernetes
 		- Y su **gestión**.
 		- Con **IaC**.
 	-
+- ## Historia breve de Kubernetes
+	- Acceso a través de una API.
+	-
+	-
+- ## La relación entre Kubernetes y Docker
+	- El kubelet es el módulo de Kubernetes que se encarga de la creación de los pods.
+	-
 	-

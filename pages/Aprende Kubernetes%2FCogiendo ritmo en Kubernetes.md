@@ -23,7 +23,8 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 - ## Guardar configuraciones en Kubernetes
 	- Los **ConfigMap**, en vez de `spec:`, tienen `data:`
-	-
+	- No se pueden poner números como valor.
+		- Tienen que estar entrecomillados
 	-
 		-
 	-

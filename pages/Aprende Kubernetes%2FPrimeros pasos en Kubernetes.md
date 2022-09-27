@@ -77,5 +77,14 @@ tags:: LinkedIn-Learning, Kubernetes
 - ## Escalar despliegues en Kubernetes
 	-
 	-
+- ## Acceder a nuestros recursos desde fuera de Kubernetes
+	- Dependiendo del tipo de recurso o de aplicación que coloquemos dentro de nuestro clúster de Kubernetes, podría ser necesario el acceso desde el exterior.
+	- Por ejemplo, cuando tenemos un servidor web o algún tipo de API o de aplicación pública para el público general.
+	- Para estos casos necesitamos utilizar un objeto diferente, que podría ser un 'Ingress', un 'LoadBalancer' o un 'NodePort'.
+	- El objeto 'service' estándar, que ya lo conocemos, tiene una particularidad y es que el balanceador de carga y la dirección IP que nos asigna son internos, solo valen para dentro de nuestro clúster Kubernetes.
+	-
+	- Si necesitamos una manera de exponer nuestros pods al exterior, un modo es con **NodePort**
+		- Coloca un puerto entre 30 y 32000 (que son unos puertos especiales que asigna Kubernetes como accesibles o disponibles para abrir al exterior)
+	- Un objeto **NodePort**
 	-
 -

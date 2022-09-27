@@ -51,6 +51,10 @@ tags:: LinkedIn-Learning, Kubernetes
 		- Podríamos usar simplemente un balanceador de carga. Pero necesitaríamos actualizar cada vez las direcciones de cada pod igualmente.
 		- La solución es un servicio
 	-
+	- El **servicio** tiene un **selector**, que vamos a ver ahora qué sentido tiene y que redirige las llamadas del puerto 80 hasta el puerto 80 de los POD.
+		- Este **selector** (del servicio) lo que indica es a qué post se va a acoplar o a qué POD se va a repartir el tráfico cuando tenga una llamada.
+	- De la misma manera que en un **despliegue** nosotros teníamos un "matchlabel" que nos indicaba qué pods iban a quedar debajo de este despliegue, que POD iba a gestionar,
+		- en un **servicio** apuntamos a una **etiqueta** para saber a qué POD tenemos que **lanzarles** las peticiones.
 	-
 	-
 -

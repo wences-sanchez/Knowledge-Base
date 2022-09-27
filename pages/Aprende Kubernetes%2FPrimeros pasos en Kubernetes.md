@@ -31,14 +31,22 @@ tags:: LinkedIn-Learning, Kubernetes
 	- Los selectores ayudan al deployment a encontrar los pods que dependen de él gracias a unas etiquetas.
 		- Y esas mismas etiquetas se las tenemos que asignar a cada uno de los contenedores.
 		- Ayudan, pero no hacen que si tuviésemos otro pod con el mismo label (que nosotros por nuestra cuenta creemos) nos lo vaya a parar o a arrancar.
+		- La utilidad de los despliegues es simplemente tener siempre pods ejecutándose, los que queramos.
 	-
 	- ### Flashcards
 		- ¿Dónde le tenemos que indicar a Kubernetes el número de instancias que queremos? #flashcard #dev-notes
 			- En `spec:`. Justo antes de `selector:`, así:
 				- `replicas: 3` **O el número que quieras :P**
 				-
-		-
+		- ¿Cómo se comportan los deployments en Kubernetes si añadimos nuevos pods con mismo label? #flashcard
+			- Los selectores ayudan al deployment a encontrar los pods que dependen de él gracias a unas etiquetas.
+				- Y esas mismas etiquetas se las tenemos que asignar a cada uno de los contenedores.
+				- Ayudan, pero no hacen que si tuviésemos otro pod con el mismo label (que nosotros por nuestra cuenta creemos) nos lo vaya a parar o a arrancar.
+			- La utilidad de los despliegues es simplemente tener siempre pods ejecutándose, los que queramos.
 			-
 			-
+- ## Crear un servicio en Kubernetes
+	-
+	-
 	-
 -

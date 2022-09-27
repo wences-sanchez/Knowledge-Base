@@ -55,6 +55,7 @@ tags:: LinkedIn-Learning, Kubernetes
 		- Este **selector** (del servicio) lo que indica es a qué post se va a acoplar o a qué POD se va a repartir el tráfico cuando tenga una llamada.
 	- De la misma manera que en un **despliegue** nosotros teníamos un "matchlabel" que nos indicaba qué pods iban a quedar debajo de este despliegue, que POD iba a gestionar,
 		- en un **servicio** apuntamos a una **etiqueta** para saber a qué POD tenemos que **lanzarles** las peticiones.
+	- El servicio tiene DNS para conocer la IP de cualquier pod con solo conocer su nombre.
 	-
 	- ### Flashcards
 		- ¿Qué uso tiene un servicio en *Kubernetes*? #flashcard
@@ -62,10 +63,19 @@ tags:: LinkedIn-Learning, Kubernetes
 				- Así, necesitamos un mecanismo que exponga una IP que no cambie (persistente) para poder usar nuestra aplicación.
 				- Podríamos usar simplemente un balanceador de carga. Pero necesitaríamos actualizar cada vez las direcciones de cada pod igualmente.
 			- Así, la solución es un servicio.
-		- ¿De qué manera usan, en *Kubernetes*, las etiquetas los **deployment**?, ¿y los **servicios**? #flashcard
-			- El **servicio** tiene un **selector** que le indica a qué post se va a acoplar o a qué pod se va a repartir el tráfico cuando tenga una llamada.
-			- Relativo a los **deployment**, tienen un matchLabel que nos indica qué pods van a quedar debajo de justo ese despliegue, qué etiquetas van a tener los pods que va a gestionar.
-				- Esto lo que hace es ayudarle a Kubernetes para saber y tener la información suficiente a la hora de levantar y/o borrar pods.
 			-
+		- ¿De qué manera usan, en *Kubernetes*, las etiquetas los **deployment**?, ¿y los **servicios**? #flashcard
+			- El **servicio** tiene un **selector** que le indica a qué post se va a acoplar o a qué pod se va a repartir el tráfico cuando tenga una llamada; a qué pod tenemos que lanzarles las peticiones.
+			- En cuanto a los **deployment**, tienen un **matchLabel** que nos indica qué pods van a quedar debajo de justo ese despliegue, qué etiquetas van a tener los pods que va a gestionar.
+				- Esto lo que hace es ayudarle a *Kubernetes* para saber y tener la información suficiente a la hora de levantar y/o borrar *pods*.
+	-
+		- ¿Qué quiere decir que los servicios en Kubernetes tienen resolución de nombre? #flashcard
+			- Que el servicio tiene DNS para conocer la IP de cualquier pod con solo conocer su nombre.
+				- Y actualizarla automáticamente
+	-
+	-
+- ## Escalar despliegues en Kubernetes
+	-
+	-
 	-
 -

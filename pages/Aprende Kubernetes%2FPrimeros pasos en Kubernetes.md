@@ -85,10 +85,17 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- Si necesitamos una manera de exponer nuestros pods al exterior, un modo es con **NodePort**
 		- Coloca un puerto entre 30 y 32000 (que son unos puertos especiales que asigna Kubernetes como accesibles o disponibles para abrir al exterior)
-	- Un objeto **NodePort** es de *kind* **Service** y de *type* **NodePort**
-	- Se le añade un parámetro dentro del apartado `ports:`
-		- `nodePort: xxxx`
-		- Pero si no le asignamos lo anterior, *Kubernetes* nos asignará uno automáticamente que esté libre.
+		- Un objeto **NodePort** es de *kind* **Service** y de *type* **NodePort**
+		- Se le añade un parámetro dentro del apartado `ports:`
+			- `nodePort: xxxx`
+			- Pero si no le asignamos lo anterior, *Kubernetes* nos asignará uno automáticamente que esté libre.
+			- A partir de aquí, lo que necesitaríamos sería apuntar un balanceador de carga exterior a todos nuestros nodos apuntando a este puerto donde hemos abierto el servicio.
+	- Otra opción es **LoadBalancer**,
+		- Para el caso de un cloud, **LoadBalancer** lo que hará será generar un balanceador de carga directamente en nuestro proveedore de nube que se conecte a nuestro servicio.
+			- Pero *no le asignamos* ningún puerto específico para que lo haga automático
+	- Otra última opción es **Ingress**
+		-
+	-
 	-
 	-
 	-

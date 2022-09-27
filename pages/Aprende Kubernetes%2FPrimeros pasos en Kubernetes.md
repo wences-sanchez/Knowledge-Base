@@ -46,6 +46,10 @@ tags:: LinkedIn-Learning, Kubernetes
 			-
 			-
 - ## Crear un servicio en Kubernetes
+	- Un servicio en Kubernetes es esencialmente importante porque las IPs de cada pod son efímeras.
+		- Así, necesitamos un mecanismo que exponga una IP que no cambie (persistente) para poder usar nuestra aplicación.
+		- Podríamos usar simplemente un balanceador de carga. Pero necesitaríamos actualizar cada vez las direcciones de cada pod igualmente.
+		- La solución es un servicio
 	-
 	-
 	-

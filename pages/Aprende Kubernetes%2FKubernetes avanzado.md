@@ -6,20 +6,37 @@ tags:: LinkedIn-Learning, Kubernetes
 - ## DaemonSets en Kubernetes
 	- Un "daemonset" es un tipo de despliegue de Kubernetes que hace que siempre se esté ejecutando un POD determinado en cada uno de los nodos de nuestro clúster.
 	- En algunas ocasiones como, por ejemplo, para la monitorización del sistema nos puede interesar este formato
--
+	-
 	- Su estructura es idéntica a la de un Deployment
 		- Pero sin el campo **replicas** (obviamente)
 		-
 	- Se pueden usar para, por ejemplo, recolectar logs
+		-
+	- ### Flashcards
+		- ¿Qué es un daemonSet en Kubernetes? #flashcard
+			- Un "daemonset" es un tipo de despliegue de Kubernetes que hace que siempre se esté ejecutando un POD determinado en cada uno de los nodos de nuestro clúster.
+			- En algunas ocasiones como, por ejemplo, para la monitorización del sistema nos puede interesar este formato
+			-
+			- Su estructura es idéntica a la de un Deployment
+				- Pero sin el campo **replicas** (obviamente)
+				-
+			- Se pueden usar para, por ejemplo, recolectar logs
+				-
 		-
 		-
 - ## Jobs en Kubernetes
 	- Son para tareas que tienen un inicio y un final definidos.
 	- No es como un servidor web que está ejecutándose continuamente.
 	- No tiene promesa de continuidad
-	- No tienen selector porque no tienen nada que vigilar
-	- Se intentará ejecutarlo el sistema un número N de veces y si falla, ya no se volverá a intentar ejecutarse nunca más.
+	- No tienen **selector** porque no tienen nada que vigilar
+	- Se intentará ejecutarlo el sistema un número **N** de veces y si falla, ya no se volverá a intentar ejecutarse nunca más.
 	- No se puede lanzar dos veces.
 		- Solo tiene un nombre
+	-
+	- ### Flashcards
+		-
+	-
+- ## CronJobs en Kubernetes
+	-
 	-
 -

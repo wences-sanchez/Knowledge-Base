@@ -15,7 +15,16 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- ### Flashcards
 		- ¿Qué comando puedes usar para filtrar objetos en Kubernetes? #flashcard
-			- `$ kubectl get pods --selector environment=xxx`
-			-
+			- `$ kubectl <command> --selector <key>=<value>`
+-
+	-
+- ## Editar un recurso en vivo en Kubernetes
+	-
+	-
+- ## Guardar configuraciones en Kubernetes
+	- Los **ConfigMap**, en vez de `spec:`, tienen `data:`
+	-
+	-
+		-
 	-
 -

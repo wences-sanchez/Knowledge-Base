@@ -14,5 +14,5 @@ tags:: LinkedIn-Learning, Kubernetes
 -
 -
 - ## Crear un pod en Kubernetes
-	-
+	- `$ kubectl apply -f mi-fichero.yml`
 -

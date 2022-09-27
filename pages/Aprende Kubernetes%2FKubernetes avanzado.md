@@ -20,6 +20,6 @@ tags:: LinkedIn-Learning, Kubernetes
 	- No tienen selector porque no tienen nada que vigilar
 	- Se intentará ejecutarlo el sistema un número N de veces y si falla, ya no se volverá a intentar ejecutarse nunca más.
 	- No se puede lanzar dos veces.
-		-
+		- Solo tiene un nombre
 	-
 -

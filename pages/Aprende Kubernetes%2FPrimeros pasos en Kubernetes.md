@@ -30,12 +30,15 @@ tags:: LinkedIn-Learning, Kubernetes
 	- Un deployment es un proceso declarativo
 	- Los selectores ayudan al deployment a encontrar los pods que dependen de él gracias a unas etiquetas.
 		- Y esas mismas etiquetas se las tenemos que asignar a cada uno de los contenedores.
+		- Ayudan, pero no hacen que si tuviésemos otro pod con el mismo label (que nosotros por nuestra cuenta creemos) nos lo vaya a parar o a arrancar.
 	-
 	- ### Flashcards
 		- ¿Dónde le tenemos que indicar a Kubernetes el número de instancias que queremos? #flashcard #dev-notes
 			- En `spec:`. Justo antes de `selector:`, así:
 				- `replicas: 3` **O el número que quieras :P**
 				-
+		-
+			-
 			-
 	-
 -

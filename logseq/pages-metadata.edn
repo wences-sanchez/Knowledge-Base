@@ -219,7 +219,7 @@
   :block/updated-at 1661943753229}
  {:block/name "aprende kubernetes",
   :block/created-at 1664205288373,
-  :block/updated-at 1664210991580}
+  :block/updated-at 1664266803114}
  {:block/name "aprende kubernetes/cogiendo ritmo en kubernetes",
   :block/created-at 1664205911795,
   :block/updated-at 1664205911795}
@@ -234,7 +234,7 @@
   :block/updated-at 1664205939260}
  {:block/name "aprende kubernetes/primeros pasos en kubernetes",
   :block/created-at 1664205881883,
-  :block/updated-at 1664205881883}
+  :block/updated-at 1664277160043}
  {:block/name "arnon axelrod",
   :block/created-at 1660807793834,
   :block/updated-at 1660807793834}
@@ -1381,7 +1381,7 @@
   :block/updated-at 1660315973345}
  {:block/name "monday, 26-09-2022",
   :block/created-at 1664204942932,
-  :block/updated-at 1664214148711}
+  :block/updated-at 1664280668932}
  {:block/name "monday, 29-08-2022",
   :block/created-at 1663940093846,
   :block/updated-at 1663940093846}
@@ -1913,6 +1913,9 @@
  {:block/name "tuesday, 26-07-2022",
   :block/created-at 1660315973459,
   :block/updated-at 1660315973459}
+ {:block/name "tuesday, 27-09-2022",
+  :block/created-at 1664266647630,
+  :block/updated-at 1664266647630}
  {:block/name "type:",
   :block/created-at 1660808020804,
   :block/updated-at 1660808020804}

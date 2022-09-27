@@ -26,11 +26,20 @@ tags:: LinkedIn-Learning, Kubernetes
 	- No se pueden poner números como valor.
 		- Tienen que estar entrecomillados
 	-
+	- ### Flashcards
+		- Sobre los configMap en Kubernetes: #flashcard
+			- Los **ConfigMap**, en vez de `spec:`, tienen `data:`
+			- No se pueden poner números como valor.
+				- Tienen que estar entrecomillados
 	-
 - ## Guardar secretos en Kubernetes
 	- NO son secretos, solo están codificados en base64 en otros caracteres.
 	- Estos secretos están disponibles para cualquiera con acceso a la API. O cualquiera que pueda leer el fichero de configuración.
 	-
+	- ### Flashcards
+		- Sobre los **secret**s en Kubernetes: #flashcard
+			- NO son secretos, solo están codificados en base64 en otros caracteres.
+			- Estos secretos están disponibles para cualquiera con acceso a la API. O cualquiera que pueda leer el fichero de configuración.
 	-
 	-
 		-

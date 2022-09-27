@@ -11,5 +11,11 @@ tags:: LinkedIn-Learning, Kubernetes
 	- Las **anotaciones** se componen más bien de información adicional que nos puede ser útil para describir o extraer información de un objeto.
 	- Y las **etiquetas (label)** por su parte tienen funciones operativas
 	-
+	- `$ kubectl get pods --selector environment=development`
+	-
+	- ### Flashcards
+		- ¿Qué comando puedes usar para filtrar objetos en Kubernetes? #flashcard
+			- `$ kubectl get pods --selector environment=xxx`
+			-
 	-
 -

@@ -26,4 +26,10 @@ tags:: LinkedIn-Learning, Kubernetes
 		- Hay que hacer un `kubectl delete` y `kubectl create`
 	-
 	-
+- ## Crear un despliegue en Kubernetes
+	- Un deployment es un proceso declarativo
+	- Los selectores ayudan al deployment a encontrar los pods que dependen de él gracias a unas etiquetas.
+		- Y esas mismas etiquetas se las tenemos que asignar a cada uno de los contenedores.
+	-
+	-
 -

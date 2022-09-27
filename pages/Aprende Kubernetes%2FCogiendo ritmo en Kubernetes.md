@@ -5,5 +5,11 @@ tags:: LinkedIn-Learning, Kubernetes
 -
 - ## Anatomía de un fichero de definición en Kubernetes
 	- Las etiquetas son opcionales.
+-
+-
+- ## Etiquetas y anotaciones en tus objetos de Kubernetes
+	- Las **anotaciones** se componen más bien de información adicional que nos puede ser útil para describir o extraer información de un objeto.
+	- Y las **etiquetas (label)** por su parte tienen funciones operativas
+	-
 	-
 -

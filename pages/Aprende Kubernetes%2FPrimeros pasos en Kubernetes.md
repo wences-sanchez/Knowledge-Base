@@ -12,7 +12,18 @@ tags:: LinkedIn-Learning, Kubernetes
 	- El dashboard es peligroso porque requiere permisos totales.
 		- Por eso no se recomienda para entornos que sean de producción.
 -
+	- ### Flashcards
+		- ¿Por qué se desaconseja el uso del dashboard de Kubernetes en favor de la CLI? #flashcard
+			- El dashboard es peligroso porque requiere permisos totales.
+				- Por eso no se recomienda para entornos que sean de producción.
+-
 -
 - ## Crear un pod en Kubernetes
 	- `$ kubectl apply -f mi-fichero.yml`
+	- `$ kubectl delete -f mi-fichero.yml`
+	- `$ kubectl describe pod mi-pod`
+	- Un `kubectl apply` no puede añadir ni quitar contenedores.
+		- Hay que hacer un `kubectl delete` y `kubectl create`
+	-
+	-
 -

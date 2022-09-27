@@ -34,6 +34,8 @@ tags:: LinkedIn-Learning, Kubernetes
 	- ### Flashcards
 		- ¿Dónde le tenemos que indicar a Kubernetes el número de instancias que queremos? #flashcard #dev-notes
 			- En `spec:`. Justo antes de `selector:`, así:
-				- ``
+				- `replicas: 3` **O el número que quieras :P**
+				-
+			-
 	-
 -

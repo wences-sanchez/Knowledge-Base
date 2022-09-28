@@ -52,6 +52,13 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	-
 - ## Reservando espacio de disco en Kubernetes
-	- Un volumen de Kubernetes es
+	- Un volumen persistente de Kubernetes es un almacenamiento al que se conecta Kubernetes que permanece en el tiempo hasta que lo borremos, pase lo que pase con los pods que se conecten a él.
+	- hemos visto que si necesitamos almacenamiento permanente en Kubernetes, lo que vamos a hacer es una petición de volumen persistente.
+	- Estos volúmenes persistentes, aunque la definición sea siempre la misma, por detrás van a ser asignados por Kubernetes.
+		- Que, dependiendo de cómo sea nuestro clúster, ese almacenamiento estará en un sitio o en otro y gracias a los "driver" CSI que podemos instalar en nuestros clústeres podemos gestionar transparentemente ese almacenamiento.
+	-
+	-
+- ##
+	-
 	-
 -

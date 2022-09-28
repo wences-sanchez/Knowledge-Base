@@ -10,4 +10,16 @@ tags:: Coursera, DevOps, Python
 	- `range(N)` goes [0 ... N-1]
 	- `range(N,M)` goes [N ... M-1]
 	-
+	- enumerate(sequence) returns a pair key-value (or index-elem)
+		- Example: `for index, elem in enumerate(my_list):`
+	-
+	- ### Flashcards
+		- Which is the interval of a `range(N)` in Python? And for a `range(N,M)`? #flashcard
+			- `range(N)` goes [0 ... N-1]
+			- `range(N,M)` goes [N ... M-1]
+		- How does `enumerate(seq)` works in Python? #flashcard
+			- enumerate(sequence) returns a pair key-value (or index-elem)
+				- Example: `for index, elem in enumerate(my_list):`
+-
+-
 -

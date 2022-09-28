@@ -12,9 +12,26 @@ tags:: Coursera, DevOps, Python
 			- `(1, 2, 3)`
 	- ### Lists
 		- Lists are mutable. We can change them.
-		- ``
-		- `my_list.extend(list_added)`
-		  my_list <-- my_list + list_added
+		- ```
+		  list_original = ["Wences", 3.14, 1987]
+		  list_original.extend(["pop", 10])
+		  
+		  print(list_original) # ["Wences", 3.14, 1987, "pop", 10]
+		  
+		  list_original = ["Wences", 3.14, 1987]
+		  list_original.append(["pop", 10])
+		  
+		  print(list_original) # ["Wences", 3.14, 1987, ["pop", 10]]
+		  ```
+		-
+		- We can delete an element of a list with:
+			- `del(my_list[i])`
+		- We can split a string into an array with:
+			- `"A B C D".split() # --> ["A", "B", "C", "D"]`
+			- `"A,B,C,D".split(",") # --> ["A", "B", "C", "D"]`
+		-
+		- The list work like references.
+			-
 		-
 	-
 	-

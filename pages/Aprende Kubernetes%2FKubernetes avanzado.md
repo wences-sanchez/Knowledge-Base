@@ -50,12 +50,27 @@ tags:: LinkedIn-Learning, Kubernetes
 		- El día de la semana empieza en 0 = domingo
 	- Se genera un job para cada ejecución, que generan a su vez un pod para cada tarea
 	-
+	- ### Flashcards
+		- ¿Cómo se pueden usar y configurar los **CronJobs** en Kubernetes? #flashcard
+			- También se pueden ejecutar jobs en Kubernetes de forma periódica --> **CronJobs**
+			- `minuto; hora; dia; mes; dia_semana;`
+				- El `*` es igual a todos
+				- El día de la semana empieza en 0 = domingo
+			- Se genera un job para cada ejecución, que generan a su vez un pod para cada tarea
+	-
 	-
 - ## Reservando espacio de disco en Kubernetes
 	- Un volumen persistente de Kubernetes es un almacenamiento al que se conecta Kubernetes que permanece en el tiempo hasta que lo borremos, pase lo que pase con los pods que se conecten a él.
 	- hemos visto que si necesitamos almacenamiento permanente en Kubernetes, lo que vamos a hacer es una petición de volumen persistente.
 	- Estos volúmenes persistentes, aunque la definición sea siempre la misma, por detrás van a ser asignados por Kubernetes.
 		- Que, dependiendo de cómo sea nuestro clúster, ese almacenamiento estará en un sitio o en otro y gracias a los "driver" CSI que podemos instalar en nuestros clústeres podemos gestionar transparentemente ese almacenamiento.
+	-
+	- ### Flashcards
+		- Acerca de los volúmenes persistentes en Kubernetes. #flashcard
+			- Un volumen persistente de Kubernetes es un almacenamiento al que se conecta Kubernetes que permanece en el tiempo hasta que lo borremos, pase lo que pase con los pods que se conecten a él.
+			- hemos visto que si necesitamos almacenamiento permanente en Kubernetes, lo que vamos a hacer es una petición de volumen persistente.
+			- Estos volúmenes persistentes, aunque la definición sea siempre la misma, por detrás van a ser asignados por Kubernetes.
+				- Que, dependiendo de cómo sea nuestro clúster, ese almacenamiento estará en un sitio o en otro y gracias a los "driver" CSI que podemos instalar en nuestros clústeres podemos gestionar transparentemente ese almacenamiento.
 	-
 	-
 - ## StatefulSets en Kubernetes

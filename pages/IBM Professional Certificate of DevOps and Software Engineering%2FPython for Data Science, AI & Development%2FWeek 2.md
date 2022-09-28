@@ -86,6 +86,11 @@ tags:: Coursera, DevOps, Python
 	-
 	- The intersection of two sets is denoted by `&`
 	- The union of two sets is denoted by `set_1.union(set_2)`
+	- We can check if a set is a subset of another by `set_1.issubset(set_2)`
+	- We can check if a set is a superset of another by `set_1.issuperset(set_2)`
+	- We difference of two sets is denoted by `set_1.difference(set_2)`
+		- Those elements which are in set_1 and not in set_2
+	-
 	-
 	-
 		-

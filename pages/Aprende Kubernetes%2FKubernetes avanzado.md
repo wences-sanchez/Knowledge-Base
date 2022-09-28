@@ -58,7 +58,15 @@ tags:: LinkedIn-Learning, Kubernetes
 		- Que, dependiendo de cómo sea nuestro clúster, ese almacenamiento estará en un sitio o en otro y gracias a los "driver" CSI que podemos instalar en nuestros clústeres podemos gestionar transparentemente ese almacenamiento.
 	-
 	-
-- ##
+- ## StatefulSets en Kubernetes
+	- Para mantener el estado en componentes como bases de datos que necesitan persistencia.
+	- Necesitan un servicio (en el YAML) para hacerles un seguimiento
+	- Si borramos los pods, los volume van a seguir persistiendo
+	-
+	-
+- ## Ingress en Kubernetes
+	- Un 'Ingress' es un tipo de objeto de Kubernetes para el acceso a un servicio desde el exterior del clúster.
+	- Provee de una interfaz de nivel más alto que NodePort, con funciones específicas para protocolos HTTP o HTTPS y se integra directamente con el proveedor de "cloud" que estés usando.
 	-
 	-
 -

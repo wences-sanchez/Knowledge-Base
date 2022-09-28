@@ -44,6 +44,14 @@ tags:: LinkedIn-Learning, Kubernetes
 				- Solo tiene un nombre
 	-
 - ## CronJobs en Kubernetes
+	- También se pueden ejecutar jobs en Kubernetes de forma periódica
+	- minuto; hora; dia; mes; dia_semana;
+		- El `*` es igual a todos
+		- El día de la semana empieza en 0 = domingo
+	- Se genera un job para cada ejecución, que generan a su vez un pod para cada tarea
 	-
+	-
+- ## Reservando espacio de disco en Kubernetes
+	- Un volumen de Kubernetes es
 	-
 -

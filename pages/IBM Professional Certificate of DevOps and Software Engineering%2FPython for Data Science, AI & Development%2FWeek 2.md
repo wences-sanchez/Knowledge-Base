@@ -69,8 +69,12 @@ tags:: Coursera, DevOps, Python
 					- If we change a variable wich was pointing to a previous list, that one will also change
 					- The solution is clone the lists with:
 						- `cloned_list = list_original[:]`
-						-
-	-
+			- How can you find an element inside a list (or tuple) in Python? #flashcard
+				- With: `my_list.index(element_to_search)`
+-
+-
+- ## Dictionaries
+	- A dictionary has keys and values instead of indexes and elements
 	-
 	-
 		-

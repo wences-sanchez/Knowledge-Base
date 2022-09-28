@@ -19,7 +19,7 @@ tags:: Coursera, DevOps, Python
 				- `(1, 2, 3)`
 	- ### Lists
 		- Lists are mutable. We can change them.
-		- ```
+		- ```python
 		  list_original = ["Wences", 3.14, 1987]
 		  list_original.extend(["pop", 10])
 		  
@@ -43,8 +43,34 @@ tags:: Coursera, DevOps, Python
 				- `cloned_list = list_original[:]`
 				-
 		- ### Flashcards
-			- About
-		-
+			- How can you add elements (or entire lists) to an already existing list in Python? #flashcard
+				- Lists are mutable. We can change them.
+				- ```python
+				  list_original = ["Wences", 3.14, 1987]
+				  list_original.extend(["pop", 10])
+				  
+				  print(list_original) # ["Wences", 3.14, 1987, "pop", 10]
+				  
+				  list_original = ["Wences", 3.14, 1987]
+				  list_original.append(["pop", 10])
+				  
+				  print(list_original) # ["Wences", 3.14, 1987, ["pop", 10]]
+				  ```
+			- How can you remove an element of a list in Python? #flashcard
+				- We can delete an element of a list with:
+					- `del(my_list[i])`
+			- How can you divide a string into elements of an array? #flashcard
+				- We can split a string into an array with:
+					- `"A B C D".split() # --> ["A", "B", "C", "D"]`
+					- `"A,B,C,D".split(",") # --> ["A", "B", "C", "D"]`
+				-
+			- How can you properly use a copy of a list variable in Python? #flashcard
+				- The list work like references.
+					- If we change a variable wich was pointing to a previous list, that one will also change
+					- The solution is clone the lists with:
+						- `cloned_list = list_original[:]`
+						-
+	-
 	-
 	-
 		-

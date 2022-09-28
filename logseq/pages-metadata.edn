@@ -231,7 +231,7 @@
   :block/updated-at 1664210651732}
  {:block/name "aprende kubernetes/kubernetes avanzado",
   :block/created-at 1664205939260,
-  :block/updated-at 1664205939260}
+  :block/updated-at 1664352528661}
  {:block/name "aprende kubernetes/primeros pasos en kubernetes",
   :block/created-at 1664205881883,
   :block/updated-at 1664277160043}
@@ -818,7 +818,7 @@
   :block/updated-at 1661943746660}
  {:block/name "friday, 16-09-2022",
   :block/created-at 1663348712608,
-  :block/updated-at 1663348712608}
+  :block/updated-at 1664354761736}
  {:block/name "friday, 19-08-2022",
   :block/created-at 1660735421159,
   :block/updated-at 1660981562674}
@@ -1085,11 +1085,19 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development",
   :block/created-at 1663348723548,
-  :block/updated-at 1663348723548}
+  :block/updated-at 1664361797011}
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 1",
   :block/created-at 1663348727052,
   :block/updated-at 1663348727052}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 2",
+  :block/created-at 1664354156897,
+  :block/updated-at 1664361687576}
+ {:block/name
+  "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 3",
+  :block/created-at 1664361797006,
+  :block/updated-at 1664365328417}
  {:block/name "ibm-devops",
   :block/created-at 1663317782452,
   :block/updated-at 1663317782452}
@@ -1223,6 +1231,10 @@
  {:block/name "ken follett",
   :block/created-at 1660807859029,
   :block/updated-at 1660807859029}
+ {:block/name
+  "kubectl : unable to connect to the server : dial tcp 192.168.214.136:6443: connect: no route to host (highlights)",
+  :block/created-at 1664350200311,
+  :block/updated-at 1664350200311}
  {:block/name "kubernetes",
   :block/created-at 1664206156268,
   :block/updated-at 1664206156268}
@@ -1381,7 +1393,7 @@
   :block/updated-at 1660315973345}
  {:block/name "monday, 26-09-2022",
   :block/created-at 1664204942932,
-  :block/updated-at 1664280668932}
+  :block/updated-at 1664353173658}
  {:block/name "monday, 29-08-2022",
   :block/created-at 1663940093846,
   :block/updated-at 1663940093846}
@@ -2013,6 +2025,9 @@
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1660315973792,
   :block/updated-at 1660315973792}
+ {:block/name "wednesday, 28-09-2022",
+  :block/created-at 1664350197069,
+  :block/updated-at 1664365494505}
  {:block/name "wednesday, 31-08-2022",
   :block/created-at 1663348719323,
   :block/updated-at 1663348719323}

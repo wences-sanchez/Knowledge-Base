@@ -4,5 +4,10 @@ tags:: Coursera, DevOps, Python
 - #tags #Coursera #DevOps #python
 -
 - ## Conditions and Branching
+-
+-
+- ## Loops
+	- `range(N)` goes [0 ... N-1]
+	- `range(N,M)` goes [N ... M-1]
 	-
 -

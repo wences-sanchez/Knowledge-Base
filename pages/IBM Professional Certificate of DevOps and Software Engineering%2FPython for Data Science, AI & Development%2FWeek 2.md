@@ -10,6 +10,13 @@ tags:: Coursera, DevOps, Python
 			- New assigned variables reference the same tuple
 		- If you do `my_tuple[1:4]` to `my_tuple = (0, 1, 2, 3, 4, 5)`, you get:
 			- `(1, 2, 3)`
+	- ### Flashcards
+		- About tuples in Python #flashcard
+			- Tuples are delimited by parenthesis
+			- It's like an array, but immutable
+				- New assigned variables reference the same tuple
+			- If you do `my_tuple[1:4]` to `my_tuple = (0, 1, 2, 3, 4, 5)`, you get:
+				- `(1, 2, 3)`
 	- ### Lists
 		- Lists are mutable. We can change them.
 		- ```
@@ -31,7 +38,12 @@ tags:: Coursera, DevOps, Python
 			- `"A,B,C,D".split(",") # --> ["A", "B", "C", "D"]`
 		-
 		- The list work like references.
-			-
+			- If we change a variable wich was pointing to a previous list, that one will also change
+			- The solution is clone the lists with:
+				- `cloned_list = list_original[:]`
+				-
+		- ### Flashcards
+			- About
 		-
 	-
 	-

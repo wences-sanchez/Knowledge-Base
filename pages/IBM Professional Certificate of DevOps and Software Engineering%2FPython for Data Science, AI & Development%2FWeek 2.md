@@ -79,4 +79,13 @@ tags:: Coursera, DevOps, Python
 	- We can delete an element of a dictionary by putting the element instead its index
 	-
 	-
+- ## Sets
+	- We can turn a sequence into a set by casting it with `set()`
+	- We use the method add() to insert an element to the set.
+	- We can use the method my_set.remove(elem) to delete one.
+	-
+	- The intersection of two sets is denoted by `&`
+	- The union of two sets is denoted by `set_1.union(set_2)`
+	-
+	-
 		-

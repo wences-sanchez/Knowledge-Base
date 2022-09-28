@@ -75,6 +75,8 @@ tags:: Coursera, DevOps, Python
 -
 - ## Dictionaries
 	- A dictionary has keys and values instead of indexes and elements
+	- We denote dictionaries with curly brackets (those keys have to be unique)
+	- We can delete an element of a dictionary by putting the element instead its index
 	-
 	-
 		-

@@ -56,6 +56,10 @@ tags:: Coursera, SW-Testing
 		- If the tests all pass, you have a problem!
 	- ### Program Structure and Fault Finding
 		- You have to look at the location of the mutants, because they can become almost unreachable.
+	- ### Test Oracles
+		- It could be a human being, a previous version of a program, another program...
+		- It can be a human, manually, but that is impossible when there are so many test cases
+		- An automated oracle could be a
 		-
 	-
 	-

@@ -54,6 +54,8 @@ tags:: Coursera, SW-Testing
 	- ### Mutation Testing Revisited
 		- We kill a mutant if its value produced is different than the value produced by the original program.
 		- If the tests all pass, you have a problem!
+	- ### Program Structure and Fault Finding
+		- You have to look at the location of the mutants, because they can become almost unreachable.
 		-
 	-
 	-

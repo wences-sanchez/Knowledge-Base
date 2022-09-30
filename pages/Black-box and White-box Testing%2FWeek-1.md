@@ -26,3 +26,6 @@ tags:: Coursera, SW-Testing
 			- **Model-based:** From model of system
 			- **Structural (white or glass box):** From code
 		-
+	- ### Flashcards
+		- Test Selec
+		-

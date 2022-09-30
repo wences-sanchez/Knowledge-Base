@@ -59,7 +59,13 @@ tags:: Coursera, SW-Testing
 	- ### Test Oracles
 		- It could be a human being, a previous version of a program, another program...
 		- It can be a human, manually, but that is impossible when there are so many test cases
-		- An automated oracle could be a
+		- An automated oracle could be a comparison against the specification or requirements
+		- ![image.png](../assets/image_1664545700780_0.png)
+		- ![image.png](../assets/image_1664545792105_0.png)
+		-
+	- ### Oracles and Fault Finding
+		- ![image.png](../assets/image_1664546090305_0.png)
+		-
 		-
 	-
 	-

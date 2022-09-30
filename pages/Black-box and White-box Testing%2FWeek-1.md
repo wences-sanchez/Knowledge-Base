@@ -46,6 +46,9 @@ tags:: Coursera, SW-Testing
 				- **Fault-based:** From hypothesized faults (common bugs)
 				- **Model-based:** From model of system
 				- **Structural (white or glass box):** From code
+	-
+- ## Factors Influencing Test Effectiveness
+	- ### Factors Influencing Test Effectiveness
 		-
-		-
-		-
+	-
+	-

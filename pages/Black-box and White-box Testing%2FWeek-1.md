@@ -22,4 +22,7 @@ tags:: Coursera, SW-Testing
 	- ### What are Test Obligations?
 		- Test Obligations come from:
 			- **Functional:** From software specifications
-			- **Fault-based:** From hypothesized faults
+			- **Fault-based:** From hypothesized faults (common bugs)
+			- **Model-based:** From model of system
+			- **Structural (white or glass box):** From code
+		-

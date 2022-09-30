@@ -49,6 +49,8 @@ tags:: Coursera, SW-Testing
 	-
 - ## Factors Influencing Test Effectiveness
 	- ### Factors Influencing Test Effectiveness
+		- The Oracle is an important part of the testing process.
+	- ### Program Structure: Reachability and Observability
 		-
 	-
 	-

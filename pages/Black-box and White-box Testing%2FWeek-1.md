@@ -52,6 +52,8 @@ tags:: Coursera, SW-Testing
 		- The Oracle is an important part of the testing process.
 	- ### Program Structure: Reachability and Observability
 	- ### Mutation Testing Revisited
+		- We kill a mutant if its value produced is different than the value produced by the original program.
+		- If the tests all pass, you have a problem!
 		-
 	-
 	-

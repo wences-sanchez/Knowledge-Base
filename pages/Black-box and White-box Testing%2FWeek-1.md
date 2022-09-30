@@ -27,5 +27,25 @@ tags:: Coursera, SW-Testing
 			- **Structural (white or glass box):** From code
 		-
 	- ### Flashcards
-		- Test Selec
+		- Test Selection VS Test Adequacy #flashcard
+			- **Test Selection** is: choosing the right inputs to use to test my program
+			- **Test Adequacy** is: are those inputs any good?
+				- This is very difficult. Correctness is generally impossible
+				- So we measure adequacy indirectly by: program structure, program inputs, requirements...
+		- Some terminology of test cases and criteria. #flashcard
+			- #### Terminology
+				- **Test Case:** A set of inputs, execution conditions, and a pass/fail criterion.
+				- **Test Case Specification:** A requirement to be satisfied by one or more test cases.
+				- **Test Obligation:** A partial test case specification, requiring some property deemed important to thorough testing.
+				- **Test Suite:** A set of test cases.
+				- **Test or Test Execution:** The activity of executing test cases and evaluating their results.
+				- **Adequacy Criterion:** A predicate that is true (satisfied) or false (not satisfied) of a (program, test suite) pair.
+		- Where do test obligations come from? #flashcard
+			- Test Obligations come from:
+				- **Functional:** From software specifications
+				- **Fault-based:** From hypothesized faults (common bugs)
+				- **Model-based:** From model of system
+				- **Structural (white or glass box):** From code
+		-
+		-
 		-

@@ -53,3 +53,20 @@ category:: #books
 		  Des de molt jove, la Sarah Greenfield havia confiat en la lectura per sobreviure.
 		- (Page 41)
 	- -
+- New highlights added [[Monday, 03-10-2022]] at 5:24 PM
+	- -
+	- Ja ho veus, havia d'escollir entre determinisme o aleatorietat. Les dues opcions són vàlides, però ara que em queda poc temps, l'única cosa en què puc pensar és en el que deia Nietzsche: som aquí per trobar un significat a la nostra existència. No em puc imaginar com a fruit de la casualitat. #spaced
+		- (Page 399)
+	- -
+	- -
+	- ¿Qué cosa harías si te dijesen que el destino no existe, que es un constructo de tu mente?
+	  ¿Dónde irías?
+	  ¿Cuándo lo harías? #flashcard
+		- Em vaig aturar davant d'una llibreria de vell que freqüentava. Entre els Ilibres que s'hi oferien hi havia un exemplar d'Alícia al país de les meravelles; a la portada s'hi veia un uni- corn que brillava com si fos un llum encès. Un unicorn que pel que sembla pot ser real mentre es cregui que pot ser-ho.
+		  
+		  La realitat depèn del nostre convenciment i de la nostra capacitat de persuasió.
+		  
+		  I llavors, sense necessitat de recórrer a cap nan de jardí, vaig prendre la decisió: vaig comprar un bitllet d'anada a Londres. No hauria pogut imaginar mai que un unicorn et pogués canviar la vida. Però és que no havia pensat mai que la vida es pogués canviar. El destí pot ser un bitllet d'avió, vaig pensar. Ves a saber què és el destí. Una invenció humana contra la solitud, deia l'avi Goldman, i tenia raó. Retornant sobre les meves passes vaig fer cap a casa per preparar la maleta.
+		- (Page 446)
+		- #favorite
+	- -

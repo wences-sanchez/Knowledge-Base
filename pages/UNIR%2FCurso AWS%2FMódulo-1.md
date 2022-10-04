@@ -28,13 +28,13 @@ tags:: UNIR, AWS
 				- En un modelo de [[Infraestructura como Servicio (IaaS)]] tenemos más control sobre los recursos (máquinas virtuales, instancias, redes...)
 				- En un modelo de [[Software como Servicio (SaaS)]] el control se desvanece en favor de su gestión por parte del proveedor de nube.
 				- Un modelo de [[Plataforma como Servicio (PaaS)]] ofrece una opción intermedia. Como un servidor de base de datos.
-			- 
+			-
 		- ### Modelos de implementación de la informática en la nube
 			- El llevar a la nube este tipo de informática ha originado 3 *subtipos* de modelos:
 				- Nube en sí (**nube pública**), en la que todo está *ahí fuera*.
 				- **Modelo híbrido**. Nos permite usar la nube pública de Amazon para algunos de nuestros proyectos. Pero también servidores locales de la empresa para proyectos más confidenciales o sensibles.
 				- Infraestructuctura local (**nube privada**). Desplegamos el ecosistema de una nube en un entorno local. A veces hace referencia a hosts dedicados por un proveedor específico.
-		- 
+		-
 		- ### Ventajas de la informática en la nube
 			- Cambiar sus gastos de capital por gastos variables
 			- Beneficiarse de las grandes economías de escala
@@ -44,35 +44,35 @@ tags:: UNIR, AWS
 			- Adquirir escala mundial en cuestión de minutos
 			-
 				-
-	- ## Flashcards
-		- Define el término: *Informática en la nube* #flashcard
-			- La **informática en la nube** es la entrega **bajo demanda** de potencia de cómputo, máquinas virtuales, BBDD, aplicaciones y otros recursos de TI, a través de Internet, con un sistema de precios de **pago por uso**.
-		-
-		- ¿En qué consiste la Infraestructura como Servicio? #flashcard
-			- La **informática en la nube** permite dejar de considerar la **infraestructura** como *hardware* y, en cambio, verla y usarla como **software**.
-			- Son soluciones de software:
-				- Flexibles
-				- Que pueden cambiar de forma más rápida, sencilla y rentable que las soluciones de hardware
-				- Que eliminan las tareas pesadas innecesarias
-		- ¿Qué tres modelos de servicio en la nube existen? #flashcard
-			- Hay 3 tipos de servicios en la nube:
-				- En un modelo de **Infraestructura como Servicio (IaaS)** tenemos más control sobre los recursos (máquinas virtuales, instancias, redes...)
-				- En un modelo de **Software como Servicio (SaaS)** el control se desvanece en favor de su gestión por parte del proveedor de nube.
-				- Un modelo de **Plataforma como Servicio (PaaS)** ofrece una opción intermedia. Como un servidor de base de datos.
-			- ![image.png](../assets/image_1664873571130_0.png)
-		- ¿Qué tres modelos de implementación de la informática en la nube existen? #flashcard
-			- El llevar a la nube este tipo de informática ha originado 3 *subtipos* de modelos:
-				- Nube en sí (**nube pública**), en la que todo está *ahí fuera*.
-				- **Modelo híbrido**. Nos permite usar la nube pública de Amazon para algunos de nuestros proyectos. Pero también servidores locales de la empresa para proyectos más confidenciales o sensibles.
-				- Infraestructuctura local (**nube privada**). Desplegamos el ecosistema de una nube en un entorno local. A veces hace referencia a hosts dedicados por un proveedor específico.
-		- Enumera las seis ventajas de la informática en la nube #flashcard 
-			- Cambiar sus gastos de capital por gastos variables
-			- Beneficiarse de las grandes economías de escala
-			- Evitar asumir estimaciones sobre capacidad
-			- Aumentar la velocidad y la agilidad
-			- Dejar de gastar dinero en la ejecución y el mantenimiento de centros de datos
-			- Adquirir escala mundial en cuestión de minutos
-		- 
+		- ## Flashcards
+			- Define el término: *Informática en la nube* #flashcard
+				- La **informática en la nube** es la entrega **bajo demanda** de potencia de cómputo, máquinas virtuales, BBDD, aplicaciones y otros recursos de TI, a través de Internet, con un sistema de precios de **pago por uso**.
+			-
+			- ¿En qué consiste la Infraestructura como Servicio? #flashcard
+				- La **informática en la nube** permite dejar de considerar la **infraestructura** como *hardware* y, en cambio, verla y usarla como **software**.
+				- Son soluciones de software:
+					- Flexibles
+					- Que pueden cambiar de forma más rápida, sencilla y rentable que las soluciones de hardware
+					- Que eliminan las tareas pesadas innecesarias
+			- ¿Qué tres modelos de servicio en la nube existen? #flashcard
+				- Hay 3 tipos de servicios en la nube:
+					- En un modelo de **Infraestructura como Servicio (IaaS)** tenemos más control sobre los recursos (máquinas virtuales, instancias, redes...)
+					- En un modelo de **Software como Servicio (SaaS)** el control se desvanece en favor de su gestión por parte del proveedor de nube.
+					- Un modelo de **Plataforma como Servicio (PaaS)** ofrece una opción intermedia. Como un servidor de base de datos.
+				- ![image.png](../assets/image_1664873571130_0.png)
+			- ¿Qué tres modelos de implementación de la informática en la nube existen? #flashcard
+				- El llevar a la nube este tipo de informática ha originado 3 *subtipos* de modelos:
+					- Nube en sí (**nube pública**), en la que todo está *ahí fuera*.
+					- **Modelo híbrido**. Nos permite usar la nube pública de Amazon para algunos de nuestros proyectos. Pero también servidores locales de la empresa para proyectos más confidenciales o sensibles.
+					- Infraestructuctura local (**nube privada**). Desplegamos el ecosistema de una nube en un entorno local. A veces hace referencia a hosts dedicados por un proveedor específico.
+			- Enumera las seis ventajas de la informática en la nube #flashcard
+				- Cambiar sus gastos de capital por gastos variables
+				- Beneficiarse de las grandes economías de escala
+				- Evitar asumir estimaciones sobre capacidad
+				- Aumentar la velocidad y la agilidad
+				- Dejar de gastar dinero en la ejecución y el mantenimiento de centros de datos
+				- Adquirir escala mundial en cuestión de minutos
+			-
 	- ## Introducción a Amazon Web Services ([[AWS]])
 		- ### ¿Qué es [[AWS]]?
 			- AWS es una plataforma en la nube segura que ofrece un amplio conjunto de productos globales basados en la nube.
@@ -80,11 +80,21 @@ tags:: UNIR, AWS
 			- AWS ofrece flexibilidad y sólo paga por los servicios individuales que se usan.
 			- Los servicios de AWS trabajan en conjunto como piezas fundamentales.
 		- ### Migración a la nube de AWS
-			- Amazon Web Services ofrece diferentes planes a través de **CAF (Cloud Adoption Framework)**
+			- Amazon Web Services ofrece diferentes planes a través de **[[CAF (Cloud Adoption Framework)]]**
 			- La adopción de la nube no es instantánea para la mayoría de las organizaciones y requiere una estrategia y alineación razonadas y deliberadas en toda la organización.
-			- El **CAF** de AWS se creó a fin de ayudar a las organizaciones a desarrollar planes eficientes y eficaces para su proceso de adopción de la nube
-			- El **CAF** de AWS organiza la orientación en seis áreas de enfoque, denominadas perspectivas
+			- El **[CAF (Cloud Adoption Framework)](CAF%20(Cloud%20Adoption%20Framework).md)** de AWS se creó a fin de ayudar a las organizaciones a desarrollar planes eficientes y eficaces para su proceso de adopción de la nube
+			- El **[CAF (Cloud Adoption Framework)](CAF%20(Cloud%20Adoption%20Framework).md)** de AWS organiza la orientación en seis áreas de enfoque, denominadas perspectivas
 			- ![image.png](../assets/image_1664877530793_0.png)
+		-
+		-
+		- ## Flashcards
+			- ¿Cómo podrías definir AWS? #flashcard
+				- AWS es una plataforma en la nube segura que ofrece un amplio conjunto de productos globales basados en la nube.
+				- Proporciona acceso bajo demanda a sus recursos.
+				- AWS ofrece flexibilidad y sólo paga por los servicios individuales que se usan.
+				- Los servicios de AWS trabajan en conjunto como piezas fundamentales.
+			- ¿Qué función tiene [[CAF (Cloud Adoption Framework)]]? #flaschard
+			-
 			-
 	-
 		-

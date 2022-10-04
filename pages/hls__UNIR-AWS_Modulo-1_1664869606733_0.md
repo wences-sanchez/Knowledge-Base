@@ -74,9 +74,9 @@ tags:: UNI, AWS
   hl-page:: 8
   id:: 633c1f6b-b560-4646-9b33-a9076d748364
 	- Las instancias reservadas están disponibles bajo:
-		-  Instancia reservada con pago inicial completo (AURI).
-		-  Instancia reservada con pago inicial parcial (PURI).
-		-  Instancia reservada sin pago inicial (NURI).
+		-  Instancia reservada con pago inicial completo (AURI). --> mayores descuentos
+		-  Instancia reservada con pago inicial parcial (PURI). --> menores descuentos
+		-  Instancia reservada sin pago inicial (NURI). --> descuentos aún menores
 	-
 - AWS ofrece a nuevos clientes una capa gratuita (https://aws.amazon.com/es/free/) durante 1 año para determinados servicios y opciones. Además, servicios como Amazon Virtual Private Cloud (Amazon VPC), AWS Identity and Access Management(IAM), Auto Scaling, AWS CloudFormation, AWS OpsWorks y AWS Elastic Beanstalk se ofrecen sin cargo adicional, si bien es posible que haya otros cargos por los servicios que usen con ellos.
   ls-type:: annotation

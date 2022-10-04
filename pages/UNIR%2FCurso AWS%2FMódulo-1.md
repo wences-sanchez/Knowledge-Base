@@ -20,5 +20,18 @@ tags:: UNIR, AWS
 			- Flexibles
 			- Que pueden cambiar de forma más rápida, sencilla y rentable que las soluciones de hardware
 			- Eliminan las tareas pesadas innecesarias
+	- ### Modelos de Servicio en la nube
+		- ![image.png](../assets/image_1664873571130_0.png)
+		- #### Hay 3 tipos de servicios en la nube:
+			- En un modelo de Infraestructura como Servicio (IaaS) tenemos más control sobre los recursos (máquinas virtuales, instancias, redes...)
+			- En un modelo de Software como Servicio (SaaS) el control se desvanece en favor de su gestión por parte del proveedor de nube.
+			- Un modelo de Plataforma como Servicio (PaaS) ofrece una opción intermedia. Como un servidor de base de datos.
+	- ### Modelos de implementación de la informática en la nube
+		-
+	-
+	-
+	-
+	-
+	-
 	-
 	-

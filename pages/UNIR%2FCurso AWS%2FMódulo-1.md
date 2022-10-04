@@ -2,10 +2,8 @@ title:: UNIR/Curso AWS/Módulo-1
 tags:: UNIR, AWS
 
 -
-- ![UNIR-AWS_Modulo-1.pdf](../assets/UNIR-AWS_Modulo-1_1664869606733_0.pdf)
--
 - # Módulo 1
-- ## Tema 1
+- # Tema 1 #Videos
 	- ## Introducción a la Informática en la nube
 		- ### Definición de [[Informática en la nube]]
 			- La **informática en la nube** es la entrega **bajo demanda** de potencia de cómputo, máquinas virtuales, BBDD, aplicaciones y otros recursos de TI, a través de Internet, con un sistema de precios de **pago por uso**.
@@ -93,9 +91,17 @@ tags:: UNIR, AWS
 				- Proporciona acceso bajo demanda a sus recursos.
 				- AWS ofrece flexibilidad y sólo paga por los servicios individuales que se usan.
 				- Los servicios de AWS trabajan en conjunto como piezas fundamentales.
-			- ¿Qué función tiene [[CAF (Cloud Adoption Framework)]]? #flaschard
-			-
-			-
+			- ¿Qué función tiene [[CAF (Cloud Adoption Framework)]]? #flashcard
+				- Amazon Web Services ofrece diferentes planes a través de **[[CAF (Cloud Adoption Framework)]]**
+				- La adopción de la nube no es instantánea para la mayoría de las organizaciones y requiere una estrategia y alineación razonadas y deliberadas en toda la organización.
+				- El **[CAF (Cloud Adoption Framework)](CAF%20(Cloud%20Adoption%20Framework).md)** de AWS se creó a fin de ayudar a las organizaciones a desarrollar planes eficientes y eficaces para su proceso de adopción de la nube
+				- El **[CAF (Cloud Adoption Framework)](CAF%20(Cloud%20Adoption%20Framework).md)** de AWS organiza la orientación en seis áreas de enfoque, denominadas perspectivas
+				- ![image.png](../assets/image_1664877530793_0.png)
+				-
+- ## Tema 1 #Apuntes
+	-
+	- ![UNIR-AWS_Modulo-1.pdf](../assets/UNIR-AWS_Modulo-1_1664869606733_0.pdf)
+	-
 	-
 		-
 	-

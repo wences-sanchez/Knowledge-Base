@@ -78,14 +78,27 @@ tags:: UNI, AWS
 		-  Instancia reservada con pago inicial parcial (PURI). --> menores descuentos
 		-  Instancia reservada sin pago inicial (NURI). --> descuentos aún menores
 	-
-- AWS ofrece a nuevos clientes una capa gratuita (https://aws.amazon.com/es/free/) durante 1 año para determinados servicios y opciones. Además, servicios como Amazon Virtual Private Cloud (Amazon VPC), AWS Identity and Access Management(IAM), Auto Scaling, AWS CloudFormation, AWS OpsWorks y AWS Elastic Beanstalk se ofrecen sin cargo adicional, si bien es posible que haya otros cargos por los servicios que usen con ellos.
+- AWS ofrece a nuevos clientes una capa gratuita (https://aws.amazon.com/es/free/) durante 1 año para determinados servicios y opciones. 
   ls-type:: annotation
   hl-page:: 9
   id:: 633c1602-db47-4fea-b688-45219c1ff48a
-- Se define el coste total de la propiedad como «la estimación financiera que ayuda a identificar los costes directos e indirectos de un sistema». (AWS Pricing Work, 2020). Se utiliza para comparar el coste de ejecutar una infraestructura completa o una carga de trabajo en las instalaciones propias frente hacerlo en AWS. Además, sirve para presupuestar el negocio en caso de migrar a la nube.
-  ls-type:: annotation
+	- Además, servicios como:
+		- Amazon Virtual Private Cloud (Amazon VPC),
+		- AWS Identity and Access Management(IAM),
+		- Auto Scaling,
+		- AWS CloudFormation,
+		- AWS OpsWorks
+		- y AWS Elastic Beanstalk
+	- se ofrecen sin cargo adicional, si bien es posible que haya otros cargos por los servicios que usen con ellos.
+-
+- ¿Qué es el coste total de al propiedad? #flashcard
   hl-page:: 9
+  ls-type:: annotation
   id:: 633c1650-387b-40c3-a930-8be94718e919
+	- Se define el coste total de la propiedad como «la estimación financiera que ayuda a identificar los costes directos e indirectos de un sistema». (AWS Pricing Work, 2020).
+	- Se utiliza para comparar el **coste** de ejecutar una infraestructura completa o una carga de trabajo **en las instalaciones propias** frente hacerlo **en AWS**. Además, sirve para presupuestar el negocio en caso de migrar a la nube.
+- ![image.png](../assets/image_1664885833504_0.png)
+-
 - [:span]
   ls-type:: annotation
   hl-page:: 10
@@ -97,10 +110,16 @@ tags:: UNI, AWS
   ls-type:: annotation
   hl-page:: 10
   id:: 633c1702-fe1f-49e3-9d8b-f0aa4e4e2d54
-- Para facilitar la facturación de AWS, se ofrece el servicio gratuito AWS Organizations el cual permite la administración de cuentas de forma unificada entre varias cuentas de AWS en una organización que se crea y administra de manera centralizada. AWS Organizations permite crear políticas de control de servicios, crear grupos de cuentas, administrar aplicaciones mediante APU y simplificar el proceso de facturación mediante factura unificada. AWS Organizations no reemplaza las políticas de AWS Identity and Access Management con usuarios, grupos y roles en una cuenta de AWS pero si permitir o denegra servicios a cuentas específicas.
-  ls-type:: annotation
+-
+-
+- Para facilitar la facturación de AWS, se ofrece el servicio gratuito **AWS Organizations** el cual permite la administración de cuentas de forma **unificada** entre varias cuentas de AWS en una organización que **se crea y administra** de manera **centralizada**.
   hl-page:: 11
+  ls-type:: annotation
   id:: 633c1764-d1fd-45bd-a232-b996ffedd383
+	- Incluye capacidades de facturación unificada y administración de cuentas que le permiten satisfacer mejor las necesidades de presupuesto, seguridad y conformidad de su negoacio.
+	- AWS Organizations permite crear políticas de control de servicios, crear grupos de cuentas, administrar aplicaciones mediante APU y simplificar el proceso de facturación mediante factura unificada. AWS Organizations no reemplaza las políticas de AWS Identity and Access Management con usuarios, grupos y roles en una cuenta de AWS pero si permitir o denegra servicios a cuentas específicas.
+-
+-
 - AWS ofrece una combinación única de herramientas para soporte y planes de soporte para brindar experimentación y soporte en servicios de producción. Entre ellas está AWS Trusted Advisor, donde los clientes pueden obtener recomendaciones sobre sus gastos mensuales, identificar problemas de seguridad y aumentar su productividad. Si se desea obtener una orientación proactiva, AWS Support cuenta con directores de cuentas técnicas (TAM) que son designados como el punto de contacto principal de los usuarios. El TAM puede ayudar en la orientación, revisión de la arquitectura y comunicación continua a medida que planifica, implementa y optimiza sus soluciones. A su vez el equipo de soporte de Concierge es un equipo experto en cuentas y facturación con análisis rápidos y eficaces.
   ls-type:: annotation
   hl-page:: 12

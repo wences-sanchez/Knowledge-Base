@@ -52,6 +52,7 @@ tags:: UNI, AWS
 - ---
 -
 - # Tema 2: Facturación y Economía en la nube
+-
 	- AWS fundamenta sus costos en 3 fuentes fundamentales: 
 	  ls-type:: annotation
 	  hl-page:: 8

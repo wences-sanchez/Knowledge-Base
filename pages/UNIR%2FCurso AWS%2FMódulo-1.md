@@ -44,26 +44,34 @@ tags:: UNIR, AWS
 				-
 		- ## Flashcards
 			- Define el término: *Informática en la nube* #flashcard
+			  collapsed:: true
 				- La **informática en la nube** es la entrega **bajo demanda** de potencia de cómputo, máquinas virtuales, BBDD, aplicaciones y otros recursos de TI, a través de Internet, con un sistema de precios de **pago por uso**.
 			-
 			- ¿En qué consiste la Infraestructura como Servicio? #flashcard
+			  collapsed:: true
 				- La **informática en la nube** permite dejar de considerar la **infraestructura** como *hardware* y, en cambio, verla y usarla como **software**.
 				- Son soluciones de software:
+				  collapsed:: true
 					- Flexibles
 					- Que pueden cambiar de forma más rápida, sencilla y rentable que las soluciones de hardware
 					- Que eliminan las tareas pesadas innecesarias
 			- ¿Qué tres modelos de servicio en la nube existen? #flashcard
+			  collapsed:: true
 				- Hay 3 tipos de servicios en la nube:
+				  collapsed:: true
 					- En un modelo de **Infraestructura como Servicio (IaaS)** tenemos más control sobre los recursos (máquinas virtuales, instancias, redes...)
 					- En un modelo de **Software como Servicio (SaaS)** el control se desvanece en favor de su gestión por parte del proveedor de nube.
 					- Un modelo de **Plataforma como Servicio (PaaS)** ofrece una opción intermedia. Como un servidor de base de datos.
 				- ![image.png](../assets/image_1664873571130_0.png)
 			- ¿Qué tres modelos de implementación de la informática en la nube existen? #flashcard
+			  collapsed:: true
 				- El llevar a la nube este tipo de informática ha originado 3 *subtipos* de modelos:
+				  collapsed:: true
 					- Nube en sí (**nube pública**), en la que todo está *ahí fuera*.
 					- **Modelo híbrido**. Nos permite usar la nube pública de Amazon para algunos de nuestros proyectos. Pero también servidores locales de la empresa para proyectos más confidenciales o sensibles.
 					- Infraestructuctura local (**nube privada**). Desplegamos el ecosistema de una nube en un entorno local. A veces hace referencia a hosts dedicados por un proveedor específico.
-			- Enumera las seis ventajas de la informática en la nube #flashcard
+			- Enumera las seis ventajas de la informática en la nube #flashcard 
+			  collapsed:: true
 				- Cambiar sus gastos de capital por gastos variables
 				- Beneficiarse de las grandes economías de escala
 				- Evitar asumir estimaciones sobre capacidad
@@ -101,9 +109,8 @@ tags:: UNIR, AWS
 - ## Tema 1 #Apuntes
 	-
 	- ![UNIR-AWS_Modulo-1.pdf](../assets/UNIR-AWS_Modulo-1_1664869606733_0.pdf)
+-
 	-
-	-
-		-
-	-
+-
 	-
 	-

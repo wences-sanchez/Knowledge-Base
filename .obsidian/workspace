@@ -40,8 +40,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#O",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,6 +131,12 @@
   },
   "active": "ba5eb4e3a29e63bb",
   "lastOpenFiles": [
+    "logseq/bak/pages/UNIR%2FCurso AWS%2FMódulo-1/2022-10-04T09_20_46.177Z.Desktop.md",
+    "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
+    "logseq/bak/pages/Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/2022-09-02T09_20_42.267Z.Desktop.md",
+    "logseq/bak/pages/Introduction to Software Testing/2022-08-31T11_02_30.564Z.Desktop.md",
+    "pages/Infraestructura como Sofware.md",
+    "pages/informática en la nube.md",
     "UNIR/Curso AWS/Módulo-1.md",
     "journals/2022_10_04.md"
   ]

@@ -1,0 +1,1 @@
+La **informática en la nube** es la entrega **bajo demanda** de potencia de cómputo, máquinas virtuales, BBDD, aplicaciones y otros recursos de TI, a través de Internet, con un sistema de precios de **pago por uso**.

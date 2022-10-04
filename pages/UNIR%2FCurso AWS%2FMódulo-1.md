@@ -6,10 +6,10 @@ tags:: UNIR, AWS
 -
 - # Módulo 1
 - ## Vídeo 1
-	- ### Definición de Informática en la nube
+	- ### Definición de [[Informática en la nube]]
 		- La **informática en la nube** es la entrega **bajo demanda** de potencia de cómputo, máquinas virtuales, BBDD, aplicaciones y otros recursos de TI, a través de Internet, con un sistema de precios de **pago por uso**.
 	- 
-	- ### Infraestructura como Sofware
+	- ### [[Infraestructura como Sofware]]
 		- La **informática en la nube** permite dejar de considerar la **infraestructura** como *hardware* y, en cambio, verla y usarla como **software**.
 	- ### Modelo de informática tradicional
 		- Infraestrucutura como hardware
@@ -17,10 +17,10 @@ tags:: UNIR, AWS
 		- El ciclo de adquisición es largo.
 		- Exige aprovisionar capacidad mediante la predicción de picos máximos teóricos
 	- ### Infraestructura como software
-		- Son suluciones de software:
+		- Son soluciones de software:
 			- Flexibles
 			- Que pueden cambiar de forma más rápida, sencilla y rentable que las soluciones de hardware
-			- Eliminan las tareas pesadas innecesarias
+			- Que eliminan las tareas pesadas innecesarias
 	- ### Modelos de Servicio en la nube
 		- ![image.png](../assets/image_1664873571130_0.png)
 		- #### Hay 3 tipos de servicios en la nube:
@@ -33,6 +33,8 @@ tags:: UNIR, AWS
 			- **Modelo híbrido**. Nos permite usar la nube pública de Amazon para algunos de nuestros proyectos. Pero también servidores locales de la empresa para proyectos más confidenciales o sensibles.
 			- Infraestructuctura local (**nube privada**).
 		-
+	- ## Flashcards
+		- Define el término: *Informática en la nube* #flashcard 
 	-
 	-
 	-

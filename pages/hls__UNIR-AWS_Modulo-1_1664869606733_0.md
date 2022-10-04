@@ -70,3 +70,19 @@ tags:: UNI, AWS
   ls-type:: annotation
   hl-page:: 10
   id:: 633c1702-fe1f-49e3-9d8b-f0aa4e4e2d54
+- Para facilitar la facturación de AWS, se ofrece el servicio gratuito AWS Organizations el cual permite la administración de cuentas de forma unificada entre varias cuentas de AWS en una organización que se crea y administra de manera centralizada. AWS Organizations permite crear políticas de control de servicios, crear grupos de cuentas, administrar aplicaciones mediante APU y simplificar el proceso de facturación mediante factura unificada. AWS Organizations no reemplaza las políticas de AWS Identity and Access Management con usuarios, grupos y roles en una cuenta de AWS pero si permitir o denegra servicios a cuentas específicas.
+  ls-type:: annotation
+  hl-page:: 11
+  id:: 633c1764-d1fd-45bd-a232-b996ffedd383
+- AWS ofrece una combinación única de herramientas para soporte y planes de soporte para brindar experimentación y soporte en servicios de producción. Entre ellas está AWS Trusted Advisor, donde los clientes pueden obtener recomendaciones sobre sus gastos mensuales, identificar problemas de seguridad y aumentar su productividad. Si se desea obtener una orientación proactiva, AWS Support cuenta con directores de cuentas técnicas (TAM) que son designados como el punto de contacto principal de los usuarios. El TAM puede ayudar en la orientación, revisión de la arquitectura y comunicación continua a medida que planifica, implementa y optimiza sus soluciones. A su vez el equipo de soporte de Concierge es un equipo experto en cuentas y facturación con análisis rápidos y eficaces.
+  ls-type:: annotation
+  hl-page:: 12
+  id:: 633c1813-3b7d-40ab-9a2b-75835d73e6bc
+- Se ofrecen 4 tipos de planes de soporte:
+  ls-type:: annotation
+  hl-page:: 12
+  id:: 633c1820-0a02-4107-98a1-894f30558f89
+	-  Basic: acceso al centro de recursos, panel de estado de servicio, 6 comprobaciones de Trusted Advisor y foros de debate.
+	-  Developer: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción
+	-  Business: cargas de trabajo en producción.
+	-  Enterprise: cargas de trabajo críticas.

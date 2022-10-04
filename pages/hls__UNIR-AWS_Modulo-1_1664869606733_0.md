@@ -47,10 +47,22 @@ tags:: UNI, AWS
 		  id:: 633c1444-aee7-4d91-9642-12c5a6d726fe
 		  hl-type:: area
 		  hl-stamp:: 1664881732947
-- AWS fundamenta sus costos en 3 fuentes fundamentales: la informática(computación) en la que se cobra por hora o por segundo, el almacenamiento de datos (por GB) y la transferencia de datos de salida (por GB). En la mayoría de los casos, no se aplican cargos por la transferencia de datos de entrada ni por la transferencia de datos entre servicios de AWS dentro de la misma región (con excepciones). El modelo de precios implica pagar por lo que se usa, pagar menos al reservar servicios, pagar menos cuanto más uso se le dé y pagar aún menos a medida que AWS crece.
+-
+-
+- ---
+-
+- # Tema 2: Facturación y Economía en la nube
+-
+- AWS fundamenta sus costos en 3 fuentes fundamentales: 
   ls-type:: annotation
   hl-page:: 8
   id:: 633c15a7-05fe-47e9-91d7-cf17df04a217
+	- la informática (computación) en la que se cobra por hora o por segundo,
+	- el almacenamiento de datos (por GB)
+	- y la transferencia de datos de salida (por GB).
+	-
+	- En la mayoría de los casos, no se aplican cargos por la transferencia de datos de entrada ni por la transferencia de datos entre servicios de AWS dentro de la misma región (con excepciones). El modelo de precios implica pagar por lo que se usa, pagar menos al reservar servicios, pagar menos cuanto más uso se le dé y pagar aún menos a medida que AWS crece.
+	-
 - AWS ofrece a nuevos clientes una capa gratuita (https://aws.amazon.com/es/free/) durante 1 año para determinados servicios y opciones. Además, servicios como Amazon Virtual Private Cloud (Amazon VPC), AWS Identity and Access Management(IAM), Auto Scaling, AWS CloudFormation, AWS OpsWorks y AWS Elastic Beanstalk se ofrecen sin cargo adicional, si bien es posible que haya otros cargos por los servicios que usen con ellos.
   ls-type:: annotation
   hl-page:: 9

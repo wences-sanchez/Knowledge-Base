@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:pages tag:#Linux",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
-  "close": true
+  "scale": 0.1394729434597797,
+  "close": false
 }

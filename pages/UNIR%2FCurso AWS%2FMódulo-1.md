@@ -160,7 +160,12 @@ tags:: UNIR, AWS
 		- **AWS Organizations** permite crear **políticas de control de servicios**, crear **grupos de cuentas**, **administrar aplicaciones** mediante APU y **simplificar** el proceso de **facturación** mediante factura unificada. AWS Organizations no reemplaza las políticas de AWS Identity and Access Management con usuarios, grupos y roles en una cuenta de AWS pero sí **permitir o denegar** servicios a cuentas específicas.
 		-
 		-
-	- AWS ofrece una combinación única de herramientas para soporte y planes de soporte para brindar experimentación y soporte en servicios de producción. Entre ellas está AWS Trusted Advisor, donde los clientes pueden obtener recomendaciones sobre sus gastos mensuales, identificar problemas de seguridad y aumentar su productividad. Si se desea obtener una orientación proactiva, AWS Support cuenta con directores de cuentas técnicas (TAM) que son designados como el punto de contacto principal de los usuarios. El TAM puede ayudar en la orientación, revisión de la arquitectura y comunicación continua a medida que planifica, implementa y optimiza sus soluciones. A su vez el equipo de soporte de Concierge es un equipo experto en cuentas y facturación con análisis rápidos y eficaces.
+	- AWS ofrece una combinación única de herramientas para soporte y planes de soporte para brindar experimentación y soporte en servicios de producción. Entre ellas está **AWS Trusted Advisor**, donde los clientes pueden obtener recomendaciones sobre sus gastos mensuales, identificar problemas de seguridad y aumentar su productividad.
+	-
+	- Si se desea obtener una orientación proactiva, AWS Support cuenta con directores de cuentas técnicas (**TAM**) que son designados como el punto de contacto principal de los usuarios. El TAM puede ayudar en la orientación, revisión de la arquitectura y comunicación continua a medida que planifica, implementa y optimiza sus soluciones.
+	-
+	- A su vez el equipo de soporte de Concierge es un equipo experto en cuentas y facturación con análisis rápidos y eficaces.
+	-
 	- Se ofrecen 4 tipos de planes de soporte:
 		-  **Basic**: acceso al centro de recursos, panel de estado de servicio, 6 comprobaciones de Trusted Advisor y foros de debate.
 		-  **Developer**: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción

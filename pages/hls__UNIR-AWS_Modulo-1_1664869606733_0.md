@@ -1,7 +1,9 @@
 file-path:: ../assets/UNIR-AWS_Modulo-1_1664869606733_0.pdf
 file:: [UNIR-AWS_Modulo-1_1664869606733_0.pdf](../assets/UNIR-AWS_Modulo-1_1664869606733_0.pdf)
 title:: hls__UNIR-AWS_Modulo-1_1664869606733_0
+tags:: UNI, AWS
 
+- #tags #UNI #AWS
 -
 - El concepto de **«informática en la nube»** hace referencia a la entrega bajo demanda de potencia de computación, bases de datos, almacenamiento, aplicaciones y otros recursos de las tecnologías de la información por medio de **Internet** y bajo un sistema de precios de **pago por uso**.
   hl-page:: 3
@@ -28,5 +30,8 @@ title:: hls__UNIR-AWS_Modulo-1_1664869606733_0
 	-  **En las instalaciones (on premises)**: también conocida como nube privada. Es casi idéntico al modelo de infraestructura propia y clásica que puede aprovecharse para lanzar tecnologías de virtualización y administración.
 	-
 - Por una parte, los servicios ofertados por los proveedores de nube pueden llegar desde ofrecer servidores virtuales hasta gestionar absolutamente todos los recursos necesarios para abstraernos y crear nosotros nuestros productos software.
-	- Por otra parte,
+	- Por otra parte, hay tres tipos de implementación de dichos servicios; independientemente:
+	- Una empresa puede tener contratado un servicio de PaaS y usar nube pública.
+	- Otra empresa puede tener servidores virtuales con IaaS pero usar nube privada (porque su ecosistema provea sus recursos dados).
+	- Otra empresa puede tener una nube híbrida y usar (por ejemplo) SaaS para un proyecto específico que tengan y que se haya decidido implementarlo de esa manera.
 		-

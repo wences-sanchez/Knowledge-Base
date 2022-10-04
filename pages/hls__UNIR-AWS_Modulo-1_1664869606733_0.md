@@ -116,7 +116,13 @@ tags:: UNI, AWS
   hl-page:: 11
   ls-type:: annotation
   id:: 633c1764-d1fd-45bd-a232-b996ffedd383
-	- Incluye capacidades de facturación unificada y administración de cuentas que le permiten satisfacer mejor las necesidades de presupuesto, seguridad y conformidad de su negoacio.
+	- Incluye capacidades de facturación unificada y administración de cuentas que le permiten satisfacer mejor las necesidades de presupuesto, seguridad y conformidad de su negocio.
+	- Beneficios principales de AWS Organizations:
+		- Políticas de acceso administradas de manera centralizada en varias cuentas de AWS.
+		- Acceso controlado a los servicios de AWS
+		- Creación y administración automatizada de cuentas de AWS
+		- Facturación unificada en varias cuentas de AWS.
+		-
 	- AWS Organizations permite crear políticas de control de servicios, crear grupos de cuentas, administrar aplicaciones mediante APU y simplificar el proceso de facturación mediante factura unificada. AWS Organizations no reemplaza las políticas de AWS Identity and Access Management con usuarios, grupos y roles en una cuenta de AWS pero si permitir o denegra servicios a cuentas específicas.
 -
 -

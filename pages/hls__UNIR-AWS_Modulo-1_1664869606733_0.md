@@ -29,9 +29,21 @@ tags:: UNI, AWS
 	-  **Híbrida**: una solución implementada conectando la infraestructura propia y los recursos en la nube para extender sus soluciones.
 	-  **En las instalaciones (on premises)**: también conocida como nube privada. Es casi idéntico al modelo de infraestructura propia y clásica que puede aprovecharse para lanzar tecnologías de virtualización y administración.
 	-
-- Por una parte, los servicios ofertados por los proveedores de nube pueden llegar desde ofrecer servidores virtuales hasta gestionar absolutamente todos los recursos necesarios para abstraernos y crear nosotros nuestros productos software.
+- Por una parte, los servicios ofertados por los proveedores de nube pueden llegar desde ofrecer servidores virtuales hasta gestionar absolutamente todos los recursos necesarios para abstraernos y crear nosotros nuestros productos software. #spaced
 	- Por otra parte, hay tres tipos de implementación de dichos servicios; independientemente:
 	- Una empresa puede tener contratado un servicio de PaaS y usar nube pública.
 	- Otra empresa puede tener servidores virtuales con IaaS pero usar nube privada (porque su ecosistema provea sus recursos dados).
 	- Otra empresa puede tener una nube híbrida y usar (por ejemplo) SaaS para un proyecto específico que tengan y que se haya decidido implementarlo de esa manera.
 		-
+- ¿Qué se entiende por servicio web? #flashcard
+  hl-page:: 5
+  ls-type:: annotation
+  id:: 633c13f1-1af3-4832-bf48-03413aee6fb9
+	- Por servicio web se entiende cualquier componente software que está disponible a través de Internet mediante una interacción con una interfaz de programación de aplicaciones (API). AWS es una plataforma en la nube segura con un amplio abanico de productos globales listo para usarse en cuestión de minutos.
+	-
+		- [:span]
+		  ls-type:: annotation
+		  hl-page:: 6
+		  id:: 633c1444-aee7-4d91-9642-12c5a6d726fe
+		  hl-type:: area
+		  hl-stamp:: 1664881732947

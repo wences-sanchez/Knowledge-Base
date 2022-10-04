@@ -47,3 +47,26 @@ tags:: UNI, AWS
 		  id:: 633c1444-aee7-4d91-9642-12c5a6d726fe
 		  hl-type:: area
 		  hl-stamp:: 1664881732947
+- AWS fundamenta sus costos en 3 fuentes fundamentales: la informática(computación) en la que se cobra por hora o por segundo, el almacenamiento de datos (por GB) y la transferencia de datos de salida (por GB). En la mayoría de los casos, no se aplican cargos por la transferencia de datos de entrada ni por la transferencia de datos entre servicios de AWS dentro de la misma región (con excepciones). El modelo de precios implica pagar por lo que se usa, pagar menos al reservar servicios, pagar menos cuanto más uso se le dé y pagar aún menos a medida que AWS crece.
+  ls-type:: annotation
+  hl-page:: 8
+  id:: 633c15a7-05fe-47e9-91d7-cf17df04a217
+- AWS ofrece a nuevos clientes una capa gratuita (https://aws.amazon.com/es/free/) durante 1 año para determinados servicios y opciones. Además, servicios como Amazon Virtual Private Cloud (Amazon VPC), AWS Identity and Access Management(IAM), Auto Scaling, AWS CloudFormation, AWS OpsWorks y AWS Elastic Beanstalk se ofrecen sin cargo adicional, si bien es posible que haya otros cargos por los servicios que usen con ellos.
+  ls-type:: annotation
+  hl-page:: 9
+  id:: 633c1602-db47-4fea-b688-45219c1ff48a
+- Se define el coste total de la propiedad como «la estimación financiera que ayuda a identificar los costes directos e indirectos de un sistema». (AWS Pricing Work, 2020). Se utiliza para comparar el coste de ejecutar una infraestructura completa o una carga de trabajo en las instalaciones propias frente hacerlo en AWS. Además, sirve para presupuestar el negocio en caso de migrar a la nube.
+  ls-type:: annotation
+  hl-page:: 9
+  id:: 633c1650-387b-40c3-a930-8be94718e919
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  id:: 633c1680-5ba1-4e8a-b7f9-e2bd4c654e17
+  hl-type:: area
+  hl-stamp:: 1664882304228
+-
+- En la nube, la mayoría de los costes son iniciales y se pueden estimar fácilmente. AWS ofrece precios transparentes basados en diferentes métricas de uso, como RAM, almacenamiento y ancho de banda, entre otras. Además, los precios se determinan por unidad de tiempo. Los clientes ganan confianza con respecto a los precios y son capaces de calcular fácilmente los costes en función de diversas estimaciones de uso. Con la tecnología en las instalaciones los clientes deben tener en cuenta los costes directos (espacio, electricidad, etc.) y los indirectos (almacenamiento, red, etc.). En las instalaciones los costes son predictivos porque se incurre en costes se use o no la capacidad.
+  ls-type:: annotation
+  hl-page:: 10
+  id:: 633c1702-fe1f-49e3-9d8b-f0aa4e4e2d54

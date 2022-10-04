@@ -31,7 +31,18 @@ tags:: UNIR, AWS
 		- El llevar a la nube este tipo de informática ha originado 3 *subtipos* de modelos:
 			- Nube en sí (**nube pública**), en la que todo está *ahí fuera*.
 			- **Modelo híbrido**. Nos permite usar la nube pública de Amazon para algunos de nuestros proyectos. Pero también servidores locales de la empresa para proyectos más confidenciales o sensibles.
-			- Infraestructuctura local (**nube privada**).
+			- Infraestructuctura local (**nube privada**). Desplegamos el ecosistema de una nube en un entorno local. A veces hace referencia a hosts dedicados por un proveedor específico.
+	- ### Ventajas de la informática en la nube
+		- Cambiar sus gastos de capital por gastos variables
+		- Beneficiarse de las grandes economías de escala
+		- Evitar asumir estimaciones sobre capacidad
+		- Aumentar la velocidad y la agilidad
+		- Dejar de gastar dinero en la ejecución y el mantenimiento de centros de datos
+		- Adquirir escala mundial en cuestión de minutos
+	-
+		-
+	- ###
+		-
 	-
 		-
 	- ## Flashcards

@@ -60,8 +60,23 @@ tags:: UNI, AWS
 	- la informática (computación) en la que se cobra por hora o por segundo,
 	- el almacenamiento de datos (por GB)
 	- y la transferencia de datos de salida (por GB).
+		- Los datos de saldia se suman y se cobran. AWS no cobra por datos de entrada (con algunas excepciones).
+		-
+	- En la mayoría de los casos, no se aplican cargos por la transferencia de datos de entrada ni por la transferencia de datos entre servicios de AWS dentro de la misma región (con excepciones).
 	-
-	- En la mayoría de los casos, no se aplican cargos por la transferencia de datos de entrada ni por la transferencia de datos entre servicios de AWS dentro de la misma región (con excepciones). El modelo de precios implica pagar por lo que se usa, pagar menos al reservar servicios, pagar menos cuanto más uso se le dé y pagar aún menos a medida que AWS crece.
+	- El modelo de precios implica:
+		- pagar por lo que se usa,
+		- pagar menos al reservar servicios,
+		- pagar menos cuanto más uso se le dé y pagar aún menos a medida que AWS crece.
+	-
+- Por ejemplo, en servicios como Amazon Elastic Compute Cloud (Amazon EC2) y Amazon Relational Database Service (Amazon RDS) se puede reservar capacidad y ahorrar hasta un 75 % en comparación con la capacidad bajo demanda. 
+  ls-type:: annotation
+  hl-page:: 8
+  id:: 633c1f6b-b560-4646-9b33-a9076d748364
+	- Las instancias reservadas están disponibles bajo:
+		-  Instancia reservada con pago inicial completo (AURI).
+		-  Instancia reservada con pago inicial parcial (PURI).
+		-  Instancia reservada sin pago inicial (NURI).
 	-
 - AWS ofrece a nuevos clientes una capa gratuita (https://aws.amazon.com/es/free/) durante 1 año para determinados servicios y opciones. Además, servicios como Amazon Virtual Private Cloud (Amazon VPC), AWS Identity and Access Management(IAM), Auto Scaling, AWS CloudFormation, AWS OpsWorks y AWS Elastic Beanstalk se ofrecen sin cargo adicional, si bien es posible que haya otros cargos por los servicios que usen con ellos.
   ls-type:: annotation

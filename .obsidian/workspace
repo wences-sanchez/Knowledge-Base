@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "422e709abe73a32b",
+        "id": "ba5eb4e3a29e63bb",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/UNIR%2FCurso AWS%2FMódulo-1.md"
+              }
             }
           }
         ]
@@ -120,6 +128,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eb8c857138beacfa",
-  "lastOpenFiles": []
+  "active": "ba5eb4e3a29e63bb",
+  "lastOpenFiles": [
+    "UNIR/Curso AWS/Módulo-1.md",
+    "journals/2022_10_04.md"
+  ]
 }

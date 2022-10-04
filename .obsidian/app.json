@@ -3,5 +3,6 @@
   "newFileFolderPath": "pages",
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "fileSortOrder": "byModifiedTime"
 }

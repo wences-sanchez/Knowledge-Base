@@ -8,6 +8,7 @@ tags:: UNIR, AWS
 - ## Vídeo 1
 	- ### Definición de Informática en la nube
 		- La **informática en la nube** es la entrega **bajo demanda** de potencia de cómputo, máquinas virtuales, BBDD, aplicaciones y otros recursos de TI, a través de Internet, con un sistema de precios de **pago por uso**.
+	- 
 	- ### Infraestructura como Sofware
 		- La **informática en la nube** permite dejar de considerar la **infraestructura** como *hardware* y, en cambio, verla y usarla como **software**.
 	- ### Modelo de informática tradicional
@@ -27,6 +28,10 @@ tags:: UNIR, AWS
 			- En un modelo de Software como Servicio (SaaS) el control se desvanece en favor de su gestión por parte del proveedor de nube.
 			- Un modelo de Plataforma como Servicio (PaaS) ofrece una opción intermedia. Como un servidor de base de datos.
 	- ### Modelos de implementación de la informática en la nube
+		- El llevar a la nube este tipo de informática ha originado 3 *subtipos* de modelos:
+			- Nube en sí (**nube pública**), en la que todo está *ahí fuera*.
+			- **Modelo híbrido**. Nos permite usar la nube pública de Amazon para algunos de nuestros proyectos. Pero también servidores locales de la empresa para proyectos más confidenciales o sensibles.
+			- Infraestructuctura local (**nube privada**).
 		-
 	-
 	-

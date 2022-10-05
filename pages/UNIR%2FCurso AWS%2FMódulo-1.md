@@ -235,4 +235,19 @@ tags:: UNIR, AWS
 			- Son usados por **AWS CloudFront**
 		-
 		- ### Características de la Infraestructura de AWS
-			-
+			- #### Elasticidad y escalabilidad
+				- Infraestructura elástica: adaptación dinámica de la capacidad
+				- Infraestructura escalable: se adapta para admitir crecimiento
+					- Crear máquinas y dotarlas de más recursos
+			- #### Tolerancia a errores
+				- Funcionamiento correcto en presencia de un error
+				- Redundancia integrada de los componentes
+			- #### Alta disponibilidad
+				- Alto nivel de rendimiento operativo
+				- Tiempo de inactividad minimizado
+				- Sin intervención humana
+	- ## Información general sobre los servicios de AWS
+		- ### Servicios de almacenamiento
+			- ![image.png](../assets/image_1664953839406_0.png)
+			- Amazon S3
+				- permite a

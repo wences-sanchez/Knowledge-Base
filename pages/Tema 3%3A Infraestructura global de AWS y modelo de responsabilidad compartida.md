@@ -4,24 +4,24 @@ tags:: UNIR, AWS
 - #tags #UNI #AWS #Tema-1
 -
 - ## 3.2 Infraestructura global de AWS
-	- Una región de AWS es una zona geográfica, la cual está conectada con cableado de alta velocidad y con redundancia.
+	- Una región de AWS es una zona geográfica, la cual está conectada con cableado de alta velocidad y con redundancia. #spaced
 	-
-	- ### Selección de una región
+	- ### Selección de una región #spaced
 		- Gobernanza de datos (requisitos legales).
 		- Proximidad con los clientes (latencia)
 		- Servicios disponibles de la región
 			- No todos los servicios están en todas las regiones
 		- Costes (según la región)
 			- Los servicios no cuestan igual en todas las zonas
-	- ### Zonas de disponibilidad
+	- ### Zonas de disponibilidad #spaced
 		- Es una zona física que cuenta con diferentes centros de datos.
 		- Están conectadas entre ellas de forma muy rápida y con Alta Disponibilidad
 		- AWS recomienda el replicar datos de proyectos entre diferentes zonas de disponiblidad
-	- ### Centros de datos
+	- ### Centros de datos #spaced
 		- Es donde están los servidores
 		- AWS se encarga de todo lo relativo al hardware
 		- Un centro de datos suele albergar entre 50.000 y 80.000 servidores físicos
-	- ### Puntos de presencia
+	- ### Puntos de presencia #spaced
 		- AWS proporciona una red global de ubicaciones de puntos de presencia.
 		- Son lugares físicos que AWS piensa que pueden ser adecuados para cachear información.
 		- Hay dos tipos:
@@ -29,7 +29,7 @@ tags:: UNIR, AWS
 			- Cachés de borde regionales
 		- Son usados por **AWS CloudFront**
 	-
-	- ### Características de la Infraestructura de AWS
+	- ### Características de la Infraestructura de AWS #spaced
 		- #### Elasticidad y escalabilidad
 			- Infraestructura elástica: adaptación dinámica de la capacidad
 			- Infraestructura escalable: se adapta para admitir crecimiento
@@ -42,7 +42,7 @@ tags:: UNIR, AWS
 			- Tiempo de inactividad minimizado
 			- Sin intervención humana
 - ## Información general sobre los servicios de AWS
-	- ### Servicios de almacenamiento
+	- ### Servicios de almacenamiento de AWS #spaced
 		- ![image.png](../assets/image_1664953839406_0.png)
 		- #### Amazon Simple Storage Service (Amazon S3)
 			- Permite almacenar objetos. Es un servicio básico y que está ligado a otros servicios mediante, por ejemplo, lambdas.
@@ -55,7 +55,7 @@ tags:: UNIR, AWS
 		- #### Amazon Simple Storage Service Glacier
 			- Es un subconjunto de S3 con políticas de precio más económicas para acceso poco frecuente.
 	-
-	- ### Servicios de informática
+	- ### Servicios de informática de AWS #spaced
 		- ![image.png](../assets/image_1664954371160_0.png)
 		- #### Amazon EC2
 			- Ofrece una gran cantidad de máquinas virtuales
@@ -72,7 +72,7 @@ tags:: UNIR, AWS
 				- Amazon Elastic Kubernetes Service (Amazon EKS)
 				- AWS Fargate
 				-
-	- ### Servicios de base de datos
+	- ### Servicios de base de datos de AWS #spaced
 		- ![image.png](../assets/image_1664954883984_0.png)
 		- #### Amazon Relational Database Service (Amazon RDS)
 			- Servicio que suministra bases de datos relacionales.
@@ -84,7 +84,7 @@ tags:: UNIR, AWS
 		- #### Amazon DynamoDB
 			- Podemos generar tablas para almacenar datos no estructurados de NoSQL
 		-
-	- ### Servicios de redes y entrega de contenido
+	- ### Servicios de redes y entrega de contenido de AWS #spaced
 		- ![image.png](../assets/image_1664955299531_0.png)
 		- #### Amazon VPC
 			- Amazon Virtual Private Cloud permite crear una red virtual por ejemplo para que se comuniquen nuestras instancias de máquinas virtuales
@@ -98,7 +98,7 @@ tags:: UNIR, AWS
 				- Amazon Route 53
 				- AWS Direct Connect
 				- AWS VPN
-	- ### Servicios de seguridad, identidad y conformidad
+	- ### Servicios de seguridad, identidad y conformidad de AWS #spaced
 		- ![image.png](../assets/image_1664955675127_0.png)
 		- #### AWS Identity and Access Management (IAM)
 			- Servicio esencial que permite la gestión de la identidad y el acceso para poder crear usuarios, grupos de usuarios, dar credenciales y roles.
@@ -114,7 +114,7 @@ tags:: UNIR, AWS
 		- #### AWS Shield
 			- Servicio ligado a la seguridad para preveer ataques.
 	-
-	- ### Servicios de Administración de costes de AWS
+	- ### Servicios de Administración de costes de AWS #spaced
 		- ![image.png](../assets/image_1664956250888_0.png)
 		-
 		- #### Informe de uso y costo de AWS
@@ -124,7 +124,7 @@ tags:: UNIR, AWS
 		- #### AWS Cost Explorer
 			- Con mucho más detalle de cada servicio, de cuándo se ha usado, su coste en uso, etc.
 		-
-	- ### Servicios de administración y gestión de AWS
+	- ### Servicios de administración y gestión de AWS #spaced
 		- ![image.png](../assets/image_1664956619051_0.png)
 		- #### Consola de administración de AWS
 			- AWS se puede administrar mediante su consola gráfica

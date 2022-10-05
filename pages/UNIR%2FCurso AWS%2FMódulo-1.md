@@ -337,5 +337,16 @@ tags:: UNIR, AWS
 				- Nos permite tener una trazabilidad de todo lo que hemos ido configurando.
 			- #### Amazon CloudWatch
 				- Guarda todos los logs y métricas de otros servicios
-			- #### AWS Auto Sa
+			- #### AWS Auto Scaling
+				- Nos permite escalar nuestros servicios (no solo EC2).
+			- #### Interfaz de línea de comandos de AWS
+				- Dando unas credenciales y un secret, nos permite interactuar con AWS desde nuestro terminal
+			- #### AWS Trusted Advisor
+				- Un servicio que nos da advertencias y consejos sobre lo que estamos haciendo (o no) bien.
+			- #### AWS Well-Architected Tool
+				- Herramienta del marco de la buena arquitectura en AWS. Nos aconseja y nos da soporte sobre la arquitectura.
+			- #### AWS CloudTrail
+				- Provee un registro muy claro de lo que va ocurriendo en nuestros servicios.
+			-
+			-
 			-

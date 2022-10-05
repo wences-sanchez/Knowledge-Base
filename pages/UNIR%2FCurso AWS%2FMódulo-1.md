@@ -285,4 +285,24 @@ tags:: UNIR, AWS
 			- #### Amazon Aurora
 				- Un servicio especial de Amazon que ofrece una base de datos de AWS compatible con PostgreSQL y con MySQL. Con un servicio más económico.
 			- #### Amazon Redshift
-				- Otro servicio de base de datos pero pensado en el Big Data, con muchos
+				- Otro servicio de base de datos pero pensado en el Big Data, con muchos datos.
+			- #### Amazon DynamoDB
+				- Podemos generar tablas para almacenar datos no estructurados de NoSQL
+			-
+		- ### Servicios de redes y entrega de contenido
+			- ![image.png](../assets/image_1664955299531_0.png)
+			- #### Amazon VPC
+				- Amazon Virtual Private Cloud permite crear una red virtual por ejemplo para que se comuniquen nuestras instancias de máquinas virtuales
+			- #### Elastic Load Balancing
+				- Un servicio que de forma automática puede balancear la carga según la red.
+			- #### Amazon CloudFront
+				- Permite gestionar el almacenamiento de la cache de los contenidos
+			- #### Otros
+				- Los siguientes son servicios que nos permiten conectarnos a aplicaciones on premises de nuestra empresa y de manera segura:
+					- AWS Transit Gateway
+					- Amazon Route 53
+					- AWS Direct Connect
+					- AWS VPN
+		- ### Servicios de seguridad, identidad y conformidad
+			- ![image.png](../assets/image_1664955675127_0.png)
+			- #### AWS Identity and Access Management ()IAM

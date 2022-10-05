@@ -305,4 +305,22 @@ tags:: UNIR, AWS
 					- AWS VPN
 		- ### Servicios de seguridad, identidad y conformidad
 			- ![image.png](../assets/image_1664955675127_0.png)
-			- #### AWS Identity and Access Management ()IAM
+			- #### AWS Identity and Access Management (IAM)
+				- Servicio esencial que permite la gestión de la identidad y el acceso para poder crear usuarios, grupos de usuarios, dar credenciales y roles.
+			- #### AWS Organizations
+				- Permite organizar diferentes cuentas de AWS en una sola para que la facturación sea única.
+			- #### Amazon Cognito
+				- Permite crear tanto grupos de usuarios como de identidades, pero para las aplicaciones. Admite SSO.
+				- Por ejemplo, crear usuarios con contraseña para que puedan hacer uso de una API que hemos creado nosotros.
+			- #### AWS Artifact
+				- Permite la gestión de los proyectos.
+			- #### AWS Key Management Service
+				- Permite la gestión de nuestras claves
+			- #### AWS Shield
+				- Servicio ligado a la seguridad para preveer ataques.
+		-
+		- ### Servicios de Administración de costes de AWS
+			- ![image.png](../assets/image_1664956250888_0.png)
+			-
+			- #### Informe de uso y costo de AWS
+				- Nos da una idea

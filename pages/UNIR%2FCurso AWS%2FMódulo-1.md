@@ -214,4 +214,25 @@ tags:: UNIR, AWS
 		- ### Selección de una región
 			- Gobernanza de datos (requisitos legales).
 			- Proximidad con los clientes (latencia)
+			- Servicios disponibles de la región
+				- No todos los servicios están en todas las regiones
+			- Costes (según la región)
+				- Los servicios no cuestan igual en todas las zonas
+		- ### Zonas de disponibilidad
+			- Es una zona física que cuenta con diferentes centros de datos.
+			- Están conectadas entre ellas de forma muy rápida y con Alta Disponibilidad
+			- AWS recomienda el replicar datos de proyectos entre diferentes zonas de disponiblidad
+		- ### Centros de datos
+			- Es donde están los servidores
+			- AWS se encarga de todo lo relativo al hardware
+			- Un centro de datos suele albergar entre 50.000 y 80.000 servidores físicos
+		- ### Puntos de presencia
+			- AWS proporciona una red global de ubicaciones de puntos de presencia.
+			- Son lugares físicos que AWS piensa que pueden ser adecuados para cachear información.
+			- Hay dos tipos:
+				- Ubicaciones de borde
+				- Cachés de borde regionales
+			- Son usados por **AWS CloudFront**
+		-
+		- ### Características de la Infraestructura de AWS
 			-

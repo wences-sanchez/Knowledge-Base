@@ -266,4 +266,23 @@ tags:: UNIR, AWS
 				- Ofrece una gran cantidad de máquinas virtuales
 			- #### Amazon EC2 Auto Scaling
 				- Un servicio que permite de manera automática crear y distribuir máquinas según el tráfico de la red
-			- #### Amazon Elastic Container Service (Amazon ECS)
+			- #### AWS Elastic Beanstalk
+				- Permite desplegar aplicaciones aunque por debajo usa otro tipo de servicios de AWS
+			- #### AWS Lambda
+				- Uno de los servicios más importantes de AWS que ejecuta código *sin servidor*. Permite subir el código fuente y de forma transparente gestionada por ellos despliegan el código.
+			- #### Otros
+				- Están basados en contenedores:
+					- Amazon Elastic Container Service (Amazon ECS)
+					- Amazon EC2 Container Registry
+					- Amazon Elastic Kubernetes Service (Amazon EKS)
+					- AWS Fargate
+					-
+		- ### Servicios de base de datos
+			- ![image.png](../assets/image_1664954883984_0.png)
+			- #### Amazon Relational Database Service (Amazon RDS)
+				- Servicio que suministra bases de datos relacionales.
+					- MySQL, PostgreSQL,...
+			- #### Amazon Aurora
+				- Un servicio especial de Amazon que ofrece una base de datos de AWS compatible con PostgreSQL y con MySQL. Con un servicio más económico.
+			- #### Amazon Redshift
+				- Otro servicio de base de datos pero pensado en el Big Data, con muchos

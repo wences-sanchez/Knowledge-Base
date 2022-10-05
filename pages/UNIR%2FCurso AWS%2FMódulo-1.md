@@ -323,4 +323,19 @@ tags:: UNIR, AWS
 			- ![image.png](../assets/image_1664956250888_0.png)
 			-
 			- #### Informe de uso y costo de AWS
-				- Nos da una idea
+				- Nos da una idea del uso detallado de cada servicio que hemos empleado, con fecha.
+			- #### Presupuestos de AWS
+				- Un servicio más general que nos permite evaluar presupuestos a futuro o incluso comparar el pasado con lo que está presupuestado e identificar los sobrecostes.
+			- #### AWS Cost Explorer
+				- Con mucho más detalle de cada servicio, de cuándo se ha usado, su coste en uso, etc.
+			-
+		- ### Servicios de administración y gestión de AWS
+			- ![image.png](../assets/image_1664956619051_0.png)
+			- #### Consola de administración de AWS
+				- AWS se puede administrar mediante su consola gráfica
+			- #### AWS Config
+				- Nos permite tener una trazabilidad de todo lo que hemos ido configurando.
+			- #### Amazon CloudWatch
+				- Guarda todos los logs y métricas de otros servicios
+			- #### AWS Auto Sa
+			-

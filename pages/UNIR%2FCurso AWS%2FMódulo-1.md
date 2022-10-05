@@ -249,5 +249,21 @@ tags:: UNIR, AWS
 	- ## Información general sobre los servicios de AWS
 		- ### Servicios de almacenamiento
 			- ![image.png](../assets/image_1664953839406_0.png)
-			- Amazon S3
-				- permite a
+			- #### Amazon Simple Storage Service (Amazon S3)
+				- Permite almacenar objetos. Es un servicio básico y que está ligado a otros servicios mediante, por ejemplo, lambdas.
+			- #### Amazon Elastic Block Store (Amazon EBS)
+				- Es un servicio de almacenamiento parecido a Amazon S3. Pero, en vez de guardar objetos, almacena los datos en bloques.
+				- Está ligado a las instancias de máquinas virtuales de EC2.
+				- Cuando la máquina está apagada, se guarda su información con este servicio.
+			- #### Amazon Elastic File System (Amazon EFS)
+				- Similar, para dar un servicio de ficheros distribuido muy rápido para aplicaciones de Big Data que puedan ejecutarse en EC2. Muy ágil.
+			- #### Amazon Simple Storage Service Glacier
+				- Es un subconjunto de S3 con políticas de precio más económicas para acceso poco frecuente.
+		-
+		- ### Servicios de informática
+			- ![image.png](../assets/image_1664954371160_0.png)
+			- #### Amazon EC2
+				- Ofrece una gran cantidad de máquinas virtuales
+			- #### Amazon EC2 Auto Scaling
+				- Un servicio que permite de manera automática crear y distribuir máquinas según el tráfico de la red
+			- #### Amazon Elastic Container Service (Amazon ECS)

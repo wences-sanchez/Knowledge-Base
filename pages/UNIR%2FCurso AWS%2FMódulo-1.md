@@ -205,3 +205,13 @@ tags:: UNIR, AWS
 				-  **Developer**: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción
 				-  **Business**: cargas de trabajo en producción.
 				-  **Enterprise**: cargas de trabajo críticas.
+-
+-
+- # Tema 3: Infraestructura global de AWS y modelo de responsabilidad compartida
+	- ## 3.2 Infraestructura global de AWS
+		- Una región de AWS es una zona geográfica, la cual está conectada con cableado de alta velocidad y con redundancia.
+		-
+		- ### Selección de una región
+			- Gobernanza de datos (requisitos legales).
+			- Proximidad con los clientes (latencia)
+			-

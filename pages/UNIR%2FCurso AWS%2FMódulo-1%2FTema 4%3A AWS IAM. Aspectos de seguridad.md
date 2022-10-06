@@ -56,8 +56,33 @@ tags:: UNIR, AWS
 			- Si está habilitada, MFA solicita un código de autenticación
 	-
 	- ### IAM: Autorización
-		- Se usa IAM para asignar permisos e identificar qué recursos y operaciones están permitidos.
+		- Se usa IAM para asignar permisos y determinar qué recursos y operaciones están permitidos.
+		- Por defecto, los permisos están todos denegados de forma implícita.
 		-
+	- ### Políticas de IAM
+		- Es un documento en JSON que define permisos de control de acceso.
+		- Hay dos tipos de políticas:
+			- **Basadas en identidad:**
+				- Asocian una política a cualquier entidad de IAM: un usuario, grupo o rol
+			- **Basadas en recursos:**
+				- Asociadas a recursos (como un bucket de S3).
+		-
+	- ### Roles de IAM
+		- Un rol de IAM es una identidad de IAM con permisos específicos.
+		- Es similar a un usuario en IAM.
+			- Asocia políticas de permisos a él.
+		- Pero es diferente a un usuario de IAM
+			- Porque no está asociado de forma exclusiva a una persona
+			- Y está diseñado para que lo pueda asumir ya sea una persona, una aplicación o un servicio.
+		- El rol proporciona credenciales de seguridad temporales
+-
+-
+- ## Protección de cuentas y datos
+	- ### Prácticas recomendadas para proteger una cuenta
+		- Eliminar las claves de acceso de usuario raíz de la cuenta
+		- Crear un usuario
+-
+	-
 	-
 -
 -

@@ -1,5 +1,14 @@
 - #tags #AWS #CCP-Exam
 -
-- The passing score is 7!
-- What is **cloud computing**, exactly?
-	- Cloud computing is the **delivery of computing services** over the internet.
+- ## 1. Introduction
+	- The passing score is 7!
+	- What is **cloud computing**, exactly?
+		- Cloud computing is the **delivery of computing services** over the internet.
+-
+- ## 2. Foundations of Cloud Computing
+	- Cloud9 is an example of [[PaaS]]
+	- ### Leveraging the AWS Global Infrastructure
+		- A [[region]] is a physical location
+		- Each [[region]] is independent and isolated from each other.
+		- You can see that you previously have to select a region before doing any activity in AWS.
+		-

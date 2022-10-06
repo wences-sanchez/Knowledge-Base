@@ -56,7 +56,7 @@ tags:: #[[O'Reilly-Learning]]
 		  To identify the link tags that are within the div element, the syntax will be //div/a.
 		  To identify all the elements with a tag, we use *. The syntax will be //div/*.
 		  To identify all the div elements that are at three levels down from the root, we can use //*/*/div.
-		  To identify specific elements, we use attribute values of those elements, such as //*/div/a[@id='attrValue'], which will return the anchor element. This element is at the third level from the root within a div element and has an id value of attrValue. #space
+		  To identify specific elements, we use attribute values of those elements, such as //*/div/a[@id='attrValue'], which will return the anchor element. This element is at the third level from the root within a div element and has an id value of attrValue. #ñspace
 		- -
 		- -
 		- Disadvantages of XPath #card
@@ -77,7 +77,7 @@ tags:: #[[O'Reilly-Learning]]
 	- Using the Map function to get the text value from elements
 	- Stream.map()
 		- -
-		- List<String> expectedProductNames =            Arrays.asList("MADISON EARBUDS",                    "MADISON OVEREAR HEADPHONES",                    "MP3 PLAYER WITH AUDIO");    List<String> productNames = searchItems.stream()            .map(WebElement::getText)            .collect(Collectors.toList());    assertThat(productNames).            isEqualTo(expectedProductNames); #space
+		- List<String> expectedProductNames =            Arrays.asList("MADISON EARBUDS",                    "MADISON OVEREAR HEADPHONES",                    "MP3 PLAYER WITH AUDIO");    List<String> productNames = searchItems.stream()            .map(WebElement::getText)            .collect(Collectors.toList());    assertThat(productNames).            isEqualTo(expectedProductNames); #ñspace
 		- -
 	- Selenium WebDriver&#xA0;
 		- -

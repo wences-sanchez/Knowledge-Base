@@ -9,7 +9,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/673e4247-86d7-421b-8346-963806a9ab69.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Cuando ejecutemos comandos con kubectl para crear o actualizar un Deployment, podremos  especificar  la  opción  --record  para  anotar  en  el  recurso  el  comando ejecutado.  Esta  información  se  guardaría  en  la  anotación  kubernetes.io/change cause y podrá ser consultada en el histórico de las revisiones del Deployment. $ kubectl create -f nginx-deployment.yaml --record deployment "nginx-deployment" created $ kubectl apply -f nginx-deployment.yaml --record #space
+	- Cuando ejecutemos comandos con kubectl para crear o actualizar un Deployment, podremos  especificar  la  opción  --record  para  anotar  en  el  recurso  el  comando ejecutado.  Esta  información  se  guardaría  en  la  anotación  kubernetes.io/change cause y podrá ser consultada en el histórico de las revisiones del Deployment. $ kubectl create -f nginx-deployment.yaml --record deployment "nginx-deployment" created $ kubectl apply -f nginx-deployment.yaml --record #ñspace
 		- (Page 7)
 	- -
 	- -
@@ -39,7 +39,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 22)
 	- -
 	- -
-	-   Las réplicas se crean en orden, comenzando por el índice más bajo. Además, hasta que el Pod de una réplica no esté creado y disponible, no se comenzará con el de la siguiente réplica. Esto aplica tanto en la creación como en el escalado.   Al borrar un StatefulSet, las réplicas de los Pods serán eliminados en orden inverso, es decir, comenzando por el índice más alto. Igualmente, también aplica durante un escalado al reducir el número de réplicas.   Cada una de las réplicas tendrá su propio almacenamiento persistente. #space
+	-   Las réplicas se crean en orden, comenzando por el índice más bajo. Además, hasta que el Pod de una réplica no esté creado y disponible, no se comenzará con el de la siguiente réplica. Esto aplica tanto en la creación como en el escalado.   Al borrar un StatefulSet, las réplicas de los Pods serán eliminados en orden inverso, es decir, comenzando por el índice más alto. Igualmente, también aplica durante un escalado al reducir el número de réplicas.   Cada una de las réplicas tendrá su propio almacenamiento persistente. #ñspace
 		- (Page 23)
 	- -
 	- -

@@ -29,7 +29,7 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- Algunas  organizaciones  (como  Netflix)  no  tienen  equipos  independientes  de desarrollo y operaciones, en cambio, tienen un único equipo llamado No-Ops, que comparte  ambos  roles  y  responsabilidades. #space
+	- Algunas  organizaciones  (como  Netflix)  no  tienen  equipos  independientes  de desarrollo y operaciones, en cambio, tienen un único equipo llamado No-Ops, que comparte  ambos  roles  y  responsabilidades. #ñspace
 		- (Page 8)
 	- -
 	- -
@@ -43,7 +43,7 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	-   Herramientas  software.  Por  otro  lado,  cuando  hablamos  de  herramientas software  nos  referimos  a  aplicaciones  específicas  que  pueden  habilitar  nuevos canales de comunicación y colaboración dentro de la organización. Si bien hay que destacar que las herramientas de software son solo herramientas y no podemos esperar  una  mejora  sustancial  en  la  productividad  solo  por  el  mero  hecho  de usarlas, sí es cierto que son aceleradores o, incluso en algunos casos, catalizadores de  la  actividad  y  del  cambio.  Si  bien  nos  referimos  a  estas  herramientas  como herramientas de colaboración, estas se centran en facilitar la comunicación y el intercambio de información. #space
+	-   Herramientas  software.  Por  otro  lado,  cuando  hablamos  de  herramientas software  nos  referimos  a  aplicaciones  específicas  que  pueden  habilitar  nuevos canales de comunicación y colaboración dentro de la organización. Si bien hay que destacar que las herramientas de software son solo herramientas y no podemos esperar  una  mejora  sustancial  en  la  productividad  solo  por  el  mero  hecho  de usarlas, sí es cierto que son aceleradores o, incluso en algunos casos, catalizadores de  la  actividad  y  del  cambio.  Si  bien  nos  referimos  a  estas  herramientas  como herramientas de colaboración, estas se centran en facilitar la comunicación y el intercambio de información. #ñspace
 		- (Page 11)
 	- -
 	- -

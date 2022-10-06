@@ -10,37 +10,37 @@ tags:: #[[Science]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- Lecture 1: The Nature of Classical Physics
 		- -
-		- Classical physics includes Newton’s equations for the motion of particles, the Maxwell-Faraday theory of electromagnetic fields, and Einstein’s general theory of relativity. #space
+		- Classical physics includes Newton’s equations for the motion of particles, the Maxwell-Faraday theory of electromagnetic fields, and Einstein’s general theory of relativity. #ñspace
 			- ([Location 232](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=232))
 		- -
 		- -
-		- The job of classical mechanics is to predict the future. #space
+		- The job of classical mechanics is to predict the future. #ñspace
 			- ([Location 235](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=235))
 		- -
 		- -
-		- In classical physics, if you know everything about a system at some instant of time, and you also know the equations that govern how the system changes, then you can predict the future. That’s what we mean when we say that the classical laws of physics are deterministic. If we can say the same thing, but with the past and future reversed, then the same equations tell you everything about the past. Such a system is called reversible. #space
+		- In classical physics, if you know everything about a system at some instant of time, and you also know the equations that govern how the system changes, then you can predict the future. That’s what we mean when we say that the classical laws of physics are deterministic. If we can say the same thing, but with the past and future reversed, then the same equations tell you everything about the past. Such a system is called reversible. #ñspace
 			- ([Location 241](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=241))
 		- -
 		- SIMPLE DYNAMICAL SYSTEMS AND THE SPACE OF STATES
 			- -
-			- A system that changes with time is called a dynamical system. A dynamical system consists of more than a space of states. It also entails a law of motion, or dynamical law. The dynamical law is a rule that tells us the next state given the current state. #space
+			- A system that changes with time is called a dynamical system. A dynamical system consists of more than a space of states. It also entails a law of motion, or dynamical law. The dynamical law is a rule that tells us the next state given the current state. #ñspace
 				- ([Location 262](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=262))
 			- -
 			- -
-			- The variables describing a system are called its degrees of freedom. Our coin has one degree of freedom, which we can denote by the greek letter sigma, . #space
+			- The variables describing a system are called its degrees of freedom. Our coin has one degree of freedom, which we can denote by the greek letter sigma, . #ñspace
 				- ([Location 274](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=274))
 			- -
 			- -
-			- Because in each case the future behavior is completely determined by the initial state, such laws are deterministic. All the basic laws of classical mechanics are deterministic. #space
+			- Because in each case the future behavior is completely determined by the initial state, such laws are deterministic. All the basic laws of classical mechanics are deterministic. #ñspace
 				- ([Location 284](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=284))
 			- -
 			- -
-			- Nevertheless, this law is completely deterministic. Wherever you start, the future is determined. For example, if you start at 2, the history will be 2, 6, 1, 2, 6, 1, … #space
+			- Nevertheless, this law is completely deterministic. Wherever you start, the future is determined. For example, if you start at 2, the history will be 2, 6, 1, 2, 6, 1, … #ñspace
 				- ([Location 297](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=297))
 			- -
 		- RULES THAT ARE NOT ALLOWED: THE MINUS-FIRST LAW
 			- -
-			- According to the rules of classical physics, not all laws are legal. It’s not enough for a dynamical law to be deterministic; it must also be reversible. #space
+			- According to the rules of classical physics, not all laws are legal. It’s not enough for a dynamical law to be deterministic; it must also be reversible. #ñspace
 				- ([Location 308](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=308))
 			- -
 			- -
@@ -49,15 +49,15 @@ tags:: #[[Science]]
 				- ([Location 309](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=309))
 			- -
 			- -
-			- There is a very simple rule to tell when a diagram represents a deterministic reversible law. If every state has a single unique arrow leading into it, and a single arrow leading out of it, then it is a legal deterministic reversible law. #space
+			- There is a very simple rule to tell when a diagram represents a deterministic reversible law. If every state has a single unique arrow leading into it, and a single arrow leading out of it, then it is a legal deterministic reversible law. #ñspace
 				- ([Location 322](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=322))
 			- -
 			- -
-			- There must be one arrow to tell you where you’re going and one to tell you where you came from. #space
+			- There must be one arrow to tell you where you’re going and one to tell you where you came from. #ñspace
 				- ([Location 323](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=323))
 			- -
 			- -
-			- We could call it the first law, but unfortunately there are already two first laws—Newton’s and the first law of thermodynamics. #space
+			- We could call it the first law, but unfortunately there are already two first laws—Newton’s and the first law of thermodynamics. #ñspace
 				- ([Location 326](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=326))
 			- -
 			- -
@@ -66,19 +66,19 @@ tags:: #[[Science]]
 				- ([Location 328](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=328))
 			- -
 			- -
-			- Whenever a dynamical law divides the state-space into such separate cycles, there is a memory of which cycle they started in. Such a memory is called a conservation law; it tells us that something is kept intact for all time. #space
+			- Whenever a dynamical law divides the state-space into such separate cycles, there is a memory of which cycle they started in. Such a memory is called a conservation law; it tells us that something is kept intact for all time. #ñspace
 				- ([Location 361](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=361))
 			- -
 			- -
-			- But there is another element that he may have underestimated: the ability to know the initial conditions with almost perfect precision. #space
+			- But there is another element that he may have underestimated: the ability to know the initial conditions with almost perfect precision. #ñspace
 				- ([Location 372](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=372))
 			- -
 			- -
-			- In principle we cannot know the initial conditions with infinite precision. In most cases the tiniest differences in the initial conditions—the starting state—leads to large eventual differences in outcomes. This phenomenon is called chaos. #space
+			- In principle we cannot know the initial conditions with infinite precision. In most cases the tiniest differences in the initial conditions—the starting state—leads to large eventual differences in outcomes. This phenomenon is called chaos. #ñspace
 				- ([Location 380](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=380))
 			- -
 			- -
-			- If a system is chaotic (most are), then it implies that however good the resolving power may be, the time over which the system is predictable is limited. Perfect predictability is not achievable, simply because we are limited in our resolving power. #space
+			- If a system is chaotic (most are), then it implies that however good the resolving power may be, the time over which the system is predictable is limited. Perfect predictability is not achievable, simply because we are limited in our resolving power. #ñspace
 				- ([Location 382](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=382))
 			- -
 			- -
@@ -94,30 +94,30 @@ tags:: #[[Science]]
 				- #[[learn]]
 			- -
 			- -
-			- Vectors can also be described in component form. We begin with three perpendicular axes x, y, z. Next, we define three unit vectors that lie along these axes and have unit length. The unit vectors along the coordinate axes are called basis vectors. The three basis vectors for Cartesian coordinates are traditionally called , , and #space
+			- Vectors can also be described in component form. We begin with three perpendicular axes x, y, z. Next, we define three unit vectors that lie along these axes and have unit length. The unit vectors along the coordinate axes are called basis vectors. The three basis vectors for Cartesian coordinates are traditionally called , , and #ñspace
 				- ([Location 481](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=481))
 			- -
 			- -
-			- Here is the angle between the vectors. In ordinary language, the dot product is the product of the magnitudes of the two vectors and the cosine of the angle between them. #space
+			- Here is the angle between the vectors. In ordinary language, the dot product is the product of the magnitudes of the two vectors and the cosine of the angle between them. #ñspace
 				- ([Location 505](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=505))
 			- -
 			- -
-			- An important property of the dot product is that it is zero if the vectors are orthogonal (perpendicular). #space
+			- An important property of the dot product is that it is zero if the vectors are orthogonal (perpendicular). #ñspace
 				- ([Location 515](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=515))
 			- -
 			- -
-			- To cope, mathematically, with continuous changes, we use the mathematics of calculus. Calculus is about limits, #space
+			- To cope, mathematically, with continuous changes, we use the mathematics of calculus. Calculus is about limits, #ñspace
 				- ([Location 527](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=527))
 			- -
 			- -
-			- The concept of a point particle is an idealization. No object is so small that it is a point—not even an electron. But in many situations we can ignore the extended structure of objects and treat them as points. For example, the planet Earth is obviously not a point, but in calculating its orbit around the Sun, we can ignore the size of Earth to a high degree of accuracy. #space
+			- The concept of a point particle is an idealization. No object is so small that it is a point—not even an electron. But in many situations we can ignore the extended structure of objects and treat them as points. For example, the planet Earth is obviously not a point, but in calculating its orbit around the Sun, we can ignore the size of Earth to a high degree of accuracy. #ñspace
 				- ([Location 619](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=619))
 			- -
 			- -
-			- “George, I really like doing things backward. Can we do differentiation backward?” “Sure we can, Lenny. It’s called integration.” #space
+			- “George, I really like doing things backward. Can we do differentiation backward?” “Sure we can, Lenny. It’s called integration.” #ñspace
 				- ([Location 712](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=712))
 			- -
 			- -
-			- The function F(T) is called the indefinite integral of f(t). It is indefinite because instead of integrating from a fixed value to a fixed value, we integrate to a variable. #space
+			- The function F(T) is called the indefinite integral of f(t). It is indefinite because instead of integrating from a fixed value to a fixed value, we integrate to a variable. #ñspace
 				- ([Location 744](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=744))
 			- -

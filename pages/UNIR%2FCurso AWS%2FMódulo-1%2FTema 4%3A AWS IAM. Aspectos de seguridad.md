@@ -4,7 +4,7 @@ tags:: UNIR, AWS
 - #tags #UNI #AWS #Tema-1
 -
 - ## Modelo de responsabilidad compartida de AWS
-	- ### Modelo de responsabilidad compartida de AWS
+	- ### Modelo de responsabilidad compartida de AWS #spaced
 		- ![image.png](../assets/image_1665044543811_0.png)
 		- Tanto el cliente como AWS tenemos (diferentes) responsabilidades
 		- Como clientes, somos responsables de lo que ocurre dentro de la nube. Es decir, de que nuestras aplicaciones funcionen, de nuestros datos de clientes, de aplicaciones, de las identidades, accesos, configurar parches si tenemos máquinas virtuales, de la red, cortafuegos, etc.
@@ -34,32 +34,33 @@ tags:: UNIR, AWS
 -
 - ## AWS Identity and Access Management (IAM)
 	- Es un servicio gratuito que nos permite gestionar el acceso a los recurso de AWS.
-	- ### Recursos en AWS
-		- Un recurso es una entidad en una cuenta de AWS con la que se puede trabajar.
-			- Por ejemplo, una instancia de EC2, un bucket de S3 o una lambda.
-			- Podemos, así, controlar quién lanza instancias de EC2. A través de derechos de acceso, que definen **quién** puede acceder a los recursos, a **cuáles** recursos y **cómo**.
-	- ### Usuarios en IAM
-		- Un usuario es una persona, o aplicación que está dentro de una cuenta y que puede interactuar con la cuenta
-	- ### Políticas en IAM
-		- Una política de IAM es un documento que define permisos para determinar lo que los usuarios pueden hacer en la cuenta de AWS.
-	- ### Roles en IAM
-		- Un rol es un mecanismo para dar, de forma temporal, acceso a recursos de AWS específicos.
-	- ### Autenticación como usuario de IAM
-		- #### Acceso mediante programación
-			- ID de clave de acceso
-			- Clave de acceso secreta
-			- Proporciona acceso a la CLI de AWS y al SDK de AWS
-		- #### Acceso a la consola de administración de AWS
-			- ID de cuenta o alias de 12 dígitos
-			- Nombre de usuario de IAM
-			- Contraseña de IAM
-			- Si está habilitada, MFA solicita un código de autenticación
+	- ### Recursos, usuarios, políticas, roles, autenticación y autorización en AWS #spaced
+		- ### Recursos en AWS
+			- Un recurso es una entidad en una cuenta de AWS con la que se puede trabajar.
+				- Por ejemplo, una instancia de EC2, un bucket de S3 o una lambda.
+				- Podemos, así, controlar quién lanza instancias de EC2. A través de derechos de acceso, que definen **quién** puede acceder a los recursos, a **cuáles** recursos y **cómo**.
+		- ### Usuarios en IAM
+			- Un usuario es una persona, o aplicación que está dentro de una cuenta y que puede interactuar con la cuenta
+		- ### Políticas en IAM
+			- Una política de IAM es un documento que define permisos para determinar lo que los usuarios pueden hacer en la cuenta de AWS.
+		- ### Roles en IAM
+			- Un rol es un mecanismo para dar, de forma temporal, acceso a recursos de AWS específicos.
+		- ### Autenticación como usuario de IAM
+			- #### Acceso mediante programación
+				- ID de clave de acceso
+				- Clave de acceso secreta
+				- Proporciona acceso a la CLI de AWS y al SDK de AWS
+			- #### Acceso a la consola de administración de AWS
+				- ID de cuenta o alias de 12 dígitos
+				- Nombre de usuario de IAM
+				- Contraseña de IAM
+				- Si está habilitada, MFA solicita un código de autenticación
 	-
-	- ### IAM: Autorización
-		- Se usa IAM para asignar permisos y determinar qué recursos y operaciones están permitidos.
-		- Por defecto, los permisos están todos denegados de forma implícita.
-		-
-	- ### Políticas de IAM
+		- ### IAM: Autorización
+			- Se usa IAM para asignar permisos y determinar qué recursos y operaciones están permitidos.
+			- Por defecto, los permisos están todos denegados de forma implícita.
+			-
+	- ### Políticas de IAM #spaced
 		- Es un documento en JSON que define permisos de control de acceso.
 		- Hay dos tipos de políticas:
 			- **Basadas en identidad:**
@@ -67,7 +68,7 @@ tags:: UNIR, AWS
 			- **Basadas en recursos:**
 				- Asociadas a recursos (como un bucket de S3).
 		-
-	- ### Roles de IAM
+	- ### Roles de IAM #spaced
 		- Un rol de IAM es una identidad de IAM con permisos específicos.
 		- Es similar a un usuario en IAM.
 			- Asocia políticas de permisos a él.
@@ -77,7 +78,7 @@ tags:: UNIR, AWS
 		- El rol proporciona credenciales de seguridad temporales
 -
 -
-- ## Protección de cuentas y datos
+- ## Protección de cuentas y datos #spaced
 	- ### Prácticas recomendadas para proteger una cuenta
 		- Eliminar las claves de acceso de usuario raíz de la cuenta
 		- Crear un usuario IAM para nosotros mismos y eliminar las claves SDK y clave secreta de la cuenta.

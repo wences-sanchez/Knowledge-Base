@@ -19,11 +19,11 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 		- (Page 13)
 	- -
 	- -
-	- Un nodo se puede representar en Test Kitchen con cualquier tipo de virtualización, a través de plugins denominados drivers. En la mayoría de los casos se suele utilizar Vagrant,  pero  hay  diferentes  alternativas  tales  como  Docker  o  cualquiera  de  los muchos  proveedores  de  nube  soportados,  como  Amazon  Web  Services  o DigitalOcean. #space
+	- Un nodo se puede representar en Test Kitchen con cualquier tipo de virtualización, a través de plugins denominados drivers. En la mayoría de los casos se suele utilizar Vagrant,  pero  hay  diferentes  alternativas  tales  como  Docker  o  cualquiera  de  los muchos  proveedores  de  nube  soportados,  como  Amazon  Web  Services  o DigitalOcean. #ñspace
 		- (Page 18)
 	- -
 	- -
-	- require'spec_helper' if os[:family] == 'ubuntu' describe package('vim') do it {should be_installed} end #space
+	- require'spec_helper' if os[:family] == 'ubuntu' describe package('vim') do it {should be_installed} end #ñspace
 		- (Page 26)
 	- -
 	- -

@@ -9,7 +9,7 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/50d89736-fc6a-4337-8796-0580fbe7322a.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Un producto entregable, aunque sea solo de una parte de la funcionalidad, aporta más  valor  que  ningún  producto  y  mucha  documentación.  Por  ejemplo,  un producto mínimo tangible puede generar un retorno de inversión mayor que los simples documentos descriptivos. #space
+	- Un producto entregable, aunque sea solo de una parte de la funcionalidad, aporta más  valor  que  ningún  producto  y  mucha  documentación.  Por  ejemplo,  un producto mínimo tangible puede generar un retorno de inversión mayor que los simples documentos descriptivos. #ñspace
 		- (Page 6)
 	- -
 	- -
@@ -45,7 +45,7 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 21)
 	- -
 	- -
-	- Kanban se puede considerar tanto metodología como  herramienta.  Utiliza  un  desarrollo  incremental,  con  historias  de  usuario, tareas, etc., y hace uso de un tablero visual o panel, el tablero Kanban (Kanbantool, El tablero  Kanban  (ver  Figura  5), permite  a  los miembros del  equipo  de  desarrollo tener una imagen completa del estado de la implementación del proyecto, pues en el tablero se mueven las tareas (normalmente post-it simulando las tarjetas) que se deben llevar a cabo en una iteración de un proyecto o de un ciclo temporal de un servicio.  Básicamente,  se  incluyen  tareas  que  hay  que  hacer,  tareas  que  están pendientes,  tareas  que se  están  realizando  y  tareas  que  han terminado.  Algunas veces, también se añade el estado de ánimo de los miembros del equipo de desarrollo (incluso usando emoticonos). 2021). #space
+	- Kanban se puede considerar tanto metodología como  herramienta.  Utiliza  un  desarrollo  incremental,  con  historias  de  usuario, tareas, etc., y hace uso de un tablero visual o panel, el tablero Kanban (Kanbantool, El tablero  Kanban  (ver  Figura  5), permite  a  los miembros del  equipo  de  desarrollo tener una imagen completa del estado de la implementación del proyecto, pues en el tablero se mueven las tareas (normalmente post-it simulando las tarjetas) que se deben llevar a cabo en una iteración de un proyecto o de un ciclo temporal de un servicio.  Básicamente,  se  incluyen  tareas  que  hay  que  hacer,  tareas  que  están pendientes,  tareas  que se  están  realizando  y  tareas  que  han terminado.  Algunas veces, también se añade el estado de ánimo de los miembros del equipo de desarrollo (incluso usando emoticonos). 2021). #ñspace
 		- (Page 22)
 	- -
 	- -

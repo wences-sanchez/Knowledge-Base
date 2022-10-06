@@ -39,7 +39,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	- El Controller Manager es el componente que ejecuta varios procesos controladores encargados de mantener el estado deseado en el clúster de Kubernetes. Mediante llamadas  al  API  server  se  obtendrá  el  estado  deseado  en  cada  momento  y  tras comprobar el estado actual de los nodos, se realizarán las acciones necesarias en caso de haber diferencias. #space
+	- El Controller Manager es el componente que ejecuta varios procesos controladores encargados de mantener el estado deseado en el clúster de Kubernetes. Mediante llamadas  al  API  server  se  obtendrá  el  estado  deseado  en  cada  momento  y  tras comprobar el estado actual de los nodos, se realizarán las acciones necesarias en caso de haber diferencias. #ñspace
 		- (Page 10)
 	- -
 	- -
@@ -114,7 +114,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 16)
 	- -
 	- -
-	- En otras palabras, se encargará de crear un  nuevo Pod en caso de que uno de los Pods en ejecución muera o se detenga por algún motivo. #space
+	- En otras palabras, se encargará de crear un  nuevo Pod en caso de que uno de los Pods en ejecución muera o se detenga por algún motivo. #ñspace
 		- (Page 17)
 	- -
 	- -

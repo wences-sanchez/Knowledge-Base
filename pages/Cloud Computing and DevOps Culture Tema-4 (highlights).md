@@ -9,35 +9,35 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/7920e700-e162-459f-8d31-fec96d5fb474.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Existen tres tipos principales de virtualización de servidores que son: virtualización del sistema operativo (tecnología que se conoce bajo el nombre de Contenedores), imitación  o  emulación  del  hardware  y  paravirtualización. #space
+	- Existen tres tipos principales de virtualización de servidores que son: virtualización del sistema operativo (tecnología que se conoce bajo el nombre de Contenedores), imitación  o  emulación  del  hardware  y  paravirtualización. #ñspace
 		- (Page 4)
 	- -
 	- -
-	- Imitación o emulación del hardware En  este  caso,  el  software  de  virtualización  (denominado  hipervisor)  crea  una máquina virtual que imita todo el entorno de hardware.El sistema operativo,que está cargadoen una máquina virtual,es un producto estándar no modificado. Cuando realiza  llamadas  para  recursos del  sistema,  el  software  de  emulación de  hardware captura la llamada del sistema y la redirige para que pueda gestionar estructuras de datos  proporcionadas  por  el  hipervisor.  Es  el  propio  hipervisor  el  que  realiza  las llamadas al hardware físico real, subyacente a toda la aglomeración de software. #space
+	- Imitación o emulación del hardware En  este  caso,  el  software  de  virtualización  (denominado  hipervisor)  crea  una máquina virtual que imita todo el entorno de hardware.El sistema operativo,que está cargadoen una máquina virtual,es un producto estándar no modificado. Cuando realiza  llamadas  para  recursos del  sistema,  el  software  de  emulación de  hardware captura la llamada del sistema y la redirige para que pueda gestionar estructuras de datos  proporcionadas  por  el  hipervisor.  Es  el  propio  hipervisor  el  que  realiza  las llamadas al hardware físico real, subyacente a toda la aglomeración de software. #ñspace
 		- (Page 5)
 	- -
 	- -
-	- La emulación o imitación de hardware también es conocida como virtualización de metal desnudo (del inglés bare metal virtualization), para simbolizar el hecho de que ningún  software  se  encuentra  entre  hipervisor  y  el  «metal»del  servidor.  Como hemos  mencionado,  el  hipervisor  intercepta  las  llamadas  del  sistema  desde  la máquina virtual huésped y coordina el acceso al hardware subyacente directamente. I ) R N U i j (  a o R a L  e d   l a n o i c a n r e t n I  d a d i s r e v i n U © #space
+	- La emulación o imitación de hardware también es conocida como virtualización de metal desnudo (del inglés bare metal virtualization), para simbolizar el hecho de que ningún  software  se  encuentra  entre  hipervisor  y  el  «metal»del  servidor.  Como hemos  mencionado,  el  hipervisor  intercepta  las  llamadas  del  sistema  desde  la máquina virtual huésped y coordina el acceso al hardware subyacente directamente. I ) R N U i j (  a o R a L  e d   l a n o i c a n r e t n I  d a d i s r e v i n U © #ñspace
 		- (Page 5)
 	- -
 	- -
-	- La paravirtualización no intenta emular un entorno de hardware en software, sino que  un  hipervisor  de  paravirtualización  coordina  (o  multiplexa)  el  acceso  a  los recursos  de  hardware  subyacentes  del  servidor. #space
+	- La paravirtualización no intenta emular un entorno de hardware en software, sino que  un  hipervisor  de  paravirtualización  coordina  (o  multiplexa)  el  acceso  a  los recursos  de  hardware  subyacentes  del  servidor. #ñspace
 		- (Page 6)
 	- -
 	- -
-	- En la paravirtualización, el hipervisor reside en el hardware y, por lo tanto, esta se puede concebir como una arquitectura de virtualización de metal desnudo.Uno o más sistemas operativos huésped (equivalente a máquinas virtuales en virtualización de emulación del hardware) se ejecutan sobre el hipervisor. Un huésped privilegiado se ejecuta como una máquina virtualhuésped,pero tiene privilegios que le permiten acceder directamente a ciertos recursos en el hardware subyacente #space
+	- En la paravirtualización, el hipervisor reside en el hardware y, por lo tanto, esta se puede concebir como una arquitectura de virtualización de metal desnudo.Uno o más sistemas operativos huésped (equivalente a máquinas virtuales en virtualización de emulación del hardware) se ejecutan sobre el hipervisor. Un huésped privilegiado se ejecuta como una máquina virtualhuésped,pero tiene privilegios que le permiten acceder directamente a ciertos recursos en el hardware subyacente #ñspace
 		- (Page 6)
 	- -
 	- -
-	- VMware,  Citrix  y  Microsoft  son  los  principales  proveedores  de  virtualización  de servidores  x86  en  entornos  profesionales #space
+	- VMware,  Citrix  y  Microsoft  son  los  principales  proveedores  de  virtualización  de servidores  x86  en  entornos  profesionales #ñspace
 		- (Page 7)
 	- -
 	- -
-	-   VMware:  es  el  proveedor  de  virtualización  de  servidores  más  extendido  y afianzado  en  el  mercado.  La  plataforma  insignia  de  VMware,  vSphere, utiliza  la tecnología de emulación de hardware.   Citrix:  ofrece  un  producto  de  virtualización  de  servidor,  llamado  XenServer, basado en paravirtualización. El huésped privilegiado (llamado control domain en lenguaje  Xen)  y  el  hipervisor  Xen  trabajan  en  equipo  para  permitir  que  las máquinas virtuales huésped interactúen con el hardware subyacente.   Microsoft: Hyper-V, el producto de virtualización del servidor de Microsoft, tiene una  arquitectura  muy  similar  a  la  de  Xen.  En  lugar  de  usar  el  término  control domain para referirse a las máquinas virtuales huésped, Hyper-V se refiere a ellas como  particiones  y  a  la  contraparte  del  control  domain  de  Xen  se  la  denomina partición principal. #space
+	-   VMware:  es  el  proveedor  de  virtualización  de  servidores  más  extendido  y afianzado  en  el  mercado.  La  plataforma  insignia  de  VMware,  vSphere, utiliza  la tecnología de emulación de hardware.   Citrix:  ofrece  un  producto  de  virtualización  de  servidor,  llamado  XenServer, basado en paravirtualización. El huésped privilegiado (llamado control domain en lenguaje  Xen)  y  el  hipervisor  Xen  trabajan  en  equipo  para  permitir  que  las máquinas virtuales huésped interactúen con el hardware subyacente.   Microsoft: Hyper-V, el producto de virtualización del servidor de Microsoft, tiene una  arquitectura  muy  similar  a  la  de  Xen.  En  lugar  de  usar  el  término  control domain para referirse a las máquinas virtuales huésped, Hyper-V se refiere a ellas como  particiones  y  a  la  contraparte  del  control  domain  de  Xen  se  la  denomina partición principal. #ñspace
 		- (Page 7)
 	- -
 	- -
-	- Una  definición  sencilla  de  hipervisor  podría  ser:  la  parte  de  la  nube  privada  que gestiona  las  máquinas  virtuales,  es  decir,  es  la  parte  (programa)  que  permite  que múltiples  sistemas  operativos  compartan  el  mismo  hardware.  Cada  sistema operativo podría usar todo el hardware (procesador, memoria) si no hay otro sistema operativo  encendido.  Ese  es  el  hardware  máximo  disponible  para  un  sistema operativo en la nube. Sin embargo, el hipervisor es lo que controla y asigna qué parte de los recursos de hardware debe obtener cada sistema operativo, para que cada uno  obtenga  lo  que  necesita  y  no  se  interrumpa  entre  sí #space
+	- Una  definición  sencilla  de  hipervisor  podría  ser:  la  parte  de  la  nube  privada  que gestiona  las  máquinas  virtuales,  es  decir,  es  la  parte  (programa)  que  permite  que múltiples  sistemas  operativos  compartan  el  mismo  hardware.  Cada  sistema operativo podría usar todo el hardware (procesador, memoria) si no hay otro sistema operativo  encendido.  Ese  es  el  hardware  máximo  disponible  para  un  sistema operativo en la nube. Sin embargo, el hipervisor es lo que controla y asigna qué parte de los recursos de hardware debe obtener cada sistema operativo, para que cada uno  obtenga  lo  que  necesita  y  no  se  interrumpa  entre  sí #ñspace
 		- (Page 7)
 	- -
 	- -
@@ -46,7 +46,7 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	-   Hipervisor tipo 2. Los hipervisores se ejecutan en un sistema operativo host que proporciona  servicios  de  virtualización,  como  soporte  de  dispositivos  de  E/S  y administración de memoria. #space
+	-   Hipervisor tipo 2. Los hipervisores se ejecutan en un sistema operativo host que proporciona  servicios  de  virtualización,  como  soporte  de  dispositivos  de  E/S  y administración de memoria. #ñspace
 		- (Page 8)
 	- -
 	- -
@@ -70,7 +70,7 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	- -V. La máquina virtual basada en el kernel (en siglas, KVM) de Red Hattiene cualidades tanto  de  un  hipervisor  de  virtualización  alojado  como  virtual.  Puede  convertir  el núcleo  de  Linux  en  un  hipervisor  para  que  las  máquinas  virtuales  tengan  acceso directo al hardware físico #space
+	- -V. La máquina virtual basada en el kernel (en siglas, KVM) de Red Hattiene cualidades tanto  de  un  hipervisor  de  virtualización  alojado  como  virtual.  Puede  convertir  el núcleo  de  Linux  en  un  hipervisor  para  que  las  máquinas  virtuales  tengan  acceso directo al hardware físico #ñspace
 		- (Page 10)
 	- -
 	- -
@@ -94,15 +94,15 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 13)
 	- -
 	- -
-	- Como  es  de  esperar,  la  virtualización  también  se  ha trasladado a la red y, en lugar de realizar cambios en la red moviendo cables entre diferentes  recursos  físicos,  la  tecnología  de  virtualización  se  aplica  a  la  red  en  sí misma. lógicamente. La virtualización de red permite que la red se configure sobre la marcha, sin necesidad de tocar ni un solo cable o dispositivo. Por tanto, los dispositivos de red con capacidad de  virtualización  se  administran  de  forma  remota  y  se  pueden  reconfigurar #space
+	- Como  es  de  esperar,  la  virtualización  también  se  ha trasladado a la red y, en lugar de realizar cambios en la red moviendo cables entre diferentes  recursos  físicos,  la  tecnología  de  virtualización  se  aplica  a  la  red  en  sí misma. lógicamente. La virtualización de red permite que la red se configure sobre la marcha, sin necesidad de tocar ni un solo cable o dispositivo. Por tanto, los dispositivos de red con capacidad de  virtualización  se  administran  de  forma  remota  y  se  pueden  reconfigurar #ñspace
 		- (Page 14)
 	- -
 	- -
-	- La virtualización de aplicaciones es una separación de la ejecución del programa y de la visualización de este.En otras palabras, un programa como Microsoft Word se ejecuta en un servidor ubicado en el centro de datos, pero la salida gráfica se envía a un  dispositivo  cliente  remoto.  El  usuario  final  ve  la  pantalla  gráfica  completa  del programa y puede interactuar con él a través del teclado y el ratón. #space
+	- La virtualización de aplicaciones es una separación de la ejecución del programa y de la visualización de este.En otras palabras, un programa como Microsoft Word se ejecuta en un servidor ubicado en el centro de datos, pero la salida gráfica se envía a un  dispositivo  cliente  remoto.  El  usuario  final  ve  la  pantalla  gráfica  completa  del programa y puede interactuar con él a través del teclado y el ratón. #ñspace
 		- (Page 15)
 	- -
 	- -
-	- qué sucede con nuestra aplicación favorita que ejecutamos a diario en nuestro ordenador. ¿Desaparecería con la virtualización de escritorio? La respuesta es no. Los datos y configuraciones se pueden guardar por separado y se aplican a la imagen clonada, para garantizar que cada usuario tenga sus aplicaciones y datos listos para cuando abra su escritorio. #space
+	- qué sucede con nuestra aplicación favorita que ejecutamos a diario en nuestro ordenador. ¿Desaparecería con la virtualización de escritorio? La respuesta es no. Los datos y configuraciones se pueden guardar por separado y se aplican a la imagen clonada, para garantizar que cada usuario tenga sus aplicaciones y datos listos para cuando abra su escritorio. #ñspace
 		- (Page 16)
 	- -
 	- -
@@ -111,6 +111,6 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- Esta  forma  de  entrada  y  salida  de  virtualización  cliente  está  comenzando  a explorarse, pero es muy prometedora para los entornos donde la disponibilidad de conectividad de red de alta velocidad es incierta. Por ejemplo, cuando alguien trabaja de  forma  remota  desde  casa,  puede  que  no  esté  claro  si  su  conexión  es  lo suficientemente  sólida  como  para  permitir  la  virtualización  de  aplicaciones  o  la virtualización  de  escritorio  tradicional.  En  estos  casos,  una  única  descarga  del escritorio a un dispositivo cliente puede ser una buena opción. #space
+	- Esta  forma  de  entrada  y  salida  de  virtualización  cliente  está  comenzando  a explorarse, pero es muy prometedora para los entornos donde la disponibilidad de conectividad de red de alta velocidad es incierta. Por ejemplo, cuando alguien trabaja de  forma  remota  desde  casa,  puede  que  no  esté  claro  si  su  conexión  es  lo suficientemente  sólida  como  para  permitir  la  virtualización  de  aplicaciones  o  la virtualización  de  escritorio  tradicional.  En  estos  casos,  una  única  descarga  del escritorio a un dispositivo cliente puede ser una buena opción. #ñspace
 		- (Page 17)
 	- -

@@ -46,10 +46,10 @@ tags:: #[[O'Reilly-Learning]]
 			  returns true if the string is empty or consists of whitespace.
 		- -
 		- -
-		- String trim() #space
+		- String trim() #ñspace
 		- -
 		- -
-		- String strip() #space
+		- String strip() #ñspace
 		- -
 		- -
 		- What does String::repeat do? #card
@@ -90,7 +90,7 @@ tags:: #[[O'Reilly-Learning]]
 			- System.out.printf("%,.2f", 10000.0 / 3.0);
 		- -
 		- -
-		- case SMALL: // no need to use Size.SMALL #space
+		- case SMALL: // no need to use Size.SMALL #ñspace
 		- -
 		- -
 		- [CODE] Clone an array #card

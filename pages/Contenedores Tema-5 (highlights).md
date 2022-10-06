@@ -9,15 +9,15 @@ tags:: #[[Contenedores]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/8184ee50-30f0-4aad-9d8a-0a568bff6963.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Las  versiones  actuales  de  Docker  ofrecen  un  orquestador  integrado  en  el  propio engine llamado «modo enjambre» o «modo Swarm» para permitir una configuración distribuida. Sin embargo, antes de la versión 1.12 de Docker se utilizaba un modelo independiente denominado «Docker Swarm». #space
+	- Las  versiones  actuales  de  Docker  ofrecen  un  orquestador  integrado  en  el  propio engine llamado «modo enjambre» o «modo Swarm» para permitir una configuración distribuida. Sin embargo, antes de la versión 1.12 de Docker se utilizaba un modelo independiente denominado «Docker Swarm». #ñspace
 		- (Page 5)
 	- -
 	- -
-	- La ejecución de Docker en modo Swarm no impide que se ejecuten contenedores de manera independiente, como hemos visto en temas anteriores, en cualquiera de los nodos  del  clúster.  La  principal diferencia entre  contenedores  independientes  y  los servicios  de  Swarm  es  que  solo  los  mánagers  de  Swarm  pueden  gestionar  estos servicios,  mientras  que  los  contenedores  independientes  se  pueden  iniciar  en cualquier host. #space
+	- La ejecución de Docker en modo Swarm no impide que se ejecuten contenedores de manera independiente, como hemos visto en temas anteriores, en cualquiera de los nodos  del  clúster.  La  principal diferencia entre  contenedores  independientes  y  los servicios  de  Swarm  es  que  solo  los  mánagers  de  Swarm  pueden  gestionar  estos servicios,  mientras  que  los  contenedores  independientes  se  pueden  iniciar  en cualquier host. #ñspace
 		- (Page 6)
 	- -
 	- -
-	- Las principales características que ofrece el modo Swarm son:   Administración de clústeres integrada en Docker Engine.   Diseño descentralizado.   Modelo de servicio declarativo. #space
+	- Las principales características que ofrece el modo Swarm son:   Administración de clústeres integrada en Docker Engine.   Diseño descentralizado.   Modelo de servicio declarativo. #ñspace
 		- (Page 6)
 	- -
 	- -
@@ -26,7 +26,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- Un nodo será cualquier máquina, ya sea física o en la nube, con el motor de Docker que forma parte de un clúster de Swarm. Tenemos dos tipos de nodos:   Mánagers:  serán  los  encargados  de  desplegar  las  aplicaciones  en  el  clúster enviando tareas a los nodos de tipo worker.   Workers:  ejecutan  las  tareas  recibidas  por  los  nodos  mánagers.  Además, notificarán periódicamente el estado de estas. #space
+	- Un nodo será cualquier máquina, ya sea física o en la nube, con el motor de Docker que forma parte de un clúster de Swarm. Tenemos dos tipos de nodos:   Mánagers:  serán  los  encargados  de  desplegar  las  aplicaciones  en  el  clúster enviando tareas a los nodos de tipo worker.   Workers:  ejecutan  las  tareas  recibidas  por  los  nodos  mánagers.  Además, notificarán periódicamente el estado de estas. #ñspace
 		- (Page 7)
 	- -
 	- -
@@ -40,7 +40,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- Para evitar que se planifiquen tareas para los nodos mánagers podemos ponerlos en modo drenaje (drain). Si ya tenía tareas asignadas se planificarán de nuevo en otros nodos. #space
+	- Para evitar que se planifiquen tareas para los nodos mánagers podemos ponerlos en modo drenaje (drain). Si ya tenía tareas asignadas se planificarán de nuevo en otros nodos. #ñspace
 		- (Page 8)
 	- -
 	- -
@@ -49,11 +49,11 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- Los  clústeres  Swarm  utilizan  TLS  para  autenticar,  autorizar  y  encriptar  las comunicaciones  entre  los  nodos.  Cuando  inicializamos  el  clúster  el nodo  inicial  se convierte en mánager y en él se crearán una autoridad certificadora raíz (CA) junto con un par de claves que servirán para establecer una comunicación segura con el resto de los nodos que se añadan al clúster. #space
+	- Los  clústeres  Swarm  utilizan  TLS  para  autenticar,  autorizar  y  encriptar  las comunicaciones  entre  los  nodos.  Cuando  inicializamos  el  clúster  el nodo  inicial  se convierte en mánager y en él se crearán una autoridad certificadora raíz (CA) junto con un par de claves que servirán para establecer una comunicación segura con el resto de los nodos que se añadan al clúster. #ñspace
 		- (Page 11)
 	- -
 	- -
-	- Tabla 1. Comandos para la gestión de servicios. Fuente: elaboración propia. #space
+	- Tabla 1. Comandos para la gestión de servicios. Fuente: elaboración propia. #ñspace
 		- (Page 15)
 	- -
 	- -
@@ -67,6 +67,6 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 23)
 	- -
 	- -
-	- Tabla 2. Comandos para la gestión de stacks. Fuente: elaboración propia. #space
+	- Tabla 2. Comandos para la gestión de stacks. Fuente: elaboración propia. #ñspace
 		- (Page 26)
 	- -

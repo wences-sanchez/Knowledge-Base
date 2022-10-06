@@ -8,11 +8,11 @@ tags:: #[[Literature]]
 - #tags #[[Literature]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Sólo tenía curiosidad y avidez por conocer lo que creía más verdadero que yo mismo, aquello que para mí tenía el valor de mostrarme algo del pensamiento de un gran genio, o de la fuerza o de la gracia de la naturaleza tal como se manifiesta entregada a sí misma, sin intervención del hombre. #space
+	- Sólo tenía curiosidad y avidez por conocer lo que creía más verdadero que yo mismo, aquello que para mí tenía el valor de mostrarme algo del pensamiento de un gran genio, o de la fuerza o de la gracia de la naturaleza tal como se manifiesta entregada a sí misma, sin intervención del hombre. #ñspace
 		- (Page 341)
 	- -
 	- -
-	- y me ayudaban a comprender mejor la contradicción de buscar en la realidad los cuadros de la memoria: siempre les faltará la fascinación que les viene de esa misma memoria y que no pueden ser percibidos por los sentidos. #space
+	- y me ayudaban a comprender mejor la contradicción de buscar en la realidad los cuadros de la memoria: siempre les faltará la fascinación que les viene de esa misma memoria y que no pueden ser percibidos por los sentidos. #ñspace
 		- (Page 379)
 	- -
 	- -

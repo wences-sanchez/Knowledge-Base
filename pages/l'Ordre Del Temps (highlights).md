@@ -15,19 +15,19 @@ tags:: #[[Science]]
 		- (Page 30)
 	- -
 	- -
-	- Això il·lustra el que els físics anomenen l'espaitemps corbat. Corbat perquè està distorsionat: les distàncies s'estiren i es contrauen com el full elàstic raó, els cons de llum s'inclinen en els dibuixos de l'últim hem estirat. Per aquesta ənb capítol. #space
+	- Això il·lustra el que els físics anomenen l'espaitemps corbat. Corbat perquè està distorsionat: les distàncies s'estiren i es contrauen com el full elàstic raó, els cons de llum s'inclinen en els dibuixos de l'últim hem estirat. Per aquesta ənb capítol. #ñspace
 		- (Page 58)
 	- -
 	- -
 	- Recapitulo la llarga capbussada que ha estat aquesta primera part del llibre. El temps no és únic: hi ha una durada diferent per a cada trajectòria, passa a diferents ritmes en funció del lloc i la velocitat. No té orientació: la diferència entre passat i futur no existeix en les equacions elementals del món, és un aspecte contingent que apareix quan mirem les coses descuidant-ne els detalls; en aquest desenfocament, el passat de l'univers era en un estat curiosament «peculiar».
 	  
-	  El concepte de «present» no funciona: en el vast univers no hi ha res que puguem anomenar raonablement «present». El substrat que determina les durades del temps no és una entitat independent, diferent de les altres que constitueixen el món, sinó un aspecte d'un camp dinàmic, que salta, fluctua, es concreta únicament interactuant i no es defineix per sota d'una escala mínima... #space
+	  El concepte de «present» no funciona: en el vast univers no hi ha res que puguem anomenar raonablement «present». El substrat que determina les durades del temps no és una entitat independent, diferent de les altres que constitueixen el món, sinó un aspecte d'un camp dinàmic, que salta, fluctua, es concreta únicament interactuant i no es defineix per sota d'una escala mínima... #ñspace
 		- (Page 68)
 	- -
 	- -
 	- És a dir, la manca de temps no vol dir que tot estigui congelat i immòbil. Vol dir la incessant successió que causa la fatiga del món no està ordenada per una línia del temps, no està mesurada per un enorme tic-tac. Ni tan sols forma una geometria quadridimensional. És una xarxa immensa i desordenada d'esdeveniments quàntics. El món s'assembla més a Nàpols que a Singapur.
 	  
-	  que Si per «temps» no entenem res més que successió, llavors tot és temps: només existeix allò que és en el temps. #space
+	  que Si per «temps» no entenem res més que successió, llavors tot és temps: només existeix allò que és en el temps. #ñspace
 		- (Page 77)
 	- -
 	- -
@@ -35,7 +35,7 @@ tags:: #[[Science]]
 	  
 	  És la forma elemental de la mecànica del món, i no li cal parlar de temps. El món sense variable temps no és un món complicat.
 	  
-	  Es una xarxa d'esdeveniments interconnectats, on les variables en joc segueixen regles de probabilitat que, sorprenentment, en bona part sabem escriure. Es un món diàfan, airejat i ple de bellesa com els cims de les muntanyes, com la bellesa àrida dels llavis tallats de les adolescents. #space
+	  Es una xarxa d'esdeveniments interconnectats, on les variables en joc segueixen regles de probabilitat que, sorprenentment, en bona part sabem escriure. Es un món diàfan, airejat i ple de bellesa com els cims de les muntanyes, com la bellesa àrida dels llavis tallats de les adolescents. #ñspace
 		- (Page 89)
 	- -
 	- -
@@ -58,21 +58,21 @@ tags:: #[[Science]]
 	  
 	  per No estic segur que es tracti d'una història plausible, però no en conec cap de millor. L'alternativa és acceptar com a dada d'observació el fet l'entropia fos baixa al començament de la vida de l'univers, i prou.
 	  
-	  La llei Inc.S >= 0 enunciada per Clausius, que Boltzmann va començar a desxifrar, ens hi condueix. Després d'haver-la perdut anant a buscar les lleis generals del món, la tornem a trobar com un possible efecte de perspectiva per a subsistemes particulars. Partim altra vegada d'aquí. #space
+	  La llei Inc.S >= 0 enunciada per Clausius, que Boltzmann va començar a desxifrar, ens hi condueix. Després d'haver-la perdut anant a buscar les lleis generals del món, la tornem a trobar com un possible efecte de perspectiva per a subsistemes particulars. Partim altra vegada d'aquí. #ñspace
 		- (Page 113)
 	- -
 	- -
 	- L'energia -també m'ho van dir a l'escolaes conserva. No es crea ni es destrueix. Ara bé, si es conserva, per què sempre n'hem d'obtenir més i més? Per què no fem servir sempre la mateixa? La veritat és d'energia n'hi ha en abundància i no es consumeix. Però no és energia que el món necessita per seguir endavant. És entropia baixa.
 	  
-	  L'energia (mecànica, química, elèctrica o potencial) es transforma en energia tèrmica -és a dir, en calor-, va a les coses fredes, i des d'allà no hi ha manera de portar-la enrere gratuïtament i reutilitzar-la per fer créixer una planta o fer girar un motor. En aquest procés l'energia segueix sent la mateixa, però l'entropia augmenta, i aquesta entropia no torna enrere. La segona llei de la termodinàmica és el que que la consumeix. #space
+	  L'energia (mecànica, química, elèctrica o potencial) es transforma en energia tèrmica -és a dir, en calor-, va a les coses fredes, i des d'allà no hi ha manera de portar-la enrere gratuïtament i reutilitzar-la per fer créixer una planta o fer girar un motor. En aquest procés l'energia segueix sent la mateixa, però l'entropia augmenta, i aquesta entropia no torna enrere. La segona llei de la termodinàmica és el que que la consumeix. #ñspace
 		- (Page 115)
 	- -
 	- -
 	- Causes, memòria, traces, la mateixa història de l'esdevenir del món que es desplega no només en els segles i mil·lennis d'història humana, sinó també en els milers de milions d'anys del gran relat còsmic, tot plegat neix simplement del fet que la configuració de les coses va ser «particular» ara fa uns milers de milions d'anys.
 	  
-	  I «particular» és un terme relatiu: s'és particular respecte d'una perspectiva. En un desenfocament, que al seu torn està determinat per les interaccions que té un sistema físic amb la resta del món. Causes, memòria, traces, la mateixa història de l’esdevenir del món, per tant, poden ser només perspectiva: com el cel que gira, un efecte del nostre peculiar punt de vista sobre el món.. Inexorablement, l'estudi del temps només ens remet a nosaltres. I aleshores tornem a nosaltres mateixos. #space
+	  I «particular» és un terme relatiu: s'és particular respecte d'una perspectiva. En un desenfocament, que al seu torn està determinat per les interaccions que té un sistema físic amb la resta del món. Causes, memòria, traces, la mateixa història de l’esdevenir del món, per tant, poden ser només perspectiva: com el cel que gira, un efecte del nostre peculiar punt de vista sobre el món.. Inexorablement, l'estudi del temps només ens remet a nosaltres. I aleshores tornem a nosaltres mateixos. #ñspace
 		- (Page 122)
 	- -
 	- -
-	- Einstein va buscar una explicació plausible. Va imaginar que el Sol i la Terra no s'atreuen directament, sinó que cadascun dels dos astres actua gradualment sobre el que hi ha entremig. I com que entremig només hi ha espai i temps, va imaginar que el Sol i la Terra alteren l'espai i el temps al seu voltant, com quan un cos, en submergir-se, desplaça l'aigua que l'envolta. #space
+	- Einstein va buscar una explicació plausible. Va imaginar que el Sol i la Terra no s'atreuen directament, sinó que cadascun dels dos astres actua gradualment sobre el que hi ha entremig. I com que entremig només hi ha espai i temps, va imaginar que el Sol i la Terra alteren l'espai i el temps al seu voltant, com quan un cos, en submergir-se, desplaça l'aigua que l'envolta. #ñspace
 	- -

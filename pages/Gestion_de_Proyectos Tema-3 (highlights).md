@@ -9,11 +9,11 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/1b378a82-75ea-492f-9c7c-b72a832e87fc.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Scrum es un marco de trabajo para la gestión de proyectos  software,  que  permite  el  trabajo  colaborativo  entre  equipos.  Tiene  su origen  en  un  tipo  de  jugada  de  rugby,  y  su  filosofía  es  aprender  a  través  de  las experiencias de gestión, llevando a cabo una autogestión (anteriormente se hablaba más de autoorganización). La base de Scrum es el aprendizaje empírico, aprendiendo lo que se está realizando y aplicando el aprendizaje a corto plazo de manera iterativa (mejorando  el  producto)  e  incremental  (incluyendo  nuevas  funcionalidades). #space
+	- Scrum es un marco de trabajo para la gestión de proyectos  software,  que  permite  el  trabajo  colaborativo  entre  equipos.  Tiene  su origen  en  un  tipo  de  jugada  de  rugby,  y  su  filosofía  es  aprender  a  través  de  las experiencias de gestión, llevando a cabo una autogestión (anteriormente se hablaba más de autoorganización). La base de Scrum es el aprendizaje empírico, aprendiendo lo que se está realizando y aplicando el aprendizaje a corto plazo de manera iterativa (mejorando  el  producto)  e  incremental  (incluyendo  nuevas  funcionalidades). #ñspace
 		- (Page 5)
 	- -
 	- -
-	- Kniberg (2007) explica que, al tratarse de un conjunto de buenas prácticas, Scrum no indicará qué hacer en cada paso, por lo que se debe aplicar con cautela al desarrollo del proyecto en cuestión, para seguir en todo momento enfocados en el paradigma de  la  agilidad.  En  este  sentido,  se  han  llegado  a  describir  una  serie  de  errores comunes que algunas organizaciones cometen al tratar de aplicar Scrum #space
+	- Kniberg (2007) explica que, al tratarse de un conjunto de buenas prácticas, Scrum no indicará qué hacer en cada paso, por lo que se debe aplicar con cautela al desarrollo del proyecto en cuestión, para seguir en todo momento enfocados en el paradigma de  la  agilidad.  En  este  sentido,  se  han  llegado  a  describir  una  serie  de  errores comunes que algunas organizaciones cometen al tratar de aplicar Scrum #ñspace
 		- (Page 6)
 	- -
 	- -
@@ -27,7 +27,7 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- Coraje  (courage).  Los  integrantes  del  Equipo  Scrum  deben  tener  suficiente valentía  para  hacer  lo  correcto  y  trabajar  en  problemas  complejos  a  los  que enfrentarse.  Si  ocurre  algún inconveniente,  el  equipo  debe levantarse  y aprovecharlo  como  una  oportunidad  parar  mejorar.  No  se  debe  hacer directamente lo que indica un cliente o jefe sin considerar el valor real, ni se deben degradar los valores Scrum. #space
+	- Coraje  (courage).  Los  integrantes  del  Equipo  Scrum  deben  tener  suficiente valentía  para  hacer  lo  correcto  y  trabajar  en  problemas  complejos  a  los  que enfrentarse.  Si  ocurre  algún inconveniente,  el  equipo  debe levantarse  y aprovecharlo  como  una  oportunidad  parar  mejorar.  No  se  debe  hacer directamente lo que indica un cliente o jefe sin considerar el valor real, ni se deben degradar los valores Scrum. #ñspace
 		- (Page 12)
 	- -
 	- -
@@ -46,7 +46,7 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 15)
 	- -
 	- -
-	-  Impulsar  la  adopción  de  la  metodología  ágil a  través  de  la  gestión del proceso Scrum, ayudando a los desarrolladores y a toda la organización. Ayudar en la autogestión y multifuncionalidad a todos los miembros del equipo. Ayudar a las personas y participantes a comprender un enfoque empírico para el Actuar como líder del equipo Scrum, para mejorar la productividad y calidad de las  entregas  parciales del  producto  software  que  cumplan  con  la  definición  de Gestionar los posibles problemas o conflictos, ayudando a eliminar impedimentos que  puede  encontrar  el  equipo  de  desarrollo  y  que  afecten  a  la  entrega  del Asegurar que los diferentes eventos de Scrum se puedan llevar a cabo, que sean productivos y positivos, y que se respete el tiempo establecido  (Timebox) para trabajo complejo. hecho. producto. cada uno de ellos. #space
+	-  Impulsar  la  adopción  de  la  metodología  ágil a  través  de  la  gestión del proceso Scrum, ayudando a los desarrolladores y a toda la organización. Ayudar en la autogestión y multifuncionalidad a todos los miembros del equipo. Ayudar a las personas y participantes a comprender un enfoque empírico para el Actuar como líder del equipo Scrum, para mejorar la productividad y calidad de las  entregas  parciales del  producto  software  que  cumplan  con  la  definición  de Gestionar los posibles problemas o conflictos, ayudando a eliminar impedimentos que  puede  encontrar  el  equipo  de  desarrollo  y  que  afecten  a  la  entrega  del Asegurar que los diferentes eventos de Scrum se puedan llevar a cabo, que sean productivos y positivos, y que se respete el tiempo establecido  (Timebox) para trabajo complejo. hecho. producto. cada uno de ellos. #ñspace
 		- (Page 16)
 	- -
 	- -
@@ -55,7 +55,7 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 16)
 	- -
 	- -
-	-   Cross-funcional. Cada miembro del equipo debe ser capaz de realizar tareas de diseño,  programación,  pruebas,  despliegue,  etc.,  pues  en  Scrum  no  existen especialistas.  Así,  aunque  puede  que  cada  miembro  posea  una  serie  de capacidades y conocimientos que sean diferentes y puedan aportar más a unas tareas que a otras, lo fundamental es que todos sean capaces de poder llevar a cabo cualquier función necesaria respecto al proceso de desarrollo del producto software. #space
+	-   Cross-funcional. Cada miembro del equipo debe ser capaz de realizar tareas de diseño,  programación,  pruebas,  despliegue,  etc.,  pues  en  Scrum  no  existen especialistas.  Así,  aunque  puede  que  cada  miembro  posea  una  serie  de capacidades y conocimientos que sean diferentes y puedan aportar más a unas tareas que a otras, lo fundamental es que todos sean capaces de poder llevar a cabo cualquier función necesaria respecto al proceso de desarrollo del producto software. #ñspace
 		- (Page 17)
 	- -
 	- -

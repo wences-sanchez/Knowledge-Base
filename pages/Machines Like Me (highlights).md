@@ -29,7 +29,7 @@ tags:: #[[Literature]]
 		- ([Location 399](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=399))
 	- -
 	- -
-	- The present is the frailest of improbable constructs. It could have been different. Any part of it, or all of it, could be otherwise. True of the smallest and largest concerns. How easy to conjure worlds in which my toenail had not turned against me; in which I was rich, living north of the Thames after one of my schemes had succeeded; in which Shakespeare had died in childhood and no one missed him, #space
+	- The present is the frailest of improbable constructs. It could have been different. Any part of it, or all of it, could be otherwise. True of the smallest and largest concerns. How easy to conjure worlds in which my toenail had not turned against me; in which I was rich, living north of the Thames after one of my schemes had succeeded; in which Shakespeare had died in childhood and no one missed him, #ñspace
 		- ([Location 1040](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=1040))
 	- -
 	- -
@@ -38,14 +38,14 @@ tags:: #[[Literature]]
 		- ([Location 1115](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=1115))
 	- -
 	- -
-	- So she wrote about the weather, and TV programmes and said nothing about her state of mind. #space
+	- So she wrote about the weather, and TV programmes and said nothing about her state of mind. #ñspace
 		- ([Location 2225](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=2225))
 	- -
 	- -
-	- She’d been consulting local maps and had a clear idea of what she wanted on her first day of freedom. The morning I collected her, the weather was beginning to turn and a cool strong wind was blowing from the east. We drove to Manningtree, parked in a lay-by and set out on the raised footpath that follows the tidal River Stour to the sea. The weather hardly mattered. What she had wanted and found was open space and a big sky. #space
+	- She’d been consulting local maps and had a clear idea of what she wanted on her first day of freedom. The morning I collected her, the weather was beginning to turn and a cool strong wind was blowing from the east. We drove to Manningtree, parked in a lay-by and set out on the raised footpath that follows the tidal River Stour to the sea. The weather hardly mattered. What she had wanted and found was open space and a big sky. #ñspace
 		- ([Location 3903](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=3903))
 	- -
 	- -
-	- The next phase of my life, surely the most demanding, was already beginning. #space
+	- The next phase of my life, surely the most demanding, was already beginning. #ñspace
 		- ([Location 4116](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=4116))
 	- -

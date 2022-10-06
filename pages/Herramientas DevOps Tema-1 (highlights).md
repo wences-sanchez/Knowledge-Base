@@ -11,7 +11,7 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 	- -
 	- Aunque las fases se traten linealmente en esta asignatura, estas no se implementarán en cascada. Una de las enseñanzas más importantes de DevOps es la necesidad de iterar e ir realizando pasos incrementales lo más frecuentes posibles.
 	  
-	  Esto nos llevará a hablar en todas las fases de cómo las diferentes herramientas pueden soportar esta iteración. #space
+	  Esto nos llevará a hablar en todas las fases de cómo las diferentes herramientas pueden soportar esta iteración. #ñspace
 		- (Page 5)
 	- -
 	- -
@@ -26,7 +26,7 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- Azure  Resource  Manager  permite  desplegar  recursos  en  un  Resource  Group  de Azure. #space
+	- Azure  Resource  Manager  permite  desplegar  recursos  en  un  Resource  Group  de Azure. #ñspace
 		- (Page 13)
 	- -
 	- -

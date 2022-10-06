@@ -14,5 +14,5 @@ url:: http://learning.oreilly.com/a/hands-on-devops-with/45351800/
 	  					from Hands-On DevOps with Vagrant
 	  					by Alex Braunton
 	  					Publisher: Packt Publishing
-	  					Released: October 2018 #space
+	  					Released: October 2018 #ñspace
 	- -

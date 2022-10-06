@@ -9,7 +9,7 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/22f17d1f-fe66-4439-968d-3188fc26b32f.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Un  punto  de  historia  es  una  métrica  utilizada  en  la  gestión  y  el  desarrollo  de proyectos ágiles para estimar la dificultad de implementar una historia de usuario determinada,  que  es  una  medida  abstracta  del  esfuerzo  necesario  para implementarla, según Garzás, Enríquez de S. e Irrazábal (2013). Es decir, un punto de la historia es un número que le indica al equipo el nivel de dificultad de la historia. #space
+	- Un  punto  de  historia  es  una  métrica  utilizada  en  la  gestión  y  el  desarrollo  de proyectos ágiles para estimar la dificultad de implementar una historia de usuario determinada,  que  es  una  medida  abstracta  del  esfuerzo  necesario  para implementarla, según Garzás, Enríquez de S. e Irrazábal (2013). Es decir, un punto de la historia es un número que le indica al equipo el nivel de dificultad de la historia. #ñspace
 		- (Page 6)
 	- -
 	- -
@@ -23,11 +23,11 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	- La planificación ágil es iterativa y se adapta a cambios, mientras que la planificación tradicional es predictiva y se basa en identificar todas las tareas a priori. Así,  la planificación  ágil planifica  en función  de  los  objetivos  de negocio en  vez de respecto a tareas, y prioriza los requisitos que dan más valor al producto, incluyendo más detalles de las tareas conforme avanza la construcción de los objetivos durante las iteraciones de desarrollo. #space
+	- La planificación ágil es iterativa y se adapta a cambios, mientras que la planificación tradicional es predictiva y se basa en identificar todas las tareas a priori. Así,  la planificación  ágil planifica  en función  de  los  objetivos  de negocio en  vez de respecto a tareas, y prioriza los requisitos que dan más valor al producto, incluyendo más detalles de las tareas conforme avanza la construcción de los objetivos durante las iteraciones de desarrollo. #ñspace
 		- (Page 24)
 	- -
 	- -
-	- En  la  planificación  tradicional,  la  base  es  el  control  predictivo,  y  está  basada  en tareas que son necesarias para construir el producto. Se  puede realizar  alguna replanificación, realizando las  modificaciones correspondientes  durante  el  proyecto.  Se  realizan  un  número  muy  limitado  de entregas  de  producto,  y  en  muchas  ocasiones  solo  una  entrega,  con  una  única retrospectiva. De  esta  manera,  el  problema  es  que  el  feedback  llega  tarde,  puesto  que  ya  se  ha avanzado mucho en el desarrollo del producto, o incluso se ha finalizado, sin poder ir verificando los posibles cambios necesarios. #space
+	- En  la  planificación  tradicional,  la  base  es  el  control  predictivo,  y  está  basada  en tareas que son necesarias para construir el producto. Se  puede realizar  alguna replanificación, realizando las  modificaciones correspondientes  durante  el  proyecto.  Se  realizan  un  número  muy  limitado  de entregas  de  producto,  y  en  muchas  ocasiones  solo  una  entrega,  con  una  única retrospectiva. De  esta  manera,  el  problema  es  que  el  feedback  llega  tarde,  puesto  que  ya  se  ha avanzado mucho en el desarrollo del producto, o incluso se ha finalizado, sin poder ir verificando los posibles cambios necesarios. #ñspace
 		- (Page 25)
 	- -
 	- -
@@ -46,11 +46,11 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 30)
 	- -
 	- -
-	- Se planifica cuándo se deben entregar los incrementos completos para los usuarios finales (a nivel de entregas). Las características de un release son las siguientes:   Los release se definen por fecha, tema y conjunto de características planificadas. Las fechas de entregas se pueden vincular a eventos, como conferencias o cambios en el sistema legal. #space
+	- Se planifica cuándo se deben entregar los incrementos completos para los usuarios finales (a nivel de entregas). Las características de un release son las siguientes:   Los release se definen por fecha, tema y conjunto de características planificadas. Las fechas de entregas se pueden vincular a eventos, como conferencias o cambios en el sistema legal. #ñspace
 		- (Page 30)
 	- -
 	- -
-	-   El  alcance,  no  la  fecha  o  la  calidad,  es  la  variable  que  destaca  la  necesidad  de utilizar  una  acumulación  de  productos  priorizada  como  base  de  un  evento  de planificación.  Cuando  una  fecha  de  entrega  es  inamovible  y  es  improbable  un aumento en el presupuesto y, por lo general, no tiene un efecto positivo en una entrega. El alcance es la única variable que puede hacer o deshacer la fecha de entrega. planificación.   Todos  los  equipos  deben  comprometerse  con  el  mismo  ritmo  de  iteraciones. Cuando todos los equipos trabajan al mismo ritmo, el descubrimiento y la gestión de  las  dependencias  se  producen  automáticamente  durante  las  actividades  de   Hay fechas de entregas fijas en todos los equipos del programa: un intervalo típico sería de dos a cuatro meses. #space
+	-   El  alcance,  no  la  fecha  o  la  calidad,  es  la  variable  que  destaca  la  necesidad  de utilizar  una  acumulación  de  productos  priorizada  como  base  de  un  evento  de planificación.  Cuando  una  fecha  de  entrega  es  inamovible  y  es  improbable  un aumento en el presupuesto y, por lo general, no tiene un efecto positivo en una entrega. El alcance es la única variable que puede hacer o deshacer la fecha de entrega. planificación.   Todos  los  equipos  deben  comprometerse  con  el  mismo  ritmo  de  iteraciones. Cuando todos los equipos trabajan al mismo ritmo, el descubrimiento y la gestión de  las  dependencias  se  producen  automáticamente  durante  las  actividades  de   Hay fechas de entregas fijas en todos los equipos del programa: un intervalo típico sería de dos a cuatro meses. #ñspace
 		- (Page 31)
 	- -
 	- -

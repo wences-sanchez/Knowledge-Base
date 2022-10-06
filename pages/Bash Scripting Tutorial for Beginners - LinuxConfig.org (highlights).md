@@ -14,10 +14,10 @@ url:: https://linuxconfig.org/bash-scripting-tutorial-for-beginners
 		- chmod +x FILENAME
 	- -
 	- -
-	- By default, any newly created files are not executable regardless of its file extension suffix. #space
+	- By default, any newly created files are not executable regardless of its file extension suffix. #ñspace
 	- -
 	- -
-	- In fact, the file extension on GNU/Linux systems mostly does not have any meaning apart from the fact, that upon the execution of ls command to list all files and directories it is immediately clear that file with extension .sh is plausibly a shell script and file with .jpg is likely to be a lossy compressed image. #space
+	- In fact, the file extension on GNU/Linux systems mostly does not have any meaning apart from the fact, that upon the execution of ls command to list all files and directories it is immediately clear that file with extension .sh is plausibly a shell script and file with .jpg is likely to be a lossy compressed image. #ñspace
 	- -
 	- -
 	- How can you get the current user inside a script? #card

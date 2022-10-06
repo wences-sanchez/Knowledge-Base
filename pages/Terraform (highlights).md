@@ -10,7 +10,7 @@ tags:: #[[O'Reilly-Learning]]
 	- 1. Why Terraform
 	- 2. Getting Started with Terraform
 		- -
-		- The goal of DevOps is to make software delivery vastly more efficient. #space
+		- The goal of DevOps is to make software delivery vastly more efficient. #ñspace
 		- -
 		- -
 		- How could you add tags to a resource in Terraform (e.g. an AWS instance)? #card
@@ -79,7 +79,7 @@ tags:: #[[O'Reilly-Learning]]
 		  
 		  Lean Enterprise by Jez Humble, Joanne Molesky, Barry O’Reilly (O’Reilly)
 		  
-		  Hello, Startup: A Programmer’s Guide to Building Products, Technologies, and Teams by Yevgeniy Brikman (O’Reilly) #space
+		  Hello, Startup: A Programmer’s Guide to Building Products, Technologies, and Teams by Yevgeniy Brikman (O’Reilly) #ñspace
 		- -
 		- -
 		- Mention an example of a security group in AWS with Terraform. #card
@@ -97,13 +97,13 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- To use the value from an input variable in your Terraform code, you can use a new type of expression called a variable reference, which has the following syntax:
 		  
-		  var.<VARIABLE_NAME> #space
+		  var.<VARIABLE_NAME> #ñspace
 		- -
 		- -
-		- The idea behind immutable infrastructure is similar: once you’ve deployed a server, you never make changes to it again. If you need to update something, such as deploy a new version of your code, you create a new image from your server template and you deploy it on a new server. Because servers never change, it’s a lot easier to reason about what’s deployed. #space
+		- The idea behind immutable infrastructure is similar: once you’ve deployed a server, you never make changes to it again. If you need to update something, such as deploy a new version of your code, you create a new image from your server template and you deploy it on a new server. Because servers never change, it’s a lot easier to reason about what’s deployed. #ñspace
 		- -
 		- -
-		- An expression in Terraform is anything that returns a value. You’ve already seen the simplest type of expressions, literals, such as strings (e.g., "ami-0c55b159cbfafe1f0") and numbers (e.g., 5). Terraform supports many other types of expressions #space
+		- An expression in Terraform is anything that returns a value. You’ve already seen the simplest type of expressions, literals, such as strings (e.g., "ami-0c55b159cbfafe1f0") and numbers (e.g., 5). Terraform supports many other types of expressions #ñspace
 		- -
 		- -
 		- About output variables in Terraform. #card
@@ -136,22 +136,22 @@ tags:: #[[O'Reilly-Learning]]
 		- output variables show up in the console after you run terraform apply, which users of your Terraform code might find useful (e.g., you now know what IP to test after the web server is deployed). You can also use the terraform output command to list all outputs without applying any changes:
 		  
 		  $ terraform output
-		  public_ip = 54.174.13.5 #space
+		  public_ip = 54.174.13.5 #ñspace
 		- -
 		- -
-		- That said, if you’re not using server templating tools, a good alternative is to use a configuration management and provisioning tool together. For example, you might use Terraform to provision your servers and run Chef to configure each one. #space
+		- That said, if you’re not using server templating tools, a good alternative is to use a configuration management and provisioning tool together. For example, you might use Terraform to provision your servers and run Chef to configure each one. #ñspace
 		- -
 		- -
-		- When you add a reference from one resource to another, you create an implicit dependency. Terraform parses these dependencies, builds a dependency graph from them, and uses that to automatically determine in which order it should create resources. For example, if you were deploying this code from scratch, Terraform would know that it needs to create the security group before the EC2 Instance, because the EC2 Instance references the ID of the security group. You can even get Terraform to show you the dependency graph by running the graph command: #space
+		- When you add a reference from one resource to another, you create an implicit dependency. Terraform parses these dependencies, builds a dependency graph from them, and uses that to automatically determine in which order it should create resources. For example, if you were deploying this code from scratch, Terraform would know that it needs to create the security group before the EC2 Instance, because the EC2 Instance references the ID of the security group. You can even get Terraform to show you the dependency graph by running the graph command: #ñspace
 		- -
 		- -
 		- And you can run terraform output <OUTPUT_NAME> to see the value of a specific output called <OUTPUT_NAME>:
 		  
 		  $ terraform output public_ip
-		  54.174.13.5 #space
+		  54.174.13.5 #ñspace
 		- -
 		- -
-		- The -/+ in the plan output means “replace” #space
+		- The -/+ in the plan output means “replace” #ñspace
 		- -
 		- -
 		- About how can AWS ease with automated scalability. #card
@@ -161,7 +161,7 @@ tags:: #[[O'Reilly-Learning]]
 		- provider "aws" {
 		  region = "us-east-2"
 		  }
-		  This tells Terraform that you are going to be using AWS as your provider and that you want to deploy your infrastructure into the us-east-2 region. #space
+		  This tells Terraform that you are going to be using AWS as your provider and that you want to deploy your infrastructure into the us-east-2 region. #ñspace
 		- -
 		- -
 		- What is the syntax for declaring a variable: #card
@@ -172,7 +172,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- Note that the ASG uses a reference to fill in the launch configuration name. This leads to a problem: launch configurations are immutable, so if you change any parameter of your launch configuration, Terraform will try to replace it. Normally, when replacing a resource, Terraform deletes the old resource first and then creates its replacement, but because your ASG now has a reference to the old resource, Terraform won’t be able to delete it.
 		  
-		  To solve this problem, you can use a lifecycle setting. Every Terraform resource supports several lifecycle settings that configure how that resource is created, updated, and/or deleted. A particularly useful lifecycle setting is create_before_destroy. If you set create_before_destroy to true, Terraform will invert the order in which it replaces resources, creating the replacement resource first (including updating any references that were pointing at the old resource to point to the replacement) and then deleting the old resource. Add the lifecycle block to your aws_launch_configuration #space
+		  To solve this problem, you can use a lifecycle setting. Every Terraform resource supports several lifecycle settings that configure how that resource is created, updated, and/or deleted. A particularly useful lifecycle setting is create_before_destroy. If you set create_before_destroy to true, Terraform will invert the order in which it replaces resources, creating the replacement resource first (including updating any references that were pointing at the old resource to point to the replacement) and then deleting the old resource. Add the lifecycle block to your aws_launch_configuration #ñspace
 		- -
 		- -
 		- What is the general syntax for creating a resource in Terraform? #card
@@ -196,7 +196,7 @@ tags:: #[[O'Reilly-Learning]]
 			  }
 		- -
 		- -
-		- The terraform binary contains the basic functionality for Terraform, but it does not come with the code for any of the providers (e.g., the AWS provider, Azure provider, GCP provider, etc.), so when you’re first starting to use Terraform, you need to run terraform init to tell Terraform to scan the code, figure out which providers you’re using, and download the code for them. By default, the provider code will be downloaded into a .terraform folder, which is Terraform’s scratch directory (you may want to add it to .gitignore). #space
+		- The terraform binary contains the basic functionality for Terraform, but it does not come with the code for any of the providers (e.g., the AWS provider, Azure provider, GCP provider, etc.), so when you’re first starting to use Terraform, you need to run terraform init to tell Terraform to scan the code, figure out which providers you’re using, and download the code for them. By default, the provider code will be downloaded into a .terraform folder, which is Terraform’s scratch directory (you may want to add it to .gitignore). #ñspace
 		- -
 		- -
 		- Example of data source use in Terraform. #card
@@ -206,27 +206,27 @@ tags:: #[[O'Reilly-Learning]]
 			  data.aws_vpc.default.id
 		- -
 		- -
-		- The plan command lets you see what Terraform will do before actually making any changes. #space
+		- The plan command lets you see what Terraform will do before actually making any changes. #ñspace
 		- -
 		- -
-		- When you’re done experimenting with Terraform, either at the end of this chapter, or at the end of future chapters, it’s a good idea to remove all of the resources you created so that AWS doesn’t charge you for them. Because Terraform keeps track of what resources you created, cleanup is simple. All you need to do is run the destroy command: #space
+		- When you’re done experimenting with Terraform, either at the end of this chapter, or at the end of future chapters, it’s a good idea to remove all of the resources you created so that AWS doesn’t charge you for them. Because Terraform keeps track of what resources you created, cleanup is simple. All you need to do is run the destroy command: #ñspace
 		- -
 		- -
 		- How does the Terraform output specify the results? #card
 			- The output of the plan command is similar to the output of the diff command that is part of Unix, Linux, and git: anything with a plus sign (+) will be created, anything with a minus sign (–) will be deleted, and anything with a tilde sign (~) will be modified in place.
 		- -
 		- -
-		- Note that later in the book, you will continue to develop this example, so don’t delete the Terraform code! However, feel free to run destroy on the actual deployed resources whenever you want. After all, the beauty of infrastructure as code is that all of the information about those resources is captured in code, so you can re-create all of them at any time with a single command: terraform apply. In fact, you might want to commit your latest changes to Git so that you can keep track of the history of your infrastructure. #space
+		- Note that later in the book, you will continue to develop this example, so don’t delete the Terraform code! However, feel free to run destroy on the actual deployed resources whenever you want. After all, the beauty of infrastructure as code is that all of the information about those resources is captured in code, so you can re-create all of them at any time with a single command: terraform apply. In fact, you might want to commit your latest changes to Git so that you can keep track of the history of your infrastructure. #ñspace
 		- -
 		- -
-		- To actually create the Instance, run the terraform apply command: #space
+		- To actually create the Instance, run the terraform apply command: #ñspace
 		- -
 	- 3. How to Manage Terraform State
 		- -
-		- In other words, the output of the plan command is a diff between the code on your computer and the infrastructure deployed in the real world, as discovered via IDs in the state file. #space
+		- In other words, the output of the plan command is a diff between the code on your computer and the infrastructure deployed in the real world, as discovered via IDs in the state file. #ñspace
 		- -
 		- -
-		- Instead of using version control, the best way to manage shared storage for state files is to use Terraform’s built-in support for remote backends. A Terraform backend determines how Terraform loads and stores state. The default backend, which you’ve been using this entire time, is the local backend, which stores the state file on your local disk. Remote backends allow you to store the state file in a remote, shared store. A number of remote backends are supported, including Amazon S3; Azure Storage; Google Cloud Storage; and HashiCorp’s Terraform Cloud, Terraform Pro, and Terraform Enterprise. #space
+		- Instead of using version control, the best way to manage shared storage for state files is to use Terraform’s built-in support for remote backends. A Terraform backend determines how Terraform loads and stores state. The default backend, which you’ve been using this entire time, is the local backend, which stores the state file on your local disk. Remote backends allow you to store the state file in a remote, shared store. A number of remote backends are supported, including Amazon S3; Azure Storage; Google Cloud Storage; and HashiCorp’s Terraform Cloud, Terraform Pro, and Terraform Enterprise. #ñspace
 		- -
 		- -
 		- About port numbers #card

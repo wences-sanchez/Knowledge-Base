@@ -6,337 +6,337 @@ category:: #books
 - ![](https://images-na.ssl-images-amazon.com/images/I/51IpgznsrtL._SL200_.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Although Java is otherwise completely object-oriented, the primitive types are not. They are analogous to the simple types found in most other non–object-oriented languages. The reason for this is efficiency. #space
+	- Although Java is otherwise completely object-oriented, the primitive types are not. They are analogous to the simple types found in most other non–object-oriented languages. The reason for this is efficiency. #ñspace
 		- ([Location 2528](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2528))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- Java defines four integer types: byte, short, int, and long. All of these are signed, positive and negative values. #space
+	- Java defines four integer types: byte, short, int, and long. All of these are signed, positive and negative values. #ñspace
 		- ([Location 2536](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2536))
 	- -
 	- -
-	- Java does not support unsigned, positive-only integers. #space
+	- Java does not support unsigned, positive-only integers. #ñspace
 		- ([Location 2537](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2537))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- The smallest integer type is byte. This is a signed 8-bit type that has a range from –128 to 127. #space
+	- The smallest integer type is byte. This is a signed 8-bit type that has a range from –128 to 127. #ñspace
 		- ([Location 2546](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2546))
 	- -
 	- -
-	- The most commonly used integer type is int. It is a signed 32-bit type that has a range from –2,147,483,648 to 2,147,483,647. #space
+	- The most commonly used integer type is int. It is a signed 32-bit type that has a range from –2,147,483,648 to 2,147,483,647. #ñspace
 		- ([Location 2554](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2554))
 	- -
 	- -
-	- Although you might think that using a byte or short would be more efficient than using an int in situations in which the larger range of an int is not needed, this may not be the case. The reason is that when byte and short values are used in an expression, they are promoted to int when the expression is evaluated. #space
+	- Although you might think that using a byte or short would be more efficient than using an int in situations in which the larger range of an int is not needed, this may not be the case. The reason is that when byte and short values are used in an expression, they are promoted to int when the expression is evaluated. #ñspace
 		- ([Location 2556](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2556))
 	- -
 	- -
-	- long is a signed 64-bit type and is useful for those occasions where an int type is not large enough #space
+	- long is a signed 64-bit type and is useful for those occasions where an int type is not large enough #ñspace
 		- ([Location 2561](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2561))
 	- -
 	- -
-	- Floating-point numbers, also known as real numbers, #space
+	- Floating-point numbers, also known as real numbers, #ñspace
 		- ([Location 2567](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2567))
 	- -
 	- -
-	- Variables of type float are useful when you need a fractional component, but don’t require a large degree of precision. For example, float can be useful when representing dollars and cents. #space
+	- Variables of type float are useful when you need a fractional component, but don’t require a large degree of precision. For example, float can be useful when representing dollars and cents. #ñspace
 		- ([Location 2575](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2575))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- However, to specify a long literal, you will need to explicitly tell the compiler that the literal value is of type long. You do this by appending an upper- or lowercase L to the literal. For example, 0x7ffffffffffffffL or 9223372036854775807L #space
+	- However, to specify a long literal, you will need to explicitly tell the compiler that the literal value is of type long. You do this by appending an upper- or lowercase L to the literal. For example, 0x7ffffffffffffffL or 9223372036854775807L #ñspace
 		- ([Location 2636](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2636))
 	- -
 	- -
-	- in some other languages strings are implemented as arrays of characters. However, this is not the case in Java. Strings are actually object types. #space
+	- in some other languages strings are implemented as arrays of characters. However, this is not the case in Java. Strings are actually object types. #ñspace
 		- ([Location 2692](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2692))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- type identifier [ = value ][, identifier [= value ] …]; #space
+	- type identifier [ = value ][, identifier [= value ] …]; #ñspace
 		- ([Location 2698](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2698))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- It is not uncommon to think in terms of two general categories of scopes: global and local. However, these traditional scopes do not fit well with Java’s strict, object-oriented model. While it is possible to create what amounts to being a global scope, it is by far the exception, not the rule. In Java, the two major scopes are those defined by a class and those defined by a method. #space
+	- It is not uncommon to think in terms of two general categories of scopes: global and local. However, these traditional scopes do not fit well with Java’s strict, object-oriented model. While it is possible to create what amounts to being a global scope, it is by far the exception, not the rule. In Java, the two major scopes are those defined by a class and those defined by a method. #ñspace
 		- ([Location 2719](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2719))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- the following fragment casts an int to a byte. If the integer’s value is larger than the range of a byte, it will be reduced modulo (the remainder of an integer division by the) byte’s range. #space
+	- the following fragment casts an int to a byte. If the integer’s value is larger than the range of a byte, it will be reduced modulo (the remainder of an integer division by the) byte’s range. #ñspace
 		- ([Location 2778](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2778))
 	- -
 	- -
-	- Thus, when a floating-point value is assigned to an integer type, the fractional component is lost. For example, if the value 1.23 is assigned to an integer, the resulting value will simply be 1. The 0.23 will have been truncated. Of course, if the size of the whole number component is too large to fit into the target integer type, then that value will be reduced modulo the target type’s range. #space
+	- Thus, when a floating-point value is assigned to an integer type, the fractional component is lost. For example, if the value 1.23 is assigned to an integer, the resulting value will simply be 1. The 0.23 will have been truncated. Of course, if the size of the whole number component is too large to fit into the target integer type, then that value will be reduced modulo the target type’s range. #ñspace
 		- ([Location 2782](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2782))
 	- -
 	- -
-	- Java defines several type promotion rules that apply to expressions. They are as follows: First, all byte, short, and char values are promoted to int, as just described. Then, if one operand is a long, the whole expression is promoted to long. If one operand is a float, the entire expression is promoted to float. If any of the operands are double, the result is double. #space
+	- Java defines several type promotion rules that apply to expressions. They are as follows: First, all byte, short, and char values are promoted to int, as just described. Then, if one operand is a long, the whole expression is promoted to long. If one operand is a float, the entire expression is promoted to float. If any of the operands are double, the result is double. #ñspace
 		- ([Location 2809](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2809))
 	- -
 	- -
-	- Recently, an exciting new feature called local variable type inference was added to the Java language. #space
+	- Recently, an exciting new feature called local variable type inference was added to the Java language. #ñspace
 		- ([Location 2911](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2911))
 	- -
 	- -
-	- Beginning with JDK 10, it is now possible to let the compiler infer the type of a local variable based on the type of its initializer, thus avoiding the need to explicitly specify the type. #space
+	- Beginning with JDK 10, it is now possible to let the compiler infer the type of a local variable based on the type of its initializer, thus avoiding the need to explicitly specify the type. #ñspace
 		- ([Location 2917](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2917))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- In both cases, avg will be of type double. In the first case, its type is explicitly specified. In the second, its type is inferred as double because the initializer 10.0 is of type double. #space
+	- In both cases, avg will be of type double. In the first case, its type is explicitly specified. In the second, its type is inferred as double because the initializer 10.0 is of type double. #ñspace
 		- ([Location 2929](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2929))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- int var = 1; // In this case, var is simply a user-defined identifier. #space
+	- int var = 1; // In this case, var is simply a user-defined identifier. #ñspace
 		- ([Location 2934](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2934))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- If you use the || and && forms, rather than the | and & forms of these operators, Java will not bother to evaluate the right-hand operand #space
+	- If you use the || and && forms, rather than the | and & forms of these operators, Java will not bother to evaluate the right-hand operand #ñspace
 		- ([Location 3211](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3211))
 	- -
 	- -
-	- There is one important point to understand about the for-each style loop. Its iteration variable is “read-only” as it relates to the underlying array. An assignment to the iteration variable has no effect on the underlying array. In other words, you can’t change the contents of the array by assigning the iteration variable a new value. #space
+	- There is one important point to understand about the for-each style loop. Its iteration variable is “read-only” as it relates to the underlying array. An assignment to the iteration variable has no effect on the underlying array. In other words, you can’t change the contents of the array by assigning the iteration variable a new value. #ñspace
 		- ([Location 3538](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3538))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- for(var v : nums) #space
+	- for(var v : nums) #ñspace
 		- ([Location 3582](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3582))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- Because an object is an instance of a class, you will often see the two words object and instance used interchangeably. #space
+	- Because an object is an instance of a class, you will often see the two words object and instance used interchangeably. #ñspace
 		- ([Location 3694](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3694))
 	- -
 	- -
-	- if no explicit constructor is specified, then Java will automatically supply a default constructor. #space
+	- if no explicit constructor is specified, then Java will automatically supply a default constructor. #ñspace
 		- ([Location 3766](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3766))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- REMEMBER When you assign one object reference variable to another object reference variable, you are not creating a copy of the object, you are only making a copy of the reference. #space
+	- REMEMBER When you assign one object reference variable to another object reference variable, you are not creating a copy of the object, you are only making a copy of the reference. #ñspace
 		- ([Location 3796](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3796))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- A parameter is a variable defined by a method that receives a value when the method is called. For example, in square( ), i is a parameter. An argument is a value that is passed to a method when it is invoked. For example, square(100) passes 100 as an argument. Inside square( ), the parameter i receives that value. #space
+	- A parameter is a variable defined by a method that receives a value when the method is called. For example, in square( ), i is a parameter. An argument is a value that is passed to a method when it is invoked. For example, square(100) passes 100 as an argument. Inside square( ), the parameter i receives that value. #ñspace
 		- ([Location 3870](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3870))
 	- -
 	- -
-	- garbage collection. It works like this: when no references to an object exist, that object is assumed to be no longer needed, and the memory occupied by the object can be reclaimed. There is no need to explicitly destroy objects. #space
+	- garbage collection. It works like this: when no references to an object exist, that object is assumed to be no longer needed, and the memory occupied by the object can be reclaimed. There is no need to explicitly destroy objects. #ñspace
 		- ([Location 3951](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3951))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- Garbage collection only occurs sporadically (if at all) during the execution of your program. It will not occur simply because one or more objects exist that are no longer used. #space
+	- Garbage collection only occurs sporadically (if at all) during the execution of your program. It will not occur simply because one or more objects exist that are no longer used. #ñspace
 		- ([Location 3952](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3952))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- REMEMBER When an object reference is passed to a method, the reference itself is passed by use of call-by-value. However, since the value being passed refers to an object, the copy of that value will still refer to the same object that its corresponding argument does. #space
+	- REMEMBER When an object reference is passed to a method, the reference itself is passed by use of call-by-value. However, since the value being passed refers to an object, the copy of that value will still refer to the same object that its corresponding argument does. #ñspace
 		- ([Location 4086](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4086))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- When no access modifier is used, then by default the member of a class is public within its own package, but cannot be accessed outside of its package. #space
+	- When no access modifier is used, then by default the member of a class is public within its own package, but cannot be accessed outside of its package. #ñspace
 		- ([Location 4151](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4151))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- If you need to do computation in order to initialize your static variables, you can declare a static block that gets executed exactly once, when the class is first loaded. The following example shows a class that has a static method, some static variables, and a static initialization block: #space
+	- If you need to do computation in order to initialize your static variables, you can declare a static block that gets executed exactly once, when the class is first loaded. The following example shows a class that has a static method, some static variables, and a static initialization block: #ñspace
 		- ([Location 4193](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4193))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- In addition to fields, both method parameters and local variables can be declared final. Declaring a parameter final prevents it from being changed within the method. Declaring a local variable final prevents it from being assigned a value more than once. #space
+	- In addition to fields, both method parameters and local variables can be declared final. Declaring a parameter final prevents it from being changed within the method. Declaring a local variable final prevents it from being assigned a value more than once. #ñspace
 		- ([Location 4220](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4220))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- System.out.println("This is a String, too"); the string "This is a String, too" is a String object. #space
+	- System.out.println("This is a String, too"); the string "This is a String, too" is a String object. #ñspace
 		- ([Location 4279](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4279))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- boolean equals(secondStr) int length( ) char charAt(index) #space
+	- boolean equals(secondStr) int length( ) char charAt(index) #ñspace
 		- ([Location 4300](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4300))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- static void vaTest(int ... v) { #space
+	- static void vaTest(int ... v) { #ñspace
 		- ([Location 4340](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4340))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- super(arg-list); #space
+	- super(arg-list); #ñspace
 		- ([Location 4492](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4492))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- super.member #space
+	- super.member #ñspace
 		- ([Location 4520](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4520))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- constructors complete their execution in order of derivation, from superclass to subclass. #space
+	- constructors complete their execution in order of derivation, from superclass to subclass. #ñspace
 		- ([Location 4555](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4555))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- Dynamic, run-time polymorphism is one of the most powerful mechanisms that object-oriented design brings to bear on code reuse and robustness. The ability of existing code libraries to call methods on instances of new classes without recompiling while maintaining a clean abstract interface is a profoundly powerful tool. #space
+	- Dynamic, run-time polymorphism is one of the most powerful mechanisms that object-oriented design brings to bear on code reuse and robustness. The ability of existing code libraries to call methods on instances of new classes without recompiling while maintaining a clean abstract interface is a profoundly powerful tool. #ñspace
 		- ([Location 4618](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4618))
 	- -
 	- -
-	- Consider the class Triangle. It has no meaning if area( ) is not defined. In this case, you want some way to ensure that a subclass does, indeed, override all necessary methods. Java’s solution to this problem is the abstract method. #space
+	- Consider the class Triangle. It has no meaning if area( ) is not defined. In this case, you want some way to ensure that a subclass does, indeed, override all necessary methods. Java’s solution to this problem is the abstract method. #ñspace
 		- ([Location 4642](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4642))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- abstract type name(parameter-list); #space
+	- abstract type name(parameter-list); #ñspace
 		- ([Location 4647](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4647))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- Any class that contains one or more abstract methods must also be declared abstract. #space
+	- Any class that contains one or more abstract methods must also be declared abstract. #ñspace
 		- ([Location 4648](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4648))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- To disallow a method from being overridden, specify final as a modifier at the start of its declaration. Methods declared as final cannot be overridden. #space
+	- To disallow a method from being overridden, specify final as a modifier at the start of its declaration. Methods declared as final cannot be overridden. #ñspace
 		- ([Location 4675](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4675))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- Sometimes you will want to prevent a class from being inherited. To do this, precede the class declaration with final. #space
+	- Sometimes you will want to prevent a class from being inherited. To do this, precede the class declaration with final. #ñspace
 		- ([Location 4685](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4685))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- java mypack.AccountBalance #space
+	- java mypack.AccountBalance #ñspace
 		- ([Location 4782](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4782))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- AccountBalance must be qualified with its package name. #space
+	- AccountBalance must be qualified with its package name. #ñspace
 		- ([Location 4786](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4786))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- When a member does not have an explicit access specification, it is visible to subclasses as well as to other classes in the same package. This is the default access. #space
+	- When a member does not have an explicit access specification, it is visible to subclasses as well as to other classes in the same package. This is the default access. #ñspace
 		- ([Location 4803](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4803))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- REMEMBER When you implement an interface method, it must be declared as public. #space
+	- REMEMBER When you implement an interface method, it must be declared as public. #ñspace
 		- ([Location 4917](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4917))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- If a class includes an interface but does not fully implement the methods required by that interface, then that class must be declared as abstract. #space
+	- If a class includes an interface but does not fully implement the methods required by that interface, then that class must be declared as abstract. #ñspace
 		- ([Location 4942](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4942))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- Variables in Interfaces #space
+	- Variables in Interfaces #ñspace
 		- ([Location 4982](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4982))
 	- -
 	- -
-	- Here is the output of a sample run of this program. Note that the results are different each time it is run. #space
+	- Here is the output of a sample run of this program. Note that the results are different each time it is run. #ñspace
 		- ([Location 4994](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4994))
 	- -
 	- -
-	- A key point to understand about generic types is that a reference of one specific version of a generic type is not type compatible with another version of the same generic type. #space
+	- A key point to understand about generic types is that a reference of one specific version of a generic type is not type compatible with another version of the same generic type. #ñspace
 		- ([Location 6984](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=6984))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- You can remove all elements except those of a specified group by calling retainAll( ). #space
+	- You can remove all elements except those of a specified group by calling retainAll( ). #ñspace
 		- ([Location 9445](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9445))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- To remove an element only if it statisfies some condition, you can use removeIf( ). #space
+	- To remove an element only if it statisfies some condition, you can use removeIf( ). #ñspace
 		- ([Location 9446](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9446))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- The toArray( ) methods return an array that contains the elements stored in the collection. The first returns an array of Object. The second returns an array of elements that have the same type as the array specified as a parameter. #space
+	- The toArray( ) methods return an array that contains the elements stored in the collection. The first returns an array of Object. The second returns an array of elements that have the same type as the array specified as a parameter. #ñspace
 		- ([Location 9450](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9450))
 	- -
 	- -
-	- You can obtain a sublist of a list by calling subList( ), #space
+	- You can obtain a sublist of a list by calling subList( ), #ñspace
 		- ([Location 9480](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9480))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- One way to sort a list is with the sort( ) method defined by List. #space
+	- One way to sort a list is with the sort( ) method defined by List. #ñspace
 		- ([Location 9481](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9481))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- Each version returns an unmodifiable, value-based collection that is comprised of the arguments that it is passed. #space
+	- Each version returns an unmodifiable, value-based collection that is comprised of the arguments that it is passed. #ñspace
 		- ([Location 9483](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9483))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- static <E> List<E> of( ) #space
+	- static <E> List<E> of( ) #ñspace
 		- ([Location 9485](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9485))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- static <E> List<E> of(E ... objs) #space
+	- static <E> List<E> of(E ... objs) #ñspace
 		- ([Location 9489](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9489))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- Beginning with JDK 10, Set includes the static copyOf( ) method shown here: static <E> Set<E> copyOf(Collection <? extends E> from) It returns a set that contains the same elements as from. Null values are not allowed. The returned set is unmodifiable. #space
+	- Beginning with JDK 10, Set includes the static copyOf( ) method shown here: static <E> Set<E> copyOf(Collection <? extends E> from) It returns a set that contains the same elements as from. Null values are not allowed. The returned set is unmodifiable. #ñspace
 		- ([Location 9505](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9505))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- The SortedSet interface extends Set and declares the behavior of a set sorted in ascending order. #space
+	- The SortedSet interface extends Set and declares the behavior of a set sorted in ascending order. #ñspace
 		- ([Location 9509](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9509))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- The NavigableSet interface extends SortedSet and declares the behavior of a collection that supports the retrieval of elements based on the closest match to a given value or values. #space
+	- The NavigableSet interface extends SortedSet and declares the behavior of a collection that supports the retrieval of elements based on the closest match to a given value or values. #ñspace
 		- ([Location 9522](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9522))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- there are two methods that obtain and remove elements: poll( ) and remove( ). The difference between them is that poll( ) returns null if the queue is empty, but remove( ) throws an exception. #space
+	- there are two methods that obtain and remove elements: poll( ) and remove( ). The difference between them is that poll( ) returns null if the queue is empty, but remove( ) throws an exception. #ñspace
 		- ([Location 9542](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9542))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- there are two methods, element( ) and peek( ), that obtain but don’t remove the element at the head of the queue. They differ only in that element( ) throws an exception if the queue is empty, but peek( ) returns null. #space
+	- there are two methods, element( ) and peek( ), that obtain but don’t remove the element at the head of the queue. They differ only in that element( ) throws an exception if the queue is empty, but peek( ) returns null. #ñspace
 		- ([Location 9544](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9544))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- notice that offer( ) only attempts to add an element to a queue. #space
+	- notice that offer( ) only attempts to add an element to a queue. #ñspace
 		- ([Location 9546](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9546))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- Double-ended queues can function as standard, first-in, first-out queues or as last-in, first-out stacks. Deque is a generic interface that has this declaration: interface Deque<E> #space
+	- Double-ended queues can function as standard, first-in, first-out queues or as last-in, first-out stacks. Deque is a generic interface that has this declaration: interface Deque<E> #ñspace
 		- ([Location 9549](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9549))
 	- -
 	- -
-	- Notice that Deque includes the methods push( ) and pop( ). These methods enable a Deque to function as a stack. #space
+	- Notice that Deque includes the methods push( ) and pop( ). These methods enable a Deque to function as a stack. #ñspace
 		- ([Location 9559](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9559))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- <T> T[ ] toArray(T array[ ]) #space
+	- <T> T[ ] toArray(T array[ ]) #ñspace
 		- ([Location 9618](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9618))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- TreeSet extends AbstractSet and implements the NavigableSet interface. It creates a collection that uses a tree for storage. Objects are stored in sorted, ascending order. Access and retrieval times are quite fast, which makes TreeSet an excellent choice when storing large amounts of sorted information that must be found quickly. #space
+	- TreeSet extends AbstractSet and implements the NavigableSet interface. It creates a collection that uses a tree for storage. Objects are stored in sorted, ascending order. Access and retrieval times are quite fast, which makes TreeSet an excellent choice when storing large amounts of sorted information that must be found quickly. #ñspace
 		- ([Location 9683](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9683))
 	- -

@@ -9,19 +9,19 @@ tags:: #[[Self-Help]]
 - ![](https://images-na.ssl-images-amazon.com/images/I/51scQUjqgjL._SL200_.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- pecar significa no acertar con el sentido de la existencia humana. Significa vivir torpemente, ciegamente, y como consecuencia sufrir y causar sufrimientos. Una vez más, la palabra, despojada de su bagaje cultural y sus malas interpretaciones, señala la disfunción inherente en la condición humana. #space
+	- pecar significa no acertar con el sentido de la existencia humana. Significa vivir torpemente, ciegamente, y como consecuencia sufrir y causar sufrimientos. Una vez más, la palabra, despojada de su bagaje cultural y sus malas interpretaciones, señala la disfunción inherente en la condición humana. #ñspace
 		- ([Location 111](https://readwise.io/to_kindle?action=open&asin=B0062XCI36&location=111))
 	- -
 	- -
-	- Tuve que llegar al borde del suicidio antes de que la conciencia regresara, y entonces fue mucho más que un atisbo. Me libré del pensamiento compulsivo y el falso yo creado por la mente. #space
+	- Tuve que llegar al borde del suicidio antes de que la conciencia regresara, y entonces fue mucho más que un atisbo. Me libré del pensamiento compulsivo y el falso yo creado por la mente. #ñspace
 		- ([Location 382](https://readwise.io/to_kindle?action=open&asin=B0062XCI36&location=382))
 	- -
 	- -
-	- Es la misma disfunción que presenta la célula cancerosa, cuyo único objetivo es multiplicarse, inconsciente de que está provocando su propia destrucción al destruir el organismo del que forma parte. #space
+	- Es la misma disfunción que presenta la célula cancerosa, cuyo único objetivo es multiplicarse, inconsciente de que está provocando su propia destrucción al destruir el organismo del que forma parte. #ñspace
 		- ([Location 428](https://readwise.io/to_kindle?action=open&asin=B0062XCI36&location=428))
 	- -
 	- -
-	- Por encima de todo, debes saber que el ego no es personal. No es quien tú eres. Si consideras que el ego es tu problema personal, eso es solo más ego. #space
+	- Por encima de todo, debes saber que el ego no es personal. No es quien tú eres. Si consideras que el ego es tu problema personal, eso es solo más ego. #ñspace
 		- ([Location 484](https://readwise.io/to_kindle?action=open&asin=B0062XCI36&location=484))
 	- -
 	- -
@@ -31,7 +31,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- El ego se identifica con tener, pero su satisfacción al tener es relativamente poco profunda y dura poco. Oculta en su interior sigue habiendo una arraigada sensación de insatisfacción, de no estar completo, de «no es bastante». «Todavía no tengo suficiente» para el ego significa «todavía no soy suficiente». #space
+	- El ego se identifica con tener, pero su satisfacción al tener es relativamente poco profunda y dura poco. Oculta en su interior sigue habiendo una arraigada sensación de insatisfacción, de no estar completo, de «no es bastante». «Todavía no tengo suficiente» para el ego significa «todavía no soy suficiente». #ñspace
 		- ([Location 531](https://readwise.io/to_kindle?action=open&asin=B0062XCI36&location=531))
 		- #[[mind]]
 	- -

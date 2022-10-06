@@ -14,15 +14,15 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 5)
 	- -
 	- -
-	-   La metodología Scrum indica que no se puede iniciar un proyecto sin definir lo que será el hecho, Done, de los requisitos. #space
+	-   La metodología Scrum indica que no se puede iniciar un proyecto sin definir lo que será el hecho, Done, de los requisitos. #ñspace
 		- (Page 6)
 	- -
 	- -
-	- La definición de listo, Ready, marca el momento de salida para un requisito, iteración o proyecto. #space
+	- La definición de listo, Ready, marca el momento de salida para un requisito, iteración o proyecto. #ñspace
 		- (Page 8)
 	- -
 	- -
-	- La primera iteración del proyecto se denomina cero, pues no implementa puntos de historia, es decir, no se implementa una funcionalidad (puede haber proyectos donde se incluya y otros donde no), según Solving Ad Hoc (2018). Esta iteración respecta el Timebox  de  todas  las  iteraciones,  con  velocidad  cero,  ya  que  no  entrega  ningún requisito que genere valor de negocio. #space
+	- La primera iteración del proyecto se denomina cero, pues no implementa puntos de historia, es decir, no se implementa una funcionalidad (puede haber proyectos donde se incluya y otros donde no), según Solving Ad Hoc (2018). Esta iteración respecta el Timebox  de  todas  las  iteraciones,  con  velocidad  cero,  ya  que  no  entrega  ningún requisito que genere valor de negocio. #ñspace
 		- (Page 10)
 	- -
 	- -

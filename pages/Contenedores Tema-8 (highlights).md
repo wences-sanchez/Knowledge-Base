@@ -49,7 +49,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 15)
 	- -
 	- -
-	- ... spec: ... template: spec: nodeSelector: disk: ssd containers: - name: main image: ssd-monitor-image #space
+	- ... spec: ... template: spec: nodeSelector: disk: ssd containers: - name: main image: ssd-monitor-image #ñspace
 		- (Page 16)
 	- -
 	- -
@@ -58,11 +58,11 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- Aunque todos Pods tengan una dirección IP única, esta no será expuesta al exterior a menos  que  sea a través  de un  Servicio.  La  manera  en  que  los Pods  son  expuestos dependen del tipo de servicio que utilicemos:   ClusteIP: es el tipo por defecto y expone el servicio en una dirección IP interna del clúster, por lo que solamente será accesible desde dentro del clúster.   NodePort: expone el servicio fuera del clúster a través de la dirección IP de cada nodo, utilizando el mismo puerto en cada uno de ellos.   LoadBalancer: creará un balanceador de carga externo en el proveedor de nube utilizado  y  se  asignará  una  dirección  IP  fija  al  servicio.  En  caso  de  no  estar soportado en la nube, actuará como el tipo NodePort. #space
+	- Aunque todos Pods tengan una dirección IP única, esta no será expuesta al exterior a menos  que  sea a través  de un  Servicio.  La  manera  en  que  los Pods  son  expuestos dependen del tipo de servicio que utilicemos:   ClusteIP: es el tipo por defecto y expone el servicio en una dirección IP interna del clúster, por lo que solamente será accesible desde dentro del clúster.   NodePort: expone el servicio fuera del clúster a través de la dirección IP de cada nodo, utilizando el mismo puerto en cada uno de ellos.   LoadBalancer: creará un balanceador de carga externo en el proveedor de nube utilizado  y  se  asignará  una  dirección  IP  fija  al  servicio.  En  caso  de  no  estar soportado en la nube, actuará como el tipo NodePort. #ñspace
 		- (Page 19)
 	- -
 	- -
-	-   ExternalName:  expone  el  servicio  a  través  de  un  nombre  especificado  en  la definición, asociándolo con un nombre de dominio mediante un registro CNAME. #space
+	-   ExternalName:  expone  el  servicio  a  través  de  un  nombre  especificado  en  la definición, asociándolo con un nombre de dominio mediante un registro CNAME. #ñspace
 		- (Page 20)
 	- -
 	- -
@@ -71,11 +71,11 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 24)
 	- -
 	- -
-	- Al crear un servicio de tipo LoadBalancer, se creará un balanceador de carga con su propia IP pública, el cual distribuirá las peticiones recibidas a las IP públicas de todos los nodos. En caso de que nuestro clúster este ejecutándose en un entorno que no soporta balanceadores de carga, el servicio se comportará exactamente igual que el tipo NodePort. #space
+	- Al crear un servicio de tipo LoadBalancer, se creará un balanceador de carga con su propia IP pública, el cual distribuirá las peticiones recibidas a las IP públicas de todos los nodos. En caso de que nuestro clúster este ejecutándose en un entorno que no soporta balanceadores de carga, el servicio se comportará exactamente igual que el tipo NodePort. #ñspace
 		- (Page 24)
 	- -
 	- -
-	- Los  servicios  de  tipo  ExternalName  nos  permiten  crear  un  alias  para  un  servicio externo  al  clúster.  En  este  tipo  de  servicios  no  utilizaremos  ningún  selector  ni obtendrán ninguna dirección IP del clúster. Simplemente mapearán el nombre del servicio con un DNS externo, el cual se especificará como un registro CNAME en la definición YAML. #space
+	- Los  servicios  de  tipo  ExternalName  nos  permiten  crear  un  alias  para  un  servicio externo  al  clúster.  En  este  tipo  de  servicios  no  utilizaremos  ningún  selector  ni obtendrán ninguna dirección IP del clúster. Simplemente mapearán el nombre del servicio con un DNS externo, el cual se especificará como un registro CNAME en la definición YAML. #ñspace
 		- (Page 26)
 	- -
 	- -

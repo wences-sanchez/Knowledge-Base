@@ -15,5 +15,5 @@ url:: https://stackoverflow.com/questions/452300/python-object-repr-self-should-
 	  
 	  The output is a string that can be parsed by the python interpreter and results in an equal object.
 	  
-	  If that's not possible, it should return a string in the form of <...some useful description...>. #space
+	  If that's not possible, it should return a string in the form of <...some useful description...>. #ñspace
 	- -

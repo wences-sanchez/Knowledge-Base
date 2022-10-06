@@ -21,7 +21,7 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- La orientación al producto se refiere a la necesidad de que un equipo que acude al Dojo  adopte,  si  no  lo  ha  hecho  ya,  una  orientación  al  producto  en  lugar  de  una orientación al proyecto. Esta orientación implica que el equipo esté preparado para resolver,  crear  y  construir  soluciones  que  puedan  satisfacer  una  necesidad  de negocio. #space
+	- La orientación al producto se refiere a la necesidad de que un equipo que acude al Dojo  adopte,  si  no  lo  ha  hecho  ya,  una  orientación  al  producto  en  lugar  de  una orientación al proyecto. Esta orientación implica que el equipo esté preparado para resolver,  crear  y  construir  soluciones  que  puedan  satisfacer  una  necesidad  de negocio. #ñspace
 		- (Page 8)
 	- -
 	- -
@@ -30,11 +30,11 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- Los equipos que, generalmente, se benefician más de la experiencia del Dojo tienen estas características:   Un equipo multidisciplinar completo, un equipo de «dos pizzas» (ocho personas).   Equipos que trabajan físicamente juntos (más adelante, en el tema, se analizan otras opciones para cuando esto no sea factible).   Equipos que sean capaces de comprometerse, al menos, seis horas al día por un período de cuatro a ocho semanas consecutivas.   Individuos  que  puedan  comprometerse  con  el  aprendizaje  y  que  combinen  la vocación Ágil con el foco en el producto y la tecnología. #space
+	- Los equipos que, generalmente, se benefician más de la experiencia del Dojo tienen estas características:   Un equipo multidisciplinar completo, un equipo de «dos pizzas» (ocho personas).   Equipos que trabajan físicamente juntos (más adelante, en el tema, se analizan otras opciones para cuando esto no sea factible).   Equipos que sean capaces de comprometerse, al menos, seis horas al día por un período de cuatro a ocho semanas consecutivas.   Individuos  que  puedan  comprometerse  con  el  aprendizaje  y  que  combinen  la vocación Ágil con el foco en el producto y la tecnología. #ñspace
 		- (Page 18)
 	- -
 	- -
-	- Las  organizaciones  también  pueden  fijarse  en  las  métricas  de  rendimiento  para decidir que un equipo está listo para una experiencia de Dojo:   Velocidad del equipo.   Frecuencia de despliegue.   Tiempo medio de recuperación (en siglas, MTTR). Resulta  útil  tener  una  métrica  que  sirva  de  base  para  medir  el  desempeño  de  los equipos antes de demostrar cómo evolucionan esas métricas durante la experiencia en  el  Dojo  y  una  vez  que  este  acaba.  A  medida  que  los  equipos  avanzan,  es recomendable  incorporar  métricas  orientadas  al  valor  de  los  productos  que  están construyendo, de modo que puedan asegurar que el mejor rendimiento se canaliza hacia los mejores negocios y clientes. #space
+	- Las  organizaciones  también  pueden  fijarse  en  las  métricas  de  rendimiento  para decidir que un equipo está listo para una experiencia de Dojo:   Velocidad del equipo.   Frecuencia de despliegue.   Tiempo medio de recuperación (en siglas, MTTR). Resulta  útil  tener  una  métrica  que  sirva  de  base  para  medir  el  desempeño  de  los equipos antes de demostrar cómo evolucionan esas métricas durante la experiencia en  el  Dojo  y  una  vez  que  este  acaba.  A  medida  que  los  equipos  avanzan,  es recomendable  incorporar  métricas  orientadas  al  valor  de  los  productos  que  están construyendo, de modo que puedan asegurar que el mejor rendimiento se canaliza hacia los mejores negocios y clientes. #ñspace
 		- (Page 19)
 	- -
 	- -

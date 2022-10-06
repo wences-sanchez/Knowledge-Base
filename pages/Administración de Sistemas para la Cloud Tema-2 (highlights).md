@@ -44,11 +44,11 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 14)
 	- -
 	- -
-	- ssh-copy-id -i ./security_key.pub <usuario>@<equipo_remoto> #space
+	- ssh-copy-id -i ./security_key.pub <usuario>@<equipo_remoto> #ñspace
 		- (Page 14)
 	- -
 	- -
-	- A  partir  de  ese  momento,  ya  es  posible  conectarse  indicando  el  fichero  de  clave privada.  El  cliente  solicitará  la  clave  del  fichero,  pero  no  hace  falta  indicar  la contraseña del usuario: ssh -i ./security_key <usuario>@<equipo_remoto> #space
+	- A  partir  de  ese  momento,  ya  es  posible  conectarse  indicando  el  fichero  de  clave privada.  El  cliente  solicitará  la  clave  del  fichero,  pero  no  hace  falta  indicar  la contraseña del usuario: ssh -i ./security_key <usuario>@<equipo_remoto> #ñspace
 		- (Page 15)
 	- -
 	- -

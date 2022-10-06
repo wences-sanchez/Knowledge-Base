@@ -26,14 +26,14 @@ tags:: #[[O'Reilly-Learning]]
 			- A well-proven technique for fixing bugs is restraining oneself from rushing ahead to implement a fix, and first writing a test that’ll fail because of the bug’s presence. In the absence of the bug, that test would pass. Once the test is in place, the bug is fixed. If the fix is correct, the test passes.
 		- -
 		- -
-		- performed by developers in a cross-functional team #space
+		- performed by developers in a cross-functional team #ñspace
 		- -
 		- -
-		- Therefore, this book recurrently returns to the topic of collaboration between team members who are better at writing the code and team members who are better at testing it. #space
+		- Therefore, this book recurrently returns to the topic of collaboration between team members who are better at writing the code and team members who are better at testing it. #ñspace
 		- -
 	- Chapter 2. Testing Objectives, Styles, and Roles
 		- -
-		- By now it should be obvious that developer testing, as described in this book, is testing meant to support. #space
+		- By now it should be obvious that developer testing, as described in this book, is testing meant to support. #ñspace
 		- -
 		- -
 		- About the Tester role in Agile #card
@@ -49,35 +49,35 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 	- Chapter 3. The Testing Vocabulary
 		- -
-		- All developers sometimes make mistakes. These are known as errors in the language of testing. #space
+		- All developers sometimes make mistakes. These are known as errors in the language of testing. #ñspace
 		- -
 		- -
-		- Errors lead to defects in the software #space
+		- Errors lead to defects in the software #ñspace
 		- -
 		- -
-		- Defects/bugs may lead to software failures. Not all of them do, though. A defect in code that’s never executed won’t cause a failure. #space
+		- Defects/bugs may lead to software failures. Not all of them do, though. A defect in code that’s never executed won’t cause a failure. #ñspace
 		- -
 		- -
 		- What are system tests? #card
 			- Systems are made up of finished and integrated building blocks. They may be components or other systems. System testing is the activity of verifying that the entire system works. System tests are often executed from a black box perspective
 		- -
 		- -
-		- He suggested defining a component’s behavior as the outcome produced by its functionality under certain preconditions. #space
+		- He suggested defining a component’s behavior as the outcome produced by its functionality under certain preconditions. #ñspace
 		- -
 		- -
-		- FIGURE 3.3 Agile Testing Quadrants as presented in the book More Agile Testing by Lisa Crispin and Janet Gregory (2014). #space
+		- FIGURE 3.3 Agile Testing Quadrants as presented in the book More Agile Testing by Lisa Crispin and Janet Gregory (2014). #ñspace
 		- -
 		- -
 		- What are negative tests? #card
 			- The purpose of negative testing is to verify that the system behaves correctly if supplied with invalid values and that it doesn’t generate any unexpected results. What outcome to expect depends on the test level. At the system level, we generally want the system to “do the right thing”: either reject the faulty input in a user-friendly manner, or recover somehow. At the unit level, throwing an exception may be the right thing to do. For example, if a function exercised with a unit test expects a positive number and throws an IllegalArgumentException or ArgumentOutOfRangeException in a negative test that may be fine. What’s important is that the developer has anticipated the scenario.
 		- -
 		- -
-		- Integration tests verify that components/systems can talk to each other, but sometimes the term is used to describe tests that are somewhere between unit tests and system tests. #space
+		- Integration tests verify that components/systems can talk to each other, but sometimes the term is used to describe tests that are somewhere between unit tests and system tests. #ñspace
 		- -
 	- Chapter 4. Testability from a Developer’s Perspective
 		- -
-		- However, estimating progress for software that has no tests (because of poor testability) ranges between best guesses and wishful thinking. A developer who believes he is “95 percent finished” with a feature has virtually no way of telling what fraction of seemingly unrelated functionality he has broken along the way and how much time it’ll take to fix these regressions and the remaining “5 percent”. A suite of tests makes this situation more manageable. Again, if the feature is supposedly “95 percent finished” and all tests for the new functionality pass, as well as those that exercise the rest of the system, the estimate is much more credible. Now the uncertainty is reduced to potential surprises in the remaining work, not to random regressions that may pop up anywhere in the system #space
+		- However, estimating progress for software that has no tests (because of poor testability) ranges between best guesses and wishful thinking. A developer who believes he is “95 percent finished” with a feature has virtually no way of telling what fraction of seemingly unrelated functionality he has broken along the way and how much time it’ll take to fix these regressions and the remaining “5 percent”. A suite of tests makes this situation more manageable. Again, if the feature is supposedly “95 percent finished” and all tests for the new functionality pass, as well as those that exercise the rest of the system, the estimate is much more credible. Now the uncertainty is reduced to potential surprises in the remaining work, not to random regressions that may pop up anywhere in the system #ñspace
 		- -
 		- -
-		- Changing software that has no tests makes the average developer uncomfortable and afraid (and it should). Fear is easily observed in code. It manifests itself as duplication—the safe way to avoid breaking something that works. #space
+		- Changing software that has no tests makes the average developer uncomfortable and afraid (and it should). Fear is easily observed in code. It manifests itself as duplication—the safe way to avoid breaking something that works. #ñspace
 		- -

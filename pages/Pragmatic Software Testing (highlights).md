@@ -9,11 +9,11 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- Introduction
 		- -
-		- but in reality, most of our work as test professionals is constrained by time (and often money) too. For this reason, I suggest time constraints for each exercise #space
+		- but in reality, most of our work as test professionals is constrained by time (and often money) too. For this reason, I suggest time constraints for each exercise #ñspace
 		- -
 	- 1. What Does It Mean to Be Pragmatic?
 		- -
-		- On most projects I’ve worked on, I’ve typically wanted to do the following: #space
+		- On most projects I’ve worked on, I’ve typically wanted to do the following: #ñspace
 		- -
 		- -
 		- What does ‘effective' mean? #card

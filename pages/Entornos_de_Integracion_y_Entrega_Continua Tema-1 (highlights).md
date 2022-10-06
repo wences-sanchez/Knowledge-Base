@@ -20,7 +20,7 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 		- (Page 12)
 	- -
 	- -
-	- La integración continua, según Fowler (2007) es: «Una metodología de desarrollo de software en la que los miembros de un equipo integran su trabajo de manera frecuente, incluso varias veces al día, por lo que el trabajo de todo el equipo se integra múltiples veces al día. Cada integración se verifica con una construcción y pruebas automáticas para detectar errores tan pronto como sea posible». #space
+	- La integración continua, según Fowler (2007) es: «Una metodología de desarrollo de software en la que los miembros de un equipo integran su trabajo de manera frecuente, incluso varias veces al día, por lo que el trabajo de todo el equipo se integra múltiples veces al día. Cada integración se verifica con una construcción y pruebas automáticas para detectar errores tan pronto como sea posible». #ñspace
 		- (Page 15)
 	- -
 	- -

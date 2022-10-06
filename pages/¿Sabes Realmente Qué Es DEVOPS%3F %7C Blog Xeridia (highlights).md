@@ -18,6 +18,6 @@ url:: https://www.xeridia.com/blog/sabes-realmente-que-es-devops
 		- ([View Highlight](https://instapaper.com/read/1436144907/17176464))
 	- -
 	- -
-	- «El objetivo final de DevOps es minimizar el riesgo de los cambios que se producen en las entregas y dar así un mayor valor tanto a los clientes como al propio negocio« #space
+	- «El objetivo final de DevOps es minimizar el riesgo de los cambios que se producen en las entregas y dar así un mayor valor tanto a los clientes como al propio negocio« #ñspace
 		- ([View Highlight](https://instapaper.com/read/1436144907/17176466))
 	- -

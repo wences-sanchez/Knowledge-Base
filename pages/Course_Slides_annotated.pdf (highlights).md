@@ -15,7 +15,7 @@ category:: #books
 		- (Page 13)
 	- -
 	- -
-	- Dev and Ops share the same goals #space
+	- Dev and Ops share the same goals #ñspace
 		- (Page 14)
 	- -
 	- -
@@ -44,7 +44,7 @@ category:: #books
 		- (Page 35)
 	- -
 	- -
-	- Regardless of whether or not the decision is made to deploy, the code is always in a state that is able to be deployed. #space
+	- Regardless of whether or not the decision is made to deploy, the code is always in a state that is able to be deployed. #ñspace
 		- (Page 35)
 	- -
 	- -
@@ -68,7 +68,7 @@ category:: #books
 		- (Page 40)
 	- -
 	- -
-	- Infrastructure as Code (IaC): manage and provision infrastructure through code and automation. #space
+	- Infrastructure as Code (IaC): manage and provision infrastructure through code and automation. #ñspace
 		- (Page 40)
 	- -
 	- -

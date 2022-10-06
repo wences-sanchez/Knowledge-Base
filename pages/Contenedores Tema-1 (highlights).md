@@ -25,23 +25,23 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- En resumen, los contenedores comparten los recursos subyacentes del host sobre el que  se  ejecutan.  Además,  los  desarrolladores  construyen  una  imagen  que  incluye exactamente lo que necesitan para ejecutar su aplicación o servicio, comenzando por lo básico y agregando solo lo necesario. #space
+	- En resumen, los contenedores comparten los recursos subyacentes del host sobre el que  se  ejecutan.  Además,  los  desarrolladores  construyen  una  imagen  que  incluye exactamente lo que necesitan para ejecutar su aplicación o servicio, comenzando por lo básico y agregando solo lo necesario. #ñspace
 		- (Page 9)
 	- -
 	- -
-	- Las  máquinas  virtuales  se  construyen  en  la  dirección  opuesta,  se  empieza  por  un sistema  operativo  completo  y,  dependiendo  de  las  necesidades  de  aplicación,  se añadirán o eliminarán componentes. #space
+	- Las  máquinas  virtuales  se  construyen  en  la  dirección  opuesta,  se  empieza  por  un sistema  operativo  completo  y,  dependiendo  de  las  necesidades  de  aplicación,  se añadirán o eliminarán componentes. #ñspace
 		- (Page 10)
 	- -
 	- -
-	- Podríamos resumir el proceso de esta nueva visión en tres fases:   Construir  la  imagen:  empaquetar  consistentemente  todo lo  que  nuestra aplicación necesita para ser ejecutada.   Distribuir  la  imagen:  haremos  disponible  la  imagen  para  utilizarla  en  nuestro datacenter, en la nube o en la maquina local del desarrollador.   Ejecutar la imagen: desplegar contenedores a partir de la imagen de una manera rápida, sencilla y consistente. #space
+	- Podríamos resumir el proceso de esta nueva visión en tres fases:   Construir  la  imagen:  empaquetar  consistentemente  todo lo  que  nuestra aplicación necesita para ser ejecutada.   Distribuir  la  imagen:  haremos  disponible  la  imagen  para  utilizarla  en  nuestro datacenter, en la nube o en la maquina local del desarrollador.   Ejecutar la imagen: desplegar contenedores a partir de la imagen de una manera rápida, sencilla y consistente. #ñspace
 		- (Page 11)
 	- -
 	- -
-	- Escenarios de contenedores Veamos algunos escenarios en los que los contenedores nos ayudarán. Despliegues portables y escalables Podremos  ejecutar  nuestros  contenedores  sabiendo  que  tendrán  el  mismo comportamiento en diferentes entornos, ya sea en el portátil de un desarrollador, en máquinas físicas o virtuales de nuestro datacenter, en servidores en la nube o en una combinación de ellos. La portabilidad de los contenedores y su reducido tamaño nos permiten gestionar las distintas cargas de trabajo, escalando las aplicaciones y servicios según lo exijan las necesidades casi en tiempo real. Mejor aprovechamiento del hardware disponible Los contenedores son más ligeros y rápidos al desplegarse que las máquinas virtuales, lo que nos permite ejecutar más cargas de trabajo en el mismo hardware. Trabajando con prototipos Los  contenedores  nos  ofrecen  entornos  aislados  con  los  que  podremos  probar diferentes  configuraciones  para  nuestras  aplicaciones  sin  necesidad  de  desplegar nuevas máquinas virtuales ni reconfigurar los sistemas existentes. #space
+	- Escenarios de contenedores Veamos algunos escenarios en los que los contenedores nos ayudarán. Despliegues portables y escalables Podremos  ejecutar  nuestros  contenedores  sabiendo  que  tendrán  el  mismo comportamiento en diferentes entornos, ya sea en el portátil de un desarrollador, en máquinas físicas o virtuales de nuestro datacenter, en servidores en la nube o en una combinación de ellos. La portabilidad de los contenedores y su reducido tamaño nos permiten gestionar las distintas cargas de trabajo, escalando las aplicaciones y servicios según lo exijan las necesidades casi en tiempo real. Mejor aprovechamiento del hardware disponible Los contenedores son más ligeros y rápidos al desplegarse que las máquinas virtuales, lo que nos permite ejecutar más cargas de trabajo en el mismo hardware. Trabajando con prototipos Los  contenedores  nos  ofrecen  entornos  aislados  con  los  que  podremos  probar diferentes  configuraciones  para  nuestras  aplicaciones  sin  necesidad  de  desplegar nuevas máquinas virtuales ni reconfigurar los sistemas existentes. #ñspace
 		- (Page 11)
 	- -
 	- -
-	- Empaquetando y versionando nuestro software Las imágenes de Docker nos aseguran que, al no tener dependencias con el sistema subyacente,  nuestra  aplicación  se  comportará  de  la  misma  manera  en  cualquier servidor  que  tenga  Docker  instalado.  Además,  podremos  gestionar  diferentes versiones de nuestras imágenes. Actualizando las aplicaciones Cuando lanzamos una nueva versión de nuestro software o detectamos un defecto, no  es  necesario  parchear  o  actualizar  las  aplicaciones  existentes,  simplemente distribuiremos  una  nueva imagen  con las  modificaciones  necesarias  y desplegaremos  un  nuevo  contenedor  que  reemplazará  al  actual.  El  tiempo  de despliegue de un contenedor se mide en segundos. Facilitando arquitecturas basadas en microservicios Trabajar con contenedores nos ayudará a descomponer nuestros sistemas complejos en componentes más pequeños y manejables, creando imágenes para cada uno. Modelado de redes Podremos modelar grandes redes para simular escenarios de pruebas más cercanos a los entornos de producción, ya que podremos ejecutar cientos de contenedores en un mismo servidor con la configuración necesaria. Facilitando la entrega continua Los  sistemas  basados  en  contenedores  son  más  fácilmente  reproducibles  y replicables  que  los  sistemas  tradicionales,  lo que  nos  permitirá  probar de  manera consistente nuestro código en los diferentes entornos (stage, uat, prod). #space
+	- Empaquetando y versionando nuestro software Las imágenes de Docker nos aseguran que, al no tener dependencias con el sistema subyacente,  nuestra  aplicación  se  comportará  de  la  misma  manera  en  cualquier servidor  que  tenga  Docker  instalado.  Además,  podremos  gestionar  diferentes versiones de nuestras imágenes. Actualizando las aplicaciones Cuando lanzamos una nueva versión de nuestro software o detectamos un defecto, no  es  necesario  parchear  o  actualizar  las  aplicaciones  existentes,  simplemente distribuiremos  una  nueva imagen  con las  modificaciones  necesarias  y desplegaremos  un  nuevo  contenedor  que  reemplazará  al  actual.  El  tiempo  de despliegue de un contenedor se mide en segundos. Facilitando arquitecturas basadas en microservicios Trabajar con contenedores nos ayudará a descomponer nuestros sistemas complejos en componentes más pequeños y manejables, creando imágenes para cada uno. Modelado de redes Podremos modelar grandes redes para simular escenarios de pruebas más cercanos a los entornos de producción, ya que podremos ejecutar cientos de contenedores en un mismo servidor con la configuración necesaria. Facilitando la entrega continua Los  sistemas  basados  en  contenedores  son  más  fácilmente  reproducibles  y replicables  que  los  sistemas  tradicionales,  lo que  nos  permitirá  probar de  manera consistente nuestro código en los diferentes entornos (stage, uat, prod). #ñspace
 		- (Page 12)
 	- -
 	- -
@@ -50,7 +50,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 13)
 	- -
 	- -
-	- Entrega rápida y consistente de sus aplicaciones Se optimiza el ciclo de vida del desarrollo al permitir que los desarrolladores trabajen en  entornos  estandarizados  utilizando  contenedores  locales  que  proporcionan  sus aplicaciones  y  servicios.  Los  contenedores  son  excelentes  para  la  integración continua y los flujos de trabajo de entrega continua (CI / CD). #space
+	- Entrega rápida y consistente de sus aplicaciones Se optimiza el ciclo de vida del desarrollo al permitir que los desarrolladores trabajen en  entornos  estandarizados  utilizando  contenedores  locales  que  proporcionan  sus aplicaciones  y  servicios.  Los  contenedores  son  excelentes  para  la  integración continua y los flujos de trabajo de entrega continua (CI / CD). #ñspace
 		- (Page 13)
 	- -
 	- -
@@ -59,7 +59,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 14)
 	- -
 	- -
-	- Para entender mejor la diferencia entre imágenes y contenedores podemos ver su paralelismo con un fichero ejecutable y el proceso que lo ejecuta. La imagen sería el equivalente al ejecutable y el contenedor similar a los distintos procesos que hay en ejecución del ejecutable. #space
+	- Para entender mejor la diferencia entre imágenes y contenedores podemos ver su paralelismo con un fichero ejecutable y el proceso que lo ejecuta. La imagen sería el equivalente al ejecutable y el contenedor similar a los distintos procesos que hay en ejecución del ejecutable. #ñspace
 		- (Page 14)
 	- -
 	- -

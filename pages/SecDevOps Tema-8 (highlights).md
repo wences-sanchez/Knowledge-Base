@@ -24,11 +24,11 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 6)
 	- -
 	- -
-	- Además, todos los contenedores en un  pod comparten la interfaz de red de bucle invertido  (el  loopback),  por  lo  que  un  contenedor  puede  comunicarse  con  otros contenedores en el mismo pod a través de localhost. #space
+	- Además, todos los contenedores en un  pod comparten la interfaz de red de bucle invertido  (el  loopback),  por  lo  que  un  contenedor  puede  comunicarse  con  otros contenedores en el mismo pod a través de localhost. #ñspace
 		- (Page 6)
 	- -
 	- -
-	- mismo servicio. Un  servicio,  o  service,  de  Kubernetes  es  un  recurso  que  crea  un  único  punto  de entrada  permanente  para  un  pod,  o  para  un  grupo  de  pods,  que  proporcionan  el Cada servicio tiene una dirección IP y un puerto que nunca cambian durante la vida del servicio. Los clientes pueden abrir conexiones a esa IP y puerto, y esas conexiones se enrutan a uno de los pods que respaldan ese servicio. De esta manera, los clientes de  un  servicio  no  necesitan  conocer  la  ubicación,  ni  las  direcciones,  de  los  pods individuales que brindan el servicio, lo que facilita su mantenimiento. #space
+	- mismo servicio. Un  servicio,  o  service,  de  Kubernetes  es  un  recurso  que  crea  un  único  punto  de entrada  permanente  para  un  pod,  o  para  un  grupo  de  pods,  que  proporcionan  el Cada servicio tiene una dirección IP y un puerto que nunca cambian durante la vida del servicio. Los clientes pueden abrir conexiones a esa IP y puerto, y esas conexiones se enrutan a uno de los pods que respaldan ese servicio. De esta manera, los clientes de  un  servicio  no  necesitan  conocer  la  ubicación,  ni  las  direcciones,  de  los  pods individuales que brindan el servicio, lo que facilita su mantenimiento. #ñspace
 		- (Page 11)
 	- -
 	- -
@@ -67,7 +67,7 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- Los pods reciben una IP de una única subred en todo el clúster, al margen del número de nodos que lo compongan. Los pods pueden comunicarse entre sí sin restricciones. Esto  puede no  ser  relevante  si  el  clúster  está dedicado  a  una  única  aplicación  y  la seguridad de red está correctamente aplicada en los servicios expuestos al exterior. En clústeres compartidos (o multi-tenant), esto puede no ser deseable. Para aplicar reglas de seguridad, en la red interna, hay que usar recursos de tipo NetworkPolicy. #space
+	- Los pods reciben una IP de una única subred en todo el clúster, al margen del número de nodos que lo compongan. Los pods pueden comunicarse entre sí sin restricciones. Esto  puede no  ser  relevante  si  el  clúster  está dedicado  a  una  única  aplicación  y  la seguridad de red está correctamente aplicada en los servicios expuestos al exterior. En clústeres compartidos (o multi-tenant), esto puede no ser deseable. Para aplicar reglas de seguridad, en la red interna, hay que usar recursos de tipo NetworkPolicy. #ñspace
 		- (Page 18)
 	- -
 	- -
@@ -76,6 +76,6 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 23)
 	- -
 	- -
-	- Si bien Kubernetes usa nombres de usuario para las decisiones de control de acceso, no almacena nombres de cuenta ni ninguna otra información sobre los usuarios #space
+	- Si bien Kubernetes usa nombres de usuario para las decisiones de control de acceso, no almacena nombres de cuenta ni ninguna otra información sobre los usuarios #ñspace
 		- (Page 23)
 	- -

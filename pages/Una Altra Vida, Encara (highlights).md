@@ -11,7 +11,7 @@ category:: #books
 	  
 	  Aquesta va ser l'última conversa entre tots -ho. Es va dos.
 	  
-	  Confio que el lector no en traurà la conclusió que em vaig empipar o que em vaig sentir desillusionat. Ben al contrari. Només em vaig preguntar per què jo no era així. Per què evito, tant com puc, enutjar algú o negarli un favor. #space
+	  Confio que el lector no en traurà la conclusió que em vaig empipar o que em vaig sentir desillusionat. Ben al contrari. Només em vaig preguntar per què jo no era així. Per què evito, tant com puc, enutjar algú o negarli un favor. #ñspace
 		- (Page 12)
 	- -
 	- -
@@ -23,10 +23,10 @@ category:: #books
 	  
 	  Tenia ganes de dir un munt de coses que no deia perquè em feia por que ho consideressin vanitat.
 	  
-	  L'emigració no m'havia convertit en escriptor. Jo no era el resultat d'unes circumstàncies determinades, sinó de la confrontació amb unes circumstàncies donades, com, d'altra banda, ho som tots #space
+	  L'emigració no m'havia convertit en escriptor. Jo no era el resultat d'unes circumstàncies determinades, sinó de la confrontació amb unes circumstàncies donades, com, d'altra banda, ho som tots #ñspace
 		- (Page 16)
 	- -
 	- -
-	- De vegades, al moment de dir o de fer alguna cosa, m'he sorprès desitjant tenir un mirall per veure si el que deia o feia era encertat. Potser, al capdavall, aquell «i si?» sigui el preu més alt de l'emigració. Hi convius sempre. T'agafa desprevingut, t'encerta com una bala perduda. En qualsevol moment. Pot ser quan t'acotes per fer un petó al teu fill, o quan et fas el llit, o quan et trobes sol en una ciutat estrangera, a París, per exemple, i de sobte sents la fressa de les moreres de la plaça  Guizi d'Atenes. Saps que potser has viscut una vida equivocada. I que no hi pots fer res. Només esperar el moment en què la vida que vius sigui més present que la vida que no has viscut #space
+	- De vegades, al moment de dir o de fer alguna cosa, m'he sorprès desitjant tenir un mirall per veure si el que deia o feia era encertat. Potser, al capdavall, aquell «i si?» sigui el preu més alt de l'emigració. Hi convius sempre. T'agafa desprevingut, t'encerta com una bala perduda. En qualsevol moment. Pot ser quan t'acotes per fer un petó al teu fill, o quan et fas el llit, o quan et trobes sol en una ciutat estrangera, a París, per exemple, i de sobte sents la fressa de les moreres de la plaça  Guizi d'Atenes. Saps que potser has viscut una vida equivocada. I que no hi pots fer res. Només esperar el moment en què la vida que vius sigui més present que la vida que no has viscut #ñspace
 		- (Page 19)
 	- -

@@ -26,7 +26,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- Sourcing the script means to use the Bash source command to read all of the commands in a script into the current shell session and run them there. A source command to read in a script such as hello.bash might look like this:
 		  bash$ source hello.bash
-		  Hello, bashuser! #space
+		  Hello, bashuser! #ñspace
 		- -
 	- Arguments to scripts
 		- -

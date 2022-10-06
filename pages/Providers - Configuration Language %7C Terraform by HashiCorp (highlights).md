@@ -24,5 +24,5 @@ url:: https://www.terraform.io/language/providers
 	- -
 	- The Terraform Registry
 	  is the main directory of publicly available Terraform providers, and hosts
-	  providers for most major infrastructure platforms. #space
+	  providers for most major infrastructure platforms. #ñspace
 	- -

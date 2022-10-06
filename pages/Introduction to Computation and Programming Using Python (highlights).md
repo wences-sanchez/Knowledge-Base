@@ -6,22 +6,22 @@ category:: #books
 - ![](https://m.media-amazon.com/images/I/710JwUhWSVL._SY160.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- A computer does two things, and two things only: it performs calculations and it remembers the results of those calculations. #space
+	- A computer does two things, and two things only: it performs calculations and it remembers the results of those calculations. #ñspace
 		- ([Location 473](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=473))
 		- #[[blue]]
 	- -
 	- -
-	- Imperative knowledge is “how to” knowledge, or recipes for deducing information. #space
+	- Imperative knowledge is “how to” knowledge, or recipes for deducing information. #ñspace
 		- ([Location 490](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=490))
 		- #[[blue]]
 	- -
 	- -
-	- an algorithm is a finite list of instructions describing a set of computations that when executed on a set of inputs will proceed through a sequence of well-defined states and eventually produce an output. #space
+	- an algorithm is a finite list of instructions describing a set of computations that when executed on a set of inputs will proceed through a sequence of well-defined states and eventually produce an output. #ñspace
 		- ([Location 518](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=518))
 		- #[[pink]]
 	- -
 	- -
-	- The Church-Turing thesis states that if a function is computable, a Turing Machine can be programmed to compute it. #space
+	- The Church-Turing thesis states that if a function is computable, a Turing Machine can be programmed to compute it. #ñspace
 		- ([Location 559](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=559))
 	- -
 	- -
@@ -31,11 +31,11 @@ category:: #books
 		- #[[cs]] #[[pink]]
 	- -
 	- -
-	- Of course, some things may be easier to program in a particular language, but all languages are fundamentally equal with respect to computational power. #space
+	- Of course, some things may be easier to program in a particular language, but all languages are fundamentally equal with respect to computational power. #ñspace
 		- ([Location 566](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=566))
 	- -
 	- -
-	- Exhaustive enumeration is a search technique that works only if the set of values being searched includes the answer. #space
+	- Exhaustive enumeration is a search technique that works only if the set of values being searched includes the answer. #ñspace
 		- ([Location 1597](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=1597))
 		- #[[pink]]
 	- -
@@ -46,7 +46,7 @@ category:: #books
 		- #[[cs]] #[[blue]]
 	- -
 	- -
-	- lambda sequence of variable names : expression #space
+	- lambda sequence of variable names : expression #ñspace
 		- ([Location 2273](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2273))
 		- #[[orange]]
 	- -
@@ -63,17 +63,17 @@ category:: #books
 		- ([Location 2377](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2377))
 	- -
 	- -
-	- However, if you keep repeating the mantra, “In Python a variable is merely a name, i.e., a label that can be attached to an object,” it will bring you clarity. #space
+	- However, if you keep repeating the mantra, “In Python a variable is merely a name, i.e., a label that can be attached to an object,” it will bring you clarity. #ñspace
 		- ([Location 2506](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2506))
 		- #[[python]] #[[pink]]
 	- -
 	- -
-	- [expr for elem in iterable if test] #space
+	- [expr for elem in iterable if test] #ñspace
 		- ([Location 2691](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2691))
 		- #[[orange]]
 	- -
 	- -
-	- The map function is often used with a for loop. When used in a for loop, map behaves like the range function in that it returns one value for each iteration of the loop. #space
+	- The map function is often used with a for loop. When used in a for loop, map behaves like the range function in that it returns one value for each iteration of the loop. #ñspace
 		- ([Location 2765](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2765))
 		- #[[pink]]
 	- -
@@ -96,7 +96,7 @@ category:: #books
 		- #[[orange]]
 	- -
 	- -
-	- The key difference (other than the use of set braces rather than square braces) is that it uses two values to create each element of the dictionary, and allows (but does not require) the #space
+	- The key difference (other than the use of set braces rather than square braces) is that it uses two values to create each element of the dictionary, and allows (but does not require) the #ñspace
 		- ([Location 2982](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2982))
 	- -
 	- -
@@ -105,7 +105,7 @@ category:: #books
 		- ([Location 3516](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3516))
 	- -
 	- -
-	- Another positive feature of black-box testing is that it is robust with respect to implementation changes. Since the test data is generated without knowledge of the implementation, the tests need not be changed when the implementation is changed. #space
+	- Another positive feature of black-box testing is that it is robust with respect to implementation changes. Since the test data is generated without knowledge of the implementation, the tests need not be changed when the implementation is changed. #ñspace
 		- ([Location 3563](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3563))
 	- -
 	- -
@@ -160,21 +160,21 @@ category:: #books
 		- #[[pink]]
 	- -
 	- -
-	- Keep in mind that the bug is probably not where you think it is. #space
+	- Keep in mind that the bug is probably not where you think it is. #ñspace
 		- ([Location 3846](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3846))
 	- -
 	- -
-	- Stop debugging and start writing documentation. This will help you approach the problem from a different perspective. #space
+	- Stop debugging and start writing documentation. This will help you approach the problem from a different perspective. #ñspace
 		- ([Location 3853](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3853))
 		- #[[pink]]
 	- -
 	- -
-	- When you think you have found a bug in your code, the temptation to start coding and testing a fix is almost irresistible. It is often better, however, to pause. Remember that the goal is not to fix one bug, but to move rapidly and efficiently towards a bug-free program. #space
+	- When you think you have found a bug in your code, the temptation to start coding and testing a fix is almost irresistible. It is often better, however, to pause. Remember that the goal is not to fix one bug, but to move rapidly and efficiently towards a bug-free program. #ñspace
 		- ([Location 3859](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3859))
 		- #[[pink]]
 	- -
 	- -
-	- Always make sure that you can get back to where you are. Nothing is more frustrating than realizing that a long series of changes have left you farther from the goal than when you started, and having no way to get back to your starting point. #space
+	- Always make sure that you can get back to where you are. Nothing is more frustrating than realizing that a long series of changes have left you farther from the goal than when you started, and having no way to get back to your starting point. #ñspace
 		- ([Location 3868](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3868))
 		- #[[pink]]
 	- -
@@ -189,12 +189,12 @@ category:: #books
 		- ([Location 4149](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4149))
 	- -
 	- -
-	- For simplicity, we will use a random access machine as our model of computation. In a random access machine, steps are executed sequentially, one at a time.66 A step is an operation that takes a fixed amount of time, such as binding a variable to an object, making a comparison, executing an arithmetic operation, or accessing an object in memory. #space
+	- For simplicity, we will use a random access machine as our model of computation. In a random access machine, steps are executed sequentially, one at a time.66 A step is an operation that takes a fixed amount of time, such as binding a variable to an object, making a comparison, executing an arithmetic operation, or accessing an object in memory. #ñspace
 		- ([Location 4880](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4880))
 		- #[[cs]]
 	- -
 	- -
-	- The worst-case provides an upper bound on the running time. #space
+	- The worst-case provides an upper bound on the running time. #ñspace
 		- ([Location 4909](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4909))
 		- #[[cs]]
 	- -

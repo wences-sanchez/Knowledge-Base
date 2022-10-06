@@ -27,7 +27,7 @@ tags:: #[[Literature]]
 		- #[[mind]]
 	- -
 	- -
-	- De modo que por una contradicción, contradicción sólo aparente, en el mismo momento en que experimentaba desusado placer, cuando sentía que mi vida podría ser dichosa, es decir, cuando más valor debía de haberle concedido, iba yo, liberado ahora de las preocupaciones que me inspiraba, a entregarla sin vacilación al riesgo de un accidente. #space
+	- De modo que por una contradicción, contradicción sólo aparente, en el mismo momento en que experimentaba desusado placer, cuando sentía que mi vida podría ser dichosa, es decir, cuando más valor debía de haberle concedido, iba yo, liberado ahora de las preocupaciones que me inspiraba, a entregarla sin vacilación al riesgo de un accidente. #ñspace
 		- ([Location 6601](https://readwise.io/to_kindle?action=open&asin=B0876FDBH7&location=6601))
 		- #[[mind]]
 	- -

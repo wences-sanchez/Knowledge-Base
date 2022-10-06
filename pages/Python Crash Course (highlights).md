@@ -12,7 +12,7 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 	- 4 WORKING WITH LISTS
 	- 11 TESTING YOUR CODE
 		- -
-		- Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message. #space
+		- Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message. #ñspace
 		- -
 		- -
 		- Show the last item of the list bicycles. #card
@@ -36,13 +36,13 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			- To write a test case for a function, import the unittest module and the function you want to test. Then create a class that inherits from unittest.TestCase, and write a series of methods to test
 		- -
 		- -
-		- universe_age = 14_000_000_000 #space
+		- universe_age = 14_000_000_000 #ñspace
 		- -
 		- -
-		- Sometimes you won’t know the position of the value you want to remove from a list. If you only know the value of the item you want to remove, you can use the remove() method. #space
+		- Sometimes you won’t know the position of the value you want to remove from a list. If you only know the value of the item you want to remove, you can use the remove() method. #ñspace
 		- -
 		- -
-		- The Python variables you’re using at this point should be lowercase. You won’t get errors if you use uppercase letters, but uppercase letters in variable names have special meanings that we’ll discuss in later chapters. #space
+		- The Python variables you’re using at this point should be lowercase. You won’t get errors if you use uppercase letters, but uppercase letters in variable names have special meanings that we’ll discuss in later chapters. #ñspace
 		- -
 	- 9 CLASSES
 		- -
@@ -58,7 +58,7 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			- motorcycles.remove('ducati')
 		- -
 		- -
-		- It’s much better to think of variables as labels that you can assign to values. You can also say that a variable references a certain value. #space
+		- It’s much better to think of variables as labels that you can assign to values. You can also say that a variable references a certain value. #ñspace
 		- -
 		- -
 		- Add 'ducati' at the end of the list motorcycles #card
@@ -80,7 +80,7 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			  ➍         super().__init__(make, model, year)
 		- -
 		- -
-		- A method is an action that Python can perform on a piece of data. #space
+		- A method is an action that Python can perform on a piece of data. #ñspace
 		- -
 		- -
 		- Construct a list named bicycles which contains the items:
@@ -103,7 +103,7 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			- cars.sort()
 		- -
 		- -
-		- hese strings are called f-strings. The f is for format, because Python formats the string by replacing the name of any variable in braces with its value. #space
+		- hese strings are called f-strings. The f is for format, because Python formats the string by replacing the name of any variable in braces with its value. #ñspace
 		- -
 		- -
 		- Remove the first element of the list motorcycles #card
@@ -114,20 +114,20 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			- cars.sort(reverse=True)
 		- -
 		- -
-		- To maintain the original order of a list but present it in a sorted order, you can use the #space
+		- To maintain the original order of a list but present it in a sorted order, you can use the #ñspace
 		- -
 		- -
-		- F-strings were first introduced in Python 3.6 #space
+		- F-strings were first introduced in Python 3.6 #ñspace
 		- -
 		- -
 		- Show an alphabetically ordered list named cars. Make this change temporal. #card
 			- print(sorted(cars))
 		- -
 		- -
-		- Sometimes you won't know the position of the value you want to remove from a list. If you only know the value of the item you want to remove, you can use the #space
+		- Sometimes you won't know the position of the value you want to remove from a list. If you only know the value of the item you want to remove, you can use the #ñspace
 		- -
 		- -
-		- Python programmers use all capital letters to indicate a variable should be treated as a constant and never be changed #space
+		- Python programmers use all capital letters to indicate a variable should be treated as a constant and never be changed #ñspace
 		- -
 		- -
 		- Make the order of the list cars inverse. #card
@@ -144,7 +144,7 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			- Although you can't modify a tuple, you can assign a new value to a variable that represents a tuple.
 		- -
 		- -
-		- Python considers the first item in a list to be at position 0, not position 1 #space
+		- Python considers the first item in a list to be at position 0, not position 1 #ñspace
 		- -
 		- -
 		- Show the numbers: [1, 4] #card
@@ -152,10 +152,10 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			    print(value)
 		- -
 		- -
-		- A tuple looks just like a list except you use parentheses instead of square brackets. Once you define a tuple, you can access individual elements by using each item's index, just as you would for a list. #space
+		- A tuple looks just like a list except you use parentheses instead of square brackets. Once you define a tuple, you can access individual elements by using each item's index, just as you would for a list. #ñspace
 		- -
 		- -
-		- Python has a special syntax for accessing the last element in a list. By asking for the item at index -1, Python always returns the last item in the list: #space
+		- Python has a special syntax for accessing the last element in a list. By asking for the item at index -1, Python always returns the last item in the list: #ñspace
 		- -
 		- -
 		- Show in a slice the first three items of the list players. #card
@@ -166,7 +166,7 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			- friend_foods = my_foods[:]
 		- -
 		- -
-		- Remember that each time you use pop(), the item you work with is no longer stored in the list. #space
+		- Remember that each time you use pop(), the item you work with is no longer stored in the list. #ñspace
 		- -
 		- -
 		- [List Comprehension]
@@ -178,24 +178,24 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			- print(players[1:4])
 		- -
 		- -
-		- alphabetically #space
+		- alphabetically #ñspace
 		- -
 		- -
 		- Construct a list with the numbers: [1, 5] #card
 			- numbers = list(range(1, 6))
 		- -
 		- -
-		- Notice that reverse() doesn’t sort backward alphabetically; it simply reverses the order of the list: #space
+		- Notice that reverse() doesn’t sort backward alphabetically; it simply reverses the order of the list: #ñspace
 		- -
 		- -
 		- Another way of access to an element in a dict instead of indexes in square brackets #card
 			- For dictionaries, specifically, you can use the get() method to set a default value that will be returned if the requested key doesn’t exist.
 		- -
 		- -
-		- The PEP 8 guidelines for line length are not set in stone, and some teams prefer a 99-character limit. #space
+		- The PEP 8 guidelines for line length are not set in stone, and some teams prefer a 99-character limit. #ñspace
 		- -
 		- -
-		- keep in mind when writing your own for loops that you can choose any name you want for the temporary variable that will be associated with each value in the list. However, it’s helpful to choose a meaningful name that represents a single item from the list. #space
+		- keep in mind when writing your own for loops that you can choose any name you want for the temporary variable that will be associated with each value in the list. However, it’s helpful to choose a meaningful name that represents a single item from the list. #ñspace
 		- -
 		- -
 		- How can you split a string in multiple lines? #card
@@ -203,20 +203,20 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			       "with the following toppings:")
 		- -
 		- -
-		- Tuples are technically defined by the presence of a comma; the parentheses make them look neater and more readable. If you want to define a tuple with one element, you need to include a trailing comma: #space
+		- Tuples are technically defined by the presence of a comma; the parentheses make them look neater and more readable. If you want to define a tuple with one element, you need to include a trailing comma: #ñspace
 		- -
 		- -
-		- Using singular and plural names can help you identify whether a section of code is working with a single element from the list or the entire list. #space
+		- Using singular and plural names can help you identify whether a section of code is working with a single element from the list or the entire list. #ñspace
 		- -
 		- -
-		- If you omit the first index in a slice, Python automatically starts your slice at the beginning of the list: #space
+		- If you omit the first index in a slice, Python automatically starts your slice at the beginning of the list: #ñspace
 		- -
 		- -
-		- You can avoid unexpected indentation errors by indenting only when you have a specific reason to do so. #space
+		- You can avoid unexpected indentation errors by indenting only when you have a specific reason to do so. #ñspace
 		- -
 	- 6 DICTIONARIES
 		- -
-		- The colon at the end of a for statement tells Python to interpret the next line as the start of a loop. #space
+		- The colon at the end of a for statement tells Python to interpret the next line as the start of a loop. #ñspace
 		- -
 		- -
 		- Build a dict named alien_0 with:
@@ -225,11 +225,11 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			- alien_0 = {'color': 'green', 'points': 5}
 		- -
 		- -
-		- If you want to make a list of numbers, you can convert the results of range() directly into a list using the list() function. When you wrap list() around a call to the range() function, the output will be a list of numbers. #space
+		- If you want to make a list of numbers, you can convert the results of range() directly into a list using the list() function. When you wrap list() around a call to the range() function, the output will be a list of numbers. #ñspace
 		- -
 	- 8 FUNCTIONS
 		- -
-		- A tuple looks just like a list except you use parentheses instead of square brackets. Once you define a tuple, you can access individual elements by using each item’s index, just as you would for a list. #space
+		- A tuple looks just like a list except you use parentheses instead of square brackets. Once you define a tuple, you can access individual elements by using each item’s index, just as you would for a list. #ñspace
 		- -
 		- -
 		- How should I use the import's in Python? #card
@@ -237,13 +237,13 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- -
 	- 10 FILES AND EXCEPTIONS
 		- -
-		- To do any work with a file, even just printing its contents, you first need to open the file to access it. The open() function needs one argument: the name of the file you want to open. Python looks for this file in the directory where the program that’s currently being executed is stored. #space
+		- To do any work with a file, even just printing its contents, you first need to open the file to access it. The open() function needs one argument: the name of the file you want to open. Python looks for this file in the directory where the program that’s currently being executed is stored. #ñspace
 		- -
 		- -
-		- The keyword with closes the file once access to it is no longer needed. #space
+		- The keyword with closes the file once access to it is no longer needed. #ñspace
 		- -
 		- -
-		- u'll often want to run through all entries in a list, performing the same task with each item. For example, in a game you might want to move every element on the screen by the same amount, or in a list of numbers you might want to perform the same statistic #space
+		- u'll often want to run through all entries in a list, performing the same task with each item. For example, in a game you might want to move every element on the screen by the same amount, or in a list of numbers you might want to perform the same statistic #ñspace
 		- -
 		- -
 		- Is it possible to reassign a tuple's content? #card

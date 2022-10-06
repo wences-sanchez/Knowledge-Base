@@ -29,24 +29,24 @@ tags:: #[[Science]]
 	  
 	  Second, randomness does seem to occur. If we ask a sequence of questions, the final results can be random.
 	  
-	  Third, measurements affect outcomes. We saw that if we ask the same question three times, we get the exactly the same answer three times. But if the first and third questions are identical and the second is different, the  answers to the first and third questions need not be the same. For example, if we ask three times in a row if the hand is pointing toward twelve, we will get exactly the same answer each time, but if we ask first if it is pointing toward twelve, then whether it is pointing to three, and finally again whether it is pointing toward twelve, the answers to the first and third question need not be the same. The only difference between the two scenarios is the second question, so that question must be affecting the outcome of the following question. #space
+	  Third, measurements affect outcomes. We saw that if we ask the same question three times, we get the exactly the same answer three times. But if the first and third questions are identical and the second is different, the  answers to the first and third questions need not be the same. For example, if we ask three times in a row if the hand is pointing toward twelve, we will get exactly the same answer each time, but if we ask first if it is pointing toward twelve, then whether it is pointing to three, and finally again whether it is pointing toward twelve, the answers to the first and third question need not be the same. The only difference between the two scenarios is the second question, so that question must be affecting the outcome of the following question. #ñspace
 		- (Page 8)
 	- -
 	- -
 	- Each time a measurement is made, we will see that the system is changed in certain prescribed ways; these prescribed ways depend on the type of measurement being made but not on the strength of the measurement.
 	  
-	  Incorporating measurements into the theory is one on the differences between classical and quantum mechanics. #space
+	  Incorporating measurements into the theory is one on the differences between classical and quantum mechanics. #ñspace
 		- (Page 10)
 	- -
 	- -
-	- These three things-superposition, measurement, and entanglement are the key quantum mechanical ideas. Once we know what they mean, we can see how they may be used in computations. It is here that human ingenuity enters the picture. #space
+	- These three things-superposition, measurement, and entanglement are the key quantum mechanical ideas. Once we know what they mean, we can see how they may be used in computations. It is here that human ingenuity enters the picture. #ñspace
 		- (Page 11)
 		- #[[quantum]]
 	- -
 	- -
 	- The basic unit of quantum computing is the qubit. We will see what qubits are and what happens when we measure them. A classical bit is either 0 or 1. If it's 0 and we measure it, we get 0. If it's 1 and we measure 1, we get 1. 
 	  
-	  In both cases the bit remains unchanged. The situation is totally different for qubits. A qubit can be in one of an infinite number of states-a superposition of both 0 and 1-but when we measure it, as in the classical case, we just get one of two values, either 0 or 1. The act of measurement changes the qubit. A simple mathematical model describes all of this precisely. #space
+	  In both cases the bit remains unchanged. The situation is totally different for qubits. A qubit can be in one of an infinite number of states-a superposition of both 0 and 1-but when we measure it, as in the classical case, we just get one of two values, either 0 or 1. The act of measurement changes the qubit. A simple mathematical model describes all of this precisely. #ñspace
 		- (Page 14)
 	- -
 	- -
@@ -96,12 +96,12 @@ tags:: #[[Science]]
 	  
 	  2. Si medimos un qubit, al hacerlo lo cambiamos 
 	  
-	  3. Cuando medimos un qubit, también afectamos al otro. #space
+	  3. Cuando medimos un qubit, también afectamos al otro. #ñspace
 		- #[[note]]
 	- -
 	- -
-	- You will also come to realize that quantum computing and classical computing are not two distinct disciplines, but that quantum computing is the more fundamental form of computing. Anything that can be computed classically can be computed on a quantum computer. #space
+	- You will also come to realize that quantum computing and classical computing are not two distinct disciplines, but that quantum computing is the more fundamental form of computing. Anything that can be computed classically can be computed on a quantum computer. #ñspace
 	- -
 	- -
-	- Quantum computing is based on an area of mathematics called linear algebra. Fortunately, we only need a few concepts. #space
+	- Quantum computing is based on an area of mathematics called linear algebra. Fortunately, we only need a few concepts. #ñspace
 	- -

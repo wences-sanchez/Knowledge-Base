@@ -9,7 +9,7 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- Foreword
 		- -
-		- of people, processes, and products to enable the continuous delivery of value to our end users. Value is the most important word of that definition. DevOps is not about software, automation, shipping a feature, or getting to the bottom of your product backlog. It is about deliver #space
+		- of people, processes, and products to enable the continuous delivery of value to our end users. Value is the most important word of that definition. DevOps is not about software, automation, shipping a feature, or getting to the bottom of your product backlog. It is about deliver #ñspace
 		- -
 	- Getting started with DevOps
 		- -

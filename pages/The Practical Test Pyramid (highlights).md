@@ -10,7 +10,7 @@ url:: https://martinfowler.com/articles/practical-test-pyramid.html
 	  
 	  It's obvious that testing all changes manually is time-consuming, repetitive and tedious. Repetitive is boring, boring leads to mistakes and makes you look for a different job by the end of the week.
 	  
-	  Luckily there's a remedy for repetitive tasks: automation. #space
+	  Luckily there's a remedy for repetitive tasks: automation. #ñspace
 		- ([View Highlight](https://instapaper.com/read/1432780818/17070634))
 	- -
 	- -

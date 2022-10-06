@@ -9,11 +9,11 @@ tags:: #[[Self-Help]]
 - ![](https://images-na.ssl-images-amazon.com/images/I/4142H2ZeBeL._SL200_.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- She had chosen geology by default, because she had liked rocks, and now Ellen, diploma in hand, frustrated parents in her ear, had absolutely no idea how to get a job and what she should do with the rest of her life. #space
+	- She had chosen geology by default, because she had liked rocks, and now Ellen, diploma in hand, frustrated parents in her ear, had absolutely no idea how to get a job and what she should do with the rest of her life. #ñspace
 		- ([Location 67](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=67))
 	- -
 	- -
-	- Dysfunctional Belief: If you are successful, you will be happy. Reframe: True happiness comes from designing a life that works for you. #space
+	- Dysfunctional Belief: If you are successful, you will be happy. Reframe: True happiness comes from designing a life that works for you. #ñspace
 		- ([Location 88](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=88))
 	- -
 	- -
@@ -23,7 +23,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- In life design, we reframe a lot. The biggest reframe is that your life can’t be perfectly planned, that there isn’t just one solution to your life, and that that’s a good thing. There are many designs for your life, all filled with hope for the kind of creative and unfolding reality that makes life worth living into. Your life is not a thing, it’s an experience; the fun comes from designing and enjoying the experience. #space
+	- In life design, we reframe a lot. The biggest reframe is that your life can’t be perfectly planned, that there isn’t just one solution to your life, and that that’s a good thing. There are many designs for your life, all filled with hope for the kind of creative and unfolding reality that makes life worth living into. Your life is not a thing, it’s an experience; the fun comes from designing and enjoying the experience. #ñspace
 		- ([Location 212](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=212))
 	- -
 	- -
@@ -33,11 +33,11 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- Designers don’t think their way forward. Designers build their way forward. What does that mean? It means you are not just going to be dreaming up a lot of fun fantasies that have no relationship to the real world—or the real you. You are going to build things (we call them prototypes), try stuff, and have a lot of fun in the process. #space
+	- Designers don’t think their way forward. Designers build their way forward. What does that mean? It means you are not just going to be dreaming up a lot of fun fantasies that have no relationship to the real world—or the real you. You are going to build things (we call them prototypes), try stuff, and have a lot of fun in the process. #ñspace
 		- ([Location 273](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=273))
 	- -
 	- -
-	- We’re going to help you think like a designer and build your future, prototype by prototype. #space
+	- We’re going to help you think like a designer and build your future, prototype by prototype. #ñspace
 		- ([Location 277](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=277))
 	- -
 	- -
@@ -53,7 +53,7 @@ tags:: #[[Self-Help]]
 		- #[[pink]]
 	- -
 	- -
-	- A well-designed life is a life that makes sense. It’s a life in which who you are, what you believe, and what you do all line up together. When you have a well-designed life and someone asks you, “How’s it going?,” you have an answer. You can tell that person that your life is going well, and you can tell how and why. #space
+	- A well-designed life is a life that makes sense. It’s a life in which who you are, what you believe, and what you do all line up together. When you have a well-designed life and someone asks you, “How’s it going?,” you have an answer. You can tell that person that your life is going well, and you can tell how and why. #ñspace
 		- ([Location 344](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=344))
 	- -
 	- -
@@ -97,28 +97,28 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- These are all gravity problems—meaning they are not real problems. Why? Because in life design, if it’s not actionable, it’s not a problem. Let’s repeat that. If it’s not actionable, it’s not a problem. It’s a situation, a circumstance, a fact of life. It may be a drag (so to speak), but, like gravity, it’s not a problem that can be solved. #space
+	- These are all gravity problems—meaning they are not real problems. Why? Because in life design, if it’s not actionable, it’s not a problem. Let’s repeat that. If it’s not actionable, it’s not a problem. It’s a situation, a circumstance, a fact of life. It may be a drag (so to speak), but, like gravity, it’s not a problem that can be solved. #ñspace
 		- ([Location 451](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=451))
 	- -
 	- -
-	- As you begin to think like a designer, remember one important thing: it’s impossible to predict the future. And the corollary to that thought is: once you design something, it changes the future that is possible. #space
+	- As you begin to think like a designer, remember one important thing: it’s impossible to predict the future. And the corollary to that thought is: once you design something, it changes the future that is possible. #ñspace
 		- ([Location 660](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=660))
 	- -
 	- -
-	- Anytime you’re changing your situation, or pursuing a new thing, or wondering what you’re doing at a particular job—stop. Before you start, it’s a good idea to check your compass and orient yourself. #space
+	- Anytime you’re changing your situation, or pursuing a new thing, or wondering what you’re doing at a particular job—stop. Before you start, it’s a good idea to check your compass and orient yourself. #ñspace
 		- ([Location 815](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=815))
 	- -
 	- -
-	- Dysfunctional Belief: Work is not supposed to be enjoyable; that’s why they call it work. Reframe: Enjoyment is a guide to finding the right work for you. #space
+	- Dysfunctional Belief: Work is not supposed to be enjoyable; that’s why they call it work. Reframe: Enjoyment is a guide to finding the right work for you. #ñspace
 		- ([Location 848](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=848))
 		- #[[mind]] #[[pink]]
 	- -
 	- -
-	- Instead of business school (which would probably have been a disaster, and an expensive one at that), Michael decided to double down on engineering. He ended up entering a Ph.D. program and is now a high-level civil and structural engineer, #space
+	- Instead of business school (which would probably have been a disaster, and an expensive one at that), Michael decided to double down on engineering. He ended up entering a Ph.D. program and is now a high-level civil and structural engineer, #ñspace
 		- ([Location 931](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=931))
 	- -
 	- -
-	- She could not find a job as a marketing executive, which she had been told was the “right thing” to do with an M.B.A. Like so many, she thought that doing the “right thing” would make her happy. #space
+	- She could not find a job as a marketing executive, which she had been told was the “right thing” to do with an M.B.A. Like so many, she thought that doing the “right thing” would make her happy. #ñspace
 		- ([Location 1108](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1108))
 		- #[[mind]] #[[pink]]
 	- -
@@ -135,12 +135,12 @@ tags:: #[[Self-Help]]
 		- #[[mind]] #[[pink]]
 	- -
 	- -
-	- As a life designer, you need to embrace two philosophies: 1. You choose better when you have lots of good ideas to choose from. 2. You never choose your first solution to any problem. #space
+	- As a life designer, you need to embrace two philosophies: 1. You choose better when you have lots of good ideas to choose from. 2. You never choose your first solution to any problem. #ñspace
 		- ([Location 1162](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1162))
 		- #[[pink]] #[[blue]]
 	- -
 	- -
-	- Our minds are generally lazy and like to get rid of problems as quickly as possible, so they surround first ideas with a lot of positive chemicals to make us “fall in love” with them. Do not fall in love with your first idea. This relationship almost never works out. #space
+	- Our minds are generally lazy and like to get rid of problems as quickly as possible, so they surround first ideas with a lot of positive chemicals to make us “fall in love” with them. Do not fall in love with your first idea. This relationship almost never works out. #ñspace
 		- ([Location 1166](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1166))
 		- #[[pink]] #[[mind]] #[[blue]]
 	- -
@@ -175,7 +175,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]] #[[pink]]
 	- -
 	- -
-	- Dysfunctional Belief: I need to figure out my best possible life, make a plan, and then execute it. Reframe: There are multiple great lives (and plans) within me, and I get to choose which one to build my way forward to next. #space
+	- Dysfunctional Belief: I need to figure out my best possible life, make a plan, and then execute it. Reframe: There are multiple great lives (and plans) within me, and I get to choose which one to build my way forward to next. #ñspace
 		- ([Location 1422](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1422))
 		- #[[blue]]
 	- -
@@ -198,7 +198,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- He figured that an individual doctor certainly could make an impact within his practice, and possibly even in his local hospitals and region. Maybe that was a path to offering a shining example of what better health care could be. Which way to choose? Actually, that wasn’t the tough decision for him. Andy was convinced that the policy route was the most potentially impactful and interesting, so that’s the path he was going to pursue. The tough choice was how to do it. #space
+	- He figured that an individual doctor certainly could make an impact within his practice, and possibly even in his local hospitals and region. Maybe that was a path to offering a shining example of what better health care could be. Which way to choose? Actually, that wasn’t the tough decision for him. Andy was convinced that the policy route was the most potentially impactful and interesting, so that’s the path he was going to pursue. The tough choice was how to do it. #ñspace
 		- ([Location 2484](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2484))
 	- -
 	- -
@@ -208,7 +208,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- Once you become a life designing person and are living the ongoing creative process of life design, you can’t fail; you can only be making progress and learning from the different kinds of experiences that failure and success both have to offer. #space
+	- Once you become a life designing person and are living the ongoing creative process of life design, you can’t fail; you can only be making progress and learning from the different kinds of experiences that failure and success both have to offer. #ñspace
 		- ([Location 2555](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2555))
 		- #[[mind]]
 	- -
@@ -219,7 +219,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- The end result of a well-designed life is a life well lived. And, really, is there anything more we could hope for? #space
+	- The end result of a well-designed life is a life well lived. And, really, is there anything more we could hope for? #ñspace
 		- ([Location 3160](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=3160))
 		- #[[mind]]
 	- -

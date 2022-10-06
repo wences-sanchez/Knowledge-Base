@@ -28,7 +28,7 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 6)
 	- -
 	- -
-	-   Built-in: es un comando que se implementa internamente por la shell, en lugar de por un programa ejecutable en algún lugar en el sistema de archivos. Es decir, es un comando llevado a cabo por la shell, como cd, en lugar de interpretarlo como una solicitud para cargar y ejecutar algún otro programa, como vim.  Esto tiene dos consecuencias principales. En primer lugar, por lo general, es más rápido,  ya  que  el  tiempo  que  toma  cargar  y  ejecutar  un  programa  es  más prolongado.  En  segundo  lugar,  un  comando  built-in  puede  afectar  el  estado interno de la shell. Es por eso por lo que los comandos como cd deben ser builtin,  dado  que  un  programa  externo  no  puede  cambiar  el  directorio  actual  de  la shell. Otros comandos, como echo, podrían ser built-in por un motivo de eficiencia, pero  no  hay  ninguna  otra  razón  intrínseca  para  que  no  puedan  ser  comandos externos. #space
+	-   Built-in: es un comando que se implementa internamente por la shell, en lugar de por un programa ejecutable en algún lugar en el sistema de archivos. Es decir, es un comando llevado a cabo por la shell, como cd, en lugar de interpretarlo como una solicitud para cargar y ejecutar algún otro programa, como vim.  Esto tiene dos consecuencias principales. En primer lugar, por lo general, es más rápido,  ya  que  el  tiempo  que  toma  cargar  y  ejecutar  un  programa  es  más prolongado.  En  segundo  lugar,  un  comando  built-in  puede  afectar  el  estado interno de la shell. Es por eso por lo que los comandos como cd deben ser builtin,  dado  que  un  programa  externo  no  puede  cambiar  el  directorio  actual  de  la shell. Otros comandos, como echo, podrían ser built-in por un motivo de eficiencia, pero  no  hay  ninguna  otra  razón  intrínseca  para  que  no  puedan  ser  comandos externos. #ñspace
 		- (Page 7)
 	- -
 	- -
@@ -71,7 +71,7 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 11)
 	- -
 	- -
-	- el  siguiente  comando muestra el contenido del fichero de configuración del servidor SSH, pero las líneas no comentadas y ordenadas por orden alfabético: $ cat sshd_config | grep -v "#" | sort | uniq #space
+	- el  siguiente  comando muestra el contenido del fichero de configuración del servidor SSH, pero las líneas no comentadas y ordenadas por orden alfabético: $ cat sshd_config | grep -v "#" | sort | uniq #ñspace
 		- (Page 13)
 	- -
 	- -
@@ -81,7 +81,7 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 	  
 	  La idea es que tareas de administración concretas pueden asignarse a usuarios específicos. Si un usuario necesita ejecutar una tarea administrativa como, por ejemplo, instalar un paquete nuevo con apt-get install, debe ejecutarlo con Sudo: sudo apt-get install openssh-server.
 	  
-	  El usuario root podría ejecutar el mismo comando sin Sudo, pero es obligatorio para cualquier otro usuario. #space
+	  El usuario root podría ejecutar el mismo comando sin Sudo, pero es obligatorio para cualquier otro usuario. #ñspace
 		- (Page 14)
 	- -
 	- -
@@ -119,7 +119,7 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 22)
 	- -
 	- -
-	- también se puede iterar sobre un rango de enteros, tal como en otros  lenguajes. $ for ((i=1; i <= 5; i += 1))   if [[ -e file$i ]]; then     echo file$i existe;     echo file$i no existe do   else   fi done #space
+	- también se puede iterar sobre un rango de enteros, tal como en otros  lenguajes. $ for ((i=1; i <= 5; i += 1))   if [[ -e file$i ]]; then     echo file$i existe;     echo file$i no existe do   else   fi done #ñspace
 		- (Page 23)
 	- -
 	- -
@@ -139,10 +139,10 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 24)
 	- -
 	- -
-	- se  ha  mostrado  cómo  ejecutar  un  script  de  dos  maneras:  como argumento  del  comando  bash  y  convirtiendo el  script  en  ejecutable  e  invocándolo directamente. Ambas opciones funcionan de manera similar: la shell desde la que se invoca  arranca  otra  shell  como  un  nuevo  proceso  y  es  esta  la  que  se  encarga  de ejecutar los comandos del script. Hay una tercera opción, ligeramente diferente: ejecutar el script en el mismo proceso de la shell actual. Este caso puede ser útil si el script cambia valores de variables de entorno que son necesarias en la shell actual (por ejemplo, para configurar la shell de alguna manera concreta). No obstante, puede tener efectos contraproducentes: si el script  termina  proactivamente  con  un  comando  exit,  la  shell  actual  también terminará. El comando para ejecutar los scripts en la propia shell es source o . (un punto): #space
+	- se  ha  mostrado  cómo  ejecutar  un  script  de  dos  maneras:  como argumento  del  comando  bash  y  convirtiendo el  script  en  ejecutable  e  invocándolo directamente. Ambas opciones funcionan de manera similar: la shell desde la que se invoca  arranca  otra  shell  como  un  nuevo  proceso  y  es  esta  la  que  se  encarga  de ejecutar los comandos del script. Hay una tercera opción, ligeramente diferente: ejecutar el script en el mismo proceso de la shell actual. Este caso puede ser útil si el script cambia valores de variables de entorno que son necesarias en la shell actual (por ejemplo, para configurar la shell de alguna manera concreta). No obstante, puede tener efectos contraproducentes: si el script  termina  proactivamente  con  un  comando  exit,  la  shell  actual  también terminará. El comando para ejecutar los scripts en la propia shell es source o . (un punto): #ñspace
 		- (Page 25)
 	- -
 	- -
-	- $ source script.sh $ . script.sh #space
+	- $ source script.sh $ . script.sh #ñspace
 		- (Page 26)
 	- -

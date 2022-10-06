@@ -21,7 +21,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- Los contenedores están diseñados para ejecutar un único proceso. Sin embargo, en nuestras aplicaciones, a veces querremos que varios procesos se ejecuten los más cerca  posible  y  se  comuniquen  entre  sí.  Este  es  el  principal  motivo  por  el  que  en Kubernetes la unidad mínima de despliegue, el Pod, puede estar formada por más de un contenedor. #space
+	- Los contenedores están diseñados para ejecutar un único proceso. Sin embargo, en nuestras aplicaciones, a veces querremos que varios procesos se ejecuten los más cerca  posible  y  se  comuniquen  entre  sí.  Este  es  el  principal  motivo  por  el  que  en Kubernetes la unidad mínima de despliegue, el Pod, puede estar formada por más de un contenedor. #ñspace
 		- (Page 8)
 	- -
 	- -
@@ -30,11 +30,11 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- Podríamos pensar que los Pods actúan como máquinas virtuales donde alojar toda nuestra  aplicación.  Sin  embargo,  deberemos  aprender  a  descomponer  nuestra aplicación y organizarla en múltiples Pods, de manera que sea posible escalar cada capa de la aplicación de manera individual. Normalmente utilizaremos Pods con un único  contenedor,  sin  embargo,  habrá  ocasiones  en  las  que  tendremos  un contenedor  principal  y  varios  de  apoyo  para  tareas  específicas,  pero  que  están relacionadas con el principal. #space
+	- Podríamos pensar que los Pods actúan como máquinas virtuales donde alojar toda nuestra  aplicación.  Sin  embargo,  deberemos  aprender  a  descomponer  nuestra aplicación y organizarla en múltiples Pods, de manera que sea posible escalar cada capa de la aplicación de manera individual. Normalmente utilizaremos Pods con un único  contenedor,  sin  embargo,  habrá  ocasiones  en  las  que  tendremos  un contenedor  principal  y  varios  de  apoyo  para  tareas  específicas,  pero  que  están relacionadas con el principal. #ñspace
 		- (Page 9)
 	- -
 	- -
-	- si listamos todos los Pods veremos el estado en que se encuentra nuestro  Pod.  No es  posible  listar directamente todos  los  contenedores, ya  que  en Kubernetes el Pod es la unidad mínima de despliegue: $ kubectl get pods NAME        READY   STATUS    RESTARTS   AGE app-nginx   1/1     Running   0          14s Sin embargo, sí que podemos consultar los detalles de un Pod concreto mediante el comando kubectl describe. Podemos utilizar este comando para consultar todo tipo de recursos de Kubernetes. $ kubectl describe pods app-nginx ... #space
+	- si listamos todos los Pods veremos el estado en que se encuentra nuestro  Pod.  No es  posible  listar directamente todos  los  contenedores, ya  que  en Kubernetes el Pod es la unidad mínima de despliegue: $ kubectl get pods NAME        READY   STATUS    RESTARTS   AGE app-nginx   1/1     Running   0          14s Sin embargo, sí que podemos consultar los detalles de un Pod concreto mediante el comando kubectl describe. Podemos utilizar este comando para consultar todo tipo de recursos de Kubernetes. $ kubectl describe pods app-nginx ... #ñspace
 		- (Page 10)
 	- -
 	- -
@@ -70,7 +70,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 14)
 	- -
 	- -
-	- el comando kubectl explain, el cual nos permite listar los atributos soportados por un recurso. #space
+	- el comando kubectl explain, el cual nos permite listar los atributos soportados por un recurso. #ñspace
 		- (Page 14)
 	- -
 	- -
@@ -94,7 +94,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- Al  listar  recursos  de  Kubernetes,  la  opción  --show-labels  nos  permitirá  ver  las etiquetas  asociadas  a  un  determinado  objeto.  Además,  la  opción  -L  nos  permite mostrar  en  una  columna  el  valor  de  una  etiqueta  específica. #space
+	- Al  listar  recursos  de  Kubernetes,  la  opción  --show-labels  nos  permitirá  ver  las etiquetas  asociadas  a  un  determinado  objeto.  Además,  la  opción  -L  nos  permite mostrar  en  una  columna  el  valor  de  una  etiqueta  específica. #ñspace
 		- (Page 19)
 	- -
 	- -
@@ -104,7 +104,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 19)
 	- -
 	- -
-	- $ kubectl get pods nginx -L autor,environment NAME        READY   STATUS    RESTARTS   AGE   AUTOR   ENVIRONMENT app-nginx   1/1     Running   0          11m   efren   staging #space
+	- $ kubectl get pods nginx -L autor,environment NAME        READY   STATUS    RESTARTS   AGE   AUTOR   ENVIRONMENT app-nginx   1/1     Running   0          11m   efren   staging #ñspace
 		- (Page 20)
 	- -
 	- -
@@ -113,7 +113,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 20)
 	- -
 	- -
-	- Tabla 1. Operadores disponibles del comando kubectl para los selectores. Fuente: elaboración propia. #space
+	- Tabla 1. Operadores disponibles del comando kubectl para los selectores. Fuente: elaboración propia. #ñspace
 		- (Page 22)
 	- -
 	- -
@@ -129,7 +129,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 23)
 	- -
 	- -
-	- Tabla 2. Operadores disponibles en la sección matchExpressions de los selectores. Fuente: elaboración propia. #space
+	- Tabla 2. Operadores disponibles en la sección matchExpressions de los selectores. Fuente: elaboración propia. #ñspace
 		- (Page 23)
 	- -
 	- -

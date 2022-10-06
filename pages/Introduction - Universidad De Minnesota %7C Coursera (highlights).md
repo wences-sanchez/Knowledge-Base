@@ -14,34 +14,34 @@ url:: https://www.coursera.org/learn/introduction-software-testing/lecture/ohzH2
 		- And so what we're going to do, what our goal is for this course, is to make testing effective despite its incompleteness.
 	- -
 	- -
-	- Even simple software has lots and lots possible tests that you can run against it. #space
+	- Even simple software has lots and lots possible tests that you can run against it. #ñspace
 	- -
 	- -
-	- But testing is always incomplete. #space
+	- But testing is always incomplete. #ñspace
 	- -
 	- -
-	- So when you build something for, say, the United States government or another company, they not only want the software but they usually want a test suite that demonstrates the software does what it's supposed to do. #space
+	- So when you build something for, say, the United States government or another company, they not only want the software but they usually want a test suite that demonstrates the software does what it's supposed to do. #ñspace
 	- -
 	- -
-	- Another reason we want to use testing is that oftentimes it's just necessary for the customer to accept the system. #space
+	- Another reason we want to use testing is that oftentimes it's just necessary for the customer to accept the system. #ñspace
 	- -
 	- -
-	- And that intended environment not only includes the software you write but the software you use and the hardware it runs on. #space
+	- And that intended environment not only includes the software you write but the software you use and the hardware it runs on. #ñspace
 	- -
 	- -
-	- Things like, does it have any integer overflows, or null pointer dereferences? And then testing, which is of course the focus of this course, where we have the software product itself, and and we're seeing if it does the right thing. #space
+	- Things like, does it have any integer overflows, or null pointer dereferences? And then testing, which is of course the focus of this course, where we have the software product itself, and and we're seeing if it does the right thing. #ñspace
 	- -
 	- -
 	- Testing es uno más de las técnicas de V&V. Others are:
 	- -
 	- -
-	- And why are we focusing on this area of verification and validation rather than all the others? Well, software testing is the only defect detection technique that can check the whole system. #space
+	- And why are we focusing on this area of verification and validation rather than all the others? Well, software testing is the only defect detection technique that can check the whole system. #ñspace
 	- -
 	- -
-	- The key point is that Software Testing is the only software detection technique that can check the whole system #space
+	- The key point is that Software Testing is the only software detection technique that can check the whole system #ñspace
 	- -
 	- -
-	- And the next thing we want to do is we want to apply multiple V&V, that is verification and validation techniques, throughout the development cycle. #space
+	- And the next thing we want to do is we want to apply multiple V&V, that is verification and validation techniques, throughout the development cycle. #ñspace
 	- -
 	- -
 	- Why testing? #card

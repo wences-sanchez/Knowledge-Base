@@ -9,22 +9,22 @@ tags:: #[[Self-Help]]
 - ![](https://images-na.ssl-images-amazon.com/images/I/41w5J5Jx3JL._SL200_.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Por ejemplo, en lugar de despedir a Clive, ¿por qué no cambiar su rol para que esté más acorde con sus virtudes? #space
+	- Por ejemplo, en lugar de despedir a Clive, ¿por qué no cambiar su rol para que esté más acorde con sus virtudes? #ñspace
 		- ([Location 145](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=145))
 		- #[[mind]]
 	- -
 	- -
-	- Un estudio británico de más de 3.000 personas reveló que el 88 por ciento de los propósitos de Año Nuevo no se cumplen, incluido el 68 por ciento de propósitos para simplemente «vivir más la vida». #space
+	- Un estudio británico de más de 3.000 personas reveló que el 88 por ciento de los propósitos de Año Nuevo no se cumplen, incluido el 68 por ciento de propósitos para simplemente «vivir más la vida». #ñspace
 		- ([Location 184](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=184))
 		- #[[mind]]
 	- -
 	- -
-	- primer villano de la toma de decisiones, la visión estrecha, que es la tendencia a definir nuestras opciones de forma demasiado restringida, a verlas en términos binarios. Preguntamos: «¿Me separo de mi socio o no?», #space
+	- primer villano de la toma de decisiones, la visión estrecha, que es la tendencia a definir nuestras opciones de forma demasiado restringida, a verlas en términos binarios. Preguntamos: «¿Me separo de mi socio o no?», #ñspace
 		- ([Location 258](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=258))
 		- #[[mind]]
 	- -
 	- -
-	- En la vida normalmente acostumbramos a abrazar una rápida creencia sobre una situación y luego buscamos información que reafirme nuestra creencia. Y ese hábito nocivo, llamado «sesgo de confirmación», es el segundo villano de la toma de decisiones. #space
+	- En la vida normalmente acostumbramos a abrazar una rápida creencia sobre una situación y luego buscamos información que reafirme nuestra creencia. Y ese hábito nocivo, llamado «sesgo de confirmación», es el segundo villano de la toma de decisiones. #ñspace
 		- ([Location 277](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=277))
 	- -
 	- -
@@ -34,7 +34,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- «Fue un año desastroso y frustrante. Durante aquella época trabajamos como condenados sin una idea clara de si las cosas mejorarían en algún momento. Habíamos perdido el norte». #space
+	- «Fue un año desastroso y frustrante. Durante aquella época trabajamos como condenados sin una idea clara de si las cosas mejorarían en algún momento. Habíamos perdido el norte». #ñspace
 		- ([Location 322](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=322))
 	- -
 	- -
@@ -44,7 +44,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- el cuarto villano de la toma de decisiones es la confianza desmedida. La gente cree que sabe más de lo que realmente sabe sobre lo que ocurrirá en un futuro. #space
+	- el cuarto villano de la toma de decisiones es la confianza desmedida. La gente cree que sabe más de lo que realmente sabe sobre lo que ocurrirá en un futuro. #ñspace
 		- ([Location 378](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=378))
 	- -
 	- -
@@ -54,7 +54,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- Tomas una decisión. Pero la emoción a corto plazo te tentará a menudo para que tomes la errónea. • Luego vives con ella. Pero a menudo confiarás demasiado en lo que ocurrirá en un futuro. #space
+	- Tomas una decisión. Pero la emoción a corto plazo te tentará a menudo para que tomes la errónea. • Luego vives con ella. Pero a menudo confiarás demasiado en lo que ocurrirá en un futuro. #ñspace
 		- ([Location 402](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=402))
 	- -
 	- -
@@ -63,11 +63,11 @@ tags:: #[[Self-Help]]
 		- ([Location 458](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=458))
 	- -
 	- -
-	- Para tomar mejores decisiones usa el proceso WRAP: Aumenta tus opciones. Contrasta tus suposiciones. Toma distancia antes de decidir. Prepárate para el error. #space
+	- Para tomar mejores decisiones usa el proceso WRAP: Aumenta tus opciones. Contrasta tus suposiciones. Toma distancia antes de decidir. Prepárate para el error. #ñspace
 		- ([Location 612](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=612))
 	- -
 	- -
-	- El primer paso hacia ese objetivo es aprender a desconfiar de las decisiones de «sí o no». De hecho, cuando veas u oigas ese planteamiento, esperamos que en tu cabeza se dispare una pequeña señal de alerta, recordándote que puede que estés atascado en una visión estrecha. Si estás dispuesto a invertir cierto esfuerzo en una búsqueda más amplia, normalmente descubrirás que tus opciones son más abundantes de lo que en un principio creías. #space
+	- El primer paso hacia ese objetivo es aprender a desconfiar de las decisiones de «sí o no». De hecho, cuando veas u oigas ese planteamiento, esperamos que en tu cabeza se dispare una pequeña señal de alerta, recordándote que puede que estés atascado en una visión estrecha. Si estás dispuesto a invertir cierto esfuerzo en una búsqueda más amplia, normalmente descubrirás que tus opciones son más abundantes de lo que en un principio creías. #ñspace
 		- ([Location 730](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=730))
 		- #[[mind]]
 	- -

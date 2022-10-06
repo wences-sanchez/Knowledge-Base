@@ -19,11 +19,11 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	- En  YAML  los  strings  se  soportan  cerrados  por  comillas  dobles  (“string”),  comillas simples  (‘string’)  y  sin  poner  comillas.  Las  comillas  dobles  permiten  escapar caracteres mediante la barra invertida: \. Es necesario tener cuidado si no utilizamos comillas de que el texto no haga conflicto con ningún otro significado en YAML. #space
+	- En  YAML  los  strings  se  soportan  cerrados  por  comillas  dobles  (“string”),  comillas simples  (‘string’)  y  sin  poner  comillas.  Las  comillas  dobles  permiten  escapar caracteres mediante la barra invertida: \. Es necesario tener cuidado si no utilizamos comillas de que el texto no haga conflicto con ningún otro significado en YAML. #ñspace
 		- (Page 11)
 	- -
 	- -
-	- es posible mostrar un error específico cuando la variable no está presente como: ${VAR:?texto_de_error}. #space
+	- es posible mostrar un error específico cuando la variable no está presente como: ${VAR:?texto_de_error}. #ñspace
 		- (Page 12)
 	- -
 	- -
@@ -42,6 +42,6 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 15)
 	- -
 	- -
-	- Es importante entender cómo mantiene el estado de cada archivo Filebeat para poder entender qué está ocurriendo cuando un comportamiento nos sorprende. Filebeat mantiene el estado de cada archivo y frecuentemente guarda el estado en el disco en el archivo de registro. El estado se utiliza para recordar el último offset o lugar desde el que estaba leyendo para garantizar que se envíen todas las líneas del fichero. Si no se puede acceder a la salida, como  ElasticSearch o Logstash, Filebeat realiza  un  seguimiento  de  las  últimas  líneas  enviadas  y  continuará  leyendo  los archivos tan pronto como la salida vuelva a estar disponible. Mientras Filebeat se está ejecutando, la información de estado también se guarda en la memoria para cada entrada. Cuando se reinicia Filebeat, los datos del archivo de registro se utilizan para reconstruir  el  estado,  y  Filebeat  continúa  cada  recolector  en  la  última  posición conocida. #space
+	- Es importante entender cómo mantiene el estado de cada archivo Filebeat para poder entender qué está ocurriendo cuando un comportamiento nos sorprende. Filebeat mantiene el estado de cada archivo y frecuentemente guarda el estado en el disco en el archivo de registro. El estado se utiliza para recordar el último offset o lugar desde el que estaba leyendo para garantizar que se envíen todas las líneas del fichero. Si no se puede acceder a la salida, como  ElasticSearch o Logstash, Filebeat realiza  un  seguimiento  de  las  últimas  líneas  enviadas  y  continuará  leyendo  los archivos tan pronto como la salida vuelva a estar disponible. Mientras Filebeat se está ejecutando, la información de estado también se guarda en la memoria para cada entrada. Cuando se reinicia Filebeat, los datos del archivo de registro se utilizan para reconstruir  el  estado,  y  Filebeat  continúa  cada  recolector  en  la  última  posición conocida. #ñspace
 		- (Page 16)
 	- -

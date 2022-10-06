@@ -9,7 +9,7 @@ tags:: #[[Science]]
 - ![](https://m.media-amazon.com/images/I/71UKZp0NUyL._SY160.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- “Quantum mechanics” is the description of the behavior of matter and light in all its details and, in particular, of the happenings on an atomic scale. #space
+	- “Quantum mechanics” is the description of the behavior of matter and light in all its details and, in particular, of the happenings on an atomic scale. #ñspace
 		- ([Location 537](https://readwise.io/to_kindle?action=open&asin=B06XC9JGQJ&location=537))
 		- #[[sci]] #[[pink]]
 	- -

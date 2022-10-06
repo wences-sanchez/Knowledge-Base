@@ -9,15 +9,15 @@ tags:: #[[Literature]]
 - ![](https://images-na.ssl-images-amazon.com/images/I/51MUF7bj-lL._SL200_.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- “To ash all things return, so too this flesh will burn. But I am Tehlu. Son of myself. Father of myself. I was before, and I will be after. If I am a sacrifice then it is to myself alone. And if I am needed and called in the proper ways then I will come again to judge and punish.” #space
+	- “To ash all things return, so too this flesh will burn. But I am Tehlu. Son of myself. Father of myself. I was before, and I will be after. If I am a sacrifice then it is to myself alone. And if I am needed and called in the proper ways then I will come again to judge and punish.” #ñspace
 		- ([Location 3260](https://readwise.io/to_kindle?action=open&asin=B003HV0TN2&location=3260))
 	- -
 	- -
-	- I was finally a member of the Arcanum, in some ways exactly where I had always wanted to be. #space
+	- I was finally a member of the Arcanum, in some ways exactly where I had always wanted to be. #ñspace
 		- ([Location 5266](https://readwise.io/to_kindle?action=open&asin=B003HV0TN2&location=5266))
 	- -
 	- -
-	- “I used to do that for hours,” Elodin said, drawing a deep breath and looking around the room fondly. “Good times.” #space
+	- “I used to do that for hours,” Elodin said, drawing a deep breath and looking around the room fondly. “Good times.” #ñspace
 		- ([Location 6084](https://readwise.io/to_kindle?action=open&asin=B003HV0TN2&location=6084))
 	- -
 	- -
@@ -39,7 +39,7 @@ tags:: #[[Literature]]
 		- #[[pink]]
 	- -
 	- -
-	- In the silence I felt it all unraveling, the audience waking with the dream unfinished, all my work ruined, wasted. And all the while burning inside me was the song, the song. The song! Without knowing what I did, I set my fingers back to the strings and fell deep into myself. Into years before, when my hands had calluses like stones and my music had come as easy as breathing. Back to the time I had played to make the sound of Wind Turning a Leaf on a lute with six strings. And I began to play. Slowly, then with greater speed as my hands remembered. #space
+	- In the silence I felt it all unraveling, the audience waking with the dream unfinished, all my work ruined, wasted. And all the while burning inside me was the song, the song. The song! Without knowing what I did, I set my fingers back to the strings and fell deep into myself. Into years before, when my hands had calluses like stones and my music had come as easy as breathing. Back to the time I had played to make the sound of Wind Turning a Leaf on a lute with six strings. And I began to play. Slowly, then with greater speed as my hands remembered. #ñspace
 		- ([Location 7159](https://readwise.io/to_kindle?action=open&asin=B003HV0TN2&location=7159))
 		- #[[blue]]
 	- -

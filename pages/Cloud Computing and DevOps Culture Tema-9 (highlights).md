@@ -9,7 +9,7 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/2cda4bdf-bed7-4bda-93f7-413c6cc41494.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Los DevOps tienen, como parte de sus cometidos, no solo el desarrollar y desplegar los entornos de producción, sino el asegurar su correcto funcionamiento. Para hablar del  correcto  funcionamiento  de  un  sistema,  la  monitorización  es  una  pieza fundamental y necesaria. #space
+	- Los DevOps tienen, como parte de sus cometidos, no solo el desarrollar y desplegar los entornos de producción, sino el asegurar su correcto funcionamiento. Para hablar del  correcto  funcionamiento  de  un  sistema,  la  monitorización  es  una  pieza fundamental y necesaria. #ñspace
 		- (Page 4)
 	- -
 	- -

@@ -9,7 +9,7 @@ tags:: #[[Literature]]
 - ![](https://images-na.ssl-images-amazon.com/images/I/51fB5GCrhML._SL200_.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Tras casi un año en la Universidad, empezaba a sentir que pertenecía a ese lugar. Era una sensación extraña, ese cariño a un sitio. En cierto modo era reconfortante, pero el Ruh que llevaba dentro estaba inquieto, pues se rebelaba contra la idea de echar raíces como una planta. #space
+	- Tras casi un año en la Universidad, empezaba a sentir que pertenecía a ese lugar. Era una sensación extraña, ese cariño a un sitio. En cierto modo era reconfortante, pero el Ruh que llevaba dentro estaba inquieto, pues se rebelaba contra la idea de echar raíces como una planta. #ñspace
 		- ([Location 1479](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=1479))
 	- -
 	- -
@@ -19,7 +19,7 @@ tags:: #[[Literature]]
 		- #[[mind]]
 	- -
 	- -
-	- Nunca se ven dos veces en el mismo sitio. Nunca en público. Desaparece durante meses. —Miré a Threpe—. ¿A ti qué te parece? —Bueno, no suena muy bien —concedió Threpe con un tono cargado de desaprobación—. Es muy probable que ese individuo no sea un mecenas como es debido. Quizá intente aprovecharse de tu amiga. —Eso mismo pienso yo —dije, apesadumbrado. #space
+	- Nunca se ven dos veces en el mismo sitio. Nunca en público. Desaparece durante meses. —Miré a Threpe—. ¿A ti qué te parece? —Bueno, no suena muy bien —concedió Threpe con un tono cargado de desaprobación—. Es muy probable que ese individuo no sea un mecenas como es debido. Quizá intente aprovecharse de tu amiga. —Eso mismo pienso yo —dije, apesadumbrado. #ñspace
 		- ([Location 4285](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=4285))
 	- -
 	- -
@@ -34,6 +34,6 @@ tags:: #[[Literature]]
 		- #[[mind]]
 	- -
 	- -
-	- —Si el Chtaeh fuera tan malvado como tú dices, te haría todo el daño que pudiera. Pero no puede. No pudo evitar que hicieras reír a tu Reshi esta mañana. No pudo evitar que disfrutaras del sol en la cara ni que besases las rosadas mejillas de las hijas de los granjeros, ¿verdad? #space
+	- —Si el Chtaeh fuera tan malvado como tú dices, te haría todo el daño que pudiera. Pero no puede. No pudo evitar que hicieras reír a tu Reshi esta mañana. No pudo evitar que disfrutaras del sol en la cara ni que besases las rosadas mejillas de las hijas de los granjeros, ¿verdad? #ñspace
 		- ([Location 22533](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=22533))
 	- -

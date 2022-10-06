@@ -36,5 +36,5 @@ url:: https://stackoverflow.com/questions/4142151/how-to-import-the-class-within
 	  Same as previous, but prefix the module name with a . if not using a subdirectory:
 	  
 	  from .user import User
-	  from .dir import Dir #space
+	  from .dir import Dir #ñspace
 	- -

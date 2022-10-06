@@ -16,5 +16,5 @@ url:: https://www.cyberciti.biz/faq/unix-linux-grep-word-count-command/
 		- #[[bash]]
 	- -
 	- -
-	- grep -o -w 'foo' bar.txt | wc -w #space
+	- grep -o -w 'foo' bar.txt | wc -w #ñspace
 	- -

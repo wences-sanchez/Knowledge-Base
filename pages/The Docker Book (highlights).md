@@ -29,11 +29,11 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		- -
 	- 2 Installing Docker
 		- -
-		- Docker for Mac and Docker for Windows are a collection of components that installs everything you need to get started with Docker. It includes a tiny virtual machine shipped with a wrapper script to manage it. The virtual machine runs the daemon and provides a local Docker daemon on OS X and Microsoft Windows. The Docker client binary, docker, is installed natively on these platforms and connected to the Docker daemon running in the virtual machine. It replaces the legacy Docker Toolbox and Boot2Docker. #space
+		- Docker for Mac and Docker for Windows are a collection of components that installs everything you need to get started with Docker. It includes a tiny virtual machine shipped with a wrapper script to manage it. The virtual machine runs the daemon and provides a local Docker daemon on OS X and Microsoft Windows. The Docker client binary, docker, is installed natively on these platforms and connected to the Docker daemon running in the virtual machine. It replaces the legacy Docker Toolbox and Boot2Docker. #ñspace
 		- -
 	- 3 Getting Started with Docker
 		- -
-		- By default, when we run just docker ps, we will only see the running containers. When we specify the -a flag, the docker ps command will show us all containers, both stopped and running. #space
+		- By default, when we run just docker ps, we will only see the running containers. When we specify the -a flag, the docker ps command will show us all containers, both stopped and running. #ñspace
 		- -
 		- -
 		- How can you name a container? #card
@@ -45,7 +45,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		- -
 		- Our container will restart with the same options we’d specified when we launched it with the docker run command. So there is an interactive session waiting on our running container. We can reattach to that session using the docker attach command.
 		  
-		  $ sudo docker attach bob_the_container #space
+		  $ sudo docker attach bob_the_container #ñspace
 		- -
 		- -
 		- How can you make a daemon of a container? #card
@@ -77,7 +77,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  
 		  $ sudo docker logs -ft daemon_dave
 		  2016-08-02T03:31:16.743679596Z hello world
-		  2016-08-02T03:31:17.744769494Z hello world #space
+		  2016-08-02T03:31:17.744769494Z hello world #ñspace
 		- -
 		- -
 		- How can you run the command `touch /etc/new_config_file` inside the already-running container named daemon_dave? #card
@@ -88,19 +88,19 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 			- $ sudo docker stop daemon_dave
 		- -
 		- -
-		- In addition to the information we retrieved about our container using the docker ps command, we can get a whole lot more information using the docker inspect command. #space
+		- In addition to the information we retrieved about our container using the docker ps command, we can get a whole lot more information using the docker inspect command. #ñspace
 		- -
 	- 4 Working with Docker images and repositories
 		- -
-		- This pattern is traditionally called “copy on write” and is one of the features that makes Docker so powerful. Each read-only image layer is read-only; this image never changes. When a container is created, Docker builds from the stack of images and then adds the read-write layer on top. That layer, combined with the knowledge of the image layers below it and some configuration data, form the container. As we discovered in the last chapter, containers can be changed, they have state, and they can be started and stopped. This, and the image-layering framework, allows us to quickly build images and run containers with our applications and services. #space
+		- This pattern is traditionally called “copy on write” and is one of the features that makes Docker so powerful. Each read-only image layer is read-only; this image never changes. When a container is created, Docker builds from the stack of images and then adds the read-write layer on top. That layer, combined with the knowledge of the image layers below it and some configuration data, form the container. As we discovered in the last chapter, containers can be changed, they have state, and they can be started and stopped. This, and the image-layering framework, allows us to quickly build images and run containers with our applications and services. #ñspace
 		- -
 		- -
-		- Let’s get started with Docker images by looking at what images are available to us on our Docker host. We can do this using the docker images command. #space
+		- Let’s get started with Docker images by looking at what images are available to us on our Docker host. We can do this using the docker images command. #ñspace
 		- -
 		- -
 		- We identify each image inside that repository by what Docker calls tags. Each image is being listed by the tags applied to it, so, for example, 12.04, 12.10, quantal, or precise and so on. Each tag marks together a series of image layers that represent a specific image (e.g., the 18.04 tag collects together all the layers of the Ubuntu 18.04 image). This allows us to store more than one image inside a repository.
 		  
-		  We can refer to a specific image inside a repository by suffixing the repository name with a colon and a tag name #space
+		  We can refer to a specific image inside a repository by suffixing the repository name with a colon and a tag name #ñspace
 		- -
 		- -
 		- About the two types of repositories in Docker. #card
@@ -144,14 +144,14 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 			- The first instruction in a Dockerfile must be FROM. The FROM instruction specifies an existing image that the following instructions will operate on; this image is called the base image.
 		- -
 		- -
-		- All of the instructions will be executed and committed and a new image returned when we run the docker build command #space
+		- All of the instructions will be executed and committed and a new image returned when we run the docker build command #ñspace
 		- -
 		- -
 		- We’ve used the docker build command to build our new image. We’ve specified the -t option to mark our resulting image with a repository and a name, here the jamtur01 repository and the image name static_web. I strongly recommend you always name your images to make it easier to track and manage them. #card
 			- $ sudo docker build -t="jamtur01/static_web:v1" .
 		- -
 		- -
-		- The docker run command will open a random port on the Docker host that will connect to port 80 on the Docker container. #space
+		- The docker run command will open a random port on the Docker host that will connect to port 80 on the Docker container. #ñspace
 		- -
 		- -
 		- What is WORKDIR used for in Dockerfile? #card
@@ -186,7 +186,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  
 		  This ADD instruction will copy the file software.lic from the build directory to /opt/application/software.lic in the image. The source of the file can be a URL, filename, or directory as long as it is inside the build context or environment. You cannot ADD files from outside the build directory or context.
 		  
-		  When ADD’ing files Docker uses the ending character of the destination to determine what the source is. If the destination ends in a /, then it considers the source a directory. If it doesn’t end in a /, it considers the source a file. #space
+		  When ADD’ing files Docker uses the ending character of the destination to determine what the source is. If the destination ends in a /, then it considers the source a directory. If it doesn’t end in a /, it considers the source a file. #ñspace
 		- -
 		- -
 		- The ARG instruction defines variables that can be passed at build-time via the docker build command. This is done using the --build-arg flag. You can only specify build-time arguments that have been defined in the Dockerfile.
@@ -198,7 +198,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  
 		  $ docker build --build-arg build=1234 -t jamtur01/webapp .
 		  
-		  As the jamtur01/webapp image is built the build variable will be set to 1234 and the webapp_user variable will inherit the default value of user. #space
+		  As the jamtur01/webapp image is built the build variable will be set to 1234 and the webapp_user variable will inherit the default value of user. #ñspace
 		- -
 		- -
 		- If you are trying to unzip something or you are dealing with a URL, then you must use ADD instead of COPY #card
@@ -222,10 +222,10 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 			- The ONBUILD instruction adds triggers to images. A trigger is executed when the image is used as the basis of another image (e.g., if you have an image that needs source code added from a specific location that might not yet be available, or if you need to execute a build script that is specific to the environment in which the image is built).
 		- -
 		- -
-		- NOTE We call it the Ubuntu operating system, but really it is not the full operating system. It’s a cut-down version with the bare runtime required to run the distribution. #space
+		- NOTE We call it the Ubuntu operating system, but really it is not the full operating system. It’s a cut-down version with the bare runtime required to run the distribution. #ñspace
 		- -
 		- -
-		- The CMD instruction specifies the command to run when a container is launched. It is similar to the RUN instruction, but rather than running the command when the container is being built, it will specify the command to run when the container is launched, much like specifying a command to run when launching a container with the docker run command #space
+		- The CMD instruction specifies the command to run when a container is launched. It is similar to the RUN instruction, but rather than running the command when the container is being built, it will specify the command to run when the container is launched, much like specifying a command to run when launching a container with the docker run command #ñspace
 		- -
 	- 5 Testing with Docker
 		- -
@@ -242,7 +242,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  ec8bc3a70094a1ac3179b232bc185fcda120dad85dec394e6b5b01f7006476d4
 		  This uses the docker network command to create a bridge network called app. A network ID is returned for the network.
 		  
-		  We can then inspect this network using the docker network inspect command. #space
+		  We can then inspect this network using the docker network inspect command. #ñspace
 		- -
 		- -
 		- To use Docker networks we first need to create a network and then launch a container inside that network.
@@ -251,10 +251,10 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  ec8bc3a70094a1ac3179b232bc185fcda120dad85dec394e6b5b01f7006476d4
 		  This uses the docker network command to create a bridge network called app. A network ID is returned for the network.
 		  
-		  We can then inspect this network using the docker network inspect command. #space
+		  We can then inspect this network using the docker network inspect command. #ñspace
 		- -
 		- -
-		- TIP In addition to bridge networks, which exist on a single host, we can also create overlay networks, which allow us to span multiple hosts. You can read more about overlay networks in the Docker multi-host network documentation. #space
+		- TIP In addition to bridge networks, which exist on a single host, we can also create overlay networks, which allow us to span multiple hosts. You can read more about overlay networks in the Docker multi-host network documentation. #ñspace
 		- -
 		- -
 		- You can list all current networks using the docker network ls command.
@@ -270,7 +270,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  Let’s add some containers to our network, starting with a Redis container.
 		  
 		  $ sudo docker run -d --net=app --name db jamtur01/redis --protected-mode no
-		  Here we’ve run a new container called db using our jamtur01/redis image. We’ve also specified a new flag: --net. The --net flag specifies a network to run our container inside. #space
+		  Here we’ve run a new container called db using our jamtur01/redis image. We’ve also specified a new flag: --net. The --net flag specifies a network to run our container inside. #ñspace
 		- -
 	- 7 Docker Orchestration and Service Discovery
 		- -

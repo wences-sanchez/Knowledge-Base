@@ -9,15 +9,15 @@ tags:: #[[Literature]]
 - ![](https://m.media-amazon.com/images/I/91be5itnaAL._SY160.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- It felt like we had everything we needed, right there, forever; #space
+	- It felt like we had everything we needed, right there, forever; #ñspace
 		- ([Location 1499](https://readwise.io/to_kindle?action=open&asin=B087FDL5VJ&location=1499))
 	- -
 	- -
-	- snowed in?” I ask. “Let’s hope not.” He wraps the comforter tighter around us and shivers. “After I moved away from Dublin I swore I wouldn’t live anywhere cold ever again. I was always cold when I was a kid. My parents could never afford the heat and so every winter we’d freeze. I guess they hoped that with eleven kids #space
+	- snowed in?” I ask. “Let’s hope not.” He wraps the comforter tighter around us and shivers. “After I moved away from Dublin I swore I wouldn’t live anywhere cold ever again. I was always cold when I was a kid. My parents could never afford the heat and so every winter we’d freeze. I guess they hoped that with eleven kids #ñspace
 		- ([Location 3690](https://readwise.io/to_kindle?action=open&asin=B087FDL5VJ&location=3690))
 	- -
 	- -
-	- And stop asking other people to tell you that you’re worthy. Why do you care what they think, anyway? Fuck them all.” #space
+	- And stop asking other people to tell you that you’re worthy. Why do you care what they think, anyway? Fuck them all.” #ñspace
 		- ([Location 3795](https://readwise.io/to_kindle?action=open&asin=B087FDL5VJ&location=3795))
 	- -
 	- -

@@ -75,11 +75,11 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- «Para mentes diferentes, el mismo mundo puede ser el cielo y el infierno».7 Nuestra interpretación subjetiva del mundo resulta significativa; #space
+	- «Para mentes diferentes, el mismo mundo puede ser el cielo y el infierno».7 Nuestra interpretación subjetiva del mundo resulta significativa; #ñspace
 		- ([Location 423](https://readwise.io/to_kindle?action=open&asin=B0064SUSHC&location=423))
 	- -
 	- -
-	- el optimalista no traza su dirección de acuerdo a un mapa rígido, sino utilizando un compás más flexible. Dicho compás le brinda la confianza necesaria para deambular, para coger el camino enrevesado. Si bien tiene clara la dirección que seguirá, es dinámico y adaptable, está abierto a alternativas diferentes y es capaz de enfrentarse a imprevistos y giros inesperados. Al aceptar que diferentes caminos pueden igualmente llevarlo a su destino, es flexible, #space
+	- el optimalista no traza su dirección de acuerdo a un mapa rígido, sino utilizando un compás más flexible. Dicho compás le brinda la confianza necesaria para deambular, para coger el camino enrevesado. Si bien tiene clara la dirección que seguirá, es dinámico y adaptable, está abierto a alternativas diferentes y es capaz de enfrentarse a imprevistos y giros inesperados. Al aceptar que diferentes caminos pueden igualmente llevarlo a su destino, es flexible, #ñspace
 		- ([Location 464](https://readwise.io/to_kindle?action=open&asin=B0064SUSHC&location=464))
 		- #[[mind]]
 	- -
@@ -115,7 +115,7 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- Cuando mi hijo cumplió tres años, empezamos a hacer una variación de este ejercicio juntos. Cada noche, yo le preguntaba: «¿Qué te ha gustado más del día de hoy?», y luego él me formulaba la misma pregunta. Mi mujer y yo nos recordamos a menudo que estamos agradecidos por tenernos el uno al otro y por nuestra relación. Estoy seguro de que este ejercicio me ha ayudado a pasar de ser un perfeccionista, que da lo bueno por sentado, a ser un optimalista, que lo aprecia. #space
+	- Cuando mi hijo cumplió tres años, empezamos a hacer una variación de este ejercicio juntos. Cada noche, yo le preguntaba: «¿Qué te ha gustado más del día de hoy?», y luego él me formulaba la misma pregunta. Mi mujer y yo nos recordamos a menudo que estamos agradecidos por tenernos el uno al otro y por nuestra relación. Estoy seguro de que este ejercicio me ha ayudado a pasar de ser un perfeccionista, que da lo bueno por sentado, a ser un optimalista, que lo aprecia. #ñspace
 		- ([Location 1474](https://readwise.io/to_kindle?action=open&asin=B0064SUSHC&location=1474))
 	- -
 	- -

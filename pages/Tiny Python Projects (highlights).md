@@ -9,10 +9,10 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- front matter
 		- -
-		- I think my ideal reader is someone who’s been trying to learn to code well but isn’t quite sure how to level up. #space
+		- I think my ideal reader is someone who’s been trying to learn to code well but isn’t quite sure how to level up. #ñspace
 		- -
 		- -
-		- This is a book that will teach you to write well-structured, documented, testable code in Python. #space
+		- This is a book that will teach you to write well-structured, documented, testable code in Python. #ñspace
 		- -
 	- 0 Getting started: Introduction and installation guide
 		- -

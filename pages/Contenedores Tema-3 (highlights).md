@@ -34,11 +34,11 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- Exposición de puertos Cuando utilizamos la instrucción EXPOSE en un Dockerfile, esta indica que podemos conectarnos  al  servicio  del  contenedor  en  el  puerto  indicado.  Sin  embargo,  no  se realiza ninguna configuración de red por defecto. Dos contenedores que estén en la misma red sí que se podrán comunicar a través de los puertos expuestos, pero dichos puertos no serán accesibles desde fuera del contenedor. Para publicar en el host los puertos expuestos en la imagen utilizaremos las siguientes opciones:   -p, --publish. Publica un puerto del contenedor al host.   -P,  --publish-all.  Publica  todos  los  puertos  expuestos  en el  contenedor  a  un puerto aleatorio del host. #space
+	- Exposición de puertos Cuando utilizamos la instrucción EXPOSE en un Dockerfile, esta indica que podemos conectarnos  al  servicio  del  contenedor  en  el  puerto  indicado.  Sin  embargo,  no  se realiza ninguna configuración de red por defecto. Dos contenedores que estén en la misma red sí que se podrán comunicar a través de los puertos expuestos, pero dichos puertos no serán accesibles desde fuera del contenedor. Para publicar en el host los puertos expuestos en la imagen utilizaremos las siguientes opciones:   -p, --publish. Publica un puerto del contenedor al host.   -P,  --publish-all.  Publica  todos  los  puertos  expuestos  en el  contenedor  a  un puerto aleatorio del host. #ñspace
 		- (Page 8)
 	- -
 	- -
-	- Veámoslo con un ejemplo. La imagen de nginx tiene expuesto el puerto ochenta, si al crear el contenedor no los publicamos entonces lo veremos como disponible, pero solo dentro de la red del contenedor. Con las opciones -p y -P vemos como sí están disponibles en el host: $ docker run -d --name contA nginx:alpine $ docker run -d --name contB -P nginx:alpine $ docker run -d --name contC -p 8080:80 nginx:alpine $ docker ps CONTAINER ID    IMAGE             ...    PORTS                    NAMES 8f7cb48b9141    nginx:alpine             80/tcp                   contA 0da034beb842    nginx:alpine             0.0.0.0:32768->80/tcp    contB 2a3cd13b135c    nginx:alpine             0.0.0.0:8080->80/tcp     contC #space
+	- Veámoslo con un ejemplo. La imagen de nginx tiene expuesto el puerto ochenta, si al crear el contenedor no los publicamos entonces lo veremos como disponible, pero solo dentro de la red del contenedor. Con las opciones -p y -P vemos como sí están disponibles en el host: $ docker run -d --name contA nginx:alpine $ docker run -d --name contB -P nginx:alpine $ docker run -d --name contC -p 8080:80 nginx:alpine $ docker ps CONTAINER ID    IMAGE             ...    PORTS                    NAMES 8f7cb48b9141    nginx:alpine             80/tcp                   contA 0da034beb842    nginx:alpine             0.0.0.0:32768->80/tcp    contB 2a3cd13b135c    nginx:alpine             0.0.0.0:8080->80/tcp     contC #ñspace
 		- (Page 9)
 	- -
 	- -
@@ -47,7 +47,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- Listar los contenedores existentes Una vez creados nuestros contenedores, podremos listar los que están actualmente en ejecución con el comando docker ps. Si queremos ver también los que están en otros estados podemos utilizar la opción -a: #space
+	- Listar los contenedores existentes Una vez creados nuestros contenedores, podremos listar los que están actualmente en ejecución con el comando docker ps. Si queremos ver también los que están en otros estados podemos utilizar la opción -a: #ñspace
 		- (Page 9)
 	- -
 	- -
@@ -78,7 +78,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 16)
 	- -
 	- -
-	- Los  volumes  son  la  manera  recomendada  en  Docker  de  persistir  los  datos  de nuestros contenedores. Algunas de sus principales ventajas son:   Las copias de seguridad y migración a otros hosts son sencillas.   Podemos gestionarlos tanto con comandos de Docker como mediante su API.   Funcionan en Linux y Windows.   Se pueden compartir de manera más segura entre múltiples contenedores.   Existen  controladores  que  nos  permitirán  tenerlos  en  hosts  remotos  o  añadir características como, por ejemplo, cifrar su contenido. #space
+	- Los  volumes  son  la  manera  recomendada  en  Docker  de  persistir  los  datos  de nuestros contenedores. Algunas de sus principales ventajas son:   Las copias de seguridad y migración a otros hosts son sencillas.   Podemos gestionarlos tanto con comandos de Docker como mediante su API.   Funcionan en Linux y Windows.   Se pueden compartir de manera más segura entre múltiples contenedores.   Existen  controladores  que  nos  permitirán  tenerlos  en  hosts  remotos  o  añadir características como, por ejemplo, cifrar su contenido. #ñspace
 		- (Page 17)
 	- -
 	- -
@@ -119,7 +119,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 23)
 	- -
 	- -
-	- Importar y exportar contenedores de datos Cuando utilizamos contenedores de datos, el proceso de moverlos de una máquina a otra  se  simplifica  muchísimo.  Podemos  exportarlos  a  un  fichero  TAR  y  después importarlo en otra máquina: $ docker export contenedorDatos > contenedorDatosExport.tar $ docker import contenedorDatosExport.tar #space
+	- Importar y exportar contenedores de datos Cuando utilizamos contenedores de datos, el proceso de moverlos de una máquina a otra  se  simplifica  muchísimo.  Podemos  exportarlos  a  un  fichero  TAR  y  después importarlo en otra máquina: $ docker export contenedorDatos > contenedorDatosExport.tar $ docker import contenedorDatosExport.tar #ñspace
 		- (Page 24)
 	- -
 	- -
@@ -133,10 +133,10 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 25)
 	- -
 	- -
-	- $ docker network create --driver bridge miRed $ docker run -dit --rm --name contenedorA --network miRed alpine sh $ docker run -dit --rm --name contenedorB --network miRed alpine sh #space
+	- $ docker network create --driver bridge miRed $ docker run -dit --rm --name contenedorA --network miRed alpine sh $ docker run -dit --rm --name contenedorB --network miRed alpine sh #ñspace
 		- (Page 28)
 	- -
 	- -
-	- Cuando  utilizamos  el  controlador  de  red  host,  nuestro  contenedor  no  tendrá aislamiento de red y no se le asignará una dirección IP propia, ya que compartirá de del anfitrión o host. El  mapeo  de  puertos  que  definamos  no  tendrá  efecto,  ya  que  estarán automáticamente disponibles en el anfitrión. Además, no será posible tener más de un contenedor a la vez utilizando este controlar en el mismo host. #space
+	- Cuando  utilizamos  el  controlador  de  red  host,  nuestro  contenedor  no  tendrá aislamiento de red y no se le asignará una dirección IP propia, ya que compartirá de del anfitrión o host. El  mapeo  de  puertos  que  definamos  no  tendrá  efecto,  ya  que  estarán automáticamente disponibles en el anfitrión. Además, no será posible tener más de un contenedor a la vez utilizando este controlar en el mismo host. #ñspace
 		- (Page 30)
 	- -

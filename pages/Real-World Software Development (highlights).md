@@ -82,7 +82,7 @@ tags:: #[[O'Reilly-Learning]]
 		  
 		  JUnit is a Java testing framework that lets you specify unit tests that verify the behavior of your methods and classes.
 		  
-		  Given-When-Then is a pattern for setting up a test into three parts to help understand the tests you implement. #space
+		  Given-When-Then is a pattern for setting up a test into three parts to help understand the tests you implement. #ñspace
 		- -
 		- -
 		- Will this break my tuning? #card
@@ -137,16 +137,16 @@ tags:: #[[O'Reilly-Learning]]
 			  Promotes decoupling, which leads to better code maintenance
 		- -
 		- -
-		- All these reasons are why it is generally recommended to define smaller interfaces. The idea is to minimize dependency to multiple operations or internals of a domain object. #space
+		- All these reasons are why it is generally recommended to define smaller interfaces. The idea is to minimize dependency to multiple operations or internals of a domain object. #ñspace
 		- -
 		- -
-		- In fact, there are two sides of the coin to consider. On one side a method like findTransactionsGreaterThanEqual() is self-explanatory and easy to use. You should not be worried about adding descriptive method names to help readability and comprehension of your API. However, this method is restricted to a particular case and you can easily have an explosion of new methods to cater for various multiple requirements. On the other side, a method like findTransactions() is initially more difficult to use and it needs to be well-documented. However, it provides a unified API for all cases where you need to look up transactions. There isn’t a rule of what is best; it depends on what kind of queries you expect. If findTransactionsGreaterThanEqual() is a very common operation, it makes sense to extract it into an explicit API to make it easier for users to understand and use. #space
+		- In fact, there are two sides of the coin to consider. On one side a method like findTransactionsGreaterThanEqual() is self-explanatory and easy to use. You should not be worried about adding descriptive method names to help readability and comprehension of your API. However, this method is restricted to a particular case and you can easily have an explosion of new methods to cater for various multiple requirements. On the other side, a method like findTransactions() is initially more difficult to use and it needs to be well-documented. However, it provides a unified API for all cases where you need to look up transactions. There isn’t a rule of what is best; it depends on what kind of queries you expect. If findTransactionsGreaterThanEqual() is a very common operation, it makes sense to extract it into an explicit API to make it easier for users to understand and use. #ñspace
 		- -
 		- -
 		- Domain Class or Primitive Value?
 		  While we kept the interface definition of BankTransactionSummarizer simple, it is often preferable to not return a primitive value like a double if you are looking at returning a result from an aggregation. This is because it doesn’t give you the flexibility to later return multiple results. For example, the method summarizeTransaction() returns a double. If you were to change the signature of the result to include more results, you would need to change every single implementation of the BankTransactionProcessor.
 		  
-		  A solution to this problem is to introduce a new domain class such as Summary that wraps the double value. This means that in the future you can add other fields and results to this class. This technique helps further decouple the various concepts in your domain and also helps minimize cascading changes when requirements change. #space
+		  A solution to this problem is to introduce a new domain class such as Summary that wraps the double value. This means that in the future you can add other fields and results to this class. This technique helps further decouple the various concepts in your domain and also helps minimize cascading changes when requirements change. #ñspace
 		- -
 		- -
 		- About code ready for test #card
@@ -163,10 +163,10 @@ tags:: #[[O'Reilly-Learning]]
 		  These are errors that you are expected to be able to recover from. In Java, you have to declare a method with a list of checked exceptions it can throw. If not, you have to provide a suitable try/catch block for that particular exception.
 		  
 		  Unchecked exceptions
-		  These are errors that can be thrown at any time during the program execution. Methods don’t have to explicitly declare these exceptions in their signature and the caller doesn’t have to handle them explicitly, as it would with a checked exception. #space
+		  These are errors that can be thrown at any time during the program execution. Methods don’t have to explicitly declare these exceptions in their signature and the caller doesn’t have to handle them explicitly, as it would with a checked exception. #ñspace
 		- -
 		- -
-		- In a nutshell, the recommendation is to use unchecked exceptions and only use checked exceptions sparingly to avoid significant clutter in the code. #space
+		- In a nutshell, the recommendation is to use unchecked exceptions and only use checked exceptions sparingly to avoid significant clutter in the code. #ñspace
 		- -
 		- -
 		- we recommend creating a dedicated Validator class for several reasons:
@@ -177,7 +177,7 @@ tags:: #[[O'Reilly-Learning]]
 		  
 		  You can easily unit test this logic separately.
 		  
-		  It follows the SRP, which leads to simpler maintenance and program comprehension. #space
+		  It follows the SRP, which leads to simpler maintenance and program comprehension. #ñspace
 		- -
 		- -
 		- Notification Pattern
@@ -205,7 +205,7 @@ tags:: #[[O'Reilly-Learning]]
 		        return this.errors;
 		    }
 		  
-		  } #space
+		  } #ñspace
 		- -
 		- -
 		- Example 3-21. Notification pattern
@@ -235,7 +235,7 @@ tags:: #[[O'Reilly-Learning]]
 		        notification.addError("Invalid format for amount");
 		    }
 		    return notification;
-		  } #space
+		  } #ñspace
 		- -
 		- -
 		- A build tool has many benefits:
@@ -248,7 +248,7 @@ tags:: #[[O'Reilly-Learning]]
 		  
 		  You are reducing the scope for introducing errors due to bad configurations or missing steps in the build.
 		  
-		  You save time by reusing common build tasks instead of reimplementing them. #space
+		  You save time by reusing common build tasks instead of reimplementing them. #ñspace
 		- -
 		- -
 		- Takeaways
@@ -276,7 +276,7 @@ tags:: #[[O'Reilly-Learning]]
 		  
 		  A build tool automates the repetitive tasks in the software development life cycle including building, testing, and deploying your application.
 		  
-		  Maven and Gradle are two popular build tools used in the Java community. #space
+		  Maven and Gradle are two popular build tools used in the Java community. #ñspace
 		- -
 	- 4. The Document Management System
 		- -
@@ -289,12 +289,12 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- -
 		- Example 4-5. How to define a constant in Java
-		  public static final String PATH = "path"; #space
+		  public static final String PATH = "path"; #ñspace
 		- -
 		- -
 		- But really there’s a broader principle at stake here, one that allows us to generalize these examples into an approach that you can use in any piece of software. This is called the Liskov Substitution Principle (LSP) and it helps us understand how to subclass and implement interfaces correctly. LSP forms the L of the SOLID principles that we’ve been referring to throughout this book.
 		  
-		  The Liskov Substitution Principle is often stated in these very formal terms, but is actually a very simple concept. Let’s demystify some of this terminology. If you hear type in this context, just think of a class or an interface. The term subtype means establish a parent-to-child relationship between types; in other words, extend a class or implement an interface. So informally you can think of this as meaning that child classes should maintain the behavior they inherit from their parents. We know, we know—it sounds like an obvious statement, but we can be more specific and split out LSP into four distinct parts: #space
+		  The Liskov Substitution Principle is often stated in these very formal terms, but is actually a very simple concept. Let’s demystify some of this terminology. If you hear type in this context, just think of a class or an interface. The term subtype means establish a parent-to-child relationship between types; in other words, extend a class or implement an interface. So informally you can think of this as meaning that child classes should maintain the behavior they inherit from their parents. We know, we know—it sounds like an obvious statement, but we can be more specific and split out LSP into four distinct parts: #ñspace
 		- -
 		- -
 		- Formal definition of LSP #card
@@ -311,7 +311,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- -
 		- The History Rule
-		  This is the hardest aspect of LSP to understand. In essence, the child class shouldn’t allow state changes that your parent disallowed. So, in our example program we have an immutable Document class. In other words, once it has been instantiated you can’t remove, add, or alter any of the attributes. You shouldn’t subclass this Document class and create a mutable Document class. This is because any user of the parent class would expect certain behavior in response to calling methods on the Document class. If the child were mutable, it could violate callers’ expectations about what calling those methods does. #space
+		  This is the hardest aspect of LSP to understand. In essence, the child class shouldn’t allow state changes that your parent disallowed. So, in our example program we have an immutable Document class. In other words, once it has been instantiated you can’t remove, add, or alter any of the attributes. You shouldn’t subclass this Document class and create a mutable Document class. This is because any user of the parent class would expect certain behavior in response to calling methods on the Document class. If the child were mutable, it could violate callers’ expectations about what calling those methods does. #ñspace
 		- -
 		- -
 		- About test function names #card
@@ -358,7 +358,7 @@ tags:: #[[O'Reilly-Learning]]
 		  
 		  You are building a comprehensive test suite as you iterate through the requirements, which increases confidence that you are matching the requirements and also reduces the scope of bugs.
 		  
-		  You don’t write code that you don’t need (over-engineer) because you’re just writing code that passes the tests. #space
+		  You don’t write code that you don’t need (over-engineer) because you’re just writing code that passes the tests. #ñspace
 		- -
 		- -
 		- You’ll be using Mockito, which is a popular mocking library for Java. At its simplest you can do two things:
@@ -370,7 +370,7 @@ tags:: #[[O'Reilly-Learning]]
 		  So how do you get started? You will need to import the library first:
 		  
 		  import static org.mockito.Mockito.*;
-		  This import allows you to use the methods mock() and verify(). The static method mock() allows you to create a mock object which you can then verify that certain behaviors happen. The method verify() allows you to set up assertions that a particular method is invoked. #space
+		  This import allows you to use the methods mock() and verify(). The static method mock() allows you to create a mock object which you can then verify that certain behaviors happen. The method verify() allows you to set up assertions that a particular method is invoked. #ñspace
 		- -
 		- -
 		- Example 5-5. Mocking and verifying interaction with an Action object
@@ -383,7 +383,7 @@ tags:: #[[O'Reilly-Learning]]
 		        businessRuleEngine.run();
 		  
 		        verify(mockAction).perform();
-		  } #space
+		  } #ñspace
 		- -
 		- -
 		- Example 5-20. Switch expression with no fall-through behavior
@@ -392,7 +392,7 @@ tags:: #[[O'Reilly-Learning]]
 		    case EVALUATING -> 0.5;
 		    case INTERESTED -> 0.8;
 		    case CLOSED -> 1;
-		  } #space
+		  } #ñspace
 		- -
 		- -
 		- ISP (Cohesion between Interfaces and clients) #card

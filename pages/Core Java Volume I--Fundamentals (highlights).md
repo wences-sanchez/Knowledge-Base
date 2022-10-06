@@ -36,7 +36,7 @@ tags:: #[[O'Reilly-Learning]]
 			- It is plainly impossible to remember all useful classes and methods. Therefore, it is essential that you become familiar with the online API documentation that lets you look up all classes and methods in the standard library.
 		- -
 		- -
-		- case SMALL: // no need to use Size.SMALL #space
+		- case SMALL: // no need to use Size.SMALL #ñspace
 		- -
 	- Chapter 1: An Introduction to Java
 		- -
@@ -85,10 +85,10 @@ tags:: #[[O'Reilly-Learning]]
 			- StringBuilder builder = new StringBuilder();
 		- -
 		- -
-		- (String str) #space
+		- (String str) #ñspace
 		- -
 		- -
-		- String trim() #space
+		- String trim() #ñspace
 		- -
 		- -
 		- [CODE]

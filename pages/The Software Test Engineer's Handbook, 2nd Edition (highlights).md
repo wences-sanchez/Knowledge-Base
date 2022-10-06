@@ -17,10 +17,10 @@ tags:: #[[O'Reilly-Learning]]
 			- never assume the requirements are complete. In this example, they have identified only three conditions that need to be tested, but we know that these three conditions can occur in any combination, so we actually need to test not just three condition combinations but eight combinations (Yes and No for each of the three conditions = 2 × 2 × 2).
 		- -
 		- -
-		- It is difficult to design comprehensive decision tables if you don’t know what the software should do—so, the better the requirements, the more accurate the decision tables. #space
+		- It is difficult to design comprehensive decision tables if you don’t know what the software should do—so, the better the requirements, the more accurate the decision tables. #ñspace
 		- -
 		- -
-		- It is difficult to design comprehensive decision tables if you don't know what the software should do—so, the better the requirements, the more accurate the decision tables #space
+		- It is difficult to design comprehensive decision tables if you don't know what the software should do—so, the better the requirements, the more accurate the decision tables #ñspace
 		- -
 		- -
 		- What to do about several single requirements? #card

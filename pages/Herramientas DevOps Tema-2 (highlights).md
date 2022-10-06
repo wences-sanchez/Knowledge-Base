@@ -77,7 +77,7 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 13)
 	- -
 	- -
-	- Existen arquitecturas y proyectos completos que se empiezan a realizar con Functions o Lambdas, pero la mayoría no las usan exclusivamente. Sin embargo, estas funciones son  extraordinariamente  útiles  para  realizar  automatizaciones  alrededor  del ecosistema  DevOps.  Por  ejemplo,  realizar  backups,  comprobaciones  después  de escalados, tareas recurrentes o pequeñas tareas muy esporádicas, pero importantes, que  no  encajan  bien  en  otras  piezas  de  la  arquitectura.  Es  una  herramienta importante, aunque ahora mismo no sea conveniente utilizarla exclusivamente. #space
+	- Existen arquitecturas y proyectos completos que se empiezan a realizar con Functions o Lambdas, pero la mayoría no las usan exclusivamente. Sin embargo, estas funciones son  extraordinariamente  útiles  para  realizar  automatizaciones  alrededor  del ecosistema  DevOps.  Por  ejemplo,  realizar  backups,  comprobaciones  después  de escalados, tareas recurrentes o pequeñas tareas muy esporádicas, pero importantes, que  no  encajan  bien  en  otras  piezas  de  la  arquitectura.  Es  una  herramienta importante, aunque ahora mismo no sea conveniente utilizarla exclusivamente. #ñspace
 		- (Page 14)
 	- -
 	- -
@@ -145,7 +145,7 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 	  
 	  Una de las principales características de esta tecnología es que las peticiones son asíncronas, el productor envía el mensaje y el consumir puede recibirlo tiempo después.
 	  
-	  Esto permite aumentar la resistencia del sistema a picos de consumo ya que la cola de mensajes puede balancear la carga. #space
+	  Esto permite aumentar la resistencia del sistema a picos de consumo ya que la cola de mensajes puede balancear la carga. #ñspace
 		- (Page 18)
 	- -
 	- -

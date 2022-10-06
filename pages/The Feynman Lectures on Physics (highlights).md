@@ -8,7 +8,7 @@ tags:: #[[Science]]
 - #tags #[[Science]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Hi #space
+	- Hi #ñspace
 	- -
 	- -
 	- About particle-wave duality #card

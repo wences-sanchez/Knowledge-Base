@@ -9,11 +9,11 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/1f119b47-459b-4fd9-ae18-a41094aed767.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- En la gestión de proyectos, no se trata de comparar el enfoque ágil con el enfoque tradicional en cuanto a si uno es mejor que otro, sino el comprender las fortalezas y debilidades de cada paradigma, para encontrar cuándo se debe hacer uso de uno y otro. #space
+	- En la gestión de proyectos, no se trata de comparar el enfoque ágil con el enfoque tradicional en cuanto a si uno es mejor que otro, sino el comprender las fortalezas y debilidades de cada paradigma, para encontrar cuándo se debe hacer uso de uno y otro. #ñspace
 		- (Page 5)
 	- -
 	- -
-	- Hay una multitud de proyectos de la actualidad (investigación médica, consultoría, análisis  de  viabilidad,  diseño  de  automóviles,  desarrollo  software,  transformación digital, proyectos científicos, etc.), en los que el resultado en cada paso del proceso de desarrollo no se tiene claro al iniciar el proyecto. En ellos, el uso de un paradigma ágil es esencial, pues no solo tiene que ver con la gestión del trabajo del proyecto, sino también el hecho de poner a las personas en el centro de este, lo que da un valor a los recursos humanos, las ideas que se aportan y el trabajo en equipo. #space
+	- Hay una multitud de proyectos de la actualidad (investigación médica, consultoría, análisis  de  viabilidad,  diseño  de  automóviles,  desarrollo  software,  transformación digital, proyectos científicos, etc.), en los que el resultado en cada paso del proceso de desarrollo no se tiene claro al iniciar el proyecto. En ellos, el uso de un paradigma ágil es esencial, pues no solo tiene que ver con la gestión del trabajo del proyecto, sino también el hecho de poner a las personas en el centro de este, lo que da un valor a los recursos humanos, las ideas que se aportan y el trabajo en equipo. #ñspace
 		- (Page 5)
 	- -
 	- -
@@ -37,15 +37,15 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 12)
 	- -
 	- -
-	- En el paradigma ágil, se asocia la historia de usuario a requisito funcional, y  ha de quedar claro que una historia de usuario en el enfoque ágil no es exactamente la especificación de un requisito software en el enfoque tradicional. Tras el concepto de  historia  de  usuario  se  consideran  otros  aspectos  particulares  que  lo  hacen diferente de un requisito funcional. #space
+	- En el paradigma ágil, se asocia la historia de usuario a requisito funcional, y  ha de quedar claro que una historia de usuario en el enfoque ágil no es exactamente la especificación de un requisito software en el enfoque tradicional. Tras el concepto de  historia  de  usuario  se  consideran  otros  aspectos  particulares  que  lo  hacen diferente de un requisito funcional. #ñspace
 		- (Page 14)
 	- -
 	- -
-	- Una  historia  de  usuario  sirve  para  describir  la  funcionalidad  necesaria  para  un usuario del sistema, debe ser muy concreta, con la finalidad de comenzar el trabajo y ser desarrollada en poco tiempo, en comunicación con el cliente. No se trata de realizar clasificaciones de funcionalidades para asociarlas con los requisitos, sino que su objetivo es conseguir una interacción entre el equipo y el usuario, no el de ampliar la documentación de las funcionalidades. #space
+	- Una  historia  de  usuario  sirve  para  describir  la  funcionalidad  necesaria  para  un usuario del sistema, debe ser muy concreta, con la finalidad de comenzar el trabajo y ser desarrollada en poco tiempo, en comunicación con el cliente. No se trata de realizar clasificaciones de funcionalidades para asociarlas con los requisitos, sino que su objetivo es conseguir una interacción entre el equipo y el usuario, no el de ampliar la documentación de las funcionalidades. #ñspace
 		- (Page 15)
 	- -
 	- -
-	- Una historia de usuario es la unidad de trabajo más pequeña en un paradigma ágil, representando un objetivo final, y no una función, desde la perspectiva del usuario. Cada historia contiene la información suficiente, expresada con pocas frases en un lenguaje sencillo y no técnico, para que el equipo de trabajo llegue a un acuerdo de la estimación del esfuerzo de su implementación, siguiendo la definición de hecho (definition of done). Sin ser una norma, cada historia de usuario suele oscilar entre uno y tres días de trabajo. Su finalidad es ayudar a conseguir un marco centrado en el  usuario,  impulsando  la  colaboración  y  creatividad,  y  la  mejora  del  producto  a desarrollar. #space
+	- Una historia de usuario es la unidad de trabajo más pequeña en un paradigma ágil, representando un objetivo final, y no una función, desde la perspectiva del usuario. Cada historia contiene la información suficiente, expresada con pocas frases en un lenguaje sencillo y no técnico, para que el equipo de trabajo llegue a un acuerdo de la estimación del esfuerzo de su implementación, siguiendo la definición de hecho (definition of done). Sin ser una norma, cada historia de usuario suele oscilar entre uno y tres días de trabajo. Su finalidad es ayudar a conseguir un marco centrado en el  usuario,  impulsando  la  colaboración  y  creatividad,  y  la  mejora  del  producto  a desarrollar. #ñspace
 		- (Page 16)
 	- -
 	- -

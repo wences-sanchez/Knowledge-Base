@@ -19,11 +19,11 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 5)
 	- -
 	- -
-	-   Línea  de  tiempo:  una  visualización  de  cuándo  se  producirán  entregas  de productos completos (nuevos o actualizaciones) a lo largo del tiempo. La escala de tiempo puede oscilar entre días, trimestres o años, según la cantidad de trabajo y el nivel de detalle dentro de una versión en particular. #space
+	-   Línea  de  tiempo:  una  visualización  de  cuándo  se  producirán  entregas  de productos completos (nuevos o actualizaciones) a lo largo del tiempo. La escala de tiempo puede oscilar entre días, trimestres o años, según la cantidad de trabajo y el nivel de detalle dentro de una versión en particular. #ñspace
 		- (Page 9)
 	- -
 	- -
-	- Hay que pensar en el Roadmap como la dirección general que se desea tomar para alcanzar un producto final, y en el Release Plan como los detalles de las paradas y entregas específicas que se harán en el camino. #space
+	- Hay que pensar en el Roadmap como la dirección general que se desea tomar para alcanzar un producto final, y en el Release Plan como los detalles de las paradas y entregas específicas que se harán en el camino. #ñspace
 		- (Page 18)
 	- -
 	- -
@@ -32,14 +32,14 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 24)
 	- -
 	- -
-	- el  Release  Plan  incluye  los  requisitos  más  específicos  para  poder construir  y  entregar  el  producto.  Por  esto,  es  importante  que  al  comienzo  del Release Plan, se tengan en cuenta estos componentes, incluyendo también lo que viene desde el Roadmap. Por tanto, el Release Plan es la manera de traducir cómo será el trabajo del equipo para entregar la visión estratégica que se define en  el Backlog, de acuerdo con la estructura temporal determinada en el Roadmap. #space
+	- el  Release  Plan  incluye  los  requisitos  más  específicos  para  poder construir  y  entregar  el  producto.  Por  esto,  es  importante  que  al  comienzo  del Release Plan, se tengan en cuenta estos componentes, incluyendo también lo que viene desde el Roadmap. Por tanto, el Release Plan es la manera de traducir cómo será el trabajo del equipo para entregar la visión estratégica que se define en  el Backlog, de acuerdo con la estructura temporal determinada en el Roadmap. #ñspace
 		- (Page 27)
 	- -
 	- -
-	-   En los proyectos ágiles no utilizaremos un diagrama de Gantt, sino un Roadmap desarrollado como Release Plan. #space
+	-   En los proyectos ágiles no utilizaremos un diagrama de Gantt, sino un Roadmap desarrollado como Release Plan. #ñspace
 		- (Page 28)
 	- -
 	- -
-	-   La estrategia de gestión del riesgo consiste en ejecutar primero los requisitos con más riesgo. #space
+	-   La estrategia de gestión del riesgo consiste en ejecutar primero los requisitos con más riesgo. #ñspace
 		- (Page 28)
 	- -

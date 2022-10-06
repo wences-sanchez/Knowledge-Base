@@ -9,19 +9,19 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/2f569712-df1a-413e-bcba-54aa4aa1618c.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Llevar cada commit a producción tan pronto como se valida el código es un cambio de paradigma que afecta no solo el aspecto técnico, sino también a la forma en la que se entregan funcionalidades a los usuarios.  Explicaremos también el concepto de feature flag y cómo pueden ayudar en aplicaciones con un ciclo de despliegues rápido. #space
+	- Llevar cada commit a producción tan pronto como se valida el código es un cambio de paradigma que afecta no solo el aspecto técnico, sino también a la forma en la que se entregan funcionalidades a los usuarios.  Explicaremos también el concepto de feature flag y cómo pueden ayudar en aplicaciones con un ciclo de despliegues rápido. #ñspace
 		- (Page 4)
 	- -
 	- -
-	- un  despliegue  continuo  real: sobre el código de master siempre se ejecutan las pruebas, se construye el paquete (es  decir,  se  aplican  integración  y  entrega  continuas)  y,  en  caso  de  subida  de versión, esta se publica en el registro de paquetes. #space
+	- un  despliegue  continuo  real: sobre el código de master siempre se ejecutan las pruebas, se construye el paquete (es  decir,  se  aplican  integración  y  entrega  continuas)  y,  en  caso  de  subida  de versión, esta se publica en el registro de paquetes. #ñspace
 		- (Page 5)
 	- -
 	- -
-	- cada nuevo cambio en master debe iniciar un despliegue en un entorno de staging. Cuando  se  sigue  este  proceso,  los  despliegues  en  producción  tienen  muy  poco riesgo  porque  ya  se  han  probado  los  mismos  cambios  anteriormente.  Cada despliegue en staging debe ser validado con la batería de pruebas automática. Si no pasa las pruebas, el cambio debe ser anulado. #space
+	- cada nuevo cambio en master debe iniciar un despliegue en un entorno de staging. Cuando  se  sigue  este  proceso,  los  despliegues  en  producción  tienen  muy  poco riesgo  porque  ya  se  han  probado  los  mismos  cambios  anteriormente.  Cada despliegue en staging debe ser validado con la batería de pruebas automática. Si no pasa las pruebas, el cambio debe ser anulado. #ñspace
 		- (Page 6)
 	- -
 	- -
-	- Disponer  de  un  entorno  de  staging  no  impide  que  se  puedan  desplegar  otros entornos de pruebas, como un entorno de control de calidad o uno para pruebas de rendimiento. El primero podría no actualizarse con cada cambio de master, sino desplegarse con la próxima versión candidata para permitir la ejecución de pruebas de  aceptación  manuales  (si  fueran  necesarias).  El  segundo  podría  ser  efímero  y desplegarse para ejecutar las pruebas de rendimiento puntualmente. #space
+	- Disponer  de  un  entorno  de  staging  no  impide  que  se  puedan  desplegar  otros entornos de pruebas, como un entorno de control de calidad o uno para pruebas de rendimiento. El primero podría no actualizarse con cada cambio de master, sino desplegarse con la próxima versión candidata para permitir la ejecución de pruebas de  aceptación  manuales  (si  fueran  necesarias).  El  segundo  podría  ser  efímero  y desplegarse para ejecutar las pruebas de rendimiento puntualmente. #ñspace
 		- (Page 7)
 	- -
 	- -

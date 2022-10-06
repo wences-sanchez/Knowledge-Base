@@ -10,7 +10,7 @@ url:: https://www.plesk.com/blog/various/nginx-configuration-guide/
 	  
 	  The listen directive informs NGINX of the hostname/IP and TCP port, so it recognizes where it must listen for HTTP connections.
 	  
-	  The argument default_server means that this virtual host will be answering requests on port 80 which don’t match the listen statement of a separate virtual host. When it comes to the second statement, this will listen over IPv6 and demonstrate similar behavior. #space
+	  The argument default_server means that this virtual host will be answering requests on port 80 which don’t match the listen statement of a separate virtual host. When it comes to the second statement, this will listen over IPv6 and demonstrate similar behavior. #ñspace
 		- ([View Highlight](https://instapaper.com/read/1475675408/18542195))
 	- -
 	- -
@@ -18,7 +18,7 @@ url:: https://www.plesk.com/blog/various/nginx-configuration-guide/
 	  
 	  The server_name directive enables a number of domains to be served from just one IP address, and the server will determine which domain it will serve according to the request header received.
 	  
-	  Generally, you should create one file for each site or domain you wish to host on your server. #space
+	  Generally, you should create one file for each site or domain you wish to host on your server. #ñspace
 		- ([View Highlight](https://instapaper.com/read/1475675408/18542220))
 	- -
 	- -
@@ -34,7 +34,7 @@ url:: https://www.plesk.com/blog/various/nginx-configuration-guide/
 	  
 	  location /images/ { }
 	  
-	  location /blog/ { } #space
+	  location /blog/ { } #ñspace
 		- ([View Highlight](https://instapaper.com/read/1475675408/18542242))
 	- -
 	- -
@@ -54,6 +54,6 @@ url:: https://www.plesk.com/blog/various/nginx-configuration-guide/
 	  
 	  Please note:
 	  
-	  Absolute paths for the root directive can be used if you wish. The index variable informs NGINX which file it should serve #space
+	  Absolute paths for the root directive can be used if you wish. The index variable informs NGINX which file it should serve #ñspace
 		- ([View Highlight](https://instapaper.com/read/1475675408/18542310))
 	- -

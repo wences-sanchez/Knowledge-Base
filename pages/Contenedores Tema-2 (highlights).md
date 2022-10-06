@@ -9,11 +9,11 @@ tags:: #[[Contenedores]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/68232f67-c7d9-423d-bccf-79f4a9e5a0f8.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Los contenedores de Docker están basados en imágenes previamente generadas que contienen  todas  las  dependencias  necesarias  para  nuestra  aplicación  o  servicio. Aunque existen de manera pública multitud de imágenes listas para ser utilizadas, la mayoría de las veces necesitaremos crear nuestras propias imágenes, habitualmente basada en alguna ya disponible. A lo largo del tema se presentarán las principales opciones que tenemos para generar nuestras propias imágenes según nuestras necesidades y las buenas prácticas que deberemos  seguir  para  generar  unas  imágenes  ligeras  y  fácilmente  mantenibles. También veremos los diferentes tipos de capas y sus características que nos podemos encontrar en las imágenes y contenedores. #space
+	- Los contenedores de Docker están basados en imágenes previamente generadas que contienen  todas  las  dependencias  necesarias  para  nuestra  aplicación  o  servicio. Aunque existen de manera pública multitud de imágenes listas para ser utilizadas, la mayoría de las veces necesitaremos crear nuestras propias imágenes, habitualmente basada en alguna ya disponible. A lo largo del tema se presentarán las principales opciones que tenemos para generar nuestras propias imágenes según nuestras necesidades y las buenas prácticas que deberemos  seguir  para  generar  unas  imágenes  ligeras  y  fácilmente  mantenibles. También veremos los diferentes tipos de capas y sus características que nos podemos encontrar en las imágenes y contenedores. #ñspace
 		- (Page 4)
 	- -
 	- -
-	- Para  poder  ejecutar  contenedores  con  nuestras  aplicaciones  primero  deberemos crear la imagen Docker de nuestra aplicación, la cual contendrá tanto el código de nuestra  aplicación,  como  todas  las  dependencias  necesarias  para  su  ejecución.  En Docker existen varias formas de crear imágenes:   A partir de una imagen vacía: copiando directamente el sistema de ficheros en ella.  Docker  nos  permite  crear  nuestras  imágenes  desde  cero,  utilizando  como base una imagen oficial de Docker llamada scratch publicada expresamente para   Usando comandos de Docker: a partir de un contenedor en ejecución podemos configurar todo lo necesario en él y crear una imagen de su estado actual con el este propósito. comando docker commit.   A partir de ficheros Dockerfile: los ficheros Dockerfile nos permiten definir una lista de acciones ordenadas para construir una imagen de Docker con el comando docker build. Este será el método más habitual y deseable.   Con  herramientas  de  gestión  de  configuración:  a  veces  necesitaremos  generar imágenes  de  cierta  complejidad,  en  estos  casos  es  posible  utilizar  alguna herramienta de gestión de configuración como, por ejemplo, Puppet, combinada con ficheros Dockerfile. #space
+	- Para  poder  ejecutar  contenedores  con  nuestras  aplicaciones  primero  deberemos crear la imagen Docker de nuestra aplicación, la cual contendrá tanto el código de nuestra  aplicación,  como  todas  las  dependencias  necesarias  para  su  ejecución.  En Docker existen varias formas de crear imágenes:   A partir de una imagen vacía: copiando directamente el sistema de ficheros en ella.  Docker  nos  permite  crear  nuestras  imágenes  desde  cero,  utilizando  como base una imagen oficial de Docker llamada scratch publicada expresamente para   Usando comandos de Docker: a partir de un contenedor en ejecución podemos configurar todo lo necesario en él y crear una imagen de su estado actual con el este propósito. comando docker commit.   A partir de ficheros Dockerfile: los ficheros Dockerfile nos permiten definir una lista de acciones ordenadas para construir una imagen de Docker con el comando docker build. Este será el método más habitual y deseable.   Con  herramientas  de  gestión  de  configuración:  a  veces  necesitaremos  generar imágenes  de  cierta  complejidad,  en  estos  casos  es  posible  utilizar  alguna herramienta de gestión de configuración como, por ejemplo, Puppet, combinada con ficheros Dockerfile. #ñspace
 		- (Page 5)
 	- -
 	- -
@@ -22,7 +22,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 6)
 	- -
 	- -
-	- Cada vez que Docker crea un contenedor a partir de una imagen, se añade una capa de escritura o de contenedor que almacena todos los cambios que se realizan en el contenedor durante su ejecución. Esta capa de contenedor o escritura es la única diferencia entre un contenedor en ejecución  y  la  imagen  de  Docker.  Todos  los  contenedores  similares  que  se  lancen compartirán  el  acceso  a  las  mismas  capas  de  imagen  subyacentes  mientras  se mantiene su propio estado individual con su propia capa de escritura. #space
+	- Cada vez que Docker crea un contenedor a partir de una imagen, se añade una capa de escritura o de contenedor que almacena todos los cambios que se realizan en el contenedor durante su ejecución. Esta capa de contenedor o escritura es la única diferencia entre un contenedor en ejecución  y  la  imagen  de  Docker.  Todos  los  contenedores  similares  que  se  lancen compartirán  el  acceso  a  las  mismas  capas  de  imagen  subyacentes  mientras  se mantiene su propio estado individual con su propia capa de escritura. #ñspace
 		- (Page 6)
 	- -
 	- -
@@ -31,7 +31,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 6)
 	- -
 	- -
-	- Las  capas  de  imagen de  Docker  son de  solo lectura  e  inmutables,  lo  cual  permite gestionar el problema de almacenamiento que tendríamos al usar contenedores a gran escala si cada uno de ellos necesitara tener una copia de la imagen. Docker  usa  internamente  un  mecanismo  de  copia  en  escritura  o  copy-on-write (CoW) para reducir la cantidad de espacio en disco requerido. De manera que si un fichero  existe  en  una  capa  inferior  de  la  imagen  y  otra  capa  (ya  sea  durante  la construcción de la imagen o la ejecución del contenedor) necesita leer dicho fichero, simplemente utilizará el ya existente en la capa inferior. Pero en caso de necesitar realizar cambios en el fichero, este se copiará primero en la capa actual y después será modificado. Esto explica (en parte) cómo los contenedores pueden iniciarse tan rápido. No tienen nada que copiar porque toda la información inicial ya está almacenada en la imagen y es accesible por el contenedor, y solamente haría falta crear la capa de contenedor o escritura. #space
+	- Las  capas  de  imagen de  Docker  son de  solo lectura  e  inmutables,  lo  cual  permite gestionar el problema de almacenamiento que tendríamos al usar contenedores a gran escala si cada uno de ellos necesitara tener una copia de la imagen. Docker  usa  internamente  un  mecanismo  de  copia  en  escritura  o  copy-on-write (CoW) para reducir la cantidad de espacio en disco requerido. De manera que si un fichero  existe  en  una  capa  inferior  de  la  imagen  y  otra  capa  (ya  sea  durante  la construcción de la imagen o la ejecución del contenedor) necesita leer dicho fichero, simplemente utilizará el ya existente en la capa inferior. Pero en caso de necesitar realizar cambios en el fichero, este se copiará primero en la capa actual y después será modificado. Esto explica (en parte) cómo los contenedores pueden iniciarse tan rápido. No tienen nada que copiar porque toda la información inicial ya está almacenada en la imagen y es accesible por el contenedor, y solamente haría falta crear la capa de contenedor o escritura. #ñspace
 		- (Page 7)
 	- -
 	- -
@@ -40,11 +40,11 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- Imaginemos  que  tenemos  un  contenedor  ejecutándose  en  nuestro  entorno  de desarrollo  y  queremos  guardar  su  estado  antes de  realizar algunos  cambios  por  si queremos volver a dicho estado. Para ello utilizaremos el comando  docker  commit que  guardará  el  estado  actual  del  contenedor  en  una  imagen,  devolviendo  el identificador de esta. #space
+	- Imaginemos  que  tenemos  un  contenedor  ejecutándose  en  nuestro  entorno  de desarrollo  y  queremos  guardar  su  estado  antes de  realizar algunos  cambios  por  si queremos volver a dicho estado. Para ello utilizaremos el comando  docker  commit que  guardará  el  estado  actual  del  contenedor  en  una  imagen,  devolviendo  el identificador de esta. #ñspace
 		- (Page 9)
 	- -
 	- -
-	- cómo  podemos  crear  un  contenedor  interactivo  de  manera sencilla. Si ejecutamos el siguiente comando, se nos descargará una imagen Docker de Ubuntu y nos dejará abierto un terminal dentro del contenedor: $ docker run -it ubuntu:bionic /bin/bash root@0ef5d5b9795d:/# #space
+	- cómo  podemos  crear  un  contenedor  interactivo  de  manera sencilla. Si ejecutamos el siguiente comando, se nos descargará una imagen Docker de Ubuntu y nos dejará abierto un terminal dentro del contenedor: $ docker run -it ubuntu:bionic /bin/bash root@0ef5d5b9795d:/# #ñspace
 		- (Page 9)
 	- -
 	- -
@@ -58,7 +58,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 11)
 	- -
 	- -
-	- debemos  conocer  la  terminología  utilizada  por  Docker  en  las imágenes:   Identificador de imagen: se refiere a una capa específica de la imagen, que es de solo lectura y tiene asociado un identificador único.   Etiqueta: se trata de un modificador del nombre de la imagen. Podemos utilizar las  etiquetas  para  indicar  la  versión,  la  distribución  del  sistema  operativo  que utiliza, etc. Ejemplos: latest, stable, 4.1-bionic, 4.0-windowsservercore-1809   Repositorio:  colección  de  imágenes  etiquetadas.  Por  ejemplo,  el  repositorio ubuntu del registro Docker Hub estaría formado por las imágenes ubuntu:latest, ubuntu:18.04, ubuntu:trusty, etc. #space
+	- debemos  conocer  la  terminología  utilizada  por  Docker  en  las imágenes:   Identificador de imagen: se refiere a una capa específica de la imagen, que es de solo lectura y tiene asociado un identificador único.   Etiqueta: se trata de un modificador del nombre de la imagen. Podemos utilizar las  etiquetas  para  indicar  la  versión,  la  distribución  del  sistema  operativo  que utiliza, etc. Ejemplos: latest, stable, 4.1-bionic, 4.0-windowsservercore-1809   Repositorio:  colección  de  imágenes  etiquetadas.  Por  ejemplo,  el  repositorio ubuntu del registro Docker Hub estaría formado por las imágenes ubuntu:latest, ubuntu:18.04, ubuntu:trusty, etc. #ñspace
 		- (Page 11)
 	- -
 	- -
@@ -102,7 +102,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 19)
 	- -
 	- -
-	- La mayoría de las veces, la caché nos será muy útil y nos ahorrará mucho tiempo al generar imágenes. Sin embargo, hay ocasiones en las que el comportamiento de la caché puede no actuar como nosotros deseamos, por lo que es bueno saber cómo invalidar selectivamente la caché en nuestro Dockerfile. La solución más radical sería utilizar el argumento  --no-cache, el cual invalidaría la cache para todos los pasos de nuestro Dockerfile: $ docker build -t python_app --no-cache . Una manera de forzar que se invalide la caché en una instrucción que está utilizando la cache, sería añadiendo un comentario al final de la instrucción para así modificar la línea e invalidarla. Por ejemplo: RUN ["pip", "install", "-r", "requirements.txt"] # Invalidar cache #space
+	- La mayoría de las veces, la caché nos será muy útil y nos ahorrará mucho tiempo al generar imágenes. Sin embargo, hay ocasiones en las que el comportamiento de la caché puede no actuar como nosotros deseamos, por lo que es bueno saber cómo invalidar selectivamente la caché en nuestro Dockerfile. La solución más radical sería utilizar el argumento  --no-cache, el cual invalidaría la cache para todos los pasos de nuestro Dockerfile: $ docker build -t python_app --no-cache . Una manera de forzar que se invalide la caché en una instrucción que está utilizando la cache, sería añadiendo un comentario al final de la instrucción para así modificar la línea e invalidarla. Por ejemplo: RUN ["pip", "install", "-r", "requirements.txt"] # Invalidar cache #ñspace
 		- (Page 20)
 	- -
 	- -
@@ -111,18 +111,18 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 21)
 	- -
 	- -
-	- podríamos compartir un fichero Dockerfile para que los equipos de desarrollo los incluyan en sus propias aplicaciones. Sin embargo, esta solución sería manual,  poco  sostenible  y  bastante  propensa  a  errores.  Para  situaciones  como  la descrita, tenemos la instrucción ONBUILD de Dockerfile. #space
+	- podríamos compartir un fichero Dockerfile para que los equipos de desarrollo los incluyan en sus propias aplicaciones. Sin embargo, esta solución sería manual,  poco  sostenible  y  bastante  propensa  a  errores.  Para  situaciones  como  la descrita, tenemos la instrucción ONBUILD de Dockerfile. #ñspace
 		- (Page 22)
 	- -
 	- -
-	- A  veces  generaremos  imágenes  que  servirán  como  plantillas  reutilizables  y podríamos  querer,  o  necesitar,  que  algunas  configuraciones  de  la  aplicación  se realicen  más  adelante,  cuando  se  utilice  la  imagen  como  base  para  una  nueva imagen. En estos casos, podríamos compartir un fichero Dockerfile para que los equipos de desarrollo los incluyan en sus propias aplicaciones. Sin embargo, esta solución sería manual,  poco  sostenible  y  bastante  propensa  a  errores.  Para  situaciones  como  la descrita, tenemos la instrucción ONBUILD de Dockerfile. #space
+	- A  veces  generaremos  imágenes  que  servirán  como  plantillas  reutilizables  y podríamos  querer,  o  necesitar,  que  algunas  configuraciones  de  la  aplicación  se realicen  más  adelante,  cuando  se  utilice  la  imagen  como  base  para  una  nueva imagen. En estos casos, podríamos compartir un fichero Dockerfile para que los equipos de desarrollo los incluyan en sus propias aplicaciones. Sin embargo, esta solución sería manual,  poco  sostenible  y  bastante  propensa  a  errores.  Para  situaciones  como  la descrita, tenemos la instrucción ONBUILD de Dockerfile. #ñspace
 		- (Page 22)
 	- -
 	- -
-	- Para aprovechar mejor la caché a la hora de generar las imágenes, se recomienda separar  la  instalación  de  dependencias  de  la  obtención  de  cambios  en  el  código fuente. Esto se debe a que las dependencias cambian con menor frecuencia y no nos hará falta obtenerlas cada vez que se actualiza el código. #space
+	- Para aprovechar mejor la caché a la hora de generar las imágenes, se recomienda separar  la  instalación  de  dependencias  de  la  obtención  de  cambios  en  el  código fuente. Esto se debe a que las dependencias cambian con menor frecuencia y no nos hará falta obtenerlas cada vez que se actualiza el código. #ñspace
 		- (Page 26)
 	- -
 	- -
-	- Además de nombrar y etiquetar nuestras imágenes podremos compartirlas con otras personas publicándolas en repositorios de los  registros Docker, ya sean públicos o privados, a través del comando docker push. #space
+	- Además de nombrar y etiquetar nuestras imágenes podremos compartirlas con otras personas publicándolas en repositorios de los  registros Docker, ya sean públicos o privados, a través del comando docker push. #ñspace
 		- (Page 29)
 	- -

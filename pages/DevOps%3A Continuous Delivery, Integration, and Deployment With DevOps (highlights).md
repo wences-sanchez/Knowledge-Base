@@ -9,8 +9,8 @@ url:: https://learning.oreilly.com/library/view/devops-continuous-delivery/97817
 		- Prerequisites
 		- Chapter 1. Introduction to DevOps
 			- -
-			- This book is for engineers, architects, and developers, who wish to learn the core strategies of DevOps. #space
+			- This book is for engineers, architects, and developers, who wish to learn the core strategies of DevOps. #ñspace
 			- -
 			- -
-			- Code review is an important function in the software development framework. Having a good collaborative tool like Gerrit for a code review process is very appropriate and needed. #space
+			- Code review is an important function in the software development framework. Having a good collaborative tool like Gerrit for a code review process is very appropriate and needed. #ñspace
 			- -

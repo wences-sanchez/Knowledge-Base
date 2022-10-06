@@ -9,7 +9,7 @@ tags:: #[[Literature]]
 - ![](https://images-na.ssl-images-amazon.com/images/I/519Od2UfkiL._SL200_.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- I don’t want to be labeled with a disability. I don’t want more drugs. #space
+	- I don’t want to be labeled with a disability. I don’t want more drugs. #ñspace
 		- ([Location 633](https://readwise.io/to_kindle?action=open&asin=B00JWOJ8LM&location=633))
 		- #[[mind]]
 	- -

@@ -14,11 +14,11 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 5)
 	- -
 	- -
-	- un  diagrama  de burndown del proyecto (Figura 1), es el gráfico de quemado de historias que muestra cómo se va alcanzando el objetivo de la iteración, y predice así cuándo se completará todo el trabajo. En el eje vertical se muestran los puntos de historia o trabajo restante #space
+	- un  diagrama  de burndown del proyecto (Figura 1), es el gráfico de quemado de historias que muestra cómo se va alcanzando el objetivo de la iteración, y predice así cuándo se completará todo el trabajo. En el eje vertical se muestran los puntos de historia o trabajo restante #ñspace
 		- (Page 5)
 	- -
 	- -
-	- (en  horas),  asociados  al  Backlog,  mientras  que  en  el  eje  horizontal  se  indican  las iteraciones o el tiempo. #space
+	- (en  horas),  asociados  al  Backlog,  mientras  que  en  el  eje  horizontal  se  indican  las iteraciones o el tiempo. #ñspace
 		- (Page 6)
 	- -
 	- -
@@ -29,22 +29,22 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 11)
 	- -
 	- -
-	- a #space
+	- a #ñspace
 		- (Page 11)
 	- -
 	- -
-	- La clave para obtener buenos resultados a largo plazo, en un proyecto, no es el que se diga siempre al equipo lo que tienen que hacer, sino que los miembros del equipo sean suficientemente empoderados, libres del estilo de gestión comando y control. Siguiendo este enfoque, las personas del equipo utilizarán su propio conocimiento #space
+	- La clave para obtener buenos resultados a largo plazo, en un proyecto, no es el que se diga siempre al equipo lo que tienen que hacer, sino que los miembros del equipo sean suficientemente empoderados, libres del estilo de gestión comando y control. Siguiendo este enfoque, las personas del equipo utilizarán su propio conocimiento #ñspace
 		- (Page 17)
 	- -
 	- -
-	- para  determinar  cómo  hacer  mejor  su  trabajo,  explotando  sus  respectivas habilidades naturales. #space
+	- para  determinar  cómo  hacer  mejor  su  trabajo,  explotando  sus  respectivas habilidades naturales. #ñspace
 		- (Page 18)
 	- -
 	- -
-	- Una de las principales causas de fracaso de los equipos es la falta de comunicación. Hay que tener cuidado con el asumir o suponer, y el no llegar a decir directamente las  cosas.  Es  responsabilidad  del  jefe  de  proyecto  o  líder  el  que  no  se  den #space
+	- Una de las principales causas de fracaso de los equipos es la falta de comunicación. Hay que tener cuidado con el asumir o suponer, y el no llegar a decir directamente las  cosas.  Es  responsabilidad  del  jefe  de  proyecto  o  líder  el  que  no  se  den #ñspace
 		- (Page 24)
 	- -
 	- -
-	- interpretaciones no correctas, que las tareas estén lo suficientemente claras, y que las  fechas  queden  concretadas,  con  responsabilidades  conocidas  por  todos  los miembros del equipo. #space
+	- interpretaciones no correctas, que las tareas estén lo suficientemente claras, y que las  fechas  queden  concretadas,  con  responsabilidades  conocidas  por  todos  los miembros del equipo. #ñspace
 		- (Page 25)
 	- -

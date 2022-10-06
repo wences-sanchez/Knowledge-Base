@@ -15,11 +15,11 @@ tags:: #[[Literature]]
 		- #[[mind]]
 	- -
 	- -
-	- Toma el dinero —dijo Mack—. Tu chico trabajará para sir George hasta que cumpla veintiún años y eso vale diez libras. Pero... —el joven levantó la voz— pero, cuando alcance la mayoría de edad, ¡será libre! #space
+	- Toma el dinero —dijo Mack—. Tu chico trabajará para sir George hasta que cumpla veintiún años y eso vale diez libras. Pero... —el joven levantó la voz— pero, cuando alcance la mayoría de edad, ¡será libre! #ñspace
 		- ([Location 316](https://readwise.io/to_kindle?action=open&asin=B00HQLB6U4&location=316))
 	- -
 	- -
-	- Meneó la cabeza, mirándole con curiosidad. ¿Qué clase de hombre era aquel? En los dos últimos días había sufrido los efectos de una explosión de gas y había sido sometido a una tortura espantosa y, sin embargo, había tenido la fuerza y el valor de arrojarse a un río helado para poder escapar. Jamás se rendía. #space
+	- Meneó la cabeza, mirándole con curiosidad. ¿Qué clase de hombre era aquel? En los dos últimos días había sufrido los efectos de una explosión de gas y había sido sometido a una tortura espantosa y, sin embargo, había tenido la fuerza y el valor de arrojarse a un río helado para poder escapar. Jamás se rendía. #ñspace
 		- ([Location 1940](https://readwise.io/to_kindle?action=open&asin=B00HQLB6U4&location=1940))
 	- -
 	- -
@@ -35,10 +35,10 @@ tags:: #[[Literature]]
 		- #[[mind]]
 	- -
 	- -
-	- Jay comprendió que había ganado. Tenía todo lo que quería. Era algo así como haber ganado una mano en las cartas. #space
+	- Jay comprendió que había ganado. Tenía todo lo que quería. Era algo así como haber ganado una mano en las cartas. #ñspace
 		- ([Location 3001](https://readwise.io/to_kindle?action=open&asin=B00HQLB6U4&location=3001))
 	- -
 	- -
-	- Mack buscaba toda clase de excusas y justificaciones, pero, en el fondo, había sufrido una decepción. En un momento de angustia, Cora le había hecho prometer que la buscaría, pero se había olvidado de él a la primera ocasión que se le había presentado de mejorar su suerte en la vida. #space
+	- Mack buscaba toda clase de excusas y justificaciones, pero, en el fondo, había sufrido una decepción. En un momento de angustia, Cora le había hecho prometer que la buscaría, pero se había olvidado de él a la primera ocasión que se le había presentado de mejorar su suerte en la vida. #ñspace
 		- ([Location 5674](https://readwise.io/to_kindle?action=open&asin=B00HQLB6U4&location=5674))
 	- -

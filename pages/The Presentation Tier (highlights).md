@@ -6,5 +6,5 @@ url:: https://learning.oreilly.com/library/view/practical-devops/9781788392570/f
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- The presentation tier will be a web #space
+	- The presentation tier will be a web #ñspace
 	- -

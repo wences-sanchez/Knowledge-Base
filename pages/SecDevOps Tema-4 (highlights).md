@@ -64,7 +64,7 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- El estándar define una lista de códigos de respuesta agrupados en cinco secciones. Al  igual  que  las  cabeceras,  los  códigos  son  extensibles.  El  primer  dígito del  código define la clase de respuesta:   1xx – Información: petición recibida, continuando el procesado.   2xx – Éxito: la petición se recibió y ha sido procesada con éxito.   3xx  –  Redirección:  el  cliente  debe  tomar  acción  para  terminar  de  completar  la petición.   4xx – Error de cliente: la petición no puede completarse por un error en la petición.   5xx – Error de servidor: la petición puede ser válida, pero el servidor no ha podido procesarla por algún otro error. #space
+	- El estándar define una lista de códigos de respuesta agrupados en cinco secciones. Al  igual  que  las  cabeceras,  los  códigos  son  extensibles.  El  primer  dígito del  código define la clase de respuesta:   1xx – Información: petición recibida, continuando el procesado.   2xx – Éxito: la petición se recibió y ha sido procesada con éxito.   3xx  –  Redirección:  el  cliente  debe  tomar  acción  para  terminar  de  completar  la petición.   4xx – Error de cliente: la petición no puede completarse por un error en la petición.   5xx – Error de servidor: la petición puede ser válida, pero el servidor no ha podido procesarla por algún otro error. #ñspace
 		- (Page 21)
 	- -
 	- -
@@ -73,7 +73,7 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 21)
 	- -
 	- -
-	- Network Time Protocol (NTP), es un protocolo de sincronización de reloj. Un equipo puede fijar su reloj local tras una petición a un servidor, sin necesidad de intervención del usuario. Funciona a través de redes con una latencia variable. #space
+	- Network Time Protocol (NTP), es un protocolo de sincronización de reloj. Un equipo puede fijar su reloj local tras una petición a un servidor, sin necesidad de intervención del usuario. Funciona a través de redes con una latencia variable. #ñspace
 		- (Page 28)
 	- -
 	- -
@@ -82,7 +82,7 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 28)
 	- -
 	- -
-	- Criptografía asimétrica Estos algoritmos también se conocen como de clave pública. Resuelven el problema del  intercambio  de  claves  definiendo  un  algoritmo  que  usa  dos  claves  (conocidas como key pair o pareja de claves), cada una de las cuales puede usarse para cifrar un mensaje. Cuando  se  cifra  un  mensaje  con  una  de  las  claves,  hay  que  usar  la  otra  para descifrarlo. Los usuarios ya no tienen  que compartir una misma clave, sino que es suficiente que compartan una de las dos claves. Siguiendo con el ejemplo anterior, si el  usuario  A  quiere  que  solo  el  usuario  B  lea  el  contenido  del  mensaje,  cifrará  el mensaje  con  la  clave  pública  de  B.  Es  decir,  B  siempre  compartirá  la  misma  clave, considerada pública, con cualquier usuario de quien necesite recibir mensajes. Deberá mantener la otra clave, la privada, en secreto. Esta clave privada será la única que permite descifrar los mensajes cifrados con la clave pública de B. No hace falta compartir la clave pública por un canal seguro, hay otras implicaciones a la hora de compartir esta clave. #space
+	- Criptografía asimétrica Estos algoritmos también se conocen como de clave pública. Resuelven el problema del  intercambio  de  claves  definiendo  un  algoritmo  que  usa  dos  claves  (conocidas como key pair o pareja de claves), cada una de las cuales puede usarse para cifrar un mensaje. Cuando  se  cifra  un  mensaje  con  una  de  las  claves,  hay  que  usar  la  otra  para descifrarlo. Los usuarios ya no tienen  que compartir una misma clave, sino que es suficiente que compartan una de las dos claves. Siguiendo con el ejemplo anterior, si el  usuario  A  quiere  que  solo  el  usuario  B  lea  el  contenido  del  mensaje,  cifrará  el mensaje  con  la  clave  pública  de  B.  Es  decir,  B  siempre  compartirá  la  misma  clave, considerada pública, con cualquier usuario de quien necesite recibir mensajes. Deberá mantener la otra clave, la privada, en secreto. Esta clave privada será la única que permite descifrar los mensajes cifrados con la clave pública de B. No hace falta compartir la clave pública por un canal seguro, hay otras implicaciones a la hora de compartir esta clave. #ñspace
 		- (Page 31)
 	- -
 	- -

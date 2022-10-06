@@ -50,5 +50,5 @@ tags:: #[[O'Reilly-Learning]]
 			- Dynamic Host Configuration Protocol (DHCP), which allows computers that join a network to be assigned an IP address. When a network interface is first connected to a network, it sends out a broadcast message requesting the address of the network’s DHCP server. Every device on the network sees this packet. But only the DHCP service will respond.
 		- -
 		- -
-		- However, mesh networks are common for metropolitan or wide area networks. These networks use routers to route packets from network to network. For reliability and performance reasons, routers are usually arranged in a way that provides multiple paths between any two nodes on the network in a mesh-like arrangement. #space
+		- However, mesh networks are common for metropolitan or wide area networks. These networks use routers to route packets from network to network. For reliability and performance reasons, routers are usually arranged in a way that provides multiple paths between any two nodes on the network in a mesh-like arrangement. #ñspace
 		- -

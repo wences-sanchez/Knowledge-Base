@@ -21,7 +21,7 @@ tags:: #[[O'Reilly-Learning]]
 		  ​ 	      |   | 1 | 2 | 3 |
 		  ​ 	      | 1 |   |   |   |
 		  ​ 	      | 2 | x |   |   |
-		  ​ 	      | 3 |   |   |   | #space
+		  ​ 	      | 3 |   |   |   | #ñspace
 		- -
 	- Scenario Outline
 		- -
@@ -29,10 +29,10 @@ tags:: #[[O'Reilly-Learning]]
 		  
 		  Why?
 		  
-		  On a system of any serious complexity, you can quite quickly start to experience what mathematicians call combinatorial explosion, where the number of different combinations of inputs and expected outputs becomes unmanageable. In trying to cover every possible eventuality, you end up with rows and rows of example data for Cucumber to execute. Remember that each of those little rows represents a whole scenario that might take several seconds to execute, and that can quickly start to add up. When your tests take longer to run, you slow down your feedback loop, making the whole team less productive as a result. #space
+		  On a system of any serious complexity, you can quite quickly start to experience what mathematicians call combinatorial explosion, where the number of different combinations of inputs and expected outputs becomes unmanageable. In trying to cover every possible eventuality, you end up with rows and rows of example data for Cucumber to execute. Remember that each of those little rows represents a whole scenario that might take several seconds to execute, and that can quickly start to add up. When your tests take longer to run, you slow down your feedback loop, making the whole team less productive as a result. #ñspace
 		- -
 		- -
-		- Although this is a useful technique, be careful that your programmer’s instinct to reduce duplication at all costs doesn’t take over here.[17] If you move too much of the text of a step into the examples table, it can be very hard to read the flow of the scenario. Remember your goal is readability, so don’t take this too far, and always test your features by getting other people to regularly read them and give you feedback. #space
+		- Although this is a useful technique, be careful that your programmer’s instinct to reduce duplication at all costs doesn’t take over here.[17] If you move too much of the text of a step into the examples table, it can be very hard to read the flow of the scenario. Remember your goal is readability, so don’t take this too far, and always test your features by getting other people to regularly read them and give you feedback. #ñspace
 		- -
 	- Working Together
 		- -
@@ -50,7 +50,7 @@ tags:: #[[O'Reilly-Learning]]
 		  ​ 	  Given I have received an email from ​"Sue"​
 		  ​ 	  When I sign in
 		  ​ 	  Then I should see 1 email from ​"Sue"​ in my inbox
-		  Now we have a simple three-step scenario that’s clear and concise #space
+		  Now we have a simple three-step scenario that’s clear and concise #ñspace
 		- -
 		- -
 		- Cucumber has to be a declarative language #card
@@ -76,7 +76,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- It might seem like stating the obvious, but having a lot of scenarios is by far the easiest way to give yourself a slow overall feature run. We’re not trying to suggest you give up on BDD and go back to cowboy coding, but we do suggest you treat a slow feature run as a red flag. Having lots of tests has other disadvantages than just waiting a long time for feedback. It’s hard to keep a large set of features organized, making them awkward for readers to navigate around. Maintenance is also harder on the underlying step definitions and support code.
 		  
-		  We find that teams that have a single humongous build also tend to have an architecture that could best be described as a big ball of mud. #space
+		  We find that teams that have a single humongous build also tend to have an architecture that could best be described as a big ball of mud. #ñspace
 		- -
 	- 7. Step Definitions: On the Inside
 		- -
@@ -92,5 +92,5 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- Transform(​/^\d+$/​) ​do​ |number|
 		  ​ 	  number.to_i
-		  ​ 	​end​ #space
+		  ​ 	​end​ #ñspace
 		- -

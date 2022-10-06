@@ -69,7 +69,7 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- Las API REST de ElasticSearch admiten consultas estructuradas, libres y complejas (combinación de las dos anteriores). #space
+	- Las API REST de ElasticSearch admiten consultas estructuradas, libres y complejas (combinación de las dos anteriores). #ñspace
 		- (Page 18)
 	- -
 	- -

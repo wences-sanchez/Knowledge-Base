@@ -9,7 +9,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/68a52c90-f8f9-41a1-a380-c294cddbad73.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- En  Kubernetes los  volúmenes  serán  directorios  accesibles  por  todos los contenedores  que  forman  parte  de  un  Pod.  Las  modificaciones  realizadas  en  el sistema de ficheros locales de los contenedores se perderán cuando se reinicien. Sin embargo,  la  información  en  los  volúmenes  sí  se  mantendrán  tras  un  reinicio  del contenedor. #space
+	- En  Kubernetes los  volúmenes  serán  directorios  accesibles  por  todos los contenedores  que  forman  parte  de  un  Pod.  Las  modificaciones  realizadas  en  el sistema de ficheros locales de los contenedores se perderán cuando se reinicien. Sin embargo,  la  información  en  los  volúmenes  sí  se  mantendrán  tras  un  reinicio  del contenedor. #ñspace
 		- (Page 5)
 	- -
 	- -
@@ -50,15 +50,15 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 14)
 	- -
 	- -
-	- Antes de poder utilizar en los Pods el almacenamiento que acabamos de configurar, deberemos  reclamarlo  mediante  un  PersistentVolumentClaim.  Este  proceso  se realiza de forma previa e independiente a la creación de los Pods. A diferencia de los PersistentVolume  que  eran  globales  al  clúster,  estos  objetos  de  reclamo  o  claims existen a nivel de Namespace. Esto quiere decir que solo los Pods creados en dicho Namespace podrán utilizarlo. Para hacer esta solicitud de almacenamiento crearemos un fichero en formato YAML con su definición, en la que indicaremos la cantidad de almacenamiento requerido, así como los modos de acceso #space
+	- Antes de poder utilizar en los Pods el almacenamiento que acabamos de configurar, deberemos  reclamarlo  mediante  un  PersistentVolumentClaim.  Este  proceso  se realiza de forma previa e independiente a la creación de los Pods. A diferencia de los PersistentVolume  que  eran  globales  al  clúster,  estos  objetos  de  reclamo  o  claims existen a nivel de Namespace. Esto quiere decir que solo los Pods creados en dicho Namespace podrán utilizarlo. Para hacer esta solicitud de almacenamiento crearemos un fichero en formato YAML con su definición, en la que indicaremos la cantidad de almacenamiento requerido, así como los modos de acceso #ñspace
 		- (Page 16)
 	- -
 	- -
-	- Kubernetes  soporta  el  aprovisionamiento  dinámico  del  almacenamiento  externo, creando,  además,  su  objeto  PersistentVolume  al  eliminar  la  necesidad  de  crear  y registrar  previamente  el  almacenamiento.  Para  ello  definiremos  recursos StorageClass y será Kubernetes el encargado de crear el PersistentVolume cada vez que  se  solicite  almacenamiento  mediante  un  PersistentVolumeClaim.  Kubernetes soporta el aprovisionamiento dinámico para la mayoría de los proveedores de nube. Al definir un StorageClass especificaremos el proveedor a utilizar (provisioner), así como los  parámetros  (parameters)  que  se  utilizarán  cuando  se  realice  el aprovisionamiento dinámico. Cada proveedor tendrá su propio conjunto de parámetros #space
+	- Kubernetes  soporta  el  aprovisionamiento  dinámico  del  almacenamiento  externo, creando,  además,  su  objeto  PersistentVolume  al  eliminar  la  necesidad  de  crear  y registrar  previamente  el  almacenamiento.  Para  ello  definiremos  recursos StorageClass y será Kubernetes el encargado de crear el PersistentVolume cada vez que  se  solicite  almacenamiento  mediante  un  PersistentVolumeClaim.  Kubernetes soporta el aprovisionamiento dinámico para la mayoría de los proveedores de nube. Al definir un StorageClass especificaremos el proveedor a utilizar (provisioner), así como los  parámetros  (parameters)  que  se  utilizarán  cuando  se  realice  el aprovisionamiento dinámico. Cada proveedor tendrá su propio conjunto de parámetros #ñspace
 		- (Page 18)
 	- -
 	- -
-	- El siguiente ejemplo crea un StorageClass para discos EBS en AWS: kind: StorageClass apiVersion: storage.k8s.io/v1 metadata: name: gp2-ebs-sc provisioner: kubernetes.io/aws-ebs parameters: type: gp2 fsType: ext4 $ kubectl create -f gp2-ebs-sc.yaml storageclass "gp2-ebs-sc" created #space
+	- El siguiente ejemplo crea un StorageClass para discos EBS en AWS: kind: StorageClass apiVersion: storage.k8s.io/v1 metadata: name: gp2-ebs-sc provisioner: kubernetes.io/aws-ebs parameters: type: gp2 fsType: ext4 $ kubectl create -f gp2-ebs-sc.yaml storageclass "gp2-ebs-sc" created #ñspace
 		- (Page 19)
 	- -
 	- -

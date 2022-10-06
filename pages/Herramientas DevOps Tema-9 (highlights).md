@@ -19,6 +19,6 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- Básicamente,  Discovery  brinda  una  interfaz  de  consultas  o  queriessencillas  que posibilita la exploración de los índices existentes y buscar información específica. Con esta herramienta se pueden crear visualizaciones que muestren los datos de manera óptima, y crear paneles personalizados. Discovery explorará los datos,encontrará la información y las relaciones ocultas; y brindará respuestas a ciertas preguntas #space
+	- Básicamente,  Discovery  brinda  una  interfaz  de  consultas  o  queriessencillas  que posibilita la exploración de los índices existentes y buscar información específica. Con esta herramienta se pueden crear visualizaciones que muestren los datos de manera óptima, y crear paneles personalizados. Discovery explorará los datos,encontrará la información y las relaciones ocultas; y brindará respuestas a ciertas preguntas #ñspace
 		- (Page 10)
 	- -

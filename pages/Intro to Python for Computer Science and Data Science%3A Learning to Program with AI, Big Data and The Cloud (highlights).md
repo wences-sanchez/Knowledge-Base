@@ -18,7 +18,7 @@ category:: #books
 			- The operators <, <=, > and >= all have the same level of precedence and evaluate left to right. The operators == and != have the same level of precedence and evaluate left to ri...
 		- -
 		- -
-		- Python only contains (basically) lists and dicts and sets and tuples; a_list = [1, 2, 3]; #space
+		- Python only contains (basically) lists and dicts and sets and tuples; a_list = [1, 2, 3]; #ñspace
 		- -
 		- -
 		- How can we see the source code for a function (if available)? #card
@@ -35,7 +35,7 @@ category:: #books
 		- -
 		- -
 		- How do we generate random numbers? 
-		  [random.randrange(min, max+1)] #space
+		  [random.randrange(min, max+1)] #ñspace
 		- -
 		- -
 		- Module #card

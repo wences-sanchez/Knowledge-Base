@@ -25,5 +25,5 @@ tags:: #[[O'Reilly-Learning]]
 		  Does that seem slightly redundant? Sometimes it can feel that way, but functional tests and unit tests do really have very different objectives, and they will usually end up looking quite different.
 		  
 		  NOTE
-		  Functional tests should help you build an application with the right functionality, and guarantee you never accidentally break it. Unit tests should help you to write code that’s clean and bug free. #space
+		  Functional tests should help you build an application with the right functionality, and guarantee you never accidentally break it. Unit tests should help you to write code that’s clean and bug free. #ñspace
 		- -

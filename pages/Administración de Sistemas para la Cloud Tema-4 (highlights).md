@@ -24,11 +24,11 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	- Los parámetros están normalmente disponibles en las variables $1, $2, $3, etc. o en el array $@ #space
+	- Los parámetros están normalmente disponibles en las variables $1, $2, $3, etc. o en el array $@ #ñspace
 		- (Page 10)
 	- -
 	- -
-	- se usa una expresión if-else en la misma línea: si el comando id -u nginx termina satisfactoriamente, se ejecuta el comando a continuación de &&. Si termina en error, se ejecuta el comando a continuación de ||. El comando id devuelve el identificador del nombre de usuario y falla si el usuario id -u nginx && chown -R nginx:nginx /var/www || chown -R www-data:www-data no existe. /var/www #space
+	- se usa una expresión if-else en la misma línea: si el comando id -u nginx termina satisfactoriamente, se ejecuta el comando a continuación de &&. Si termina en error, se ejecuta el comando a continuación de ||. El comando id devuelve el identificador del nombre de usuario y falla si el usuario id -u nginx && chown -R nginx:nginx /var/www || chown -R www-data:www-data no existe. /var/www #ñspace
 		- (Page 23)
 		- #[[code]]
 	- -

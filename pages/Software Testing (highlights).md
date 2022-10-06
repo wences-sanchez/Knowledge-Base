@@ -9,21 +9,21 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- 1. Software Testing Background
 		- -
-		- The goal of a software tester is to find bugs. #space
+		- The goal of a software tester is to find bugs. #ñspace
 		- -
 		- -
 		- How important it's to think how to break! #card
 			- If you're only testing things that should work and setting up your tests so they'll pass, you will miss the things that don't work. You will miss the bugs.
 		- -
 		- -
-		- The goal of a software tester is to find bugs and find them as early as possible. #space
+		- The goal of a software tester is to find bugs and find them as early as possible. #ñspace
 		- -
 		- -
 		- What is the goal of a tester? #card
 			- The goal of a software tester is to find bugs, find them as early as possible, and make sure they get fixed.
 		- -
 		- -
-		- At first glance, it may appear that a software tester's job would be easier than a programmer's. Breaking code and finding bugs must surely be easier than writing the code in the first place. Surprisingly, it's not. #space
+		- At first glance, it may appear that a software tester's job would be easier than a programmer's. Breaking code and finding bugs must surely be easier than writing the code in the first place. Surprisingly, it's not. #ñspace
 		- -
 	- 2. The Software Development Process
 		- -
@@ -40,7 +40,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 	- 3. The Realities of Software Testing
 		- -
-		- One key concept that software testers need to learn is how to reduce the huge domain of possible tests into a manageable set, and how to make wise risk-based decisions on what's important to test and what's not. #space
+		- One key concept that software testers need to learn is how to reduce the huge domain of possible tests into a manageable set, and how to make wise risk-based decisions on what's important to test and what's not. #ñspace
 		- -
 		- -
 		- How can you overcome the 'pesticide paradox'? #card

@@ -24,7 +24,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- En el siguiente ejemplo se muestra el contenido de un sencillo fichero de Compose en el que se definen dos servicios: version: '3' services: web: build: . ports: - "5000:5000" redis: image: "redis:alpine" #space
+	- En el siguiente ejemplo se muestra el contenido de un sencillo fichero de Compose en el que se definen dos servicios: version: '3' services: web: build: . ports: - "5000:5000" redis: image: "redis:alpine" #ñspace
 		- (Page 7)
 	- -
 	- -
@@ -33,7 +33,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- sobrescribe a command. Las opciones command y entrypoint de Compose son equivalentes a las instrucciones CMD  y  ENTRYPOINT  de  los  Dockerfiles  que  ya  vimos.  Recordemos  que  entrypoint #space
+	- sobrescribe a command. Las opciones command y entrypoint de Compose son equivalentes a las instrucciones CMD  y  ENTRYPOINT  de  los  Dockerfiles  que  ya  vimos.  Recordemos  que  entrypoint #ñspace
 		- (Page 9)
 	- -
 	- -
@@ -67,11 +67,11 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 12)
 	- -
 	- -
-	- Tabla 1. Comandos de Docker Compose para la gestión de servicios. Fuente: elaboración propia. #space
+	- Tabla 1. Comandos de Docker Compose para la gestión de servicios. Fuente: elaboración propia. #ñspace
 		- (Page 14)
 	- -
 	- -
-	- Veamos un extracto del fichero Compose de la aplicación: - ./nginx/nginx.conf:/tmp/nginx.conf version: "3.7" services: web: image: nginx volumes: ... ports: - 80:80 depends_on: - backend backend: build: flask ... volumes: - ./flask:/src depends_on: -  mongo mongo: #space
+	- Veamos un extracto del fichero Compose de la aplicación: - ./nginx/nginx.conf:/tmp/nginx.conf version: "3.7" services: web: image: nginx volumes: ... ports: - 80:80 depends_on: - backend backend: build: flask ... volumes: - ./flask:/src depends_on: -  mongo mongo: #ñspace
 		- (Page 15)
 	- -
 	- -

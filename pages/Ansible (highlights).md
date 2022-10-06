@@ -20,7 +20,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- The Ansible documentation for playbooks is excellent, and it should always be your first point of reference for playbook syntax ( http://docs.ansible.com/ansible/index.html ).
 		  
-		  If you want to jump straight in and see some sample playbooks, there are lots of them available in the ansible-examples repository on Github ( https://github.com/ansible/ansible-examples ). #space
+		  If you want to jump straight in and see some sample playbooks, there are lots of them available in the ansible-examples repository on Github ( https://github.com/ansible/ansible-examples ). #ñspace
 		- -
 	- 7. Orchestrating AWS
 		- -
@@ -37,5 +37,5 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 	- 4. Variables and Facts
 		- -
-		- If the inventory file is marked executable, Ansible will assume it is a dynamic inventory script and will execute the file instead of reading it. #space
+		- If the inventory file is marked executable, Ansible will assume it is a dynamic inventory script and will execute the file instead of reading it. #ñspace
 		- -

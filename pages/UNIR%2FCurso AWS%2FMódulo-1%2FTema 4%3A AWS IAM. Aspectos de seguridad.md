@@ -56,7 +56,7 @@ tags:: UNIR, AWS
 			- Si está habilitada, MFA solicita un código de autenticación
 	-
 	- ### IAM: Autorización
-		-
+		- Se usa IAM para asignar permisos e identificar qué recursos y operaciones están permitidos.
 		-
 	-
 -

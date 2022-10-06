@@ -54,6 +54,9 @@ tags:: UNIR, AWS
 			- Nombre de usuario de IAM
 			- Contraseña de IAM
 			- Si está habilitada, MFA solicita un código de autenticación
+	-
+	- ### IAM: Autorización
+		-
 		-
 	-
 -

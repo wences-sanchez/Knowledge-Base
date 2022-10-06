@@ -4,13 +4,44 @@ tags:: UNIR, AWS
 - #tags #UNI #AWS #Tema-1
 -
 - ## Modelo de responsabilidad compartida de AWS
-	- ![image.png](../assets/image_1665044543811_0.png)
-	- Tanto el cliente como AWS tenemos (diferentes) responsabilidades
-	- Como clientes, somos responsables de lo que ocurre dentro de la nube. Es decir, de que nuestras aplicaciones funcionen, de nuestros datos de clientes, de aplicaciones, de las identidades, accesos, configurar parches si tenemos máquinas virtuales, de la red, cortafuegos, etc.
-	- AWS es responsable de la seguridad de la nube: de las máquinas físicas, del almacenamiento, los servidores, bases de datos, regiones, zonas de disponiblidad, etc.
+	- ### Modelo de responsabilidad compartida de AWS
+		- ![image.png](../assets/image_1665044543811_0.png)
+		- Tanto el cliente como AWS tenemos (diferentes) responsabilidades
+		- Como clientes, somos responsables de lo que ocurre dentro de la nube. Es decir, de que nuestras aplicaciones funcionen, de nuestros datos de clientes, de aplicaciones, de las identidades, accesos, configurar parches si tenemos máquinas virtuales, de la red, cortafuegos, etc.
+		- AWS es responsable de la seguridad de la nube: de las máquinas físicas, del almacenamiento, los servidores, bases de datos, regiones, zonas de disponiblidad, etc.
+	-
+		- #### Responsabilidades de AWS
+			- AWS se encarga de la seguridad física de sus centros de datos, de la infraestructura de hadware y software, de la auditoría de sistemas operativos, de que no hay intrusiones, de la vídeo-vigilancia, de los sistemas de virtualización, etc.
+		- #### Responsabilidades de los clientes
+			- Del sistema operativo de las instancias de EC2, de sus parches y mantenimiento, contraseñas de aplicaciones, roles, cifrado de datos, cortafuegos, red y cuentas.
+	-
+		- #### Servicios de IaaS
+			- ![image.png](../assets/image_1665045419258_0.png)
+			-
+			- Tenemos más flexibilidad en la configuración pero nos reporta más trabajo de ser responsables de los datos.
+			-
+			- El cliente tiene más flexibilidad en lo que respecta a la configuración de redes y almacenamiento.
+			- El cliente es responsable de administrar más aspectos de la seguridad.
+			- El cliente configura los controles de acceso.
+		-
+		- #### Servicios de PaaS
+			- ![image.png](../assets/image_1665045530002_0.png)
+			- Aquí AWS gestiona las máquinas subyacentes y nosotros nos encargamos sólo con las aplicaciones creadas
+		-
+		- #### Servicios de SaaS
+			- ![image.png](../assets/image_1665045636089_0.png)
+			-
 -
-	- ### Responsabilidades de AWS
-		- AWS se encarga de la seguridad física de sus centros de datos, de la infraestructura de hadware y software, de la auditoría de sistemas operativos, de que no hay intrusiones, de la vídeo-vigilancia, de los sistemas de virtualización, etc.
-	- ### Responsabilidades de los clientes
-		- Del sistema operativo de las instancias de EC2, de sus parches y mantenimiento, contraseñas de aplicaciones, roles, cifrado de datos, cortafuegos, red y cuentas.
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 -

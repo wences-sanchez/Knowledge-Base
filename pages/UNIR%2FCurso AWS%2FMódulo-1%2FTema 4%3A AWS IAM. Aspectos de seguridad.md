@@ -89,6 +89,8 @@ tags:: UNIR, AWS
 		- Permite SSO
 	- ### Amazon Shield
 		- Para protegernos de ataques de denegación de servicio distribuidos (DDoS).
+	- ### AWS Storage Gateway
+		- Almacenamiento de nube híbrida que proporciona acceso en las instalaciones al almacenamiento en la nube de AWS.
 	- Los datos almacenados en reposo se pueden cifrar
 	- Los servicios de AWS admiten el cifrado de datos en tránsito
 -
@@ -99,7 +101,7 @@ tags:: UNIR, AWS
 		- AWS Service Catalog habilita una gestión más ágil sobre este aspecto.
 	- ### Servicios de seguridad adicionales
 		- **Amazon Macie** protege información de tipo personal
-		- **Amazon Inspector**
+		- **Amazon Inspector** sirve para definir estándares y prácticas recomendadas.
 		- **Amazon GuardDuty** analiza amenazas y de forma inteligente monitorea y protege nuestras cuentas y aplicaciones.
 -
 -

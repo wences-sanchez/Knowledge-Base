@@ -39,8 +39,22 @@ tags:: UNIR, AWS
 			- Por ejemplo, una instancia de EC2, un bucket de S3 o una lambda.
 			- Podemos, así, controlar quién lanza instancias de EC2. A través de derechos de acceso, que definen **quién** puede acceder a los recursos, a **cuáles** recursos y **cómo**.
 	- ### Usuarios en IAM
+		- Un usuario es una persona, o aplicación que está dentro de una cuenta y que puede interactuar con la cuenta
+	- ### Políticas en IAM
+		- Una política de IAM es un documento que define permisos para determinar lo que los usuarios pueden hacer en la cuenta de AWS.
+	- ### Roles en IAM
+		- Un rol es un mecanismo para dar, de forma temporal, acceso a recursos de AWS específicos.
+	- ### Autenticación como usuario de IAM
+		- #### Acceso mediante programación
+			- ID de clave de acceso
+			- Clave de acceso secreta
+			- Proporciona acceso a la CLI de AWS y al SDK de AWS
+		- #### Acceso a la consola de administración de AWS
+			- ID de cuenta o alias de 12 dígitos
+			- Nombre de usuario de IAM
+			- Contraseña de IAM
+			- Si está habilitada, MFA solicita un código de autenticación
 		-
-	- ### AWS IAM
 	-
 -
 -

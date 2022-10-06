@@ -96,7 +96,12 @@ tags:: UNIR, AWS
 	- ### AWS Config / AWS Artifact / AWS Service Catalog
 		- AWS Config es un repositorio con un histórico de las diferentes configuraciones de los recusos de AWS que hemos ido realizando
 		- AWS Artifact es un servicio que proporciona informes de seguridad y conformidad.
-		- AWS Service Catalog habilita una gee
+		- AWS Service Catalog habilita una gestión más ágil sobre este aspecto.
+	- ### Servicios de seguridad adicionales
+		- **Amazon Macie** protege información de tipo personal
+		- **Amazon Inspector**
+		- **Amazon GuardDuty** analiza amenazas y de forma inteligente monitorea y protege nuestras cuentas y aplicaciones.
+-
 -
 	-
 	-

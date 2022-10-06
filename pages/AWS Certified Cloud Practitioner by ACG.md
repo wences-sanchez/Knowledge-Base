@@ -15,4 +15,6 @@
 		- AZs Allow for high availability
 		- If you distribute your application between AZs, you'll have HA.
 		- Edge locations reduce latency. They are used by **AWS CloudFront**
--
+		- Regions > Availability Zones > Datacenters #spaced
+			- There are more **Edge Locations** than **Regions** and **AZs**.
+		-

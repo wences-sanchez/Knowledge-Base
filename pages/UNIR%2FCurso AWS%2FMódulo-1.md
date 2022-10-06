@@ -43,6 +43,7 @@ tags:: UNIR, AWS
 			-
 				-
 		- ## Flashcards
+		  collapsed:: true
 			- Define el término: *Informática en la nube* #flashcard
 				- La **informática en la nube** es la entrega **bajo demanda** de potencia de cómputo, máquinas virtuales, BBDD, aplicaciones y otros recursos de TI, a través de Internet, con un sistema de precios de **pago por uso**.
 			- ¿En qué consiste la Infraestructura como Servicio? #flashcard
@@ -85,6 +86,7 @@ tags:: UNIR, AWS
 		-
 		-
 		- ## Flashcards
+		  collapsed:: true
 			- ¿Cómo podrías definir AWS? #flashcard
 				- AWS es una plataforma en la nube segura que ofrece un amplio conjunto de productos globales basados en la nube.
 				- Proporciona acceso bajo demanda a sus recursos.
@@ -164,6 +166,7 @@ tags:: UNIR, AWS
 		-  **Enterprise**: cargas de trabajo críticas.
 	-
 	- ### Flashcards
+	  collapsed:: true
 		- ¿En qué factores se basa AWS para calcular los costes? #flashcard
 			- AWS fundamenta sus **costos** en 3 **fuentes** fundamentales:
 			- la informática (**computación**) en la que se cobra por hora o por segundo,
@@ -197,5 +200,9 @@ tags:: UNIR, AWS
 				-  **Business**: cargas de trabajo en producción.
 				-  **Enterprise**: cargas de trabajo críticas.
 -
+- ## Tema 3
+	- ### [[Tema 3: Infraestructura global de AWS y modelo de responsabilidad compartida]]
 -
-- [[Tema 3: Infraestructura global de AWS y modelo de responsabilidad compartida]]
+- ## Tema 4
+	- [[UNIR/Cur]]
+-

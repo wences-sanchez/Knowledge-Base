@@ -8,7 +8,11 @@
 - ## 2. Foundations of Cloud Computing
 	- Cloud9 is an example of [[PaaS]]
 	- ### Leveraging the AWS Global Infrastructure
-		- A [[region]] is a physical location
-		- Each [[region]] is independent and isolated from each other.
+		- A [[region]] is a physical location in the world that contains AZs
+		- Each [[region]] is **independent** and **isolated** from each other.
 		- You can see that you previously have to select a region before doing any activity in AWS.
-		-
+		- The AZs are physically separated but connected through low-latency links
+		- AZs Allow for high availability
+		- If you distribute your application between AZs, you'll have HA.
+		- Edge locations reduce latency. They are used by **AWS CloudFront**
+-

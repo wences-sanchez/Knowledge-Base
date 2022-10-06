@@ -9,12 +9,12 @@ tags:: UNIR, AWS
 		- Tanto el cliente como AWS tenemos (diferentes) responsabilidades
 		- Como clientes, somos responsables de lo que ocurre dentro de la nube. Es decir, de que nuestras aplicaciones funcionen, de nuestros datos de clientes, de aplicaciones, de las identidades, accesos, configurar parches si tenemos máquinas virtuales, de la red, cortafuegos, etc.
 		- AWS es responsable de la seguridad de la nube: de las máquinas físicas, del almacenamiento, los servidores, bases de datos, regiones, zonas de disponiblidad, etc.
-	-
+		-
 		- #### Responsabilidades de AWS
 			- AWS se encarga de la seguridad física de sus centros de datos, de la infraestructura de hadware y software, de la auditoría de sistemas operativos, de que no hay intrusiones, de la vídeo-vigilancia, de los sistemas de virtualización, etc.
 		- #### Responsabilidades de los clientes
 			- Del sistema operativo de las instancias de EC2, de sus parches y mantenimiento, contraseñas de aplicaciones, roles, cifrado de datos, cortafuegos, red y cuentas.
-	-
+		-
 		- #### Servicios de IaaS
 			- ![image.png](../assets/image_1665045419258_0.png)
 			-
@@ -23,14 +23,25 @@ tags:: UNIR, AWS
 			- El cliente tiene más flexibilidad en lo que respecta a la configuración de redes y almacenamiento.
 			- El cliente es responsable de administrar más aspectos de la seguridad.
 			- El cliente configura los controles de acceso.
-		-
+			-
 		- #### Servicios de PaaS
 			- ![image.png](../assets/image_1665045530002_0.png)
 			- Aquí AWS gestiona las máquinas subyacentes y nosotros nos encargamos sólo con las aplicaciones creadas
-		-
+			-
 		- #### Servicios de SaaS
 			- ![image.png](../assets/image_1665045636089_0.png)
-			-
+			- El software está alojado de forma centralizada en los servidores de AWS.
+-
+- ## AWS Identity and Access Management (IAM)
+	- Es un servicio gratuito que nos permite gestionar el acceso a los recurso de AWS.
+	- ### Recursos en AWS
+		- Un recurso es una entidad en una cuenta de AWS con la que se puede trabajar.
+			- Por ejemplo, una instancia de EC2, un bucket de S3 o una lambda.
+			- Podemos, así, controlar quién lanza instancias de EC2. A través de derechos de acceso, que definen **quién** puede acceder a los recursos, a **cuáles** recursos y **cómo**.
+	- ### Usuarios en IAM
+		-
+	- ### AWS IAM
+	-
 -
 -
 -

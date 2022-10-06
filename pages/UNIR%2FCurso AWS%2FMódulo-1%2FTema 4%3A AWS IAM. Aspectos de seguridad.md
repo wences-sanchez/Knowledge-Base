@@ -80,7 +80,23 @@ tags:: UNIR, AWS
 - ## Protección de cuentas y datos
 	- ### Prácticas recomendadas para proteger una cuenta
 		- Eliminar las claves de acceso de usuario raíz de la cuenta
-		- Crear un usuario
+		- Crear un usuario IAM para nosotros mismos y eliminar las claves SDK y clave secreta de la cuenta.
+		- Delegar el uso de roles en lugar del uso compartido de credenciales
+		- Monitorear la actividad de la cuenta mediante AWS CloudTrail
+		- Controlar los informes de costes
+	- ### Amazon Cognito
+		- Incorpora control de acceso, inicio de sesión y registro de usuarios a sus aplicaciones web y móviles.
+		- Permite SSO
+	- ### Amazon Shield
+		- Para protegernos de ataques de denegación de servicio distribuidos (DDoS).
+	- Los datos almacenados en reposo se pueden cifrar
+	- Los servicios de AWS admiten el cifrado de datos en tránsito
+-
+- ## Servicios y recursos de seguridad adicionales
+	- ### AWS Config / AWS Artifact / AWS Service Catalog
+		- AWS Config es un repositorio con un histórico de las diferentes configuraciones de los recusos de AWS que hemos ido realizando
+		- AWS Artifact es un servicio que proporciona informes de seguridad y conformidad.
+		- AWS Service Catalog habilita una gee
 -
 	-
 	-

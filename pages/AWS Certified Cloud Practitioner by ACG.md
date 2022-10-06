@@ -17,4 +17,7 @@
 		- Edge locations reduce latency. They are used by **AWS CloudFront**
 		- Regions > Availability Zones > Datacenters #spaced
 			- There are more **Edge Locations** than **Regions** and **AZs**.
+	- ### Exploring your AWS Account
+		- The regions are isolated.
+			- That is why you cannot see the contents of a region in others' one.
 		-

@@ -17,5 +17,10 @@ tags:: Coursera, SW-Testing
 			- If we choose our partitions well, then we're likely to sample form a partition that's faulty and a partition that's good. And in this way, if the partition has described the faulty regions, we're going to find the faults by choosing a value from each partition.
 		- ![image.png](../assets/image_1665154254188_0.png)
 		- Our idea is that, since the failures of an application are used to concentrate in common and near values, not testing every little detail about all of them. Rather, choose a representative of that group and go on.
+		- We also have to take into account boundary values.
+		- We use heuristic and experience to try and come up with good partitions.
+		- Errors are used to be concentrated in small portions.
+		-
+	-
 		-
 -

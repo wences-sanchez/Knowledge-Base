@@ -61,7 +61,7 @@ tags:: UNIR, AWS
 			- Ofrece una gran cantidad de máquinas virtuales
 		- #### Amazon EC2 Auto Scaling
 			- Un servicio que permite de manera automática crear y distribuir máquinas según el tráfico de la red
-		- #### AWS Elastic Beanstalk
+		- #### [[AWS Elastic Beanstalk]]
 			- Permite desplegar aplicaciones aunque por debajo usa otro tipo de servicios de AWS
 		- #### AWS Lambda
 			- Uno de los servicios más importantes de AWS que ejecuta código *sin servidor*. Permite subir el código fuente y de forma transparente gestionada por ellos despliegan el código.

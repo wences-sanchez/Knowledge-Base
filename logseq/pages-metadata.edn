@@ -62,6 +62,9 @@
   "\"introduction to containers w/ docker, kubernetes & openshift\"",
   :block/created-at 1661943780626,
   :block/updated-at 1661943780626}
+ {:block/name "# tema 2: facturación y economía en la nube",
+  :block/created-at 1665043860982,
+  :block/updated-at 1665043860982}
  {:block/name "(nop)",
   :block/created-at 1660808033132,
   :block/updated-at 1660808033132}
@@ -235,6 +238,9 @@
  {:block/name "aprende kubernetes/primeros pasos en kubernetes",
   :block/created-at 1664205881883,
   :block/updated-at 1664277160043}
+ {:block/name "apuntes",
+  :block/created-at 1665043864977,
+  :block/updated-at 1665043864977}
  {:block/name "arnon axelrod",
   :block/created-at 1660807793834,
   :block/updated-at 1660807793834}
@@ -258,7 +264,7 @@
   :block/updated-at 1660029985876}
  {:block/name "aws certified cloud practitioner by acg",
   :block/created-at 1663940091696,
-  :block/updated-at 1663940091696}
+  :block/updated-at 1665074319695}
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1663940091476,
@@ -350,6 +356,18 @@
  {:block/name "c",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name "ca",
+  :block/created-at 1664878524008,
+  :block/updated-at 1664878524008}
+ {:block/name "caf",
+  :block/created-at 1664878516170,
+  :block/updated-at 1664878516170}
+ {:block/name "caf ",
+  :block/created-at 1664878570714,
+  :block/updated-at 1664878570714}
+ {:block/name "caf (cloud adoption framework)",
+  :block/created-at 1664878392363,
+  :block/updated-at 1664878392363}
  {:block/name "call it sleep (highlights)",
   :block/created-at 1661943755324,
   :block/updated-at 1661943755324}
@@ -798,6 +816,9 @@
  {:block/name "existo",
   :block/created-at 1659947334568,
   :block/updated-at 1659947334568}
+ {:block/name "f",
+  :block/created-at 1664875425725,
+  :block/updated-at 1664875425725}
  {:block/name "failure=3",
   :block/created-at 1660808027119,
   :block/updated-at 1660808027119}
@@ -807,9 +828,18 @@
  {:block/name "favorites",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+ {:block/name "file",
+  :block/created-at 1665043863474,
+  :block/updated-at 1665043863474}
  {:block/name "file-path",
   :block/created-at 1662195436568,
   :block/updated-at 1662195436568}
+ {:block/name "fl",
+  :block/created-at 1664875152037,
+  :block/updated-at 1664875152037}
+ {:block/name "flaschard",
+  :block/created-at 1664875158124,
+  :block/updated-at 1664875158124}
  {:block/name "flashcard",
   :block/created-at 1660315974291,
   :block/updated-at 1660315974291}
@@ -988,6 +1018,9 @@
  {:block/name "hls__contenedores_tema-1_1662122655208_0",
   :block/created-at 1663348729201,
   :block/updated-at 1663348729201}
+ {:block/name "hls__unir-aws_modulo-1_1664869606733_0",
+  :block/created-at 1665043863456,
+  :block/updated-at 1665043863456}
  {:block/name
   "how can i match \"anything up until this sequence of characters\" in a regular expression? (highlights)",
   :block/created-at 1661943778596,
@@ -1142,6 +1175,15 @@
  {:block/name "in-progress",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277799}
+ {:block/name "informática en la nube",
+  :block/created-at 1664874749343,
+  :block/updated-at 1664874749343}
+ {:block/name "infraestructura como servicio (iaas)",
+  :block/created-at 1664877831458,
+  :block/updated-at 1664877831458}
+ {:block/name "infraestructura como sofware",
+  :block/created-at 1664874877707,
+  :block/updated-at 1664874877707}
  {:block/name
   "initialise a list to a specific length in python (highlights)",
   :block/created-at 1661943779419,
@@ -1482,6 +1524,9 @@
  {:block/name "oxford english file b2.1/unit 4",
   :block/created-at 1663940093971,
   :block/updated-at 1663940093971}
+ {:block/name "paas",
+  :block/created-at 1665071678835,
+  :block/updated-at 1665071678835}
  {:block/name "pablo beytía y jorge acevedo guerra",
   :block/created-at 1660807749373,
   :block/updated-at 1660807749373}
@@ -1512,6 +1557,9 @@
  {:block/name "pink",
   :block/created-at 1660807707857,
   :block/updated-at 1660807707857}
+ {:block/name "plataforma como servicio (paas)",
+  :block/created-at 1664877852416,
+  :block/updated-at 1664877852416}
  {:block/name "por jesús angulo",
   :block/created-at 1660807894410,
   :block/updated-at 1660807894410}
@@ -1616,6 +1664,9 @@
   "red hat certified specialist in ansible automation (ex407) preparation course/understanding core components of ansible",
   :block/created-at 1663348719273,
   :block/updated-at 1663348719273}
+ {:block/name "region",
+  :block/created-at 1665071789223,
+  :block/updated-at 1665071789223}
  {:block/name "resilience (highlights)",
   :block/created-at 1661943798249,
   :block/updated-at 1661943798249}
@@ -1729,15 +1780,15 @@
  {:block/name "smartbear.com",
   :block/created-at 1660807842412,
   :block/updated-at 1660807842412}
+ {:block/name "software como servicio (saas)",
+  :block/created-at 1664877844942,
+  :block/updated-at 1664877844942}
  {:block/name "software testing (highlights)",
   :block/created-at 1661943801118,
   :block/updated-at 1661943801118}
  {:block/name "softwareengineering.stackexchange.com",
   :block/created-at 1660807829058,
   :block/updated-at 1660807829058}
- {:block/name "space",
-  :block/created-at 1660808602617,
-  :block/updated-at 1660808602617}
  {:block/name "spaced",
   :block/created-at 1658774346833,
   :block/updated-at 1658774346833}
@@ -1802,6 +1853,13 @@
  {:block/name "tal ben-shahar and ana garcía bertrán",
   :block/created-at 1660807910628,
   :block/updated-at 1660807910628}
+ {:block/name
+  "tema 3: infraestructura global de aws y modelo de responsabilidad compartida",
+  :block/created-at 1665043862396,
+  :block/updated-at 1665043862396}
+ {:block/name "tema-1",
+  :block/created-at 1665043862285,
+  :block/updated-at 1665043862285}
  {:block/name "templates",
   :block/created-at 1660315984263,
   :block/updated-at 1660315984263}
@@ -1898,6 +1956,9 @@
  {:block/name "thursday, 01-09-2022",
   :block/created-at 1663348721795,
   :block/updated-at 1663348721795}
+ {:block/name "thursday, 06-10-2022",
+  :block/created-at 1665043858266,
+  :block/updated-at 1665043858266}
  {:block/name "thursday, 11-08-2022",
   :block/created-at 1661943746792,
   :block/updated-at 1661943746792}
@@ -1928,6 +1989,9 @@
  {:block/name "tuesday, 02-08-2022",
   :block/created-at 1660315974691,
   :block/updated-at 1661942153409}
+ {:block/name "tuesday, 04-10-2022",
+  :block/created-at 1664869334605,
+  :block/updated-at 1665043970868}
  {:block/name "tuesday, 06-09-2022",
   :block/created-at 1663348723395,
   :block/updated-at 1663348723395}
@@ -1967,6 +2031,19 @@
  {:block/name "unir",
   :block/created-at 1660807912902,
   :block/updated-at 1660807912902}
+ {:block/name "unir/cur",
+  :block/created-at 1665044134310,
+  :block/updated-at 1665044134310}
+ {:block/name "unir/curso aws",
+  :block/created-at 1664869516673,
+  :block/updated-at 1664869516673}
+ {:block/name "unir/curso aws/módulo-1",
+  :block/created-at 1664869516661,
+  :block/updated-at 1665044317978}
+ {:block/name
+  "unir/curso aws/módulo-1/tema 4: aws iam. aspectos de seguridad",
+  :block/created-at 1665044305339,
+  :block/updated-at 1665075006859}
  {:block/name "unit-4",
   :block/created-at 1663349027712,
   :block/updated-at 1663349027712}
@@ -2126,5 +2203,8 @@
   :block/updated-at 1661943807861}
  {:block/name
   "¿sabes realmente qué es devops? | blog xeridia (highlights)",
-  :block/created-at 1661943808035, 
-  :block/updated-at 1661943808035}]
+  :block/created-at 1661943808035,
+  :block/updated-at 1661943808035}
+ {:block/name "ñspace",
+  :block/created-at 1660808602617, 
+  :block/updated-at 1660808602617}]

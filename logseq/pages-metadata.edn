@@ -28,9 +28,6 @@
  {:block/name " -x /usr/bin/yum ",
   :block/created-at 1660807930941,
   :block/updated-at 1660807930941}
- {:block/name " tema 1",
-  :block/created-at 1665133263684,
-  :block/updated-at 1665133263684}
  {:block/name "!",
   :block/created-at 1660807814531,
   :block/updated-at 1660807814531}
@@ -40,24 +37,6 @@
  {:block/name "!/bin/bash",
   :block/created-at 1661943747580,
   :block/updated-at 1661943747580}
- {:block/name "!/path",
-  :block/created-at 1660807817544,
-  :block/updated-at 1660807817544}
- {:block/name "!/path/to",
-  :block/created-at 1660807817546,
-  :block/updated-at 1660807817546}
- {:block/name "!/path/to/java",
-  :block/created-at 1660807817541,
-  :block/updated-at 1660807817541}
- {:block/name "!/usr",
-  :block/created-at 1660807929496,
-  :block/updated-at 1660807929496}
- {:block/name "!/usr/bin",
-  :block/created-at 1660807929497,
-  :block/updated-at 1660807929497}
- {:block/name "!/usr/bin/python3",
-  :block/created-at 1660807929490,
-  :block/updated-at 1660807929490}
  {:block/name "\"introduction to containers w",
   :block/created-at 1660315062268,
   :block/updated-at 1660315062268}
@@ -68,9 +47,15 @@
  {:block/name "# tema 2: facturación y economía en la nube",
   :block/created-at 1665043860982,
   :block/updated-at 1665043860982}
+ {:block/name "'reilly-learning",
+  :block/created-at 1665144108335,
+  :block/updated-at 1665144108335}
  {:block/name "(nop)",
   :block/created-at 1660808033132,
   :block/updated-at 1660808033132}
+ {:block/name ")",
+  :block/created-at 1665144086564,
+  :block/updated-at 1665144086564}
  {:block/name "1",
   :block/created-at 1660807935427,
   :block/updated-at 1660807935427}
@@ -126,9 +111,6 @@
  {:block/name "[email protected",
   :block/created-at 1660807944523,
   :block/updated-at 1660807944523}
- {:block/name "]",
-  :block/created-at 1660807944526,
-  :block/updated-at 1660807944526}
  {:block/name "a",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -321,10 +303,6 @@
   "become a devops engineer/learning ansible/what is ansible?",
   :block/created-at 1663348724028,
   :block/updated-at 1663348724028}
- {:block/name
-  "become a devops engineer/learning ansible/why choose ansible?",
-  :block/created-at 1661946257879,
-  :block/updated-at 1661946257879}
  {:block/name "beginnersbook.com",
   :block/created-at 1660807819977,
   :block/updated-at 1660807819977}
@@ -362,15 +340,6 @@
  {:block/name "c",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
- {:block/name "ca",
-  :block/created-at 1664878524008,
-  :block/updated-at 1664878524008}
- {:block/name "caf",
-  :block/created-at 1664878516170,
-  :block/updated-at 1664878516170}
- {:block/name "caf ",
-  :block/created-at 1664878570714,
-  :block/updated-at 1664878570714}
  {:block/name "caf (cloud adoption framework)",
   :block/created-at 1664878392363,
   :block/updated-at 1664878392363}
@@ -822,12 +791,12 @@
  {:block/name "existo",
   :block/created-at 1659947334568,
   :block/updated-at 1659947334568}
- {:block/name "f",
-  :block/created-at 1664875425725,
-  :block/updated-at 1664875425725}
  {:block/name "failure=3",
   :block/created-at 1660808027119,
   :block/updated-at 1660808027119}
+ {:block/name "failure=3)",
+  :block/created-at 1665144102948,
+  :block/updated-at 1665144102948}
  {:block/name "favorite",
   :block/created-at 1660807860691,
   :block/updated-at 1660807860691}
@@ -840,12 +809,6 @@
  {:block/name "file-path",
   :block/created-at 1662195436568,
   :block/updated-at 1662195436568}
- {:block/name "fl",
-  :block/created-at 1664875152037,
-  :block/updated-at 1664875152037}
- {:block/name "flaschard",
-  :block/created-at 1664875158124,
-  :block/updated-at 1664875158124}
  {:block/name "flashcard",
   :block/created-at 1660315974291,
   :block/updated-at 1660315974291}
@@ -1220,10 +1183,6 @@
   :block/created-at 1661943780133,
   :block/updated-at 1661943780133}
  {:block/name
-  "introduction to containers with docker, kubernetes & openshift",
-  :block/created-at 1663317875338,
-  :block/updated-at 1663317875338}
- {:block/name
   "introduction to git and github - inicio | coursera (highlights)",
   :block/created-at 1661943780712,
   :block/updated-at 1661943780712}
@@ -1355,9 +1314,6 @@
  {:block/name "linkedin-learning",
   :block/created-at 1660316566236,
   :block/updated-at 1660316566236}
- {:block/name "linkedin-learning devops",
-  :block/created-at 1661942615979,
-  :block/updated-at 1661942615979}
  {:block/name "linkedin-learning devops ansible",
   :block/created-at 1661942945739,
   :block/updated-at 1661942945739}
@@ -1496,9 +1452,9 @@
  {:block/name "nullpointerexception when using @findby (highlights)",
   :block/created-at 1661943793538,
   :block/updated-at 1661943793538}
- {:block/name "o'reilly",
-  :block/created-at 1658825283861,
-  :block/updated-at 1658825283861}
+ {:block/name "o",
+  :block/created-at 1665144042634,
+  :block/updated-at 1665144042634}
  {:block/name "o'reilly media",
   :block/created-at 1660807806824,
   :block/updated-at 1660807806824}
@@ -1593,6 +1549,18 @@
  {:block/name "problem",
   :block/created-at 1660808012410,
   :block/updated-at 1660808012410}
+ {:block/name
+  "professional certificate of ibm devops and software engineering",
+  :block/created-at 1665144112236,
+  :block/updated-at 1665144112236}
+ {:block/name
+  "professional certificate of ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
+  :block/created-at 1665144112234,
+  :block/updated-at 1665144112234}
+ {:block/name
+  "professional certificate of ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 3",
+  :block/created-at 1665144112212,
+  :block/updated-at 1665144112212}
  {:block/name "programiz.com",
   :block/created-at 1660807851292,
   :block/updated-at 1660807851292}
@@ -2036,15 +2004,9 @@
  {:block/name "unir",
   :block/created-at 1660807912902,
   :block/updated-at 1660807912902}
- {:block/name "unir/cur",
-  :block/created-at 1665044134310,
-  :block/updated-at 1665044134310}
  {:block/name "unir/curso aws",
   :block/created-at 1664869516673,
   :block/updated-at 1664869516673}
- {:block/name "unir/curso aws/m´",
-  :block/created-at 1665133528849,
-  :block/updated-at 1665133528849}
  {:block/name "unir/curso aws/módulo-1",
   :block/created-at 1664869516661,
   :block/updated-at 1665142924148}
@@ -2060,13 +2022,13 @@
   :block/created-at 1665043862396,
   :block/updated-at 1665138467038}
  {:block/name
-  "unir/curso aws/módulo-1/tema 4: aws iam. aspectos de segurida",
-  :block/created-at 1665133535435,
-  :block/updated-at 1665133535435}
- {:block/name
   "unir/curso aws/módulo-1/tema 4: aws iam. aspectos de seguridad",
   :block/created-at 1665044305339,
   :block/updated-at 1665141629141}
+ {:block/name
+  "unir/curso aws/módulo-1tema 2: facturación y economía en la nube",
+  :block/created-at 1665144131630,
+  :block/updated-at 1665144131630}
  {:block/name "unit-4",
   :block/created-at 1663349027712,
   :block/updated-at 1663349027712}
@@ -2197,6 +2159,9 @@
  {:block/name "william shakespeare",
   :block/created-at 1660807759567,
   :block/updated-at 1660807759567}
+ {:block/name "xa0",
+  :block/created-at 1665144104102,
+  :block/updated-at 1665144104102}
  {:block/name "xeridia.com",
   :block/created-at 1660807893542,
   :block/updated-at 1660807893542}
@@ -2212,15 +2177,39 @@
  {:block/name "yyyy-mm-dd format date in shell script (highlights)",
   :block/created-at 1661943807583,
   :block/updated-at 1661943807583}
+ {:block/name "{c.value}<",
+  :block/created-at 1665144094597,
+  :block/updated-at 1665144094597}
+ {:block/name "{c.value}</h",
+  :block/created-at 1665144094596,
+  :block/updated-at 1665144094596}
  {:block/name "{cc.attrs.xxx}",
   :block/created-at 1660807752941,
   :block/updated-at 1660807752941}
  {:block/name "{cc.attrs}",
   :block/created-at 1660807752935,
   :block/updated-at 1660807752935}
+ {:block/name "{node[",
+  :block/created-at 1665144086565,
+  :block/updated-at 1665144086565}
+ {:block/name "{resource[",
+  :block/created-at 1665144094613,
+  :block/updated-at 1665144094613}
  {:block/name "{user.xxx}",
   :block/created-at 1660807752937,
   :block/updated-at 1660807752937}
+ {:block/name " <class ",
+  :block/created-at 1665144091682,
+  :block/updated-at 1665144091682}
+ {:block/name " [8",
+  :block/created-at 1665144117344,
+  :block/updated-at 1665144117344}
+ {:block/name " variable v stores an integer valuev = ",
+  :block/created-at 1665144091677,
+  :block/updated-at 1665144091677}
+ {:block/name " v now stores a string",
+  :block/created-at 1665144091676,
+  :block/updated-at 1665144091676}
  {:block/name "¿qué es la ilustración? (highlights)",
   :block/created-at 1661943807861,
   :block/updated-at 1661943807861}

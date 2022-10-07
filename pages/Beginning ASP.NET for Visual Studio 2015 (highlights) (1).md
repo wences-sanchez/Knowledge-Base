@@ -1,0 +1,372 @@
+title:: Beginning ASP.NET for Visual Studio 2015 (highlights) (1)
+author:: [[William Penberthy]]
+full-title:: "Beginning ASP.NET for Visual Studio 2015"
+category:: #books
+
+- ![](https://images-na.ssl-images-amazon.com/images/I/51Bp3d2M-aL._SL200_.jpg)
+- Highlights first synced by [[Readwise]] [[Friday, 07-10-2022]]
+	- -
+	- The original framework became known as Web Forms. #spaced
+		- ([Location 1126](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1126))
+	- -
+	- -
+	- A GET is a request for a resource. #spaced
+		- ([Location 1149](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1149))
+	- -
+	- -
+	- A POST indicates that there is information included in the request that should create a new version of the resource. #spaced
+		- ([Location 1151](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1151))
+	- -
+	- -
+	- A PUT indicates that the information included in the request should change already existing items. #spaced
+		- ([Location 1153](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1153))
+	- -
+	- -
+	- different from the POST verb because a new item is only created when the request includes new information. #spaced
+		- ([Location 1155](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1155))
+	- -
+	- -
+	- postback, whereby a page is rendered in the browser, the user takes some action, and that page is sent back to the server using the same resource name. #spaced
+		- ([Location 1341](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1341))
+	- -
+	- -
+	- ViewState is how ASP.NET Web Forms take this customized approach and transfer state information between the browser and the server. ViewState is a hidden field <input type="hidden" name=“_VIEWSTATE” value=“blah blah #spaced
+		- ([Location 1346](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1346))
+	- -
+	- -
+	- types of controls: #spaced
+		- ([Location 1443](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1443))
+	- -
+	- -
+	- ensures that the data is correct when it gets to the server. #spaced
+		- ([Location 1461](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1461))
+	- -
+	- -
+	- This enables the same control to be reused in multiple places, rather than copying the code itself into multiple pages. #spaced
+		- ([Location 1465](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1465))
+	- -
+	- -
+	- MVC presents views, not pages, to the client. #spaced
+		- ([Location 1480](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1480))
+	- -
+	- -
+	- Dim itemName As String #spaced
+		- ([Location 3175](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3175))
+		- #orange #naranja
+	- -
+	- -
+	- Dim squaredValue As Double = perItemCost ^ 2 #spaced
+		- ([Location 3284](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3284))
+		- #orange #naranja
+	- -
+	- -
+	- The two concatenation operators are + for C# and & for VB. #spaced
+		- ([Location 3290](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3290))
+		- #orange #naranja
+	- -
+	- -
+	- string[] itemNames = new string[2]; #spaced
+		- ([Location 3431](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3431))
+		- #orange #naranja
+	- -
+	- -
+	- Dim itemNames(1) As String #spaced
+		- ([Location 3435](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3435))
+		- #orange #naranja
+	- -
+	- -
+	- List<string> itemNames = new List #spaced
+		- ([Location 3492](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3492))
+		- #orange #naranja
+	- -
+	- -
+	- Dim itemNames As New List(Of String) #spaced
+		- ([Location 3495](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3495))
+		- #orange #naranja
+	- -
+	- -
+	- name <> Nothing And name.Length > 10 #spaced
+		- ([Location 3655](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3655))
+		- #orange #naranja
+	- -
+	- -
+	- If availableItems > 0 Then #spaced
+		- ([Location 3672](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3672))
+		- #orange #naranja
+	- -
+	- -
+	- Select Case availableItems     Case 1 #spaced
+		- ([Location 3709](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3709))
+		- #orange #naranja
+	- -
+	- -
+	- Case Else         ' do some work here End Select #spaced
+		- ([Location 3711](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3711))
+		- #orange #naranja
+	- -
+	- -
+	- For loopCounter As Integer = 1 To 5     ' do some work here 5 times Next #spaced
+		- ([Location 3733](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3733))
+		- #orange #naranja
+	- -
+	- -
+	- Collection(loopCounter) #spaced
+		- ([Location 3772](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3772))
+		- #orange #naranja
+	- -
+	- -
+	- foreach(string item in collection) #spaced
+		- ([Location 3787](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3787))
+		- #orange #naranja
+	- -
+	- -
+	- For Each item As String In collection.Count #spaced
+		- ([Location 3792](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3792))
+		- #orange #naranja
+	- -
+	- -
+	- While Not isDone     If total > 100 Then         isDone = True     End If End While #spaced
+		- ([Location 3812](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3812))
+		- #orange #naranja
+	- -
+	- -
+	- string[] words = sentenceToParse.Split(' ' #spaced
+		- ([Location 3869](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3869))
+		- #orange #naranja
+	- -
+	- -
+	- Public Class Item End Class #spaced
+		- ([Location 3968](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3968))
+		- #orange #naranja
+	- -
+	- -
+	- Public Class Item     Public Sub New() #spaced
+		- ([Location 4109](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4109))
+		- #orange #naranja
+	- -
+	- -
+	- public class ElectricItem : Item #spaced
+		- ([Location 4141](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4141))
+		- #orange #naranja
+	- -
+	- -
+	- Public Class ElectricItem Inherits Item #spaced
+		- ([Location 4146](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4146))
+		- #orange #naranja
+	- -
+	- -
+	- <asp:ServerControlName runat="server" / #spaced
+		- ([Location 4328](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4328))
+		- #orange #naranja
+	- -
+	- -
+	- The runat attribute, when set to server, enables the control to be accessed in the code-behind. Without this attribute set, it is not possible to interact with the control on the server, #spaced
+		- ([Location 4334](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4334))
+		- #blue #azul
+	- -
+	- -
+	- mainTextBox.Text = "I am text for the textbox #spaced
+		- ([Location 4343](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4343))
+	- -
+	- -
+	- The combination of these two, the server control in the .aspx page and the code in the aspx.cs page, create the following HTML: #spaced
+		- ([Location 4344](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4344))
+	- -
+	- -
+	- A standard control is a built-in ASP.NET control that helps display information to the user or helps capture information from the user. #spaced
+		- ([Location 4502](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4502))
+		- #blue #azul
+	- -
+	- -
+	- A view is concerned only with creating a user interface. A controller is concerned only with receiving information from, and providing information to, a view, and models are concerned only with performing the business logic. #spaced
+		- ([Location 5123](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5123))
+		- #blue #azul
+	- -
+	- -
+	- Display Extension Methods #spaced
+		- ([Location 5287](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5287))
+	- -
+	- -
+	- x => x.Property1 #spaced
+		- ([Location 5304](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5304))
+		- #orange #naranja
+	- -
+	- -
+	- In an ASP.NET MVC application, the controller is what receives the request and determines what information is displayed. #spaced
+		- ([Location 5333](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5333))
+	- -
+	- -
+	- name: "Default",     url: "{controller}/{action}/{id}",     defaults: new { action = "Index", id = 0 } #spaced
+		- ([Location 5432](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5432))
+		- #orange #naranja
+	- -
+	- -
+	- Type-Safe Extensions #spaced
+		- ([Location 5488](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5488))
+	- -
+	- -
+	- Scaffold-Created Actions in a New Controller #spaced
+		- ([Location 5739](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5739))
+	- -
+	- -
+	- Locate the Admin directory, #spaced
+		- ([Location 6316](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6316))
+		- #blue #azul
+	- -
+	- -
+	- Of key importance here is the location of the layout file that you created. The convention is to start the filename with an underscore (_) and place it within the Shared directory. #spaced
+		- ([Location 6423](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6423))
+		- #blue #azul
+	- -
+	- -
+	- If the layout is null, then you know that the page is not a content page so that it will need to have all of the HTML elements, including <html>, <title> and < #spaced
+		- ([Location 6477](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6477))
+		- #blue #azul
+	- -
+	- -
+	- To create the content section, use the Razor @ key character followed by the keyword section. #spaced
+		- ([Location 6492](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6492))
+		- #blue #azul
+	- -
+	- -
+	- Everything within these curly brackets replaces the @RenderSection command. #spaced
+		- ([Location 6493](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6493))
+		- #blue #azul
+	- -
+	- -
+	- Linking an ASP.NET MVC content page to an MVC layout page is simple; you do it either explicitly by setting the Layout property to the page or by setting the Layout property to null to specify that no layout is assigned. #spaced
+		- ([Location 6521](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6521))
+		- #blue #azul
+	- -
+	- -
+	- Leaving the layout unassigned tells the system to use the default layout defined in the ViewStart file. #spaced
+		- ([Location 6523](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6523))
+		- #blue #azul
+	- -
+	- -
+	- In ASP.NET Web Forms this support is master pages, while in MVC it is called a layout. #spaced
+		- ([Location 6666](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6666))
+		- #blue #azul
+	- -
+	- -
+	- Using the tilde approach tells the system to go to the root directory for the application #spaced
+		- ([Location 6786](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6786))
+		- #blue #azul
+	- -
+	- -
+	- by prefacing the URL with the forward slash character (/), you are telling the system to start from the server root #spaced
+		- ([Location 6794](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6794))
+		- #blue #azul
+	- -
+	- -
+	- using the tilde is important because it will correctly include the relative directory in the URL that is being linked. #spaced
+		- ([Location 6813](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6813))
+		- #blue #azul
+	- -
+	- -
+	- it is recommended that you not declare the default part of the URL when trying to link to it; instead, reference the directory name only and allow the server to serve the default file as appropriate. #spaced
+		- ([Location 6833](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6833))
+	- -
+	- -
+	- navigation features in your website. There are three different server controls that help you: the TreeView, Menu, and SiteMapPath controls. #spaced
+		- ([Location 6882](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6882))
+	- -
+	- -
+	- you have to ensure that you avoid the type of method overloading that you can do in traditional C# development. #spaced
+		- ([Location 7226](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7226))
+		- #blue #azul
+	- -
+	- -
+	- (int.TryParse(id, out idInt) #spaced
+		- ([Location 7231](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7231))
+		- #orange #naranja
+	- -
+	- -
+	- You just finished manually creating a simple menu structure. As you saw, it was relatively straightforward. #spaced
+		- ([Location 7321](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7321))
+	- -
+	- -
+	- Response.Redirect("~/SomeFile.aspx"); Response.RedirectPermanent( #spaced
+		- ([Location 7352](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7352))
+		- #orange #naranja
+	- -
+	- -
+	- Server.Transfer("/Admin/ItemList", true); #spaced
+		- ([Location 7415](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7415))
+		- #orange #naranja
+	- -
+	- -
+	- Server.TransferRequest("/DemoModel/Details/3", true, "GET", null); #spaced
+		- ([Location 7426](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7426))
+		- #orange #naranja
+	- -
+	- -
+	- In the last activity you took advantage of the Redirect functionality to have the client redirect the request to a different page. In this activity you eliminated the response to the client that told them to request a different page, and instead returned the content of a different resource as if it were the originally requested resource. #spaced
+		- ([Location 7463](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7463))
+	- -
+	- -
+	- The key difference between redirection in ASP.NET Web Forms and MVC is that the MVC controller simply determines what view will be returned, so there is no concept of transfer; the controller just returns the appropriate view. #spaced
+		- ([Location 7496](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7496))
+	- -
+	- -
+	- The two primary approaches are data first and code first, which refers to what is handled first, the database design or the code design. #spaced
+		- ([Location 7977](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7977))
+		- #blue #azul
+	- -
+	- -
+	- select ADO.NET Data Entity Model. Name it RentMyWroxContext, #spaced
+		- ([Location 8037](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8037))
+		- #blue #azul
+	- -
+	- -
+	- using (RentMyWroxContext context = new RentMyWroxContext()) {     var list = context.UserDemographics.OrderBy(x => x.Birthdate).ToList();     return View(list); } #spaced
+		- ([Location 8188](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8188))
+		- #orange #naranja
+	- -
+	- -
+	- Selecting and Sorting Data #spaced
+		- ([Location 8221](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8221))
+		- #orange #naranja
+	- -
+	- -
+	- Create a Data Entry Form #spaced
+		- ([Location 8327](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8327))
+		- #blue #azul
+	- -
+	- -
+	- TryUpdateModel #spaced
+		- ([Location 8388](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8388))
+		- #blue #azul
+	- -
+	- -
+	- This is an important concept in that it enables the developer to focus on the model rather than manually map the request fields to a model property. When the process is completed, the ModelState.IsValid property is checked. #spaced
+		- ([Location 8389](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8389))
+		- #blue #azul
+	- -
+	- -
+	- Note that the code flow was stopped after the Add method was called but before the calling of the SaveChanges method, and how the Id value is shown as 0. #spaced
+		- ([Location 8409](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8409))
+	- -
+	- -
+	- If you had set a variable equal to the Id value before running the SaveChanges method, then you would not have the correct value. #spaced
+		- ([Location 8423](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8423))
+	- -
+	- -
+	- SaveChanges #spaced
+		- ([Location 8425](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8425))
+		- #blue #azul
+	- -
+	- -
+	- A GridView is used to display the values of a series of data in a table format. #spaced
+		- ([Location 8434](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8434))
+		- #blue #azul
+	- -
+	- -
+	- nLog #spaced
+		- ([Location 16929](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=16929))
+		- #pink #rosa
+	- -
+	- -
+	- nLog Logging Levels #spaced
+		- ([Location 16979](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=16979))
+	- -

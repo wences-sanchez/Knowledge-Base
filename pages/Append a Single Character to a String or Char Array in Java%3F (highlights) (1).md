@@ -1,0 +1,14 @@
+title:: Append a Single Character to a String or Char Array in Java? (highlights) (1)
+author:: [[stackoverflow.com]]
+full-title:: "Append a Single Character to a String or Char Array in Java?"
+category:: #articles
+url:: https://stackoverflow.com/questions/14444717/append-a-single-character-to-a-string-or-char-array-in-java
+
+- Highlights first synced by [[Readwise]] [[Friday, 07-10-2022]]
+	- -
+	- How do you append a char to a String? #flashcard
+		- 1. String otherString = "helen" + character;
+		  
+		  2. otherString +=  character;
+		- #java
+	- -

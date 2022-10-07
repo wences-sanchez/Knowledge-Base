@@ -8,6 +8,12 @@ tags:: Coursera, SW-Testing
 		- The input domains are always huge. It's no longer possible to try all the values in the range of i.e. integers or floats.
 		- So what we want to do is to try and create partitions of this space of inputs in such a way that we're likely to rigorously test our application.
 		- Let a set `S` be the all the values of all the inputs:
-			- We want to partition it in such a way that `S` is a collection of subsets of S such that
+			- We want to partition it in such a way that `S` is a collection of subsets of S, such that the union of all the subsets is equal to `S`.
+			- So we don't miss any values.
+			- And there are no overlapping values in multiple partitions.
+		- So the idea is to (finitely) partition the input space such that:
+			- Any sample from a given partition is a good representative for that partition (equivalence classes)
+			- We can then choose one input per partition
+			- If we choose our partitions well, then we're likely to sample form a partition that's faulty and a partition that's good and in this way we'll know if the partition has described those regions, we're going to find the faults by choosing a value from each partition.
 		-
 -

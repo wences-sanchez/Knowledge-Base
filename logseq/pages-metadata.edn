@@ -28,6 +28,9 @@
  {:block/name " -x /usr/bin/yum ",
   :block/created-at 1660807930941,
   :block/updated-at 1660807930941}
+ {:block/name " tema 1",
+  :block/created-at 1665133263684,
+  :block/updated-at 1665133263684}
  {:block/name "!",
   :block/created-at 1660807814531,
   :block/updated-at 1660807814531}
@@ -64,7 +67,7 @@
   :block/updated-at 1661943780626}
  {:block/name "# tema 2: facturación y economía en la nube",
   :block/created-at 1665043860982,
-  :block/updated-at 1665043860982}
+  :block/updated-at 1665133727106}
  {:block/name "(nop)",
   :block/created-at 1660808033132,
   :block/updated-at 1660808033132}
@@ -849,6 +852,9 @@
  {:block/name "friday, 05-08-2022",
   :block/created-at 1660315975479,
   :block/updated-at 1660315975479}
+ {:block/name "friday, 07-10-2022",
+  :block/created-at 1665133222161,
+  :block/updated-at 1665133222161}
  {:block/name "friday, 09-09-2022",
   :block/created-at 1663940093861,
   :block/updated-at 1663940093861}
@@ -1853,6 +1859,9 @@
  {:block/name "tal ben-shahar and ana garcía bertrán",
   :block/created-at 1660807910628,
   :block/updated-at 1660807910628}
+ {:block/name "tema 2: facturación y economía en la nube",
+  :block/created-at 1665133804536,
+  :block/updated-at 1665133804536}
  {:block/name
   "tema 3: infraestructura global de aws y modelo de responsabilidad compartida",
   :block/created-at 1665043862396,
@@ -2037,9 +2046,19 @@
  {:block/name "unir/curso aws",
   :block/created-at 1664869516673,
   :block/updated-at 1664869516673}
+ {:block/name "unir/curso aws/m´",
+  :block/created-at 1665133528849,
+  :block/updated-at 1665133528849}
  {:block/name "unir/curso aws/módulo-1",
   :block/created-at 1664869516661,
-  :block/updated-at 1665044317978}
+  :block/updated-at 1665133809897}
+ {:block/name "unir/curso aws/módulo-1/tema 1",
+  :block/created-at 1665133541935,
+  :block/updated-at 1665133628951}
+ {:block/name
+  "unir/curso aws/módulo-1/tema 4: aws iam. aspectos de segurida",
+  :block/created-at 1665133535435,
+  :block/updated-at 1665133535435}
  {:block/name
   "unir/curso aws/módulo-1/tema 4: aws iam. aspectos de seguridad",
   :block/created-at 1665044305339,

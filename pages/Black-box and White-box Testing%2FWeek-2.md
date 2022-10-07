@@ -24,5 +24,9 @@ tags:: Coursera, SW-Testing
 	- ### Combinatorial Testing
 		- ![image.png](../assets/image_1665155978970_0.png)
 		- We want to systematically test our input space by partition up our values that have lots of different possible values into a small number where hopefully the program behaves the same.
+		- Combinatorial Testing is not about combining tests. Instead, we try to identify distinct parts of the specification whose different combinations of values lead to good and effective tests.
+	-
+	- ### Requirements Coverage
 		-
+-
 -

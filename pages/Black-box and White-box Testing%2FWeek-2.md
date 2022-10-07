@@ -36,7 +36,21 @@ tags:: Coursera, SW-Testing
 			- The idea is that we want to tie these coverage metrics back to some notion of functional testing.
 			- So we write tests for our requirements and then we examine them on the program and we say, "Well, given these tests that we said were from the requirements, there's still a third of the program that we haven't executed at all."
 			- So that portion of the program either has additional functionality that's not covered by the requirements or we're missing some requirements that should be describing the behavior of that code.
-			- We don't want to apply structured testing in a vacuum.
+			- We don't want to apply structural testing in a vacuum.
 			- The tests become pointless if we don't tie them to any requirements.
+			-
+			- We use structural testing to see if our tests cover all the code. Then, we examine the code to see if that is because of a weakness of our tests, because of our requirements, or beacuse the code shouldn't be there.
+			- Functional testing first.
+		- ### Code Coverage Metrics: Terminology
+			- #### Decision
+				- A Decision is any compound set of boolean abstractions that will resolve into a single Boolean result.
+				  id:: 6340514d-4f0d-4c86-bf0f-521478b7df11
+				- Example: `a && b && c`
+			- #### Condition
+				- Each of these singular entities with any decision is called a condition.
+				- Example: From the above one, `a`, `b` and `c` are conditions.
+				- The tree of them together using the boolean operators of `and` make up a full decision
+			-
+			-
 			-
 -

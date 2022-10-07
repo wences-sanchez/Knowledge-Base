@@ -21,6 +21,8 @@ tags:: Coursera, SW-Testing
 		- We use heuristic and experience to try and come up with good partitions.
 		- Errors are used to be concentrated in small portions.
 		-
-	-
+	- ### Combinatorial Testing
+		- ![image.png](../assets/image_1665155978970_0.png)
+		-
 		-
 -

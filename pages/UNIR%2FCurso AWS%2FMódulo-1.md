@@ -38,9 +38,18 @@ tags:: UNIR, AWS
 		  de AWS.
 	-
 - ### AWS security credentials
-	- AWS. (20 de mayo de 2021). AWS General Reference. Reference guide. AWS Amazon.
-	  https://docs.aws.amazon.com/general/latest/gr/aws-general.pdf#aws-security-credentials
-	- En este artículo aparte de otras informaciones referentes al uso de AWS, tendrás
-	  acceso a las security credentials.
+	- Es un PDF de 1127 páginas en el cual (supongo) se describe la manera de AWS de cubrir la seguridad. No lo he leído porque pienso que el libro de conceptos de Cloud Computing de O'Reilly me puede ir mejor antes.
+		- AWS. (20 de mayo de 2021). AWS General Reference. Reference guide. AWS Amazon.
+		  https://docs.aws.amazon.com/general/latest/gr/aws-general.pdf#aws-security-credentials
+		- En este artículo aparte de otras informaciones referentes al uso de AWS, tendrás
+		  acceso a las security credentials.
+	-
+- ### Seguridad en la nube de AWS
+	- En este recurso he aprendido que
+	- AWS. (20 de mayo de 2021). Seguridad en la nube de AWS.
+	  Infraestructura y servicios que elevan su seguridad en la nube. AWS Amazon.
+	  https://aws.amazon.com/es/security/
+	- En este artículo podrás leer acerca de la seguridad en la infraestructura y los servicios
+	  de AWS.
 	-
 	-

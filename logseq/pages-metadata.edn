@@ -2047,7 +2047,7 @@
   :block/updated-at 1665133528849}
  {:block/name "unir/curso aws/módulo-1",
   :block/created-at 1664869516661,
-  :block/updated-at 1665134028810}
+  :block/updated-at 1665142107408}
  {:block/name "unir/curso aws/módulo-1/tema 1",
   :block/created-at 1665133541935,
   :block/updated-at 1665133628951}
@@ -2066,7 +2066,7 @@
  {:block/name
   "unir/curso aws/módulo-1/tema 4: aws iam. aspectos de seguridad",
   :block/created-at 1665044305339,
-  :block/updated-at 1665075006859}
+  :block/updated-at 1665141629141}
  {:block/name "unit-4",
   :block/created-at 1663349027712,
   :block/updated-at 1663349027712}

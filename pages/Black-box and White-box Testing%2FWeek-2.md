@@ -33,5 +33,10 @@ tags:: Coursera, SW-Testing
 		-
 	- ## White-Box Testing: Introduction and Terminology
 		- ### Introduction to White-Box Testing Techniques
+			- The idea is that we want to tie these coverage metrics back to some notion of functional testing.
+			- So we write tests for our requirements and then we examine them on the program and we say, "Well, given these tests that we said were from the requirements, there's still a third of the program that we haven't executed at all."
+			- So that portion of the program either has additional functionality that's not covered by the requirements or we're missing some requirements that should be describing the behavior of that code.
+			- We don't want to apply structured testing in a vacuum.
+			- The tests become pointless if we don't tie them to any requirements.
 			-
 -

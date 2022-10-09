@@ -16,3 +16,9 @@ tags:: Coursera, DevOps, Python
 		- Also, you can use `myfile.readlines()`
 		-
 		- ![image.png](../assets/image_1665321819028_0.png)
+	-
+	- ---
+	-
+	- ### Writing Files with Open
+		-
+		-

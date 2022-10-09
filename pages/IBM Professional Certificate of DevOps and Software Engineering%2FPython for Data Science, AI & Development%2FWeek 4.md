@@ -20,5 +20,8 @@ tags:: Coursera, DevOps, Python
 	- ---
 	-
 	- ### Writing Files with Open
+		- We can use the `.write()` method to write to a file
+		- The option **-w** will overwrite the file if it already exists
+		- The option **-a** will append our contents
 		-
 		-

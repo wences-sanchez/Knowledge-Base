@@ -31,8 +31,14 @@ tags:: Coursera, DevOps, Python
 		- If using **r+** (read and write), it's a good idea to call the `.truncate()` method to not use more space than needed.
 		- This will reduce the file to your data and delete everything that follows (if not using `.truncate()` after a `.write()` followed by `.read()`).
 	- It's important to use `file.truncate()` when dealing with files in Python in read and write `r+`
+-
+- ## Pandas
+	- ### Loading Data with Pandas
+		- We use it with `import pandas (as pd)`
+		- `pd.read_csv(csv_path)`
+	- ### Pandas: Working with and Saving Data
 		-
-		-
+	-
 	-
 		-
 		-

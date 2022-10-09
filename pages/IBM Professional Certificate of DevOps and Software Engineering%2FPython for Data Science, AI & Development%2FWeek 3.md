@@ -56,5 +56,7 @@ tags:: Coursera, DevOps, Python
 			    	getfile.close()
 			      print("File is now closed.")
 			  ```
-		-
+			- A  `try except`  will allow you to execute code that might raise an exception and in the case of any exception or a specific one we can handle or catch the exception and execute specific code. This will allow us to continue the execution of our program even if there is an exception.
+			-
+			-
 -

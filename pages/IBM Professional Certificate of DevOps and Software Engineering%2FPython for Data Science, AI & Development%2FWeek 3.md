@@ -42,4 +42,19 @@ tags:: Coursera, DevOps, Python
 		- You can get help about a function with: `help(<function>)`
 -
 - ## Exception Handling
+	- ### Exception Handling
+		- Example of try-except in Python #spaced
+			- ```python
+			  try:
+			  	getfile = open("myfile", "r")
+			      getfile.write("File for exception handling.")
+			  except IOError:
+			    	print("Unable to open or read the data in the file")
+			  else:
+			    	print("All went smoothly")
+			  finally:
+			    	getfile.close()
+			      print("File is now closed.")
+			  ```
+		-
 -

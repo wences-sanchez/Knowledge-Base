@@ -30,6 +30,7 @@ tags:: Coursera, DevOps, Python
 	- To work with a file on existing data, use **r+** and **a+**.
 		- If using **r+** (read and write), it's a good idea to call the `.truncate()` method to not use more space than needed.
 		- This will reduce the file to your data and delete everything that follows (if not using `.truncate()` after a `.write()` followed by `.read()`).
+	- It's important to use `file.truncate()` when dealing with files in Python in read and write `r+`
 		-
 		-
 	-

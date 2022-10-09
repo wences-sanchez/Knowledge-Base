@@ -27,6 +27,11 @@ tags:: Coursera, DevOps, Python
 		- The option **w+** is also for reading and writing. Truncates the pre-existing file content.
 		- The option **a+** is for appending and reading. Creates a new file if not exists.
 		-
+	- To work with a file on existing data, use **r+** and **a+**.
+		- If using **r+** (read and write), it's a good idea to call the `.truncate()` method to not use more space than needed.
+		- This will reduce the file to your data and delete everything that follows (if not using `.truncate()` after a `.write()` followed by `.read()`).
+		-
+		-
 	-
 		-
 		-

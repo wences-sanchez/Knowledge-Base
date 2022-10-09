@@ -24,8 +24,10 @@ tags:: Coursera, DevOps, Python
 		- The option **w** will overwrite the file if it already exists
 		- The option **a** will append our contents
 		- The option **r+** is for reading and writing. Cannot trucate the file
-		- The option **w+** is for writing and reading. Truncates the file.
+		- The option **w+** is also for reading and writing. Truncates the pre-existing file content.
 		- The option **a+** is for appending and reading. Creates a new file if not exists.
+		-
+	-
 		-
 		-
 		-

@@ -57,6 +57,18 @@ tags:: Coursera, DevOps, Python
 			      print("File is now closed.")
 			  ```
 			- A  `try except`  will allow you to execute code that might raise an exception and in the case of any exception or a specific one we can handle or catch the exception and execute specific code. This will allow us to continue the execution of our program even if there is an exception.
+-
+- ## Objects and Classes
+	- ### Objects and Classes
+		- In Python, each element is an **Object**
+		- Every **Object** has:
+			- a **type**
+			- an internal data representation (a blueprint)
+			- a set of procedures for interacting with the object (**methods**)
+		- An **object** is an **instance** of a particular **type**
+			- ![image.png](../assets/image_1665312762824_0.png)
+			- ![image.png](../assets/image_1665312852315_0.png)
+			- ![image.png](../assets/image_1665312903422_0.png)
 			-
-			-
+	-
 -

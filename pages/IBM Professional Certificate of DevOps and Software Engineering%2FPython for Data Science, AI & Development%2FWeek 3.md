@@ -69,6 +69,10 @@ tags:: Coursera, DevOps, Python
 			- ![image.png](../assets/image_1665312762824_0.png)
 			- ![image.png](../assets/image_1665312852315_0.png)
 			- ![image.png](../assets/image_1665312903422_0.png)
-			-
+		- #### You can create your **own** types using **Class**
+		- The constructor is `__init__(self)`
+		- Python is not like Java, so you'll have to write the `self` keyword everytime needed.
+		-
+		-
 	-
 -

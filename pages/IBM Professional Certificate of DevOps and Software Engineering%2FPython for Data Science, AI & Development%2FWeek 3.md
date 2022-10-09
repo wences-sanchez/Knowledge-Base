@@ -31,6 +31,14 @@ tags:: Coursera, DevOps, Python
 			      print(name)
 			  
 			  ```
+		- When a function takes an argument beginning with two asterisks, it could be passed a dictionary with an undefined number of elements *key-value* #spaced
+			- ```python
+			  def print_dictionary(**args):
+			    for key in args:
+			      print(key + ': ' + args[key])
+			  
+			  ```
+			-
 		- You can get help about a function with: `help(<function>)`
 		-
 -

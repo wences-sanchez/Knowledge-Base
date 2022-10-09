@@ -37,7 +37,20 @@ tags:: Coursera, DevOps, Python
 		- We use it with `import pandas (as pd)`
 		- `pd.read_csv(csv_path)`
 	- ### Pandas: Working with and Saving Data
-		-
+		- **Pandas** is a popular library for data analysis built on top of the Python programming language. Pandas generally provide two data structures for manipulating data, They are:
+			- DataFrame
+				- A **DataFrame** is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns.
+				- A Pandas DataFrame will be created by loading the datasets from existing storage.
+				- Storage can be SQL Database, CSV file, an Excel file, etc.
+				- It can also be created from the lists, dictionary, and from a list of dictionaries.
+			- Series
+				- **Series** represents a one-dimensional array of indexed data.
+				  It has two main components :
+				- An array of actual data.
+				- An associated array of indexes or data labels.
+		- We create a DataFrame by:
+			- `dataframe = pandas.DataFrame(<source>)`
+			-
 	-
 	-
 		-

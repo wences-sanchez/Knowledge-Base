@@ -24,4 +24,4 @@ tags:: Coursera, DevOps, Python
 -
 - ## Functions
 	- ### Functions
-		-
+		- When a func

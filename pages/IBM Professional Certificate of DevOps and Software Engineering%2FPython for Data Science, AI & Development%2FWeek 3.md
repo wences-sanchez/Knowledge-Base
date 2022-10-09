@@ -40,5 +40,6 @@ tags:: Coursera, DevOps, Python
 			  ```
 			-
 		- You can get help about a function with: `help(<function>)`
-		-
+-
+- ## Exception Handling
 -

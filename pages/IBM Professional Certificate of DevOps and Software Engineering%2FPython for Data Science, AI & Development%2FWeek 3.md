@@ -31,5 +31,6 @@ tags:: Coursera, DevOps, Python
 			      print(name)
 			  
 			  ```
+		- You can get help about a function with: `help(<function>)`
 		-
 -

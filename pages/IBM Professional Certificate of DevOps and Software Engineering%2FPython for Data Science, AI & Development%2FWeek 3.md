@@ -24,4 +24,12 @@ tags:: Coursera, DevOps, Python
 -
 - ## Functions
 	- ### Functions
-		- When a function takes an argument beginning with an asterisk, it could have an undefined number of parameters
+		- When a function takes an argument beginning with an asterisk, it could have an undefined number of parameters. #spaced
+			- ```python
+			  def artist_names(*names):
+			    for name in names:
+			      print(name)
+			  
+			  ```
+		-
+-

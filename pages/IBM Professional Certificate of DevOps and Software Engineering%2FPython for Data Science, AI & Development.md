@@ -11,4 +11,7 @@ tags:: Coursera, DevOps, Python
 -
 - ## Week 3
 	- ### [[IBM Professional Certificate of DevOps and Software Engineering/Python for Data Science, AI & Development/Week 3]]
+-
+- ## Week 4
+	- ### [[IBM Professional Certificate of DevOps and Software Engineering/Python for Data Science, AI & Development/Week 4]]
 	-

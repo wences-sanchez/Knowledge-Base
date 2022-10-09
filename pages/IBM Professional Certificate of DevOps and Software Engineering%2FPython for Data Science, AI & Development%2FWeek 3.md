@@ -21,4 +21,7 @@ tags:: Coursera, DevOps, Python
 			- enumerate(sequence) returns a pair key-value (or index-elem)
 				- Example: `for index, elem in enumerate(my_list):`
 		- Instead of using a variable only for the loop, try using the index associated to the list
+-
+- ## Functions
+	- ### Functions
 		-

@@ -24,4 +24,4 @@ tags:: Coursera, DevOps, Python
 -
 - ## Functions
 	- ### Functions
-		- When a func
+		- When a function takes an argument beginning with an asterisk, it could have an undefined number of parameters

@@ -6,4 +6,13 @@ tags:: Coursera, DevOps, Python
 - ## Reading & Writing Files with Open
 	- ### Reading Files with Open
 		- ![image.png](../assets/image_1665321413818_0.png)
+		- #### Modes of opening a file in Python
+			- **r** --> for reading
+			- **w** --> for writing
+			- **a** --> appending
 		-
+		- But is recommended to use `with open() as var:`
+			- ![image.png](../assets/image_1665321709102_0.png)
+		- Also, you can use `myfile.readlines()`
+		-
+		- ![image.png](../assets/image_1665321819028_0.png)

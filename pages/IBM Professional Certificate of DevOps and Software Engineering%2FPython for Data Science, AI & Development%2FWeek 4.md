@@ -62,6 +62,7 @@ tags:: Coursera, DevOps, Python
 		- `iloc[,]` is an indexed-based selecting method that receives the integer index of a specific row or column.
 		- Both deal with data, not with headers.
 		- You can label-index a column by calling `df.set_index('column')`
+		- You must use the label-index as excluded to count indexes
 		-
 		-
 		-

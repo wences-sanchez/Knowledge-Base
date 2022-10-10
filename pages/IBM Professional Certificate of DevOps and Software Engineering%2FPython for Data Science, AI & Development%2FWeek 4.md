@@ -58,6 +58,8 @@ tags:: Coursera, DevOps, Python
 			- `print(dataFrame ['Name'])`
 			-
 			-
+		-
+			-
 	-
 	-
 		-

@@ -1634,7 +1634,7 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 4",
   :block/created-at 1665320980153,
-  :block/updated-at 1665397761096}
+  :block/updated-at 1665398992494}
  {:block/name "ibm-devops",
   :block/created-at 1663317782452,
   :block/updated-at 1663317782452}
@@ -2055,7 +2055,7 @@
   :block/updated-at 1660315976840}
  {:block/name "monday, 10-10-2022",
   :block/created-at 1665386165653,
-  :block/updated-at 1665396391082}
+  :block/updated-at 1665399300108}
  {:block/name "monday, 15-08-2022",
   :block/created-at 1661943746813,
   :block/updated-at 1661943746813}
@@ -2602,7 +2602,7 @@
   :block/updated-at 1660315976546}
  {:block/name "sunday, 09-10-2022",
   :block/created-at 1665306439237,
-  :block/updated-at 1665386180933}
+  :block/updated-at 1665399138149}
  {:block/name "sunday, 21-08-2022",
   :block/created-at 1661079459012,
   :block/updated-at 1661079459012}
@@ -3022,7 +3022,7 @@
   :block/updated-at 1660315973792}
  {:block/name "wednesday, 28-09-2022",
   :block/created-at 1664350197069,
-  :block/updated-at 1665386175641}
+  :block/updated-at 1665399321743}
  {:block/name "wednesday, 31-08-2022",
   :block/created-at 1663348719323,
   :block/updated-at 1663348719323}

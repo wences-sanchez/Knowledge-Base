@@ -49,3 +49,13 @@ tags:: UNIR, AWS
 			- Los grupos de seguridad tienen reglas que controlan el tráfico de entrada y de salida de las instancias.
 			- Los grupos de seguridad predeterminados deniegan todo el tráfico de entrada y permiten todo el tráfico de salida.
 			- Los grupos de seguridad tienen estado.
+			- ![image.png](../assets/image_1665389948278_0.png)
+		- ### Listas de Control de Acceso a la red (ACL de red)
+			- Funcionan en el nivel de la subred. Están por encima de las instancias
+			- Tienen reglas de entrada y salida. Las *default* permiten todo el tráfico.
+			- No tienen estado.
+			- Empiezan por el orden numérico más bajo.
+			- ![image.png](../assets/image_1665390265020_0.png)
+	- ## Entrega de contenido
+		- ### Amazon Route
+		-

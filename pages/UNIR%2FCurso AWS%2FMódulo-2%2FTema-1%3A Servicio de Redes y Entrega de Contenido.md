@@ -7,13 +7,14 @@ tags:: UNIR, AWS
 - # Tema 1: Servicio de Redes y Entrega de Contenido
 	- ## Amazon Virtual Private Cloud (Amazon VPC)
 		- ### Amazon VPC
-			- Es un servicio esencial de AWS que permite crear una sección de la nube de AWS aislada en la cual poder lanzar recursos, en una red virtual que definamos.
+			- Es un servicio esencial de AWS que permite crear una sección de la nube de AWS aislada en la cual poder lanzar otros servicios de AWS, en una red virtual que definamos.
 			- Permite controlar los recursos de red virtual:
 				- Selección del intervalo de direcciones IP
 				- Creación de subredes
 				- Configuración de tablas de enrutamiento y gateways de red
 			- Permite personalizar la configuración de red de su VPC
 			- Permite utilizar varias capas de seguridad
+			- Las subredes ser públicas o privaddas
 			- ![image.png](../assets/image_1665387573156_0.png)
 		- ### Direccionamiento IP
 			- No se puede cambiar el intervalo de direcciones después de crear la VPC
@@ -64,6 +65,7 @@ tags:: UNIR, AWS
 			- Modelo de autoservicios y precios de pago por uso.
 			- Usa **ubicaciones de borde** y **cachés de borde regional**
 				- Las **ubicaciones de borde** son redes de centros de datos que CloudFront utiliza para ofrecer contenido popular a los clientes con rapidez.
-				- Las **cachés de borde regionales** son ubicacionoes de CloudFront que almacenan en caché contenido que no es lo suficientemente popular como para permanecer en una ubicación de borde. Se encuentra entre el servidor de origen y la ubicación de borde global.
+				- Las **cachés de borde regionales** son ubicacionoes de CloudFront que almacenan en caché contenido que no es lo suficientemente popular como para permanecer en una **ubicación de borde**. Se encuentra entre el servidor de origen y la ubicación de borde global.
+			- ![image.png](../assets/image_1665390984777_0.png)
 			-
 		-

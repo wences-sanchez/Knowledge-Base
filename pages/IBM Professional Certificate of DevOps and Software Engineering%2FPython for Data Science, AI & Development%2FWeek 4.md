@@ -64,6 +64,12 @@ tags:: Coursera, DevOps, Python
 		- You can label-index a column by calling `df.set_index('column')`
 		- You must use the label-index as excluded to count indexes
 		- The bounds of slicing with loc[] are inclusive, as dealing with labels, not indexes.
+	-
+	-
+- ## Numpy in Python
+	- ### One Dimensional Numpy
+		- In Numpy, all the elements of a list are of the same type
+		- `a = numpy.array([0, 1, 2, 3, 4])`
 		-
 -
 	-

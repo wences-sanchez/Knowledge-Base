@@ -60,7 +60,7 @@ tags:: Coursera, DevOps, Python
 	- ### loc[,] and iloc[,] functions #spaced
 		- `loc[,]` is a label-based data selecting method that recieves the name of the row or column.
 		- `iloc[,]` is an indexed-based selecting method that receives the integer index of a specific row or column.
-		- Both deal with data, not with headers.
+		- **Both deal with data, not with headers.**
 		- You can label-index a column by calling `df.set_index('column')`
 		- You must use the label-index as excluded to count indexes
 		- The bounds of slicing with loc[] are inclusive, as dealing with labels, not indexes.
@@ -68,10 +68,13 @@ tags:: Coursera, DevOps, Python
 -
 	-
 - ## Flaschards
-	- ¿Cómo puedes crear un DataFrame en Pandas que contenga solo los datos de 'Nombre' y 'Apellidos'?, ¿ #flashcard
+	- ¿Cómo puedes crear un DataFrame en Pandas que contenga solo los datos de 'Nombre' y 'Apellidos'?, ¿y un Series de Pandas? #flashcard
 		- Con: `df = pandas.dataFrame(<source>)`
 		- `answer = df[['Nombre', 'Apellidos']]`
-		-
+		- Con un Series: `answer = df['Nombre', 'Apellidos']`
+	- ¿Cómo puedes mostrar solo las dos primeras líneas y las columnas desde la 2 hasta la 5 de un dataFrame (ya inicializado)? #flashcard
+		- Con iloc(), `df.iloc[0:2, 1:5]`
+		- Con loc(), `df.loc['label1': 'label2', 'col_2': 'col_5']`
 	-
 	-
 		-

@@ -34,7 +34,7 @@ tags:: UNIR, AWS
 			- Aunque las VPC residen en regiones, podemos conectar VPCs entre cuentas de AWS o entre regiones para dirigir el tráfico entre ellas de forma privada.
 		- ### AWS Site-to-Site VPN
 			- De forma predeterminada, las instancias que se lanzan en una VPC no pueden comunicarse con una red remota.
-			- Se puede habilitar el acceso a la red remota desde la VPC meidante la creación de una conexión de AWS Site-to-Site VPN y la configuración del enrutamiento para que el tráfico pase a través de la conexión.
+			- Se puede habilitar el acceso a la red remota desde la VPC mediante la creación de una conexión de AWS Site-to-Site VPN y la configuración del enrutamiento para que el tráfico pase a través de la conexión.
 		- ### AWS Direct Connect
 			- Permite establecer una conexión de red privada y dedicada con mejor rendimiento y proporcionar una experiencia de red más consistente.
 			- Trabajamos de forma local y transparente a la nube de AWS.
@@ -57,6 +57,8 @@ tags:: UNIR, AWS
 			- No tienen estado.
 			- Empiezan por el orden numérico más bajo.
 			- ![image.png](../assets/image_1665390265020_0.png)
+			- ![image.png](../assets/image_1665391983347_0.png)
+			-
 	- ## Entrega de contenido
 		- ### Amazon Route 53
 			- Es un servicio de DNS

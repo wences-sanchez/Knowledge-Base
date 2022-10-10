@@ -73,8 +73,8 @@ tags:: Coursera, DevOps, Python
 		- `answer = df[['Nombre', 'Apellidos']]`
 		- Con un Series: `answer = df['Nombre', 'Apellidos']`
 	- ¿Cómo puedes mostrar solo las dos primeras líneas y las columnas desde la 2 hasta la 5 de un dataFrame (ya inicializado)? #flashcard
-		- Con iloc(), `df.iloc[0:2, 1:5]`
+		- Con iloc(), `df.iloc[0:2, 1:5] # Interval opened on the right`
 		- Con loc(), `df.loc['label1': 'label2', 'col_2': 'col_5']`
-	-
+	- ¿Con qué función puedes obtener valores a través de índices
 	-
 		-

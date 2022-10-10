@@ -1634,7 +1634,7 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 4",
   :block/created-at 1665320980153,
-  :block/updated-at 1665331259370}
+  :block/updated-at 1665396828051}
  {:block/name "ibm-devops",
   :block/created-at 1663317782452,
   :block/updated-at 1663317782452}
@@ -2055,7 +2055,7 @@
   :block/updated-at 1660315976840}
  {:block/name "monday, 10-10-2022",
   :block/created-at 1665386165653,
-  :block/updated-at 1665391693078}
+  :block/updated-at 1665396391082}
  {:block/name "monday, 15-08-2022",
   :block/created-at 1661943746813,
   :block/updated-at 1661943746813}
@@ -2926,7 +2926,7 @@
  {:block/name
   "unir/curso aws/módulo-2/tema-1: servicio de redes y entrega de contenido",
   :block/created-at 1665386707157,
-  :block/updated-at 1665391984006}
+  :block/updated-at 1665396473641}
  {:block/name "unit-4",
   :block/created-at 1663349027712,
   :block/updated-at 1663349027712}

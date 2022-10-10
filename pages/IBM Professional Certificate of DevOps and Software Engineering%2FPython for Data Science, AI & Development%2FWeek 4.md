@@ -72,7 +72,9 @@ tags:: Coursera, DevOps, Python
 		- `a = numpy.array([0, 1, 2, 3, 4])`
 		- To sum or substract arrays, just use `+` or `-`.
 		- To multiply use `*` for scalars and between arrays also.
-		- For the dot product, do `v`
+		- For the dot product, do `result = numpy.dot(u,v)`
+		- For adding a constant, `z = u + 1`
+		-
 		-
 		-
 -

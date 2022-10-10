@@ -4,7 +4,7 @@ tags:: Coursera, DevOps, Python
 - #tags #Coursera #DevOps #python
 -
 - ## Reading & Writing Files with Open
-	- ### Reading Files with Open
+	- ### Reading Files with Open #spaced
 		- ![image.png](../assets/image_1665321413818_0.png)
 		- #### Modes of opening a file in Python
 			- **r** --> for reading
@@ -19,7 +19,7 @@ tags:: Coursera, DevOps, Python
 	-
 	- ---
 	-
-	- ### Writing Files with Open
+	- ### Writing Files with Open #spaced
 		- We can use the `.write()` method to write to a file
 		- The option **w** will overwrite the file if it already exists
 		- The option **a** will append our contents
@@ -27,16 +27,16 @@ tags:: Coursera, DevOps, Python
 		- The option **w+** is also for reading and writing. Truncates the pre-existing file content.
 		- The option **a+** is for appending and reading. Creates a new file if not exists.
 		-
-	- To work with a file on existing data, use **r+** and **a+**.
-		- If using **r+** (read and write), it's a good idea to call the `.truncate()` method to not use more space than needed.
-		- This will reduce the file to your data and delete everything that follows (if not using `.truncate()` after a `.write()` followed by `.read()`).
-	- It's important to use `file.truncate()` when dealing with files in Python in read and write `r+`
+		- To work with a file on existing data, use **r+** and **a+**.
+			- If using **r+** (read and write), it's a good idea to call the `.truncate()` method to not use more space than needed.
+			- This will reduce the file to your data and delete everything that follows (if not using `.truncate()` after a `.write()` followed by `.read()`).
+		- It's important to use `file.truncate()` when dealing with files in Python in read and write `r+`
 -
 - ## Pandas
 	- ### Loading Data with Pandas
 		- We use it with `import pandas (as pd)`
 		- `pd.read_csv(csv_path)`
-	- ### Pandas: Working with and Saving Data
+	- ### Pandas: Working with and Saving Data #spaced
 		- **Pandas** is a popular library for data analysis built on top of the Python programming language. Pandas generally provide two data structures for manipulating data, They are:
 			- DataFrame
 				- A **DataFrame** is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns.
@@ -50,12 +50,12 @@ tags:: Coursera, DevOps, Python
 				- An associated array of indexes or data labels.
 		- We create a DataFrame by:
 			- `dataframe = pandas.DataFrame(<source>)`
-		- When you pass the dataFrame an array, you are passing it just the array of headers of the column that you want to retrieve. #dev-notes
-			- **NOTE:** If you want DataFrame, use double brackets.
-				- If you want a Series, use single brackets. For example:
-			- `print(dataFrame [['ID']] )`
-			- `print(dataFrame [['ID', 'Name', 'Surname']] )`
-			- `print(dataFrame ['Name'])`
+	- When you pass the dataFrame an array, you are passing it just the array of headers of the column that you want to retrieve. #spaced #dev-notes
+		- **NOTE:** If you want DataFrame, use double brackets.
+			- If you want a Series, use single brackets. For example:
+		- `print(dataFrame [['ID']] )`
+		- `print(dataFrame [['ID', 'Name', 'Surname']] )`
+		- `print(dataFrame ['Name'])`
 		-
 	- ### loc[,] and iloc[,] functions #spaced
 		- `loc[,]` is a label-based data selecting method that recieves the name of the row or column.
@@ -65,12 +65,13 @@ tags:: Coursera, DevOps, Python
 		- You must use the label-index as excluded to count indexes
 		- The bounds of slicing with loc[] are inclusive, as dealing with labels, not indexes.
 		-
+-
+	-
+- ## Flaschards
+	- ¿Cómo puedes crear un DataFrame en Pandas que contenga solo los datos de 'Nombre' y 'Apellidos'?, ¿ #flashcard
+		- Con: `df = pandas.dataFrame(<source>)`
+		- `answer = df[['Nombre', 'Apellidos']]`
 		-
-		-
-		-
-			-
 	-
 	-
-		-
-		-
 		-

@@ -21,5 +21,18 @@ tags:: UNIR, AWS
 			- El tamaño de bloque de CIDR IPv4 más pequeño es /28
 		- ### Direcciones IP reservadas
 			- ![image.png](../assets/image_1665387898419_0.png)
-			-
+		- ### Tipos de direcciones IP públicas
+			- #### Dirección IPv4 pública
+				- Se asigna manualmente a través de una dirección IP elástica
+			- #### Dirección IP elástica
+				- Está asociad a una cuenta de AWS.
+				- Podría implicar costos adicionales
+		-
+	- ## Redes de VPC
+		- ### Interconexión de VPC
+			- Aunque las VPC residen en regiones, podemos conectar VPCs entre cuentas de AWS o entre regiones para dirigir el tráfico entre ellas de forma privada.
+		- ### AWS Site-to-Site VPN
+			- De forma predeterminada, las instancias que se lanzan en una VPC no pueden comunicarse con una red remota.
+			- Se puede habilitar el acceso a la red remota desde la VPC meidante la creación de una conexión de AWS Site-to-Site VPN y la configuración del enrutamiento para que el tráfico pase a través de la conexión.
+		-
 		-

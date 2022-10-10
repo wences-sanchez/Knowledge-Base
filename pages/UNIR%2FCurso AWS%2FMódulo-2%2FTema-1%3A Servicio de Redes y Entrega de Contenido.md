@@ -6,7 +6,7 @@ tags:: UNIR, AWS
 -
 - # Tema 1: Servicio de Redes y Entrega de Contenido
 - ## Amazon Virtual Private Cloud (Amazon VPC)
-	- ### Amazon VPC
+	- ### Amazon VPC #spaced
 		- Es un servicio esencial de AWS que permite crear una sección de la nube de AWS aislada en la cual poder lanzar otros servicios de AWS, en una red virtual que definamos.
 		- Permite controlar los recursos de red virtual:
 			- Selección del intervalo de direcciones IP
@@ -16,20 +16,20 @@ tags:: UNIR, AWS
 		- Permite utilizar varias capas de seguridad
 		- Las subredes ser públicas o privaddas
 		- ![image.png](../assets/image_1665387573156_0.png)
-	- ### Direccionamiento IP
+	- ### Direccionamiento IP #spaced
 		- No se puede cambiar el intervalo de direcciones después de crear la VPC
 		- El tamaño de bloque de CIDR IPv4 más grande es /16
 		- El tamaño de bloque de CIDR IPv4 más pequeño es /28
-	- ### Direcciones IP reservadas
+	- ### Direcciones IP reservadas #spaced
 		- ![image.png](../assets/image_1665387898419_0.png)
-	- ### Tipos de direcciones IP públicas
+	- ### Tipos de direcciones IP públicas #spaced
 		- #### Dirección IPv4 pública
 			- Se asigna manualmente a través de una dirección IP elástica
 		- #### Dirección IP elástica
 			- Está asociad a una cuenta de AWS.
 			- Podría implicar costos adicionales
 	-
-- ## Redes de VPC
+- ## Redes de VPC #spaced
 	- ### Interconexión de VPC
 		- Aunque las VPC residen en regiones, podemos conectar VPCs entre cuentas de AWS o entre regiones para dirigir el tráfico entre ellas de forma privada.
 	- ### AWS Site-to-Site VPN

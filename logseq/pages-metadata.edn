@@ -2055,7 +2055,7 @@
   :block/updated-at 1660315976840}
  {:block/name "monday, 10-10-2022",
   :block/created-at 1665386165653,
-  :block/updated-at 1665386793878}
+  :block/updated-at 1665388682100}
  {:block/name "monday, 15-08-2022",
   :block/created-at 1661943746813,
   :block/updated-at 1661943746813}
@@ -2926,7 +2926,7 @@
  {:block/name
   "unir/curso aws/módulo-2/tema-1: servicio de redes y entrega de contenido",
   :block/created-at 1665386707157,
-  :block/updated-at 1665388539989}
+  :block/updated-at 1665388960175}
  {:block/name "unit-4",
   :block/created-at 1663349027712,
   :block/updated-at 1663349027712}

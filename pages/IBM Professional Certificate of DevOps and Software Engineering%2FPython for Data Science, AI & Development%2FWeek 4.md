@@ -56,8 +56,15 @@ tags:: Coursera, DevOps, Python
 			- `print(dataFrame [['ID']] )`
 			- `print(dataFrame [['ID', 'Name', 'Surname']] )`
 			- `print(dataFrame ['Name'])`
-			-
-			-
+		-
+	- ### loc[,] and iloc[,] functions
+		- `loc[,]` is a label-based data selecting method that recieves the name of the row or column.
+		- `iloc[,]` is an indexed-based selecting method that receives the integer index of a specific row or column.
+		- Both deal with data, not with headers.
+		- You can label-index a column by calling `df.set_index('column')`
+		-
+		-
+		-
 		-
 			-
 	-

@@ -70,6 +70,10 @@ tags:: Coursera, DevOps, Python
 	- ### One Dimensional Numpy
 		- In Numpy, all the elements of a list are of the same type
 		- `a = numpy.array([0, 1, 2, 3, 4])`
+		- To sum or substract arrays, just use `+` or `-`.
+		- To multiply use `*` for scalars and between arrays also.
+		- For the dot product, do `v`
+		-
 		-
 -
 	-

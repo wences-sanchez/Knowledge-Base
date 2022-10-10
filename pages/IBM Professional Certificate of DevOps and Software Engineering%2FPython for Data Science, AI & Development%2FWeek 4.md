@@ -75,6 +75,7 @@ tags:: Coursera, DevOps, Python
 	- ¿Cómo puedes mostrar solo las dos primeras líneas y las columnas desde la 2 hasta la 5 de un dataFrame (ya inicializado)? #flashcard
 		- Con iloc(), `df.iloc[0:2, 1:5] # Interval opened on the right`
 		- Con loc(), `df.loc['label1': 'label2', 'col_2': 'col_5']`
-	- ¿Con qué función puedes obtener valores a través de índices
+	- ¿Con qué función puedes obtener valores a través de índices y labels de un dataFrame de Pandas? #flashcard
+		- Con `df.loc[ , ]` y `df.iloc[ , ]`
 	-
 		-

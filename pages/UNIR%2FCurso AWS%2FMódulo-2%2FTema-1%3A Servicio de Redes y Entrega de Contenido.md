@@ -34,5 +34,18 @@ tags:: UNIR, AWS
 		- ### AWS Site-to-Site VPN
 			- De forma predeterminada, las instancias que se lanzan en una VPC no pueden comunicarse con una red remota.
 			- Se puede habilitar el acceso a la red remota desde la VPC meidante la creación de una conexión de AWS Site-to-Site VPN y la configuración del enrutamiento para que el tráfico pase a través de la conexión.
+		- ### AWS Direct Connect
+			- Permite establecer una conexión de red privada y dedicada con mejor rendimiento y proporcionar una experiencia de red más consistente.
+			- Trabajamos de forma local y transparente a la nube de AWS.
+			- ![image.png](../assets/image_1665388616004_0.png)
 		-
-		-
+		- ### AWS Transit Gateway
+			- Servicio para simplificar el modelo de red
+			- Ahorrar tiempo y gestión de VPC
+			- ![image.png](../assets/image_1665388788476_0.png)
+	- ## Seguridad de VPC
+		- ### Grupos de seguridad
+			- Funcionan a nivel de instancia
+			- Los grupos de seguridad tienen reglas que controlan el tráfico de entrada y de salida de las instancias.
+			- Los grupos de seguridad predeterminados deniegan todo el tráfico de entrada y permiten todo el tráfico de salida.
+			- Los grupos de seguridad tienen estado.

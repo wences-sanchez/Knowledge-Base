@@ -57,5 +57,13 @@ tags:: UNIR, AWS
 			- Empiezan por el orden numérico más bajo.
 			- ![image.png](../assets/image_1665390265020_0.png)
 	- ## Entrega de contenido
-		- ### Amazon Route
+		- ### Amazon Route 53
+			- Es un servicio de DNS
+		- ### Amazon CloudFront
+			- Es un servicio de CDN (entrega de contenido) rápido, mundial y seguro.
+			- Modelo de autoservicios y precios de pago por uso.
+			- Usa **ubicaciones de borde** y **cachés de borde regional**
+				- Las **ubicaciones de borde** son redes de centros de datos que CloudFront utiliza para ofrecer contenido popular a los clientes con rapidez.
+				- Las **cachés de borde regionales** son ubicacionoes de CloudFront que almacenan en caché contenido que no es lo suficientemente popular como para permanecer en una ubicación de borde. Se encuentra entre el servidor de origen y la ubicación de borde global.
+			-
 		-

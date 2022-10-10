@@ -45,24 +45,25 @@ tags:: UNIR, AWS
 		- Ahorrar tiempo y gestión de VPC
 		- ![image.png](../assets/image_1665388788476_0.png)
 - ## Seguridad de VPC
-	- ### Grupos de seguridad
+	- ### Grupos de seguridad #spaced
 		- Funcionan a nivel de instancia
 		- Los grupos de seguridad tienen reglas que controlan el tráfico de entrada y de salida de las instancias.
 		- Los grupos de seguridad predeterminados deniegan todo el tráfico de entrada y permiten todo el tráfico de salida.
 		- Los grupos de seguridad tienen estado.
 		- ![image.png](../assets/image_1665389948278_0.png)
-	- ### Listas de Control de Acceso a la red (ACL de red)
+	- ### Listas de Control de Acceso a la red (ACL de red) #spaced
 		- Funcionan en el nivel de la subred. Están por encima de las instancias
 		- Tienen reglas de entrada y salida. Las *default* permiten todo el tráfico.
 		- No tienen estado.
 		- Empiezan por el orden numérico más bajo.
 		- ![image.png](../assets/image_1665390265020_0.png)
+	- ### Security groups VS Network ACLs #spaced
 		- ![image.png](../assets/image_1665391983347_0.png)
 		-
 - ## Entrega de contenido
 	- ### Amazon Route 53
 		- Es un servicio de DNS
-	- ### Amazon CloudFront
+	- ### Amazon CloudFront #spaced
 		- Es un servicio de CDN (entrega de contenido) rápido, mundial y seguro.
 		- Modelo de autoservicios y precios de pago por uso.
 		- Usa **ubicaciones de borde** y **cachés de borde regional**

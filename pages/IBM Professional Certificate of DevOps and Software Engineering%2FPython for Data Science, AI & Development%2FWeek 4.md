@@ -75,6 +75,8 @@ tags:: Coursera, DevOps, Python
 		- For the dot product, do `result = numpy.dot(u,v)`
 		- For adding a constant, `z = u + 1`
 		-
+	- ### Two Dimensional Numpy
+		-
 		-
 		-
 -

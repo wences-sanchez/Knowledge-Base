@@ -57,12 +57,13 @@ tags:: Coursera, DevOps, Python
 			- `print(dataFrame [['ID', 'Name', 'Surname']] )`
 			- `print(dataFrame ['Name'])`
 		-
-	- ### loc[,] and iloc[,] functions
+	- ### loc[,] and iloc[,] functions #spaced
 		- `loc[,]` is a label-based data selecting method that recieves the name of the row or column.
 		- `iloc[,]` is an indexed-based selecting method that receives the integer index of a specific row or column.
 		- Both deal with data, not with headers.
 		- You can label-index a column by calling `df.set_index('column')`
 		- You must use the label-index as excluded to count indexes
+		- The bounds of slicing with loc[] are inclusive, as dealing with labels, not indexes.
 		-
 		-
 		-

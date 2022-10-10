@@ -50,10 +50,10 @@ tags:: Coursera, DevOps, Python
 				- An associated array of indexes or data labels.
 		- We create a DataFrame by:
 			- `dataframe = pandas.DataFrame(<source>)`
-	- When you pass the dataFrame an array, you are passing it just the array of headers (inside the matrix) of the column that you want to retrieve. For example:
+	- When you pass the dataFrame an array, you are passing it just the array of headers of the column that you want to retrieve.
+		- **NOTE:** If you want a table well-formed, use double brackets. If you want just a series, use single brackets. For example: #dev-notes
 		- `print(dataFrame [['ID']] )`
 		- `print(dataFrame [['ID', 'Name', 'Surname']] )`
-		-
 		-
 	-
 	-

@@ -1,5 +1,7 @@
 title:: UNIR/Curso AWS/Módulo-1/Tema 2: Facturación y Economía en la nube
+deck:: [[AWS::CCP::Módulo-1]]
 
+-
 -
 - ## Fuentes de los costes de AWS
 	- AWS fundamenta sus **costos** en 3 **fuentes** fundamentales:
@@ -81,44 +83,35 @@ title:: UNIR/Curso AWS/Módulo-1/Tema 2: Facturación y Economía en la nube
 		- la informática (**computación**) en la que se cobra por hora o por segundo,
 		- el **almacenamiento** de datos (por GB)
 		- y la **transferencia de datos** de salida (por GB).
-- Los datos de salida se suman y se cobran. AWS no cobra por datos de entrada (con algunas excepciones).
-- En la mayoría de los casos, no se aplican cargos por la 
-  transferencia de datos de entrada ni por la transferencia de datos entre
-   servicios de AWS dentro de la misma región (con excepciones).
-- El modelo de precios implica:
-- pagar por lo que se usa,
-- pagar menos al reservar servicios,
-- pagar menos cuanto más uso se le dé y pagar aún menos a medida que AWS crece.
-- Por ejemplo, en servicios como Amazon Elastic Compute Cloud (Amazon 
-  EC2) y Amazon Relational Database Service (Amazon RDS) se puede reservar
-   capacidad y ahorrar hasta un 75 % en comparación con la capacidad bajo 
-  demanda.
-- Las instancias reservadas están disponibles bajo:
--  Instancia reservada con pago inicial completo (AURI). --> mayores descuentos
--  Instancia reservada con pago inicial parcial (PURI). --> menores descuentos
--  Instancia reservada sin pago inicial (NURI). --> descuentos aún menores
-- Definición y principales ventajas de AWS Organizations. #flashcard
-- Para facilitar la facturación de AWS, se ofrece el servicio gratuito **AWS Organizations** el cual permite la administración de cuentas de forma **unificada** entre varias cuentas de AWS en una organización que **se crea y administra** de manera **centralizada**.
-- Incluye capacidades de facturación unificada y administración de 
-  cuentas que le permiten satisfacer mejor las necesidades de presupuesto,
-   seguridad y conformidad de su negocio.
-- Beneficios principales de AWS Organizations:
-- Políticas de acceso administradas de manera centralizada en varias cuentas de AWS.
-- Acceso controlado a los servicios de AWS
-- Creación y administración automatizada de cuentas de AWS
-- Facturación unificada en varias cuentas de AWS.
+			- Los datos de salida se suman y se cobran. AWS no cobra por datos de entrada (con algunas excepciones).
+		- En la mayoría de los casos, no se aplican cargos por la 
+		  transferencia de datos de entrada ni por la transferencia de datos entre
+		   servicios de AWS dentro de la misma región (con excepciones).
+		- El modelo de precios implica:
+			- pagar por lo que se usa,
+			- pagar menos al reservar servicios,
+			- pagar menos cuanto más uso se le dé y pagar aún menos a medida que AWS crece.
+		- Por ejemplo, en servicios como Amazon Elastic Compute Cloud (Amazon EC2) y Amazon Relational Database Service (Amazon RDS) se puede reservar capacidad y ahorrar hasta un 75 % en comparación con la capacidad bajo demanda.
+	- Las instancias reservadas están disponibles bajo:
+		-  Instancia reservada con pago inicial completo (AURI). --> mayores descuentos
+		-  Instancia reservada con pago inicial parcial (PURI). --> menores descuentos
+		-  Instancia reservada sin pago inicial (NURI). --> descuentos aún menores
 -
-- AWS Organizations permite crear políticas de control de servicios, 
-  crear grupos de cuentas, administrar aplicaciones mediante APU y 
-  simplificar el proceso de facturación mediante factura unificada. AWS 
-  Organizations no reemplaza las políticas de AWS Identity and Access 
-  Management con usuarios, grupos y roles en una cuenta de AWS pero si 
-  permitir o denegra servicios a cuentas específicas.
-- ¿Qué planes de soporte incluye AWS? #flashcard
-- Se ofrecen 4 tipos de planes de soporte:
-	- **Basic**: acceso al centro de recursos, panel de estado de servicio, 6 comprobaciones de Trusted Advisor y foros de debate.
-	- **Developer**: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción
-	- **Business**: cargas de trabajo en producción.
-	- **Enterprise**: cargas de trabajo críticas.
+	- Definición y principales ventajas de AWS Organizations. #flashcard
+		- Para facilitar la facturación de AWS, se ofrece el servicio gratuito **AWS Organizations** el cual permite la administración de cuentas de forma **unificada** entre varias cuentas de AWS en una organización que **se crea y administra** de manera **centralizada**.
+		- Incluye capacidades de facturación unificada y administración de cuentas que le permiten satisfacer mejor las necesidades de presupuesto, seguridad y conformidad de su negocio.
+		- Beneficios principales de AWS Organizations:
+			- Políticas de acceso administradas de manera centralizada en varias cuentas de AWS.
+			- Acceso controlado a los servicios de AWS
+			- Creación y administración automatizada de cuentas de AWS
+			- Facturación unificada en varias cuentas de AWS.
+		-
+		- AWS Organizations permite crear políticas de control de servicios, crear grupos de cuentas, administrar aplicaciones mediante APU y simplificar el proceso de facturación mediante factura unificada. AWS Organizations no reemplaza las políticas de AWS Identity and Access Management con usuarios, grupos y roles en una cuenta de AWS pero si permitir o denegra servicios a cuentas específicas.
+	- ¿Qué planes de soporte incluye AWS? #flashcard
+		- Se ofrecen 4 tipos de planes de soporte:
+			- **Basic**: acceso al centro de recursos, panel de estado de servicio, 6 comprobaciones de Trusted Advisor y foros de debate.
+			- **Developer**: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción
+			- **Business**: cargas de trabajo en producción.
+			- **Enterprise**: cargas de trabajo críticas.
 -
 -

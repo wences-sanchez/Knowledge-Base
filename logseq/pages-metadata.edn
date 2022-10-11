@@ -264,6 +264,9 @@
  {:block/name "aws::modulo-2",
   :block/created-at 1665484016230,
   :block/updated-at 1665484016230}
+ {:block/name "aws::módulo-2",
+  :block/created-at 1665484364621,
+  :block/updated-at 1665484364621}
  {:block/name "azul",
   :block/created-at 1665484186769,
   :block/updated-at 1665484186769}
@@ -2064,7 +2067,7 @@
  {:block/name
   "unir/curso aws/módulo-2/tema-1: servicio de redes y entrega de contenido",
   :block/created-at 1665484158709,
-  :block/updated-at 1665484158709}
+  :block/updated-at 1665484364624}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

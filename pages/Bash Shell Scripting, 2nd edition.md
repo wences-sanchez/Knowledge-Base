@@ -5,6 +5,7 @@
 -
 -
 - ### Lesson 2: Getting Familiar with Bash #flashcard
+  id:: 63454672-0a50-47a3-8ee2-dd044abbc8a9
 	- STDIN, STDOUT and STDERR are file descriptors. They are flexible and dynamically allocated.
 	-
 	- A way of getting info about commands is: `help|info|man <command>`
@@ -35,11 +36,13 @@
 - #### Flashcards
   collapsed:: true
 	- Explain what is alias #flashcard
+	  id:: 63454672-0763-4a61-8cef-92ba6427c332
 		- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
 			- With `alias` you can print all the aliased commands
 			- With `alias brief='my command'` you can write your own alias
 			- With `unalias <alias>` you can delete a created alias
 	- Name the files which contain the default settings of the shell boots #flashcard
+	  id:: 63454672-e8f1-4204-b5ba-5417f0b1ea43
 		- Bash startup files are used to provide default settings for the operating system enviroment.
 			- These startup files are shell scripts themselves
 				- **/etc/profile** is a generic startup fiel that is started for every login shell
@@ -48,6 +51,7 @@
 					- **~/.bash_profile**
 					- **~/.bashrc**
 	- About exit codes: #flashcard
+	  id:: 63454672-01a8-4882-b5a7-f35336c6faff
 		- If 0, the command was executed successfully
 		- If 1, there was a generic error
 		- The developer of a program can decide to code other exit codes as well
@@ -159,8 +163,10 @@
   collapsed:: true
 	- Why do we have to indicate the exact path when calling a script in Linux? #flashcard
 	  collapsed:: true
+	  id:: 63454672-001c-4986-b307-d1fa2375cb45
 		- The scripts cannot be executed from a relative path because of security concerns of Linux
 	- How can we check the exit code of the last command in Bash? #flashcard
+	  id:: 63454672-c4d4-46a1-98fa-8098aff12d3a
 		- With the token **$?**
 	- What do you have to type in Google to search Bash stuff? #flashcard
 	  collapsed:: true
@@ -168,6 +174,7 @@
 		- Bash Scripting Guide
 	- How could you make a script to call it wherever? #flashcard
 	  collapsed:: true
+	  id:: 63454672-789b-4679-9632-94e9106470b0
 		- By:
 			- `$ export PATH=$PATH:$( pwd )`
 			- With *:* because that's the path delimiter
@@ -236,6 +243,7 @@
   collapsed:: true
 	- What is an argument? #flashcard
 	  collapsed:: true
+	  id:: 63454672-aa0f-4baf-b82d-e3050a3b1d42
 		- An **argument** is anything that can be put behind the name of a command or script
 		- **ls -l /etc** has 2 arguments
 	- What's an option? #flashcard
@@ -244,11 +252,13 @@
 		- In **ls -l /etc**, **-l** is used as an option
 	- What is a posicional parameter? #flashcard
 	  collapsed:: true
+	  id:: 63454672-4e4f-4372-bda1-660763ba2833
 		- A **posicional parameter** is another word for an argument.
 		- It's the same thing as argument. But argument is a preferred name.
 		- A **variable** is a key with a name that can refer to a specific value
 	- How are quotes used in Bash? #flashcard
 	  collapsed:: true
+	  id:: 63454672-bc31-46c4-a45e-e70630321a56
 		- **Double quotes** (or **weak** quotes)are used to avoid interpretation of **spaces**
 			- echo "my value"
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
@@ -259,6 +269,7 @@
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*
 	- About the variables in Bash #flashcard
+	  id:: 63454672-7d19-4e83-8351-322efd89a5e9
 		- You can check your variables with **grep** in **$ set**
 		- You can refer to script arguments with a number:
 			- $1, $2, ... $9, ${10}, ${11}...
@@ -304,6 +315,7 @@
 - #### Flashcards
 - How do you deal with a default value for one variable in Bash? #flashcard
   collapsed:: true
+  id:: 63454672-3e37-44d0-9265-4438dea77f6b
 	- If we want to use the default, NOT set it,
 		- With ${myvar**:-**default_value}
 	- If we want to set that to the default value,
@@ -333,10 +345,12 @@
 - #### Flashcards
 	- How could you do to search about special meanings of every test character in Bash? #flashcard #dev-notes
 	  collapsed:: true
+	  id:: 63454672-35a8-418a-b101-b28c086ed831
 		- With $ help test
 	-
 	- How can you check the condition of one test in one token depending its output? #flashcard #dev-notes
 	  collapsed:: true
+	  id:: 63454672-78ee-44f3-aca7-4f65f8d32653
 		- With the below:
 		- `[ -d /home/wences ] && echo directory exists`
 		- `[ -d /home/noone ] || echo directory does not exist`
@@ -413,6 +427,7 @@
 		  done
 		  ```
 	- How can you restrict a variable to a function? #flashcard
+	  id:: 63454672-80d4-427b-8ff3-c56b376b3638
 		- With **local** var=value
 	- How could you create a menu in Bash? #flashcard
 	  collapsed:: true
@@ -441,13 +456,16 @@
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard
+	  id:: 63454672-40c3-483f-83d4-c5a88e7fa878
 		- `myArray=(content with spaces)` # Without '$'
 		- In order to print it, simply put:
 			- `"${myArray[@]}"`
 	- How can you build a range of numbers in the shell? #flashcard
+	  id:: 63454672-6d95-4555-a37d-194c82d519cd
 		- With somethin like this`{1..10}`
 		- Remember the curly brackets!!
 	- How do you iterate over an array in Bash? #flashcard
+	  id:: 63454672-8478-407b-8385-6713e003de3e
 		- With **"${myArray[@}]}"**
 -
 - ---

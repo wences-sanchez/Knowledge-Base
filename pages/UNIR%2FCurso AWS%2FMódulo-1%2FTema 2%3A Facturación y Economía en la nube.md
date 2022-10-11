@@ -37,6 +37,7 @@ deck:: [[AWS::CCP::Módulo-1]]
 -
 ### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#qué-es-el-coste-total-de-la-propiedad-flashcard)
 - ## ¿Qué es el coste total de la propiedad? #flashcard
+  id:: afc2bc95-3c27-4acf-9e2a-14ece78dd2a0
 	- Se define el coste total de la propiedad como «la estimación 
 	  financiera que ayuda a identificar los costes directos e indirectos de 
 	  un sistema». (AWS Pricing Work, 2020).
@@ -79,6 +80,7 @@ deck:: [[AWS::CCP::Módulo-1]]
 ### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#flashcards)
 - ## Flashcards
 	- ¿En qué factores se basa AWS para calcular los costes? #flashcard
+	  id:: 62355103-57fd-4fe3-807f-cb6075e70712
 		- AWS fundamenta sus **costos** en 3 **fuentes** fundamentales:
 		- la informática (**computación**) en la que se cobra por hora o por segundo,
 		- el **almacenamiento** de datos (por GB)
@@ -98,6 +100,7 @@ deck:: [[AWS::CCP::Módulo-1]]
 		-  Instancia reservada sin pago inicial (NURI). --> descuentos aún menores
 -
 	- Definición y principales ventajas de AWS Organizations. #flashcard
+	  id:: 2614dffa-aecb-4d62-a3a3-99c24f2eeb8e
 		- Para facilitar la facturación de AWS, se ofrece el servicio gratuito **AWS Organizations** el cual permite la administración de cuentas de forma **unificada** entre varias cuentas de AWS en una organización que **se crea y administra** de manera **centralizada**.
 		- Incluye capacidades de facturación unificada y administración de cuentas que le permiten satisfacer mejor las necesidades de presupuesto, seguridad y conformidad de su negocio.
 		- Beneficios principales de AWS Organizations:
@@ -108,6 +111,7 @@ deck:: [[AWS::CCP::Módulo-1]]
 		-
 		- AWS Organizations permite crear políticas de control de servicios, crear grupos de cuentas, administrar aplicaciones mediante APU y simplificar el proceso de facturación mediante factura unificada. AWS Organizations no reemplaza las políticas de AWS Identity and Access Management con usuarios, grupos y roles en una cuenta de AWS pero si permitir o denegra servicios a cuentas específicas.
 	- ¿Qué planes de soporte incluye AWS? #flashcard
+	  id:: 58b1ce02-fad0-4640-958d-d4fb8de88492
 		- Se ofrecen 4 tipos de planes de soporte:
 			- **Basic**: acceso al centro de recursos, panel de estado de servicio, 6 comprobaciones de Trusted Advisor y foros de debate.
 			- **Developer**: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción

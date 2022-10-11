@@ -14,6 +14,7 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 		- AWS uses "Pay-as-you-go" pricing, billed in seconds (or milliseconds)
 		- AWS begun with the necessity of separating the infrastructure of the users using it
 		- What is an Availability Zone? #flashcard
+		  id:: 6345466e-4214-4b2b-9167-020423fc27c4
 			- A set of datacenters. But remember! **The availability zone names are randomly generated**
 	- ---
 	- ## Chapter 3: Security and Identity
@@ -28,10 +29,12 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 				- The _Action_
 				- and the _Resource(s)_
 			- What makes the roles special from the groups? #flashcard
+			  id:: 6345466e-d2f9-4f1d-a13c-eb3fa2f44db8
 				- That not only a user can use the role, but a service can assume the role as well. Or the device that the developer is using (i.e. a virtual machine) as an extra security layer.
 			-
 		- ### Summarising Secrets Manager
 			- What can AWS Secrets Manager do? #flashcard
+			  id:: 6345466e-c81e-4fcb-b967-b4a88557e464
 				- It rotates the secrets and passwords. But it can also wrap your passwords and change them by replacing them in your code with a request for your password, which is then sent to the service that requires it.
 				- And with this, it means you no longer have to store passwords in your code.
 				- Not only that, it can also rotate both the location and surface where they are stored.
@@ -43,12 +46,15 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 		-
 		- ### Considering Compute
 			- What does AWS Outposts do? #flashcard
+			  id:: 6345466e-ab91-4759-91ee-7931359a9736
 				- It allows you to use your own servers instead of Amazon's to use AWS.
 			- What is AWS Snow Family? #flashcard
+			  id:: 6345466e-67d3-47ce-bc97-c17006e4aaf4
 				- It's a service that lets you send data to Amazon either in a portable hard disk or in a trailer full of racks.
 		-
 		- ### Exploring EC2
 			- Features of EC2: #flashcard
+			  id:: 6345466e-640c-4ddb-8b49-65c6da3fbd79
 				- Rent virtual computers
 				- Choose from various types of CPU, RAM and storage
 				- Different optimizations are available
@@ -56,6 +62,7 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 				-
 		- ### Clarifying Containers
 			- What are libraries, basically? #flashcard
+			  id:: 6345466e-344c-47f0-a9d7-d652a03c4991
 				- Libraries are actually just pieces of programming code that someone else writes, so you can include it in your own code to save time and effort.
 				- You don't have to build a full web server to publish a single page!
 				- To solve the libraries dependency problem, containers were invented. And also for deploying your applications anywhere #spaced
@@ -69,6 +76,7 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 		-
 		- ### Studying Storage
 			- What are the 3 principal types of storage? #flashcard
+			  id:: 6345466e-5e6a-4eba-b1c8-35a89e1fcb74
 				- File-based storage
 					- You give files a name and organize them in folders.
 				- Block storage
@@ -86,13 +94,16 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 		-
 		- ### Explaining EFS
 			- What is **EFS**? #flashcard
+			  id:: 6345466e-9341-4169-847d-0f4629a35327
 				- EFS (Amazon Elastic Filesystem) is another fully managed service which provides NFS shared file system storage for the linux virtual machines in Amazon EC2.
 				- You don't have to worry about space, it scales automatically, it's multi-AZ and encrypted by default.
 			- What does **NFS** mean? #flashcard
+			  id:: 6345466e-504a-43b3-9846-f93b9690d54a
 				- NFS refers to Network FileSystem. It's a protocol that allows you to access files and directories that aren't on your system, but are connected to your network.
 		-
 		- ### Solving Storage Gateway
 			- What three types of services provide AWS Storage Gateway? #flashcard
+			  id:: 6345466e-40e4-4308-bc86-ea46fcf2ec10
 				- AWS Storage Gateway gives you access to virtually unlimited cloud storage, but on-premises. It's actually 3 different storage gateways.
 					- The first is **file gateway**: It gives you Samba and NFS interfaces to Amazon S3. This is basically a way of getting any local application you use to store its data in the cloud, even if it was only programmed to store files locally.
 					- The second is **Tape Gateway:** It's a virtual tape library on your local network.
@@ -102,6 +113,7 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 	-
 		- ### Defining Databases
 			- About databases in AWS: #flashcard
+			  id:: 6345466e-0fe0-4f4d-83c5-9ccc0e2888d3
 				- **Amazon Aurora** is a MySQL and PostgreSQL compatible database built for the cloud.
 				- **Amazon RDS**
 				- **Amazon Redshift** is a cloud database warehouse service.
@@ -117,6 +129,7 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 				-
 		- ### Evaluating ElastiCache
 			- What is ElastiCache used for? #flashcard
+			  id:: 6345466e-2fed-4d56-8327-e7eb50c3bf82
 				- ElastiCache is used for caching (for making a website faster)
 	- ---
 	- ## Chapter 7: Networking
@@ -125,6 +138,7 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 			- All require a network interface connection to allow computers talk with each other.
 		- ### Choosing CloudFront
 		- What is the purpose of CloudFront? #flashcard
+		  id:: 6345466e-bfab-4060-9326-1d62b8b94a03
 			- CloudFront is similar to ElastiCache, but instead of putting a cache between your website and your database, it put that between your website and the people visiting your website.
 			- It reduces the latency time of inter-region transactions by setting a lot of edge locations around the world.
 			- Any changes you make to the files are replicated to edge locations as your visitors request the content, and then the client receives the file.
@@ -144,6 +158,7 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 		- ### Managing Machine Learning
 			- Amazon Lex for developing Chat Bots!  <3
 			- What is basically Machine Learning? :: Machine Learning is basically a way of try-and-fail for the computers. It's an algorithm that is capable of learn from the data by analysing it. #flashcard
+			  id:: 6345466e-3bf9-4851-b520-9a6c4603438a
 		- ### Recognizing Rekognition
 			- Amazon Rekognition allows recognition of objects inside a photo. It can also recognise text! #spaced
 		- ### Driving DeepRacer

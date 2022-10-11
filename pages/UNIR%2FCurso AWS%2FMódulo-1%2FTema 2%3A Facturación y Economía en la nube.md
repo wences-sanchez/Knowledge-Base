@@ -21,7 +21,7 @@ title:: UNIR/Curso AWS/Módulo-1/Tema 2: Facturación y Economía en la nube
 				- Instancia reservada con pago inicial parcial (PURI). --> menores descuentos
 				- Instancia reservada sin pago inicial (NURI). --> descuentos aún menores
 -
-- ### Capa gratuita de AWS
+- ## Capa gratuita de AWS
 	- AWS ofrece a nuevos clientes una capa gratuita ([https://aws.amazon.com/es/free/](https://aws.amazon.com/es/free/)) durante 1 año para determinados servicios y opciones.
 		- Además, servicios como:
 			- Amazon Virtual Private Cloud (Amazon VPC),
@@ -34,7 +34,7 @@ title:: UNIR/Curso AWS/Módulo-1/Tema 2: Facturación y Economía en la nube
 -
 -
 ### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#qué-es-el-coste-total-de-la-propiedad-flashcard)
-- ### ¿Qué es el coste total de la propiedad? #flashcard
+- ## ¿Qué es el coste total de la propiedad? #flashcard
 	- Se define el coste total de la propiedad como «la estimación 
 	  financiera que ayuda a identificar los costes directos e indirectos de 
 	  un sistema». (AWS Pricing Work, 2020).
@@ -42,81 +42,45 @@ title:: UNIR/Curso AWS/Módulo-1/Tema 2: Facturación y Economía en la nube
 	- ![image.png](../assets/image_1665486660249_0.png)
 	- ![image.png](../assets/image_1665486677886_0.png)
 	-
-- #+BEGIN_EXPORT hiccup
-  [:a {:target "_blank", :rel "noopener noreferrer", :href "https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/assets/Pasted%20image%2020221004150112.png"} [:img {:src "https://github.com/wences-sanchez/Knowledge-Base/raw/e4bcb063f5b2c28cd2686094c700cf561b1177a7/assets/Pasted%20image%2020221004150112.png", :alt ""}]]
-  #+END_EXPORT
-- En la nube, la mayoría de los costes son iniciales y se pueden 
-  estimar fácilmente. AWS ofrece precios transparentes basados en 
-  diferentes métricas de uso, como RAM, almacenamiento y ancho de banda, 
-  entre otras. Además, los precios se determinan por unidad de tiempo. Los
-   clientes ganan confianza con respecto a los precios y son capaces de 
-  calcular fácilmente los costes en función de diversas estimaciones de 
-  uso.
+	- En la nube, la mayoría de los costes son iniciales y se pueden estimar fácilmente. AWS ofrece precios transparentes basados en diferentes métricas de uso, como RAM, almacenamiento y ancho de banda, entre otras. Además, los precios se determinan por unidad de tiempo. Los clientes ganan confianza con respecto a los precios y son capaces de calcular fácilmente los costes en función de diversas estimaciones de uso.
+	-
+	- Con la tecnología en las instalaciones los clientes deben tener en cuenta los **costes directos** (espacio, electricidad, etc.) y los **indirectos** (almacenamiento, red, etc.). En las instalaciones los costes son predictivos porque se incurre en costes se use o no la capacidad.
+	-
+- ## AWS Organizations
+	- Para facilitar la facturación de AWS, se ofrece el servicio gratuito **AWS Organizations** el cual permite la administración de cuentas de forma **unificada** entre varias cuentas de AWS en una organización que **se crea y administra** de manera **centralizada**.
 -
-- Con la tecnología en las instalaciones los clientes deben tener en cuenta los **costes directos** (espacio, electricidad, etc.) y los **indirectos**
-   (almacenamiento, red, etc.). En las instalaciones los costes son 
-  predictivos porque se incurre en costes se use o no la capacidad.
+	- Incluye capacidades de facturación unificada y administración de cuentas que le permiten satisfacer mejor las necesidades de presupuesto, seguridad y conformidad de su negocio.
+		- **Beneficios principales** de **AWS Organizations**:
+			- Políticas de acceso administradas de manera centralizada en varias cuentas de AWS.
+			- Acceso controlado a los servicios de AWS
+			- Creación y administración automatizada de cuentas de AWS
+			- Facturación unificada en varias cuentas de AWS.
+			-
+		- **AWS Organizations** permite crear **políticas de control de servicios**, crear **grupos de cuentas**, **administrar aplicaciones** mediante APU y **simplificar** el proceso de **facturación** mediante factura unificada. AWS Organizations no reemplaza las políticas de AWS Identity and Access Management con usuarios, grupos y roles en una cuenta de AWS pero sí **permitir o denegar** servicios a cuentas específicas.
+			-
+- ## AWS Trusted Advisor
+	- AWS ofrece una combinación única de herramientas para soporte y planes de soporte para brindar experimentación y soporte en servicios de producción. Entre ellas está **AWS Trusted Advisor**, donde los clientes pueden obtener recomendaciones sobre sus gastos mensuales, identificar problemas de seguridad y aumentar su productividad.
 -
+- ## TAM
+	- Si se desea obtener una orientación proactiva, AWS Support cuenta con directores de cuenta técnicas (**TAM**) que son designados como el punto de contacto principal de los usuarios. El TAM puede ayudar en la orientación, revisión de la arquitectura y comunicación continua a medida que planifica, implementa y optimiza sus soluciones.
 -
-### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#aws-organizations)
-- ### AWS Organizations
-- Para facilitar la facturación de AWS, se ofrece el servicio gratuito **AWS Organizations** el cual permite la administración de cuentas de forma **unificada** entre varias cuentas de AWS en una organización que **se crea y administra** de manera **centralizada**.
--
-- Incluye capacidades de facturación unificada y administración de 
-  cuentas que le permiten satisfacer mejor las necesidades de presupuesto,
-   seguridad y conformidad de su negocio.
-- **Beneficios principales** de **AWS Organizations**:
-- Políticas de acceso administradas de manera centralizada en varias cuentas de AWS.
-- Acceso controlado a los servicios de AWS
-- Creación y administración automatizada de cuentas de AWS
-- Facturación unificada en varias cuentas de AWS.
--
-- **AWS Organizations** permite crear **políticas de control de servicios**, crear **grupos de cuentas**, **administrar aplicaciones** mediante APU y **simplificar** el proceso de **facturación**
-   mediante factura unificada. AWS Organizations no reemplaza las 
-  políticas de AWS Identity and Access Management con usuarios, grupos y 
-  roles en una cuenta de AWS pero sí **permitir o denegar** servicios a cuentas específicas.
+	- A su vez el equipo de soporte de Concierge es un equipo experto en cuentas y facturación con análisis rápidos y eficaces.
 -
 -
-### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#aws-trusted-advisor)
-- ### AWS Trusted Advisor
-- AWS ofrece una combinación única de herramientas para soporte y 
-  planes de soporte para brindar experimentación y soporte en servicios de
-   producción. Entre ellas está **AWS Trusted Advisor**, 
-  donde los clientes pueden obtener recomendaciones sobre sus gastos 
-  mensuales, identificar problemas de seguridad y aumentar su 
-  productividad.
--
--
-### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#tam)
-- ### TAM
-- Si se desea obtener una orientación proactiva, AWS Support cuenta con directores de cuentas técnicas (**TAM**)
-   que son designados como el punto de contacto principal de los usuarios.
-   El TAM puede ayudar en la orientación, revisión de la arquitectura y 
-  comunicación continua a medida que planifica, implementa y optimiza sus 
-  soluciones.
--
-- A su vez el equipo de soporte de Concierge es un equipo experto en cuentas y facturación con análisis rápidos y eficaces.
--
--
-### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#planes-de-soporte-de-aws)
 - ### Planes de soporte de AWS
-- Se ofrecen 4 tipos de planes de soporte:
--  **Basic**: acceso al centro de recursos, panel de estado de servicio, 6 comprobaciones de Trusted Advisor y foros de debate.
--  **Developer**: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción
--  **Business**: cargas de trabajo en producción.
--  **Enterprise**: cargas de trabajo críticas.
--
+	- Se ofrecen 4 tipos de planes de soporte:
+		- **Basic**: acceso al centro de recursos, panel de estado de servicio, 6 comprobaciones de Trusted Advisor y foros de debate.
+		- **Developer**: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción
+		- **Business**: cargas de trabajo en producción.
+		- **Enterprise**: cargas de trabajo críticas.
 -
 ### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#flashcards)
-### Flashcards
-collapsed:: true
-
-collapsed:: true
-- ¿En qué factores se basa AWS para calcular los costes? #flashcard
-- AWS fundamenta sus **costos** en 3 **fuentes** fundamentales:
-- la informática (**computación**) en la que se cobra por hora o por segundo,
-- el **almacenamiento** de datos (por GB)
-- y la **transferencia de datos** de salida (por GB).
+- ## Flashcards
+	- ¿En qué factores se basa AWS para calcular los costes? #flashcard
+		- AWS fundamenta sus **costos** en 3 **fuentes** fundamentales:
+		- la informática (**computación**) en la que se cobra por hora o por segundo,
+		- el **almacenamiento** de datos (por GB)
+		- y la **transferencia de datos** de salida (por GB).
 - Los datos de salida se suman y se cobran. AWS no cobra por datos de entrada (con algunas excepciones).
 - En la mayoría de los casos, no se aplican cargos por la 
   transferencia de datos de entrada ni por la transferencia de datos entre

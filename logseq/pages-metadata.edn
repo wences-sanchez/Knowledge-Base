@@ -364,6 +364,9 @@
  {:block/name "cancelled",
   :block/created-at 1665484256317,
   :block/updated-at 1665484256317}
+ {:block/name "capa-gratuita-de-aws",
+  :block/created-at 1665486541420,
+  :block/updated-at 1665486541420}
  {:block/name "car",
   :block/created-at 1665484165187,
   :block/updated-at 1665484165187}
@@ -2051,7 +2054,7 @@
  {:block/name
   "unir/curso aws/módulo-1/tema 2: facturación y economía en la nube",
   :block/created-at 1665134084780,
-  :block/updated-at 1665136727500}
+  :block/updated-at 1665486678647}
  {:block/name
   "unir/curso aws/módulo-1/tema 3: infraestructura global de aws y modelo de responsabilidad compartida",
   :block/created-at 1665043862396,

@@ -45,7 +45,6 @@ deck:: [[AWS::CCP::Módulo-1]]
 			-
 				-
 		- ## Flashcards
-		  collapsed:: true
 			- Define el término: *Informática en la nube* #flashcard
 			  id:: 634545e2-5242-4022-a6f0-984c62826632
 				- La **informática en la nube** es la entrega **bajo demanda** de potencia de cómputo, máquinas virtuales, BBDD, aplicaciones y otros recursos de TI, a través de Internet, con un sistema de precios de **pago por uso**.

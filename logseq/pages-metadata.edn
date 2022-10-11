@@ -253,7 +253,7 @@
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1665484163116,
-  :block/updated-at 1665484163116}
+  :block/updated-at 1665500045795}
  {:block/name "aws elastic beanstalk",
   :block/created-at 1665138467036,
   :block/updated-at 1665138467036}
@@ -1493,6 +1493,10 @@
  {:block/name "o'reilly-learning",
   :block/created-at 1665484163040,
   :block/updated-at 1665484163040}
+ {:block/name
+  "o'reilly-learning::aws certified cloud practitioner exam guide",
+  :block/created-at 1665500045786,
+  :block/updated-at 1665500045786}
  {:block/name "oca (highlights)",
   :block/created-at 1665484232955,
   :block/updated-at 1665484232955}

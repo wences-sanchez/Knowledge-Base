@@ -1,53 +1,47 @@
 title:: UNIR/Curso AWS/Módulo-1/Tema 2: Facturación y Economía en la nube
 
 -
-### Fuentes de los costes de AWS
+- ## Fuentes de los costes de AWS
+	- AWS fundamenta sus **costos** en 3 **fuentes** fundamentales:
+		- la informática (**computación**) en la que se cobra por hora o por segundo,
+		- el **almacenamiento** de datos (por GB)
+		- y la **transferencia de datos** de salida (por GB).
+	- Los datos de salida se suman y se cobran. AWS no cobra por datos de entrada (con algunas excepciones).
+	- En la mayoría de los casos, no se aplican cargos por la transferencia de datos de entrada ni por la transferencia de datos entre servicios de AWS dentro de la misma región (con excepciones).
+	- El modelo de precios implica:
+		- pagar por lo que se usa,
+		- pagar menos al reservar servicios,
+		- pagar menos cuanto más uso se le dé y pagar aún menos a medida que AWS crece.
+		- Por ejemplo, en servicios como Amazon Elastic Compute Cloud (Amazon 
+		  EC2) y Amazon Relational Database Service (Amazon RDS) se puede reservar
+		   capacidad y ahorrar hasta un 75 % en comparación con la capacidad bajo 
+		  demanda.
+			- Las instancias reservadas están disponibles bajo:
+				- Instancia reservada con pago inicial completo (AURI). --> mayores descuentos
+				- Instancia reservada con pago inicial parcial (PURI). --> menores descuentos
+				- Instancia reservada sin pago inicial (NURI). --> descuentos aún menores
 -
-#### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#aws-fundamenta-sus-costos-en-3-fuentes-fundamentales)
--
-- #### AWS fundamenta sus  **costos**  en 3  **fuentes**  fundamentales:
-- la informática (**computación**) en la que se cobra por hora o por segundo,
-- el **almacenamiento** de datos (por GB)
-- y la **transferencia de datos** de salida (por GB).
-- Los datos de salida se suman y se cobran. AWS no cobra por datos de entrada (con algunas excepciones).
-- En la mayoría de los casos, no se aplican cargos por la 
-  transferencia de datos de entrada ni por la transferencia de datos entre
-   servicios de AWS dentro de la misma región (con excepciones).
-- El modelo de precios implica:
-- pagar por lo que se usa,
-- pagar menos al reservar servicios,
-- pagar menos cuanto más uso se le dé y pagar aún menos a medida que AWS crece.
-- Por ejemplo, en servicios como Amazon Elastic Compute Cloud (Amazon 
-  EC2) y Amazon Relational Database Service (Amazon RDS) se puede reservar
-   capacidad y ahorrar hasta un 75 % en comparación con la capacidad bajo 
-  demanda.
-- Las instancias reservadas están disponibles bajo:
--  Instancia reservada con pago inicial completo (AURI). --> mayores descuentos
--  Instancia reservada con pago inicial parcial (PURI). --> menores descuentos
--  Instancia reservada sin pago inicial (NURI). --> descuentos aún menores
--
-### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#capa-gratuita-de-aws)
 - ### Capa gratuita de AWS
-- AWS ofrece a nuevos clientes una capa gratuita ([https://aws.amazon.com/es/free/](https://aws.amazon.com/es/free/)) durante 1 año para determinados servicios y opciones.
-- Además, servicios como:
-- Amazon Virtual Private Cloud (Amazon VPC),
-- AWS Identity and Access Management(IAM),
-- Auto Scaling,
-- AWS CloudFormation,
-- AWS OpsWorks
-- y AWS Elastic Beanstalk
-- se ofrecen sin cargo adicional, si bien es posible que haya otros cargos por los servicios que usen con ellos.
+	- AWS ofrece a nuevos clientes una capa gratuita ([https://aws.amazon.com/es/free/](https://aws.amazon.com/es/free/)) durante 1 año para determinados servicios y opciones.
+		- Además, servicios como:
+			- Amazon Virtual Private Cloud (Amazon VPC),
+			- AWS Identity and Access Management(IAM),
+			- Auto Scaling,
+			- AWS CloudFormation,
+			- AWS OpsWorks
+			- y AWS Elastic Beanstalk
+		- se ofrecen sin cargo adicional, si bien es posible que haya otros cargos por los servicios que usen con ellos.
 -
 -
 ### [](https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/pages/UNIR%252FCurso%20AWS%252FM%C3%B3dulo-1%252FTema%202%253A%20Facturaci%C3%B3n%20y%20Econom%C3%ADa%20en%20la%20nube.md#qué-es-el-coste-total-de-la-propiedad-flashcard)
 - ### ¿Qué es el coste total de la propiedad? #flashcard
-- Se define el coste total de la propiedad como «la estimación 
-  financiera que ayuda a identificar los costes directos e indirectos de 
-  un sistema». (AWS Pricing Work, 2020).
-- Se utiliza para comparar el **coste** de ejecutar una infraestructura completa o una carga de trabajo **en las instalaciones propias** frente hacerlo **en AWS**. Además, sirve para presupuestar el negocio en caso de migrar a la nube.
-- #+BEGIN_EXPORT hiccup
-  [:a {:target "_blank", :rel "noopener noreferrer", :href "https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/assets/image_1664885833504_0.png"} [:img {:src "https://github.com/wences-sanchez/Knowledge-Base/raw/e4bcb063f5b2c28cd2686094c700cf561b1177a7/assets/image_1664885833504_0.png", :alt "image.png"}]]
-  #+END_EXPORT
+	- Se define el coste total de la propiedad como «la estimación 
+	  financiera que ayuda a identificar los costes directos e indirectos de 
+	  un sistema». (AWS Pricing Work, 2020).
+	- Se utiliza para comparar el **coste** de ejecutar una infraestructura completa o una carga de trabajo **en las instalaciones propias** frente hacerlo **en AWS**. Además, sirve para presupuestar el negocio en caso de migrar a la nube.
+	- ![image.png](../assets/image_1665486660249_0.png)
+	- ![image.png](../assets/image_1665486677886_0.png)
+	-
 - #+BEGIN_EXPORT hiccup
   [:a {:target "_blank", :rel "noopener noreferrer", :href "https://github.com/wences-sanchez/Knowledge-Base/blob/e4bcb063f5b2c28cd2686094c700cf561b1177a7/assets/Pasted%20image%2020221004150112.png"} [:img {:src "https://github.com/wences-sanchez/Knowledge-Base/raw/e4bcb063f5b2c28cd2686094c700cf561b1177a7/assets/Pasted%20image%2020221004150112.png", :alt ""}]]
   #+END_EXPORT
@@ -158,9 +152,9 @@ collapsed:: true
   permitir o denegra servicios a cuentas específicas.
 - ¿Qué planes de soporte incluye AWS? #flashcard
 - Se ofrecen 4 tipos de planes de soporte:
--  **Basic**: acceso al centro de recursos, panel de estado de servicio, 6 comprobaciones de Trusted Advisor y foros de debate.
--  **Developer**: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción
--  **Business**: cargas de trabajo en producción.
--  **Enterprise**: cargas de trabajo críticas.
+	- **Basic**: acceso al centro de recursos, panel de estado de servicio, 6 comprobaciones de Trusted Advisor y foros de debate.
+	- **Developer**: soporte para desarrollos iniciales, orientación y cargas de trabajo no de producción
+	- **Business**: cargas de trabajo en producción.
+	- **Enterprise**: cargas de trabajo críticas.
 -
 -

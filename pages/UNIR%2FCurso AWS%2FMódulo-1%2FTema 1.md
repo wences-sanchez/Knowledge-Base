@@ -1,6 +1,8 @@
 title:: UNIR/Curso AWS/Módulo-1/Tema 1
 tags:: UNIR, AWS
+deck:: [[AWS::CCP::Módulo-1]]
 
+-
 - #tags #UNI #AWS #Tema-1
 -
 - # Tema 1

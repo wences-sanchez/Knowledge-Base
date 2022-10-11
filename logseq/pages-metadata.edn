@@ -261,6 +261,9 @@
   "aws: how to allow all tcp traffic between all instances in same vpc? (highlights)",
   :block/created-at 1665484163270,
   :block/updated-at 1665484163270}
+ {:block/name "aws::ccp::módulo-1",
+  :block/created-at 1665485477018,
+  :block/updated-at 1665485477018}
  {:block/name "aws::modulo-2",
   :block/created-at 1665484016230,
   :block/updated-at 1665484016230}
@@ -2041,7 +2044,7 @@
   :block/updated-at 1665484158842}
  {:block/name "unir/curso aws/módulo-1",
   :block/created-at 1665484158838,
-  :block/updated-at 1665484158838}
+  :block/updated-at 1665485477020}
  {:block/name "unir/curso aws/módulo-1/tema 1",
   :block/created-at 1665133541935,
   :block/updated-at 1665133628951}

@@ -2,6 +2,7 @@ title:: AWS Certified Cloud Practitioner Exam Guide (highlights)
 author:: [[]]
 full-title:: "AWS Certified Cloud Practitioner Exam Guide"
 category:: #books
+deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 
 tags:: #[[AWS]] #[[O'Reilly-Learning]]
 
@@ -23,36 +24,25 @@ tags:: #[[AWS]] #[[O'Reilly-Learning]]
 			  Today, cloud computing has become mainstream and is, in several cases, the default option for many companies and start-ups. Currently, Amazon Web Services (AWS) is the largest provider of cloud computing services, offering a variety of cloud IT services in the form of infrastructure, platform, and software solutions.
 		- -
 		- -
-		- 1st advantage of cloud computing #flashcard
-		  id:: 63454583-66aa-42e3-ac27-5eac14cbe1fe
+		- ### 6 Advantages of Cloud Computing: #flashcard
 			- With cloud computing, you pay for the same infrastructure components only as and when you consume them. This on-demand, pay-as-you-go model also means that you save costs when you are not utilizing resources.
+			  id:: 63454583-66aa-42e3-ac27-5eac14cbe1fe
 			  
 			  The shift away from capital expense (CAPEX) for variable expense, also known as operating expense (OPEX), means that you can direct your precious business capital to more important areas of investment, such as developing new products or improving your marketing strategy.
-		- -
-		- -
-		- 2nd advantage of cloud computing #flashcard
-		  id:: 63454583-ba2b-4da2-8879-fb8e645b0c93
+			-
 			- Benefit from massive economies of scale:
-		- -
-		- -
-		- 3rd advantage of cloud computing #flashcard
-		  id:: 63454583-7794-4e2e-b4f0-32a9e49653d5
+			-
 			- Stop guessing capacity: Traditionally, while carrying out capacity planning, you would procure necessary hardware components for future growth. Predicting future growth is extremely difficult, and this often meant that you would overprovision your environment. The result would be expensive idle resources simply going to waste.
-		- -
-		- -
-		- 4th advantage of cloud computing #flashcard
-		  id:: 63454583-df8b-4146-a83d-5e633f271113
+			  id:: 63454583-7794-4e2e-b4f0-32a9e49653d5
+			-
 			- Increase speed and agility: Cloud vendors such as AWS enable you to launch and configure new IT resources in a few mouse clicks—for example, you can provision a new fleet of servers for your developers within minutes, allowing your organization to exponentially increase its agility in building infrastructure and launching applications
-		- -
-		- -
-		- 5th advantage of cloud computing #flashcard
-		  id:: 63454583-3097-432d-9a4e-4072ed14519b
+			  id:: 63454583-df8b-4146-a83d-5e633f271113
+			-
 			- Stop spending money running and maintaining data centers: Hosting your own on-premises infrastructure consumes several hidden costs. In addition to using up precious capital to purchase expensive hardware, you also need a team of engineers to efficiently configure every infrastructure component and lease necessary real estate to rack, stack, and then power up your servers. You would also be required to keep the servers cool with appropriate air-conditioning systems—and that's not all. You would also have to spend money on expensive maintenance contracts to handle the wear and tear of the hardware.
-		- -
-		- -
-		- 6th advantage of cloud computing #flashcard
-		  id:: 63454583-1b47-4b49-9c75-c04bb4f64a04
+			  id:: 63454583-3097-432d-9a4e-4072ed14519b
+			-
 			- Go global in minutes: AWS host their data centers in various regions across the globe. Although you may be based in one country, you will have complete access to all regions. This will help you offer lower latency and a superior customer experience, regardless of where your customers are located. Hosting copies of your resources in additional regions can also help you design for disaster recovery (DR) and business continuity requirements.
+			  id:: 63454583-1b47-4b49-9c75-c04bb4f64a04
 		- -
 		- -
 		- What is a hypervisor? #flashcard

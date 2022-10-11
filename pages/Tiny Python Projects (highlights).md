@@ -16,6 +16,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 	- 0 Getting started: Introduction and installation guide
 		- -
-		- Dare to program!!! #card
+		- Dare to program!!! #car
+		  id:: 63401538-89f2-4ae6-a2cd-2271029b3b8e
 			- After you write your solutions in Python, I encourage you to write solutions in another language you know and compare what parts of the different languages make it easier or harder to write your programs.
 		- -

@@ -9,7 +9,7 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/5360dc73-d287-4d6f-8309-e6ddfbb2ce3e.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- ¿Qué es Jenkins? #card
+	- ¿Qué es Jenkins? #car
 		- Jenkins es un sistema de integración y entrega continuas. Es una herramienta de código abierto disponible para múltiples arquitecturas que puede manejar cualquier tipo  de  construcción,  pruebas  y  despliegues  gracias  a  su  formato  de  plugins.
 		- (Page 4)
 	- -
@@ -30,7 +30,8 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 		- (Page 13)
 	- -
 	- -
-	- INCLUIR IMAGEN #card
+	- INCLUIR IMAGEN #car
+	  id:: 63401512-f998-43a5-a546-5a11421fd171
 		- Estructura de un Jenkinsfile El  código  de  un  Jenkinsfile  con  sintaxis  declarativa  está  formado  por  un  bloque pipeline inicial, directivas iniciales de configuración, un bloque stage para para fase y  unas  directivas  post  al  terminar.  El  siguiente  ejemplo  contiene  algunas  de  estas opciones.
 		- (Page 14)
 	- -

@@ -17,7 +17,8 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- ¿Cuál es el patrón de sintaxis de chmod? #card
+	- ¿Cuál es el patrón de sintaxis de chmod? #car
+	  id:: 634014ee-efeb-4c85-9dbd-1281c95093d6
 		-   Clase|activar/desactivar|permiso.   Representación binaria.
 		- (Page 10)
 	- -
@@ -30,7 +31,7 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 11)
 	- -
 	- -
-	- ¿Cómo se puede crear un enlace simbólico? #card
+	- ¿Cómo se puede crear un enlace simbólico? #car
 		- Los  enlaces  se  crean  con  el  comando  ln.  Los  enlaces  serán  fuertes  por  defecto  y simbólicos con el flag -s. La manera más sencilla de crear un enlace simbólico en la ruta actual es simplemente indicando la ruta del archivo enlazado
 		- (Page 12)
 	- -

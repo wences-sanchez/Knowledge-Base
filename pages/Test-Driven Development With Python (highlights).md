@@ -9,7 +9,7 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- 3. Testing a Simple Home Page with Unit Tests
 		- -
-		- Unit Tests VS Functional Tests #card
+		- Unit Tests VS Functional Tests #car
 			- Unit Tests, and How They Differ from Functional Tests
 			  As with so many of the labels we put on things, the line between unit tests and functional tests can become a little blurry at times. The basic distinction, though, is that functional tests test the application from the outside, from the point of view of the user. Unit tests test the application from the inside, from the point of view of the programmer.
 		- -

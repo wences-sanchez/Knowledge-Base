@@ -6,7 +6,8 @@ category:: #books
 - ![](https://images-na.ssl-images-amazon.com/images/I/41aqSxka3IL._SL200_.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- La Entrega Continua consiste en ir entregando versiones, pequeñas, del producto al cliente. En vez de marcar hitos mas o menos lejanos. #card
+	- La Entrega Continua consiste en ir entregando versiones, pequeñas, del producto al cliente. En vez de marcar hitos mas o menos lejanos. #car
+	  id:: 63401505-8186-43c2-ad5c-3090bbea7671
 		- La entrega continua es, desde un punto de vista técnico, una colección de metodologías y prácticas que se centran en mejorar los procesos de entrega de software y optimizar la fiabilidad de las versiones de software de las organizaciones.
 		- ([Location 174](https://readwise.io/to_kindle?action=open&asin=B07YGWQL7D&location=174))
 		- #[[blue]] #[[azul]]

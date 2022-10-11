@@ -25,7 +25,7 @@ tags:: #[[Literature]]
 		- ([Location 427](https://readwise.io/to_kindle?action=open&asin=B00CSJYYO4&location=427))
 	- -
 	- -
-	- ¡¡¡RECUERDA ESTO SIEMPRE!!! #card
+	- ¡¡¡RECUERDA ESTO SIEMPRE!!! #car
 		- ¿Por qué no va a La Meca ahora? —inquirió el muchacho. —Porque La Meca es lo que me mantiene vivo. Es lo que me hace soportar todos estos días iguales, esos jarrones silenciosos en los estantes, la comida y la cena en aquel restaurante horrible. Tengo miedo de realizar mi sueño y después no tener más motivos para continuar vivo.
 		- ([Location 730](https://readwise.io/to_kindle?action=open&asin=B00CSJYYO4&location=730))
 		- #[[mind]]
@@ -36,7 +36,8 @@ tags:: #[[Literature]]
 		- #[[mind]]
 	- -
 	- -
-	- Why don't you stay? #card
+	- Why don't you stay? #car
+	  id:: 63401506-be4f-4f73-addd-e7df6c3ee3f2
 		- sabía que iba a sentir nostalgia de todo aquel tiempo y de todas las cosas buenas que había aprendido. Sin embargo, ahora tenía más confianza en sí mismo y ánimos para conquistar el mundo.
 		- ([Location 842](https://readwise.io/to_kindle?action=open&asin=B00CSJYYO4&location=842))
 		- #[[mind]]

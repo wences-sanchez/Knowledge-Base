@@ -6,7 +6,8 @@ url:: http://learning.oreilly.com/a/hands-on-devops-with/45351800/
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- What is...? #card
+	- What is...? #car
+	  id:: 63401545-bea1-485f-9872-be11ca696a64
 		- A Vagrantfile can easily be shared and added into version control. It's lightweight and contains everything needed for another user to replicate your virtual environment/application.
 	- -
 	- -

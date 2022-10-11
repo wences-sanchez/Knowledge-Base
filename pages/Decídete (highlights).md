@@ -28,7 +28,7 @@ tags:: #[[Self-Help]]
 		- ([Location 277](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=277))
 	- -
 	- -
-	- ¿Te suena relacionado con tus dotes de programador? #card
+	- ¿Te suena relacionado con tus dotes de programador? #car
 		- Compadécete si no de los pobres concursantes que intentan cantar en los reality shows pese a no tener una habilidad perceptible para interpretar una melodía. Cuando reciben una respuesta áspera del jurado, parecen sorprendidos. Abatidos. Y te das cuenta de que es la primera vez en sus vidas que reciben una respuesta franca. Ávidos de reafirmación, habían fijado sus focos en los elogios y el apoyo que recibían de amigos y familiares. Con ese respaldo, no es difícil entender por qué creían que tenían la oportunidad
 		- ([Location 293](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=293))
 		- #[[mind]]
@@ -38,7 +38,8 @@ tags:: #[[Self-Help]]
 		- ([Location 322](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=322))
 	- -
 	- -
-	- Creo que la sensación de leer te está cegando a corto plazo. #card
+	- Creo que la sensación de leer te está cegando a corto plazo. #car
+	  id:: 63401504-9d7f-4266-af21-4612fd85650c
 		- nos lleva al tercer villano de la toma de decisiones: la emoción a corto plazo.
 		- ([Location 351](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=351))
 		- #[[mind]]
@@ -48,7 +49,7 @@ tags:: #[[Self-Help]]
 		- ([Location 378](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=378))
 	- -
 	- -
-	- Fases de la toma de decisiones #card
+	- Fases de la toma de decisiones #car
 		- Un proceso de decisión normal se desarrolla generalmente en cuatro pasos:   • Te encuentras ante una elección. • Analizas tus opciones. • Tomas una decisión. • Vives con ella.
 		- ([Location 393](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=393))
 		- #[[mind]]
@@ -58,7 +59,7 @@ tags:: #[[Self-Help]]
 		- ([Location 402](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=402))
 	- -
 	- -
-	- Son: Tiempo libre y Autosatisfacción personal .mind #card
+	- Son: Tiempo libre y Autosatisfacción personal .mind #car
 		- Tomó su decisión basándose en los dos factores que más le importaban a largo plazo:
 		- ([Location 458](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=458))
 	- -
@@ -72,19 +73,21 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- Opciones... #card
+	- Opciones... #car
+	  id:: 63401504-30d5-4c04-bc63-50afb9f33f3f
 		- Tendrás que hacer jornadas maratonianas. ¿Vale la pena?
 		- ([Location 3116](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=3116))
 		- #[[mind]]
 	- -
 	- -
-	- Desarrollo personal #card
+	- Desarrollo personal #car
+	  id:: 63401503-dc15-4c2c-be43-913c5ccd222e
 		- una lista de «cosas para dejar de hacer». Es tentador pero ingenuo pretender que podemos sacar tiempo para todo a través de la multitarea o trabajando con más eficacia. Pero, afróntalo, tu agenda no es tan flexible. Una hora invertida en una cosa es una hora que no se invierte en otra.
 		- ([Location 3310](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=3310))
 		- #[[mind]]
 	- -
 	- -
-	- IMPORTANTE!!!! #card
+	- IMPORTANTE!!!! #car
 		- Nos aconseja programar un temporizador que suene cada hora, y cuando suene deberíamos preguntarnos a nosotros mismos: «¿Estoy haciendo lo que más necesito hacer en este momento?».
 		- ([Location 3350](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=3350))
 		- #[[mind]]

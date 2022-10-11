@@ -9,7 +9,7 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- 2. The Bank Statements Analyzer
 		- -
-		- Describe the SRP Principle #card
+		- Describe the SRP Principle #car
 			- The Single Responsibility Principle (SRP) is a general software development guideline to follow that contributes to writing code that is easier to manage and maintain.
 			  
 			  You can think about SRP in two complementary ways:
@@ -28,7 +28,8 @@ tags:: #[[O'Reilly-Learning]]
 			  The reason why multiple concerns is problematic is, as you saw earlier, it complicates code maintainability by potentially introducing bugs in several places. It can also make the code harder to understand and change.
 		- -
 		- -
-		- Talk about the Principle of Least Surprise #card
+		- Talk about the Principle of Least Surprise #car
+		  id:: 63401532-acfd-4d95-bb0c-c3092569ff50
 			- It is a good habit to follow the principle of least surprise when you implement methods. It will help ensure that it is obvious what is happening when looking at the code. This means:
 			  
 			  
@@ -43,7 +44,8 @@ tags:: #[[O'Reilly-Learning]]
 			  The principle of least surprise can be a subjective concept, though. When in doubt, speak to your colleagues and team members to ensure everyone is aligned.
 		- -
 		- -
-		- An old bad practice of mine… #card
+		- An old bad practice of mine… #car
+		  id:: 63401532-1a03-454b-bad1-3cb24738ea5e
 			- Ultimately your goal is to manage the complexity of the application you are building. However, if you keep on copy pasting the same code as new requirements come in, you will end up with the following issues, which are called anti-patterns because they are common ineffective solutions:
 			  
 			  Hard to understand code because you have one giant “God Class”
@@ -51,11 +53,12 @@ tags:: #[[O'Reilly-Learning]]
 			  Code that is brittle and easily broken by changes because of code duplication
 		- -
 		- -
-		- Don’t overuse KISS #card
+		- Don’t overuse KISS #car
 			- it is good to keep things simple when possible, but do not abuse the KISS principle. Instead, you need to reflect on the design of your whole application and have an understanding of how to break down the problem into separate sub-problems that are easier to manage individually. The result is that you will have code that is easier to understand, maintain, and adapt to new requirements.
 		- -
 		- -
-		- Suggested structure of tests #card
+		- Suggested structure of tests #car
+		  id:: 63401532-7cd5-450d-ac00-a57cb147a6b0
 			- There are three parts:
 			  
 			  You set up the context for your test. In this case a line to parse.
@@ -85,27 +88,28 @@ tags:: #[[O'Reilly-Learning]]
 		  Given-When-Then is a pattern for setting up a test into three parts to help understand the tests you implement. #ñspace
 		- -
 		- -
-		- Will this break my tuning? #card
+		- Will this break my tuning? #car
+		  id:: 63401532-aa37-4c88-97cc-078805fbcc30
 			- Code Coverage
 		- -
 	- 3. Extending the Bank Statements Analyzer
 		- -
-		- __Open/Closed Principle #card
+		- __Open/Closed Principle #car
 			- This is where the Open/Closed principle comes in. It promotes the idea of being able to change the behavior of a method or class without having to modify the code. In our example, it would mean the ability to extend the behavior of a findTransactions() method without having to duplicate the code or change it to introduce a new parameter. How is this possible? As discussed earlier, the concepts of iterating and the business logic are coupled together. In the previous chapter, you learned about interfaces as a useful tool to decouple concepts from one another. In this case, you will introduce a BankTransactionFilter interface that will be responsible for the selection logic, as shown in Example 3-4. It contains a single method test() that returns a boolean and takes the complete BankTransaction object as an argument. This way the method test() has access to all the properties of a BankTransaction to specify any appropriate selection criteria.
 		- -
 		- -
-		- A functional interface code's example in Java #card
+		- A functional interface code's example in Java #car
 			- @FunctionalInterface
 			  public interface BankTransactionFilter {
 			    boolean test(BankTransaction bankTransaction);
 			  }
 		- -
 		- -
-		- OCP applied to a solution #card
+		- OCP applied to a solution #car
 			- This refactoring is very important because you now have introduced a way to decouple the iteration logic from the business logic through this interface. Your method no longer depends on one specific implementation of a filter. You can introduce new implementations by passing them as an argument without modifying the body of this method. Hence, it is now open for extension and closed for modification. This reduces the scope for introducing new bugs because it minimizes cascading changes required to parts of code that have already been implemented and tested. In other words, old code still works and is untouched.
 		- -
 		- -
-		- Example of class implementing an interface for OCP in Java #card
+		- Example of class implementing an interface for OCP in Java #car
 			- class BankTransactionIsInFebruaryAndExpensive implements BankTransactionFilter {
 			  
 			    @Override
@@ -119,7 +123,7 @@ tags:: #[[O'Reilly-Learning]]
 			    = bankStatementProcessor.findTransactions(new BankTransactionIsInFebruaryAndExpensive());
 		- -
 		- -
-		- Same code but using Lambda. Much better than the previous!!! #card
+		- Same code but using Lambda. Much better than the previous!!! #car
 			- Example 3-8. Implementing BankTransactionFilter using a lambda expression
 			  final List transactions
 			    = bankStatementProcessor.findTransactions(bankTransaction -&gt;
@@ -127,7 +131,8 @@ tags:: #[[O'Reilly-Learning]]
 			                &amp;&amp; bankTransaction.getAmount() &gt;= 1_000);
 		- -
 		- -
-		- Benefits of OCP #card
+		- Benefits of OCP #car
+		  id:: 63401532-6192-46fc-8c35-8dcaf18bdcd0
 			- To summarize, the Open/Closed Principle is a useful principle to follow because it:
 			  
 			  Reduces fragility of code by not changing existing code
@@ -149,11 +154,12 @@ tags:: #[[O'Reilly-Learning]]
 		  A solution to this problem is to introduce a new domain class such as Summary that wraps the double value. This means that in the future you can add other fields and results to this class. This technique helps further decouple the various concepts in your domain and also helps minimize cascading changes when requirements change. #ñspace
 		- -
 		- -
-		- About code ready for test #card
+		- About code ready for test #car
+		  id:: 63401532-5041-40ba-80f0-bd18e45901b0
 			- Returning void makes it very hard to test the result with assertions. What is the actual result to compare with the expected result? Unfortunately, you can’t get a result with void.
 		- -
 		- -
-		- About illegal values VS exceptions #card
+		- About illegal values VS exceptions #car
 			- Back in the frightening days of the C programming language, you would add a lot of if-condition checks that would return a cryptic error code. This approach had several drawbacks. First, it relied on global shared mutable state to look up the most recent error. This made it harder to understand individual parts of your code in isolation. As a result, your code became harder to maintain. Second, this approach was error prone as you needed to distinguish between real values and errors encoded as values. The type system in this case was weak and could be more helpful to the programmer. Finally, the control flow was mixed with the business logic, which contributed to making the code harder to maintain and test in isolation.
 		- -
 		- -
@@ -280,11 +286,12 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 	- 4. The Document Management System
 		- -
-		- __switch #card
+		- __switch #car
 			- This approach would have solved the problem in question but would be hard to extend. Every time you want to add another type of file that gets processed you would need to implement another entry in the switch statement. Over time this method would become intractably long and hard to read.
 		- -
 		- -
-		- About public constructors #card
+		- About public constructors #car
+		  id:: 63401532-54c1-48df-9c35-4f492fca5e94
 			- One final thing to note about Document is that it has a package-scoped constructor. Often Java classes make their constructor public, but this can be a bad choice as it allows code anywhere in your project to create objects of that type. Only code in the Document Management System should be able to create Documents, so we keep the constructor package scoped and restrict access to only the package that the Document Management System lives in.
 		- -
 		- -
@@ -297,16 +304,19 @@ tags:: #[[O'Reilly-Learning]]
 		  The Liskov Substitution Principle is often stated in these very formal terms, but is actually a very simple concept. Let’s demystify some of this terminology. If you hear type in this context, just think of a class or an interface. The term subtype means establish a parent-to-child relationship between types; in other words, extend a class or implement an interface. So informally you can think of this as meaning that child classes should maintain the behavior they inherit from their parents. We know, we know—it sounds like an obvious statement, but we can be more specific and split out LSP into four distinct parts: #ñspace
 		- -
 		- -
-		- Formal definition of LSP #card
+		- Formal definition of LSP #car
+		  id:: 63401532-ca4c-4a37-8dbe-cd269bf49f82
 			- LSP
 			  Let q(x) be a property provable about objects x of type T. Then q(y) should be true for objects y of type S where S is a subtype of T.
 		- -
 		- -
-		- Preconditions cannot be strengthened in a subtype #card
+		- Preconditions cannot be strengthened in a subtype #car
+		  id:: 63401532-9628-4b55-867c-d9a432537a97
 			- LSP means that you can’t require any more restrictive preconditions than your parent required. So, for example, you can’t require your document to be smaller than 100KB in size if your parent should be able to import any size of document.
 		- -
 		- -
-		- Postconditions cannot be weakened in a subtype #card
+		- Postconditions cannot be weakened in a subtype #car
+		  id:: 63401532-046e-44cd-babb-de82f258bb7e
 			- This might sound a bit confusing because it reads a lot like the first rule. Postconditions are things that have to be true after some code has run. For example, after importFile() has run, if the file in question is valid it must be in the list of documents returned by contents(). So if the parent has some kind of side effect or returns some value, then the child must do so as well.
 		- -
 		- -
@@ -314,16 +324,18 @@ tags:: #[[O'Reilly-Learning]]
 		  This is the hardest aspect of LSP to understand. In essence, the child class shouldn’t allow state changes that your parent disallowed. So, in our example program we have an immutable Document class. In other words, once it has been instantiated you can’t remove, add, or alter any of the attributes. You shouldn’t subclass this Document class and create a mutable Document class. This is because any user of the parent class would expect certain behavior in response to calling methods on the Document class. If the child were mutable, it could violate callers’ expectations about what calling those methods does. #ñspace
 		- -
 		- -
-		- About test function names #card
+		- About test function names #car
 			- The key driving principles when it comes to test naming are readability, maintainability, and acting as executable documentation. When you see a report of a test class being run, the names should act as statements that document what functionality works and what does not.
 		- -
 		- -
 		- Don't overuse the white-box tests!!!
-		  Specification, NOT Behaviour!!! #card
+		  id:: 63401532-72b3-43b4-9460-cef322e088a2
+		  Specification, NOT Behaviour!!! #car
 			- Our tests should only invoke these public API methods and not try to inspect the internal state of the objects or the design. This is one of the key mistakes made by developers that leads to hard-to-maintain tests. Relying on specific implementation details results in brittle tests because if you change the implementation detail in question, the test can start to fail even if the behavior is still working.
 		- -
 		- -
-		- DRY in unit tests #card
+		- DRY in unit tests #car
+		  id:: 63401532-437a-4de8-a219-a09a6a669445
 			- Example 4-20. Implementing a new assertion
 			    private void assertAttributeEquals(
 			        final Document document,
@@ -337,11 +349,13 @@ tags:: #[[O'Reilly-Learning]]
 			    }
 		- -
 		- -
-		- Do a little research about hamcrest #card
+		- Do a little research about hamcrest #car
+		  id:: 63401532-7ced-4b2b-a911-bf08da32d374
 			- These matchers come from the Hamcrest library, which is a very commonly used Java library that enables cleaner testing.
 		- -
 		- -
-		- Example of Test expecting an Exception #card
+		- Example of Test expecting an Exception #car
+		  id:: 63401532-b8bc-4a50-ab75-e0c44ae9277b
 			- @Test(expected = UnknownFileTypeException.class)
 			    public void shouldNotImportUnknownFile() throws Exception
 			    {
@@ -395,12 +409,12 @@ tags:: #[[O'Reilly-Learning]]
 		  } #ñspace
 		- -
 		- -
-		- ISP (Cohesion between Interfaces and clients) #card
+		- ISP (Cohesion between Interfaces and clients) #car
 			- Interface Segregation Principle. It makes the case that no class should be forced to depend on methods it does not use because this introduces unnecessary coupling. In Chapter 2, you learned about another principle, the Single Responsibility Principle (SRP), which promotes high cohesion. The SRP is a general design guideline that a class has responsibility over a single functionality and there should be only one reason for it to change. Although the ISP may sound like the same idea, it takes a different view. The ISP focuses on the user of an interface rather than its design. In other words, if an interface ends up very large, it may be that the user of that interface sees some behaviors it doesn’t care for, which causes unnecessary coupling.
 		- -
 	- 7. Extending Twootr
 		- -
-		- What does the Dependency Inversion principle mean? #card
+		- What does the Dependency Inversion principle mean? #car
 			- It states that:
 			  
 			  High-level modules should not depend upon low-level modules. Both should depend upon abstractions.

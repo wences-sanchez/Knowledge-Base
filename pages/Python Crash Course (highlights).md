@@ -15,24 +15,26 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message. #ñspace
 		- -
 		- -
-		- Show the last item of the list bicycles. #card
+		- Show the last item of the list bicycles. #car
+		  id:: 63401531-c5b6-401c-943c-681bc0c09cad
 			- print(bicycles[-1])
 		- -
 		- -
 		- Remove the last item of the list motorcycles, 
 		  then show the resultant list, 
 		  then show the removed object
-		  [call it removed_item] #card
+		  [call it removed_item] #car
 			- popped_motorcycle = motorcycles.pop()
 			  ➌ print(motorcycles)
 			  ➍ print(popped_motorcycle)
 		- -
 		- -
-		- Save in a variable named first_owned the (just removed) element with index 0 of the list motorcycles #card
+		- Save in a variable named first_owned the (just removed) element with index 0 of the list motorcycles #car
 			- first_owned = motorcycles.pop(0)
 		- -
 		- -
-		- Steps to create tests in Python #card
+		- Steps to create tests in Python #car
+		  id:: 63401531-26dc-4c9d-a6b6-20259ed3a5af
 			- To write a test case for a function, import the unittest module and the function you want to test. Then create a class that inherits from unittest.TestCase, and write a series of methods to test
 		- -
 		- -
@@ -46,35 +48,38 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- -
 	- 9 CLASSES
 		- -
-		- How do we call a testing function? #card
+		- How do we call a testing function? #car
+		  id:: 63401531-380c-4f0e-b89c-a1f10582aecb
 			- Any method that starts with test_ will be run automatically when we run test_name_function.py.
 		- -
 		- -
-		- Show a variable named status inside a string (in Python 3) #card
+		- Show a variable named status inside a string (in Python 3) #car
 			- message = f"My first bicycle was a {bicycles[0].title()}."
 		- -
 		- -
-		- 'Steal' the element with value 'ducati' from the motorcycles list #card
+		- 'Steal' the element with value 'ducati' from the motorcycles list #car
+		  id:: 63401531-e876-4f99-a1da-f3aafdef1321
 			- motorcycles.remove('ducati')
 		- -
 		- -
 		- It’s much better to think of variables as labels that you can assign to values. You can also say that a variable references a certain value. #ñspace
 		- -
 		- -
-		- Add 'ducati' at the end of the list motorcycles #card
+		- Add 'ducati' at the end of the list motorcycles #car
 			- motorcycles.append('ducati')
 		- -
 		- -
 		- 'Steal' the element with content 'ducati' from the motorcycles list.
-		  [Use the already defined variable named my_brand for this task] #card
+		  [Use the already defined variable named my_brand for this task] #car
 			- motorcycles.remove(too_expensive)
 		- -
 		- -
-		- Function to get the size of the list cars #card
+		- Function to get the size of the list cars #car
 			- len(cars)
 		- -
 		- -
-		- How would you define a constructor of a child class in Python? #card
+		- How would you define a constructor of a child class in Python? #car
+		  id:: 63401531-878b-4328-937b-285451aefe33
 			- def __init__(self, make, model, year):
 			           """Initialize attributes of the parent class."""
 			  ➍         super().__init__(make, model, year)
@@ -87,30 +92,34 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		  * 'trek'
 		  * 'cannondale'
 		  * 'redline'
-		  * 'specialized' #card
+		  * 'specialized' #car
 			- bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 		- -
 		- -
-		- Show the first element of the list bicycles. #card
+		- Show the first element of the list bicycles. #car
+		  id:: 63401531-e6e5-46ae-8141-d67f8dc0e9a9
 			- print(bicycles[0])
 		- -
 		- -
-		- Insert 'ducati' at the beginning of the list motorcycles without using square brackets: #card
+		- Insert 'ducati' at the beginning of the list motorcycles without using square brackets: #car
+		  id:: 63401531-d24c-4bb4-9878-d2e2af21aea4
 			- motorcycles.insert(0, 'ducati')
 		- -
 		- -
-		- Order alphabetically a list named cars. Make this change permanent. #card
+		- Order alphabetically a list named cars. Make this change permanent. #car
+		  id:: 63401531-a41a-48e7-b260-7f5e5443cb8f
 			- cars.sort()
 		- -
 		- -
 		- hese strings are called f-strings. The f is for format, because Python formats the string by replacing the name of any variable in braces with its value. #ñspace
 		- -
 		- -
-		- Remove the first element of the list motorcycles #card
+		- Remove the first element of the list motorcycles #car
 			- del motorcycles[0]
 		- -
 		- -
-		- Order alphabetically inversed a list named cars. Make this change permanent. #card
+		- Order alphabetically inversed a list named cars. Make this change permanent. #car
+		  id:: 63401531-7b2d-4c96-85f6-315cc40bfc68
 			- cars.sort(reverse=True)
 		- -
 		- -
@@ -120,7 +129,7 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- F-strings were first introduced in Python 3.6 #ñspace
 		- -
 		- -
-		- Show an alphabetically ordered list named cars. Make this change temporal. #card
+		- Show an alphabetically ordered list named cars. Make this change temporal. #car
 			- print(sorted(cars))
 		- -
 		- -
@@ -130,24 +139,26 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- Python programmers use all capital letters to indicate a variable should be treated as a constant and never be changed #ñspace
 		- -
 		- -
-		- Make the order of the list cars inverse. #card
+		- Make the order of the list cars inverse. #car
 		  card-last-interval:: -1
 		  card-repeats:: 1
 		  card-ease-factor:: 2.5
 		  card-next-schedule:: 2022-08-18T22:00:00.000Z
 		  card-last-reviewed:: 2022-08-18T12:47:17.646Z
 		  card-last-score:: 1
+		  id:: 63401531-548d-4aff-a8f6-00f1762641c3
 			- cars.reverse()
 		- -
 		- -
-		- Is it possible to reassign a tuple's content? #card
+		- Is it possible to reassign a tuple's content? #car
 			- Although you can't modify a tuple, you can assign a new value to a variable that represents a tuple.
 		- -
 		- -
 		- Python considers the first item in a list to be at position 0, not position 1 #ñspace
 		- -
 		- -
-		- Show the numbers: [1, 4] #card
+		- Show the numbers: [1, 4] #car
+		  id:: 63401531-6645-481b-bb66-695f93bd0905
 			- for value in range(1, 5):
 			    print(value)
 		- -
@@ -158,11 +169,12 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- Python has a special syntax for accessing the last element in a list. By asking for the item at index -1, Python always returns the last item in the list: #ñspace
 		- -
 		- -
-		- Show in a slice the first three items of the list players. #card
+		- Show in a slice the first three items of the list players. #car
+		  id:: 63401531-af95-4f5c-a970-7b210aa5fe64
 			- print(players[0:3])
 		- -
 		- -
-		- Copy the list my_foods to the list friend_foods without affectations. #card
+		- Copy the list my_foods to the list friend_foods without affectations. #car
 			- friend_foods = my_foods[:]
 		- -
 		- -
@@ -170,25 +182,27 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- -
 		- -
 		- [List Comprehension]
-		  Begin with a descriptive name for the list, such as squares. Next, open a set of square brackets and define the expression for the values you want to store in the new list. In this example the expression is value**2, which raises the value to the second power. Then, write a for loop to generate the numbers you want to feed into the expression, and close the square brackets. The for loop in this example is for value in range [1, 10] #card
+		  id:: 63401531-c0b4-4a62-8e70-b2b66d4d8ed9
+		  Begin with a descriptive name for the list, such as squares. Next, open a set of square brackets and define the expression for the values you want to store in the new list. In this example the expression is value**2, which raises the value to the second power. Then, write a for loop to generate the numbers you want to feed into the expression, and close the square brackets. The for loop in this example is for value in range [1, 10] #car
 			- squares = [value**2 for value in range(1, 11)]
 		- -
 		- -
-		- Show in a slice the second, third and fourth items of the list players #card
+		- Show in a slice the second, third and fourth items of the list players #car
+		  id:: 63401531-c2a2-4c8c-81f9-499ad2989d06
 			- print(players[1:4])
 		- -
 		- -
 		- alphabetically #ñspace
 		- -
 		- -
-		- Construct a list with the numbers: [1, 5] #card
+		- Construct a list with the numbers: [1, 5] #car
 			- numbers = list(range(1, 6))
 		- -
 		- -
 		- Notice that reverse() doesn’t sort backward alphabetically; it simply reverses the order of the list: #ñspace
 		- -
 		- -
-		- Another way of access to an element in a dict instead of indexes in square brackets #card
+		- Another way of access to an element in a dict instead of indexes in square brackets #car
 			- For dictionaries, specifically, you can use the get() method to set a default value that will be returned if the requested key doesn’t exist.
 		- -
 		- -
@@ -198,7 +212,8 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- keep in mind when writing your own for loops that you can choose any name you want for the temporary variable that will be associated with each value in the list. However, it’s helpful to choose a meaningful name that represents a single item from the list. #ñspace
 		- -
 		- -
-		- How can you split a string in multiple lines? #card
+		- How can you split a string in multiple lines? #car
+		  id:: 63401531-9804-466c-af99-5d6994551c46
 			- print(f"You ordered a {pizza['crust']}-crust pizza "
 			       "with the following toppings:")
 		- -
@@ -220,8 +235,9 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- -
 		- -
 		- Build a dict named alien_0 with:
+		  id:: 63401530-9ec7-4c23-8adb-e10e61eb5283
 		  color ---> green
-		  points ---> 50 #card
+		  points ---> 50 #car
 			- alien_0 = {'color': 'green', 'points': 5}
 		- -
 		- -
@@ -232,7 +248,8 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- A tuple looks just like a list except you use parentheses instead of square brackets. Once you define a tuple, you can access individual elements by using each item’s index, just as you would for a list. #ñspace
 		- -
 		- -
-		- How should I use the import's in Python? #card
+		- How should I use the import's in Python? #car
+		  id:: 63401530-2a78-40dd-9bc9-691bcdb15f6c
 			- The best approach is to import the function or functions you want, or import the entire module and use the dot notation. This leads to clear code that's easy to read and understand.
 		- -
 	- 10 FILES AND EXCEPTIONS
@@ -246,68 +263,74 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		- u'll often want to run through all entries in a list, performing the same task with each item. For example, in a game you might want to move every element on the screen by the same amount, or in a list of numbers you might want to perform the same statistic #ñspace
 		- -
 		- -
-		- Is it possible to reassign a tuple's content? #card
+		- Is it possible to reassign a tuple's content? #car
 			- Although you can’t modify a tuple, you can assign a new value to a variable that represents a tuple.
 		- -
 		- -
-		- How do you call a base class' constructor? #card
+		- How do you call a base class' constructor? #car
 			- super().__init__(make, model, year)
 		- -
 		- -
-		- How should I use the import's in Python? #card
+		- How should I use the import's in Python? #car
+		  id:: 63401530-8030-4dfb-9ac7-a3fd8e3091a5
 			- The best approach is to import the function or functions you want, or import the entire module and use the dot notation. This leads to clear code that’s easy to read and understand.
 		- -
 		- -
 		- Build a dict named alien_0 with:
+		  id:: 63401530-b2f4-4a61-b124-08a7dfd57e8c
 		  color ---> green
-		  points ---> 50 #card
+		  points ---> 50 #car
 			- alien_0 = {'color': 'green', 'points': 5}
 		- -
 		- -
 		- Add a new key-value entry to an existing dict in Python.
+		  id:: 63401530-b64b-4db1-9aa6-1ed280674c7b
 		  Values x-0, y-25.
 		  
 		  BEFORE:
-		  my_dict = {'color': 'green', 'points': 5} #card
+		  my_dict = {'color': 'green', 'points': 5} #car
 			- ➊ alien_0['x_position'] = 0
 			  ➋ alien_0['y_position'] = 25
 		- -
 		- -
-		- Remove the entry with key ‘points’ from the dict alien. #card
+		- Remove the entry with key ‘points’ from the dict alien. #car
 			- del alien_0['points']
 		- -
 		- -
 		- Access to a dict but printing a message in case of error.
+		  id:: 63401530-21ff-4ee9-a6eb-2bc8d2b220ec
 		  dict: my_map
 		  key: ‘point’
 		  Message: ‘unassigned’
-		  Variable: point_value #card
+		  Variable: point_value #car
 			- point_value = alien_0.get('points', 'No point value assigned.')
 		- -
 		- -
-		- Loop over dict user_0 with its separate parts #card
+		- Loop over dict user_0 with its separate parts #car
 			- for key, value in user_0.items():
 		- -
 		- -
-		- Iterate over the keys of a dict fav_langs {name:value} #card
+		- Iterate over the keys of a dict fav_langs {name:value} #car
 			- for name in favorite_languages.keys():
 			       print(name.title())
 		- -
 		- -
-		- Tell another use of keys() in Python aside looping #card
+		- Tell another use of keys() in Python aside looping #car
+		  id:: 63401530-c704-443f-9230-aaefcfbb9334
 			- The keys() method isn’t just for looping: it actually returns a list of all the keys, and the line at ➊ simply checks if 'erin' is in this list.
 		- -
 		- -
-		- Iterate over the content of a dict fav_langs on a loop {key: content} #card
+		- Iterate over the content of a dict fav_langs on a loop {key: content} #car
 			- for language in favorite_languages.values():
 		- -
 		- -
 		- Iterate over the content of a dict without repeating.
-		  Dict: fav_langs #card
+		  Dict: fav_langs #car
 			- for language in set(favorite_languages.values()):
 		- -
 		- -
-		- Repeat a message ‘me’ 30 times in Python. #card
+		- Repeat a message ‘me’ 30 times in Python. #car
+		  id:: 63401530-1394-424e-b3d6-6b5a8f16cfc6
 			- for alien_number in range(30):
 		- -
 		- -
@@ -315,27 +338,28 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 		  
 		  describe_pet(animal_type='hamster', pet_name='harry')
 		  
-		  describe_pet(‘hamster', ‘harry') #card
+		  describe_pet(‘hamster', ‘harry') #car
 			- The function describe_pet() hasn’t changed. But when we call the function, we explicitly tell Python which parameter each argument should be matched with. When Python reads the function call, it knows to assign the argument 'hamster' to the parameter animal_type and the argument 'harry' to pet_name. The output correctly shows that we have a hamster named Harry.
 			  
 			  The order of keyword arguments doesn’t matter because Python knows where each value should go.
 		- -
 		- -
-		- Print via a function in Python a list without being able to modify it. #card
+		- Print via a function in Python a list without being able to modify it. #car
 			- print_models(unprinted_designs[:], completed_models)
 		- -
 		- -
-		- Design a function which contains unlimited arguments. #card
+		- Design a function which contains unlimited arguments. #car
 			- def make_pizza(*toppings):
 			    """Print the list of toppings that have been requested."""
 			    print(toppings)
 		- -
 		- -
-		- Explain how unlimited function parameters works in Python #card
+		- Explain how unlimited function parameters works in Python #car
 			- The asterisk in the parameter name *toppings tells Python to make an empty tuple called toppings and pack whatever values it receives into this tuple. The print() call in the function body produces output showing that Python can handle a function call with one value and a call with three values. It treats the different calls similarly. Note that Python packs the arguments into a tuple, even if the function receives only one value
 		- -
 		- -
-		- Can you pass infinite key-value entries to a function in Python? #card
+		- Can you pass infinite key-value entries to a function in Python? #car
+		  id:: 63401530-b203-4650-8dc7-9d4bbded4a5b
 			- def build_profile(first, last, **user_info):
 			       """Build a dictionary containing everything we know about a user."""
 			  ➊     user_info['first_name'] = first
@@ -343,36 +367,40 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			       return user_info
 		- -
 		- -
-		- Bring the module ‘pizza’ into your scope to use pizza.make_pizza() #card
+		- Bring the module ‘pizza’ into your scope to use pizza.make_pizza() #car
+		  id:: 63401530-2bbb-4e06-95e1-89a036472ad4
 			- import pizza
 		- -
 		- -
 		- Bring the module ‘pizza’ into your scope to use ONLY pizza.make_pizza().
 		  
-		  Use it. #card
+		  Use it. #car
 			- from pizza import make_pizza
 		- -
 		- -
 		- Bring the module ‘pizza’ into your scope to use ONLY pizza.make_pizza(). Use an alias.
 		  
-		  Use it. #card
+		  Use it. #car
 			- from pizza import make_pizza as mp
 		- -
 		- -
 		- Bring a module ‘pizza’ to your scope but using an abbreviation.
+		  id:: 63401530-fe3e-483f-8bfc-51c3dbbe710e
 		  
-		  Use it. #card
+		  Use it. #car
 			- import pizza as p
 		- -
 		- -
-		- Build a constructor in Python #card
+		- Build a constructor in Python #car
+		  id:: 63401530-1fd1-4135-8e07-4d2b85958db9
 			- def __init__(self, name, age):
 			           """Initialize name and age attributes."""
 			  ➍         self.name = name
 			           self.age = age
 		- -
 		- -
-		- Define a method in Python #card
+		- Define a method in Python #car
+		  id:: 63401530-84e9-4f96-a562-a82f9eca0b3a
 			- def sit(self):
 			           """Simulate a dog sitting in response to a command."""
 			           print(f"{self.name} is now sitting.")
@@ -382,27 +410,31 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			- my_dog = Dog('Willie', 6)
 		- -
 		- -
-		- How do you call a base class' constructor from the subclass? #card
+		- How do you call a base class' constructor from the subclass? #car
+		  id:: 63401530-fb39-4505-9811-3db1aa3b3fbe
 			- def __init__(self, make, model, year):
 			           """Initialize attributes of the parent class."""
 			  ➍         super().__init__(make, model, year)
 		- -
 		- -
-		- How do you read a text file? #card
+		- How do you read a text file? #car
 			- with open('pi_digits.txt') as file_object:
 			    contents = file_object.read()
 			  print(contents)
 		- -
 		- -
-		- Should I close a file in Python or not? #card
+		- Should I close a file in Python or not? #car
+		  id:: 63401530-356b-401a-96d0-cfe589eb64b7
 			- Notice how we call open() in this program but not close(). You could open and close the file by calling open() and close(), but if a bug in your program prevents the close() method from being executed, the file may never close. This may seem trivial, but improperly closed files can cause data to be lost or corrupted. And if you call close() too early in your program, you’ll find yourself trying to work with a closed file (a file you can’t access), which leads to more errors. It’s not always easy to know exactly when you should close a file, but with the structure shown here, Python will figure that out for you. All you have to do is open the file and work with it as desired, trusting that Python will close it automatically when the with block finishes execution.
 		- -
 		- -
-		- Forward slashes OR backslashes in Python? #card
+		- Forward slashes OR backslashes in Python? #car
+		  id:: 63401530-ae5a-4478-995f-028c562b97e5
 			- Windows systems use a backslash (\) instead of a forward slash (/) when displaying file paths, but you can still use forward slashes in your code.
 		- -
 		- -
-		- Example to read a file line by line #card
+		- Example to read a file line by line #car
+		  id:: 63401530-8b2d-48bc-87a6-f392032537e6
 			- filename = 'pi_digits.txt'
 			  
 			  ➋ with open(filename) as file_object:
@@ -410,22 +442,24 @@ tags:: #[[O'Reilly-Learning]] #[[Python]]
 			          print(line)
 		- -
 		- -
-		- Write some text in a file in Python. #card
+		- Write some text in a file in Python. #car
+		  id:: 63401530-5938-49e9-83e7-24a5a25e3a12
 			- filename = 'programming.txt'
 			  
 			  ➊ with open(filename, 'w') as file_object:
 			  ➋     file_object.write("I love programming.")
 		- -
 		- -
-		- Different file modes in Python. #card
+		- Different file modes in Python. #car
 			- You can open a file in read mode ('r'), write mode ('w'), append mode ('a'), or a mode that allows you to read and write to the file ('r+'). If you omit the mode argument, Python opens the file in read-only mode by default.
 		- -
 		- -
-		- What does ‘else’ mean in a Exception? #card
+		- What does ‘else’ mean in a Exception? #car
 			- Any code that depends on the try block succeeding is added to the else block. In this case if the division operation is successful, we use the else block to print the result
 		- -
 		- -
-		- Example of exception in Python #card
+		- Example of exception in Python #car
+		  id:: 63401530-7575-40be-b8a7-07892356bfd3
 			- try:
 			           answer = int(first_number) / int(second_number)
 			  ➋     except ZeroDivisionError:

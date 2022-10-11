@@ -6,7 +6,8 @@ url:: https://www.cyberciti.biz/faq/unix-linux-grep-word-count-command/
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How could you count the number of one word in a file or files in Bash? #card
+	- How could you count the number of one word in a file or files in Bash? #car
+	  id:: 63401544-1d73-4bbc-a4c4-35628596b608
 		- grep -c "word" file
 		  grep -c "string" file
 		  In this example, search for a word called ‘var’ and display a count of matching lines:

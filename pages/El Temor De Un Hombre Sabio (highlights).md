@@ -13,7 +13,8 @@ tags:: #[[Literature]]
 		- ([Location 1479](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=1479))
 	- -
 	- -
-	- So as life? #card
+	- So as life? #car
+	  id:: 63401511-2952-453a-93bb-ee062b7f2ddc
 		- Nombres —dijo Dal con firmeza, y apartó la mano del brasero. La tenía manchada de ceniza, pero ilesa—. Los nombres reflejan la verdadera comprensión de una cosa, y cuando comprendes de verdad una cosa, tienes poder sobre ella.
 		- ([Location 4231](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=4231))
 		- #[[mind]]
@@ -23,12 +24,13 @@ tags:: #[[Literature]]
 		- ([Location 4285](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=4285))
 	- -
 	- -
-	- Now I am in the middle of a job change. It's March and in two months I'll be a QA :D #card
+	- Now I am in the middle of a job change. It's March and in two months I'll be a QA :D #car
 		- Por primera vez que yo recordara, sentía que ejercía cierto control sobre mi vida.
 		- ([Location 7585](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=7585))
 	- -
 	- -
-	- ¿Quieres la verdad...? #card
+	- ¿Quieres la verdad...? #car
+	  id:: 63401511-8621-4575-8aa1-25963974ba00
 		- Y mientras corría, oía al Cthaeh hablando detrás de mí. Su voz áspera me siguió hasta donde yo no habría creído posible. —Vuelve. Vuelve. Tengo más cosas que contarte. Tengo muchísimas más cosas que contarte. ¿No quieres quedarte?
 		- ([Location 15558](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=15558))
 		- #[[mind]]

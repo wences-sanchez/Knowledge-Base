@@ -25,7 +25,8 @@ category:: #books
 		- #[[naranja]]
 	- -
 	- -
-	- Crear un servlet a partir de un POJO #card
+	- Crear un servlet a partir de un POJO #car
+	  id:: 6340151e-243c-4900-8b1d-0ee90b3330f6
 		- A servlet is defined using the @WebServlet annotation on a POJO, and must extend the javax.servlet.http.HttpServlet class.
 		- ([Location 420](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=420))
 	- -
@@ -47,7 +48,7 @@ category:: #books
 		- ([Location 495](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=495))
 	- -
 	- -
-	- Probar con variables en la dirección web en el browser (doGET) #card
+	- Probar con variables en la dirección web en el browser (doGET) #car
 		- In a GET request, these parameters are passed in the query string as name/value pairs.
 		- ([Location 495](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=495))
 	- -
@@ -124,17 +125,19 @@ category:: #books
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- Usar EL para mostrar una variable de una clase ejemplo. #card
+	- Usar EL para mostrar una variable de una clase ejemplo. #car
+	  id:: 6340151e-602e-41ba-b877-2571ed8d4eb7
 		- Facelets provides Expression Language (EL) integration. This allows two-way data binding between the backing beans and the UI:
 		- ([Location 1339](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1339))
 	- -
 	- -
-	- Para usar EL tenemos que estar en una página de tipo .jsp, .jsf, por supuesto. O decirle a Eclipse que tenga la página en cuenta. #card
+	- Para usar EL tenemos que estar en una página de tipo .jsp, .jsf, por supuesto. O decirle a Eclipse que tenga la página en cuenta. #car
+	  id:: 6340151e-5615-4eab-a131-73beaf1b22b0
 		- web pages built with XHTML have a .xhtml extension.
 		- ([Location 1339](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1339))
 	- -
 	- -
-	- Para las EL, hay que poner el nombre de la clase en minúscula. #card
+	- Para las EL, hay que poner el nombre de la clase en minúscula. #car
 		- @Named @RequestScoped
 		- ([Location 1347](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1347))
 		- #[[pink]] #[[rosa]]
@@ -150,12 +153,14 @@ category:: #books
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- Crear una página plantilla JSF. #card
+	- Crear una página plantilla JSF. #car
+	  id:: 6340151e-7903-4fb2-beea-df347757e697
 		- A template page looks like:
 		- ([Location 1397](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1397))
 	- -
 	- -
-	- Crear una página cliente JSF #card
+	- Crear una página cliente JSF #car
+	  id:: 6340151e-e71a-451a-95b3-2add760b96cf
 		- A template client page looks like:
 		- ([Location 1427](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1427))
 	- -

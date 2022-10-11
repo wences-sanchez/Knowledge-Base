@@ -6,7 +6,7 @@ url:: https://stackoverflow.com/questions/27571377/datetimeformatter-support-for
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- . #card
+	- . #car
 		- DateTimeFormatter formatter = new DateTimeFormatterBuilder()
 		            .appendOptional(DateTimeFormatter.ofPattern("M/dd/yyyy"))
 		            .toFormatter();

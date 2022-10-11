@@ -9,7 +9,7 @@ tags:: #[[Literature]]
 - ![](https://m.media-amazon.com/images/I/91pgU9ZcRWL._SY160.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Vida pasada vs futura... #card
+	- Vida pasada vs futura... #car
 		- Desde la edad de siete años, su madre lo despertaba unos minutos antes de las dos de la madrugada para que bajara a la mina donde se pasaba quince horas trabajando hasta las cinco de la tarde. Entonces regresaba a casa muerto de agotamiento y a menudo se quedaba dormido mientras se comía las gachas de la cena. Ahora Mack ya no quería ser buhonero,
 		- ([Location 95](https://readwise.io/to_kindle?action=open&asin=B00HQLB6U4&location=95))
 		- #[[mind]]
@@ -23,13 +23,14 @@ tags:: #[[Literature]]
 		- ([Location 1940](https://readwise.io/to_kindle?action=open&asin=B00HQLB6U4&location=1940))
 	- -
 	- -
-	- ¿Don't you realize? #card
+	- ¿Don't you realize? #car
 		- él siempre había sabido que llegaría aquel momento. Siempre había soñado con escapar. Envidiaba al buhonero Davey Patch y ansiaba disfrutar de una libertad como la suya. Ahora ya la tenía. Se llenó de júbilo al pensar en lo que había hecho.
 		- ([Location 2026](https://readwise.io/to_kindle?action=open&asin=B00HQLB6U4&location=2026))
 		- #[[mind]]
 	- -
 	- -
-	- Why don't you go there? #card
+	- Why don't you go there? #car
+	  id:: 63401544-212f-495b-bdf6-714d71f91deb
 		- Le encantaba Londres. Se emocionaba cada mañana al despertar cuando recordaba dónde estaba. La ciudad estaba llena de espectáculos y sorpresas, gentes extrañas y nuevas experiencias.
 		- ([Location 2060](https://readwise.io/to_kindle?action=open&asin=B00HQLB6U4&location=2060))
 		- #[[mind]]

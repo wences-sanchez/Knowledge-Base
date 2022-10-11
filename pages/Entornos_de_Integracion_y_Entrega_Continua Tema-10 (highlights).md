@@ -25,12 +25,13 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- Explica el despliegue blue/green #card
+	- Explica el despliegue blue/green #car
+	  id:: 63401511-3ddb-489c-a1e7-135c8da1dbf5
 		- Este  tipo  de  despliegue,  a  veces  denominado  black/white,  consiste  en  desplegar dos entornos de producción y dirigir el tráfico a uno u otro, ya sea a través de un balanceador de carga o mediante el nombre DNS. En un momento dado, el entorno azul  sirve  la  versión  de  producción  y  recibe  todo  el  tráfico  (tal  como  muestra  la Figura 1 en el paso a). Durante un despliegue, se crea un entorno nuevo, al que se denomina verde, idéntico en cuanto a infraestructura, a partir de la nueva versión (paso  b).  Cuando  el  entorno  verde  está  listo,  se  modifica  el  balanceador  de  carga para que dirija todo el tráfico a este (paso c). Una vez validado el nuevo entorno de producción, el azul se podría desmantelar.
 		- (Page 9)
 	- -
 	- -
-	- Sobre Kubernetes en despliegues continuos #card
+	- Sobre Kubernetes en despliegues continuos #car
 		- Una  de  las  características  de  estos  despliegues  es  que  solo  se  continúa  con  la sustitución  de  servidores  si  los  desplegados  hasta  el  momento  se  consideran válidos.  Por  ejemplo,  Kubernetes  ofrece  este  tipo  de  despliegues  a  partir  de  dos parámetros de un Deployment:   El  parámetro  maxUnavailable  indica  el  número  máximo  de  contenedores  que pueden  estar  no  disponibles.  En  el  ejemplo  de  la  Figura  3,  el  valor  sería  de  2 (también  se  podría  especificar  con  un  porcentaje).  Los  dos  nodos  con  la  v2  del paso b tardan un tiempo en crearse y arrancar el proceso, por lo que de manera efectiva hay dos contenedores no disponibles.   La  configuración  de  una  sonda  con  readinessProbe  define  un  comando  o  una petición  HTTP  que  se  ejecuta  contra  el  contenedor,  una  vez  creado.  Cuando  el resultado es positivo, el contenedor se considera disponible.
 		- (Page 14)
 	- -

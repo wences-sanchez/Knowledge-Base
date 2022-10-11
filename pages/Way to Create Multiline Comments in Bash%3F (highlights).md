@@ -6,7 +6,7 @@ url:: https://stackoverflow.com/questions/43158140/way-to-create-multiline-comme
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How can you comment multiple lines in Bash? .code .bash #card
+	- How can you comment multiple lines in Bash? .code .bash #car
 		- Use : ' to open and ' to close.
 		  
 		  For example:

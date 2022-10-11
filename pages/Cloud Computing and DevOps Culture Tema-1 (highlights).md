@@ -29,7 +29,7 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- ¿Es realmente posible cambiar de roles en devops? #card
+	- ¿Es realmente posible cambiar de roles en devops? #car
 		- Los desarrolladores y los ingenieros de operaciones, generalmente, prefieren un entorno DevOps porque pueden trabajar de manera más eficiente y cambiar de roles cuando sea necesario.
 		- (Page 9)
 	- -
@@ -38,7 +38,7 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- DevOps VS Agile #card
+	- DevOps VS Agile #car
 		- DevOps  tuvo  sus  orígenes  en  Agile.  Para  comprender  mejor  esta  afirmación,  es importante  recordar  que  Agile  promueve  el  desarrollo  de  software  a  través  de iteraciones  cortas, la  entrega  continua  de  nuevas  características,  así  como correcciones  de  errores  en  ciclos  rápidos,  de  entre  dos  a  cuatro  semanas.  Por  su parte, DevOps elimina los silos que separan a los equipos de desarrollo y operaciones con  el  objetivo  de  disminuir  el  tiempo  de  respuesta  a  sus  clientes,  y  garantizar  la entrega continua de software.
 		- (Page 14)
 	- -
@@ -51,17 +51,18 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- ¿Qué es la Integración Continua? #card
+	- ¿Qué es la Integración Continua? #car
 		- La integración  continua  se  hizo  popular  gracias  al  movimiento  ágil  (o  Agile).  Esta filosofía  de  trabajo  tiene  como  objetivo  que los  desarrolladores integren regularmente su trabajo con el del resto de los desarrolladores de su equipo y luego ejecuten pruebas para comprobar que dicha integración ha sido exitosa.
 		- (Page 18)
 	- -
 	- -
-	- ¿Es la comunicación suficiente en DevOps? #card
+	- ¿Es la comunicación suficiente en DevOps? #car
 		- la  idea  de  que  la  comunicación  y  la colaboración resuelven todos los problemas es errónea. Si bien DevOps se apoya en la  comunicación,  si  esta  viene  acompañada  de  procesos  desorganizados,  equipos disfuncionales,  o  malas  inversiones,  no  conduce  a  mejores  resultados  ni  a  la obtención de beneficios.
 		- (Page 24)
 	- -
 	- -
-	- ¿Cuál es la periodicidad ideal de las releases en DevOps? #card
+	- ¿Cuál es la periodicidad ideal de las releases en DevOps? #car
+	  id:: 634014fc-c89d-4147-a3d7-3a404c128651
 		- La  adopción  de DevOps  permite  a  las  organizaciones  hacer  un  push  a  producción  cuando  sea justificado  y  necesario,  y  no  se  rige  por  una  fecha  concreta  marcada  en  un calendario.
 		- (Page 24)
 	- -

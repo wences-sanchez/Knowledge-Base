@@ -9,7 +9,7 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/66b816fe-4b33-4e3e-950e-6714a863f7e6.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- ¿Qué es la técnica del valor ganado ágil? #card
+	- ¿Qué es la técnica del valor ganado ágil? #car
 		- El valor ganado es la estrategia usada para conocer el valor de negocio real generado por  un  proyecto  en  un  determinado  momento.  El  análisis  del  valor  ganado  en  un proyecto ágil consiste en aplicar la velocidad al valor económico de cada punto de historia. Una cuestión importante es que en proyectos ágiles el valor ganado es 100 % real, ya  que  se  basa  en  los  resultados  entregados,  no  solo  en  avances  parciales  de  las tareas. Para el cálculo, se divide el presupuesto del proyecto entre el número total de puntos de historia del proyecto, obteniendo lo que sería el valor económico de cada punto de historia (único para cada proyecto).
 		- (Page 5)
 	- -
@@ -24,7 +24,7 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 	- -
 	- ¿Qué es el *burn up chart*?
 	  
-	  INCLUIR IMAGEN #card
+	  INCLUIR IMAGEN #car
 		- Este gráfico o diagrama es similar al burndown (Figura 3), con la diferencia que en este caso se comienza con cero puntos de historia conseguidos, y se van a notando los que se van alcanzando. Se suele representar la línea ideal de ascenso de puntos restantes para tener la comparativa visual. Si la línea de ejecución va por encima de la ideal, la velocidad es mayor de la esperada, y viceversa. Cuando todas las tareas de un  requisito  se  han  completado,  llegando  al  Done  del  Kanban  de  la  iteración,  se suman los puntos de historia de ese requisito y se actualiza el diagrama. El gráfico presenta que el número de puntos que quedan se han completado.
 		- (Page 11)
 	- -

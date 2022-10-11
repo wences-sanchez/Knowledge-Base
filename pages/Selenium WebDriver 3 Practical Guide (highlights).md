@@ -40,7 +40,8 @@ category:: #books
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- Buscar y comparar con junit #card
+	- Buscar y comparar con junit #car
+	  id:: 63401534-0069-4dd8-a989-9ebcb065a166
 		- TestNG
 		- ([Location 490](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=490))
 		- #[[pink]] #[[rosa]]
@@ -86,7 +87,8 @@ category:: #books
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- La clase es la del CSS! Ya sea especificada en el .css o en el .html #card
+	- La clase es la del CSS! Ya sea especificada en el .css o en el .html #car
+	  id:: 63401534-42cd-4d83-bd1b-5a6b7a197f68
 		- driver.findElement(By.className("search-button"));
 		- ([Location 756](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=756))
 		- #[[orange]] #[[naranja]]

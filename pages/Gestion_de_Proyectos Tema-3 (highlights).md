@@ -17,12 +17,12 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 6)
 	- -
 	- -
-	- ¿Qué es el **backlog**? #card
+	- ¿Qué es el **backlog**? #car
 		-   Backlog  o  retraso  Incluye  el  Product  Backlog  (retraso  del  producto  o  pila  de producto), y el Sprint Backlog (retraso del sprint o pila de sprint). Representa la lista  de  prioridades  de  las  funcionalidades  del  sistema,  pudiendo  añadirse  en cualquier momento, y un responsable se encargará de evaluar el Product Backlog, actualizándolo con las nuevas prioridades.
 		- (Page 7)
 	- -
 	- -
-	- Define *Sprint*. #card
+	- Define *Sprint*. #car
 		-   Sprint. Un Sprint representa una unidad de trabajo necesaria para implementar una funcionalidad definida en el Sprint Backlog, al deber ajustarse a un calendario (suele ser máximo de un mes). Mientras se lleva a cabo un Sprint, no se podrán introducir cambios, pudiendo así trabajar el equipo de desarrollo en entregas a corto plazo y de manera estable, sin que se produzcan alteraciones.
 		- (Page 7)
 	- -
@@ -31,17 +31,18 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 12)
 	- -
 	- -
-	- Define el rol de *Product Owner* #card
+	- Define el rol de *Product Owner* #car
 		- El Propietario del Producto (Product Owner) es una persona, y no un comité, y es el responsable  de  gestionar  todas  las  funcionalidades,  encargado  de  optimizar  y maximizar  el  valor  del  producto  a  través  del  Product  Backlog,  dependiendo  de  su trabajo, en gran parte el éxito del proyecto. Debe tener una visión clara y conocer perfectamente el software a ser desarrollado, ser capaz de transmitir dicha visión a los desarrolladores y actuar como interlocutor entre los stakeholders y sponsors del proyecto. El Product Owner también se relaciona con la representación del negocio, aportando  valor  al  producto.  Este  rol  suele  ser  adoptado  por  uno  de  los  futuros usuarios del sistema a desarrollar, o algún representante de marketing que tenga un conocimiento de lo que el sistema necesita. Por tanto, es realmente importante que el  Product  Owner  tenga  la  capacidad  suficiente  de  tomar  cualquier  decisión  que
 		- (Page 14)
 	- -
 	- -
-	- <<<<<<<<<< #card
+	- <<<<<<<<<< #car
 		- afecte  al  producto,  estableciendo  una  estructura  adecuada  y  prioridades  en  las demandas y cambios de requisitos por parte del cliente. Puede realizar el trabajo por sí  mismo  o  incluso  delegar  la  responsabilidad  en  otros,  aunque  sigue  siendo  el máximo  responsable.  En  resumen,  las  principales  responsabilidades  del  Product Owner son las siguientes:   Definir la planificación ágil del proyecto a cualquier nivel de abstracción.   Determinar  claramente,  gestionar  y  priorizar las  historias  de  usuario  o funcionalidades del sistema.   Definir los criterios de aceptación de las historias de usuario.   Desarrollar y comunicar explícitamente el Objetivo del Producto.   Validar las entregas del producto software resultante tras cada iteración, antes de  ser  entregadas  al  usuario,  asegurando  que  el  trabajo  pendiente  sea transparente, visible y comprendido.   Definir los productos mínimo-viables MVP (Minimum Viable Produt).   Disponibilidad para abordar cualquier duda o necesidad que surja al equipo.   Maximizar el retorno de inversión del proyecto.
 		- (Page 15)
 	- -
 	- -
-	- Explica en qué consiste el rol de *Scrum Master* #card
+	- Explica en qué consiste el rol de *Scrum Master* #car
+	  id:: 63401513-9de7-41b9-aed7-9b1ab7ae1da5
 		- Es el líder ágil, el mentor que capacita a la organización en la adopción de Scrum. Así, tiene  la  responsabilidad de  asegurar  que  el  Equipo  Scrum  siga  las prácticas  Scrum establecidas en la Guía de Scrum, al ser, por tanto, sus dos funciones principales las de gestionar el proceso Scrum y ayudar a eliminar impedimentos que afecten a la entrega  del  producto  software.  En  Scrum  no  se  trabaja  con  la  figura  de  jefe  de proyecto, y se podría decir que el rol más similar sería el Scrum Master. De hecho, puede que el Scrum Master esté compartido con varios equipos Scrum, aunque esto también puede afectar al resultado del proyecto según su disponibilidad. A modo de resumen, las principales funciones del Scrum Master son las siguientes (algunas las aplica directamente sobre el Equipo Scrum al completo, otras sobre la organización, y otras sobre el Product Owner):
 		- (Page 15)
 	- -
@@ -50,7 +51,8 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 16)
 	- -
 	- -
-	- <<<<<<<<<<< #card
+	- <<<<<<<<<<< #car
+	  id:: 63401513-6c65-43eb-b368-c903a1b51654
 		- o
 		- (Page 16)
 	- -
@@ -59,12 +61,13 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- Explica qué es un *sprint* #card
+	- Explica qué es un *sprint* #car
 		- Los  Sprints  son  los  eventos  base  de  Scrum,  a  través  de  los  cuales  las  ideas  se convierten en valor. Un Sprint es un evento de longitud fija, con una duración de un mes  o  menos,  para  así  crear  consistencia.  Al  finalizar  un  Sprint,  se  comienza  el siguiente inmediatamente. Dentro de un Sprint se lleva a cabo todo el trabajo que es necesario  para  poder  alcanzar  el  objetivo  del  producto,  que  incluye  una  serie  de eventos  o  reuniones:  Planificación  del  Sprint  (Sprint  Planning), Scrum  Diario  (Daily Scrum),  Revisión  del  Sprint  (Sprint  Review),  y  Retrospectiva  del  Sprint  (Sprint Retrospective).
 		- (Page 19)
 	- -
 	- -
-	- <<<<<<<< #card
+	- <<<<<<<< #car
+	  id:: 63401513-e270-4c84-b750-13a13f41b20b
 		- Durante la duración de un Sprint se tienen en cuenta una serie de consideraciones:   No se pueden hacer cambios que pongan en riesgo el Objetivo Sprint.   La calidad no disminuye.   Se refina el trabajo pendiente del producto según sea necesario.   Se puede clarificar y renegociar el alcance con el Product Owner en base a lo que se va aprendiendo.
 		- (Page 20)
 	- -

@@ -10,11 +10,12 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 	- 1 Introduction
 		- -
 		- Talk about Docker's running mechanisms.
-		  [](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9780988820203/files/media/file0.png) #card
+		  [](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9780988820203/files/media/file0.png) #car
 			- Docker is a client-server application. The Docker client talks to the Docker server or daemon, which, in turn, does all the work. You’ll also sometimes see the Docker daemon called the Docker Engine. Docker ships with a command line client binary, docker, as well as a full RESTful API to interact with the daemon: dockerd. You can run the Docker daemon and client on the same host or connect your local Docker client to a remote daemon running on another host. You can see Docker’s architecture depicted here:
 		- -
 		- -
-		- Docker's technical components: #card
+		- Docker's technical components: #car
+		  id:: 63401537-62bf-404a-9239-d7555f476b90
 			- A native Linux container format that Docker calls libcontainer.
 			  Linux kernel namespaces, which provide isolation for filesystems, processes, and networks.
 			  
@@ -36,7 +37,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		- By default, when we run just docker ps, we will only see the running containers. When we specify the -a flag, the docker ps command will show us all containers, both stopped and running. #ñspace
 		- -
 		- -
-		- How can you name a container? #card
+		- How can you name a container? #car
 			- Docker will automatically generate a name at random for each container we create. We see that the container we’ve just created is called gray_cat. If we want to specify a particular container name in place of the automatically generated name, we can do so using the --name flag.
 			  
 			  $ sudo docker run --name bob_the_container -i -t ubuntu /bin/bash
@@ -48,14 +49,15 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  $ sudo docker attach bob_the_container #ñspace
 		- -
 		- -
-		- How can you make a daemon of a container? #card
+		- How can you make a daemon of a container? #car
 			- $ sudo docker run --name daemon_dave -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"
 			  1333bb1a66af402138485fe44a335b382c09a887aa9f95cb9725e309ce5b7db3
 			  
 			  Here, we’ve used the docker run command with the -d flag to tell Docker to detach the container to the background.
 		- -
 		- -
-		- How can you inspect the logs of a container named daemon_dave? #card
+		- How can you inspect the logs of a container named daemon_dave? #car
+		  id:: 63401537-d1ab-42d9-af40-90f29c113ea1
 			- see what’s happening. To do so, we can use the docker logs command. The docker logs command fetches the logs of a container.
 			  
 			  $ sudo docker logs daemon_dave
@@ -80,11 +82,12 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  2016-08-02T03:31:17.744769494Z hello world #ñspace
 		- -
 		- -
-		- How can you run the command `touch /etc/new_config_file` inside the already-running container named daemon_dave? #card
+		- How can you run the command `touch /etc/new_config_file` inside the already-running container named daemon_dave? #car
+		  id:: 63401537-0ff6-4f18-b205-9bd38f40cd30
 			- $ sudo docker exec -d daemon_dave touch /etc/new_config_file
 		- -
 		- -
-		- How can you terminate a container named daemon_dave? #card
+		- How can you terminate a container named daemon_dave? #car
 			- $ sudo docker stop daemon_dave
 		- -
 		- -
@@ -103,7 +106,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  We can refer to a specific image inside a repository by suffixing the repository name with a colon and a tag name #ñspace
 		- -
 		- -
-		- About the two types of repositories in Docker. #card
+		- About the two types of repositories in Docker. #car
 			- There are two types of repositories: user repositories, which contain images contributed by Docker users, and top-level repositories, which are controlled by the people behind Docker.
 			  
 			  A user repository takes the form of a username and a repository name; for example, jamtur01/puppet.
@@ -127,12 +130,13 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 			- The Dockerfile contains a series of instructions paired with arguments. Each instruction, for example FROM, should be in upper-case and be followed by an argument: FROM ubuntu:18.04. Instructions in the Dockerfile are processed from the top down, so you should order them accordingly.
 		- -
 		- -
-		- What are, basically, Docker images? #card
+		- What are, basically, Docker images? #car
+		  id:: 63401536-7556-4aa3-8e9d-809885fcbb3a
 			- A Docker image is made up of filesystems layered over each other. At the base is a boot filesystem, bootfs, which resembles the typical Linux/Unix boot filesystem. A Docker user will probably never interact with the boot filesystem.
 		- -
 		- -
 		- How do the tiers work in Docker?
-		  [](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9780988820203/files/media/file2.png) #card
+		  [](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9780988820203/files/media/file2.png) #car
 			- In a more traditional Linux boot, the root filesystem is mounted read-only and then switched to read-write after boot and an integrity check is conducted. In the Docker world, however, the root filesystem stays in read-only mode, and Docker takes advantage of a union mount to add more read-only filesystems onto the root filesystem. A union mount is a mount that allows several filesystems to be mounted at one time but appear to be one filesystem. The union mount overlays the filesystems on top of one another so that the resulting filesystem may contain files and subdirectories from any or all of the underlying filesystems.
 			  
 			  Docker calls each of these filesystems images. Images can be layered on top of one another. The image below is called the parent image and you can traverse each layer until you reach the bottom of the image stack where the final image is called the base image. Finally, when a container is launched from an image, Docker mounts a read-write filesystem on top of any layers below. This is where whatever processes we want our Docker container to run will execute.
@@ -140,25 +144,29 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 			  This sounds confusing, so perhaps it is best represented by a diagram.
 		- -
 		- -
-		- What instruction must be the first in a Dockerfile? #card
+		- What instruction must be the first in a Dockerfile? #car
+		  id:: 63401536-0d7e-4493-a57c-cba37f7a80b4
 			- The first instruction in a Dockerfile must be FROM. The FROM instruction specifies an existing image that the following instructions will operate on; this image is called the base image.
 		- -
 		- -
 		- All of the instructions will be executed and committed and a new image returned when we run the docker build command #ñspace
 		- -
 		- -
-		- We’ve used the docker build command to build our new image. We’ve specified the -t option to mark our resulting image with a repository and a name, here the jamtur01 repository and the image name static_web. I strongly recommend you always name your images to make it easier to track and manage them. #card
+		- We’ve used the docker build command to build our new image. We’ve specified the -t option to mark our resulting image with a repository and a name, here the jamtur01 repository and the image name static_web. I strongly recommend you always name your images to make it easier to track and manage them. #car
+		  id:: 63401536-100a-480f-ae1b-c64e60e15c69
 			- $ sudo docker build -t="jamtur01/static_web:v1" .
 		- -
 		- -
 		- The docker run command will open a random port on the Docker host that will connect to port 80 on the Docker container. #ñspace
 		- -
 		- -
-		- What is WORKDIR used for in Dockerfile? #card
+		- What is WORKDIR used for in Dockerfile? #car
+		  id:: 63401536-2f3d-46c0-9278-4eede04c6e4b
 			- The WORKDIR instruction provides a way to set the working directory for the container and the ENTRYPOINT and/or CMD to be executed when a container is launched from the image.
 		- -
 		- -
-		- How could you specify a user in a Dockerfile? #card
+		- How could you specify a user in a Dockerfile? #car
+		  id:: 63401536-60c6-4e1e-93b5-080abaee3abe
 			- The USER instruction specifies a user that the image should be run as; for example:
 			  
 			  USER nginx
@@ -166,7 +174,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 			  This will cause containers created from the image to be run by the nginx user. We can specify a username or a UID and group or GID. Or even a combination
 		- -
 		- -
-		- Volume features in Docker #card
+		- Volume features in Docker #car
 			- A volume is a specially designated directory within one or more containers that bypasses the Union File System to provide several useful features for persistent or shared data:
 			  
 			    Volumes can be shared and reused between containers.
@@ -176,7 +184,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 			    Volumes persist even if no containers use them.
 		- -
 		- -
-		- How could you share data between containers? #card
+		- How could you share data between containers? #car
 			- This allows us to add data (like source code), a database, or other content into an image without committing it to the image and allows us to share that data between containers. This can be used to do testing with containers and an application’s code, manage logs, or handle databases inside a container.
 		- -
 		- -
@@ -201,7 +209,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		  As the jamtur01/webapp image is built the build variable will be set to 1234 and the webapp_user variable will inherit the default value of user. #ñspace
 		- -
 		- -
-		- If you are trying to unzip something or you are dealing with a URL, then you must use ADD instead of COPY #card
+		- If you are trying to unzip something or you are dealing with a URL, then you must use ADD instead of COPY #car
 			- The COPY instruction is closely related to the ADD instruction. The key difference is that the COPY instruction is purely focused on copying local files from the build context and does not have any extraction or decompression capabilities.
 			  
 			  COPY conf.d/ /etc/apache2/
@@ -214,11 +222,12 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		- The difference is that CMD doesn't allow additional arguments to the creation command, but allows replacing the command itself.
 		  On the opposite, ENTRYPOINT does allow additional arguments, but you can't replace it.
 		  
-		  But RUN always does the magic!!! #card
+		  But RUN always does the magic!!! #car
 			- Closely related to the CMD instruction, and often confused with it, is the ENTRYPOINT instruction. So what’s the difference between the two, and why are they both needed? As we’ve just discovered, we can override the CMD instruction on the docker run command line. Sometimes this isn’t great when we want a container to behave in a certain way. The ENTRYPOINT instruction provides a command that isn’t as easily overridden. Instead, any arguments we specify on the docker run command line will be passed as arguments to the command specified in the ENTRYPOINT. Let’s see an example of an ENTRYPOINT instruction.
 		- -
 		- -
-		- When you insert an ONBUILD, it triggers **all** the instructions that are executed in that moment to the client dockerfile. #card
+		- When you insert an ONBUILD, it triggers **all** the instructions that are executed in that moment to the client dockerfile. #car
+		  id:: 63401536-29d7-4b9c-8b2a-dbe6484863a1
 			- The ONBUILD instruction adds triggers to images. A trigger is executed when the image is used as the basis of another image (e.g., if you have an image that needs source code added from a specific location that might not yet be available, or if you need to execute a build script that is specific to the environment in which the image is built).
 		- -
 		- -
@@ -229,7 +238,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		- -
 	- 5 Testing with Docker
 		- -
-		- Benefits of volumes in Docker: #card
+		- Benefits of volumes in Docker: #car
 			- We want to work on and test it simultaneously.
 			  It changes frequently, and we don’t want to rebuild the image during our development process.
 			  We want to share the code between multiple containers.
@@ -274,7 +283,7 @@ tags:: #[[Docker]] #[[O'Reilly-Learning]]
 		- -
 	- 7 Docker Orchestration and Service Discovery
 		- -
-		- Define service in Docker Compose. #card
+		- Define service in Docker Compose. #car
 			- With Docker Compose, we define a set of containers to boot up, and their runtime properties, all defined in a YAML file. Docker Compose calls each of these containers “services” which it defines as:
 			  
 			  A container that interacts with other containers in some way and that has specific runtime properties.

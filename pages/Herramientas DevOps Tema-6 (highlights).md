@@ -9,7 +9,7 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/841e10b1-50a8-4574-a5e9-6993f36fce49.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Ejemplo de código en Terraform #card
+	- Ejemplo de código en Terraform #car
 		- resource "aws_instance" "example" {  ami = "ami‐b374d5a5"  instance_type = "t2.micro"  provisioner "local‐exec" {  command = "echo ${aws_instance.example.public_ip} >  ip_address.txt"   } }
 		- (Page 6)
 	- -
@@ -18,12 +18,13 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 6)
 	- -
 	- -
-	- ¿Cómo gestiona Terraform los recursos que fallan en tiempo de aprovisionamiento? #card
+	- ¿Cómo gestiona Terraform los recursos que fallan en tiempo de aprovisionamiento? #car
+	  id:: 63401515-5cc2-46eb-90ec-3663d9de3e6c
 		- Si  un  recurso  se  crea  correctamente,  pero  falla  durante  el  aprovisionamiento, Terraform generará un error y marcará el recurso como “contaminado”. Un recurso que está contaminado, aunque se haya creado físicamente, no se puede considerar seguro para usar, dado que el suministro ha fallado. Cuando  generes  tu  próximo  plan  de  ejecución,  Terraform  no  intentará  reiniciar  el aprovisionamiento  en  el  mismo  recurso  porque  no  se  garantiza  que  sea  seguro (podría haber quedado en un estado inconsistente). En su lugar, Terraform eliminará los  recursos  contaminados  y  creará  nuevos  recursos,  intentando  aprovisionarlos nuevamente después de la creación. Terraform tampoco  destruye  automáticamente  el recurso cuando  el aprovisionamiento falla, ya que eso iría en contra del plan de ejecución.
 		- (Page 7)
 	- -
 	- -
-	- Ejemplo de código en Terraform (usando variables) #card
+	- Ejemplo de código en Terraform (usando variables) #car
 		- provider "aws" { access_key = var.access_key secret_key = "var.secret_key  region = var.region }
 		- (Page 9)
 	- -
@@ -40,7 +41,8 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 15)
 	- -
 	- -
-	- ¿Qué son los módulos en Terraform? #card
+	- ¿Qué son los módulos en Terraform? #car
+	  id:: 63401515-0079-4a51-8f66-c364024d6450
 		- Los  módulos  en  Terraform  son  paquetes  independientes  de  configuraciones Terraform  que  se  manejan  como  un  grupo.  Los  módulos  se  usan  para  crear componentes  reutilizables,  organizarlos  más  fácilmente  y  tratar  las  piezas  de infraestructura como una caja negra.
 		- (Page 16)
 	- -

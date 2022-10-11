@@ -6,7 +6,7 @@ url:: https://hyperskill.org/learn/step/6224
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- About Dynamic typing in .python #card
+	- About Dynamic typing in .python #car
 		- Dynamic vs. Static typingPython is a dynamically and strongly typed language. Dynamic typing means that only runtime objects (values) have a type, but not the variables that store them. You are able to store several values of different types in a single variable during your code execution and no errors will occur.
 		  
 		  The following code is totally valid:
@@ -16,7 +16,8 @@ url:: https://hyperskill.org/learn/step/6224
 		  On the other side, in statically typed languages each variable has a type that cannot be changed during the runtime, so the code above would fail. The examples of statically typed languages are C++, Java and Go.
 	- -
 	- -
-	- About Strong typing in .python #card
+	- About Strong typing in .python #car
+	  id:: 6340151b-4aec-4a3a-a903-604347bcb104
 		- Strong vs. Weak typingStrong typing means that implicit type conversions don't happen. For example, even though "125" consists only of digits it's a string. To use it in arithmetic operations you need to change its type to an integer or another numerical type. Trying to use it as is leads to a TypeError.
 		  
 		  >>> "125" + 10...TypeError: can only concatenate str (not "int") to str
@@ -30,7 +31,7 @@ url:: https://hyperskill.org/learn/step/6224
 		  The example also shows that you can print values of different types if you separate them with commas in the parentheses. The print() function will print all the arguments delimited by a space.
 	- -
 	- -
-	- About Type Casting in .python #card
+	- About Type Casting in .python #car
 		- Explicit type castingThe process of converting a value to another type is also called type casting. Though implicit type casting isn't allowed in Python you will often find yourself in need to define an explicit type conversion within your code. This happens a lot when you work with the user's input.
 		  
 		  Imagine, you asked a user to provide an age that you will later use in some calculations. To convert a string to integer type you can use the built-in int function.

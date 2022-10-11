@@ -9,7 +9,7 @@ tags:: #[[SecDevOps]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/ba7ab082-4d1f-4a8a-8a9c-4f28a3a87f58.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Esta red puede ser una red pública, como Internet, u otra red interna. Por ejemplo, es habitual disponer de cortafuegos regulando el tráfico entre la red a la que se conectan los equipos de usuario y las redes con aplicaciones corporativas. Como resultado, cada solicitud de acceso, desde la red de origen a la red protegida, debe pasar a través del cortafuegos, eliminando la necesidad de protección individual en cada servidor y host de la red protegida. #card
+	- Esta red puede ser una red pública, como Internet, u otra red interna. Por ejemplo, es habitual disponer de cortafuegos regulando el tráfico entre la red a la que se conectan los equipos de usuario y las redes con aplicaciones corporativas. Como resultado, cada solicitud de acceso, desde la red de origen a la red protegida, debe pasar a través del cortafuegos, eliminando la necesidad de protección individual en cada servidor y host de la red protegida. #car
 		- Un cortafuegos (aunque el término cortafuegos es una traducción válida de firewall, el término en inglés está tan extendido que se usarán ambos a lo largo del tema) es un sistema de seguridad que controla el acceso a una red protegida, como una red corporativa, desde otra red.
 		- (Page 4)
 	- -

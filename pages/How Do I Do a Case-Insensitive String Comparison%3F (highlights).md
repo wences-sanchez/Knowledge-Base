@@ -6,7 +6,8 @@ url:: https://stackoverflow.com/questions/319426/how-do-i-do-a-case-insensitive-
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How can you compare two strings case insensitive in Python? .python .tips #card
+	- How can you compare two strings case insensitive in Python? .python .tips #car
+	  id:: 63401517-5c79-424d-905a-878bcc4d994e
 		- string1 = 'Hello'
 		  string2 = 'hello'
 		  

@@ -8,7 +8,8 @@ tags:: #[[Self-Help]]
 - #tags #[[Self-Help]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Cómo la libertad supone una carga pero que no es sino sólo un precio a pagar por llegar al Sol (o intentarlo al menos). #card
+	- Cómo la libertad supone una carga pero que no es sino sólo un precio a pagar por llegar al Sol (o intentarlo al menos). #car
+	  id:: 63401546-f4ff-495e-8b59-d390fec9d98a
 		- En esta exposición de la primitiva historia humana se hace patente que la salida del hombre del paraíso presentado por la razón como la primera morada de la especie- no consistió sino en el tránsito de la rudeza propia de una simple criatura animal a la humanidad, de las andaderas del instinto a la guía de la razón, en una palabra, de la tutela de la Naturaleza al estado de libertad. Cuando se considera el destino de su especie, que no consiste sino en progresar hacia la perfección (pues por muy defectuosos que puedan resultar los primeros intentos por alcanzar esa meta, éstos se verán continuados por una larga serie de descendientes), la cuestión no es si el hombre ha salido ganando o perdiendo con ese cambio. Ahora bien, la mientras este decurso de las cosas representa para especie un progreso de lo peor hacia lo mejor,...
 		- (Page 179)
 		- #[[mind]]

@@ -9,27 +9,28 @@ tags:: #[[SecDevOps]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/63fa058f-dfb0-4855-8aa0-8ab56f3d5df5.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- ¿Qué es IAM? #card
+	- ¿Qué es IAM? #car
 		- IAM  (Identity  and  Access  Management)  es  el  servicio  de  AWS  que  permite administrar quién puede acceder a las API y qué acciones puede ejecutar (Lucifredi y Ryan, 2018). Tener una política de IAM bien planificada es una parte importante de la seguridad de AWS. IAM distingue entre autenticación, que está basada en usuarios y grupos; y autorización, que se basa en las directivas de IAM.
 		- (Page 4)
 	- -
 	- -
-	- ¿Qué significa ARN en AWS? INPUT.... #card
+	- ¿Qué significa ARN en AWS? INPUT.... #car
 		- Para identificar los recursos, entre ellos a los usuarios de IAM, AWS usa los Amazon Resource Names o ARN. Un ARN es un identificador único global que hace referencia a objetos de AWS. La mayoría de los tipos de recursos de AWS tienen ARN, incluidos los objetos de S3 y los roles, usuarios y directivas de IAM. Tienen el siguiente formato: arn:partition:service:region:account-id:resource-type/resource-id
 		- (Page 5)
 	- -
 	- -
-	- ¿Qué es una directiva de IAM? #card
+	- ¿Qué es una directiva de IAM? #car
 		- La idea detrás de IAM es separar a los usuarios y grupos de las acciones que necesitan realizar.  Para  ello,  se  crean  directivas  de  IAM,  que  son  documentos  JSON  que describen qué acciones puede realizar un usuario. Esta política se aplica a los usuarios o grupos, dándoles acceso solo a los servicios que especifica el documento.
 		- (Page 5)
 	- -
 	- -
-	- ¿Qué es un permiso en IAM? #card
+	- ¿Qué es un permiso en IAM? #car
 		- Un  permiso  es  una  combinación  de  dos  elementos:  una  acción  y  una  lista  de recursos. AWS verificará si el usuario autenticado puede realizar la acción solicitada en un recurso específico, por ejemplo, ¿se le permite al usuario reiniciar (la acción) una instancia EC2 (el recurso)?
 		- (Page 6)
 	- -
 	- -
-	- Ejemplo de acciones y permisos sobre recursos de AWS #card
+	- Ejemplo de acciones y permisos sobre recursos de AWS #car
+	  id:: 63401534-4d52-4d97-aea8-9936e5e49b6c
 		- Las acciones se definen como  cadenas de texto con el formato  servicio:permiso. Por ejemplo, la acción de reinicio de instancias se define como ec2:RebootInstances. Las directivas hacen referencia a permisos dinámicos muy granulares en todos los servicios  de  AWS.  El  siguiente  documento  JSON  hace  uso  de  esta  acción  y  de ec2:DescribeInstances sobre todos los recursos. "Version": "2012-10-17", "Statement": [{ "Sid": "VisualEditor0", "Effect": "Allow", "Action": [ "ec2:RebootInstances", "ec2:DescribeInstances" ], "Resource": "*" { }] }
 		- (Page 6)
 	- -
@@ -42,7 +43,7 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- ¿Cuál es el proceso de rotación de claves en AWS? #card
+	- ¿Cuál es el proceso de rotación de claves en AWS? #car
 		- Este  proceso  de  rotación consiste en los siguientes pasos:   Se crea una pareja de clave y secreto para una cuenta de servicio.   Se configura la aplicación, script, etc. para usar esta clave. Puede ocurrir que la clave  esté  en  uso  en  varios  sitios,  por  ejemplo,  en  varios  procesos  de  una aplicación configurada en alta disponibilidad.   Tras el tiempo estipulado por la política de seguridad de la empresa (por ejemplo, a los treinta días), se genera una nueva clave.   Se sustituye la clave original por la nueva en todos los sitios donde se configuró. En  este  intervalo  de  tiempo  ambas  claves  son  válidas;  de  lo  contrario,  unos procesos dejarían de funcionar hasta recibir la nueva clave.   Una vez distribuida la clave nueva se puede desactivar y borrar la clave antigua.
 		- (Page 10)
 	- -
@@ -55,22 +56,25 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 13)
 	- -
 	- -
-	- ¿Qué es CloudTrail? #card
+	- ¿Qué es CloudTrail? #car
 		- y Ryan, 2018). CloudTrail es una herramienta de auditoría que registra todas las llamadas a la API en una región específica, o globalmente, independientemente de la herramienta que origina la llamada: awscli, SDKs, consola e, incluso, otros servicios de AWS (Lucifredi Estos registros mejoran la capacidad para determinar qué usuario realizó qué acción en  un  momento dado,  y  es  esencial  para  reconstruir  lo que realmente  sucedió en caso  de  un  incidente  de  seguridad.  CloudTrail  incluirá  en  sus  registros  todas  las llamadas a la API generadas por cualquier servicio de AWS en nombre del usuario. Algunas  de  estas  llamadas  pueden  haberse  realizado  automáticamente  por  otro servicio,  bien  como  respuesta  a  una  llamada  de  usuario  o  como  parte  del funcionamiento habitual. Los registros de CloudTrail indican si una llamada API fue generada automáticamente por otro servicio.
 		- (Page 14)
 	- -
 	- -
-	- ¿Qué es Amazon Inspector? #card
+	- ¿Qué es Amazon Inspector? #car
+	  id:: 63401534-983a-4e16-8410-90f60a02d0e2
 		- Amazon  Inspector  es  un  escáner  de  vulnerabilidad  de  bajo  impacto.  Reúne información sobre la red y los procesos de los servidores, la analiza y presenta un informe, al usuario, con los resultados. Permite analizar el comportamiento de los recursos y ayuda a identificar posibles problemas de seguridad. Inspector funciona ejecutando evaluaciones sobre conjuntos de recursos. Los datos que recopila de los recursos objetivo incluyen detalles de la comunicación con los servicios  de  AWS,  uso  de  canales  seguros,  procesos  en  ejecución  y  tráfico  de  red entre los procesos, entre otros. Estos datos se analizan y comparan con un conjunto de  reglas  de  seguridad.  El  informe  contiene  una  lista  de  posibles  problemas  de seguridad, con un indicador de gravedad.
 		- (Page 15)
 	- -
 	- -
-	- ¿Qué es Amazon Detective? #card
+	- ¿Qué es Amazon Detective? #car
+	  id:: 63401534-c463-4a20-9dee-4b787028e980
 		- Amazon Detective es un servicio administrado por AWS que permite a los usuarios analizar y procesar cantidades ingentes de logs, con el objetivo de buscar causas e impactos  de  incidentes  de  seguridad.  Se  alimenta  de  logs  generados  por  otros servicios de AWS, como GuardDuty (Amazon Web Services, s. f.e), CloudTrail y VPC Flow  Logs,  por  lo  que  puede  activarse  sin  perjuicio  de  rendimiento  de  la infraestructura existente. Según AWS, Detective: «Utiliza modelos de aprendizaje automático para producir representaciones gráficas del comportamiento de su cuenta y lo ayuda a responder preguntas como "¿es esta una llamada API inusual para este rol?" o "¿se espera este aumento  en  el  tráfico  de  esta  instancia?".  No  necesita  escribir  código, configurar o ajustar sus propias consultas»
 		- (Page 17)
 	- -
 	- -
-	- ¿Cuáles son las fases que sigue Amazon Detective? #card
+	- ¿Cuáles son las fases que sigue Amazon Detective? #car
+	  id:: 63401534-08fe-4910-8891-75487c268cc0
 		- A alto nivel, una investigación general, y de Amazon Detective en particular, seguirá estas fases:   Triaje.  El  proceso  comienza  con  un  aviso  de  posible  actividad  maliciosa.  Esta información se hace llegar a un analista o ingeniero de seguridad. Uno de estos puntos  de  entrada  puede  ser  una  alerta  generada  por  Amazon  GuardDuty,  o, simplemente, el ID de la VPC de la que proviene la alerta. El ingeniero determinará si la actividad es genuinamente un riesgo de seguridad o un falso positivo. En caso de considerar la alerta un verdadero positivo, seguirá con la siguiente fase.   Alcance.  En  este  caso,  el  ingeniero  considera  el  alcance  y  posible  causa  del incidente.  Por  ejemplo,  deberá  averiguar  qué  sistemas  y  recursos  han  sido afectados, dónde se originó el ataque, cuándo empezó, si ya ha terminado y si hay actividades  relacionadas  con  el  ataque  (si  un  atacante  toma  el  control  de  una máquina, es probable que intente extraer datos confidenciales hacia el exterior).   Respuesta. Finalmente, el ingeniero intentará detener el ataque y minimizar el daño. Además, establecerá medidas y procedimientos para impedir que un ataque similar pueda volver a ocurrir. En la segunda etapa es donde más valor se puede obtener de Detective. A partir del elemento encontrado en la etapa de triaje, Detective muestra información enlazada. Por  ejemplo,  puede  mostrar  llamadas  API  sobre  un  recurso  con  errores  de autenticación, o el origen geográfico de dichas llamadas. Además, permite comparar el  comportamiento  que  reflejan  los  registros  actuales  con  el  comportamiento habitual. de SDK. Al igual que Inspector, Detective se puede automatizar a través de llamadas de API y
 		- (Page 18)
 	- -

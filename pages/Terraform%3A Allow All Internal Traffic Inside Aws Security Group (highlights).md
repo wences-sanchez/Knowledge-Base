@@ -6,7 +6,7 @@ url:: https://stackoverflow.com/questions/63001838/terraform-allow-all-internal-
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How can you allow inbound traffic from everywhere inside a security_group_rule in Terraform? .code .aws #card
+	- How can you allow inbound traffic from everywhere inside a security_group_rule in Terraform? .code .aws #car
 		- If your requirement is to allow all the traffic from internet you can use
 		  
 		    cidr_blocks      = ["0.0.0.0/0"] 

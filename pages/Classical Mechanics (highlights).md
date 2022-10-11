@@ -44,7 +44,8 @@ tags:: #[[Science]]
 				- ([Location 308](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=308))
 			- -
 			- -
-			- It is no possible for a graph to have more than one input and one output for every single vertex. #card
+			- It is no possible for a graph to have more than one input and one output for every single vertex. #car
+			  id:: 634014fb-d26b-4e88-8a0b-caae20ff540c
 				- The meaning of reversible—in the context of physics—can be described a few different ways. The most concise description is to say that if you reverse all the arrows, the resulting law is still deterministic. Another way, is to say the laws are deterministic into the past as well as the future.
 				- ([Location 309](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=309))
 			- -
@@ -61,7 +62,7 @@ tags:: #[[Science]]
 				- ([Location 326](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=326))
 			- -
 			- -
-			- It's simply a memory from where we started. Something with doesn't change with time. #card
+			- It's simply a memory from where we started. Something with doesn't change with time. #car
 				- The conservation of information is simply the rule that every state has one arrow in and one arrow out. It ensures that you never lose track of where you started.
 				- ([Location 328](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=328))
 			- -
@@ -82,13 +83,15 @@ tags:: #[[Science]]
 				- ([Location 382](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=382))
 			- -
 			- -
-			- What is a radian? #card
+			- What is a radian? #car
+			  id:: 634014fb-8551-411a-a71d-bbfd0ddab055
 				- Instead we use the radian; we say that there are 2 radians in 360°, or 1 radian = /180°, thus 90° = /2 radians, and 30° = /6 radians. Thus a radian is about 57°
 				- ([Location 428](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=428))
 				- #[[learn]]
 			- -
 			- -
-			- What is needed for a vector? #card
+			- What is needed for a vector? #car
+			  id:: 634014fb-1011-42e7-b737-db0dc6fbcf3b
 				- If an object is moved from some particular starting location, it is not enough to know how far it is moved in order to know where it winds up. One also has to know the direction of the displacement. Displacement is the simplest example of a vector quantity.
 				- ([Location 465](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=465))
 				- #[[learn]]

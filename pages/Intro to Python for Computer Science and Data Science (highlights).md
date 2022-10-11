@@ -9,23 +9,23 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- 4.12 Methods: Functions That Belong to Objects
 		- -
-		- Method to make the character low #card
+		- Method to make the character low #car
 			- s.lower()
 		- -
 		- -
-		- Method to set all the characters small #card
+		- Method to set all the characters small #car
 			- s.upper()
 		- -
 	- 10.4 Properties for Data Access
 		- -
-		- Example of @property #card
+		- Example of @property #car
 			- @property
 			  14 def hour(self):
 			  15     """Return the hour."""
 			  16     return self._hour
 		- -
 		- -
-		- Example of setter #card
+		- Example of setter #car
 			- @hour.setter
 			  19 def hour(self, hour):
 			  20     """Set the hour."""

@@ -158,7 +158,7 @@ category:: #books
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- Se puede llamar al constructor sin parámetros. Siempre y cuando no afecte a las variables internas de la clase. Cuando también está el constructor propio. #card
+	- Se puede llamar al constructor sin parámetros. Siempre y cuando no afecte a las variables internas de la clase. Cuando también está el constructor propio. #car
 		- It is not necessary to explicitly declare properties within classes, as they can be implicitly defined when first used.
 		- ([Location 2357](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2357))
 		- #[[orange]] #[[naranja]]
@@ -244,7 +244,8 @@ category:: #books
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- Sort NO devuelve ningún array, es un procedimiento. #card
+	- Sort NO devuelve ningún array, es un procedimiento. #car
+	  id:: 6340152a-6395-4e36-b223-7e16991586b3
 		- sort
 		- ([Location 2713](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2713))
 		- #[[orange]] #[[naranja]]
@@ -260,7 +261,7 @@ category:: #books
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- Especificador de patrón separación como primer parámetro. #card
+	- Especificador de patrón separación como primer parámetro. #car
 		- explode
 		- ([Location 2725](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2725))
 		- #[[orange]] #[[naranja]]

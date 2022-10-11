@@ -13,12 +13,13 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 6)
 	- -
 	- -
-	- ¿Qué es un punto de histor? #card
+	- ¿Qué es un punto de histor? #car
+	  id:: 63401513-78b1-45f8-8d66-2935a4a62db7
 		- ia
 		- (Page 6)
 	- -
 	- -
-	- Explica qué es la técnica del Planning Poker. #card
+	- Explica qué es la técnica del Planning Poker. #car
 		- El Planning Poker es una técnica de estimación ágil que utiliza puntos de historia para  estimar  la  dificultad  de  la  tarea  en  cuestión.  Es  una  de  las  técnicas  de estimación más populares. Está técnica gamifica el procedimiento de la estimación ágil mediante una votación en la que se usa una baraja de cartas donde los valores de puntos de historia que se pueden asignar se hacen en base a la serie de Fibonacci: 1, 2, 3, 5, 8, 13, 20, 40 y 100, incluso  «?» e infinito. Se usan valores de este tipo al representar  diferencias  razonables  en  valor  entre  un  número  y  otro  (o  entre  un concepto  y  otro).  Cada  uno  de  estos  valores  representa  un  nivel  diferente  de complejidad
 		- (Page 10)
 	- -
@@ -31,17 +32,18 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 25)
 	- -
 	- -
-	- INCLUIR IMAGEN #card
+	- INCLUIR IMAGEN #car
 		- En  el  enfoque  ágil  se  habla  de  horizontes  de  planificación  para  ir  adaptando  los cambios  que  van  apareciendo.  A  continuación,  presentamos  cinco  niveles  u horizontes de planificación desarrollados por Seletskyi (2014), como se muestra en la Figura 11.
 		- (Page 28)
 	- -
 	- -
-	- ¿En qué consiste la planificación de la visión de producto? #card
+	- ¿En qué consiste la planificación de la visión de producto? #car
+	  id:: 63401513-2ee5-4d51-9231-9cb0821bcf6b
 		- Se lleva a cabo una planificación de objetivos de producto, con el Product Backlog (a nivel estratégico). En  este  horizonte,  cada  producto  a  ser  desarrollado  necesita  una  visión.  Lo  más probable  es  que  esta  visión  sea  a  largo  plazo  y  abarque  un  año  completo  o  más tiempo. La visión del producto ayuda a las partes interesadas a pasar la prueba del Elevator  Pitch  y/o  Product  Box:  la  capacidad  de  explicar  el  proyecto  a  alguien  en menos  de  un  minuto.  Es  un  nivel  más  bien  relacionado  con  la  estrategia  y  los requisitos
 		- (Page 29)
 	- -
 	- -
-	- ¿En qué consiste la planificación del roadmap? #card
+	- ¿En qué consiste la planificación del roadmap? #car
 		- Se realiza una categorización de los requisitos priorizados y se determina una hoja de ruta para las entregas (a nivel estratégico). Por tanto, una vez que se defina la visión del producto, el siguiente horizonte trata de  proporcionar  información  para  la  hoja  de  ruta  del  producto.  El  Product  Owner debe actualizar la hoja de ruta del producto al menos cada seis meses. La hoja de ruta del producto es una vista general de los requisitos del producto y una herramienta valiosa para planificar y organizar el proceso de desarrollo del producto. Esta hoja se utiliza para categorizar los requisitos, priorizarlos y determinar un cronograma para su  publicación.  La  creación  de  una  hoja  de  ruta  del  producto  se  puede  dividir  en cuatro pasos principales: 1.Asegurar la estrategia y objetivos del proyecto. 2.Identificar claramente los requisitos a partir del Product Backlog. 3.Organizar características de productos ágiles en temas. 4.Estimar y ordenar las características del producto ágil. 5.Determinación de marcos de tiempo ágiles de alto nivel.
 		- (Page 30)
 	- -
@@ -54,12 +56,14 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 31)
 	- -
 	- -
-	- ¿En qué consiste la planificación de las iteraciones o sprints? #card
+	- ¿En qué consiste la planificación de las iteraciones o sprints? #car
+	  id:: 63401513-a35d-496f-9b9b-ed28bc0ccb6a
 		- Se trata de planificar las historias de usuario o tareas para la iteración en curso para obtener una parte funcional del producto (a nivel de desarrollo táctico). Cada iteración o Sprint comienza con una reunión de planificación de Sprint de dos partes. La primera parte de la reunión es una revisión de la Backlog Product. Este es el momento para que el Product Owner describa lo que quiere ver construido para el próximo Sprint. Durante esta parte de la reunión, el equipo suele hacer preguntas aclaratorias  y  que  eliminen  la  ambigüedad.  Al  final  de  esta  parte,  el  equipo seleccionará  un  objetivo  de  la  iteración  (Sprint  Goal):  una  descripción  breve  del resultado general del Sprint. Durante la segunda parte de la reunión de planificación del Sprint, el equipo decide cómo se desarrollará el trabajo. El equipo comenzará a descomponer los elementos del Product Backlog en tareas de trabajo, con una estimación en tiempo. El resultado de la segunda parte de la reunión será el Sprint Backlog.
 		- (Page 31)
 	- -
 	- -
-	- ¿En qué consisten la planificación de las reuniones diarias? #card
+	- ¿En qué consisten la planificación de las reuniones diarias? #car
+	  id:: 63401513-fea5-44b2-93ea-180c08e9bd44
 		- Se llevan a cabo replanificaciones diarias de las tareas de la iteración en ejecución basadas  en  las  decisiones  de  las  reuniones  diarias  (a  nivel  operativo).  En  muchos casos,  este  horizonte  no  se  trata  como  una  planificación  como  tal,  pues  son  las reuniones diarias e informes y sirven para sincronizar los esfuerzos diarios. La  reunión  diaria  (Daily  Scrum)  es  una  parte  importante  de  un  Sprint.  Una  buena reunión diaria energiza al equipo y mantiene el proyecto encaminado. Cada miembro actualiza al equipo en tres puntos: en qué trabajaron, en qué van a trabajar y si están bloqueados.  El  Scrum  Master  facilita  y  ayuda  a  abordar  los  bloqueadores  para garantizar que la entrega general del proyecto está bien encaminada. Se trata más bien de un nivel de seguimiento del proyecto.
 		- (Page 32)
 	- -

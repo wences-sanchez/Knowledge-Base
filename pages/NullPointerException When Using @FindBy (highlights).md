@@ -6,6 +6,6 @@ url:: https://sqa.stackexchange.com/questions/36995/nullpointerexception-when-us
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- What is needed (inside the contructor) to instantiate an attribute with FindBy()? .code #card
+	- What is needed (inside the contructor) to instantiate an attribute with FindBy()? .code #car
 		- PageFactory.initElements(this.webDriver, this);
 	- -

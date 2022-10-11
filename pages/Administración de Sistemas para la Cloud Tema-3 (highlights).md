@@ -9,12 +9,13 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/d66b5b36-dfa0-4fcd-b1ef-26fce559b77f.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- ¿Cómo podrías definir la Shell? #card
+	- ¿Cómo podrías definir la Shell? #car
+	  id:: 634014ee-98b7-409d-b881-41a93b728a4c
 		- Dicho  de  un  modo  muy  sencillo,  la  shell  es  un  macroprocesador  que  ejecuta comandos. Esta definición indica que hay una funcionalidad donde textos y símbolos se combinan para crear expresiones más grandes. La shell es, a la vez, una intérprete de comandos y un lenguaje de programación. En su  rol  de  intérprete  de  comandos,  la  shell  ofrece  al  usuario  una  rica  interfaz  de utilidades o herramientas de GNU. Las características del lenguaje de programación, por su parte, permiten que estas herramientas se combinen.
 		- (Page 4)
 	- -
 	- -
-	- ¿Qué es la shell? #card
+	- ¿Qué es la shell? #car
 		- La shell puede funcionar en modo interactivo y en modo no interactivo.
 		  
 		  En modo interactivo, la shell acepta entrada desde el teclado, ya sea el teclado local o un teclado remoto en una sesión SSH. El sistema operativo arranca una shell en el momento en el que un usuario inicia una nueva sesión (Van Vugt, 2015, pp. 1-26), ya sea una sesión local o por SSH.
@@ -23,7 +24,7 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 5)
 	- -
 	- -
-	- Comandos síncronos VS asíncronos en la shell. #card
+	- Comandos síncronos VS asíncronos en la shell. #car
 		- En cuanto a los  comandos GNU, la shell permite su ejecución de modo síncrono y asíncrono. En el primer caso, la shell acepta un comando, lo ejecuta y espera a que este  termine  antes  de  aceptar  el  siguiente  comando.  Por  su  parte,  los  comandos asíncronos continúan ejecutándose en paralelo con la  shell, mientras lee y ejecuta comandos adicionales.
 		- (Page 6)
 	- -
@@ -32,7 +33,8 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- ¿Qué significa el operador $? en bash? #card
+	- ¿Qué significa el operador $? en bash? #car
+	  id:: 634014ee-5506-4e78-9ab5-8437883941ee
 		- el código de salida de la orden anterior se almacena en el parámetro de shell $?. Este parámetro se utiliza para comprobar el estado de la última orden ejecutada.
 		  
 		  Si el valor devuelto por $? es 0, significa que el último comando acabó con éxito; de lo contrario, el comando falló.
@@ -41,12 +43,14 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- ¿Cómo puedes mostrar $tree de otra forma, sin usar ese comando? #card
+	- ¿Cómo puedes mostrar $tree de otra forma, sin usar ese comando? #car
+	  id:: 634014ee-c492-4dd0-9424-834f453bf3db
 		- ls –aR: lista de forma recursiva.
 		- (Page 10)
 	- -
 	- -
-	- ¿Cómo (des)comprimirías un .zip (o un .tar.gz) en shell? #card
+	- ¿Cómo (des)comprimirías un .zip (o un .tar.gz) en shell? #car
+	  id:: 634014ee-af54-4fe5-b39d-995b003c453e
 		- • zip arch.zip /home/usr/public/dir: comprime el directorio y su contenido en el fichero arch.zip.
 		  • unzip arch.zip: descomprime arch.zip.
 		  • unzip -v arch.zip: visualiza el contenido de arch.zip.
@@ -54,19 +58,19 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	- ¿Cómo copiarías un directorio a otro manteniendo sus permisos? #card
+	- ¿Cómo copiarías un directorio a otro manteniendo sus permisos? #car
 		- •  cp  -a  /home/usr/origen/*  /home/usr/destino/: copia todos los contenidos de un directorio a otro, manteniendo sus permisos.
 		- (Page 11)
 	- -
 	- -
-	- ¿Cómo consultarías el espacio ocupado por la carpeta actual?, ¿y por cada fichero? #card
+	- ¿Cómo consultarías el espacio ocupado por la carpeta actual?, ¿y por cada fichero? #car
 		- • du -sh: visualiza el espacio total ocupado por la carpeta actual.
 		  
 		  • du -sh *: muestra el espacio ocupado de cada fichero.
 		- (Page 11)
 	- -
 	- -
-	- ¿Cómo podrías obtener el nombre del usuario actual en la shell? #card
+	- ¿Cómo podrías obtener el nombre del usuario actual en la shell? #car
 		- **$ whoami**; muestra el nombre del usuario.
 		- (Page 11)
 	- -
@@ -85,17 +89,19 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 14)
 	- -
 	- -
-	- ¿Con qué comando debe abrirse el fichero sudoers? #card
+	- ¿Con qué comando debe abrirse el fichero sudoers? #car
 		- El  fichero  sudoers  contiene  los permisos asignados a los usuarios y grupos del sistema. Debe editarse con  visudo: este comando abre el fichero  sudores con el editor del sistema (por ejemplo,  vi o nano) y lo valida al guardarlo. De esta manera, se evita que un usuario cometa un error de sintaxis al guardarlo, rompiendo la funcionalidad de Sudo.
 		- (Page 15)
 	- -
 	- -
-	- ¿Con qué comando puedes crear o cambiar variables de entorno en bash? #card
+	- ¿Con qué comando puedes crear o cambiar variables de entorno en bash? #car
+	  id:: 634014ee-d30b-4b87-9b48-79b5a3555787
 		- **$ export CONFIG_FILE=/opt/app/config**
 		- (Page 16)
 	- -
 	- -
-	- ¿Cómo ejecutarías un mensaje de varias líneas en bash? #card
+	- ¿Cómo ejecutarías un mensaje de varias líneas en bash? #car
+	  id:: 634014ee-4aed-4326-97b2-3da2488cc677
 		- **$ cat << HEREDOC**
 		  Mensaje de varias lineas que no
 		  podria imprimirse por pantalla
@@ -104,17 +110,18 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- ¿Qué códigos de salida devuelve una condición verdadera?¿Qué comando puedes usar para evaluarla? #card
+	- ¿Qué códigos de salida devuelve una condición verdadera?¿Qué comando puedes usar para evaluarla? #car
+	  id:: 634014ee-ae73-4e34-94e4-a0c4a41ec879
 		- El comando test evalúa una condición lógica y devuelve un código de salida cero, si la  condición  es  verdadera,  o  distinto  de  cero,  si  es  falsa.  Este  comando  tiene  una forma  alternativa,  en  la  que  el  nombre  test  se  sustituye  por  corchetes,  [  ],  y  otra forma que usa corchetes dobles, [[ ]]; esta segunda forma no aplica expansión de ruta ni  división  de  palabras.
 		- (Page 18)
 	- -
 	- -
-	- ¿Cómo harías un bucle for en bash? #card
+	- ¿Cómo harías un bucle for en bash? #car
 		- $ for r in i{1..3}; echo interacion $r do done
 		- (Page 22)
 	- -
 	- -
-	- ¿Cómo puedes recorrer en Bash la lista de parámetros pasados como argumentos en el script con un bucle y mostrarlos? #card
+	- ¿Cómo puedes recorrer en Bash la lista de parámetros pasados como argumentos en el script con un bucle y mostrarlos? #car
 		- for p in $@; do echo $p; done
 		- (Page 22)
 	- -
@@ -123,18 +130,19 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 23)
 	- -
 	- -
-	- Define script #card
+	- Define script #car
 		- Un script de Bash es un fichero de texto con una secuencia de comandos de shell (Van Vugt,  2015,  pp.  319-351).  No  tiene  más  requisitos,  así  que  un  fichero  con  este contenido sería un script válido: echo "Hello World" pwd $ bash script.sh Hello World /etc/apache2 Este script se podría ejecutar invocándolo de la siguiente manera:
 		- (Page 24)
 	- -
 	- -
-	- ¿Cuál sería el shebang correcto para un script en Bash? #card
+	- ¿Cuál sería el shebang correcto para un script en Bash? #car
+	  id:: 634014ee-b77a-430c-95d2-28c9b1a7ca36
 		- **#!/bin/bash**
 		  Deben empezar con un shebang, #!, en la primera línea, indicando la ruta al ejecutable de la shell. Esta línea es un comentario especial que permite ejecutar un script como un ejecutable binario más. Para un script de Bash, la línea sería #!/bin/bash, mientras que un script de Python podría usar #!/usr/bin/python3 v.
 		- (Page 24)
 	- -
 	- -
-	- ¿Qué valor debería devolver un script al terminar? #card
+	- ¿Qué valor debería devolver un script al terminar? #car
 		-   El uso de  exit indica explícitamente cuando termina el  script, tanto de manera correcta con un código de salida 0 como si hay algún error.
 		- (Page 24)
 	- -

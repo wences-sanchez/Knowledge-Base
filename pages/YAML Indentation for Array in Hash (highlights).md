@@ -6,7 +6,7 @@ url:: https://stackoverflow.com/questions/17014460/yaml-indentation-for-array-in
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Which is the preferred way of indentation of dashes in YAML? .code #card
+	- Which is the preferred way of indentation of dashes in YAML? .code #car
 		- Both ways are valid, as far as I can tell:
 		  
 		  require 'yaml'

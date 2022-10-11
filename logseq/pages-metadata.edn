@@ -348,6 +348,9 @@
   "aws: how to allow all tcp traffic between all instances in same vpc? (highlights) (1)",
   :block/created-at 1665151707183,
   :block/updated-at 1665151707758}
+ {:block/name "aws::modulo-2",
+  :block/created-at 1665484016230,
+  :block/updated-at 1665484016230}
  {:block/name "azul",
   :block/created-at 1660807707819,
   :block/updated-at 1660807707819}
@@ -474,7 +477,7 @@
  {:block/name "cancelled",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
- {:block/name "card",
+ {:block/name "car",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
  {:block/name "carlo rovelli",
@@ -827,6 +830,9 @@
  {:block/name "david sawyer mcfarland",
   :block/created-at 1660807705465,
   :block/updated-at 1660807705465}
+ {:block/name "deck",
+  :block/created-at 1665483783503,
+  :block/updated-at 1665483783503}
  {:block/name "decídete (highlights)",
   :block/created-at 1661943767295,
   :block/updated-at 1661943767295}
@@ -2933,7 +2939,7 @@
  {:block/name
   "unir/curso aws/módulo-2/tema-1: servicio de redes y entrega de contenido",
   :block/created-at 1665386707157,
-  :block/updated-at 1665396473641}
+  :block/updated-at 1665484016234}
  {:block/name "unit-4",
   :block/created-at 1663349027712,
   :block/updated-at 1663349027712}

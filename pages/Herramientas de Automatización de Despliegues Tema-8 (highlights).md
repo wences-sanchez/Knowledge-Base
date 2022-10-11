@@ -25,7 +25,7 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- IMAGEN #card
+	- IMAGEN #car
 		- a
 		- (Page 8)
 	- -
@@ -38,7 +38,8 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	- IMAGEN. Hace falta para indicar otros ficheros que no sean main.yml #card
+	- IMAGEN. Hace falta para indicar otros ficheros que no sean main.yml #car
+	  id:: 63401517-92fd-4b94-bc7f-c939554af675
 		- -- include: 'php.yml' - include: 'extensions.yml' Esto utiliza la sintaxis  include de YAML, que incorpora un archivo YAML dentro de otro. Cuando Ansible se ejecuta, todos estos archivos se fusionarán, pero mientras estés  desarrollando  el  playbook,  conseguirás  una  clara  separación  de las responsabilidades.
 		- (Page 11)
 	- -

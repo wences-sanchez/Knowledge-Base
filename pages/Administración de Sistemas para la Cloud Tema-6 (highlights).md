@@ -77,7 +77,8 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 16)
 	- -
 	- -
-	- ¿Cómo se organizan en árboles el Directorio Activo? #card
+	- ¿Cómo se organizan en árboles el Directorio Activo? #car
+	  id:: 634014ee-20ca-4e97-bfb9-27df384212f6
 		- Cada dominio tiene una estructura de  árbol de contenedores. Estos contenedores pueden ser carpetas normales o unidades organizativas. La Figura 9 muestra el árbol de carpetas de un dominio y el contenido de una de las carpetas.
 		- (Page 16)
 	- -
@@ -86,7 +87,7 @@ tags:: #[[Administración-de-Sistemas-para-la-Cloud]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- ¿Qué son los bosques dentro del Directorio Activo? #card
+	- ¿Qué son los bosques dentro del Directorio Activo? #car
 		- Las empresas con cientos o miles de usuarios pueden disponer de varios árboles de directorios.  Los  administradores  podrán  organizar  los  árboles  en  bosques.  Los bosques son el límite administrativo y de seguridad más amplio en una estructura AD. Una organización puede decidir tener no ya varios dominios, sino varios bosques. Esta situación  es  habitual,  por  ejemplo,  cuando  hay  uniones  y  adquisiciones  de organizaciones. En estos casos, es posible conectar los bosques con una relación de confianza. Estas relaciones extienden la accesibilidad de los recursos de los dominios, de manera que centraliza la administración a nivel lógico.
 		- (Page 18)
 	- -

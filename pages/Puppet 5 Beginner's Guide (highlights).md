@@ -184,7 +184,7 @@ tags:: #[[O'Reilly-Learning]] #[[Puppet]]
 		- -
 	- Types of Hiera data
 		- -
-		- Also with dot notation usage #card
+		- Also with dot notation usage #car
 			- example:
 			  
 			  cobbler_config:
@@ -222,7 +222,7 @@ tags:: #[[O'Reilly-Learning]] #[[Puppet]]
 		- -
 	- 7. Mastering modules
 		- -
-		- What is r10k in Puppet? #card
+		- What is r10k in Puppet? #car
 			- r10k is the de facto standard module manager for Puppet deployments, and we'll be using it to manage modules throughout the rest of this book
 		- -
 		- -
@@ -287,7 +287,8 @@ tags:: #[[O'Reilly-Learning]] #[[Puppet]]
 		  include CLASS_NAME #ñspace
 		- -
 		- -
-		- Example of class definition in Puppet #card
+		- Example of class definition in Puppet #car
+		  id:: 63401530-6260-4592-b66a-b8805f1389d6
 			- # Manage NTP
 			  class pbg_ntp_params (
 			  String $version = 'installed',
@@ -301,7 +302,8 @@ tags:: #[[O'Reilly-Learning]] #[[Puppet]]
 		- -
 	- Defined resource types
 		- -
-		- Differences between class and defined resource in Puppet #card
+		- Differences between class and defined resource in Puppet #car
+		  id:: 63401530-f5b5-4410-9dbe-dd80ebdd3e99
 			- You can see that instead of the class keyword, we use the define keyword. This tells Puppet that we are creating a defined resource type instead of a class. The type is called user_with_key, and once it's defined, we can declare as many instances of it as we want, just like any other Puppet resource:
 		- -
 		- -
@@ -314,7 +316,7 @@ tags:: #[[O'Reilly-Learning]] #[[Puppet]]
 		- -
 	- 9. Managing files with templates
 		- -
-		- Example of syntax of templates in Puppet #card
+		- Example of syntax of templates in Puppet #car
 			- The following example shows what these markers look like (aws_credentials.epp):
 			  
 			  aws_access_key_id = <%= $aws_access_key %>

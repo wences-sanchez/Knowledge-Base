@@ -9,12 +9,12 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/422bbcda-c225-4b1b-bec0-f28c0c448c44.png)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- ¿Qué es logstash? #card
+	- ¿Qué es logstash? #car
 		- Logstash es un motor de recopilación de datos de código abierto con capacidades de procesamiento en tiempo real.Puede unificar dinámicamente datos de fuentes dispares y normalizar los datos en los destinos que indique el usuario. Permite limpiar y unificar todos los datos para casos de uso avanzados de análisis y visualización. Logstash  tiene  capacidades  para  ingestar  directamente  algunas  fuentes  de  datos como pueden ser los ficheros o ciertas bases de datos. Para algunas aplicaciones es posible  utilizar  Logstash  exclusivamente,  sin  embargo,  para  aplicaciones  de monitorización como las que estamos analizando nosotros, las diferentes piezas de Beats permiten la recolección y enriquecimiento de datos en las fuentes, y presentan un menor consumo de recursos, por lo que suelen ser la solución preferida. Además suele requerir muy poco mantenimiento frente a Logstash I ) R N U i j (  a o R a L  e d   l a n o i c a n r e t n I  d a d i s r e v i n U ©
 		- (Page 6)
 	- -
 	- -
-	- Ejemplos de Yaml con listas y dicts #card
+	- Ejemplos de Yaml con listas y dicts #car
 		- index: 'beat-%{[agent.version]}-%{+yyyy.MM.dd}'  output.elasticsearch.index: 'beat-%{[agent.version]}-%{+yyyy.MM.dd}' output:  elasticsearch: Será guardado como: En el caso de listas: filebeat:  inputs:  - type: log Se almacena como:       filebeat.inputs.0.type: log
 		- (Page 10)
 	- -
@@ -27,17 +27,18 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 12)
 	- -
 	- -
-	- ¿Cómo funciona Filebeat? #card
+	- ¿Cómo funciona Filebeat? #car
 		- Así es como funciona Filebeat: cuando inicia Filebeat, inicia una o más entradas que se  leen  en  las  ubicaciones  que  ha  especificado.  Para  cada  fichero  o  registro  que Filebeat localiza, Filebeat inicia un recolector. Cada recolector lee el contenido nuevo de un único logy envía los nuevos datos de registro a libbeat, que agrega los eventos y envía los datos agregados a la salida que ha configurado para Filebeat
 		- (Page 14)
 	- -
 	- -
-	- ¿Qué dos componentes tiene Filebeat? #card
+	- ¿Qué dos componentes tiene Filebeat? #car
 		- Filebeat  consta  de  dos  componentes  principales:  entradas  y  recolectores.  Estos componentes  trabajan  juntos  para  crear  una  cola  de  registros  y  enviar  datos  de eventos a la salida que especifique.
 		- (Page 15)
 	- -
 	- -
-	- ¿Qué hacen los recolectores de Filebeat? #card
+	- ¿Qué hacen los recolectores de Filebeat? #car
+	  id:: 63401515-8d93-4241-8938-0c68279dc2c3
 		- Un recolector es responsable de leer el contenido de un solo archivo. El recolector lee cada archivo, línea por línea, y envía el contenido a la salida. Se inicia un recolector para cada archivo. El recolector es responsable de abrir y cerrar el archivo, lo que significa que el descriptor del archivo permanece abierto mientras el recolector se está  ejecutando.  Si  un  archivo  se  elimina  o  cambia  de  nombre  mientras  se  está monitorizando, Filebeat continúa leyendo el archivo. Esto tiene el efecto secundario de que el espacio en su disco está reservado hasta que la recolección se cierre. Por defecto,  Filebeat  mantiene  el  archivo  abierto  hasta  que  close_inactive  se  alcanza. Esto es útil ya que cuando rotamos un fichero de logs con alguna herramienta como logrotate1 es posible terminar de leer las últimas líneas del fichero.
 		- (Page 15)
 	- -

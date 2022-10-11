@@ -9,12 +9,12 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- Hybrid app
 		- -
-		- What is a hybrid app? #card
+		- What is a hybrid app? #car
 			- A hybrid app consists basically of websites packaged in a native wrapper. They are primarily developed in web technologies (HTML5, CSS, JavaScript) but run inside a native container, thereby giving a feel that it is a native app.
 		- -
 	- Appium architecture
 		- -
-		- What is Appium? #card
+		- What is Appium? #car
 			- Appium is basically a web server written in Node.js. The server performs actions in the given order:
 			  
 			  Receives connection from client and initiates a session

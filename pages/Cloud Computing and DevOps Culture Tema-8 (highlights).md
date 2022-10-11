@@ -9,17 +9,19 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/9fe9ff3c-7718-4510-96c8-8e89dcd7233b.png)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Acerca de IaC y DevOps. #card
+	- Acerca de IaC y DevOps. #car
+	  id:: 634014fd-95aa-4111-9b27-ea441228018d
 		- La infraestructura  como  código  (en  siglas,  IaC)  trata la infraestructura  de configuración  de  sistemas  como  un  software  de  programación.  Esto  genera  una delgada línea entre los límites de la escritura de aplicaciones y la creación de entornos en los que se ejecutan. Se trata de una parte fundamental de la computación en la nube y esencial para DevOps. La IaC es el marco que ha dado origen a DevOps.
 		- (Page 6)
 	- -
 	- -
-	- ¿Cuáles son las cinco etapas del ciclo de vida de los recursos de infraestructura? #card
+	- ¿Cuáles son las cinco etapas del ciclo de vida de los recursos de infraestructura? #car
+	  id:: 634014fd-6223-4d4f-9250-5f985ecce252
 		-   Aprovisionamiento de recursos. Etapa en la que los administradores utilizan este principio de la IaC para aprovisionar recursos de acuerdo con sus especificaciones y necesidades. AWS CloudFormation puede ser un claro ejemplo para aplicar.   Gestión de configuración. Los recursos se vuelven componentes de un sistema de gestión  de  configuración  que  soportan  actividades  tales  como  optimización  y actualización.   Supervisión y rendimiento. Herramientas de supervisión y rendimiento validan el estado  operacional  de los  recursos  examinando ítems  como  métricas, transacciones sintéticas y archivos de registro.
 		- (Page 7)
 	- -
 	- -
-	- BORRAR #card
+	- BORRAR #car
 		-   Gobierno  y  conformidad.  Los  marcos  de  trabajo  de  conformidad  y  gobierno gestionan la validación adicional a fin de asegurar la relación y consonancia con la corporación y los estándares de la industria, así como requerimientos regulatorios.   Optimización  de  recursos.  Los  administradores  revisan  datos  de  rendimiento  e identifican  cambios  necesarios  para  optimizar  el  ambiente  alrededor  de  los criterios tales como rendimiento y los costes. Cloud Computing, DevOps and DevOps Culture Tema 8. Ideas clave 8 I  ) R N U i j (  a o R a L  e d   l a n o i c a n r e t n I  d a d i s r e v i n U ©
 		- (Page 8)
 	- -

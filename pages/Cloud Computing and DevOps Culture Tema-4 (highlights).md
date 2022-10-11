@@ -41,7 +41,8 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- Hipervisor tipo 2. Los hipervisores se ejecutan en un sistema operativo host que proporciona servicios de virtualización, como soporte de dispositivos de E/S y administración de memoria. #card
+	- Hipervisor tipo 2. Los hipervisores se ejecutan en un sistema operativo host que proporciona servicios de virtualización, como soporte de dispositivos de E/S y administración de memoria. #car
+	  id:: 634014fd-4386-46db-b6c3-be7d203508e9
 		- Hay  dos  tipos  de hipervisores:   Hipervisor de tipo 1. Los hipervisores se ejecutan directamente en el hardware del sistema: un hipervisor integrado «básico».
 		- (Page 7)
 	- -
@@ -50,22 +51,25 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- Nombra algunos hipervisores de tipo 1 #card
+	- Nombra algunos hipervisores de tipo 1 #car
+	  id:: 634014fd-7cb0-41c6-9b29-699e7d3fd00f
 		- VMware ESX y ESXi Estos  hipervisores  ofrecen  funciones  avanzadas  y  escalabilidad,  pero  requieren licencia, por  lo que  los  costos  son  más  altos. VMware  ofrece  algunos  paquetes  de menor costo y pueden hacer que la tecnología de hipervisor sea más asequible para infraestructuras pequeñas. VMware es el líder en los hipervisores tipo 1. Su producto vSphere ESXi está disponible en una edición gratuita y en cinco ediciones comerciales. Microsoft Hyper-V El  hipervisor de Microsoft,  Hyper-V, no ofrece  muchas  de  las funciones  avanzadas que  ofrecen  los  productos  de  VMware.  Sin  embargo,  con  XenServer  y  vSphere, Hyper-V es uno de los tres principales hipervisores tipo 1. Se lanzó por primera vez con  Windows  Server,  pero  ahora,  Hyper-V  se  ha  mejorado  enormemente  con Windows Server 2012 Hyper-V. Hyper-V está disponible tanto en una edición gratuita (sin  GUI  y  sin  derechos  de  virtualización)  como  en  cuatro  ediciones  comerciales:
 		- (Page 8)
 	- -
 	- -
-	- CONTINUE #card
+	- CONTINUE #car
+	  id:: 634014fd-87eb-4475-ab9c-788817644641
 		- Fundamentos (solo OEM), Essentials, Standard y Datacenter Hyper-V. Actualmente, las nuevas versiones de supervisores de Microsoft están íntimamente relacionadas a sus productos de Cloud Platform y se les conoce como Azure Stack. Citrix XenServer Comenzó como un proyecto de código abierto. La tecnología principal del hipervisor es gratuita, pero al igual que ESXi gratuito de VMware, casi no tiene características avanzadas.  Xen  es  un  hipervisor  de  tipo  desnudo  de  tipo  1  y,  así  como  Red  Hat Enterprise Virtualization usa KVM, Citrix usa Xen en el XenServer comercial. Hoy, los proyectos y la comunidad de código abierto de Xen están en Xen.org. Hoy, XenServer es una solución comercial de hipervisor tipo 1 de Citrix, que se ofrece en cuatro  ediciones.  Confusamente,  Citrix  también  ha  calificado  sus  otras  soluciones propietarias como XenApp y XenDesktop con el nombre Xen. Oracle VM El hipervisor Oracle se basa en el código abierto Xen. Sin embargo, si necesita soporte de hipervisor y actualizaciones de productos, le costará. Oracle VM carece de muchas de  las  características  avanzadas  que  se  encuentran  en  otros  hipervisores  de virtualización de metal desnudo.
 		- (Page 9)
 	- -
 	- -
-	- Nombra algunos hipervisores de tipo 2 #card
+	- Nombra algunos hipervisores de tipo 2 #car
+	  id:: 634014fd-2795-401f-b0d7-b66668454b78
 		- VMware Workstation/Fusion/Player VMware Player es un hipervisor de virtualización gratuito. Está destinado a ejecutar solo  una  máquina  virtual  (en  siglas,  VM)  y  no  permite  crear  máquinas  virtuales. VMware  Workstation  es  un  hipervisor  más  robusto  con  algunas  características avanzadas, como grabación y reproducción y compatibilidad con instantáneas de VM.
 		- (Page 9)
 	- -
 	- -
-	- CONTINUE #card
+	- CONTINUE #car
 		- VMware Workstation tiene tres casos de uso principales:   Para ejecutar múltiples sistemas operativos.   Para ejecutar versiones diferentes de un sistema operativo en un escritorio.   Para desarrolladores que necesitan entornos de  sandbox e instantáneas, o para laboratorios y con fines de demostración. Servidor VMware Microsoft Virtual PC Oracle VM VirtualBox VMware Server es un hipervisor de virtualización alojado gratuito que es muy similar a VMware Workstation. VMware ha detenido el desarrollo en el servidor desde 2009. Esta  es  la  última  versión  de  Microsoft  de  esta  tecnología  de  hipervisor,  Windows Virtual  PC  y  solo  se  ejecuta  en  Windows  7  y  solo  es  compatible  con  los  sistemas operativos Windows que se ejecutan en él. La tecnología de hipervisor VirtualBox proporciona un rendimiento y características razonables  si  desea  virtualizar  con  un  presupuesto  limitado.  A  pesar  de  ser  un producto alojado gratuito con una huella muy pequeña, VirtualBox comparte muchas características con VMware vSphere y Microsoft Hyper-V.
 		- (Page 10)
 	- -
@@ -74,22 +78,24 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	- Acerca de la virtualización del almacenamiento #card
+	- Acerca de la virtualización del almacenamiento #car
 		- La  virtualización  del  almacenamiento  puede  ser  entendida  como  el  proceso  de abstracción lógica del almacenamiento físico. Los recursos de almacenamiento físico (como las unidades de disco) se agregan en agrupaciones de almacenamiento, desde donde el almacenamiento lógico se crea y se presenta al entorno de aplicación. Esta se  puede  implementar  dentro  del  almacenamiento  de  matrices  en  sí  misma (virtualización basada en matrices) o bien en el nivel de red, donde múltiples matrices de discos o almacenamiento en red de sistemas de diferentes proveedores, dispersos por la red, se pueden agrupar en un único dispositivo de almacenamiento monolítico. Esto permite que las matrices múltiples se administren de manera uniforme como si si se tratase de un solo grupo.
 		- (Page 11)
 	- -
 	- -
-	- Network Attached Storage (en siglas, NAS) #card
+	- Network Attached Storage (en siglas, NAS) #car
+	  id:: 634014fd-34fd-4589-9b5b-c77f4010098b
 		- El almacenamiento conectado a la red, o NAS, es un dispositivo de almacenamiento que se encuentra en la propia red y ofrece almacenamiento a los servidores en la red. Permite  que múltiples  clientes,  como  usuarios  de PC  y servidores,  compartan archivos  a  través  de  una  red  de  área  local  (en  siglas,  LAN).  NAS  utiliza  archivos basados en protocolos como  Network File System (en siglas, NFS), Server Message Block  (en  siglas,  SMB)  o  Common  Internet  File  System  (en  siglas,  CIFS),  donde  el almacenamiento  es  remoto  y  las  ordenadoras  solicitan  un  archivo  en  lugar  de  un bloque de disco. El hecho de tener todos los archivos movidos a una única ubicación central hace que se simplifique la administración de estos. Es decir que, en lugar de tener  que  hacer  un  seguimiento  de  todos  los  archivos  repartidos  entre  docenas, cientos, o incluso miles de máquinas, todos los datos se encuentran en un lugar, lo que  permite  realizar  una  mejor  copia  de  seguridad,  archivado,  etc.  Una  de  las ventajas más acusadas del NAS es que está basado en Internet Protocol (en siglas, IP) y es fácil de usar, desplegar y gestionar. Los usos más comunes incluyen archivos de rápido almacenamiento para rich media, documentos y archivos de back-up y correo electrónico.
 		- (Page 12)
 	- -
 	- -
-	- Storage Area Network (en siglas, SAN) #card
+	- Storage Area Network (en siglas, SAN) #car
+	  id:: 634014fd-1849-4fb1-9f69-d1b17833e2de
 		- Una red de área de almacenamiento, o SAN, es un dispositivo de almacenamiento (como una matriz de  discos o una biblioteca de cintas) accesible a los servidores para  que  los  dispositivos  puedan  permanecer  localmente  conectados  al  sistema operativo.  La  SAN,  normalmente,  tiene  su  propia  red  de  dispositivos  de almacenamiento  a  los  que  usualmente  no  se  puede  acceder  a  través  de  una  red ordinaria de dispositivos. Una SAN sola no proporciona la abstracción del «archivo» como en el caso de NAS, sino que solo provee operaciones a nivel de bloque. La mayoría de las SAN usan la conectividad del canal de fibra, del inglés Fibre Channel Connectivity  (en  siglas,  FC),  una  tecnología  de  red  especialmente  diseñada  para gestionar comunicaciones de almacenamiento, o Internet SCSI (en siglas, iSCSI), que es un estándar de red basado en IP para vincular dispositivos de almacenamiento. Las empresas utilizan almacenamiento este tipo de almacenamiento para centralizar la  gestión  de  los  datos  corporativos.  Los  usos  comunes  de  una  SAN  incluyen  el aprovisionamiento de datos de acceso transaccional que requieren acceso a nivel de bloque de alta velocidad a los discos duros de almacenamiento, tales como servidores de correo electrónico, bases de datos y servidores de archivos de acusado uso.
 		- (Page 13)
 	- -
 	- -
-	- ¿De qué sirve tener máquinas virtuales y almacenamiento (que se pueda virtualizar y migrar, según sea necesario) cuando los dispositivos físicos de endpoint de entrada y salida (en adelante, E/S) que residen en el servidor son no son ágiles? La administración manual de un recurso clave en un entorno virtualizado significa que la eficiencia está reñida con la capacidad que tenga esa organización de TI para administrar manualmente estos dispositivos de E/S. #card
+	- ¿De qué sirve tener máquinas virtuales y almacenamiento (que se pueda virtualizar y migrar, según sea necesario) cuando los dispositivos físicos de endpoint de entrada y salida (en adelante, E/S) que residen en el servidor son no son ágiles? La administración manual de un recurso clave en un entorno virtualizado significa que la eficiencia está reñida con la capacidad que tenga esa organización de TI para administrar manualmente estos dispositivos de E/S. #car
 		- Virtualización de E/S La  virtualización de  servidores  involucra  a  máquinas que funcionan  en un  servidor físico, lo que hace posible la ejecución de múltiples máquinas virtuales en un único sistema  físico.  La  virtualización  del  almacenamiento  permite  que  los  datos  se transfieran a un almacenamiento centralizado y compartido, lo que permite que se gestione de manera eficiente y rentable. Sin embargo, obtener datos de la máquina requiere pasar por endpoints de red y almacenamiento en el servidor, lo que puede traer aparejado otro conjunto de problemas
 		- (Page 13)
 	- -
@@ -106,7 +112,8 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 16)
 	- -
 	- -
-	- ¿Qué es el streaming de escritorio, o check-in check-out? #card
+	- ¿Qué es el streaming de escritorio, o check-in check-out? #car
+	  id:: 634014fd-a92f-4ab7-ae4c-577de45ac76f
 		- Cuando finaliza la sesión, el usuario apaga el sistema y la imagen del ordenador se escribe en el repositorio central y no queda nada en el hardware del usuario.
 		- (Page 17)
 	- -

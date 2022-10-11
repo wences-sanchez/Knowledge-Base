@@ -21,7 +21,8 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 6)
 	- -
 	- -
-	- <<<<<< #card
+	- <<<<<< #car
+	  id:: 63401500-5981-4772-a9a2-ffae36228f69
 		-   Escalabilidad.   Conciliación de estado deseado.   Soporte de redes en múltiples host.   Descubrimiento de servicios.   Balanceo de carga.   Seguridad de forma predeterminada.   Actualizaciones continuas.
 		- (Page 7)
 	- -
@@ -30,12 +31,13 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- Explica qué son los nodos manager de Docker Swarm #card
+	- Explica qué son los nodos manager de Docker Swarm #car
+	  id:: 63401500-9bcb-4a8a-be4f-b8050e030665
 		- Los nodos mánager del clúster trabajarán para mantener en todo momento el estado deseado definido, planificarán los servicios entre los nodos y, además, atenderán las llamadas al API de Swarm.
 		- (Page 8)
 	- -
 	- -
-	- ¿Para qué sirven los nodos de trabajo (o workers) en **Docker Swarm**? #card
+	- ¿Para qué sirven los nodos de trabajo (o workers) en **Docker Swarm**? #car
 		- La finalidad de los nodos de trabajo o workers en el clúster será exclusivamente la ejecución de tareas, es decir, de contenedores. Podríamos tener un clúster sin nodos worker,  ya  que  por  defecto  un  nodo  mánager  también  atiende  tareas  como  los workers. Pero no podremos, ni tampoco tendría sentido, crear un clúster con solo nodos worker.
 		- (Page 8)
 	- -
@@ -44,7 +46,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- INCLUIR IMAGEN #card
+	- INCLUIR IMAGEN #car
 		- Cuando indiquemos que queremos varias réplicas un determinado servicio, será el nodo mánager quien distribuya las tareas entre los diferentes nodos del clúster hasta lograr el estado deseado. Estas tareas se ejecutarán de manera independiente.
 		- (Page 9)
 	- -
@@ -57,12 +59,12 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 15)
 	- -
 	- -
-	- Cambio de rol de un nodo en Docker Swarm #card
+	- Cambio de rol de un nodo en Docker Swarm #car
 		- Es posible promover un nodo worker para convertirlo en nodo mánager, y viceversa, podemos degradar un nodo mánager a worker. Para realizar estas tareas de cambio de  rol  de  los  nodos  utilizaremos  los  siguientes  comandos  desde  un  nodo  de administración: $ docker node promote nombreNodoWorker $ docker node demote nombreNodoManager
 		- (Page 21)
 	- -
 	- -
-	- Nombra las diferencias entre **config** y **secret** en *Docker Swarm* #card
+	- Nombra las diferencias entre **config** y **secret** en *Docker Swarm* #car
 		-   Los objetos config no se almacenan en claro cuando los creamos. Sin embargo, los secret se almacenan encriptados. Ambos se transmiten de forma encriptada   La ruta de montaje por defecto de los config es /<config-name>, y en los secret entre los nodos. es /run/secrets/<secret_name>.   Los  objetos  config  se  montan  directamente  en  el  sistema  de  ficheros  del contenedor.  Sin  embargo,  los  secret  utilizan  sistemas  de ficheros  en memoria (RAM disk).   Un determinado objeto secret solamente será accesible por aquellos servicios a los que hemos dado acceso explícitamente.
 		- (Page 23)
 	- -

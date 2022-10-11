@@ -6,10 +6,11 @@ url:: https://learning.oreilly.com/u/1da26028-dfb9-4622-9c9b-60760d9389ee/learni
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- My private note... #card
+	- My private note... #car
+	  id:: 63401545-cc25-489a-b723-f1dbe56c9ad4
 		- Today, with the evolution of technologies and ever-increasing competition, companies are facing a real challenge to design and deliver products faster – all while maintaining us...
 	- -
 	- -
-	- My public note... #card
+	- My public note... #car
 		- "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users."
 	- -

@@ -14,7 +14,7 @@ tags:: #[[Literature]]
 		- #[[mind]]
 	- -
 	- -
-	- ;) XD #card
+	- ;) XD #car
 		- Mummy promises coffee to help me stay awake while the drugs are in my system.
 		- ([Location 987](https://readwise.io/to_kindle?action=open&asin=B00JWOJ8LM&location=987))
 		- #[[mind]]

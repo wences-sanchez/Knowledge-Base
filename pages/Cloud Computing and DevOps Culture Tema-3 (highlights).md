@@ -11,12 +11,13 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 	- -
 	- ¿Qué es un dojo? +++
 	  
-	  equipos completos vienen a aprender ingeniería moderna, productos y prácticas ágiles. #card
+	  equipos completos vienen a aprender ingeniería moderna, productos y prácticas ágiles. #car
 		- El Dojo, en nuestro contexto, es un espacio  diseñado  para  albergar  una  experiencia  de  aprendizaje  inmersiva  donde
 		- (Page 4)
 	- -
 	- -
-	- ¿Cuáles son los tres principios clave de Agile? #card
+	- ¿Cuáles son los tres principios clave de Agile? #car
+	  id:: 634014fc-3b27-4f31-8ce1-8ec8fc0663f3
 		-   Entrega incremental.   Retroalimentación y mejora continua.   El trabajo en elementos de alto valor.
 		- (Page 8)
 	- -
@@ -25,7 +26,7 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- ¿A qué nos referimos con "orientción l producto" cundo hblmos de Dojo? #card
+	- ¿A qué nos referimos con "orientción l producto" cundo hblmos de Dojo? #car
 		- a
 		- (Page 8)
 	- -
@@ -38,44 +39,46 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 19)
 	- -
 	- -
-	- Etapa del Dojo #card
+	- Etapa del Dojo #car
 		-   Consulta: consiste en una breve reunión con el equipo interesado a fin de describir qué es un Dojo y cómo podría ayudar a ese equipo en concreto. El objetivo de esta reunión es el de dar a los equipos interesados suficiente información para decidir si el Dojo es una buena solución para ellos y para que los entrenadores evalúen si pueden cumplir con todos los requisitos necesarios de formación para el Dojo.
 		- (Page 20)
 	- -
 	- -
-	- Etapa del Dojo #card
+	- Etapa del Dojo #car
+	  id:: 634014fc-9c28-49ab-aaad-e59ccceac107
 		-   Acuerdo: se trata de una reunión, de aproximadamente media jornada, en la que participa  el  equipo  que  desea  entrar  en  el  Dojo,  así  como  cualquier  otra  parte interesada que resulte crítica. El equipo se alinea en sus resultados para el Dojo a través de la articulación de su campo de interés, metas, métricas clave, acuerdos de trabajo y una evaluación completa de las habilidades del equipo.
 		- (Page 20)
 	- -
 	- -
-	- Etapa del Dojo #card
+	- Etapa del Dojo #car
 		-   Experiencia del Dojo: esta es la etapa más comprometida del ciclo de vida, ya que aquí se lleva a cabo la experiencia del Dojo, donde se trabaja directamente con los equipos,  los  entrenadores  y  otros  interesados  durante  un  período  prolongado para alcanzar los objetivos de aprendizaje establecidos por la empresa.
 		- (Page 20)
 	- -
 	- -
 	- Etapa del Dojo
 	  
-	  comprobar que están aplicando lo aprendido durante el Dojo, solventar lagunas que puedan haber quedado de las sesiones e identificar nuevas oportunidades en otros equipos. #card
+	  comprobar que están aplicando lo aprendido durante el Dojo, solventar lagunas que puedan haber quedado de las sesiones e identificar nuevas oportunidades en otros equipos. #car
 		-   De vuelta a la «naturaleza»: el equipo retorna al entorno habitual de trabajo y es encuestado  sobre  su  experiencia  en  el  Dojo.  Se  espera  que  compartan  sus vivencias  y  aquello  que  han  aprendido  con  otras  personas  ajenas  al  Dojo.  Los entrenadores hacen un seguimiento en las siguientes cuatro a seis semanas para
 		- (Page 20)
 	- -
 	- -
-	- Un formato de Dojo #card
+	- Un formato de Dojo #car
 		-   Desafío: los equipos entran en el Dojo con un reto propio diseñado a medida por ellos  mismos.  Estos  Dojos  deben  incluir  a  todo  el  equipo:  product  owner, ingenieros,  maestros  de  Scrum  y  diseñadores.  El  enfoque  del  desafío  es  una transformación holística de las prácticas y formas de trabajo de un equipo. Como resultado,  un  desafío  es  una  actividad  de  larga  duración  (típicamente  seis semanas) donde el equipo corre en  hiper-sprints (típicamente dos días y medio cada  uno).  Al  final  del  desafío,  generalmente  hay  un  evento  con  un  grupo  más amplio de líderes y partes interesadas, para exponer sus resultados.
 		- (Page 21)
 	- -
 	- -
-	- Un formato de Dojo #card
+	- Un formato de Dojo #car
 		-   FlashBuild: este formato es más pequeño, suele durar menos de una semana  y está  pensado  para  equipos  que  intentan  resolver  un  problema  técnico  muy específico,  cómo  establecer  un  pipeline  de  CI/CD,  aplicar  un  framework  de desarrollo o de pruebas, configurar servicios basados en nube o contenedores, etc. Los entrenadores expertos trabajan junto a los equipos para cocrear la solución, transfiriendo  el  conocimiento  a  lo  largo  del  proceso  de  trabajo.  Dada  su  corta duración, hay menos enfoque en el aprendizaje de las prácticas que determinan cómo los equipos deben trabajar con las nuevas tecnologías.
 		- (Page 21)
 	- -
 	- -
-	- Un formato de Dojo #card
+	- Un formato de Dojo #car
+	  id:: 634014fc-30b3-4195-b835-b5188d759fef
 		-   Talleres:  se  trata  de  eventos,  de  una  o  varias  horas,  diseñados  para  educar  a ingenieros específicos. Ejemplos de estos pueden ser eventos enfocados en migrar infraestructuras a la nube de forma eficiente, implantar Kubernetes, securizar el código, implementar el desarrollo basado en pruebas, etc.
 		- (Page 21)
 	- -
 	- -
-	- Un formato de Dojo #card
+	- Un formato de Dojo #car
 		- Talleres de líderes:es un taller de inmersión que no suele durar más que un par de días, que combina experiencias prácticas junto con una conferencia sobre los conceptos y prácticas fundamentales que los equipos están adoptando. El objetivo de estas sesiones no es que los líderes construyan productos completos, sino que obtengan la información necesaria para comprender los cambios por loa que están atravesando  sus  equipos  y  empatizar  con  ellos.  El  foco  de  estas  jornadas  debe estar puesto en la enseñanza de conductas de liderazgo que permitan capacitar a los líderes de equipos, a fin de que este modelo sea exitoso.
 		- (Page 22)
 	- -

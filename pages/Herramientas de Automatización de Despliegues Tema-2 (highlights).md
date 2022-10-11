@@ -10,8 +10,9 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
 	- El comando import indica a Puppet que debe cargar un archivo llamado nodes.pp , ya
+	  id:: 63401516-33e0-4b43-839a-f3c4a0339d13
 	  que este comando nos permite importar otro manifiesto de Puppet dentro de
-	  nuestro archivo. #card
+	  nuestro archivo. #car
 		- Import 'nodes.pp' $servidorpuppet = 'puppet.ejemplo.edu'
 		- (Page 5)
 	- -
@@ -36,7 +37,7 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 		- (Page 12)
 	- -
 	- -
-	- CONTINUE #card
+	- CONTINUE #car
 		- mode => 0440, source =>"puppet://$servidorpuppet/modules/sudo/etc/sudoers", require => Package["sudo"], } }
 		- (Page 13)
 	- -
@@ -57,7 +58,8 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 		- (Page 21)
 	- -
 	- -
-	- CONTINUE #card
+	- CONTINUE #car
+	  id:: 63401516-38a5-42ae-b0cf-ecf942035d2d
 		- valores  por  defecto,  pero  hemos  querido  incluirlos  para  mostrar  las  opciones  más comunes de configuración a la hora de establecer un aprovisionamiento con Puppet.
 		- (Page 22)
 	- -

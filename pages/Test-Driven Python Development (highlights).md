@@ -9,22 +9,22 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- Understanding test-driven development
 		- -
-		- Why unit tests? #card
+		- Why unit tests? #car
 			- At this point, a valid question would be to ask why we need unit testing at all. Why not write only integration tests, where a single test could check so many parts of the application at once? The reason is that integration tests do not pinpoint the location of failure. A failing integration test could have an error in the UI, or in the logic, or somewhere in the way data is read or written. It will take a lot of investigation to see where the error is and fix it.
 		- -
 		- -
-		- Rhythm of TDD #card
+		- Rhythm of TDD #car
 			- Developers who are familiar with TDD usually go through this cycle many times an hour, implementing small steps of functionality each time.
 		- -
 		- -
 		- As we can see, unit testing is a general term, whereas developer testing is a specific subset of unit testing, and TDD is a specific form of developer testing. #ñspace
 		- -
 		- -
-		- About TDD philosophy. #card
+		- About TDD philosophy. #car
 			- the main focus of TDD is not really about testing. The simple act of writing a test before the implementation changes the way we think when we implement the corresponding functionality. The resulting code is more testable, usually has a simple and elegant design, and is more maintainable and readable.
 		- -
 		- -
-		- What is TDD about. #card
+		- What is TDD about. #car
 			- NOTE
 			  TDD is about writing better, cleaner, more maintainable code, and only incidentally about testing.
 		- -
@@ -39,18 +39,19 @@ tags:: #[[O'Reilly-Learning]]
 		- Rather than coming up with a very comprehensive list of functionality, we're going to focus on tiny bits of functionality, one at a time. #ñspace
 		- -
 		- -
-		- Failure VS Error #card
+		- Failure VS Error #car
 			- There are two reasons why a test might not pass: It might have failed or it might have caused an error. There is a small difference between these two. A failure indicates that we expected some outcome (usually via an assert), but got something else. For example, in our test, we are asserting that stock.price is None. Suppose stock.price has some other value apart from None, then the test will fail.
 			  
 			  An error indicates that something unexpected happened, usually an unexpected exception was raised. In our previous example, we got an error because the Stock class has not yet been defined.
 		- -
 		- -
-		- What does '__name__' mean in Python??? #card
+		- What does '__name__' mean in Python??? #car
 			- The last segment checks if the module was executed directly from the command line. In such a case, the __name__ variable will have the value __main__
 		- -
 	- Reorganizing the test code
 		- -
-		- Why is '__main__' used in Python??? #card
+		- Why is '__main__' used in Python??? #car
+		  id:: 63401535-4b7a-49c8-9260-29160b1571ea
 			- The reason we need to wrap this function call inside the conditional is because this part does not get executed if the module is imported into another file.
 		- -
 		- -
@@ -68,7 +69,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 	- Arrange-Act-Assert
 		- -
-		- Body of a test (without setup) #card
+		- Body of a test (without setup) #car
 			- This test follows the pattern of Arrange-Act-Assert.
 			  
 			  Arrange: Set up the context for the test. In this case, we create a Stock object. In other tests, it may involve creating multiple objects or hooking a few things together that will be required by the particular test.
@@ -77,7 +78,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 	- Testing for exceptions
 		- -
-		- Method to test an exception #card
+		- Method to test an exception #car
 			- The assertRaises method takes the expected exception as the first argument, the function to call as the second argument, and the parameters to the function are passed as in the remaining arguments
 		- -
 		- -
@@ -92,21 +93,22 @@ tags:: #[[O'Reilly-Learning]]
 		- self.assertAlmostEqual(8.4, goog.price, places=4) #ñspace
 		- -
 		- -
-		- AssertEqual VS assertIs #card
+		- AssertEqual VS assertIs #car
 			- assertEqual versus assertIs: These two sets of assertions are very similar. The critical difference is that the former checks for equality while the latter assertion is used to check for object identity
 		- -
 	- Specific asserts versus generic asserts
 		- -
-		- Specific asserts VS broader asserts #card
+		- Specific asserts VS broader asserts #car
 			- one motivation for using a specific assert is that you get a better error message if the assertion fails. When comparing objects like lists and dicts, the error message will show exactly where the difference occurs, making it much easier to understand. Therefore, it is recommended to use the more specific asserts wherever possible.
 		- -
 	- Setup and teardown
 		- -
-		- What’s the exact name of the function which prepares all? (Talking about tests cases) #card
+		- What’s the exact name of the function which prepares all? (Talking about tests cases) #car
 			- def setUp(self):
 		- -
 		- -
-		- When to use the setUpClass and setUpModule #card
+		- When to use the setUpClass and setUpModule #car
+		  id:: 63401535-9a08-434b-afb3-bae70a9d59dc
 			- Class level and module level setups are only used when there is an expensive setup step, such as making a connection to a database or a remote server, and it is preferable to do this setup just once and share it between all the tests.
 		- -
 	- Brittle tests
@@ -134,7 +136,7 @@ tags:: #[[O'Reilly-Learning]]
 		  
 		  Lo que hacemos es usar una función auxiliar para encapsular la variable (en este caso list) que le pasamos al objeto en cuestión.
 		  
-		  En vez de crear una variable en la clase de test, se lo inyectamos el dato al objeto directamente (cada cual) que usas para el assert. A través de su interfaz (o contrato). #card
+		  En vez de crear una variable en la clase de test, se lo inyectamos el dato al objeto directamente (cada cual) que usas para el assert. A través de su interfaz (o contrato). #car
 			- Much better! Not only is the duplication removed, but the tests are a lot more readable. By default, the unittest module looks for methods that start with the word test and only executes those methods as tests, so there is no risk that our helper method will be mistaken for a test case.
 		- -
 	- Exploring the Rule classes

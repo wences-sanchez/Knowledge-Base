@@ -6,7 +6,7 @@ url:: https://stackoverflow.com/questions/983699/initialise-a-list-to-a-specific
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How build a list with an initial value (hard-coded)? #card
+	- How build a list with an initial value (hard-coded)? #car
 		- list multiplication works.
 		  
 		  >>> [0] * 10

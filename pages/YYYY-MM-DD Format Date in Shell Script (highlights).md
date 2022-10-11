@@ -6,7 +6,8 @@ url:: https://stackoverflow.com/questions/1401482/yyyy-mm-dd-format-date-in-shel
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How could you print the date in Bash? .code .bash #card
+	- How could you print the date in Bash? .code .bash #car
+	  id:: 63401545-602c-41fb-97cd-2b694b69b3f5
 		- In bash (>=4.2) it is preferable to use printf's built-in date formatter (part of bash) rather than the external date (usually GNU date).
 		  
 		  As such:

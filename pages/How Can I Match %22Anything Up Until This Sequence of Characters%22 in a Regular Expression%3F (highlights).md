@@ -6,7 +6,7 @@ url:: https://stackoverflow.com/questions/7124778/how-can-i-match-anything-up-un
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How do you build a regex that eat everything until one character? #card
+	- How do you build a regex that eat everything until one character? #car
 		- You didn't  specify which flavor  of regex  you're using, but  this will
 		  work in any of the most popular ones that can be considered "complete".
 		  

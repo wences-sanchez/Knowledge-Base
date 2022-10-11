@@ -21,7 +21,7 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 		- (Page 8)
 	- -
 	- -
-	- AÑADIR IMAGEN #card
+	- AÑADIR IMAGEN #car
 		-   release-*: estas ramas parten de  develop  y se fusionan con  master y  develop. Cuando este último está casi listo para una nueva versión, se crea una nueva rama con  el  identificador  de  dicha  versión,  por  ejemplo,  release-1.4.0.  No  debe contener los cambios de las ramas de características planificadas para versiones futuras. Puede recibir arreglos de las características de la nueva versión, que se añadirán también a develop mientras se prepara la liberación de la versión. Una vez release-1.4.0 es aprobada, se fusiona tanto en master como en develop. Se pueden borrar una vez fusionadas.
 		- (Page 11)
 	- -
@@ -30,7 +30,7 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 		- (Page 14)
 	- -
 	- -
-	- AÑADIR IMAGEN #card
+	- AÑADIR IMAGEN #car
 		- La  estrategia  de  state  branching,  también  denominada  GitLab  flow,  consiste  en nombrar  las  ramas  según  el  entorno  en  el  que  se  despliegan.  Así,  el  repositorio tendría  ramas  llamadas  local,  develop,  staging  y  production  (que  podría  ser master). Cada rama se va fusionando con la siguiente cuando el código está listo para ser promocionado al siguiente entorno. La figura 3 muestra un ejemplo de este flujo. Cada nueva característica o arreglo se fusiona primero en  develop y va avanzando hasta que llega a master, que es desde donde se despliega el entorno de producción.
 		- (Page 16)
 	- -

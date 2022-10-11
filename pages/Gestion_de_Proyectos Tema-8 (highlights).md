@@ -9,7 +9,7 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/6a6bd78b-e3e8-4898-b813-291fb0a71f02.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- >>> siguiente. #card
+	- >>> siguiente. #car
 		- Así,  se  puede  afirmar  que  un  requisito  está  hecho  o  finalizado,  cuando  se  puede entregar  al  usuario  final,  es  decir,  cuando  el  equipo  que  esté  trabajando  en  el mismo,  puede  liberarlo  y  entregarlo  durante  el  proceso  de  entrega  en  el  paso
 		- (Page 5)
 	- -
@@ -26,7 +26,8 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 10)
 	- -
 	- -
-	- Sobre la daily #card
+	- Sobre la daily #car
+	  id:: 63401514-ba09-4837-a40e-62084ef9556d
 		- No se debe actualizar la acumulación de Sprint durante esta reunión. El objetivo debe ser resolver los impedimentos. Hay que asegurarse de que cada miembro del equipo permanezca presente hasta el final de la reunión. Es importante que se entienda que esta reunión no es una reunión de actualización de estado en la que un jefe recopila información sobre quién está a tiempo o retrasado. Más bien, es una reunión en la que los miembros del equipo se comprometen entre sí.
 		- (Page 29)
 	- -

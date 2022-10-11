@@ -17,22 +17,25 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 5)
 	- -
 	- -
-	- ¿Cuál es la plantilla del *Elevator Pitch* de un proyecto? #card
+	- ¿Cuál es la plantilla del *Elevator Pitch* de un proyecto? #car
+	  id:: 63401513-cafb-4e29-88cc-ad21dc7f70b9
 		-   For (target customer).   Who (statement of need or opportunity).   (Product name) is a (product category).
 		- (Page 7)
 	- -
 	- -
-	- <<<<<<<<< #card
+	- <<<<<<<<< #car
 		-   That (statement of key benefit).   Unlike (competing alternative).   (Product name), (statement of primary differentiation). Como ejemplo de esta fórmula usando Amazon como sujeto: Para los usuarios de la Web. Que disfruten de los libros. Amazon es una librería minorista. Que proporciona acceso instantáneo a millones de libros. A  diferencia  de  los  minoristas  de  libros  tradicionales,  Amazon  ofrece  una combinación  de  comodidad  extraordinaria,  precios  bajos  y  una  selección completa.
 		- (Page 8)
 	- -
 	- -
-	- ¿En qué consiste la técnica *Personas*? #card
+	- ¿En qué consiste la técnica *Personas*? #car
+	  id:: 63401513-7baf-44fd-af3d-5ca824865165
 		- Una Persona será una representación ejemplo del tipo de usuario que interactuará con  el  resultado  del  proyecto  como  herramienta  o  sistema  final  (ver  Figura  3).  En ocasiones, las personas también se denominan arquetipos de usuarios compuestos.
 		- (Page 11)
 	- -
 	- -
-	- <<<<<<< #card
+	- <<<<<<< #car
+	  id:: 63401513-c2a6-4cce-afab-faa68b7d5f0a
 		- Las personas pueden ayudar a los diseñadores de los proyectos a hacer las siguientes tareas:   Definir qué debería hacer un producto y cómo debería comportarse. A través de los objetivos y tareas del proyecto, se identifica la base del esfuerzo del diseño del producto.   Establecer  comunicación  entre las  partes interesadas,  diseñadores  y desarrolladores. Se discuten las decisiones de diseño, centrado en los usuarios, en cada iteración, mediante un lenguaje común entre las personas.   Elaborar un consenso y compromiso de diseño. Llegar a un visión y entendimiento unificado, basado en el lenguaje común adoptado, y aplicar estructuras narrativas.   Evaluar  mediciones  de  la  efectividad  del  diseño.  Esto  permite  realizar  una verificación  cercana  a  la  realidad,  aunque  no  reemplaza  la  necesidad  de  ser probado con usuarios reales.   Apoyar otros esfuerzos del producto (marketing, ventas). Es interesante que se pueda contribuir a otros componentes de negocio no directamente relacionados con el desarrollo del producto, y que puedan beneficiarse del conocimiento de los usuarios del producto.
 		- (Page 12)
 	- -
@@ -49,39 +52,43 @@ tags:: #[[Gestión de Proyectos]] #[[UNI]]
 		- (Page 16)
 	- -
 	- -
-	- ¿Qué se escribe como plantilla para una *historia de usuario*? #card
+	- ¿Qué se escribe como plantilla para una *historia de usuario*? #car
+	  id:: 63401513-6789-4a93-aced-191370f4883b
 		- En el anverso, se escribe el texto de la historia, en forma «Como <usuario> Quiero <funcionalidad  o  meta>  Para  <motivo  o  resultado  deseado>».
 		- (Page 18)
 	- -
 	- -
 	- <<<<<<<<
-	  INCLUIR FIGURA 8 #card
+	  INCLUIR FIGURA 8 #car
 		- En el reverso, se escriben los  criterios de aceptación de la historia. Un criterio de aceptación  es  una  condición  específica  de  cada  funcionalidad  acorde  a  su comportamiento.  Sirven  como  descripciones  rápidas  que  pueden  guiar la implementación,  detectar  dependencias  y  mejorar  estimaciones.  Los  criterios  de aceptación los define el Product Owner, los Desarrolladores y otros participantes o stakeholders. Se pueden escribir de forma libre o bien siguiendo un formato concreto del tipo «Dado <contexto> Cuando <evento> Entonces <resultado>»
 		- (Page 19)
 	- -
 	- -
-	- Describe en qué consiste la técnica **INVEST** para escribir historias de usuario #card
+	- Describe en qué consiste la técnica **INVEST** para escribir historias de usuario #car
 		-   I – Independiente (Independent): la historia de usuario debe ser auto explicable, sin depender de otras historias de usuario.   N – Negociable (Negotiable): historias de usuario flexibles y modificables, por lo que se evita incluir demasiado detalle.   V – Valiosa (Valuable): la historia de usuario debe aportar algún valor al usuario.   E – Estimable (Estimable): se debe poder estimar los recursos para completar cada   S – Escalable / Pequeño (Scalable / Small): historias de usuario simples para poder historia de usuario. ser encargadas y priorizadas.   T  –  Testable  (Timely):  criterios  de  verificación  y  aprobación  conocidos  por  el equipo, aplicando estos criterios que aplica cuando una historia esté completa.
 		- (Page 22)
 	- -
 	- -
-	- Explica el significado de la técnica **SMART** para escribir tareas incluídas en *historias de usuario* #card
+	- Explica el significado de la técnica **SMART** para escribir tareas incluídas en *historias de usuario* #car
 		-   S – Específico (Specific): tareas específicas que puedan ser entendidas por todos.   M – Medible (Meaurable): el equipo debe ponerse de acuerdo para conocer bien   A – Alcanzable (Achievable): establecer metas que representan desafíos.   R – Relevante (Relevant): cada tarea debe ser relevante, por lo que contribuye a lo que se pretende. la historia.   T – A tiempo (Time-Boxed): límite de duración específica por cada tarea.
 		- (Page 22)
 	- -
 	- -
-	- Describe la técnica *MoSCoW* de priorización de requisitos #card
+	- Describe la técnica *MoSCoW* de priorización de requisitos #car
+	  id:: 63401513-38da-4867-98f0-71cc4b287935
 		- La  técnica  MoSCoW  plantea  una  categorización  de  las  historias  de  usuario  en función  a  palabras  con  un  significado  concreto.  Esta  técnica  hace  uso  de  cuatro categorías  o  etiquetas,  que  entregan  valor  ya  que  nos  ayudan  a  ordenar  los elementos de la pila de requisitos. Estas categorías (Figura 10) son las siguientes:   M – Must: lo que debemos hacer y haremos de inmediato. Las funcionalidades o requisitos dentro de este grupo son obligatorias, de manera que, si alguno falla,
 		- (Page 25)
 	- -
 	- -
 	- <<<<<<<<<
-	  INCLUIR IMAGEN #card
+	  id:: 63401513-39c1-491b-978f-d10015021651
+	  INCLUIR IMAGEN #car
 		- entonces el producto no será aceptable. En caso de que no puedan construirse, entonces se debería cancelar el proyecto, pues no se genera valor de negocio.   S  –  Should:  lo  de  deberíamos  hacer  y  haremos  en  lo  posible.  Los  requisitos  o funcionalidades en este grupo son muy importantes a considerar. Si no pudieran construirse, podría generarse algo de valor sin ellos. No obstante, se puede dar el caso  de  que  sean  los  requisitos  que  marcan  un  valor  diferencial  del  producto respecto a la competencia. Por tanto, habría que hacer lo posible, para que estos requisitos formen parte del trabajo.   C – Could: lo que podríamos hacer y haremos si nos da la capacidad. Los requisitos o funcionalidades de este grupo son deseables, pero no imprescindibles, y podrían formar  parte  del  producto,  siempre  y  cuando  los  requisitos  Must  y  Should  se satisfagan adecuadamente.   W – Would o Won’t: lo que no haremos ahora y haremos más tarde. Los requisitos o funcionalidades de este grupo  son improbables que lleguen a implementarse. Pueden ser características que resulten atractivas, pero que no supongan un valor diferencial. Solamente, en el caso de que todos los requisitos estén garantizados, se podrán construir estos requisitos. Dado que la gestión ágil promueve el cambio, puede que se introduzcan requisitos Must o Should, que hagan que se pospongan los requisitos Would, llegando a no ser desarrollado.
 		- (Page 26)
 	- -
 	- -
-	- Define **Product Backlog** #card
+	- Define **Product Backlog** #car
+	  id:: 63401513-d517-40c7-89f9-d5f54c9bbce6
 		- El  Product  Backlog  es  la  pila  de  requisitos  priorizada,  también  se  denomina simplemente Backlog (ágil). El Backlog actúa de conector entre el Product Owner y los Desarrolladores. Después de aplicar alguna de las técnicas de priorización, el resultado de la pila de requisitos  será  el  mismo  respecto  a  tener  un  conjunto  de  requisitos  que  se encuentran ordenados por una priorización determinada. Por tanto, ya no se tendrá simplemente  una  lista  de  necesidades  a  ser  cubiertas,  sino  un  orden  de  dichas necesidades (ver Figura 12), que todos los participantes del proyecto conocerán y se tendrá en cuenta para la propuesta de cambios a cubrir.
 		- (Page 32)
 	- -

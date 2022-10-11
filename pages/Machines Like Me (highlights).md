@@ -9,22 +9,23 @@ tags:: #[[Literature]]
 - ![](https://images-na.ssl-images-amazon.com/images/I/41DmK4xeGBL._SL200_.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- The factory settings of the android. His fate. #card
+	- The factory settings of the android. His fate. #car
 		- And at the bottom, He feels uncomfortable around other people and He prefers his own company.
 		- ([Location 324](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=324))
 	- -
 	- -
-	- Eternal (and real) ideas to run away. #card
+	- Eternal (and real) ideas to run away. #car
 		- With the inheritance, I could have bought a place somewhere north of the river, Notting Hill, or Chelsea. She might even have joined me. She would’ve had space for all the books that were boxed up in her father’s garage in Salisbury.
 		- ([Location 368](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=368))
 	- -
 	- -
-	- Ways to live #card
+	- Ways to live #car
+	  id:: 6340152c-1956-4e05-a76e-3f5872cb0f49
 		- I paid my rent, which was low in those days, ate and dressed well enough, and thought I was beginning to stabilise, learning to know myself.
 		- ([Location 393](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=393))
 	- -
 	- -
-	- Regrets... #card
+	- Regrets... #car
 		- She knew how to arrange a life. And not only her own. But I offended her with an act of undeniable disloyalty. She disowned me in a scene of regal fury, at the end of which she threw my clothes out into the street.
 		- ([Location 399](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=399))
 	- -
@@ -33,7 +34,7 @@ tags:: #[[Literature]]
 		- ([Location 1040](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=1040))
 	- -
 	- -
-	- What is a robot thinking about? #card
+	- What is a robot thinking about? #car
 		- ‘It’s the way I’m made. I’m bound to conclude that I’ve a very powerful sense of self and I’m certain that it’s real and that neuroscience will describe it fully one day. Even when it does, I won’t know this self any better than I do now. But I do have moments of doubt when I wonder whether I’m subject to a form of Cartesian error.’
 		- ([Location 1115](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=1115))
 	- -

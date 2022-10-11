@@ -53,13 +53,14 @@ tags:: #[[O'Reilly-Learning]]
 		  Now we have a simple three-step scenario that’s clear and concise #ñspace
 		- -
 		- -
-		- Cucumber has to be a declarative language #card
+		- Cucumber has to be a declarative language #car
+		  id:: 63401536-5e36-4337-bd8a-646d4b2151b1
 			- In computer programming, there are two contrasting styles for expressing the instructions you give to a computer to make it do something for you. These styles are called imperative programming and declarative programming.
 			  
 			  Imperative programming means using a sequence of commands for the computer to perform in a particular order. Ruby is an example of an imperative language: you write a program as a series of statements that Ruby runs one at a time, in order. A declarative program tells the computer what it should do without prescribing precisely how to do it. CSS is an example of a declarative language: you tell the computer what you want the various elements on a web page to look like, and you leave it to take care of the rest.
 		- -
 		- -
-		- Tienes que escribir el qué, no el cómo! #card
+		- Tienes que escribir el qué, no el cómo! #car
 			- Scenario​: Redirect user to originally requested page after logging in
 			  ​ 	  Given I am an unauthenticated User
 			  ​ 	  When I attempt to view some restricted content
@@ -69,7 +70,7 @@ tags:: #[[O'Reilly-Learning]]
 			  The beauty of this style is that it is not coupled to any specific implementation of the user interface
 		- -
 		- -
-		- Puedes enlazar varios tests con un mismo step!!! #card
+		- Puedes enlazar varios tests con un mismo step!!! #car
 			- It’s true that using declarative style will mean you have to write more step definitions, but you can keep the code in those step definitions short
 		- -
 	- Caring for Your Tests
@@ -80,12 +81,12 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 	- 7. Step Definitions: On the Inside
 		- -
-		- How is Cucumber used in the real life? #card
+		- How is Cucumber used in the real life? #car
 			- Now we’re going to pick up this scenario and work outside-in, designing the system as we go, just as we would on a real project
 		- -
 	- Sketching Out the Domain Model
 		- -
-		- Es mejor terminar de testear los steps del escenario que zambullirse en el TDD (un test funcional [escenario] fallido —> un nuevo ciclo en TDD) #card
+		- Es mejor terminar de testear los steps del escenario que zambullirse en el TDD (un test funcional [escenario] fallido —> un nuevo ciclo en TDD) #car
 			- It’s tempting to pause here, move the Account class into a separate file, and start driving out the behavior we want using unit tests. We’re going to try to resist that temptation for now and stay on the outside of the Account class. If we can get a full tour through the scenario from this perspective, we’ll be more confident in the design of the class’s interface once we do step inside and start implementing it.
 		- -
 	- Removing Duplication with Transforms

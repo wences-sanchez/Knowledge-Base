@@ -6,7 +6,8 @@ url:: https://hyperskill.org/learn/step/3510
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- About implicit type casting precision .java #card
+	- About implicit type casting precision .java #car
+	  id:: 63401512-2cf6-4aa3-931e-1689abc7b908
 		- In some cases, implicit type casting may be a bit lossy. When we convert an int to float, or a long to float or to double, we may lose some less significant bits of the value, which will result in the loss of precision. However, the result of this conversion will be a correctly rounded version of the integer value, which will be in the overall range of the target type. To understand that, check out the example:
 		  
 		  long bigLong =  1_200_000_002L;float bigFloat = bigLong; // 1.2E9 (= 1_200_000_000)

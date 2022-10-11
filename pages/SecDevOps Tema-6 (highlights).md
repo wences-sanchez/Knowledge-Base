@@ -9,7 +9,7 @@ tags:: #[[SecDevOps]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/d7095b61-4205-46b6-b02a-77b13111959c.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- ¿Qué se conoce como VNet? #card
+	- ¿Qué se conoce como VNet? #car
 		- Azure Virtual Network (denominada también VNet) es una de las piezas esenciales para  la  infraestructura  de  red  privada  en  Azure  (Tullock,  2013).  VNet  permite  que muchos tipos de recursos de Azure, como las máquinas virtuales, se comuniquen de manera  segura  entre  sí,  con  Internet  y  con  las  redes  locales  on-premise.  VNet  es similar a la red tradicional de un centro de datos, pero tiene beneficios adicionales de la infraestructura nativa de nube, como la escalabilidad y alta disponibilidad.
 		- (Page 5)
 	- -
@@ -46,7 +46,7 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 17)
 	- -
 	- -
-	- ¿Qué es un Juniper vSRX? #card
+	- ¿Qué es un Juniper vSRX? #car
 		- El vSRX es un appliance virtual que ofrece servicios de seguridad y de red en entornos de  nube  pública  o  privada.  Se  conoce  como  firewall  de  nueva  generación,  o  next generation  firewall,  porque  no  solo  funciona  como  firewall  avanzado  (a  nivel  de paquetes  y  de  aplicación),  sino  también  como  rúter,  VPN,  NAT  o  IPS  (sistema  de detección y prevención de intrusiones).
 		- (Page 18)
 	- -

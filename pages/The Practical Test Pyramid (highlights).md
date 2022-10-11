@@ -14,7 +14,7 @@ url:: https://martinfowler.com/articles/practical-test-pyramid.html
 		- ([View Highlight](https://instapaper.com/read/1432780818/17070634))
 	- -
 	- -
-	- What is refactoring (in short)? #card
+	- What is refactoring (in short)? #car
 		- quick recap: refactoring means changing the internal structure of your code without changing the externally visible behaviour
 		- ([View Highlight](https://instapaper.com/read/1432780818/17070656))
 	- -

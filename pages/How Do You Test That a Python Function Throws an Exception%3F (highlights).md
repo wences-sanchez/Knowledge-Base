@@ -6,7 +6,8 @@ url:: https://stackoverflow.com/questions/129507/how-do-you-test-that-a-python-f
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How can you assert an exception in python? #python #code #card
+	- How can you assert an exception in python? #python #code #car
+	  id:: 63401517-2689-4fc7-a78d-d21ff758524e
 		- import mymod
 		  
 		  class MyTestCase(unittest.TestCase):

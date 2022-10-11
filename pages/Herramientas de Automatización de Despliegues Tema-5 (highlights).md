@@ -43,7 +43,7 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 	- -
 	- config.vm.provision "ansible" do |ansible|
 	  ansible.playbook ="provisioning/playbook.yml"
-	  end #card
+	  end #car
 		- Esto  le  dice  a  Vagrant  que  utilice  Ansible  para  aprovisionar  la  máquina  virtual, ejecutando  el  playbook  que  se  llama  playbook.yml  dentro  de  un  subdirectorio provisioning que se encuentra en el directorio actual (ruta relativa).
 		- (Page 15)
 	- -

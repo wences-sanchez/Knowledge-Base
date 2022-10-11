@@ -6,7 +6,8 @@ url:: https://stackoverflow.com/questions/14444717/append-a-single-character-to-
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How do you append a char to a String? #card
+	- How do you append a char to a String? #car
+	  id:: 634014f5-f333-4fbf-89ae-d83978afeec2
 		- 1. String otherString = "helen" + character;
 		  
 		  2. otherString +=  character;

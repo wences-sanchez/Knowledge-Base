@@ -35,7 +35,8 @@ tags:: #[[O'Reilly-Learning]]
 			- #[[qa]]
 		- -
 		- -
-		- What does a cause-effect graph look like? #card
+		- What does a cause-effect graph look like? #car
+		  id:: 634014ef-1dcf-4e33-a1bd-7c2528e01291
 			- Cause-effect graphs are simply pictorial representations of the same business logic that is shown in a decision table.
 		- -
 	- 3 Test Techniques
@@ -46,7 +47,8 @@ tags:: #[[O'Reilly-Learning]]
 		- It’s important to remember that fulfilling coverage criteria for a particular test design technique does not mean that your tests are in any way complete or exhaustive. Instead, it means that the model has run out of useful tests to suggest, based on that technique. #ñspace
 		- -
 		- -
-		- About Equivalence Partitioning #card
+		- About Equivalence Partitioning #car
+		  id:: 634014ef-e3dc-473e-8798-a3767cb269e7
 			- This technique is also very useful in constructing smoke tests, though testing of some of the less-risky partitions frequently is omitted in smoke tests.
 		- -
 		- -

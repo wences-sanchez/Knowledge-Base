@@ -114,7 +114,7 @@ category:: #books
 		- ([Location 684](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=684))
 	- -
 	- -
-	- Recibiendo solicitudes por el protocolo HTTP #card
+	- Recibiendo solicitudes por el protocolo HTTP #car
 		- A web server is no more than a piece of software running on a machine and listening to requests from a specific port.
 		- ([Location 692](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=692))
 		- #[[pink]] #[[rosa]]
@@ -129,7 +129,7 @@ category:: #books
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- El servidor web (en este caso el embebido) busca el fichero index.php primero #card
+	- El servidor web (en este caso el embebido) busca el fichero index.php primero #car
 		- $ php -S localhost:8000
 		- ([Location 723](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=723))
 		- #[[orange]] #[[naranja]]
@@ -262,13 +262,14 @@ category:: #books
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- Para hacer append del array #card
+	- Para hacer append del array #car
+	  id:: 63401528-27da-4533-bbd4-3303759f9c3c
 		- $names[] = 'Neville';
 		- ([Location 1018](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1018))
 		- #[[orange]] #[[naranja]]
 	- -
 	- -
-	- Para eliminar un elemento. 'status' es la clave a eliminar #card
+	- Para eliminar un elemento. 'status' es la clave a eliminar #car
 		- unset($status['status']);
 		- ([Location 1029](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1029))
 		- #[[orange]] #[[naranja]]
@@ -303,7 +304,8 @@ category:: #books
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- e #card
+	- e #car
+	  id:: 63401528-7b39-4c48-8e40-2ea9693a72ec
 		- $containsHermione = in_array('Hermione', $names);
 		- ([Location 1065](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1065))
 		- #[[orange]] #[[naranja]]

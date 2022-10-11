@@ -9,7 +9,8 @@ tags:: #[[Literature]]
 - ![](https://m.media-amazon.com/images/I/91UOcYn3bKL._SY160.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- This is a good compass' idea for your lifetime. #card
+	- This is a good compass' idea for your lifetime. #car
+	  id:: 63401536-d4d1-4842-ab55-64d7b1bb23ab
 		- “But why? What do they do there?” “They contemplate God with a fervor you can scarcely imagine. They pray and fast and sing and dance. I found it to be too much fervor for me. They do practical work, too, like growing food, hauling water, sewing garments and such, but their real work is to study and write.” Study and write. The thought filled me with wonder and stirring. How could there be such a place?
 		- ([Location 710](https://readwise.io/to_kindle?action=open&asin=B07Z4LLBQ4&location=710))
 		- #[[mind]]
@@ -23,7 +24,7 @@ tags:: #[[Literature]]
 		- ([Location 3487](https://readwise.io/to_kindle?action=open&asin=B07Z4LLBQ4&location=3487))
 	- -
 	- -
-	- Stay! #card
+	- Stay! #car
 		- “I’ll remain here,” Yaltha said, looking past Diodora to me. “Having found Diodora, I cannot leave her again. I’m getting too old to make the journey anyway, and Egypt is my home. I’m content here
 		- ([Location 5123](https://readwise.io/to_kindle?action=open&asin=B07Z4LLBQ4&location=5123))
 		- #[[mind]]

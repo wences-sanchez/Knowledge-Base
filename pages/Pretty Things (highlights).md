@@ -21,13 +21,15 @@ tags:: #[[Literature]]
 		- ([Location 3795](https://readwise.io/to_kindle?action=open&asin=B087FDL5VJ&location=3795))
 	- -
 	- -
-	- Thank you all for... #card
+	- Thank you all for... #car
+	  id:: 6340152e-9d7b-4185-9c14-f70b86305fa2
 		- Why didn’t you just fuck off to Mexico while you could?” “With a felony theft conviction hanging over my head? How far would I get? And about that—I need money, a lot, to pay for a good trial lawyer. Because of you, darling. Thanks for that.”
 		- ([Location 6249](https://readwise.io/to_kindle?action=open&asin=B087FDL5VJ&location=6249))
 		- #[[mind]]
 	- -
 	- -
-	- A test of fate #card
+	- A test of fate #car
+	  id:: 6340152e-0b03-411a-855b-2de07b2c2ad4
 		- “Don’t you feel…bad?” I asked, instead. “Well, yes! Of course.” Her eyes looked yellow in the flickering firelight. “But I feel good, too, if that makes sense? I feel more…self-assured, I think. Like, I know I can trust my own instincts, finally?
 		- ([Location 6592](https://readwise.io/to_kindle?action=open&asin=B087FDL5VJ&location=6592))
 		- #[[mind]]

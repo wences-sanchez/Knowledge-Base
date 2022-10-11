@@ -21,7 +21,7 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- Sobre HTTPS y seguridad #card
+	- Sobre HTTPS y seguridad #car
 		- Las  aplicaciones  que  sirven  sitios  web  o  interfaces  API  REST  deben  proteger  la comunicación  HTTP.  El  protocolo  SSL  y  su  sucesor,  TLS,  añaden  confidencialidad, autenticación  e  integridad  a  HTTP.  Habilitar  HTTPS  no  asegura  que  el  tráfico  sea seguro por sí solo. Las pruebas deberán evaluar aspectos como:   La aplicación solo es accesible por HTTPS, no por HTTP. Como mucho, cualquier petición por HTTP deberá redirigir a la misma ruta con prefijo https://.   Los  certificados  se  han  generado  con  la  longitud  de  clave  suficiente,  no  han caducado y no han sido revocados.
 		- (Page 9)
 	- -

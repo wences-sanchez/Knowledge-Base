@@ -13,7 +13,7 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 		- (Page 5)
 	- -
 	- -
-	-  Lenguaje de configuración y capa de abstracción de recursos.  Capa transaccional. #card
+	-  Lenguaje de configuración y capa de abstracción de recursos.  Capa transaccional. #car
 		- Puppet tiene un modelo de funcionamiento sencillo, fácil de entender y de aplicar, que se compone de tres componentes básicos:
 		- (Page 5)
 	- -
@@ -22,7 +22,8 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 		- (Page 6)
 	- -
 	- -
-	- ¿Cuál es la plantilla de un resource en Puppet? #card
+	- ¿Cuál es la plantilla de un resource en Puppet? #car
+	  id:: 63401516-2b66-402a-89e9-15ddb7a4e5e9
 		- type { title :
 		  attribute => value,
 		  }
@@ -37,14 +38,14 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 		- (Page 9)
 	- -
 	- -
-	- ¿Cómo se puede deshacer una transacción en Puppet? #card
+	- ¿Cómo se puede deshacer una transacción en Puppet? #car
 		- En Puppet, las transacciones no se registran (más allá de los registros informativos) y, por lo tanto, no se pueden deshacer como se hace con algunas bases de datos.
 		  
 		  Lo que sí podemos hacer es configurar estas transacciones en modo NOOP (del inglés no operation mode), lo que nos posibilita el probar la ejecución de la configuración sin realmente realizar ningún cambio
 		- (Page 11)
 	- -
 	- -
-	- ¿Cómo podemos ver los facts de Puppet para una máquina? #card
+	- ¿Cómo podemos ver los facts de Puppet para una máquina? #car
 		- Para  ver  los  facts  que  están  disponibles  en  cada  máquina,  podemos  ejecutar directamente en ella el comando facter desde la línea de comandos.
 		- (Page 12)
 	- -

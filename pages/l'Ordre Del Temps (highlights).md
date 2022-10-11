@@ -8,7 +8,8 @@ tags:: #[[Science]]
 - #tags #[[Science]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- A nivel atómico-molecular el tiempo pierde su significado #card
+	- A nivel atómico-molecular el tiempo pierde su significado #car
+	  id:: 63401546-d300-42e6-a5f7-3327fc9b9ed2
 		- En la descripció microscòpica no té sentit que el passat sigui diferent del futur.* Aquesta és la conclusió desconcertant que sorgeix de la investigació de Boltzmann: la diferència entre passat i futur fa referència a la nostra visió desenfocada del món. Es una conclusió que ens deixa estupefactes: ¿és possible que aquesta sensació meva tan vívida, elemental, existencial -el temps, depengui del fet que no percebo el món en el seu més mínim detall? ;Una mena d'enlluernament a causa de la meva miopia? Realment, ;si tingués en compte la dansa exacta dels milers de milions de molècules, el futur seria «com» el pas del passat? ¿Podria conèixer -o desconèixer- igual el passat que el futur? Potser sí que les nostres intuïcions del món sovint són equivocades, però ¿tan equivocades? ¿Pot ser que el món sigui tan profundament diferent de la intuïció que en tenim?
 		  
 		  Tot això mina la nostra manera habitual d'entendre el temps.
@@ -39,7 +40,8 @@ tags:: #[[Science]]
 		- (Page 89)
 	- -
 	- -
-	- No existe el tiempo porque es relativo a cada observador, a cada punto de referencia. Coherentemente, no se puede tomar como parámetro "fiable" en ninguna ecuación global. .sci #card
+	- No existe el tiempo porque es relativo a cada observador, a cada punto de referencia. Coherentemente, no se puede tomar como parámetro "fiable" en ninguna ecuación global. .sci #car
+	  id:: 63401546-2c93-4e53-b65b-c92c7ac86ed3
 		- Els camps es manifesten en forma granular: partícules elementals, fotons i quàntums de gravetat, és a dir, quàntums d'espai. Aquests grànuls elementals no viuen immersos en l’espai: ells mateixos formen l'espai. Millor encara: l'espacialitat del món és la xarxa de les seves interaccions. No viuen en el temps: incessantment interactuen els uns amb els altres; és més, només existeixen com a termes d'interaccions incessants. I aquest interactuar és l'esdevenir del món: és la forma mínima elemental del temps, que no està orientada, ni organitzada en una línia o en una geometria corba i llisa com les estudiades per Einstein. És una interacció recíproca en què els quàntums s'actualitzen en el mateix acte d'interactuar, respecte d'allò amb què interactuen.
 		  
 		  La dinàmica d'aquestes interaccions és probabilística.

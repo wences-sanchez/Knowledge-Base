@@ -16,7 +16,7 @@ tags:: #[[Literature]]
 		- (Page 379)
 	- -
 	- -
-	- Final #card
+	- Final #car
 		- Bastaba que Mme. Swann no llegase idéntica y en el mismo instante para que la Avenida fuese otra. Los lugares que hemos conocido sólo pertenecen al mundo del espacio donde, para mayor facilidad, los situamos. No eran más que una delgada franja en medio de impresiones contiguas que formaban nuestra
 		  vida de entonces; el recuerdo de una cierta imagen no es más que la nostalgia de un cierto instante: y las casas, los caminos, los paseos, son tugaces, ¡ay!, como los años.
 		- (Page 379)

@@ -9,20 +9,23 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- About the Author
 		- -
-		- That’s what I want to become 😃 #card
+		- That’s what I want to become 😃 #car
+		  id:: 63401505-9353-40ce-936d-fe0504d4b6f6
 			- Twenty-five years later, Alexander still writes code and remains a developer at heart.
 		- -
 	- Chapter 1. Developer Testing
 		- -
-		- What’s the reason why the tester shouldn’t be the same person than the developer? #card
+		- What’s the reason why the tester shouldn’t be the same person than the developer? #car
 			- Some types of testing require specific skills or some distance from the tested software in order to mitigate any bias its creators may be subject to. This is why testing is a separate area of expertise.
 		- -
 		- -
-		- Who should write the unit tests? #card
+		- Who should write the unit tests? #car
+		  id:: 63401505-ee42-49e1-8798-2d9b8e985cab
 			- Nevertheless, unit tests are 100 percent developer-owned.
 		- -
 		- -
-		- How would you fix a new bug issue in a maintenance project? #card
+		- How would you fix a new bug issue in a maintenance project? #car
+		  id:: 63401505-9ab9-4de0-9889-77a76958b4d6
 			- A well-proven technique for fixing bugs is restraining oneself from rushing ahead to implement a fix, and first writing a test that’ll fail because of the bug’s presence. In the absence of the bug, that test would pass. Once the test is in place, the bug is fixed. If the fix is correct, the test passes.
 		- -
 		- -
@@ -36,15 +39,17 @@ tags:: #[[O'Reilly-Learning]]
 		- By now it should be obvious that developer testing, as described in this book, is testing meant to support. #ñspace
 		- -
 		- -
-		- About the Tester role in Agile #card
+		- About the Tester role in Agile #car
+		  id:: 63401505-2757-4de9-b7d2-c77ceb825de7
 			- In agile testing, the role of the tester is shifted from reactive to proactive. Instead of writing test cases, waiting for something to test, or executing manual tests, the tester becomes the team’s quality champion and contributes to a successful release in any way she can. For example, by helping the customer or product owner to specify desired functionality, by making sure that testing activities are taken into account during planning and estimation meetings, by educating and assisting the developers in test design and test automation, or by pair programming or pair testing.
 		- -
 		- -
-		- What are the differences between Traditional and Agile mind-sets? #card
+		- What are the differences between Traditional and Agile mind-sets? #car
+		  id:: 63401505-fda2-4df1-a6b6-64124fa9195f
 			- The wording is important here. In traditional testing, tests are supposed to be planned and created in parallel with the development. The difference is that collaboration, joint planning, and common success/completion criteria aren’t emphasized.
 		- -
 		- -
-		- Just talking seriously about QA and what should be your attitude #card
+		- Just talking seriously about QA and what should be your attitude #car
 			- You know what? None of these factors really matter. If you’re the only developer, or your team doesn’t have any testers, or you’re being rushed by others, or the system is old and crappy, your quality assurance process is the only one you have, and it will make or break your software.
 		- -
 	- Chapter 3. The Testing Vocabulary
@@ -58,7 +63,8 @@ tags:: #[[O'Reilly-Learning]]
 		- Defects/bugs may lead to software failures. Not all of them do, though. A defect in code that’s never executed won’t cause a failure. #ñspace
 		- -
 		- -
-		- What are system tests? #card
+		- What are system tests? #car
+		  id:: 63401505-d467-44e5-8679-2fc25eb6251f
 			- Systems are made up of finished and integrated building blocks. They may be components or other systems. System testing is the activity of verifying that the entire system works. System tests are often executed from a black box perspective
 		- -
 		- -
@@ -68,7 +74,8 @@ tags:: #[[O'Reilly-Learning]]
 		- FIGURE 3.3 Agile Testing Quadrants as presented in the book More Agile Testing by Lisa Crispin and Janet Gregory (2014). #ñspace
 		- -
 		- -
-		- What are negative tests? #card
+		- What are negative tests? #car
+		  id:: 63401505-655a-4fed-978f-b5975071563c
 			- The purpose of negative testing is to verify that the system behaves correctly if supplied with invalid values and that it doesn’t generate any unexpected results. What outcome to expect depends on the test level. At the system level, we generally want the system to “do the right thing”: either reject the faulty input in a user-friendly manner, or recover somehow. At the unit level, throwing an exception may be the right thing to do. For example, if a function exercised with a unit test expects a positive number and throws an IllegalArgumentException or ArgumentOutOfRangeException in a negative test that may be fine. What’s important is that the developer has anticipated the scenario.
 		- -
 		- -

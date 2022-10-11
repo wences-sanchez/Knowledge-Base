@@ -9,18 +9,20 @@ tags:: #[[Contenedores]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/97cc1d28-1745-4233-9c46-fa97ce5566b9.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Acerca de contenedores y Docker #card
+	- Acerca de contenedores y Docker #car
+	  id:: 634014fe-b4c7-42de-91e4-3878ce2b66b3
 		- Un contenedor es una unidad de software estandarizada que empaqueta el código de una  aplicación  y todas  sus  dependencias para  permitir  su ejecución de  manera rápida y consistente independientemente del entorno en el que se ejecute. Docker es una plataforma de código abierto para desarrollar, distribuir y desplegar aplicaciones en entornos aislados y seguros denominados contenedores. Los contenedores tienen la característica de ser livianos, ya que no necesitan la carga adicional  de  un  hipervisor  como  ocurre  con  las  máquinas  virtuales,  sino  que  se ejecutan directamente dentro del núcleo de la máquina host.
 		- (Page 5)
 	- -
 	- -
-	- INCLUIR IMAGEN #card
+	- INCLUIR IMAGEN #car
+	  id:: 634014fe-5c18-4fab-80a5-717353034308
 		- Para poder ejecutar máquinas virtuales necesitamos un hipervisor, que es una capa de  software  que instalamos  directamente  sobre  un  servidor  físico  y  su infraestructura.  El  hipervisor  permite  exponer  los  recursos  hardware  (CPUs, memoria, almacenamiento, etc.) que están debajo del sistema operativo, de forma que puedan ser utilizados por los sistemas operativos de las máquinas virtuales.
 		- (Page 8)
 	- -
 	- -
 	- ¿Cómo funcionan los contenedores?
-	  INCLUIR IMAGEN #card
+	  INCLUIR IMAGEN #car
 		- Los  contenedores  tienen  una  filosofía  totalmente  diferente  a  la  de  las  máquinas virtuales.  En  lugar  de  tener  un  sistema  operativo  completo,  los  contenedores comparten  el  mismo  kernel  o  núcleo  del  sistema  operativo  host  sobre  el  que  se ejecutan. El motor de Docker será el encargado de desplegar y gestionar los contenedores de nuestras aplicaciones, pero en lugar de reservar parte de los recursos de hardware de  la  máquina para  cada  contenedor,  lo  que hace  es  compartirlos  entre  todos  los contenedores,  permitiendo  optimizar  su  uso  y  eliminando  la  necesidad  de  tener sistemas operativos separados para conseguir el aislamiento.
 		- (Page 9)
 	- -
@@ -45,7 +47,8 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 12)
 	- -
 	- -
-	- ¿Qué hace el demonio de Docker? #card
+	- ¿Qué hace el demonio de Docker? #car
+	  id:: 634014fe-cfe0-4dc6-9336-4de38ebbfd3e
 		- El  demonio  de  Docker  (proceso  dockerd)  escucha  las  solicitudes  del  API  y  es  el responsable  de  administrar  los  objetos  de  Docker,  como  imágenes,  contenedores, redes  y  volúmenes.  Un demonio  también puede  comunicarse  con otros  demonios para administrar los servicios de Docker de forma distribuida.
 		- (Page 13)
 	- -
@@ -54,7 +57,7 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 13)
 	- -
 	- -
-	- ¿Qué hace el cliente Docker? #card
+	- ¿Qué hace el cliente Docker? #car
 		- sistema remoto. El  cliente  Docker  (comando  docker)  permite  a  los  usuarios  interactuar  con  el demonio de Docker utilizando la línea de comandos. El cliente Docker y el demonio de Docker se comunican mediante un API REST, ya sea a través de sockets UNIX o mediante  una  interfaz  de  red.  Ambos  no  tienen  por  qué  ejecutarse  en  la  misma máquina, ya que el cliente Docker podrá conectarse a un demonio de Docker de un
 		- (Page 14)
 	- -
@@ -63,17 +66,19 @@ tags:: #[[Contenedores]] #[[UNI]]
 		- (Page 14)
 	- -
 	- -
-	- ¿Cómo describirías las imágenes en Docker? #card
+	- ¿Cómo describirías las imágenes en Docker? #car
+	  id:: 634014fe-2725-47dc-9c74-6117768d6a78
 		- Las  imágenes  son  objetos  de  Docker  que  nos  servirán  para  empaquetar  una aplicación o servicio junto a todo lo necesario para su funcionamiento: código de la aplicación, librerías dependientes, configuraciones, etcétera.
 		- (Page 14)
 	- -
 	- -
-	- ¿Cómo describirías los contenedores en Docker? #card
+	- ¿Cómo describirías los contenedores en Docker? #car
+	  id:: 634014fe-2024-4f1a-8f5f-27356951feb2
 		- Los contenedores son instancias o ejecuciones de la imagen de nuestra aplicación o servicio. Los contenedores se comportan como entornos aislados y seguros, por lo que en una misma máquina podemos tener varios contenedores en ejecución de la misma imagen.
 		- (Page 14)
 	- -
 	- -
-	- ¿Cómo podemos hacer para no tener que escribir sudo cada vez que lanzamos docker? #card
+	- ¿Cómo podemos hacer para no tener que escribir sudo cada vez que lanzamos docker? #car
 		- Si queremos evitar tener que ejecutar el comando docker con sudo, podemos añadir nuestro usuario al grupo Docker de la siguiente manera: $ sudo groupadd docker $ sudo usermod -aG docker $USER
 		- (Page 22)
 	- -

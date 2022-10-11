@@ -9,42 +9,47 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/a1db0259-1f1c-43a7-8ee2-ddcb17940e9c.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- Define **Repositorio** #card
+	- Define **Repositorio** #car
+	  id:: 63401512-a4c5-4540-ba8c-41d97540ae87
 		-   Repositorio: es el almacenamiento maestro de todos los archivos y su historial de cambios.  Se  almacena  en  el  servidor  de  control  de  versiones.  Cada  proyecto autónomo  debe  tener  su  propio  repositorio,  aunque  un  único  proyecto  puede estar repartido en más de un repositorio.
 		- (Page 6)
 	- -
 	- -
-	- Define **Sandbox** #card
+	- Define **Sandbox** #car
 		-   Sandbox: también se conoce como copia de trabajo. Contiene una copia de todos los  archivos  del  repositorio  de  un  punto  en  particular.  Cada  desarrollador mantiene su propia copia de trabajo a partir del contenido del repositorio.
 		- (Page 6)
 	- -
 	- -
-	- Define **Check-out** #card
+	- Define **Check-out** #car
 		-   Check-out: es el proceso de inicializar una copia de trabajo a partir de un punto concreto  de  un  repositorio.  En  algunos  sistemas  de  control  de  versiones  este proceso se define con el término update and lock o actualizar y bloquear.
 		- (Page 6)
 	- -
 	- -
-	- Define **Update** #card
+	- Define **Update** #car
 		-   Update: actualización de la sandbox para obtener los últimos cambios desde el repositorio. También se puede actualizar a un punto en particular en el pasado.
 		- (Page 6)
 	- -
 	- -
-	- Define **Lock** #card
+	- Define **Lock** #car
+	  id:: 63401512-cc4c-4efe-abee-7efc5a1c8713
 		-   Lock:  un  bloqueo  hace  posible  que  nadie  pueda  editar  un  archivo  sin  el desarrollador que lo ha bloqueado.
 		- (Page 6)
 	- -
 	- -
-	- Define **commit** #card
+	- Define **commit** #car
+	  id:: 63401512-c596-498c-841c-7a0478ec669f
 		-   Check-in o commit: registro de los cambios efectuados en la copia de trabajo. Es el  proceso  fundamental  para  guardar  los  cambios  en  el  repositorio.  Estos  son efímeros  desde  el  punto  de  vista  del  repositorio;  es  decir,  aunque  los  archivos estén guardados en el disco duro, los cambios entre el último commit y el estado actual no están registrados en el repositorio y, por tanto, no existen en el histórico del control de versiones a menos que se registren en un commit.
 		- (Page 6)
 	- -
 	- -
-	- Define **Revert** #card
+	- Define **Revert** #car
+	  id:: 63401512-8585-47ee-a11d-efc9ee1ad973
 		-   Revert:  destruye  la  sandbox  para  descartar  los  cambios  y  volver  al  punto  de  la última actualización. Esto es útil cuando el código de la copia de trabajo actual se ha vuelvo inestable y no es posible hacerlo funcionar de nuevo. A veces revertir es más rápido que depurar, especialmente, si hay commits recientes.
 		- (Page 7)
 	- -
 	- -
-	- Define **Head** #card
+	- Define **Head** #car
+	  id:: 63401512-5551-401a-9a07-65643e127914
 		-   Tip o Head: la cabecera del repositorio contiene los cambios más recientes que se han registrado. Al actualizar la copia de trabajo los archivos quedan en el estado de la cabecera. El sistema de control de versiones soporta ramas, cada rama tiene su  propia  cabecera,  por  lo  que  la  copia  de  trabajo  se  puede  actualizar  en  la cabecera de cada una de las ramas.
 		- (Page 7)
 	- -
@@ -53,7 +58,7 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 		- (Page 7)
 	- -
 	- -
-	- Define **Rollback** #card
+	- Define **Rollback** #car
 		-   Rollback:  es  el  proceso  en  el  que  se  deshace  un  commit  para  que  los  cambios introducidos  desaparezcan  de  la  cabecera  del  repositorio.  El  mecanismo  para hacerlo varía dependiendo del sistema de control de versiones: en unos casos se genera un segundo commit B que anula los cambios del anterior commit A, por lo que los archivos vuelven al estado anterior (commit A). En otros casos, se puede eliminar el commit A completamente.
 		- (Page 7)
 	- -
@@ -90,7 +95,8 @@ tags:: #[[Entornos-CI-CD]] #[[UNI]]
 		- (Page 13)
 	- -
 	- -
-	- INCLUIR IMAGEN #card
+	- INCLUIR IMAGEN #car
+	  id:: 63401512-e549-4f6a-a51d-2d3baf46919d
 		- A grandes rasgos, el código atraviesa cuatro niveles de completitud que veremos en la Figura 1:
 		- (Page 14)
 	- -

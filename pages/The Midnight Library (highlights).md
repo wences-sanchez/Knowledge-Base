@@ -25,7 +25,7 @@ tags:: #[[Literature]]
 		- ([Location 487](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=487))
 	- -
 	- -
-	- Could this become real? .mind #card
+	- Could this become real? .mind #car
 		- ‘I regret moving to London.’
 		- ([Location 548](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=548))
 	- -
@@ -34,12 +34,13 @@ tags:: #[[Literature]]
 		- ([Location 601](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=601))
 	- -
 	- -
-	- REMEMBER THIS!!! .mind #card
+	- REMEMBER THIS!!! .mind #car
 		- Everyone’s lives could have ended up an infinite number of ways.
 		- ([Location 816](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=816))
 	- -
 	- -
-	- Think slow and twice. Don't fail #card
+	- Think slow and twice. Don't fail #car
+	  id:: 63401537-abec-49dd-897e-0283cf9bf2ad
 		- You know, the pub. Before you had it. This is the life you dreamed of. You wanted me and you wanted this and yet you’ve been unfaithful
 		- ([Location 879](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=879))
 		- #[[mind]]
@@ -73,7 +74,8 @@ tags:: #[[Literature]]
 		- ([Location 1652](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=1652))
 	- -
 	- -
-	- About cats #card
+	- About cats #car
+	  id:: 63401537-4c1c-40fa-bf38-20728f0b68c5
 		- There is a singular point at which we are not one thing or another. Or rather we are both. Alive and dead. And in that moment between the two binaries, sometimes, just sometimes, we turn ourselves into a Schrödinger’s cat who may not only be alive or dead but may be every quantum possibility that exists in line with the universal wave function,
 		- ([Location 2081](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=2081))
 		- #[[mind]]
@@ -113,7 +115,7 @@ tags:: #[[Literature]]
 		- #[[mind]]
 	- -
 	- -
-	- Choose the best life. Your best life!!! #card
+	- Choose the best life. Your best life!!! #car
 		- ‘Never underestimate the big importance of small things.’ This was useful, as it turned out.
 		- ([Location 2746](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=2746))
 		- #[[mind]]
@@ -155,7 +157,8 @@ tags:: #[[Literature]]
 		- ([Location 3579](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=3579))
 	- -
 	- -
-	- STAY!! #card
+	- STAY!! #car
+	  id:: 63401537-b764-4364-89c6-8d01ff0f47f2
 		- ‘This is the best life,’ she told herself, a little desperately now. ‘This is the best life. I am staying here. This is the life for me. This is the best life. This is the best life.’
 		- ([Location 3598](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=3598))
 		- #[[mind]]

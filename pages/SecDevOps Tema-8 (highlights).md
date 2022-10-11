@@ -9,17 +9,19 @@ tags:: #[[SecDevOps]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/554fa67d-89eb-4910-84a0-6544a20836da.jpg)
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- ¿Qué es Kubernetes? #card
+	- ¿Qué es Kubernetes? #car
+	  id:: 63401534-0407-4141-a974-ac977dd875b0
 		- Kubernetes  es  un  sistema  que  automatiza  el  despliegue,  el  escalado  y  la administración  de  aplicaciones  diseñadas  como  contenedores.  Un  clúster  de Kubernetes está formado por múltiples nodos (que pueden ser físicos o virtuales) en
 		- (Page 4)
 	- -
 	- -
-	- CONTINUE #card
+	- CONTINUE #car
 		- los que se despliegan contenedores que ejecutan los procesos de las aplicaciones. La comunicación de red y el ciclo de vida de estos contendores se gestionan con tipos de recursos nativos de Kubernetes, como los pods, servicios y políticas de red.
 		- (Page 5)
 	- -
 	- -
-	- ¿Qué es un pod? #card
+	- ¿Qué es un pod? #car
+	  id:: 63401534-3354-46bc-9162-07011317c5fe
 		- Un pod es un grupo de contenedores localizados en el mismo nodo y representa el componente  básico  de  Kubernetes.  En lugar  de  desplegar  contenedores individualmente, siempre es obligatorio desplegar los contenedores en pods. Esto no significa que un pod deba incluir más de un contenedor, y, de hecho, es habitual que los pods contengan solo un contenedor. La idea principal de los pods es que, cuando un pod contiene múltiples contenedores, todos  ellos  se  ejecutan  siempre  en  un  solo  nodo.  Los  contenedores  comparten  el mismo  nombre  de  host  y  la  misma  tarjeta  de  red.  No  comparten  el  sistema  de ficheros,  pero  pueden  usar  un  mismo  directorio  mediante  un  volumen  de Kubernetes.
 		- (Page 6)
 	- -
@@ -32,37 +34,41 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 11)
 	- -
 	- -
-	- ¿Cómo se pueden seleccionar los pods y exponer servicios al exterior, con Kubernetes? #card
+	- ¿Cómo se pueden seleccionar los pods y exponer servicios al exterior, con Kubernetes? #car
+	  id:: 63401534-03fc-4ec8-b933-3fcb5a07a790
 		- La selección de pod se hace con etiquetas: el servicio wordpress tiene la propiedad  selector, que indica dos  etiquetas:  app=wordpress y  tier=frontend. La definición de los pods de WordPress incluía esas dos etiquetas. La  misma  técnica  se  usa  con  el  servicio  y  el  pod  de  MySQL,  pero  con  etiquetas diferentes. Kubernetes ofrece varios métodos para exponer servicios al exterior: mediante un servicio de tipo NodePort, un servicio de tipo LoadBalancer o mediante un Ingress, que es otro tipo de recurso que trabaja junto al servicio.
 		- (Page 14)
 	- -
 	- -
-	- ¿En qué consiste el servicio NodePort de Kubernetes? #card
+	- ¿En qué consiste el servicio NodePort de Kubernetes? #car
+	  id:: 63401534-bbc4-4a1c-be31-3766ff706766
 		- El primer método para exponer un conjunto de pods a clientes externos es crear un servicio  y  establecer  su  tipo  como  NodePort.  Al  crear  un  servicio  NodePort, Kubernetes reserva un puerto en todos sus nodos, el mismo número de puerto en todos ellos, y reenvía las conexiones entrantes en esos puertos a los pods que forman parte del servicio. Esta reserva del puerto es similar a un servicio normal de tipo  ClusterIP, pero un servicio  NodePort  es  accesible  no  solo  a  través  de  la  IP  interna  del  clúster,  sino también a través de la IP de cualquier nodo. Estas IP no pertenecen a la red de los pods, sino a la subred a la que están conectadas las interfaces de los nodos y, por tanto, son accesible desde fuera del clúster.
 		- (Page 14)
 	- -
 	- -
-	- ¿En qué consiste el servicio de balanceador de carga de Kubernetes? #card
+	- ¿En qué consiste el servicio de balanceador de carga de Kubernetes? #car
+	  id:: 63401534-4068-4902-8fa9-25779fc434ae
 		- Los  clústeres  de  Kubernetes  que  se  ejecutan  en  proveedores  de  la  nube, generalmente, admiten la provisión automática de un balanceador de carga desde la infraestructura  de  la  nube.  Esto  es  posible  si  el  clúster  se  aprovisiona  como  un servicio nativo del proveedor, por ejemplo, mediante el servicio EKS en AWS, AKS en Azure o GKE en Google Compute Cloud . Si  se  configura  un  clúster  de  Kubernetes  manualmente  a  partir  de  instancias  de cómputo  (EC2,  por  ejemplo),  el  servicio  de  balanceador  no  tiene  por  qué  estar disponible, a menos que el proveedor ofrezca la posibilidad de instalar los plugins de su entorno en un clúster propio. Si el clúster lo soporta, todo lo que se necesita hacer es establecer el tipo de servicio en  LoadBalancer  en  lugar  de  NodePort.  El  balanceador  de  carga  tendrá  su  propia dirección IP única, y de acceso público, y redirigirá todas las conexiones a su servicio.
 		- (Page 15)
 	- -
 	- -
-	- CONTINUE #card
+	- CONTINUE #car
 		- De este modo, los clientes pueden acceder al servicio a través de la dirección IP del balanceador.  Este  balanceador  será  un  recurso  de  tipo  ELB  en  AWS,  Azure  Load Balancer en Azure  o Cloud Load Balancing en GCE . Si Kubernetes se ejecuta en un entorno que no admite los servicios de LoadBalancer, el balanceador no se aprovisionará y el servicio seguirá comportándose como si fuera de tipo NodePort. Esto se debe a que un servicio LoadBalancer es una extensión de un servicio NodePort.
 		- (Page 16)
 	- -
 	- -
-	- ¿En qué consiste el recurso Ingress de Kubernetes? #card
+	- ¿En qué consiste el recurso Ingress de Kubernetes? #car
 		- Los recursos Ingress varían de un clúster a otro ya que, aunque son un objeto nativo de Kubernetes, la implementación se basa en un controlador de Ingress, que no se instala por defecto en todos los clústeres. Los controladores disponibles suelen estar
 		- (Page 16)
 	- -
 	- -
-	- CONTINUE #card
+	- CONTINUE #car
 		- basados  en  algún  producto  que  ya  ofrezca  las  funcionalidades  previstas  para  un Ingress, como nginx o envoy, o con un servicio propio de un proveedor de nube, como el Application Load Balancer de AWS . Hay dos razones principales para usar un objeto  Ingress en vez de un servicio. La primera es que cada servicio de tipo  LoadBalancer requiere su propio balanceador de carga con su propia dirección IP pública, mientras que un Ingress solo requiere uno,  incluso  cuando  proporciona  acceso  a  más  de  un  servicio.  Cuando  un  cliente envía  una  petición  HTTP  al  Ingress,  el  nombre  de  host  y  la  ruta  en  la  solicitud determinan a qué servicio se reenvía el tráfico. La  otra  razón  es  que  los  Ingress  ofrecen  más  funcionalidades  que  un  servicio: afinidad  de  sesión  basada  en  cookie,  terminación  de  conexiones  seguras  con certificados TLS, etc.
 		- (Page 17)
 	- -
 	- -
-	- ¿Cómo funciona Ingress, en Kubernetes? #card
+	- ¿Cómo funciona Ingress, en Kubernetes? #car
+	  id:: 63401534-4354-4301-99a5-d92070905a70
 		- El funcionamiento de un Ingress es el siguiente:   El cliente realiza una búsqueda DNS del equipo al que quiere enviar la petición. El nombre estará registrado con la IP pública del Ingress.   El  cliente  envía  una  petición  HTTP  al  controlador  Ingress  y  especifica  el encabezado Host con el nombre que acaba de resolver mediante DNS.   A  partir  de  ese  encabezado,  el  controlador  determina  a  qué  servicio  está intentando acceder el cliente.   El controlador redirige la petición a la IP de uno de los pods asociados al servicio.
 		- (Page 17)
 	- -
@@ -71,7 +77,8 @@ tags:: #[[SecDevOps]] #[[UNI]]
 		- (Page 18)
 	- -
 	- -
-	- ¿Cómo interacciona Kubernetes? #card
+	- ¿Cómo interacciona Kubernetes? #car
+	  id:: 63401534-59cc-42d4-bfe9-7a544716bc9d
 		- Cualquier interacción con Kubernetes se lleva a cabo en la API mediante peticiones REST, ya sea desde la línea de comandos con kubectl, en el panel web (o dashboard) o desde una aplicación ejecutándose en un pod. Cada llamada atraviesa las fases de autenticación, autorización y control de admisión. En un clúster típico, la API escucha en el puerto 6443 mediante HTTPS. Una vez que se  establece  la  conexión  TLS,  la petición  HTTP  se  mueve  al  paso  de  autenticación. Kubernetes no realiza la autenticación por sí mismo, sino que lo delega a módulos externos.
 		- (Page 23)
 	- -

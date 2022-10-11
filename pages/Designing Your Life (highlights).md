@@ -17,7 +17,7 @@ tags:: #[[Self-Help]]
 		- ([Location 88](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=88))
 	- -
 	- -
-	- It’s never too late brother!!! #card
+	- It’s never too late brother!!! #car
 		- Dysfunctional Belief: It’s too late. Reframe: It’s never too late to design a life you love.
 		- ([Location 103](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=103))
 		- #[[mind]]
@@ -27,7 +27,7 @@ tags:: #[[Self-Help]]
 		- ([Location 212](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=212))
 	- -
 	- -
-	- Ok, your life is quite good right now. But you perfectly know what are your dreams, don’t you…? I mean, the two dreams of yours that you have always had… #card
+	- Ok, your life is quite good right now. But you perfectly know what are your dreams, don’t you…? I mean, the two dreams of yours that you have always had… #car
 		- If your life is pretty perfect as is, life design can still help you make it an even better version of the life you currently love living.
 		- ([Location 224](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=224))
 		- #[[mind]]
@@ -41,13 +41,14 @@ tags:: #[[Self-Help]]
 		- ([Location 277](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=277))
 	- -
 	- -
-	- Design doesn’t mean a static thing from start. Instead, it means change! #card
+	- Design doesn’t mean a static thing from start. Instead, it means change! #car
 		- There is no sitting on the bench just thinking about what you are going to do. There is only getting in the game. Designers try things. They test things out. They create prototype after prototype, failing often, until they find what works and what solves the problem. Sometimes they find the problem is entirely different from what they first thought it was. Designers embrace change.
 		- ([Location 295](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=295))
 		- #[[mind]]
 	- -
 	- -
-	- Are you passionate about studying, or about spare time? You’ll find your way through these months. #card
+	- Are you passionate about studying, or about spare time? You’ll find your way through these months. #car
+	  id:: 63401504-7ec7-4b65-8fb3-8ac01d83ef34
 		- Once you know how to prototype your way forward, you are on the path to discovering the things you truly love, passion or not.
 		- ([Location 342](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=342))
 		- #[[pink]]
@@ -57,18 +58,21 @@ tags:: #[[Self-Help]]
 		- ([Location 344](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=344))
 	- -
 	- -
-	- You used to call this: destiny #card
+	- You used to call this: destiny #car
+	  id:: 63401504-4b5f-4951-b4cd-835b2facf3e5
 		- What happens when you do these things? What happens when you engage in life design? Actually, something quite extraordinary happens. Things you want start to show up in your life. You start to hear of job openings you were dreaming about. People you were interested in meeting just happen to be in town. What is happening here? For starters, it’s that “getting good at being lucky” thing we mentioned earlier, a result of curiosity and awareness, and a by-product of using the five mind-sets. In addition, the process of discovering who you are and what you want has a rather extraordinary effect on your life. There will be effort and action involved, no doubt, but it will seem, rather surprisingly, as if everyone is conspiring to help you. And, by being aware of the process, you will have a lot of fun along the way.
 		- ([Location 355](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=355))
 	- -
 	- -
-	- You don’t know what to do. So that’s a problem that you have to face up and solve by designing a reliable model #card
+	- You don’t know what to do. So that’s a problem that you have to face up and solve by designing a reliable model #car
+	  id:: 63401504-e078-4a50-9461-4bcc714fbd11
 		- Let’s face it, you’re not reading this book because you have all the answers, are in your dream job, and have a life imbued with more meaning and purpose than you can imagine. Somewhere, in some area of your life, you are stuck. You have a wicked problem. And that’s a wonderful and exciting place to start.
 		- ([Location 374](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=374))
 		- #[[mind]]
 	- -
 	- -
-	- Like me! 😂😂 #card
+	- Like me! 😂😂 #car
+	  id:: 63401504-369c-4bf7-8b5b-3f5456de45ed
 		- Deciding which problems to work on may be one of the most important decisions you make, because people can lose years (or a lifetime) working on the wrong problem.
 		- ([Location 390](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=390))
 	- -
@@ -79,19 +83,20 @@ tags:: #[[Self-Help]]
 	  
 	  ———
 	  
-	  You have been so focused on a position abroad with Amaris that you haven’t see the reality. #card
+	  You have been so focused on a position abroad with Amaris that you haven’t see the reality. #car
 		- He was so focused on the what-he-had-in-mind problem that he never looked at the real problem—he shouldn’t be majoring in biology, and his idea of his destiny had been misguided from the beginning.
 		- ([Location 417](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=417))
 		- #[[mind]]
 	- -
 	- -
-	- Do you really want to work and succeed as a QA? #card
+	- Do you really want to work and succeed as a QA? #car
+	  id:: 63401504-4ee3-455e-ade3-1a4d9a5887c6
 		- people waste a lot of time working on the wrong problem. If they are lucky, they will fail miserably quickly and get forced by circumstance into working on better problems. If they are unlucky and smart, they’ll succeed—we call it the success disaster—and wake up ten years later wondering how the hell they got to wherever they are, and why they are so unhappy.
 		- ([Location 419](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=419))
 		- #[[mind]]
 	- -
 	- -
-	- This is exactly you and your hopes towards your current employer. Think about that 🤔 #card
+	- This is exactly you and your hopes towards your current employer. Think about that 🤔 #car
 		- Dave’s failure as a marine biologist was so profound that he ultimately had to admit defeat and change his major. It took him two and a half years to address a problem that was clear to everyone else after about two weeks. He eventually transferred to mechanical engineering, where he was quite successful and happy.
 		- ([Location 422](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=422))
 		- #[[mind]]
@@ -123,13 +128,15 @@ tags:: #[[Self-Help]]
 		- #[[mind]] #[[pink]]
 	- -
 	- -
-	- It’s so real….. 😂 #card
+	- It’s so real….. 😂 #car
+	  id:: 63401504-2769-483b-b640-e7bd4d2c5c0c
 		- The truth is that Sharon had no idea what she really wanted out of business school, and this lack of genuine interest was probably apparent to the people who interviewed her. She had spent a long time trying to do the right thing instead of doing what was right for Sharon.
 		- ([Location 1109](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1109))
 		- #[[mind]] #[[pink]]
 	- -
 	- -
-	- Like the multiple life’s of “The Midnight Library”!!!  =D #card
+	- Like the multiple life’s of “The Midnight Library”!!!  =D #car
+	  id:: 63401504-78ff-4350-9c91-bfbf70d3c674
 		- When we ask our students, “How many lifetimes’ worth of living are there in you?,” the average answer is 3.4. And if you accept this idea—that there are multiple great designs for your life, though you’ll still only get to live one—it is rather liberating. There is no one idea for your life. There are many lives you could live happily and productively (no matter how many years old you are), and there are lots of different paths you could take to live each of those productive, amazingly different lives. So do the math; this adds up to tons of different possible ideas you might have.
 		- ([Location 1139](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1139))
 		- #[[mind]] #[[pink]]
@@ -145,31 +152,33 @@ tags:: #[[Self-Help]]
 		- #[[pink]] #[[mind]] #[[blue]]
 	- -
 	- -
-	- Don’t get stuck at your first thought!! That’s a failure of our brains!! 🧠🤔😎 #card
+	- Don’t get stuck at your first thought!! That’s a failure of our brains!! 🧠🤔😎 #car
+	  id:: 63401504-fffa-46a0-827f-04bf3e73d999
 		- Melanie believed that her problem was getting fifteen million dollars to fund her social innovation institute. But that wasn’t her problem; that was just her first idea of a solution to her problem, and she got so anchored to that idea that she was mired in stuckness and failure.
 		- ([Location 1270](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1270))
 		- #[[mind]] #[[pink]]
 	- -
 	- -
-	- Don’t you realise? Open up your mind!! #card
+	- Don’t you realise? Open up your mind!! #car
 		- Oh, and did we mention that she was getting depressed by all this rejection, and that her teaching was suffering from the fund-raising distraction, and that her colleagues, sick of the Melanie money lament, had begun avoiding her? You see, when you anchor yourself to a bad solution, it just gets worse and worse with time.
 		- ([Location 1273](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1273))
 		- #[[mind]] #[[blue]]
 	- -
 	- -
-	- Maybe you could save many precious hours of your time, of your leisure, of your life… 🤔 #card
+	- Maybe you could save many precious hours of your time, of your leisure, of your life… 🤔 #car
 		- John got anchored to his idea about the solution. It had to be the mule ride. If he’d stepped back and recognized that his one solution, though not impossible, was taking too long to achieve and had a lousy chance of success, he could have saved it.
 		- ([Location 1302](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1302))
 		- #[[mind]] #[[pink]]
 	- -
 	- -
-	- Think about alternative ways… 🤔 #card
+	- Think about alternative ways… 🤔 #car
+	  id:: 63401504-1a0a-41e2-94a4-63a0e4d05b7f
 		- There were lots of ways to do that—by helicopter, by river, and by foot. John’s chances of training successfully for the hike up and down that trail were about ten times better than his chances of ever tipping
 		- ([Location 1305](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1305))
 		- #[[mind]] #[[pink]]
 	- -
 	- -
-	- Maybe, the uni is an anchor problem to you because you see no other way than go to classes, or even pay the courses. #card
+	- Maybe, the uni is an anchor problem to you because you see no other way than go to classes, or even pay the courses. #car
 		- Anchor problems keep us stuck because we can only see one solution—the one we already have that doesn’t work.
 		- ([Location 1309](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1309))
 		- #[[mind]] #[[pink]]
@@ -180,19 +189,20 @@ tags:: #[[Self-Help]]
 		- #[[blue]]
 	- -
 	- -
-	- The importance of staying with your employer #card
+	- The importance of staying with your employer #car
 		- Nature of the work. Salary and the friendliness of co-workers come in second and third, to complete this completely dysfunctional job-seeker trifecta. The problem with this scenario is that there is no way to know the real “nature of the work” before you have gotten very close to actually getting the job. It’s impossible. Since so many job descriptions are dysfunctional and inaccurate, most people rule out a job as not being “right” for them
 		- ([Location 2192](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2192))
 		- #[[mind]]
 	- -
 	- -
-	- ¡¡¡Buenísimo!!! ¡Aplícate esto en todos los trabajos! ¡Lo que buscas es ciertamente una oferta u oportunidad y no un trabajo! Ya sabes, ¡pregunta por todos los condicionantes en las entrevistas!, ¡interésate! .rojo .red #card
+	- ¡¡¡Buenísimo!!! ¡Aplícate esto en todos los trabajos! ¡Lo que buscas es ciertamente una oferta u oportunidad y no un trabajo! Ya sabes, ¡pregunta por todos los condicionantes en las entrevistas!, ¡interésate! .rojo .red #car
 		- You have to convince the person or people in charge of filling that job that you and the job description are the perfect fit (match made in heaven, can’t live without each other, have to be together or else). Since you don’t really know much about the nature of the work, you have to fake your enthusiasm to make this process work. In other words, you either lie or you don’t apply. And nobody likes to lie. But when you are looking for an offer rather than a job—when your goal switches from getting one job to getting as many job offers as possible—everything changes. You don’t have to be deceptive. You can be genuinely curious about the job, because it is absolutely true that you would like the opportunity to evaluate an offer. It’s not a matter of semantics; it’s a matter of authenticity. When you reframe the job search into an offer search, you end up being more authentic, energetic, persistent, and playful while you pursue your next position or opportunity. And, ironically, this ends up making you more likely to get the offer. People don’t hire résumés; they hire people. People they like. People who are interesting.
 		- ([Location 2208](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2208))
 		- #[[mind]]
 	- -
 	- -
-	- So you chose happyness... #card
+	- So you chose happyness... #car
+	  id:: 63401504-76cc-49fd-a13f-c359da63b9b4
 		- In life design, being happy means you choose happiness.
 		- ([Location 2249](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2249))
 		- #[[mind]]
@@ -202,7 +212,7 @@ tags:: #[[Self-Help]]
 		- ([Location 2484](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2484))
 	- -
 	- -
-	- You perfectly know what's better for you. And you have a safety net. #card
+	- You perfectly know what's better for you. And you have a safety net. #car
 		- Andy stopped thinking about the decision and grokked it. As he did so, he discovered that Med School Andy felt better
 		- ([Location 2497](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2497))
 		- #[[mind]]
@@ -213,7 +223,8 @@ tags:: #[[Self-Help]]
 		- #[[mind]]
 	- -
 	- -
-	- Es lo que te ha pasado con la excedencia de tu familia #card
+	- Es lo que te ha pasado con la excedencia de tu familia #car
+	  id:: 63401504-70e6-445c-aaf5-614bf27f5497
 		- We all screw up; we all have weaknesses; we all have growing pains. And we all have at least one story in us of an occasion when we’ve reframed a particular failure, where we’ve changed our perspective, and have seen how a failure turned out to be the best thing that ever happened.
 		- ([Location 2614](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2614))
 		- #[[mind]]

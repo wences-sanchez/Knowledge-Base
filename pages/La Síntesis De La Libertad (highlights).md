@@ -54,7 +54,7 @@ category:: #books
 		- ([Location 888](https://readwise.io/to_kindle?action=open&asin=B078LCJQ3N&location=888))
 	- -
 	- -
-	- Como mi vida en el retiro temporal que es ahora. #card
+	- Como mi vida en el retiro temporal que es ahora. #car
 		- la vida de cada cual no tolera ficciones, porque al fingirnos algo a nosotros mismos sabemos, claro está, que fingimos y nuestra íntima ficción no logra nunca constituirse plenamente, sino que en el fondo notamos su inautenticidad, no conseguimos engañarnos del todo, y le vemos la trampa. Esta genuinidad inexorable y a sí misma evidente, indubitable, incuestionable de nuestra vida, repito, la de cada cual, es la primera razón que me hace denominarla «realidad radical».[119]
 		- ([Location 898](https://readwise.io/to_kindle?action=open&asin=B078LCJQ3N&location=898))
 	- -

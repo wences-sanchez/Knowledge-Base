@@ -25,7 +25,7 @@ tags:: #[[Self-Help]]
 		- ([Location 354](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=354))
 	- -
 	- -
-	- Are you thinking about anything? #card
+	- Are you thinking about anything? #car
 		- Para protegernos de futuros desengaños, desarrollamos una actitud cínica y autoprotectora hacia la vida.
 		- ([Location 361](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=361))
 		- #[[mind]]
@@ -51,13 +51,13 @@ tags:: #[[Self-Help]]
 		- ([Location 997](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=997))
 	- -
 	- -
-	- About regrets. #card
+	- About regrets. #car
 		- “El arrepentimiento persiste precisamente en esas situaciones en las cuales la oportunidad para la acción positiva sigue siendo elevada”. Esto señala al menos hacia una razón por la cual Landman subtituló su libro La persistencia de lo posible. El arrepentimiento es un potente indicador de oportunidad futura.
 		- ([Location 1054](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1054))
 		- #[[mind]]
 	- -
 	- -
-	- About regrets. #card
+	- About regrets. #car
 		- Con frecuencia sentimos el mayor arrepentimiento cuando tenemos la mayor oportunidad para un remedio positivo.
 		- ([Location 1202](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1202))
 		- #[[mind]]
@@ -83,13 +83,14 @@ tags:: #[[Self-Help]]
 		- ([Location 1800](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1800))
 	- -
 	- -
-	- Remember your life destiny #card
+	- Remember your life destiny #car
+	  id:: 63401543-1c77-4fcf-bde9-29b26c65783e
 		- Si quieres recorrer la distancia, tienes que encontrar una razón que te hable a ti personalmente y poderosamente.
 		- ([Location 1840](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1840))
 		- #[[mind]]
 	- -
 	- -
-	- Lista con las 3 motivaciones vitales más importantes #card
+	- Lista con las 3 motivaciones vitales más importantes #car
 		- He escrito una lista como esta para cada área importante en mi vida. Si me quedo atascado y quiero abandonar, saco la lista y comienzo a leerla. De inmediato me da perspectiva y me vigoriza; hace posible que silencie las voces y meta mi cabeza otra vez en la carrera.
 		- ([Location 1875](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1875))
 		- #[[mind]]

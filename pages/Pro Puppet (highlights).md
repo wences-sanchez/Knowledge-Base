@@ -10,31 +10,31 @@ category:: #books
 		- ([Location 670](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=670))
 	- -
 	- -
-	- ¿Qué es Puppet? #card
+	- ¿Qué es Puppet? #car
 		- Puppet is an open source framework and toolset for managing the configuration of computer systems.
 		- ([Location 670](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=670))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- ¿Qué tipo de arquitectura soporta Puppet? #card
+	- ¿Qué tipo de arquitectura soporta Puppet? #car
 		- Puppet is Ruby-based configuration management software, licensed as Apache 2.0, and it can run in either client-server or stand-alone mode.
 		- ([Location 690](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=690))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- ¿Puppet es open-source o privativo? #card
+	- ¿Puppet es open-source o privativo? #car
 		- Puppet has two versions available: the open source version and the Enterprise version.
 		- ([Location 694](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=694))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- ¿Qué tipos de SO soporta Puppet? #card
+	- ¿Qué tipos de SO soporta Puppet? #car
 		- Puppet can be used to manage configuration on Unix (including OS X), Linux, and Microsoft Windows platforms.
 		- ([Location 697](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=697))
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- ¿Cuáles son las capas de estructura de Puppet? #card
+	- ¿Cuáles son las capas de estructura de Puppet? #car
 		- three components: Deployment Layer Configuration Language and Resource Abstraction Layer Transactional Layer
 		- ([Location 701](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=701))
 		- #[[pink]] #[[rosa]]
@@ -47,13 +47,13 @@ category:: #books
 	- -
 	- ¿Qué es un Puppet Master?
 	  ¿Qué es un Puppet Agent?
-	  ¿Qué es un nodo? #card
+	  ¿Qué es un nodo? #car
 		- Puppet is usually deployed in a simple client-server model (Figure 1-2). The server is called a Puppet master, the Puppet client software is called an agent, and the host itself is defined as a node.
 		- ([Location 704](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=704))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- ¿Qué es un Puppet Master? #card
+	- ¿Qué es un Puppet Master? #car
 		- The Puppet master runs as a daemon on a host and contains the configuration required for the specific environment.
 		- ([Location 707](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=707))
 		- #[[pink]] #[[rosa]]
@@ -77,7 +77,8 @@ category:: #books
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- ¿Qué son los resources en Puppet? #card
+	- ¿Qué son los resources en Puppet? #car
+	  id:: 6340152f-4c31-4b03-a44a-636b2f5f67f9
 		- Puppet uses a declarative language, the Puppet language, to define your configuration items, which Puppet calls resources.
 		- ([Location 723](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=723))
 		- #[[pink]] #[[rosa]]
@@ -87,7 +88,8 @@ category:: #books
 		- ([Location 730](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=730))
 	- -
 	- -
-	- Estructura de un resource en Puppet. #card
+	- Estructura de un resource en Puppet. #car
+	  id:: 6340152f-d29e-4249-99d5-43e8b10102fb
 		- Each resource is made up of a type (what sort of resource is being managed: packages, services, or cron jobs), a title (the name of the resource), and a series of attributes (values that specify the state of the resource—for example, whether a service is started or stopped).
 		- ([Location 741](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=741))
 	- -
@@ -96,7 +98,7 @@ category:: #books
 		- ([Location 761](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=761))
 	- -
 	- -
-	- ¿Qué es facter? #card
+	- ¿Qué es facter? #car
 		- Facter is a system inventory tool, also developed principally by Puppet Labs,
 		- ([Location 774](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=774))
 		- #[[pink]] #[[rosa]]
@@ -116,7 +118,7 @@ category:: #books
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- Pasos de la capa Transaccional de Puppet. #card
+	- Pasos de la capa Transaccional de Puppet. #car
 		- steps: Interpret and compile your configuration. Communicate the compiled configuration to the agent. Apply the configuration on the agent. Report the results of that application to the master.
 		- ([Location 789](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=789))
 		- #[[blue]] #[[azul]]
@@ -140,7 +142,7 @@ category:: #books
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- ¿En qué fichero está la configuración principal del Puppet Master? #card
+	- ¿En qué fichero está la configuración principal del Puppet Master? #car
 		- Puppet’s configuration will be located under the /etc/puppet directory. Puppet’s principal configuration file is called puppet.conf and is stored at /etc/puppet/puppet.conf
 		- ([Location 1027](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1027))
 		- #[[pink]] #[[rosa]]
@@ -161,13 +163,15 @@ category:: #books
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- ¿Qué es el site.pp? #card
+	- ¿Qué es el site.pp? #car
+	  id:: 6340152f-41ac-44c3-9872-49b39b3a29ac
 		- The site.pp File
 		- ([Location 1052](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1052))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- ¿Qué es un manifest en Puppet? #card
+	- ¿Qué es un manifest en Puppet? #car
+	  id:: 6340152f-6254-4952-9812-09edc2ae2c63
 		- Manifest is Puppet’s term for files containing configuration information. Manifest files have a suffix of .pp. The Puppet language is written into these files.
 		- ([Location 1055](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1055))
 		- #[[pink]] #[[rosa]]
@@ -205,13 +209,15 @@ category:: #books
 		- ([Location 1193](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1193))
 	- -
 	- -
-	- ¿Cómo definimos un nodo en site.pp? #card
+	- ¿Cómo definimos un nodo en site.pp? #car
+	  id:: 6340152f-6b2b-46d9-b3dd-1df9f698f70e
 		- For a node definition we specify the node name, enclosed in single quotes, and then specify the configuration that applies to it inside curly braces { }.
 		- ([Location 1199](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1199))
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- Definición mejorada de un nodo en site.pp #card
+	- Definición mejorada de un nodo en site.pp #car
+	  id:: 6340152f-9823-424e-8535-7ed9f17d6c5f
 		- Here we specify an include directive in our node definition; it specifies a collection of configurations, called a class, that we want to apply to our host.
 		- ([Location 1219](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1219))
 		- #[[pink]] #[[rosa]]
@@ -222,7 +228,7 @@ category:: #books
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- Clases parametrizadas #card
+	- Clases parametrizadas #car
 		- The first syntax is bare and simple. The second syntax allows parameters to be passed into the class. This feature, generally called parameterized classes, allows classes to be written generally and then utilized specifically, increasing the reusability of Puppet code.
 		- ([Location 1224](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1224))
 		- #[[pink]] #[[rosa]]

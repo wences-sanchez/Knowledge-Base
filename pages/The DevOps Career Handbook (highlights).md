@@ -27,7 +27,7 @@ tags:: #[[O'Reilly-Learning]]
 		- The dysfunction in the software industry, namely between IT operations and software development communities, was the spark that ignited the movement, but it was the pioneers of Agile, Lean, and XP who were responsible for the initial fuel of the DevOps movement. #ñspace
 		- -
 		- -
-		- The difference between traditional and DevOps teams. The traditional ones were separated in silos by specialities, and the newer ones are combined, mixed by developers, testers and Ops people in a same feature goal team. #card
+		- The difference between traditional and DevOps teams. The traditional ones were separated in silos by specialities, and the newer ones are combined, mixed by developers, testers and Ops people in a same feature goal team. #car
 			- In traditional development methods such as waterfall, teams are broken down and created at the activity level, also known as a horizontal slice of work. Ownership of a feature is split among various teams. In the following example, three teams must interact with the feature before it makes it to the end user, and another team is responsible for ongoing support. This is problematic; the operational support team is oftentimes not aware of the most recent changes the development team made, leading to extended downtimes and outages
 		- -
 		- -

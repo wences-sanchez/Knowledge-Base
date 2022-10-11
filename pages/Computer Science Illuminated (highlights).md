@@ -9,7 +9,7 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- 1.1 Computing Systems
 		- -
-		- __information hiding__ #card
+		- __information hiding__ #car
 			- Information hiding is a design feature that gives rise to the abstractions that make something easier to work with. Information hiding and abstraction are two sides of the same coin.
 		- -
 	- 1.2 The History of Computing
@@ -26,7 +26,7 @@ tags:: #[[O'Reilly-Learning]]
 		  In the second generation, transistors and other components for the computer were assembled by hand on printed circuit boards. The third generation was characterized by integrated circuits (ICs), solid pieces of silicon that contained the transistors, other components, and their connections. Integrated circuits were much smaller, cheaper, faster, and more reliable than printed circuit boards. #ñspace
 		- -
 		- -
-		- __Transistors #card
+		- __Transistors #car
 			- Transistors also were used for memory construction, where each transistor represented one bit of information. Integrated-circuit technology allowed memory boards to be built using transistors. Auxiliary storage devices were still needed because transistor memory was volatile; that is, the information went away when the power was turned off.
 		- -
 		- -
@@ -51,16 +51,16 @@ tags:: #[[O'Reilly-Learning]]
 		  As hardware became more powerful, more powerful tools were needed to use it effectively. Assembly languages certainly presented a step in the right direction, but the programmer still was forced to think in terms of individual machine instructions. The second generation saw more powerful languages developed. These high-level languages allowed the programmer to write instructions using more English-like statements. #ñspace
 		- -
 		- -
-		- __operating system #card
+		- __operating system #car
 			- Third-Generation Software (1965–1971)
 			  During the third generation of commercial computers, it became apparent that the human was slowing down the computing process. Computers were sitting idle while waiting for the computer operator to prepare the next job. The solution was to put the computer resources under the control of the computer—that is, to write a program that would determine which programs were run when. This kind of program was the first operating system.
 		- -
 		- -
-		- About servers #card
+		- About servers #car
 			- For the user, time sharing is much like having his or her own machine. Each user is assigned a small slice of central processing time and then is put on hold while another user is serviced. Users generally aren’t even aware that there are other users. However, if too many people try to use the system at the same time, there can be a noticeable wait for a job to be completed.
 		- -
 		- -
-		- systems VS applications programmers #card
+		- systems VS applications programmers #car
 			- By the end of the first generation, programmers had emerged who wrote tools for other programmers to use, giving rise to the distinction between systems programmers and applications programmers. However, the programmer was still the user. In the third generation, systems programmers were writing software for nonprogrammers to use. For the first time, there were computer users who were not programmers in the traditional sense.
 		- -
 		- -

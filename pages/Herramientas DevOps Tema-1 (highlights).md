@@ -15,13 +15,14 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 5)
 	- -
 	- -
-	- Define despliegue. #card
+	- Define despliegue. #car
 		- Definiremos la Implementación y Despliegue como la fase en la que aplicamos una nueva versión de nuestra aplicación al entorno productivo. Es importante destacar que eso no es únicamente desplegar una nueva versión de código (aunque es una parte esencial y compleja en sí misma) sino desplegar un entorno nuevo, cambiar las piezas necesarias, desplegar componentes nuevos completos, configurar conexiones y eliminar las piezas que dejen de ser fundamentales.
 		- (Page 7)
 		- #[[favorite]]
 	- -
 	- -
-	- ¿Qué es la infraestructura inmutable? #card
+	- ¿Qué es la infraestructura inmutable? #car
+	  id:: 63401514-0e69-4404-a5ec-61a4f18bc5d0
 		- La infraestructura inmutable es un paradigma que intenta considerar las piezas de infraestructura  como  inmutables  y,  por  tanto,  la  forma  de  cambiarlas  sería reemplazarlas por una nueva con la próxima versión.
 		- (Page 9)
 	- -
@@ -30,12 +31,12 @@ tags:: #[[Herramientas-DevOps]] #[[UNI]]
 		- (Page 13)
 	- -
 	- -
-	- ¿En qué consiste mantener un sistema? #card
+	- ¿En qué consiste mantener un sistema? #car
 		- El  mantenimiento  de  un  sistema  consiste  en  lograr  que  el  sistema  continúe funcionando y mantenga nuestro objetivo de nivel de servicio, SLO (del inglés Service Level  Objectives)  y  nuestros  acuerdos  de  servicio,  SLA  (del  inglés  Service  Level Agreement).
 		- (Page 22)
 	- -
 	- -
-	- ¿De qué requiere la mejora continua? #card
+	- ¿De qué requiere la mejora continua? #car
 		- La  mejora  continua  requiere  de  un  análisis  de  la  situación  real,  y  además  de  un análisis  sobre  qué  cambios  queremos  realizar.  La  monitorización  nos  ayudará significativamente a conocer nuestros datos actuales a fin de predecir problemas y evitarlos en la siguiente iteración.
 		- (Page 23)
 	- -

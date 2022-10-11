@@ -6,7 +6,8 @@ url:: https://stackoverflow.com/questions/42322445/aws-how-to-allow-all-tcp-traf
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How can you allow all traffic between instances in the same VPC? .aws #card
+	- How can you allow all traffic between instances in the same VPC? .aws #car
+	  id:: 634014ed-b6e7-4f0d-a3b6-3a2fcf39b863
 		- to Allow any traffic between ALL servers in the VPC is not a good practice.
 		  you should rethink in your VPC purpose.
 		  

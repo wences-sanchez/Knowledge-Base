@@ -167,7 +167,8 @@ category:: #books
 		- ([Location 1496](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1496))
 	- -
 	- -
-	- Instance Initializers <---> Static Initializers #card
+	- Instance Initializers <---> Static Initializers #car
+	  id:: 6340152d-9351-4ca7-9dca-fffd108b082c
 		- Sometimes code blocks are inside a method. These are run when the method is called. Other times, code blocks appear outside a method. These are called instance initializers.
 		- ([Location 1498](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1498))
 		- #[[blue]] #[[azul]]
@@ -188,7 +189,8 @@ category:: #books
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- ¡El constructor es lo último que se ejecuta! #card
+	- ¡El constructor es lo último que se ejecuta! #car
+	  id:: 6340152d-fe55-4971-9d62-705e2cd75c98
 		- Fields and blocks are run first in order, setting number to 3 and then 4. Then the constructor runs, setting number to 5.
 		- ([Location 1540](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1540))
 		- #[[pink]] #[[rosa]]
@@ -243,9 +245,10 @@ category:: #books
 	- -
 	- -
 	- El subrayado en los literales no puede ir:
+	  id:: 6340152d-6301-4ec1-8e5b-c6c98ed51e94
 	  1. Ni al principio 
 	  2. Ni al final
-	  3. Ni pegado a un punto #card
+	  3. Ni pegado a un punto #car
 		- double notByDecimal = 1000_.00;
 		- ([Location 1641](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1641))
 		- #[[orange]] #[[naranja]]
@@ -318,15 +321,16 @@ category:: #books
 		- ([Location 2018](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2018))
 	- -
 	- -
-	- ¡PROBAR EN PC! #card
+	- ¡PROBAR EN PC! #car
 		- A file is also allowed to have neither class be public.
 		- ([Location 2024](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2024))
 	- -
 	- -
 	- Un objeto es eliminado de la memoria de la JVM cuando:
+	  id:: 6340152d-bec9-48c7-bca5-845a5bb09c30
 	  1. Su referencia ha salido del ámbito 
 	  ó
-	  2. Su referencia ya no apunta a ningún objeto #card
+	  2. Su referencia ya no apunta a ningún objeto #car
 		- An object will remain on the heap until it is no longer reachable. An object is no longer reachable when one of two situations occurs: The object no longer has any references pointing to it. All references to the object have gone out of scope.
 		- ([Location 2044](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2044))
 		- #[[blue]] #[[azul]]
@@ -351,7 +355,8 @@ category:: #books
 	- -
 	- -
 	- finalize solo se ejecuta una o cero veces.
-	  Si se procesa lo que pone en el primer intento, no lo vuelve a procesar. #card
+	  id:: 6340152d-113a-4c3d-99e9-048b1be5470f
+	  Si se procesa lo que pone en el primer intento, no lo vuelve a procesar. #car
 		- finalize() call could run zero or one time.
 		- ([Location 2117](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2117))
 		- #[[pink]] #[[rosa]]
@@ -394,7 +399,8 @@ category:: #books
 		- #[[pink]] #[[rosa]]
 	- -
 	- -
-	- Hi #card
+	- Hi #car
+	  id:: 6340152d-f29f-4635-b2d0-95871e2edbe8
 		- Statements
 		- ([Location 2392](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2392))
 		- #[[blue]] #[[azul]]

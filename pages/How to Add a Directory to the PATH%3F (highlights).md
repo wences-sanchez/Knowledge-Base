@@ -6,7 +6,7 @@ url:: https://askubuntu.com/questions/60218/how-to-add-a-directory-to-the-path
 
 - Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-	- How can you add a folder to PATH in Linux? #card
+	- How can you add a folder to PATH in Linux? #car
 		- Edit .bashrc in your home directory and add the following line:
 		  
 		  export PATH="/path/to/dir:$PATH"

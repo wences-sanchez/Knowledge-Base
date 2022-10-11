@@ -22,6 +22,7 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 			- IAM is free and included in every AWS account. #spaced
 			- You can simply create groups to make the management simpler.
 			- A policy has several fields: #flashcard
+			  id:: 63454581-d631-48e8-9464-6a39e3b7ec19
 				- Apart the `Version` , and inside the `Statement` :
 				- The _Effect_ (_allow_ or _deny_)
 				- The _Action_
@@ -110,6 +111,7 @@ tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
 			- https://aws.amazon.com/es/relational-database/
 		- ### Discussing DynamoDB
 			- What is DynamoDB? #flashcard
+			  id:: 63454581-5041-4e3a-b214-32d9e956016e
 				- DynamoDB is a key-value database. It has a primary key with the partition and sort keys. But a modifiable number of attributes. And works great with serverless. It's not as fixed as RDS ;)
 				  ![Screenshot_20220425_100725.png](./assets/Screenshot_20220425_100725_1660910483483_0.png)
 				-

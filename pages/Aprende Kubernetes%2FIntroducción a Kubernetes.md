@@ -13,6 +13,7 @@ tags:: LinkedIn-Learning, Kubernetes
 -
 	- ### Flashcards
 		- Define **Kubernetes**. #flashcard
+		  id:: 6345458a-22fd-4bd8-975d-0788e64ed714
 			- **Kubernetes** es un sistema open-source (de software libre) de orquestación de contenedores para su despliegue, escalado y gestión.
 			- No es solo un Job Scheduler, sino que nos aporta cosas para gestionar: infraestructura, software, recursos,...
 			- Kubernetes nos ayuda con el despliegue de aplicaciones, con facilidad, sin realizar tareas manuales.
@@ -31,6 +32,7 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- ### Flashcards
 		- ¿Qué container trae por defecto Kubernetes? #flashcard
+		  id:: 6345458a-061a-4e0a-aa84-c86c20bd9685
 			- El runtime por defecto es containerd, que es compatible con Docker.
 	-
 	-
@@ -51,6 +53,7 @@ tags:: LinkedIn-Learning, Kubernetes
 -
 	- ### Flashcards
 		- Alternativas a Kubernetes #flashcard
+		  id:: 6345458a-54af-4af7-a77b-dfe1971ed50c
 			- Docker Swarm
 				- Menos comunidad y foros.
 				- Proyecto casi abandonado por Docker
@@ -71,6 +74,7 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- ### Flashcards
 		- Esquema general de la arquitectura de Kubernetes: #flashcard
+		  id:: 6345458a-6759-4d9e-9a74-564cccef83ce
 			- ![image.png](../assets/image_1664207963644_0.png)
 			-
 			-
@@ -96,6 +100,7 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- ### Flashcards
 		- ¿Cuáles son los elementos del plano de control de Kubernetes? #flashcard
+		  id:: 6345458a-2030-4bb0-a66d-b77cc547a26b
 			- ### Etcd
 				- Guarda todos los metadatos que tenemos de los objetos que hay en el clúster.
 					- Pueden ser las definiciones de los objetos, su configuración, su estado de ejecución... La fuente de la verdad
@@ -132,6 +137,7 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- ### Flashcards
 		- ¿Cuáles son los elementos del plano de datos de Kubernetes? #flashcard
+		  id:: 6345458a-360b-4782-b3a6-d4878b6f09b6
 			- ### Kubelet
 				- Agente que vigila y arranca los pods.
 			- ### CRI / Runtime
@@ -159,6 +165,7 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- ### Flashcards
 		- Acerca de pods en Kubernetes y de cómo usarlos. #flashcard
+		  id:: 6345458a-b815-406c-b1db-7f11a132e61a
 			- Un **pod** es un agrupamiento de uno o más contenedores que están relacionados entre sí porque necesitan estar juntos para colaborar y ejecutar algún tipo de cagra o de aplicación
 			- Cada pod tiene una dirección IP que comparte con todos los nodos que hay dentro. Y pueden compartir también un volumen de disco, por ejemplo.
 			- Los pods comparten también los puertos libres (y ocupados :( )

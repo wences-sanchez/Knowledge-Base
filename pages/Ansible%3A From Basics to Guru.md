@@ -91,6 +91,7 @@ title:: Ansible: From Basics to Guru
 
 #spaced
 ## Lesson 5: Working with Variables
+id:: 6345458a-44f5-48fe-bf75-b24223c9d038
 
 * You should separate information from the code
 
@@ -126,9 +127,9 @@ tasks:
 - name: ...
 tasks:
 - set_fact:
-    my_var: my_value
+  my_var: my_value
 - debug:
-    msg: The value is {{ my_var }}
+  msg: The value is {{ my_var }}
 ```
 
 7. **vars_prompt** to sensitive info
@@ -138,8 +139,8 @@ tasks:
 - name: ...
 vars_prompt:
 - name: package
-  prompt: Wich package do you want?
-  private: no
+prompt: Wich package do you want?
+private: no
 ```
 
 * It is possible to put variables inside a file that matches a host or group and then just simply target to it in the `hosts:` section.
@@ -233,8 +234,10 @@ But is always recommended to use the ansible_facts key.
   
   ---
 - How can you copy content from a remote machine to a local host in Ansible? #flashcard
+  id:: 6345458a-12a7-4c86-83d5-77bc5d8230cf
 	- With the **fetch** module
 - What is the exact syntax of register a variable in Ansible? #flashcard
+  id:: 6345458a-32f6-4e95-bf8a-cb87c115990e
 	- With: `register: <var>` inside the parent module
 - Remember to remove the `{ }` when dealing with conditionals in Ansible!!!!
 - And include the `' '`#spaced 
@@ -268,4 +271,5 @@ But is always recommended to use the ansible_facts key.
 # Module 3: Advanced Ansible Management
 ## Lesson 9: Ansible Best Practices and Optimization
 - What is the difference between include and import in Ansible? #flashcard
+  id:: 6345458a-fc3b-4976-a809-0cdfcf15b344
 	- *Include* is dynamic, *Import* is added statically (before the actual play is started).

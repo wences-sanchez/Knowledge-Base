@@ -116,6 +116,7 @@
 - #### Flashcards
   collapsed:: true
 	- Tell me the command in Bash for printing message and be respectful about special characters #flashcard
+	  id:: 6345458c-1ed7-42d6-b083-f850c3c1733d
 		- **echo -e** is for special characters
 		- `$ echo -e "Estoy partido\nen dos"`
 		- **printf** is an alternative, but is more like C-Shell...
@@ -163,6 +164,7 @@
 		- With the token **$?**
 	- What do you have to type in Google to search Bash stuff? #flashcard
 	  collapsed:: true
+	  id:: 6345458c-ffa0-485b-af92-ce1535113621
 		- Bash Scripting Guide
 	- How could you make a script to call it wherever? #flashcard
 	  collapsed:: true
@@ -237,6 +239,7 @@
 		- An **argument** is anything that can be put behind the name of a command or script
 		- **ls -l /etc** has 2 arguments
 	- What's an option? #flashcard
+	  id:: 6345458c-1e41-4fde-ba99-d7770300395f
 		- An **option** is an argument that changes the behavior of the command or script, and its functionality is programmed into the command
 		- In **ls -l /etc**, **-l** is used as an option
 	- What is a posicional parameter? #flashcard
@@ -356,6 +359,7 @@
 	- With `read VAR`, you are already saving it in $VAR #spaced #dev-notes
 	- Syntax of case in Bash: #flashcard
 	  collapsed:: true
+	  id:: 6345458c-6d35-4b07-8183-4e6408b957c3
 		- You can see it below:
 		- ```
 		  case $VAR in
@@ -390,6 +394,7 @@
 - ---
 - #### Flashcards
 	- What is the syntax of **getopts**? #flashcard
+	  id:: 6345458c-0344-40d1-8e7d-6b7e5effe337
 		- The below one:
 		- ```
 		  while getopts "hs:" arg; do
@@ -411,8 +416,10 @@
 		- With **local** var=value
 	- How could you create a menu in Bash? #flashcard
 	  collapsed:: true
+	  id:: 6345458c-16da-4212-8d0d-f77acff6f34b
 		- ![image.png](../assets/image_1658921094274_0.png)
 	- What is the use of **trap**? #flashcard
+	  id:: 6345458c-b3d1-4c21-9931-784412ce1892
 		- You can catch OS signals with it as CTL^C and prevent the scrpt to stop
 		- You can assign actions that happen when those signals are executed or pressed
 - ---

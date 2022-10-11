@@ -56,12 +56,14 @@ title:: Oxford English File B2.1
 		- ### Flashcards
 			- #### First conditional examples
 			  collapsed:: true
+			  id:: 63454581-20f1-46c3-9c71-5477a2ad0e27
 			  1 If I **<>** time, I **<>** my CV tonight.
 			  If you **<>** hard, you **<>** promoted. #flashcard
 				- 1 If I **have** time, I**'Il write** my CV tonight.
 				  If you **don't work** hard, you **won't get** promoted.
 			- #### First conditional examples
 			  collapsed:: true
+			  id:: 63454581-4e71-46ed-9d71-95912a0e3bf7
 			  2 If he **<>** well at school, he **<>** to a good university.
 			  I **<>** to college if I **<>** a job.
 			  If you **<>** for a job, you **<>** an up-to-date CV.
@@ -84,6 +86,7 @@ title:: Oxford English File B2.1
 				- ![2022-08-29-19-25-11.jpeg](../assets/2022-08-29-19-25-11.jpeg)
 			- #### Second conditional examples
 			  collapsed:: true
+			  id:: 63454581-f7bc-4b34-8fa3-7dc182ad6f7a
 			  
 			  1 If I **<>** more money, I **<>** to work overtime.
 			  If they **<>** you a part-time job, **<>** you **<>** it?

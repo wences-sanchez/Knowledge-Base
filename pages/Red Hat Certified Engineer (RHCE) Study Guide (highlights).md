@@ -15,10 +15,12 @@ tags:: #[[O'Reilly-Learning]]
 	- 2. Working with the Ansible Configuration
 		- -
 		- Where can I find Ansible configuration info? #flashcard
+		  id:: 634545cd-2b2d-4ec4-bcf4-915190ec6d33
 			- NoteThe effective configuration for Ansible can be determined from the command ansible --version. Run this command from the directory in which you would execute the other Ansible commands for your project.
 		- -
 		- -
 		- About the order of Ansible configuration files and its precedence. #flashcard
+		  id:: 634545cd-8f59-450a-ab31-d693c3a9cc71
 			- The effective Ansible configuration is applied on the first found – first applied basis. It is important to note that only one configuration can be active and applied and that these configurations are NOT cumulative. The search order is shown in the following bulleted list, with the search from the top of the list to the bottom. The least effective configuration is the /etc/ansible/ansible.cfg at the bottom of the list.
 			  ANSIBLE_CONFIG: If the environment variable, ANSIBLE_CONFIG, is set, then this configuration is used. Default options are used for any configuration option not set. This default behavior is common with all configurations.
 			  
@@ -33,6 +35,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- -
 		- How do you see the Ansible full config? #flashcard
+		  id:: 634545cd-d934-4479-aea6-97635331e50f
 			- We will also be able to print the effective settings, that is, the default settings. For this, we have access to the command ansible-config, which has a stunning three subcommands:
 			  ansible-config view: Print the contents of the current effective Ansible configuration.
 			  
@@ -42,6 +45,7 @@ tags:: #[[O'Reilly-Learning]]
 		- -
 		- -
 		- When testing if the Ansible configuration parameters are input correctly. #flashcard
+		  id:: 634545cd-65f0-419b-98de-abfdbc305d01
 			- We do have to take care with this command, as there is absolutely no checking of the section headers we have used or of the key or values supplied. The file will print as long as it matches the INI file format. Checking the effective settings with the dump subcommand is so much more useful, especially when we filter with the --only-changed option. Come on; I will show you.
 			  $ ansible-config dump --only-changed
 			  DEFAULT_BECOME(/home/tux/.ansible.cfg) = True

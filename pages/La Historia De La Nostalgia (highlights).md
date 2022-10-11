@@ -34,6 +34,7 @@ category:: #books
 	- -
 	- -
 	- Por esto es por lo que no quieres (aún, en el fondo) ir a London tan pronto. #flashcard
+	  id:: 634545c1-d041-4aa6-8a4d-b2e6182b0000
 		- Mentre el tren avançava pels suburbis de Nova York camí del nord, la Sarah amb prou feines va tenir temps per pensar conscientment. De seguida la va envair l'ensopiment habitual que ocasiona el sotrac del tren. Els seus pensaments eren inconnexos i anaven d'una realitat a una altra. D'un lloc a un altre. D'un moment a un altre. Només per un instant va recordar que abandonava tot el que li era conegut i va sentir el vertigen a la boca de l'estómac.
 		  
 		  La decisió d'escollir Pembroke havia estat únicament seva.
@@ -60,6 +61,7 @@ category:: #books
 	- -
 	- -
 	- ¿Qué cosa harías si te dijesen que el destino no existe, que es un constructo de tu mente?
+	  id:: 634545c1-1e54-4ccc-b0b4-8ccd5d035abb
 	  ¿Dónde irías?
 	  ¿Cuándo lo harías? #flashcard
 		- Em vaig aturar davant d'una llibreria de vell que freqüentava. Entre els Ilibres que s'hi oferien hi havia un exemplar d'Alícia al país de les meravelles; a la portada s'hi veia un uni- corn que brillava com si fos un llum encès. Un unicorn que pel que sembla pot ser real mentre es cregui que pot ser-ho.

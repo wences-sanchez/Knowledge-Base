@@ -10,11 +10,13 @@ tags:: #[[DevOps]] #[[O'Reilly-Learning]]
 	- 1. The Big Picture
 		- -
 		- What is *devops*? #flashcard
+		  id:: 6345459c-b330-4799-9487-50a0b6b088e8
 			- Devops is a way of thinking and a way of working. It is a framework for sharing stories and developing empathy, enabling people and teams to practice their crafts in effective and lasting ways. It is part of the cultural weave that shapes how we work and why. Many people think about devops as specific tools like Chef or Docker, but tools alone are not devops. What makes tools “devops” is the manner of their use, not fundamental characteristics of the tools themselves.
 		- -
 	- 2. What Is Devops?
 		- -
 		- What not to do when I have a doubt… #flashcard
+		  id:: 6345459c-e0bb-4a4f-8c38-766d748a9bda
 			- In a siloed, nondevops environment, the lack of a shared understanding would be like the General trying to start coding without making sure George understands the requirements—it might end up working, but without communication of intentions, the odds are stacked against it.
 		- -
 	- 3. A History of Devops

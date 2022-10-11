@@ -38,6 +38,7 @@ tags:: Coursera, DevOps, IBM
 		- ### Question
 			- Pregunta: What is DevOps?
 			  collapsed:: true
+			  id:: 6345458f-8967-4d71-ba7e-0c9a7a835f16
 			  [ ] DevOps is primarily a recognition that Dev and Ops must work together during the entire development life cycle.
 			  [ ] DevOps is primarily deploying ever larger monolithic applications that are all or nothing at deploy.
 			  [ ] DevOps is primarily adopting tools and procedures used by DevOps engineers for Dev and Ops.
@@ -115,6 +116,7 @@ tags:: Coursera, DevOps, IBM
 				- 4. Mean Time To Recovery
 		- #### Comparison of DevOps to SRE
 			- What is **SRE** (Site Reliablity Engineering)? #flashcard
+			  id:: 6345458f-9cda-4fdc-88cc-8e25da2a2280
 				- SRE is...
 					- > "...what happens when a software engineer is tasked with what used to be called operations."
 					  Ben Treynor Sloss
@@ -125,6 +127,7 @@ tags:: Coursera, DevOps, IBM
 					- SRE teams are separate from development teams
 					- Developers rotate through operations
 			- What are the differences between SRE and DevOps teams? #flashcard
+			  id:: 6345458f-f5d4-41a6-8e92-32966aa2fcbf
 				- SRE maintains separate development and operations silos with one staffing pool
 					- If you need one more developer, you take it away from SRE team
 					- If you need one more SRE, you take it away from dev team
@@ -138,6 +141,7 @@ tags:: Coursera, DevOps, IBM
 						- Everyone is responsible for code
 						- *"You build it, you run it"*
 			- What is the commonality from SRE and DevOps? #flashcard
+			  id:: 6345458f-9677-4f25-a53c-b00019de4235
 				- Both seek to make both DEV and OPS work visible to each other
 				- Both require a blameless culture
 				- The objective of both is to deploy software faster with stability.
@@ -155,14 +159,19 @@ tags:: Coursera, DevOps, IBM
 			-
 	- ### Flashcards
 		- What is the metric which measures how long it takes to an idea to get to production? #flashcard
+		  id:: 6345458f-ca54-4ad8-9572-f69d84423609
 			- *Mean Lead Time*
 		- What is the metric which measures how often changes fail? #flashcard
+		  id:: 6345458f-fd11-45da-9aff-54243694fc98
 			- *Change Failure Rate*
 		- What is the metric which measures how quickly you can recover from failure? #flashcard
+		  id:: 6345458f-5181-4395-bd7b-df67eee1336b
 			- *Mean Time To Recovery (MTTR)*
 		- What does “rewarding for “A” while hoping for “B” mean? #flashcard
+		  id:: 6345458f-9d39-4307-8d37-3aca224db096
 			- People will seek to do the activities that are rewarded, so measure what matters.
 		- **Select the statement that correctly describes DevOps.**
+		  id:: 6345458f-121b-4f9a-8dfe-f1d3e8b677f8
 		  [ ] DevOps is a cultural change in which the development team and the operations team work together in cross-functional teams.
 		  [ ] DevOps is the combining of the development team and the operations team into one team.
 		  [ ] DevOps is primarily automation by DevOps Engineers.
@@ -171,6 +180,7 @@ tags:: Coursera, DevOps, IBM
 				- Correcto: *DevOps is a cultural change in which the development team and the operations team work together in cross-functional teams.*
 				- Correct. DevOps includes automation, fast deploys, and tools, but it is essentially about Dev and Ops working together.
 		- **Select the correct statement regarding DevOps.**
+		  id:: 6345458f-3506-4d4a-9708-ea187d3bfb00
 		  [ ] DevOps is done primarily by Ops.
 		  [ ] DevOps is a separate team that sits between Dev and Ops.
 		  [ ] DevOps is Dev and Ops working together with the same mindset.

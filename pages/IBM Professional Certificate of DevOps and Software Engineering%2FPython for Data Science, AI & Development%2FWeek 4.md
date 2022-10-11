@@ -83,13 +83,16 @@ tags:: Coursera, DevOps, Python
 	-
 - ## Flaschards
 	- ¿Cómo puedes crear un DataFrame en Pandas que contenga solo los datos de 'Nombre' y 'Apellidos'?, ¿y un Series de Pandas? #flashcard
+	  id:: 634545b3-30a4-403d-8e9e-337ec9b6f3c3
 		- Con: `df = pandas.dataFrame(<source>)`
 		- `answer = df[['Nombre', 'Apellidos']]`
 		- Con un Series: `answer = df['Nombre', 'Apellidos']`
 	- ¿Cómo puedes mostrar solo las dos primeras líneas y las columnas desde la 2 hasta la 5 de un dataFrame (ya inicializado)? #flashcard
+	  id:: 634545b3-821d-4509-a0ac-db0a71258e3e
 		- Con iloc(), `df.iloc[0:2, 1:5] # Interval opened on the right`
 		- Con loc(), `df.loc['label1': 'label2', 'col_2': 'col_5']`
 	- ¿Con qué función puedes obtener valores a través de índices y labels de un dataFrame de Pandas? #flashcard
+	  id:: 634545b3-0693-4dfc-8276-35e61dd3d801
 		- Con `df.loc[ , ]` y `df.iloc[ , ]`
 	-
 		-

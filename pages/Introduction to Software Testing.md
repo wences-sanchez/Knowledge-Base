@@ -169,6 +169,7 @@
 			- There is also the CAT *(Customer Acceptance Test)*
 			-
 		- Mention the components of a Test Plan: #flashcard
+		  id:: 634545bd-aa8b-45c0-b68c-11c7ae5956ff
 			- ![image.png](../assets/image_1659438258912_0.png)
 			- **Scope:** means you know your domain.
 				- There's no way to properly definen your tests without knowing the bounds and the domain within your project works.
@@ -322,6 +323,7 @@
 				- > Test stubs would provide outputs for a few values.
 			-
 			- #flashcard **Pregunta 3:** During testing, you find that the unit tests require the use of a computationally expensive database. What could you use as a test double?
+			  id:: 634545bd-0ff0-42e1-8cf3-6034eafd765b
 			  
 			  [ ] Test Stubs
 			  [ ] Fake Objects

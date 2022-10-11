@@ -6,11 +6,13 @@ tags:: Coursera, IBM-DevOps, Containers
 - ### Understanding the Benefits of Containers
 	- #### Introduction to Containers
 		- What is a container? #flashcard
+		  id:: 634545b2-fe26-4f43-8ba4-b1a02dbd47e0
 			- A **container** is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere, whether on a desktop, on-premisies, or in the cloud.
 			- Its key benefits are: **portabillity** and **lightweight**.
 			- ![image.png](../assets/image_1659713334665_0.png)
 	- #### Building Containers Images
 		- What is a Dockerfile? #flashcard
+		  id:: 634545b2-86b4-4cda-9882-b7abceadb73a
 			- A Dockerfile is the blueprint from which an image is built. The Dockerfile outlines all the steps to be taken to build the desired image; Docker then builds that image.
 			- It's important to note the difference between a container and an image, which can also be called a container image.
 			- These are not interchangeable terms, but rather two distinct things. An image is an immutable file that contains the source code, libraries, and dependencies that are necessary for an application to run. That immutability means that images are read-only; if you change an image, you create a new image.
@@ -24,7 +26,9 @@ tags:: Coursera, IBM-DevOps, Containers
 -
 - ### Flashcards
 	- What is an image? #flashcard
+	  id:: 634545b2-0f63-4a17-bf6f-eb8d1217fce6
 		- An image is a read-only file that contains the source code, libraries, and dependencies that are needed to run an application.
 	- ¿Cuándo se le da nombre a una imagen en Docker? #flashcard
+	  id:: 634545b2-3b0b-4d5e-807e-bb50fa74db2d
 		- En el momento del `$ docker build -t nombre:version .`
 		-

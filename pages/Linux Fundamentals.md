@@ -48,6 +48,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- #### Flashcards
 			- How can you open a shell as another user? #flashcard
 			  collapsed:: true
+			  id:: 634545c6-b68c-4e93-b326-e50540ab7cbe
 				- `$ su - [<user>]` can be used to open a shell as another user.
 					- When used without arguments, a  root shell is opened after entering the root password
 					- When used with a username as argument, a user shell is opened.
@@ -126,6 +127,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		  collapsed:: true
 			- Explain each directory of the Linux hierarchy: #flashcard
 			  collapsed:: true
+			  id:: 634545c6-d232-45de-bed3-dd21dccd601b
 				- `/usr` is for your program files
 				- `/var` is the directory that different services use to dynamically create files.
 					- `/var/log` contains your log files and
@@ -158,6 +160,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 					- `/tmp`
 						- That's why all the tutorial examples write in `/tmp`!!
 			- What does the symbol `?` mean in globbing? #flashcard
+			  id:: 634545c6-5c32-4912-a807-110e891ed1ab
 				- The `?` (in wildcards) does **not** match any previous character.
 					- It just matches a single character **(any)**, but **one**
 						- `$ ls t???` -> temp (if exists)
@@ -271,6 +274,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard
 			  collapsed:: true
+			  id:: 634545c6-08e7-432e-97ad-494a43b71f4c
 				- A link is a file system entry that refers to another file or directory
 				- Hard links are pointing to the same inode on the same file system
 				- Symbolic links are shortcuts and add additional flexibility
@@ -286,6 +290,7 @@ tags:: #O'Reilly-Learning #Linux #Videos
 				- It's a good idea to use **absolute** paths when creating symbolic links
 			- What means the second column (that number) in the output of the `$ ls -l` command? #flashcard
 			  collapsed:: true
+			  id:: 634545c6-dc96-485c-81ee-7946178c3434
 				- The **second column of $ls** indicates the number of **hard links** that exist in the directory
 -
 -

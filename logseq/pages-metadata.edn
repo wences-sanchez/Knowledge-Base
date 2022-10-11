@@ -1885,9 +1885,6 @@
   "terraform: allow all internal traffic inside aws security group (highlights)",
   :block/created-at 1665484240985,
   :block/updated-at 1665484240985}
- {:block/name "test",
-  :block/created-at 1665484160827,
-  :block/updated-at 1665489348392}
  {:block/name "test-driven development with python (highlights)",
   :block/created-at 1665484241055,
   :block/updated-at 1665484241055}

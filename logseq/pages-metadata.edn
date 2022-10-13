@@ -47,9 +47,6 @@
  {:block/name "# tema 2: facturación y economía en la nube",
   :block/created-at 1665484162723,
   :block/updated-at 1665484162723}
- {:block/name "'reilly-learning",
-  :block/created-at 1665484231022,
-  :block/updated-at 1665484231022}
  {:block/name "12-factor apps",
   :block/created-at 1665484172284,
   :block/updated-at 1665484172284}
@@ -1135,7 +1132,7 @@
  {:block/name
   "implement – what's up on the field? – tic-tac-toe – jetbrains academy (highlights)",
   :block/created-at 1665484213364,
-  :block/updated-at 1665484213364}
+  :block/updated-at 1665646106894}
  {:block/name "implementing a full ci-cd pipeline",
   :block/created-at 1665484160417,
   :block/updated-at 1665484160417}
@@ -1211,7 +1208,7 @@
   :block/updated-at 1665484222956}
  {:block/name "java ee 7 essentials (highlights)",
   :block/created-at 1665484223556,
-  :block/updated-at 1665484223556}
+  :block/updated-at 1665646278977}
  {:block/name "java projects (highlights)",
   :block/created-at 1665484223690,
   :block/updated-at 1665484223690}
@@ -1327,7 +1324,7 @@
   :block/updated-at 1665484160163}
  {:block/name "linux fundamentals",
   :block/created-at 1665484160283,
-  :block/updated-at 1665484160283}
+  :block/updated-at 1665646074406}
  {:block/name "linux fundamentals/operating running systems",
   :block/created-at 1665484230514,
   :block/updated-at 1665484230514}
@@ -1340,7 +1337,7 @@
   :block/updated-at 1665484171746}
  {:block/name "list comprehension – jetbrains academy (highlights)",
   :block/created-at 1665484231127,
-  :block/updated-at 1665484231127}
+  :block/updated-at 1665645889383}
  {:block/name "literature",
   :block/created-at 1665484209011,
   :block/updated-at 1665484209011}
@@ -1851,7 +1848,7 @@
  {:block/name
   "terminology – pycharm basics – jetbrains academy (highlights)",
   :block/created-at 1665484240570,
-  :block/updated-at 1665484240570}
+  :block/updated-at 1665645774399}
  {:block/name "terraform (highlights)",
   :block/created-at 1665484240914,
   :block/updated-at 1665484240914}
@@ -2208,33 +2205,9 @@
  {:block/name "{c.value}</h",
   :block/created-at 1665484223414,
   :block/updated-at 1665484223414}
- {:block/name "{cc.attrs.xxx}",
-  :block/created-at 1665484223459,
-  :block/updated-at 1665484223459}
- {:block/name "{cc.attrs}",
-  :block/created-at 1665484223453,
-  :block/updated-at 1665484223453}
  {:block/name "{node[",
   :block/created-at 1665484208004,
   :block/updated-at 1665484208004}
- {:block/name "{resource[",
-  :block/created-at 1665484223429,
-  :block/updated-at 1665484223429}
- {:block/name "{user.xxx}",
-  :block/created-at 1665484223457,
-  :block/updated-at 1665484223457}
- {:block/name " <class ",
-  :block/created-at 1665484213343,
-  :block/updated-at 1665484213343}
- {:block/name " [8",
-  :block/created-at 1665484240552,
-  :block/updated-at 1665484240552}
- {:block/name " variable v stores an integer valuev = ",
-  :block/created-at 1665484213335,
-  :block/updated-at 1665484213335}
- {:block/name " v now stores a string",
-  :block/created-at 1665484213331,
-  :block/updated-at 1665484213331}
  {:block/name "¿qué es la ilustración? (highlights)",
   :block/created-at 1661943807861,
   :block/updated-at 1661943807861}

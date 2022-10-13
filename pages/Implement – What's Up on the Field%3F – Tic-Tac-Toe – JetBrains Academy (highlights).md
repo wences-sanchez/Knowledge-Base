@@ -11,9 +11,9 @@ url:: https://hyperskill.org/learn/step/6224
 		  
 		  The following code is totally valid:
 		  
-		  v = 10  # variable v stores an integer valuev = 'hello'  # v now stores a string
-		  
-		  On the other side, in statically typed languages each variable has a type that cannot be changed during the runtime, so the code above would fail. The examples of statically typed languages are C++, Java and Go.
+		  `v = 10  # variable v stores an integer valuev = 'hello'  # v now stores a string`
+		-
+		- On the other side, in statically typed languages each variable has a type that cannot be changed during the runtime, so the code above would fail. The examples of statically typed languages are C++, Java and Go.
 	- -
 	- -
 	- About Strong typing in .python #car
@@ -36,7 +36,6 @@ url:: https://hyperskill.org/learn/step/6224
 		  
 		  Imagine, you asked a user to provide an age that you will later use in some calculations. To convert a string to integer type you can use the built-in int function.
 		  
-		  raw_age = "22"print(type(raw_age))  # <class 'str'>age = int(raw_age)print(type(age))  # <class 'int'>
-		  
-		  The type function is used to find out the type of the value provided.
+		  `raw_age = "22"print(type(raw_age))  # <class 'str'>age = int(raw_age)print(type(age))  # <class 'int'>`
+		- The type function is used to find out the type of the value provided.
 	- -

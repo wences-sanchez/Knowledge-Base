@@ -148,7 +148,7 @@ category:: #books
 		- #[[blue]] #[[azul]]
 	- -
 	- -
-	- <h:dataTable value="#{customerSessionBean.customerNames}" var="c">   <h:column>#{c.value}</h:column> </h:dataTable> #ñspace
+	- `<h:dataTable value="#{customerSessionBean.customerNames}" var="c">   <h:column>#{c.value}</h:column> </h:dataTable>` #ñspace
 		- ([Location 1366](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1366))
 		- #[[orange]] #[[naranja]]
 	- -
@@ -169,7 +169,7 @@ category:: #books
 		- ([Location 1444](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1444))
 	- -
 	- -
-	- <a href="#{resource['header.jpg']}">click here</a> #ñspace
+	- `<a href="#{resource['header.jpg']}">click here</a>` #ñspace
 		- ([Location 1452](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1452))
 		- #[[orange]] #[[naranja]]
 	- -
@@ -199,7 +199,7 @@ category:: #books
 		- ([Location 1553](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1553))
 	- -
 	- -
-	- h:inputText is now using #{cc.attrs.xxx} instead of #{user.xxx}. #{cc.attrs} is a default EL expression that is available for composite component authors and provides access to attributes of the current composite component. In this case, #{cc.attrs} has name and password defined as attributes. #ñspace
+	- `h:inputText is now using #{cc.attrs.xxx} instead of #{user.xxx}. #{cc.attrs}` is a default EL expression that is available for composite component authors and provides access to attributes of the current composite component. In this case, `#{cc.attrs}` has name and password defined as attributes. #ñspace
 		- ([Location 1603](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1603))
 	- -
 	- -

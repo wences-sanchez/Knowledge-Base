@@ -65,34 +65,34 @@ tags:: #[[Cloud-Computing-and-DevOps-Culture]] #[[UNI]]
 		- (Page 12)
 	- -
 	- -
-	- Problema recurrente en organizaciones #1: Procesos pensados para controlar y no para habilitar #car
+	- Problema recurrente en organizaciones # 1: Procesos pensados para controlar y no para habilitar #car
 		- Desde el enfoque DevOps, debemos responder al interrogante de cómo se puede implementar  un  sistema  para  que  los  desarrolladores  puedan  acceder  de  forma eficiente y rápida a los recursos, con control y visibilidad. La respuesta, como es de esperar, será diferente a la de una empresa tradicional.
 		- (Page 22)
 	- -
 	- -
-	- Problema recurrente en organizaciones #2: Falta de visibilidad: #car
+	- Problema recurrente en organizaciones # 2: Falta de visibilidad: #car
 		- una  buena  visibilidad  en  conjunto,  con  altos  niveles  de responsabilidad  y  compromiso,  permitirá  al  equipo  reaccionar  ante  cualquier situación y cambiar de rumbo, mientras que un control férreo ralentizará a todo el equipo y no garantiza un resultado exitoso.
 		- (Page 23)
 	- -
 	- -
-	- Problema recurrente en organizaciones #3: Poca capacidad de innovación: #car
+	- Problema recurrente en organizaciones # 3: Poca capacidad de innovación: #car
 	  id:: 634014fc-4452-46d5-84fd-20deefbfb66d
 		- es importante que los equipos tengan la libertad para probar, cometer errores y aprender de ellos. En  esto  se  basa,  principalmente,  la  innovación,  así  que  trataremos  a  este  proceso como un proceso de definición/prueba/error/éxito/aprendizaje, un ciclo con tantas iteraciones como sean necesarias.
 		- (Page 23)
 	- -
 	- -
-	- Problema recurrente en organizaciones #4: Dificultades técnicas evitables: #car
+	- Problema recurrente en organizaciones # 4: Dificultades técnicas evitables: #car
 	  id:: 634014fc-5aa6-4170-94c2-8aba7fac8938
 		- En una organización DevOps, la gobernanza está en manos del equipo DevOps, y ellos pueden acceder al código y subsanar cualquier problema que surja en un breve plazo de tiempo, sin la necesidad de que un comité o departamento les autorice (esta es la verdadera agilidad a la que hacemos referencia cuando hablamos de DevOps).
 		- (Page 24)
 	- -
 	- -
-	- Problema recurrente en organizaciones #5: Miedo y resistencia al cambio #car
+	- Problema recurrente en organizaciones # 5: Miedo y resistencia al cambio #car
 		- las  personas  imprescindibles  no  atesoran  los conocimientos como propios, sino que los comparten, están siempre predispuestas a  ayudar  a  los  demás  y  a  emprender  nuevos  retos.
 		- (Page 25)
 	- -
 	- -
-	- Problema recurrente en organizaciones #6: Shadow IT #car
+	- Problema recurrente en organizaciones # 6: Shadow IT #car
 		- El shadow IT (o TI oculta), engloba a todas las tecnologías y elementos dentro de TI que  están  fuera  de  control  o  simplemente  son  desconocidas.  Siguiendo  nuestro enfoque de colaboración, innovación y agilidad, la falta de control no es el problema, sino  que  lo  es  la  no  estandarización  y  la  falta  de  visibilidad  derivada  de  ello.  Es importante  comprender  que,  en  muchos  casos,  la  necesidad  imperiosa  de  ejercer control es lo que ha causado el shadow IT, es decir, la imposibilidad de acceder a los recursos en tiempo y forma. Numerosas organizaciones, grandes o medianas, se han visto  en  la  tesitura  de  estar  usando  recursos  en  la  nube  antes  de  poder  siquiera diseñar una estrategia de nube.
 		- (Page 25)
 	- -

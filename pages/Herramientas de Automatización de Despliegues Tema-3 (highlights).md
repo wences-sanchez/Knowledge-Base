@@ -113,7 +113,7 @@ tags:: #[[Herramientas-de-Automatización-de-Despliegues]] #[[UNI]]
 	- -
 	- ¿Cómo se interpola una variable en Chef? #car
 	  id:: 63401516-c0b7-4300-b795-8c9904341416
-		- cookbook_file “#{node['apache']['document_root']}/index.html" do File.exist?('/etc/apache2/sites-enabled/vagrant.conf') source 'index.html' only_if do end end Tal como se muestra, la referencia al atributo se hace con el símbolo de la almohadilla (#) y, entre llaves ({}), el nombre del atributo dentro del objeto nodo.
+		- cookbook_file “#{node['apache']['document_root']}/index.html" do File.exist?('/etc/apache2/sites-enabled/vagrant.conf') source 'index.html' only_if do end end Tal como se muestra, la referencia al atributo se hace con el símbolo de la almohadilla ( # ) y, entre llaves ({}), el nombre del atributo dentro del objeto nodo.
 		- (Page 17)
 	- -
 	- -

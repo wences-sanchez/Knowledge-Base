@@ -100,7 +100,26 @@ tags:: #[[Contenedores]] #[[UNI]]
 	- -
 	- -
 	- ¿Cómo podemos ver las diferentes capas de una *imagen* en **Docker**? #car
-		- $ docker image history python_app:latest IMAGE                              CREATED                          CREATED  BY podemos  ver  las diferentes capas que componen una imagen utilizando el comando docker history: SIZE 0B 0B 0B ... 859fb1db4a90        3 minutes ago       /bin/sh -c #(nop)  CMD ["python" "./server.p…   0B 867e1b296ff9        3 minutes ago       /bin/sh -c #(nop)  EXPOSE 5000:5000 2cf8552ed9ca                3  minutes  ago              /bin/sh  -c  #(nop)  COPY 45dd0cfd49a7                3  minutes  ago              /bin/sh  -c  pip  install  -r 9c7c03f19b8a                3  minutes  ago              /bin/sh  -c  #(nop)  COPY dir:9b3e3bb266ad8957c…   164B requirements.txt      9.63MB file:dcf08683799a1e65…   13B 5a3811ed82ae        3 minutes ago          /bin/sh  -c #(nop) WORKDIR /code 79cc46abd78d        5 days ago          /bin/sh -c #(nop)  CMD ["python3"] <missing>           5 days ago          /bin/sh -c set -ex;   wget -O get pip.py "$P…   7.24MB
+		- $ docker image history python_app:latest IMAGE                              CREATED                          CREATED  BY podemos  ver  las diferentes capas que componen una imagen utilizando el comando docker history:
+		-
+		- ```
+		  SIZE 0B 0B 0B ... 859fb1db4a90        3 minutes ago       
+		  /bin/sh -c #(nop)  
+		  CMD ["python" "./server.p…   0B 867e1b296ff9        3 minutes ago       
+		  /bin/sh -c #(nop)  EXPOSE 5000:5000 2cf8552ed9ca                
+		  3  minutes  ago              
+		  /bin/sh  -c  #(nop)  
+		  COPY 45dd0cfd49a7                3  minutes  ago              
+		  /bin/sh  -c  pip  install  -r 9c7c03f19b8a                
+		  3  minutes  ago              
+		  /bin/sh  -c  #(nop)  
+		  COPY dir:9b3e3bb266ad8957c…   164B requirements.txt      9.63MB 
+		  file:dcf08683799a1e65…   13B 5a3811ed82ae        3 minutes ago          
+		  /bin/sh  -c #(nop) WORKDIR /code 79cc46abd78d        5 days ago          
+		  /bin/sh -c #(nop)  CMD ["python3"] <missing>           5 days ago          
+		  /bin/sh -c set -ex;   wget -O get pip.py "$P…   7.24MB
+		  ```
+		-
 		- (Page 19)
 	- -
 	- -

@@ -19,7 +19,8 @@ tags:: Coursera, Self-Learning
 		  id:: 634545e1-03e2-44f4-8480-ec1695f1dd9f
 			- Hidden word: *[capa física]*
 			- Esto incluye las especificaciones para los cables de red y los conectores que unen dispositivos junto con la descripción de cómo las señales deben ser enviadas sobre esas conexiones.
-		- Mientras que la capa física se refiere a todo lo relacionado con cables, conectores y señales enviadas, la {capa de enlace} es responsable de definir una manera común de interpretar esas señales, para que los dispositivos de red puedan comunicarse. #spaced
+		- Mientras que la capa física se refiere a todo lo relacionado con cables, conectores y señales enviadas, la {capa de enlace} es responsable de definir una manera común de interpretar esas señales, para que los dispositivos de red puedan comunicarse. #flashcard
+		  id:: 634545e1-d742-4f24-be4d-5b6135307f2d
 			- ![image.png](../assets/image_1662206586194_0.png)
 			-
 		- Existen muchos protocolos en la capa de enlace, pero el más conocido es <>, aunque las tecnologías inalámbricas son cada vez más populares. #flashcard

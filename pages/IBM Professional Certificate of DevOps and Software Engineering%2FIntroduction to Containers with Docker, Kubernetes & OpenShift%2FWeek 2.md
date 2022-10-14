@@ -1,5 +1,7 @@
 title:: IBM Professional Certificate of DevOps and Software Engineering/Introduction to Containers with Docker, Kubernetes & OpenShift/Week 2
+deck:: [[IBM-DevOps::Introduction to Containers]]
 
+-
 - #tags #Coursera #DevOps #Containers
 -
 - ### Understanding Kubernetes Architecture

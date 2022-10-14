@@ -5,21 +5,24 @@ category:: #books
 
 - Highlights first synced by [[Readwise]] [[Thursday, 15-09-2022]]
 	- -
-	- Que no pot reduir les expectatives a una única via. Que cadascú té una memòria, una veritat i una percepció. Només cal posar-les en comú, trobar un lloc compartit on les memòries de cadascú convisquin en pau. Per això  existeix la literatura, perquè els milions, bilions, de narratives tinguin un espai on parlar-se les unes a les altres. I d'això es tracta. Que es parlin i s'escoltin. Només així es pot trobar un petit moment de pau, que al final és el que importa #spaced
+	- Que no pot reduir les expectatives a una única via. Que cadascú té una memòria, una veritat i una percepció. Només cal posar-les en comú, trobar un lloc compartit on les memòries de cadascú convisquin en pau. Per això  existeix la literatura, perquè els milions, bilions, de narratives tinguin un espai on parlar-se les unes a les altres. I d'això es tracta. Que es parlin i s'escoltin. Només així es pot trobar un petit moment de pau, que al final és el que importa #flashcard
+	  id:: 634545c1-0b9f-4938-a838-ffac0ed36ff0
 		- (Page 23)
 	- -
 	- -
 	- Qualsevol d'aquests inicis també serviria com a final.
+	  id:: 634545c1-a210-4d48-965c-191666175737
 	  
 	  La història no té ni principi ni final.
 	  
 	  A la història només li fa por l'oblit. Por, no del que ja és mort o perdut, sinó d'oblidar tot el que va poder ser i no ha estat. Totes les altres possibles històries que haurien pogut ser. Qui les recorda?
 	  
-	  No passa ni un sol dia sense que els protagonistes d'aquesta particular història no imaginin el que no va ser. Ni un sol dia. #spaced
+	  No passa ni un sol dia sense que els protagonistes d'aquesta particular història no imaginin el que no va ser. Ni un sol dia. #flashcard
 		- (Page 24)
 	- -
 	- -
 	- -Què m'ofereixen, doncs?
+	  id:: 634545c1-1dfc-4cd8-be3a-2a35344520c9
 	  
 	  -Un magisteri superior al que els seus collegues adquiriran amb el seu pas per aquesta universitat. No ens n'amaguem, l'excel·lència no ha estat mai gaire democràtica. Una autèntica educació humanista -va respondre el professor Gardner.
 	  
@@ -29,7 +32,7 @@ category:: #books
 	  
 	  -Per poder llegir. És l'única cosa que em fa feliç.
 	  
-	  Sincerament, no sé per què vaig introduir el concepte felicitat en tot plegat. #spaced
+	  Sincerament, no sé per què vaig introduir el concepte felicitat en tot plegat. #flashcard
 		- (Page 32)
 	- -
 	- -
@@ -56,7 +59,8 @@ category:: #books
 	- -
 - New highlights added [[Monday, 03-10-2022]] at 5:24 PM
 	- -
-	- Ja ho veus, havia d'escollir entre determinisme o aleatorietat. Les dues opcions són vàlides, però ara que em queda poc temps, l'única cosa en què puc pensar és en el que deia Nietzsche: som aquí per trobar un significat a la nostra existència. No em puc imaginar com a fruit de la casualitat. #spaced
+	- Ja ho veus, havia d'escollir entre determinisme o aleatorietat. Les dues opcions són vàlides, però ara que em queda poc temps, l'única cosa en què puc pensar és en el que deia Nietzsche: som aquí per trobar un significat a la nostra existència. No em puc imaginar com a fruit de la casualitat. #flashcard
+	  id:: 634545c1-d32c-4d47-8cb9-3ced43e65daf
 		- (Page 399)
 	- -
 	- -

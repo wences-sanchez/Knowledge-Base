@@ -36,6 +36,7 @@ tags:: #[[O'Reilly-Learning]]
 - New highlights added [[Friday, 23-09-2022]] at 3:25 PM
 	- -
 	- Being a continuous learner is a personal attribute that will get you hired.
+	  id:: 634545d1-271a-444b-8920-a6e85eb02cc1
 	  
-	  PRO TIP: YOU MUST BE A CONTINUOUS LEARNER IF YOU WISH TO SUCCEED IN DEVOPS #spaced
+	  PRO TIP: YOU MUST BE A CONTINUOUS LEARNER IF YOU WISH TO SUCCEED IN DEVOPS #flashcard
 	- -

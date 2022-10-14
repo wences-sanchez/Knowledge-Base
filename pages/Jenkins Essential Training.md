@@ -1,7 +1,8 @@
 - #tags #Jenkins
 - tags:: #Jenkins #DevOps
 - ## 1. Jenkins and DevOps
-	- Image explaining the use of Jenkins #spaced
+	- Image explaining the use of Jenkins #flashcard
+	  id:: 634545c0-6a3c-47bf-8669-8251da6cd2c8
 		- ![image_1659967471696_0.png](../assets/image_1659967471696_0_1660211945049_0.png)
 		- The *loop* is divided into two groups with the first group representing the **development** stages of the cycle, and the second group representing the **operational** stages.
 		- In the **development** group we start with the stage labeled **plan** and then move on to **code**, **build** and **test**.
@@ -33,7 +34,8 @@
 			- DONE Install and Configure Jenkins
 	-
 - ## 2. The Jenkins Pipeline
-	- Comparison between paradigms in Jenkins #spaced
+	- Comparison between paradigms in Jenkins #flashcard
+	  id:: 634545c0-4aa8-456f-a941-82ce5bee9889
 		- | Scripted Pipeline | Declarative Pipeline |
 		  |`node {}` |  `pipeline { }` |
 		  | Groovy-based DSL | Specifically designed for configuring Jenkins projects as code |
@@ -108,8 +110,10 @@
 		  }
 		  ```
 	- ### Notes
-		- If you want to show a message indicating a formal window, you can do it with `input` (more info at Jenkins help section) #spaced #daily-notes
-		- Example of list in parameter in Jenkins #spaced
+		- If you want to show a message indicating a formal window, you can do it with `input` (more info at Jenkins help section) #flashcard #daily-notes
+		  id:: 634545c0-d145-466d-b2ad-6dced3aa6a81
+		- Example of list in parameter in Jenkins #flashcard
+		  id:: 634545c0-b496-4ffe-b780-3db5a500e80f
 			- ```
 			  choice(name: 'CHOICE', choices: ['One', 'Two', 'Three'], description: 'Pick something')
 			  ...
@@ -174,7 +178,8 @@
 	  id:: 634545c0-f48c-4ffa-b7b2-398d195de71a
 		- env.WORKSPACE includes the absolute path of our project.
 	- To get the status badges we need the "embeddable build status" plugin for jenkins.
-	- You have to add `github-webhook/` to the end of the Jenkins URL when copying that in GitHub for a synchronization. And with **application/json** in the menu option #spaced #daily-notes
+	- You have to add `github-webhook/` to the end of the Jenkins URL when copying that in GitHub for a synchronization. And with **application/json** in the menu option #flashcard #daily-notes
+	  id:: 634545c0-0e27-4c45-a6e2-5a740da552bd
 	-
 	-
 	-
@@ -200,7 +205,8 @@
 			  CLOCK: [2022-08-09 Tue 13:47:04]--[2022-08-09 Tue 13:47:04] =>  00:00:00
 			  :END:
 - ---
-- ## 4. Agents and Distributed Builds #spaced
+- ## 4. Agents and Distributed Builds #flashcard
+  id:: 634545c0-d503-47f8-81bc-c8161d600b9b
 	- ![image.png](../assets/image_1660046446612_0.png)
 	- A Jenkins node type can be SSH or Docker.
 		- The Docker are more consistent.
@@ -234,7 +240,8 @@
 	-
 	- Put a cache inside the environment (instead of in /tmp, for example) boost the performance of the pipeline.
 - ---
-- ## 5. Artifacts and Testing #spaced
+- ## 5. Artifacts and Testing #flashcard
+  id:: 634545c0-4622-4364-b397-13ac5ad7bc63
 	- Artifacts can be compiled binaries like Docker images, or zip files, or a text file, or a xml file...
 	- The core function `archiveArtifacts` gives us a built step for identifying the files we want to save during or after a build.
 	- `archiveArtifacts` is often placed in the **post** section of a pipeline.

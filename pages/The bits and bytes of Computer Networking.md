@@ -28,7 +28,8 @@ tags:: Coursera, Networking
 				- **Dynamic**: They will be assigned automatically through a technology known as **Dynamic Host Configuration Protocol** (DHCP).
 				-
 				- **Static**: They must be configured on a node manually. In most cases they are reserved for servers and network devices, and dynamic for clients. But not alway.
-		- #### IP Datagrams and Encapsulation #spaced
+		- #### IP Datagrams and Encapsulation #flashcard
+		  id:: 634545e1-9fcb-4c0e-841b-d84075248e45
 			- Fields of an IP Datagram Header
 				- ![image.png](../assets/image_1662200525261_0.png)
 		- #### IP Address Classes
@@ -117,8 +118,9 @@ tags:: Coursera, Networking
 			  collapsed:: true
 			  id:: 634545e1-0a6b-474d-a25f-9789669ff1dc
 				- **ARP** is a protocol used to discover the hardware address of a node with a certain IP address
-			- Example of ARP use case #spaced
+			- Example of ARP use case #flashcard
 			  collapsed:: true
+			  id:: 634545e1-aae6-4676-9281-5c58112c6d4f
 				- The host A needs to know the MAC address of an IP
 				- ![image.png](../assets/image_1662201635737_0.png)
 				- The host A sends a broadcast ARP message to the MAC broadcast address (which is all F's).

@@ -1,7 +1,8 @@
 - #tags #Coursera #SW-Testing
 - ## Week 1
 	- ### Lesson 1: Introduction to Testing
-		- **Verification** VS **Validation** #spaced
+		- **Verification** VS **Validation** #flashcard
+		  id:: 6345466f-486a-494d-adfc-2d2db23deb81
 			- **Validation** is when we make sure that the actual product against the expected result from the user's perspective. It's a dynamic testing. It answers the question:
 				- > Are we building the right product?
 			- **Verification** is when we check that the software is free from bugs, technically speaking. Upon our internal requirements. It answers the question:
@@ -9,7 +10,8 @@
 		- According to **Turing's halting problem**, it is theoretically not possible at all to check a perfect verification of one program by having another one checking it. #Curiosities
 		- ![image.png](../assets/image_1659351422358_0.png)
 	- ### Lesson 2: Why and How we Test
-		- Types of tests: #spaced
+		- Types of tests: #flashcard
+		  id:: 6345466f-ddd9-4696-99a8-cf71bb4ad9a7
 			- **Unit tests:** testing individual classes / functions
 			- **Integration tests:** testing packages / subsystems
 			- **System tests:** testing the entire system
@@ -49,8 +51,9 @@
 - ---
 - ## Week 2
 	- ### Lesson 1: Testing Principles
-		- About *Lesson 1: Testing Principles* #spaced
+		- About *Lesson 1: Testing Principles* #flashcard
 		  collapsed:: true
+		  id:: 6345466f-2c92-4058-8d1b-cb646ad1cf7c
 			- **Dependability** is what you would expect.
 				- We're interested in determining whether or not the software is dependable, that is whether it delivers a service such that we can rely on it.
 			- **Service** is the system behavior as it's perceived by the user of the system.
@@ -91,7 +94,8 @@
 						- **Safety**: absence of catastrophic consequences
 						- **Integrity**: absences of improper system alteration (*exploitability*)
 						- **Maintainability**: ability for a process to undergo modifications and repairs
-		- Formulas of availability measures #spaced
+		- Formulas of availability measures #flashcard
+		  id:: 6345466f-7f4e-4a75-a58b-0508c65af9f9
 			- Formulas: ![image.png](../assets/image_1659426971116_0.png)
 			- Bugs flow:
 				- ![image.png](../assets/image_1659427299208_0.png)
@@ -141,7 +145,8 @@
 				- Correcto: *True*
 				  > Reliability is defined in terms of meeting requirements; by definition, a correct system is reliable.
 		-
-	- ### Lesson 2: Testing Principles: When (V Model) #spaced
+	- ### Lesson 2: Testing Principles: When (V Model) #flashcard
+	  id:: 6345466f-aa01-49ae-a4db-10ea9943c0be
 		- While the *V-Model* obviously has many drawbacks, we could pick up from it the idea of **test** at every stage of the **development lifecycle** (even though it's not a testing framework)
 		- **Validation & Verification**
 			- A product could meet the validation but also be very bad. (**That's not the goal XD**)
@@ -194,7 +199,8 @@
 				- It just puts it in front of management and development one more time.
 				- We are not the starting testing unless, or if we find *five* **defects**, we stop.
 				- That is, if we find too many defects, we hand it **back to development** for further unit testing before we really start our own work.
-		- #### Importance of a Good Test Plan #spaced
+		- #### Importance of a Good Test Plan #flashcard
+		  id:: 6345466f-8476-46bd-8389-6ff7a5bd33c8
 			- We use the Test Plan as a tool, not as a product.
 			- We have to be specific about what and who.
 			- A test plan is useful to:
@@ -226,7 +232,8 @@
 			- You have to compare the existing schedule versus the actual schedule that's being done.
 			- And list what defects are still open, so that the managers can see what things are still wrong.
 			- You have to communicate, you are not isolated.
-		- #### Risk-based Test Planning #spaced
+		- #### Risk-based Test Planning #flashcard
+		  id:: 6345466f-4728-4b5a-a87a-eb41134942ce
 			- ![image.png](../assets/image_1659451466829_0.png)
 			- **Testing** is our primary means of reducing **risk**.
 		- #### Quiz
@@ -250,7 +257,8 @@
 				  3. **Track**: Track status of the fix
 				  4. **Retest**: Retest bug
 				  5. **Close**: Close bug when problem is fixed
-		- #### Software Defect Reports: Analysis #spaced
+		- #### Software Defect Reports: Analysis #flashcard
+		  id:: 6345466f-2e75-4df6-afa6-88fbc94d397f
 			- Ideally by a tester or developer, not the user.
 			- Even reported, we don't know most of the times the exact root cause.
 			- What is the Analysis of a software defect?
@@ -259,7 +267,8 @@
 				- Attempt to isolate the defect
 				- Investigate alternative paths to the issue (to better solve the problem)
 				- Decide if it is worth reporting (formally)
-		- #### Software Defect Reports: Reporting #spaced
+		- #### Software Defect Reports: Reporting #flashcard
+		  id:: 6345466f-202f-4bb0-937c-f749137bba5b
 			- 1. Ensure it is not a duplicate
 			  2. Talk with the developer
 			  3. Enter it into the system
@@ -286,7 +295,8 @@
 			- Close
 - ---
 - ## Week 4
-	- ### Lesson 1: Test Doubles #spaced
+	- ### Lesson 1: Test Doubles #flashcard
+	  id:: 6345466f-0bfc-4aa2-ab5c-486b197230db
 		- #### Test Doubles: Introduction
 			- **Test Doubles** are lightweight versions of components that are necessary to test some class or system, usually designated the System Under Test (**SUT**).
 				- Like databases, real components that are not yet finished,...

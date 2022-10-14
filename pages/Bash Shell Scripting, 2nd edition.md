@@ -59,7 +59,8 @@
 -
 - ---
 -
-- ### Lesson 3: Shell scripts in a DevOps environment: #spaced
+- ### Lesson 3: Shell scripts in a DevOps environment: #flashcard
+  id:: 63454672-c116-4955-af12-b6484ef0e523
 -
 	- The purpose of DevOps is to shorten the system development life cycle.
 	-
@@ -72,7 +73,8 @@
 	- For more advanced and more complex tasks, it might have sense develop a **Python** script. But **Bash** will be native (and maybe more suitable for not-so-complex tasks), so in the real world you have to learn both.
 - ---
 -
-- ### Lesson 4: Learning Linux Essentials for Shell Scripting #spaced
+- ### Lesson 4: Learning Linux Essentials for Shell Scripting #flashcard
+  id:: 63454672-29f7-4357-a72a-a9739314868c
 -
 	- The command in Bash for printing message and be respectful about special characters is:
 		- **echo -e** is for special characters
@@ -130,7 +132,8 @@
 -
 - ## Module 2: Shell Scripting Fundamentals
 -
-- ### Lesson 5: Creating your First Shell Script #spaced
+- ### Lesson 5: Creating your First Shell Script #flashcard
+  id:: 63454672-1bf2-4392-92c8-ca8ccde67a86
 	-
 	- Things to consider when writing scritps:
 		- 1. Put the shebang: `#!/bin/bash`
@@ -182,7 +185,8 @@
 			- `$ sudo cp myscript /usr/local/bin`
 - ---
 -
-- ### Lesson 6: Working with Variables and Arguments #spaced
+- ### Lesson 6: Working with Variables and Arguments #flashcard
+  id:: 63454672-c48a-4402-b3eb-8ada90c45c90
 	- An **argument** is anything that can be put behind the name of a command or script
 		- **ls -l /etc** has 2 arguments
 	- An **option** is an argument that changes the behavior of the command or script, and its functionality is programmed into the command
@@ -263,8 +267,9 @@
 			- echo "my value"
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
 			- echo the current '$SHELL' is $SHELL
-	- **declare** can be used to set specific the following variable attributes: #spaced
+	- **declare** can be used to set specific the following variable attributes: #flashcard
 	  collapsed:: true
+	  id:: 63454672-173a-48f5-af0d-52456ce2ee60
 		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*
@@ -286,7 +291,8 @@
 		- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
 - ---
 -
-- ### Lesson 7: Transforming Input #spaced
+- ### Lesson 7: Transforming Input #flashcard
+  id:: 63454672-58ab-47b3-8086-4c7d65828d5e
 	- When we want to define a default value for a variable in Bash:
 		- If we want to use the default, NOT set it,
 			- With ${myvar**:-**default_value}
@@ -308,9 +314,11 @@
 - #### Lab 7
   collapsed:: true
 	- ![image.png](../assets/image_1658906736055_0.png)
-	- Hay que incluir los parámetros de pattern matching dentro de las llaves del nombre del parámetro: #spaced #dev-notes
+	- Hay que incluir los parámetros de pattern matching dentro de las llaves del nombre del parámetro: #flashcard #dev-notes
+	  id:: 63454672-1b8d-4c78-9ae9-184904f384bf
 		- `mv ${file} ${file%*.txt}`
-	- With **bash -x** you can view the script execution line by line so that you can debug it #spaced #dev-notes
+	- With **bash -x** you can view the script execution line by line so that you can debug it #flashcard #dev-notes
+	  id:: 63454672-e31d-4e9b-be63-394dd37cef36
 - ---
 - #### Flashcards
 - How do you deal with a default value for one variable in Bash? #flashcard
@@ -326,7 +334,8 @@
 - ---
 - ## Module 3: Using Conditional Statements
 -
-- ### Lesson 8: Using if and if then else #spaced
+- ### Lesson 8: Using if and if then else #flashcard
+  id:: 63454672-0fc9-423d-b479-5ecad247063b
 	- **help test** lists all the arguments =)
 	- We can write tests in another way:
 		- && for and
@@ -370,7 +379,8 @@
 -
 - ---
 - #### Flashcards
-	- With `read VAR`, you are already saving it in $VAR #spaced #dev-notes
+	- With `read VAR`, you are already saving it in $VAR #flashcard #dev-notes
+	  id:: 63454672-05d4-4e50-a298-bddb30515638
 	- Syntax of case in Bash: #flashcard
 	  collapsed:: true
 	  id:: 6345458c-6d35-4b07-8183-4e6408b957c3
@@ -438,7 +448,8 @@
 		- You can catch OS signals with it as CTL^C and prevent the scrpt to stop
 		- You can assign actions that happen when those signals are executed or pressed
 - ---
-- ### Lesson 11: Using Arrays #spaced
+- ### Lesson 11: Using Arrays #flashcard
+  id:: 63454672-6d1a-4386-84c4-b8e426f1bb8e
 	- You can use **declare -A** to buid an asociative array in Bash.
 		- **declare -a** in lowercase to a regular array
 	-

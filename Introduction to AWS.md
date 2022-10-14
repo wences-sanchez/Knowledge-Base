@@ -20,7 +20,8 @@ deck:: [[ACloudGuru::AWS]]
 	- ## Chapter 3: Security and Identity
 		- Amazon Inspector analysed application security
 		- ### Illustrating IAM
-			- IAM is free and included in every AWS account. #spaced
+			- IAM is free and included in every AWS account. #flashcard
+			  id:: 6345466e-df5d-4f78-9ffa-eb1693a54206
 			- You can simply create groups to make the management simpler.
 			- A policy has several fields: #flashcard
 			  id:: 63454581-d631-48e8-9464-6a39e3b7ec19
@@ -40,7 +41,8 @@ deck:: [[ACloudGuru::AWS]]
 				- Not only that, it can also rotate both the location and surface where they are stored.
 		-
 		- ### Demonstrating  Directory Service
-			- AWS Directory Service provides a directory for you, a managed AD #spaced
+			- AWS Directory Service provides a directory for you, a managed AD #flashcard
+			  id:: 6345466e-5af5-41b6-9f03-63606b999cdd
 	- ---
 	- ## Chapter 4: Compute
 		-
@@ -65,8 +67,10 @@ deck:: [[ACloudGuru::AWS]]
 			  id:: 6345466e-344c-47f0-a9d7-d652a03c4991
 				- Libraries are actually just pieces of programming code that someone else writes, so you can include it in your own code to save time and effort.
 				- You don't have to build a full web server to publish a single page!
-				- To solve the libraries dependency problem, containers were invented. And also for deploying your applications anywhere #spaced
-		- ### Learning Lambda #spaced
+				- To solve the libraries dependency problem, containers were invented. And also for deploying your applications anywhere #flashcard
+				  id:: 6345466e-81e0-456a-972c-7ec743524013
+		- ### Learning Lambda #flashcard
+		  id:: 6345466e-dbbe-4dfc-9781-5ea32d22f2a7
 			- When using Lambdas, there are no servers for you to install or maintain, nor pay.
 			- No one knows where is the server, well, maybe the people at AWS who created it, but that's the point.
 			- All you have to do is put your code in the AWS Lambda website or upload it using some command line tools, and it's there.
@@ -89,8 +93,10 @@ deck:: [[ACloudGuru::AWS]]
 					- **Amazon S3 is a service which uses Object storage**
 		-
 		- ### Selecting S3 and S3 Glacier
-			- S3 is _the place_ where to store your files. Your files won't be lost because of AWS durability ;) #spaced
-			- S3 Glacier is designed for data archival and long-term backup: 1$/TB/month #spaced
+			- S3 is _the place_ where to store your files. Your files won't be lost because of AWS durability ;) #flashcard
+			  id:: 6345466e-c390-4945-8239-ea525f40cea6
+			- S3 Glacier is designed for data archival and long-term backup: 1$/TB/month #flashcard
+			  id:: 6345466e-64ce-44b3-8b97-991acaa107ec
 		-
 		- ### Explaining EFS
 			- What is **EFS**? #flashcard
@@ -160,12 +166,14 @@ deck:: [[ACloudGuru::AWS]]
 			- What is basically Machine Learning? :: Machine Learning is basically a way of try-and-fail for the computers. It's an algorithm that is capable of learn from the data by analysing it. #flashcard
 			  id:: 6345466e-3bf9-4851-b520-9a6c4603438a
 		- ### Recognizing Rekognition
-			- Amazon Rekognition allows recognition of objects inside a photo. It can also recognise text! #spaced
+			- Amazon Rekognition allows recognition of objects inside a photo. It can also recognise text! #flashcard
+			  id:: 6345466e-f3cf-40c9-8a8a-602d16f438a7
 		- ### Driving DeepRacer
 		- ### Comparing CodeGuru
 			- Amazon CodeGuru Reviewer is like SonarQube
 	- ---
-	- ## Chapter 10: Conclusion #spaced
+	- ## Chapter 10: Conclusion #flashcard
+	  id:: 6345466e-196c-47a2-b44f-4f5e676a6505
 		- The simplest website is a S3 bucket
 		- The most basic blog content is an EC2 and Amazon RDS instances inside a VPC.
 		- The most basic load balanced blog is a Load Balancer with two EC2 instances and a database Amazon RDS.

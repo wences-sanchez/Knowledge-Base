@@ -9,7 +9,8 @@ tags:: #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Friday, 02-09-2022]]
 	- 1. Understanding Ansible and the Red Hat RHCE
 		- -
-		- NoteThe word “ansible” was first used by the author Ursula K. Le Guin in her 1966 novel Rocannon’s World. As a contraction of the word “answerable,” it references fictional devices that can send messages over interstellar distances to managed systems. Ansible from Red Hat may not work over interstellar distances, but it certainly does manage devices usually located on planet Earth. #spaced
+		- NoteThe word “ansible” was first used by the author Ursula K. Le Guin in her 1966 novel Rocannon’s World. As a contraction of the word “answerable,” it references fictional devices that can send messages over interstellar distances to managed systems. Ansible from Red Hat may not work over interstellar distances, but it certainly does manage devices usually located on planet Earth. #flashcard
+		  id:: 634545cd-0200-4acd-a770-ac4d2326d0f5
 			- #[[curiosities]]
 		- -
 	- 2. Working with the Ansible Configuration
@@ -31,7 +32,8 @@ tags:: #[[O'Reilly-Learning]]
 			  /etc/ansible/ansible.cfg: The default file where no other configuration is in place or detected. The file itself only contains comments, meaning that there are no effective settings from the file. Don’t despair though; this will result in the default settings being applied for all settings. The file itself is not wasted, acting as great documentation for the configuration files that you may want to implement.
 		- -
 		- -
-		- ImportantIt is very important for Ansible security that a configuration file is never loaded from a world-writable directory. If a directory is world writable, (where others have the write permission), it is possible that a rogue ansible.cfg file is added to your working directory by another user either deliberately or by mistake #spaced
+		- ImportantIt is very important for Ansible security that a configuration file is never loaded from a world-writable directory. If a directory is world writable, (where others have the write permission), it is possible that a rogue ansible.cfg file is added to your working directory by another user either deliberately or by mistake #flashcard
+		  id:: 634545cd-3dbd-435c-96c9-186d97420171
 		- -
 		- -
 		- How do you see the Ansible full config? #flashcard

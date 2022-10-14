@@ -60,7 +60,8 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 					- The different roles need to be in the same team
 				- Self-organizing teams
 				-
-			- **The Conway's Law:** #spaced
+			- **The Conway's Law:** #flashcard
+			  id:: 6345458f-fec8-4a6a-b29b-13d1e5ae7507
 				- > Any organization that designs a system (defined broadly) will produce a design whose structture is a copy of the organization's communication structure.
 					- If you have three teams dedicated to the same issue, you'll have a redundantly duplicated ammount of work.
 					- If you have those different teams working in different tiers, then you'll have a multi-tier app.
@@ -73,7 +74,8 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 						- **Conway’s Law** implies that a company’s design results are a direct **reflection** of the company’s communication **structures**.
 						- Successful DevOps **teams** should be organized around **business domains**.
 						- Each **team** should have a **mission** that **aligns** with a business **domain**.
-		- #### There is No DevOps Team #spaced
+		- #### There is No DevOps Team #flashcard
+		  id:: 6345458f-f483-41f9-adbf-60aede93965f
 			- > Here is a clue, if you’re not doing development, then you’re not doing DevOps, you’re just doing Ops.
 			- DevOps is **NOT** something that just **Ops** people do.
 			- What DevOps isn't and should be:
@@ -92,7 +94,8 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 			- When engineers work in silos they do not see or feel the effect of their poor work.
 	- ---
 	- ### Measuring DevOps
-		- #### Rewarding for "A" while hoping for "B" #spaced
+		- #### Rewarding for "A" while hoping for "B" #flashcard
+		  id:: 6345458f-eaf3-4ab9-b389-9e3506a2332e
 			- You end obtaining what you are measuring. For example, if you measure:
 				- ![image.png](../assets/image_1660986596529_0.png)
 				- You **get** what you **measure**.
@@ -100,7 +103,8 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 				- Do that following the DevOps principles of Continuous Improvement.
 				- Examples:
 					- Measure the **MTTR**: Mean Time To Recovery
-		- #### Vanity metrics VS Actionable metrics #spaced
+		- #### Vanity metrics VS Actionable metrics #flashcard
+		  id:: 6345458f-2a30-43c6-ac10-f7b06e35ef60
 			- It is not very useful to have a metric like the total number of clicks.
 			- Actionable metric examples:
 				- Reduce time to market

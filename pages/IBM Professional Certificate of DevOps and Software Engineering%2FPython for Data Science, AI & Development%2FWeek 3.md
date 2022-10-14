@@ -28,14 +28,16 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 -
 - ## Functions
 	- ### Functions
-		- When a function takes an argument beginning with an asterisk, it could have an undefined number of parameters. #spaced
+		- When a function takes an argument beginning with an asterisk, it could have an undefined number of parameters. #flashcard
+		  id:: 634545b3-1f77-414a-bc75-ea8b0366f313
 			- ```python
 			  def artist_names(*names):
 			    for name in names:
 			      print(name)
 			  
 			  ```
-		- When a function takes an argument beginning with two asterisks, it could be passed a dictionary with an undefined number of elements *key-value* #spaced
+		- When a function takes an argument beginning with two asterisks, it could be passed a dictionary with an undefined number of elements *key-value* #flashcard
+		  id:: 634545b3-fae7-45de-bf4d-acc41bec603e
 			- ```python
 			  def print_dictionary(**args):
 			    for key in args:
@@ -47,7 +49,8 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 -
 - ## Exception Handling
 	- ### Exception Handling
-		- Example of try-except in Python #spaced
+		- Example of try-except in Python #flashcard
+		  id:: 634545b3-9938-42bf-8d70-ac86437c82d6
 			- ```python
 			  try:
 			  	getfile = open("myfile", "r")

@@ -3,7 +3,8 @@ tags:: Linux, O'Reilly-Learning, Videos
 
 - #tags #O'Reilly-Learning #Linux #Videos
 - ## Lesson 9: [[User and Group Management]]
-	- ### 9.2 Understanding the Role of Ownership #spaced
+	- ### 9.2 Understanding the Role of Ownership #flashcard
+	  id:: 634545c6-ebf7-427f-b148-17ff521a5379
 		- When a user creates a file on Linux, that user becomes the file owner.
 		- Every Linux user is a member of at least one group, and while creating a file on Linux, that group will become group owner.
 		- Because of group ownership, every user must be a member of at least one group.
@@ -27,7 +28,8 @@ tags:: Linux, O'Reilly-Learning, Videos
 -
 	- ### Lab
 		- ![image.png](../assets/image_1660727964073_0.png)
-- ## Lesson 10: [[Permissions Management]] #spaced
+- ## Lesson 10: [[Permissions Management]] #flashcard
+  id:: 634545c6-a8c6-46cf-9ead-62941d57acbf
 	- The reason why Linux has no virus is because its files are not executable by default. You have to make them executable personally. #Curiosities
 	- ![image.png](../assets/image_1660728332725_0.png)
 	- ![image.png](../assets/image_1660728433213_0.png)
@@ -44,7 +46,8 @@ tags:: Linux, O'Reilly-Learning, Videos
 		-
 - ---
 - ## Lesson 11: Storage Management Essentials
-	- ### 11.1 Understanding Linux Storage Solutions #spaced
+	- ### 11.1 Understanding Linux Storage Solutions #flashcard
+	  id:: 634545c6-cb15-41bd-80c0-9e03ced7ec38
 		- Linux works with partitions. It doesn't take the whole hard disk.
 		- ![image.png](../assets/image_1660730475334_0.png)
 		-

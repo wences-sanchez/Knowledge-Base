@@ -1,7 +1,8 @@
 tags:: O'Reilly-Learning, Docker, Videos
 
 - ## Chapter 1: Introduction
-	- ### Introduction to Local Development VS VirtualBox VS Docker -- WHY use docker? #spaced
+	- ### Introduction to Local Development VS VirtualBox VS Docker -- WHY use docker? #flashcard
+	  id:: 6345459c-0d94-4762-b23e-2495d0cee2f5
 		- The configuration of the DEV always tends to be different form PROD.
 		- #### The local development environment
 			- The problem is that the local PC of a dev can't provide the same things than a Server.

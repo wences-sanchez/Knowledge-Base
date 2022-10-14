@@ -75,7 +75,8 @@ tags:: English
 				  If you **apply** for a job, you **must prepare** an up-to-date CV.
 				  If you **want** to do well in the exam, you **should work** hard this
 				  weekend.
-			- #### First conditional grammar #spaced
+			- #### First conditional grammar #flashcard
+			  id:: 63454581-2883-4e2d-b7cf-58fa35eb0058
 				- We use the first conditional to talk about a posible future
 				  situation and its consequence.
 					- 1 The first conditional normally uses if + present simple,

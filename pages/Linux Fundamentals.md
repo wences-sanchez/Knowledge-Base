@@ -9,7 +9,7 @@ tags:: #Linux #Videos
 			- Free Linux distribution based on RedHat are Rocky and Alma Linux
 			- Oracle is also based on RedHat
 		- Ubuntu is based on Debian
-	- ### Lesson 2: [[Using Essential Tools]] #spaced
+	- ### Lesson 2: [[Using Essential Tools]] #flashcard
 	  id:: 62f6387f-8424-416c-9a84-e9c46f041769
 		- Use root is an alternative to sudo.
 			- Root is dangerous. You shouldn't use that directly
@@ -186,7 +186,8 @@ tags:: #Linux #Videos
 				- They are indeed the same file
 			- It's a good idea to use **absolute** paths when creating symbolic links
 			- The **second column of $ls** indicates the number of **hard links** that exist in the directory
-		- #### 4.3 Finding Files with find #spaced
+		- #### 4.3 Finding Files with find #flashcard
+		  id:: 63497e8a-2910-43f5-9648-24ae65d04f3c
 			- Examples:
 				- `$ find / -name "hosts"`
 				- `$ find / -name "hosts*"`
@@ -203,7 +204,8 @@ tags:: #Linux #Videos
 				- The -exec option needs a semicolon to be included in its syntax.
 				- But the shell reads that semicolon as a special character.
 				- So we just scape it.
-		- #### 4.4 Using Advanced find Options #spaced
+		- #### 4.4 Using Advanced find Options #flashcard
+		  id:: 63497e8a-6536-4335-a05a-fcb60f6b4172
 			- Examples:
 				- `$ find / -type f -size +1G`
 				- `$ find /etc -exec grep -l student {} \; -exec cp {} find/contents/ \;`
@@ -212,7 +214,8 @@ tags:: #Linux #Videos
 				- `$ find / -name "student" -type f ! -path '*/proc/*' ! -path '*/tmp/*'`
 			- You can search text inside every one of your files with:
 				- `$ find / -exec grep "<keyword>" {} \;`
-		- #### 4.5 Using which and locate #spaced
+		- #### 4.5 Using which and locate #flashcard
+		  id:: 63497e8a-dcf9-486f-bd76-c42f10fd4f68
 			- **find**  is very powerful, but also because of that, is somewhat slow.
 			- **locate** is much faster. But works on a database that needs to be defined using **updatedb**
 			- **which** is useful to find the exact location of binary files from the *$PATH* variable. For finding executables.
@@ -226,7 +229,8 @@ tags:: #Linux #Videos
 				- gzip
 				- bzip2 (-j)
 				- xzip (-J)
-		- #### 4.8 Mounting File Systems #spaced
+		- #### 4.8 Mounting File Systems #flashcard
+		  id:: 63497e8a-209d-418a-b32d-08871b5ac1a3
 			- In order to **mount** the devices, we have to include them in the Linux file **structure**, because that won't change.
 			- When we mount a device in (for example, `/dev/sda1`) the root directory, anything that you write to files somewhere in the root directory, will be written to this `/dev/sda1`
 				- Another example: when you mount a `/dev/sdb1` device (a usb plug) in the `/mnt` directory, if you write files to the `/mnt` directory then really the files end up there on your `/dev/sdb1` device.

@@ -74,8 +74,9 @@ title:: Oxford English File B2.1
 				  If you **apply** for a job, you **must prepare** an up-to-date CV.
 				  If you **want** to do well in the exam, you **should work** hard this
 				  weekend.
-			- #### First conditional grammar #spaced #grammar
+			- #### First conditional grammar #flashcard #grammar
 			  collapsed:: true
+			  id:: 63454581-f3ac-4330-ab05-246822db0dfb
 				- We use the first conditional to talk about a posible future
 				  situation and its consequence.
 					- 1 The first conditional normally uses if + present simple,
@@ -104,8 +105,9 @@ title:: Oxford English File B2.1
 				  in the USA.
 				- 3 If John **was (were)** here, he**'d know** what to do.
 				  **I'd take** it back to the shop if I **were** you.
-			- #### Second conditional grammar #spaced #grammar
+			- #### Second conditional grammar #flashcard #grammar
 			  collapsed:: true
+			  id:: 63454581-ba0c-40b3-9a17-83c06198dd1f
 				- We use the second conditional to talk about a hypothetical
 				  or imaginary present / future situation, or one that we don't
 				  think is a possibility.

@@ -22,10 +22,12 @@ tags:: #[[DevOps]] #[[O'Reilly-Learning]]
 	- 3. A History of Devops
 		- -
 		- In 1969, during the Apollo 11 mission, the lunar module guidance computer software was tasked with too many calculations for its limited capacity. Hamilton’s team had programmed the software such that it could be manually overridden, allowing Neil Armstrong to step in and pilot the lunar module using manual controls.
+		  id:: 6345459c-e26b-4435-8645-488973e73a4b
 		  
-		  The freedom and trust that the management team afforded the team of engineers working on the onboard flight software, as well as the mutual respect between team members, led to software that facilitated one of humankind’s great leaps in technology as Neil Armstrong stepped on the moon. Without this high-trust environment, this manual override ability (something that turned out to be of critical importance) might not have been present, and the moon landing story might have had a very different outcome. #spaced
+		  The freedom and trust that the management team afforded the team of engineers working on the onboard flight software, as well as the mutual respect between team members, led to software that facilitated one of humankind’s great leaps in technology as Neil Armstrong stepped on the moon. Without this high-trust environment, this manual override ability (something that turned out to be of critical importance) might not have been present, and the moon landing story might have had a very different outcome. #flashcard
 		- -
 	- 4. Foundational Terminology and Concepts
 		- -
-		- In waterfall’s heyday, there was a high cost to delivering software on CD-ROMs or floppy disks, not including the cost to customers for manual installation. Fixing a bug required manufacturing and distributing new floppies or CD-ROMs. Because of these costs, it made sense to spend more time and effort specifying requirements up front rather than trying to fix mistakes later. #spaced
+		- In waterfall’s heyday, there was a high cost to delivering software on CD-ROMs or floppy disks, not including the cost to customers for manual installation. Fixing a bug required manufacturing and distributing new floppies or CD-ROMs. Because of these costs, it made sense to spend more time and effort specifying requirements up front rather than trying to fix mistakes later. #flashcard
+		  id:: 6345459c-c570-4b3e-a9c9-5ee05c14e32e
 		- -

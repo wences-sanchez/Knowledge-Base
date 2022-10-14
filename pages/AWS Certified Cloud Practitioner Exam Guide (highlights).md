@@ -69,6 +69,7 @@ tags:: #[[AWS]] #[[O'Reilly-Learning]]
 		- -
 		- -
 		- There are three primary models of deployment, listed as follows:
+		  id:: 63497e85-d01d-4b45-bd99-400b11af04e0
 		  
 		  Public cloud
 		  Private cloud
@@ -76,7 +77,7 @@ tags:: #[[AWS]] #[[O'Reilly-Learning]]
 		  These models are represented in the following diagram:
 		  
 		  
-		  Figure 1.3 – Cloud deployment models #spaced
+		  Figure 1.3 – Cloud deployment models #flashcard
 		- -
 		- -
 		- What is a private cloud? #flashcard

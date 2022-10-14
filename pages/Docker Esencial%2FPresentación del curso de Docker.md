@@ -28,7 +28,8 @@ tags:: Docker, LinkedIn-Learning
 					- las **librerías**,
 					- **entornos de ejecución** (de SOs) y de
 					- **recursos entre procesos**.
-	- ## 2. Qué es Docker #spaced
+	- ## 2. Qué es Docker #flashcard
+	  id:: 6345459c-942c-43d9-946c-99c815af2199
 		- Docker es una plataforma de contenedores Windows y Linux, que funciona tanto en Linux como en Windows como en MacOS.
 		- Docker está basado en ficheros de definición (o **Dockerfile**s), que contiene lo siguiente:
 			- ![image.png](../assets/image_1661525275833_0.png)
@@ -47,7 +48,8 @@ tags:: Docker, LinkedIn-Learning
 						- La primera ventaja es que son de muy fácil distribución estos ficheros.
 						- Además, tienen un uso muy eficiente de tiempo (y espacio).
 							- Ya que no tienen que arrancar ningún SO (y porque permiten hacer una gestión más eficiente de las capas, en común entre distintos contenedores).
-		- ## 3. Otras tecnologías de contenedores #spaced
+		- ## 3. Otras tecnologías de contenedores #flashcard
+		  id:: 6345459c-b0d2-4281-98b1-c86fd6281f88
 			- Docker **NO** es la única tecnología de contenedores.
 			- Docker puede ejecutar (entre otras cosas) contenedores Windows en Windows
 			- **RKT** es otra tecnología de la competencia que algunas empresas usan por temas concretos de eficiencia.

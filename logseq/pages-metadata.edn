@@ -433,7 +433,7 @@
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to devops",
   :block/created-at 1665484160007,
-  :block/updated-at 1665484160007}
+  :block/updated-at 1665769457510}
  {:block/name "charles dickens",
   :block/created-at 1665484209030,
   :block/updated-at 1665484209030}
@@ -1102,7 +1102,7 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 1",
   :block/created-at 1665484211487,
-  :block/updated-at 1665484211487}
+  :block/updated-at 1665769544772}
  {:block/name
   "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 2",
   :block/created-at 1665484211497,
@@ -1110,11 +1110,11 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 3",
   :block/created-at 1665484211506,
-  :block/updated-at 1665484211506}
+  :block/updated-at 1665769642051}
  {:block/name
   "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 4",
   :block/created-at 1665484159131,
-  :block/updated-at 1665484159131}
+  :block/updated-at 1665769405621}
  {:block/name
   "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 4/lab: introduction to openshift",
   :block/created-at 1665484211346,
@@ -1122,7 +1122,7 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 5",
   :block/created-at 1665484158879,
-  :block/updated-at 1665484158879}
+  :block/updated-at 1665769732357}
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development",
   :block/created-at 1665484158996,
@@ -1130,11 +1130,11 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 1",
   :block/created-at 1665484212133,
-  :block/updated-at 1665484212133}
+  :block/updated-at 1665769596321}
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 2",
   :block/created-at 1665484158981,
-  :block/updated-at 1665484158981}
+  :block/updated-at 1665769696739}
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 3",
   :block/created-at 1665484158989,
@@ -1146,7 +1146,7 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 5",
   :block/created-at 1665484212166,
-  :block/updated-at 1665484212166}
+  :block/updated-at 1665769325394}
  {:block/name "ibm-devops",
   :block/created-at 1665484211532,
   :block/updated-at 1665484211532}
@@ -1159,6 +1159,12 @@
  {:block/name "ibm-devops-containers-lab-3",
   :block/created-at 1665484162543,
   :block/updated-at 1665484162543}
+ {:block/name "ibm-devops::introduction to containers",
+  :block/created-at 1665769405618,
+  :block/updated-at 1665769405618}
+ {:block/name "ibm-devops::introduction to devops",
+  :block/created-at 1665769457507,
+  :block/updated-at 1665769457507}
  {:block/name "ibm-devops::python for data science",
   :block/created-at 1665769266789,
   :block/updated-at 1665769266789}

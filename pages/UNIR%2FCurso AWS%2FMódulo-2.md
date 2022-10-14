@@ -10,4 +10,6 @@ tags:: UNIR, AWS
 - ## Tema 1: Servicio de redes y entrega de contenido
 	- ### [[UNIR/Curso AWS/Módulo-2/Tema-1: Servicio de Redes y Entrega de Contenido]]
 -
--
+- ## Tema 2: Amazon Elastic Compute Cloud (EC2)
+	- ### [[UNIR/Curso AWS/Módulo-2/Tema-2: Amazon Elastic Compute Cloud(EC2)]]
+	-

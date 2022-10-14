@@ -413,7 +413,7 @@
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
   :block/created-at 1665484162598,
-  :block/updated-at 1665484162598}
+  :block/updated-at 1665770051644}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-1",
   :block/created-at 1665484174341,
@@ -429,7 +429,7 @@
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 2",
   :block/created-at 1665484162593,
-  :block/updated-at 1665484162593}
+  :block/updated-at 1665770134974}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to devops",
   :block/created-at 1665484160007,
@@ -1106,7 +1106,7 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 2",
   :block/created-at 1665484211497,
-  :block/updated-at 1665484211497}
+  :block/updated-at 1665770005693}
  {:block/name
   "ibm professional certificate of devops and software engineering/introduction to containers with docker, kubernetes & openshift/week 3",
   :block/created-at 1665484211506,
@@ -1142,7 +1142,7 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 4",
   :block/created-at 1665484158762,
-  :block/updated-at 1665484158762}
+  :block/updated-at 1665770089698}
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 5",
   :block/created-at 1665484212166,
@@ -1817,9 +1817,6 @@
  {:block/name "softwareengineering.stackexchange.com",
   :block/created-at 1665484236277,
   :block/updated-at 1665484236277}
- {:block/name "spaced",
-  :block/created-at 1665484163201,
-  :block/updated-at 1665484163201}
  {:block/name "speaking recordings",
   :block/created-at 1665484162282,
   :block/updated-at 1665484162282}

@@ -47,9 +47,24 @@
  {:block/name "# tema 2: facturación y economía en la nube",
   :block/created-at 1665484162723,
   :block/updated-at 1665484162723}
+ {:block/name "'reilly-learning",
+  :block/created-at 1665484231022,
+  :block/updated-at 1665484231022}
+ {:block/name "(nop)",
+  :block/created-at 1665484180135,
+  :block/updated-at 1665484180135}
+ {:block/name ")",
+  :block/created-at 1665484208003,
+  :block/updated-at 1665484208003}
+ {:block/name "1",
+  :block/created-at 1665484177498,
+  :block/updated-at 1665484177498}
  {:block/name "12-factor apps",
   :block/created-at 1665484172284,
   :block/updated-at 1665484172284}
+ {:block/name "2",
+  :block/created-at 1665484177507,
+  :block/updated-at 1665484177507}
  {:block/name "2022_08_05 2",
   :block/created-at 1665484160620,
   :block/updated-at 1665484160620}
@@ -59,13 +74,25 @@
  {:block/name "2022_08_07 2",
   :block/created-at 1665484160492,
   :block/updated-at 1665484160492}
+ {:block/name "3",
+  :block/created-at 1665484177514,
+  :block/updated-at 1665484177514}
+ {:block/name "4",
+  :block/created-at 1665484177519,
+  :block/updated-at 1665484177519}
  {:block/name "4sysops.com",
   :block/created-at 1665484187232,
   :block/updated-at 1665484187232}
+ {:block/name "5",
+  :block/created-at 1665484177527,
+  :block/updated-at 1665484177527}
  {:block/name
   "5. waits — selenium python bindings 2 documentation (highlights)",
   :block/created-at 1665484162809,
   :block/updated-at 1665484162809}
+ {:block/name "6",
+  :block/created-at 1665484177530,
+  :block/updated-at 1665484177530}
  {:block/name "62ee44f7-9707-488e-8135-9fe1df0b96d6",
   :block/created-at 1659864619934,
   :block/updated-at 1659864619934}
@@ -237,6 +264,9 @@
  {:block/name "aws::ccp::módulo-1",
   :block/created-at 1665485477018,
   :block/updated-at 1665485477018}
+ {:block/name "aws::ccp::módulo-2",
+  :block/created-at 1665761237400,
+  :block/updated-at 1665761237400}
  {:block/name "aws::modulo-2",
   :block/created-at 1665484016230,
   :block/updated-at 1665484016230}
@@ -782,6 +812,9 @@
   "existing types – sizes and ranges – jetbrains academy (highlights)",
   :block/created-at 1665484204012,
   :block/updated-at 1665484204012}
+ {:block/name "existo",
+  :block/created-at 1665484160585,
+  :block/updated-at 1665484160585}
  {:block/name "failure=3",
   :block/created-at 1665484224997,
   :block/updated-at 1665484224997}
@@ -818,6 +851,9 @@
  {:block/name "friday, 12-08-2022",
   :block/created-at 1665484160293,
   :block/updated-at 1665484160293}
+ {:block/name "friday, 14-10-2022",
+  :block/created-at 1665760899313,
+  :block/updated-at 1665760899313}
  {:block/name "friday, 16-09-2022",
   :block/created-at 1665484159139,
   :block/updated-at 1665484159139}
@@ -1465,8 +1501,8 @@
   :block/updated-at 1665484163040}
  {:block/name
   "o'reilly-learning::aws certified cloud practitioner exam guide",
-  :block/created-at 1665645158246,
-  :block/updated-at 1665645158246}
+  :block/created-at 1665760901152,
+  :block/updated-at 1665760901152}
  {:block/name "oca (highlights)",
   :block/created-at 1665484232955,
   :block/updated-at 1665484232955}
@@ -1945,8 +1981,8 @@
   :block/created-at 1665484160305,
   :block/updated-at 1665484160305}
  {:block/name "thursday, 13-10-2022",
-  :block/created-at 1665645153818,
-  :block/updated-at 1665645153818}
+  :block/created-at 1665760907676,
+  :block/updated-at 1665760907676}
  {:block/name "thursday, 15-09-2022",
   :block/created-at 1665484159160,
   :block/updated-at 1665484159160}
@@ -2046,11 +2082,15 @@
   :block/updated-at 1665144131630}
  {:block/name "unir/curso aws/módulo-2",
   :block/created-at 1665484158716,
-  :block/updated-at 1665484158716}
+  :block/updated-at 1665761169994}
  {:block/name
   "unir/curso aws/módulo-2/tema-1: servicio de redes y entrega de contenido",
   :block/created-at 1665484158709,
   :block/updated-at 1665484364624}
+ {:block/name
+  "unir/curso aws/módulo-2/tema-2: amazon elastic compute cloud(ec2)",
+  :block/created-at 1665761169982,
+  :block/updated-at 1665761396277}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}
@@ -2205,6 +2245,33 @@
  {:block/name "{c.value}</h",
   :block/created-at 1665484223414,
   :block/updated-at 1665484223414}
+ {:block/name "{cc.attrs.xxx}",
+  :block/created-at 1665484223459,
+  :block/updated-at 1665484223459}
+ {:block/name "{cc.attrs}",
+  :block/created-at 1665484223453,
+  :block/updated-at 1665484223453}
+ {:block/name "{node[",
+  :block/created-at 1665484208004,
+  :block/updated-at 1665484208004}
+ {:block/name "{resource[",
+  :block/created-at 1665484223429,
+  :block/updated-at 1665484223429}
+ {:block/name "{user.xxx}",
+  :block/created-at 1665484223457,
+  :block/updated-at 1665484223457}
+ {:block/name " <class ",
+  :block/created-at 1665484213343,
+  :block/updated-at 1665484213343}
+ {:block/name " [8",
+  :block/created-at 1665484240552,
+  :block/updated-at 1665484240552}
+ {:block/name " variable v stores an integer valuev = ",
+  :block/created-at 1665484213335,
+  :block/updated-at 1665484213335}
+ {:block/name " v now stores a string",
+  :block/created-at 1665484213331,
+  :block/updated-at 1665484213331}
  {:block/name "¿qué es la ilustración? (highlights)",
   :block/created-at 1661943807861,
   :block/updated-at 1661943807861}

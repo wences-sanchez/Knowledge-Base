@@ -853,7 +853,7 @@
   :block/updated-at 1665484160293}
  {:block/name "friday, 14-10-2022",
   :block/created-at 1665760899313,
-  :block/updated-at 1665760899313}
+  :block/updated-at 1665761557214}
  {:block/name "friday, 16-09-2022",
   :block/created-at 1665484159139,
   :block/updated-at 1665484159139}
@@ -2090,7 +2090,7 @@
  {:block/name
   "unir/curso aws/módulo-2/tema-2: amazon elastic compute cloud(ec2)",
   :block/created-at 1665761169982,
-  :block/updated-at 1665761396277}
+  :block/updated-at 1665761976737}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

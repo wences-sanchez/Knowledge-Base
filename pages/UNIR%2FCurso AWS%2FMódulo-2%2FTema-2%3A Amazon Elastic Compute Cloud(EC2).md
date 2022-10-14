@@ -9,10 +9,14 @@ deck:: [[AWS::CCP::Módulo-2]]
 - ## Amazon EC2
 	- ### Características de EC2 #flashcard
 		- Es uno de los servicios más importantes de AWS
-		- Es **elástico** porque puede aumentar o reducir la cantidad y el tamaño
-		- Nos permite tener un total control sobre el sistema operativo invitado
+		- Es de tipo IaaS
+		- Es **Elastic** porque puede aumentar o reducir la *cantidad* de servidores y el *tamaño* de ellos
+		- Es **Compute** porque procesa datos mediante capacidad de procesamiento (CPU) y la memoria (RAM).
+		- Es **Cloud** porque las instancias se alojan en la nube
+	- ### Lanzamiento de instancias predeterminadas #flashcard
 		- Se pueden lanzar instancias de cualquier tamaño en una zona de disponiblidad en cualquier lugar del mundo
 		- Es compatible con lanzar desde **Amazon Machine Images (AMI)**
+		- Nos permite tener un total control sobre el sistema operativo invitado
 	- ### Pasos para crear una instancia de EC2 #flashcard
 		- #### 1. Seleccionar una AMI
 			- **Plantilla** que se usa para crear una instancia EC2 (una máquina virtual que se ejecuta en la nube de AWS)
@@ -57,13 +61,16 @@ deck:: [[AWS::CCP::Módulo-2]]
 		- Son instancias de EC2 las cuales se pagan al inicio, completa o parcialmente, al reservarlas.
 		- Plazo de 1 o 3 años.
 	- ### Qué son las instancias reservadas programadas? #flashcard
-		-
+		- Son instancias reservadas de EC2 que estén disponibles siempre según la programación periódica que especifique.
+		- Plazo de 1 año.
 	- ### ¿Qué es una instancia de spot? #flashcard
 		- Las instancias de spot son instancias que se ejecutan siempree que haya disponibles y que su oferta esté por encima del precio de la instancia de spot
 		- AWS puede interrumpirlas con una notificación de 2 minutos
 		- Los precios son los más económicos, aunque su uso queda acotado a ejecutar cosas *no importantes*.
 	- ### ¿Qué son los hosts dedicados? #flashcard
 		- Son servidores físicos que están dedicados solamente para el cliente.
+	- ### ¿Qué son las instancias dedicadas? #flashcard
+		- Son instancias que se ejecutan en una VPC en el hardware que están dedicadas a un solo cliente.
 - ## Pilares de la optimización de costos #flashcard
 	- ![image.png](../assets/image_1665764048371_0.png)
 	- Primero, tenemos que pensar en el tamaño que pueda tener nuestra instancia (+ tamaño, + caro).
@@ -71,3 +78,4 @@ deck:: [[AWS::CCP::Módulo-2]]
 	- Si sabemos que vamos a lanzar un proyecto a 1+ años, podemos ahorrarnos dinero
 	- Si queremos HDD, SSD,...
 	-
+-

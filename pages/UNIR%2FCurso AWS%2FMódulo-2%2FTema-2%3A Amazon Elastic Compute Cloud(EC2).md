@@ -74,10 +74,17 @@ deck:: [[AWS::CCP::Módulo-2]]
 		- Son instancias que se ejecutan en una VPC en un hardware que está dedicado a un solo cliente. Están **físicamente** aisladas de los hosts de otras **cuentas** de **AWS**.
 - ## Pilares de la optimización de costos #flashcard
 	- ![image.png](../assets/image_1665764048371_0.png)
-	- Primero, tenemos que pensar en el **tamaño** que pueda tener nuestra instancia (+ tamaño, + caro).
+	- ### Adaptación del tamaño
+		- Primero, tenemos que pensar en el **tamaño** que pueda tener nuestra instancia (+ tamaño, + caro).
 		- Buscar el equilibrio adecuado de los tipos de instancias y usar CloudWatch para métricas de rendimiento.
-	- Usar la elasticidad. La capacidad se puede escalar.
-	- Si sabemos que vamos a lanzar un proyecto a 1+ años, podemos ahorrarnos dinero
-	- Si queremos HDD, SSD,...
-	-
+	- ### Aumento de elasticidad
+		- Desactivar instancias cuando no están en uso y habilitar el escalado automático para satisfacer las necesidades.
+		- Usar la **elasticidad**. La capacidad se puede escalar.
+	- ### Modelo de precios óptimo
+		- Si sabemos que vamos a lanzar un proyecto a 1+ años, podemos ahorrarnos dinero
+		- Analizar patrones de uso para poder ejecutar **instancias** EC2 con la combinación adecuada de opciones de precios o valorar usar soluciones sin servidor como **AWS Lambda**
+	- ### Optimización de las opciones de almacenamiento
+		- Analizar los requisitos de almacenamiento, cambiar el tamaño de los volúmenes de EBS y reducir la sobrecarga de sus implementaciones.
+		- Si queremos HDD, SSD,...
+		-
 -

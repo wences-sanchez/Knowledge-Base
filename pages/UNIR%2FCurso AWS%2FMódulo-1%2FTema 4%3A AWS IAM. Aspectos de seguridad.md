@@ -1,6 +1,8 @@
 title:: UNIR/Curso AWS/Módulo-1/Tema 4: AWS IAM. Aspectos de seguridad
 tags:: UNIR, AWS
+deck:: [[AWS::CCP::Módulo-1]]
 
+-
 - #tags #UNI #AWS #Tema-1
 -
 - ## Modelo de responsabilidad compartida de AWS

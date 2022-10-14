@@ -29,7 +29,25 @@ deck:: [[AWS::CCP::Módulo-2]]
 		- #### 3. Configuración de la red
 			- ![image.png](../assets/image_1665762548492_0.png)
 			- Cuando se lanza la máquina, se crea de forma automática una VPC con una dirección pública para poder conectarnos a ella.
-		- #### 4.
+		- #### 4. Asociar rol de IAM
+			- **Opcional**: para poder interactuar el software de la instancia con AWS. El rol se gestiona de AWS IAM. Nos permitirá, por ejemplo, acceder a un bucket de S3, ejecutar una lambda, o acceder a DynamoDB.
+		- #### 5. Script de datos de usuario
+			- **Opcional**: se ejecutará la primera vez que se inicia la instancia.
+		- #### 6. Especificar el almacenamiento
+			- Cómo queremos y dónde guardar los datos de la máquina
+				- Configurar el volúmen raíz (donde está alojado el SO).
+					- Se mide en GB
+					- Puede ser SSD o HDD
+				- Lo que no es SO se puede almacenar en:
+					- **EBS**: en bloques. Se puede detener al instancia y sigue
+					- **EFS**: no para el raíz
+					- **S3**: no para el raíz
+		- #### 7. Agregar etiquetas
+			- Poner parejas clave-valor como metadatos para ayudarnos con la gestión de recursos
+		- #### 8. Configurar el grupo de seguridad
+			- Conjunto de reglas de firewall que controlan el tráfico a la instancia
+		- #### 9. Crear el par de claves
+			- Clave pública
 - ## Modelo de precios de EC2
 - ## Pilares de la optimización de costos
 -

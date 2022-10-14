@@ -3,17 +3,17 @@ tags:: UNIR, AWS
 deck:: [[AWS::CCP::Módulo-2]]
 
 -
-- ## Servicios de informática de AWS
+- ## Servicios de informática de AWS #flashcard
 	- ![image.png](../assets/image_1665761621374_0.png)
 	- AWS Elastic Beanstalk es un servicio PaaS que levanta un servidor web y BBDD para hacer funcionar la aplicación
 - ## Amazon EC2
-	- ### Características de EC2
+	- ### Características de EC2 #flashcard
 		- Es uno de los servicios más importantes de AWS
 		- Es **elástico** porque puede aumentar o reducir la cantidad y el tamaño
 		- Nos permite tener un total control sobre el sistema operativo invitado
 		- Se pueden lanzar instancias de cualquier tamaño en una zona de disponiblidad en cualquier lugar del mundo
 		- Es compatible con lanzar desde **Amazon Machine Images (AMI)**
-	- ### Pasos para crear una instancia de EC2
+	- ### Pasos para crear una instancia de EC2 #flashcard
 		- #### 1. Seleccionar una AMI
 			- **Plantilla** que se usa para crear una instancia EC2 (una máquina virtual que se ejecuta en la nube de AWS)
 			- Contiene un SO.
@@ -47,7 +47,16 @@ deck:: [[AWS::CCP::Módulo-2]]
 		- #### 8. Configurar el grupo de seguridad
 			- Conjunto de reglas de firewall que controlan el tráfico a la instancia
 		- #### 9. Crear el par de claves
-			- Clave pública
+			- Clave pública / privada (nueva o seleccionada por nosotros)
+	-
+	- ![image.png](../assets/image_1665763348645_0.png)
 - ## Modelo de precios de EC2
+	- ![image.png](../assets/image_1665763533297_0.png)
+	- ### ¿Qué es una instancia de spot?
+		- Las instancias de spot son instancias que se ejecutan siempree que haya disponibles y que su oferta esté por encima del precio de la instancia de spot
+		- AWS puede interrumpirlas con una notificación de 2 minutos
+		- Los precios son los más económicos, aunque su uso queda acotado a ejecutar cosas *no importantes*.
+	- ### ¿Qué son los hosts dedicados?
+		- Son servidores físicos que están dedicados solamente para el cliente.
 - ## Pilares de la optimización de costos
 -

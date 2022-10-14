@@ -25,6 +25,7 @@ tags:: #[[AWS]] #[[O'Reilly-Learning]]
 		- -
 		- -
 		- ### 6 Advantages of Cloud Computing: #flashcard
+		  id:: 63497e85-13ef-4f15-a426-cb2f35db78b3
 			- With cloud computing, you pay for the same infrastructure components only as and when you consume them. This on-demand, pay-as-you-go model also means that you save costs when you are not utilizing resources.
 			  id:: 63454583-66aa-42e3-ac27-5eac14cbe1fe
 			  

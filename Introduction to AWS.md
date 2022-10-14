@@ -1,7 +1,7 @@
 tags:: Learning-Path-AWS-Developer, AWS, ACloudGuru
+deck:: [[ACloudGuru::AWS]]
 
-#tags #AWS #Learning-Path-AWS-Developer
-
+- #tags #AWS #Learning-Path-AWS-Developer
 - ![Introduction to AWS_slides.pdf](../assets/Introduction_to_AWS_slides_1660906698136_0.pdf)
 -
 # Introduction to AWS

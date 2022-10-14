@@ -1,6 +1,8 @@
 title:: Certificado profesional de IBM DevOps and Software Engineering/Introduction to DevOps
 tags:: Coursera, DevOps, IBM
+deck:: [[IBM-DevOps::Introduction to DevOps]]
 
+-
 - #tags #Coursera #DevOps
 -
 - ## Week 1

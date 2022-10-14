@@ -117,6 +117,9 @@
  {:block/name "acloudguru",
   :block/created-at 1665484162114,
   :block/updated-at 1665484162114}
+ {:block/name "acloudguru::aws",
+  :block/created-at 1665768875502,
+  :block/updated-at 1665768875502}
  {:block/name
   "administacion de sistemas para la cloud tema-1 (highlights)",
   :block/created-at 1665484163481,
@@ -850,7 +853,7 @@
   :block/updated-at 1665484160293}
  {:block/name "friday, 14-10-2022",
   :block/created-at 1665760899313,
-  :block/updated-at 1665768392729}
+  :block/updated-at 1665768733205}
  {:block/name "friday, 16-09-2022",
   :block/created-at 1665484159139,
   :block/updated-at 1665484159139}
@@ -1135,7 +1138,7 @@
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 3",
   :block/created-at 1665484158989,
-  :block/updated-at 1665484158989}
+  :block/updated-at 1665769266796}
  {:block/name
   "ibm professional certificate of devops and software engineering/python for data science, ai & development/week 4",
   :block/created-at 1665484158762,
@@ -1156,6 +1159,9 @@
  {:block/name "ibm-devops-containers-lab-3",
   :block/created-at 1665484162543,
   :block/updated-at 1665484162543}
+ {:block/name "ibm-devops::python for data science",
+  :block/created-at 1665769266789,
+  :block/updated-at 1665769266789}
  {:block/name "ichi.pro",
   :block/created-at 1665484184789,
   :block/updated-at 1665484184789}
@@ -1209,7 +1215,7 @@
   :block/updated-at 1665484213951}
  {:block/name "introduction to aws",
   :block/created-at 1665484162116,
-  :block/updated-at 1665484162116}
+  :block/updated-at 1665768875622}
  {:block/name
   "introduction to computation and programming using python (highlights)",
   :block/created-at 1665484214394,

@@ -68,12 +68,14 @@ deck:: [[AWS::CCP::Módulo-2]]
 		- AWS puede interrumpirlas con una notificación de 2 minutos
 		- Los precios son los más económicos, aunque su uso queda acotado a ejecutar cosas *no importantes*.
 	- ### ¿Qué son los hosts dedicados? #flashcard
-		- Son servidores físicos que están dedicados solamente para el cliente.
+		- Son servidores **físicos** que están dedicados solamente para el cliente.
+		- Pueden usar sus licencias de *software*
 	- ### ¿Qué son las instancias dedicadas? #flashcard
-		- Son instancias que se ejecutan en una VPC en el hardware que están dedicadas a un solo cliente.
+		- Son instancias que se ejecutan en una VPC en un hardware que está dedicado a un solo cliente. Están **físicamente** aisladas de los hosts de otras **cuentas** de **AWS**.
 - ## Pilares de la optimización de costos #flashcard
 	- ![image.png](../assets/image_1665764048371_0.png)
-	- Primero, tenemos que pensar en el tamaño que pueda tener nuestra instancia (+ tamaño, + caro).
+	- Primero, tenemos que pensar en el **tamaño** que pueda tener nuestra instancia (+ tamaño, + caro).
+		- Buscar el equilibrio adecuado de los tipos de instancias y usar CloudWatch para métricas de rendimiento.
 	- Usar la elasticidad. La capacidad se puede escalar.
 	- Si sabemos que vamos a lanzar un proyecto a 1+ años, podemos ahorrarnos dinero
 	- Si queremos HDD, SSD,...

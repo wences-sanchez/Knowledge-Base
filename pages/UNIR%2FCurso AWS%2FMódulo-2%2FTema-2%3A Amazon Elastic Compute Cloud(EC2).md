@@ -48,15 +48,26 @@ deck:: [[AWS::CCP::Módulo-2]]
 			- Conjunto de reglas de firewall que controlan el tráfico a la instancia
 		- #### 9. Crear el par de claves
 			- Clave pública / privada (nueva o seleccionada por nosotros)
-	-
-	- ![image.png](../assets/image_1665763348645_0.png)
+	- ### Ciclo de vida de las instancias de EC2 #flashcard
+		- ![image.png](../assets/image_1665763348645_0.png)
 - ## Modelo de precios de EC2
-	- ![image.png](../assets/image_1665763533297_0.png)
-	- ### ¿Qué es una instancia de spot?
+	- ### Resumen del modelo de precios de EC2 #flashcard
+		- ![image.png](../assets/image_1665763533297_0.png)
+	- ### ¿Qué son las instancias reservadas? #flashcard
+		- Son instancias de EC2 las cuales se pagan al inicio, completa o parcialmente, al reservarlas.
+		- Plazo de 1 o 3 años.
+	- ### Qué son las instancias reservadas programadas? #flashcard
+		-
+	- ### ¿Qué es una instancia de spot? #flashcard
 		- Las instancias de spot son instancias que se ejecutan siempree que haya disponibles y que su oferta esté por encima del precio de la instancia de spot
 		- AWS puede interrumpirlas con una notificación de 2 minutos
 		- Los precios son los más económicos, aunque su uso queda acotado a ejecutar cosas *no importantes*.
-	- ### ¿Qué son los hosts dedicados?
+	- ### ¿Qué son los hosts dedicados? #flashcard
 		- Son servidores físicos que están dedicados solamente para el cliente.
-- ## Pilares de la optimización de costos
--
+- ## Pilares de la optimización de costos #flashcard
+	- ![image.png](../assets/image_1665764048371_0.png)
+	- Primero, tenemos que pensar en el tamaño que pueda tener nuestra instancia (+ tamaño, + caro).
+	- Usar la elasticidad. La capacidad se puede escalar.
+	- Si sabemos que vamos a lanzar un proyecto a 1+ años, podemos ahorrarnos dinero
+	- Si queremos HDD, SSD,...
+	-

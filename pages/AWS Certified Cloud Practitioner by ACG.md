@@ -86,6 +86,8 @@ deck:: [[ACloudGuru::AWS]]
 		- An ELB distributes the traffic across multiple EC2 instances. Whereas the EC2 Auto Scaling feature adds or replaces EC2 instances (it scales them out).
 			-
 		- Scale out means to add or remove instances, whereas scale up means to upgrade an instance by adding more power (CPU, RAM) to an existing server.
+	-
+	- ### 3.3 Exploring Compute Services: EC2 in Action
 		-
 	-
 		-

@@ -234,7 +234,7 @@
   :block/updated-at 1665484163298}
  {:block/name "aws certified cloud practitioner by acg",
   :block/created-at 1665484163206,
-  :block/updated-at 1666006739839}
+  :block/updated-at 1666007529104}
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1665484163116,
@@ -2075,7 +2075,7 @@
   :block/updated-at 1665766141949}
  {:block/name "unir/curso aws/módulo-2",
   :block/created-at 1665484158716,
-  :block/updated-at 1665998899111}
+  :block/updated-at 1666007646678}
  {:block/name
   "unir/curso aws/módulo-2/tema 4: servicios de almacenamiento",
   :block/created-at 1665998899097,

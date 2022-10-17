@@ -22,7 +22,14 @@ title:: UNIR/Curso AWS/Módulo-2/Tema-3: Otros servicios de cómputo. Contenedor
 		-
 		-
 - ## AWS Lambda
-	- ![image4.png](../assets/image_1665996262182_0.png)
-	- ### AWS
+	- ### AWS Lambda: Informática sin servidor
+		- ![image4.png](../assets/image_1665996262182_0.png)
+		- AWS Lambda es un servicio que nos permite ejecutar código fuente sin servidor.
+		- Nos permite subir nuestro código sin tener que preocuparnos de nada más.
+		- No se cobra por tener el código fuente almacenado
+		- Podemos decidir si crear un endpoint público o no
+		- ![image5.png](../assets/image_1665996602153_0.png)
+		-
 - ## AWS Elastic Beanstalk
--
+	- Pone en marcha de forma rápida aplicaciones web.
+	-

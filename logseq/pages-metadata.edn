@@ -118,8 +118,8 @@
   :block/created-at 1665484162114,
   :block/updated-at 1665484162114}
  {:block/name "acloudguru::aws",
-  :block/created-at 1665768875502,
-  :block/updated-at 1665768875502}
+  :block/created-at 1665994478704,
+  :block/updated-at 1665994478704}
  {:block/name
   "administacion de sistemas para la cloud tema-1 (highlights)",
   :block/created-at 1665484163481,
@@ -268,11 +268,14 @@
   :block/created-at 1665485477018,
   :block/updated-at 1665485477018}
  {:block/name "aws::ccp::módulo-2",
-  :block/created-at 1665761237400,
-  :block/updated-at 1665761237400}
+  :block/created-at 1665994484159,
+  :block/updated-at 1665994484159}
  {:block/name "aws::modulo-2",
   :block/created-at 1665484016230,
   :block/updated-at 1665484016230}
+ {:block/name "aws::módulo-2",
+  :block/created-at 1665484364621,
+  :block/updated-at 1665484364621}
  {:block/name "azul",
   :block/created-at 1665484186769,
   :block/updated-at 1665484186769}
@@ -1160,14 +1163,14 @@
   :block/created-at 1665484162543,
   :block/updated-at 1665484162543}
  {:block/name "ibm-devops::introduction to containers",
-  :block/created-at 1665769405618,
-  :block/updated-at 1665769405618}
+  :block/created-at 1665994500287,
+  :block/updated-at 1665994500287}
  {:block/name "ibm-devops::introduction to devops",
-  :block/created-at 1665769457507,
-  :block/updated-at 1665769457507}
+  :block/created-at 1665994505071,
+  :block/updated-at 1665994505071}
  {:block/name "ibm-devops::python for data science",
-  :block/created-at 1665769266789,
-  :block/updated-at 1665769266789}
+  :block/created-at 1665994524362,
+  :block/updated-at 1665994524362}
  {:block/name "ichi.pro",
   :block/created-at 1665484184789,
   :block/updated-at 1665484184789}
@@ -1454,6 +1457,9 @@
  {:block/name "monday, 15-08-2022",
   :block/created-at 1665484160112,
   :block/updated-at 1665484160112}
+ {:block/name "monday, 17-10-2022",
+  :block/created-at 1665994470879,
+  :block/updated-at 1665995102534}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1665484160827,
   :block/updated-at 1665484160827}
@@ -1510,8 +1516,8 @@
   :block/updated-at 1665484163040}
  {:block/name
   "o'reilly-learning::aws certified cloud practitioner exam guide",
-  :block/created-at 1665760901152,
-  :block/updated-at 1665760901152}
+  :block/created-at 1665994488953,
+  :block/updated-at 1665994488953}
  {:block/name "oca (highlights)",
   :block/created-at 1665484232955,
   :block/updated-at 1665484232955}
@@ -1817,6 +1823,9 @@
  {:block/name "softwareengineering.stackexchange.com",
   :block/created-at 1665484236277,
   :block/updated-at 1665484236277}
+ {:block/name "spaced",
+  :block/created-at 1665484163201,
+  :block/updated-at 1665484163201}
  {:block/name "speaking recordings",
   :block/created-at 1665484162282,
   :block/updated-at 1665484162282}
@@ -1987,8 +1996,8 @@
   :block/created-at 1665484160305,
   :block/updated-at 1665484160305}
  {:block/name "thursday, 13-10-2022",
-  :block/created-at 1665760907676,
-  :block/updated-at 1665760907676}
+  :block/created-at 1665994539765,
+  :block/updated-at 1665994539765}
  {:block/name "thursday, 15-09-2022",
   :block/created-at 1665484159160,
   :block/updated-at 1665484159160}
@@ -2088,7 +2097,7 @@
   :block/updated-at 1665766287312}
  {:block/name "unir/curso aws/módulo-2",
   :block/created-at 1665484158716,
-  :block/updated-at 1665761169994}
+  :block/updated-at 1665994945436}
  {:block/name
   "unir/curso aws/módulo-2/tema-1: servicio de redes y entrega de contenido",
   :block/created-at 1665484158709,
@@ -2097,6 +2106,10 @@
   "unir/curso aws/módulo-2/tema-2: amazon elastic compute cloud(ec2)",
   :block/created-at 1665761169982,
   :block/updated-at 1665765986233}
+ {:block/name
+  "unir/curso aws/módulo-2/tema-3: otros servicios de cómputo. contenedores",
+  :block/created-at 1665994945426,
+  :block/updated-at 1665994945426}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

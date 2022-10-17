@@ -109,7 +109,17 @@ deck:: [[ACloudGuru::AWS]]
 			- Fargate allows you to manage containers.
 			- It scales automatically and is **[[serverless]]** (means that you don't worry about provisioning, configuring or scaling servers)
 		- #### Amazon Lightsail
-			- It's similar
+			- It's similar to EC2, but for small projects. It allows you to quickly launch all the resources you need for small projects.
+			- Deploy preconfigured applications, like *Wordpress* websites, at the click of a button
+			- Lower predictable fees.
+		- #### AWS Outposts
+			- It allows you to run cloud services in your internal data center.
+			- It supports workloads that need to remain on-premises due to latency or data sovereignty needs
+			- AWS delivers and installs servers in your internal data center.
+			- Used for a [[hybrid]] experience
+			- Have access to the **cloud services** and **APIs** to develop apps **on-premises**.
+		-
+			-
 			-
 			-
 		-

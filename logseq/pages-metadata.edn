@@ -234,7 +234,7 @@
   :block/updated-at 1665484163298}
  {:block/name "aws certified cloud practitioner by acg",
   :block/created-at 1665484163206,
-  :block/updated-at 1666023627969}
+  :block/updated-at 1666024547615}
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1665484163116,
@@ -1787,6 +1787,9 @@
  {:block/name "serverfault.com",
   :block/created-at 1665484237685,
   :block/updated-at 1665484237685}
+ {:block/name "serverless",
+  :block/created-at 1666024070372,
+  :block/updated-at 1666024070372}
  {:block/name "siddhartha (highlights)",
   :block/created-at 1665484240230,
   :block/updated-at 1665484240230}

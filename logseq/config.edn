@@ -226,7 +226,7 @@
  :journal/page-title-format "EEEE, dd-MM-yyyy"
  :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 0}, :checkbox {:counts 7}, :parentheses {:counts 2}, :command {:counts 16}, :calendar {:counts 5}, :paint {:counts 0}, :list {:counts 7}, :link {:counts 0}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 6}, :tag {:counts 5}, :brackets {:counts 2}, :italic {:counts 2}, :a-b {:counts 3}, :rotate-clockwise {:counts 0}}
  :graph/settings {:excluded-pages? false, :orphan-pages? true, :builtin-pages? false}
- :ui/show-brackets? true
+ :ui/show-brackets? false
 
  ;; Properties to exclude from having property pages
  ;; E.g. #{:duration :author}

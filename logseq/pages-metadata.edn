@@ -234,7 +234,7 @@
   :block/updated-at 1665484163298}
  {:block/name "aws certified cloud practitioner by acg",
   :block/created-at 1665484163206,
-  :block/updated-at 1666024547615}
+  :block/updated-at 1666025067239}
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1665484163116,
@@ -1046,6 +1046,9 @@
   "how to use arrays in bash script - linuxconfig.org (highlights)",
   :block/created-at 1665484209787,
   :block/updated-at 1665484209787}
+ {:block/name "hybrid",
+  :block/created-at 1666024996622,
+  :block/updated-at 1666024996622}
  {:block/name "hyperskill.org",
   :block/created-at 1665484173965,
   :block/updated-at 1665484173965}

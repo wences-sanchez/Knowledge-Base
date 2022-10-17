@@ -102,8 +102,8 @@ deck:: [[ACloudGuru::AWS]]
 			- **Always free**: Even after the free-usage tier expires, you'll have access to 1 million free Lambda calls each month.
 	- ### 3.5 Create a Lambda Function using the AWS Management Console
 		- You have to deploy your code before expecting it to succeed! #flashcard #dev-notes
-	- ### 3.6 Exploring Compute Services: Additional Compute Services
-		- What is the use of containers? #flashcard
+	- ### 3.6 Exploring Compute Services: Additional Compute Services #flashcard
+		- What is the use of containers?
 			- To make our apps capable of executing again and again on different environments without worrying of machine specific configurations
 		- #### AWS Fargate
 			- Fargate allows you to manage containers.
@@ -118,7 +118,14 @@ deck:: [[ACloudGuru::AWS]]
 			- AWS delivers and installs servers in your internal data center.
 			- Used for a [[hybrid]] experience
 			- Have access to the **cloud services** and **APIs** to develop apps **on-premises**.
-		-
+		- #### AWS Batch
+			- **Batch** allows you to process large workloads in smaller chunks (or batches).
+			- Runs hundreds and thousands of smaller batch processing jobs
+			- Dynamically provisions instances based on volume.
+			- It works with other services as AWS Fargate, Amazon EC2 or spot instances.
+			-
+			-
+			-
 			-
 			-
 			-

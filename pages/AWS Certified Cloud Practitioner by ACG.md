@@ -88,8 +88,8 @@ deck:: [[ACloudGuru::AWS]]
 		- Scale out means to add or remove instances, whereas scale up means to upgrade an instance by adding more power (CPU, RAM) to an existing server.
 	-
 	- ### 3.3 Exploring Compute Services: EC2 in Action
+	- ### 3.4 Exploring Compute Services: Lambda
 		-
-	-
 		-
 			-
 			-

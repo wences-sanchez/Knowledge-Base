@@ -1471,7 +1471,7 @@
   :block/updated-at 1665484160112}
  {:block/name "monday, 17-10-2022",
   :block/created-at 1665994470879,
-  :block/updated-at 1665998565035}
+  :block/updated-at 1666001029161}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1665484160827,
   :block/updated-at 1665484160827}
@@ -2109,7 +2109,11 @@
   :block/updated-at 1665766287312}
  {:block/name "unir/curso aws/módulo-2",
   :block/created-at 1665484158716,
-  :block/updated-at 1665994945436}
+  :block/updated-at 1665998899111}
+ {:block/name
+  "unir/curso aws/módulo-2/tema 4: servicios de almacenamiento",
+  :block/created-at 1665998899097,
+  :block/updated-at 1666000464722}
  {:block/name
   "unir/curso aws/módulo-2/tema-1: servicio de redes y entrega de contenido",
   :block/created-at 1665484158709,

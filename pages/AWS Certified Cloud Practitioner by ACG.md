@@ -41,6 +41,26 @@ deck:: [[ACloudGuru::AWS]]
 			  4. You have 750 hours/month in the free tier plan
 		- You can use them to deploy a database or a web application
 		-
-		-
+		- #### Ways of access an EC2 Instance
+			- AWS Management Console
+				- via a web browser
+			- Secure Shell (SSH)
+			- EC2 Instance Connect (EIC)
+				- It removes the need to manage SSH keys
+			- AWS Systems Manager
+				- Allows to manage your EC2 instances via a web browser or the AWS CLI.
+			-
+		- #### EC2 Pricing Options
+			- #### On-Demand
+				- A fixed price in which you are billed down to the second based on the instance type. No contract.
+				- Use it when:
+					- You care about low cost without any upfront payment or long-term commitment.
+					- Applications with unpredictable workloads that **can't** be interrupted
+					- Your applications are under development
+					- Your workloads will not run longer than a year
+			-
+			- ####
+			-
+			-
 		-
 			-

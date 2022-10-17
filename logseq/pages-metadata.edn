@@ -169,6 +169,15 @@
  {:block/name "algorithms (highlights)",
   :block/created-at 1665484168458,
   :block/updated-at 1665484168458}
+ {:block/name "amazon ecr",
+  :block/created-at 1665998210743,
+  :block/updated-at 1665998210743}
+ {:block/name "amazon ecs",
+  :block/created-at 1665998171539,
+  :block/updated-at 1665998171539}
+ {:block/name "amazon eks",
+  :block/created-at 1665998198930,
+  :block/updated-at 1665998198930}
  {:block/name "android programming (highlights)",
   :block/created-at 1665484169031,
   :block/updated-at 1665484169031}
@@ -1462,7 +1471,7 @@
   :block/updated-at 1665484160112}
  {:block/name "monday, 17-10-2022",
   :block/created-at 1665994470879,
-  :block/updated-at 1665995247010}
+  :block/updated-at 1665998565035}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1665484160827,
   :block/updated-at 1665484160827}
@@ -2112,7 +2121,7 @@
  {:block/name
   "unir/curso aws/módulo-2/tema-3: otros servicios de cómputo. contenedores",
   :block/created-at 1665994945426,
-  :block/updated-at 1665998016314}
+  :block/updated-at 1665998497864}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

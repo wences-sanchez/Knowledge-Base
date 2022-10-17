@@ -33,6 +33,7 @@ deck:: [[ACloudGuru::AWS]]
 	-
 	- ### Section Introduction
 		- The different services are for different use cases. That's the reason why there are so many!
+	- ### 3.2 Exploring Compute Services: EC2
 		-
 	-
 		-

@@ -34,6 +34,13 @@ deck:: [[ACloudGuru::AWS]]
 	- ### Section Introduction
 		- The different services are for different use cases. That's the reason why there are so many!
 	- ### 3.2 Exploring Compute Services: EC2
+		- EC2 is a foundational service used for managing our virtual instances.
+			- 1. You're able to provision an EC2 instance at the click of a button
+			  2. You can preconfigure it with an AMI template
+			  3. You can deploy applications there
+			  4. You have 750 hours/month in the free tier plan
+		- You can use them to deploy a database or a web application
 		-
-	-
 		-
+		-
+			-

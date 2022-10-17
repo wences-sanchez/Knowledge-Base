@@ -29,5 +29,10 @@ deck:: [[ACloudGuru::AWS]]
 			- That is why you cannot see the contents of a region in others' one.
 		-
 - ## 3. Technology
+	- [[Index website]]
+	-
 	- ### Section Introduction
+		- The different services are for different use cases. That's the reason why there are so many!
+		-
+	-
 		-

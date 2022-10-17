@@ -58,8 +58,20 @@ deck:: [[ACloudGuru::AWS]]
 					- Applications with unpredictable workloads that **can't** be interrupted
 					- Your applications are under development
 					- Your workloads will not run longer than a year
-			-
-			- ####
+			- #### Spot
+				- Your request of instances is fulfilled only if capacity is available.
+				- Use it when:
+					- You are not concerned about the **start** and **stop** of your application
+					- Your workloads **can** be interrupted
+			- #### Reserved Instances
+				- RIs allow you to commit to a specific instance type in a particular region for 1 or 3 years.
+			- #### Dedicated Hosts
+				- Allow you to pay for a physical server that is fully dedicated to running your instances.
+				- Use it when:
+					- You want to bring your own server-bound software license from other vendors.
+				- Don't confuse it with *reserved instances*
+			- #### Savings Plans
+				-
 			-
 			-
 		-

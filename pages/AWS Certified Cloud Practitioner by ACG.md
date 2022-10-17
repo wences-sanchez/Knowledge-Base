@@ -41,7 +41,17 @@ deck:: [[ACloudGuru::AWS]]
 			  4. You have 750 hours/month in the free tier plan
 		- You can use them to deploy a database or a web application
 		-
-		- #### Ways of access an EC2 Instance
+		- #### Flashcards
+		  collapsed:: true
+			- Mention some characteristics of EC2 #flashcard
+				- EC2 is a foundational service used for managing our virtual instances.
+					- 1. You're able to provision an EC2 instance at the click of a button
+					  2. You can preconfigure it with an AMI template
+					  3. You can deploy applications there
+					  4. You have 750 hours/month in the free tier plan
+				- You can use them to deploy a database or a web application
+		-
+		- #### Ways of access an EC2 Instance #flashcard
 			- AWS Management Console
 				- via a web browser
 			- Secure Shell (SSH)
@@ -52,7 +62,7 @@ deck:: [[ACloudGuru::AWS]]
 				- Allows to manage your EC2 instances via a web browser or the AWS CLI.
 				- AWS Systems Manager es una solución segura de administración integral para entornos híbridos en la nube.
 			-
-		- #### EC2 Pricing Options
+		- #### EC2 Pricing Options #flashcard
 			- #### On-Demand
 				- A fixed price in which you are billed down to the second based on the instance type. No contract.
 				- Use it when:
@@ -76,7 +86,8 @@ deck:: [[ACloudGuru::AWS]]
 		- An ELB distributes the traffic across multiple EC2 instances. Whereas the EC2 Auto Scaling feature adds or replaces EC2 instances (it scales them out).
 			-
 		- Scale out means to add or remove instances, whereas scale up means to upgrade an instance by adding more power (CPU, RAM) to an existing server.
-			-
+		-
+	-
 		-
 			-
 			-

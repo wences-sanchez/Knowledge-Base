@@ -49,6 +49,7 @@ deck:: [[ACloudGuru::AWS]]
 				- It removes the need to manage SSH keys
 			- AWS Systems Manager
 				- Allows to manage your EC2 instances via a web browser or the AWS CLI.
+				- AWS Systems Manager es una solución segura de administración integral para entornos híbridos en la nube.
 			-
 		- #### EC2 Pricing Options
 			- #### On-Demand

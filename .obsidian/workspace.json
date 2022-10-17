@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/UNIR%2FCurso AWS%2FMódulo-2%2FTema-3%3A Otros servicios de cómputo. Contenedores.md",
+                "file": "pages/AWS Certified Cloud Practitioner by ACG.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/UNIR%2FCurso AWS%2FMódulo-2%2FTema-3%3A Otros servicios de cómputo. Contenedores.md",
+                "file": "pages/AWS Certified Cloud Practitioner by ACG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/UNIR%2FCurso AWS%2FMódulo-2%2FTema-3%3A Otros servicios de cómputo. Contenedores.md",
+                "file": "pages/AWS Certified Cloud Practitioner by ACG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/UNIR%2FCurso AWS%2FMódulo-2%2FTema-3%3A Otros servicios de cómputo. Contenedores.md"
+                "file": "pages/AWS Certified Cloud Practitioner by ACG.md"
               }
             }
           }
@@ -141,6 +141,7 @@
   },
   "active": "d51e896e2644b7b3",
   "lastOpenFiles": [
+    "pages/UNIR%2FCurso AWS%2FMódulo-2%2FTema-3%3A Otros servicios de cómputo. Contenedores.md",
     "journals/2022_10_17.md",
     "pages/hls__UNIR-AWS_Modulo-1_1664869606733_0.md",
     "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
@@ -149,7 +150,6 @@
     "pages/Infraestructura como Sofware.md",
     "logseq/bak/pages/UNIR%2FCurso AWS%2FMódulo-1/2022-10-04T09_20_46.177Z.Desktop.md",
     "logseq/bak/pages/Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/2022-09-02T09_20_42.267Z.Desktop.md",
-    "logseq/bak/pages/Introduction to Software Testing/2022-08-31T11_02_30.564Z.Desktop.md",
-    "pages/informática en la nube.md"
+    "logseq/bak/pages/Introduction to Software Testing/2022-08-31T11_02_30.564Z.Desktop.md"
   ]
 }

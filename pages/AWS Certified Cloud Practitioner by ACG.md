@@ -1,3 +1,6 @@
+tags:: ACloudGuru, AWS
+deck:: [[ACloudGuru::AWS]]
+
 - #tags #AWS #CCP-Exam
 -
 - ## 1. Introduction
@@ -24,4 +27,7 @@
 	- ### Exploring your AWS Account
 		- The regions are isolated.
 			- That is why you cannot see the contents of a region in others' one.
+		-
+- ## 3. Technology
+	- ### Section Introduction
 		-

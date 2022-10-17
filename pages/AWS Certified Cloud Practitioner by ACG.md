@@ -89,7 +89,11 @@ deck:: [[ACloudGuru::AWS]]
 	-
 	- ### 3.3 Exploring Compute Services: EC2 in Action
 	- ### 3.4 Exploring Compute Services: Lambda
-		-
+		- What does *Serverless* mean? #flashcard
+			- **Serverless** simply means that Amazon manages the servers for you and you cannot access them. You can pretend they don't exist.
+		- Describe the pricing model of Lambdas #flashcard
+			- **Compute time**: Pay only for compute time used. There is no charge if your code is not running
+			- ****
 		-
 			-
 			-

@@ -102,7 +102,7 @@ deck:: [[ACloudGuru::AWS]]
 			- **Always free**: Even after the free-usage tier expires, you'll have access to 1 million free Lambda calls each month.
 	- ### 3.5 Create a Lambda Function using the AWS Management Console
 		- You have to deploy your code before expecting it to succeed! #flashcard #dev-notes
-		-
+	- ### 3.6 Explo
 		-
 			-
 			-

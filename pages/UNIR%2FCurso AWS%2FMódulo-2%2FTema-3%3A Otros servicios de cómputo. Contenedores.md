@@ -1,12 +1,28 @@
 title:: UNIR/Curso AWS/Módulo-2/Tema-3: Otros servicios de cómputo. Contenedores
 
 - ## Servicios de contenedores
-	- Un contenedor es una tecnología para virtualizar parte del Sistema Operativo
-	- ![image1.png](../assets/image_1665995498959_0.png)
-	- En la siguiente imagen se puede ver cómo se podría hacer lo mismo con contenedores que con máquinas virtuales EC2 separadas.
-		- ![image2.png](../assets/image_1665995549495_0.png)
+	- ### Contenedores
+		- Un contenedor es una tecnología para virtualizar parte del Sistema Operativo
+		- ![image1.png](../assets/image_1665995498959_0.png)
+		- En la siguiente imagen se puede ver cómo se podría hacer lo mismo con contenedores que con máquinas virtuales EC2 separadas.
+			- ![image2.png](../assets/image_1665995549495_0.png)
 	- ### Amazon Elastic Container Service (Amazon ECS)
+		- Amazon ECS es un servicio administrado, rápido y escalable de contenedores
+		- Se basa en Docker
+		- Mantiene y escala los nodos e imágenes de forma automática
+		- ![image3.png](../assets/image_1665995920260_0.png)
+		-
+	- ### Amazon Elastic Kubernetes Service (Amazon EKS)
+		- Docker ejecuta contenedores en un solo host mientras que Kubernetes usa un cluster.
+		- Permite ejecutar Kubernetes en AWS
+		- Es compatible con el ecosistema de Kubernetes
+		-
+	- ### Amazon Elastic Container Registry (Amazon ECR)
+		- Permite registrar contenedores de manera que se puedan gestionar.
+		-
 		-
 - ## AWS Lambda
+	- ![image4.png](../assets/image_1665996262182_0.png)
+	- ### AWS
 - ## AWS Elastic Beanstalk
 -

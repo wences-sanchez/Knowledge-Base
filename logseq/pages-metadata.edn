@@ -1459,7 +1459,7 @@
   :block/updated-at 1665484160112}
  {:block/name "monday, 17-10-2022",
   :block/created-at 1665994470879,
-  :block/updated-at 1665995102534}
+  :block/updated-at 1665995247010}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1665484160827,
   :block/updated-at 1665484160827}
@@ -2109,7 +2109,7 @@
  {:block/name
   "unir/curso aws/módulo-2/tema-3: otros servicios de cómputo. contenedores",
   :block/created-at 1665994945426,
-  :block/updated-at 1665994945426}
+  :block/updated-at 1665995746090}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

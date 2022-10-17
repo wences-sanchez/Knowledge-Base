@@ -6,7 +6,7 @@ deck:: [[AWS::CCP::Módulo-2]]
 - ## Servicios de contenedores
 	- ### Contenedores
 		- Un contenedor es una tecnología para virtualizar parte del Sistema Operativo
-		- En informática, un [[contenedor]] es un método de virtualización del sistema operativo que permite ejecutar una aplicación y sus dependencias en un entorno controlado y aislado empaquetando todo el código y sus configuraciones. Son más pequeños que las máquinas virtuales y no contienen un sistema operativo completo, sino que comparten un sistema operativo virtualizado y se ejecutan como procesos de recursos aislados.
+		- En informática, un [[contenedor]] es un método de virtualización del sistema operativo que permite ejecutar una **aplicación** y sus **dependencias** en un entorno controlado y aislado empaquetando todo el código y sus **configuraciones**. Son **más pequeños** que las máquinas virtuales y no contienen un sistema operativo completo, sino que **comparten** un sistema operativo virtualizado y **se ejecutan como procesos** de recursos aislados.
 		- Podríamos lanzar instancias EC2 e instalar Docker en cada instancia.
 			- Sin embargo, esto fuerza a que tengamos que administrar la instancia, así como Docker
 			- AWS nos ofrece un conjunto de servicios de contenedores para simplificar la administración.
@@ -15,7 +15,7 @@ deck:: [[AWS::CCP::Módulo-2]]
 		- En la siguiente imagen se puede ver cómo se podría hacer lo mismo con contenedores que con máquinas virtuales EC2 separadas.
 			- ![image2.png](../assets/image_1665995549495_0.png)
 	- ### Amazon Elastic Container Service (Amazon ECS)
-		- Amazon ECS es un servicio administrado, rápido y escalable de contenedores
+		- [[Amazon ECS]] es un servicio administrado, rápido y escalable de contenedores
 		- Ejecuta los contenedores en un cluster de EC2
 		- Cada cluster es un grupo de instancias de EC2 y cada una es un agente de contenedor que se puede gestionar.
 		- Se basa en Docker
@@ -23,12 +23,12 @@ deck:: [[AWS::CCP::Módulo-2]]
 		- Mantiene y escala los nodos e imágenes de forma automática
 		- ![image3.png](../assets/image_1665995920260_0.png)
 		-
-	- ### Amazon Elastic Kubernetes Service (Amazon EKS)
+	- ### Amazon Elastic Kubernetes Service ([[Amazon EKS]])
 		- Docker ejecuta contenedores en un solo host mientras que Kubernetes usa un cluster.
 		- Permite ejecutar Kubernetes en AWS
 		- Es compatible con el ecosistema de Kubernetes
 		-
-	- ### Amazon Elastic Container Registry (Amazon ECR)
+	- ### Amazon Elastic Container Registry ([[Amazon ECR]])
 		- Permite registrar contenedores de manera que se puedan gestionar.
 		- Registro de contenedores de Docker administrado que facilita las tareas de almacenamiento, administración e implementación de imágenes de contenedores Docker.
 		-

@@ -106,7 +106,10 @@ deck:: [[ACloudGuru::AWS]]
 		- What is the use of containers? #flashcard
 			- To make our apps capable of executing again and again on different environments without worrying of machine specific configurations
 		- #### AWS Fargate
-		-
+			- Fargate allows you to manage containers.
+			- It scales automatically and is **[[serverless]]** (means that you don't worry about provisioning, configuring or scaling servers)
+		- #### Amazon Lightsail
+			- It's similar
 			-
 			-
 		-

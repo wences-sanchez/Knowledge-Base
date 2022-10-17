@@ -12,4 +12,8 @@ tags:: UNIR, AWS
 -
 - ## Tema 2: Amazon Elastic Compute Cloud (EC2)
 	- ### [[UNIR/Curso AWS/Módulo-2/Tema-2: Amazon Elastic Compute Cloud(EC2)]]
-	-
+-
+- ## Tema 3: Otros servicios de cómputo. Contenedores
+	- ### [[UNIR/Curso AWS/Módulo-2/Tema-3: Otros servicios de cómputo. Contenedores]]
+-
+-

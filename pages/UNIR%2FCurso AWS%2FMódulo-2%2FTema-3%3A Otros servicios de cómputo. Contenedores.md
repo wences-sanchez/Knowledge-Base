@@ -3,12 +3,18 @@ title:: UNIR/Curso AWS/Módulo-2/Tema-3: Otros servicios de cómputo. Contenedor
 - ## Servicios de contenedores
 	- ### Contenedores
 		- Un contenedor es una tecnología para virtualizar parte del Sistema Operativo
+		- En informática, los contenedores son un método de virtualización del sistema operativo que permite ejecutar una aplicación y sus dependencias en un entorno controlado y aislado empaquetando todo el código y sus configuraciones. Son más pequeños que las máquinas virtuales y no contienen un sistema operativo completo, sino que comparten un sistema operativo virtualizado y se ejecutan como procesos de recursos aislados.
+		- Podríamos lanzar instancias EC2 e instalar Docker en cada instancia.
+			- Sin embargo, esto fuerza a que tengamos que administrar la instancia, así como Docker
+			- AWS nos ofrece un conjunto de servicios de contenedores para simplificar la administración.
+			-
 		- ![image1.png](../assets/image_1665995498959_0.png)
 		- En la siguiente imagen se puede ver cómo se podría hacer lo mismo con contenedores que con máquinas virtuales EC2 separadas.
 			- ![image2.png](../assets/image_1665995549495_0.png)
 	- ### Amazon Elastic Container Service (Amazon ECS)
 		- Amazon ECS es un servicio administrado, rápido y escalable de contenedores
 		- Se basa en Docker
+		- Es compatible con Elastic Load Balancing, grupos de seguridad y volúmenes y roles.
 		- Mantiene y escala los nodos e imágenes de forma automática
 		- ![image3.png](../assets/image_1665995920260_0.png)
 		-

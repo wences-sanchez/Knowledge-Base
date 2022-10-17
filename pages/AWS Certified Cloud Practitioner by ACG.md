@@ -47,6 +47,7 @@ deck:: [[ACloudGuru::AWS]]
 			- Secure Shell (SSH)
 			- EC2 Instance Connect (EIC)
 				- It removes the need to manage SSH keys
+				- With EC2 Instance Connect, you use AWS Identity and Access Management (IAM) policies and principals to control SSH access to your instances, removing the need to share and manage SSH keys.
 			- AWS Systems Manager
 				- Allows to manage your EC2 instances via a web browser or the AWS CLI.
 				- AWS Systems Manager es una solución segura de administración integral para entornos híbridos en la nube.

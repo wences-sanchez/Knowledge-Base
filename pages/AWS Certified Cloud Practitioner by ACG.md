@@ -487,6 +487,13 @@ deck:: [[ACloudGuru::AWS]]
 			- Connects your on-premises data center to AWS
 			- Supports a **hybrid** environment
 				- And it's cheaper than *Direct Connect*!
+			- ![image.png](../assets/image_1666110993026_0.png)
+			-
+		- #### API Gateway
+			- **API Gateway** allows you to build and manages APIs.
+			- **Share** data between systems
+			- Integrate with services like **Lambda**
+			- ![image.png](../assets/image_1666111149539_0.png)
 			-
 			-
 -

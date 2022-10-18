@@ -140,11 +140,11 @@ deck:: [[ACloudGuru::AWS]]
 			- You can use S3 access logs to track the access to your buckets and objects.
 			- S3 is a **regional** service, but bucket names need to be globally unique.
 		- #### Data Accessibility
+		  collapsed:: true
 			- **Durability** answers the question: *Will my data be there tomorrow?*
 			- **Availability** answers the question: *How quickly can I access my data? Can I have it right now?*
 			- This is achievable becasue data stored on a S3 bucket inside a region is replicate acoss multiple servers
 		- #### S3 Storage Classes
-		  collapsed:: true
 			- #### S3 Standard
 				- General-purpose storage
 				- Data stored across multiple AZs
@@ -155,10 +155,23 @@ deck:: [[ACloudGuru::AWS]]
 				- Uses Machine Learning to automate cost savings
 				- Data stored across mutliple AZs
 				- Recommended for: *data with unknown or changing access pattern*
+			- #### S3 Standard-Infrequent Access (IA)
+				- For data accessed less frequently but requires rapid access
+				- Data stored acrosss multiple AZs
+				- Cheaper than *S3 Standard*
+				- Recommended for: *long-lived data or data infrequentlly accessed but needed in milliseconds*
+			- #### S3 One Zone-Infrequent Access (IA)
+				- Like *S3 Standard-IA* but data stored in a single AZ
+				- Costs 20% less than *S3 Standard-IA*
+				- Data sotored in this storage class can be lost
+				- Recommended for: *re-creatable data which it's infrequently accessed and with no essential durability*
+			- ####
+			-
 				-
 			-
 			-
 		- #### Flashcards
+		  collapsed:: true
 			- How is S3 structured? #flashcard
 				- Objects are stored in buckets
 					- Objects = files
@@ -171,7 +184,10 @@ deck:: [[ACloudGuru::AWS]]
 				- You can enable versioning to create multiple version of your file in order to protect against accidental deletion and to use a previous version.
 				- You can use S3 access logs to track the access to your buckets and objects.
 				- S3 is a **regional** service, but bucket names need to be globally unique.
-			- What do *durability* and *availability* mean
+			- What do *durability* and *availability* mean? #flashcard
+				- **Durability** answers the question: *Will my data be there tomorrow?*
+				- **Availability** answers the question: *How quickly can I access my data? Can I have it right now?*
+				- This is achievable becasue data stored on a S3 bucket inside a region is replicate acoss multiple servers
 		-
 		-
 		-

@@ -102,7 +102,9 @@ deck:: [[ACloudGuru::AWS]]
 			- **Always free**: Even after the free-usage tier expires, you'll have access to 1 million free Lambda calls each month.
 	- ### 3.5 Create a Lambda Function using the AWS Management Console
 		- You have to deploy your code before expecting it to succeed! #flashcard #dev-notes
+		  id:: 634e5c5a-77b3-481c-b335-8a2b65973134
 	- ### 3.6 Exploring Compute Services: Additional Compute Services #flashcard
+	  id:: 634e5c5a-ca93-414b-9040-2dffceb8b53e
 		- What is the use of containers?
 			- To make our apps capable of executing again and again on different environments without worrying of machine specific configurations
 		- #### AWS Fargate
@@ -199,6 +201,7 @@ deck:: [[ACloudGuru::AWS]]
 			- Mobile Apps (to upload files)
 		- #### Flashcards
 			- How is S3 structured? #flashcard
+			  id:: 634e799a-34dd-4312-a366-76aa561a82b7
 			  collapsed:: true
 				- Objects are stored in buckets
 					- Objects = files
@@ -207,17 +210,20 @@ deck:: [[ACloudGuru::AWS]]
 				- Objects can be public or private
 				- You can upload objects via the console, the CLI or with the SDKs.
 			- How can you set security in S3 and manage its historical data? #flashcard
+			  id:: 634e79d5-7747-44cb-9179-bdecb794e474
 			  collapsed:: true
 				- You can set security at the bucket level or individual object level using ACLs, bucket policies or access point policies.
 				- You can enable versioning to create multiple version of your file in order to protect against accidental deletion and to use a previous version.
 				- You can use S3 access logs to track the access to your buckets and objects.
 				- S3 is a **regional** service, but bucket names need to be globally unique.
 			- What do *durability* and *availability* mean? #flashcard
+			  id:: 634e7a70-f3a2-4c7f-bbb5-03c854d4bb82
 			  collapsed:: true
 				- **Durability** answers the question: *Will my data be there tomorrow?*
 				- **Availability** answers the question: *How quickly can I access my data? Can I have it right now?*
 				- This is achievable becasue data stored on a S3 bucket inside a region is replicate acoss multiple servers
 			- Mention and explain a little of storage classes in AWS. #flashcard
+			  id:: 634e90ed-c6d6-4664-905d-e5a7a5743532
 			  collapsed:: true
 				- #### S3 Standard
 					- General-purpose storage
@@ -315,6 +321,7 @@ deck:: [[ACloudGuru::AWS]]
 			- Create a backup plan that includes frequency and retention (how quickly and how long)
 		- #### Flashcards
 			- Mention the three ways of storage in a EC2 instance #flashcard
+			  id:: 634e918d-056f-4823-aad4-1bd08203d5df
 			  collapsed:: true
 				- #### EC2 Storage
 					- EC2 supports several storage options for your isntances
@@ -347,6 +354,7 @@ deck:: [[ACloudGuru::AWS]]
 					- Recommended for:
 						- Main directories for business-critical apps
 			- Mention a couple of optional ways to deal with data through AWS services #flashcard
+			  id:: 634e9205-f6c5-45f6-b593-512e16fec4f4
 			  collapsed:: true
 				- #### Amazon Elastic File System (EFS)
 					- **EFS** is a serverless network file system for sharing files

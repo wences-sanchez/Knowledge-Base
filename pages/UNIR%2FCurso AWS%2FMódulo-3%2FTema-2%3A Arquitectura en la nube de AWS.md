@@ -10,7 +10,7 @@ deck:: [[AWS::CCP::Módulo-3]]
 		- Resilientes
 		- Eficaces
 	- Es una forma de brindar prácticas recomendadas que se desarrollaron a partir de las lecciones aprendidas a través de al revisión de arquitecturas de clientes.
-	- ### Pilares
+	- ### Pilares #flashcard
 		- Excelencia operativa
 			- Aportar valor de negocio
 			- Se recomienda que todo esté como código
@@ -36,14 +36,14 @@ deck:: [[AWS::CCP::Módulo-3]]
 	- ### AWS Well-Architected Tool
 		- Compara lo que usamos con las buenas prácticas de AWS
 		-
-- ## Fiabilidad y disponibilidad
+- ## Fiabilidad y disponibilidad #flashcard
 	- ### Fiabilidad
 		- Que proporcione lo pedido cuando el usuario lo solicite
 		- Probabilidad de que todo el sistema funcione según lo previsto durante un periodo especificado.
 	- ### Disponibilidad
 		- Cuánto tiempo (porcentaje) está funcionando un sistema correctamente realizando las operaciones que se esperan de él.
 		- Un sistema de alta disponibilidad es el que puede soportar una medida de degradación sin dejar de estar disponible.
-- ## AWS Trusted Advisor
+- ## AWS Trusted Advisor #flashcard
 	- Es una herramienta a modo de panel con consejos y alertas de nuestros servicios
 	- Tiene una capa gratuita con funcionalidades básicas.
 	-

@@ -13,8 +13,21 @@ deck:: [[AWS::CCP::Módulo-3]]
 	- Servicio de base de datos NoSQL rápido y flexible para cualquier escala
 	- No hay que preocuparse del servidor subyacente
 	- Las claves de DynamoDB pueden ser únicas o compuestas.
-		-
+		- Clave de particion.
+		- Claves de partición y de ordenación
 - ## Amazon Redshift
+	- Para Big Data. Escala bien.
+	- Permite consutas SQL en paralelo
+	- Es administrado
+	- Es de tipo SaaS
+		- Escalado de la capacidad del almacenamiento de datos a medida que crece la demanda.
+		- Incorporación de la funcionalidad de análisis en las aplicaciones
+		- Reducción de los costos de software y hardware.
 - ## Amazon Aurora
+	- Base de datos relacional de clase empresarial
+	- Compatibilidad con MySQL y PostgreSQL
+	- Es Serverless
+	- Tiene HA
+	-
 -
 -

@@ -252,6 +252,9 @@
  {:block/name "aws::ccp::módulo-2",
   :block/created-at 1665994484159,
   :block/updated-at 1665994484159}
+ {:block/name "aws::ccp::módulo-3",
+  :block/created-at 1666080614663,
+  :block/updated-at 1666080614663}
  {:block/name "aws::modulo-2",
   :block/created-at 1665484016230,
   :block/updated-at 1665484016230}
@@ -2030,7 +2033,7 @@
   :block/updated-at 1665484160091}
  {:block/name "tuesday, 18-10-2022",
   :block/created-at 1666079824236,
-  :block/updated-at 1666080164618}
+  :block/updated-at 1666080650080}
  {:block/name "tuesday, 23-08-2022",
   :block/created-at 1665484159983,
   :block/updated-at 1665484159983}
@@ -2101,6 +2104,13 @@
   "unir/curso aws/módulo-2/tema-3: otros servicios de cómputo. contenedores",
   :block/created-at 1665994945426,
   :block/updated-at 1665998497864}
+ {:block/name "unir/curso aws/módulo-3",
+  :block/created-at 1666080489598,
+  :block/updated-at 1666080572196}
+ {:block/name
+  "unir/curso aws/módulo-3/tema-1: servicios de bases de datos",
+  :block/created-at 1666080572179,
+  :block/updated-at 1666081539917}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

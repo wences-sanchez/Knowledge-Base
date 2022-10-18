@@ -1047,8 +1047,8 @@
   :block/created-at 1665484209787,
   :block/updated-at 1665484209787}
  {:block/name "hybrid",
-  :block/created-at 1666024996622,
-  :block/updated-at 1666024996622}
+  :block/created-at 1666079835139,
+  :block/updated-at 1666079835139}
  {:block/name "hyperskill.org",
   :block/created-at 1665484173965,
   :block/updated-at 1665484173965}
@@ -1177,8 +1177,8 @@
   :block/created-at 1665484256317,
   :block/updated-at 1665484256317}
  {:block/name "index website",
-  :block/created-at 1666002335344,
-  :block/updated-at 1666002370318}
+  :block/created-at 1666079833315,
+  :block/updated-at 1666079833315}
  {:block/name "informática en la nube",
   :block/created-at 1664874749343,
   :block/updated-at 1664874749343}
@@ -1791,8 +1791,8 @@
   :block/created-at 1665484237685,
   :block/updated-at 1665484237685}
  {:block/name "serverless",
-  :block/created-at 1666024070372,
-  :block/updated-at 1666024070372}
+  :block/created-at 1666079835134,
+  :block/updated-at 1666079835134}
  {:block/name "siddhartha (highlights)",
   :block/created-at 1665484240230,
   :block/updated-at 1665484240230}
@@ -2028,6 +2028,9 @@
  {:block/name "tuesday, 16-08-2022",
   :block/created-at 1665484160091,
   :block/updated-at 1665484160091}
+ {:block/name "tuesday, 18-10-2022",
+  :block/created-at 1666079824236,
+  :block/updated-at 1666080164618}
  {:block/name "tuesday, 23-08-2022",
   :block/created-at 1665484159983,
   :block/updated-at 1665484159983}

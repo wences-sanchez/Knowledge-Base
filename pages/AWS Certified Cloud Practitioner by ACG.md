@@ -434,9 +434,26 @@ deck:: [[ACloudGuru::AWS]]
 			- **Launch** resources like EC2 instances inside the VPC
 			- Isolate and **protect** resources
 			- A VPC spans AZs in a Region
+			- An **internet Gateway** allows traffic to the public internet and peering connects 2 VPCs together.
 			- ![image.png](../assets/image_1666105320938_0.png)
 		- #### VPC Peering Conection
 			- **Peering** facilitates the transfer of data in a secure manner
 			- ![image.png](../assets/image_1666105451426_0.png)
 		- #### Flashcards
-			- Explain a little what is a VPC and its contents
+			- Explain a little what is a VPC and its contents (including its access) #flashcard
+			  collapsed:: true
+				- #### The Bigger Picture
+					- **Networking** connects computers together and allows for the sharing of data and applications, around the globe, in a **secure** manner using virtual routers, firewalls, and network management services.
+				- #### Amazon Virtual Private Cloud (VPC)
+					- **VPC** is a foundational service that allows you to create a secure private network in the AWS cloud where you launch your resources
+					- **Private** virtual network
+					- **Launch** resources like EC2 instances inside the VPC
+					- Isolate and **protect** resources
+					- A VPC spans AZs in a Region
+					- An **internet Gateway** allows traffic to the public internet and peering connects 2 VPCs together.
+					- ![image.png](../assets/image_1666105320938_0.png)
+				- #### VPC Peering Conection
+					- **Peering** facilitates the transfer of data in a secure manner
+					- ![image.png](../assets/image_1666105451426_0.png)
+	- ### 3.12 Launch an EC2 Instance in a Virtual Private cloud (VPC)
+		-

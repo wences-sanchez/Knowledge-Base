@@ -192,13 +192,19 @@ deck:: [[ACloudGuru::AWS]]
 		- #### Use Cases in the real world
 			- Static websites
 			- Data archive
+			- Analytics systems with services like Redshift or Athena
+			- Mobile Apps (to upload files)
+	- ### 3.8 Leveraging Storage Services: S3 in Action
+	- ### 3.9 Leveraging Storage Services: Additional Storage Services
+		- #### EC2 Storage
+			- EC2 supports several storage options for your isntances
+				- EBS
+				- EFS
+		- ####
+		-
 			-
-			-
-			- ####
-			-
-				-
-			-
-			-
+		-
+		-
 		- #### Flashcards
 		  collapsed:: true
 			- How is S3 structured? #flashcard

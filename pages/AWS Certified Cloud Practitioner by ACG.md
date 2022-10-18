@@ -456,4 +456,4 @@ deck:: [[ACloudGuru::AWS]]
 					- **Peering** facilitates the transfer of data in a secure manner
 					- ![image.png](../assets/image_1666105451426_0.png)
 	- ### 3.12 Launch an EC2 Instance in a Virtual Private cloud (VPC)
-		- There is a default route table for the VPC. Don't use that one because it's
+		- There is a default route table for the VPC. Don't use that one because every VPC that we create is associated by default with that *main route table*. Therefore, the main route table shouldn't allow traffic out to the public internet, so we'll create a new one specifically for public internet traffic.

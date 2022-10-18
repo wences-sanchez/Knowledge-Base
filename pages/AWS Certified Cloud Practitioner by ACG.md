@@ -381,7 +381,19 @@ deck:: [[ACloudGuru::AWS]]
 			- CloudFront makes content available globally or restricts it based on location
 			- Speeds up delivery of static and dynamic web content
 			- Uses edge locations to cache content
-		- #### Use Cases
-			- S3 static websites
-			- Prevent attacks (like DDoS)
-			- IP address blocking (prevent )
+			- ![image.png](../assets/image_1666104733175_0.png)
+			- #### Use Cases
+				- S3 static websites
+				- Prevent attacks (like DDoS)
+				- IP address blocking (prevent users in certain countries from accessing content)
+		- #### Amazon Global Accelerator
+			- **Global Accelerator** sends your users through the AWS global network when accessing your content, speeding up delivery.
+			- Improves latency and availability of single-region applications
+			- Sends traffic through the AWS global network infrastructure
+		- #### Amazon S3 Transfer Acceleration
+			- **S3 Transfer Acceleration** improves content uploads and downloads to and from S3 buckets.
+			- Fast transfer of files over long distances
+			- Uses CloudFront's globally distributed edge locations.
+		-
+	- ### 3.11 Understanding Networking Services: VPC and Subcomponents
+		-

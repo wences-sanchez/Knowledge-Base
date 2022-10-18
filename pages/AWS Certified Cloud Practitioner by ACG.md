@@ -353,7 +353,7 @@ deck:: [[ACloudGuru::AWS]]
 					- **More expensive** than *EBS*
 					- Recommended for:
 						- Main directories for business-critical apps
-			- Mention a couple of optional ways to deal with data through AWS services #flashcard
+			- Mention three optional ways to deal with data (share, save it wherever, protect it) through AWS services #flashcard
 			  id:: 634e9205-f6c5-45f6-b593-512e16fec4f4
 			  collapsed:: true
 				- #### Amazon Elastic File System (EFS)
@@ -372,6 +372,10 @@ deck:: [[ACloudGuru::AWS]]
 						- Moving backups to the cloud
 						- Reducing costs for hybrid cloud storage
 						- Low latency access to data
+				- #### AWS Backup
+					- AWS Backup helps you manage data backups across multiple AWS services
+					- Integrates with EC2, EBS, EFS and more
+					- Create a backup plan that includes frequency and retention (how quickly and how long)
 		-
 	- ### 3.10 Understanding Content Delivery Services
 		- #### The bigger picture
@@ -394,7 +398,33 @@ deck:: [[ACloudGuru::AWS]]
 			- **S3 Transfer Acceleration** improves content uploads and downloads to and from S3 buckets.
 			- Fast transfer of files over long distances
 			- Uses CloudFront's globally distributed edge locations.
-		-
+	-
+		- #### Flashcards
+		  collapsed:: true
+			- What is Amazon CloudFront and what are its use cases? #flashcard
+			  collapsed:: true
+				- #### The bigger picture
+					- We need content delivery because there are so many requests for almost everything and the idea of a near server which could bring us those contents is awesome!
+					- A CDN is a mechanism to deliver content quickly and efficiently based on geographic location
+				- #### Amazon CloudFront
+					- CloudFront makes content available globally or restricts it based on location
+					- Speeds up delivery of static and dynamic web content
+					- Uses edge locations to cache content
+					- ![image.png](../assets/image_1666104733175_0.png)
+					- #### Use Cases
+						- S3 static websites
+						- Prevent attacks (like DDoS)
+						- IP address blocking (prevent users in certain countries from accessing content)
+			- Which uses do Amazon Global Accelerator and Amazon S3 Transfer Acceleration have? #flashcard
+			  collapsed:: true
+				- #### Amazon Global Accelerator
+					- **Global Accelerator** sends your users through the AWS global network when accessing your content, speeding up delivery.
+					- Improves latency and availability of single-region applications
+					- Sends traffic through the AWS global network infrastructure
+				- #### Amazon S3 Transfer Acceleration
+					- **S3 Transfer Acceleration** improves content uploads and downloads to and from S3 buckets.
+					- Fast transfer of files over long distances
+					- Uses CloudFront's globally distributed edge locations.
 	- ### 3.11 Understanding Networking Services: VPC and Subcomponents
 		- #### The Bigger Picture
 			- **Networking** connects computers together and allows for the sharing of data and applications, around the globe, in a **secure** manner using virtual routers, firewalls, and network management services.
@@ -408,4 +438,5 @@ deck:: [[ACloudGuru::AWS]]
 		- #### VPC Peering Conection
 			- **Peering** facilitates the transfer of data in a secure manner
 			- ![image.png](../assets/image_1666105451426_0.png)
-			-
+		- #### Flashcards
+			- Explain a little what is a VPC and its contents

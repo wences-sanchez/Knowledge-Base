@@ -470,7 +470,25 @@ deck:: [[ACloudGuru::AWS]]
 			- Performs health checks on AWS resources
 			- Supports hybrid cloud architectures
 		- #### AWS Direct Connect
-			- **Direct Connect** is a dedicated physical ne
+			- **Direct Connect** is a dedicated **physical** network connection from your on-premises data center to AWS
+			- It supports hybrid cloud
+			- ![image.png](../assets/image_1666110418988_0.png)
+			- #### Use cases of AWS Direct Connect
+				- 1. Large datasets
+					- Transfer large datasets to AWS
+				- 2. Business-critical data
+					- Transfer internal data directly to AWS, bypassing your internet service provider
+				- 3. Hybrid model
+					- Build hybrid environments
+		- #### AWS VPN
+			- **Site-to-Site VPN** creates a secure connection between your internal networks and your AWS VPCs.
+			- It's similar to **Direct Connect**, but data travels over the **public internet**
+			- Data is automatically **encrypted**
+			- Connects your on-premises data center to AWS
+			- Supports a **hybrid** environment
+				- And it's cheaper than *Direct Connect*!
+			-
+			-
 -
 -
 -

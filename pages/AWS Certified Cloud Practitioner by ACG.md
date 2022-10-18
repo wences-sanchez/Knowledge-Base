@@ -185,7 +185,7 @@ deck:: [[ACloudGuru::AWS]]
 				- Recommended for: *long-term data archival accessed once or twice a year, for regulatory compliance requirements*
 			- #### S3 Outposts
 				- Provides object storage on-premises
-				- A singel storage class
+				- A single storage class
 				- Store data across multiple devices and servers
 				- Recommended for: *Data that needs to be kept local or demanding performance*
 		-

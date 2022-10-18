@@ -396,4 +396,16 @@ deck:: [[ACloudGuru::AWS]]
 			- Uses CloudFront's globally distributed edge locations.
 		-
 	- ### 3.11 Understanding Networking Services: VPC and Subcomponents
-		-
+		- #### The Bigger Picture
+			- **Networking** connects computers together and allows for the sharing of data and applications, around the globe, in a **secure** manner using virtual routers, firewalls, and network management services.
+		- #### Amazon Virtual Private Cloud (VPC)
+			- **VPC** is a foundational service that allows you to create a secure private network in the AWS cloud where you launch your resources
+			- **Private** virtual network
+			- **Launch** resources like EC2 instances inside the VPC
+			- Isolate and **protect** resources
+			- A VPC spans AZs in a Region
+			- ![image.png](../assets/image_1666105320938_0.png)
+		- #### VPC Peering Conection
+			- **Peering** facilitates the transfer of data in a secure manner
+			- ![image.png](../assets/image_1666105451426_0.png)
+			-

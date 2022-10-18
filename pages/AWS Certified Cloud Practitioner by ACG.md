@@ -164,7 +164,36 @@ deck:: [[ACloudGuru::AWS]]
 				- Like *S3 Standard-IA* but data stored in a single AZ
 				- Costs 20% less than *S3 Standard-IA*
 				- Data sotored in this storage class can be lost
+				- You have eleven 9's of durability but only 99.5% of availability.
 				- Recommended for: *re-creatable data which it's infrequently accessed and with no essential durability*
+			- #### S3 Glacier
+				- Long-term data storage and archival with a very low cost
+				- Data retrieval takes longer
+				- 3 retrieval options:
+					- 1-5 minutes
+					- 3-5 hours
+					- 5-12 hours
+				- Data stored  across multiple AZs
+				- Recommended for: *long-term backups and cheaper storage options*
+			- #### S3 Glacier Deep Archive
+				- Like *S3 Glacier* but longer access times
+				- 2 retrieval options:
+					- 12 hours
+					- 48 hours
+				- Cheapest of all S3 options
+				- Data stored across multiple AZs
+				- Recommended for: *long-term data archival accessed once or twice a year, for regulatory compliance requirements*
+			- #### S3 Outposts
+				- Provides object storage on-premises
+				- A singel storage class
+				- Store data across multiple devices and servers
+				- Recommended for: *Data that needs to be kept local or demanding performance*
+		-
+		- #### Use Cases in the real world
+			- Static websites
+			- Data archive
+			-
+			-
 			- ####
 			-
 				-

@@ -16,10 +16,32 @@ deck:: [[AWS::CCP::Módulo-3]]
 			- Se recomienda que todo esté como código
 			- Comentarios
 			- Cambios frecuentes, pequeños y reversibles
-			-
-		- Seguridaed
+			- Preveer, y aprender de los errores
+		- Seguridad
+			- Proteger la información y sabe cómo se evalúa el riesgo
+			- Trazabilidad
+			- Proteger datos en tránsito y en reposo
+			- Mantener a las personas alejadas de los datos
 		- Fiabilidad
+			- Que funcionen los proyectos y que sean robustos y fiables
+			- Probar y testear
+			- Escalar horizontalmente
+			- Evitar asumir estimaciones sobre capacidad
 		- Eficacia del rendimiento
+			- Cómo usamos los recursos de AWS y que solo usemos los que necesitemos
+			- Usar arquitecturas sin servidor
+			- Experimentar a menudo
 		- Optimización de costos
+			- Cómo AWS nos guía para ahorrar costes
+	- ### AWS Well-Architected Tool
+		- Compara lo que usamos con las buenas prácticas de AWS
+		-
 - ## Fiabilidad y disponibilidad
+	- ### Fiabilidad
+		- Que proporcione lo pedido cuando se necesite
+	- ### Disponibilidad
+		- Cuánto tiempo est...
 - ## AWS Trusted Advisor
+	-
+-
+-

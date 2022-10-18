@@ -145,6 +145,7 @@ deck:: [[ACloudGuru::AWS]]
 			- **Availability** answers the question: *How quickly can I access my data? Can I have it right now?*
 			- This is achievable becasue data stored on a S3 bucket inside a region is replicate acoss multiple servers
 		- #### S3 Storage Classes
+		  collapsed:: true
 			- #### S3 Standard
 				- General-purpose storage
 				- Data stored across multiple AZs
@@ -188,8 +189,9 @@ deck:: [[ACloudGuru::AWS]]
 				- A single storage class
 				- Store data across multiple devices and servers
 				- Recommended for: *Data that needs to be kept local or demanding performance*
-		-
+			-
 		- #### Use Cases in the real world
+		  collapsed:: true
 			- Static websites
 			- Data archive
 			- Analytics systems with services like Redshift or Athena

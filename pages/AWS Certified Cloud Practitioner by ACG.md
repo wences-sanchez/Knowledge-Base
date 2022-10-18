@@ -163,7 +163,7 @@ deck:: [[ACloudGuru::AWS]]
 			- #### S3 One Zone-Infrequent Access (IA)
 				- Like *S3 Standard-IA* but data stored in a single AZ
 				- Costs 20% less than *S3 Standard-IA*
-				- Data sotored in this storage class can be lost
+				- Data stored in this storage class can be lost
 				- You have eleven 9's of durability but only 99.5% of availability.
 				- Recommended for: *re-creatable data which it's infrequently accessed and with no essential durability*
 			- #### S3 Glacier

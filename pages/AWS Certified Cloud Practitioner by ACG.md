@@ -200,6 +200,32 @@ deck:: [[ACloudGuru::AWS]]
 			- EC2 supports several storage options for your isntances
 				- EBS
 				- EFS
+				- Instance Store (without persistence)
+		- #### Amazon Elastic Block Store (EBS)
+			- **EBS** is a storage device (called a volume) that can be attached to (or removed from) your instance
+			- Data persists when the instance is not running
+			- Can only be attached to one instance in the same AZ (just like a HDD)
+			- Tied to one AZ
+			- Recommended for:
+				- Quickly accessible data
+				- Running a database on an instance
+				- Long-term data storage
+		- #### EC2 Instance Store
+			- **Instance Store** is local storage that is physically attached to the host computer and cannot be removed
+			- Storage on disks physically attached to an instance
+			- Storage is temporary since data is lost when the EC2 instance is **stopped**
+			- Faster with higher I/O speeds
+			- Recommended for:
+				- Temporary storage needs
+				- Data replicated across multiple instances
+		- #### Amazon Elastic File System (EFS)
+			- **EFS** is a serverless network file system for sharing files
+			- Similar to *Google Drive* or *Dropbox*, but for EC2 instances
+			- Only supports the Linux File System
+			- Accesible across different AZs in the same region
+			- **More expensive** than *EBS*
+			- Recommended for:
+				- Main directore
 		- ####
 		-
 			-

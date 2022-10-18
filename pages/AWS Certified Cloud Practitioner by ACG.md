@@ -124,6 +124,7 @@ deck:: [[ACloudGuru::AWS]]
 			- Dynamically provisions instances based on volume.
 			- It works with other services as AWS Fargate, Amazon EC2 or spot instances.
 	- ### 3.7 Leveraging Storage Services: S3
+	  collapsed:: true
 		- Companies collect lots of data because they need to analyze it and compare it over years.
 		- #### Amazon S3
 		  collapsed:: true
@@ -196,6 +197,78 @@ deck:: [[ACloudGuru::AWS]]
 			- Data archive
 			- Analytics systems with services like Redshift or Athena
 			- Mobile Apps (to upload files)
+		- #### Flashcards
+			- How is S3 structured? #flashcard
+			  collapsed:: true
+				- Objects are stored in buckets
+					- Objects = files
+					- Buckets = directories
+				- Essentially unlimited storage that can hold millions of objects per bucket
+				- Objects can be public or private
+				- You can upload objects via the console, the CLI or with the SDKs.
+			- How can you set security in S3 and manage its historical data? #flashcard
+			  collapsed:: true
+				- You can set security at the bucket level or individual object level using ACLs, bucket policies or access point policies.
+				- You can enable versioning to create multiple version of your file in order to protect against accidental deletion and to use a previous version.
+				- You can use S3 access logs to track the access to your buckets and objects.
+				- S3 is a **regional** service, but bucket names need to be globally unique.
+			- What do *durability* and *availability* mean? #flashcard
+			  collapsed:: true
+				- **Durability** answers the question: *Will my data be there tomorrow?*
+				- **Availability** answers the question: *How quickly can I access my data? Can I have it right now?*
+				- This is achievable becasue data stored on a S3 bucket inside a region is replicate acoss multiple servers
+			- Mention and explain a little of storage classes in AWS. #flashcard
+			  collapsed:: true
+				- #### S3 Standard
+					- General-purpose storage
+					- Data stored across multiple AZs
+					- Low latency
+					- Recommended for *frequently accessed data*
+				- #### S3 Intelligent-Tiering
+					- It automatically moves your data to the most cost-effective storage class
+					- Uses Machine Learning to automate cost savings
+					- Data stored across mutliple AZs
+					- Recommended for: *data with unknown or changing access pattern*
+				- #### S3 Standard-Infrequent Access (IA)
+					- For data accessed less frequently but requires rapid access
+					- Data stored acrosss multiple AZs
+					- Cheaper than *S3 Standard*
+					- Recommended for: *long-lived data or data infrequentlly accessed but needed in milliseconds*
+				- #### S3 One Zone-Infrequent Access (IA)
+					- Like *S3 Standard-IA* but data stored in a single AZ
+					- Costs 20% less than *S3 Standard-IA*
+					- Data stored in this storage class can be lost
+					- You have eleven 9's of durability but only 99.5% of availability.
+					- Recommended for: *re-creatable data which it's infrequently accessed and with no essential durability*
+				- #### S3 Glacier
+					- Long-term data storage and archival with a very low cost
+					- Data retrieval takes longer
+					- 3 retrieval options:
+						- 1-5 minutes
+						- 3-5 hours
+						- 5-12 hours
+					- Data stored  across multiple AZs
+					- Recommended for: *long-term backups and cheaper storage options*
+				- #### S3 Glacier Deep Archive
+					- Like *S3 Glacier* but longer access times
+					- 2 retrieval options:
+						- 12 hours
+						- 48 hours
+					- Cheapest of all S3 options
+					- Data stored across multiple AZs
+					- Recommended for: *long-term data archival accessed once or twice a year, for regulatory compliance requirements*
+				- #### S3 Outposts
+					- Provides object storage on-premises
+					- A single storage class
+					- Store data across multiple devices and servers
+					- Recommended for: *Data that needs to be kept local or demanding performance*
+					-
+			-
+			-
+			-
+			-
+			-
+				-
 	- ### 3.8 Leveraging Storage Services: S3 in Action
 	- ### 3.9 Leveraging Storage Services: Additional Storage Services
 		- #### EC2 Storage
@@ -240,33 +313,5 @@ deck:: [[ACloudGuru::AWS]]
 			- AWS Backup helps you manage data backups across multiple AWS services
 			- Integrates with EC2, EBS, EFS and more
 			- Create a backup plan that includes frequency and retention (how quickly and how long)
-			-
-		- ####
-		-
-			-
-		-
-		-
 		- #### Flashcards
-		  collapsed:: true
-			- How is S3 structured? #flashcard
-				- Objects are stored in buckets
-					- Objects = files
-					- Buckets = directories
-				- Essentially unlimited storage that can hold millions of objects per bucket
-				- Objects can be public or private
-				- You can upload objects via the console, the CLI or with the SDKs.
-			- How can you set security in S3 and manage its historical data? #flashcard
-				- You can set security at the bucket level or individual object level using ACLs, bucket policies or access point policies.
-				- You can enable versioning to create multiple version of your file in order to protect against accidental deletion and to use a previous version.
-				- You can use S3 access logs to track the access to your buckets and objects.
-				- S3 is a **regional** service, but bucket names need to be globally unique.
-			- What do *durability* and *availability* mean? #flashcard
-				- **Durability** answers the question: *Will my data be there tomorrow?*
-				- **Availability** answers the question: *How quickly can I access my data? Can I have it right now?*
-				- This is achievable becasue data stored on a S3 bucket inside a region is replicate acoss multiple servers
-		-
-		-
-		-
-		-
-		-
-			-
+			- Mention the three

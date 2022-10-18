@@ -124,7 +124,22 @@ deck:: [[ACloudGuru::AWS]]
 			- Dynamically provisions instances based on volume.
 			- It works with other services as AWS Fargate, Amazon EC2 or spot instances.
 	- ### 3.7 Leveraging Storage Services: S3
-		-
+		- Companies collect lots of data because they need to analyze it and compare it over years.
+		- #### Amazon S3
+			- Objects are stored in buckets
+				- Objects = files
+				- Buckets = directories
+			- Essentially unlimited storage that can hold millions of objects per bucket
+			- Objects can be public or private
+			- You can upload objects via the console, the CLI or with the SDKs.
+		- #### A Closer look
+			- You can set security at the bucket level or individual object level using ACLs, bucket policies or access point policies.
+			- You can enable versioning to create multiple version of your file in order to protect against accidental deletion and to use a previous version.
+			- You can use S3 access logs to track the access to your buckets and objects.
+			- S3 is a **regional** service, but bucket names need to be globally unique.
+		- #### Data Accessibility
+			- **Durability**
+			-
 		-
 		-
 		-

@@ -138,7 +138,12 @@ deck:: [[ACloudGuru::AWS]]
 			- You can use S3 access logs to track the access to your buckets and objects.
 			- S3 is a **regional** service, but bucket names need to be globally unique.
 		- #### Data Accessibility
-			- **Durability**
+			- **Durability** answers the question: *Will my data be there tomorrow?*
+			- **Availability** answers the question: *How quickly can I access my data? Can I have it right now?*
+			- This is achievable becasue data stored on a S3 bucket inside a region is replicate acoss multiple servers
+		- #### S3 Storage Classes
+			-
+			-
 			-
 		-
 		-

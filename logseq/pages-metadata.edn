@@ -28,6 +28,9 @@
  {:block/name " -x /usr/bin/yum ",
   :block/created-at 1665484164409,
   :block/updated-at 1665484164409}
+ {:block/name " 3. technology",
+  :block/created-at 1666085816794,
+  :block/updated-at 1666085816794}
  {:block/name "!",
   :block/created-at 1665484162677,
   :block/updated-at 1665484162677}
@@ -234,7 +237,7 @@
   :block/updated-at 1665484163298}
  {:block/name "aws certified cloud practitioner by acg",
   :block/created-at 1665484163206,
-  :block/updated-at 1666085512415}
+  :block/updated-at 1666086380965}
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1665484163116,

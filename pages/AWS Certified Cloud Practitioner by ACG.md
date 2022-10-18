@@ -126,6 +126,7 @@ deck:: [[ACloudGuru::AWS]]
 	- ### 3.7 Leveraging Storage Services: S3
 		- Companies collect lots of data because they need to analyze it and compare it over years.
 		- #### Amazon S3
+		  collapsed:: true
 			- Objects are stored in buckets
 				- Objects = files
 				- Buckets = directories
@@ -133,6 +134,7 @@ deck:: [[ACloudGuru::AWS]]
 			- Objects can be public or private
 			- You can upload objects via the console, the CLI or with the SDKs.
 		- #### A Closer look
+		  collapsed:: true
 			- You can set security at the bucket level or individual object level using ACLs, bucket policies or access point policies.
 			- You can enable versioning to create multiple version of your file in order to protect against accidental deletion and to use a previous version.
 			- You can use S3 access logs to track the access to your buckets and objects.
@@ -142,10 +144,34 @@ deck:: [[ACloudGuru::AWS]]
 			- **Availability** answers the question: *How quickly can I access my data? Can I have it right now?*
 			- This is achievable becasue data stored on a S3 bucket inside a region is replicate acoss multiple servers
 		- #### S3 Storage Classes
+		  collapsed:: true
+			- #### S3 Standard
+				- General-purpose storage
+				- Data stored across multiple AZs
+				- Low latency
+				- Recommended for *frequently accessed data*
+			- #### S3 Intelligent-Tiering
+				- It automatically moves your data to the most cost-effective storage class
+				- Uses Machine Learning to automate cost savings
+				- Data stored across mutliple AZs
+				- Recommended for: *data with unknown or changing access pattern*
+				-
 			-
 			-
-			-
-		-
+		- #### Flashcards
+			- How is S3 structured? #flashcard
+				- Objects are stored in buckets
+					- Objects = files
+					- Buckets = directories
+				- Essentially unlimited storage that can hold millions of objects per bucket
+				- Objects can be public or private
+				- You can upload objects via the console, the CLI or with the SDKs.
+			- How can you set security in S3 and manage its historical data? #flashcard
+				- You can set security at the bucket level or individual object level using ACLs, bucket policies or access point policies.
+				- You can enable versioning to create multiple version of your file in order to protect against accidental deletion and to use a previous version.
+				- You can use S3 access logs to track the access to your buckets and objects.
+				- S3 is a **regional** service, but bucket names need to be globally unique.
+			- What do *durability* and *availability* mean
 		-
 		-
 		-

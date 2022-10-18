@@ -455,5 +455,22 @@ deck:: [[ACloudGuru::AWS]]
 				- #### VPC Peering Conection
 					- **Peering** facilitates the transfer of data in a secure manner
 					- ![image.png](../assets/image_1666105451426_0.png)
+			-
 	- ### 3.12 Launch an EC2 Instance in a Virtual Private cloud (VPC)
 		- There is a default route table for the VPC. Don't use that one because every VPC that we create is associated by default with that *main route table*. Therefore, the main route table shouldn't allow traffic out to the public internet, so we'll create a new one specifically for public internet traffic.
+		-
+	- ### 3.13 Understanding Networking Services: Additional Networking Services
+		- #### What is DNS?
+			- The address of the computer is called IP address.
+			- A Domain Name is easier to remember than the IP.
+			- **DNS** (which stands for Domain Name System) directs internet traffic by connecting domain names with web servers.
+		- #### Amazon Route 53
+			- **Route 53** is a DNS service that routes users to applications
+			- Domain name registration
+			- Performs health checks on AWS resources
+			- Supports hybrid cloud architectures
+		- #### AWS Direct Connect
+			- **Direct Connect** is a dedicated physical ne
+-
+-
+-

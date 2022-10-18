@@ -38,10 +38,14 @@ deck:: [[AWS::CCP::Módulo-3]]
 		-
 - ## Fiabilidad y disponibilidad
 	- ### Fiabilidad
-		- Que proporcione lo pedido cuando se necesite
+		- Que proporcione lo pedido cuando el usuario lo solicite
+		- Probabilidad de que todo el sistema funcione según lo previsto durante un periodo especificado.
 	- ### Disponibilidad
-		- Cuánto tiempo est...
+		- Cuánto tiempo (porcentaje) está funcionando un sistema correctamente realizando las operaciones que se esperan de él.
+		- Un sistema de alta disponibilidad es el que puede soportar una medida de degradación sin dejar de estar disponible.
 - ## AWS Trusted Advisor
+	- Es una herramienta a modo de panel con consejos y alertas de nuestros servicios
+	- Tiene una capa gratuita con funcionalidades básicas.
 	-
 -
 -

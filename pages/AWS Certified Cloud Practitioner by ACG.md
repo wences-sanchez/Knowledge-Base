@@ -372,3 +372,16 @@ deck:: [[ACloudGuru::AWS]]
 						- Moving backups to the cloud
 						- Reducing costs for hybrid cloud storage
 						- Low latency access to data
+		-
+	- ### 3.10 Understanding Content Delivery Services
+		- #### The bigger picture
+			- We need content delivery because there are so many requests for almost everything and the idea of a near server which could bring us those contents is awesome!
+			- A CDN is a mechanism to deliver content quickly and efficiently based on geographic location
+		- #### Amazon CloudFront
+			- CloudFront makes content available globally or restricts it based on location
+			- Speeds up delivery of static and dynamic web content
+			- Uses edge locations to cache content
+		- #### Use Cases
+			- S3 static websites
+			- Prevent attacks (like DDoS)
+			- IP address blocking (prevent )

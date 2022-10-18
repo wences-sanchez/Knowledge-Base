@@ -123,11 +123,12 @@ deck:: [[ACloudGuru::AWS]]
 			- Runs hundreds and thousands of smaller batch processing jobs
 			- Dynamically provisions instances based on volume.
 			- It works with other services as AWS Fargate, Amazon EC2 or spot instances.
-			-
-			-
-			-
-			-
-			-
-			-
+	- ### 3.7 Leveraging Storage Services: S3
+		-
+		-
+		-
+		-
+		-
+		-
 		-
 			-

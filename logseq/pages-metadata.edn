@@ -2033,7 +2033,7 @@
   :block/updated-at 1665484160091}
  {:block/name "tuesday, 18-10-2022",
   :block/created-at 1666079824236,
-  :block/updated-at 1666082997409}
+  :block/updated-at 1666085180763}
  {:block/name "tuesday, 23-08-2022",
   :block/created-at 1665484159983,
   :block/updated-at 1665484159983}
@@ -2114,7 +2114,7 @@
  {:block/name
   "unir/curso aws/módulo-3/tema-2: arquitectura en la nube de aws",
   :block/created-at 1666082963388,
-  :block/updated-at 1666084451413}
+  :block/updated-at 1666085080653}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

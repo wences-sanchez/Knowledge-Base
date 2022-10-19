@@ -574,7 +574,7 @@ deck:: [[ACloudGuru::AWS]]
 		- #### The bigger picture
 			- A lot of companies are **migrating** to the cloud, and they need **inexpensive**, **fast** and **secure** ways to move their on-premises data to AWS. And there are lots of services to allow that.
 		-
-		- #### Database Migration Service (DMS)
+		- #### Database Migration Service (DMS) #flashcard
 			- **DMS** helps you migrate databases **to** or **within** AWS.
 			- Migrate **on-premises** databases to AWS
 			- **Continous** data replication
@@ -588,10 +588,31 @@ deck:: [[ACloudGuru::AWS]]
 				- RDS Oracle to Aurora MySQL
 					- Migrate an RDS Oracle database to Aurora MySQL
 		-
-		- #### Server Migration Service (SMS)
+		- #### Server Migration Service (SMS) #flashcard
 			- **SMS** allows you to migrate on-premises servers to AWS
 			- Server saved as a new Amazon Machine Image (AMI)
+			- Use AMI to launch serves ass EC2 instances
+		-
+		- #### The AWS Snow Family #flashcard
+			- ![image.png](../assets/image_1666171188853_0.png)
+			- When you have a large ammount of data.
+			- It's better to start with smaller and then go big.
 			-
+			- #### Snowcone
+				- Smallest member of data transport devices
+				- 8 terabytes of usable storage
+				- Offline shipping
+				- Online with DataSync
+			- #### Snowball and Snowball Edge
+				- Petabyte-scale data transport solution
+				- Transfer data in and out
+				- Cheaper than internet transfer
+				- Snowball Edge supports EC2 and Lambda
+			- #### Snowmobile
+				- Multi-**petabyte** to **exabyte** scale
+				- Data loaded to S3
+				- Securely transported in **trucks** with GPS and 24/7 video security
+		-
 		-
 -
 -

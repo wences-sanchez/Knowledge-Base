@@ -931,7 +931,26 @@ deck:: [[ACloudGuru::AWS]]
 				- Build a money transfer app that performs well under heavy load.
 				- ![image.png](../assets/image_1666194277326_0.png)
 				-
-	- ### 3.22 Utilizing Messaging and Integration Services: SNS and SES
+	- ### 3.22 Utilizing Messaging and Integration Services: SNS and SES #flashcard
 		- #### Simple Notification Service (SNS)
 			- **SNS** allows you to send emails and text messages from your applications
+			- Send **email** and **text** messages
+			- Publish messages to a **topic**
+			- **Subscribers** receive messages
+			- Use Cases:
+				- *Send an email when CPU utilization of an EC2 instance goes above 80%*
+				- ![image.png](../assets/image_1666194599485_0.png)
 			-
+		- #### Simple Email Service (SES)
+			- **SES** is an email service that allows you to send richly formatted HTML emails from your applications.
+			- Ideal choice for **marketing campaigns** or **professional** emails
+			- Unlike *SNS*, *SES* sends **HTML** emails
+			-
+	- ### 3.23 Exploring Auditing, Monitoring and Logging Services
+		- #### The Bigger Picture
+			- Why do we need auditing, monitoring and logging? #flashcard
+				- These services give you **insight** into how well your systems are **performing** and help you **proactively** find and resolve **errors**.
+		-
+		-
+		-
+		-

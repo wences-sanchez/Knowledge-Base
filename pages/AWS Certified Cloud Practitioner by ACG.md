@@ -669,7 +669,27 @@ deck:: [[ACloudGuru::AWS]]
 				- Supports streaming data and application logs and IoT.
 			- #### Elastic MapReduce (EMR)
 				- **EMR** helps you process large amounts of data.
-				-
-				-
+				- Process big data
+				- Analyze data using Hadoop
+				- Works with big data frameworks
+			- #### Data Pipeline
+				- **Data Pipeline** helps you move data between compute and storage services running either on AWS or on-premises
+				- Moves data at specific intervals
+				- Moves data based on conditions
+				- Sends notifications on success or failure
+			- #### QuickSight
+				- **QuickSight** helps you visualize your data
+				- Build interactive dashboards
+				- Embed dashboards in your applications
+			- #### Use Cases
+				- Search data in S3
+					- Athena helps you query historical data stored in S3 as if they were relational data using standard SQL.
+				- Log analytics
+					- Kinesis helps you analyze logs in near real time for application monitoring or fraud detection.
+			-
+	- ### 3.17 Leveraging Machine Learning Services
+		- #### The Bigger Picture
+			-
+		-
 -
 -

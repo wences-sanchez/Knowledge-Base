@@ -830,7 +830,24 @@ deck:: [[ACloudGuru::AWS]]
 			- Integrates with **CodeCommit** to retrieve source code
 			- Integrates eith **CodeDeploy** to deploy your changes
 			- Use Cases:
-				-
+				- Add automation to the building, testing and deployment of your application
+					- When combined with other developer tools, **CodePipeline** helps devevelopment teams implement DevOps practices that automate testing to the movement of code to production.
 		-
+		- #### X-Ray
+			- **X-Ray** helps you debug production applications
+			- **Analyze** and **debug** production applications
+			- **Map** application components
+			- View **requests** end to end
+			- Use Cases:
+				- Trace calls to an RDS database
 			-
+		- #### CodeStar
+			- **CodeStar** helps developers collaboratively work on development projects
+			- Developers connect their development environment
+			- Integrates with *CodeCommit*, *CodeBuild* and *CodeDeploy*
+			- Contains issue tracking dashboard
+			- ![image.png](../assets/image_1666180551537_0.png)
+			-
+			-
+				-
 -

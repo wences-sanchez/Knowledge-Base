@@ -887,6 +887,39 @@ deck:: [[ACloudGuru::AWS]]
 				- Quickly deploy a scalable Java-based web application to AWS
 					- After you upload your Java code, Elastic Beanstalk deploys it and hadles capacity provisioning, load balancing, and Auto Scaling. Elastic Beanstalk even monitors the health of your application
 		- #### OpsWorks
-			- ****
+			- **OpsWorks** allows you to use Chef or Puppet to automate the configuration of your servers and deploy code
+			- Deploy code and manage applications
+			- Manage on-premises servers or EC2 instances in AWS Cloud
+			- Works with Chef and Puppet automation platforms
+			- Use Cases:
+				- Automate software configurations and infrastructure management for your application.
+		-
+		- #### Flashcards
+			- Talk about three main options in AWS for IaC and PaaS #flashcard
+			  collapsed:: true
+				- #### CloudFormation
+					- **CloudFormation** allows to provision AWS resources using Infrastructure as Code (IaC)
+					- Provides a repeatable process for provisioning resources
+					- Works with most AWS services
+					- Create templates for the resourcees you want to provision
+					- Use Cases:
+						- Automate the infrastructure-provisioning process for EC2 servers
+				- #### Elastic Beanstalk
+					- **Elastic Beanstalk** allows you to deploy your web applications and web services to AWS
+					- Orchestration service that provisions resources
+					- Automatically handles the deployment
+					- Monitors application health via a health dashboard
+					- Use Cases:
+						- Quickly deploy a scalable Java-based web application to AWS
+							- After you upload your Java code, Elastic Beanstalk deploys it and hadles capacity provisioning, load balancing, and Auto Scaling. Elastic Beanstalk even monitors the health of your application
+				- #### OpsWorks
+					- **OpsWorks** allows you to use Chef or Puppet to automate the configuration of your servers and deploy code
+					- Deploy code and manage applications
+					- Manage on-premises servers or EC2 instances in AWS Cloud
+					- Works with Chef and Puppet automation platforms
+					- Use Cases:
+						- Automate software configurations and infrastructure management for your application.
+	-
+	- ### 3.20 Create a DynamoDB Table Using CloudFormation
 		-
 -

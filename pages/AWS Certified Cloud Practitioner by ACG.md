@@ -966,7 +966,7 @@ deck:: [[ACloudGuru::AWS]]
 					- Helps you visualize time-based data, i.e. the CPU over time
 				- #### CloudWatch Events
 					- Allows to take automatic actions based on a condition
-				-
+			-
 		-
 		-
 		-

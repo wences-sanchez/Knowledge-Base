@@ -702,6 +702,32 @@ deck:: [[ACloudGuru::AWS]]
 		- #### Comprehend
 			- **Comprehend** is a natural-language processing (NLP) service that finds relationships in text.
 			- It finds insights and relationships in the analyzed text.
+			- Real Use cases:
+				- Review social media posts
+		- #### Polly
+			- **Polly** turns text into speech
+			- Mimics natural-sounding human speech
+			- You can create a custom voice
+			- Real Use cases:
+				- Add audio to a text of our own
+		-
+		- #### SageMaker
+			- **SageMaker** helps you build, train, and deploy machine learning models quickly
+			- Prepare data for models
+			- Traing and deploy models
+			- Provides deep learning AMIs with high resources
+			- Real Use cases:
+				- Recommendation engine to suggest movies or articles to buy (like Netflix or Amazon)
+		- #### Translae
+			- **Translate** provides language translation
+			- Provides real-time and batch language translation
+			- Translates many content formats
+		-
+		- #### Lex
+			- **Lex** helps you build conversational interfaces like chatbots
+			- Recognizes speech and understands language
+			- Build highly engaging chatbots
+			- Powers Amazon Alexa
 			-
 		-
 		-

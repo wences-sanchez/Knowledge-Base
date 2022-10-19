@@ -22,6 +22,7 @@ deck:: [[AWS::CCP::Módulo-3]]
 	- ![image.png](../assets/image_1666166213451_0.png)
 	- ![image.png](../assets/image_1666166257747_0.png)
 	- ![image.png](../assets/image_1666166305006_0.png)
+	- ![image.png](../assets/image_1666166345763_0.png)
 	-
 - ## Soporte Técnico
--
+	-

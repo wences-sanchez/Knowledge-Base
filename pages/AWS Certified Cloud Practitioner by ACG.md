@@ -922,5 +922,16 @@ deck:: [[ACloudGuru::AWS]]
 	-
 	- ### 3.20 Create a DynamoDB Table Using CloudFormation
 	- ### 3.21 Utilizing Messaging and Integration Services: SQS
-		-
--
+		- #### Simple Queue Service (SQS)
+			- **SQS** is a message queuing service that allows you to build **loosely coupled** systems
+			- Allows component-to-component communication using messages
+			- Multiple components (or producers) can add messages to the queue
+			- Messages are processed in an asynchronous manner
+			- Use Cases:
+				- Build a money transfer app that performs well under heavy load.
+				- ![image.png](../assets/image_1666194277326_0.png)
+				-
+	- ### 3.22 Utilizing Messaging and Integration Services: SNS and SES
+		- #### Simple Notification Service (SNS)
+			- **SNS** allows you to send emails and text messages from your applications
+			-

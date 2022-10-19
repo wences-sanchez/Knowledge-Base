@@ -641,6 +641,9 @@ deck:: [[ACloudGuru::AWS]]
 				- To combine multiple transactions providers in one umbrella.
 				- Its benefits are allowing support, querying, reporting, analytics, and business intelligence.
 				- They are **not used** for transaction processing. But for **reporting** and **analytics**.
+			- What is Analytics? #flashcard
+				- **Analytics** is the act of querying or processing your data.
+				- There are several services that allow you to gain deeper insights, enhance decision-making and act in real time to what your data is telling you.
 		- #### Amazon Redshift
 			- **Redshift** is a scalable data warehouse solution
 			- Improves speed and efficiency
@@ -650,6 +653,22 @@ deck:: [[ACloudGuru::AWS]]
 					- When you need to consolidate multiple data sources for reporting
 				- Relational Databases
 					- When you want to run a database that doesn't require real-time transaction processing (insert, update, delete)
-		-
+		- #### Analytics
+			- #### Athena
+				- **Athena** is a query service for Amazon S3.
+				- Analyze S3 data using SQL
+				- Pay per query
+				- Considered serverless
+			- #### Glue
+				- **Glue** prepares your data for analytics
+				- Extract, Transform, Load (ETL) service
+				- Prepare and load data
+				- Helps to better understand your data
+			- #### Kinesis
+				- **Kinesis** allows you to analyze data and video streams in real time
+				- Supports streaming data and application logs and IoT.
+			- #### Elastic MapReduce (EMR)
+				- **EMR** helps you process large amounts of data
+				-
 -
 -

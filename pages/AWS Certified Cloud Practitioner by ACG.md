@@ -921,5 +921,6 @@ deck:: [[ACloudGuru::AWS]]
 						- Automate software configurations and infrastructure management for your application.
 	-
 	- ### 3.20 Create a DynamoDB Table Using CloudFormation
+	- ### 3.21 Utilizing Messaging and Integration Services: SQS
 		-
 -

@@ -2118,6 +2118,10 @@
   "unir/curso aws/módulo-3/tema-2: arquitectura en la nube de aws",
   :block/created-at 1666082963388,
   :block/updated-at 1666085080653}
+ {:block/name
+  "unir/curso aws/módulo-3/tema-3: monitoreo y escalado automático",
+  :block/created-at 1666165373874,
+  :block/updated-at 1666165726155}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}
@@ -2188,6 +2192,9 @@
  {:block/name "wednesday, 17-08-2022",
   :block/created-at 1665484160081,
   :block/updated-at 1665484160081}
+ {:block/name "wednesday, 19-10-2022",
+  :block/created-at 1666165149786,
+  :block/updated-at 1666165373901}
  {:block/name "wednesday, 24-08-2022",
   :block/created-at 1665484159930,
   :block/updated-at 1665484159930}

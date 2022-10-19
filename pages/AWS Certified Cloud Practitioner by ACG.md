@@ -668,7 +668,8 @@ deck:: [[ACloudGuru::AWS]]
 				- **Kinesis** allows you to analyze data and video streams in real time
 				- Supports streaming data and application logs and IoT.
 			- #### Elastic MapReduce (EMR)
-				- **EMR** helps you process large amounts of data
+				- **EMR** helps you process large amounts of data.
+				-
 				-
 -
 -

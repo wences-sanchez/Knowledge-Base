@@ -644,7 +644,7 @@ deck:: [[ACloudGuru::AWS]]
 			- What is Analytics? #flashcard
 				- **Analytics** is the act of querying or processing your data.
 				- There are several services that allow you to gain deeper insights, enhance decision-making and act in real time to what your data is telling you.
-		- #### Amazon Redshift
+		- #### Amazon Redshift #flashcard
 			- **Redshift** is a scalable data warehouse solution
 			- Improves speed and efficiency
 			- Handles **exabyte**-scale data
@@ -653,7 +653,7 @@ deck:: [[ACloudGuru::AWS]]
 					- When you need to consolidate multiple data sources for reporting
 				- Relational Databases
 					- When you want to run a database that doesn't require real-time transaction processing (insert, update, delete)
-		- #### Analytics
+		- #### Analytics Services in AWS #flashcard
 			- #### Athena
 				- **Athena** is a query service for Amazon S3.
 				- Analyze S3 data using SQL
@@ -718,7 +718,7 @@ deck:: [[ACloudGuru::AWS]]
 			- Provides deep learning AMIs with high resources
 			- Real Use cases:
 				- Recommendation engine to suggest movies or articles to buy (like Netflix or Amazon)
-		- #### Translae
+		- #### Translate
 			- **Translate** provides language translation
 			- Provides real-time and batch language translation
 			- Translates many content formats
@@ -729,7 +729,50 @@ deck:: [[ACloudGuru::AWS]]
 			- Build highly engaging chatbots
 			- Powers Amazon Alexa
 			-
-		-
+		- #### Flashcards
+			- Define Machine Learning #flashcard
+			  collapsed:: true
+				- **Machine Learning** is actually a form of Artificial Intelligence
+				- Artificial Intelligence (AI) teaches computers to do things that normally require human intelligence
+				- Businesses leverage **AI** and **machine learning** to add intelligence to their applications and leverage **trends** and patterns in data.
+			- Mention the different AWS services related to Machine Learning. #flashcard
+			  collapsed:: true
+				- #### Rekognition
+					- **Rekognition** allows you to automate your image and video analysis
+					- Image and video analysis
+					- Identify custom labels in images and videos
+					- Face and text detections in images and videos
+				-
+				- #### Comprehend
+					- **Comprehend** is a natural-language processing (NLP) service that finds relationships in text.
+					- It finds insights and relationships in the analyzed text.
+					- Real Use cases:
+						- Review social media posts
+				- #### Polly
+					- **Polly** turns text into speech
+					- Mimics natural-sounding human speech
+					- You can create a custom voice
+					- Real Use cases:
+						- Add audio to a text of our own
+				-
+				- #### SageMaker
+					- **SageMaker** helps you build, train, and deploy machine learning models quickly
+					- Prepare data for models
+					- Traing and deploy models
+					- Provides deep learning AMIs with high resources
+					- Real Use cases:
+						- Recommendation engine to suggest movies or articles to buy (like Netflix or Amazon)
+				- #### Translate
+					- **Translate** provides language translation
+					- Provides real-time and batch language translation
+					- Translates many content formats
+				-
+				- #### Lex
+					- **Lex** helps you build conversational interfaces like chatbots
+					- Recognizes speech and understands language
+					- Build highly engaging chatbots
+					- Powers Amazon Alexa
+					-
 		-
 -
 -

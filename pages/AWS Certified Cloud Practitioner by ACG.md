@@ -869,6 +869,6 @@ deck:: [[ACloudGuru::AWS]]
 			- Contains issue tracking dashboard
 			- ![image.png](../assets/image_1666180551537_0.png)
 			-
-			-
-				-
+	- ###
+		-
 -

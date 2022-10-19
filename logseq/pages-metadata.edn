@@ -2109,7 +2109,7 @@
   :block/updated-at 1665998497864}
  {:block/name "unir/curso aws/módulo-3",
   :block/created-at 1666080489598,
-  :block/updated-at 1666082968548}
+  :block/updated-at 1666167154429}
  {:block/name
   "unir/curso aws/módulo-3/tema-1: servicios de bases de datos",
   :block/created-at 1666080572179,
@@ -2122,6 +2122,10 @@
   "unir/curso aws/módulo-3/tema-3: monitoreo y escalado automático",
   :block/created-at 1666165373874,
   :block/updated-at 1666166346670}
+ {:block/name
+  "unir/curso aws/módulo-3/tema-4: planes de soporte y herramientas de gestión",
+  :block/created-at 1666167053252,
+  :block/updated-at 1666167188910}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}
@@ -2194,7 +2198,7 @@
   :block/updated-at 1665484160081}
  {:block/name "wednesday, 19-10-2022",
   :block/created-at 1666165149786,
-  :block/updated-at 1666165373901}
+  :block/updated-at 1666167488702}
  {:block/name "wednesday, 24-08-2022",
   :block/created-at 1665484159930,
   :block/updated-at 1665484159930}

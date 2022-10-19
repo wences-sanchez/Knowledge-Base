@@ -464,12 +464,12 @@ deck:: [[ACloudGuru::AWS]]
 			- The address of the computer is called IP address.
 			- A Domain Name is easier to remember than the IP.
 			- **DNS** (which stands for Domain Name System) directs internet traffic by connecting domain names with web servers.
-		- #### Amazon Route 53
+		- #### Amazon Route 53 #flashcard
 			- **Route 53** is a DNS service that routes users to applications
 			- Domain name registration
 			- Performs health checks on AWS resources
 			- Supports hybrid cloud architectures
-		- #### AWS Direct Connect
+		- #### AWS Direct Connect #flashcard
 			- **Direct Connect** is a dedicated **physical** network connection from your on-premises data center to AWS
 			- It supports hybrid cloud
 			- ![image.png](../assets/image_1666110418988_0.png)
@@ -495,6 +495,7 @@ deck:: [[ACloudGuru::AWS]]
 			- Integrate with services like **Lambda**
 			- ![image.png](../assets/image_1666111149539_0.png)
 			-
+		- #### Flashcards
 			-
 -
 -

@@ -689,7 +689,21 @@ deck:: [[ACloudGuru::AWS]]
 			-
 	- ### 3.17 Leveraging Machine Learning Services
 		- #### The Bigger Picture
+			- **Machine Learning** is actually a form of Artificial Intelligence
+			- Artificial Intelligence (AI) teaches computers to do things that normally require human intelligence
+			- Businesses leverage **AI** and **machine learning** to add intelligence to their applications and leverage **trends** and patterns in data.
+		-
+		- #### Rekognition
+			- **Rekognition** allows you to automate your image and video analysis
+			- Image and video analysis
+			- Identify custom labels in images and videos
+			- Face and text detections in images and videos
+		-
+		- #### Comprehend
+			- **Comprehend** is a natural-language processing (NLP) service that finds relationships in text.
+			- It finds insights and relationships in the analyzed text.
 			-
+		-
 		-
 -
 -

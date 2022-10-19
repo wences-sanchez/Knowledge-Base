@@ -869,6 +869,24 @@ deck:: [[ACloudGuru::AWS]]
 			- Contains issue tracking dashboard
 			- ![image.png](../assets/image_1666180551537_0.png)
 			-
-	- ###
+	-
+	- ### 3.19 Exploring Deployment and Infrastructure Management Services
+		- #### CloudFormation
+			- **CloudFormation** allows to provision AWS resources using Infrastructure as Code (IaC)
+			- Provides a repeatable process for provisioning resources
+			- Works with most AWS services
+			- Create templates for the resourcees you want to provision
+			- Use Cases:
+				- Automate the infrastructure-provisioning process for EC2 servers
+		- #### Elastic Beanstalk
+			- **Elastic Beanstalk** allows you to deploy your web applications and web services to AWS
+			- Orchestration service that provisions resources
+			- Automatically handles the deployment
+			- Monitors application health via a health dashboard
+			- Use Cases:
+				- Quickly deploy a scalable Java-based web application to AWS
+					- After you upload your Java code, Elastic Beanstalk deploys it and hadles capacity provisioning, load balancing, and Auto Scaling. Elastic Beanstalk even monitors the health of your application
+		- #### OpsWorks
+			- ****
 		-
 -

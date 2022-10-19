@@ -537,7 +537,7 @@ deck:: [[ACloudGuru::AWS]]
 			- #### Amazon Relational Database Sevice (RDS)
 				- Supports popular database engines
 				- Offers High Availability and Fault Tolerance using multi-AZ deployment option
-				- AWS manages the databaes with automatic software patching, automated backups, operating system maintenance and more
+				- AWS manages the databases with automatic software patching, automated backups, operating system maintenance and more
 				- It simplyfies it. It launch read replicas across regions in order to provide enhanced performance and durability
 				-
 			- #### Amazon Aurora
@@ -612,6 +612,7 @@ deck:: [[ACloudGuru::AWS]]
 				- Multi-**petabyte** to **exabyte** scale
 				- Data loaded to S3
 				- Securely transported in **trucks** with GPS and 24/7 video security
+		-
 		-
 		-
 -

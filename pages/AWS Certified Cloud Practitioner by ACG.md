@@ -519,6 +519,7 @@ deck:: [[ACloudGuru::AWS]]
 					- ![image.png](../assets/image_1666110993026_0.png)
 			-
 	- ### 3.14 Utilizing Databases
+	  collapsed:: true
 		- #### The bigger picture
 			- Why do we need databases? #flashcard
 				- We need a way to collect, store, retrieve, sort, graph and manipulate the data of the world. And databases allow us to do it.
@@ -571,6 +572,7 @@ deck:: [[ACloudGuru::AWS]]
 				- Fast and reliable
 			-
 	- ### 3.15 Exploring Migration and Transfer Services
+	  collapsed:: true
 		- #### The bigger picture
 			- A lot of companies are **migrating** to the cloud, and they need **inexpensive**, **fast** and **secure** ways to move their on-premises data to AWS. And there are lots of services to allow that.
 		-
@@ -633,8 +635,8 @@ deck:: [[ACloudGuru::AWS]]
 					- Multi-**petabyte** to **exabyte** scale
 					- Data loaded to S3
 					- Securely transported in **trucks** with GPS and 24/7 video security
-	-
 	- ### 3.16 Leveraging Analytics Services
+	  collapsed:: true
 		- #### The Bigger Picture
 			- What is a data warehouse? #flashcard
 				- A data warehouse is a data storage solution that aggregates masive amounts of historical data from disparate sources.
@@ -688,6 +690,7 @@ deck:: [[ACloudGuru::AWS]]
 					- Kinesis helps you analyze logs in near real time for application monitoring or fraud detection.
 			-
 	- ### 3.17 Leveraging Machine Learning Services
+	  collapsed:: true
 		- #### The Bigger Picture
 			- **Machine Learning** is actually a form of Artificial Intelligence
 			- Artificial Intelligence (AI) teaches computers to do things that normally require human intelligence

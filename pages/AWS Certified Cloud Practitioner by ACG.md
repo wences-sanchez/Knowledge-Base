@@ -803,7 +803,34 @@ deck:: [[ACloudGuru::AWS]]
 			- Use Cases:
 				- To manage source code files and their different versions
 		-
+		- #### CodeBuild
+			- **CodeBuild** allows you to build and test your application source code
+			- **Compiles** source code and **runs** tests
+			- Enables continous **integration** and **delivery**
+			- Produces **build** artifacts ready to be deployed
+			- Use Cases:
+				- Run tests before deploying a new version of an application to production
+					- **CodeBuild** allows you to run as many parallel streams of tests as needed, allowing you to deploy your changes to production more quickly.
 		-
+		- #### CodeDeploy
+			- **CodeDeploy** manages the deployment of code to compute services in the cloud or on-premises
+			- Deploys code to:
+				- EC2,
+				- Fargate,
+				- Lamda
+				- and on-premises
+			- Maintains application **uptime**
+			- Use Cases:
+				- Maintain application uptime when rolling out a new version
+					- **CodeDeploy** eliminates the downtime of your application when deploying a new version due to its **rolling deployments**.
+		- #### CodePipeline
+			- **CodePipeline** automates the software release process.
+			- **Quickly** deliver new features and updates
+			- Integrates with **CodeBuild** to run builds and unit tests
+			- Integrates with **CodeCommit** to retrieve source code
+			- Integrates eith **CodeDeploy** to deploy your changes
+			- Use Cases:
+				-
 		-
 			-
 -

@@ -406,6 +406,7 @@ deck:: [[ACloudGuru::AWS]]
 		- #### Flashcards
 			- What is Amazon CloudFront and what are its use cases? #flashcard
 			  collapsed:: true
+			  id:: 634fa9a2-24ab-4921-8b48-c2f0d5a3e971
 				- #### The bigger picture
 					- We need content delivery because there are so many requests for almost everything and the idea of a near server which could bring us those contents is awesome!
 					- A CDN is a mechanism to deliver content quickly and efficiently based on geographic location
@@ -420,6 +421,7 @@ deck:: [[ACloudGuru::AWS]]
 						- IP address blocking (prevent users in certain countries from accessing content)
 			- Which uses do Amazon Global Accelerator and Amazon S3 Transfer Acceleration have? #flashcard
 			  collapsed:: true
+			  id:: 634fa9a2-1b5f-4bef-bed9-11c7c0666471
 				- #### Amazon Global Accelerator
 					- **Global Accelerator** sends your users through the AWS global network when accessing your content, speeding up delivery.
 					- Improves latency and availability of single-region applications
@@ -446,6 +448,7 @@ deck:: [[ACloudGuru::AWS]]
 		- #### Flashcards
 			- Explain a little what is a VPC and its contents (including its access) #flashcard
 			  collapsed:: true
+			  id:: 634fa9a2-3fdc-4471-bd0d-9cf2fa82a4ac
 				- #### The Bigger Picture
 					- **Networking** connects computers together and allows for the sharing of data and applications, around the globe, in a **secure** manner using virtual routers, firewalls, and network management services.
 				- #### Amazon Virtual Private Cloud (VPC)
@@ -471,6 +474,7 @@ deck:: [[ACloudGuru::AWS]]
 			- A Domain Name is easier to remember than the IP.
 			- **DNS** (which stands for Domain Name System) directs internet traffic by connecting domain names with web servers.
 		- #### Amazon Route 53 #flashcard
+		  id:: 634fa9a2-b6c7-46ba-b867-2057924f0c27
 			- **Route 53** is a DNS service that routes users to applications
 			- Domain name registration
 			- Performs health checks on AWS resources
@@ -496,6 +500,7 @@ deck:: [[ACloudGuru::AWS]]
 			- ![image.png](../assets/image_1666110993026_0.png)
 			-
 		- #### API Gateway #flashcard
+		  id:: 634fa9a2-4598-413f-a56d-df4fb86a56e9
 			- **API Gateway** allows you to build and manages APIs.
 			- **Share** data between systems
 			- Integrate with services like **Lambda**
@@ -503,6 +508,7 @@ deck:: [[ACloudGuru::AWS]]
 			-
 		- #### Flashcards
 			- Talk about the different ways of connecting our resources to AWS, with and without the Internet. #flashcard
+			  id:: 634fb4cd-40d3-48ad-b295-d04e81f8a7ed
 			  collapsed:: true
 				- #### AWS Direct Connect
 					- **Direct Connect** is a dedicated **physical** network connection from your on-premises data center to AWS
@@ -528,12 +534,14 @@ deck:: [[ACloudGuru::AWS]]
 	  collapsed:: true
 		- #### The bigger picture
 			- Why do we need databases? #flashcard
+			  id:: 634fb660-a469-45f6-abc1-15177a62f963
 				- We need a way to collect, store, retrieve, sort, graph and manipulate the data of the world. And databases allow us to do it.
 				- Databases are used by many applicacions.
 				- You access the data stored in a database by querying it.
 				- Databases are necessary to persist data through runs of an application.
 			-
 		- #### AWS Database Ecosystem #flashcard
+		  id:: 634fb6ee-b230-4c72-9f0f-69711b354193
 			- RDS
 			- Aurora
 			- DynamoDB
@@ -583,6 +591,7 @@ deck:: [[ACloudGuru::AWS]]
 			- A lot of companies are **migrating** to the cloud, and they need **inexpensive**, **fast** and **secure** ways to move their on-premises data to AWS. And there are lots of services to allow that.
 		-
 		- #### Database Migration Service (DMS) #flashcard
+		  id:: 634fbf26-b65d-45dd-976e-998cbe9496cd
 			- **DMS** helps you migrate databases **to** or **within** AWS.
 			- Migrate **on-premises** databases to AWS
 			- **Continous** data replication
@@ -597,11 +606,13 @@ deck:: [[ACloudGuru::AWS]]
 					- Migrate an RDS Oracle database to Aurora MySQL
 		-
 		- #### Server Migration Service (SMS) #flashcard
+		  id:: 634fc08c-5420-4437-8f4e-de087cb55896
 			- **SMS** allows you to migrate on-premises servers to AWS
 			- Server saved as a new Amazon Machine Image (AMI)
 			- Use AMI to launch serves ass EC2 instances
 		-
 		- #### The AWS Snow Family #flashcard
+		  id:: 634fc0fb-26ec-427b-bd71-35bcaf0d3acf
 			- ![image.png](../assets/image_1666171188853_0.png)
 			- When you have a large ammount of data.
 			- It's better to start with smaller and then go big.
@@ -622,6 +633,7 @@ deck:: [[ACloudGuru::AWS]]
 				- Securely transported in **trucks** with GPS and 24/7 video security
 		-
 		- #### DataSync #flashcard
+		  id:: 634fc7e3-e4a5-4171-aeda-8f785a583e2c
 			- **DataSync** allows for **online** data transfer from on-premises to AWS storage services like **S3** or **EFS**
 			- Migrates data from **on-premises** to AWS
 			- 10x **faster** than open source tools
@@ -631,12 +643,14 @@ deck:: [[ACloudGuru::AWS]]
 			-
 		- #### Flashcards
 			- What is Snowball Edge? #flashcard
+			  id:: 634fc922-c6ee-4024-b37a-678727c7be9f
 				- #### Snowball and Snowball Edge
 					- Petabyte-scale data transport solution
 					- Transfer data in and out
 					- Cheaper than internet transfer
 					- Snowball Edge supports EC2 and Lambda
 			- What is Snowmobile? #flashcard
+			  id:: 634fc97c-756f-45a9-82bb-92f343e12abd
 				- #### Snowmobile
 					- Multi-**petabyte** to **exabyte** scale
 					- Data loaded to S3
@@ -645,14 +659,17 @@ deck:: [[ACloudGuru::AWS]]
 	  collapsed:: true
 		- #### The Bigger Picture
 			- What is a data warehouse? #flashcard
+			  id:: 634fca53-0f1c-4c63-aebb-9cd7678b9201
 				- A data warehouse is a data storage solution that aggregates masive amounts of historical data from disparate sources.
 				- To combine multiple transactions providers in one umbrella.
 				- Its benefits are allowing support, querying, reporting, analytics, and business intelligence.
 				- They are **not used** for transaction processing. But for **reporting** and **analytics**.
 			- What is Analytics? #flashcard
+			  id:: 634fccaf-2563-4d67-8565-1ec6b988a1f1
 				- **Analytics** is the act of querying or processing your data.
 				- There are several services that allow you to gain deeper insights, enhance decision-making and act in real time to what your data is telling you.
 		- #### Amazon Redshift #flashcard
+		  id:: 634fcbbd-38c0-44f1-bd75-08fbae513dc2
 			- **Redshift** is a scalable data warehouse solution
 			- Improves speed and efficiency
 			- Handles **exabyte**-scale data
@@ -662,6 +679,7 @@ deck:: [[ACloudGuru::AWS]]
 				- Relational Databases
 					- When you want to run a database that doesn't require real-time transaction processing (insert, update, delete)
 		- #### Analytics Services in AWS #flashcard
+		  id:: 634fcc7a-9cdc-4550-b406-6b99197b5089
 			- #### Athena
 				- **Athena** is a query service for Amazon S3.
 				- Analyze S3 data using SQL
@@ -740,11 +758,13 @@ deck:: [[ACloudGuru::AWS]]
 			-
 		- #### Flashcards
 			- Define Machine Learning #flashcard
+			  id:: 634fdb6d-fd75-43ab-a3cd-cfad45a1696b
 			  collapsed:: true
 				- **Machine Learning** is actually a form of Artificial Intelligence
 				- Artificial Intelligence (AI) teaches computers to do things that normally require human intelligence
 				- Businesses leverage **AI** and **machine learning** to add intelligence to their applications and leverage **trends** and patterns in data.
 			- Mention the different AWS services related to Machine Learning. #flashcard
+			  id:: 634fdb8e-25c6-4452-bb7e-d9008c1678a1
 			  collapsed:: true
 				- #### Rekognition
 					- **Rekognition** allows you to automate your image and video analysis
@@ -786,6 +806,7 @@ deck:: [[ACloudGuru::AWS]]
 	- ### 3.18 Understanding Developer Tools
 		- #### The Bigger Picture
 			- Why are tools important? #flashcard
+			  id:: 634fe038-e7a1-4af4-8483-14606220db4a
 				- Software developers use tools to accelerate the software development and release cycle.
 				- And AWS provides useful tools for developers!
 			-

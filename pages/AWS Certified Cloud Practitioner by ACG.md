@@ -536,6 +536,25 @@ deck:: [[ACloudGuru::AWS]]
 			- Neptune
 			-
 		- #### Amazon Relational Database Sevice (RDS)
+			- Supports popular database engines
+			- Offers High Availability and Fault Tolerance using multi-AZ deployment option
+			- AWS manages the databaes with automatic software patching, automated backups, operating system maintenance and more
+			- It simplyfies it. It launch read replicas across regions in order to provide enhanced performance and durability
+			-
+		- #### Amazon Aurora
+			- **Aurora** is a relational database compatible with MySQL and PostgreSQL that was created by AWS.
+			- 5x faster than normal MySQL and 3x faster than normal PostgreSQL
+			- Cheaper
+			- Scales automatically as needed.
+			- Managed by **RDS**
+			-
+		- #### Amazon DynamoDB
+			- **DynamoDB** is a fully managed NoSQL key-value and document database.
+			- NoSQL simply means that the database is self describing and it doesn't force relations between tables like a relational database
+			- NoSQL key-value database
+			- Fully managed and serverless
+			- Non-relational
+			- Scales automatically to massive workloads with fast performance
 			-
 			-
 -

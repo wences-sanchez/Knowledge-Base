@@ -966,6 +966,16 @@ deck:: [[ACloudGuru::AWS]]
 					- Helps you visualize time-based data, i.e. the CPU over time
 				- #### CloudWatch Events
 					- Allows to take automatic actions based on a condition
+		- #### CloudTrail
+			- **CloudTrail** tracks user activity and API calls withing your account
+			- **Log** and **retain** account activity
+			- Track activity through the **console**, **SDKs** and **CLI**
+			- **Identify** which **user** made changes
+			- Detect **unusual** activity in your **account**
+			- Use Cases:
+				- Track the time a particular event occurred in your account.
+					- You can troubleshoot events over the past 90 days using the **CloudTrail event history log** to find the **specific time** an event occurred on a **per-region** basis.
+					- You can create a custom trail to extend past 90 days.
 			-
 		-
 		-

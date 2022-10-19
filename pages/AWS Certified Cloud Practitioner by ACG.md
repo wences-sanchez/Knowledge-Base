@@ -635,6 +635,21 @@ deck:: [[ACloudGuru::AWS]]
 					- Securely transported in **trucks** with GPS and 24/7 video security
 	-
 	- ### 3.16 Leveraging Analytics Services
+		- #### The Bigger Picture
+			- What is a data warehouse? #flashcard
+				- A data warehouse is a data storage solution that aggregates masive amounts of historical data from disparate sources.
+				- To combine multiple transactions providers in one umbrella.
+				- Its benefits are allowing support, querying, reporting, analytics, and business intelligence.
+				- They are **not used** for transaction processing. But for **reporting** and **analytics**.
+		- #### Amazon Redshift
+			- **Redshift** is a scalable data warehouse solution
+			- Improves speed and efficiency
+			- Handles **exabyte**-scale data
+			- Use Cases:
+				- Data Consolidation
+					- When you need to consolidate multiple data sources for reporting
+				- Relational Databases
+					- When you want to run a database that doesn't require real-time transaction processing (insert, update, delete)
 		-
 -
 -

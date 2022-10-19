@@ -571,7 +571,27 @@ deck:: [[ACloudGuru::AWS]]
 				- Fast and reliable
 			-
 	- ### 3.15 Exploring Migration and Transfer Services
+		- #### The bigger picture
+			- A lot of companies are **migrating** to the cloud, and they need **inexpensive**, **fast** and **secure** ways to move their on-premises data to AWS. And there are lots of services to allow that.
 		-
+		- #### Database Migration Service (DMS)
+			- **DMS** helps you migrate databases **to** or **within** AWS.
+			- Migrate **on-premises** databases to AWS
+			- **Continous** data replication
+			- Supports **homogeneous** and **heterogeneous** migrations
+			- Virtually **no downtime**
+			- Use Cases:
+				- Oracle to Aurora MySQL
+					- Migrate an on-premises Oracle database to Aurora MySQL
+				- Oracle to Oracle
+					- Migrate an on-premises Oracle database to Oracle on EC2
+				- RDS Oracle to Aurora MySQL
+					- Migrate an RDS Oracle database to Aurora MySQL
+		-
+		- #### Server Migration Service (SMS)
+			- **SMS** allows you to migrate on-premises servers to AWS
+			- Server saved as a new Amazon Machine Image (AMI)
+			-
 		-
 -
 -

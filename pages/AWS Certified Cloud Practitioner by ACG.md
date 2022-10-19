@@ -921,7 +921,7 @@ deck:: [[ACloudGuru::AWS]]
 						- Automate software configurations and infrastructure management for your application.
 	-
 	- ### 3.20 Create a DynamoDB Table Using CloudFormation
-	- ### 3.21 Utilizing Messaging and Integration Services: SQS
+	- ### 3.21 Utilizing Messaging and Integration Services: SQS #flashcard
 		- #### Simple Queue Service (SQS)
 			- **SQS** is a message queuing service that allows you to build **loosely coupled** systems
 			- Allows component-to-component communication using messages
@@ -950,7 +950,23 @@ deck:: [[ACloudGuru::AWS]]
 		- #### The Bigger Picture
 			- Why do we need auditing, monitoring and logging? #flashcard
 				- These services give you **insight** into how well your systems are **performing** and help you **proactively** find and resolve **errors**.
-		-
+		- #### CloudWatch
+			- **CloudWatch** is a collection of services that help you monitor and observe your cloud resources.
+			- Collect **metrics**, **logs** and **events**
+			- Detect **anomalies** in your environment
+			- Set **alarms**
+			- **Visualize** logs
+			-
+			- #### Services
+				- #### CloudWatch Alarms
+					- Set high resolution alarms. Something like a billing alarm
+				- #### CloudWatch Logs
+					- Monitor application logs, i.e. Lambda.
+				- #### CloudWatch Metrics
+					- Helps you visualize time-based data, i.e. the CPU over time
+				- #### CloudWatch Events
+					- Allows to take automatic actions based on a condition
+				-
 		-
 		-
 		-

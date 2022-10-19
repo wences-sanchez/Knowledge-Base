@@ -469,7 +469,7 @@ deck:: [[ACloudGuru::AWS]]
 			- Domain name registration
 			- Performs health checks on AWS resources
 			- Supports hybrid cloud architectures
-		- #### AWS Direct Connect #flashcard
+		- #### AWS Direct Connect
 			- **Direct Connect** is a dedicated **physical** network connection from your on-premises data center to AWS
 			- It supports hybrid cloud
 			- ![image.png](../assets/image_1666110418988_0.png)
@@ -489,14 +489,54 @@ deck:: [[ACloudGuru::AWS]]
 				- And it's cheaper than *Direct Connect*!
 			- ![image.png](../assets/image_1666110993026_0.png)
 			-
-		- #### API Gateway
+		- #### API Gateway #flashcard
 			- **API Gateway** allows you to build and manages APIs.
 			- **Share** data between systems
 			- Integrate with services like **Lambda**
 			- ![image.png](../assets/image_1666111149539_0.png)
 			-
 		- #### Flashcards
+			- Talk about the different ways of connecting our resources to AWS, with and without the Internet. #flashcard
+			  collapsed:: true
+				- #### AWS Direct Connect
+					- **Direct Connect** is a dedicated **physical** network connection from your on-premises data center to AWS
+					- It supports hybrid cloud
+					- ![image.png](../assets/image_1666110418988_0.png)
+					- #### Use cases of AWS Direct Connect
+						- 1. Large datasets
+							- Transfer large datasets to AWS
+						- 2. Business-critical data
+							- Transfer internal data directly to AWS, bypassing your internet service provider
+						- 3. Hybrid model
+							- Build hybrid environments
+				- #### AWS VPN
+					- **Site-to-Site VPN** creates a secure connection between your internal networks and your AWS VPCs.
+					- It's similar to **Direct Connect**, but data travels over the **public internet**
+					- Data is automatically **encrypted**
+					- Connects your on-premises data center to AWS
+					- Supports a **hybrid** environment
+						- And it's cheaper than *Direct Connect*!
+					- ![image.png](../assets/image_1666110993026_0.png)
 			-
--
+	- ### 3.14 Utilizing Databases
+		- #### The bigger picture
+			- Why do we need databases? #flashcard
+				- We need a way to collect, store, retrieve, sort, graph and manipulate the data of the world. And databases allow us to do it.
+				- Databases are used by many applicacions.
+				- You access the data stored in a database by querying it.
+				- Databases are necessary to persist data through runs of an application.
+			-
+		- #### AWS Ecosystem
+		  collapsed:: true
+			- RDS
+			- Aurora
+			- DynamoDB
+			- DocumentDB
+			- ElastiCache
+			- Neptune
+			-
+		- #### Amazon Relational Database Sevice (RDS)
+			-
+			-
 -
 -

@@ -556,7 +556,22 @@ deck:: [[ACloudGuru::AWS]]
 				- Scales automatically to massive workloads with fast performance
 				-
 			- #### Amazon DocumentDB
-			- **DocumentDB** is a fully managed document database that supports **MongoDB**
+				- **DocumentDB** is a fully managed document database that supports **MongoDB**
 			-
+			- #### Amazon ElastiCache
+				- **ElastiCache** is a fully managed in-memory datastore compatible with **Redis** or **Memcached**
+				- To speed-up responses
+				- Data can be lost
+			-
+			- #### Amazon Neptune
+				- **Neptune** is a fully managed graph database that supports highly connected datasets.
+				- Graph database service
+				- Supports highly connected datasets like social media networks
+				- Fully managed aand serverless
+				- Fast and reliable
+			-
+	- ### 3.15 Exploring Migration and Transfer Services
+		-
+		-
 -
 -

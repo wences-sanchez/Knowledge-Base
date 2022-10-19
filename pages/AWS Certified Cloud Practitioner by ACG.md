@@ -34,6 +34,7 @@ deck:: [[ACloudGuru::AWS]]
 	- ### Section Introduction
 		- The different services are for different use cases. That's the reason why there are so many!
 	- ### 3.2 Exploring Compute Services: EC2
+	  collapsed:: true
 		- EC2 is a foundational service used for managing our virtual instances.
 			- 1. You're able to provision an EC2 instance at the click of a button
 			  2. You can preconfigure it with an AMI template
@@ -92,6 +93,7 @@ deck:: [[ACloudGuru::AWS]]
 	-
 	- ### 3.3 Exploring Compute Services: EC2 in Action
 	- ### 3.4 Exploring Compute Services: Lambda
+	  collapsed:: true
 		- What does *Serverless* mean? #flashcard
 		  id:: 634d463b-2c50-4ce0-afd8-439cc0c83123
 			- **Serverless** simply means that Amazon manages the servers for you and you cannot access them. You can pretend they don't exist.
@@ -105,6 +107,7 @@ deck:: [[ACloudGuru::AWS]]
 		  id:: 634e5c5a-77b3-481c-b335-8a2b65973134
 	- ### 3.6 Exploring Compute Services: Additional Compute Services #flashcard
 	  id:: 634e5c5a-ca93-414b-9040-2dffceb8b53e
+	  collapsed:: true
 		- What is the use of containers?
 			- To make our apps capable of executing again and again on different environments without worrying of machine specific configurations
 		- #### AWS Fargate
@@ -277,6 +280,7 @@ deck:: [[ACloudGuru::AWS]]
 				-
 	- ### 3.8 Leveraging Storage Services: S3 in Action
 	- ### 3.9 Leveraging Storage Services: Additional Storage Services
+	  collapsed:: true
 		- #### EC2 Storage
 			- EC2 supports several storage options for your isntances
 				- EBS
@@ -378,6 +382,7 @@ deck:: [[ACloudGuru::AWS]]
 					- Create a backup plan that includes frequency and retention (how quickly and how long)
 		-
 	- ### 3.10 Understanding Content Delivery Services
+	  collapsed:: true
 		- #### The bigger picture
 			- We need content delivery because there are so many requests for almost everything and the idea of a near server which could bring us those contents is awesome!
 			- A CDN is a mechanism to deliver content quickly and efficiently based on geographic location
@@ -398,9 +403,7 @@ deck:: [[ACloudGuru::AWS]]
 			- **S3 Transfer Acceleration** improves content uploads and downloads to and from S3 buckets.
 			- Fast transfer of files over long distances
 			- Uses CloudFront's globally distributed edge locations.
-	-
 		- #### Flashcards
-		  collapsed:: true
 			- What is Amazon CloudFront and what are its use cases? #flashcard
 			  collapsed:: true
 				- #### The bigger picture
@@ -426,6 +429,7 @@ deck:: [[ACloudGuru::AWS]]
 					- Fast transfer of files over long distances
 					- Uses CloudFront's globally distributed edge locations.
 	- ### 3.11 Understanding Networking Services: VPC and Subcomponents
+	  collapsed:: true
 		- #### The Bigger Picture
 			- **Networking** connects computers together and allows for the sharing of data and applications, around the globe, in a **secure** manner using virtual routers, firewalls, and network management services.
 		- #### Amazon Virtual Private Cloud (VPC)
@@ -457,9 +461,11 @@ deck:: [[ACloudGuru::AWS]]
 					- ![image.png](../assets/image_1666105451426_0.png)
 			-
 	- ### 3.12 Launch an EC2 Instance in a Virtual Private cloud (VPC)
+	  collapsed:: true
 		- There is a default route table for the VPC. Don't use that one because every VPC that we create is associated by default with that *main route table*. Therefore, the main route table shouldn't allow traffic out to the public internet, so we'll create a new one specifically for public internet traffic.
 		-
 	- ### 3.13 Understanding Networking Services: Additional Networking Services
+	  collapsed:: true
 		- #### What is DNS?
 			- The address of the computer is called IP address.
 			- A Domain Name is easier to remember than the IP.
@@ -777,5 +783,27 @@ deck:: [[ACloudGuru::AWS]]
 					- Powers Amazon Alexa
 					-
 		-
--
+	- ### 3.18 Understanding Developer Tools
+		- #### The Bigger Picture
+			- Why are tools important? #flashcard
+				- Software developers use tools to accelerate the software development and release cycle.
+				- And AWS provides useful tools for developers!
+			-
+		- #### Cloud9
+			- **Cloud9** is an Integrated Development Environment (IDE) that allows you to write code in it within your web browser.
+			- Use Cases:
+				- Build serverless applications
+					- Cloud9 preconfigures the development environment with the needed SDKs and libraries. You can easily write the code for your Lambda function directly in your web browser.
+			-
+		- #### CodeCommit
+			- **CodeCommit** is a source control system for private Git repositories
+			- You can create repositories to store code
+			- You can commit, branch and merge code
+			- You can collaborate with other software developers
+			- Use Cases:
+				- To manage source code files and their different versions
+		-
+		-
+		-
+			-
 -

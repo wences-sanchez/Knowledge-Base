@@ -613,7 +613,28 @@ deck:: [[ACloudGuru::AWS]]
 				- Data loaded to S3
 				- Securely transported in **trucks** with GPS and 24/7 video security
 		-
-		-
+		- #### DataSync #flashcard
+			- **DataSync** allows for **online** data transfer from on-premises to AWS storage services like **S3** or **EFS**
+			- Migrates data from **on-premises** to AWS
+			- 10x **faster** than open source tools
+			- Copy data over **Direct Connect** or the **internet**
+			- Copy data between AWS storage services
+			- Replicate data cross-Region or cross-account
+			-
+		- #### Flashcards
+			- What is Snowball Edge? #flashcard
+				- #### Snowball and Snowball Edge
+					- Petabyte-scale data transport solution
+					- Transfer data in and out
+					- Cheaper than internet transfer
+					- Snowball Edge supports EC2 and Lambda
+			- What is Snowmobile? #flashcard
+				- #### Snowmobile
+					- Multi-**petabyte** to **exabyte** scale
+					- Data loaded to S3
+					- Securely transported in **trucks** with GPS and 24/7 video security
+	-
+	- ### 3.16 Leveraging Analytics Services
 		-
 -
 -

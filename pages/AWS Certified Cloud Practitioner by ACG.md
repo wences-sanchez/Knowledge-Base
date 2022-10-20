@@ -1077,6 +1077,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 - ## 4. Security and Compliance
 	- ### 4.1 Section Introduction
 	- ### 4.2 Understanding the Shared Responsibility Model #flashcard
+	  collapsed:: true
 		- AWS is also responsible for managed servers functionality.
 		- #### Responsibilities for Security IN the cloud
 			- **You** are responsible for how the services are implemented and managing your application data
@@ -1098,6 +1099,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Patching the **host operating** system
 			- Security of the physical server
 	- ### 4.3 Leveraging the Well-Architected Framework
+	  collapsed:: true
 		- 6 Pillars of the Well-Architected Framework: #flashcard
 			- #### Operational Excellence
 				- ![image.png](../assets/image_1666256804984_0.png)
@@ -1112,8 +1114,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 				- ![image.png](../assets/image_1666257098176_0.png)
 			- #### Sustainability
 				- ![image.png](../assets/image_1666257138736_0.png)
-	-
 	- ### 4.4 Understanding IAM Users
+	  collapsed:: true
 		- #### Identity and Access Management (IAM)
 			- **IAM** allows you to control access to your AWS services and resources
 			- Helps you **secure** your cloud resources

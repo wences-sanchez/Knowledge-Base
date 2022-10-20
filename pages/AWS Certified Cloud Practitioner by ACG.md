@@ -805,6 +805,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 					-
 		-
 	- ### 3.18 Understanding Developer Tools
+	  collapsed:: true
 		- #### The Bigger Picture
 			- Why are tools important? #flashcard
 			  id:: 634fe038-e7a1-4af4-8483-14606220db4a
@@ -869,9 +870,71 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Integrates with *CodeCommit*, *CodeBuild* and *CodeDeploy*
 			- Contains issue tracking dashboard
 			- ![image.png](../assets/image_1666180551537_0.png)
-			-
-	-
+		- #### Flashcards
+		  collapsed:: true
+			- Talk about the AWS Developer Tools (develop, commit, build, deploy, automate, debug and collaborate) #flashcard
+			  collapsed:: true
+				- #### Cloud9
+					- **Cloud9** is an Integrated Development Environment (IDE) that allows you to write code in it within your web browser.
+					- Use Cases:
+						- Build serverless applications
+							- Cloud9 preconfigures the development environment with the needed SDKs and libraries. You can easily write the code for your Lambda function directly in your web browser.
+					-
+				- #### CodeCommit
+					- **CodeCommit** is a source control system for private Git repositories
+					- You can create repositories to store code
+					- You can commit, branch and merge code
+					- You can collaborate with other software developers
+					- Use Cases:
+						- To manage source code files and their different versions
+				-
+				- #### CodeBuild
+					- **CodeBuild** allows you to build and test your application source code
+					- **Compiles** source code and **runs** tests
+					- Enables continous **integration** and **delivery**
+					- Produces **build** artifacts ready to be deployed
+					- Use Cases:
+						- Run tests before deploying a new version of an application to production
+							- **CodeBuild** allows you to run as many parallel streams of tests as needed, allowing you to deploy your changes to production more quickly.
+				-
+				- #### CodeDeploy
+					- **CodeDeploy** manages the deployment of code to compute services in the cloud or on-premises
+					- Deploys code to:
+						- EC2,
+						- Fargate,
+						- Lamda
+						- and on-premises
+					- Maintains application **uptime**
+					- Use Cases:
+						- Maintain application uptime when rolling out a new version
+							- **CodeDeploy** eliminates the downtime of your application when deploying a new version due to its **rolling deployments**.
+				- #### CodePipeline
+					- **CodePipeline** automates the software release process.
+					- **Quickly** deliver new features and updates
+					- Integrates with **CodeBuild** to run builds and unit tests
+					- Integrates with **CodeCommit** to retrieve source code
+					- Integrates eith **CodeDeploy** to deploy your changes
+					- Use Cases:
+						- Add automation to the building, testing and deployment of your application
+							- When combined with other developer tools, **CodePipeline** helps devevelopment teams implement DevOps practices that automate testing to the movement of code to production.
+				-
+				- #### X-Ray
+					- **X-Ray** helps you debug production applications
+					- **Analyze** and **debug** production applications
+					- **Map** application components
+					- View **requests** end to end
+					- Use Cases:
+						- Trace calls to an RDS database
+					-
+				- #### CodeStar
+					- **CodeStar** helps developers collaboratively work on development projects
+					- Developers connect their development environment
+					- Integrates with *CodeCommit*, *CodeBuild* and *CodeDeploy*
+					- Contains issue tracking dashboard
+					- ![image.png](../assets/image_1666180551537_0.png)
+				-
 	- ### 3.19 Exploring Deployment and Infrastructure Management Services
+	  collapsed:: true
 		- #### CloudFormation
 			- **CloudFormation** allows to provision AWS resources using Infrastructure as Code (IaC)
 			- Provides a repeatable process for provisioning resources
@@ -921,10 +984,10 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 					- Works with Chef and Puppet automation platforms
 					- Use Cases:
 						- Automate software configurations and infrastructure management for your application.
-	-
 	- ### 3.20 Create a DynamoDB Table Using CloudFormation
 	- ### 3.21 Utilizing Messaging and Integration Services: SQS #flashcard
 	  id:: 6350127d-c8a2-4264-9c51-f0dd25ea91fe
+	  collapsed:: true
 		- #### Simple Queue Service (SQS)
 			- **SQS** is a message queuing service that allows you to build **loosely coupled** systems
 			- Allows component-to-component communication using messages
@@ -936,6 +999,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 				-
 	- ### 3.22 Utilizing Messaging and Integration Services: SNS and SES #flashcard
 	  id:: 634fa9a2-5fc5-44d5-bf89-b4bce47c2be1
+	  collapsed:: true
 		- #### Simple Notification Service (SNS)
 			- **SNS** allows you to send emails and text messages from your applications
 			- Send **email** and **text** messages
@@ -951,6 +1015,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Unlike *SNS*, *SES* sends **HTML** emails
 			-
 	- ### 3.23 Exploring Auditing, Monitoring and Logging Services
+	  collapsed:: true
 		- #### The Bigger Picture
 			- Why do we need auditing, monitoring and logging? #flashcard
 			  id:: 63501dff-c64d-463e-8d6c-99a3575e0b7a
@@ -993,3 +1058,18 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		-
 		-
 		-
+		-
+	- ### 3.24 Exploring Additional Services
+		- #### Amazon WorkSpaces
+			- **Amazon WorkSpaces** allows you to host virtual desktops in the cloud
+			- Virtualize Windows or Linux desktops
+			- Enables **employees** to **work from home**
+			-
+		- #### Amazon Connect
+			- **Amazon Connect** is a cloud contact server service
+			-
+			-
+-
+-
+-
+-

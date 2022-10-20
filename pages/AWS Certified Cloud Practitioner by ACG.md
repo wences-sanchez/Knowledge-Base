@@ -1327,6 +1327,9 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Helps you see **service limits**
 			- Helps you understand **best practices**
 			-
+		- #### License Manager
+			- **License Manager** helps you manage software licenses
+			-
 			-
 		-
 			-

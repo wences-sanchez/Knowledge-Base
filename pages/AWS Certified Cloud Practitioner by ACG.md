@@ -1343,7 +1343,14 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Use Cases:
 				- *You can use APN to get advise to a design*
 		- #### Marketplace
-			- **Marketplace**
+			- **Marketplace** is a digital catalog of prebuilt solutions you can purchase or license. You may also sell your own solutions to others via Marketplace
+		- #### Personal Health Dashboard
+			- **Personal Health Dashboard** alerts you to events that might impact your AWS environment.
+			- Provides **troubleshooting** guidance and **feedback**
+	-
+	- ### 5.6 Exploring Support Plans
+		-
+	-
 		-
 			-
 -

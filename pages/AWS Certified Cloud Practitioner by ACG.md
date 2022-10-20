@@ -1304,7 +1304,17 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Single payment for all acounts
 			- Automate account creation
 			- Allocate resources and apply policies across accounts
-			-
+			- Benefits:
+				- Consolidate Billing
+					- You receive **one bill** for multiple accounts
+				- Cost Savings:
+					- **Volume discounts** since usage is combined across accounts
+				- Account Governance:
+					- You have a quick and automated way to create accounts or invite existing accounts.
+				- You can use reserved instance **sharing**!
+		- #### Control Tower
+			- **Control Tower** helps you ensure your accounts conform to company-
+		-
 			-
 -
 -

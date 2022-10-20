@@ -896,6 +896,7 @@ deck:: [[ACloudGuru::AWS]]
 		-
 		- #### Flashcards
 			- Talk about three main options in AWS for IaC and PaaS #flashcard
+			  id:: 635011e3-44b9-4dc8-8101-dbcad2cac36d
 			  collapsed:: true
 				- #### CloudFormation
 					- **CloudFormation** allows to provision AWS resources using Infrastructure as Code (IaC)
@@ -922,6 +923,7 @@ deck:: [[ACloudGuru::AWS]]
 	-
 	- ### 3.20 Create a DynamoDB Table Using CloudFormation
 	- ### 3.21 Utilizing Messaging and Integration Services: SQS #flashcard
+	  id:: 6350127d-c8a2-4264-9c51-f0dd25ea91fe
 		- #### Simple Queue Service (SQS)
 			- **SQS** is a message queuing service that allows you to build **loosely coupled** systems
 			- Allows component-to-component communication using messages
@@ -932,6 +934,7 @@ deck:: [[ACloudGuru::AWS]]
 				- ![image.png](../assets/image_1666194277326_0.png)
 				-
 	- ### 3.22 Utilizing Messaging and Integration Services: SNS and SES #flashcard
+	  id:: 634fa9a2-5fc5-44d5-bf89-b4bce47c2be1
 		- #### Simple Notification Service (SNS)
 			- **SNS** allows you to send emails and text messages from your applications
 			- Send **email** and **text** messages
@@ -949,8 +952,10 @@ deck:: [[ACloudGuru::AWS]]
 	- ### 3.23 Exploring Auditing, Monitoring and Logging Services
 		- #### The Bigger Picture
 			- Why do we need auditing, monitoring and logging? #flashcard
+			  id:: 63501dff-c64d-463e-8d6c-99a3575e0b7a
 				- These services give you **insight** into how well your systems are **performing** and help you **proactively** find and resolve **errors**.
-		- #### CloudWatch
+		- #### CloudWatch #flashcard
+		  id:: 63501e54-f998-4ebf-a3fa-c87aea50cad7
 			- **CloudWatch** is a collection of services that help you monitor and observe your cloud resources.
 			- Collect **metrics**, **logs** and **events**
 			- Detect **anomalies** in your environment
@@ -966,7 +971,8 @@ deck:: [[ACloudGuru::AWS]]
 					- Helps you visualize time-based data, i.e. the CPU over time
 				- #### CloudWatch Events
 					- Allows to take automatic actions based on a condition
-		- #### CloudTrail
+		- #### CloudTrail #flashcard
+		  id:: 63502036-7448-46d0-b7be-da594b27dc97
 			- **CloudTrail** tracks user activity and API calls withing your account
 			- **Log** and **retain** account activity
 			- Track activity through the **console**, **SDKs** and **CLI**
@@ -976,7 +982,13 @@ deck:: [[ACloudGuru::AWS]]
 				- Track the time a particular event occurred in your account.
 					- You can troubleshoot events over the past 90 days using the **CloudTrail event history log** to find the **specific time** an event occurred on a **per-region** basis.
 					- You can create a custom trail to extend past 90 days.
-			-
+			- We can track:
+				- Usernames
+				- events time and name
+				- IP address
+				- Access key
+				- Region
+				- Error code
 		-
 		-
 		-

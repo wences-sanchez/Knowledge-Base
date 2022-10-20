@@ -1328,7 +1328,11 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Helps you understand **best practices**
 			-
 		- #### License Manager
-			- **License Manager** helps you manage software licenses
+			- **License Manager** helps you manage your on-premises and AWS software licenses.
+			-
+		- #### Certificate Manager
+			- **Certificate Manager** helps you provision and manage SSL/TLS certificates
+			- Provides public and private certificates for free
 			-
 			-
 		-

@@ -1121,6 +1121,9 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- You define **what** they can do
 			- A free **global** service
 			- Authentication VS Authorization
+	- ### 4.5 Understanding IAM Permissions
+		- #### Roles
+			- **Roles** define access permissions and are temporarily assumed by and IAM user or service
 			-
 -
 -

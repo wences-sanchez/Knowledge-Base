@@ -1093,6 +1093,11 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- #### Installed Software
 				- You are responsible for your **application code**, installed software, and more.
 				- You should frequently scan for and **patch vulnerabilities** in your code
+		- #### Responsibilities of AWS
+			- EC2 Service
+			- Patching the **host operating** system
+			- Security of the physical server
+	- ### 4.3 Leveraging the Well-Architected Framework
 		-
 	-
 -

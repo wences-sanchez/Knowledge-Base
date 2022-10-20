@@ -1060,15 +1060,19 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		-
 		-
 	- ### 3.24 Exploring Additional Services
-		- #### Amazon WorkSpaces
+		- #### Amazon WorkSpaces #flashcard
 			- **Amazon WorkSpaces** allows you to host virtual desktops in the cloud
 			- Virtualize Windows or Linux desktops
 			- Enables **employees** to **work from home**
 			-
-		- #### Amazon Connect
+		- #### Amazon Connect #flashcard
 			- **Amazon Connect** is a cloud contact server service
+			- Provides customer service functionality
+			- Improves productivity of help desk agents in real-time
 			-
-			-
+	- ### 3.25 Section Review
+		-
+		-
 -
 -
 -

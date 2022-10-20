@@ -1114,7 +1114,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 				- ![image.png](../assets/image_1666257098176_0.png)
 			- #### Sustainability
 				- ![image.png](../assets/image_1666257138736_0.png)
-	- ### 4.4 Understanding IAM Users
+	- ### 4.4 Understanding IAM Users #flashcard
+	  collapsed:: true
 		- #### Identity and Access Management (IAM)
 			- **IAM** allows you to control access to your AWS services and resources
 			- Helps you **secure** your cloud resources
@@ -1122,7 +1123,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- You define **what** they can do
 			- A free **global** service
 			- Authentication VS Authorization
-	- ### 4.5 Understanding IAM Permissions
+	- ### 4.5 Understanding IAM Permissions #flashcard
+	  collapsed:: true
 		- #### Roles
 			- **Roles** define access permissions and are temporarily assumed by and IAM user or service
 			- They can be multi-account
@@ -1130,6 +1132,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- You manage permissions for IAM users, groups and roles by creating a policy document in JSON format and attaching it.
 	- ### 4.6 Create users and manage permissions using groups and policies in IAM
 	- ### 4.7 Exploring Application Security Services
+	  collapsed:: true
 		- #### Web Application Firewall (WAF)
 			- **WAF** helps protect your web applications against common web attacks
 			- Detects patterns
@@ -1146,6 +1149,26 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Uncovers **personally indentifiable information** (PII)
 			- Use Cases:
 				- Discover passport or credit cards numbers, usernames...
+		- #### Flashcards
+		  collapsed:: true
+			- How can you protect your account of SQL injections, cross-site, DDoS an sensitive data? #flashcard
+			  collapsed:: true
+				- #### Web Application Firewall (WAF)
+					- **WAF** helps protect your web applications against common web attacks
+					- Detects patterns
+					- Protects against **SQL injection**
+					- Protects against **cross-site** scripting
+				- #### Shield
+					- **Shield** is a managed Distributed Denial of Service **(DDoS)** protection service
+					- Always-on detection
+					- Shield standared is free (Advanced is a paid 24/7 service)
+				- #### Macie
+					- **Macie** helps you discover and protect sensitive data
+					- Uses **machine learning**
+					- Evaluates **S3** environment
+					- Uncovers **personally indentifiable information** (PII)
+					- Use Cases:
+						- Discover passport or credit cards numbers, usernames...
 	- ### 4.8 Exploring Additional Security Services
 		- #### Config
 			- **Config** allows you to assess, audit and evaluate the configurations of your resources
@@ -1169,6 +1192,33 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- **Artifact** offers on-demand access to AWS security and compliance reports.
 		- #### Cognito
 			- **Cognito** helps you control access to mobile and web applications
+		-
+		- #### Flashcards
+		  collapsed:: true
+			- What AWS services can we use to: keep track of changes over time, get advised, supervise our instance traffic, meet compliance or manage our own userss? #flashcard
+			  collapsed:: true
+				- #### Config
+					- **Config** allows you to assess, audit and evaluate the configurations of your resources
+					- Track configuration changes over time
+					- Delivers configuration history file to S3
+					- Notifications via SNS of every configuration change
+				- #### GuardDuty
+					- **GuardDuty** is an intelligent threat detection system that uncovers unauthorized behavior.
+					- Uses machine learning
+					- Reviews **logs**
+					- Use Cases:
+						- Detect unusual API calls in **your account**
+				- #### Inspector
+					- **Inspector** works with EC2 instances to uncover and report vulnerabilities
+					- Agent installed on EC2 instances
+					- Reports vulnerabilities found
+					- Checks access from diverse sources
+					- Use Cases:
+						- Identrify unintended network access to **an EC2 instance** via a detailed report of security findings
+				- #### Artifact
+					- **Artifact** offers on-demand access to AWS security and compliance reports.
+				- #### Cognito
+					- **Cognito** helps you control access to mobile and web applications
 	- #### 4.9 Utilizing Data Encryption and Secrets Management Services
 		- #### Key Management Service (KMS)
 			- **KMS** allows you to generate and store encryption keys
@@ -1186,10 +1236,30 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Use Cases:
 				- Retrieve database credentials needed for your application code
 				- Consumed by applications. There is no need to hardcode those information in your application code
+		- #### Flashcards
+		  collapsed:: true
+			- How can we manage our keys (by us or by AWS) and protect our passwords? #flashcard
+			  collapsed:: true
+				- #### Key Management Service (KMS)
+					- **KMS** allows you to generate and store encryption keys
+					- **Automatically** enabled for **certain** services
+				- #### CloudHSM
+					- **CloudHSM** is a hardware security module (HSM) used to generate encryption keys.
+					- **Dedicated hardware** for security
+					- Generate and manage your **own** encryption keys
+					- AWS does **not** have access to your keys
+				- #### Secrets Manager
+					- **Secrets Manager** allows you to manage and retrieve **secrets** (passwords or keys)
+					- Rotate, manage and retrieve secrets
+					- Encrypt secrets at rest
+					- Integrates with services like RDS, Redshift and DocumentDB
+					- Use Cases:
+						- Retrieve database credentials needed for your application code
+						- Consumed by applications. There is no need to hardcode those information in your application code
 -
 - ## 5. Pricing, Billing and Governance
 	- ### 5.1 Section Introduction
-	- ### 5.2 Understanding AWS Pricing
+	- ### 5.2 Understanding AWS Pricing #flashcard
 		- In S3, you only pay for the storage you use
 		- #### Application Discovery Service
 			- **Application Discovery Service** helps you plan migration projects to the AWS Cloud

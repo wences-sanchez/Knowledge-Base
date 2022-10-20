@@ -1158,17 +1158,27 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Uses machine learning
 			- Reviews **logs**
 			- Use Cases:
-				- Detect unusual API calls in your account
+				- Detect unusual API calls in **your account**
 		- #### Inspector
 			- **Inspector** works with EC2 instances to uncover and report vulnerabilities
 			- Agent installed on EC2 instances
 			- Reports vulnerabilities found
 			- Checks access from diverse sources
 			- Use Cases:
-				- Identrify unintended network access to an EC2 instance via a detailed report of security findings
+				- Identrify unintended network access to **an EC2 instance** via a detailed report of security findings
 		- #### Artifact
-			- **Artifact**
--
+			- **Artifact** offers on-demand access to AWS security and compliance reports.
+		- #### Cognito
+			- **Cognito** helps you control access to mobile and web applications
+	- #### 4.9 Utilizing Data Encryption and Secrets Management Services
+		- #### Key Management Service (KMS)
+			- **KMS** allows you to generate and store encryption keys
+			- **Automatically** enabled for **certain** services
+		- #### CloudHSM
+			- **CloudHSM** is a hardware security module (HSM) used to generate encryption keys.
+			- Dedicated hardware for security
+			- Generat and manage your own encryption keys
+			-
 -
 -
 -

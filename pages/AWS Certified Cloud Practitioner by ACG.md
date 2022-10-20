@@ -1188,6 +1188,9 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 				- Retrieve database credentials needed for your application code
 				- Consumed by applications. There is no need to hardcode those information in your application code
 -
+- ## 5. Pricing, Billing and Governance
+	- ### 5.1 Section Introduction
+		-
 -
 -
 -

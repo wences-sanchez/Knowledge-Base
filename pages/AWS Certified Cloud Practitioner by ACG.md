@@ -1176,9 +1176,17 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- **Automatically** enabled for **certain** services
 		- #### CloudHSM
 			- **CloudHSM** is a hardware security module (HSM) used to generate encryption keys.
-			- Dedicated hardware for security
-			- Generat and manage your own encryption keys
-			-
+			- **Dedicated hardware** for security
+			- Generate and manage your **own** encryption keys
+			- AWS does **not** have access to your keys
+		- #### Secrets Manager
+			- **Secrets Manager** allows you to manage and retrieve **secrets** (passwords or keys)
+			- Rotate, manage and retrieve secrets
+			- Encrypt secrets at rest
+			- Integrates with services like RDS, Redshift and DocumentDB
+			- Use Cases:
+				- Retrieve database credentials needed for your application code
+				- Consumed by applications. There is no need to hardcode those information in your application code
 -
 -
 -

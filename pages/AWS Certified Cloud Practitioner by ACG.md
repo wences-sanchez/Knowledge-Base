@@ -1115,7 +1115,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- #### Sustainability
 				- ![image.png](../assets/image_1666257138736_0.png)
 	- ### 4.4 Understanding IAM Users
-	  collapsed:: true
 		- #### Identity and Access Management (IAM)
 			- **IAM** allows you to control access to your AWS services and resources
 			- Helps you **secure** your cloud resources
@@ -1198,7 +1197,22 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Works with other services to **migrate servers**
 		- #### AWS Price List API
 			- The **Price List API** allows you to query the price of AWS services.
-		-
+	- ### 5.3 Understanding Billing Services
+		- #### Budgets
+			- **Budgets** allows you to set custom budgets that **alert** you when your costs or usage **exceed** your budgeted amount.
+			- Improve **planning** and **cost control**
+			- **Cost**, **usage** and **reservation** budgets
+			- Budget **alerts**
+			- Budget Types:
+				- Cost Budgets:
+					- Plan how much you want to **spend** on a service
+				- Usage Budgets:
+					- Plan how much you want to **use** on one or more services
+				- Reservation Budgets:
+					- Set RI or Saving Plans **utilization** or **coverage** targets
+			- Use Cases:
+				- Monitor Free Tier usage so you don't incur unwanted costs.
+				-
 -
 -
 -

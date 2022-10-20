@@ -1098,7 +1098,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Patching the **host operating** system
 			- Security of the physical server
 	- ### 4.3 Leveraging the Well-Architected Framework
-		- 6 Pillars of the Well-Architected Framework:
+		- 6 Pillars of the Well-Architected Framework: #flashcard
 			- #### Operational Excellence
 				- ![image.png](../assets/image_1666256804984_0.png)
 				- This pillar focuses on creating applications that effectively support production workloads
@@ -1110,8 +1110,18 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 				- ![image.png](../assets/image_1666257053055_0.png)
 			- #### Cost Optimization
 				- ![image.png](../assets/image_1666257098176_0.png)
-				-
+			- #### Sustainability
+				- ![image.png](../assets/image_1666257138736_0.png)
 	-
+	- ### 4.4 Understanding IAM Users
+		- #### Identity and Access Management (IAM)
+			- **IAM** allows you to control access to your AWS services and resources
+			- Helps you **secure** your cloud resources
+			- You define **who** has access
+			- You define **what** they can do
+			- A free **global** service
+			- Authentication VS Authorization
+			-
 -
 -
 -

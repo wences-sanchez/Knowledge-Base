@@ -1,5 +1,6 @@
 tags:: ACloudGuru, AWS
 deck:: [[ACloudGuru::AWS]]
+id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 
 - #tags #AWS #CCP-Exam
 -

@@ -1192,6 +1192,13 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 	- ### 5.1 Section Introduction
 	- ### 5.2 Understanding AWS Pricing
 		- In S3, you only pay for the storage you use
+		- #### Application Discovery Service
+			- **Application Discovery Service** helps you plan migration projects to the AWS Cloud
+			- Plan **migration** projects
+			- Works with other services to **migrate servers**
+		- #### AWS Price List API
+			- The **Price List API** allows you to query the price of AWS services.
+		-
 -
 -
 -

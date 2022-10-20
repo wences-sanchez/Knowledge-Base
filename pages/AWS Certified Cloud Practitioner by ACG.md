@@ -1282,7 +1282,17 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 					- Set RI or Saving Plans **utilization** or **coverage** targets
 			- Use Cases:
 				- Monitor Free Tier usage so you don't incur unwanted costs.
-				-
+			- **It's so much easier than CloudWatch!!!!**
+		- #### Cost and Usage Report
+			- The **Cost and Usage Report** contains the most **comprehensive** set of cost and usage data.
+			- When you recieve a bill and you want to know where each item comes from.
+			- Downloadable detailed and comprehensive **report**
+			- Lists usage for each **service category**
+			- **Aggregate** usage data on a daily, hourly or monthly level
+			- Use Cases:
+				- View the most granular data about your AWS bill.
+		- #### Cost Explorer
+			-
 -
 -
 -

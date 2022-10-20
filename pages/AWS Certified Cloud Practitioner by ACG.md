@@ -1190,7 +1190,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 -
 - ## 5. Pricing, Billing and Governance
 	- ### 5.1 Section Introduction
-		-
+	- ### 5.2 Understanding AWS Pricing
+		- In S3, you only pay for the storage you use
 -
 -
 -

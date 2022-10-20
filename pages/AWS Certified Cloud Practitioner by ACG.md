@@ -1129,7 +1129,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- They can be multi-account
 		- #### Policies
 			- You manage permissions for IAM users, groups and roles by creating a policy document in JSON format and attaching it.
-		-
+	- ### 4.5 Create users and manage permissions using groups and policies in IAM
+	-
 -
 -
 -

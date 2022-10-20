@@ -1131,7 +1131,22 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- You manage permissions for IAM users, groups and roles by creating a policy document in JSON format and attaching it.
 	- ### 4.6 Create users and manage permissions using groups and policies in IAM
 	- ### 4.7 Exploring Application Security Services
-		-
+		- #### Web Application Firewall (WAF)
+			- **WAF** helps protect your web applications against common web attacks
+			- Detects patterns
+			- Protects against **SQL injection**
+			- Protects against **cross-site** scripting
+		- #### Shield
+			- **Shield** is a managed Distributed Denial of Service **(DDoS)** protection service
+			- Always-on detection
+			- Shield standared is free (Advanced is a paid 24/7 service)
+		- #### Macie
+			- **Macie** helps you discover and protect sensitive data
+			- Uses **machine learning**
+			- Evaluates **S3** environment
+			- Uncovers **personally indentifiable information** (PII)
+			- Use Cases:
+				-
 -
 -
 -

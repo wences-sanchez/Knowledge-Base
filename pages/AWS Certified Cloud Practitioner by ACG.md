@@ -1332,9 +1332,18 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			-
 		- #### Certificate Manager
 			- **Certificate Manager** helps you provision and manage SSL/TLS certificates
-			- Provides public and private certificates for free
-			-
-			-
+			- Provides **public** and **private** certificates for **free**
+			- Integrates with Elastic Load Balancing, API Gateway and more
+		-
+	- ### 5.5 Utilizing Management Services
+		- #### AWS Partner Network (APN)
+			- **APN** is a global community of approved partners that offer software solutions and consulting services for AWS
+			- Offers technology partners that provide software solutions
+			- Provides consulting partners that offer professional services and AWS expertise
+			- Use Cases:
+				- *You can use APN to get advise to a design*
+		- #### Marketplace
+			- **Marketplace**
 		-
 			-
 -

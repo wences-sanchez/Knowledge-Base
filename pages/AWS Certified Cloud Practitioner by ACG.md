@@ -1313,7 +1313,21 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 					- You have a quick and automated way to create accounts or invite existing accounts.
 				- You can use reserved instance **sharing**!
 		- #### Control Tower
-			- **Control Tower** helps you ensure your accounts conform to company-
+			- **Control Tower** helps you ensure your accounts conform to company-wide policies
+			- Helps set up new accounts using a multi-account strategy
+			- **Works** directly **with** AWS Organizations
+			- Provides a **dashboard** to manage accounts
+			- Use Cases:
+				- *Disallow public write access to all S3 buckets across your accounts.*
+		- #### Systems Manager
+			- **Systems Manager** gives you visibility and control over your AWS resources
+		- #### Trusted Advisor
+			- **Trusted Advisor** provides **real-time guidance** to help you provision your resources following AWS best practices
+			- **Checks** your account and **makes recommendations**
+			- Helps you see **service limits**
+			- Helps you understand **best practices**
+			-
+			-
 		-
 			-
 -

@@ -1080,7 +1080,20 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		- AWS is also responsible for managed servers functionality.
 		- #### Responsibilities for Security IN the cloud
 			- **You** are responsible for how the services are implemented and managing your application data
-			-
+			- #### Application Data
+				- Your are responsible for managing your application data, which includes **encryption** options
+			- #### Security Configuration
+				- You are responsible for **securing** your account and API calls, **rotating** credentials, **restricting** internet access from your VPCs, and more
+			- #### Patching
+				- You are responsible for the **guest operating system (OS)**, which includes updates and security patches
+			- #### Identity and Access Management
+				- You are responsible for application **security** and identity and access management
+			- #### Network Traffic
+				- You are responsible for **network traffic protecion**, which includes security group **firewall configuration**
+			- #### Installed Software
+				- You are responsible for your **application code**, installed software, and more.
+				- You should frequently scan for and **patch vulnerabilities** in your code
+		-
 	-
 -
 -

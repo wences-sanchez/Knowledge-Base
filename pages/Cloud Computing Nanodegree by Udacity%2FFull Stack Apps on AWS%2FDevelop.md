@@ -1,4 +1,14 @@
 - ## 1. Intro
 - ## 2. How to design an API
 	- ### What is a Server?
+		- A **Server** is a computer connected to a network
+		- A **Cloud Server** is a computer connected to a network that is managed by someone else.
+		- We only need a keyboard and software to build a server, these days.
+		- We'll be using NodeJS
+			- NodeJS is a JavaScript based server-side environment to allow developers to build network applications.
+			-
+	- ### What is an Application Program Interface (API)?
+		- **RESTful APIs** use request paths, types and bodies to perform a specific action
+		-
+		-
 		-

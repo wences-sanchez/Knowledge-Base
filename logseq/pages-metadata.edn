@@ -475,6 +475,17 @@
  {:block/name "cloud computing and devops culture tema-9 (highlights)",
   :block/created-at 1665484178891,
   :block/updated-at 1665484178891}
+ {:block/name "cloud computing nanodegree by udacity",
+  :block/created-at 1666337879005,
+  :block/updated-at 1666338014275}
+ {:block/name
+  "cloud computing nanodegree by udacity/full stack apps on aws",
+  :block/created-at 1666338014273,
+  :block/updated-at 1666340013860}
+ {:block/name
+  "cloud computing nanodegree by udacity/full stack apps on aws/cloud basics",
+  :block/created-at 1666338014268,
+  :block/updated-at 1666339787834}
  {:block/name "cloud-computing-and-devops-culture",
   :block/created-at 1665484178819,
   :block/updated-at 1665484178819}
@@ -848,6 +859,9 @@
  {:block/name "friday, 19-08-2022",
   :block/created-at 1665484160048,
   :block/updated-at 1665484160048}
+ {:block/name "friday, 21-10-2022",
+  :block/created-at 1666337794590,
+  :block/updated-at 1666339994534}
  {:block/name "friday, 23-09-2022",
   :block/created-at 1665484163060,
   :block/updated-at 1665484163060}

@@ -1,31 +1,5 @@
-- # Cloud Basics
-	- ## 1. Cloud Basics and Parts of a Cloud
-		- ### Defining Our Cloud
-			- Cloud can be used for a variety of purposes:
-				- Store data of all users into a central store
-				- Scale our data store
-				- Compute very hard math and cost problems
-				- Parallelize compute power
-				-
-	- ## 2. Monolithic vs. Loosely Coupled Systems
-		- Traditionally, the different features were inside a single web server
-		- Often, those systems were **tightly coupled**.
-			- Tightly coupled systems are **quick to stand-up**, but may result in higher **Technical Debt**.
-		- It's a much better idea to use **loosely coupled** systems
-			- Loosely coupled systems require more time upfront but are generally easier to improve upon.
-		- What are microservices? #flashcard
-			- Microservices are individual specialized systems (software deployed on specialized infrastructure) designed to accomplish a specific task.  Specific tasks may include things like authentication, image processing, or data management.
--
-	- ## 3. Request Response and APIs
-		- ### HTTP Responses
-			- Some common Status Codes
-				- 200 Success
-				- 400 Bad Request
-				- 401 Unauthorized
-				- 403 Forbidden
-				- 404 Not Found
-				- 500 Internal Server Error
-				- ....many more
-				- It's important to specify each status in our code
-				- https://www.restapitutorial.com/httpstatuscodes.html
--
+- # 3. Full Stack Apps on AWS
+	- ## Lessons
+		- ### Lesson 1: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Cloud Basics]]
+		- ### Lesson 2: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Develop]]
+		-

@@ -14,6 +14,7 @@
 - ## 3. Standing up a Cloud Capable Server Locally using Node
 	- ### Standing up a Cloud Capable Server
 		- #### Introduction to Node
-		- [Node (aka NodeJs)](https://nodejs.org/en/) is a powerful framework to build network applications using JavaScript (in our case using TypeScript) outside of browsers. It has an asynchronous concurrent model which releases the developer from many concerns involving threading and dead-locking. Node is used as our server framework along with [Express](https://expressjs.com/) to handle web http requests and responses.
-	-
+			- [Node (aka NodeJs)](https://nodejs.org/en/) is a powerful framework to build network applications using JavaScript (in our case using TypeScript) outside of browsers. It has an asynchronous concurrent model which releases the developer from many concerns involving threading and dead-locking. Node is used as our server framework along with [Express](https://expressjs.com/) to handle web http requests and responses.
+		- **NodeJS** is a framework. And **Typescript** is the language that NodeJS uses.
+		-
 	-

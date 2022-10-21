@@ -1,0 +1,5 @@
+- ## 1. Cloud Basics and Parts of a Cloud
+	- ### Defining Our Cloud
+		- Cloud can be used for a variety of purposes:
+			- Store data of all users into a
+			-

@@ -17,4 +17,14 @@
 -
 - ## 3. Request Response and APIs
 	- ### HTTP Responses
-		-
+		- Some common Status Codes
+			- 200 Success
+			- 400 Bad Request
+			- 401 Unauthorized
+			- 403 Forbidden
+			- 404 Not Found
+			- 500 Internal Server Error
+			- ....many more
+			- It's important to specify each status in our code
+			- https://www.restapitutorial.com/httpstatuscodes.html
+-

@@ -873,6 +873,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		- #### Flashcards
 		  collapsed:: true
 			- Talk about the AWS Developer Tools (develop, commit, build, deploy, automate, debug and collaborate) #flashcard
+			  id:: 6350f9c2-7e37-4eb3-8c90-b56fd2aed5ee
 			  collapsed:: true
 				- #### Cloud9
 					- **Cloud9** is an Integrated Development Environment (IDE) that allows you to write code in it within your web browser.
@@ -1061,11 +1062,13 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		-
 	- ### 3.24 Exploring Additional Services
 		- #### Amazon WorkSpaces #flashcard
+		  id:: 6350fb20-3a6e-4278-b304-0cf7fd838e48
 			- **Amazon WorkSpaces** allows you to host virtual desktops in the cloud
 			- Virtualize Windows or Linux desktops
 			- Enables **employees** to **work from home**
 			-
 		- #### Amazon Connect #flashcard
+		  id:: 6350fb8d-dad0-435b-a443-f6d782fbfdbb
 			- **Amazon Connect** is a cloud contact server service
 			- Provides customer service functionality
 			- Improves productivity of help desk agents in real-time
@@ -1077,6 +1080,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 - ## 4. Security and Compliance
 	- ### 4.1 Section Introduction
 	- ### 4.2 Understanding the Shared Responsibility Model #flashcard
+	  id:: 635107ca-b889-40fd-b898-e5de2101fc3e
 	  collapsed:: true
 		- AWS is also responsible for managed servers functionality.
 		- #### Responsibilities for Security IN the cloud
@@ -1101,6 +1105,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 	- ### 4.3 Leveraging the Well-Architected Framework
 	  collapsed:: true
 		- 6 Pillars of the Well-Architected Framework: #flashcard
+		  id:: 63510d2a-6a80-4093-a3d4-f8e4277abb0b
 			- #### Operational Excellence
 				- ![image.png](../assets/image_1666256804984_0.png)
 				- This pillar focuses on creating applications that effectively support production workloads
@@ -1115,6 +1120,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- #### Sustainability
 				- ![image.png](../assets/image_1666257138736_0.png)
 	- ### 4.4 Understanding IAM Users #flashcard
+	  id:: 6350fb86-4d6e-4f81-b3f0-c0de6082d392
 	  collapsed:: true
 		- #### Identity and Access Management (IAM)
 			- **IAM** allows you to control access to your AWS services and resources
@@ -1124,6 +1130,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- A free **global** service
 			- Authentication VS Authorization
 	- ### 4.5 Understanding IAM Permissions #flashcard
+	  id:: 635112e8-d2e4-40f1-9c8b-339ba76c6fe4
 	  collapsed:: true
 		- #### Roles
 			- **Roles** define access permissions and are temporarily assumed by and IAM user or service
@@ -1152,6 +1159,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		- #### Flashcards
 		  collapsed:: true
 			- How can you protect your account of SQL injections, cross-site, DDoS an sensitive data? #flashcard
+			  id:: 63513a79-eebc-40d1-b45d-325fb47761b8
 			  collapsed:: true
 				- #### Web Application Firewall (WAF)
 					- **WAF** helps protect your web applications against common web attacks
@@ -1196,6 +1204,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		- #### Flashcards
 		  collapsed:: true
 			- What AWS services can we use to: keep track of changes over time, get advised, supervise our instance traffic, meet compliance or manage our own userss? #flashcard
+			  id:: 63513ae4-dae7-4455-aeb9-dd75aa444d66
 			  collapsed:: true
 				- #### Config
 					- **Config** allows you to assess, audit and evaluate the configurations of your resources
@@ -1239,6 +1248,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		- #### Flashcards
 		  collapsed:: true
 			- How can we manage our keys (by us or by AWS) and protect our passwords? #flashcard
+			  id:: 63513b9a-4b47-4497-b4a7-c423a6010ce0
 			  collapsed:: true
 				- #### Key Management Service (KMS)
 					- **KMS** allows you to generate and store encryption keys
@@ -1260,6 +1270,7 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 - ## 5. Pricing, Billing and Governance
 	- ### 5.1 Section Introduction
 	- ### 5.2 Understanding AWS Pricing #flashcard
+	  id:: 63513304-9d0b-4e4e-90be-15bc5ec25546
 		- In S3, you only pay for the storage you use
 		- #### Application Discovery Service
 			- **Application Discovery Service** helps you plan migration projects to the AWS Cloud
@@ -1268,7 +1279,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		- #### AWS Price List API
 			- The **Price List API** allows you to query the price of AWS services.
 	- ### 5.3 Understanding Billing Services
-		- #### Budgets
+		- #### Budgets #flashcard
+		  id:: 63513824-0549-468f-9fb9-bb77315f2f39
 			- **Budgets** allows you to set custom budgets that **alert** you when your costs or usage **exceed** your budgeted amount.
 			- Improve **planning** and **cost control**
 			- **Cost**, **usage** and **reservation** budgets
@@ -1283,7 +1295,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Use Cases:
 				- Monitor Free Tier usage so you don't incur unwanted costs.
 			- **It's so much easier than CloudWatch!!!!**
-		- #### Cost and Usage Report
+		- #### Cost and Usage Report #flashcard
+		  id:: 63513d90-6994-467a-8282-0f490d5a03ad
 			- The **Cost and Usage Report** contains the most **comprehensive** set of cost and usage data.
 			- When you recieve a bill and you want to know where each item comes from.
 			- Downloadable detailed and comprehensive **report**
@@ -1291,14 +1304,16 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- **Aggregate** usage data on a daily, hourly or monthly level
 			- Use Cases:
 				- View the most granular data about your AWS bill.
-		- #### Cost Explorer
+		- #### Cost Explorer #flashcard
+		  id:: 63513ea7-ce4c-44f5-a7d9-cd61fcd17669
 			- **Cost Explorer** allows you to visualize and forecast your costs and usage over time
 			- **Visualize** costs over time
 			- View **past 12 months**
 			- **Forecast** for up to 3 months
 	- ### 5.4 Exploring Governance Services
 		- **Governance** and management services help you **maintain control** over cost, compliance and security **across** you AWS accounts.
-		- #### AWS Organizations
+		- #### AWS Organizations #flashcard
+		  id:: 635140bf-2de6-4ebc-a4a0-327c4c834943
 			- **AWS Organizations** allows you to centrally manage multiple AWS accounts under one umbrella.
 			- Group multiple accounts
 			- Single payment for all acounts
@@ -1312,7 +1327,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 				- Account Governance:
 					- You have a quick and automated way to create accounts or invite existing accounts.
 				- You can use reserved instance **sharing**!
-		- #### Control Tower
+		- #### Control Tower #flashcard
+		  id:: 63514296-c4fc-4845-bdb7-268e212efee5
 			- **Control Tower** helps you ensure your accounts conform to company-wide policies
 			- Helps set up new accounts using a multi-account strategy
 			- **Works** directly **with** AWS Organizations
@@ -1335,7 +1351,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Provides **public** and **private** certificates for **free**
 			- Integrates with Elastic Load Balancing, API Gateway and more
 		-
-	- ### 5.5 Utilizing Management Services
+	- ### 5.5 Utilizing Management Services #flashcard
+	  id:: 63515ba1-de88-415e-a96c-2d08f6838c0e
 		- #### AWS Partner Network (APN)
 			- **APN** is a global community of approved partners that offer software solutions and consulting services for AWS
 			- Offers technology partners that provide software solutions

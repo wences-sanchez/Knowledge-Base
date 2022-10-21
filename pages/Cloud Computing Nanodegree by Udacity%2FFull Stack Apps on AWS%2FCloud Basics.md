@@ -1,5 +1,13 @@
 - ## 1. Cloud Basics and Parts of a Cloud
 	- ### Defining Our Cloud
 		- Cloud can be used for a variety of purposes:
-			- Store data of all users into a
+			- Store data of all users into a central store
+			- Scale our data store
+			- Compute very hard math and cost problems
+			- Parallelize compute power
 			-
+- ## 2. Monolithic vs. Loosely Coupled Systems
+	- Traditionally, the different features were inside a single web server
+	- Often, those systems were **tightly coupled**.
+		- Tightly coupled systems are **quick to stand-up**, but may result in higher **Technical Debt**.
+	- It's a much be

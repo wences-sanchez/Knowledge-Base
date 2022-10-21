@@ -1,2 +1,4 @@
 - ## 1. Intro
-	-
+- ## 2. How to design an API
+	- ### What is a Server?
+		-

@@ -10,4 +10,11 @@
 	- Traditionally, the different features were inside a single web server
 	- Often, those systems were **tightly coupled**.
 		- Tightly coupled systems are **quick to stand-up**, but may result in higher **Technical Debt**.
-	- It's a much be
+	- It's a much better idea to use **loosely coupled** systems
+		- Loosely coupled systems require more time upfront but are generally easier to improve upon.
+	- What are microservices? #flashcard
+		- Microservices are individual specialized systems (software deployed on specialized infrastructure) designed to accomplish a specific task.  Specific tasks may include things like authentication, image processing, or data management.
+-
+- ## 3. Request Response and APIs
+	- ### HTTP Responses
+		-

@@ -19,7 +19,8 @@
 	- ### Running Our Server and Making Requests
 		- Para usar una parte de la URL como parámetro en NodeJS, usamos:
 			- ```TypeScript
-			  my_app.get ( "persons/:name", => {
+			  my_app.get ( "persons/:name", 
+			              (request: ) => {
 			      let { name } = request.params;
 			  	return response.status(200).send(`Hi, ${name}`);
 			  } );

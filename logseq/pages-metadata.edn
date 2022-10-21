@@ -489,7 +489,7 @@
  {:block/name
   "cloud computing nanodegree by udacity/full stack apps on aws/develop",
   :block/created-at 1666340379132,
-  :block/updated-at 1666345488340}
+  :block/updated-at 1666345979374}
  {:block/name "cloud-computing-and-devops-culture",
   :block/created-at 1665484178819,
   :block/updated-at 1665484178819}
@@ -865,7 +865,7 @@
   :block/updated-at 1665484160048}
  {:block/name "friday, 21-10-2022",
   :block/created-at 1666337794590,
-  :block/updated-at 1666342747704}
+  :block/updated-at 1666346119881}
  {:block/name "friday, 23-09-2022",
   :block/created-at 1665484163060,
   :block/updated-at 1665484163060}

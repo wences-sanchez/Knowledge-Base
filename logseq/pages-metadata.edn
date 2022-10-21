@@ -489,7 +489,13 @@
  {:block/name
   "cloud computing nanodegree by udacity/full stack apps on aws/develop",
   :block/created-at 1666340379132,
-  :block/updated-at 1666351542851}
+  :block/updated-at 1666352079847}
+ {:block/name "cloud development",
+  :block/created-at 1666351924414,
+  :block/updated-at 1666351924414}
+ {:block/name "cloud development nanodegree",
+  :block/created-at 1666351861971,
+  :block/updated-at 1666351861971}
  {:block/name "cloud-computing-and-devops-culture",
   :block/created-at 1665484178819,
   :block/updated-at 1665484178819}
@@ -2070,6 +2076,9 @@
  {:block/name "type:",
   :block/created-at 1665484224149,
   :block/updated-at 1665484224149}
+ {:block/name "udacity",
+  :block/created-at 1666351833688,
+  :block/updated-at 1666351833688}
  {:block/name "un lugar llamado libertad (highlights)",
   :block/created-at 1661943805977,
   :block/updated-at 1661943805977}

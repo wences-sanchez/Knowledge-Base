@@ -19,11 +19,15 @@
 	- ### Running Our Server and Making Requests
 		- Para usar una parte de la URL como parámetro en NodeJS, usamos:
 			- ```TypeScript
-			  my_app.get ( "persons/:name", 
-			              (request: ) => {
+			  my_app.get ( "/persons/:name", 
+			              (request: Request, response: Response) => {
 			      let { name } = request.params;
 			  	return response.status(200).send(`Hi, ${name}`);
 			  } );
+			  ```
+			- Example of call: `GET /persons/Wences` ==> `Hi, Wences`
+		- Para usar queries dentro de la URL en NodeJS, usamos:
+			- ```TypeScript
 			  ```
 			-
 	-

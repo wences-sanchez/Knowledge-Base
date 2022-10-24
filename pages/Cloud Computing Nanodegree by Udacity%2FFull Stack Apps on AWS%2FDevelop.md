@@ -22,6 +22,7 @@ deck:: [[Cloud Development Nanodegree]]
 		- **NodeJS** is a framework. And **Typescript** is the language that NodeJS uses.
 	- ### Running Our Server and Making Requests
 		- Para usar una parte de la URL como parámetro de path en NodeJS, usamos: #flashcard
+		  id:: 63566061-d8fd-47ca-a4fa-63790eb870bc
 			- ```TypeScript
 			  my_app.get ( "/persons/:name", 
 			              (request: Request, response: Response) => {
@@ -31,6 +32,7 @@ deck:: [[Cloud Development Nanodegree]]
 			  ```
 			- Example of call: `GET /persons/Wences` ==> `Hi, Wences!`
 		- Para usar queries dentro de la URL en NodeJS, usamos: #flashcard
+		  id:: 63566061-fdd8-434b-95eb-148b4e1ef6cf
 			- ```TypeScript
 			  my_app.get ( "/persons/",
 			             (request: Request, response: Response) => {

@@ -13,6 +13,7 @@
 	- It's a much better idea to use **loosely coupled** systems
 		- Loosely coupled systems require more time upfront but are generally easier to improve upon.
 	- What are microservices? #flashcard
+	  id:: 63566061-94db-47f9-b52e-86e1f31ddcc7
 		- Microservices are individual specialized systems (software deployed on specialized infrastructure) designed to accomplish a specific task.  Specific tasks may include things like authentication, image processing, or data management.
 -
 - ## 3. Request Response and APIs

@@ -235,6 +235,9 @@
  {:block/name "aws",
   :block/created-at 1665484163298,
   :block/updated-at 1665484163298}
+ {:block/name "aws ccp exam tips",
+  :block/created-at 1666605389240,
+  :block/updated-at 1666606116839}
  {:block/name "aws certified cloud practitioner by acg",
   :block/created-at 1665484163206,
   :block/updated-at 1666279231160}
@@ -258,6 +261,9 @@
  {:block/name "aws::ccp::módulo-3",
   :block/created-at 1666080614663,
   :block/updated-at 1666080614663}
+ {:block/name "aws::ccp::tips",
+  :block/created-at 1666605430038,
+  :block/updated-at 1666605430038}
  {:block/name "aws::modulo-2",
   :block/created-at 1665484016230,
   :block/updated-at 1665484016230}
@@ -484,18 +490,18 @@
   :block/updated-at 1666340379139}
  {:block/name
   "cloud computing nanodegree by udacity/full stack apps on aws/cloud basics",
-  :block/created-at 1666338014268,
-  :block/updated-at 1666339787834}
+  :block/created-at 1666605153317,
+  :block/updated-at 1666605153317}
  {:block/name
   "cloud computing nanodegree by udacity/full stack apps on aws/develop",
-  :block/created-at 1666340379132,
-  :block/updated-at 1666352079847}
+  :block/created-at 1666605153858,
+  :block/updated-at 1666605153858}
  {:block/name "cloud development",
-  :block/created-at 1666351924414,
-  :block/updated-at 1666351924414}
+  :block/created-at 1666605153849,
+  :block/updated-at 1666605153849}
  {:block/name "cloud development nanodegree",
-  :block/created-at 1666351861971,
-  :block/updated-at 1666351861971}
+  :block/created-at 1666605153851,
+  :block/updated-at 1666605153851}
  {:block/name "cloud-computing-and-devops-culture",
   :block/created-at 1665484178819,
   :block/updated-at 1665484178819}
@@ -1475,6 +1481,9 @@
  {:block/name "monday, 17-10-2022",
   :block/created-at 1665994470879,
   :block/updated-at 1666001029161}
+ {:block/name "monday, 24-10-2022",
+  :block/created-at 1666605150975,
+  :block/updated-at 1666605150975}
  {:block/name "monday, 25-07-2022",
   :block/created-at 1665484160827,
   :block/updated-at 1665484160827}
@@ -2077,8 +2086,8 @@
   :block/created-at 1665484224149,
   :block/updated-at 1665484224149}
  {:block/name "udacity",
-  :block/created-at 1666351833688,
-  :block/updated-at 1666351833688}
+  :block/created-at 1666605153847,
+  :block/updated-at 1666605153847}
  {:block/name "un lugar llamado libertad (highlights)",
   :block/created-at 1661943805977,
   :block/updated-at 1661943805977}

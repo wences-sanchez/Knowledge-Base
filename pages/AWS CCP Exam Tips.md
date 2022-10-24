@@ -12,4 +12,6 @@ deck:: [[AWS::CCP::Tips]]
 	- You can find users' credentials, for compliance, in {{cloze IAM Credential Report}} #flashcard
 	- What is the role of S3 Transfer Acceleration? #flashcard
 		- S3 Transfer Acceleration improves content uploads and downloads to and from S3 buckets and is not responsible for serving up website content.
+	- AWS doesn't provide {{cloze a help desk service}} for your internals #flashcard
+		- The company will still be responsible for maintaining an internal help desk.
 	-

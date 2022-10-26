@@ -8,6 +8,7 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
   tags:: AWS O'Reilly-Learning
 - Highlights first synced by [[Readwise]] [[Wednesday, 26-10-2022]]
 	- Chapter 1: What Is Cloud Computing?
+	  collapsed:: true
 		- -
 		- What is known as cloud computing? #flashcard
 			- Cloud computing is a term used to describe the on-demand access to IT services that comprise compute, network, storage, and software services from third-party suppliers, usually via the public internet or some form of direct wide-area network (WAN) access. Companies can provision necessary IT applications for their organization without having to procure and manage their own infrastructure to host those applications. Instead, they lease/rent the required IT infrastructure from such third-party providers.
@@ -21,29 +22,29 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 			  Today, cloud computing has become mainstream and is, in several cases, the default option for many companies and start-ups. Currently, Amazon Web Services (AWS) is the largest provider of cloud computing services, offering a variety of cloud IT services in the form of infrastructure, platform, and software solutions.
 		- -
 		- -
-		- 1st advantage of cloud computing
+		- 1st advantage of cloud computing #flashcard
 			- With cloud computing, you pay for the same infrastructure components only as and when you consume them. This on-demand, pay-as-you-go model also means that you save costs when you are not utilizing resources.
 			  
 			  The shift away from capital expense (CAPEX) for variable expense, also known as operating expense (OPEX), means that you can direct your precious business capital to more important areas of investment, such as developing new products or improving your marketing strategy.
 		- -
 		- -
-		- 2nd advantage of cloud computing
+		- 2nd advantage of cloud computing #flashcard
 			- Benefit from massive economies of scale:
 		- -
 		- -
-		- 3rd advantage of cloud computing
+		- 3rd advantage of cloud computing #flashcard
 			- Stop guessing capacity: Traditionally, while carrying out capacity planning, you would procure necessary hardware components for future growth. Predicting future growth is extremely difficult, and this often meant that you would overprovision your environment. The result would be expensive idle resources simply going to waste.
 		- -
 		- -
-		- 4th advantage of cloud computing
+		- 4th advantage of cloud computing #flashcard
 			- Increase speed and agility: Cloud vendors such as AWS enable you to launch and configure new IT resources in a few mouse clicks—for example, you can provision a new fleet of servers for your developers within minutes, allowing your organization to exponentially increase its agility in building infrastructure and launching applications
 		- -
 		- -
-		- 5th advantage of cloud computing
+		- 5th advantage of cloud computing #flashcard
 			- Stop spending money running and maintaining data centers: Hosting your own on-premises infrastructure consumes several hidden costs. In addition to using up precious capital to purchase expensive hardware, you also need a team of engineers to efficiently configure every infrastructure component and lease necessary real estate to rack, stack, and then power up your servers. You would also be required to keep the servers cool with appropriate air-conditioning systems—and that's not all. You would also have to spend money on expensive maintenance contracts to handle the wear and tear of the hardware.
 		- -
 		- -
-		- 6th advantage of cloud computing
+		- 6th advantage of cloud computing #flashcard
 			- Go global in minutes: AWS host their data centers in various regions across the globe. Although you may be based in one country, you will have complete access to all regions. This will help you offer lower latency and a superior customer experience, regardless of where your customers are located. Hosting copies of your resources in additional regions can also help you design for disaster recovery (DR) and business continuity requirements.
 		- -
 		- -
@@ -62,7 +63,6 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		- -
 		- -
 		- What is SaaS? #flashcard
-		  collapsed:: true
 			- With a SaaS model, the applications are completely hosted and managed by the provider. SaaS services take away any need to set up physical infrastructure to host an application. Instead, you simply connect to those applications via the internet and consume the services offered. A majority of SaaS applications today are fully functional via a standard web browser. This also means that there is no requirement to install any client software.
 		- -
 		- -
@@ -91,10 +91,12 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 			  Many companies that venture into the public cloud generally start with some form of hybrid model. Often, businesses will move/migrate services to the public cloud to reduce CAPEX investment as they opt for a pay-as-you-go model for the consumption of IT services. An example of this is where companies may need to increase the number of servers deployed for their applications, and rather than procuring more expensive physical hardware, they can set up network connectivity between on-premises infrastructure and the public cloud provider
 		- -
 	- Chapter 2: Introduction to AWS and the Global Infrastructure
+	  collapsed:: true
 		- -
 		- Amazon Storage Gateway—This enables users to connect their on-premises storage with Amazon S3, offering different gateway options designed to enable offloading of their storage data to Amazon S3. They will continue to have seamless connectivity to that data from their on-premises servers. Depending on the configuration option chosen, Amazon Storage Gateway can maintain a small subnet of frequently accessed data locally, with the bulk of that data in Amazon S3, reducing the total storage hardware needed on premises, which leads to lower capital costs. Alternatively, if on-premises applications are extremely sensitive to network latency, then the Amazon Storage Gateway service can provide data backup capabilities, with the ability to send snapshots of locally stored data to Amazon S3. #flashcard
 		- -
 	- Chapter 13: Management and Governance on AWS
+	  collapsed:: true
 		- -
 		- What are the 5 categories that **AWS Trusted Advisor** shows? #flashcard
 			- Cost optimization: Performs checks on your resources to identify which ones are underutilized. AWS Trusted Advisor will then offer recommendations on where you could reduce your costs. For example, Elastic IP addresses are only free if they are attached to a running EC2 instance. AWS charges you an hourly fee for provisioning Elastic IP addresses if they are not being consumed, that is, not attached to any instance, or attached to an instance that is in a stopped state.
@@ -173,16 +175,20 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 			  Your TAM will assist with optimization tasks and suggest various best-practice methodologies, and also provide access to the best experts within AWS. Another key offering is access to Well-Architected reviews. This allows you to get access to a senior AWS solutions architect who can conduct an audit of your solutions deployed on AWS. AWS will provide guidance and best practices to help you design reliable, scalable, fault-tolerant, and cost-effective solutions.
 			  
 			  In terms of service-level agreements (SLAs), you get full 24/7 email, chat, and phone support, with access to senior cloud engineers and with a 15-minute response time for business-critical technical issues.
-			  
-			  Here is a table highlighting some key benefits of the different AWS support plans:
-			- ![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_2.1.jpg)
+		- -
+		- -
+			- Here is a table highlighting some key benefits of the different AWS support plans: #flashcard
+				- ![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_2.1.jpg)
 		- -
 		- -
 		- What is the functionality of the **AWS Service Health Dashboard** (not Personal)?
 		  INCLUIR IMAGEN #flashcard
 			- AWS publishes service health status across all data centers located in its various Regions. This is the first place you should consider investigating if a service appears to be non-responsive. AWS offers SLAs for its various service offerings
+			- ![Figure 2.7 – AWS Service Health Dashboard. Image courtesy of AWS (https://status.aws.amazon.com/)](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_02_07.jpg)
+			-
 		- -
 	- Chapter 4: Identity and Access Management
+	  collapsed:: true
 		- -
 		- What are roles used for? #flashcard
 			- IAM roles are generally used to grant access for the following use cases:
@@ -202,9 +208,9 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		- -
 		- Amazon S3 is one of Amazon's flagship products, and offers a robust, scalable, durable, and cost-effective object storage solution in the cloud. Customers can use Amazon S3 to store any amount of data for a wide range of use cases, including digital media content for websites, data lakes, mobile applications, IoT device data, and big data analytics.
 		  
-		  Amazon S3 can offer up to 99.999999999% durability and fulfills the storage requirements for a majority of clients and their individual business needs.
+		  **Amazon S3 can offer up to 99.999999999% durability** and fulfills the storage requirements for a majority of clients and their individual business needs.
 		  
-		  What does eleven 9s of durability mean? According to AWS, if you store 10,000,000 objects on Amazon S3, then on average you can expect to incur a loss of a single object once every 10,000 years. #flashcard
+		  **What does eleven 9s of durability mean?** According to AWS, if you store 10,000,000 objects on Amazon S3, then on average you can expect to incur a loss of a single object once every 10,000 years. #flashcard
 		- -
 		- -
 		- How can you protect a S3 bucket? #flashcard
@@ -226,13 +232,14 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		- -
 		- -
 		- Intelligent-Tiering does not charge a retrieval fee but if objects are archived, retrieval can take some time, depending on the retrieval option chosen. The following table illustrates the retrieval options available:
-		  
-		  
+		  ![Table 5.1 – Retrieval times for S3 Glacier, Deep Archive, and S3 Intelligent-Tiering archive classes](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_5.1.jpg)
 		  Table 5.1 – Retrieval times for S3 Glacier, Deep Archive, and S3 Intelligent-Tiering archive classes #flashcard
 		- -
 		- -
-		- INCLUIR IMAGEN #flashcard
-			- Figure 5.4 – S3 storage class performance and key attributes
+			- S3 storage class performance and key attributes #flashcard
+				- ![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_5.2_a.jpg)
+				- ![Figure 5.4 – S3 storage class performance and key attributes](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_5.2_b.jpg)
+				-
 		- -
 		- -
 		- About Snowcone #flashcard
@@ -255,7 +262,7 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		  
 		  In the following diagram, we can see that businesses are now able to access the internet via a NAT service configured on their external router. The NAT service requires a minimum of one single public IP address and relays requests from the internal devices to the internet, acting as a proxy in between. Replies to those requests are also handled by the NAT service, ensuring that they are correctly redirected to the internal device that made the original request.
 		  
-		  
+		  ![Figure 6.7 – Private IP address ranges used by businesses with internet via NAT services](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_07.jpg)
 		  Figure 6.7 – Private IP address ranges used by businesses with internet via NAT services #flashcard
 		- -
 		- -
@@ -266,7 +273,7 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		  Class C – The first 24 bits of a class C address define the network portion, and the remaining 8 bits are used to denote the host portion. Also, in a class C network, the two far-left bits are set to 11.
 		  To better illustrate how these three classes of networks actually look, let's look at the next diagram:
 		  
-		  
+		  ![Figure 6.8 – IP address classes](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_08.jpg)
 		  Figure 6.8 – IP address classes #flashcard
 		- -
 		- -
@@ -277,7 +284,7 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		  
 		  This simplified model is depicted in the following diagram:
 		  
-		  
+		  ![Figure 6.19 – AWS Transit Gateway](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_19.jpg)
 		  Figure 6.19 – AWS Transit Gateway #flashcard
 		- -
 		- -
@@ -293,7 +300,7 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		- -
 		- Amazon CloudFront is a CDN that helps you to distribute your static and dynamic digital content globally with low-latency connections. AWS CloudFront uses AWS edge locations and regional edge caches to cache content closer to your end users' locations. This means that you can host your content in one specific Region and a user who attempts to access it from another Region will retrieve the content via the edge location over the AWS backbone network. Furthermore, as content is retrieved, it is cached at a local edge location closer to the user for a period (known as a time-to-live or TTL), further improving network latency in subsequent requests for the same content.
 		  
-		  
+		  ![Figure 6.21 – A typical CloudFront distribution](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_21.jpg)
 		  Figure 6.21 – A typical CloudFront distribution #flashcard
 		- -
 		- -
@@ -301,9 +308,10 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		  
 		  With an API gateway, you essentially create an abstraction layer. This API gateway can be used to expose all the APIs that need to be made available to external clients to call backend services. Requests from those clients can then be routed to the various backend microservices. As per the following diagram, Amazon API Gateway acts as a "front door" for your applications to access backend data, Lambda functions, databases, and more. It handles all the incoming traffic and is capable of processing thousands of concurrent API calls.
 		  
-		  
+		  ![Figure 6.22 – Amazon API Gateway](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_22.jpg)
 		  Figure 6.22 – Amazon API Gateway #flashcard
 		- -
+		-
 	- Chapter 7: AWS Compute Services
 		- -
 		- A Dedicated Instance is an EC2 instance that is deployed in your VPC on physical hardware that is dedicated to you and not shared with other customers. #flashcard

@@ -172,8 +172,10 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 			  Your TAM will assist with optimization tasks and suggest various best-practice methodologies, and also provide access to the best experts within AWS. Another key offering is access to Well-Architected reviews. This allows you to get access to a senior AWS solutions architect who can conduct an audit of your solutions deployed on AWS. AWS will provide guidance and best practices to help you design reliable, scalable, fault-tolerant, and cost-effective solutions.
 			  
 			  In terms of service-level agreements (SLAs), you get full 24/7 email, chat, and phone support, with access to senior cloud engineers and with a 15-minute response time for business-critical technical issues.
-			  
-			  Here is a table highlighting some key benefits of the different AWS support plans:
+		- -
+		- -
+			- Here is a table highlighting some key benefits of the different AWS support plans: #flashcard
+				- ![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_2.1.jpg)
 		- -
 		- -
 		- What is the functionality of the **AWS Service Health Dashboard** (not Personal)?
@@ -202,9 +204,9 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		- -
 		- Amazon S3 is one of Amazon's flagship products, and offers a robust, scalable, durable, and cost-effective object storage solution in the cloud. Customers can use Amazon S3 to store any amount of data for a wide range of use cases, including digital media content for websites, data lakes, mobile applications, IoT device data, and big data analytics.
 		  
-		  Amazon S3 can offer up to 99.999999999% durability and fulfills the storage requirements for a majority of clients and their individual business needs.
+		  **Amazon S3 can offer up to 99.999999999% durability** and fulfills the storage requirements for a majority of clients and their individual business needs.
 		  
-		  What does eleven 9s of durability mean? According to AWS, if you store 10,000,000 objects on Amazon S3, then on average you can expect to incur a loss of a single object once every 10,000 years. #flashcard
+		  **What does eleven 9s of durability mean?** According to AWS, if you store 10,000,000 objects on Amazon S3, then on average you can expect to incur a loss of a single object once every 10,000 years. #flashcard
 		- -
 		- -
 		- How can you protect a S3 bucket? #flashcard
@@ -226,12 +228,11 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		- -
 		- -
 		- Intelligent-Tiering does not charge a retrieval fee but if objects are archived, retrieval can take some time, depending on the retrieval option chosen. The following table illustrates the retrieval options available:
-		  
-		  
+		  ![Table 5.1 – Retrieval times for S3 Glacier, Deep Archive, and S3 Intelligent-Tiering archive classes](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_5.1.jpg)
 		  Table 5.1 – Retrieval times for S3 Glacier, Deep Archive, and S3 Intelligent-Tiering archive classes #flashcard
 		- -
 		- -
-		- INCLUIR IMAGEN #flashcard
+		- INCLUIR IMAGEN #flas
 			- Figure 5.4 – S3 storage class performance and key attributes
 		- -
 		- -

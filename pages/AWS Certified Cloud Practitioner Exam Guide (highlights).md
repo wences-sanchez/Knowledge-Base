@@ -6,7 +6,8 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
   category:: #books
   
   tags:: AWS O'Reilly-Learning
-- Highlights first synced by [[Readwise]] [[Wednesday, 26-10-2022]]
+- Highlights first synced by [[Readwise]] [[Tuesday, 25-10-2022]]
+  collapsed:: true
 	- Chapter 1: What Is Cloud Computing?
 	  collapsed:: true
 		- -

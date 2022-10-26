@@ -8,7 +8,7 @@ tags:: #[[AWS]] #[[O'Reilly-Learning]]
 
 - #tags #[[AWS]] #[[O'Reilly-Learning]]
 - Highlights first synced by [[Readwise]] [[Friday, 23-09-2022]]
-	- Chapter 1: What Is Cloud Computing?
+	- ### Chapter 1: What Is Cloud Computing?
 		- -
 		- What is known as cloud computing? #flashcard
 		  id:: 63454583-c2af-42ae-b5b8-75dba4bb635f
@@ -76,7 +76,7 @@ tags:: #[[AWS]] #[[O'Reilly-Learning]]
 		  Hybrid cloud
 		  These models are represented in the following diagram:
 		  
-		  
+		  ![Figure 1.3 – Cloud deployment models](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_01_03.jpg)
 		  Figure 1.3 – Cloud deployment models #flashcard
 		- -
 		- -

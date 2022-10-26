@@ -232,8 +232,10 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		  Table 5.1 – Retrieval times for S3 Glacier, Deep Archive, and S3 Intelligent-Tiering archive classes #flashcard
 		- -
 		- -
-		- INCLUIR IMAGEN #flas
-			- Figure 5.4 – S3 storage class performance and key attributes
+			- S3 storage class performance and key attributes #flashcard
+				- ![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_5.2_a.jpg)
+				- ![Figure 5.4 – S3 storage class performance and key attributes](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_5.2_b.jpg)
+				-
 		- -
 		- -
 		- About Snowcone #flashcard
@@ -256,7 +258,7 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		  
 		  In the following diagram, we can see that businesses are now able to access the internet via a NAT service configured on their external router. The NAT service requires a minimum of one single public IP address and relays requests from the internal devices to the internet, acting as a proxy in between. Replies to those requests are also handled by the NAT service, ensuring that they are correctly redirected to the internal device that made the original request.
 		  
-		  
+		  ![Figure 6.7 – Private IP address ranges used by businesses with internet via NAT services](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_07.jpg)
 		  Figure 6.7 – Private IP address ranges used by businesses with internet via NAT services #flashcard
 		- -
 		- -
@@ -267,7 +269,7 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		  Class C – The first 24 bits of a class C address define the network portion, and the remaining 8 bits are used to denote the host portion. Also, in a class C network, the two far-left bits are set to 11.
 		  To better illustrate how these three classes of networks actually look, let's look at the next diagram:
 		  
-		  
+		  ![Figure 6.8 – IP address classes](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_08.jpg)
 		  Figure 6.8 – IP address classes #flashcard
 		- -
 		- -
@@ -278,7 +280,7 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		  
 		  This simplified model is depicted in the following diagram:
 		  
-		  
+		  ![Figure 6.19 – AWS Transit Gateway](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_19.jpg)
 		  Figure 6.19 – AWS Transit Gateway #flashcard
 		- -
 		- -
@@ -294,7 +296,7 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 		- -
 		- Amazon CloudFront is a CDN that helps you to distribute your static and dynamic digital content globally with low-latency connections. AWS CloudFront uses AWS edge locations and regional edge caches to cache content closer to your end users' locations. This means that you can host your content in one specific Region and a user who attempts to access it from another Region will retrieve the content via the edge location over the AWS backbone network. Furthermore, as content is retrieved, it is cached at a local edge location closer to the user for a period (known as a time-to-live or TTL), further improving network latency in subsequent requests for the same content.
 		  
-		  
+		  ![Figure 6.21 – A typical CloudFront distribution](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_21.jpg)
 		  Figure 6.21 – A typical CloudFront distribution #flashcard
 		- -
 		- -

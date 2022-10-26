@@ -244,7 +244,7 @@
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1666798486294,
-  :block/updated-at 1666798906098}
+  :block/updated-at 1666799735789}
  {:block/name "aws elastic beanstalk",
   :block/created-at 1665138467036,
   :block/updated-at 1665138467036}

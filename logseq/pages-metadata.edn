@@ -243,8 +243,8 @@
   :block/updated-at 1666279231160}
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
-  :block/created-at 1666798486294,
-  :block/updated-at 1666799735789}
+  :block/created-at 1666802333993,
+  :block/updated-at 1666802333993}
  {:block/name "aws elastic beanstalk",
   :block/created-at 1665138467036,
   :block/updated-at 1665138467036}
@@ -1029,6 +1029,14 @@
  {:block/name "herramientas-devops",
   :block/created-at 1665484207335,
   :block/updated-at 1665484207335}
+ {:block/name
+  "highlights from aws certified cloud practitioner exam guide [[readwise",
+  :block/created-at 1666802251056,
+  :block/updated-at 1666802251056}
+ {:block/name
+  "highlights from aws certified cloud practitioner exam guide [[readwise]] [[wednesday, 26-10-2022]]",
+  :block/created-at 1666802016900,
+  :block/updated-at 1666802018659}
  {:block/name "historia de dos ciudades (highlights)",
   :block/created-at 1665484209041,
   :block/updated-at 1665484209041}

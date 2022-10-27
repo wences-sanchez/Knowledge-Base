@@ -1,3 +1,6 @@
+deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
+
+-
 - Chapter 1: What Is Cloud Computing?
   collapsed:: true
 	- -
@@ -353,7 +356,6 @@
 	- -
 	-
 - Chapter 7: AWS Compute Services
-  collapsed:: true
 	- -
 	- A Dedicated Instance is an EC2 instance that is deployed in your VPC on physical hardware that is dedicated to you and not shared with other customers. #flashcard
 	  id:: 5d7075f9-adb4-404e-a236-d9e9b5dcf509

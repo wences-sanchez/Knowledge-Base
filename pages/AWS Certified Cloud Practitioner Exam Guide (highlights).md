@@ -413,6 +413,12 @@ tags:: AWS O'Reilly-Learning
 		  
 		  
 		  Figure 15.3 – Cost Explorer RI recommendations
-		  
-		  As you can see, purchasing RI for the two on-demand instances I have running would potentially save me 33% off my final costs. #flashcard
+		  ![Networking All-in-One For Dummies, 7th Edition](https://learning.oreilly.com/covers/9781119471608/500h/)
+		- As you can see, purchasing RI for the two on-demand instances I have running would potentially save me 33% off my final costs. #flashcard
+			- jajajajja
+		- -
+- New highlights added [[Friday, 28-10-2022]] at 3:14 PM
+	- Chapter 16: Mock Tests
+		- -
+		- Mock Tests #flashcard
 		- -

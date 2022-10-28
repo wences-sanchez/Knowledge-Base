@@ -270,8 +270,8 @@
   :block/updated-at 1666279231160}
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
-  :block/created-at 1666961963491,
-  :block/updated-at 1666961964179}
+  :block/created-at 1666962599236,
+  :block/updated-at 1666962599833}
  {:block/name "aws elastic beanstalk",
   :block/created-at 1665138467036,
   :block/updated-at 1665138467036}
@@ -1550,8 +1550,11 @@
   :block/created-at 1662196727625,
   :block/updated-at 1662196727625}
  {:block/name "networking all-in-one for dummies (highlights)",
-  :block/created-at 1666961962187,
-  :block/updated-at 1666961962864}
+  :block/created-at 1666962155371,
+  :block/updated-at 1666962156042}
+ {:block/name "networking fundamentals (highlights)",
+  :block/created-at 1666962310455,
+  :block/updated-at 1666962311126}
  {:block/name "nginx configuration guide (highlights)",
   :block/created-at 1666961854604,
   :block/updated-at 1666961855215}

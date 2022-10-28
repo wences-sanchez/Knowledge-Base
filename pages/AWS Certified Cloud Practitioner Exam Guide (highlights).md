@@ -8,6 +8,7 @@ tags:: AWS O'Reilly-Learning
 
 - Highlights first synced by [[Readwise]] [[Friday, 28-10-2022]]
 	- Chapter 1: What Is Cloud Computing?
+	  collapsed:: true
 		- -
 		- What is known as cloud computing?
 			- Cloud computing is a term used to describe the on-demand access to IT services that comprise compute, network, storage, and software services from third-party suppliers, usually via the public internet or some form of direct wide-area network (WAN) access. Companies can provision necessary IT applications for their organization without having to procure and manage their own infrastructure to host those applications. Instead, they lease/rent the required IT infrastructure from such third-party providers.
@@ -21,51 +22,51 @@ tags:: AWS O'Reilly-Learning
 			  Today, cloud computing has become mainstream and is, in several cases, the default option for many companies and start-ups. Currently, Amazon Web Services (AWS) is the largest provider of cloud computing services, offering a variety of cloud IT services in the form of infrastructure, platform, and software solutions.
 		- -
 		- -
-		- 1st advantage of cloud computing #flashcard
+		- 1st advantage of cloud computing
 			- With cloud computing, you pay for the same infrastructure components only as and when you consume them. This on-demand, pay-as-you-go model also means that you save costs when you are not utilizing resources.
 			  
 			  The shift away from capital expense (CAPEX) for variable expense, also known as operating expense (OPEX), means that you can direct your precious business capital to more important areas of investment, such as developing new products or improving your marketing strategy.
 		- -
 		- -
-		- 2nd advantage of cloud computing #flashcard
+		- 2nd advantage of cloud computing
 			- Benefit from massive economies of scale:
 		- -
 		- -
-		- 3rd advantage of cloud computing #flashcard
+		- 3rd advantage of cloud computing
 			- Stop guessing capacity: Traditionally, while carrying out capacity planning, you would procure necessary hardware components for future growth. Predicting future growth is extremely difficult, and this often meant that you would overprovision your environment. The result would be expensive idle resources simply going to waste.
 		- -
 		- -
-		- 4th advantage of cloud computing #flashcard
+		- 4th advantage of cloud computing
 			- Increase speed and agility: Cloud vendors such as AWS enable you to launch and configure new IT resources in a few mouse clicks—for example, you can provision a new fleet of servers for your developers within minutes, allowing your organization to exponentially increase its agility in building infrastructure and launching applications
 		- -
 		- -
-		- 5th advantage of cloud computing #flashcard
+		- 5th advantage of cloud computing
 			- Stop spending money running and maintaining data centers: Hosting your own on-premises infrastructure consumes several hidden costs. In addition to using up precious capital to purchase expensive hardware, you also need a team of engineers to efficiently configure every infrastructure component and lease necessary real estate to rack, stack, and then power up your servers. You would also be required to keep the servers cool with appropriate air-conditioning systems—and that's not all. You would also have to spend money on expensive maintenance contracts to handle the wear and tear of the hardware.
 		- -
 		- -
-		- 6th advantage of cloud computing #flashcard
+		- 6th advantage of cloud computing
 			- Go global in minutes: AWS host their data centers in various regions across the globe. Although you may be based in one country, you will have complete access to all regions. This will help you offer lower latency and a superior customer experience, regardless of where your customers are located. Hosting copies of your resources in additional regions can also help you design for disaster recovery (DR) and business continuity requirements.
 		- -
 		- -
-		- What is a hypervisor? #flashcard
+		- What is a hypervisor?
 			- A hypervisor is essentially a piece of software that sits between the actual physical hardware and the VMs. It is responsible for enabling the operating systems and applications running on those VMs to access the resources of the physical hardware in a manner that is controlled and that isolates the resources from each other. The hypervisor and its associated management software are used to carve out virtualized representations of the physical hardware components into smaller virtual components, which are then presented as VMs. Each VM can then have its own operating system installed, along with any required applications.
 		- -
 		- -
-		- About virtualization and cloud computing. #flashcard
+		- About virtualization and cloud computing.
 			- One of the primary characteristics of a cloud computing provider is the ability to provision virtualized infrastructure resources using a self-service management tool. AWS offers such tools in the form of its Management Console (accessible via a web browser), command-line interface (CLI), and direct access to its software application programming interfaces (APIs), to enable customers to provision their resources such as servers, network, storage, and databases.
 		- -
 		- -
-		- What is PaaS? #flashcard
+		- What is PaaS?
 			- Platform as a Service (PaaS) is another cloud computing model designed to remove the burden of configuring and managing underlying infrastructure resources such as compute, storage, and network services. PaaS is designed to allow your organization to focus on developing your application code and offers you a platform to deploy and manage your application releases, updates, and upgrades.
 			  
 			  As your developers deploy their application code on the PaaS environment, the provider provisions the infrastructure required to support the application. This will include the necessary network architecture, firewall rules, storage, compute services, operating system management, and runtime environments.
 		- -
 		- -
-		- What is SaaS? #flashcard
+		- What is SaaS?
 			- With a SaaS model, the applications are completely hosted and managed by the provider. SaaS services take away any need to set up physical infrastructure to host an application. Instead, you simply connect to those applications via the internet and consume the services offered. A majority of SaaS applications today are fully functional via a standard web browser. This also means that there is no requirement to install any client software.
 		- -
 		- -
-		- What is a private cloud? #flashcard
+		- What is a private cloud?
 			- a private cloud is a cloud deployment model in which your business procures, installs, configures, and manages all the necessary infrastructure and software components in-house. This may sound very similar to traditional on-premises IT. However, the cloud element of it comes from the fact that additional management software is usually deployed to allow different parts of the business to carry out self-service tasks in provisioning compute, storage, network, and software services from an available catalog of services.
 			  
 			  While public cloud providers offer their services to all businesses across the globe and the services are therefore publicly available, a private cloud is designed solely for your business, where you will not be sharing underlying compute resources with anyone external to your organization.
@@ -81,21 +82,23 @@ tags:: AWS O'Reilly-Learning
 		  These models are represented in the following diagram:
 		  
 		  
-		  Figure 1.3 – Cloud deployment models #flashcard
+		  Figure 1.3 – Cloud deployment models
 		- -
 		- -
-		- What is a hybrid cloud? #flashcard
+		- What is a hybrid cloud?
 			- This is a combination of IT services deployed both on-premises (and managed solely by your business) and integrated with one or more third-party cloud providers.
 			  
 			  Many companies that venture into the public cloud generally start with some form of hybrid model. Often, businesses will move/migrate services to the public cloud to reduce CAPEX investment as they opt for a pay-as-you-go model for the consumption of IT services. An example of this is where companies may need to increase the number of servers deployed for their applications, and rather than procuring more expensive physical hardware, they can set up network connectivity between on-premises infrastructure and the public cloud provider
 		- -
 	- Chapter 2: Introduction to AWS and the Global Infrastructure
+	  collapsed:: true
 		- -
-		- Amazon Storage Gateway—This enables users to connect their on-premises storage with Amazon S3, offering different gateway options designed to enable offloading of their storage data to Amazon S3. They will continue to have seamless connectivity to that data from their on-premises servers. Depending on the configuration option chosen, Amazon Storage Gateway can maintain a small subnet of frequently accessed data locally, with the bulk of that data in Amazon S3, reducing the total storage hardware needed on premises, which leads to lower capital costs. Alternatively, if on-premises applications are extremely sensitive to network latency, then the Amazon Storage Gateway service can provide data backup capabilities, with the ability to send snapshots of locally stored data to Amazon S3. #flashcard
+		- Amazon Storage Gateway—This enables users to connect their on-premises storage with Amazon S3, offering different gateway options designed to enable offloading of their storage data to Amazon S3. They will continue to have seamless connectivity to that data from their on-premises servers. Depending on the configuration option chosen, Amazon Storage Gateway can maintain a small subnet of frequently accessed data locally, with the bulk of that data in Amazon S3, reducing the total storage hardware needed on premises, which leads to lower capital costs. Alternatively, if on-premises applications are extremely sensitive to network latency, then the Amazon Storage Gateway service can provide data backup capabilities, with the ability to send snapshots of locally stored data to Amazon S3.
 		- -
 	- Chapter 13: Management and Governance on AWS
+	  collapsed:: true
 		- -
-		- What are the 5 categories that **AWS Trusted Advisor** shows? #flashcard
+		- What are the 5 categories that **AWS Trusted Advisor** shows?
 			- Cost optimization: Performs checks on your resources to identify which ones are underutilized. AWS Trusted Advisor will then offer recommendations on where you could reduce your costs. For example, Elastic IP addresses are only free if they are attached to a running EC2 instance. AWS charges you an hourly fee for provisioning Elastic IP addresses if they are not being consumed, that is, not attached to any instance, or attached to an instance that is in a stopped state.
 			  Performance: Offers recommendations on where you can improve the responsiveness of your applications. For example, if you are using a gp2 EBS volume type for an EC2 instance that seems to be heavily utilized, it can recommend you an upgrade to an io1 EBS volume, which will improve performance.
 			  Security: Reports on any resources that have not been configured in accordance with security best practices. For example, if you have not configured MFA on the root account, then AWS will highlight this as a potential security risk and recommend that you configure MFA.
@@ -103,11 +106,11 @@ tags:: AWS O'Reilly-Learning
 			  Service limits: Checks your AWS account to identify whether you are approaching any service limits or quotas. For example, when using the AWS Auto Scaling service, you have a default limit of configuring up to 200 launch configurations per Region. Should you start to exceed more than 80% of this limit, you will see an alert in Trusted Advisor.
 		- -
 		- -
-		- The difference of cloud computing against just virtualization. #flashcard
+		- The difference of cloud computing against just virtualization.
 			- One of the primary characteristics of a cloud computing provider is the ability to provision virtualized infrastructure resources using a self-service management tool. AWS offers such tools in the form of its Management Console (accessible via a web browser), command-line interface (CLI), and direct access to its software application programming interfaces (APIs), to enable customers to provision their resources such as servers, network, storage, and databases. By offering well-defined APIs and enabling automation, cloud providers have made it possible for customers to provision necessary resources using a self-service model. Customers do not have to wait in a queue to get their resources deployed while a cloud engineer performs the necessary configuration for them. Customers can interact with the cloud services directly using API calls, and spin up their own resources in a matter of minutes.
 		- -
 		- -
-		- About cloud implementation models #flashcard
+		- About cloud implementation models
 			- When it comes to deploying cloud services for your organization, you need to consider which deployment model will suit your business. The decision will be taken based on several factors, such as the industry you are in, compliance and regulatory issues, and also cost management and flexibility of configuration.
 			  
 			  There are three primary models of deployment, listed as follows:
@@ -121,50 +124,50 @@ tags:: AWS O'Reilly-Learning
 			  Figure 1.3 – Cloud deployment models
 		- -
 		- -
-		- About AZs and the connections between them #flashcard
+		- About AZs and the connections between them
 			- The primary purpose of having multiple AZs is to offer customers the opportunity to build highly available, fault-tolerant, and scalable solutions. This is made possible by the fact that the AZs within a Region are connected to each other over high-bandwidth, low-latency private metro-fiber links, delivering high throughput connections between the zones.
 			  
 			  An important aspect of this configuration is that you can achieve synchronous replication between AZs. This means that you can deploy multiple copies/replicas of your application on servers across the AZs. If there is an outage at one of the AZs, you can continue to serve your customers from the replica workloads running in the other AZs.
 		- -
 		- -
-		- The ELB not only distributes user traffic to the application servers, but also monitors the health of those servers and sends traffic only if those servers are online and responding #flashcard
+		- The ELB not only distributes user traffic to the application servers, but also monitors the health of those servers and sends traffic only if those servers are online and responding
 		- -
 		- -
-		- What is the use of edge locations? #flashcard
+		- What is the use of edge locations?
 			- most resources that you deploy on AWS are going to be Region-based. For example, an EC2 instance can be deployed in the North Virginia Region, within a specific AZ. Let's assume that the servers host media files and you want to distribute those files to your end users globally. For users based in Sydney, Australia, this would mean pulling these large media files across the public internet directly from the server located in the US, each time they make a request for those files.
 			  
 			  With edge locations, you can cache frequently accessed files on servers located closer to those users based in Sydney. This means that the time it takes to download those frequently accessed files is drastically reduced, and this improves the UX significantly.
 		- -
 		- -
-		- Which is the *real* use of **S3 Transfer Acceleration**? #flashcard
+		- Which is the *real* use of **S3 Transfer Acceleration**?
 			- Edge locations do more than just cache content. For example, Amazon Simple Storage Service (Amazon S3) is an object-storage solution that allows you to create containers (we call them buckets in AWS) in each Region. You can upload any type of data to a bucket and store it. If you need to upload large files to a bucket anywhere in the world, you may experience high latency and lower throughput, as the data needs to traverse the public internet.
 			  
 			  Amazon S3 Transfer Acceleration is a feature of Amazon S3 that allows you to upload your content to AWS buckets via these edge locations.
 		- -
 		- -
-		- The *true* meaning of **Regional edge caches**. #flashcard
+		- The *true* meaning of **Regional edge caches**.
 			- Regional edge caches are highly useful in such situations. There are far fewer regional edge caches than edge locations deployed across the globe, but they are strategically placed. They offer additional storage and cache that will continue to hold the data not accessed frequently for a longer period of time than with standard edge locations.
 		- -
 		- -
-		- About the **AWS Basic Plan** #flashcard
+		- About the **AWS Basic Plan**
 			- this plan does not come with any real technical support. The Basic support plan is completely free and offers customer support for any account-related issues such as bill payment or if you have issues logging in to your account. You also get access to publicly available documentation, whitepapers, and support forums. You can access the Basic support services via email, chat, and phone 24/7, and the phone support involves getting Amazon to call you on your landline or mobile—so, they pay the call charges.
 			  
 			  In addition, you also get access to seven basic checks on the Trusted Advisor tool, which helps you to identify best practices for increasing performance and improving security. We will take a look at the Trusted Advisor tool in Chapter 13, Management and Governance on AWS. Finally, you also get alerts regarding interruptions to any AWS services that may impact your deployed resources via the Personal Health Dashboard (PHD)
 		- -
 		- -
-		- About the **AWS Developer Plan** #flashcard
+		- About the **AWS Developer Plan**
 			- While you get technical support with the Developer support plan, it is limited to generic support primarily around technical configurations with AWS use cases, and the support team will not be able to discuss specific application-layer problems that you might be having. Support is also only available via email (no phone support is offered) during business hours, with access to Cloud Support associates. While you can raise an unlimited number of cases, the case severity and response times are within 24 hours for general guidance and within 12 hours for system-impaired issues.
 			  
 			  As with the Basic support plan, you only get access to the seven core checks on the AWS Trusted Advisor tool under the Developer support plan.
 		- -
 		- -
-		- About the **AWS Business Plan** #flashcard
+		- About the **AWS Business Plan**
 			- The Business support plan offers full 24/7 support via email, chat, and telephone. Depending on the severity of the issue, different response times are offered. For example, if you have a production system that is down, you can expect support from a Cloud Support engineer within 1 hour. Also, unlike the Developer support plan, which offers more generic support covering typical AWS use cases, the Business support plan includes helping you troubleshoot interoperability issues between AWS resources and third-party software. The level of support offered is therefore contextual to your use case.
 			  
 			  For an additional cost, you also get access to AWS Infrastructure Event Management (IEM). This service offers guidance and operational support to help you with your project launch events or migration tasks.
 		- -
 		- -
-		- About **AWS Enterprise Plan** #flashcard
+		- About **AWS Enterprise Plan**
 			- The Enterprise support plan is naturally appropriate for very large organizations, such as multinational companies or companies that have extensively large workloads spread globally.
 			  
 			  Examples of such companies include Netflix, Amazon Prime, and Dropbox. The Enterprise Support plan stands out because of its different VIP-style offerings such as a designated Technical Account Manager (TAM). Your TAM will actively monitor your environment and work closely with you to actively guide your team through planning, design, and implementation of your cloud projects.
@@ -177,12 +180,13 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- What is the functionality of the **AWS Service Health Dashboard** (not Personal)?
-		  INCLUIR IMAGEN #flashcard
+		  INCLUIR IMAGEN
 			- AWS publishes service health status across all data centers located in its various Regions. This is the first place you should consider investigating if a service appears to be non-responsive. AWS offers SLAs for its various service offerings
 		- -
 	- Chapter 4: Identity and Access Management
+	  collapsed:: true
 		- -
-		- What are roles used for? #flashcard
+		- What are roles used for?
 			- IAM roles are generally used to grant access for the following use cases:
 			  
 			  An AWS service that needs access to another service in your own AWS account, for example, an application running on an EC2 instance that needs access to a database to update customer records.
@@ -191,8 +195,9 @@ tags:: AWS O'Reilly-Learning
 			  A federated corporate user using an identity service such as Microsoft Active Directory, who needs access to a service in your AWS account.
 		- -
 	- Chapter 5: Amazon Simple Storage Service (S3)
+	  collapsed:: true
 		- -
-		- Define **Block storage** #flashcard
+		- Define **Block storage**
 			- Block storage is an architectural design that enables the storage of data onto media such as a hard disk, in fixed-sized chunks. Data is broken up into small blocks and placed on the media in these chunks, with a unique address assigned that forms part of its metadata. Block storage makes use of a management software (which can be part of the operating system) to organize the blocks of data. When a user tries to retrieve a file, the management software identifies the blocks to retrieve, reassembles the data, and presents the whole file to the user.
 			  
 			  On AWS, block storage options are available as Elastic Block Store (EBS). These can be configured as volumes attached to your Elastic Compute Cloud (EC2) instances and offer ultra-low latency required for high-performance workloads. One advantage of EBS volumes is that they are not directly attached to the EC2 instance you deploy, but instead are connected via high-speed network links. This allows you to detach an EBS volume from one EC2 instance and attach it to another if, for example, the first EC2 instance experiences some sort of failure.
@@ -202,10 +207,10 @@ tags:: AWS O'Reilly-Learning
 		  
 		  Amazon S3 can offer up to 99.999999999% durability and fulfills the storage requirements for a majority of clients and their individual business needs.
 		  
-		  What does eleven 9s of durability mean? According to AWS, if you store 10,000,000 objects on Amazon S3, then on average you can expect to incur a loss of a single object once every 10,000 years. #flashcard
+		  What does eleven 9s of durability mean? According to AWS, if you store 10,000,000 objects on Amazon S3, then on average you can expect to incur a loss of a single object once every 10,000 years.
 		- -
 		- -
-		- How can you protect a S3 bucket? #flashcard
+		- How can you protect a S3 bucket?
 			- A bucket policy is applied directly to an entire bucket and can be used to grant access to both the bucket itself and the objects stored within it. Bucket policies can be used to specify different levels of access for different types of objects within the same policy document. A bucket policy document is also written in JavaScript Object Notation Format (JSON) format, just like IAM policies are.
 			  
 			  With bucket policies, you can also grant anonymous access to object in your buckets, such as a web page, image, or video, which means that anyone with the S3 object URL can access it.
@@ -220,25 +225,26 @@ tags:: AWS O'Reilly-Learning
 		  
 		  Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)—Data stored in this storage class is restricted to one AZ only within the Region you upload it to. This reduces your overall availability of the data to 99.5% but is also much cheaper than the Standard or the Standard-IA storage classes. This also means that if there is an outage of the AZ in which your data is stored, you would have to wait for the AZ to come back online before you can access any data. In the unlikely event of the destruction of an AZ, you may also lose that data.
 		  
-		  Amazon recommends this class for data that can act as a secondary backup or that can be recreated. #flashcard
+		  Amazon recommends this class for data that can act as a secondary backup or that can be recreated.
 		- -
 		- -
 		- Intelligent-Tiering does not charge a retrieval fee but if objects are archived, retrieval can take some time, depending on the retrieval option chosen. The following table illustrates the retrieval options available:
 		  
 		  
-		  Table 5.1 – Retrieval times for S3 Glacier, Deep Archive, and S3 Intelligent-Tiering archive classes #flashcard
+		  Table 5.1 – Retrieval times for S3 Glacier, Deep Archive, and S3 Intelligent-Tiering archive classes
 		- -
 		- -
-		- INCLUIR IMAGEN #flashcard
+		- INCLUIR IMAGEN
 			- Figure 5.4 – S3 storage class performance and key attributes
 		- -
 		- -
-		- About Snowcone #flashcard
+		- About Snowcone
 			- The smallest member of the AWS Snow Family, these devices are the smallest ever and weigh just 4.5 pounds (lb) (2.1 kilograms (kg)). Snowcone devices come with 8 TB of usable storage and are designed for outside use in areas of low network connectivity. Examples include IoT, vehicular, and drone use cases.
 			  
 			  The device also offers compute capabilities with two vCPUs and 4 GB of memory, as well as USB-C power using a cord and optional battery.
 		- -
 	- Chapter 6: AWS Networking Services – VPCs, Route53, and CloudFront
+	  collapsed:: true
 		- -
 		- Currently, the largest network on the planet is the internet. Every device that needs to communicate on the internet also requires an IP address. Furthermore, every device on a given network must have a unique IP address. You cannot have two devices in the same network using the same IP address as this would result in a conflict. Given that the four-billion-odd addresses are not sufficient to handle the huge volumes of devices, the Internet Assigned Numbers Authority (IANA) devised a brilliant plan to allocate a range of IP address for private use only. These address ranges are not routable on the internet, which means that businesses (and homes) can configure their internal private networks using these addresses without any possibility of them conflicting with other businesses' networks, particularly if those businesses do not plan to connect their networks together.
 		  
@@ -246,7 +252,7 @@ tags:: AWS O'Reilly-Learning
 		  
 		  10.0.0.0/8 IP addresses: 10.0.0.0 – 10.255.255.255
 		  172.16.0.0/12 IP addresses: 172.16.0.0 – 172.31.255.255
-		  192.168.0.0/16 IP addresses: 192.168.0.0 – 192.168.255.255 #flashcard
+		  192.168.0.0/16 IP addresses: 192.168.0.0 – 192.168.255.255
 		- -
 		- -
 		- In the preceding illustration, we see that businesses can define internal network IP address ranges that are not routable over the internet. These businesses will still require access to the internet, whether to send and receive emails from their customers or host e-commerce applications that their clients would need access to from the internet. To facilitate internet connectivity, public IP addresses are required. However, having to assign each device on the internet with a public IP address would defeat the purpose of private IP ranges and pose a security risk. Instead, the internal network can be configured to access the internet via a service called Network Address Translation (NAT).
@@ -254,7 +260,7 @@ tags:: AWS O'Reilly-Learning
 		  In the following diagram, we can see that businesses are now able to access the internet via a NAT service configured on their external router. The NAT service requires a minimum of one single public IP address and relays requests from the internal devices to the internet, acting as a proxy in between. Replies to those requests are also handled by the NAT service, ensuring that they are correctly redirected to the internal device that made the original request.
 		  
 		  
-		  Figure 6.7 – Private IP address ranges used by businesses with internet via NAT services #flashcard
+		  Figure 6.7 – Private IP address ranges used by businesses with internet via NAT services
 		- -
 		- -
 		- The way these classes help define network sizes is by splitting the IP address into a network portion and a host portion. Let's look at this individually by class:
@@ -265,10 +271,10 @@ tags:: AWS O'Reilly-Learning
 		  To better illustrate how these three classes of networks actually look, let's look at the next diagram:
 		  
 		  
-		  Figure 6.8 – IP address classes #flashcard
+		  Figure 6.8 – IP address classes
 		- -
 		- -
-		- it is important to remember that the first and last IP addresses are unusable. The first IP address is always known as the network ID, which in this case is 192.168.1.0. Here, the last octet would be represented by all zeroes (or, in binary, 00000000). The last IP address is 192.168.1.255, which is known as the broadcast address. Here, the last octet would be represented by all ones (or, in binary, 11111111). #flashcard
+		- it is important to remember that the first and last IP addresses are unusable. The first IP address is always known as the network ID, which in this case is 192.168.1.0. Here, the last octet would be represented by all zeroes (or, in binary, 00000000). The last IP address is 192.168.1.255, which is known as the broadcast address. Here, the last octet would be represented by all ones (or, in binary, 11111111).
 		- -
 		- -
 		- With AWS Transit Gateway, you can connect your individual VPCs together via the gateway in a hub-and-spoke model. This greatly simplifies your network architecture, as each new VPC that is peered to the gateway needs just a single connection to be able to route traffic to the other VPCs, as long as necessary route table configurations permit it to do so.
@@ -276,23 +282,23 @@ tags:: AWS O'Reilly-Learning
 		  This simplified model is depicted in the following diagram:
 		  
 		  
-		  Figure 6.19 – AWS Transit Gateway #flashcard
+		  Figure 6.19 – AWS Transit Gateway
 		- -
 		- -
-		- To set up a VPN connection between your on-premises network and the VPC, you need to create a Virtual Private Gateway (VPG) and attach it to your VPC. You will also need to configure a customer gateway, which is a physical or virtual device located in the on-premises network that connects to the VPG over the internet. The setup is illustrated in Figure 6.12. #flashcard
+		- To set up a VPN connection between your on-premises network and the VPC, you need to create a Virtual Private Gateway (VPG) and attach it to your VPC. You will also need to configure a customer gateway, which is a physical or virtual device located in the on-premises network that connects to the VPG over the internet. The setup is illustrated in Figure 6.12.
 		- -
 		- -
 		- Amazon Route53 offers three primary functions:
 		  
 		  Domain registration
 		  DNS routing
-		  Health checks #flashcard
+		  Health checks
 		- -
 		- -
 		- Amazon CloudFront is a CDN that helps you to distribute your static and dynamic digital content globally with low-latency connections. AWS CloudFront uses AWS edge locations and regional edge caches to cache content closer to your end users' locations. This means that you can host your content in one specific Region and a user who attempts to access it from another Region will retrieve the content via the edge location over the AWS backbone network. Furthermore, as content is retrieved, it is cached at a local edge location closer to the user for a period (known as a time-to-live or TTL), further improving network latency in subsequent requests for the same content.
 		  
 		  
-		  Figure 6.21 – A typical CloudFront distribution #flashcard
+		  Figure 6.21 – A typical CloudFront distribution
 		- -
 		- -
 		- Without an API gateway, your frontend developer (who builds the frontend user interface) would need to be made aware of all the backend APIs and build the application to call several microservices, to provide complete functionality. Imagine, then, your backend developer later needs to refactor one of the microservices, such as splitting one microservice into two separate microservices, each with its own API. This would result in having to recode some components of the frontend user interface too.
@@ -300,29 +306,30 @@ tags:: AWS O'Reilly-Learning
 		  With an API gateway, you essentially create an abstraction layer. This API gateway can be used to expose all the APIs that need to be made available to external clients to call backend services. Requests from those clients can then be routed to the various backend microservices. As per the following diagram, Amazon API Gateway acts as a "front door" for your applications to access backend data, Lambda functions, databases, and more. It handles all the incoming traffic and is capable of processing thousands of concurrent API calls.
 		  
 		  
-		  Figure 6.22 – Amazon API Gateway #flashcard
+		  Figure 6.22 – Amazon API Gateway
 		- -
 	- Chapter 7: AWS Compute Services
+	  collapsed:: true
 		- -
-		- A Dedicated Instance is an EC2 instance that is deployed in your VPC on physical hardware that is dedicated to you and not shared with other customers. #flashcard
-		- -
-		- -
-		- Reserved Pricing Options are not actual EC2 instances that you procure; rather, they are pricing agreements that give you the right to run a specific EC2 configuration, in a specified Region, for a specified duration (1 year to 3 years) at a specific discounted rate. #flashcard
+		- A Dedicated Instance is an EC2 instance that is deployed in your VPC on physical hardware that is dedicated to you and not shared with other customers.
 		- -
 		- -
-		- Define Amazon ECR --> Figure 7.7 #flashcard
+		- Reserved Pricing Options are not actual EC2 instances that you procure; rather, they are pricing agreements that give you the right to run a specific EC2 configuration, in a specified Region, for a specified duration (1 year to 3 years) at a specific discounted rate.
+		- -
+		- -
+		- Define Amazon ECR --> Figure 7.7
 			- Elastic Container Registry (ECR): This is where Docker images are stored on AWS. You can also store your images on Docker Hub or a private registry. Amazon ECR hosts your images in a highly available and high-performance architecture. When the task starts, it reviews the task definition and pulls down the Docker image required from the registry.
 		- -
 		- -
 		- When we say serverless, we do not mean that the compute resource is running without any servers. Ultimately, servers will house the CPU that offers compute capabilities. The term serverless is just used to mean that the customer does not need to manage any actual servers as this falls within the responsibility of AWS.
 		  
-		  AWS Lambda is a serverless offering from AWS that allows you to run code and perform some tasks. AWS Lambda is known as a Function as a Service (FaaS) solution that can be used to build an entirely serverless architecture comprised of storage, databases, and network capabilities where you do not manage any underlying servers. #flashcard
+		  AWS Lambda is a serverless offering from AWS that allows you to run code and perform some tasks. AWS Lambda is known as a Function as a Service (FaaS) solution that can be used to build an entirely serverless architecture comprised of storage, databases, and network capabilities where you do not manage any underlying servers.
 		- -
 		- -
-		- Amazon also offers an alternative solution known as Session Manager, which is a feature of the AWS Systems Manager service offering. Session Manager enables you to manage your EC2 instances and on-premises instances via an interactive browser shell or the AWS CLI tools, without the need to open inbound ports or maintain bastion hosts and SSH keys. It also offers a fully auditable instance management service recording instance access details. #flashcard
+		- Amazon also offers an alternative solution known as Session Manager, which is a feature of the AWS Systems Manager service offering. Session Manager enables you to manage your EC2 instances and on-premises instances via an interactive browser shell or the AWS CLI tools, without the need to open inbound ports or maintain bastion hosts and SSH keys. It also offers a fully auditable instance management service recording instance access details.
 		- -
 		- -
-		- Setting up additional subnets #flashcard
+		- Setting up additional subnets
 		- -
 		- -
 		- Under Availability Zone, select us-east-1a – this is the same zone where we placed Public Subnet One. This way, any frontend web resources in Public Subnet One can access any backend resources in Private Subnet One, allowing those resources to be in the same Availability Zone. #flashcard
@@ -344,5 +351,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 	- Chapter 9: High Availability and Elasticity on AWS
 		- -
-		- Some key benefits of ALBs include the following: #flashcard
+		- Graph about Shared Responsibility #flashcard
+			- ![Figure 14.2 – The customer's responsibility varies, depending on the type of cloud computing model](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_14_02.jpg)
+			-
 		- -

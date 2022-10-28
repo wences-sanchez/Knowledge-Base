@@ -123,6 +123,9 @@
  {:block/name "acloudguru::aws",
   :block/created-at 1665994478704,
   :block/updated-at 1665994478704}
+ {:block/name "across-the-net",
+  :block/created-at 1666960247716,
+  :block/updated-at 1666960247716}
  {:block/name
   "administacion de sistemas para la cloud tema-1 (highlights)",
   :block/created-at 1665484163481,
@@ -247,6 +250,9 @@
  {:block/name "articles",
   :block/created-at 1665484163259,
   :block/updated-at 1665484163259}
+ {:block/name "articles\\",
+  :block/created-at 1666960247724,
+  :block/updated-at 1666960247724}
  {:block/name "arun gupta",
   :block/created-at 1665484223547,
   :block/updated-at 1665484223547}
@@ -372,6 +378,9 @@
  {:block/name "books",
   :block/created-at 1665484165194,
   :block/updated-at 1665484165194}
+ {:block/name "books\\",
+  :block/created-at 1666960267438,
+  :block/updated-at 1666960267438}
  {:block/name
   "boolean and logical operations – jetbrains academy (highlights)",
   :block/created-at 1665484173980,
@@ -1485,6 +1494,9 @@
  {:block/name "literature",
   :block/created-at 1665484209011,
   :block/updated-at 1665484209011}
+ {:block/name "literature-quotes",
+  :block/created-at 1666960295175,
+  :block/updated-at 1666960295175}
  {:block/name "lubos rendek",
   :block/created-at 1666959717451,
   :block/updated-at 1666959717451}
@@ -1598,6 +1610,9 @@
  {:block/name "nishant verma",
   :block/created-at 1665484231420,
   :block/updated-at 1665484231420}
+ {:block/name "none",
+  :block/created-at 1666960267436,
+  :block/updated-at 1666960267436}
  {:block/name "note",
   :block/created-at 1665484236597,
   :block/updated-at 1665484236597}
@@ -1617,12 +1632,134 @@
   :block/created-at 1665484163040,
   :block/updated-at 1665484163040}
  {:block/name
+  "o'reilly-learning::advanced software testing - vol. 1, 2nd edition",
+  :block/created-at 1666960272474,
+  :block/updated-at 1666960272474}
+ {:block/name "o'reilly-learning::algorithms",
+  :block/created-at 1666960272665,
+  :block/updated-at 1666960272665}
+ {:block/name "o'reilly-learning::ansible",
+  :block/created-at 1666960274910,
+  :block/updated-at 1666960274910}
+ {:block/name
   "o'reilly-learning::aws certified cloud practitioner exam guide",
   :block/created-at 1666802664181,
   :block/updated-at 1666802664181}
+ {:block/name "o'reilly-learning::bash quick start guide",
+  :block/created-at 1666960275866,
+  :block/updated-at 1666960275866}
+ {:block/name "o'reilly-learning::complete guide to test automation",
+  :block/created-at 1666960285421,
+  :block/updated-at 1666960285421}
+ {:block/name "o'reilly-learning::computer science illuminated",
+  :block/created-at 1666960285925,
+  :block/updated-at 1666960285925}
+ {:block/name "o'reilly-learning::core java volume i--fundamentals",
+  :block/created-at 1666960290505,
+  :block/updated-at 1666960290505}
+ {:block/name "o'reilly-learning::core java volume i—fundamentals",
+  :block/created-at 1666960290876,
+  :block/updated-at 1666960290876}
+ {:block/name "o'reilly-learning::developer testing",
+  :block/created-at 1666960293472,
+  :block/updated-at 1666960293472}
+ {:block/name "o'reilly-learning::django restful web services",
+  :block/created-at 1666960294345,
+  :block/updated-at 1666960294345}
+ {:block/name "o'reilly-learning::effective devops",
+  :block/created-at 1666960294836,
+  :block/updated-at 1666960294836}
+ {:block/name "o'reilly-learning::effective devops with aws",
+  :block/created-at 1666960294735,
+  :block/updated-at 1666960294735}
+ {:block/name "o'reilly-learning::engineering software products",
+  :block/created-at 1666960297469,
+  :block/updated-at 1666960297469}
+ {:block/name "o'reilly-learning::how sre relates to devops",
+  :block/created-at 1666960309916,
+  :block/updated-at 1666960309916}
+ {:block/name
+  "o'reilly-learning::intro to python for computer science and data science",
+  :block/created-at 1666960310503,
+  :block/updated-at 1666960310503}
+ {:block/name "o'reilly-learning::java projects",
+  :block/created-at 1666960312593,
+  :block/updated-at 1666960312593}
+ {:block/name "o'reilly-learning::kubernetes in action",
+  :block/created-at 1666960315203,
+  :block/updated-at 1666960315203}
+ {:block/name "o'reilly-learning::learn selenium",
+  :block/created-at 1666960317841,
+  :block/updated-at 1666960317841}
+ {:block/name "o'reilly-learning::learning devops",
+  :block/created-at 1666960318426,
+  :block/updated-at 1666960318426}
+ {:block/name "o'reilly-learning::mobile test automation with appium",
+  :block/created-at 1666960325264,
+  :block/updated-at 1666960325264}
  {:block/name "o'reilly-learning::networking all-in-one for dummies",
   :block/created-at 1666949112026,
   :block/updated-at 1666949112026}
+ {:block/name "o'reilly-learning::practical ansible 2",
+  :block/created-at 1666960328377,
+  :block/updated-at 1666960328377}
+ {:block/name "o'reilly-learning::practical devops",
+  :block/created-at 1666960328649,
+  :block/updated-at 1666960328649}
+ {:block/name "o'reilly-learning::pragmatic software testing",
+  :block/created-at 1666960329094,
+  :block/updated-at 1666960329094}
+ {:block/name "o'reilly-learning::pro bash programming",
+  :block/created-at 1666960329631,
+  :block/updated-at 1666960329631}
+ {:block/name "o'reilly-learning::puppet 5 beginner's guide",
+  :block/created-at 1666960331861,
+  :block/updated-at 1666960331861}
+ {:block/name "o'reilly-learning::python crash course",
+  :block/created-at 1666960332922,
+  :block/updated-at 1666960332922}
+ {:block/name "o'reilly-learning::real-world software development",
+  :block/created-at 1666960334654,
+  :block/updated-at 1666960334654}
+ {:block/name
+  "o'reilly-learning::red hat certified engineer (rhce) study guide",
+  :block/created-at 1666960335267,
+  :block/updated-at 1666960335267}
+ {:block/name
+  "o'reilly-learning::selenium webdriver 3 practical guide",
+  :block/created-at 1666960339455,
+  :block/updated-at 1666960339455}
+ {:block/name "o'reilly-learning::software testing",
+  :block/created-at 1666960340980,
+  :block/updated-at 1666960340980}
+ {:block/name "o'reilly-learning::terraform",
+  :block/created-at 1666960341690,
+  :block/updated-at 1666960341690}
+ {:block/name "o'reilly-learning::test-driven development with python",
+  :block/created-at 1666960342227,
+  :block/updated-at 1666960342227}
+ {:block/name "o'reilly-learning::test-driven python development",
+  :block/created-at 1666960342660,
+  :block/updated-at 1666960342660}
+ {:block/name "o'reilly-learning::the cucumber book",
+  :block/created-at 1666960343964,
+  :block/updated-at 1666960343964}
+ {:block/name "o'reilly-learning::the devops career handbook",
+  :block/created-at 1666960344342,
+  :block/updated-at 1666960344342}
+ {:block/name "o'reilly-learning::the docker book",
+  :block/created-at 1666960344976,
+  :block/updated-at 1666960344976}
+ {:block/name
+  "o'reilly-learning::the software test engineer's handbook, 2nd edition",
+  :block/created-at 1666960346974,
+  :block/updated-at 1666960346974}
+ {:block/name "o'reilly-learning::tiny python projects",
+  :block/created-at 1666960347357,
+  :block/updated-at 1666960347357}
+ {:block/name "obsidian headers readwise template",
+  :block/created-at 1666960247285,
+  :block/updated-at 1666960247285}
  {:block/name "obsidian readwise template",
   :block/created-at 1666959102245,
   :block/updated-at 1666959102245}
@@ -1645,6 +1782,126 @@
  {:block/name "oscar wilde and mauro armiño",
   :block/created-at 1665484201374,
   :block/updated-at 1665484201374}
+ {:block/name "other-books::android programming",
+  :block/created-at 1666960273200,
+  :block/updated-at 1666960273200}
+ {:block/name "other-books::android user interface design",
+  :block/created-at 1666960274210,
+  :block/updated-at 1666960274210}
+ {:block/name "other-books::antología poética",
+  :block/created-at 1666960275466,
+  :block/updated-at 1666960275466}
+ {:block/name "other-books::beginning asp.net for visual studio 2015",
+  :block/created-at 1666960276412,
+  :block/updated-at 1666960276412}
+ {:block/name "other-books::bécquer",
+  :block/created-at 1666960277592,
+  :block/updated-at 1666960277592}
+ {:block/name "other-books::call it sleep",
+  :block/created-at 1666960279823,
+  :block/updated-at 1666960279823}
+ {:block/name "other-books::cien poemas clásicos",
+  :block/created-at 1666960279902,
+  :block/updated-at 1666960279902}
+ {:block/name "other-books::clean code",
+  :block/created-at 1666960280933,
+  :block/updated-at 1666960280933}
+ {:block/name "other-books::code complete",
+  :block/created-at 1666960284817,
+  :block/updated-at 1666960284817}
+ {:block/name "other-books::como si existiese el perdón",
+  :block/created-at 1666960285273,
+  :block/updated-at 1666960285273}
+ {:block/name "other-books::course_slides_annotated.pdf",
+  :block/created-at 1666960291379,
+  :block/updated-at 1666960291379}
+ {:block/name "other-books::css",
+  :block/created-at 1666960278444,
+  :block/updated-at 1666960278444}
+ {:block/name "other-books::devops",
+  :block/created-at 1666960293797,
+  :block/updated-at 1666960293797}
+ {:block/name "other-books::in search of lost time",
+  :block/created-at 1666960310020,
+  :block/updated-at 1666960310020}
+ {:block/name
+  "other-books::intro to python for computer science and data science: learning to program with ai, big data and the cloud",
+  :block/created-at 1666960310345,
+  :block/updated-at 1666960310345}
+ {:block/name
+  "other-books::introduction to computation and programming using python",
+  :block/created-at 1666960311072,
+  :block/updated-at 1666960311072}
+ {:block/name "other-books::java",
+  :block/created-at 1666960313177,
+  :block/updated-at 1666960313177}
+ {:block/name "other-books::java ee 7 essentials",
+  :block/created-at 1666960311758,
+  :block/updated-at 1666960311758}
+ {:block/name "other-books::javaserver pages",
+  :block/created-at 1666960314159,
+  :block/updated-at 1666960314159}
+ {:block/name "other-books::la historia de la nostalgia",
+  :block/created-at 1666960316713,
+  :block/updated-at 1666960316713}
+ {:block/name "other-books::la síntesis de la libertad",
+  :block/created-at 1666960317098,
+  :block/updated-at 1666960317098}
+ {:block/name "other-books::learning php 7",
+  :block/created-at 1666960318971,
+  :block/updated-at 1666960318971}
+ {:block/name "other-books::learning php, mysql & javascript",
+  :block/created-at 1666960321502,
+  :block/updated-at 1666960321502}
+ {:block/name "other-books::lessons learned in software testing",
+  :block/created-at 1666960324528,
+  :block/updated-at 1666960324528}
+ {:block/name "other-books::moby dick",
+  :block/created-at 1666960325526,
+  :block/updated-at 1666960325526}
+ {:block/name "other-books::oca",
+  :block/created-at 1666960326915,
+  :block/updated-at 1666960326915}
+ {:block/name
+  "other-books::ocp oracle certified professional java se 11 programmer i exam fundamentals 1z0-815",
+  :block/created-at 1666960326229,
+  :block/updated-at 1666960326229}
+ {:block/name "other-books::origin",
+  :block/created-at 1666960328036,
+  :block/updated-at 1666960328036}
+ {:block/name "other-books::personalidad",
+  :block/created-at 1666960328122,
+  :block/updated-at 1666960328122}
+ {:block/name "other-books::practical devops",
+  :block/created-at 1666960328733,
+  :block/updated-at 1666960328733}
+ {:block/name "other-books::pro puppet",
+  :block/created-at 1666960330462,
+  :block/updated-at 1666960330462}
+ {:block/name "other-books::quotes",
+  :block/created-at 1666960334274,
+  :block/updated-at 1666960334274}
+ {:block/name "other-books::resilience",
+  :block/created-at 1666960335383,
+  :block/updated-at 1666960335383}
+ {:block/name "other-books::selenium webdriver 3 practical guide",
+  :block/created-at 1666960340081,
+  :block/updated-at 1666960340081}
+ {:block/name "other-books::siddhartha",
+  :block/created-at 1666960340662,
+  :block/updated-at 1666960340662}
+ {:block/name "other-books::steppenwolf",
+  :block/created-at 1666960341385,
+  :block/updated-at 1666960341385}
+ {:block/name "other-books::the agile testing collection",
+  :block/created-at 1666960343057,
+  :block/updated-at 1666960343057}
+ {:block/name "other-books::the devops engineer’s career guide",
+  :block/created-at 1666960344486,
+  :block/updated-at 1666960344486}
+ {:block/name "other-books::the tempest",
+  :block/created-at 1666960347253,
+  :block/updated-at 1666960347253}
  {:block/name "ottessa moshfegh",
   :block/created-at 1665484201205,
   :block/updated-at 1665484201205}
@@ -1871,6 +2128,27 @@
  {:block/name "science",
   :block/created-at 1665484176247,
   :block/updated-at 1665484176247}
+ {:block/name "science::astrophysics for people in a hurry",
+  :block/created-at 1666960275564,
+  :block/updated-at 1666960275564}
+ {:block/name "science::classical mechanics",
+  :block/created-at 1666960280282,
+  :block/updated-at 1666960280282}
+ {:block/name "science::l'ordre del temps",
+  :block/created-at 1666960349451,
+  :block/updated-at 1666960349451}
+ {:block/name "science::quantum computing for everyone",
+  :block/created-at 1666960333922,
+  :block/updated-at 1666960333922}
+ {:block/name "science::the feynman lectures on physics",
+  :block/created-at 1666960345607,
+  :block/updated-at 1666960345607}
+ {:block/name "science::the feynman lectures on physics, vol. iii",
+  :block/created-at 1666960345312,
+  :block/updated-at 1666960345312}
+ {:block/name "science::the history of the world",
+  :block/created-at 1666960345936,
+  :block/updated-at 1666960345936}
  {:block/name "scrolling to element using webdriver? (highlights)",
   :block/created-at 1665484237755,
   :block/updated-at 1665484237755}
@@ -1913,6 +2191,33 @@
  {:block/name "self-help",
   :block/created-at 1665484185618,
   :block/updated-at 1665484185618}
+ {:block/name "self-help::decídete",
+  :block/created-at 1666960291690,
+  :block/updated-at 1666960291690}
+ {:block/name "self-help::designing your life",
+  :block/created-at 1666960292758,
+  :block/updated-at 1666960292758}
+ {:block/name "self-help::el elemento",
+  :block/created-at 1666960295396,
+  :block/updated-at 1666960295396}
+ {:block/name "self-help::la búsqueda de la felicidad",
+  :block/created-at 1666960316003,
+  :block/updated-at 1666960316003}
+ {:block/name "self-help::la conquista de la felicidad",
+  :block/created-at 1666960316349,
+  :block/updated-at 1666960316349}
+ {:block/name "self-help::tu mejor año",
+  :block/created-at 1666960347855,
+  :block/updated-at 1666960347855}
+ {:block/name "self-help::un nuevo mundo, ahora",
+  :block/created-at 1666960348506,
+  :block/updated-at 1666960348506}
+ {:block/name "self-help::why the f*ck can't i change?",
+  :block/created-at 1666960349286,
+  :block/updated-at 1666960349286}
+ {:block/name "self-help::¿qué es la ilustración?",
+  :block/created-at 1666960349858,
+  :block/updated-at 1666960349858}
  {:block/name "self-learning",
   :block/created-at 1662196757036,
   :block/updated-at 1662196757036}
@@ -2202,6 +2507,244 @@
  {:block/name "uni",
   :block/created-at 1665484165108,
   :block/updated-at 1665484165108}
+ {:block/name "uni::administacion de sistemas para la cloud tema-1",
+  :block/created-at 1666960268226,
+  :block/updated-at 1666960268226}
+ {:block/name "uni::administración de sistemas para la cloud tema-10",
+  :block/created-at 1666960268422,
+  :block/updated-at 1666960268422}
+ {:block/name "uni::administración de sistemas para la cloud tema-2",
+  :block/created-at 1666960268840,
+  :block/updated-at 1666960268840}
+ {:block/name "uni::administración de sistemas para la cloud tema-3",
+  :block/created-at 1666960269387,
+  :block/updated-at 1666960269387}
+ {:block/name "uni::administración de sistemas para la cloud tema-4",
+  :block/created-at 1666960269777,
+  :block/updated-at 1666960269777}
+ {:block/name "uni::administración de sistemas para la cloud tema-5",
+  :block/created-at 1666960270417,
+  :block/updated-at 1666960270417}
+ {:block/name "uni::administración de sistemas para la cloud tema-6",
+  :block/created-at 1666960271157,
+  :block/updated-at 1666960271157}
+ {:block/name "uni::administración de sistemas para la cloud tema-7",
+  :block/created-at 1666960271587,
+  :block/updated-at 1666960271587}
+ {:block/name "uni::administración de sistemas para la cloud tema-9",
+  :block/created-at 1666960272089,
+  :block/updated-at 1666960272089}
+ {:block/name "uni::cloud computing and devops culture tema-1",
+  :block/created-at 1666960281534,
+  :block/updated-at 1666960281534}
+ {:block/name "uni::cloud computing and devops culture tema-10",
+  :block/created-at 1666960281901,
+  :block/updated-at 1666960281901}
+ {:block/name "uni::cloud computing and devops culture tema-2",
+  :block/created-at 1666960282271,
+  :block/updated-at 1666960282271}
+ {:block/name "uni::cloud computing and devops culture tema-3",
+  :block/created-at 1666960282574,
+  :block/updated-at 1666960282574}
+ {:block/name "uni::cloud computing and devops culture tema-4",
+  :block/created-at 1666960283074,
+  :block/updated-at 1666960283074}
+ {:block/name "uni::cloud computing and devops culture tema-5",
+  :block/created-at 1666960283356,
+  :block/updated-at 1666960283356}
+ {:block/name "uni::cloud computing and devops culture tema-6",
+  :block/created-at 1666960283727,
+  :block/updated-at 1666960283727}
+ {:block/name "uni::cloud computing and devops culture tema-7",
+  :block/created-at 1666960284071,
+  :block/updated-at 1666960284071}
+ {:block/name "uni::cloud computing and devops culture tema-8",
+  :block/created-at 1666960284223,
+  :block/updated-at 1666960284223}
+ {:block/name "uni::cloud computing and devops culture tema-9",
+  :block/created-at 1666960284602,
+  :block/updated-at 1666960284602}
+ {:block/name "uni::contenedores tema-1",
+  :block/created-at 1666960286373,
+  :block/updated-at 1666960286373}
+ {:block/name "uni::contenedores tema-10",
+  :block/created-at 1666960286577,
+  :block/updated-at 1666960286577}
+ {:block/name "uni::contenedores tema-2",
+  :block/created-at 1666960287047,
+  :block/updated-at 1666960287047}
+ {:block/name "uni::contenedores tema-3",
+  :block/created-at 1666960287436,
+  :block/updated-at 1666960287436}
+ {:block/name "uni::contenedores tema-4",
+  :block/created-at 1666960287969,
+  :block/updated-at 1666960287969}
+ {:block/name "uni::contenedores tema-5",
+  :block/created-at 1666960288372,
+  :block/updated-at 1666960288372}
+ {:block/name "uni::contenedores tema-6",
+  :block/created-at 1666960288703,
+  :block/updated-at 1666960288703}
+ {:block/name "uni::contenedores tema-7",
+  :block/created-at 1666960289324,
+  :block/updated-at 1666960289324}
+ {:block/name "uni::contenedores tema-8",
+  :block/created-at 1666960289671,
+  :block/updated-at 1666960289671}
+ {:block/name "uni::contenedores tema-9",
+  :block/created-at 1666960290072,
+  :block/updated-at 1666960290072}
+ {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-1",
+  :block/created-at 1666960297575,
+  :block/updated-at 1666960297575}
+ {:block/name
+  "uni::entornos_de_integracion_y_entrega_continua tema-10",
+  :block/created-at 1666960297890,
+  :block/updated-at 1666960297890}
+ {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-2",
+  :block/created-at 1666960298270,
+  :block/updated-at 1666960298270}
+ {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-3",
+  :block/created-at 1666960298524,
+  :block/updated-at 1666960298524}
+ {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-4",
+  :block/created-at 1666960298814,
+  :block/updated-at 1666960298814}
+ {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-5",
+  :block/created-at 1666960298924,
+  :block/updated-at 1666960298924}
+ {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-6",
+  :block/created-at 1666960299220,
+  :block/updated-at 1666960299220}
+ {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-7",
+  :block/created-at 1666960299580,
+  :block/updated-at 1666960299580}
+ {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-8",
+  :block/created-at 1666960299292,
+  :block/updated-at 1666960299292}
+ {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-9",
+  :block/created-at 1666960299897,
+  :block/updated-at 1666960299897}
+ {:block/name "uni::gestion_de_proyectos tema-1",
+  :block/created-at 1666960300006,
+  :block/updated-at 1666960300006}
+ {:block/name "uni::gestion_de_proyectos tema-10",
+  :block/created-at 1666960300331,
+  :block/updated-at 1666960300331}
+ {:block/name "uni::gestion_de_proyectos tema-2",
+  :block/created-at 1666960300521,
+  :block/updated-at 1666960300521}
+ {:block/name "uni::gestion_de_proyectos tema-3",
+  :block/created-at 1666960300921,
+  :block/updated-at 1666960300921}
+ {:block/name "uni::gestion_de_proyectos tema-4",
+  :block/created-at 1666960301085,
+  :block/updated-at 1666960301085}
+ {:block/name "uni::gestion_de_proyectos tema-5",
+  :block/created-at 1666960301451,
+  :block/updated-at 1666960301451}
+ {:block/name "uni::gestion_de_proyectos tema-6",
+  :block/created-at 1666960301888,
+  :block/updated-at 1666960301888}
+ {:block/name "uni::gestion_de_proyectos tema-7",
+  :block/created-at 1666960302280,
+  :block/updated-at 1666960302280}
+ {:block/name "uni::gestion_de_proyectos tema-8",
+  :block/created-at 1666960302432,
+  :block/updated-at 1666960302432}
+ {:block/name "uni::gestion_de_proyectos tema-9",
+  :block/created-at 1666960302806,
+  :block/updated-at 1666960302806}
+ {:block/name
+  "uni::herramientas de automatización de despliegues tema-1",
+  :block/created-at 1666960306655,
+  :block/updated-at 1666960306655}
+ {:block/name
+  "uni::herramientas de automatización de despliegues tema-2",
+  :block/created-at 1666960307157,
+  :block/updated-at 1666960307157}
+ {:block/name
+  "uni::herramientas de automatización de despliegues tema-3",
+  :block/created-at 1666960307464,
+  :block/updated-at 1666960307464}
+ {:block/name
+  "uni::herramientas de automatización de despliegues tema-4",
+  :block/created-at 1666960307906,
+  :block/updated-at 1666960307906}
+ {:block/name
+  "uni::herramientas de automatización de despliegues tema-5",
+  :block/created-at 1666960308251,
+  :block/updated-at 1666960308251}
+ {:block/name
+  "uni::herramientas de automatización de despliegues tema-6",
+  :block/created-at 1666960308484,
+  :block/updated-at 1666960308484}
+ {:block/name
+  "uni::herramientas de automatización de despliegues tema-7",
+  :block/created-at 1666960308894,
+  :block/updated-at 1666960308894}
+ {:block/name
+  "uni::herramientas de automatización de despliegues tema-8",
+  :block/created-at 1666960309129,
+  :block/updated-at 1666960309129}
+ {:block/name
+  "uni::herramientas de automatización de despliegues tema-9",
+  :block/created-at 1666960309594,
+  :block/updated-at 1666960309594}
+ {:block/name "uni::herramientas devops tema-1",
+  :block/created-at 1666960303424,
+  :block/updated-at 1666960303424}
+ {:block/name "uni::herramientas devops tema-2",
+  :block/created-at 1666960303889,
+  :block/updated-at 1666960303889}
+ {:block/name "uni::herramientas devops tema-3",
+  :block/created-at 1666960304450,
+  :block/updated-at 1666960304450}
+ {:block/name "uni::herramientas devops tema-4",
+  :block/created-at 1666960304671,
+  :block/updated-at 1666960304671}
+ {:block/name "uni::herramientas devops tema-5",
+  :block/created-at 1666960305029,
+  :block/updated-at 1666960305029}
+ {:block/name "uni::herramientas devops tema-6",
+  :block/created-at 1666960305178,
+  :block/updated-at 1666960305178}
+ {:block/name "uni::herramientas devops tema-7",
+  :block/created-at 1666960305627,
+  :block/updated-at 1666960305627}
+ {:block/name "uni::herramientas devops tema-8",
+  :block/created-at 1666960306111,
+  :block/updated-at 1666960306111}
+ {:block/name "uni::herramientas devops tema-9",
+  :block/created-at 1666960306462,
+  :block/updated-at 1666960306462}
+ {:block/name "uni::secdevops tema-1",
+  :block/created-at 1666960335731,
+  :block/updated-at 1666960335731}
+ {:block/name "uni::secdevops tema-2",
+  :block/created-at 1666960336260,
+  :block/updated-at 1666960336260}
+ {:block/name "uni::secdevops tema-3",
+  :block/created-at 1666960336697,
+  :block/updated-at 1666960336697}
+ {:block/name "uni::secdevops tema-4",
+  :block/created-at 1666960337267,
+  :block/updated-at 1666960337267}
+ {:block/name "uni::secdevops tema-5",
+  :block/created-at 1666960337523,
+  :block/updated-at 1666960337523}
+ {:block/name "uni::secdevops tema-6",
+  :block/created-at 1666960337921,
+  :block/updated-at 1666960337921}
+ {:block/name "uni::secdevops tema-7",
+  :block/created-at 1666960338376,
+  :block/updated-at 1666960338376}
+ {:block/name "uni::secdevops tema-8",
+  :block/created-at 1666960338661,
+  :block/updated-at 1666960338661}
+ {:block/name "uni::secdevops tema-9",
+  :block/created-at 1666960339110,
+  :block/updated-at 1666960339110}
  {:block/name "unir",
   :block/created-at 1665484165192,
   :block/updated-at 1665484165192}

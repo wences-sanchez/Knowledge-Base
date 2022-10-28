@@ -47,9 +47,21 @@
  {:block/name "# tema 2: facturación y economía en la nube",
   :block/created-at 1665484162723,
   :block/updated-at 1665484162723}
+ {:block/name "(nop)",
+  :block/created-at 1666959737032,
+  :block/updated-at 1666959737032}
+ {:block/name ")",
+  :block/created-at 1666959734121,
+  :block/updated-at 1666959734121}
+ {:block/name "1",
+  :block/created-at 1666959729252,
+  :block/updated-at 1666959729252}
  {:block/name "12-factor apps",
   :block/created-at 1665484172284,
   :block/updated-at 1665484172284}
+ {:block/name "2",
+  :block/created-at 1666959729254,
+  :block/updated-at 1666959729254}
  {:block/name "2022_08_05 2",
   :block/created-at 1665484160620,
   :block/updated-at 1665484160620}
@@ -59,16 +71,28 @@
  {:block/name "2022_08_07 2",
   :block/created-at 1665484160492,
   :block/updated-at 1665484160492}
+ {:block/name "3",
+  :block/created-at 1666959729255,
+  :block/updated-at 1666959729255}
  {:block/name "3. technology",
   :block/created-at 1666802437852,
   :block/updated-at 1666802437852}
+ {:block/name "4",
+  :block/created-at 1666959729257,
+  :block/updated-at 1666959729257}
  {:block/name "4sysops.com",
   :block/created-at 1665484187232,
   :block/updated-at 1665484187232}
+ {:block/name "5",
+  :block/created-at 1666959718280,
+  :block/updated-at 1666959718280}
  {:block/name
   "5. waits — selenium python bindings 2 documentation (highlights)",
   :block/created-at 1665484162809,
   :block/updated-at 1665484162809}
+ {:block/name "6",
+  :block/created-at 1666959729259,
+  :block/updated-at 1666959729259}
  {:block/name "62ee44f7-9707-488e-8135-9fe1df0b96d6",
   :block/created-at 1659864619934,
   :block/updated-at 1659864619934}
@@ -81,6 +105,9 @@
  {:block/name "62f66ba7-794b-4605-a7dc-145760843477",
   :block/created-at 1665484203782,
   :block/updated-at 1665484203782}
+ {:block/name "999999",
+  :block/created-at 1666959705356,
+  :block/updated-at 1666959705356}
  {:block/name ">",
   :block/created-at 1665484165165,
   :block/updated-at 1665484165165}
@@ -138,6 +165,9 @@
  {:block/name "advanced file management tools",
   :block/created-at 1665484230970,
   :block/updated-at 1665484230970}
+ {:block/name "advanced software testing - vol",
+  :block/created-at 1666959726325,
+  :block/updated-at 1666959726325}
  {:block/name
   "advanced software testing - vol. 1, 2nd edition (highlights)",
   :block/created-at 1665484168319,
@@ -160,9 +190,6 @@
  {:block/name "android user interface design (highlights)",
   :block/created-at 1665484169501,
   :block/updated-at 1665484169501}
- {:block/name "ansible",
-  :block/created-at 1665484172527,
-  :block/updated-at 1665484172527}
  {:block/name "ansible (highlights)",
   :block/created-at 1665484169646,
   :block/updated-at 1665484169646}
@@ -282,6 +309,9 @@
  {:block/name "bash quick start guide (highlights)",
   :block/created-at 1665484171595,
   :block/updated-at 1665484171595}
+ {:block/name "bash scripting tutorial for beginners - linuxconfig",
+  :block/created-at 1666959717344,
+  :block/updated-at 1666959717344}
  {:block/name
   "bash scripting tutorial for beginners - linuxconfig.org (highlights)",
   :block/created-at 1665484171770,
@@ -312,6 +342,9 @@
  {:block/name "beginnersbook.com",
   :block/created-at 1665484222945,
   :block/updated-at 1665484222945}
+ {:block/name "beginning asp",
+  :block/created-at 1666959707171,
+  :block/updated-at 1666959707171}
  {:block/name "beginning asp.net for visual studio 2015 (highlights)",
   :block/created-at 1665484173529,
   :block/updated-at 1665484173529}
@@ -514,6 +547,9 @@
  {:block/name "colección poesía salvat",
   :block/created-at 1665484174048,
   :block/updated-at 1665484174048}
+ {:block/name "colección poesía salvat ",
+  :block/created-at 1666959735033,
+  :block/updated-at 1666959735033}
  {:block/name "como si existiese el perdón (highlights)",
   :block/created-at 1665484179243,
   :block/updated-at 1665484179243}
@@ -574,6 +610,9 @@
  {:block/name "coste visado uk",
   :block/created-at 1665484182532,
   :block/updated-at 1665484182532}
+ {:block/name "course_slides_annotated",
+  :block/created-at 1666959725884,
+  :block/updated-at 1666959725884}
  {:block/name "course_slides_annotated.pdf (highlights)",
   :block/created-at 1665484182763,
   :block/updated-at 1665484182763}
@@ -642,9 +681,6 @@
  {:block/name "developer testing (highlights)",
   :block/created-at 1665484186452,
   :block/updated-at 1665484186452}
- {:block/name "devops",
-  :block/created-at 1665484162520,
-  :block/updated-at 1665484162520}
  {:block/name "devops (highlights)",
   :block/created-at 1665484186803,
   :block/updated-at 1665484186803}
@@ -725,6 +761,9 @@
  {:block/name "effective devops with aws (highlights)",
   :block/created-at 1665484200418,
   :block/updated-at 1665484200418}
+ {:block/name "egidio docile",
+  :block/created-at 1666959717589,
+  :block/updated-at 1666959717589}
  {:block/name "el alquimista (highlights)",
   :block/created-at 1665484200700,
   :block/updated-at 1665484200700}
@@ -740,6 +779,9 @@
  {:block/name "el país colecciones",
   :block/created-at 1665484233181,
   :block/updated-at 1665484233181}
+ {:block/name "el país colecciones ",
+  :block/created-at 1666959741517,
+  :block/updated-at 1666959741517}
  {:block/name "el retrato de dorian gray (highlights)",
   :block/created-at 1665484201404,
   :block/updated-at 1665484201404}
@@ -930,6 +972,9 @@
  {:block/name "gestion_de_proyectos tema-9 (highlights)",
   :block/created-at 1665484205597,
   :block/updated-at 1665484205597}
+ {:block/name "gestión",
+  :block/created-at 1666959735354,
+  :block/updated-at 1666959735354}
  {:block/name "gestión de proyectos",
   :block/created-at 1665484205537,
   :block/updated-at 1665484205537}
@@ -1079,6 +1124,10 @@
   :block/created-at 1665484209549,
   :block/updated-at 1665484209549}
  {:block/name
+  "how to fix attempted relative import in non-package even with __init__",
+  :block/created-at 1666959720224,
+  :block/updated-at 1666959720224}
+ {:block/name
   "how to import the class within the same directory or sub directory? (highlights)",
   :block/created-at 1665484209613,
   :block/updated-at 1665484209613}
@@ -1089,6 +1138,9 @@
  {:block/name "how to round to 2 decimals with python? (highlights)",
   :block/created-at 1665484209726,
   :block/updated-at 1665484209726}
+ {:block/name "how to use arrays in bash script - linuxconfig",
+  :block/created-at 1666959717506,
+  :block/updated-at 1666959717506}
  {:block/name
   "how to use arrays in bash script - linuxconfig.org (highlights)",
   :block/created-at 1665484209787,
@@ -1214,6 +1266,10 @@
   :block/created-at 1665484160417,
   :block/updated-at 1665484160417}
  {:block/name
+  "implicit wait - this appears to deprecated in selenium latest version",
+  :block/created-at 1666959726433,
+  :block/updated-at 1666959726433}
+ {:block/name
   "implicit wait - this appears to deprecated in selenium latest version. what would be the alternate for the same? | selenium forum (highlights)",
   :block/created-at 1665484213429,
   :block/updated-at 1665484213429}
@@ -1277,9 +1333,6 @@
  {:block/name "janet gregory y lisa crispin",
   :block/created-at 1665484241581,
   :block/updated-at 1665484241581}
- {:block/name "java",
-  :block/created-at 1665484160616,
-  :block/updated-at 1665484160616}
  {:block/name "java (highlights)",
   :block/created-at 1665484222795,
   :block/updated-at 1665484222795}
@@ -1329,6 +1382,17 @@
  {:block/name "ken follett",
   :block/created-at 1660807859029,
   :block/updated-at 1660807859029}
+ {:block/name "kubectl  unable to connect to the server  dial tcp 192",
+  :block/created-at 1666959741562,
+  :block/updated-at 1666959741562}
+ {:block/name
+  "kubectl  unable to connect to the server  dial tcp 192/168",
+  :block/created-at 1666959741564,
+  :block/updated-at 1666959741564}
+ {:block/name
+  "kubectl  unable to connect to the server  dial tcp 192/168/214",
+  :block/created-at 1666959741565,
+  :block/updated-at 1666959741565}
  {:block/name
   "kubectl : unable to connect to the server : dial tcp 192.168.214.136:6443: connect: no route to host (highlights)",
   :block/created-at 1665484224573,
@@ -1421,6 +1485,9 @@
  {:block/name "literature",
   :block/created-at 1665484209011,
   :block/updated-at 1665484209011}
+ {:block/name "lubos rendek",
+  :block/created-at 1666959717451,
+  :block/updated-at 1666959717451}
  {:block/name "machines like me (highlights)",
   :block/created-at 1665484231251,
   :block/updated-at 1665484231251}
@@ -1556,6 +1623,9 @@
  {:block/name "o'reilly-learning::networking all-in-one for dummies",
   :block/created-at 1666949112026,
   :block/updated-at 1666949112026}
+ {:block/name "obsidian readwise template",
+  :block/created-at 1666959102245,
+  :block/updated-at 1666959102245}
  {:block/name "oca (highlights)",
   :block/created-at 1665484232955,
   :block/updated-at 1665484232955}
@@ -1681,6 +1751,9 @@
  {:block/name "python file naming convention? (highlights)",
   :block/created-at 1665484236292,
   :block/updated-at 1665484236292}
+ {:block/name "python object",
+  :block/created-at 1666959722808,
+  :block/updated-at 1666959722808}
  {:block/name
   "python object.__repr__(self) should be an expression? (highlights)",
   :block/created-at 1665484236419,
@@ -1703,6 +1776,9 @@
  {:block/name "quotes (highlights)",
   :block/created-at 1665484236681,
   :block/updated-at 1665484236681}
+ {:block/name "reading 3",
+  :block/created-at 1666959734985,
+  :block/updated-at 1666959734985}
  {:block/name
   "reading 3.1: storage types on aws | coursera (highlights)",
   :block/created-at 1665484236766,
@@ -1996,6 +2072,9 @@
  {:block/name "the feynman lectures on physics (highlights)",
   :block/created-at 1665484242659,
   :block/updated-at 1665484242659}
+ {:block/name "the feynman lectures on physics, vol",
+  :block/created-at 1666959720771,
+  :block/updated-at 1666959720771}
  {:block/name "the feynman lectures on physics, vol. iii (highlights)",
   :block/created-at 1665484242753,
   :block/updated-at 1665484242753}
@@ -2188,10 +2267,16 @@
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}
+ {:block/name "unittest — unit testing framework — python 3",
+  :block/created-at 1666959719432,
+  :block/updated-at 1666959719432}
  {:block/name
   "unittest — unit testing framework — python 3.9.2rc1 documentation (highlights)",
   :block/created-at 1661943806535,
   :block/updated-at 1661943806535}
+ {:block/name "unittest — unit testing framework — python 3/9",
+  :block/created-at 1666959719434,
+  :block/updated-at 1666959719434}
  {:block/name "unix ",
   :block/created-at 1660808022391,
   :block/updated-at 1660808022391}
@@ -2279,10 +2364,16 @@
  {:block/name "wenceslao sanchez's highlights and notes (highlights)",
   :block/created-at 1661943806700,
   :block/updated-at 1661943806700}
+ {:block/name "wenceslaosanchez1 highlighted a",
+  :block/created-at 1666959716575,
+  :block/updated-at 1666959716575}
  {:block/name
   "wenceslaosanchez1 highlighted a... from hands-on devops with vagrant (highlights)",
   :block/created-at 1661943807125,
   :block/updated-at 1661943807125}
+ {:block/name "wenceslaosanchez1 highlighted a/",
+  :block/created-at 1666959875213,
+  :block/updated-at 1666959875213}
  {:block/name "what does %w(array) mean? (highlights)",
   :block/created-at 1661943806962,
   :block/updated-at 1661943806962}
@@ -2339,6 +2430,39 @@
  {:block/name "yyyy-mm-dd format date in shell script (highlights)",
   :block/created-at 1661943807583,
   :block/updated-at 1661943807583}
+ {:block/name "{c.value}<",
+  :block/created-at 1666959710597,
+  :block/updated-at 1666959710597}
+ {:block/name "{c.value}</h",
+  :block/created-at 1666959710582,
+  :block/updated-at 1666959710582}
+ {:block/name "{cc.attrs.xxx}",
+  :block/created-at 1666959710594,
+  :block/updated-at 1666959710594}
+ {:block/name "{cc.attrs}",
+  :block/created-at 1666959710588,
+  :block/updated-at 1666959710588}
+ {:block/name "{node[",
+  :block/created-at 1666959734122,
+  :block/updated-at 1666959734122}
+ {:block/name "{resource[",
+  :block/created-at 1666959710585,
+  :block/updated-at 1666959710585}
+ {:block/name "{user.xxx}",
+  :block/created-at 1666959710591,
+  :block/updated-at 1666959710591}
+ {:block/name " <class ",
+  :block/created-at 1666959720617,
+  :block/updated-at 1666959720617}
+ {:block/name " [8",
+  :block/created-at 1666959720266,
+  :block/updated-at 1666959720266}
+ {:block/name " variable v stores an integer valuev = ",
+  :block/created-at 1666959720616,
+  :block/updated-at 1666959720616}
+ {:block/name " v now stores a string",
+  :block/created-at 1666959720615,
+  :block/updated-at 1666959720615}
  {:block/name "¿qué es la ilustración? (highlights)",
   :block/created-at 1661943807861,
   :block/updated-at 1661943807861}

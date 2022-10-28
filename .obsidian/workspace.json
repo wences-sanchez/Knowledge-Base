@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/UNIR%2FCurso AWS%2FMódulo-3%2FTema-1%3A Servicios de Bases de Datos.md",
+                "file": "Readwise/Books/AWS Certified Cloud Practitioner Exam Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/UNIR%2FCurso AWS%2FMódulo-3%2FTema-1%3A Servicios de Bases de Datos.md",
+                "file": "Readwise/Books/AWS Certified Cloud Practitioner Exam Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/UNIR%2FCurso AWS%2FMódulo-3%2FTema-1%3A Servicios de Bases de Datos.md",
+                "file": "Readwise/Books/AWS Certified Cloud Practitioner Exam Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/UNIR%2FCurso AWS%2FMódulo-3%2FTema-1%3A Servicios de Bases de Datos.md"
+                "file": "Readwise/Books/AWS Certified Cloud Practitioner Exam Guide.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "d51e896e2644b7b3",
   "lastOpenFiles": [
+    "pages/obsidian headers readwise template.md",
+    "Readwise/Books/AWS Certified Cloud Practitioner Exam Guide.md",
+    "pages/Readwise.md",
+    "pages/UNIR%2FCurso AWS%2FMódulo-3%2FTema-1%3A Servicios de Bases de Datos.md",
     "pages/AWS Certified Cloud Practitioner Exam Guide (highlights).md",
     "pages/obsidian readwise template.md",
     "journals/2022_10_28.md",
     "pages/AWS Certified Cloud Practitioner by ACG.md",
     "pages/UNIR%2FCurso AWS%2FMódulo-2%2FTema-3%3A Otros servicios de cómputo. Contenedores.md",
-    "journals/2022_10_17.md",
-    "pages/hls__UNIR-AWS_Modulo-1_1664869606733_0.md",
-    "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
-    "pages/CAF (Cloud Adoption Framework).md",
-    "pages/AWS.md"
+    "journals/2022_10_17.md"
   ]
 }

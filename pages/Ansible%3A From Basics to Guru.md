@@ -129,9 +129,9 @@ tasks:
 - name: ...
 tasks:
 - set_fact:
-  my_var: my_value
+my_var: my_value
 - debug:
-  msg: The value is {{ my_var }}
+msg: The value is {{ my_var }}
 ```
 
 7. **vars_prompt** to sensitive info

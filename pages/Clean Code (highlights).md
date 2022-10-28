@@ -1,0 +1,87 @@
+title:: Clean Code (highlights)
+author:: [[Robert C. Martin]]
+full-title:: "Clean Code"
+category:: #books
+
+- ![](https://images-na.ssl-images-amazon.com/images/I/51d1qVhmAmL._SL200_.jpg)
+- Highlights first synced by [[Readwise]] [[Friday, 28-10-2022]]
+	- The 5S philosophy comprises these concepts: ([Location 356](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=356))
+	- “But wait!” you say. “If I don’t do what my manager says, I’ll be fired.” Probably not. Most managers want the truth, even when they don’t act like it. Most managers want good code, even when they are obsessing about the schedule. They may defend the schedule and requirements with passion; but that’s their job. It’s your job to defend the code with equal passion. ([Location 586](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=586))
+		- **Tags**: #[[pink]] #[[rosa]]
+	- You will not make the deadline by making the mess. Indeed, the mess will slow you down instantly, and will force you to miss the deadline. ([Location 599](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=599))
+		- **Tags**: #[[pink]] #[[rosa]]
+	- This “code-sense” is the key. Some of us are born with it. Some of us have to fight to acquire it. ([Location 607](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=607))
+		- **Tags**: #[[pink]] #[[rosa]]
+	- clean code does one thing well. ([Location 634](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=634))
+		- **Tags**: #[[pink]] #[[rosa]]
+	- Our code should be matter-of-fact as opposed to speculative. It should contain only what is necessary. ([Location 651](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=651))
+	- I also look at whether an object or method is doing more than one thing. If it’s an object, it probably needs to be broken into two or more objects. ([Location 687](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=687))
+		- **Tags**: #[[blue]] #[[azul]]
+	- There is no escape from this logic. You cannot write code if you cannot read the surrounding code. ([Location 762](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=762))
+		- **Tags**: #[[orange]] #[[naranja]]
+	- If a name requires a comment, then the name does not reveal its intent. ([Location 802](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=802))
+		- **Tags**: #[[blue]] #[[azul]]
+	- accounts would be better. ([Location 852](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=852))
+	- Calling it ShapeFactoryImp, ([Location 990](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=990))
+	- When constructors are overloaded, use static factory methods with names that describe the arguments. ([Location 1021](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1021))
+	- the blocks within if statements, else statements, while statements, and so on should be one line long. ([Location 1256](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1256))
+	- Passing a boolean into a function is a truly terrible practice. It immediately complicates the signature of the method, loudly proclaiming that this function does more than one thing. It does one thing if the flag is true and another if the flag is false! ([Location 1432](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1432))
+		- **Tags**: #[[blue]] #[[azul]]
+	- it is better to extract the bodies of the try and catch blocks out into functions of their own. ([Location 1597](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1597))
+		- **Tags**: #[[blue]] #[[azul]]
+	- Don’t Repeat Yourself13 ([Location 1629](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1629))
+	- I don’t write them that way to start. I don’t think anyone could. ([Location 1662](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1662))
+		- **Tags**: #[[blue]] #[[azul]]
+	- your real goal is to tell the story of the system, ([Location 1672](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1672))
+	- The proper use of comments is to compensate for our failure to express ourself in code. ([Location 1740](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1740))
+	- We know it’s a mess. So we say to ourselves, “Ooh, I’d better comment that!” No! You’d better clean it! ([Location 1766](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1766))
+	- The common convention in Java, however, is to put them all at the top of the class. ([Location 2420](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2420))
+		- **Tags**: #[[blue]] #[[azul]]
+	- Vertical Ordering ([Location 2491](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2491))
+		- **Tags**: #[[pink]] #[[rosa]]
+	- a function that is called should be below a function that does the calling. ([Location 2492](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2492))
+		- **Tags**: #[[pink]] #[[rosa]]
+	- Formatting Rules ([Location 2640](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2640))
+		- **Tags**: #[[blue]] #[[azul]]
+	- Why, then, do so many programmers automatically add getters and setters to their objects, exposing their private variables as if they were public? ([Location 2676](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2676))
+		- **Tags**: #[[blue]] #[[azul]]
+	- Data structure expose their data and have no meaningful functions. ([Location 2717](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2717))
+	- the area() method is polymorphic. No Geometry class is necessary. ([Location 2744](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2744))
+		- **Tags**: #[[blue]] #[[azul]]
+	- Procedural code (code using data structures) makes it easy to add new functions without changing the existing data structures. OO code, on the other hand, makes it easy to add new classes without changing existing functions. ([Location 2763](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2763))
+	- The Law of Demeter ([Location 2772](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2772))
+	- Chains of calls like this are generally considered to be sloppy style and should be avoided [G36]. It is usually best to split them up ([Location 2790](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2790))
+		- **Tags**: #[[blue]] #[[azul]]
+	- unfortunate hybrid structures that are half object and half data structure. They have functions that do significant things, and they also have either public variables or public accessors and mutators that, for all intents and purposes, make the private variables public, tempting other external functions to use those variables the way a procedural program would use a data structure.4 ([Location 2810](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2810))
+	- Somewhat more common is the “bean” form ([Location 2846](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2846))
+	- is better to throw an exception ([Location 2908](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2908))
+		- **Tags**: #[[blue]] #[[azul]]
+	- Map<Sensor> sensors = new HashMap<Sensor>();    …        Sensor s = sensors.get(sensorId ); ([Location 3177](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3177))
+		- **Tags**: #[[orange]] #[[naranja]]
+	- We manage third-party boundaries by having very few places in the code that refer to them. We may wrap them ([Location 3307](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3307))
+	- The Three Laws of TDD ([Location 3340](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3340))
+	- Readability is perhaps even more important in unit tests than it is in production code. ([Location 3388](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3388))
+	- F.I.R.S.T. ([Location 3589](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3589))
+	- a class should begin with a list of variables. Public static constants, if any, should come first. Then private static variables, followed by private instance variables. There is seldom a good reason to have a public variable. Public functions should follow the list of variables. We like to put the private utilities called by a public function right after the public function itself. ([Location 3620](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3620))
+		- **Tags**: #[[blue]] #[[azul]]
+	- If we cannot derive a concise name for a class, then it’s likely too large. ([Location 3692](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3692))
+		- **Tags**: #[[blue]] #[[azul]]
+	- Single Responsibility Principle ([Location 3700](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3700))
+	- Classes should have one responsibility—one reason to change. ([Location 3702](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3702))
+		- **Tags**: #[[blue]] #[[azul]]
+	- SRP is one of the more important concept in OO design. It’s also one of the simpler concepts to understand and adhere to. ([Location 3718](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3718))
+	- When cohesion is high, it means that the methods and variables of the class are co-dependent and hang together as a logical whole. ([Location 3739](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3739))
+	- If we promoted those four variables to instance variables of the class, then we could extract the code without passing any variables at all. ([Location 3761](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3761))
+		- **Tags**: #[[blue]] #[[azul]]
+	- One tiny step after another, the first program was cleaned up and transformed into the second. ([Location 3915](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3915))
+		- **Tags**: #[[orange]] #[[naranja]]
+	- abstract public class Sql { ([Location 3955](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3955))
+	- Open-Closed Principle, or OCP:4 Classes should be open for extension but closed for modification. ([Location 3984](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3984))
+	- Dependency Inversion Principle (DIP). ([Location 4026](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=4026))
+	- rules: • Runs all the tests • Contains no duplication • Expresses the intent of the programmer • Minimizes the number of classes and methods ([Location 4447](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=4447))
+	- Once we have tests, we are empowered to keep our code and classes clean. We do this by incrementally refactoring the code. ([Location 4463](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=4463))
+	- Duplication is the primary enemy of a well-designed system. ([Location 4469](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=4469))
+		- **Tags**: #[[blue]] #[[azul]]
+	- Once it’s “working,” they move on to the next task, leaving the “working” program in whatever state they finally got it to “work.” Most seasoned programmers know that this is professional suicide. ([Location 5083](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=5083))
+	- the solution is to continuously keep your code as clean and simple as it can be. Never let the rot get started. ([Location 6464](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=6464))
+		- **Tags**: #[[blue]] #[[azul]]

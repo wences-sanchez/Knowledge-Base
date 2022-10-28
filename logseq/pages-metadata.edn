@@ -241,10 +241,6 @@
  {:block/name "aws certified cloud practitioner by acg",
   :block/created-at 1665484163206,
   :block/updated-at 1666279231160}
- {:block/name
-  "aws certified cloud practitioner exam guide (highlights)",
-  :block/created-at 1666891588952,
-  :block/updated-at 1666891589664}
  {:block/name "aws elastic beanstalk",
   :block/created-at 1665138467036,
   :block/updated-at 1665138467036}
@@ -884,6 +880,9 @@
  {:block/name "friday, 26-08-2022",
   :block/created-at 1665484159825,
   :block/updated-at 1665484159825}
+ {:block/name "friday, 28-10-2022",
+  :block/created-at 1666947447952,
+  :block/updated-at 1666947447952}
  {:block/name "friday, 30-09-2022",
   :block/created-at 1665484158900,
   :block/updated-at 1665484158900}

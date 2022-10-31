@@ -16,6 +16,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [Figure 5.10](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/05fig10_alt.jpg) #flashcard
+			  id:: 635faaa8-29c6-499a-a63a-f1f46612f8b7
 				- Figure 5.10 shows how the client connected to one of the pods through the Ingress controller. The client first performed a DNS lookup of kubia.example.com, and the DNS server (or the local operating system) returned the IP of the Ingress controller. The client then sent an HTTP request to the Ingress controller and specified kubia.example.com in the Host header. From that header, the controller determined which service the client is trying to access, looked up the pod IPs through the Endpoints object associated with the service, and forwarded the client’s request to one of the pods.
 		- -
 		- -
@@ -95,6 +96,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- By this point, you’re probably wondering how exactly containers can isolate processes if they’re running on the same operating system. Two mechanisms make this possible. The first one, Linux Namespaces, makes sure each process sees its own personal view of the system (files, processes, network interfaces, hostname, and so on). The second one is Linux Control Groups (cgroups), which limit the amount of resources the process can consume (CPU, memory, network bandwidth, and so on). #flashcard
+			  id:: 635faaa8-b73c-415e-b58c-5f979567d52d
 		- -
 		- -
 			- What is an image in Docker? #flashcard
@@ -229,6 +231,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Parts of a pod definition #flashcard
+			  id:: 635faaa8-6022-4997-a305-9c99373c53bd
 				- The pod definition consists of a few parts. First, there’s the Kubernetes API version used in the YAML and the type of resource the YAML is describing. Then, three important sections are found in almost all Kubernetes resources:
 				  
 				  Metadata includes the name, namespace, labels, and other information about the pod.

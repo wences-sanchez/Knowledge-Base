@@ -28,6 +28,7 @@ category:: #books
 	- -
 	- -
 		- We both started working on agile teams at the turn of the millennium. Like a lot of testers who are new to agile, we didn’t know what to expect at first. #flashcard
+		  id:: 635faa4e-158f-4d44-84b3-5d582c499d80
 		- ([Location 1252](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1252))
 	- -
 	- -
@@ -37,6 +38,7 @@ category:: #books
 	- -
 	- -
 		- I learned that my job was to help the customers tell us what was valuable to them during each iteration, and to write tests to ensure that’s what they got. #flashcard
+		  id:: 635faa4e-ace4-4248-9c5e-dfe4017a7b4f
 		- ([Location 1293](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1293))
 	- -
 	- -
@@ -46,6 +48,7 @@ category:: #books
 	- -
 	- -
 		- With the automation of the tedious, low-level boundary condition test cases, Janet as a tester was now free to focus on much greater value-add areas like exploratory testing, usability, and testing the app in ways developers hadn’t originally anticipated. #flashcard
+		  id:: 635faa4e-106a-4854-868a-a6cbc4140f63
 		- ([Location 1319](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1319))
 	- -
 	- -
@@ -55,6 +58,7 @@ category:: #books
 	- -
 	- -
 		- Agile is iterative and incremental. This means that the testers test each increment of coding as soon as it is finished. #flashcard
+		  id:: 635faa4e-58d9-4d11-b5ad-625899cb55b0
 		- ([Location 1337](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1337))
 	- -
 	- -
@@ -79,10 +83,12 @@ category:: #books
 	- -
 	- -
 		- Most importantly, on an agile team, anyone can ask for and receive help. #flashcard
+		  id:: 635faa4e-ad97-4103-8bb0-bdf0de95a4c8
 		- ([Location 1397](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1397))
 	- -
 	- -
 		- Some folks who are new to agile perceive it as all about speed. The fact is, it’s all about quality—and if it’s not, we question whether it’s really an “agile” team. #flashcard
+		  id:: 635faa4e-99ab-43dc-ad84-0fda2d0c7f45
 		- ([Location 1398](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1398))
 	- -
 	- -
@@ -92,10 +98,12 @@ category:: #books
 	- -
 	- -
 		- We define an agile tester this way: a professional tester who embraces change, collaborates well with both technical and business people, and understands the concept of using tests to document requirements and drive development. #flashcard
+		  id:: 635faa4e-245c-4cdd-a9c2-97c2ec155d37
 		- ([Location 1422](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1422))
 	- -
 	- -
 		- “Without the attitude, the skill is nothing.” #flashcard
+		  id:: 635faa4e-25be-4031-87f9-6f3f62db62df
 		- ([Location 1430](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1430))
 	- -
 	- -
@@ -138,5 +146,6 @@ category:: #books
 	- -
 	- -
 		- In release planning, we talk about the purpose of the release, what’s in scope, and what assumptions we’re making. We do some quick risk analysis and plan our test approach to address those risks. We consider automation and what we need for test environments and test data. We certainly want to identify milestones and deliverables. Hmmm, this is starting to sound like . . . a test plan! #flashcard
+		  id:: 635faa4e-616a-40a7-84a8-99e8efd10a18
 		- ([Location 7668](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=7668))
 	- -

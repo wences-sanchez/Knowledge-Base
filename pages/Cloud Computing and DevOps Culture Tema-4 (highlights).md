@@ -15,6 +15,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Imitación o emulación del hardware En  este  caso,  el  software  de  virtualización  (denominado  hipervisor)  crea  una máquina virtual que imita todo el entorno de hardware.El sistema operativo,que está cargadoen una máquina virtual,es un producto estándar no modificado. Cuando realiza  llamadas  para  recursos del  sistema,  el  software  de  emulación de  hardware captura la llamada del sistema y la redirige para que pueda gestionar estructuras de datos  proporcionadas  por  el  hipervisor.  Es  el  propio  hipervisor  el  que  realiza  las llamadas al hardware físico real, subyacente a toda la aglomeración de software. #flashcard
+		  id:: 635faa3c-e1f5-4c2d-9b82-255d2205fa9d
 		- (Page 5)
 	- -
 	- -
@@ -24,6 +25,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- La paravirtualización no intenta emular un entorno de hardware en software, sino que  un  hipervisor  de  paravirtualización  coordina  (o  multiplexa)  el  acceso  a  los recursos  de  hardware  subyacentes  del  servidor. #flashcard
+		  id:: 635faa3c-7b10-463e-84a6-cb745992c802
 		- (Page 6)
 	- -
 	- -
@@ -33,10 +35,12 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- VMware,  Citrix  y  Microsoft  son  los  principales  proveedores  de  virtualización  de servidores  x86  en  entornos  profesionales #flashcard
+		  id:: 635faa3c-7ddb-46c3-aa23-1b718e42ad52
 		- (Page 7)
 	- -
 	- -
 		-   VMware:  es  el  proveedor  de  virtualización  de  servidores  más  extendido  y afianzado  en  el  mercado.  La  plataforma  insignia  de  VMware,  vSphere, utiliza  la tecnología de emulación de hardware.   Citrix:  ofrece  un  producto  de  virtualización  de  servidor,  llamado  XenServer, basado en paravirtualización. El huésped privilegiado (llamado control domain en lenguaje  Xen)  y  el  hipervisor  Xen  trabajan  en  equipo  para  permitir  que  las máquinas virtuales huésped interactúen con el hardware subyacente.   Microsoft: Hyper-V, el producto de virtualización del servidor de Microsoft, tiene una  arquitectura  muy  similar  a  la  de  Xen.  En  lugar  de  usar  el  término  control domain para referirse a las máquinas virtuales huésped, Hyper-V se refiere a ellas como  particiones  y  a  la  contraparte  del  control  domain  de  Xen  se  la  denomina partición principal. #flashcard
+		  id:: 635faa3c-eccd-42d9-bc40-23319c60be78
 		- (Page 7)
 	- -
 	- -
@@ -46,6 +50,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Hipervisor tipo 2. Los hipervisores se ejecutan en un sistema operativo host que proporciona servicios de virtualización, como soporte de dispositivos de E/S y administración de memoria. #flashcard
+		  id:: 635faa3c-3818-46fe-868c-2a85f75b08f8
 			- Hay  dos  tipos  de hipervisores:   Hipervisor de tipo 1. Los hipervisores se ejecutan directamente en el hardware del sistema: un hipervisor integrado «básico».
 		- (Page 7)
 	- -
@@ -74,11 +79,13 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- CONTINUE #flashcard
+		  id:: 635faa3c-ce8e-4b6e-a7d0-0248b172494b
 			- VMware Workstation tiene tres casos de uso principales:   Para ejecutar múltiples sistemas operativos.   Para ejecutar versiones diferentes de un sistema operativo en un escritorio.   Para desarrolladores que necesitan entornos de  sandbox e instantáneas, o para laboratorios y con fines de demostración. Servidor VMware Microsoft Virtual PC Oracle VM VirtualBox VMware Server es un hipervisor de virtualización alojado gratuito que es muy similar a VMware Workstation. VMware ha detenido el desarrollo en el servidor desde 2009. Esta  es  la  última  versión  de  Microsoft  de  esta  tecnología  de  hipervisor,  Windows Virtual  PC  y  solo  se  ejecuta  en  Windows  7  y  solo  es  compatible  con  los  sistemas operativos Windows que se ejecutan en él. La tecnología de hipervisor VirtualBox proporciona un rendimiento y características razonables  si  desea  virtualizar  con  un  presupuesto  limitado.  A  pesar  de  ser  un producto alojado gratuito con una huella muy pequeña, VirtualBox comparte muchas características con VMware vSphere y Microsoft Hyper-V.
 		- (Page 10)
 	- -
 	- -
 		- -V. La máquina virtual basada en el kernel (en siglas, KVM) de Red Hattiene cualidades tanto  de  un  hipervisor  de  virtualización  alojado  como  virtual.  Puede  convertir  el núcleo  de  Linux  en  un  hipervisor  para  que  las  máquinas  virtuales  tengan  acceso directo al hardware físico #flashcard
+		  id:: 635faa3c-9722-460c-afed-7e5e2f84d3f8
 		- (Page 10)
 	- -
 	- -
@@ -107,6 +114,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Como  es  de  esperar,  la  virtualización  también  se  ha trasladado a la red y, en lugar de realizar cambios en la red moviendo cables entre diferentes  recursos  físicos,  la  tecnología  de  virtualización  se  aplica  a  la  red  en  sí misma. lógicamente. La virtualización de red permite que la red se configure sobre la marcha, sin necesidad de tocar ni un solo cable o dispositivo. Por tanto, los dispositivos de red con capacidad de  virtualización  se  administran  de  forma  remota  y  se  pueden  reconfigurar #flashcard
+		  id:: 635faa3c-fe60-48b9-8d1e-813a5fd49d8c
 		- (Page 14)
 	- -
 	- -
@@ -116,10 +124,12 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- qué sucede con nuestra aplicación favorita que ejecutamos a diario en nuestro ordenador. ¿Desaparecería con la virtualización de escritorio? La respuesta es no. Los datos y configuraciones se pueden guardar por separado y se aplican a la imagen clonada, para garantizar que cada usuario tenga sus aplicaciones y datos listos para cuando abra su escritorio. #flashcard
+		  id:: 635faa3c-08f0-4b4f-9c62-8576176c5198
 		- (Page 16)
 	- -
 	- -
 		- ¿Qué es el streaming de escritorio, o check-in check-out? #flashcard
+		  id:: 635faa3c-6d09-4027-b0f0-80ab77c3f9a6
 			- Cuando finaliza la sesión, el usuario apaga el sistema y la imagen del ordenador se escribe en el repositorio central y no queda nada en el hardware del usuario.
 		- (Page 17)
 	- -

@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- The 5S philosophy comprises these concepts: #flashcard
+		  id:: 635faa3a-6d2e-4c6d-b93c-fd8050aae9c0
 		- ([Location 356](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=356))
 	- -
 	- -
@@ -18,6 +19,7 @@ category:: #books
 	- -
 	- -
 		- You will not make the deadline by making the mess. Indeed, the mess will slow you down instantly, and will force you to miss the deadline. #flashcard
+		  id:: 635faa3a-0715-4b6d-a345-f8da477f882d
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 599](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=599))
 	- -
@@ -29,25 +31,30 @@ category:: #books
 	- -
 	- -
 		- clean code does one thing well. #flashcard
+		  id:: 635faa3a-0a13-4193-bf01-d602c4ffabc4
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 634](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=634))
 	- -
 	- -
 		- Our code should be matter-of-fact as opposed to speculative. It should contain only what is necessary. #flashcard
+		  id:: 635faa3a-f570-4add-8ec3-64642c91865d
 		- ([Location 651](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=651))
 	- -
 	- -
 		- I also look at whether an object or method is doing more than one thing. If it’s an object, it probably needs to be broken into two or more objects. #flashcard
+		  id:: 635faa3a-4649-4308-92c3-d4996c828706
 		- tags:: [[blue]] [[azul]]
 		- ([Location 687](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=687))
 	- -
 	- -
 		- There is no escape from this logic. You cannot write code if you cannot read the surrounding code. #flashcard
+		  id:: 635faa3a-510a-4033-a1da-18f1ac2a0bd2
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 762](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=762))
 	- -
 	- -
 		- If a name requires a comment, then the name does not reveal its intent. #flashcard
+		  id:: 635faa3a-3a46-4a10-9000-20da9c083e05
 		- tags:: [[blue]] [[azul]]
 		- ([Location 802](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=802))
 	- -
@@ -58,6 +65,7 @@ category:: #books
 	- -
 	- -
 		- Calling it ShapeFactoryImp, #flashcard
+		  id:: 635faa3a-c3da-4895-9251-7ea3cc1ab0ff
 		- ([Location 990](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=990))
 	- -
 	- -
@@ -72,11 +80,13 @@ category:: #books
 	- -
 	- -
 		- Passing a boolean into a function is a truly terrible practice. It immediately complicates the signature of the method, loudly proclaiming that this function does more than one thing. It does one thing if the flag is true and another if the flag is false! #flashcard
+		  id:: 635faa3a-7268-4b2c-9fad-a4febcbb791a
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1432](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1432))
 	- -
 	- -
 		- it is better to extract the bodies of the try and catch blocks out into functions of their own. #flashcard
+		  id:: 635faa3a-f774-42a5-a933-0a18dcba84ba
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1597](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1597))
 	- -
@@ -138,10 +148,12 @@ category:: #books
 	- -
 	- -
 		- Data structure expose their data and have no meaningful functions. #flashcard
+		  id:: 635faa3a-5162-4e4f-81e3-b42a5b304e66
 		- ([Location 2717](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2717))
 	- -
 	- -
 		- the area() method is polymorphic. No Geometry class is necessary. #flashcard
+		  id:: 635faa3a-e745-4f12-b1d3-2d764206c5a4
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2744](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2744))
 	- -
@@ -152,6 +164,7 @@ category:: #books
 	- -
 	- -
 		- The Law of Demeter #flashcard
+		  id:: 635faa3a-ea09-49c8-839f-bafd4026f98f
 		- ([Location 2772](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2772))
 	- -
 	- -
@@ -162,10 +175,12 @@ category:: #books
 	- -
 	- -
 		- unfortunate hybrid structures that are half object and half data structure. They have functions that do significant things, and they also have either public variables or public accessors and mutators that, for all intents and purposes, make the private variables public, tempting other external functions to use those variables the way a procedural program would use a data structure.4 #flashcard
+		  id:: 635faa3a-1512-4fff-9ba1-2be9a269fda5
 		- ([Location 2810](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2810))
 	- -
 	- -
 		- Somewhat more common is the “bean” form #flashcard
+		  id:: 635faa3a-0362-4ae3-90e2-7959e26348c4
 		- ([Location 2846](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2846))
 	- -
 	- -
@@ -182,6 +197,7 @@ category:: #books
 	- -
 	- -
 		- We manage third-party boundaries by having very few places in the code that refer to them. We may wrap them #flashcard
+		  id:: 635faa3a-47f2-4c9f-b6a6-07a471292bb0
 		- ([Location 3307](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3307))
 	- -
 	- -
@@ -191,10 +207,12 @@ category:: #books
 	- -
 	- -
 		- Readability is perhaps even more important in unit tests than it is in production code. #flashcard
+		  id:: 635faa3a-25bf-4ff9-9d0c-bc1b6d65d061
 		- ([Location 3388](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3388))
 	- -
 	- -
 		- F.I.R.S.T. #flashcard
+		  id:: 635faa3a-00ec-4db2-9740-50cf7e167b17
 		- ([Location 3589](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3589))
 	- -
 	- -
@@ -205,11 +223,13 @@ category:: #books
 	- -
 	- -
 		- If we cannot derive a concise name for a class, then it’s likely too large. #flashcard
+		  id:: 635faa3a-67a9-4a66-80d9-3cf75f70e34f
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3692](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3692))
 	- -
 	- -
 		- Single Responsibility Principle #flashcard
+		  id:: 635faa3a-2b7c-4cae-900a-4b38b0379828
 		- ([Location 3700](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3700))
 	- -
 	- -
@@ -225,6 +245,7 @@ category:: #books
 	- -
 	- -
 		- When cohesion is high, it means that the methods and variables of the class are co-dependent and hang together as a logical whole. #flashcard
+		  id:: 635faa3a-ead9-4504-b63c-568d3b29db50
 		- ([Location 3739](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3739))
 	- -
 	- -
@@ -241,6 +262,7 @@ category:: #books
 	- -
 	- -
 		- abstract public class Sql { #flashcard
+		  id:: 635faa3a-ad41-41f0-b775-a5fe88d43e52
 		- ([Location 3955](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3955))
 	- -
 	- -
@@ -260,10 +282,12 @@ category:: #books
 	- -
 	- -
 		- Once we have tests, we are empowered to keep our code and classes clean. We do this by incrementally refactoring the code. #flashcard
+		  id:: 635faa3a-f4d7-4127-8b19-9cd421ae3ac4
 		- ([Location 4463](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=4463))
 	- -
 	- -
 		- Duplication is the primary enemy of a well-designed system. #flashcard
+		  id:: 635faa3a-a660-4c86-b8c1-edaeac34334b
 		- tags:: [[blue]] [[azul]]
 		- ([Location 4469](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=4469))
 	- -

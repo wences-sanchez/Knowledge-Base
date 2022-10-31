@@ -104,6 +104,7 @@ category:: #books
 	- -
 	- -
 		- A website is the set of web pages that usually live in the same server and are related to each other. #flashcard
+		  id:: 635faaac-f3da-4256-9f3e-0989e7a31197
 		- tags:: [[blue]] [[azul]]
 		- ([Location 644](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=644))
 	- -
@@ -115,6 +116,7 @@ category:: #books
 	- -
 	- -
 		- A server is a remote machine that receives requests from a client, processes them, and generates a response. This response will go back to the client, generally rendered by the browser in order to display it to the user. #flashcard
+		  id:: 635faaac-3125-487b-825e-cc1137073e94
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 646](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=646))
 	- -
@@ -132,6 +134,7 @@ category:: #books
 	- -
 	- -
 		- Different ways of including JS You might notice that we included the CSS file reference at the end of the <head> section and JS at the end of <body>. You can actually include JS in both the <head> and the <body>; just bear in mind that the script will be executed as soon as it is included. If your script references fields that are not yet defined or other JS files that will be included later, JS will fail. #flashcard
+		  id:: 635faaac-8742-40c9-bd5f-3c989a3a3a12
 		- ([Location 684](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=684))
 	- -
 	- -
@@ -285,6 +288,7 @@ category:: #books
 	- -
 	- -
 		- substr: This function extracts the string contained between the positions specified by parameters, with the first character being at position 0. #flashcard
+		  id:: 635faaac-e714-4a45-bedc-57633691d588
 		- tags:: [[blue]] [[azul]]
 		- ([Location 964](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=964))
 	- -
@@ -411,6 +415,7 @@ category:: #books
 	- -
 	- -
 		- we can merge two or more arrays into one with array_merge: #flashcard
+		  id:: 635faaab-0c06-4545-9bdc-03d8ea050fc8
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1131](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1131))
 	- -
@@ -432,6 +437,7 @@ category:: #books
 	- -
 	- -
 		- <?php if ($submitted): ?> #flashcard
+		  id:: 635faaab-ed98-4fe1-a491-caad3a6cdb07
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1293](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1293))
 	- -
@@ -467,6 +473,7 @@ category:: #books
 	- -
 	- -
 		- PHP does not support overloaded functions. #flashcard
+		  id:: 635faaab-1316-4133-9746-acaceabfb830
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 1416](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1416))
 	- -
@@ -489,6 +496,7 @@ category:: #books
 	- -
 	- -
 		- Usually, when someone uses a function, they expect a result, and they do not want the arguments provided by them to be modified. So try to avoid it; people will be grateful! #flashcard
+		  id:: 635faaab-52af-4bcb-b14f-0d0c7b5dacf5
 		- ([Location 1449](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1449))
 	- -
 	- -
@@ -517,11 +525,13 @@ category:: #books
 	- -
 	- -
 		- public function __construct(int $isbn, string $title, string $author, int $available) { #flashcard
+		  id:: 635faaab-e9b8-49ab-8925-c8b78983dbd0
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1665](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1665))
 	- -
 	- -
 		- __toString: This method is invoked when we try to cast an object to a string. #flashcard
+		  id:: 635faaab-08cf-4bd6-8c73-8a749e97cb34
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1687](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1687))
 	- -

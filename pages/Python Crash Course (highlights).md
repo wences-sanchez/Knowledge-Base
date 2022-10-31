@@ -13,13 +13,16 @@ tags:: O'Reilly-Learning Python
 	- 11 TESTING YOUR CODE
 		- -
 			- Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message. #flashcard
+			  id:: 635faa3b-b218-4925-855c-15bacf4c509b
 		- -
 		- -
 			- Show the last item of the list bicycles. #flashcard
+			  id:: 635faa3b-63a7-4856-a1cd-775e568a83c8
 				- print(bicycles[-1])
 		- -
 		- -
 			- Remove the last item of the list motorcycles, 
+			  id:: 635faa3b-b90c-44bc-a53d-9ee73ac24d86
 			  then show the resultant list, 
 			  then show the removed object
 			  [call it removed_item] #flashcard
@@ -34,10 +37,12 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Steps to create tests in Python #flashcard
+			  id:: 635faa3b-a392-4c89-a4d8-087342c3be62
 				- To write a test case for a function, import the unittest module and the function you want to test. Then create a class that inherits from unittest.TestCase, and write a series of methods to test
 		- -
 		- -
 			- universe_age = 14_000_000_000 #flashcard
+			  id:: 635faa3b-d371-4712-b5fe-f18d7d88d816
 		- -
 		- -
 			- Sometimes you won’t know the position of the value you want to remove from a list. If you only know the value of the item you want to remove, you can use the remove() method. #flashcard
@@ -60,6 +65,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- 'Steal' the element with value 'ducati' from the motorcycles list #flashcard
+			  id:: 635faa3b-9fa2-4389-ba44-87aa9b1f9243
 				- motorcycles.remove('ducati')
 		- -
 		- -
@@ -68,10 +74,12 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Add 'ducati' at the end of the list motorcycles #flashcard
+			  id:: 635faa3b-4a82-46b1-96ef-a776fd4fd69f
 				- motorcycles.append('ducati')
 		- -
 		- -
 			- 'Steal' the element with content 'ducati' from the motorcycles list.
+			  id:: 635faa3b-9ec7-4bdc-8468-9ae57b2c0551
 			  [Use the already defined variable named my_brand for this task] #flashcard
 				- motorcycles.remove(too_expensive)
 		- -
@@ -82,6 +90,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- How would you define a constructor of a child class in Python? #flashcard
+			  id:: 635faa3b-5f58-4fef-a0c3-60007d7c2b97
 				- def __init__(self, make, model, year):
 				           """Initialize attributes of the parent class."""
 				  ➍         super().__init__(make, model, year)
@@ -111,6 +120,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Order alphabetically a list named cars. Make this change permanent. #flashcard
+			  id:: 635faa3b-27b1-4c86-8713-cb6854139411
 				- cars.sort()
 		- -
 		- -
@@ -124,13 +134,16 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Order alphabetically inversed a list named cars. Make this change permanent. #flashcard
+			  id:: 635faa3b-9b0d-44fe-b95f-3f7f404aec8a
 				- cars.sort(reverse=True)
 		- -
 		- -
 			- To maintain the original order of a list but present it in a sorted order, you can use the #flashcard
+			  id:: 635faa3b-b4e4-4354-bdff-b76768efc865
 		- -
 		- -
 			- F-strings were first introduced in Python 3.6 #flashcard
+			  id:: 635faa3b-d7a1-4e1d-aca3-c51751b6105c
 		- -
 		- -
 			- Show an alphabetically ordered list named cars. Make this change temporal. #flashcard
@@ -139,16 +152,20 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Sometimes you won't know the position of the value you want to remove from a list. If you only know the value of the item you want to remove, you can use the #flashcard
+			  id:: 635faa3b-8a19-4965-983e-e2f5cf6fdcb8
 		- -
 		- -
 			- Python programmers use all capital letters to indicate a variable should be treated as a constant and never be changed #flashcard
+			  id:: 635faa3b-42a0-4c2a-9cb1-25d8e49ea818
 		- -
 		- -
 			- Make the order of the list cars inverse. #flashcard
+			  id:: 635faa3b-e3f1-421e-90e2-0c4512879fb3
 				- cars.reverse()
 		- -
 		- -
 			- Is it possible to reassign a tuple's content? #flashcard
+			  id:: 635faa3b-28c9-4ad0-80c4-29352be13d16
 				- Although you can't modify a tuple, you can assign a new value to a variable that represents a tuple.
 		- -
 		- -
@@ -163,6 +180,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- A tuple looks just like a list except you use parentheses instead of square brackets. Once you define a tuple, you can access individual elements by using each item's index, just as you would for a list. #flashcard
+			  id:: 635faa3b-6e29-48ef-97c7-514bc6b6c3ef
 		- -
 		- -
 			- Python has a special syntax for accessing the last element in a list. By asking for the item at index -1, Python always returns the last item in the list: #flashcard
@@ -170,10 +188,12 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Show in a slice the first three items of the list players. #flashcard
+			  id:: 635faa3b-27e1-43f0-ac11-b5c6aa0e86c5
 				- print(players[0:3])
 		- -
 		- -
 			- Copy the list my_foods to the list friend_foods without affectations. #flashcard
+			  id:: 635faa3b-d337-4fa2-b7aa-7a67b2bf3b96
 				- friend_foods = my_foods[:]
 		- -
 		- -
@@ -188,6 +208,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Show in a slice the second, third and fourth items of the list players #flashcard
+			  id:: 635faa3b-3cd1-4925-95eb-4d2f02cbb133
 				- print(players[1:4])
 		- -
 		- -
@@ -205,6 +226,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Another way of access to an element in a dict instead of indexes in square brackets #flashcard
+			  id:: 635faa3b-7e7b-4370-b8be-01af78f104a5
 				- For dictionaries, specifically, you can use the get() method to set a default value that will be returned if the requested key doesn’t exist.
 		- -
 		- -
@@ -213,6 +235,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- keep in mind when writing your own for loops that you can choose any name you want for the temporary variable that will be associated with each value in the list. However, it’s helpful to choose a meaningful name that represents a single item from the list. #flashcard
+			  id:: 635faa3b-3bd7-4074-af65-cd4f262a50fe
 		- -
 		- -
 			- How can you split a string in multiple lines? #flashcard
@@ -226,6 +249,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Using singular and plural names can help you identify whether a section of code is working with a single element from the list or the entire list. #flashcard
+			  id:: 635faa3b-1eb0-4f2e-86a6-3ba952abccbb
 		- -
 		- -
 			- If you omit the first index in a slice, Python automatically starts your slice at the beginning of the list: #flashcard
@@ -233,6 +257,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- You can avoid unexpected indentation errors by indenting only when you have a specific reason to do so. #flashcard
+			  id:: 635faa3b-9db0-4a07-8528-789826e35350
 		- -
 	- 6 DICTIONARIES
 		- -
@@ -253,6 +278,7 @@ tags:: O'Reilly-Learning Python
 	- 8 FUNCTIONS
 		- -
 			- A tuple looks just like a list except you use parentheses instead of square brackets. Once you define a tuple, you can access individual elements by using each item’s index, just as you would for a list. #flashcard
+			  id:: 635faa3b-3ace-4e8c-948a-2cd008ca216d
 		- -
 		- -
 			- How should I use the import's in Python? #flashcard
@@ -266,6 +292,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- The keyword with closes the file once access to it is no longer needed. #flashcard
+			  id:: 635faa3b-dcf4-4d9b-802a-b3d97e00d37c
 		- -
 		- -
 			- u'll often want to run through all entries in a list, performing the same task with each item. For example, in a game you might want to move every element on the screen by the same amount, or in a list of numbers you might want to perform the same statistic #flashcard
@@ -283,16 +310,19 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- How should I use the import's in Python? #flashcard
+			  id:: 635faa3b-8245-4bca-980f-034dc9b9390f
 				- The best approach is to import the function or functions you want, or import the entire module and use the dot notation. This leads to clear code that’s easy to read and understand.
 		- -
 		- -
 			- Build a dict named alien_0 with:
+			  id:: 635faa3b-66f5-446c-bf8a-da5c34a11999
 			  color ---> green
 			  points ---> 50 #flashcard
 				- alien_0 = {'color': 'green', 'points': 5}
 		- -
 		- -
 			- Add a new key-value entry to an existing dict in Python.
+			  id:: 635faa3b-fdfd-41f2-b111-527c12af5282
 			  Values x-0, y-25.
 			  
 			  BEFORE:
@@ -307,6 +337,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Access to a dict but printing a message in case of error.
+			  id:: 635faa3b-80fe-4e16-a0f5-d9da9bb746b3
 			  dict: my_map
 			  key: ‘point’
 			  Message: ‘unassigned’
@@ -315,6 +346,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Loop over dict user_0 with its separate parts #flashcard
+			  id:: 635faa3b-ee6e-46e7-8fc0-39f3679ea7ce
 				- for key, value in user_0.items():
 		- -
 		- -
@@ -325,10 +357,12 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Tell another use of keys() in Python aside looping #flashcard
+			  id:: 635faa3b-f141-4e37-9c5d-8440720f2136
 				- The keys() method isn’t just for looping: it actually returns a list of all the keys, and the line at ➊ simply checks if 'erin' is in this list.
 		- -
 		- -
 			- Iterate over the content of a dict fav_langs on a loop {key: content} #flashcard
+			  id:: 635faa3b-8825-4f35-b71d-bb64f8b61ee0
 				- for language in favorite_languages.values():
 		- -
 		- -
@@ -339,10 +373,12 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Repeat a message ‘me’ 30 times in Python. #flashcard
+			  id:: 635faa3b-fbcc-42a6-a556-10dbd494e06b
 				- for alien_number in range(30):
 		- -
 		- -
 			- What are the differences between:
+			  id:: 635faa3b-8650-4767-9be3-a53f20fafa47
 			  
 			  describe_pet(animal_type='hamster', pet_name='harry')
 			  
@@ -370,6 +406,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Can you pass infinite key-value entries to a function in Python? #flashcard
+			  id:: 635faa3b-256a-438c-9e27-6e4c8a487a73
 				- def build_profile(first, last, **user_info):
 				       """Build a dictionary containing everything we know about a user."""
 				  ➊     user_info['first_name'] = first
@@ -378,10 +415,12 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Bring the module ‘pizza’ into your scope to use pizza.make_pizza() #flashcard
+			  id:: 635faa3b-0230-4665-b5ff-66d4a873a0cb
 				- import pizza
 		- -
 		- -
 			- Bring the module ‘pizza’ into your scope to use ONLY pizza.make_pizza().
+			  id:: 635faa3b-d7cd-4c46-bd61-349b92fa7f8d
 			  
 			  Use it. #flashcard
 				- from pizza import make_pizza
@@ -410,6 +449,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Define a method in Python #flashcard
+			  id:: 635faa3b-dab2-4637-8b02-c0945cf94129
 				- def sit(self):
 				           """Simulate a dog sitting in response to a command."""
 				           print(f"{self.name} is now sitting.")
@@ -420,26 +460,31 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- How do you call a base class' constructor from the subclass? #flashcard
+			  id:: 635faa3b-dcf7-4dfc-91f8-cd046843ace3
 				- def __init__(self, make, model, year):
 				           """Initialize attributes of the parent class."""
 				  ➍         super().__init__(make, model, year)
 		- -
 		- -
 			- How do you read a text file? #flashcard
+			  id:: 635faa3b-b76b-4610-abb2-65be56cc7b16
 				- with open('pi_digits.txt') as file_object:
 				    contents = file_object.read()
 				  print(contents)
 		- -
 		- -
 			- Should I close a file in Python or not? #flashcard
+			  id:: 635faa3b-553d-4e6b-8e6c-6145d6ca9f1a
 				- Notice how we call open() in this program but not close(). You could open and close the file by calling open() and close(), but if a bug in your program prevents the close() method from being executed, the file may never close. This may seem trivial, but improperly closed files can cause data to be lost or corrupted. And if you call close() too early in your program, you’ll find yourself trying to work with a closed file (a file you can’t access), which leads to more errors. It’s not always easy to know exactly when you should close a file, but with the structure shown here, Python will figure that out for you. All you have to do is open the file and work with it as desired, trusting that Python will close it automatically when the with block finishes execution.
 		- -
 		- -
 			- Forward slashes OR backslashes in Python? #flashcard
+			  id:: 635faa3b-997f-4195-bb39-fa1caaf4da8a
 				- Windows systems use a backslash (\) instead of a forward slash (/) when displaying file paths, but you can still use forward slashes in your code.
 		- -
 		- -
 			- Example to read a file line by line #flashcard
+			  id:: 635faa3b-f24d-4303-bbc5-cfb999bf92d7
 				- filename = 'pi_digits.txt'
 				  
 				  ➋ with open(filename) as file_object:
@@ -448,6 +493,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Write some text in a file in Python. #flashcard
+			  id:: 635faa3b-815f-4596-9f63-0843810c5c69
 				- filename = 'programming.txt'
 				  
 				  ➊ with open(filename, 'w') as file_object:
@@ -455,14 +501,17 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Different file modes in Python. #flashcard
+			  id:: 635faa3b-5549-4623-88df-8d0e14d5fb0f
 				- You can open a file in read mode ('r'), write mode ('w'), append mode ('a'), or a mode that allows you to read and write to the file ('r+'). If you omit the mode argument, Python opens the file in read-only mode by default.
 		- -
 		- -
 			- What does ‘else’ mean in a Exception? #flashcard
+			  id:: 635faa3b-14c8-4fcd-9f8d-91c00c646047
 				- Any code that depends on the try block succeeding is added to the else block. In this case if the division operation is successful, we use the else block to print the result
 		- -
 		- -
 			- Example of exception in Python #flashcard
+			  id:: 635faa3b-3056-4c2d-8d28-4ad9a3d3d61e
 				- try:
 				           answer = int(first_number) / int(second_number)
 				  ➋     except ZeroDivisionError:

@@ -33,6 +33,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- los  módulos  son  colecciones  portables  y reutilizables, que permiten encapsular las configuraciones y compartirlas. Puppet  Forge  es  el  repositorio  que  proporciona  Puppet  para  tal  fin,  en  el  que podremos encontrar miles de módulos compartidos por desarrolladores de Puppet y por la propia comunidad. Todos estos módulos están disponibles para  descargar e instalar en nuestro entorno Puppet y aprovechar sus funcionalidades. También  puedes  compartir  en  Puppet  Forge  tus  propios  módulos,  sobre  los  que podrás recibir contribuciones, y podrás mantener y liberar versiones sucesivas. #flashcard
+		  id:: 635faaa9-a142-4297-b4c1-68486de4fc3c
 		- (Page 12)
 	- -
 	- -
@@ -42,6 +43,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- CONTINUE #flashcard
+		  id:: 635faaa9-afe4-4843-9fbe-b1f147134601
 			- mode => 0440, source =>"puppet://$servidorpuppet/modules/sudo/etc/sudoers", require => Package["sudo"], } }
 		- (Page 13)
 	- -

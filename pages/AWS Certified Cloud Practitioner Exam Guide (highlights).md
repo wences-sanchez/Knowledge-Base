@@ -393,6 +393,7 @@ tags:: AWS O'Reilly-Learning
 			- **Items**: Items are like records in Amazon RDS databases. A table can have one or more items, and each item will be a unique combination of attributes that define that item. Items can be up to 400 KB in size and can contain key-value pairs called attributes.
 			-
 			- **Attributes**: An attribute is like a column heading or a field in an Amazon RDS database. Attributes help define the items in your table. So, in a Customers Table, the attributes could be First-Name or Last-Name and so on. #flashcard
+			  id:: 635fb4ae-15b3-4acb-9d3b-9bcb35e236aa
 		- -
 		- -
 			- {{cloze Amazon Neptune}} is a fully managed graph database service and a type of NoSQL database. #flashcard

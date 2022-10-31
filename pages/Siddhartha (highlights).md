@@ -114,6 +114,7 @@ category:: #books
 	- -
 	- -
 		- Things were going downhill with him, and now he was again facing the world void and naked and stupid. #flashcard
+		  id:: 635faaa8-9339-440f-8a02-ded875a18ac5
 		- ([Location 921](https://readwise.io/to_kindle?action=open&asin=B06XDRX1LM&location=921))
 	- -
 	- -

@@ -15,6 +15,7 @@ tags:: Self-Help
 	- -
 	- -
 		- este programa está pensado para ayudarte a encontrar la claridad, desarrollar la valentía, y hacer uso del compromiso que necesitas para alcanzar tus metas personales y profesionales más importantes. #flashcard
+		  id:: 635faaba-ae79-4f0a-b3ff-1d50a90684ab
 		- ([Location 211](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=211))
 	- -
 	- -
@@ -29,6 +30,7 @@ tags:: Self-Help
 	- -
 	- -
 		- Are you thinking about anything? #flashcard
+		  id:: 635faaba-b637-42fa-929f-ea90b82252ae
 			- Para protegernos de futuros desengaños, desarrollamos una actitud cínica y autoprotectora hacia la vida.
 		- tags:: [[mind]]
 		- ([Location 361](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=361))

@@ -50,5 +50,22 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 	- ### Tolerancia a fallos y Disaster Recovery
 		- Si una aplicación se destruye, podemos recuperarnos de esos fallos gracias a la nube
 		-
--
-	-
+	- ### Tipos de gastos
+		- #### Gastos de capital (CapEx)
+			- El gasto inicial de dinero que invertimos en la infraestructura física a utilizar.
+			- Los costes derivados de CapEx se irán reduciendo con el tiempo (amortización).
+		- #### Gastos operativos (OpEx)
+			- Gasto en productos o servicios según sean necesarios (pago por uso o necesidad).
+		- Cuando usamos modelos basados en nube, tratamos de reducir *CapEx* para priorizar *OpEx*.
+		-
+	- ### Modelo basado en consumo
+		- Solo pagamos por los recursos que utilizamos.
+			- Por ejemplo, si compramos un servidor, no podemos hacerlo desaparecer y no mantenerlo si solo lo tenemos encendido un intervalo de horas.
+			- Si alquilamos servidores virtuales, podemos no pagar nada por el tiempo que no los usemos, simplemente.
+		- Tenemos una mejor predicción de costes
+			- Las empresas saben de antemano cuánto les va a costar tener X servidores con Y recursos al céntimo.
+			- Esto es brutal para las empresas.
+		- Precios para recursos y servicios de forma individualizada.
+		- Facturación basada en uso real.
+			- No pagan por las horas que no han utilizado los recursos
+		-

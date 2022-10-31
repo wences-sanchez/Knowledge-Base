@@ -457,7 +457,7 @@ tags:: AWS O'Reilly-Learning
 			  id:: 0ccde540-2327-4aef-b7fc-51548df8773e
 		- -
 		- -
-			- AWS GuardDuty is a threat detection service that can analyze and detect malicious activity against your AWS accounts and application workloads. The service uses various intelligence feeds to be aware of malicious IP addresses and domains. It also uses machine learning to help detect anomalies by analyzing data from your CloudTrail event logs, Amazon VPC Flow Logs, and DNS logs. #flashcard
+			- **AWS GuardDuty** is a threat detection service that can **analyze** and **detect** ==malicious== activity against your AWS **accounts and application workloads**. The service uses various intelligence feeds to be aware of malicious IP addresses and domains. It also uses **machine learning** to help detect anomalies by analyzing data from your CloudTrail event logs, Amazon VPC Flow Logs, and DNS logs. #flashcard
 			  id:: 340fccbd-d09a-49cb-8d6f-381c05aa8c40
 		- -
 		- -
@@ -471,12 +471,12 @@ tags:: AWS O'Reilly-Learning
 		- -
 			- A couple of key points to note here are as follows:
 			  id:: 16eb96a8-182f-43a5-aa9e-3a93b9ef2ed2
-			  
-			  For data transfer within a Region:
-			  If an internet gateway is used to send data to an AWS public service (Amazon S3, DynamoDB, and so on) in the same Region, then there are no data transfer charges.
-			  If a NAT gateway is used to access those public services in the same Region, then there is a data processing charge, calculated at a per-GB rate.
-			  Data transfers between workloads within the same Availability Zone are free. For certain services, such as EC2, data transfers across Availability Zones will incur a data transfer charge.
-			  For data transfers across Regions, there is always a data transfer charge. #flashcard
+			- **For data transfer within a Region:**
+				- If an internet gateway is used to send data to an AWS public service (Amazon S3, DynamoDB, and so on) in the same Region, then there are no data transfer charges.
+				  If a NAT gateway is used to access those public services in the same Region, then there is a data processing charge, calculated at a per-GB rate.
+				  Data transfers between workloads within the same Availability Zone are free. For certain services, such as EC2, data transfers across Availability Zones will incur a data transfer charge.
+			- **For data transfers across Regions**:
+				- There is always a data transfer charge. #flashcard
 		- -
 		- -
 			- About **AWS Cost Explorer** #flashcard

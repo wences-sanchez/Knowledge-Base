@@ -469,14 +469,14 @@ tags:: AWS O'Reilly-Learning
 		- -
 	- Chapter 15: Billing and Pricing
 		- -
-			- A couple of key points to note here are as follows:
+			- About data transfers inside or across regions:  #flashcard
 			  id:: 16eb96a8-182f-43a5-aa9e-3a93b9ef2ed2
-			- **For data transfer within a Region:**
-				- If an internet gateway is used to send data to an AWS public service (Amazon S3, DynamoDB, and so on) in the same Region, then there are no data transfer charges.
-				  If a NAT gateway is used to access those public services in the same Region, then there is a data processing charge, calculated at a per-GB rate.
-				  Data transfers between workloads within the same Availability Zone are free. For certain services, such as EC2, data transfers across Availability Zones will incur a data transfer charge.
-			- **For data transfers across Regions**:
-				- There is always a data transfer charge. #flashcard
+				- **For data transfer within a Region:**
+					- If an internet gateway is used to send data to an AWS public service (Amazon S3, DynamoDB, and so on) in the same Region, then there are no data transfer charges.
+					  If a NAT gateway is used to access those public services in the same Region, then there is a data processing charge, calculated at a per-GB rate.
+					  Data transfers between workloads within the same Availability Zone are free. For certain services, such as EC2, data transfers across Availability Zones will incur a data transfer charge.
+				- **For data transfers across Regions**:
+					- There is always a data transfer charge.
 		- -
 		- -
 			- About **AWS Cost Explorer** #flashcard
@@ -491,9 +491,4 @@ tags:: AWS O'Reilly-Learning
 			  Figure 15.3 – Cost Explorer RI recommendations
 			  
 			  As you can see, purchasing RI for the two on-demand instances I have running would potentially save me 33% off my final costs. #flashcard
-		- -
-	- Chapter 16: Mock Tests
-		- -
-			- Mock Tests #flashcard
-			  id:: 074f05b8-47fd-441c-b482-475d956e004a
 		- -

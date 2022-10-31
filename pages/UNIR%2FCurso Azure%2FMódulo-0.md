@@ -11,4 +11,10 @@ tags:: UNIR, Azure
 		- Módulo 6: Administración de costes en Azure y acuerdos de nivel de servicio (SLA).
 -
 - ## Tema 2: Laboratorios
+	- Hay que inscribirse con una cuenta de Microsoft Azure.
+		- Pero ésta es gratis y dura 12 meses
+-
+- ## Tema 3: Prerrequisitos y Certificación
+	- No hay requisitos previos al aprendizaje.
+	- El contenido está alineado con el de la certificación *AZ-900-Fundamentos* de **Azure**
 	-

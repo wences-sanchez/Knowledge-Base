@@ -300,6 +300,9 @@
  {:block/name "azul",
   :block/created-at 1665484186769,
   :block/updated-at 1665484186769}
+ {:block/name "azure",
+  :block/created-at 1667230480768,
+  :block/updated-at 1667230480768}
  {:block/name "b",
   :block/created-at 1665484256318,
   :block/updated-at 1665484256318}
@@ -1069,6 +1072,10 @@
   "highlights first synced of aws certified cloud practitioner exam guide by [[readwise]] [[tuesday, 25-10-2022]]",
   :block/created-at 1667213586221,
   :block/updated-at 1667213586221}
+ {:block/name
+  "highlights from aws certified cloud practitioner exam guide [[readwise]] [[wednesday, 26-10-2022]]",
+  :block/created-at 1667230320365,
+  :block/updated-at 1667230320365}
  {:block/name "historia de dos ciudades (highlights)",
   :block/created-at 1667213027927,
   :block/updated-at 1667213028544}
@@ -1517,7 +1524,7 @@
   :block/updated-at 1665484160445}
  {:block/name "monday, 10-10-2022",
   :block/created-at 1665484158723,
-  :block/updated-at 1665484158723}
+  :block/updated-at 1667230342603}
  {:block/name "monday, 15-08-2022",
   :block/created-at 1665484160112,
   :block/updated-at 1665484160112}
@@ -1538,7 +1545,7 @@
   :block/updated-at 1665484160872}
  {:block/name "monday, 31-10-2022",
   :block/created-at 1667209353630,
-  :block/updated-at 1667209353630}
+  :block/updated-at 1667230431660}
  {:block/name "my knowledge path",
   :block/created-at 1665484231603,
   :block/updated-at 1665484231603}
@@ -2747,6 +2754,12 @@
   "unir/curso aws/módulo-3/tema-4: planes de soporte y herramientas de gestión",
   :block/created-at 1666167053252,
   :block/updated-at 1666167188910}
+ {:block/name "unir/curso azure",
+  :block/created-at 1667230425513,
+  :block/updated-at 1667230425513}
+ {:block/name "unir/curso azure/módulo-0",
+  :block/created-at 1667230425508,
+  :block/updated-at 1667230727289}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

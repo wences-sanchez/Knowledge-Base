@@ -1,5 +1,7 @@
 tags:: UNIR, Azure
+deck:: [[UNIR::Curso Azure::Módulo-1]]
 
+-
 -
 - # Conceptos básicos de la nube
 	-
@@ -10,20 +12,21 @@ tags:: UNIR, Azure
 				- Al final, la nube no deja de ser un conjunto de centros de datos accesibles por Internet que tienen en su interior una gran cantidad de servidores físicos que, gracias a la virtualización, permiten alojar muchas máquinas virtuales y almacenar discos y proveer su análisis.
 				- Si una empresa invierte en un servidor físico, tendrá que hacer frente a unos costos fijos los cuales suponen, por ejemplo, mantenerlos en unas instalaciones y refrigerarlos. Si quisiera escalar sus recursos para crecer o para hacer frente a un pico más alto de carga, tendría que comprar más servidores, irreversiblemente.
 			- #### Modelos de implementación de nube
-				- **Nube pública**:
+				- **Nube pública**: #flashcard
 					- ![image.png](../assets/image_1667233852893_0.png)
 					- Los **recursos**, tales como servidores o almacenamiento, son **propiedad del proveedor de servicios en la nube** que los explota y distribuye a través de Internet.
 						- Los recursos son propiedad del proveedor de nube
 					- El proveedor proporciona recursos y servicios a sus usuarios.
 					- El acceso a los recursos se realiza a través de una conexión de red segura (generalmente a través de Internet).
-				- **Nube privada:**
+				- **Nube privada:** #flashcard
 					- Las organizaciones crean entornos en la nube en sus propios centros de datos locales o bien pueden estar hospedadas por un proveedor de servicios a terceros.
 					- La organización es responsable de operar los servicios que brinda.
 					- No proporciona acceso a usuarios ajenos a la organización.
 						- Solo accedemos nosotros
-				- **Nube híbrida:**
+						- Tiene la desventaja de que tenemos que parchear y mantener los servidores.
+				- **Nube híbrida:** #flashcard
 					- Combina nubes públicas y privadas para permitir que las aplicaciones se ejecuten en la ubicación más adecuada.
 						- Es la opción adecuada si, por ejemplo, queremos tener los datos sensibles en servidores locales de nuestra nube privada y las aplicaciones ejecutándose en la nube pública
-			- #### Comparación de los modelos de nube
+			- #### Comparación de los modelos de nube #flashcard
 				- ![image.png](../assets/image_1667232918510_0.png)
 				-

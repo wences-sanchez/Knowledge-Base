@@ -8,6 +8,7 @@ url:: https://devconnected.com/how-to-count-files-in-directory-on-linux/
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- How would you count the numbers of files inside a directory in the Linux Terminal? #flashcard
+		  id:: bdd871e8-8940-480f-94b5-ef834206a9d3
 			- In order to count files recursively on Linux, you have to use the “find” command and pipe it with the “wc” command in order to count the number of files.
 			  $ find <directory> -type f | wc -l
 			  As a reminder, the “find” command is used in order to search for files on your system. 

@@ -24,6 +24,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Here’s a list of several of the available volume types:
+			  id:: 4a742a85-34c2-48bf-99bf-d293bfa91782
 			  
 			  emptyDir—A simple empty directory used for storing transient data.
 			  hostPath—Used for mounting directories from the worker node’s filesystem into the pod.
@@ -78,6 +79,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/01fig05.jpg #flashcard
+			  id:: 9f5b10e9-ab6c-4b58-b5fa-f3d9b8f54778
 				- Containers, on the other hand, all perform system calls on the exact same kernel running in the host OS. This single kernel is the only one performing x86 instructions on the host’s CPU. The CPU doesn’t need to do any kind of virtualization the way it does with VMs (see figure 1.5).
 		- -
 		- -
@@ -85,6 +87,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What is an image in Docker? #flashcard
+			  id:: fe874827-98bb-46e4-8f1b-32b04eed45d2
 				- Images—A Docker-based container image is something you package your application and its environment into. It contains the filesystem that will be available to the application and other metadata, such as the path to the executable that should be executed when the image is run.
 		- -
 		- -
@@ -112,6 +115,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About the Kubernetes Control Plane #flashcard
+			  id:: 485d2fdd-01ab-4a5c-9cf2-997c99ba502f
 				- The Control Plane
 				  The Control Plane is what controls the cluster and makes it function. It consists of multiple components that can run on a single master node or be split across multiple nodes and replicated to ensure high availability. These components are
 				  
@@ -142,6 +146,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Choosing a base image
+			  id:: 5da3c287-e393-4eb3-86d8-bcebccf73d13
 			  You may wonder why we chose this specific image as your base. Because your app is a Node.js app, you need your image to contain the node binary executable to run the app. You could have used any image that contains that binary, or you could have even used a Linux distro base image such as fedora or ubuntu and installed Node.js into the container at image build time. But because the node image is made specifically for running Node.js apps, and includes everything you need to run your app, you’ll use that as the base image. #flashcard
 		- -
 		- -
@@ -154,6 +159,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Understanding that processes in a container run in the host operating system
+			  id:: a57b6e21-ae4d-49fa-b2d6-8bbea97883d2
 			  If you now open another terminal and list the processes on the host OS itself, you will, among all other host processes, also see the processes running in the container, as shown in listing 2.7.
 			  
 			  Note
@@ -167,12 +173,14 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What is a pod in Kubernetes? #flashcard
+			  id:: 66278a26-2cb9-4383-b03c-72e37fd6f6d4
 				- You may be wondering if you can see your container in a list showing all the running containers. Maybe something such as kubectl get containers? Well, that’s not exactly how Kubernetes works. It doesn’t deal with individual containers directly. Instead, it uses the concept of multiple co-located containers. This group of containers is called a Pod.
 				  
 				  A pod is a group of one or more tightly related containers that will always run together on the same worker node and in the same Linux namespace(s). Each pod is like a separate logical machine with its own IP, hostname, processes, and so on, running a single application.
 		- -
 		- -
 			- Figure 2.6. Running the luksa/kubia container image in Kubernetes
+			  id:: 2848f1ef-94c4-4d0b-8044-75dfde9e8c10
 			  
 			  
 			  When you ran the kubectl command, it created a new ReplicationController object in the cluster by sending a REST HTTP request to the Kubernetes API server. The ReplicationController then created a new pod, which was then scheduled to one of the worker nodes by the Scheduler. The Kubelet on that node saw that the pod was scheduled to it and instructed Docker to pull the specified image from the registry because the image wasn’t available locally. After downloading the image, Docker created and ran the container. #flashcard
@@ -188,6 +196,7 @@ tags:: O'Reilly-Learning
 	- Chapter 3. Pods: running containers in Kubernetes
 		- -
 			- We need only one process in each container because (among other reasons) we won’t be able to identify properly each one. 
+			  id:: 8b0fd3cc-335d-4c3f-90fe-4654bf06cfc2
 			  Furthermore, we need a **pod** just for that reason. #flashcard
 				- Understanding why multiple containers are better than one contain- ner running multiple processes
 		- -
@@ -205,6 +214,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- When preparing a manifest, you can either turn to the Kubernetes reference documentation at http://kubernetes.io/docs/api to see which attributes are supported by each API object, or you can use the kubectl explain command. #flashcard
+			  id:: 8974f9bf-5509-494e-a777-b60000255726
 		- -
 		- -
 			- How can you **remove** the Kubernetes resources? #flashcard
@@ -224,10 +234,12 @@ tags:: O'Reilly-Learning
 	- Chapter 4. Replication and other controllers: deploying managed pods
 		- -
 			- Mention the purpose of a **liveness probe** in *Kubernetes* #flashcard
+			  id:: 5da1755e-6b28-487d-8bb1-1c49656cc92e
 				- Kubernetes can check if a container is still alive through liveness probes. You can specify a liveness probe for each container in the pod’s specification. Kubernetes will periodically execute the probe and restart the container if the probe fails.
 		- -
 		- -
 			- About liveness probe's terms #flashcard
+			  id:: fe929838-6307-4fc9-944e-1bb0ecec4836
 				- kubectl describe also displays additional information about the liveness probe:
 				  
 				  Liveness: http-get http://:8080/ delay=0s timeout=1s period=10s #success=1
@@ -266,6 +278,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example of **matchExpressions** selector in Kubernetes #flashcard
+			  id:: 2246ec17-3874-487e-8ea9-61bdbe973bdd
 				- Listing 4.9. A matchExpressions selector: kubia-replicaset-matchexpressions.yaml
 				   selector:
 				   matchExpressions:
@@ -291,6 +304,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About NodePort in Kubernetes #flashcard
+			  id:: e0520d86-873d-439a-b05d-f57e72ac7c8b
 				- The first method of exposing a set of pods to external clients is by creating a service and setting its type to NodePort. By creating a NodePort service, you make Kubernetes reserve a port on all its nodes (the same port number is used across all of them) and forward incoming connections to the pods that are part of the service.
 				  
 				  This is similar to a regular service (their actual type is ClusterIP), but a NodePort service can be accessed not only through the service’s internal cluster IP, but also through any node’s IP and the reserved node port.

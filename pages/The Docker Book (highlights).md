@@ -37,6 +37,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- How can you name a container? #flashcard
+			  id:: 85071308-9e2d-4eef-a7d7-08c49ca26663
 				- Docker will automatically generate a name at random for each container we create. We see that the container we’ve just created is called gray_cat. If we want to specify a particular container name in place of the automatically generated name, we can do so using the --name flag.
 				  
 				  $ sudo docker run --name bob_the_container -i -t ubuntu /bin/bash
@@ -44,6 +45,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- Our container will restart with the same options we’d specified when we launched it with the docker run command. So there is an interactive session waiting on our running container. We can reattach to that session using the docker attach command.
+			  id:: 051b95fa-96e0-407e-b681-160420288cc7
 			  
 			  $ sudo docker attach bob_the_container #flashcard
 		- -
@@ -99,11 +101,13 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- We identify each image inside that repository by what Docker calls tags. Each image is being listed by the tags applied to it, so, for example, 12.04, 12.10, quantal, or precise and so on. Each tag marks together a series of image layers that represent a specific image (e.g., the 18.04 tag collects together all the layers of the Ubuntu 18.04 image). This allows us to store more than one image inside a repository.
+			  id:: c60c1f61-e443-459c-9f51-b658e9a1c404
 			  
 			  We can refer to a specific image inside a repository by suffixing the repository name with a colon and a tag name #flashcard
 		- -
 		- -
 			- About the two types of repositories in Docker. #flashcard
+			  id:: 242299f9-b243-4b28-987b-6febbe626093
 				- There are two types of repositories: user repositories, which contain images contributed by Docker users, and top-level repositories, which are controlled by the people behind Docker.
 				  
 				  A user repository takes the form of a username and a repository name; for example, jamtur01/puppet.
@@ -145,6 +149,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- All of the instructions will be executed and committed and a new image returned when we run the docker build command #flashcard
+			  id:: 004c51cc-4b1d-4450-96b1-fffbe4739830
 		- -
 		- -
 			- We’ve used the docker build command to build our new image. We’ve specified the -t option to mark our resulting image with a repository and a name, here the jamtur01 repository and the image name static_web. I strongly recommend you always name your images to make it easier to track and manage them. #flashcard
@@ -155,6 +160,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- What is WORKDIR used for in Dockerfile? #flashcard
+			  id:: 110115e7-1b45-43c4-abbf-9ef68acf1821
 				- The WORKDIR instruction provides a way to set the working directory for the container and the ENTRYPOINT and/or CMD to be executed when a container is launched from the image.
 		- -
 		- -
@@ -177,6 +183,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- How could you share data between containers? #flashcard
+			  id:: 5ca59253-1404-474f-aadb-d9514eb4422e
 				- This allows us to add data (like source code), a database, or other content into an image without committing it to the image and allows us to share that data between containers. This can be used to do testing with containers and an application’s code, manage logs, or handle databases inside a container.
 		- -
 		- -
@@ -230,6 +237,7 @@ tags:: Docker O'Reilly-Learning
 	- 5 Testing with Docker
 		- -
 			- Benefits of volumes in Docker: #flashcard
+			  id:: 19466ff5-5491-4677-9613-9745fe21c0dc
 				- We want to work on and test it simultaneously.
 				  It changes frequently, and we don’t want to rebuild the image during our development process.
 				  We want to share the code between multiple containers.
@@ -258,6 +266,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- You can list all current networks using the docker network ls command.
+			  id:: 95daea73-2f91-4bce-ac40-9b3aabfa6e72
 			  
 			  $ sudo docker network ls
 			  NETWORK ID              NAME        DRIVER
@@ -275,6 +284,7 @@ tags:: Docker O'Reilly-Learning
 	- 7 Docker Orchestration and Service Discovery
 		- -
 			- Define service in Docker Compose. #flashcard
+			  id:: 5daf6554-0503-44ab-bc1e-b1d3adeaa9e6
 				- With Docker Compose, we define a set of containers to boot up, and their runtime properties, all defined in a YAML file. Docker Compose calls each of these containers “services” which it defines as:
 				  
 				  A container that interacts with other containers in some way and that has specific runtime properties.

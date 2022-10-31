@@ -15,6 +15,7 @@ url:: https://www.xeridia.com/blog/sabes-realmente-que-es-devops
 	- -
 	- -
 		- ¿Qué campos intersecciona DevOps? #flashcard
+		  id:: 82a353e5-4507-4d42-a9f4-de7e84f19b9d
 			- DevOps establece una “intersección” entre Desarrollo, Operaciones y Calidad, pero no se rige por un marco estándar de prácticas, sino que permite una interpretación mucho más flexible en la medida en que cada organización quiera llevarlo a la práctica, según su estructura y circunstancias.
 		- ([View Highlight](https://instapaper.com/read/1436144907/17176464))
 	- -

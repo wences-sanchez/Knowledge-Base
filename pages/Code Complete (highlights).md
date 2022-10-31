@@ -57,6 +57,7 @@ category:: #books
 	- -
 	- -
 		- Sometimes the top-down approach is so abstract that it's hard to get started. If you need to work with something more tangible, try the bottom-up design approach. #flashcard
+		  id:: 5dea38f9-3d24-4b7d-a973-6608f88bec9d
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2985](https://readwise.io/to_kindle?action=open&asin=B00JDMPOSY&location=2985))
 	- -
@@ -67,6 +68,7 @@ category:: #books
 	- -
 	- -
 		- Avoid duplicate code. Undoubtedly the most popular reason for creating a routine is to avoid duplicate code. Indeed, creation of similar code in two routines implies an error in decomposition. #flashcard
+		  id:: dd685c7e-b956-4395-80ac-5d79845a94a8
 		- tags:: [[blue]] [[azul]]
 		- ([Location 4262](https://readwise.io/to_kindle?action=open&asin=B00JDMPOSY&location=4262))
 	- -
@@ -77,6 +79,7 @@ category:: #books
 	- -
 	- -
 		- Code as if whoever maintains your program is a violent psychopath who knows where you live.     --Anonymous #flashcard
+		  id:: 5c9c9d70-483a-4f91-8409-9879282c128e
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 19110](https://readwise.io/to_kindle?action=open&asin=B00JDMPOSY&location=19110))
 	- -

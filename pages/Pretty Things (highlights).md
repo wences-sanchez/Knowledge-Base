@@ -10,6 +10,7 @@ tags:: Literature
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- It felt like we had everything we needed, right there, forever; #flashcard
+		  id:: cbff9f18-9625-4535-b858-b4b1d3e93c43
 		- ([Location 1499](https://readwise.io/to_kindle?action=open&asin=B087FDL5VJ&location=1499))
 	- -
 	- -
@@ -22,6 +23,7 @@ tags:: Literature
 	- -
 	- -
 		- Thank you all for... #flashcard
+		  id:: 3749fff5-18c7-481a-a695-eb48d91aeb9b
 			- Why didn’t you just fuck off to Mexico while you could?” “With a felony theft conviction hanging over my head? How far would I get? And about that—I need money, a lot, to pay for a good trial lawyer. Because of you, darling. Thanks for that.”
 		- tags:: [[mind]]
 		- ([Location 6249](https://readwise.io/to_kindle?action=open&asin=B087FDL5VJ&location=6249))

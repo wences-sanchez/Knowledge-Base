@@ -10,6 +10,7 @@ tags:: Gestión de Proyectos UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Scrum es un marco de trabajo para la gestión de proyectos  software,  que  permite  el  trabajo  colaborativo  entre  equipos.  Tiene  su origen  en  un  tipo  de  jugada  de  rugby,  y  su  filosofía  es  aprender  a  través  de  las experiencias de gestión, llevando a cabo una autogestión (anteriormente se hablaba más de autoorganización). La base de Scrum es el aprendizaje empírico, aprendiendo lo que se está realizando y aplicando el aprendizaje a corto plazo de manera iterativa (mejorando  el  producto)  e  incremental  (incluyendo  nuevas  funcionalidades). #flashcard
+		  id:: 8d4ecf5a-8f97-418d-8137-1893b41349b5
 		- (Page 5)
 	- -
 	- -
@@ -18,11 +19,13 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- ¿Qué es el **backlog**? #flashcard
+		  id:: 0074c20b-bf93-4cfb-ab24-2f07cf0dee96
 			-   Backlog  o  retraso  Incluye  el  Product  Backlog  (retraso  del  producto  o  pila  de producto), y el Sprint Backlog (retraso del sprint o pila de sprint). Representa la lista  de  prioridades  de  las  funcionalidades  del  sistema,  pudiendo  añadirse  en cualquier momento, y un responsable se encargará de evaluar el Product Backlog, actualizándolo con las nuevas prioridades.
 		- (Page 7)
 	- -
 	- -
 		- Define *Sprint*. #flashcard
+		  id:: e7ea2831-85a6-4acd-96e4-465d440e7126
 			-   Sprint. Un Sprint representa una unidad de trabajo necesaria para implementar una funcionalidad definida en el Sprint Backlog, al deber ajustarse a un calendario (suele ser máximo de un mes). Mientras se lleva a cabo un Sprint, no se podrán introducir cambios, pudiendo así trabajar el equipo de desarrollo en entregas a corto plazo y de manera estable, sin que se produzcan alteraciones.
 		- (Page 7)
 	- -
@@ -42,11 +45,13 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- Explica en qué consiste el rol de *Scrum Master* #flashcard
+		  id:: b33f63fe-d61a-4666-bd53-dfc729e3f3ca
 			- Es el líder ágil, el mentor que capacita a la organización en la adopción de Scrum. Así, tiene  la  responsabilidad de  asegurar  que  el  Equipo  Scrum  siga  las prácticas  Scrum establecidas en la Guía de Scrum, al ser, por tanto, sus dos funciones principales las de gestionar el proceso Scrum y ayudar a eliminar impedimentos que afecten a la entrega  del  producto  software.  En  Scrum  no  se  trabaja  con  la  figura  de  jefe  de proyecto, y se podría decir que el rol más similar sería el Scrum Master. De hecho, puede que el Scrum Master esté compartido con varios equipos Scrum, aunque esto también puede afectar al resultado del proyecto según su disponibilidad. A modo de resumen, las principales funciones del Scrum Master son las siguientes (algunas las aplica directamente sobre el Equipo Scrum al completo, otras sobre la organización, y otras sobre el Product Owner):
 		- (Page 15)
 	- -
 	- -
 		-  Impulsar  la  adopción  de  la  metodología  ágil a  través  de  la  gestión del proceso Scrum, ayudando a los desarrolladores y a toda la organización. Ayudar en la autogestión y multifuncionalidad a todos los miembros del equipo. Ayudar a las personas y participantes a comprender un enfoque empírico para el Actuar como líder del equipo Scrum, para mejorar la productividad y calidad de las  entregas  parciales del  producto  software  que  cumplan  con  la  definición  de Gestionar los posibles problemas o conflictos, ayudando a eliminar impedimentos que  puede  encontrar  el  equipo  de  desarrollo  y  que  afecten  a  la  entrega  del Asegurar que los diferentes eventos de Scrum se puedan llevar a cabo, que sean productivos y positivos, y que se respete el tiempo establecido  (Timebox) para trabajo complejo. hecho. producto. cada uno de ellos. #flashcard
+		  id:: 54baaf6d-41ea-4ab7-979f-c4eff5727c20
 		- (Page 16)
 	- -
 	- -
@@ -60,11 +65,13 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- Explica qué es un *sprint* #flashcard
+		  id:: e8fc1f89-fd16-41f8-adf8-08b047ae9a98
 			- Los  Sprints  son  los  eventos  base  de  Scrum,  a  través  de  los  cuales  las  ideas  se convierten en valor. Un Sprint es un evento de longitud fija, con una duración de un mes  o  menos,  para  así  crear  consistencia.  Al  finalizar  un  Sprint,  se  comienza  el siguiente inmediatamente. Dentro de un Sprint se lleva a cabo todo el trabajo que es necesario  para  poder  alcanzar  el  objetivo  del  producto,  que  incluye  una  serie  de eventos  o  reuniones:  Planificación  del  Sprint  (Sprint  Planning), Scrum  Diario  (Daily Scrum),  Revisión  del  Sprint  (Sprint  Review),  y  Retrospectiva  del  Sprint  (Sprint Retrospective).
 		- (Page 19)
 	- -
 	- -
 		- <<<<<<<< #flashcard
+		  id:: aaa73b23-50d7-4ca3-9e60-89faf693f306
 			- Durante la duración de un Sprint se tienen en cuenta una serie de consideraciones:   No se pueden hacer cambios que pongan en riesgo el Objetivo Sprint.   La calidad no disminuye.   Se refina el trabajo pendiente del producto según sea necesario.   Se puede clarificar y renegociar el alcance con el Product Owner en base a lo que se va aprendiendo.
 		- (Page 20)
 	- -

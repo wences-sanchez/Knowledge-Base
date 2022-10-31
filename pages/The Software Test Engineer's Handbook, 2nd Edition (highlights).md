@@ -24,5 +24,6 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What to do about several single requirements? #flashcard
+			  id:: a18bac7d-a148-4041-8400-64a2729c3cf4
 				- never assume the requirements are complete. In this example, they have identified only three conditions that need to be tested, but we know that these three conditions can occur in any combination, so we actually need to test not just three condition combinations but eight combinations (Yes and No for each of the three conditions = 2 × 2 × 2)
 		- -

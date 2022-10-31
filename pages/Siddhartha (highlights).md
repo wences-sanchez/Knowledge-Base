@@ -20,10 +20,12 @@ category:: #books
 	- -
 	- -
 		- unstoppable like the arrow shot from the bow. #flashcard
+		  id:: ddfce5e9-7df4-4833-a8ee-6878c816db80
 		- ([Location 89](https://readwise.io/to_kindle?action=open&asin=B06XDRX1LM&location=89))
 	- -
 	- -
 		- Now it is beginning, now Siddhartha is taking his own way, now his fate is beginning to sprout, #flashcard
+		  id:: f874338c-6ed4-4840-9289-0e23e60e118d
 		- ([Location 89](https://readwise.io/to_kindle?action=open&asin=B06XDRX1LM&location=89))
 	- -
 	- -
@@ -52,10 +54,12 @@ category:: #books
 	- -
 	- -
 		- But he has given me Siddhartha, myself. #flashcard
+		  id:: b513e3c6-e03e-4045-aad1-4beb5bfdffc6
 		- ([Location 366](https://readwise.io/to_kindle?action=open&asin=B06XDRX1LM&location=366))
 	- -
 	- -
 		- this mystery of me being alive, of me being one and being separated and isolated from all others, of me being Siddhartha! #flashcard
+		  id:: b30875c0-5a97-4d1a-b62a-6dcb3d2ad29e
 		- ([Location 379](https://readwise.io/to_kindle?action=open&asin=B06XDRX1LM&location=379))
 	- -
 	- -
@@ -64,6 +68,7 @@ category:: #books
 	- -
 	- -
 		- "now I would not let Siddhartha escape from me again! No longer, I want to begin my thoughts and my life #flashcard
+		  id:: 81f4cd48-deb2-400c-a296-5f2db0022f2a
 		- ([Location 387](https://readwise.io/to_kindle?action=open&asin=B06XDRX1LM&location=387))
 	- -
 	- -
@@ -72,6 +77,7 @@ category:: #books
 	- -
 	- -
 		- Out of this moment, when the world melted away all around him, when he stood alone like a star in the sky, out of this moment of a cold and despair, Siddhartha emerged, more a self than before, more firmly concentrated. He felt: This had been the last tremor of the awakening, the last struggle of this birth. And it was not long until he walked again in long strides, started to proceed swiftly and impatiently, heading no longer for home, no longer to his father, no longer back. #flashcard
+		  id:: 9b7895d3-3fcb-47a4-9456-6b34d3053b27
 		- ([Location 418](https://readwise.io/to_kindle?action=open&asin=B06XDRX1LM&location=418))
 	- -
 	- -
@@ -81,6 +87,7 @@ category:: #books
 	- -
 	- -
 		- (in the first moment when he thought about it, this past life seemed to him like a very old, previous incarnation, like an early pre-birth of his present self)—that his previous life had been abandoned by him, #flashcard
+		  id:: 7282da09-3e86-4ee7-b1aa-eaf5f3b17d16
 		- ([Location 863](https://readwise.io/to_kindle?action=open&asin=B06XDRX1LM&location=863))
 	- -
 	- -

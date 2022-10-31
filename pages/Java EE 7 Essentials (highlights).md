@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Java EE application components never interact directly with other Java EE application components. They use the protocols and methods of the container #flashcard
+		  id:: be6406ba-c76d-4f78-a248-128a31fb2568
 		- ([Location 222](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=222))
 	- -
 	- -
@@ -32,6 +33,7 @@ category:: #books
 	- -
 	- -
 		- The HttpServlet interface has one doXXX method to handle each of HTTP GET, POST, PUT, DELETE, HEAD, OPTIONS, and TRACE requests. #flashcard
+		  id:: 22c54bce-a53a-48f1-8e53-4061bb359cd1
 		- ([Location 450](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=450))
 	- -
 	- -
@@ -54,11 +56,13 @@ category:: #books
 	- -
 	- -
 		- . . ./account?tx=10 #flashcard
+		  id:: 203abc07-3ffd-49d7-a9b7-6dfaca0e3214
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 498](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=498))
 	- -
 	- -
 		- In both GET and POST requests, these parameters can be obtained from HttpServletRequest: #flashcard
+		  id:: 44e69bd5-3f87-45b9-9077-564f8ce6b562
 		- ([Location 501](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=501))
 	- -
 	- -
@@ -72,6 +76,7 @@ category:: #books
 	- -
 	- -
 		- HttpSession session = request.getSession(true); #flashcard
+		  id:: a65f70b7-f6f9-4290-bb0d-65efb630cdc1
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 583](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=583))
 	- -
@@ -96,6 +101,7 @@ category:: #books
 	- -
 	- -
 		- The asynchronous behavior needs to be explicitly enabled on a servlet. You achieve this by adding the asyncSupported attribute on @WebServlet: @WebServlet(urlPatterns="/async", asyncSupported=true) #flashcard
+		  id:: bb9bdd7a-978e-4675-ab31-3eafc65d15d0
 		- tags:: [[blue]] [[azul]]
 		- ([Location 831](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=831))
 	- -
@@ -109,6 +115,7 @@ category:: #books
 	- -
 	- -
 		- JSF allows you to: Create a web page with a set of reusable UI components following the Model-View-Controller (MVC) #flashcard
+		  id:: 22342251-8a3d-4fd3-ac5a-1c60a644bcad
 		- ([Location 1292](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1292))
 	- -
 	- -
@@ -147,6 +154,7 @@ category:: #books
 	- -
 	- -
 		- <h:dataTable value="#{customerSessionBean.customerNames}" var="c">   <h:column>#{c.value}</h:column> </h:dataTable> #flashcard
+		  id:: 726b2cf2-f815-4674-8642-7a929fd4cc5c
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1366](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1366))
 	- -
@@ -162,19 +170,23 @@ category:: #books
 	- -
 	- -
 		- There is a ui:define element with a name matching the ui:insert element in the template, so the contents are replaced. #flashcard
+		  id:: 3c0f9678-d0c5-4230-acf6-a58440cf8cbc
 		- ([Location 1444](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1444))
 	- -
 	- -
 		- <a href="#{resource['header.jpg']}">click here</a> #flashcard
+		  id:: f19fb87a-70ad-475c-8128-88d028d5a49f
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1452](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1452))
 	- -
 	- -
 		- JSF defines a composite component as a component that consists of one or more JSF components defined in a Facelets markup file. #flashcard
+		  id:: b9811bc4-4d91-4c93-b997-86d8720943da
 		- ([Location 1474](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1474))
 	- -
 	- -
 		- allows you to create a reusable component from an arbitrary region of a page. #flashcard
+		  id:: c02066a7-7e97-4369-bb12-9d09c058daca
 		- ([Location 1475](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1475))
 	- -
 	- -
@@ -183,6 +195,7 @@ category:: #books
 	- -
 	- -
 		- instead of repeating this code everywhere, it is beneficial to convert this fragment into a composite component. #flashcard
+		  id:: 1be1ef4f-bbad-42c2-8a15-688385a55787
 		- ([Location 1521](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1521))
 	- -
 	- -
@@ -200,6 +213,7 @@ category:: #books
 	- -
 	- -
 		- life-cycle phases: #flashcard
+		  id:: 619d3254-1b90-49f9-a4c3-d40f285a2213
 		- ([Location 1632](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1632))
 	- -
 	- -
@@ -209,6 +223,7 @@ category:: #books
 	- -
 	- -
 		- <h:link value="Login" outcome="login"/> #flashcard
+		  id:: 5d796b08-5ac1-4d5c-8088-8d5a960b720c
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1848](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=1848))
 	- -
@@ -223,11 +238,13 @@ category:: #books
 	- -
 	- -
 		- <h:commandButton action="login" value="Login"/> #flashcard
+		  id:: 820a8453-1b2e-4d43-b4bb-75ea0f4c5724
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2048](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=2048))
 	- -
 	- -
 		- Faces Flow #flashcard
+		  id:: c0415c8d-654d-43ce-8bdc-1721b31f2297
 		- ([Location 2065](https://readwise.io/to_kindle?action=open&asin=B00EJX7WEQ&location=2065))
 	- -
 	- -

@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- Selenium Server
 		- -
 			- What is Selenium Server? #flashcard
+			  id:: b49cae3b-8bdf-412d-bf9c-a0ef05d3c5f5
 				- Selenium Server allows us to run tests on browser instances running on remote machines and in parallel, thus spreading a load of testing across several machines.
 		- -
 	- Selenium IDE
@@ -60,6 +61,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Disadvantages of XPath #flashcard
+			  id:: 7c5b77b8-f64a-4fbb-bb1d-7150c1ca7df5
 				- One disadvantage of using XPath is that it is costly in terms of time. For every element to be identified, WebDriver actually scans through the entire page, which is very time consuming, and too much usage of XPath in your test script will actually make it too slow to execute.
 		- -
 	- The sendKeys() method
@@ -72,6 +74,7 @@ tags:: O'Reilly-Learning
 	- Stream.sort()
 		- -
 			- Example of lambda applied to Selenium #flashcard
+			  id:: 9163db78-c61c-4e4a-bc9f-4fba41581c56
 				- long count = links.stream().filter(item -> item.isDisplayed()).count();
 		- -
 	- Using the Map function to get the text value from elements
@@ -116,6 +119,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Questions of chapter 1: #flashcard
+			  id:: ee59c414-5dfb-4ab6-8db0-33e53c95de5d
 				- True or false: Selenium is a browser automation library.
 				  What are the different types of locator mechanisms provided by Selenium?
 				  True or false: With the getAttribute() method, we can read CSS attributes as well?
@@ -165,6 +169,7 @@ tags:: O'Reilly-Learning
 	- Filtering element attributes
 		- -
 			- How could you get the images which have an empty alt attribute and store it in a list? #flashcard
+			  id:: b81f28db-caf1-4466-91e3-f2b931e9d4bd
 				- List<WebElement> imagesWithOutAlt = images.stream()            .filter(item -> item.getAttribute("alt") == "")            .collect(Collectors.toList());
 		- -
 	- Filtering and performing actions on WebElements
@@ -202,6 +207,7 @@ tags:: O'Reilly-Learning
 	- Implicit wait time
 		- -
 			- Implicit wait for the whole flow for remote executions #flashcard
+			  id:: 2c0956af-3aa4-40b0-93c6-33d0977cb2e9
 				- driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		- -
 		- -

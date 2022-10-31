@@ -10,6 +10,7 @@ tags:: Contenedores UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Los contenedores de Docker están basados en imágenes previamente generadas que contienen  todas  las  dependencias  necesarias  para  nuestra  aplicación  o  servicio. Aunque existen de manera pública multitud de imágenes listas para ser utilizadas, la mayoría de las veces necesitaremos crear nuestras propias imágenes, habitualmente basada en alguna ya disponible. A lo largo del tema se presentarán las principales opciones que tenemos para generar nuestras propias imágenes según nuestras necesidades y las buenas prácticas que deberemos  seguir  para  generar  unas  imágenes  ligeras  y  fácilmente  mantenibles. También veremos los diferentes tipos de capas y sus características que nos podemos encontrar en las imágenes y contenedores. #flashcard
+		  id:: d49611d0-ce7d-43c8-9531-53c626a6a67c
 		- (Page 4)
 	- -
 	- -
@@ -45,6 +46,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- cómo  podemos  crear  un  contenedor  interactivo  de  manera sencilla. Si ejecutamos el siguiente comando, se nos descargará una imagen Docker de Ubuntu y nos dejará abierto un terminal dentro del contenedor: $ docker run -it ubuntu:bionic /bin/bash root@0ef5d5b9795d:/# #flashcard
+		  id:: f6bc220f-b16f-431d-85dc-4808c46ae889
 		- (Page 9)
 	- -
 	- -
@@ -63,11 +65,13 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- <<<<< #flashcard
+		  id:: 0c80aab1-ffcc-4824-8668-6dd19e805fc1
 			-   Imagen  o  nombre  de  imagen:  al  referenciar  una  imagen  podemos  utilizar  su identificador único o bien un nombre de imagen que estará compuesto por varios componentes: [<host-registro>/][<usuario>/]<repositorio>[:<etiqueta>] •  El registro es opcional y por defecto tendremos configurado Docker Hub. •  El usuario también es opcional y sería un usuario del registro. •  El nombre del repositorio es obligatorio. •  Si omitimos la etiqueta de la imagen se asumirá latest por defecto.
 		- (Page 12)
 	- -
 	- -
 		- ¿Cómo puedes mostrar las imágenes que hay, en Docker? #flashcard
+		  id:: 00746424-12ec-4577-a00c-1e783012380c
 			- $ docker images nginx REPOSITORY     TAGIMAGE ID       CREATED        SIZE nginx          alpine7d0cdcc60a96   4 weeks ago    21.3MB
 		- (Page 13)
 	- -
@@ -93,6 +97,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- AÑADIR IMAGEN #flashcard
+		  id:: 14b0663d-2e80-46f5-a82d-55f902d1e30e
 			- La siguiente tabla resume las instrucciones más comúnmente utilizadas en nuestros ficheros Dockerfile:
 		- (Page 16)
 	- -
@@ -103,6 +108,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- La mayoría de las veces, la caché nos será muy útil y nos ahorrará mucho tiempo al generar imágenes. Sin embargo, hay ocasiones en las que el comportamiento de la caché puede no actuar como nosotros deseamos, por lo que es bueno saber cómo invalidar selectivamente la caché en nuestro Dockerfile. La solución más radical sería utilizar el argumento  --no-cache, el cual invalidaría la cache para todos los pasos de nuestro Dockerfile: $ docker build -t python_app --no-cache . Una manera de forzar que se invalide la caché en una instrucción que está utilizando la cache, sería añadiendo un comentario al final de la instrucción para así modificar la línea e invalidarla. Por ejemplo: RUN ["pip", "install", "-r", "requirements.txt"] # Invalidar cache #flashcard
+		  id:: 192a46b1-6033-4368-89fe-9a346006534f
 		- (Page 20)
 	- -
 	- -
@@ -116,10 +122,12 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- A  veces  generaremos  imágenes  que  servirán  como  plantillas  reutilizables  y podríamos  querer,  o  necesitar,  que  algunas  configuraciones  de  la  aplicación  se realicen  más  adelante,  cuando  se  utilice  la  imagen  como  base  para  una  nueva imagen. En estos casos, podríamos compartir un fichero Dockerfile para que los equipos de desarrollo los incluyan en sus propias aplicaciones. Sin embargo, esta solución sería manual,  poco  sostenible  y  bastante  propensa  a  errores.  Para  situaciones  como  la descrita, tenemos la instrucción ONBUILD de Dockerfile. #flashcard
+		  id:: b754e2b5-7931-41af-8c2b-ced24d8cec49
 		- (Page 22)
 	- -
 	- -
 		- Para aprovechar mejor la caché a la hora de generar las imágenes, se recomienda separar  la  instalación  de  dependencias  de  la  obtención  de  cambios  en  el  código fuente. Esto se debe a que las dependencias cambian con menor frecuencia y no nos hará falta obtenerlas cada vez que se actualiza el código. #flashcard
+		  id:: a2bcf62e-8330-4158-be7b-75ef34b311c6
 		- (Page 26)
 	- -
 	- -

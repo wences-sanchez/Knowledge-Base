@@ -18,6 +18,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- ‐ name: Generate new root password command: openssl rand ‐hex 7 register: mysql_new_root_pass Aquí, hemos utilizado una característica de Ansible que no se había visto hasta ahora, que es el registro (register). Al usar register en una tarea, le decimos a Ansible que queremos guardar el valor de retorno de la ejecución de la tarea como una variable para poder utilizarlo posteriormente en un playbook. #flashcard
+		  id:: 69ee1196-3a31-424e-9120-5bcac128d78b
 		- (Page 9)
 	- -
 	- -
@@ -26,6 +27,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- ‐ "{{ansible_hostname}}" loop: ‐ 127.0.0.1 ‐ ::1 ‐ localhost ‐ name: Output new root password debug: msg="New root password is {{mysql_new_root_pass.stdout}}" Sería posible en MySQL tener una contraseña diferente por cada usuario y lugar de conexión  distinto.  Hemos  utilizado  loop  para  establecer  la  contraseña  de  cada nombre  de  host  que  se  refiere  a  la  propia  máquina  iterando  con  cada  uno  de  los valores  de la lista  de loop  y  sustituyéndolos  en  {{item}}, incluyendo ansible_hostname, una variable que se rellena automáticamente con el nombre de host  de  la  máquina  actual. #flashcard
+		  id:: 7e3a9d2f-718d-4603-8379-5561aab2be88
 		- (Page 10)
 	- -
 	- -
@@ -46,6 +48,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- Podrías añadir la siguiente tarea para reiniciar NginX al final del playbook: ‐ name: Restart nginx service: name=nginx state=restarted #flashcard
+		  id:: c928ce8e-debc-4937-9ff1-634d86b294f8
 		- (Page 17)
 	- -
 	- -
@@ -54,6 +57,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- Lo  siguiente  será  copiarlo  en  la  máquina  virtual  y,  dado  que  solo  lo  necesitas temporalmente, lo puedes copiar en el directorio /tmp mediante la siguiente tarea: # Wordpress ‐ name: Copy wordpress.zip into tmp copy: src=files/wordpress.zip dest=/tmp/wordpress.zip #flashcard
+		  id:: 4848b4de-40c2-47bd-aa0c-4f5548a23beb
 		- (Page 20)
 	- -
 	- -

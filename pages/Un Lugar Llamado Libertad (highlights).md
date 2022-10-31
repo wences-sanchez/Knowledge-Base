@@ -40,5 +40,6 @@ tags:: Literature
 	- -
 	- -
 		- Mack buscaba toda clase de excusas y justificaciones, pero, en el fondo, había sufrido una decepción. En un momento de angustia, Cora le había hecho prometer que la buscaría, pero se había olvidado de él a la primera ocasión que se le había presentado de mejorar su suerte en la vida. #flashcard
+		  id:: c96d2615-20e9-4c4e-9f25-68d73c8d9397
 		- ([Location 5674](https://readwise.io/to_kindle?action=open&asin=B00HQLB6U4&location=5674))
 	- -

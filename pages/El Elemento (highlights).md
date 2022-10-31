@@ -14,6 +14,7 @@ tags:: Self-Help
 	- -
 	- -
 		- he perdido la cuenta del número de personas que he llegado a conocer que carecen de una verdadera percepción de sus talentos individuales y lo que les apasiona. No disfrutan de lo que hacen, #flashcard
+		  id:: bb0055a1-87b9-4fee-ad80-384877f48d57
 		- ([Location 113](https://readwise.io/to_kindle?action=open&asin=B0081SGUAM&location=113))
 	- -
 	- -
@@ -38,6 +39,7 @@ tags:: Self-Help
 	- -
 	- -
 		- tienen en común que hacen lo que les gusta y al hacerlo se sienten realmente ellos mismos: les parece que el tiempo transcurre de manera diferente y se sienten más vivos, más centrados y llenos de vida que en cualquier otro momento. #flashcard
+		  id:: f38bc2d1-61ff-4680-9c16-ec276ccf6843
 		- ([Location 474](https://readwise.io/to_kindle?action=open&asin=B0081SGUAM&location=474))
 	- -
 	- -
@@ -50,6 +52,7 @@ tags:: Self-Help
 	- -
 	- -
 		- con lágrimas en los ojos le dije a Dios que no quería seguir más tiempo en ese lugar. Quería vivir en Londres y tocar en un club de jazz. Era algo completamente ingenuo y ridículo, pero me hice a mí mismo la firme promesa de ser batería.» #flashcard
+		  id:: 8b41dd2a-8565-4b13-a529-21059fb12b89
 		- ([Location 584](https://readwise.io/to_kindle?action=open&asin=B0081SGUAM&location=584))
 	- -
 	- -
@@ -63,5 +66,6 @@ tags:: Self-Help
 	- -
 	- -
 		- personas admirablemente creativas a las que algunas partes del proceso se les hacen difíciles y muy desesperantes. Pero siempre hay un momento de verdadero placer, así como un profundo sentimiento de satisfacción cuando sabes que has acertado. #flashcard
+		  id:: f59868fb-0053-48da-a139-3439a9ee4317
 		- ([Location 1230](https://readwise.io/to_kindle?action=open&asin=B0081SGUAM&location=1230))
 	- -

@@ -16,12 +16,14 @@ url:: https://linuxconfig.org/bash-scripting-tutorial-for-beginners
 	- -
 	- -
 		- By default, any newly created files are not executable regardless of its file extension suffix. #flashcard
+		  id:: f6dd77fc-2014-42c7-84a0-abe2cba9fc37
 	- -
 	- -
 		- In fact, the file extension on GNU/Linux systems mostly does not have any meaning apart from the fact, that upon the execution of ls command to list all files and directories it is immediately clear that file with extension .sh is plausibly a shell script and file with .jpg is likely to be a lossy compressed image. #flashcard
 	- -
 	- -
 		- How can you get the current user inside a script? #flashcard
+		  id:: 1ca39955-dcc6-4d6f-88e8-a9ef44ecda64
 			- user=$(whoami)
 	- -
 	- -
@@ -52,6 +54,7 @@ url:: https://linuxconfig.org/bash-scripting-tutorial-for-beginners
 	- -
 	- -
 		- while syntax #flashcard
+		  id:: f029ebd0-e1ce-42c9-b53c-30b80edc1668
 			- counter=0
 			  while [ $counter -lt 3 ]; do
 			    let counter+=1

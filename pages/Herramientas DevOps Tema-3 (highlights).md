@@ -25,6 +25,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿Qué es una aplicación multicapa? +++ #flashcard
+		  id:: 74585519-9a6c-4597-8af2-2b4d5dc8e0af
 			- Las  aplicaciones  multicapa  son  aplicaciones  compuestas  por  diferentes componentes que se llaman los unos a los otros de una forma lineal. Es decir, cada componente  es  llamado  por  el  inmediatamente  anterior  y  llama  al  posterior.  En ocasiones  se  permite  que  un  componente  se  “salte  capas”  y  llame  a  otros componentes posteriores, pero nunca debería llamarse a capas anteriores. Las capas que  podemos  saltar  se  suelen  denominar  “capas  abiertas”  y  las  que  no,  “capas cerradas”.
 		- (Page 15)
 	- -
@@ -50,6 +51,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Componentes de malla de microservicios #flashcard
+		  id:: 3896e8d7-8efd-4d55-b090-4ffba7928802
 			- Servicios  e  instancias.Una  instancia  es  una  copia  única  en  ejecución  de  un microservicio. A veces la instancia es un componente único. Los clientes rara vez acceden a una instancia directamente; más bien acceden a un servicio, que es un conjunto de instancias idénticas que es escalable y tolerante a fal
 		- (Page 21)
 	- -

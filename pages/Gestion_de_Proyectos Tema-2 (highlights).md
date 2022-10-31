@@ -10,10 +10,12 @@ tags:: Gestión de Proyectos UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Un producto entregable, aunque sea solo de una parte de la funcionalidad, aporta más  valor  que  ningún  producto  y  mucha  documentación.  Por  ejemplo,  un producto mínimo tangible puede generar un retorno de inversión mayor que los simples documentos descriptivos. #flashcard
+		  id:: 7d9e9ee4-bb16-4578-9378-de18d997a63a
 		- (Page 6)
 	- -
 	- -
 		- Explica en qué consiste **Scrum** #flashcard
+		  id:: 0edbee2c-2fb7-4640-a899-a9855d3e8a48
 			- Scrum es la metodología ágil más conocida, sencilla y a su vez genérica. Es por esto por lo que se suele decir que Scrum es ligero, fácil de entender, pero a su vez difícil de dominar. La base de Scrum es el aprendizaje empírico, se aprende lo que se está realizando y se aplica el aprendizaje a corto plazo de manera iterativa e incremental.
 		- (Page 17)
 	- -
@@ -24,6 +26,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- <<<<<<<
+		  id:: d939908e-40e2-4875-90ec-cadb2f530fe7
 		  AÑADIR IMAGEN #flashcard
 			-   ¿qué obstáculos se han encontrado?   ¿en qué se va a trabajar en ese día? Al  final  del  sprint  se  le  muestra  al  cliente  o  patrocinador  la  nueva  funcionalidad desarrollada, para su evaluación, lo que se conoce como Sprint Review. En la Figura 3 se muestra el flujo de proceso de Scrum.
 		- (Page 19)
@@ -56,6 +59,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- <<<<<<<<<<<<<< #flashcard
+		  id:: 96997e10-823c-47f3-a3fd-289e3702ded5
 			- lo  que  también  hace  que  se  minimice  el  riesgo.  Al  mismo  tiempo,  se  identifica claramente el estado de cada tarea. En realidad, no hay una distribución fija para mostrar las filas y columnas del tablero Kanban, aunque sí se requieren las siguientes características a incluir: quién tiene las tareas, cuál es el estado de las tareas, facilidad del movimiento, inicio de iteración y fin de iteración. Kanban define un conjunto de buenas prácticas en el uso diario del tablero o panel: una tarea para una sola persona, las tareas solo se mueven hacia la derecha, pocas tareas en cada columna, y pocas tareas simultáneas por cada persona.
 		- (Page 23)
 	- -

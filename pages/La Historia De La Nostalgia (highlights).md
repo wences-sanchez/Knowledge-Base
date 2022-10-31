@@ -60,6 +60,7 @@ category:: #books
 	- -
 	- -
 		- ¿Qué cosa harías si te dijesen que el destino no existe, que es un constructo de tu mente?
+		  id:: 861d579f-b16f-414d-8143-5f1f32858e8a
 		  ¿Dónde irías?
 		  ¿Cuándo lo harías? #flashcard
 			- Em vaig aturar davant d'una llibreria de vell que freqüentava. Entre els Ilibres que s'hi oferien hi havia un exemplar d'Alícia al país de les meravelles; a la portada s'hi veia un uni- corn que brillava com si fos un llum encès. Un unicorn que pel que sembla pot ser real mentre es cregui que pot ser-ho.

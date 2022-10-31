@@ -15,6 +15,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Qué significa ARN en AWS? INPUT.... #flashcard
+		  id:: a185011e-fcd0-4b25-a809-2870419c1e9f
 			- Para identificar los recursos, entre ellos a los usuarios de IAM, AWS usa los Amazon Resource Names o ARN. Un ARN es un identificador único global que hace referencia a objetos de AWS. La mayoría de los tipos de recursos de AWS tienen ARN, incluidos los objetos de S3 y los roles, usuarios y directivas de IAM. Tienen el siguiente formato: arn:partition:service:region:account-id:resource-type/resource-id
 		- (Page 5)
 	- -
@@ -25,6 +26,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Qué es un permiso en IAM? #flashcard
+		  id:: fba7d31a-6da6-4087-a5e1-093b0b64aec5
 			- Un  permiso  es  una  combinación  de  dos  elementos:  una  acción  y  una  lista  de recursos. AWS verificará si el usuario autenticado puede realizar la acción solicitada en un recurso específico, por ejemplo, ¿se le permite al usuario reiniciar (la acción) una instancia EC2 (el recurso)?
 		- (Page 6)
 	- -
@@ -56,6 +58,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Qué es CloudTrail? #flashcard
+		  id:: dced9a5c-39b3-463d-9a28-509d3c111cad
 			- y Ryan, 2018). CloudTrail es una herramienta de auditoría que registra todas las llamadas a la API en una región específica, o globalmente, independientemente de la herramienta que origina la llamada: awscli, SDKs, consola e, incluso, otros servicios de AWS (Lucifredi Estos registros mejoran la capacidad para determinar qué usuario realizó qué acción en  un  momento dado,  y  es  esencial  para  reconstruir  lo que realmente  sucedió en caso  de  un  incidente  de  seguridad.  CloudTrail  incluirá  en  sus  registros  todas  las llamadas a la API generadas por cualquier servicio de AWS en nombre del usuario. Algunas  de  estas  llamadas  pueden  haberse  realizado  automáticamente  por  otro servicio,  bien  como  respuesta  a  una  llamada  de  usuario  o  como  parte  del funcionamiento habitual. Los registros de CloudTrail indican si una llamada API fue generada automáticamente por otro servicio.
 		- (Page 14)
 	- -
@@ -71,6 +74,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Cuáles son las fases que sigue Amazon Detective? #flashcard
+		  id:: 81402537-9613-4175-8b26-d45ba857150d
 			- A alto nivel, una investigación general, y de Amazon Detective en particular, seguirá estas fases:   Triaje.  El  proceso  comienza  con  un  aviso  de  posible  actividad  maliciosa.  Esta información se hace llegar a un analista o ingeniero de seguridad. Uno de estos puntos  de  entrada  puede  ser  una  alerta  generada  por  Amazon  GuardDuty,  o, simplemente, el ID de la VPC de la que proviene la alerta. El ingeniero determinará si la actividad es genuinamente un riesgo de seguridad o un falso positivo. En caso de considerar la alerta un verdadero positivo, seguirá con la siguiente fase.   Alcance.  En  este  caso,  el  ingeniero  considera  el  alcance  y  posible  causa  del incidente.  Por  ejemplo,  deberá  averiguar  qué  sistemas  y  recursos  han  sido afectados, dónde se originó el ataque, cuándo empezó, si ya ha terminado y si hay actividades  relacionadas  con  el  ataque  (si  un  atacante  toma  el  control  de  una máquina, es probable que intente extraer datos confidenciales hacia el exterior).   Respuesta. Finalmente, el ingeniero intentará detener el ataque y minimizar el daño. Además, establecerá medidas y procedimientos para impedir que un ataque similar pueda volver a ocurrir. En la segunda etapa es donde más valor se puede obtener de Detective. A partir del elemento encontrado en la etapa de triaje, Detective muestra información enlazada. Por  ejemplo,  puede  mostrar  llamadas  API  sobre  un  recurso  con  errores  de autenticación, o el origen geográfico de dichas llamadas. Además, permite comparar el  comportamiento  que  reflejan  los  registros  actuales  con  el  comportamiento habitual. de SDK. Al igual que Inspector, Detective se puede automatizar a través de llamadas de API y
 		- (Page 18)
 	- -

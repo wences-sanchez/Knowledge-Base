@@ -13,6 +13,7 @@ url:: https://hyperskill.org/learn/step/3551
 	- -
 	- -
 		- The best way to convert an array into a String. Using the constructor #flashcard
+		  id:: 50229ffd-8ecd-4f52-9e97-9b8ee244f156
 			- String theSameString = new String(charsFromString); // "ABCDEF"
 		- tags:: [[java]] [[code]]
 	- -

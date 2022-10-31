@@ -15,6 +15,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- Diferencias entre Docker Swarm y Kubernetes #flashcard
+		  id:: 2b50722d-def0-44e0-a564-a2d1fbd52447
 			-   Docker  Swarm  es  más  sencillo  de  utilizar  y  más  ligero  en  comparación  con Kubernetes, cuya gestión reviste mayor compleja.   Kubernetes  ofrece  un  auto  escalado  basado  en  métricas,  algo  que  no  ofrece Docker Swarm.
 		- (Page 6)
 	- -
@@ -54,6 +55,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Qué es, básicamente, **etcd** ? #flashcard
+		  id:: e88f6137-f8c8-4efc-bd75-13d47cdf3e9f
 			- etcd  es  un  almacén  de  datos  clave-valor  distribuido  y  muy  consistente  que proporciona una forma confiable de almacenar datos a los que un sistema distribuido o  clúster  debe  acceder.  Está  desarrollado  en  Go,  ofreciendo  un  soporte multiplataforma, y utiliza el algoritmo de consenso Raft para la comunicación entre las máquinas del sistema distribuido. Kubernetes utiliza etcd tanto para el almacenamiento de la configuración del clúster como  para  el  descubrimiento  de  servicios.  Además,  permite  la  notificación  de cambios  de  configuración  en  un  nodo  concreto  al  resto  del  clúster  de  una  forma fiable.
 		- (Page 11)
 	- -
@@ -65,6 +67,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Para qué sirve el componente **kubelet** dentro de un *nodo worker* en *Kubernetes* ? #flashcard
+		  id:: 94ca7129-3901-4f7e-918d-a3720c0a94c2
 			- En cada uno de los nodos worker tendremos un servicio, llamado Kubelet, que será el encargado de comunicarse con el nodo máster, obteniendo la configuración de los
 		- (Page 12)
 	- -
@@ -95,11 +98,13 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- Define PersistentVolume en Kubernetes. #flashcard
+		  id:: 9bde0fed-a483-4f0f-bf0f-45aabb0467f3
 			- Kubernetes introduce una nueva abstracción denominada PersistentVolumes, la cual nos permitirá desacoplar los Pods de la infraestructura asociada al almacenamiento. A diferencia de los objetos volumes, los recursos de tipo PersistentVolume tienen un ciclo de vida independiente a los Pods.
 		- (Page 15)
 	- -
 	- -
 		- Acerca de los **ConfigMaps** y **Secrets** en *Kubernetes* #flashcard
+		  id:: 3c08aa50-ec54-4fb6-b015-a72a8085dc98
 			- Los  ConfigMaps  nos  permitirán  separar los  datos  de  configuración  de los contenedores,  están  pensados  para  el  almacenamiento  de información  no confidencial.  Por  el  contrario,  para  la  gestión  de  información  sensible  como contraseñas y certificados, utilizaremos los Secrets.
 		- (Page 16)
 	- -
@@ -119,6 +124,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Qué es y para qué sirve el controlador **StatefulSets** de Kubernetes? #flashcard
+		  id:: 5fafd522-22c9-4e35-ac2e-796631e201cb
 			- Al igual que ocurría con los ReplicaSets, los StatefulSets nos permitirán gestionar el despliegue y escalado de un conjunto de Pods según se haya definido. Sin embargo, se diferencia de los Deployments en que los Pods de los StafulSets no se sustituyen completamente,  es  decir,  cada  Pod  tendrá  asociado  un  identificador  único  que  el controlador se encargará de persistir y mantener ante cualquier replanificación del Pod. Los StatefulSets se utilizan para aplicaciones con estado, como puede ser una base de  datos.  Toda  la  información  asociada  al  estado  de  los  Pods  gestionados  por  los StatefulSets será almacenada en un volumen asociado.
 		- (Page 17)
 	- -

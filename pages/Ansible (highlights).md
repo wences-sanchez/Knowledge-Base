@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- 1. Getting Started
 		- -
 			- How to use multiple items in Ansible inside an apt task. #flashcard
+			  id:: 9a3241e6-0821-45c6-ab7b-1e3268694da1
 				- name: Install required packages
 				      apt: name={{item}} state=present update_cache=yes
 				      with_items:
@@ -19,6 +20,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- The Ansible documentation for playbooks is excellent, and it should always be your first point of reference for playbook syntax ( http://docs.ansible.com/ansible/index.html ).
+			  id:: e534724b-70cf-487c-80ac-e31f9fa4d4e6
 			  
 			  If you want to jump straight in and see some sample playbooks, there are lots of them available in the ansible-examples repository on Github ( https://github.com/ansible/ansible-examples ). #flashcard
 		- -

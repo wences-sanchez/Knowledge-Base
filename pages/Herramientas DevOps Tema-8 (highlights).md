@@ -24,6 +24,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- es posible mostrar un error específico cuando la variable no está presente como: ${VAR:?texto_de_error}. #flashcard
+		  id:: 2867a42a-cffd-4d49-8f4b-34a25181119e
 		- (Page 12)
 	- -
 	- -
@@ -33,6 +34,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿Qué dos componentes tiene Filebeat? #flashcard
+		  id:: 57ab2e5e-62c9-425b-a119-4ba1e3e1ec84
 			- Filebeat  consta  de  dos  componentes  principales:  entradas  y  recolectores.  Estos componentes  trabajan  juntos  para  crear  una  cola  de  registros  y  enviar  datos  de eventos a la salida que especifique.
 		- (Page 15)
 	- -
@@ -43,5 +45,6 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Es importante entender cómo mantiene el estado de cada archivo Filebeat para poder entender qué está ocurriendo cuando un comportamiento nos sorprende. Filebeat mantiene el estado de cada archivo y frecuentemente guarda el estado en el disco en el archivo de registro. El estado se utiliza para recordar el último offset o lugar desde el que estaba leyendo para garantizar que se envíen todas las líneas del fichero. Si no se puede acceder a la salida, como  ElasticSearch o Logstash, Filebeat realiza  un  seguimiento  de  las  últimas  líneas  enviadas  y  continuará  leyendo  los archivos tan pronto como la salida vuelva a estar disponible. Mientras Filebeat se está ejecutando, la información de estado también se guarda en la memoria para cada entrada. Cuando se reinicia Filebeat, los datos del archivo de registro se utilizan para reconstruir  el  estado,  y  Filebeat  continúa  cada  recolector  en  la  última  posición conocida. #flashcard
+		  id:: e487e019-a1d1-4353-869a-90bb38a831b1
 		- (Page 16)
 	- -

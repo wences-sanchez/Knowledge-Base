@@ -12,6 +12,7 @@ category:: #books
 	- -
 	- -
 		- “But wait!” you say. “If I don’t do what my manager says, I’ll be fired.” Probably not. Most managers want the truth, even when they don’t act like it. Most managers want good code, even when they are obsessing about the schedule. They may defend the schedule and requirements with passion; but that’s their job. It’s your job to defend the code with equal passion. #flashcard
+		  id:: db6b8265-af2e-4810-81e2-0ed0b96d9cb3
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 586](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=586))
 	- -
@@ -63,6 +64,7 @@ category:: #books
 	- -
 	- -
 		- the blocks within if statements, else statements, while statements, and so on should be one line long. #flashcard
+		  id:: 721f35f9-fc09-4549-8239-259e9e6b9c3d
 		- ([Location 1256](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1256))
 	- -
 	- -
@@ -77,6 +79,7 @@ category:: #books
 	- -
 	- -
 		- Don’t Repeat Yourself13 #flashcard
+		  id:: c3bd55da-1d1a-44d9-b488-d2dfbed902aa
 		- ([Location 1629](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1629))
 	- -
 	- -
@@ -90,10 +93,12 @@ category:: #books
 	- -
 	- -
 		- The proper use of comments is to compensate for our failure to express ourself in code. #flashcard
+		  id:: 8133f0c0-6873-4d8b-9f57-fe4697681793
 		- ([Location 1740](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1740))
 	- -
 	- -
 		- We know it’s a mess. So we say to ourselves, “Ooh, I’d better comment that!” No! You’d better clean it! #flashcard
+		  id:: e958b32e-65d8-407f-8b95-074ecd9d145f
 		- ([Location 1766](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1766))
 	- -
 	- -
@@ -108,11 +113,13 @@ category:: #books
 	- -
 	- -
 		- a function that is called should be below a function that does the calling. #flashcard
+		  id:: 71dff3bf-3e75-484e-b5fc-678b6845f947
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 2492](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2492))
 	- -
 	- -
 		- Formatting Rules #flashcard
+		  id:: b0df6aee-0b2e-4e22-86e0-00b70bf70538
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2640](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2640))
 	- -
@@ -140,6 +147,7 @@ category:: #books
 	- -
 	- -
 		- Chains of calls like this are generally considered to be sloppy style and should be avoided [G36]. It is usually best to split them up #flashcard
+		  id:: a3dab677-b82c-4fab-aae5-eb636a93cfef
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2790](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2790))
 	- -
@@ -167,6 +175,7 @@ category:: #books
 	- -
 	- -
 		- The Three Laws of TDD #flashcard
+		  id:: daf211be-e6f8-4294-a616-cfa7851c78fa
 		- ([Location 3340](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3340))
 	- -
 	- -
@@ -179,6 +188,7 @@ category:: #books
 	- -
 	- -
 		- a class should begin with a list of variables. Public static constants, if any, should come first. Then private static variables, followed by private instance variables. There is seldom a good reason to have a public variable. Public functions should follow the list of variables. We like to put the private utilities called by a public function right after the public function itself. #flashcard
+		  id:: ab899c1a-bd7c-4657-81b0-57e27dd60def
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3620](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3620))
 	- -
@@ -198,6 +208,7 @@ category:: #books
 	- -
 	- -
 		- SRP is one of the more important concept in OO design. It’s also one of the simpler concepts to understand and adhere to. #flashcard
+		  id:: 9faf8058-5c55-49dd-9beb-b21369d302ea
 		- ([Location 3718](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3718))
 	- -
 	- -
@@ -206,11 +217,13 @@ category:: #books
 	- -
 	- -
 		- If we promoted those four variables to instance variables of the class, then we could extract the code without passing any variables at all. #flashcard
+		  id:: 6967b2eb-5dc5-4693-9299-0b8a665e7dcd
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3761](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3761))
 	- -
 	- -
 		- One tiny step after another, the first program was cleaned up and transformed into the second. #flashcard
+		  id:: 00981205-7cb6-464a-bd2c-946245dfefb2
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3915](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3915))
 	- -
@@ -224,10 +237,12 @@ category:: #books
 	- -
 	- -
 		- Dependency Inversion Principle (DIP). #flashcard
+		  id:: d47346c0-bd55-48fa-bc51-e30edbdb4f59
 		- ([Location 4026](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=4026))
 	- -
 	- -
 		- rules: • Runs all the tests • Contains no duplication • Expresses the intent of the programmer • Minimizes the number of classes and methods #flashcard
+		  id:: 9e8e504e-cefd-497d-9636-7a9a3927668d
 		- ([Location 4447](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=4447))
 	- -
 	- -
@@ -241,10 +256,12 @@ category:: #books
 	- -
 	- -
 		- Once it’s “working,” they move on to the next task, leaving the “working” program in whatever state they finally got it to “work.” Most seasoned programmers know that this is professional suicide. #flashcard
+		  id:: 12201d76-b50f-4aeb-a929-be7829ca98be
 		- ([Location 5083](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=5083))
 	- -
 	- -
 		- the solution is to continuously keep your code as clean and simple as it can be. Never let the rot get started. #flashcard
+		  id:: 97f50cd6-d1c4-4897-a92e-853d9123773d
 		- tags:: [[blue]] [[azul]]
 		- ([Location 6464](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=6464))
 	- -

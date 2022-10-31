@@ -34,10 +34,12 @@ tags:: Self-Help
 	- -
 	- -
 		- Designers don’t think their way forward. Designers build their way forward. What does that mean? It means you are not just going to be dreaming up a lot of fun fantasies that have no relationship to the real world—or the real you. You are going to build things (we call them prototypes), try stuff, and have a lot of fun in the process. #flashcard
+		  id:: dac83a29-4c3a-4685-975f-f4667df1c075
 		- ([Location 273](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=273))
 	- -
 	- -
 		- We’re going to help you think like a designer and build your future, prototype by prototype. #flashcard
+		  id:: 7e851f12-c27b-4b7b-9b97-371e428d7a4b
 		- ([Location 277](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=277))
 	- -
 	- -
@@ -58,11 +60,13 @@ tags:: Self-Help
 	- -
 	- -
 		- You used to call this: destiny #flashcard
+		  id:: 17915bdd-118f-4992-b7ef-b61165b9d7fe
 			- What happens when you do these things? What happens when you engage in life design? Actually, something quite extraordinary happens. Things you want start to show up in your life. You start to hear of job openings you were dreaming about. People you were interested in meeting just happen to be in town. What is happening here? For starters, it’s that “getting good at being lucky” thing we mentioned earlier, a result of curiosity and awareness, and a by-product of using the five mind-sets. In addition, the process of discovering who you are and what you want has a rather extraordinary effect on your life. There will be effort and action involved, no doubt, but it will seem, rather surprisingly, as if everyone is conspiring to help you. And, by being aware of the process, you will have a lot of fun along the way.
 		- ([Location 355](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=355))
 	- -
 	- -
 		- You don’t know what to do. So that’s a problem that you have to face up and solve by designing a reliable model #flashcard
+		  id:: fa84952a-b617-4009-9c39-7eccb95d53f0
 			- Let’s face it, you’re not reading this book because you have all the answers, are in your dream job, and have a life imbued with more meaning and purpose than you can imagine. Somewhere, in some area of your life, you are stuck. You have a wicked problem. And that’s a wonderful and exciting place to start.
 		- tags:: [[mind]]
 		- ([Location 374](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=374))
@@ -110,11 +114,13 @@ tags:: Self-Help
 	- -
 	- -
 		- Dysfunctional Belief: Work is not supposed to be enjoyable; that’s why they call it work. Reframe: Enjoyment is a guide to finding the right work for you. #flashcard
+		  id:: f3d2feca-1abe-47c7-b716-63daa0d796c8
 		- tags:: [[mind]] [[pink]]
 		- ([Location 848](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=848))
 	- -
 	- -
 		- Instead of business school (which would probably have been a disaster, and an expensive one at that), Michael decided to double down on engineering. He ended up entering a Ph.D. program and is now a high-level civil and structural engineer, #flashcard
+		  id:: 922eebc7-a801-4241-bc21-302009779c5e
 		- ([Location 931](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=931))
 	- -
 	- -
@@ -136,6 +142,7 @@ tags:: Self-Help
 	- -
 	- -
 		- As a life designer, you need to embrace two philosophies: 1. You choose better when you have lots of good ideas to choose from. 2. You never choose your first solution to any problem. #flashcard
+		  id:: 491ac6cb-2e90-4f0f-8ac1-3b11827e288a
 		- tags:: [[pink]] [[blue]]
 		- ([Location 1162](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1162))
 	- -
@@ -164,6 +171,7 @@ tags:: Self-Help
 	- -
 	- -
 		- Think about alternative ways… 🤔 #flashcard
+		  id:: 9ea3e863-e446-4e3f-96c8-a1533a238f99
 			- There were lots of ways to do that—by helicopter, by river, and by foot. John’s chances of training successfully for the hike up and down that trail were about ten times better than his chances of ever tipping
 		- tags:: [[mind]] [[pink]]
 		- ([Location 1305](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=1305))
@@ -203,6 +211,7 @@ tags:: Self-Help
 	- -
 	- -
 		- You perfectly know what's better for you. And you have a safety net. #flashcard
+		  id:: 932183f9-0bfe-4418-9ca2-f0bce8eeef02
 			- Andy stopped thinking about the decision and grokked it. As he did so, he discovered that Med School Andy felt better
 		- tags:: [[mind]]
 		- ([Location 2497](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2497))

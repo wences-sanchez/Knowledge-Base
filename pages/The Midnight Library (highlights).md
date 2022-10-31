@@ -31,6 +31,7 @@ tags:: Literature
 	- -
 	- -
 		- If you have found a life you truly want to live, then you get to live it until you die of old age. #flashcard
+		  id:: dc151669-3c81-46ce-a578-6839438464c2
 		- ([Location 601](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=601))
 	- -
 	- -
@@ -70,6 +71,7 @@ tags:: Literature
 	- -
 	- -
 		- But the truth is that success is a delusion. It’s all a delusion. I mean, yes, there are things we can overcome. For instance, I am someone who gets stage fright and yet, here I am, on a stage. Look at me . . . on a stage! And someone told me recently, they told me that my problem isn’t actually stage fright. My problem is life fright. And you know what? They’re fucking right. Because life is frightening, and it is frightening for a reason, and the reason is that it doesn’t matter which branch of a life we get to live, we are always the same rotten tree. I wanted to be many things in my life. All kinds of things. But if your life is rotten, it will be rotten no matter what you do. The damp rots the whole useless thing . #flashcard
+		  id:: 77b2ec05-91ec-4fcc-83ad-454ef8b847c7
 		- ([Location 1652](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=1652))
 	- -
 	- -
@@ -80,14 +82,17 @@ tags:: Literature
 	- -
 	- -
 		- It’s you, Nora. You are giving up at the worst possible moment. You can’t give up, Nora. You have more to offer. More opportunities to have. There are so many versions of you out there. Remember how you felt after the polar bear. Remember how much you wanted life.’ #flashcard
+		  id:: 37b958dd-f016-40c6-ac62-fde1ceb35bcd
 		- ([Location 2628](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=2628))
 	- -
 	- -
 		- Equidistant. Equidistant. Equidistant. Not aligned to one bank or the other. That was how she had felt most of her life. Caught in the middle. Struggling, flailing, just trying to survive while not knowing which way to go. Which path to commit to without regret. #flashcard
+		  id:: ed962c5e-78ee-4e27-bf22-f0fa28197acf
 		- ([Location 2677](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=2677))
 	- -
 	- -
 		- ‘You might need to stop worrying about other people’s approval, Nora,’ Mrs Elm said in a whisper, for added power and intimacy. ‘You don’t need a permission slip to be your—’ ‘Yes. I get it.’ And she did get it. #flashcard
+		  id:: 9be6c27c-f964-46a9-b145-376a9d1c3533
 		- ([Location 2706](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=2706))
 	- -
 	- -
@@ -136,6 +141,7 @@ tags:: Literature
 	- -
 	- -
 		- ‘We only know what we perceive. Everything we experience is ultimately just our perception of it. “It’s not what you look at that matters, it’s what you see.”’ #flashcard
+		  id:: b4585ecf-9917-4a3c-bf49-a3744eae38f3
 		- ([Location 3052](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=3052))
 	- -
 	- -
@@ -170,10 +176,12 @@ tags:: Literature
 	- -
 	- -
 		- She didn’t need a vineyard or a Californian sunset to be happy. She didn’t even need a large house and the perfect family. She just needed potential. #flashcard
+		  id:: 5c0e223a-7f4d-48fe-88d8-c551e3509562
 		- ([Location 3726](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=3726))
 	- -
 	- -
 		- She didn’t want to die. And she didn’t want to live any other life than the one that was hers. #flashcard
+		  id:: 4de0e89a-d177-4fd4-87a7-df3dd9dd2f67
 		- ([Location 3730](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=3730))
 	- -
 	- -
@@ -182,10 +190,12 @@ tags:: Literature
 	- -
 	- -
 		- We can’t tell if any of those other versions would have been better or worse. Those lives are happening, it is true, but you are happening as well, #flashcard
+		  id:: 692d7209-becb-4ea5-b11d-f978541139b7
 		- ([Location 3810](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=3810))
 	- -
 	- -
 		- We don’t have to do everything in order to be everything, because we are already infinite. While we are alive we always contain a future of multifarious possibility. #flashcard
+		  id:: c3e7bf1f-c29b-4341-8b96-6183ddec1872
 		- ([Location 3819](https://readwise.io/to_kindle?action=open&asin=B08543NK7K&location=3819))
 	- -
 	- -

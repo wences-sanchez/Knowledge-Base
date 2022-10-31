@@ -12,6 +12,7 @@ category:: #books
 	- -
 	- -
 		- it’s your duty to report your concerns. If your clients choose to dismiss the report, that’s their prerogative. #flashcard
+		  id:: 4d809339-2115-44d0-8791-54726689977b
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 681](https://readwise.io/to_kindle?action=open&asin=B000S1LVBS&location=681))
 	- -
@@ -22,6 +23,7 @@ category:: #books
 	- -
 	- -
 		- The ideal situation (for testers) is one in which they’re so busy fixing the problems you’ve found that they, not you, are the bottleneck of the project. #flashcard
+		  id:: 2758128a-d0c9-4d8d-a3e9-df01949b18db
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 702](https://readwise.io/to_kindle?action=open&asin=B000S1LVBS&location=702))
 	- -
@@ -92,6 +94,7 @@ category:: #books
 	- -
 	- -
 		- pneumatic #flashcard
+		  id:: 6badcde5-ce7a-4c75-a049-71f235a95f21
 		- ([Location 1208](https://readwise.io/to_kindle?action=open&asin=B000S1LVBS&location=1208))
 	- -
 	- -

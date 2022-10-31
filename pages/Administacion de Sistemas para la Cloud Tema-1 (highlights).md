@@ -15,6 +15,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Es necesario que un devops tenga conocimientos de networking? #flashcard
+		  id:: 8565009b-998f-48fc-8e91-6e7ad34800d0
 			- Un  DevOps tendrá  que  combinar  sus  conocimientos  de  desarrollo  y  administración  con conocimientos de red, para establecer las conexiones adecuadas. Estos recursos de red  serán  en  muchos  casos  virtuales  y,  por lo  tanto,  también  deben  ser automatizados.
 		- (Page 6)
 	- -
@@ -39,6 +40,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Menciona las tareas propias de un administrador de sistema y también cómo éstas están divididas en sus respectivos roles. #flashcard
+		  id:: 16f00f21-1c8c-4a82-9c45-ed24ce522f96
 			- Muchos grupos de soporte de IT (information technology) dividen las tareas en roles. Esto facilita que cada rol cree una base de conocimiento profunda para resolver problemas y ejecutar tareas. Una separación de tareas en roles podría ser la siguiente:
 			  
 			  Servicios de usuario:
@@ -60,6 +62,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Qué representa la regla 90-8-2? #flashcard
+		  id:: 9fa21045-d704-47ac-8b7a-7855cf908168
 			- Un objetivo de los departamentos es tener una política 90-8-2:
 			  
 			  Los usuarios resuelven por sí mismos el 90 % de las incidencias.

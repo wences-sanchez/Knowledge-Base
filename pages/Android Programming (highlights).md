@@ -22,15 +22,18 @@ category:: #books
 	- -
 	- -
 		- match_parent view will be as big as its parent wrap_content view will be as big as its contents require #flashcard
+		  id:: 6cf284d9-1c37-47b8-a403-88ec01cb5dd7
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 850](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=850))
 	- -
 	- -
 		- setContentView(int layoutResID) #flashcard
+		  id:: 6d659088-b3b9-4426-b887-3f14ef9aa378
 		- ([Location 957](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=957))
 	- -
 	- -
 		- A resource is a piece of your application that is not code #flashcard
+		  id:: 71aa771e-06ac-4fb1-a9a0-730d37516e6a
 		- tags:: [[blue]] [[azul]]
 		- ([Location 961](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=961))
 	- -
@@ -58,6 +61,7 @@ category:: #books
 	- -
 	- -
 		- Model objects have no knowledge of the user interface; their sole purpose is holding and managing data. #flashcard
+		  id:: 7353f159-01a2-41f0-8017-0357ffe776e2
 		- ([Location 1347](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1347))
 	- -
 	- -
@@ -113,6 +117,7 @@ category:: #books
 	- -
 	- -
 		- startActivity(i); #flashcard
+		  id:: 7a0ac194-f60c-4586-ba73-65a9df63323b
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2693](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2693))
 	- -
@@ -174,6 +179,7 @@ category:: #books
 	- -
 	- -
 		- public View onCreateView(LayoutInflater inflater, ViewGroup container,             Bundle savedInstanceState) {         View v = inflater.inflate(R.layout.fragment_crime, container, false);         return v;     } #flashcard
+		  id:: d0559984-0ff2-4dfc-924f-1582eaa03eab
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3559](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3559))
 	- -

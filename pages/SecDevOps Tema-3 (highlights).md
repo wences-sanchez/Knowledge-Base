@@ -70,6 +70,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- a #flashcard
+		  id:: 51bc1e25-1db0-41fa-92b8-08e73e8b6e5b
 		- (Page 15)
 	- -
 	- -
@@ -104,6 +105,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Cómo se define una dirección MAC y cómo puede ser encontrada? #flashcard
+		  id:: 05c277c0-e43d-447a-8403-a0c2c12898f7
 			- La  dirección  MAC  está  físicamente  grabada  en  la  tarjeta  de  interfaz  de  red  de  un equipo y nunca cambia. En un entorno virtualizado, una NIC virtual recibe una MAC del hipervisor. Esto puede provocar que haya MAC duplicadas, ya que la asignación es  aleatoria,  pero  los  hipervisores  tienen  mecanismos  para  evitar  que  las  MAC  se repitan en una misma red virtual. En cualquier caso, la NIC virtual de una máquina virtual (VM) no suele cambiar a lo largo de su vida. Para conocer la dirección MAC del host remoto en una subred, el ordenador de origen envía un mensaje broadcast ARP preguntando qué host tiene dirección de IP. Debido a que es un mensaje broadcast, todos los hosts del segmento de red, que equivale a un dominio de broadcast, reciben este paquete y lo procesan.
 		- (Page 20)
 	- -
@@ -164,6 +166,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Cómo se establece la conexión entre un cliente y un servidor con ACKs? +++ #flashcard
+		  id:: aee1fcfd-f535-4c01-b7b1-83e3c5f5eb82
 			- El  cliente  inicia  la  conexión  y  envía  el  segmento  con  un  número  de  secuencia.  El servidor  lo  reconoce  con  su  propio  número  de  secuencia  y  ACK  del  segmento  del cliente, que es uno más que el número de secuencia del cliente. El cliente, después de recibir el ACK de su segmento, envía un acuse de recibo de la respuesta del servidor.
 		- (Page 34)
 	- -

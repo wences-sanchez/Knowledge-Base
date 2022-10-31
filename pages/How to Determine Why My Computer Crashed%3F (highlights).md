@@ -8,6 +8,7 @@ url:: https://unix.stackexchange.com/questions/38608/how-to-determine-why-my-com
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Where can I find my Debian logs if my laptop has just crashed? #flashcard
+		  id:: 0276fd06-1688-4344-b9e3-65a178ee7625
 			- You can find all messages in /var/log/syslog and in other /var/log/ files. Old messages are in /var/log/syslog.1, /var/log/syslog.2.gz etc. if logrotate is installed.
 			  
 			  However, if the kernel really locks up, the probability is low that you will find any related message.

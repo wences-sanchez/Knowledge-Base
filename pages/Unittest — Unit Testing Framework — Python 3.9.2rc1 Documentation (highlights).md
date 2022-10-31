@@ -14,6 +14,7 @@ url:: https://docs.python.org/3/library/unittest.html
 	- -
 	- -
 		- How do you call the setUp() function? #flashcard
+		  id:: f1359a26-be02-4b5d-bde6-5052f3d06316
 			- def setUp(self):
 			        events.append("setUp")
 		- tags:: [[python]]

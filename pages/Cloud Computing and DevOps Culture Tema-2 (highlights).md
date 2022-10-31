@@ -44,10 +44,12 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		-   Herramientas  software.  Por  otro  lado,  cuando  hablamos  de  herramientas software  nos  referimos  a  aplicaciones  específicas  que  pueden  habilitar  nuevos canales de comunicación y colaboración dentro de la organización. Si bien hay que destacar que las herramientas de software son solo herramientas y no podemos esperar  una  mejora  sustancial  en  la  productividad  solo  por  el  mero  hecho  de usarlas, sí es cierto que son aceleradores o, incluso en algunos casos, catalizadores de  la  actividad  y  del  cambio.  Si  bien  nos  referimos  a  estas  herramientas  como herramientas de colaboración, estas se centran en facilitar la comunicación y el intercambio de información. #flashcard
+		  id:: f399c571-dae0-4569-8697-334f567ef27d
 		- (Page 11)
 	- -
 	- -
 		- Segundo tipo de herramientas de colaboraci devops: Software. Explícala. #flashcard
+		  id:: 94434a76-8b10-4870-b100-e3babd859ad5
 			- ón
 		- (Page 11)
 	- -
@@ -58,21 +60,25 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Ejemplos de herramientas devops de colaboración metodológicas. #flashcard
+		  id:: 13084637-d7cf-4ea2-8ed1-41c4d1d1b127
 			- Dentro de este grupo, podemos encontrar las siguientes metodologías:   Adaptive Software Development (en siglas, ASD).   Crystal Clear.   Kanban.   Scrum.   Feature Driven Development (en siglas, FDD).   Extreme Programming (en siglas, XP).
 		- (Page 12)
 	- -
 	- -
 		- Problema recurrente en organizaciones #1: Procesos pensados para controlar y no para habilitar #flashcard
+		  id:: 06243ed6-5fd4-486a-81fd-d8847febfd66
 			- Desde el enfoque DevOps, debemos responder al interrogante de cómo se puede implementar  un  sistema  para  que  los  desarrolladores  puedan  acceder  de  forma eficiente y rápida a los recursos, con control y visibilidad. La respuesta, como es de esperar, será diferente a la de una empresa tradicional.
 		- (Page 22)
 	- -
 	- -
 		- Problema recurrente en organizaciones #2: Falta de visibilidad: #flashcard
+		  id:: 251b05f8-d153-4ee7-8f25-4b43db0ddfce
 			- una  buena  visibilidad  en  conjunto,  con  altos  niveles  de responsabilidad  y  compromiso,  permitirá  al  equipo  reaccionar  ante  cualquier situación y cambiar de rumbo, mientras que un control férreo ralentizará a todo el equipo y no garantiza un resultado exitoso.
 		- (Page 23)
 	- -
 	- -
 		- Problema recurrente en organizaciones #3: Poca capacidad de innovación: #flashcard
+		  id:: 407ebf2c-7223-42e8-a2b7-cf916135236d
 			- es importante que los equipos tengan la libertad para probar, cometer errores y aprender de ellos. En  esto  se  basa,  principalmente,  la  innovación,  así  que  trataremos  a  este  proceso como un proceso de definición/prueba/error/éxito/aprendizaje, un ciclo con tantas iteraciones como sean necesarias.
 		- (Page 23)
 	- -

@@ -14,10 +14,12 @@ tags:: Literature
 	- -
 	- -
 		- leyó también el deseo de recorrer el mundo. Un deseo que aún persistía, a pesar de las decenas de años que había intentado sepultarlo con agua, comida, y el mismo lugar para dormir todas las noches. #flashcard
+		  id:: fadcc85c-b4cd-4f18-81e8-99a519006306
 		- ([Location 192](https://readwise.io/to_kindle?action=open&asin=B00CSJYYO4&location=192))
 	- -
 	- -
 		- Aquel vendedor también deseó viajar cuando era niño; pero prefirió comprar un carrito para vender sus palomitas y así juntar dinero durante años. Cuando sea viejo, piensa pasar un mes en África. Jamás entendió que la gente siempre está en condiciones de realizar lo que sueña. #flashcard
+		  id:: 35ec4879-c903-4aa3-a982-c8bad7a0bcf0
 		- ([Location 356](https://readwise.io/to_kindle?action=open&asin=B00CSJYYO4&location=356))
 	- -
 	- -
@@ -37,6 +39,7 @@ tags:: Literature
 	- -
 	- -
 		- Why don't you stay? #flashcard
+		  id:: 6e5cccce-e7e2-43ca-bc6d-7f90587cd26c
 			- sabía que iba a sentir nostalgia de todo aquel tiempo y de todas las cosas buenas que había aprendido. Sin embargo, ahora tenía más confianza en sí mismo y ánimos para conquistar el mundo.
 		- tags:: [[mind]]
 		- ([Location 842](https://readwise.io/to_kindle?action=open&asin=B00CSJYYO4&location=842))

@@ -36,11 +36,13 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Qué es un volumen de tipo **hostPath**?´ #flashcard
+		  id:: 2a9fb023-8dfa-47f5-8742-04f1ef00b5ff
 			- Los volúmenes de tipo hostPath referenciarán un directorio o archivo específico del sistema de ficheros del nodo, permitiendo a los Pods que lo monten, acceder a su contenido en la ruta local especificada. Es importante tener en cuenta que dicha ruta será la misma en todos los nodos y deberemos saber previamente si existe o no, y si tenemos los permisos necesarios. Algunos ejemplos de casos de uso son:   El  contenedor  necesita  acceder  a la información interna  de  Docker   Se quiere ejecutar cAdvisor en el contenedor para el análisis de recursos (/sys) (/var/lib/Docker)
 		- (Page 9)
 	- -
 	- -
 		- INCLUIR IMAGEN #flashcard
+		  id:: cadcc46c-1b42-475a-9a91-821ab650fad1
 			- Kubernetes  nos  permite  desacoplar  el  método  de  almacenamiento  al  ocultar  la infraestructura  subyacente  a  los  desarrolladores.  Estos  últimos  solo  tendrán  que solicitar  la  cantidad  de  almacenamiento  requerido  para  sus  aplicaciones  y  será Kubernetes el encargado de ponerlo a disposición de los Pods. Por  lo tanto,  serán  los  administradores del  clúster  los  encargados  de  configurar el almacenamiento disponible, indicando el tamaño y los modos de acceso permitidos, y registrarlo en Kubernetes utilizando recursos de tipo PersistentVolume. Posteriormente, cuando un usuario necesite almacenamiento lo solicitará por medio de un manifiesto  PersistenVolumeClaim, indicando cuánta capacidad necesita y el modo de acceso requerido, y, finalmente, será Kubernetes el encargado de asociarle un PersistentVolume adecuado.
 		- (Page 13)
 	- -
@@ -51,6 +53,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- Antes de poder utilizar en los Pods el almacenamiento que acabamos de configurar, deberemos  reclamarlo  mediante  un  PersistentVolumentClaim.  Este  proceso  se realiza de forma previa e independiente a la creación de los Pods. A diferencia de los PersistentVolume  que  eran  globales  al  clúster,  estos  objetos  de  reclamo  o  claims existen a nivel de Namespace. Esto quiere decir que solo los Pods creados en dicho Namespace podrán utilizarlo. Para hacer esta solicitud de almacenamiento crearemos un fichero en formato YAML con su definición, en la que indicaremos la cantidad de almacenamiento requerido, así como los modos de acceso #flashcard
+		  id:: 2c2447bc-5fcb-4286-a031-71ae9f62382f
 		- (Page 16)
 	- -
 	- -

@@ -52,6 +52,7 @@ tags:: O'Reilly-Learning
 	- Deactivating the virtual environment
 		- -
 			- Which of the following commands creates a new app named books in Django? #flashcard
+			  id:: a2dceae4-6825-4e58-8a98-b9c3a4af3ced
 				- django startapp books
 				  python django.py startapp books
 				  python manage.py startapp books
@@ -68,6 +69,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- How do you stop a virtual environment of Python in Windows? #flashcard
+			  id:: 454e2e93-50ad-4e3e-881a-cc13f626edbe
 				- In Windows PowerShell, you have to run the Deactivate.ps1 script in the Scripts folder.
 		- -
 	- Understanding Django folders, files, and configurations

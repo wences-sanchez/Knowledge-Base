@@ -33,6 +33,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Although this is a useful technique, be careful that your programmer’s instinct to reduce duplication at all costs doesn’t take over here.[17] If you move too much of the text of a step into the examples table, it can be very hard to read the flow of the scenario. Remember your goal is readability, so don’t take this too far, and always test your features by getting other people to regularly read them and give you feedback. #flashcard
+			  id:: bb2b387f-99db-4b31-ba06-63dae970de17
 		- -
 	- Working Together
 		- -
@@ -75,6 +76,7 @@ tags:: O'Reilly-Learning
 	- Caring for Your Tests
 		- -
 			- It might seem like stating the obvious, but having a lot of scenarios is by far the easiest way to give yourself a slow overall feature run. We’re not trying to suggest you give up on BDD and go back to cowboy coding, but we do suggest you treat a slow feature run as a red flag. Having lots of tests has other disadvantages than just waiting a long time for feedback. It’s hard to keep a large set of features organized, making them awkward for readers to navigate around. Maintenance is also harder on the underlying step definitions and support code.
+			  id:: 4bc2045a-987e-4bb4-b676-10aed8b6e8bc
 			  
 			  We find that teams that have a single humongous build also tend to have an architecture that could best be described as a big ball of mud. #flashcard
 		- -
@@ -86,6 +88,7 @@ tags:: O'Reilly-Learning
 	- Sketching Out the Domain Model
 		- -
 			- Es mejor terminar de testear los steps del escenario que zambullirse en el TDD (un test funcional [escenario] fallido —> un nuevo ciclo en TDD) #flashcard
+			  id:: 412e1b47-6d54-4d61-9e78-5adbfd773785
 				- It’s tempting to pause here, move the Account class into a separate file, and start driving out the behavior we want using unit tests. We’re going to try to resist that temptation for now and stay on the outside of the Account class. If we can get a full tour through the scenario from this perspective, we’ll be more confident in the design of the class’s interface once we do step inside and start implementing it.
 		- -
 	- Removing Duplication with Transforms

@@ -52,16 +52,19 @@ category:: #books
 	- -
 	- -
 		- Dim itemName As String #flashcard
+		  id:: 78c2e356-8313-47df-b798-47e659849cb4
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3175](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3175))
 	- -
 	- -
 		- Dim squaredValue As Double = perItemCost ^ 2 #flashcard
+		  id:: d79d3ed0-5953-4041-8575-2ddf7bff1b38
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3284](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3284))
 	- -
 	- -
 		- The two concatenation operators are + for C# and & for VB. #flashcard
+		  id:: ed91cf3c-1705-427f-b14a-9831ee396988
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3290](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3290))
 	- -
@@ -72,6 +75,7 @@ category:: #books
 	- -
 	- -
 		- Dim itemNames(1) As String #flashcard
+		  id:: da230f01-6493-4796-ab16-bc436d7c051d
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3435](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3435))
 	- -
@@ -122,6 +126,7 @@ category:: #books
 	- -
 	- -
 		- For Each item As String In collection.Count #flashcard
+		  id:: 27c702f5-4494-41e7-8d0c-7bbfcb5c2edf
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3792](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3792))
 	- -
@@ -132,6 +137,7 @@ category:: #books
 	- -
 	- -
 		- string[] words = sentenceToParse.Split(' ' #flashcard
+		  id:: 34c5ca62-b276-4112-9af7-6b8c6c396916
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3869](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3869))
 	- -
@@ -142,6 +148,7 @@ category:: #books
 	- -
 	- -
 		- Public Class Item     Public Sub New() #flashcard
+		  id:: 0d66089c-f4b2-44d5-8423-5acdfad6d689
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 4109](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4109))
 	- -
@@ -167,6 +174,7 @@ category:: #books
 	- -
 	- -
 		- mainTextBox.Text = "I am text for the textbox #flashcard
+		  id:: a621ca16-7b19-4a05-9adc-83f1723349fb
 		- ([Location 4343](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4343))
 	- -
 	- -
@@ -189,6 +197,7 @@ category:: #books
 	- -
 	- -
 		- x => x.Property1 #flashcard
+		  id:: 83488544-5331-44fa-a708-777006c466ef
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 5304](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5304))
 	- -
@@ -231,6 +240,7 @@ category:: #books
 	- -
 	- -
 		- Everything within these curly brackets replaces the @RenderSection command. #flashcard
+		  id:: 834b40a6-d6e3-4b5c-95c7-35a201182390
 		- tags:: [[blue]] [[azul]]
 		- ([Location 6493](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6493))
 	- -
@@ -256,6 +266,7 @@ category:: #books
 	- -
 	- -
 		- by prefacing the URL with the forward slash character (/), you are telling the system to start from the server root #flashcard
+		  id:: 27352904-8d93-4686-ac8f-740fda886b57
 		- tags:: [[blue]] [[azul]]
 		- ([Location 6794](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6794))
 	- -
@@ -274,6 +285,7 @@ category:: #books
 	- -
 	- -
 		- you have to ensure that you avoid the type of method overloading that you can do in traditional C# development. #flashcard
+		  id:: 4c9bb6a8-a61a-4543-9c4a-35618dc20d29
 		- tags:: [[blue]] [[azul]]
 		- ([Location 7226](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7226))
 	- -
@@ -346,6 +358,7 @@ category:: #books
 	- -
 	- -
 		- Note that the code flow was stopped after the Add method was called but before the calling of the SaveChanges method, and how the Id value is shown as 0. #flashcard
+		  id:: 28b9e34a-516b-4066-807a-73efb191cd11
 		- ([Location 8409](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8409))
 	- -
 	- -
@@ -369,5 +382,6 @@ category:: #books
 	- -
 	- -
 		- nLog Logging Levels #flashcard
+		  id:: 2b31f7a2-d839-441f-81ec-87afacfee1fc
 		- ([Location 16979](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=16979))
 	- -

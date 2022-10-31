@@ -29,10 +29,12 @@ category:: #books
 	- Hostnames
 		- -
 			- A computer's hostname is an easy-to-read (for humans) method of identifying a device on the network. Each device's hostname is configured by the system administrator. The hostname may be reflective of the role that the device is performing; for example, MXServer for a mail exchange server, DC1 for a domain controller, and so on. They may follow a set naming convention; I have worked in organizations that name file servers after Star Wars characters, and print servers after Star Trek characters. This is useful if everyone is a fan of these two movie and TV franchises. #flashcard
+			  id:: 69df6c9c-9899-4d34-bc8c-8f982bbbd6f8
 		- -
 	- IP addresses
 		- -
 			- About IPs structure #flashcard
+			  id:: 5e94a960-a9d0-4604-ad69-208347a59840
 				- An IPv4 address is broken down into two sections:
 				  
 				  A network element

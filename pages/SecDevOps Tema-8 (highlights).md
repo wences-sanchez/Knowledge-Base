@@ -10,6 +10,7 @@ tags:: SecDevOps UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Qué es Kubernetes? #flashcard
+		  id:: cc321da4-b71d-4067-80e9-9aef957220c6
 			- Kubernetes  es  un  sistema  que  automatiza  el  despliegue,  el  escalado  y  la administración  de  aplicaciones  diseñadas  como  contenedores.  Un  clúster  de Kubernetes está formado por múltiples nodos (que pueden ser físicos o virtuales) en
 		- (Page 4)
 	- -
@@ -25,6 +26,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Además, todos los contenedores en un  pod comparten la interfaz de red de bucle invertido  (el  loopback),  por  lo  que  un  contenedor  puede  comunicarse  con  otros contenedores en el mismo pod a través de localhost. #flashcard
+		  id:: 6122b3f1-2e90-4cae-bdb4-639610d456fb
 		- (Page 6)
 	- -
 	- -
@@ -33,11 +35,13 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Cómo se pueden seleccionar los pods y exponer servicios al exterior, con Kubernetes? #flashcard
+		  id:: f9eb6ed0-1e51-4511-96eb-5498a279daf0
 			- La selección de pod se hace con etiquetas: el servicio wordpress tiene la propiedad  selector, que indica dos  etiquetas:  app=wordpress y  tier=frontend. La definición de los pods de WordPress incluía esas dos etiquetas. La  misma  técnica  se  usa  con  el  servicio  y  el  pod  de  MySQL,  pero  con  etiquetas diferentes. Kubernetes ofrece varios métodos para exponer servicios al exterior: mediante un servicio de tipo NodePort, un servicio de tipo LoadBalancer o mediante un Ingress, que es otro tipo de recurso que trabaja junto al servicio.
 		- (Page 14)
 	- -
 	- -
 		- ¿En qué consiste el servicio NodePort de Kubernetes? #flashcard
+		  id:: d5568d20-083d-4124-a273-189dfab97e8f
 			- El primer método para exponer un conjunto de pods a clientes externos es crear un servicio  y  establecer  su  tipo  como  NodePort.  Al  crear  un  servicio  NodePort, Kubernetes reserva un puerto en todos sus nodos, el mismo número de puerto en todos ellos, y reenvía las conexiones entrantes en esos puertos a los pods que forman parte del servicio. Esta reserva del puerto es similar a un servicio normal de tipo  ClusterIP, pero un servicio  NodePort  es  accesible  no  solo  a  través  de  la  IP  interna  del  clúster,  sino también a través de la IP de cualquier nodo. Estas IP no pertenecen a la red de los pods, sino a la subred a la que están conectadas las interfaces de los nodos y, por tanto, son accesible desde fuera del clúster.
 		- (Page 14)
 	- -

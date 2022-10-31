@@ -10,10 +10,12 @@ tags:: Contenedores UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Cuando ejecutemos comandos con kubectl para crear o actualizar un Deployment, podremos  especificar  la  opción  --record  para  anotar  en  el  recurso  el  comando ejecutado.  Esta  información  se  guardaría  en  la  anotación  kubernetes.io/change cause y podrá ser consultada en el histórico de las revisiones del Deployment. $ kubectl create -f nginx-deployment.yaml --record deployment "nginx-deployment" created $ kubectl apply -f nginx-deployment.yaml --record #flashcard
+		  id:: 29e2ce31-2d8f-48a0-821d-876301059b4c
 		- (Page 7)
 	- -
 	- -
 		- ¿Con qué comando de Kubernetes puedes comprobar el estado de un despliegue? #flashcard
+		  id:: 58a304b5-6b37-4eb4-8515-0fb9156e4491
 			- Una  vez  ejecutado  un  comando  de  creación  o  actualización  del  Deployment, podemos consultar el estado en que se encuentra el despliegue de los Pods con el comando kubectl rollout status.
 		- (Page 7)
 	- -

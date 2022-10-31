@@ -48,6 +48,7 @@ category:: #books
 	- -
 	- -
 		- la vida consiste en decidir lo que vamos a ser, lo que implica una permanente orientación hacia lo que vendrá. #flashcard
+		  id:: b2ba929c-78aa-4d47-a078-03aaae70d475
 		- ([Location 886](https://readwise.io/to_kindle?action=open&asin=B078LCJQ3N&location=886))
 	- -
 	- -

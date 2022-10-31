@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- Introduction
 		- -
 			- but in reality, most of our work as test professionals is constrained by time (and often money) too. For this reason, I suggest time constraints for each exercise #flashcard
+			  id:: b61a64b5-c235-4357-b4eb-fd0857950e91
 		- -
 	- 1. What Does It Mean to Be Pragmatic?
 		- -
@@ -21,6 +22,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What does “efficient” mean? #flashcard
+			  id:: f24e69d1-abeb-4cdf-a118-66c11eb06526
 				- Likewise, Webster’s defines efficient as “productive of the desired effect; especially to be productive without waste.” So, to be an efficient tester, you must allocate resources (time and money) appropriately.
 		- -
 		- -
@@ -48,6 +50,7 @@ tags:: O'Reilly-Learning
 	- 12. Use Cases, Live Data, and Decision Tables
 		- -
 			- What techniques should you combine with Equivalence Classes? #flashcard
+			  id:: c0561214-3772-427b-8eb8-1074f4d0566f
 				- You can and should combine the use case and scenario technique with equivalence classes to make sure that every equivalence class is covered. You can also use boundary value analysis to create challenging tests.
 		- -
 		- -

@@ -14,6 +14,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- How could you add tags to a resource in Terraform (e.g. an AWS instance)? #flashcard
+			  id:: 4b5bf5a0-70ee-479d-af99-147889b2cca0
 				- resource "aws_instance" "example" {
 				  ami           = "ami-0c55b159cbfafe1f0"
 				  instance_type = "t2.micro"
@@ -47,6 +48,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example of a variable declaration. #flashcard
+			  id:: 166f66b0-1cff-47be-9ae6-0a3729ce8beb
 				- variable "list_example" {
 				  description = "An example of a list in Terraform"
 				  type        = list
@@ -55,6 +57,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- The following are some of the best resources I’ve found on DevOps and infrastructure as code, including books, blog posts, newsletters, and talks.
+			  id:: a7332bc6-2a57-4458-8fb2-74ddb8253441
 			  
 			  Books
 			  Infrastructure as Code: Managing Servers in the Cloud by Kief Morris (O’Reilly)
@@ -101,9 +104,11 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- The idea behind immutable infrastructure is similar: once you’ve deployed a server, you never make changes to it again. If you need to update something, such as deploy a new version of your code, you create a new image from your server template and you deploy it on a new server. Because servers never change, it’s a lot easier to reason about what’s deployed. #flashcard
+			  id:: 7d2277be-512b-4130-b2da-4b2d387ed471
 		- -
 		- -
 			- An expression in Terraform is anything that returns a value. You’ve already seen the simplest type of expressions, literals, such as strings (e.g., "ami-0c55b159cbfafe1f0") and numbers (e.g., 5). Terraform supports many other types of expressions #flashcard
+			  id:: ec04feb8-bf0f-4574-848d-5a44a7c38759
 		- -
 		- -
 			- About output variables in Terraform. #flashcard
@@ -127,6 +132,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- How can you use a reference of an attribute in Terraform? #flashcard
+			  id:: 05c68e4d-f22c-4247-92c5-1e5a2c9afb81
 				- One particularly useful type of expression is a reference, which allows you to access values from other parts of your code. To access the ID of the security group resource, you are going to need to use a resource attribute reference, which uses the following syntax:
 				  
 				  <PROVIDER>_<TYPE>.<NAME>.<ATTRIBUTE>
@@ -155,6 +161,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About how can AWS ease with automated scalability. #flashcard
+			  id:: 0f380625-0219-48ee-8714-dd22e56f6cef
 				- Managing such a cluster manually is a lot of work. Fortunately, you can let AWS take care of it for by you using an Auto Scaling Group (ASG), as shown in Figure 2-9. An ASG takes care of a lot of tasks for you completely automatically, including launching a cluster of EC2 Instances, monitoring the health of each Instance, replacing failed Instances, and adjusting the size of the cluster in response to load.
 		- -
 		- -
@@ -187,6 +194,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About referring to the documentation of Terraform. #flashcard
+			  id:: ff8dee78-2dd0-4fe8-8e3e-e5a4fb4e9881
 				- Terraform supports dozens of providers, each of which supports dozens of resources, and each resource has dozens of arguments. There is no way to remember them all. When you’re writing Terraform code, you should be regularly referring to the Terraform documentation to look up what resources are available and how to use each one. For example, here’s the documentation for the aws_instance resource. I’ve been using Terraform for years and I still refer to these docs multiple times per day!
 		- -
 		- -
@@ -200,6 +208,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example of data source use in Terraform. #flashcard
+			  id:: bde413a8-a59a-4dfc-90db-767b8b01af1e
 				- data.<PROVIDER>_<TYPE>.<NAME>.<ATTRIBUTE>
 				  For example, to get the ID of the VPC from the aws_vpc data source, you would use the following:
 				  
@@ -210,6 +219,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- When you’re done experimenting with Terraform, either at the end of this chapter, or at the end of future chapters, it’s a good idea to remove all of the resources you created so that AWS doesn’t charge you for them. Because Terraform keeps track of what resources you created, cleanup is simple. All you need to do is run the destroy command: #flashcard
+			  id:: 3a681348-49c6-44d3-a2cc-e52a285f3e12
 		- -
 		- -
 			- How does the Terraform output specify the results? #flashcard
@@ -217,6 +227,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Note that later in the book, you will continue to develop this example, so don’t delete the Terraform code! However, feel free to run destroy on the actual deployed resources whenever you want. After all, the beauty of infrastructure as code is that all of the information about those resources is captured in code, so you can re-create all of them at any time with a single command: terraform apply. In fact, you might want to commit your latest changes to Git so that you can keep track of the history of your infrastructure. #flashcard
+			  id:: 56580c6d-47dc-401f-bf68-0d6f11543863
 		- -
 		- -
 			- To actually create the Instance, run the terraform apply command: #flashcard
@@ -248,5 +259,6 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- How do you interpolate a variable in Terraform? #flashcard
+			  id:: e4fe1fd7-da94-428e-aea9-87e961e66bf8
 				- "${...}"
 		- -

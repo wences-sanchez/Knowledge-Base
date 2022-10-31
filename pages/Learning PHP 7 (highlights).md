@@ -12,6 +12,7 @@ category:: #books
 	- -
 	- -
 		- You will probably get the Vagrant configuration from a public repository, and if this configuration ever changes, you can get the changes and reprovision your machine. It's easy, right? #flashcard
+		  id:: 273cf50d-5a62-41d6-94f7-8240750504d7
 		- ([Location 387](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=387))
 	- -
 	- -
@@ -20,6 +21,7 @@ category:: #books
 	- -
 	- -
 		- HTTP stands for HyperText Transfer Protocol. As any other protocol, the goal is to allow two entities or nodes to communicate with each other. #flashcard
+		  id:: af04959e-5d5f-44fd-bde4-96187d9a2824
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 578](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=578))
 	- -
@@ -40,6 +42,7 @@ category:: #books
 	- -
 	- -
 		- The HTTP method is the verb of the message. #flashcard
+		  id:: bca4a194-06e7-43bb-903b-3ec4998d8fa6
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 599](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=599))
 	- -
@@ -50,6 +53,7 @@ category:: #books
 	- -
 	- -
 		- POST: This means that the sender wants to perform an action that will update the data that the receiver is holding. For example, the sender can ask the receiver to update his profile name. #flashcard
+		  id:: 0e314903-ac60-4ea5-99f1-b30dfd1bbd3e
 		- tags:: [[blue]] [[azul]]
 		- ([Location 602](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=602))
 	- -
@@ -126,11 +130,13 @@ category:: #books
 	- -
 	- -
 		- There are powerful web servers that support high loads of traffic, such as Apache or Nginx, #flashcard
+		  id:: 90efd906-1e84-4864-8537-a38a80f1f477
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 709](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=709))
 	- -
 	- -
 		- El servidor web (en este caso el embebido) busca el fichero index.php primero #flashcard
+		  id:: e15c8a03-6ac6-4dad-83a9-9710f8678f6a
 			- $ php -S localhost:8000
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 723](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=723))
@@ -146,6 +152,7 @@ category:: #books
 	- -
 	- -
 		- <?php   echo 'hello world'; ?> bye world #flashcard
+		  id:: 74e16ae0-c2b7-4eea-9be3-496b07c1ebc1
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 771](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=771))
 	- -
@@ -160,6 +167,7 @@ category:: #books
 	- -
 	- -
 		- require: This will do the same as include, but PHP will throw an error instead of a warning if the file is not found. #flashcard
+		  id:: 0b25d837-aa4f-4669-aafc-221cc88062e6
 		- tags:: [[blue]] [[azul]]
 		- ([Location 780](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=780))
 	- -
@@ -192,6 +200,7 @@ category:: #books
 	- -
 	- -
 		- $1number = 12.3; // not valid! #flashcard
+		  id:: 64f2a5f1-2bdb-4c18-a747-ba7fa62d1435
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 811](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=811))
 	- -
@@ -210,6 +219,7 @@ category:: #books
 	- -
 	- -
 		- The == (equals) operator evaluates two expressions after type juggling, that is, it will try to transform both expressions to the same type, and then compare them. Instead, the === (identical) operator evaluates two expressions without type juggling, so even if they look the same, if they are not of the same type, the comparison will return false. The same applies to != or <> (not equal to) and !== (not identical): #flashcard
+		  id:: c64eee72-ce6e-4a31-8ab9-b69e1a4deeb2
 		- tags:: [[blue]] [[azul]]
 		- ([Location 879](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=879))
 	- -
@@ -219,6 +229,7 @@ category:: #books
 	- -
 	- -
 		- strlen: This function returns the number of characters that the string contains. #flashcard
+		  id:: 97d9277e-1a02-4426-abc6-9715ef6646ea
 		- tags:: [[blue]] [[azul]]
 		- ([Location 960](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=960))
 	- -
@@ -234,6 +245,7 @@ category:: #books
 	- -
 	- -
 		- str_replace: This function replaces all occurrences of a given string by the replacement string. #flashcard
+		  id:: 2654eaea-bddf-4e0a-b64f-189c9777c340
 		- tags:: [[blue]] [[azul]]
 		- ([Location 963](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=963))
 	- -
@@ -249,6 +261,7 @@ category:: #books
 	- -
 	- -
 		- there is an operator for strings (.) which concatenates two strings #flashcard
+		  id:: 68636a4a-f205-4914-9fb4-ff08ed4e1216
 		- tags:: [[blue]] [[azul]]
 		- ([Location 967](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=967))
 	- -
@@ -259,6 +272,7 @@ category:: #books
 	- -
 	- -
 		- $status1 = [     'name' => 'James Potter',     'status' => 'dead' ]; $status2 = array(     'name' => 'James Potter',     'status' => 'dead' ); #flashcard
+		  id:: 84cdacac-4d63-4a82-b007-b244d62511fa
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 999](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=999))
 	- -
@@ -311,6 +325,7 @@ category:: #books
 	- -
 	- -
 		- $wheresVoldemort = array_search('Voldemort', $names); #flashcard
+		  id:: 4c05bc5e-c29c-4340-a26a-0ec1eb222959
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1068](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1068))
 	- -
@@ -321,6 +336,7 @@ category:: #books
 	- -
 	- -
 		- asort orders the values in the same way, but keeps the association of key-values. #flashcard
+		  id:: 2d6aa8a2-1dd0-43e4-b037-a22d46ba2e3b
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1112](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1112))
 	- -
@@ -335,6 +351,7 @@ category:: #books
 	- -
 	- -
 		- We can get a list of the keys of the array with array_keys, and a list of its values with array_values: #flashcard
+		  id:: f288d00b-7b24-4991-9b26-55fbf419d219
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1124](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1124))
 	- -
@@ -368,11 +385,13 @@ category:: #books
 	- -
 	- -
 		- <?php else: ?> #flashcard
+		  id:: ef6a49e9-f5f0-4d0e-9245-a4c11e32c3ee
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1296](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1296))
 	- -
 	- -
 		- <?php endif; ?> #flashcard
+		  id:: 959dce77-8551-4778-94ed-656831dd1548
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1297](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1297))
 	- -
@@ -398,6 +417,7 @@ category:: #books
 	- -
 	- -
 		- As you can see, you can declare the arguments without knowing what their types are, so PHP would not be able to decide which function to use. #flashcard
+		  id:: 7a8871c9-5343-4a69-9784-8cbfeb67d006
 		- ([Location 1417](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1417))
 	- -
 	- -
@@ -421,6 +441,7 @@ category:: #books
 	- -
 	- -
 		- function addNumbers(int $a, int $b, bool $printSum): int { #flashcard
+		  id:: bcc3a7b9-d377-4215-9baf-e06f58fbc32e
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1467](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1467))
 	- -
@@ -431,6 +452,7 @@ category:: #books
 	- -
 	- -
 		- $booksJson = json_encode($books); #flashcard
+		  id:: e7ba948c-283f-4f10-ae38-18b967f20f72
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1569](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1569))
 	- -
@@ -446,6 +468,7 @@ category:: #books
 	- -
 	- -
 		- rules. Each time you reference a class that PHP does not know about, it will ask the autoloader. If the autoloader can figure out which file that class is in, it will load it, and the execution of the program will continue as normal. If it does not, PHP will stop the execution. #flashcard
+		  id:: 7aecf990-2c3a-4fb8-aeec-4e0724282b07
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 1868](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1868))
 	- -
@@ -466,6 +489,7 @@ category:: #books
 	- -
 	- -
 		- interface Customer { #flashcard
+		  id:: 100b8cba-3e9f-4507-8ded-0897b1b2c186
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2073](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=2073))
 	- -

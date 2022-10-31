@@ -15,6 +15,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- En este sentido, el fundamento de la metodología ágil es que, si podemos empezar a desarrollar  o  construir,  hay  que  empezar  cuanto  antes,  sin  dejar  que las incertidumbres  paralicen  la  toma  de  decisiones,  y  tratar  de  buscar  una  entrega temprana del valor de negocio. #flashcard
+		  id:: 553bec8a-34a1-4e23-9efd-275a573ebf1e
 		- (Page 9)
 	- -
 	- -

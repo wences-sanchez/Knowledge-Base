@@ -10,6 +10,7 @@ tags:: Herramientas-DevOps UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Ejemplo de código en Terraform #flashcard
+		  id:: 819e3d5e-5912-4fcf-8f64-25789f050ff1
 			- resource "aws_instance" "example" {  ami = "ami‐b374d5a5"  instance_type = "t2.micro"  provisioner "local‐exec" {  command = "echo ${aws_instance.example.public_ip} >  ip_address.txt"   } }
 		- (Page 6)
 	- -
@@ -33,6 +34,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Para usarla, reemplaza aws_instance con lo siguiente: resource "aws_instance" "example" {  ami = "${lookup(var.amis, var.region)}"  instance_type = "t2.micro" } Esto introduce un nuevo tipo de interpolación: llamada a función. La función lookup hace una búsqueda dinámica en un mapa a partir de una clave. La clave es var.region, que especifica que el valor var.region es la clave. También puedes hacer una búsqueda estática de un mapa directamente con:  ${var.amis [" us‐east‐1 "]}. #flashcard
+		  id:: addafbe6-db25-4848-910a-e2a1709b122c
 		- (Page 13)
 	- -
 	- -

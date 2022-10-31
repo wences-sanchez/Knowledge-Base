@@ -37,11 +37,13 @@ category:: #books
 	- -
 	- -
 		- Exhaustive enumeration is a search technique that works only if the set of values being searched includes the answer. #flashcard
+		  id:: 3438c0d6-9f59-40ea-8c35-c7fc078b939b
 		- tags:: [[pink]]
 		- ([Location 1597](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=1597))
 	- -
 	- -
 		- Bisección #flashcard
+		  id:: 8f699504-181f-46ef-83cb-67d74070bd88
 			- notice that at each iteration of the loop, the size of the space to be searched is cut in half. For this reason, the algorithm is called bisection search. Bisection search is a huge improvement over our earlier algorithm, which reduced the search space by only a small amount at each iteration.
 		- tags:: [[cs]] [[blue]]
 		- ([Location 1666](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=1666))
@@ -53,6 +55,7 @@ category:: #books
 	- -
 	- -
 		- Name Scalar and Structured types in Python. #flashcard
+		  id:: 8c144eaf-66b7-4b16-b59d-a7ac8021d18a
 			- The numeric types int and float are scalar types. That is to say, objects of these types have no accessible internal structure. In contrast, str can be thought of as a structured, or non-scalar, type. We can use indexing to extract individual characters from a string and slicing to extract substrings.
 		- ([Location 2367](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2367))
 	- -
@@ -98,6 +101,7 @@ category:: #books
 	- -
 	- -
 		- The key difference (other than the use of set braces rather than square braces) is that it uses two values to create each element of the dictionary, and allows (but does not require) the #flashcard
+		  id:: 9c481c75-68a3-437f-9281-edf4b3ce5249
 		- ([Location 2982](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2982))
 	- -
 	- -
@@ -111,6 +115,7 @@ category:: #books
 	- -
 	- -
 		- Tip for unit tests #flashcard
+		  id:: 2c4267bb-91cc-4037-81dc-79467556cec6
 			- It will work most of the time, but not when L1 and L2 refer to the same list. Any test suite that did not include a call of the form copy(L, L), would not reveal the bug.
 		- ([Location 3595](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3595))
 	- -
@@ -126,6 +131,7 @@ category:: #books
 	- -
 	- -
 		- Why is Functional Testing harder #flashcard
+		  id:: b7c5566f-262b-4b93-bfaa-97923a99763a
 			- Functional testing is almost always the most challenging phase. The intended behavior of an entire program is considerably harder to characterize than the intended behavior of each of its parts. For example, characterizing the intended behavior of a word processor is considerably more challenging than characterizing the behavior of the subsystem that counts the number of characters in a document.
 		- ([Location 3653](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3653))
 	- -
@@ -136,6 +142,7 @@ category:: #books
 	- -
 	- -
 		- Difference between 'overt' and 'covert' bugs #flashcard
+		  id:: 5f95a380-6ec1-405b-9488-ed242293fefa
 			- Overt → covert: An overt bug has an obvious manifestation, e.g., the program crashes or takes far longer (maybe forever) to run than it should. A covert bug has no obvious manifestation. The program may run to conclusion with no problem—other than providing an incorrect answer.
 		- ([Location 3702](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3702))
 	- -
@@ -146,11 +153,13 @@ category:: #books
 	- -
 	- -
 		- Steps for debugging #flashcard
+		  id:: c88f4754-eb31-4b29-a580-cf8e7046df36
 			- Start by studying the available data. This includes the test results and the program text. Study all of the test results. Examine not only the tests that revealed the presence of a problem, but also those tests that seemed to work perfectly. Trying to understand why one test worked and another did not is often illuminating. When looking at the program text, keep in mind that you don't completely understand it. If you did, there probably wouldn't be a bug. Next, form a hypothesis that you believe to be consistent with all the data. The hypothesis could be as narrow as “if I change line 403 from x < y to x <= y, the problem will go away” or as broad as “my program is not working because I forgot about the possibility of aliasing in multiple places.” Next, design and run a repeatable experiment with the potential to refute the hypothesis. For example, you might put a print statement before and after each loop. If these are always paired, then the hypothesis that a loop is causing nontermination has been refuted. Decide before running the experiment how you would interpret various possible results. All humans are subject to what psychologists call confirmation bias—we interpret information in a way that reinforces what we want to believe. If you wait until after you run the experiment to think about what the results should be, you are more likely to fall prey to wishful thinking. Finally, keep a record of what experiments you have tried. When you've spent many hours changing your code trying to track down an elusive bug, it's easy to forget what you have already tried. If you aren't careful, you can waste way too many hours trying the same experiment (or more likely an experiment that looks different but will give you the same information) over and over again.
 		- ([Location 3738](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3738))
 	- -
 	- -
 		- How to use the bisection search to better debugging #flashcard
+		  id:: 431feb6a-76c3-475a-85b2-91e827f40c58
 			- Often the best way to do this is to conduct a bisection search. Find some point about halfway through the code, and devise an experiment that will allow you to decide if there is a problem before that point that might be related to the symptom.
 		- ([Location 3777](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3777))
 	- -
@@ -166,6 +175,7 @@ category:: #books
 	- -
 	- -
 		- Stop debugging and start writing documentation. This will help you approach the problem from a different perspective. #flashcard
+		  id:: cb5d1a04-239b-4705-88a1-3f43550b375a
 		- tags:: [[pink]]
 		- ([Location 3853](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3853))
 	- -
@@ -181,6 +191,7 @@ category:: #books
 	- -
 	- -
 		- What is an abstract data type? #flashcard
+		  id:: cabf8ebe-464f-42b8-8e84-40e2d89088b9
 			- An abstract data type is a set of objects and the operations on those objects.
 		- ([Location 4149](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4149))
 	- -

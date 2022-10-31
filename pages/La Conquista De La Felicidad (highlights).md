@@ -16,6 +16,7 @@ tags:: Self-Help
 	- -
 	- -
 		- Cuando empiece usted a sentir remordimientos por un acto que su razón le dice que no es malo, examine las causas de su sensación de remordimiento y convénzase con todo detalle de que es absurdo. Permita que sus creencias conscientes se hagan tan   vivas e insistentes que dejen una marca en su subconsciente lo bastante fuerte como para contrarrestar las marcas que dejaron su madre o su niñera cuando usted era niño. No se conforme con una alternancia entre momentos de racionalidad y momentos de irracionalidad. Mire fijamente lo irracional, decidido a no respetarlo, y no permita que le domine.
+		  id:: 1dd2a653-4291-4e11-9411-b80774c850fc
 		  
 		  Cada vez que haga pasar a la mente consciente pensamientos o sentimientos absurdos, arránquelos de raíz, examínelos y rechácelos. No se resigne a ser una criatura vacilante, y que oscila entre la razón y las tonterías infantiles. No tenga miedo de ser irreverente con el recuerdo de los que controlaron su infancia. Entonces le parecieron fuertes y sabios porque usted era débil e ignorante; ahora que ya no es ninguna de las dos cosas, le corresponde examinar su aparente guna fuerza y sabiduría, considerar si merecen esa reverencia que, por la fuerza de la costumbre, todavía les concede.
 		  
@@ -50,6 +51,7 @@ tags:: Self-Help
 	- -
 	- -
 		- Todos los intereses impersonales, aparte de su importancia como factor de relajación, tienen otras ventajas. Para empezar, ayudan a mantener el sentido de la proporción. Es  muy fácil dejarse absorber por nuestros propios proyectos.
+		  id:: c4b1556b-bfec-4b16-a389-6edf95269413
 		  
 		  nuestro círculo de relaciones, nuestro tipo de trabajo, hasta el punto de olvidar que todo ello constituye una parte mínima de la actividad humana total, y que a la mayor parte del mundo no le afecta nada lo que nosotros hacemos. Puede que se pregunten ustedes: ¿y por qué hay que acordarse de esto? Tengo varias respuestas. En primer lugar, es bueno tener una imagen del mundo tan completa como nos permitan nuestras actividades necesarias. Ninguno de nosotros va a estar mucho tiempo en este mundo, y cada uno, durante los pocos años que dure su vida, tiene que aprender todo lo que va a saber sobre este extraño planeta y su posición en el universo. Desaprovechar las oportunidades de conocimiento, por imperfectas que sean, es como ir al teatro y no escuchar la obra. El mundo está lleno de cosas, cosas trágicas o cómicas, heroicas, extravagantes o sorprendentes, y los que no encuentran interés en el espectáculo están renunciando a uno de los privilegios que nos ofrece la vida. #flashcard
 		- (Page 187)

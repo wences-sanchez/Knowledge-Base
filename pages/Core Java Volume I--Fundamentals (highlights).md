@@ -49,6 +49,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [CODE] Ordena un array #flashcard
+			  id:: 2017b7f4-69fb-48a2-90ac-fda40e5a36f7
 				- Arrays.sort(a
 		- -
 		- -
@@ -86,6 +87,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- (String str) #flashcard
+			  id:: 4e1c5e2b-4c03-471c-8075-1631f320ab47
 		- -
 		- -
 			- String trim() #flashcard
@@ -102,14 +104,17 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Where do you have to declare variables in Java? #flashcard
+			  id:: 21ca54bf-84a6-469a-95c9-ac087ea5fc3c
 				- In Java, it is considered good style to declare variables as closely as possible to the point where they are first used.
 		- -
 	- Chapter 4: Objects and Classes
 		- -
 			- Constructs an object that represents the given date. #flashcard
+			  id:: 9e7f2d0a-cccd-437f-bced-bc326e533b74
 				- static LocalDate of(int year, int month, int day)
 		- -
 		- -
 			- Constructs an object that represents the current date. #flashcard
+			  id:: 50cb9920-b745-474a-a181-1f529dfbd07c
 				- static LocalDate now()
 		- -

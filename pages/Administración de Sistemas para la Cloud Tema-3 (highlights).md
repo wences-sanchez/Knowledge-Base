@@ -10,6 +10,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Cómo podrías definir la Shell? #flashcard
+		  id:: 7dd5b2fa-b061-49f3-8800-bd142db0650a
 			- Dicho  de  un  modo  muy  sencillo,  la  shell  es  un  macroprocesador  que  ejecuta comandos. Esta definición indica que hay una funcionalidad donde textos y símbolos se combinan para crear expresiones más grandes. La shell es, a la vez, una intérprete de comandos y un lenguaje de programación. En su  rol  de  intérprete  de  comandos,  la  shell  ofrece  al  usuario  una  rica  interfaz  de utilidades o herramientas de GNU. Las características del lenguaje de programación, por su parte, permiten que estas herramientas se combinen.
 		- (Page 4)
 	- -
@@ -42,6 +43,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cómo puedes mostrar $tree de otra forma, sin usar ese comando? #flashcard
+		  id:: eb15e52e-8c0e-443e-9388-a86bb6c56295
 			- ls –aR: lista de forma recursiva.
 		- (Page 10)
 	- -
@@ -86,6 +88,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Con qué comando debe abrirse el fichero sudoers? #flashcard
+		  id:: 954e9eeb-1ffd-4d74-a3b4-874935153b25
 			- El  fichero  sudoers  contiene  los permisos asignados a los usuarios y grupos del sistema. Debe editarse con  visudo: este comando abre el fichero  sudores con el editor del sistema (por ejemplo,  vi o nano) y lo valida al guardarlo. De esta manera, se evita que un usuario cometa un error de sintaxis al guardarlo, rompiendo la funcionalidad de Sudo.
 		- (Page 15)
 	- -
@@ -115,6 +118,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cómo puedes recorrer en Bash la lista de parámetros pasados como argumentos en el script con un bucle y mostrarlos? #flashcard
+		  id:: a9953c3b-0bca-40f7-baed-542b20af5199
 			- for p in $@; do echo $p; done
 		- (Page 22)
 	- -
@@ -124,6 +128,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Define script #flashcard
+		  id:: 441072f4-115e-4139-ad78-4d67d1595a37
 			- Un script de Bash es un fichero de texto con una secuencia de comandos de shell (Van Vugt,  2015,  pp.  319-351).  No  tiene  más  requisitos,  así  que  un  fichero  con  este contenido sería un script válido: echo "Hello World" pwd $ bash script.sh Hello World /etc/apache2 Este script se podría ejecutar invocándolo de la siguiente manera:
 		- (Page 24)
 	- -
@@ -144,5 +149,6 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- $ source script.sh $ . script.sh #flashcard
+		  id:: 2836e8ab-e9c7-487f-aed0-ed5a993bfe52
 		- (Page 26)
 	- -

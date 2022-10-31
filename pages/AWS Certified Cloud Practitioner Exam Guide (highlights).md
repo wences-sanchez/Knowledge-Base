@@ -37,6 +37,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- 4th advantage of cloud computing #flashcard
+		  id:: a1dd858f-a00c-4804-8bce-7a21fb8dd5ca
 			- Increase speed and agility: Cloud vendors such as AWS enable you to launch and configure new IT resources in a few mouse clicks—for example, you can provision a new fleet of servers for your developers within minutes, allowing your organization to exponentially increase its agility in building infrastructure and launching applications
 		- -
 		- -
@@ -53,6 +54,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- About virtualization and cloud computing. #flashcard
+		  id:: ad1427a5-9041-4e70-ba3a-2bf498a6b163
 			- One of the primary characteristics of a cloud computing provider is the ability to provision virtualized infrastructure resources using a self-service management tool. AWS offers such tools in the form of its Management Console (accessible via a web browser), command-line interface (CLI), and direct access to its software application programming interfaces (APIs), to enable customers to provision their resources such as servers, network, storage, and databases.
 		- -
 		- -
@@ -67,6 +69,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- What is a private cloud? #flashcard
+		  id:: ebc89f7a-2828-423c-b71c-7374cc261d2f
 			- a private cloud is a cloud deployment model in which your business procures, installs, configures, and manages all the necessary infrastructure and software components in-house. This may sound very similar to traditional on-premises IT. However, the cloud element of it comes from the fact that additional management software is usually deployed to allow different parts of the business to carry out self-service tasks in provisioning compute, storage, network, and software services from an available catalog of services.
 			  
 			  While public cloud providers offer their services to all businesses across the globe and the services are therefore publicly available, a private cloud is designed solely for your business, where you will not be sharing underlying compute resources with anyone external to your organization.
@@ -75,6 +78,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- There are three primary models of deployment, listed as follows:
+		  id:: c4b23df7-6f39-45f0-9914-afeeddabf62d
 		  
 		  Public cloud
 		  Private cloud
@@ -111,6 +115,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- About cloud implementation models #flashcard
+		  id:: cc094fb7-ac3c-46f6-af75-91e52ff43025
 			- When it comes to deploying cloud services for your organization, you need to consider which deployment model will suit your business. The decision will be taken based on several factors, such as the industry you are in, compliance and regulatory issues, and also cost management and flexibility of configuration.
 			  
 			  There are three primary models of deployment, listed as follows:
@@ -146,16 +151,19 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- The *true* meaning of **Regional edge caches**. #flashcard
+		  id:: 0961dbd7-1442-4ad3-8a32-92a3e17b1405
 			- Regional edge caches are highly useful in such situations. There are far fewer regional edge caches than edge locations deployed across the globe, but they are strategically placed. They offer additional storage and cache that will continue to hold the data not accessed frequently for a longer period of time than with standard edge locations.
 		- -
 		- -
 		- About the **AWS Basic Plan** #flashcard
+		  id:: 809bed0e-d33b-48d8-85ff-e73eb64b5e59
 			- this plan does not come with any real technical support. The Basic support plan is completely free and offers customer support for any account-related issues such as bill payment or if you have issues logging in to your account. You also get access to publicly available documentation, whitepapers, and support forums. You can access the Basic support services via email, chat, and phone 24/7, and the phone support involves getting Amazon to call you on your landline or mobile—so, they pay the call charges.
 			  
 			  In addition, you also get access to seven basic checks on the Trusted Advisor tool, which helps you to identify best practices for increasing performance and improving security. We will take a look at the Trusted Advisor tool in Chapter 13, Management and Governance on AWS. Finally, you also get alerts regarding interruptions to any AWS services that may impact your deployed resources via the Personal Health Dashboard (PHD)
 		- -
 		- -
 		- About the **AWS Developer Plan** #flashcard
+		  id:: 37c1673a-93d5-4c2b-bb03-fe533f1d9335
 			- While you get technical support with the Developer support plan, it is limited to generic support primarily around technical configurations with AWS use cases, and the support team will not be able to discuss specific application-layer problems that you might be having. Support is also only available via email (no phone support is offered) during business hours, with access to Cloud Support associates. While you can raise an unlimited number of cases, the case severity and response times are within 24 hours for general guidance and within 12 hours for system-impaired issues.
 			  
 			  As with the Basic support plan, you only get access to the seven core checks on the AWS Trusted Advisor tool under the Developer support plan.
@@ -168,6 +176,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- About **AWS Enterprise Plan** #flashcard
+		  id:: 1fd92358-83ad-4918-bcea-7b327f0f3bc2
 			- The Enterprise support plan is naturally appropriate for very large organizations, such as multinational companies or companies that have extensively large workloads spread globally.
 			  
 			  Examples of such companies include Netflix, Amazon Prime, and Dropbox. The Enterprise Support plan stands out because of its different VIP-style offerings such as a designated Technical Account Manager (TAM). Your TAM will actively monitor your environment and work closely with you to actively guide your team through planning, design, and implementation of your cloud projects.
@@ -215,12 +224,14 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- How can you protect a S3 bucket? #flashcard
+		  id:: 1879cbad-f5e7-49b7-b3b8-dd53c1690dd1
 			- A bucket policy is applied directly to an entire bucket and can be used to grant access to both the bucket itself and the objects stored within it. Bucket policies can be used to specify different levels of access for different types of objects within the same policy document. A bucket policy document is also written in JavaScript Object Notation Format (JSON) format, just like IAM policies are.
 			  
 			  With bucket policies, you can also grant anonymous access to object in your buckets, such as a web page, image, or video, which means that anyone with the S3 object URL can access it.
 		- -
 		- -
 		- Infrequent access
+		  id:: 79e95a81-9306-4bf0-9979-1266215cc7d9
 		  Amazon S3 offers two types of infrequent-access storage classes. These can be used to store objects that you are not going to frequently access, but at the same time, you have instant access to the data when you need it.
 		  
 		  AWS offers these classes at lower costs on the condition that you do not access your data frequently, as you would with the Standard storage class. To enforce the conditions, AWS will charge additional retrieval fees. Furthermore, there is a minimum object size of 128 kilobytes (KB). You can still store objects under this minimum size, but those objects will be billed as though it is a minimum of 128 KB in size.
@@ -269,6 +280,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- The way these classes help define network sizes is by splitting the IP address into a network portion and a host portion. Let's look at this individually by class:
+		  id:: 910d58c4-adbb-4565-8e9d-b546988877b7
 		  
 		  Class A – The first 8 bits of a class A address define the network portion, and the remaining 24 bits are used to denote the host portion. Network bits are denoted by 1 (a one in binary) and host bits are denoted by 0 (zeroes). Also, the far-left bit of a class A address is set to 0.
 		  Class B – The first 16 bits of a class B address define the network portion, and the remaining 16 bits are used to denote the host portion. In a class B network, the two far-left bits are set to 10.
@@ -301,12 +313,14 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- Amazon CloudFront is a CDN that helps you to distribute your static and dynamic digital content globally with low-latency connections. AWS CloudFront uses AWS edge locations and regional edge caches to cache content closer to your end users' locations. This means that you can host your content in one specific Region and a user who attempts to access it from another Region will retrieve the content via the edge location over the AWS backbone network. Furthermore, as content is retrieved, it is cached at a local edge location closer to the user for a period (known as a time-to-live or TTL), further improving network latency in subsequent requests for the same content.
+		  id:: 9478159e-a166-409c-b499-0f0c04fb3a0e
 		  
 		  ![Figure 6.21 – A typical CloudFront distribution](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_06_21.jpg)
 		  Figure 6.21 – A typical CloudFront distribution #flashcard
 		- -
 		- -
 		- Without an API gateway, your frontend developer (who builds the frontend user interface) would need to be made aware of all the backend APIs and build the application to call several microservices, to provide complete functionality. Imagine, then, your backend developer later needs to refactor one of the microservices, such as splitting one microservice into two separate microservices, each with its own API. This would result in having to recode some components of the frontend user interface too.
+		  id:: 877493e9-7a03-4932-9380-ac3cf3495eec
 		  
 		  With an API gateway, you essentially create an abstraction layer. This API gateway can be used to expose all the APIs that need to be made available to external clients to call backend services. Requests from those clients can then be routed to the various backend microservices. As per the following diagram, Amazon API Gateway acts as a "front door" for your applications to access backend data, Lambda functions, databases, and more. It handles all the incoming traffic and is capable of processing thousands of concurrent API calls.
 		  
@@ -321,6 +335,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 		- Reserved Pricing Options are not actual EC2 instances that you procure; rather, they are pricing agreements that give you the right to run a specific EC2 configuration, in a specified Region, for a specified duration (1 year to 3 years) at a specific discounted rate. #flashcard
+		  id:: 1ad2dafe-53b4-44f6-a370-a70faf38b1fe
 		- -
 		- -
 		- Define Amazon ECR --> Figure 7.7 #flashcard
@@ -336,6 +351,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 			- Under Availability Zone, select us-east-1a – this is the same zone where we placed Public Subnet One. This way, any frontend web resources in Public Subnet One can access any backend resources in Private Subnet One, allowing those resources to be in the same Availability Zone. #flashcard
+			  id:: 45d1616c-9199-4f31-bcf0-bea430227b3e
 		- -
 	- Chapter 8: AWS Database Services
 		- -
@@ -344,6 +360,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 			- Let's look at the core components of a DynamoDB database:
+			  id:: 3e2bd775-ac5c-4dfc-95fd-ba105d2c5991
 			  
 			  Tables: Like Amazon RDS databases, your data is stored in tables. So, you can have a customers table that will host information about your customers and their orders. Each table will also have a unique primary key, which is crucial for uniquely identifying every record in the table. Records are known as items in DynamoDB Tables.
 			  Items: Items are like records in Amazon RDS databases. A table can have one or more items, and each item will be a unique combination of attributes that define that item. Items can be up to 400 KB in size and can contain key-value pairs called attributes.
@@ -379,6 +396,7 @@ tags:: AWS O'Reilly-Learning
 		- -
 		- -
 			- Explain the *Operational Excellence* pillar of the **Well-Architected Framework** #flashcard
+			  id:: c6064abb-7780-4902-9e78-648c8e5fdbc6
 				- Operational excellence
 				  This pillar focuses on achieving operational excellence by making frequent, reversible, and continuous changes to your workloads. Your aim should be to achieve continuous improvements in your processes and procedures. Furthermore, automating operational tasks will strengthen the other pillars, and using Infrastructure as Code (IaC) with tools such as CloudFormation can help to avoid human error and enable consistency in how you respond to events.
 				  

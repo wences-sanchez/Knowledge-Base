@@ -20,6 +20,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿Qué es una build, en Packer? #flashcard
+		  id:: 8287d20f-f7d8-4dd6-9e22-2e77902b0728
 			- Las *builds* o *compilaciones* son una tarea única que finalmente produce una imagen, normalmente para una sola plataforma. Varias versiones se ejecutan en paralelo. En general, cuando se ejecuta Packer se realizarán una serie de compilaciones independientes en paralelo, que pueden requerir múltiples pasos.
 		- (Page 9)
 	- -
@@ -51,6 +52,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿Cómo podrías combinar varios post-processors en Packer? #flashcard
+		  id:: 32d016e6-192b-43a6-b4d2-f21b8a293495
 			- si queremos almacenar artefactos en dos lugares distintos, usaremos dos posprocesadores en la lista de post‐processors. Si lo que queremos es comprimir y luego subir a un único lugar, usaremos un único elemento de tipo lista en la sección que incluirá dos posprocesadores dentro como en el ejemplo anterior.
 		- (Page 24)
 	- -

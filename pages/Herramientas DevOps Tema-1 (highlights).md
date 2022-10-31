@@ -27,6 +27,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Azure  Resource  Manager  permite  desplegar  recursos  en  un  Resource  Group  de Azure. #flashcard
+		  id:: 33a3eaea-b342-4054-8d70-72462c6d55b1
 		- (Page 13)
 	- -
 	- -
@@ -36,6 +37,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿De qué requiere la mejora continua? #flashcard
+		  id:: 8ed5271c-c1d4-4c48-8551-44017cd06546
 			- La  mejora  continua  requiere  de  un  análisis  de  la  situación  real,  y  además  de  un análisis  sobre  qué  cambios  queremos  realizar.  La  monitorización  nos  ayudará significativamente a conocer nuestros datos actuales a fin de predecir problemas y evitarlos en la siguiente iteración.
 		- (Page 23)
 	- -

@@ -18,6 +18,7 @@ tags:: Literature
 	- -
 	- -
 		- make up my mind #flashcard
+		  id:: 08bd516b-039b-4d90-a6e9-b09467625d87
 		- tags:: [[blue]] [[azul]]
 		- ([Location 250](https://readwise.io/to_kindle?action=open&asin=B01E0XDNGK&location=250))
 	- -
@@ -43,6 +44,7 @@ tags:: Literature
 	- -
 	- -
 		- “Now, I return to this young fellow. And the communication I have got to make is, that he has Great Expectations.” #flashcard
+		  id:: 10abfe96-0df2-4a88-ad0b-5cb07f5d350b
 		- ([Location 2584](https://readwise.io/to_kindle?action=open&asin=B01E0XDNGK&location=2584))
 	- -
 	- -

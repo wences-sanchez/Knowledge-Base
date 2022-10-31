@@ -15,6 +15,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- <<<<<<<<<< #flashcard
+		  id:: 6f7f0006-639a-40de-88c1-733f778b65f6
 			-   Created: el contenedor ha sido creado, pero aún no se ha iniciado su ejecución.   Restarting: el contenedor está en proceso de reinicio.   Started: el contenedor se encuentra actualmente en ejecución.   Paused: los procesos del contenedor han sido pausados.   Exited: la ejecución del contenedor ha finalizado.   Dead: cuando encontramos este estado generalmente es porque el demonio no pudo detener ordenadamente el contenedor.
 		- (Page 6)
 	- -
@@ -62,6 +63,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Cómo podemos acceder a los logs de un contenedor *Docker*? #flashcard
+		  id:: a5878dc6-e946-4bbe-b299-199355cd4bfc
 			- Podemos  acceder  fácilmente  a  los  logs  de  un  contenedor  en  ejecución  con  el comando docker logs indicando el nombre o identificador del contenedor. Además, si especificamos la opción -t obtendremos el timestamp en la salida, y con -f se irá actualizando automáticamente. Veamos un ejemplo: $ docker logs -ft 3d518bfea9dd 2020-08-30T09:36:14.209496900Z /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration ...
 		- (Page 12)
 	- -
@@ -100,6 +102,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Cómo funcionan los *bind mounts* en **Docker**? #flashcard
+		  id:: f19b7782-23f1-468d-9796-3bfaa126e189
 			- Los  bind  mounts  nos  permiten  montar  directorios  de  la  máquina  host  en  un contenedor.  Se  diferencian  principalmente  de  los  volúmenes  de  Docker  en  que necesitan existir en el sistema de ficheros del host y que no se pueden administrar con comandos de Docker. Al igual que en el caso anterior, para ejecutar un contenedor montando un directorio del sistema de ficheros del host utilizaremos el comando docker run con la opción -mount  o  -v.  Si  el directorio especificado no  existe  en el  host,  la opción  -v  creará automáticamente el directorio, sin embargo --mount devuelve un error.
 		- (Page 20)
 	- -
@@ -110,6 +113,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- <<<<<<<<< #flashcard
+		  id:: ccb2fffc-d330-41a2-9847-a7f9bef2949e
 			- $ docker run -dit --mount type=tmpfs,destination=/datosTmp/ \ --name contDatos alpine sh $ docker run -dit --tmpfs /datosTmp/ \ --name contDatos alpine sh
 		- (Page 22)
 	- -

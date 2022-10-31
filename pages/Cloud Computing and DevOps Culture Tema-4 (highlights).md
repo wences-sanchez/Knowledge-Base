@@ -10,6 +10,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Existen tres tipos principales de virtualización de servidores que son: virtualización del sistema operativo (tecnología que se conoce bajo el nombre de Contenedores), imitación  o  emulación  del  hardware  y  paravirtualización. #flashcard
+		  id:: 2c27b1c3-fbfb-44c0-b5cf-a820d83e1b7a
 		- (Page 4)
 	- -
 	- -
@@ -38,6 +39,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Una  definición  sencilla  de  hipervisor  podría  ser:  la  parte  de  la  nube  privada  que gestiona  las  máquinas  virtuales,  es  decir,  es  la  parte  (programa)  que  permite  que múltiples  sistemas  operativos  compartan  el  mismo  hardware.  Cada  sistema operativo podría usar todo el hardware (procesador, memoria) si no hay otro sistema operativo  encendido.  Ese  es  el  hardware  máximo  disponible  para  un  sistema operativo en la nube. Sin embargo, el hipervisor es lo que controla y asigna qué parte de los recursos de hardware debe obtener cada sistema operativo, para que cada uno  obtenga  lo  que  necesita  y  no  se  interrumpa  entre  sí #flashcard
+		  id:: b1e77840-4fcf-4fe0-9ce2-e19d69f8c0a1
 		- (Page 7)
 	- -
 	- -
@@ -47,6 +49,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		-   Hipervisor tipo 2. Los hipervisores se ejecutan en un sistema operativo host que proporciona  servicios  de  virtualización,  como  soporte  de  dispositivos  de  E/S  y administración de memoria. #flashcard
+		  id:: adedb674-ca5d-4dfc-b768-0d9772227893
 		- (Page 8)
 	- -
 	- -
@@ -56,11 +59,13 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- CONTINUE #flashcard
+		  id:: b6aeecd8-1426-4f75-8a00-57b1ec38c1e0
 			- Fundamentos (solo OEM), Essentials, Standard y Datacenter Hyper-V. Actualmente, las nuevas versiones de supervisores de Microsoft están íntimamente relacionadas a sus productos de Cloud Platform y se les conoce como Azure Stack. Citrix XenServer Comenzó como un proyecto de código abierto. La tecnología principal del hipervisor es gratuita, pero al igual que ESXi gratuito de VMware, casi no tiene características avanzadas.  Xen  es  un  hipervisor  de  tipo  desnudo  de  tipo  1  y,  así  como  Red  Hat Enterprise Virtualization usa KVM, Citrix usa Xen en el XenServer comercial. Hoy, los proyectos y la comunidad de código abierto de Xen están en Xen.org. Hoy, XenServer es una solución comercial de hipervisor tipo 1 de Citrix, que se ofrece en cuatro  ediciones.  Confusamente,  Citrix  también  ha  calificado  sus  otras  soluciones propietarias como XenApp y XenDesktop con el nombre Xen. Oracle VM El hipervisor Oracle se basa en el código abierto Xen. Sin embargo, si necesita soporte de hipervisor y actualizaciones de productos, le costará. Oracle VM carece de muchas de  las  características  avanzadas  que  se  encuentran  en  otros  hipervisores  de virtualización de metal desnudo.
 		- (Page 9)
 	- -
 	- -
 		- Nombra algunos hipervisores de tipo 2 #flashcard
+		  id:: e21c6f16-cb8c-41a5-a6a8-63ce61d4e347
 			- VMware Workstation/Fusion/Player VMware Player es un hipervisor de virtualización gratuito. Está destinado a ejecutar solo  una  máquina  virtual  (en  siglas,  VM)  y  no  permite  crear  máquinas  virtuales. VMware  Workstation  es  un  hipervisor  más  robusto  con  algunas  características avanzadas, como grabación y reproducción y compatibilidad con instantáneas de VM.
 		- (Page 9)
 	- -
@@ -75,6 +80,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Acerca de la virtualización del almacenamiento #flashcard
+		  id:: 5398f4e0-6854-4b81-b20a-54beb74485f8
 			- La  virtualización  del  almacenamiento  puede  ser  entendida  como  el  proceso  de abstracción lógica del almacenamiento físico. Los recursos de almacenamiento físico (como las unidades de disco) se agregan en agrupaciones de almacenamiento, desde donde el almacenamiento lógico se crea y se presenta al entorno de aplicación. Esta se  puede  implementar  dentro  del  almacenamiento  de  matrices  en  sí  misma (virtualización basada en matrices) o bien en el nivel de red, donde múltiples matrices de discos o almacenamiento en red de sistemas de diferentes proveedores, dispersos por la red, se pueden agrupar en un único dispositivo de almacenamiento monolítico. Esto permite que las matrices múltiples se administren de manera uniforme como si si se tratase de un solo grupo.
 		- (Page 11)
 	- -
@@ -90,6 +96,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- ¿De qué sirve tener máquinas virtuales y almacenamiento (que se pueda virtualizar y migrar, según sea necesario) cuando los dispositivos físicos de endpoint de entrada y salida (en adelante, E/S) que residen en el servidor son no son ágiles? La administración manual de un recurso clave en un entorno virtualizado significa que la eficiencia está reñida con la capacidad que tenga esa organización de TI para administrar manualmente estos dispositivos de E/S. #flashcard
+		  id:: d25efeb5-5db6-4a3f-b629-8e9381c19ecf
 			- Virtualización de E/S La  virtualización de  servidores  involucra  a  máquinas que funcionan  en un  servidor físico, lo que hace posible la ejecución de múltiples máquinas virtuales en un único sistema  físico.  La  virtualización  del  almacenamiento  permite  que  los  datos  se transfieran a un almacenamiento centralizado y compartido, lo que permite que se gestione de manera eficiente y rentable. Sin embargo, obtener datos de la máquina requiere pasar por endpoints de red y almacenamiento en el servidor, lo que puede traer aparejado otro conjunto de problemas
 		- (Page 13)
 	- -

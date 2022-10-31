@@ -13,6 +13,7 @@ category:: #books
 	- -
 	- -
 		- Start with your users’ goals to define exactly what your app should do. #flashcard
+		  id:: 36cfc845-132b-4798-8afa-436623815f21
 		- ([Location 430](https://readwise.io/to_kindle?action=open&asin=B018BI07P0&location=430))
 	- -
 	- -
@@ -72,6 +73,7 @@ category:: #books
 	- -
 	- -
 		- You will work with the Toolbar class throughout this book. It is a concrete implementation available in the support library that makes an app bar as easy as any view and it has built-in support for creating menus. #flashcard
+		  id:: be3e6381-d3f9-43b6-bc56-b509473301b3
 		- ([Location 592](https://readwise.io/to_kindle?action=open&asin=B018BI07P0&location=592))
 	- -
 	- -
@@ -93,6 +95,7 @@ category:: #books
 	- -
 	- -
 		- density-independent pixels (abbreviated as dp or dip) #flashcard
+		  id:: 445b7046-c445-478e-87e2-8960ecfa1415
 		- ([Location 763](https://readwise.io/to_kindle?action=open&asin=B018BI07P0&location=763))
 	- -
 	- -
@@ -110,16 +113,19 @@ category:: #books
 	- -
 	- -
 		- ViewGroup provides the standardized methods for these classes to use so that they can perform tasks such as adding, removing, getting, and counting child views. #flashcard
+		  id:: cc4f9fc4-dcee-4a6f-9a4d-75af5c4d1353
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1085](https://readwise.io/to_kindle?action=open&asin=B018BI07P0&location=1085))
 	- -
 	- -
 		- RelativeLayout itself. Not only is this an extremely efficient way to create semicomplex layouts that adapt to a variety of screens, it also allows you to create overlapping views and views that appear to float on top of others. #flashcard
+		  id:: 3216e20e-437e-47ce-a7c3-d805499e628b
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1191](https://readwise.io/to_kindle?action=open&asin=B018BI07P0&location=1191))
 	- -
 	- -
 		- AdapterView #flashcard
+		  id:: 6e3494ff-64a1-4d62-99c0-58d2351b6696
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 1203](https://readwise.io/to_kindle?action=open&asin=B018BI07P0&location=1203))
 	- -

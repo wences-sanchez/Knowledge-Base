@@ -43,6 +43,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Si un atacante consigue acceder a una de las herramientas del  pipeline de CI/CD, cualquier otra medida que se haya implementado no servirá de nada. Da igual que todos  los  elementos  de  la  aplicación  estén  protegidos  y  las  pruebas  finalicen satisfactoriamente:  quien  tenga  acceso  completo  al  pipeline  puede  modificar  a  su gusto cualquier elemento de la aplicación o de la infraestructura. #flashcard
+		  id:: a1f7f6c5-e7be-4eea-85f2-f0e0eea1cef2
 		- (Page 11)
 	- -
 	- -
@@ -55,10 +56,12 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		-   Requerir autenticación multifactor (MFA). Cada vez más servicios de control de versiones  soportan  autenticación  de  doble  factor,  lo  que  ofrece  una  capa  de seguridad adicional. #flashcard
+		  id:: 88f59daf-43f4-43f3-b068-e4fc49f721b2
 		- (Page 13)
 	- -
 	- -
 		-   Auditar  regularmente  los  miembros  de  los  grupos #flashcard
+		  id:: b196ed3c-20fd-444f-afbd-7b0d166f97d3
 		- (Page 13)
 	- -
 	- -

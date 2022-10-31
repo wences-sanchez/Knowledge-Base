@@ -13,14 +13,17 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- The dysfunction in the software industry, namely between IT operations and software development communities, was the spark that ignited the movement, but it was the pioneers of Agile, Lean, and XP who were responsible for the initial fuel of the DevOps movement. #flashcard
+			  id:: 33bea9e0-e03e-42c9-bde5-761d232baf13
 		- -
 		- -
 			- Being a continuous learner is a personal attribute that will get you hired.
+			  id:: c1b2a232-61c1-47dc-8ed3-dfaa7f786c68
 			  
 			  PRO TIP: YOU MUST BE A CONTINUOUS LEARNER IF YOU WISH TO SUCCEED IN DEVOPS #flashcard
 		- -
 		- -
 			- In the early 2000s, traditional waterfall methods were evolving and being replaced by Agile, which required a large culture shift that focused on team empowerment. Agile is based around 4 core values and 12 principles. #flashcard
+			  id:: a93eb42e-c227-4ddf-a1af-acb920b55ac9
 		- -
 		- -
 			- The difference between traditional and DevOps teams. The traditional ones were separated in silos by specialities, and the newer ones are combined, mixed by developers, testers and Ops people in a same feature goal team. #flashcard
@@ -34,6 +37,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- The biggest difference between XP and other Agile frameworks is the emphasis placed on the code and development #flashcard
+			  id:: 93389f04-b95d-4b1d-b347-7ba0095f635b
 		- -
 		- -
 			- The main contribution XP gave DevOps was Continuous Integration (CI). CI was a term introduced in 2001 by Grady Brooch #flashcard

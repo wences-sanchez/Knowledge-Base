@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- Chapter 1: An Introduction to Java
 		- -
 			- Why the 'Java' name? #flashcard
+			  id:: d061fc3f-a5fc-4e0a-a813-76a6879c9d80
 				- Gosling decided to call his language “Oak” (presumably because he liked the look of an oak tree that was right outside his window at Sun). The people at Sun later realized that Oak was the name of an existing computer language, so they changed the name to Java.
 		- -
 	- Chapter 2: The Java Programming Environment
@@ -32,6 +33,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [CODE]
+			  id:: 3d88a545-494c-44da-abc6-0fa418c31a77
 			  Create a enum type with name Size and fields: SMALL, MEDIUM, LARGE and EXTRA_LARGE #flashcard
 				- enum Size { SMALL, MEDIUM, LARGE, EXTRA_LARGE };
 		- -
@@ -42,11 +44,13 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What is String::blank()? #flashcard
+			  id:: 7cb357cc-6bf8-4056-8784-950afc6f836e
 				- boolean blank() 11
 				  returns true if the string is empty or consists of whitespace.
 		- -
 		- -
 			- String trim() #flashcard
+			  id:: 5f4026c5-2f3b-4463-a723-e082f7bd7825
 		- -
 		- -
 			- String strip() #flashcard
@@ -67,6 +71,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [CODE]
+			  id:: a869c730-7c5c-40d2-b336-b768f8b761dd
 			  Append some content to a StringBuilder variable #flashcard
 				- builder.append(str);
 		- -
@@ -82,11 +87,13 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [CODE]
+			  id:: e3524128-f328-4391-8a8c-83f3522ccfe6
 			  Example of a printf() #flashcard
 				- System.out.printf("Hello, %s. Next year, you'll be %d", name, age);
 		- -
 		- -
 			- [CODE] Make a separate thousands, and two decimal float number #flashcard
+			  id:: 42912f4a-d161-4745-8541-ebd34e91c5f9
 				- System.out.printf("%,.2f", 10000.0 / 3.0);
 		- -
 		- -
@@ -102,6 +109,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [CODE] Define una matriz que no sea fija #flashcard
+			  id:: 68c623e5-ed67-4fe5-a6e4-72d229bca2af
 				- int[][] odds = new int[NMAX + 1][];
 		- -
 	- Chapter 4: Objects and Classes

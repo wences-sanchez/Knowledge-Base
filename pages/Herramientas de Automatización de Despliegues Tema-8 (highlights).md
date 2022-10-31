@@ -18,6 +18,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- ansible-galaxy install geerlingguy.git –p roles Esta línea creará la carpeta roles en caso de que no exista y descargará el rol en ella. Para usar este rol, debes incluirlo desde un playbook. Como ya sabemos, primero le indicamos  a  Ansible  en  qué  servidores  se  va  a  ejecutar,  y  ahora,  a  continuación, también le proporcionaremos una lista de roles para que Ansible los incluya: -- hosts: all roles: - geerlingguy.git #flashcard
+		  id:: eebf31dc-2d95-42c8-9f60-d3589f62816a
 		- (Page 6)
 	- -
 	- -
@@ -31,10 +32,12 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		-   El  archivo  defaults/main.yml  puede  contener  los  valores  por  defecto  que utilizarán las variables que maneja el rol, en caso de no haber proporcionado otro valor personalizado. También es posible definir variables en otras ubicaciones tales como vars/main.yml que actualizará cualquier variable que ya estuviera definida en defaults/main.yml, ya que tiene mayor prioridad.   El directorio files es en el que se colocan los ficheros necesarios para la ejecución del  rol.  Podrá  contener  tanto  elementos  estáticos,  ficheros  de  configuración, como cualquier otro tipo de fichero. Ten en cuenta que estos archivos no pueden ser manipulados de ninguna manera, solo se pueden copiar.   handlers/main.yml es donde defines manejadores como restart nginx. El contar con todos los manejadores disponibles en un único lugar común es muy útil para cualquiera que utilice el módulo, para poder ver de un vistazo las acciones que están disponibles. Los manejadores se pueden invocar tanto desde el mismo rol, como desde otros roles y desde el playbook que incluye al rol.   El  archivo  meta/main.yml  contiene  los  metadatos  del  rol.  Este  archivo  va  a incorporar los metadatos que utiliza Ansible Galaxy si publicas el rol. También se pueden definir algunos parámetros, como la versión mínima de Ansible requerida, plataformas soportadas y cualquier otra dependencia de este rol.   El archivo tasks/main.yml es el punto de entrada del rol. Incorpora la sección de tareas que está contenida en tu playbook. Las acciones que están definidas en este archivo son las que procesará Ansible cuando se ejecute el rol.   El directorio templates contiene todas las plantillas que necesitan ser procesadas por el procesador de plantillas jinja2 para así sustituir las variables necesarias en el archivo (y cualquier otro procesamiento soportado por Jinja) antes de copiarlo en el sistema de destino. #flashcard
+		  id:: af80a4c2-36e3-4795-9db7-76d33eec5557
 		- (Page 9)
 	- -
 	- -
 		-   El directorio tests es donde debes incluir los playbooks de prueba que usan el rol. Esto  se utiliza para definir pruebas automatizadas del rol,  que  podrán ejecutarse mediante un sistema de integración continua, tal como Jenkins o Travis CI. Este tipo de sistemas (de integración continua) son herramientas que detectan cuándo realizas  modificaciones  en  el  código  fuente  de  un  programa  y  desencadenan acciones relacionadas; típicamente, la compilación o construcción de ese código fuente, la ejecución de pruebas para el proyecto, empaquetado de los binarios o cualquier otra cosa que se pueda expresar en un script. #flashcard
+		  id:: f18df5d3-cf67-4e8c-a2fe-99acbd67235e
 		- (Page 10)
 	- -
 	- -

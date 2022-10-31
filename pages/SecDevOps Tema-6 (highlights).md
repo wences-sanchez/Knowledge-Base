@@ -15,10 +15,12 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Algunos de los conceptos esenciales de VNet son:   Espacio de direcciones: al crear una red virtual, es necesario especificar un espacio de  direcciones  IP  privadas.  Azure  asigna  IP  de  este  espacio  a  los  recursos conectados a la red virtual. Por ejemplo, una VM desplegada en una red virtual con  espacio  de  direcciones  10.0.0.0/16  recibirá  una  IP  privada  dentro  de  esa subred, por ejemplo, 10.0.0.4.   Subredes: las subredes permiten segmentar la red virtual en una o más redes, y asignar una parte del espacio de direcciones de la red virtual a cada subred. Los recursos  podrán  desplegarse  en  la  subred  necesaria,  de  acuerdo  con  las necesidades de la arquitectura de los sistemas. Al igual que en una red tradicional, la segmentación de las subredes mejora la eficiencia de asignación de direcciones. #flashcard
+		  id:: 3a708a9a-7d91-4f10-b3fb-9c96741c56a1
 		- (Page 5)
 	- -
 	- -
 		- Además, los recursos dentro de las subredes se pueden proteger utilizando grupos de seguridad de red.   Regiones: una región es un conjunto de centros de datos, implementados dentro de  un  perímetro  con  una  latencia  definida  y  conectados  a  través  de  una  red regional dedicada de baja latencia. Una VNet tiene un alcance para una sola región de Azure;  sin  embargo, se  pueden  conectar  varias  redes  virtuales  de diferentes regiones mediante el emparejamiento de redes virtuales.   Suscripción: una suscripción de Azure está vinculada a una sola cuenta, la que se utilizó  para  crear  la  suscripción  y  se  utiliza  para  fines  de  facturación  (es  un concepto similar al de cuenta en AWS). Los recursos se provisionan dentro de una suscripción.  Una  VNet  tiene  un  alcance  de  una  suscripción,  y  una  subscripción puede tener tantas VNets como sean necesarias. #flashcard
+		  id:: c9078ff6-009a-4d08-9ef8-23ffddca0576
 		- (Page 6)
 	- -
 	- -
@@ -47,6 +49,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Qué es un Juniper vSRX? #flashcard
+		  id:: 0da37b02-e096-434e-9e6e-ed02471b9c12
 			- El vSRX es un appliance virtual que ofrece servicios de seguridad y de red en entornos de  nube  pública  o  privada.  Se  conoce  como  firewall  de  nueva  generación,  o  next generation  firewall,  porque  no  solo  funciona  como  firewall  avanzado  (a  nivel  de paquetes  y  de  aplicación),  sino  también  como  rúter,  VPN,  NAT  o  IPS  (sistema  de detección y prevención de intrusiones).
 		- (Page 18)
 	- -

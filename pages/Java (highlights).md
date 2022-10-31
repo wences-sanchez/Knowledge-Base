@@ -13,10 +13,12 @@ category:: #books
 	- -
 	- -
 		- Java defines four integer types: byte, short, int, and long. All of these are signed, positive and negative values. #flashcard
+		  id:: 0872b918-3ed6-4478-ab03-6fd6979fd4bf
 		- ([Location 2536](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2536))
 	- -
 	- -
 		- Java does not support unsigned, positive-only integers. #flashcard
+		  id:: 0a0bdf2e-3e70-4566-abe4-6e60f9b5196a
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 2537](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2537))
 	- -
@@ -26,6 +28,7 @@ category:: #books
 	- -
 	- -
 		- The most commonly used integer type is int. It is a signed 32-bit type that has a range from –2,147,483,648 to 2,147,483,647. #flashcard
+		  id:: a8209fde-0d75-440e-80aa-257562b4be25
 		- ([Location 2554](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2554))
 	- -
 	- -
@@ -74,6 +77,7 @@ category:: #books
 	- -
 	- -
 		- Java defines several type promotion rules that apply to expressions. They are as follows: First, all byte, short, and char values are promoted to int, as just described. Then, if one operand is a long, the whole expression is promoted to long. If one operand is a float, the entire expression is promoted to float. If any of the operands are double, the result is double. #flashcard
+		  id:: b6238bb6-95ce-4cb4-9b9f-857cc61c3e0d
 		- ([Location 2809](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2809))
 	- -
 	- -
@@ -82,6 +86,7 @@ category:: #books
 	- -
 	- -
 		- Beginning with JDK 10, it is now possible to let the compiler infer the type of a local variable based on the type of its initializer, thus avoiding the need to explicitly specify the type. #flashcard
+		  id:: 19bf9697-8b94-4340-b9d5-d73633b19eed
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2917](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=2917))
 	- -
@@ -111,10 +116,12 @@ category:: #books
 	- -
 	- -
 		- Because an object is an instance of a class, you will often see the two words object and instance used interchangeably. #flashcard
+		  id:: 575abdf0-8c91-4f29-815a-5375a4dff803
 		- ([Location 3694](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3694))
 	- -
 	- -
 		- if no explicit constructor is specified, then Java will automatically supply a default constructor. #flashcard
+		  id:: 5b603ecd-01dc-4c42-9aa0-969b5edd14e0
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 3766](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3766))
 	- -
@@ -129,11 +136,13 @@ category:: #books
 	- -
 	- -
 		- garbage collection. It works like this: when no references to an object exist, that object is assumed to be no longer needed, and the memory occupied by the object can be reclaimed. There is no need to explicitly destroy objects. #flashcard
+		  id:: 1ea3ea17-87ca-465a-af74-3cf7ed46cfd6
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3951](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3951))
 	- -
 	- -
 		- Garbage collection only occurs sporadically (if at all) during the execution of your program. It will not occur simply because one or more objects exist that are no longer used. #flashcard
+		  id:: 4b505e58-6622-46bf-a5d5-99aa3a4ed294
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3952](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=3952))
 	- -
@@ -149,6 +158,7 @@ category:: #books
 	- -
 	- -
 		- If you need to do computation in order to initialize your static variables, you can declare a static block that gets executed exactly once, when the class is first loaded. The following example shows a class that has a static method, some static variables, and a static initialization block: #flashcard
+		  id:: 484aad1d-2600-496f-b870-d3c32a314feb
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 4193](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4193))
 	- -
@@ -169,11 +179,13 @@ category:: #books
 	- -
 	- -
 		- static void vaTest(int ... v) { #flashcard
+		  id:: 7c3321e0-bdcc-4b00-9a12-d86db4d542fa
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 4340](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4340))
 	- -
 	- -
 		- super(arg-list); #flashcard
+		  id:: 072f540c-a262-439a-9b6a-712ac233b819
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 4492](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4492))
 	- -
@@ -203,16 +215,19 @@ category:: #books
 	- -
 	- -
 		- Any class that contains one or more abstract methods must also be declared abstract. #flashcard
+		  id:: aaeb5a4b-98be-4ba2-8430-c13e9caa9bcf
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 4648](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4648))
 	- -
 	- -
 		- To disallow a method from being overridden, specify final as a modifier at the start of its declaration. Methods declared as final cannot be overridden. #flashcard
+		  id:: 04e0b645-3698-43e6-8dbf-06bb302d0e54
 		- tags:: [[blue]] [[azul]]
 		- ([Location 4675](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4675))
 	- -
 	- -
 		- Sometimes you will want to prevent a class from being inherited. To do this, precede the class declaration with final. #flashcard
+		  id:: 24376daf-8282-4094-8d31-7fd8719e9bc9
 		- tags:: [[blue]] [[azul]]
 		- ([Location 4685](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4685))
 	- -
@@ -238,6 +253,7 @@ category:: #books
 	- -
 	- -
 		- If a class includes an interface but does not fully implement the methods required by that interface, then that class must be declared as abstract. #flashcard
+		  id:: 98a09b89-e092-45ea-91a3-7f571eceb428
 		- tags:: [[blue]] [[azul]]
 		- ([Location 4942](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4942))
 	- -
@@ -247,10 +263,12 @@ category:: #books
 	- -
 	- -
 		- Here is the output of a sample run of this program. Note that the results are different each time it is run. #flashcard
+		  id:: f24f636b-8f98-4e6e-b808-0adda709fd65
 		- ([Location 4994](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=4994))
 	- -
 	- -
 		- A key point to understand about generic types is that a reference of one specific version of a generic type is not type compatible with another version of the same generic type. #flashcard
+		  id:: 98d7d99b-1c16-4cfe-87a7-bc0c4383fda7
 		- tags:: [[blue]] [[azul]]
 		- ([Location 6984](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=6984))
 	- -
@@ -310,11 +328,13 @@ category:: #books
 	- -
 	- -
 		- there are two methods that obtain and remove elements: poll( ) and remove( ). The difference between them is that poll( ) returns null if the queue is empty, but remove( ) throws an exception. #flashcard
+		  id:: 97d13bc3-b1b2-4d59-8dde-e0d76ffdc966
 		- tags:: [[blue]] [[azul]]
 		- ([Location 9542](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9542))
 	- -
 	- -
 		- there are two methods, element( ) and peek( ), that obtain but don’t remove the element at the head of the queue. They differ only in that element( ) throws an exception if the queue is empty, but peek( ) returns null. #flashcard
+		  id:: c1666c55-d167-49b1-b994-9f23dc03ea99
 		- tags:: [[blue]] [[azul]]
 		- ([Location 9544](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9544))
 	- -
@@ -329,11 +349,13 @@ category:: #books
 	- -
 	- -
 		- Notice that Deque includes the methods push( ) and pop( ). These methods enable a Deque to function as a stack. #flashcard
+		  id:: e9629d46-c9a1-4d97-9e11-8e7ffa62e4d2
 		- tags:: [[blue]] [[azul]]
 		- ([Location 9559](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9559))
 	- -
 	- -
 		- <T> T[ ] toArray(T array[ ]) #flashcard
+		  id:: bdb25f0e-1f1d-4e42-b0d5-c3c5163e5e2b
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 9618](https://readwise.io/to_kindle?action=open&asin=B07KSQ9RKF&location=9618))
 	- -

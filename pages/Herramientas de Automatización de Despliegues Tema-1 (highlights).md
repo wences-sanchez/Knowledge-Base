@@ -10,10 +10,12 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- El diseño de Puppet está pensado para estar en continua interacción con las máquinas que gestiona, al contrario que otras herramientas de aprovisionamiento que únicamente se encargan de la etapa de construcción de las máquinas. #flashcard
+		  id:: d34ae422-fa3f-4d13-b63a-4a3f01623b4f
 		- (Page 5)
 	- -
 	- -
 		-  Lenguaje de configuración y capa de abstracción de recursos.  Capa transaccional. #flashcard
+		  id:: ed33ae4f-ae7c-4114-ab5b-cf4fd5cc9cf0
 			- Puppet tiene un modelo de funcionamiento sencillo, fácil de entender y de aplicar, que se compone de tres componentes básicos:
 		- (Page 5)
 	- -
@@ -50,6 +52,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- El directorio /etc/puppet es donde se guarda la configuración del Puppet Master, en la mayor parte de las plataformas. El fichero principal de configuración de Puppet se  puede encontrar en la siguiente ruta:  /etc/puppet/puppet.conf.  Este  fichero  se  crea  habitualmente  durante  la instalación de Puppet, pero, si no es el caso, el siguiente comando nos permite crear el fichero: # puppetmasterd --genconfig > puppet.conf #flashcard
+		  id:: 91d59bbb-c291-4728-9cd2-9b6589923c48
 		- (Page 17)
 	- -
 	- -
@@ -58,6 +61,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- El fichero site.pp es el que contiene las máquinas que se van a gestionar y la configuración que debe aplicar a estas.
+		  id:: 6e9f5198-62e3-4517-910b-ed18d6810da0
 		  
 		  Este archivo suele almacenarse en el subdirectorio manifests dentro del directorio /etc/puppet/. #flashcard
 		- (Page 19)
@@ -72,6 +76,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- El  Puppet  Master  puede  iniciarse  en  la  mayoría  de  las  distribuciones  de  Linux mediante un script init de inicio de servicio. En Red Hat, ejecutaríamos el script de inicio con el comando service de esta forma: # service puppetmaster start En Debian o Ubuntu, lo ejecutamos con el comando invoke-rc.d: # invoke-rc.d puppetmaster start Si  inicias  el  Daemon,  se  iniciará  el  entorno  Puppet,  se  creará  una  autoridad  de certificados locales (local Certificate Authority), certificados y claves para el master, y se abrirá el socket de red adecuado para recibir las conexiones del cliente #flashcard
+		  id:: bee7efbe-8a7d-4876-9e42-e34b2e19e7a7
 		- (Page 20)
 	- -
 	- -
@@ -86,6 +91,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- Para autenticar las conexiones entre el Master y los agentes, Puppet hace uso de certificados SSL.
+		  id:: 656ef86d-5bef-489c-bc54-739a364c367f
 		  
 		  En las últimas versiones de Puppet se soporta tanto una arquitectura de CA (autoridad certificadora) simple, con un certificado raíz autofirmado que también se utiliza para firmar, como una arquitectura de CA intermedia, con un certificado raíz autofirmado que emite un certificado CA intermedio que se utiliza para firmar las peticiones entrantes de certificado.
 		  

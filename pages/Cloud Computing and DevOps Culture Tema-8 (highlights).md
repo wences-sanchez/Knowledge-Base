@@ -20,6 +20,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- BORRAR #flashcard
+		  id:: 2031710f-8c47-43a4-bca0-452ad8799443
 			-   Gobierno  y  conformidad.  Los  marcos  de  trabajo  de  conformidad  y  gobierno gestionan la validación adicional a fin de asegurar la relación y consonancia con la corporación y los estándares de la industria, así como requerimientos regulatorios.   Optimización  de  recursos.  Los  administradores  revisan  datos  de  rendimiento  e identifican  cambios  necesarios  para  optimizar  el  ambiente  alrededor  de  los criterios tales como rendimiento y los costes. Cloud Computing, DevOps and DevOps Culture Tema 8. Ideas clave 8 I  ) R N U i j (  a o R a L  e d   l a n o i c a n r e t n I  d a d i s r e v i n U ©
 		- (Page 8)
 	- -

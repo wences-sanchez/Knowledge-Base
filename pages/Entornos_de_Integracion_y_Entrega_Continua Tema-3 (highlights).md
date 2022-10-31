@@ -31,6 +31,7 @@ tags:: Entornos-CI-CD UNI
 	- -
 	- -
 		- AÑADIR IMAGEN #flashcard
+		  id:: 5c113798-ff59-40f1-93bc-a9a481107b71
 			- La  estrategia  de  state  branching,  también  denominada  GitLab  flow,  consiste  en nombrar  las  ramas  según  el  entorno  en  el  que  se  despliegan.  Así,  el  repositorio tendría  ramas  llamadas  local,  develop,  staging  y  production  (que  podría  ser master). Cada rama se va fusionando con la siguiente cuando el código está listo para ser promocionado al siguiente entorno. La figura 3 muestra un ejemplo de este flujo. Cada nueva característica o arreglo se fusiona primero en  develop y va avanzando hasta que llega a master, que es desde donde se despliega el entorno de producción.
 		- (Page 16)
 	- -

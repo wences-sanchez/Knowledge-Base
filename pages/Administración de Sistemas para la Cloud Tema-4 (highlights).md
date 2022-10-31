@@ -20,6 +20,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cómo puedes accede a los paámetos pasados a un scipt dento de este? #flashcard
+		  id:: 7290ff87-64d4-4d5a-bd2b-2fb84dd98f5e
 			- r
 		- (Page 10)
 	- -

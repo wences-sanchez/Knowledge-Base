@@ -31,6 +31,7 @@ tags:: O'Reilly-Learning
 	- Arguments to scripts
 		- -
 			- Dealing with parameters in Bash #flashcard
+			  id:: 936727b5-f7c3-4dee-a75e-6b36d75796c6
 				- You can get the arguments as positional parameters with "$1", "$2", "$3", and so on
 				  You can dynamically get all of the positional parameters without having to count them with "$@"
 				  You can count the number of positional parameters if you need to with "$#"

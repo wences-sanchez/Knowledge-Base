@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- Understanding how Ansible connects to hosts
 		- -
 			- [CODE] Do ping to a group of an inventory file with Ansible: #flashcard
+			  id:: 26178e6b-531e-4003-b9a7-a38432aa879d
 				- $ ansible webservers -m ping
 		- -
 	- Verifying the Ansible installation
@@ -23,5 +24,6 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [CODE] Do a ping to the target hosts: #flashcard
+			  id:: 6c6509b8-2ef6-48ce-b3cb-f4ae6a3a1446
 				- $ ansible frontends -i hosts -m ping
 		- -

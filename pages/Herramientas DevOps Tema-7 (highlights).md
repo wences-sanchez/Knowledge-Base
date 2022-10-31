@@ -30,6 +30,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Ejemplo de inserción de datos en ElasticSearch #flashcard
+		  id:: 6918cb72-4702-4ad9-bbdb-cddc9f1c3b4a
 			- Los índices de ElasticSearch pueden crearse de múltiples formas, pero finalmente lo que  harán  será  incluir  documentos  JSON  en  un  índice.  Es  posible  hacer  esto directamente con una solicitud PUT, que especifica el índice al que desea agregar el documento, un ID de documento único y uno o más pares "field": "value" en el cuerpo de la solicitud. Por ejemplo, si ejecutamos el código que aparece debajo en un clúster nuevo, esta solicitud crea automáticamente el índice customer si aún no existe, agrega un nuevo documento que tiene un ID 1 y almacena e indexa el campo name. PUT /customer/_doc/1 "name": "John Doe" { }
 		- (Page 9)
 	- -
@@ -50,6 +51,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿Cómo descongelarías un índice en ElasticSearch? #flashcard
+		  id:: 0ade37eb-d56a-43a9-ad0d-b9bc07a4fe38
 			- Para “descongelar” un índice, puedes usar la API de índice Unfreeze: POST /<index>/_unfreeze
 		- (Page 13)
 	- -
@@ -70,10 +72,12 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Las API REST de ElasticSearch admiten consultas estructuradas, libres y complejas (combinación de las dos anteriores). #flashcard
+		  id:: caa60ecb-5f44-4ad2-8682-182a0f60ac8d
 		- (Page 18)
 	- -
 	- -
 		- Ejemplo de búsqueda en ElasticSearch Query DSL #flashcard
+		  id:: 0c94dab5-9353-4618-8db5-9f1dca42cd00
 			- Una  vez  que  hayas  metido  datos  en  un  índice  de  ElasticSearch,  puedes  buscarlos enviando solicitudes al endpoint de _search. Utilizaremos el ElasticSearch Query DSL para especificar los criterios de búsqueda en el cuerpo de la solicitud. Para ello debes especificar el nombre del índice que deseas buscar en el URI de solicitud. Por ejemplo, la siguiente solicitud recupera todos los documentos en el índice de bank ordenados por número de cuenta: GET /bank/_search "query": { "match_all": {} }, "sort": [ { "account_number": "asc" } { ] }
 		- (Page 19)
 	- -
@@ -119,6 +123,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Acerca de las agregaciones de tipo de agrupación en ElasticSearch. #flashcard
+		  id:: 47512c46-1256-4899-98ef-e3319cd0db31
 			- Las  agregaciones  de  agrupación  (del  inglés  bucket  aggregations)  no  calculan métricas sobre campos como lo hacen las agregaciones de métricas, sino que crean grupos de documentos. Cada grupo está asociado con un criterio (dependiendo del tipo de agregación) que determina si un documento en el contexto actual “cae” en él.  Los  depósitos  definen  efectivamente  conjuntos  de  documentos,  y  también calculan y devuelven el número de documentos que “cayeron” en cada depósito. Las  agregaciones  de  grupo,  a  diferencia  de  las  agregaciones  métricas,  pueden contener  subagregaciones.  Estas  subagregaciones  se  agregarán  para  los  grupos creados por la agregación de grupo “principal”.
 		- (Page 34)
 	- -

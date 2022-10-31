@@ -12,5 +12,6 @@ category:: #books
 	- -
 	- -
 		- Al andar se hace camino y al volver la vista atrás se ve la senda que nunca se ha de volver a pisar. Caminante, no hay camino, sino estelas 114 en la mar. #flashcard
+		  id:: 1af64596-0977-4ae5-8f75-7e9f9812326c
 		- ([Location 1692](https://readwise.io/to_kindle?action=open&asin=B08BJF6X6P&location=1692))
 	- -

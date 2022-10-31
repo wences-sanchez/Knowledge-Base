@@ -10,6 +10,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Cuáles son los dos enfoques habituales para actualizar un entorno de producción? #flashcard
+		  id:: 069ef7e2-848d-4e83-b35d-ef03da911e85
 			- En  un  entorno  virtualizado,  ya  sea  de  nube  pública  o  privada,  hay  dos  enfoques habituales para estas actualizaciones (Lucifredi y Ryan, 2018):   Despliegue basado en instancias: cada instancia se actualiza individualmente en el momento del despliegue de la aplicación.   Despliegue basado en imágenes: se crea una nueva imagen cada vez que se lanza una  versión  de  producción,  a  partir  de  la  cual  se  crean  nuevas  instancias  y  se destruyen las antiguas.
 		- (Page 5)
 	- -
@@ -29,11 +30,13 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Explica el despliegue basado en imágenes #flashcard
+		  id:: 65b2b7b0-78c6-46e1-a144-db62539f2a3b
 			- La  creación  de  nuevas  imágenes  proporciona  una  forma  más  limpia  de  ejecutar actualizaciones. Estas imágenes, o plantillas, consisten en una máquina virtual con una configuración y unas aplicaciones concretas, que se apaga y se «congela», en el sentido de que no puede ser arrancada. Esta imagen mantiene la configuración del hardware virtual y los discos de la máquina sin modificaciones desde el apagado. Las instancias  se  despliegan  «clonando»  esta  imagen,  es  decir,  creando  una  nueva máquina virtual con el mismo hardware virtual y con un disco que es una copia del disco de la imagen. Los pasos para una actualización de 1.0 a 1.1 son los siguientes:   Al igual que con el enfoque anterior, una vez completados los pasos generales, se generan los paquetes de instalación con el número de versión 1.1.   Se  arranca  una  instancia  con  una  instalación  básica  del  sistema  operativo,  que podría hacerse con los últimos parches de seguridad. Este sistema operativo suele
 		- (Page 7)
 	- -
 	- -
 		- CONTINUE #flashcard
+		  id:: 416a2562-6317-4c49-81f3-44587796251f
 			- ser  el  mismo  que  el  de  la  imagen  de  la  versión  1.0,  pero  no  es  estrictamente necesario.   Se instala la aplicación, versión 1.1, desde cero. Los  scripts de instalación serán parecidos a los del modelo basado en instancias, pero no tienen que tratar con actualizaciones de la aplicación, solo con la instalación inicial, por lo que pueden ser más sencillos.   Una  vez  completada  la  instalación,  se  «generaliza»  la  imagen  y  se  apaga  la máquina virtual (en algunos entornos este proceso es automático).   Dependiendo del entorno  de  nube,  la imagen  se  genera  a partir de  la  máquina virtual, dejando la máquina intacta, o la propia máquina virtual se convierte en una  plantilla.  En  ambos  casos,  la  imagen  es  inmutable  y  no  se  puede  arrancar, salvo mediante un clonado.   Las instancias en ejecución, basadas en la imagen de la versión 1.0, se sustituyen por  instancias nuevas  con  la  versión 1.1.  Al  igual  que en  el modelo anterior,  se puede  seguir  un  proceso  de  rolling  update  o  una  actualización  en  bloque  con parada  del  servicio.  La  problemática  de  convivencia  de  varias  versiones  existe también en este modelo de despliegue. La actualización basada en imágenes es más estable, porque no hay actualizaciones incrementales, sino instalaciones de cero. Como contrapartida, generar una imagen nueva, aun cuando el proceso esté automatizado, lleva más tiempo que cambiar un script  de  despliegue.  En  cualquier  caso,  el  despliegue  basado  en  imágenes  puede seguir  haciendo  uso  de  scripts  de  arranque  (es  decir,  user  data,  extensiones,  etc.) para finalizar la configuración de la aplicación, en caso de que sea necesario.
 		- (Page 8)
 	- -
@@ -43,6 +46,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Qué s Sysprp? #flashcard
+		  id:: 415bd401-c43d-47ff-abef-def7111f5485
 			- e
 		- (Page 10)
 	- -

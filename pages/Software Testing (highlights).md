@@ -32,6 +32,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Testers' deliverables #flashcard
+			  id:: 61048ca4-ede8-4e11-9840-c57a9183a7de
 				- For the same reasons that programmers must plan and document their work, software testers must as well. It's not unheard of for a software test team to create more deliverables than the programmers.
 		- -
 		- -
@@ -41,6 +42,7 @@ tags:: O'Reilly-Learning
 	- 3. The Realities of Software Testing
 		- -
 			- One key concept that software testers need to learn is how to reduce the huge domain of possible tests into a manageable set, and how to make wise risk-based decisions on what's important to test and what's not. #flashcard
+			  id:: e1acf2c5-90e7-4449-97b2-f795a1d62058
 		- -
 		- -
 			- How can you overcome the 'pesticide paradox'? #flashcard
@@ -57,6 +59,7 @@ tags:: O'Reilly-Learning
 	- 4. Examining the Specification
 		- -
 			- Note about the white-box tests #flashcard
+			  id:: 7723e3e3-7eb2-433c-b011-48761f0f2679
 				- There is a risk to white-box testing. It's very easy to become biased and fail to objectively test the software because you might tailor the tests to match the code's operation.
 		- -
 		- -
@@ -69,6 +72,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Tip about long specs. #flashcard
+			  id:: cdc16a35-7b0c-400f-b326-a6e9d5a90803
 				- If you review a portion of the spec and don't understand it, don't assume that it's correct and go on. Eventually, you'll have to use this specification to design your software tests, so you'll eventually have to understand it.
 		- -
 	- 5. Testing the Software with Blinders On
@@ -82,10 +86,12 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Test input ideas #flashcard
+			  id:: 2772b422-e1df-4021-9ab7-a0f9aee5136d
 				- So, with invalid, wrong, incorrect, and garbage data testing, have some fun. If the software wants numbers, give it letters. If it accepts only positive numbers, enter negative numbers. If it's date sensitive, see if it'll work correctly on the year 3000. Pretend to have “fat fingers” and press multiple keys at a time.
 		- -
 		- -
 			- What is stress testing? #flashcard
+			  id:: 876d00a5-fc9b-4ea3-b576-09a0c3a167f4
 				- Stress testing is running the software under less-than-ideal conditions—low memory, low disk space, slow CPUs, slow modems, and so on.
 		- -
 	- 17. Planning Your Test Effort

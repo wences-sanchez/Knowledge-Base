@@ -33,6 +33,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- <<<<<<< #flashcard
+		  id:: cb073416-a76c-4f55-8375-043c70cdd59d
 			- Las personas pueden ayudar a los diseñadores de los proyectos a hacer las siguientes tareas:   Definir qué debería hacer un producto y cómo debería comportarse. A través de los objetivos y tareas del proyecto, se identifica la base del esfuerzo del diseño del producto.   Establecer  comunicación  entre las  partes interesadas,  diseñadores  y desarrolladores. Se discuten las decisiones de diseño, centrado en los usuarios, en cada iteración, mediante un lenguaje común entre las personas.   Elaborar un consenso y compromiso de diseño. Llegar a un visión y entendimiento unificado, basado en el lenguaje común adoptado, y aplicar estructuras narrativas.   Evaluar  mediciones  de  la  efectividad  del  diseño.  Esto  permite  realizar  una verificación  cercana  a  la  realidad,  aunque  no  reemplaza  la  necesidad  de  ser probado con usuarios reales.   Apoyar otros esfuerzos del producto (marketing, ventas). Es interesante que se pueda contribuir a otros componentes de negocio no directamente relacionados con el desarrollo del producto, y que puedan beneficiarse del conocimiento de los usuarios del producto.
 		- (Page 12)
 	- -
@@ -61,6 +62,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- Describe en qué consiste la técnica **INVEST** para escribir historias de usuario #flashcard
+		  id:: f0aa4e55-36ef-40c4-b4a8-0748208b301e
 			-   I – Independiente (Independent): la historia de usuario debe ser auto explicable, sin depender de otras historias de usuario.   N – Negociable (Negotiable): historias de usuario flexibles y modificables, por lo que se evita incluir demasiado detalle.   V – Valiosa (Valuable): la historia de usuario debe aportar algún valor al usuario.   E – Estimable (Estimable): se debe poder estimar los recursos para completar cada   S – Escalable / Pequeño (Scalable / Small): historias de usuario simples para poder historia de usuario. ser encargadas y priorizadas.   T  –  Testable  (Timely):  criterios  de  verificación  y  aprobación  conocidos  por  el equipo, aplicando estos criterios que aplica cuando una historia esté completa.
 		- (Page 22)
 	- -

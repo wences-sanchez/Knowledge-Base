@@ -14,14 +14,17 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What is a network interface, for dummies? #flashcard
+			  id:: e0e6b261-71e3-43de-9796-8823f92acbdd
 				- You can create a simple computer network by hooking together all the computers in your office with cables and using the computer’s network interface (an electronic circuit that resides inside your computer and has a special jack on the computer’s backside). Then you tweak a few simple settings in the computer’s operating system (OS) software, and — voilà!
 		- -
 		- -
 			- How is a network cable different from a telephone cable? #flashcard
+			  id:: dec70faf-874d-425f-b8d9-c2add08d5150
 				- The type of network cable most commonly used is twisted-pair cable, so named because it consists of several pairs of wires twisted together in a certain way. Twisted-pair cable superficially resembles telephone cable. However, appearances can be deceiving. Most phone systems are wired using a lower grade of cable that doesn’t work for networks.
 		- -
 		- -
 			- What does packet mean in a network, for dummies? #flashcard
+			  id:: 838b3f42-2528-47ef-9d73-5aeb12d71101
 				- A packet is a message that’s sent over the network from one node to another node. The packet includes the address of the node that sent the packet, the address of the node the packet is being sent to, and data.
 		- -
 		- -
@@ -51,18 +54,21 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- However, mesh networks are common for metropolitan or wide area networks. These networks use routers to route packets from network to network. For reliability and performance reasons, routers are usually arranged in a way that provides multiple paths between any two nodes on the network in a mesh-like arrangement. #flashcard
+			  id:: 03bad12e-5ec5-47ad-bafb-c3fa15467654
 		- -
 		- -
 			- Usually a LAN is contained within a single building, but a LAN can extend to several buildings on a campus, provided that the buildings are close to each other (typically within 300 feet of each other, although greater distances are possible with special equipment). #flashcard
 		- -
 		- -
 			- About mesh networks on the internet #flashcard
+			  id:: f3b888f9-5efe-442f-92ce-f2265a8521d4
 				- Mesh networks aren’t very practical in a LAN setting. For example, to network eight computers in a mesh topology, each computer would have to have seven network interface cards, and 28 cables would be required to connect each computer to the seven other computers in the network. Obviously, this scheme isn’t very scalable.
 				  
 				  However, mesh networks are common for metropolitan or wide area networks. These networks use routers to route packets from network to network. For reliability and performance reasons, routers are usually arranged in a way that provides multiple paths between any two nodes on the network in a mesh-like arrangement.
 		- -
 		- -
 			- How are MAC represented? #flashcard
+			  id:: 86f657c3-1dcd-4937-aa67-7986db627bdb
 				- MAC addresses are 48 bits in length, which means that more than 280 trillion devices can be assigned unique MAC addresses before we run out. When written, MAC addresses are written in six octets separated by hyphens. An octet is a group of eight binary bits, written as a two-digit number in hexadecimal notation, which uses the letters A through F in addition to the digits 0 through 9 to represent the value of each octet. A typical MAC address looks like this:
 				  
 				   48-2C-6A-1E-59-3D
@@ -88,6 +94,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Explain, basically, what NAT does. #flashcard
+			  id:: 0ef2a793-b67d-48ff-a5d6-2d83ca2ae2a4
 				- When a router is used to connect a private network to the Internet, one of the router’s most important functions is routing traffic from all the computers on the private side of the router to the public side, which usually has just a single public IP address. To accomplish this magic, the router uses network address translation (NAT).
 				  
 				  In short, when a computer on the private side of the network sends a packet through the router to the Internet, the router substitutes its own public IP address as the sender address, and keeps track of the fact that it sent a packet on behalf of a computer on the private side. When the recipient on the Internet receives the packet, it sees that the sender was the router. It then sends a response back to the router, which then substitutes the original sender’s private IP address for the destination address and forwards the packet to the correct computer on the private network.

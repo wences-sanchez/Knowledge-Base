@@ -30,6 +30,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Acerca de la réplica de datos #flashcard
+		  id:: 42c6a52a-dba3-499d-a7ef-228b542b4b03
 			- La replicación es otro servicio orientado a mejorar la calidad del servicio de datos. A diferencia de la duplicación (data mirroring) que se enfoca en cómo mantener copias de  datos  consistentes  en  tiempo  real,  la  replicación  aborda  la  necesidad  de mantener  copias  completas  de  los  datos  para  que  puedan  ser  utilizados  en  la reconstrucción  del  sistema.  Esto  se logra  enviando  copias  de  datos  a  un almacenamiento centralizado, lo que permite a una organización tener la seguridad de que en caso de que necesite acceder a los datos críticos por algún motivo, estos están almacenados de forma segura y disponibles en caso de ser necesarios.
 		- (Page 10)
 	- -
@@ -45,6 +46,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Sobre las cosas 'cool' en el trabajo #flashcard
+		  id:: 1e5fba6c-426d-4b6d-9c38-c22e8037534f
 			-   No evites hacer el trabajo que consideras aburrido. Es divertido instalar software y  ver  surgir  cosas  nuevas.  No  es  tan  divertido  utilizar  entrevistas  de  casos  o revisiones técnicas. Pero ten en cuenta que esas tareas «aburridas» hacen posibles a las cosas divertidas. De hecho, a menos que completes estas tareas aburridas, probablemente  no  obtendrás  el  visto  bueno  para  avanzar  con  el  proyecto  y divertirte haciendo las cosas interesantes.
 		- (Page 27)
 	- -

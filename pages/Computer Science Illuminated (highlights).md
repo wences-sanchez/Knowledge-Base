@@ -23,6 +23,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Third Generation (1965–1971)
+			  id:: 587286e8-79ee-4747-95f5-308a10d2dda5
 			  In the second generation, transistors and other components for the computer were assembled by hand on printed circuit boards. The third generation was characterized by integrated circuits (ICs), solid pieces of silicon that contained the transistors, other components, and their connections. Integrated circuits were much smaller, cheaper, faster, and more reliable than printed circuit boards. #flashcard
 		- -
 		- -
@@ -35,6 +36,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Parallel architectures offer several ways to increase the speed of execution. For example, a given step in a program can be separated into multiple pieces, and those pieces can be executed simultaneously on several individual processors. These machines are called SIMD (single-instruction, multiple-data-stream) computers. A second class of machines can work on different parts of a program simultaneously. These machines are called MIMD (multiple-instruction, multiple-data-stream) computers. #flashcard
+			  id:: 802cd9d9-8d0c-4b79-b71f-8dccd5a77c35
 		- -
 		- -
 			- A Brief History of Computing Software #flashcard
@@ -65,6 +67,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Fourth Generation (1971–1989)
+			  id:: 604402e3-7717-4376-805f-46d2610f3eda
 			  The 1970s saw the introduction of better programming techniques called structured programming, a logical, disciplined approach to programming. The languages Pascal and Modula-2 were built on the principles of structured programming. BASIC, a language introduced for third-generation machines, was refined and upgraded to more structured versions. C, a language that allows the user to intersperse assembly-language statements in a high-level program, was also introduced. C++, a structured language that allows the user access to low-level statements as well, became the language of choice in the industry. #flashcard
 		- -
 		- -

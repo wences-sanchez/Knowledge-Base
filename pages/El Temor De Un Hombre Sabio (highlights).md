@@ -20,10 +20,12 @@ tags:: Literature
 	- -
 	- -
 		- Nunca se ven dos veces en el mismo sitio. Nunca en público. Desaparece durante meses. —Miré a Threpe—. ¿A ti qué te parece? —Bueno, no suena muy bien —concedió Threpe con un tono cargado de desaprobación—. Es muy probable que ese individuo no sea un mecenas como es debido. Quizá intente aprovecharse de tu amiga. —Eso mismo pienso yo —dije, apesadumbrado. #flashcard
+		  id:: 21b563de-b2b1-498e-a429-b85f0f174472
 		- ([Location 4285](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=4285))
 	- -
 	- -
 		- Now I am in the middle of a job change. It's March and in two months I'll be a QA :D #flashcard
+		  id:: 156082fc-b3a5-41f5-b4b0-81447ea8a171
 			- Por primera vez que yo recordara, sentía que ejercía cierto control sobre mi vida.
 		- ([Location 7585](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=7585))
 	- -
@@ -35,5 +37,6 @@ tags:: Literature
 	- -
 	- -
 		- —Si el Chtaeh fuera tan malvado como tú dices, te haría todo el daño que pudiera. Pero no puede. No pudo evitar que hicieras reír a tu Reshi esta mañana. No pudo evitar que disfrutaras del sol en la cara ni que besases las rosadas mejillas de las hijas de los granjeros, ¿verdad? #flashcard
+		  id:: f8e33d2f-192f-4716-ad97-97a4dada25c4
 		- ([Location 22533](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=22533))
 	- -

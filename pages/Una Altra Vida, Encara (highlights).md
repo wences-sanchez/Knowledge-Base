@@ -9,6 +9,7 @@ tags:: Literature
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- M'ho va dir benhumorat, com abans. Llavors vaig cometre un altre error. Li vaig preguntar si tenia ganes de xerrar sobre un llibre que em rondava pel cap.
+		  id:: 536605a4-e6a9-4e07-afd2-703d4844b2a7
 		  
 		  No en tenia.
 		  
@@ -19,6 +20,7 @@ tags:: Literature
 	- -
 	- -
 		- Reflexionava sobre el gran «i si?» de la meva vida. L'emigració. Quina vida hauria viscut si no hagués marxat de Grècia? Qui seria? Què seria?
+		  id:: 6ce0b9da-7723-4059-962d-29bf0e881b81
 		  
 		  Sovint m'ho recordaven els suecs quan em preguntaven, per exemple, si els meus llibres havien estat traduïts al grec i, en el cas que ho fossin, quina acollida tenien.
 		  

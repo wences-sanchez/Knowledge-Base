@@ -10,6 +10,7 @@ tags:: Entornos-CI-CD UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Define **Repositorio** #flashcard
+		  id:: 44fb99b6-4044-4699-936c-44e3eb37d10b
 			-   Repositorio: es el almacenamiento maestro de todos los archivos y su historial de cambios.  Se  almacena  en  el  servidor  de  control  de  versiones.  Cada  proyecto autónomo  debe  tener  su  propio  repositorio,  aunque  un  único  proyecto  puede estar repartido en más de un repositorio.
 		- (Page 6)
 	- -
@@ -30,6 +31,7 @@ tags:: Entornos-CI-CD UNI
 	- -
 	- -
 		- Define **Lock** #flashcard
+		  id:: e858e3ce-4b3b-4b33-b3bc-67f0d3a2b1bc
 			-   Lock:  un  bloqueo  hace  posible  que  nadie  pueda  editar  un  archivo  sin  el desarrollador que lo ha bloqueado.
 		- (Page 6)
 	- -
@@ -40,6 +42,7 @@ tags:: Entornos-CI-CD UNI
 	- -
 	- -
 		- Define **Revert** #flashcard
+		  id:: bb2b6187-6e9d-47bd-b7ed-bbbb022f8f79
 			-   Revert:  destruye  la  sandbox  para  descartar  los  cambios  y  volver  al  punto  de  la última actualización. Esto es útil cuando el código de la copia de trabajo actual se ha vuelvo inestable y no es posible hacerlo funcionar de nuevo. A veces revertir es más rápido que depurar, especialmente, si hay commits recientes.
 		- (Page 7)
 	- -
@@ -54,6 +57,7 @@ tags:: Entornos-CI-CD UNI
 	- -
 	- -
 		- Define **Rollback** #flashcard
+		  id:: 481fd352-1825-4cdb-bd87-a3901937bb5a
 			-   Rollback:  es  el  proceso  en  el  que  se  deshace  un  commit  para  que  los  cambios introducidos  desaparezcan  de  la  cabecera  del  repositorio.  El  mecanismo  para hacerlo varía dependiendo del sistema de control de versiones: en unos casos se genera un segundo commit B que anula los cambios del anterior commit A, por lo que los archivos vuelven al estado anterior (commit A). En otros casos, se puede eliminar el commit A completamente.
 		- (Page 7)
 	- -
@@ -87,6 +91,7 @@ tags:: Entornos-CI-CD UNI
 	- -
 	- -
 		- sistemas como Git permiten usar herramientas externas para extraer contenido de texto de un fichero binario y guardar los cambios sobre este texto. El control  de  versiones  almacenará  los  cambios  sobre  el  fichero  binario,  pero  las herramientas de comparación de cambios podrán trabajar con ficheros de texto. Por ejemplo,  se  puede  versionar  un  fichero  PDF  y  usar  la  herramienta  pdfinfo  para comparar detalles del contenido entre dos versiones. #flashcard
+		  id:: 767e2a9c-b486-4329-9bbb-2de777617365
 		- (Page 13)
 	- -
 	- -

@@ -10,6 +10,7 @@ tags:: Entornos-CI-CD UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Qué es Jenkins? #flashcard
+		  id:: 95167b9b-35aa-4c6d-ad62-e63738daecc6
 			- Jenkins es un sistema de integración y entrega continuas. Es una herramienta de código abierto disponible para múltiples arquitecturas que puede manejar cualquier tipo  de  construcción,  pruebas  y  despliegues  gracias  a  su  formato  de  plugins.
 		- (Page 4)
 	- -
@@ -19,6 +20,7 @@ tags:: Entornos-CI-CD UNI
 	- -
 	- -
 		- Cada agente tiene uno o varios ejecutores. Estos son procesos iniciados por el agente para  un  trabajo  de  Jenkins  concreto.  Así,  es  posible  ejecutar  varios  trabajos  en paralelo en cada agente. #flashcard
+		  id:: 1ef7d709-b557-4874-9dcf-128ea40e516a
 		- (Page 6)
 	- -
 	- -

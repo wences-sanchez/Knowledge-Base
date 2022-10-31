@@ -20,6 +20,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Spring provides a nice environment to execute such integration tests #flashcard
+			  id:: 208653c7-355d-4d25-aa60-8f42b3d8a098
 		- -
 	- Getting started with Java
 		- -

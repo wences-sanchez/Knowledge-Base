@@ -15,6 +15,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		-   La metodología Scrum indica que no se puede iniciar un proyecto sin definir lo que será el hecho, Done, de los requisitos. #flashcard
+		  id:: 292465cf-2360-4380-a95e-ca4ab35a6238
 		- (Page 6)
 	- -
 	- -
@@ -27,6 +28,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- Sobre la daily #flashcard
+		  id:: 76d9965a-f5d5-4c2a-9901-7193929a367a
 			- No se debe actualizar la acumulación de Sprint durante esta reunión. El objetivo debe ser resolver los impedimentos. Hay que asegurarse de que cada miembro del equipo permanezca presente hasta el final de la reunión. Es importante que se entienda que esta reunión no es una reunión de actualización de estado en la que un jefe recopila información sobre quién está a tiempo o retrasado. Más bien, es una reunión en la que los miembros del equipo se comprometen entre sí.
 		- (Page 29)
 	- -

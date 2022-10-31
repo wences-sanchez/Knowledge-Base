@@ -30,6 +30,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cómo funciona la clave privada SSH entre servidores? #flashcard
+		  id:: c722b0b6-3850-4c33-a3e5-9e98428c3087
 			- es  más  seguro  no  utilizar  contraseñas  para  los  inicios  de  sesión.  SSH  soporta autenticación  basada  en  claves:  el  usuario  crea  una  pareja  de  claves,  pública  y privada, y copia la clave pública a aquellos servidores a los que se va a conectar. Al conectar,  selecciona  la  clave  privada  en  el  cliente  SSH.  El  servidor,  al  recibir  la conexión,  comprobará  que  la  clave  privada  corresponde  con  la  clave  pública
 		- (Page 14)
 	- -
@@ -40,11 +41,13 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cómo se llaman y dónde se guardan en Linux la pareja de claves SSH pública y privada recién creadas? #flashcard
+		  id:: 9b4a1d93-de52-4b6b-a1fb-8dce8b6163d0
 			- La  clave  pública  se  guardará  en  el  fichero  security_key.pub  y  la  clave  privada  en security_key.  Por  defecto,  las  rutas  serían  ~/.ssh/id_rsa.pub  y  ~/.ssh/id_rsa.
 		- (Page 14)
 	- -
 	- -
 		- ssh-copy-id -i ./security_key.pub <usuario>@<equipo_remoto> #flashcard
+		  id:: 1b0beda6-368b-4bf0-bc1b-a07ea01be0bc
 		- (Page 14)
 	- -
 	- -
@@ -53,6 +56,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cómo harías, en bash, para ver cada línea de un script antes de que se ejecute? #flashcard
+		  id:: 0335a4f8-4747-4f51-841d-6a57818643a9
 			- los scripts de shell se pueden invocar con el parámetro -v, que muestra cada línea antes de ejecutarla
 		- (Page 18)
 	- -

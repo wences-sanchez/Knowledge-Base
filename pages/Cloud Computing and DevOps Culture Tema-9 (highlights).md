@@ -10,6 +10,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Los DevOps tienen, como parte de sus cometidos, no solo el desarrollar y desplegar los entornos de producción, sino el asegurar su correcto funcionamiento. Para hablar del  correcto  funcionamiento  de  un  sistema,  la  monitorización  es  una  pieza fundamental y necesaria. #flashcard
+		  id:: 2d7d664b-197d-49e1-ac25-d2d3d453dcff
 		- (Page 4)
 	- -
 	- -
@@ -29,6 +30,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Acerca del tipo de herramientas de observabilidad de alertas/visualizaciones. #flashcard
+		  id:: 9bab4d53-a8c4-4f0d-b3e8-6734303d9f7b
 			-   Alertas/visualizaciones. Puede parecer que esto no encaja con los otros tipos de herramientas, ya que es realmente posterior y más avanzado que las demás, pero proporciona una forma eficiente de consumo para los otros tipos e incluso puede producir su propia salida. Este tipo de herramienta hace que el sistema sea más comprensible  y  también  ayuda  a  crear  sistemas  más  interactivos  a  través  de proactividad y reacción ante estados negativos del sistema.
 		- (Page 7)
 	- -
@@ -44,11 +46,13 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Sobre Prometheus #flashcard
+		  id:: dd28ea05-46a4-4fdf-8142-8cec437232e7
 			- Esta es la herramienta de monitorización de series temporales más reconocida (y popular) y la solución ideal para aplicaciones nativas de la nube. Está alojada dentro del Cloud Native Computing Foundation (en siglas, CNCF), pero fue creado por Matt Proud  y  Julius  Volz,  y  patrocinado  por  SoundCloud.  Existe  mucha  documentación sobre Prometheus que te ayudará a entender cómo funciona, por ejemplo, visitando su página web. Prometheus es un sistema basado en extracción (pull) que utiliza una configuración local para definir cómo recolectar los datos. Esta información se recopila y guarda en un motor de almacenamiento altamente eficiente, dentro del disco local.
 		- (Page 11)
 	- -
 	- -
 		- Acerca de Graphite #flashcard
+		  id:: f71de6e9-134d-4dfc-9ec4-e7fb3233c522
 			- Graphite  existe  desde  hace  mucho  tiempo  y  se  ha  vuelto  omnipresente  en  la industria. Es un sistema de inserción de logs que recibe datos desde las aplicaciones. El funcionamiento es relativamente simple, cada aplicación inyecta (push) los datos hacia el componente de Graphite. Carbon, por su parte, almacena estos datos en la base  de  datos  Whisper,  y  esa  base  de  datos  junto  con  Carbon  se  leen  desde  el componente  web  Graphite,  que  actúa  como  interfaz  de  usuario  para  representar gráficamente  sus  datos en  un navegador.
 		- (Page 13)
 	- -
@@ -59,6 +63,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- ¿Para qué sirve una herramienta de observabilidad de tipo de sistema de agregación de registros? #flashcard
+		  id:: fba45768-f15a-407a-964d-ce8106414842
 			- Un sistema de agregación de registros sirve, principalmente, para coleccionar datos de  eventos,  es  decir,  actividades  irregulares  que  son  significativas.  Un  ejemplo podrían  ser  los  registros  de  acceso  para  un  servidor  web,  que  resultan  relevantes porque queremos saber qué o quién está accediendo a nuestros sistemas y cuándo. Otro  ejemplo  sería  un  error  de  aplicación,  porque  no  es  una  condición  de funcionamiento normal.
 		- (Page 16)
 	- -

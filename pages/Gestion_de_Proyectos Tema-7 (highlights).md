@@ -20,6 +20,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		-   Línea  de  tiempo:  una  visualización  de  cuándo  se  producirán  entregas  de productos completos (nuevos o actualizaciones) a lo largo del tiempo. La escala de tiempo puede oscilar entre días, trimestres o años, según la cantidad de trabajo y el nivel de detalle dentro de una versión en particular. #flashcard
+		  id:: 7b9b5ec0-56e1-4bfe-9780-6dd994396357
 		- (Page 9)
 	- -
 	- -
@@ -33,10 +34,12 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- el  Release  Plan  incluye  los  requisitos  más  específicos  para  poder construir  y  entregar  el  producto.  Por  esto,  es  importante  que  al  comienzo  del Release Plan, se tengan en cuenta estos componentes, incluyendo también lo que viene desde el Roadmap. Por tanto, el Release Plan es la manera de traducir cómo será el trabajo del equipo para entregar la visión estratégica que se define en  el Backlog, de acuerdo con la estructura temporal determinada en el Roadmap. #flashcard
+		  id:: 16414eaa-6eae-45db-8f05-96b962c594c5
 		- (Page 27)
 	- -
 	- -
 		-   En los proyectos ágiles no utilizaremos un diagrama de Gantt, sino un Roadmap desarrollado como Release Plan. #flashcard
+		  id:: d106540d-e18a-40f5-8352-1e3d41622e41
 		- (Page 28)
 	- -
 	- -

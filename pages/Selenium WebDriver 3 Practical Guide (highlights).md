@@ -18,6 +18,7 @@ category:: #books
 	- -
 	- -
 		- Selenium WebDriver accepts commands using the JSON-Wire protocol (also called Client API) and sends them to a browser launched by the specific driver class (such as ChromeDriver, FirefoxDriver, or IEDriver). This is implemented through a browser-specific browser driver. #flashcard
+		  id:: f4e95fdb-f4d1-4cb2-8ddc-84454531fd0d
 		- tags:: [[blue]] [[azul]]
 		- ([Location 432](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=432))
 	- -
@@ -28,6 +29,7 @@ category:: #books
 	- -
 	- -
 		- Selenium IDE is a Firefox add-on that allows users to record, edit, debug, and play back tests captured in the Selenese format, #flashcard
+		  id:: 95ae536a-22d0-464c-aecc-4335600c3af0
 		- tags:: [[blue]] [[azul]]
 		- ([Location 451](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=451))
 	- -
@@ -42,6 +44,7 @@ category:: #books
 	- -
 	- -
 		- Buscar y comparar con junit #flashcard
+		  id:: 7d1c46e2-8993-48d9-98d2-eea5314f49ab
 			- TestNG
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 490](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=490))
@@ -58,6 +61,7 @@ category:: #books
 	- -
 	- -
 		- According to WebDriver's Javadoc (http://selenium.googlecode.com/git/docs/api/java/index.html), the method declaration is as follows: WebElement findElement(By by) #flashcard
+		  id:: b4362341-da88-4382-9bd4-b54c41369c19
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 639](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=639))
 	- -
@@ -88,6 +92,7 @@ category:: #books
 	- -
 	- -
 		- La clase es la del CSS! Ya sea especificada en el .css o en el .html #flashcard
+		  id:: 887f6b69-0451-42f8-a955-3c27868bde8c
 			- driver.findElement(By.className("search-button"));
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 756](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=756))

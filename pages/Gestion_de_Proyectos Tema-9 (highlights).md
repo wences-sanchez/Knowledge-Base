@@ -23,6 +23,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- ¿Qué es el *burn up chart*?
+		  id:: 3e892e07-d3b6-4542-b870-5436cc61fca4
 		  
 		  INCLUIR IMAGEN #flashcard
 			- Este gráfico o diagrama es similar al burndown (Figura 3), con la diferencia que en este caso se comienza con cero puntos de historia conseguidos, y se van a notando los que se van alcanzando. Se suele representar la línea ideal de ascenso de puntos restantes para tener la comparativa visual. Si la línea de ejecución va por encima de la ideal, la velocidad es mayor de la esperada, y viceversa. Cuando todas las tareas de un  requisito  se  han  completado,  llegando  al  Done  del  Kanban  de  la  iteración,  se suman los puntos de historia de ese requisito y se actualiza el diagrama. El gráfico presenta que el número de puntos que quedan se han completado.

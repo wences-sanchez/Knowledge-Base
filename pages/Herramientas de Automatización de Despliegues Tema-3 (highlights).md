@@ -15,11 +15,13 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- Nombra las tres partes de que se compone Chef: #flashcard
+		  id:: 57df5a0d-7763-4f9e-986b-41a92079f5b2
 			- El framework Chef está compuesto por tres componentes básicos que interactúan entre sí:
 		- (Page 5)
 	- -
 	- -
 		- ¿Qué hace el Servidor Chef? #flashcard
+		  id:: 608296be-90dd-43a1-b005-4050d20b2cd8
 			- El servidor Chef constituye el centro de los datos de configuración, que contiene los cookbooks,  que  son  los  módulos  de  configuración  de  recursos, las  políticas que se aplicarán a los diferentes nodos, y los metadatos, que describen cada uno de los nodos administrados por Chef.
 		- (Page 5)
 	- -
@@ -60,6 +62,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- Define Chef Client #flashcard
+		  id:: 78082f66-3549-43ba-b69a-17af2b12d83c
 			-   Chef Client (Cliente Chef): realiza el trabajo necesario en nombre del nodo, donde ejecuta las recetas correspondientes para configurar e instalar el software.
 		- (Page 7)
 	- -
@@ -110,6 +113,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- service 'apache2' do supports :status => true action :nothing end En este recurso indicamos el nombre del servicio, en nuestro caso, 'apache2', y como argumentos estamos proporcionando supports para indicar que el estado del servicio se puede determinar mediante la opción status del sistema operativo, y action con el valor :nothing para especificar que no queremos hacer nada cuando Chef lea el recurso, ya que vamos a incluir notificaciones en los recursos que requieren que la configuración se recargue, y en ese momento es cuando el recurso ejecutará la acción que corresponda. #flashcard
+		  id:: 805abebf-2065-4ba6-b00b-aeb7fa2b5f9c
 		- (Page 19)
 	- -
 	- -

@@ -10,6 +10,7 @@ tags:: Gestión de Proyectos UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Hay  muchas  metodologías  ágiles,  pero  el  enfoque  es  algo  más  global,  que  puede aplicarse  de  diversas  formas.  Se  trata  de  un  hecho  admitido  por  entidades  muy reconocidas  de  ámbito  internacional,  tales  como  el  Project  Management  Institute (PMI,  2022),  que los  enfoques tradicionales irán  de  alguna  manera «desapareciendo» o usándose en menor medida. Entendemos en este caso enfoque tradicional como aquel en el que se lleva a cabo una planificación predictiva sobre un diagrama de Gantt, con un jefe de proyecto o una figura similar, que es quien decide y asigna el trabajo de manera centralizada, con una entrega de valor basada en el cumplimiento de hitos fijados en el tiempo. En este enfoque de trabajo, por tanto, no cuadran bien los aspectos mencionados anteriormente, que son más propios de la consecuencia natural de la transformación digital y de los negocios que hoy día se están viendo en diferentes ámbitos y contextos. #flashcard
+		  id:: f0c5831c-0111-4db1-9a76-010caef5204a
 		- (Page 6)
 	- -
 	- -

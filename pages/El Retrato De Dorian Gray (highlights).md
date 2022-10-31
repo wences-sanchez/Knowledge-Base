@@ -18,10 +18,12 @@ tags:: Literature
 	- -
 	- -
 		- Aún podía convertirla en su esposa. Su amor irreal y egoísta cedería ante una influencia superior, se transformaría en alguna pasión más noble, y el retrato que Basil Hallward había pintado le serviría de guía para toda su vida, sería para él lo que es para unos la santidad, para otros la conciencia, y para todos nosotros el temor de Dios. #flashcard
+		  id:: e461d149-0835-4a2b-b7dc-b1c6f8520eda
 		- ([Location 1757](https://readwise.io/to_kindle?action=open&asin=B0095QVDH4&location=1757))
 	- -
 	- -
 		- Harry —exclamó Dorian Gray yendo a sentarse a su lado—, ¿por qué no puedo sentir esta tragedia con la intensidad que desearía? No creo ser un hombre sin corazón. ¿Lo crees tú? #flashcard
+		  id:: fe019d16-32c7-4495-a98f-e4fb5535460b
 		- ([Location 1833](https://readwise.io/to_kindle?action=open&asin=B0095QVDH4&location=1833))
 	- -
 	- -

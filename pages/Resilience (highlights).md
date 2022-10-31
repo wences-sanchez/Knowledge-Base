@@ -12,9 +12,11 @@ category:: #books
 	- -
 	- -
 		- For some, it will be almost as if the trauma had never occurred. #flashcard
+		  id:: 5cf86769-df62-45b2-ae3e-99fb924565ec
 		- ([Location 77](https://readwise.io/to_kindle?action=open&asin=B009GEY7WI&location=77))
 	- -
 	- -
 		- These survivors may report that their tragedy has helped them to appreciate life more, #flashcard
+		  id:: 6a323a26-71d2-4382-bec2-c9748fea0c3a
 		- ([Location 79](https://readwise.io/to_kindle?action=open&asin=B009GEY7WI&location=79))
 	- -

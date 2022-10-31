@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- The word DevOps is a combination of the words development and operation. This wordplay already serves to give us a hint of the basic nature of the idea behind DevOps. It is a practice where the collaboration between different disciplines of software development is encouraged. #flashcard
+		  id:: 5f2204c1-9a19-4b33-bd19-727d7b4bb1f8
 		- ([Location 322](https://readwise.io/to_kindle?action=open&asin=B07BJKRXXK&location=322))
 	- -
 	- -
@@ -21,5 +22,6 @@ category:: #books
 	- -
 	- -
 		- called Red Hat Package Manager (RPM). #flashcard
+		  id:: 2c5d182e-c337-46bc-9a65-b6dc4abfbc10
 		- ([Location 489](https://readwise.io/to_kindle?action=open&asin=B07BJKRXXK&location=489))
 	- -

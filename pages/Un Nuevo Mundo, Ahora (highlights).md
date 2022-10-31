@@ -10,10 +10,12 @@ tags:: Self-Help
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- pecar significa no acertar con el sentido de la existencia humana. Significa vivir torpemente, ciegamente, y como consecuencia sufrir y causar sufrimientos. Una vez más, la palabra, despojada de su bagaje cultural y sus malas interpretaciones, señala la disfunción inherente en la condición humana. #flashcard
+		  id:: a1777910-56bc-434c-af7c-e49822d64a36
 		- ([Location 111](https://readwise.io/to_kindle?action=open&asin=B0062XCI36&location=111))
 	- -
 	- -
 		- Tuve que llegar al borde del suicidio antes de que la conciencia regresara, y entonces fue mucho más que un atisbo. Me libré del pensamiento compulsivo y el falso yo creado por la mente. #flashcard
+		  id:: 7669541f-74e0-4a0b-9141-73aad12ced08
 		- ([Location 382](https://readwise.io/to_kindle?action=open&asin=B0062XCI36&location=382))
 	- -
 	- -

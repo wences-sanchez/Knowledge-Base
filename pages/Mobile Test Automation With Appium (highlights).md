@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- Hybrid app
 		- -
 			- What is a hybrid app? #flashcard
+			  id:: f63c6e43-c812-478b-a614-dedd5e238c8a
 				- A hybrid app consists basically of websites packaged in a native wrapper. They are primarily developed in web technologies (HTML5, CSS, JavaScript) but run inside a native container, thereby giving a feel that it is a native app.
 		- -
 	- Appium architecture

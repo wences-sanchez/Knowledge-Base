@@ -16,6 +16,7 @@ category:: #books
 	- -
 	- -
 		- Instead of embedding HTML in programming code, JSP lets you embed special active elements into HTML pages. #flashcard
+		  id:: a0fb96f5-7b3b-4382-973f-1a25f312c1f1
 		- ([Location 346](https://readwise.io/to_kindle?action=open&asin=B0093T4LXG&location=346))
 	- -
 	- -
@@ -25,6 +26,7 @@ category:: #books
 	- -
 	- -
 		- ASP.NET, the latest version of ASP, #flashcard
+		  id:: cae052e6-810e-4170-8f8f-e183d0a3e4da
 		- ([Location 410](https://readwise.io/to_kindle?action=open&asin=B0093T4LXG&location=410))
 	- -
 	- -
@@ -59,6 +61,7 @@ category:: #books
 	- -
 	- -
 		- a servlet is a piece of code that adds new functionality to a server #flashcard
+		  id:: ecca1b22-2164-4e78-8a8b-ceac41daa3a7
 		- tags:: [[blue]] [[azul]]
 		- ([Location 666](https://readwise.io/to_kindle?action=open&asin=B0093T4LXG&location=666))
 	- -
@@ -94,10 +97,12 @@ category:: #books
 	- -
 	- -
 		- Class files that aren’t packaged in JAR files must be stored in the classes directory, #flashcard
+		  id:: a15264f2-0873-432e-be8d-f4ca607a715d
 		- ([Location 1242](https://readwise.io/to_kindle?action=open&asin=B0093T4LXG&location=1242))
 	- -
 	- -
 		- There are three different directives that you can use in a JSP page: page, include, and taglib #flashcard
+		  id:: 6a74b835-d777-49f3-939b-b0e88bda272b
 		- ([Location 1282](https://readwise.io/to_kindle?action=open&asin=B0093T4LXG&location=1282))
 	- -
 	- -
@@ -140,6 +145,7 @@ category:: #books
 	- -
 	- -
 		- a bean is simply a Java class that follows certain coding conventions, so it can be used by tools as a component in a larger application. #flashcard
+		  id:: 01867ad9-e303-494d-97a4-af5279cc82bc
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1588](https://readwise.io/to_kindle?action=open&asin=B0093T4LXG&location=1588))
 	- -

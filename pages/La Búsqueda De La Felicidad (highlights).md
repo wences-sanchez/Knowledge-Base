@@ -10,6 +10,7 @@ tags:: Self-Help
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Sí, me reconozco en el miedo a fallar. Por eso no hice el FCE. Por eso no eché currículums a ninguna empresa. Por eso no intenté trabajar antes del master. Por eso sigo posponiendo (entre otras razones) mi viaje y traslado al extranjero. Por eso sigo posponiendo mi ida a Londres. #flashcard
+		  id:: 72cd6969-8ebc-4e0b-8ab8-72764f23188c
 			- ¿Se reconoce o reconoce a alguien que conoce en alguna de estas tres historias?
 		- ([Location 141](https://readwise.io/to_kindle?action=open&asin=B0064SUSHC&location=141))
 	- -
@@ -35,6 +36,7 @@ tags:: Self-Help
 	- -
 	- -
 		- This is what you should do, man! #flashcard
+		  id:: c12b8b9e-e363-424e-b21f-5937ef928e59
 			- El optimalista también se marca objetivos extremadamente altos, pero sus objetivos resultan factibles porque son realistas. Cuando cumple sus objetivos, aprecia sus éxitos y se toma el tiempo necesario para disfrutar de ellos.
 		- tags:: [[mind]]
 		- ([Location 183](https://readwise.io/to_kindle?action=open&asin=B0064SUSHC&location=183))
@@ -70,6 +72,7 @@ tags:: Self-Help
 	- -
 	- -
 		- Sobre tu nuevo objetivo (irte a más largo plazo) y tu misma manera de conseguirlo. #flashcard
+		  id:: 069cd985-91cd-462c-99c8-ca0ffb506fba
 			- Concentrándose en progresar y mejorar y recuperándose de las adversidades, acepta un camino más enrevesado hacia su destino que el perfeccionista, quien insiste en seguir una línea recta hacia su objetivo. Pero como el optimalista, al contrario del perfeccionista, no se rinde ni se queda paralizado por el miedo al fracaso, cuenta con muchas más posibilidades de alcanzar realmente sus objetivos.
 		- tags:: [[mind]]
 		- ([Location 343](https://readwise.io/to_kindle?action=open&asin=B0064SUSHC&location=343))
@@ -85,6 +88,7 @@ tags:: Self-Help
 	- -
 	- -
 		- ¡¡Haz esto!! #flashcard
+		  id:: 616072d7-b283-41b0-b479-e5d4e0853e8d
 			- El intento de suprimir activamente un pensamiento, de combatirlo y bloquearlo, lo mantiene vivo e intenso. De forma parecida, emociones como la ansiedad, el miedo o la envidia se intensifican cuando tratamos de suprimirlas, cuando tratamos de combatirlas y bloquear su flujo natural.
 		- tags:: [[mind]]
 		- ([Location 842](https://readwise.io/to_kindle?action=open&asin=B0064SUSHC&location=842))
@@ -116,10 +120,12 @@ tags:: Self-Help
 	- -
 	- -
 		- Cuando mi hijo cumplió tres años, empezamos a hacer una variación de este ejercicio juntos. Cada noche, yo le preguntaba: «¿Qué te ha gustado más del día de hoy?», y luego él me formulaba la misma pregunta. Mi mujer y yo nos recordamos a menudo que estamos agradecidos por tenernos el uno al otro y por nuestra relación. Estoy seguro de que este ejercicio me ha ayudado a pasar de ser un perfeccionista, que da lo bueno por sentado, a ser un optimalista, que lo aprecia. #flashcard
+		  id:: de4a0e1d-f929-46dc-853f-3870f890cec5
 		- ([Location 1474](https://readwise.io/to_kindle?action=open&asin=B0064SUSHC&location=1474))
 	- -
 	- -
 		- Sí, veo mi cabaña de madera y también mi tele de 50 pulgadas. Eso me hace feliz y, por mi bien, no debería de dejarlo ir. .mind #flashcard
+		  id:: 9650a203-ccd6-4806-877b-163c3592e279
 			- Mire a su alrededor. ¿Hay algo que no había apreciado antes?
 		- ([Location 1510](https://readwise.io/to_kindle?action=open&asin=B0064SUSHC&location=1510))
 	- -
@@ -135,6 +141,7 @@ tags:: Self-Help
 	- -
 	- -
 		- Me doy cuenta, después de mucho tiempo, de que la persona conceptual a la que siempre amé se llama London y se apellida cloud y developer. 
+		  id:: f610bd35-16d5-450a-b924-a15d05cdd128
 		  
 		  Pero el camino fue largo e indirecto.
 		  

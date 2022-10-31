@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- This book looks at how you can use Puppet to manage your configuration. #flashcard
+		  id:: baa91108-c59d-4e81-8d83-920bba186349
 		- ([Location 670](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=670))
 	- -
 	- -
@@ -24,6 +25,7 @@ category:: #books
 	- -
 	- -
 		- ¿Puppet es open-source o privativo? #flashcard
+		  id:: c30198c2-7b7f-4d48-bd51-3b2c7000edad
 			- Puppet has two versions available: the open source version and the Enterprise version.
 		- tags:: [[blue]] [[azul]]
 		- ([Location 694](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=694))
@@ -55,6 +57,7 @@ category:: #books
 	- -
 	- -
 		- ¿Qué es un Puppet Master? #flashcard
+		  id:: 7ad1633a-ddec-4584-a640-23d17e90c684
 			- The Puppet master runs as a daemon on a host and contains the configuration required for the specific environment.
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 707](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=707))
@@ -66,10 +69,12 @@ category:: #books
 	- -
 	- -
 		- Each agent can run Puppet as a daemon, via a mechanism such as cron, or the connection can be manually triggered. #flashcard
+		  id:: 40abcc62-09af-4e23-8e7b-fbad562d755a
 		- ([Location 713](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=713))
 	- -
 	- -
 		- The usual practice is to run Puppet as a daemon and have it periodically check with the master to confirm that its configuration is up-to-date or to retrieve any new configuration (Figure 1-3). #flashcard
+		  id:: 065e0523-c1c9-4d80-b9fb-69ccc46f5508
 		- ([Location 714](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=714))
 	- -
 	- -
@@ -89,6 +94,7 @@ category:: #books
 	- -
 	- -
 		- Estructura de un resource en Puppet. #flashcard
+		  id:: 89c278cd-83f6-4e34-9f23-d57eae3457c8
 			- Each resource is made up of a type (what sort of resource is being managed: packages, services, or cron jobs), a title (the name of the resource), and a series of attributes (values that specify the state of the resource—for example, whether a service is started or stopped).
 		- ([Location 741](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=741))
 	- -
@@ -118,12 +124,14 @@ category:: #books
 	- -
 	- -
 		- Pasos de la capa Transaccional de Puppet. #flashcard
+		  id:: 166d887f-503b-49dc-848a-34c7b071b926
 			- steps: Interpret and compile your configuration. Communicate the compiled configuration to the agent. Apply the configuration on the agent. Report the results of that application to the master.
 		- tags:: [[blue]] [[azul]]
 		- ([Location 789](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=789))
 	- -
 	- -
 		- The first step Puppet takes is to analyze your configuration and calculate how to apply it to your agent. To do this, Puppet creates a graph showing all resources, with their relationships to each other and to each agent. This allows Puppet to work out the order, based on relationships you create, in which to apply each resource to your host. This model is one of Puppet’s most powerful features. #flashcard
+		  id:: fe78359b-edce-4aed-8a9f-bd41e5668b0a
 		- ([Location 791](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=791))
 	- -
 	- -
@@ -132,6 +140,7 @@ category:: #books
 	- -
 	- -
 		- idempotency, #flashcard
+		  id:: 0206d3fb-63d8-454a-99e3-238b24193ba2
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 796](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=796))
 	- -
@@ -148,6 +157,7 @@ category:: #books
 	- -
 	- -
 		- The puppet.conf configuration file is constructed much like an INI-style configuration file and divided into sections. Each section configures a particular element of Puppet. For example, the [agent] section configures the Puppet agent, and the [master] section configures the Puppet master binary. There is also a global configuration section called [main]. All components of Puppet set options specified in the [main] section. #flashcard
+		  id:: 40a3396c-45ac-45c5-964e-41d2ba37ac8f
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1036](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1036))
 	- -
@@ -169,6 +179,7 @@ category:: #books
 	- -
 	- -
 		- ¿Qué es un manifest en Puppet? #flashcard
+		  id:: a3e04fbe-053d-4be0-8639-0997c2e0ff2a
 			- Manifest is Puppet’s term for files containing configuration information. Manifest files have a suffix of .pp. The Puppet language is written into these files.
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 1055](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1055))
@@ -203,27 +214,32 @@ category:: #books
 	- -
 	- -
 		- Adding a Node Definition #flashcard
+		  id:: 83c838d1-0a62-4f1d-b4fa-5f0e123ae151
 		- ([Location 1193](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1193))
 	- -
 	- -
 		- ¿Cómo definimos un nodo en site.pp? #flashcard
+		  id:: 36e60f56-69af-4e31-99e1-a9da33b49f45
 			- For a node definition we specify the node name, enclosed in single quotes, and then specify the configuration that applies to it inside curly braces { }.
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 1199](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1199))
 	- -
 	- -
 		- Definición mejorada de un nodo en site.pp #flashcard
+		  id:: eb6ffc12-3b9d-4fd9-b9f9-21e56a632f99
 			- Here we specify an include directive in our node definition; it specifies a collection of configurations, called a class, that we want to apply to our host.
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 1219](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1219))
 	- -
 	- -
 		- There are two ways to include a class: node /node1/ {   include ::sudo } node /node2/ {   class { '::sudo':      users => ['tom', 'jerry'],   } } #flashcard
+		  id:: c97325f3-ef60-41eb-bc02-0a358c2127b0
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1221](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1221))
 	- -
 	- -
 		- Clases parametrizadas #flashcard
+		  id:: e8218188-bd01-48c3-9aa9-2b7e0d4dcb2c
 			- The first syntax is bare and simple. The second syntax allows parameters to be passed into the class. This feature, generally called parameterized classes, allows classes to be written generally and then utilized specifically, increasing the reusability of Puppet code.
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 1224](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1224))
@@ -287,6 +303,7 @@ category:: #books
 	- -
 	- -
 		- The == comparison operator is case-insensitive. To perform a case-sensitive comparison for strings, you must use the regular expression operator =∼ and you must fully root the regular expression; for example, $osfamily =∼ /^Debian$/. #flashcard
+		  id:: 6d0654bb-c9aa-456a-9a5a-413301069d2e
 		- ([Location 1273](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1273))
 	- -
 	- -
@@ -309,11 +326,13 @@ category:: #books
 	- -
 	- -
 		- The $::server variable contains the hostname of our Puppet server. #flashcard
+		  id:: af72b9b6-b20b-4880-b490-d8e3e34a3fa6
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1309](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1309))
 	- -
 	- -
 		- puppet:///modules/sudo/etc/sudoers. #flashcard
+		  id:: e665ee19-ecdd-41d9-a306-bdf87bd3af11
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1312](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1312))
 	- -
@@ -363,6 +382,7 @@ category:: #books
 	- -
 	- -
 		- Why does this happen? Puppet is a declarative language. Allowing variable reassignment would require us to rely on order in the file to determine the value of the variable, and order does not matter in a declarative language. #flashcard
+		  id:: ec741cf0-8fcb-4dee-8d51-fffd64ea30a0
 		- ([Location 1541](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1541))
 	- -
 	- -
@@ -377,6 +397,7 @@ category:: #books
 	- -
 	- -
 		- Top scope is anything declared in site.pp or imported manifests. #flashcard
+		  id:: c43c11ff-21a4-4064-9915-c37978821d47
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 1545](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1545))
 	- -
@@ -405,11 +426,13 @@ category:: #books
 	- -
 	- -
 		- class ssh::install {   $package_name = $::osfamily  ?     'RedHat'  => "openssh-server",     'Debian'  => "openssh-server",     'Solaris' => "openssh",     },   package { 'ssh':     ensure => present,     name   => $package_name,   } } #flashcard
+		  id:: 6140fcb1-d17d-4de0-8d98-9b67f687ca4e
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1779](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1779))
 	- -
 	- -
 		- Selector matching is case-insensitive. #flashcard
+		  id:: 0b62e57a-a4c1-4398-bc6d-47f3208ccd63
 		- ([Location 1808](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1808))
 	- -
 	- -
@@ -427,6 +450,7 @@ category:: #books
 	- -
 	- -
 		- the require metaparameter tells Puppet that all the resources in the specified class must be processed prior to the current resource. #flashcard
+		  id:: 1539d26f-8de7-486c-b3b1-bd39c50cc268
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1910](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1910))
 	- -
@@ -452,6 +476,7 @@ category:: #books
 	- -
 	- -
 		- class ssh { require ssh::params include ssh::install include ssh::config include ssh::service } #flashcard
+		  id:: 297080a3-3b98-479e-b462-63cc06feaf41
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2047](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2047))
 	- -
@@ -466,6 +491,7 @@ category:: #books
 	- -
 	- -
 		- class mysql::install (   $user,   $group ){ #flashcard
+		  id:: 518fcfe4-67c9-446a-980f-9f4fdffa9a31
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2127](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2127))
 	- -
@@ -490,6 +516,7 @@ category:: #books
 	- -
 	- -
 		- Putting the $name variable as part of the name of the exec resource will solve this problem. #flashcard
+		  id:: 43883389-7879-4461-abc6-2b9a7328c2b0
 		- ([Location 2265](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2265))
 	- -
 	- -

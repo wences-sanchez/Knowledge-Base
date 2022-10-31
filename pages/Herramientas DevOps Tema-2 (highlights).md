@@ -15,11 +15,13 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿Cuándo se dice que un componente guarda un estado? #flashcard
+		  id:: cd5c6e4f-5ab3-4d42-a646-8dda71bf76a2
 			- la pieza de  información  más  relevante  sobre  un  componente  es  si guarda  estado  o  no.  Un  componente  guarda  estado  cuando  puede  variar  su respuesta una misma pregunta sin necesidad de que haya variado la respuesta de algunas de las peticiones a otros componentes.
 		- (Page 5)
 	- -
 	- -
 		- ¿Qué caracteriza a un componente sin estado? #flashcard
+		  id:: 8baa23e8-a60d-451c-aeba-db42c6467abc
 			- Los componentes sin estado son fácilmente reemplazables ya que una copia idéntica del mismo componente debería poder responder a las peticiones idénticamente. Esto tiene  amplias  consecuencias  operacionales  que  nos  permiten  adoptar  estrategias sencillas  de  balanceo  de  carga  o  reemplazar  completamente  un  componente  que está funcionando incorrectamente por uno nuevo.
 		- (Page 5)
 	- -
@@ -40,6 +42,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿Cuáles son las principales necesidades de un componente de cómputo? #flashcard
+		  id:: 390dbb3e-2df5-4a9c-8e30-97cab83779e7
 			- Las principales características son las necesidades de procesamiento (CPU), las de memoria volátil (RAM) y las de memoria más lenta pero grande (disco).
 			  
 			  Las necesidades de procesamiento (CPU) hace años que han dejado de crecer exponencialmente para crecer mucho más lentamente, lo que ha ocasionado que en ocasiones se hable simplemente del número de cores o vcpu que se le da al componente de cómputo.
@@ -73,6 +76,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Características de las FaaS: +++ #flashcard
+		  id:: 1bd28d5c-7465-43a3-8d0f-92db57d52293
 			- En el caso de FaaS existen varios impactos para DevOps que tenemos que considerar:   Cada función realizará una tarea relativamente pequeña. Esto hace cada función sencilla  pero  la  coordinación  entre  ellas  y  la  arquitectura  global  puede  ser complicada.  Es  importante  tener  una  estrategia  de  compatibilidad  entre  las distintas funciones y una buena separación y coordinación de los despliegues al haber más piezas. Si no hay peticiones, no existe consumo. Por este motivo las funciones o lambdas son muy utilizadas para peticiones infrecuentes y pueden conllevar un gran ahorro de recursos en estos casos.   La  ejecución  de  una  función  implica  arrancar  un  entorno.  Aunque  esto  es relativamente rápido es importante medir lo que se suele denominar cold start o arranque  en  frío.  Si  la  función  se  ha  ejecutado  recientemente,  los  proveedores suelen tener una caché de parte del arranque y las ejecuciones serán mucho más rápidas.   El coste de las ejecuciones suele ser más elevado que la misma ejecución en un servidor o un contenedor siempre que ese contendor tenga una utilización alta.
 		- (Page 13)
 	- -
@@ -97,6 +101,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Habla acerca del tipo de BBDD, referente al contenido y consulta, conocido como Data Warehouse. #flashcard
+		  id:: 0f447975-0c53-48fc-b546-fb848515675d
 			-   Data Warehouse o almacenamiento de datos, son bases de datos que se utilizan para  almacenar  datos  históricos  del  progreso  del  sistema  para  un  análisis posterior. En este tipo lo importante suele ser el coste de almacenamiento a largo plazo, la capacidad de consulta y agregación de grandes cantidades de datos y la capacidad  de  ingesta  de  grandes  cantidades  de  datos  en  grupos  (trabajos  de backup diarios) o en vivo mediante un stream. No es tan importante el tiempo de respuesta de una escritura en concreto sino la velocidad del conjunto.
 		- (Page 15)
 	- -
@@ -107,6 +112,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Habla acerca del tipo de BBDD, referente a su interfaz exterior o paradigma, conocido como orientadas a documentos. #flashcard
+		  id:: 442c07f8-23d9-4774-8e58-025381ff95b9
 			-   Orientadas  a  documentos:  las  bases  de  datos  orientadas  a  documentos almacenan un concepto de Documento y se basan principalmente en obtenerlo y procesarlo. En esta categoría entran desde bases de datos clave valor como Redis, bases  de  datos  de  documentos  que  permiten  consultas  más  complejas  como MongoDB o Couchbase y algunas bases de datos que veremos posteriormente de búsqueda como ElasticSearch.
 		- (Page 16)
 	- -

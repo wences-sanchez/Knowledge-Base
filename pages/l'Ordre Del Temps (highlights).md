@@ -20,6 +20,7 @@ tags:: Science
 	- -
 	- -
 		- Recapitulo la llarga capbussada que ha estat aquesta primera part del llibre. El temps no és únic: hi ha una durada diferent per a cada trajectòria, passa a diferents ritmes en funció del lloc i la velocitat. No té orientació: la diferència entre passat i futur no existeix en les equacions elementals del món, és un aspecte contingent que apareix quan mirem les coses descuidant-ne els detalls; en aquest desenfocament, el passat de l'univers era en un estat curiosament «peculiar».
+		  id:: dae168ea-7ac3-4902-9a9b-5eda44e9dcf0
 		  
 		  El concepte de «present» no funciona: en el vast univers no hi ha res que puguem anomenar raonablement «present». El substrat que determina les durades del temps no és una entitat independent, diferent de les altres que constitueixen el món, sinó un aspecte d'un camp dinàmic, que salta, fluctua, es concreta únicament interactuant i no es defineix per sota d'una escala mínima... #flashcard
 		- (Page 68)
@@ -40,6 +41,7 @@ tags:: Science
 	- -
 	- -
 		- No existe el tiempo porque es relativo a cada observador, a cada punto de referencia. Coherentemente, no se puede tomar como parámetro "fiable" en ninguna ecuación global. .sci #flashcard
+		  id:: b37d0411-c994-45f4-be5b-79c382ad3ef2
 			- Els camps es manifesten en forma granular: partícules elementals, fotons i quàntums de gravetat, és a dir, quàntums d'espai. Aquests grànuls elementals no viuen immersos en l’espai: ells mateixos formen l'espai. Millor encara: l'espacialitat del món és la xarxa de les seves interaccions. No viuen en el temps: incessantment interactuen els uns amb els altres; és més, només existeixen com a termes d'interaccions incessants. I aquest interactuar és l'esdevenir del món: és la forma mínima elemental del temps, que no està orientada, ni organitzada en una línia o en una geometria corba i llisa com les estudiades per Einstein. És una interacció recíproca en què els quàntums s'actualitzen en el mateix acte d'interactuar, respecte d'allò amb què interactuen.
 			  
 			  La dinàmica d'aquestes interaccions és probabilística.
@@ -69,6 +71,7 @@ tags:: Science
 	- -
 	- -
 		- Causes, memòria, traces, la mateixa història de l'esdevenir del món que es desplega no només en els segles i mil·lennis d'història humana, sinó també en els milers de milions d'anys del gran relat còsmic, tot plegat neix simplement del fet que la configuració de les coses va ser «particular» ara fa uns milers de milions d'anys.
+		  id:: 90448d74-7e12-427a-85a3-3034dbcb62bb
 		  
 		  I «particular» és un terme relatiu: s'és particular respecte d'una perspectiva. En un desenfocament, que al seu torn està determinat per les interaccions que té un sistema físic amb la resta del món. Causes, memòria, traces, la mateixa història de l’esdevenir del món, per tant, poden ser només perspectiva: com el cel que gira, un efecte del nostre peculiar punt de vista sobre el món.. Inexorablement, l'estudi del temps només ens remet a nosaltres. I aleshores tornem a nosaltres mateixos. #flashcard
 		- (Page 122)

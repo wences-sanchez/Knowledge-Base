@@ -10,6 +10,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Cómo definirías las alertas y las visualizaciones? #flashcard
+		  id:: 1d15c654-8e6e-4006-9ee0-31f4d66a1abd
 			- Las alertas son, básicamente,  una  selección  de  salidas  negativas  del  sistema  y  las  visualizaciones son  representaciones  estructuradas  desambiguadas,  enfocadas  en  facilitar  la comprensión al usuario.
 		- (Page 4)
 	- -

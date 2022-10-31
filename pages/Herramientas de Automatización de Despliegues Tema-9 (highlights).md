@@ -10,6 +10,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Las variables en Ansible son  siempre globales, lo  que significa que,  al declarar una variable en un  rol, en un playbook o en cualquiera de las ubicaciones posibles (que veremos en este tema), se hace disponible para todos los playbooks y plantillas que se procesan durante la ejecución de Ansible. Esto tiene como consecuencia que las variables de un rol generalmente se prefijan con el nombre del rol. #flashcard
+		  id:: 61cb5026-b975-4e25-bb7a-651a78848c41
 		- (Page 4)
 	- -
 	- -
@@ -22,6 +23,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- Variables de grupo de playbook (se usan habitualmente) Otra  ubicación  donde  se  pueden  definir  variables  de  grupo  es  en  el  subdirectorio group_vars pero situado a nivel de playbook. Su funcionalidad es la misma que las definidas  a  nivel  inventario,  pero  esta  vez  el  subdirectorio  cuelga  del  mismo directorio  en  el  que  se  encuentra  el  fichero  playbook.yml,  y  su  precedencia  es también superior. #flashcard
+		  id:: 59074bf8-0223-48b9-ac82-6b86e9e1c701
 		- (Page 15)
 	- -
 	- -

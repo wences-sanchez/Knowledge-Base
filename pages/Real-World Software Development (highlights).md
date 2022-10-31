@@ -29,6 +29,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Talk about the Principle of Least Surprise #flashcard
+			  id:: 2d8111a6-08c6-4dc3-9a36-d4d71b3859d2
 				- It is a good habit to follow the principle of least surprise when you implement methods. It will help ensure that it is obvious what is happening when looking at the code. This means:
 				  
 				  
@@ -56,6 +57,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Suggested structure of tests #flashcard
+			  id:: da717da6-bc7a-468a-a254-54afa5fe5f5d
 				- There are three parts:
 				  
 				  You set up the context for your test. In this case a line to parse.
@@ -86,6 +88,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Will this break my tuning? #flashcard
+			  id:: 8cf0edee-985f-43a2-94c7-eda7afb9d42c
 				- Code Coverage
 		- -
 	- 3. Extending the Bank Statements Analyzer
@@ -95,6 +98,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- A functional interface code's example in Java #flashcard
+			  id:: 9af3ae86-cee5-4d95-abaf-7681fc17ac4d
 				- @FunctionalInterface
 				  public interface BankTransactionFilter {
 				    boolean test(BankTransaction bankTransaction);
@@ -128,6 +132,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Benefits of OCP #flashcard
+			  id:: 44eef8cb-d568-44c3-953d-63be75b80ba3
 				- To summarize, the Open/Closed Principle is a useful principle to follow because it:
 				  
 				  Reduces fragility of code by not changing existing code
@@ -141,6 +146,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- In fact, there are two sides of the coin to consider. On one side a method like findTransactionsGreaterThanEqual() is self-explanatory and easy to use. You should not be worried about adding descriptive method names to help readability and comprehension of your API. However, this method is restricted to a particular case and you can easily have an explosion of new methods to cater for various multiple requirements. On the other side, a method like findTransactions() is initially more difficult to use and it needs to be well-documented. However, it provides a unified API for all cases where you need to look up transactions. There isn’t a rule of what is best; it depends on what kind of queries you expect. If findTransactionsGreaterThanEqual() is a very common operation, it makes sense to extract it into an explicit API to make it easier for users to understand and use. #flashcard
+			  id:: 7ad1f111-3c0f-4121-af62-4088f835f537
 		- -
 		- -
 			- Domain Class or Primitive Value?
@@ -154,6 +160,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About illegal values VS exceptions #flashcard
+			  id:: 632ba075-d295-4dee-854a-8f60eb6d920a
 				- Back in the frightening days of the C programming language, you would add a lot of if-condition checks that would return a cryptic error code. This approach had several drawbacks. First, it relied on global shared mutable state to look up the most recent error. This made it harder to understand individual parts of your code in isolation. As a result, your code became harder to maintain. Second, this approach was error prone as you needed to distinguish between real values and errors encoded as values. The type system in this case was weak and could be more helpful to the programmer. Finally, the control flow was mixed with the business logic, which contributed to making the code harder to maintain and test in isolation.
 		- -
 		- -
@@ -209,6 +216,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example 3-21. Notification pattern
+			  id:: 2a5a2338-af34-4f64-b06f-71bac868f02f
 			  public Notification validate() {
 			  
 			    final Notification notification = new Notification();
@@ -252,6 +260,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Takeaways
+			  id:: 9b06733d-b447-4986-a4a2-85af9a53cc36
 			  The Open/Closed Principle promotes the idea of being able to change the behavior of a method or class without having to modify the code.
 			  
 			  The Open/Closed Principle reduces fragility of code by not changing existing code, promotes reusability of existing code, and promotes decoupling, which leads to better code maintenance.
@@ -281,6 +290,7 @@ tags:: O'Reilly-Learning
 	- 4. The Document Management System
 		- -
 			- __switch #flashcard
+			  id:: f71d8ce6-1ff8-464a-aefe-cde9b67271bc
 				- This approach would have solved the problem in question but would be hard to extend. Every time you want to add another type of file that gets processed you would need to implement another entry in the switch statement. Over time this method would become intractably long and hard to read.
 		- -
 		- -
@@ -289,6 +299,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example 4-5. How to define a constant in Java
+			  id:: 84aad341-1183-4b36-9fab-e63d70065184
 			  public static final String PATH = "path"; #flashcard
 		- -
 		- -
@@ -307,6 +318,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Postconditions cannot be weakened in a subtype #flashcard
+			  id:: 51c0262d-c27a-488b-9932-7bf56ac8f7ea
 				- This might sound a bit confusing because it reads a lot like the first rule. Postconditions are things that have to be true after some code has run. For example, after importFile() has run, if the file in question is valid it must be in the list of documents returned by contents(). So if the parent has some kind of side effect or returns some value, then the child must do so as well.
 		- -
 		- -
@@ -315,6 +327,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About test function names #flashcard
+			  id:: a4193c43-d2e9-46ed-acac-85287169da5e
 				- The key driving principles when it comes to test naming are readability, maintainability, and acting as executable documentation. When you see a report of a test class being run, the names should act as statements that document what functionality works and what does not.
 		- -
 		- -
@@ -324,6 +337,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- DRY in unit tests #flashcard
+			  id:: e31b8569-5720-4b1b-a684-5dac7330f80a
 				- Example 4-20. Implementing a new assertion
 				    private void assertAttributeEquals(
 				        final Document document,
@@ -338,6 +352,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Do a little research about hamcrest #flashcard
+			  id:: ac127fd1-d650-4235-9110-c8c33378f71f
 				- These matchers come from the Hamcrest library, which is a very commonly used Java library that enables cleaner testing.
 		- -
 		- -
@@ -387,6 +402,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example 5-20. Switch expression with no fall-through behavior
+			  id:: ef302031-279e-46c6-abab-aecf34555c01
 			  var forecastedAmount = amount * switch (dealStage) {
 			    case LEAD -> 0.2;
 			    case EVALUATING -> 0.5;

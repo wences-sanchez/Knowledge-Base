@@ -30,11 +30,13 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Algunos ejemplos de alias en PowerShell. #flashcard
+		  id:: 826efde5-f266-42dd-a810-32cb47b0b775
 			- PowerShell  soporta  alias,  que  son  nombres  alternativos  de  comandos  y  cmdlets (Shepard, 2015). Por ejemplo, dir y ls son alias de Get-ChildItem y cd es un alias de Set-Location. Hay alias disponibles para muchos cmdlets con funcionalidad similar en entornos DOS o Linux. El objetivo es doble: hacer el código más conciso en la línea de comandos y facilitar la transición de los usuarios habituales de otras shell. Para obtener una lista de los alias definidos en una sesión, se puede hacer uso de Get-Alias. Con el parámetro por defecto, Get-Alias <alias>, se obtiene el comando al que un alias hace referencia y con Get-Alias -Definition <cmdlet> se obtienen los alias definidos para ese cmdlet (ver Figura 8).
 		- (Page 10)
 	- -
 	- -
 		- ¿Cómo usarías, exportarías e importarías alias en PowerShell? #flashcard
+		  id:: c5fa417a-292e-4561-90c1-7e12c0e60b4d
 			- El cmdlet New-Alias crea un alias en la sesión actual. Los alias no son permanentes y desparecen  al  cerrar  la  consola,  pero  es  posible  guardarlos  con  Export-Alias.  Al iniciar sesión, se pueden importar con Import-Alias.
 		- (Page 11)
 	- -
@@ -45,11 +47,13 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- CONTINÚA #flashcard
+		  id:: ebcb491f-0fd0-437b-8c2c-080e01ff05bc
 			- La  política  de  ejecución  es  una  medida  de  seguridad  de  PowerShell  que  ofrece control a los administradores sobre qué scripts se pueden ejecutar. Las políticas de ejecución posibles son:   Restricted: no permite la ejecución de scripts en ningún caso. Fue la política por defecto para las versiones anteriores a Windows Server 2012 R2.   All signed: solo los scripts con una firma digital válida se pueden ejecutar.
 		- (Page 12)
 	- -
 	- -
 		- ¿Cuáles son las políticas de ejecución, de medidas de seguridad, posibles en PowerShell? #flashcard
+		  id:: e72076b1-7e05-4392-aa92-a39375c55c23
 			-   Remote signed: los scripts de ubicaciones remotas deben tener una firma digital válida  para  ejecutarlos,  pero los  scripts locales  se  pueden  ejecutar  sin restricciones. Es la política por defecto desde Windows Server 2012 R2.   Unrestricted: cualquier script se puede ejecutar sin restricciones. El  comando  Get-ExecutionPolicy  muestra  la  política  actual,  mientras  que  Set ExecutionPolicy permite cambiar de una política a otra (ver Figura 12). Administración de Sistemas en la Cloud Tema 7. Ideas clave 13 I  ) R N U i j (  a o R a L  e d   l a n o i c a n r e t n I  d a d i s r e v i n U ©
 		- (Page 13)
 	- -
@@ -80,6 +84,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Ejemplo de ForEach en PowerShell #flashcard
+		  id:: 9a1a65f4-45c1-41f2-a3ca-07e8be2a6590
 			- La expresión más habitual para recorrer un bucle es ForEach. Esta expresión ejecuta un bloque de código para todos los valores de una colección. Por ejemplo, el siguiente bloque imprime el nombre de todos los ficheros de una carpeta: ForEach ($file in (Get-ChildItem -Path C:\Users\Administrator -File)) { Write-Host $file.Name } No es necesario inicializar la variable si ForEach recibe la colección a través de una tubería. En ese caso, la variable $_ contiene el valor de cada iteración (ya se vio en un  ejemplo  similar  en la  sección  sobre  Get-Member).  Esta  funcionalidad  es especialmente útil en modo interactivo.
 		- (Page 21)
 	- -

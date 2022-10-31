@@ -45,6 +45,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Just talking seriously about QA and what should be your attitude #flashcard
+			  id:: cc824a66-e064-4cdf-b3dc-420d355bc0b8
 				- You know what? None of these factors really matter. If you’re the only developer, or your team doesn’t have any testers, or you’re being rushed by others, or the system is old and crappy, your quality assurance process is the only one you have, and it will make or break your software.
 		- -
 	- Chapter 3. The Testing Vocabulary

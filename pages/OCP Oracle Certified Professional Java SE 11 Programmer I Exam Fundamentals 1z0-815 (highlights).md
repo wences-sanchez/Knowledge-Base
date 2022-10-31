@@ -38,11 +38,13 @@ category:: #books
 	- -
 	- -
 		- An abstract class lies somewhere in between a class and an interface. Just like a class, it defines behavior as well as implementation but the implementation that it provides is not complete enough for you to create instances of it. Therefore, just like an interface, it cannot exist on its own. #flashcard
+		  id:: 68160e67-4ff2-45c3-a534-1d335f7ef1f0
 		- tags:: [[blue]] [[azul]]
 		- ([Location 492](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=492))
 	- -
 	- -
 		- C++ has pointer arithmetic, global functions, operator overloading, extern declarations, preprocessor directives, unsigned data types, and so many other "features" that Java simply does not have. These are some really powerful tools in the hands of a C++ programmer. So, why doesn't Java have them? Java has actually gone in reverse with respect to features. Java does not have a lot of features that are found in languages that came before Java. The reason is simple. Java follows the philosophy of making life simpler for the programmer. Having more and more features is not necessarily a good thing. #flashcard
+		  id:: 8faf8d52-6ca4-4836-80f6-ca2e62819d65
 		- ([Location 522](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=522))
 	- -
 	- -
@@ -57,11 +59,13 @@ category:: #books
 	- -
 	- -
 		- It should now be clear that a program needs two kinds of memory spaces to keep the stuff. One for temporary stuff that can be cleaned up as soon as a method call ends and one for permanent stuff that remains in use for longer than a single method call. The space for storing the temporary stuff is called Stack space and the space for storing all other stuff is called Heap space #flashcard
+		  id:: 45d7366b-2f40-4b7f-a74d-b2646fecbe65
 		- tags:: [[blue]] [[azul]]
 		- ([Location 706](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=706))
 	- -
 	- -
 		- When a thread dies, its stack space is reverted back to the JVM. Since this space behaves like a stack, it is called stack space #flashcard
+		  id:: f74fb96f-5733-43a7-8e53-a8bc8aec2708
 		- tags:: [[blue]] [[azul]]
 		- ([Location 732](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=732))
 	- -
@@ -82,6 +86,7 @@ category:: #books
 	- -
 	- -
 		- Stack space is limited for a program. So, if you have a huge chain of method calls where each method creates a lot of temporary variables (recursion is a good example), it is possible to run out of stack space. In Java, the default stack space size is 64KB but it can be changed at the time of executing the program using command line option -Xss. Heap space is unlimited from the program's perspective. It is limited only by the amount of space available on your machine. #flashcard
+		  id:: 90b1a8a9-8c02-4411-adcf-3f88f87698ac
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 756](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=756))
 	- -

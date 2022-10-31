@@ -19,6 +19,7 @@ tags:: Science
 		- -
 		- -
 			- In classical physics, if you know everything about a system at some instant of time, and you also know the equations that govern how the system changes, then you can predict the future. That’s what we mean when we say that the classical laws of physics are deterministic. If we can say the same thing, but with the past and future reversed, then the same equations tell you everything about the past. Such a system is called reversible. #flashcard
+			  id:: 3c33baf3-fa92-4b0e-bd10-87eaa5b553e9
 			- ([Location 241](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=241))
 		- -
 		- SIMPLE DYNAMICAL SYSTEMS AND THE SPACE OF STATES
@@ -71,14 +72,17 @@ tags:: Science
 			- -
 			- -
 				- But there is another element that he may have underestimated: the ability to know the initial conditions with almost perfect precision. #flashcard
+				  id:: 0c9a364c-f026-447b-9060-05acff43424a
 				- ([Location 372](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=372))
 			- -
 			- -
 				- In principle we cannot know the initial conditions with infinite precision. In most cases the tiniest differences in the initial conditions—the starting state—leads to large eventual differences in outcomes. This phenomenon is called chaos. #flashcard
+				  id:: c09c8974-4bcf-4d14-98f0-af658f5d4b22
 				- ([Location 380](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=380))
 			- -
 			- -
 				- If a system is chaotic (most are), then it implies that however good the resolving power may be, the time over which the system is predictable is limited. Perfect predictability is not achievable, simply because we are limited in our resolving power. #flashcard
+				  id:: f7a86b53-fa4e-4913-87a0-cf590038859d
 				- ([Location 382](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=382))
 			- -
 			- -
@@ -95,22 +99,27 @@ tags:: Science
 			- -
 			- -
 				- Vectors can also be described in component form. We begin with three perpendicular axes x, y, z. Next, we define three unit vectors that lie along these axes and have unit length. The unit vectors along the coordinate axes are called basis vectors. The three basis vectors for Cartesian coordinates are traditionally called , , and #flashcard
+				  id:: a0cc6e4b-bf79-4156-bf46-419fc5155038
 				- ([Location 481](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=481))
 			- -
 			- -
 				- Here is the angle between the vectors. In ordinary language, the dot product is the product of the magnitudes of the two vectors and the cosine of the angle between them. #flashcard
+				  id:: f2fc22e6-a519-477b-a6a3-47378682fdad
 				- ([Location 505](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=505))
 			- -
 			- -
 				- An important property of the dot product is that it is zero if the vectors are orthogonal (perpendicular). #flashcard
+				  id:: 1dc1ff13-55b5-4b99-8acf-14789d718558
 				- ([Location 515](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=515))
 			- -
 			- -
 				- To cope, mathematically, with continuous changes, we use the mathematics of calculus. Calculus is about limits, #flashcard
+				  id:: 48aeb684-fc51-4e3d-8414-81ec7af8b973
 				- ([Location 527](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=527))
 			- -
 			- -
 				- The concept of a point particle is an idealization. No object is so small that it is a point—not even an electron. But in many situations we can ignore the extended structure of objects and treat them as points. For example, the planet Earth is obviously not a point, but in calculating its orbit around the Sun, we can ignore the size of Earth to a high degree of accuracy. #flashcard
+				  id:: 693a75e6-0a70-463e-9bbc-365d50621971
 				- ([Location 619](https://readwise.io/to_kindle?action=open&asin=B084D4ZC17&location=619))
 			- -
 			- -

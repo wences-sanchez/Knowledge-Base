@@ -10,6 +10,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- la ruta  /media  suele  alojan  las  unidades  del  CD  (disco  duro)  y  las  unidades  de  USB externas, una vez montadas. #flashcard
+		  id:: 34cf231e-da8e-4072-9499-7c933ac03d33
 		- (Page 5)
 	- -
 	- -
@@ -18,6 +19,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cuál es el patrón de sintaxis de chmod? #flashcard
+		  id:: d441212c-9667-41c3-ae39-d0931c47b4f4
 			-   Clase|activar/desactivar|permiso.   Representación binaria.
 		- (Page 10)
 	- -
@@ -44,6 +46,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- **$ id ubuntu**
+		  id:: 31bbb147-2f03-41c2-9f29-d18afb440be4
 		  
 		  uid=1000(ubuntu) gid=1000(ubuntu) min),126(sambashare) groups=1000(ubuntu),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpad #flashcard
 		- (Page 17)
@@ -69,10 +72,12 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- killallterminará todos los  procesos  con  ese  nombre.  También  permite  especificar  un  usuario,  por  lo  que terminará los procesos de ese usuario. #flashcard
+		  id:: 1adf4b96-2e98-48c6-8dc2-929c9332fc2d
 		- (Page 20)
 	- -
 	- -
 		- killall terminará también el proceso de consola y, por tanto, terminará la sesión del usuario. $ killall -u username $ killall -r httpd #flashcard
+		  id:: b8f92880-bff0-4d87-9ef5-41faf085aeca
 		- (Page 21)
 	- -
 	- -
@@ -84,6 +89,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- El comando uptime muestra por consola un resumen del estado del sistema:
+		  id:: 1605966c-e725-4f87-b9df-1001d9f34b4f
 		  la hora actual,
 		  el tiempo que el sistema ha estado arrancado,
 		  el número de usuarios conectados
@@ -95,10 +101,12 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- **$ df -h** muestra el espacio disponible en los sistemas de ficheros montados. En la Figura20se muestra la salida de dfen una instalación de Ubuntu con escritorio. El modificador -h imprime los valores en unidades más legibles para un usuario, como KB, MB, etc. #flashcard
+		  id:: 41d4d344-4e39-4f8d-a173-35167f176a5c
 		- (Page 28)
 	- -
 	- -
 		- El directorio /proc es un directorio especial, ya que contiene archivos con información del sistema operativo. De hecho, no solo se puede obtener información, sino que es posible cambiar los parámetros del núcleo de Linux editando los archivos contenidos de /proc, modificando así el comportamiento del sistema.
+		  id:: 2c910ac0-a4a0-4f7b-803e-18a36dbeb295
 		  
 		  El sistema de archivos /proc no es un directorio real en el disco duro, sino una colección de estructuras de datos en la memoria, administrada por el núcleo, que aparece como un conjunto de directorios y archivos. El propósito de /proc (también llamado sistema de archivos de procesos) es ofrecer acceso a la información sobre el sistema operativo y sobre todos los procesos que se encuentran en ejecución. Los archivos de /proc son accesibles,como cualquier otro, pero es necesario conocer el significado y la sintaxis de ellos para interpretar la información. #flashcard
 		- (Page 29)

@@ -10,11 +10,13 @@ tags:: O'Reilly-Learning
 	- 1. Understanding Ansible and the Red Hat RHCE
 		- -
 			- NoteThe word “ansible” was first used by the author Ursula K. Le Guin in her 1966 novel Rocannon’s World. As a contraction of the word “answerable,” it references fictional devices that can send messages over interstellar distances to managed systems. Ansible from Red Hat may not work over interstellar distances, but it certainly does manage devices usually located on planet Earth. #flashcard
+			  id:: add26777-1cf6-485b-889b-ee2dfe13ce78
 			- tags:: [[curiosities]]
 		- -
 	- 2. Working with the Ansible Configuration
 		- -
 			- Where can I find Ansible configuration info? #flashcard
+			  id:: 8c294a36-2c9a-406f-8f0d-f122bd90f158
 				- NoteThe effective configuration for Ansible can be determined from the command ansible --version. Run this command from the directory in which you would execute the other Ansible commands for your project.
 		- -
 		- -

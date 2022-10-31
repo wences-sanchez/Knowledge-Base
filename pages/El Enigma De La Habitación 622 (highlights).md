@@ -26,6 +26,7 @@ tags:: Literature
 	- -
 	- -
 		- Siento haberlo dejado en la estacada hace quince años, señor Rose. —¡Venga, Lev, no vas a seguir dándole vueltas a lo mismo! Hiciste bien en aceptar la oferta de Abel Ebezner. ¡Mira qué carrera tan estupenda has hecho! —Nunca me ha gustado el banco, señor Rose. En el fondo, habría preferido volver al Palace y trabajar a su lado. —Nunca es demasiado tarde —contestó el señor Rose en tono de broma. —Por desgracia, sí. #flashcard
+		  id:: e74d85df-9fe0-4dca-a888-8871d7bcf52e
 		- ([Location 4291](https://readwise.io/to_kindle?action=open&asin=B087QS9GXJ&location=4291))
 	- -
 	- -

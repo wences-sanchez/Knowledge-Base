@@ -18,6 +18,7 @@ tags:: O'Reilly-Learning Puppet
 		- -
 		- -
 			- If you want to see what change Puppet would actually make to the file, you can use the --show_diff option: #flashcard
+			  id:: 7165cffc-ca34-451e-a54b-e0d115d9b3d5
 		- -
 		- -
 			- Creating or managing permissions on a directory is a common task, and Puppet uses the file resource to do this too. If the value of the ensure attribute is directory, the file will be a directory (file_directory.pp):
@@ -49,6 +50,7 @@ tags:: O'Reilly-Learning Puppet
 		- -
 		- -
 			- To reference a template file from within a module (for example, in our NTP module from Chapter 7, Mastering modules), put the file in the modules/pbg_ntp/templates/ directory, and prefix the filename with pbg_ntp/, as in the following example:
+			  id:: b2dab382-ff63-463b-9803-59270fd5a792
 			  
 			  file { '/etc/ntp.conf':
 			  content => epp('pbg_ntp/ntp.conf.epp'),
@@ -57,6 +59,7 @@ tags:: O'Reilly-Learning Puppet
 	- What is Puppet?
 		- -
 			- Because you can't necessarily tell in advance what applying a Puppet manifest will change on the system, it's a good idea to do a dry run first. Adding the --noop flag to puppet apply will show you what Puppet would have done, without actually changing anything #flashcard
+			  id:: 7be1e0e8-4a1f-4137-ac03-bd2a181b2a53
 		- -
 	- Exec resources
 	- Defined resource types
@@ -101,9 +104,11 @@ tags:: O'Reilly-Learning Puppet
 		- -
 		- -
 			- It's worth noting that there are two different ways to use Puppet. The first way, known as agent/master architecture, uses a special node dedicated to running Puppet, which all other nodes contact to get their configuration. #flashcard
+			  id:: b43ca66e-6673-4748-9c66-dfcf42d2df67
 		- -
 		- -
 			- You might have noticed a new attribute, called notify, in the file resource in the previous example:
+			  id:: 5e9e9172-0707-4b91-b265-f1c00d3d27ac
 			  
 			  file { '/etc/mysql/mysql.cnf':
 			  source => '/examples/files/mysql.cnf',
@@ -137,6 +142,7 @@ tags:: O'Reilly-Learning Puppet
 		- -
 		- -
 			- A resource declaration follows this pattern:RESOURCE_TYPE { TITLE:
+			  id:: e95c0343-a56f-457c-ab6b-516bd57be369
 			  ATTRIBUTE => VALUE,
 			  ...
 			  } #flashcard
@@ -244,6 +250,7 @@ tags:: O'Reilly-Learning Puppet
 	- Creating resources with Hiera data
 		- -
 			- lookup('users', Array[String]).each | String $username | {
+			  id:: 3fa2cd19-dfcf-4267-9da3-5719e86e98a8
 			  user { $username:
 			    ensure => present,
 			  }

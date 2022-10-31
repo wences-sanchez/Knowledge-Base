@@ -10,6 +10,7 @@ tags:: SecDevOps UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Esta red puede ser una red pública, como Internet, u otra red interna. Por ejemplo, es habitual disponer de cortafuegos regulando el tráfico entre la red a la que se conectan los equipos de usuario y las redes con aplicaciones corporativas. Como resultado, cada solicitud de acceso, desde la red de origen a la red protegida, debe pasar a través del cortafuegos, eliminando la necesidad de protección individual en cada servidor y host de la red protegida. #flashcard
+		  id:: 4c262e71-2c31-4663-9f95-e7e67d1d21d7
 			- Un cortafuegos (aunque el término cortafuegos es una traducción válida de firewall, el término en inglés está tan extendido que se usarán ambos a lo largo del tema) es un sistema de seguridad que controla el acceso a una red protegida, como una red corporativa, desde otra red.
 		- (Page 4)
 	- -
@@ -35,6 +36,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Gateway de circuito Un gateway de circuito es un servidor proxy que valida las sesiones TCP y UDP antes de  permitir  una  conexión  o  un  circuito.  Está  activamente  involucrado  en  el establecimiento de la conexión y no permite que los paquetes se envíen hasta que hayan pasado con éxito las normas de control de acceso. No son tan seguros como los de aplicación, porque no analizan la capa superior. Además, una vez que se ha establecido  una  sesión,  cualquier  aplicación  puede  ejecutarse  a  través  de  esa conexión. Este comportamiento expone la red protegida a los ataques de intrusos. #flashcard
+		  id:: bae16a4d-eb8e-46c8-b2c3-6a4bbcbd2552
 		- (Page 8)
 	- -
 	- -
@@ -51,6 +53,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Cortafuegos de host de rastreo En esta arquitectura, el host que actúa como cortafuegos, llamado bastión, solo se conecta a la red privada. Un rúter de rastreo (o de screening) adicional es colocado entre  el  bastión  e  Internet  (Figura  3).  Por  lo  tanto,  esta  arquitectura  combina  un enrutador de filtrado de paquetes y un gateway de aplicación. El rúter de rastreo realiza una función de filtrado de paquetes, y está configurado para que el bastión sea el único host de la red privada al que se puede acceder desde Internet.  Se  puede  proporcionar  seguridad  extra  para  que  el  rastreo  permita  el tráfico solo a puertos específicos del bastión, bloqueando el resto por defecto. Dado que el anfitrión del bastión es el huésped más expuesto en la red privada, suele ser  el  más  protegido.  Generalmente,  no  hay  un  único  bastión,  sino  varios.  Estos suelen actuar como servidores proxy para servicios públicos como FTP, HTTP o SMTP #flashcard
+		  id:: a33de0a5-717e-4b48-9862-69379ca3e2ac
 		- (Page 10)
 	- -
 	- -

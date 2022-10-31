@@ -16,6 +16,7 @@ url:: https://www.coursera.org/learn/aws-cloud-technical-essentials/lecture/7WOV
 	- -
 	- -
 		- With a traditional approach to scaling, you buy and provision enough servers to handle traffic at its peak. However, this means that at night time, there is more capacity than traffic. This also means you’re wasting money. Turning off those servers at night or at times where the traffic is lower only saves on electricity. 
+		  id:: b00dde6a-39d7-431e-bb1c-fd65800679f9
 		  
 		  The cloud works differently, with a pay-as-you-go model. It’s important to turn off the unused services, especially EC2 instances that you pay for On-Demand. One could manually add and remove servers at a predicted time. But with unusual spikes in traffic, this solution leads to a waste of resources with over-provisioning or with a loss of customers due to under-provisioning. #flashcard
 	- -

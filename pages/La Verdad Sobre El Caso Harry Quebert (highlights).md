@@ -10,6 +10,7 @@ tags:: Literature
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Por la noche, en mi cama, sin poder conciliar el sueño, pensaba que pronto, y antes de cumplir los treinta, Marcus Goldman dejaría de existir. #flashcard
+		  id:: 99b42428-11d1-4fd8-8c25-c2fb42c8a9cd
 		- ([Location 97](https://readwise.io/to_kindle?action=open&asin=B00CKXTP2O&location=97))
 	- -
 	- -
@@ -26,6 +27,7 @@ tags:: Literature
 	- -
 	- -
 		- Por supuesto, dejé de plantearme abandonar el equipo de lacrosse, ya que mi única obsesión fue a partir de entonces convertirme en el mejor, por todos los medios, estar en la cima a cualquier precio. #flashcard
+		  id:: 28cea9c0-0e9d-48af-9b44-363926145f33
 		- ([Location 779](https://readwise.io/to_kindle?action=open&asin=B00CKXTP2O&location=779))
 	- -
 	- -
@@ -34,6 +36,7 @@ tags:: Literature
 	- -
 	- -
 		- la vida, en términos generales, no tiene sentido. Salvo si se esfuerza usted en dárselo y lucha cada día que Dios nos da para llegar a ese fin. Tiene usted talento, Marcus: dele sentido a su vida, que el viento de la victoria haga ondear su nombre. Ser escritor es estar vivo. #flashcard
+		  id:: bfcb8ea6-9092-4334-b2a6-67503de59b43
 		- ([Location 1557](https://readwise.io/to_kindle?action=open&asin=B00CKXTP2O&location=1557))
 	- -
 	- -
@@ -46,6 +49,7 @@ tags:: Literature
 	- -
 	- -
 		- Fijamos la fecha de nuestra partida el 30 de agosto. Queríamos ir en coche hasta Canadá, pasar la frontera de Vermont. Llegar quizás hasta la Columbia Británica, instalarnos en una cabaña de madera. Una vida feliz al borde de un lago. #flashcard
+		  id:: b8fc7265-0cb0-48f4-ab2c-d75dce93e4b6
 		- ([Location 5279](https://readwise.io/to_kindle?action=open&asin=B00CKXTP2O&location=5279))
 	- -
 	- -

@@ -18,6 +18,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- As we can see, unit testing is a general term, whereas developer testing is a specific subset of unit testing, and TDD is a specific form of developer testing. #flashcard
+			  id:: c0afb6d5-c3a3-49e5-8a8a-3760572efdde
 		- -
 		- -
 			- About TDD philosophy. #flashcard
@@ -25,6 +26,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What is TDD about. #flashcard
+			  id:: df88df5f-0f2c-4fea-bb51-99355f564595
 				- NOTE
 				  TDD is about writing better, cleaner, more maintainable code, and only incidentally about testing.
 		- -
@@ -37,9 +39,11 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Rather than coming up with a very comprehensive list of functionality, we're going to focus on tiny bits of functionality, one at a time. #flashcard
+			  id:: c8c9f77b-7aa1-435d-9e7d-8fbbe2d9a861
 		- -
 		- -
 			- Failure VS Error #flashcard
+			  id:: 08273ff9-a5c9-495c-b704-e07710e11f95
 				- There are two reasons why a test might not pass: It might have failed or it might have caused an error. There is a small difference between these two. A failure indicates that we expected some outcome (usually via an assert), but got something else. For example, in our test, we are asserting that stock.price is None. Suppose stock.price has some other value apart from None, then the test will fail.
 				  
 				  An error indicates that something unexpected happened, usually an unexpected exception was raised. In our previous example, we got an error because the Stock class has not yet been defined.
@@ -112,9 +116,11 @@ tags:: O'Reilly-Learning
 	- Brittle tests
 		- -
 			- A test is brittle when a change in the implementation details requires a change in the test cases. Ideally, a test should be testing the interface and not the implementation directly. After all, it is the interface that other units will be using to interact with this unit. #flashcard
+			  id:: 8877751b-d15b-4d96-b4c4-c4d241cffd60
 		- -
 		- -
 			- Brittle tests can be worse than no tests, as the maintenance overhead of having to fix ten or twenty tests with every change in the implementation can turn developers away from TDD, increase the amount of frustration, and lead to teams disabling or skipping testing. #flashcard
+			  id:: 87554a2d-9d46-4e86-88b6-03b3ecaa00e2
 		- -
 		- -
 			- Here are some guidelines on how to think about test brittleness:

@@ -29,6 +29,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Save in a variable named first_owned the (just removed) element with index 0 of the list motorcycles #flashcard
+			  id:: 3277b60f-d1a3-4f0b-8c3b-b6ffd7009932
 				- first_owned = motorcycles.pop(0)
 		- -
 		- -
@@ -43,10 +44,12 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- The Python variables you’re using at this point should be lowercase. You won’t get errors if you use uppercase letters, but uppercase letters in variable names have special meanings that we’ll discuss in later chapters. #flashcard
+			  id:: 690d7903-9ad0-4f78-b682-38e7f03b2b8a
 		- -
 	- 9 CLASSES
 		- -
 			- How do we call a testing function? #flashcard
+			  id:: e3e6d419-95c4-47c1-b7ab-9d8a7a257188
 				- Any method that starts with test_ will be run automatically when we run test_name_function.py.
 		- -
 		- -
@@ -96,6 +99,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Insert 'ducati' at the beginning of the list motorcycles without using square brackets: #flashcard
+			  id:: cf043330-a252-4ec8-934f-d615b1db18c8
 				- motorcycles.insert(0, 'ducati')
 		- -
 		- -
@@ -104,6 +108,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- hese strings are called f-strings. The f is for format, because Python formats the string by replacing the name of any variable in braces with its value. #flashcard
+			  id:: ce6b74f2-a739-411a-b991-2ca039845f5b
 		- -
 		- -
 			- Remove the first element of the list motorcycles #flashcard
@@ -121,6 +126,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Show an alphabetically ordered list named cars. Make this change temporal. #flashcard
+			  id:: b81e8927-2ca3-4aa6-adcf-e65fd9346322
 				- print(sorted(cars))
 		- -
 		- -
@@ -150,6 +156,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Python has a special syntax for accessing the last element in a list. By asking for the item at index -1, Python always returns the last item in the list: #flashcard
+			  id:: e0942b34-8969-4b89-94f8-65c87adb17b4
 		- -
 		- -
 			- Show in a slice the first three items of the list players. #flashcard
@@ -180,6 +187,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Notice that reverse() doesn’t sort backward alphabetically; it simply reverses the order of the list: #flashcard
+			  id:: 1372fdf1-a359-4d0e-a82c-25be2c52f113
 		- -
 		- -
 			- Another way of access to an element in a dict instead of indexes in square brackets #flashcard
@@ -193,17 +201,20 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- How can you split a string in multiple lines? #flashcard
+			  id:: d67673f0-5bdb-4b13-82ed-6c1ee582cef3
 				- print(f"You ordered a {pizza['crust']}-crust pizza "
 				       "with the following toppings:")
 		- -
 		- -
 			- Tuples are technically defined by the presence of a comma; the parentheses make them look neater and more readable. If you want to define a tuple with one element, you need to include a trailing comma: #flashcard
+			  id:: a262aa36-3795-4a88-b4fa-56f94acffeeb
 		- -
 		- -
 			- Using singular and plural names can help you identify whether a section of code is working with a single element from the list or the entire list. #flashcard
 		- -
 		- -
 			- If you omit the first index in a slice, Python automatically starts your slice at the beginning of the list: #flashcard
+			  id:: 8c96f8e7-49e3-4ee4-acc4-719045e2162d
 		- -
 		- -
 			- You can avoid unexpected indentation errors by indenting only when you have a specific reason to do so. #flashcard
@@ -214,12 +225,14 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Build a dict named alien_0 with:
+			  id:: 190928e9-0663-44c3-9ee2-269afc32ad8f
 			  color ---> green
 			  points ---> 50 #flashcard
 				- alien_0 = {'color': 'green', 'points': 5}
 		- -
 		- -
 			- If you want to make a list of numbers, you can convert the results of range() directly into a list using the list() function. When you wrap list() around a call to the range() function, the output will be a list of numbers. #flashcard
+			  id:: 525a8aa3-c9b2-4af9-85e5-7e2191c77f06
 		- -
 	- 8 FUNCTIONS
 		- -
@@ -227,6 +240,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- How should I use the import's in Python? #flashcard
+			  id:: e5018d01-1b7a-4700-b463-58d9f2df5171
 				- The best approach is to import the function or functions you want, or import the entire module and use the dot notation. This leads to clear code that's easy to read and understand.
 		- -
 	- 10 FILES AND EXCEPTIONS
@@ -238,6 +252,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- u'll often want to run through all entries in a list, performing the same task with each item. For example, in a game you might want to move every element on the screen by the same amount, or in a list of numbers you might want to perform the same statistic #flashcard
+			  id:: 22b005fb-ab2b-451c-9b9c-649f4ee9e127
 		- -
 		- -
 			- Is it possible to reassign a tuple's content? #flashcard
@@ -268,6 +283,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Remove the entry with key ‘points’ from the dict alien. #flashcard
+			  id:: 2582d457-4350-4623-b144-cdfd54938f17
 				- del alien_0['points']
 		- -
 		- -
@@ -284,6 +300,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Iterate over the keys of a dict fav_langs {name:value} #flashcard
+			  id:: cca7740d-91b7-4bd2-ab2a-ad96793551cf
 				- for name in favorite_languages.keys():
 				       print(name.title())
 		- -
@@ -326,6 +343,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Explain how unlimited function parameters works in Python #flashcard
+			  id:: 25b06acc-0bac-4e6b-bf9b-c62b5ff91699
 				- The asterisk in the parameter name *toppings tells Python to make an empty tuple called toppings and pack whatever values it receives into this tuple. The print() call in the function body produces output showing that Python can handle a function call with one value and a call with three values. It treats the different calls similarly. Note that Python packs the arguments into a tuple, even if the function receives only one value
 		- -
 		- -
@@ -354,12 +372,14 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Bring a module ‘pizza’ to your scope but using an abbreviation.
+			  id:: 3dad54ef-b370-4174-9a18-3f101ab53d81
 			  
 			  Use it. #flashcard
 				- import pizza as p
 		- -
 		- -
 			- Build a constructor in Python #flashcard
+			  id:: 90c50e84-84fc-454f-bb4d-985aee440fa3
 				- def __init__(self, name, age):
 				           """Initialize name and age attributes."""
 				  ➍         self.name = name

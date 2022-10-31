@@ -10,10 +10,12 @@ tags:: O'Reilly-Learning
 	- Foreword
 		- -
 			- of people, processes, and products to enable the continuous delivery of value to our end users. Value is the most important word of that definition. DevOps is not about software, automation, shipping a feature, or getting to the bottom of your product backlog. It is about deliver #flashcard
+			  id:: 0859b895-1b67-4f8b-a250-8b749fabc444
 		- -
 	- Getting started with DevOps
 		- -
 			- Definition of DevOps: #flashcard
+			  id:: d60fb78d-5eb0-4a48-9ef4-2630738d2b5b
 				- "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.
 		- -
 	- Implementing CI
@@ -29,5 +31,6 @@ tags:: O'Reilly-Learning
 	- Continuous deployment
 		- -
 			- Drawbacks of Continuous Deployment: #flashcard
+			  id:: 7d13654c-d77c-46c9-ab6d-54267b313691
 				- This practice is rarely implemented in enterprises because it requires a wide coverage of tests (unit, functional, integration, performance, and so on) for the application, and the successful execution of these tests is sufficient to validate the proper functioning of the application with all of these dependencies, but also automated deployment to a production environment without any approval action.
 		- -

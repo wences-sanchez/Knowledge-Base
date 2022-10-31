@@ -26,10 +26,12 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- Este modelo tiene ventajas e inconvenientes; la ventaja principal es que, una vez que haces cambios, puedes enviarlos inmediatamente a las máquinas, sin esperar a que un proceso demonio (el agente) compruebe si hay cambios. La desventaja es que tú eres  el  responsable  de  distribuir  esos  cambios  a  tus  máquinas,  mientras  que  con Puppet y Chef basta simplemente con guardar (commit) tus cambios en el servidor centralizado, teniendo la certeza de que serán distribuidos pronto. Cabe destacar que Ansible puede configurarse para utilizar este modelo de funcionamiento pull, pero no es lo más habitual. #flashcard
+		  id:: 41cffda9-bad2-4a1a-a60b-cd32389b3554
 		- (Page 7)
 	- -
 	- -
 		- $ mkdir ansible‐test && cd ansible‐test $ vagrant init ubuntu/bionic64 A `Vagrantfile` has been placed in this directory. You are now ready to `vagrant up` your first virtual environment! Please read the comments in the Vagrantfile as well as documentation on `vagrantup.com` for more information on using Vagrant. #flashcard
+		  id:: 2c3e5e4b-16c7-4aef-83be-fd1b343dc441
 		- (Page 11)
 	- -
 	- -
@@ -65,6 +67,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- El  atributo  update_cache  indica  a  Ansible  que  actualice  la  caché  del  gestor  de paquetes  primero #flashcard
+		  id:: 69764171-d889-4486-8f82-3f7250eb80f3
 		- (Page 20)
 	- -
 	- -

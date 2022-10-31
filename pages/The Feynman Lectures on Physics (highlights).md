@@ -12,6 +12,7 @@ tags:: Science
 	- -
 	- -
 		- About particle-wave duality #flashcard
+		  id:: 681a1c20-e2f3-455f-b513-4fb384b197ea
 			- We conclude the following: The electrons arrive in lumps, like particles, and the probability of arrival of these lumps is distributed like the distribution of intensity of a wave. It is in this sense that an electron behaves "sometimes like a particle and sometimes like a wave.'
 		- tags:: [[sci]]
 	- -

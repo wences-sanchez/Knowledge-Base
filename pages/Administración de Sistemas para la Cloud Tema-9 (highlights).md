@@ -20,6 +20,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- CONTINUE #flashcard
+		  id:: ecc4dd98-84a9-4be0-9c68-88740973c07d
 			-   Not  Configured.  Especifica  que  esta  configuración  no  se  ha  habilitado  ni deshabilitado.  Simplemente  establece  que  esta directiva  de  grupo no  establece esta configuración, aunque otras GPO pueden haberla configurado.
 		- (Page 7)
 	- -

@@ -27,10 +27,12 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- Un nodo será cualquier máquina, ya sea física o en la nube, con el motor de Docker que forma parte de un clúster de Swarm. Tenemos dos tipos de nodos:   Mánagers:  serán  los  encargados  de  desplegar  las  aplicaciones  en  el  clúster enviando tareas a los nodos de tipo worker.   Workers:  ejecutan  las  tareas  recibidas  por  los  nodos  mánagers.  Además, notificarán periódicamente el estado de estas. #flashcard
+		  id:: 4ffffe36-0c8f-4605-8bd4-ed044d29b3d3
 		- (Page 7)
 	- -
 	- -
 		- Explica qué son los nodos manager de Docker Swarm #flashcard
+		  id:: 51f02c7b-6d65-4fda-87f7-71aa90c6ba44
 			- Los nodos mánager del clúster trabajarán para mantener en todo momento el estado deseado definido, planificarán los servicios entre los nodos y, además, atenderán las llamadas al API de Swarm.
 		- (Page 8)
 	- -

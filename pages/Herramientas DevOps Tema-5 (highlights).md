@@ -27,10 +27,12 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- Es  importante  que  sepas  que  Terraform  ha  escrito  datos  en  el  archivo  de  estado terraform.tfstate. Ten en cuenta que este archivo es sumamente relevante porque lleva a cabo un seguimiento de los ID de aquellos recursos que fueron creados para que la herramienta Terraform tenga conocimiento sobre lo que está gestionando. Por ello,  deberás  guardarlo  y  compartirlo  con  aquellas  personas  dentro  de  la organización que deban ejecutar Terraform. #flashcard
+		  id:: 3137370d-5c3f-4161-a9cd-f9442040e083
 		- (Page 19)
 	- -
 	- -
 		- asignaremos  una  IP  elástica  a  la instancia  de  EC2.  Para  ello,  vamos  a  Modificar  el  example.tf  y  agregaremos  lo siguiente: } resource "aws_eip" "ip" { instance = "${aws_instance.example.id}"   Esto es similar a lo que hemos hecho en el ejemplo anterior (cuando agregamos un recurso de  instancia  EC2), excepto que  esta  vez estamos  construyendo un  tipo de recurso aws_eip. Lo que hace este tipo de recursos es asignar y asociar una IP elástica #flashcard
+		  id:: 3501f50b-997b-4ad1-95a2-2bda5126906b
 		- (Page 25)
 	- -
 	- -

@@ -22,6 +22,7 @@ tags:: Literature
 	- -
 	- -
 		- Un futuro a evitar. #flashcard
+		  id:: ea7ad260-8bc4-4efb-9e55-25a730696c4d
 			- Durante nuestros paseos la marquesa nos había hablado de su sobrino alabándonos su mucha inteligencia y, sobre todo, su buen corazón; yo me figuraba que le iba a inspirar simpatía, que sería su amigo favorito, y, como antes de que llegara, su tía dejó entrever a mi abuela que el muchacho, desgraciadamente, había caído en manos de una mala mujer que le había trastornado el seso y no le soltaría nunca, yo, convencido de que esa clase de amores acaba fatalmente en locura, crimen o suicidio, me daba a pensar en el poco tiempo que estaba reservado a nuestra amistad, tan grande ya en mi alma aunque todavía no había visto al amigo, y sentía mucha pena por ella y por las desgracias que le esperaban, como ocurre con un ser querido del que nos acaban de decir que está gravemente enfermo y que tiene los días de vida contados.
 		- tags:: [[mind]]
 		- ([Location 5092](https://readwise.io/to_kindle?action=open&asin=B0876FDBH7&location=5092))

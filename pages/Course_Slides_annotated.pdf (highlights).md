@@ -12,6 +12,7 @@ category:: #books
 	- -
 	- -
 		- Which goals share dev and ops? #flashcard
+		  id:: 761cfec6-7b63-40f2-98e0-d7d9123979f9
 			- With DevOps, Dev and Ops work together and share the same goals.
 		- (Page 13)
 	- -
@@ -31,6 +32,7 @@ category:: #books
 	- -
 	- -
 		- What is the relation between configuration and build automation? #flashcard
+		  id:: 7333e106-b6e5-40bf-a4de-59b59533e0f5
 			- As much as possible, build automation should be agnostic of the configuration of the machine that it is built on
 		- (Page 28)
 	- -
@@ -89,6 +91,7 @@ category:: #books
 	- -
 	- -
 		- What is orchestration?
+		  id:: d1501176-eda5-48ee-a084-448011b071b2
 		  
 		  > With the help of tools, you can orchestrate a server resources by adding to the service more resource nodes programatically (or even automatically if you want) so that the application could use less (or more) resources dinamically. #flashcard
 			- Orchestration: automation that supports processes and workflows, such as provisioning resources
@@ -103,6 +106,7 @@ category:: #books
 	- -
 	- -
 		- What are microservices?
+		  id:: 8ad94d5f-e786-468c-9bfa-1cae12e57e0c
 		  
 		  > We build one small module which is independent of every other and interacts by an API. "Every feature could be like a new module"
 		  This module could be write even in other language. #flashcard

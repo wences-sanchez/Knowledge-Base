@@ -24,15 +24,18 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- require'spec_helper' if os[:family] == 'ubuntu' describe package('vim') do it {should be_installed} end #flashcard
+		  id:: 7340869c-75e4-402a-91f2-91aeaea6fcca
 		- (Page 26)
 	- -
 	- -
 		- CONTINUE #flashcard
+		  id:: 7cd99cad-20fb-4c89-baf4-134174306a7a
 			- end end end end end if os[:family] =='redhat' describe package('vim-minimal') do it {should be_installed} describe package('vim-enhanced') do it {should be_installed} describe command('vim --version') do its (:stdout) {should match /VIM - Vi IMproved/}
 		- (Page 27)
 	- -
 	- -
 		- ¿Cómo puedes aplicar los tests a una instancia ya aprovisionada con TestKitchen? #flashcard
+		  id:: 0d1435e3-a534-44fc-8ab4-2e0562d1888a
 			- Debido  a  que  ya  tenemos  la  instancia  aprovisionada  desde  el  paso  anterior,  se pueden aplicar nuevos cambios fácilmente para probarlos y comprobar el resultado de las pruebas. kitchen verify package-ubuntu-1804
 		- (Page 27)
 	- -

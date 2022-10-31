@@ -23,15 +23,19 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Conceptually, boundary value analysis is about testing the edges of equivalence classes #flashcard
+			  id:: a9a2d274-6a02-40d6-9d9c-d8312156c63e
 		- -
 		- -
 			- So, do all equivalence classes have boundary values? No, definitely not. Boundary value analysis is an extension of equivalence partitioning that applies only when the members of an equivalence class are ordered. #flashcard
+			  id:: e872dab9-6c92-4238-b258-bc4441e02873
 		- -
 		- -
 			- Notice that the number of columns—i.e., the number of business rules—is equal to 2 raised to the power of the number of conditions #flashcard
+			  id:: 67c9fbdf-260e-4a3b-a514-ccc6b6267d4e
 		- -
 		- -
 			- To combine two or more columns, look for two or more columns that result in the same combination of actions. #flashcard
+			  id:: 6f2aa3a7-c21a-4631-8140-ebcc05464223
 			- tags:: [[qa]]
 		- -
 		- -
@@ -41,6 +45,7 @@ tags:: O'Reilly-Learning
 	- 3 Test Techniques
 		- -
 			- An oracle should not be the code, because otherwise we are only testing whether the compiler works. #flashcard
+			  id:: 504d3008-8adb-442a-9ae7-66dabb53c32a
 		- -
 		- -
 			- It’s important to remember that fulfilling coverage criteria for a particular test design technique does not mean that your tests are in any way complete or exhaustive. Instead, it means that the model has run out of useful tests to suggest, based on that technique. #flashcard

@@ -15,6 +15,7 @@ category:: #books
 	- -
 	- -
 		- Si tú supieras cómo las ideas más grandes se empequeñecen al encerrarse en el círculo de hierro de la palabra; si tú supieras qué diáfanas, qué ligeras, qué impalpables son las gasas de oro que flotan en la imaginación, al envolver esas misteriosas figuras que solo acertamos a reproducir el descarnado esqueleto; si tú supieras cuán imperceptible es el hilo de luz que ata entre sí los pensamientos más absurdos que nadan en su caos: si crea, y de las que tú supieras... pero ¿qué digo? Tú lo sabes, tú debes saberlo.
+		  id:: 2b0e98b2-f218-4218-9c46-ac1cdb81b2c1
 		  
 		  ¿No has soñado nunca?
 		  

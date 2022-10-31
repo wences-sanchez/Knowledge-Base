@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- La Entrega Continua consiste en ir entregando versiones, pequeñas, del producto al cliente. En vez de marcar hitos mas o menos lejanos. #flashcard
+		  id:: d7255f16-15e5-45ae-b46e-4933bffaf9bd
 			- La entrega continua es, desde un punto de vista técnico, una colección de metodologías y prácticas que se centran en mejorar los procesos de entrega de software y optimizar la fiabilidad de las versiones de software de las organizaciones.
 		- tags:: [[blue]] [[azul]]
 		- ([Location 174](https://readwise.io/to_kindle?action=open&asin=B07YGWQL7D&location=174))
@@ -18,6 +19,7 @@ category:: #books
 	- -
 	- -
 		- Con el inicio de DevOps y CD, los enfoques de cascada se han archivado en los anales del historial de software y la comunicación y la colaboración siguen siendo aspectos importantes de las operaciones de una organización. #flashcard
+		  id:: 2a26da9d-dbf9-41ae-9ec7-d3a233cd7fc9
 		- tags:: [[blue]] [[azul]]
 		- ([Location 198](https://readwise.io/to_kindle?action=open&asin=B07YGWQL7D&location=198))
 	- -
@@ -37,6 +39,7 @@ category:: #books
 	- -
 	- -
 		- la mejor manera de definir DevOps es usar otro término, Desarrollo ágil, que viene con ciertos valores ágiles, principios ágiles, métodos ágiles, prácticas ágiles, así como diferentes herramientas ágiles. #flashcard
+		  id:: e82aaa27-5cff-4c79-a1ed-5fcf411e88b0
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 284](https://readwise.io/to_kindle?action=open&asin=B07YGWQL7D&location=284))
 	- -
@@ -72,6 +75,7 @@ category:: #books
 	- -
 	- -
 		- un gran número de software continuamente integrado vienen en cola para una implementación de software todos los días y simplemente no hay ninguna manera de que pueda probar todos ellos manualmente. #flashcard
+		  id:: cf7e7e28-bada-4816-b77f-2d925b197150
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 529](https://readwise.io/to_kindle?action=open&asin=B07YGWQL7D&location=529))
 	- -

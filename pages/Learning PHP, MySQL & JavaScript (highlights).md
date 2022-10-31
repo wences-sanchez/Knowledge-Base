@@ -23,11 +23,13 @@ category:: #books
 	- -
 	- -
 		- At the same time, the server attaches some JavaScript to the HTML to monitor #flashcard
+		  id:: 41385089-2db4-4c66-9bb1-1c96ed38b597
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 378](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=378))
 	- -
 	- -
 		- Without Ajax, the entire form would have to be submitted to the server, #flashcard
+		  id:: ff0f4fc3-3c17-4c01-8181-3650e0790d0f
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 387](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=387))
 	- -
@@ -63,11 +65,13 @@ category:: #books
 	- -
 	- -
 		- It is important to remember that the closing _END; tag must appear right at the start of a new line and it must be the only thing on that line #flashcard
+		  id:: 090a5fdf-a232-4c82-8935-96d00e2eae3a
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1057](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1057))
 	- -
 	- -
 		- Constants #flashcard
+		  id:: 4f1f76ab-6c7f-46b6-a322-57a4d934d1ae
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 1106](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1106))
 	- -
@@ -140,11 +144,13 @@ category:: #books
 	- -
 	- -
 		- the syntax for accessing an object’s property is $object-> #flashcard
+		  id:: a764170d-269c-417d-9698-19255ba40da1
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2262](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2262))
 	- -
 	- -
 		- clone operator, #flashcard
+		  id:: 119bd571-211b-4a55-8b0e-6ed1d089ac7f
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2295](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2295))
 	- -
@@ -155,11 +161,13 @@ category:: #books
 	- -
 	- -
 		- $this- #flashcard
+		  id:: 1d38de6c-bfba-4617-9b9e-4930da5f89c4
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2333](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2333))
 	- -
 	- -
 		- Se puede llamar al constructor sin parámetros. Siempre y cuando no afecte a las variables internas de la clase. Cuando también está el constructor propio. #flashcard
+		  id:: 4e625df0-9e1e-498d-8fb0-38ca88c5c73f
 			- It is not necessary to explicitly declare properties within classes, as they can be implicitly defined when first used.
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2357](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2357))
@@ -176,11 +184,13 @@ category:: #books
 	- -
 	- -
 		- self. This is how a static property or constant can be directly accessed within a class. #flashcard
+		  id:: e8c63e9d-c9af-4f32-b5ac-a3437bad4cbb
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2434](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2434))
 	- -
 	- -
 		- class Subscriber extends User #flashcard
+		  id:: c6335e36-72c9-4454-b115-655ce06b727b
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2446](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2446))
 	- -
@@ -196,6 +206,7 @@ category:: #books
 	- -
 	- -
 		- Final methods When you wish to prevent a subclass from overriding a superclass method, #flashcard
+		  id:: 89776650-30c3-46b0-8b45-c67e4ff69faf
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2489](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2489))
 	- -
@@ -211,6 +222,7 @@ category:: #books
 	- -
 	- -
 		- foreach...as Loop #flashcard
+		  id:: b7bdb1f7-5236-49f4-8d7f-d8771a30d62a
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2590](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2590))
 	- -
@@ -226,6 +238,7 @@ category:: #books
 	- -
 	- -
 		- each function #flashcard
+		  id:: 276ccabb-ffa7-4890-91f0-6ca8f86182e7
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2626](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2626))
 	- -
@@ -246,6 +259,7 @@ category:: #books
 	- -
 	- -
 		- Sort NO devuelve ningún array, es un procedimiento. #flashcard
+		  id:: 90b82d5c-7090-4492-9837-e59003d639cb
 			- sort
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2713](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2713))
@@ -273,6 +287,7 @@ category:: #books
 	- -
 	- -
 		- $contact = compact('fname', 'sname', 'planet', 'system', #flashcard
+		  id:: bf462007-bca1-4981-9ec8-acec71ccae5c
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2764](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2764))
 	- -
@@ -308,6 +323,7 @@ category:: #books
 	- -
 	- -
 		- (checkdate($month, $day, #flashcard
+		  id:: e8eaf4d2-b6b4-4469-8bbf-7d7ac6a4c0cf
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2982](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2982))
 	- -
@@ -328,6 +344,7 @@ category:: #books
 	- -
 	- -
 		- Uploading Files #flashcard
+		  id:: 540df9fd-e894-4f9b-8cf5-8146e4b57206
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3160](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3160))
 	- -
@@ -338,11 +355,13 @@ category:: #books
 	- -
 	- -
 		- $n = "image.$ext";       move_uploaded_file($_FILES['filename']['tmp_name'], #flashcard
+		  id:: 982e430f-40c6-4510-bad3-e8854b1b55d6
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3228](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3228))
 	- -
 	- -
 		- $name = preg_replace("/[^A-Za-z0-9.]/", "", #flashcard
+		  id:: af3075ee-ae1d-4b62-8bf2-1851e4298123
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3253](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3253))
 	- -
@@ -368,6 +387,7 @@ category:: #books
 	- -
 	- -
 		- don’t press Control-C! #flashcard
+		  id:: f745f695-400d-40ea-a415-738d7ac59c0a
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3443](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3443))
 	- -
@@ -388,11 +408,13 @@ category:: #books
 	- -
 	- -
 		- GRANT PRIVILEGES ON database.object TO 'username'@'hostname'   IDENTIFIED BY #flashcard
+		  id:: bf70ab1a-bb4c-4e0d-876f-1902ff489574
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3486](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3486))
 	- -
 	- -
 		- USE #flashcard
+		  id:: 3253ab90-a49c-4d1d-8b07-8cbf5e8fe802
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3522](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3522))
 	- -
@@ -407,6 +429,7 @@ category:: #books
 	- -
 	- -
 		- ALTER TABLE classics ADD id INT UNSIGNED NOT NULL AUTO_INCREMENT #flashcard
+		  id:: c02d5b65-f228-40e4-a096-16b59d09dc78
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3676](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3676))
 	- -
@@ -426,6 +449,7 @@ category:: #books
 	- -
 	- -
 		- To add data to a table, use the INSERT command. #flashcard
+		  id:: 9fd56d48-0b75-48fa-889d-1efd27d7533d
 		- ([Location 3704](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3704))
 	- -
 	- -
@@ -488,6 +512,7 @@ category:: #books
 	- -
 	- -
 		- PRIMARY KEY #flashcard
+		  id:: 62fd193e-336f-40e2-b7ca-20751100333a
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3871](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3871))
 	- -
@@ -508,6 +533,7 @@ category:: #books
 	- -
 	- -
 		- SELECT author,title FROM classics WHERE author LIKE #flashcard
+		  id:: bb125f5b-5de5-4e73-b24d-b5a6e91f37e4
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3970](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3970))
 	- -
@@ -558,6 +584,7 @@ category:: #books
 	- -
 	- -
 		- To create this relationship, add a third table containing the same key column from each of the other tables. #flashcard
+		  id:: 5129d22c-45c7-4fc2-9912-7d48686f6756
 		- tags:: [[blue]] [[azul]]
 		- ([Location 4437](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4437))
 	- -
@@ -572,6 +599,7 @@ category:: #books
 	- -
 	- -
 		- UNLOCK #flashcard
+		  id:: ec41be1a-4c56-4669-8510-6ff539eabd2a
 		- ([Location 4579](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4579))
 	- -
 	- -
@@ -586,6 +614,7 @@ category:: #books
 	- -
 	- -
 		- $conn = new mysqli($hn, $un, $pw, #flashcard
+		  id:: 04dc7f7d-faba-448a-8f08-c41d90d56139
 		- tags:: [[blue]] [[azul]]
 		- ([Location 4738](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4738))
 	- -
@@ -601,16 +630,19 @@ category:: #books
 	- -
 	- -
 		- $conn-> #flashcard
+		  id:: c3b7c77d-e7cd-4785-8a32-71b4b741a875
 		- tags:: [[blue]] [[azul]]
 		- ([Location 5085](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5085))
 	- -
 	- -
 		- Using Placeholders #flashcard
+		  id:: b637c4f9-6203-4ede-8653-24adddd86f87
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 5164](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5164))
 	- -
 	- -
 		- $stmt = $conn->prepare('INSERT INTO classics #flashcard
+		  id:: 057b8595-09bc-45a0-8cf3-49fb3c49292d
 		- tags:: [[blue]] [[azul]]
 		- ([Location 5175](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5175))
 	- -
@@ -636,6 +668,7 @@ category:: #books
 	- -
 	- -
 		- <input type="text" name="name" size="size" maxlength="length" value="value" #flashcard
+		  id:: f8d462a9-3371-4f53-9eaa-1153271b014f
 		- tags:: [[blue]] [[azul]]
 		- ([Location 5379](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5379))
 	- -
@@ -655,6 +688,7 @@ category:: #books
 	- -
 	- -
 		- JavaScript is a client-side scripting language that runs entirely inside the web browser. #flashcard
+		  id:: 7e5d3e42-29e9-4593-820e-4ec652c85f8a
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 6155](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6155))
 	- -
@@ -690,6 +724,7 @@ category:: #books
 	- -
 	- -
 		- document.write("You have " + messages + " #flashcard
+		  id:: 11e8bdf6-e0c3-4c53-83cf-87359c21a681
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 6442](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6442))
 	- -
@@ -719,6 +754,7 @@ category:: #books
 	- -
 	- -
 		- url = #flashcard
+		  id:: e951429a-d93d-4a72-a11d-ef4326bb15e4
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 6585](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6585))
 	- -
@@ -749,6 +785,7 @@ category:: #books
 	- -
 	- -
 		- onerror = #flashcard
+		  id:: bcb4eef0-feed-4fe6-9800-b9871b3b7611
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 6912](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6912))
 	- -
@@ -759,11 +796,13 @@ category:: #books
 	- -
 	- -
 		- Explicit Casting #flashcard
+		  id:: 099dd3f3-d538-436d-b68d-91570231abfb
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 7095](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7095))
 	- -
 	- -
 		- function User(forename, username, password)   {     this.forename = forename     this.username = username     this.password = password     this.showUser = showUser   } #flashcard
+		  id:: dc04863c-3995-4b98-ae02-5c1e42f38e2e
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 7258](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7258))
 	- -
@@ -779,11 +818,13 @@ category:: #books
 	- -
 	- -
 		- details.forename = "Wolfgang" details.username = "w.a.mozart" details.password = #flashcard
+		  id:: b9391769-b612-442a-a4e5-ccaad8da78ac
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 7268](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7268))
 	- -
 	- -
 		- The prototype Keyword #flashcard
+		  id:: 0292b69d-4f51-4936-97c3-1cac6569eb1f
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 7280](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7280))
 	- -
@@ -799,6 +840,7 @@ category:: #books
 	- -
 	- -
 		- arrayname = new #flashcard
+		  id:: eaf9f0ba-169e-4e07-bd96-e7fb88f4b993
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 7346](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7346))
 	- -
@@ -824,6 +866,7 @@ category:: #books
 	- -
 	- -
 		- numbers.sort(function(a,b){return a - #flashcard
+		  id:: 8517e721-723d-4694-8d06-454b9a3d8646
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 7489](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7489))
 	- -
@@ -854,11 +897,13 @@ category:: #books
 	- -
 	- -
 		- p > b { color:red; #flashcard
+		  id:: f23f726d-b840-4e8b-9b82-348931817095
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 8518](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=8518))
 	- -
 	- -
 		- I don’t recommend using this form of selection because any JavaScript that also must access these elements cannot easily do so because the commonly used getElementByID() function will return only the first occurrence. #flashcard
+		  id:: aed72b5f-a693-4397-b4ec-36dfbe2b2551
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 8542](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=8542))
 	- -
@@ -896,6 +941,7 @@ category:: #books
 	- -
 	- -
 		- Transitions #flashcard
+		  id:: abd4fcbc-585d-4ef4-b73d-44ad05ed68ea
 		- ([Location 9551](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=9551))
 	- -
 	- -

@@ -46,14 +46,17 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- puppet:///modules/sudo/etc/sudoers La siguiente parte del valor source  indica a Puppet cuál es la ubicación del fichero dentro del servidor, que equivale a la ruta de acceso a un recurso compartido en un servidor de ficheros de red. El primer directorio de la ruta es modules, que indica que el fichero en cuestión pertenece a un módulo, cuyo nombre será lo que aparece a continuación en la ruta, que en nuestro caso es sudo, para finalmente especificar la ubicación dentro del módulo donde se encuentra el fichero. #flashcard
+		  id:: b5227bc5-00fa-4073-b20f-03097745f9d5
 		- (Page 15)
 	- -
 	- -
 		- config.vm.provision "shell", inline: <<-SHELL wget https://apt.puppetlabs.com/puppet6-release-bionic.deb sudo dpkg -i puppet6-release-bionic.deb sudo apt-get update sudo apt-get install -y puppet-agent SHELL #flashcard
+		  id:: 8c472524-9165-4091-acbf-ce88f3d7c7fa
 		- (Page 21)
 	- -
 	- -
 		- config.vm.provision "puppet" do |puppet| puppet.module_path = "modules" puppet.manifests_path = "manifests"   # Default puppet.manifest_file = "default.pp"   # Default end El  primer  parámetro  del  provisionador  Puppet  indica  la  ruta  local  donde  están almacenados nuestros módulos, para poder hacer uso desde el fichero de manifiesto que se ejecute. Los valores establecidos para los dos siguientes parámetros son los #flashcard
+		  id:: 30dfe888-ecd9-41fd-9180-c7921f470179
 		- (Page 21)
 	- -
 	- -
@@ -71,10 +74,12 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- class apache { exec { 'apt-update': command => '/usr/bin/apt-get update' Exec["apt-update"] -> Package <| |> package { 'apache2': ensure => installed, } } } #flashcard
+		  id:: 096af339-7595-4435-ab72-feac140e3ec4
 		- (Page 24)
 	- -
 	- -
 		- file { '/etc/apache2/sites-enabled/000-default.conf': ensure => absent, require => Package['apache2'], file { '/etc/apache2/sites-available/vagrant.conf': content => template('apache/virtual-hosts.conf.erb'), require => File['/etc/apache2/sites-enabled/000-default.conf'], file { "/etc/apache2/sites-enabled/vagrant.conf": ensure  => link, target  => "/etc/apache2/sites-available/vagrant.conf", require => File['/etc/apache2/sites-available/vagrant.conf'], file { "${document_root}/index.html": ensure  => present, source => 'puppet:///modules/apache/index.html', require => File['/etc/apache2/sites-enabled/vagrant.conf'], } } } } #flashcard
+		  id:: a012269a-8024-4281-9df0-f979e0617b44
 		- (Page 25)
 	- -
 	- -

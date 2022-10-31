@@ -15,6 +15,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Define "Red de ordenadores". #flashcard
+		  id:: a10d2141-1aa2-4bed-9ca2-c30343174c5b
 			- El modelo tradicional de  un  único  ordenador  para  todas  las  necesidades  de  computación  de  una organización  ha  sido  reemplazado  por  un  modelo  en  el  que  un  gran  número  de ordenadores independientes pero interconectados realizan el mismo trabajo. Estos sistemas se denominan redes de ordenadores
 		- (Page 5)
 	- -
@@ -25,11 +26,13 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Tipos de redes desde el punto de vista de un administrador: #flashcard
+		  id:: 40b72505-8f9f-46f7-a054-800873984718
 			- Desde el punto de vista de un administrador, una red puede ser una red privada, que pertenece a un único sistema autónomo y no se puede acceder fuera de su ámbito físico o dominio lógico, o también puede ser pública, a la que todos pueden acceder. En  este  sentido,  una  red  casera  formada  por  un  dispositivo  ADSL  o  de  fibra  y  los equipos  informáticos  conectados  a  ella  con  o  sin  cable  (ordenadores,  teléfonos móviles,  televisiones,  impresoras,  etc.)  es  una  red  privada.  La  red  pública  por antonomasia es Internet.
 		- (Page 6)
 	- -
 	- -
 		- Tipos de red según la interconectividad +++ #flashcard
+		  id:: ca59e945-ed08-4d1e-ba4e-3393ff3b73bc
 			- Los dispositivos pueden conectarse entre sí de diferentes maneras. Esta conectividad puede ser lógica, física o combinada, y existir a diferentes niveles.
 		- (Page 7)
 	- -
@@ -55,11 +58,13 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Cuales son los pasos que siguen los atacantes cuando se introducen en una infraestructura? #flashcard
+		  id:: c220c1ef-2969-48e6-aef5-2b4daeb71247
 			-   Deposita una carga útil (payload) en los servidores de destino. Típicamente, será un  script  autocontenido  lo  suficientemente  pequeño  como  para  descargarlo  y ejecutarlo sin llamar la atención.   El script despliega una puerta trasera que contacta con un servidor remoto. En esta  conexión  establece  un  canal  de  comando  y  control  (C2,  command-and control). Los canales C2 pueden consistir en una página HTML con palabras clave ocultas, un registro DNS de tipo TXT que contenga comandos o en una conexión de IRC.   La  puerta  trasera  aplica  las  instrucciones  que  recibe  en  el  canal  C2.  Intentará replicarse a otros nodos de la red con el objetivo de encontrar datos valiosos.   Si se da el caso, usará un segundo canal para hacer llegar los datos al atacante.
 		- (Page 23)
 	- -
 	- -
 		- Herramientas para análisis y detección de intrusiones +++ #flashcard
+		  id:: 506fb96e-d2bc-422b-a47a-4d8558dff1f5
 			-   Sistema  de  detección  de  intrusos  o  intrusion  detection  system  (IDS):  los  IDS analizan  el  tráfico  de  red  con  el  objetivo  de  detectar  actividad  fraudulenta. Mientras que un firewall bloquea tráfico en base a unos parámetros fijos de las capas  de  red,  transporte  y  aplicación,  los  IDS  buscan  patrones  específicos  que identifiquen  canales  C2  y  actividades  sospechosas.  La  Figura  6  muestra  un diagrama general de un IDS.   Auditoría de conexión: además de la búsqueda de amenazas en tiempo real, es fundamental  mantener  una  auditoría  de  conexiones  para  llevar  a  cabo  análisis forenses tras un incidente.   Auditoría del sistema: no solo es necesario auditar las conexiones de red, sino el acceso a los sistemas. Un atacante puede ser capaz de ganar acceso a un sistema, pero necesitará, además, ocultar sus pasos para pasar realmente desapercibido. El pipeline de registros podría usar estos datos para detectar intrusiones.
 		- (Page 24)
 	- -

@@ -10,5 +10,6 @@ tags:: Entornos-CI-CD UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Si el repositorio de control de versiones es la fuente de verdad del código, el registro de contenedores se convierte en la fuente de verdad de las versiones publicadas. #flashcard
+		  id:: ce88155b-a8c7-4b31-b8e3-3e2db313d016
 		- (Page 24)
 	- -

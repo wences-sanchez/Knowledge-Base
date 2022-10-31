@@ -23,6 +23,7 @@ category:: #books
 	- -
 	- -
 		- <blockquote> tag for long passages or the <q> tag to place a short quote within a longer paragraph, #flashcard
+		  id:: e3322013-18a3-47a1-a287-847c1fd6ba6e
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 651](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=651))
 	- -
@@ -38,6 +39,7 @@ category:: #books
 	- -
 	- -
 		- An em is the default browser font-size, so 2em is twice the normal text size. #flashcard
+		  id:: b6f3457d-dd84-457d-bf7a-a6d575078027
 		- ([Location 2053](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2053))
 	- -
 	- -
@@ -67,16 +69,19 @@ category:: #books
 	- -
 	- -
 		- this line sets the left and right margins to auto, which tells the web browser to automatically figure out how much space to add to the left and right sides #flashcard
+		  id:: 0294a382-25d7-4b91-a007-c06343d22000
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2190](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2190))
 	- -
 	- -
 		- Siblings — to format the paragraph immediately following the first headline on the page. #flashcard
+		  id:: decfb4dd-6297-487b-8b3e-b94b6d22c615
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2193](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2193))
 	- -
 	- -
 		- h1+p { #flashcard
+		  id:: 0c4dc462-9dcf-4d1e-b784-904e43fd9bca
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 2196](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2196))
 	- -
@@ -109,6 +114,7 @@ category:: #books
 	- -
 	- -
 		- Serif fonts are best for long passages of text, #flashcard
+		  id:: 789c8108-fabb-44d6-b6cd-75f71c9a0fea
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2984](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2984))
 	- -
@@ -118,6 +124,7 @@ category:: #books
 	- -
 	- -
 		- Sans-Serif Fonts #flashcard
+		  id:: 9e052659-7226-406b-910f-7648aef6ccbf
 		- ([Location 3003](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3003))
 	- -
 	- -
@@ -144,6 +151,7 @@ category:: #books
 	- -
 	- -
 		- ul ul {font-size: 100%} #flashcard
+		  id:: 78b68289-d143-44d1-80da-ebea025e03ab
 		- ([Location 3746](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3746))
 	- -
 	- -
@@ -211,11 +219,13 @@ category:: #books
 	- -
 	- -
 		- padding: 10px 5px 5px 10px; #flashcard
+		  id:: 4fa6b813-f6ee-42bc-8108-cd5d15fe34b4
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 4502](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4502))
 	- -
 	- -
 		- Either add a small amount of padding around the <div> tag or add a border to it. #flashcard
+		  id:: 2ac1d9c6-7cb4-4f58-996f-fa81c71da50c
 		- tags:: [[blue]] [[azul]]
 		- ([Location 4544](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4544))
 	- -
@@ -261,6 +271,7 @@ category:: #books
 	- -
 	- -
 		- overflow property. #flashcard
+		  id:: 0bf554f3-8ed8-46ca-b61b-700de51aee2b
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 4955](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4955))
 	- -
@@ -291,6 +302,7 @@ category:: #books
 	- -
 	- -
 		- Utilizing Gradient #flashcard
+		  id:: b3a29bef-9ffa-4562-9526-9f5e61868abb
 		- tags:: [[blue]] [[azul]]
 		- ([Location 5841](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5841))
 	- -
@@ -310,6 +322,7 @@ category:: #books
 	- -
 	- -
 		- <a href=“stale.html” class=“button”>Free Donuts Here! #flashcard
+		  id:: 7216317e-798d-41ce-8b68-0b6f9a9ae88f
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 6524](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6524))
 	- -
@@ -324,6 +337,7 @@ category:: #books
 	- -
 	- -
 		- display: block; #flashcard
+		  id:: 0e300db9-203f-483b-ada8-f0e7660b3e7c
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 6810](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6810))
 	- -
@@ -338,11 +352,13 @@ category:: #books
 	- -
 	- -
 		- border-spacing: 0; #flashcard
+		  id:: 9cc0dd92-f5d2-439d-b8f0-2c6b1cff5788
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 8228](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8228))
 	- -
 	- -
 		- border-collapse: #flashcard
+		  id:: db364473-fc85-4890-8c1b-4e359cc5ae23
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 8238](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8238))
 	- -
@@ -373,6 +389,7 @@ category:: #books
 	- -
 	- -
 		- position: absolute; #flashcard
+		  id:: 8c8f9ee8-8fb2-4d53-9283-6c24d3888b60
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 9656](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9656))
 	- -
@@ -403,6 +420,7 @@ category:: #books
 	- -
 	- -
 		- <link href="css/small.css" rel="stylesheet" media="(max-width:480px)" #flashcard
+		  id:: b1d9bb66-d74f-4889-b3f7-1fe1f8236855
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 10284](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10284))
 	- -
@@ -413,16 +431,19 @@ category:: #books
 	- -
 	- -
 		- .columns:after { #flashcard
+		  id:: c856bf65-36d7-4108-a7bc-8eb16e176e87
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 10380](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10380))
 	- -
 	- -
-		- * {   box-sizing: border-box; } #flashcard
+		- id:: 17f4ac27-84af-4461-8246-57ec3d1f7ad4
+		  * {   box-sizing: border-box; } #flashcard
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 10423](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10423))
 	- -
 	- -
 		- width: auto; #flashcard
+		  id:: c152ed07-dff7-41f9-91bd-44ba231881f9
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 10434](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10434))
 	- -
@@ -433,6 +454,7 @@ category:: #books
 	- -
 	- -
 		- Testing Responsive Designs #flashcard
+		  id:: c2d72acf-911a-4db0-aa77-681a6c74ea37
 		- tags:: [[blue]] [[azul]]
 		- ([Location 10507](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10507))
 	- -
@@ -443,16 +465,19 @@ category:: #books
 	- -
 	- -
 		- Bootstrap #flashcard
+		  id:: c8cb12dd-edce-421c-a525-51b1bbdefb4c
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 10889](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10889))
 	- -
 	- -
 		- display: flex; #flashcard
+		  id:: 7a4eb9cb-2c50-4a73-9e87-6aa15be8f744
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 11430](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=11430))
 	- -
 	- -
 		- flex: 1; #flashcard
+		  id:: 0eb56590-f6d8-4521-a4ea-c18bd9196311
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 11438](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=11438))
 	- -

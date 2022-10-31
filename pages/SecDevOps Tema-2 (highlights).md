@@ -25,6 +25,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Qué hace la capa de red Transporte? #flashcard
+		  id:: 88f15dc7-57f3-43b9-834a-d0e4ff4af06b
 			-   Transporte: el flujo en esta capa es también extremo a extremo. La pila TCP/IP de Windows abrirá un socket en un puerto aleatorio en el cliente y añadirá cabeceras a las tramas HTTPS, en las que indicará el puerto del equipo de destino, 443 por ser HTTPS. Además, dividirá las tramas en unidades de menor tamaño e iniciará el envío poco a poco, aumentando la velocidad para evitar congestionar la línea. Si  algún  paquete  se  pierde,  TCP  lo  reenviará  sin  que  el  servidor  web,  ni  el navegador, hagan nada al respecto. Además, el servidor recibirá los paquetes en orden. Este tipo de tráfico se denomina orientado a conexión.
 		- (Page 7)
 	- -
@@ -50,6 +51,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Menciona los dos modelos de red en uso. #flashcard
+		  id:: f8ba0f1e-b5e6-45a0-8100-45780751a534
 			- Hay dos modelos de red principales en uso: el modelo OSI y el modelo TCP/IP. El modelo OSI no ha llegado a ver una implementación en la industria y, por tanto, sus protocolos  no  se  usan.  No  obstante,  el  diseño  se  usa  extensivamente.  El  modelo TCP/IP,  por  el  contrario,  tiene  como  punto  fuerte  sus  protocolos,  ya  que  es  el estándar de facto en las redes de ordenadores e Internet.
 		- (Page 9)
 	- -
@@ -99,11 +101,13 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Cómo funciona un TDMA (o Multiplexor por División de Tiempo)? #flashcard
+		  id:: c8919b3b-278c-46b0-a042-ef0fac6a3b64
 			-   Multiplexación por división de tiempo o TDMA: divide el flujo de tiempo en un número  fijo  de  intervalos.  Por  ejemplo,  en  una  división  en  tres  intervalos  se pueden  multiplexar  tres  canales,  tal  como  muestra  la  Figura  5.  Cada  canal aprovecha  todo  el  ancho  de  banda  posible  en  su  intervalo  asignado.  En  esta técnica, el medio multiplexado debe usar una velocidad de transmisión más alta que la suma de velocidades de todos los canales.
 		- (Page 15)
 	- -
 	- -
 		- ¿Cómo funciona un CDMA (o Multiplexor por División de Código)? #flashcard
+		  id:: 5c6de41c-d992-4421-a0f4-47b687b07af7
 			-   Multiplexación  por  división  de  código  o  CDMA:  convierte  una  señal  de  banda estrecha (el equivalente a un canal de FDMA, por ejemplo) en una señal de banda ancha multiplicándola por un código digital mucho más rápido que la variación de la señal de datos. La multiplexación se consigue usando códigos diferentes para cada canal.
 		- (Page 15)
 	- -
@@ -113,6 +117,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Qué es la conmutación, en redes?
+		  id:: 0d050daa-9014-4967-85b9-db73ef797ea2
 		  ¿Cuáles son sus dos categorías principales? #flashcard
 			- er
 		- (Page 16)
@@ -124,21 +129,25 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- +++ #flashcard
+		  id:: 176fc890-5430-4559-a276-aea1cd8480d4
 			- El  ejemplo  más  claro  de  conmutación  de  circuitos  es  la  telefonía  analógica tradicional, ya que la señal viaja por un canal exclusivo, no compartido, durante toda la duración de la comunicación.
 		- (Page 17)
 	- -
 	- -
 		- ¿Cómo podrías definir la conmutación de mensajes en la capa física de red? #flashcard
+		  id:: 333143b3-bd07-4a10-a23a-4a9bd1947bf6
 			- La  conmutación  de  mensajes  está  a  medio  camino  entre  la  de  circuitos  y  la  de paquetes: cada mensaje se trata como una unidad y se transmite a lo largo de un canal exclusivo. Un conmutador de mensajes recibe el mensaje entero y  almacena los  datos  temporalmente  hasta  que  haya  recursos  disponibles  para  transferirlo  al siguiente salto del circuito. El conmutador almacenará los datos y se mantendrá a la espera hasta que el conmutador del siguiente salto tenga suficientes recursos. Al igual que en la conmutación de circuitos, la red debe reservar una ruta exclusiva para  la  transmisión.  La  conmutación  de  mensajes  tiene  dos  inconvenientes principales:   Cada dispositivo en la trayectoria del tránsito necesita capacidad de almacenaje suficiente para gestionar el mensaje entero.   La técnica de almacenamiento y reenvío, junto a la latencia debido a las esperas intermedias,  hacen  que  esta  técnica  sea  muy  lenta  en  comparación  a  la conmutación de paquetes. La conmutación de mensajes se sustituyó por conmutación de paquetes al no ser una buena solución para los medios de transmisión en tiempo real.
 		- (Page 17)
 	- -
 	- -
 		- ¿Qué es, básicamente, la conmutación de paquetes? +++ #flashcard
+		  id:: bc11911a-e157-4633-9546-cbbb5cacecf3
 			- En la conmutación, cada mensaje se fragmenta en paquetes de menor tamaño. Cada uno lleva asociado una serie de cabeceras con información sobre el destino, control de  errores,  etc.  Cada  paquete,  con  sus  cabeceras,  se  transmite  de  manera independiente al resto de paquetes.
 		- (Page 17)
 	- -
 	- -
 		- ¿De qué se encarga la capa de enlace? #flashcard
+		  id:: a0d0bd73-d87a-46d4-b413-3ccebf2495ee
 			- la capa encargada de traducir los datos en parámetros que el hardware puede convertir en señales físicas. El receptor recoge los datos del hardware, que están  en  forma  de  señales  eléctricas  u  ópticas,  los  ensambla  en  un  formato  de reconocible, y los entrega a la capa superior.
 		- (Page 18)
 	- -

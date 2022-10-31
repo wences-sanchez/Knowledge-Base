@@ -20,6 +20,7 @@ category:: #books
 	- -
 	- -
 		- And so it is with our own past. It is a labour in vain to attempt to recapture it: all the efforts of our intellect must prove futile. The past is hidden somewhere outside the realm, beyond the reach of intellect, in some material object (in the sensation which that material object will give us) which we do not suspect. And as for that object, it depends on chance whether we come upon it or not before we ourselves must die. #flashcard
+		  id:: bce08088-462f-462a-83b6-a761977b4b1f
 		- ([Location 783](https://readwise.io/to_kindle?action=open&asin=B0771PZY62&location=783))
 	- -
 	- -

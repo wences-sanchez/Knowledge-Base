@@ -12,6 +12,7 @@ url:: https://www.coursera.org/learn/introduction-software-testing/lecture/ohzH2
 	- -
 	- -
 		- What is the objective of the first course? #flashcard
+		  id:: 08e6d136-5788-4507-bfca-824785ee30ed
 			- And so what we're going to do, what our goal is for this course, is to make testing effective despite its incompleteness.
 	- -
 	- -
@@ -43,9 +44,11 @@ url:: https://www.coursera.org/learn/introduction-software-testing/lecture/ohzH2
 	- -
 	- -
 		- And the next thing we want to do is we want to apply multiple V&V, that is verification and validation techniques, throughout the development cycle. #flashcard
+		  id:: bf00ee3e-dad4-4e59-92f2-a222689d438c
 	- -
 	- -
 		- Why testing? #flashcard
+		  id:: 779a8360-8aaa-40e3-b27c-8d15ea6cc99a
 			- So our first question may be, why do we test? Why is it hard? It turns out that writing software is hard, and programmers make mistakes. And if we don't adequately test our systems, we may end up on front page news.
 	- -
 	- -

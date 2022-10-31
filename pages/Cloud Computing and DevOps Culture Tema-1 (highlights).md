@@ -10,6 +10,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- DevOps  no  puede  entenderse  únicamente  como  un  conjunto  de  tecnologías  y mejores prácticas, sino que debe entenderse como una revolución cultural #flashcard
+		  id:: ef4b86c3-68be-4bfa-bd4e-b19782314f4b
 		- (Page 4)
 	- -
 	- -
@@ -35,6 +36,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- debido a que las implementaciones de DevOps son más frecuentes y «pequeñas», los errores son fácilmente detectables y es por ello por lo que las soluciones se encuentran con mayor rapidez. El equipo necesitará verificar los últimos cambios en el código para poder resolver una incidencia en vez de  revisar  enormes  cantidades  de  código.  Los  tiempos  de  resolución  son intrínsecamente más rápidos porque, además, la responsabilidad en la solución de los  problemas  y  las  correcciones  pertinentes  corresponden  a  un  solo  equipo:  el equipo DevOps #flashcard
+		  id:: 5bc2d7f3-651a-4fbb-a083-de4f74d7ed15
 		- (Page 9)
 	- -
 	- -
@@ -44,6 +46,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- La arquitectura de referencia de DevOps plantea los siguientes senderos o caminos de adopción:   Planificación y medición.   Desarrollo y pruebas.   Lanzamientos y despliegues continuos.   Supervisión y optimización. #flashcard
+		  id:: c9eb8b72-fad6-4faa-8342-0345b32e77b1
 		- (Page 16)
 	- -
 	- -

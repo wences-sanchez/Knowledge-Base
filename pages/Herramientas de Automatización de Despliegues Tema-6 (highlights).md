@@ -14,6 +14,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- El  fichero  de  inventario  en  Ansible  puede  implementarse  en  un  fichero  INI,  o mediante  un  JSON.  Los  ejemplos  más  habituales  en  la  web  utilizan  un  fichero  INI, mientras  que  el  fichero  JSON  se  utiliza  típicamente  para  generar  el  inventario dinámicamente.  Usar  el  formato  INI  hace  que  los  ficheros  de  inventario  sean normalmente bastante simples. Pueden ser tan sencillos como una simple lista de nombres  de  hosts  en  los  que  ejecutar.  A  continuación,  se  muestra  un  fichero  de inventario sencillo: host1.example.com host2.example.com host3.example.com 192.168.9.29 En este ejemplo se define una lista de cuatro hosts sobre los que se quiere ejecutar. Ansible ejecutará sobre cada uno de ellos por turnos, siguiendo el orden establecido, desde  host1.example.com  hasta  192.168.9.29.  Esta  es  la  forma  más  sencilla  de fichero de inventario que puedes usar, en la que no hay información adicional para ningún  host  ni  agrupaciones,  sino  sencillamente  una  lista  de  hosts  sobre  la  que queremos ejecutar Ansible. #flashcard
+		  id:: e00546c0-4d5d-4167-b2da-412d3ece1c21
 		- (Page 5)
 	- -
 	- -
@@ -26,6 +27,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- ansible‐playbook –i <inventory_file> provisioning/playbook.yml #flashcard
+		  id:: c0b6f6ac-9fbd-448e-81e0-35e2d061444a
 		- (Page 7)
 	- -
 	- -
@@ -54,6 +56,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 	- -
 	- -
 		- De  la  misma  manera  que  puedes  establecer  variables  para  máquinas  específicas, también puedes establecer variables para los grupos. Para ello, utiliza una cabecera especial con el nombre de grupo y el sufijo :vars en tu fichero de inventario: [web:vars] apache_version=2.4 engage_flibbit=true Las variables así definidas estarán disponibles en la ejecución Ansible para cualquier máquina del grupo web #flashcard
+		  id:: eec0bd95-487d-4c68-ac63-fb150ae9215f
 		- (Page 14)
 	- -
 	- -

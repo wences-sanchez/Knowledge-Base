@@ -23,6 +23,7 @@ tags:: Literature
 	- -
 	- -
 		- La vida era fràgil i fugaç i calia vigilar, per descomptat, però jo estava disposada a arriscar-me a morir si d'aquesta manera aconseguia dormir tot el dia i convertir-me en una persona completament nova. I vaig pensar que era prou intel·ligent per saber per endavant si les pastilles em matarien. Abans que passés això, abans que em fallés el cor o que el cervell m'esclatés, se m'hi fes una hemorràgia o m'impulsés a llançar-me per la finestra del meu pis de la setena planta, començaria a tenir malsons premonitoris. Confiava que tot plegat sortiria bé sempre que pogués dormir tot el dia. #flashcard
+		  id:: 59746730-738f-4f15-a58d-3494298059a5
 		- (Page 34)
 	- -
 	- -
@@ -35,6 +36,7 @@ tags:: Literature
 	- -
 	- -
 		- Vaig oscil·lar recolzada contra la llibreria. Em costava estarme dreta: dos mesos de dormir m'havien afeblit els músculs. I encara notava l'efecte de la trazodona que m'havia pres aquell matí. #flashcard
+		  id:: f00ebdf5-ddf9-418b-8854-d431f79f947d
 		- (Page 78)
 	- -
 	- -
@@ -43,6 +45,7 @@ tags:: Literature
 	- -
 	- -
 		- Quan se'm va acudir la solució als meus problemes, em va aterrar a la ment com un falcó al capdamunt d'un barranc. Era com si hagués estat allà fent cercles des del principi, estudiant cada petit detall de la meva vida, fent-hi encaixar totes les peces. «Aquesta és la manera.» Sabia exactament el que havia de fer: havia d'estar tancada. #flashcard
+		  id:: 1b4ff18f-1c2b-4012-b842-d912431ed767
 		- (Page 245)
 	- -
 	- -

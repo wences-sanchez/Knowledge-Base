@@ -64,10 +64,12 @@ tags:: Self-Help
 	- -
 	- -
 		- No pienses ni hagas nada sin tener algún objetivo a la vista; la persona que viaja sin dirección se habrá esforzado en vano. #flashcard
+		  id:: 602292e7-c2bf-4574-a74a-2f5630b53430
 		- ([Location 1225](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1225))
 	- -
 	- -
 		- Sigue adelante con lo que te emocione. #flashcard
+		  id:: b35bf997-84e7-4322-b069-6ae5208081b5
 		- ([Location 1381](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1381))
 	- -
 	- -
@@ -76,6 +78,7 @@ tags:: Self-Help
 	- -
 	- -
 		- Y por si las voces que oímos en nuestra cabeza no fueran bastante problema, las voces en nuestra cultura también nos instan a “lanzar la toalla”, “hacer un cambio”, o “tomártelo con más calma”. Lo que esas mismas voces no te dicen es que existe una distinción entre el sueño y el trabajo necesario para obtenerlo. #flashcard
+		  id:: 398c60c4-19d3-41ef-85a3-a09b57181402
 		- ([Location 1768](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1768))
 	- -
 	- -
@@ -90,12 +93,14 @@ tags:: Self-Help
 	- -
 	- -
 		- Lista con las 3 motivaciones vitales más importantes #flashcard
+		  id:: 1e27a9ca-e749-4cd5-adee-ff789bd7def4
 			- He escrito una lista como esta para cada área importante en mi vida. Si me quedo atascado y quiero abandonar, saco la lista y comienzo a leerla. De inmediato me da perspectiva y me vigoriza; hace posible que silencie las voces y meta mi cabeza otra vez en la carrera.
 		- tags:: [[mind]]
 		- ([Location 1875](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1875))
 	- -
 	- -
 		- dijo cuando se hizo cargo del ejército del Potomac. “Mi vida previa parece haber estado dirigida sin saberlo hacia este gran fin”.7 Pero se quedó estancado. #flashcard
+		  id:: ff5659bf-3ae5-4b76-9197-e674c08d86db
 		- ([Location 2370](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2370))
 	- -
 	- -

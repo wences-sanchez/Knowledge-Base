@@ -94,6 +94,7 @@ category:: #books
 	- -
 	- -
 		- The output is what you might expect: #flashcard
+		  id:: b36f42b7-a937-4e77-802a-3c2b28839163
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1208](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1208))
 	- -
@@ -225,6 +226,7 @@ category:: #books
 	- -
 	- -
 		- hexadecimal (digits 0–9 and letters A–F), which uses the number 0 followed by x or X as a prefix—for example, 0xFF #flashcard
+		  id:: 9e067f63-774a-4479-b597-8ea9f400576b
 		- ([Location 1614](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1614))
 	- -
 	- -

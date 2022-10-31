@@ -34,6 +34,7 @@ tags:: Science
 	- -
 	- -
 		- Each time a measurement is made, we will see that the system is changed in certain prescribed ways; these prescribed ways depend on the type of measurement being made but not on the strength of the measurement.
+		  id:: c91095ec-e503-4d5d-8206-aca2230133c6
 		  
 		  Incorporating measurements into the theory is one on the differences between classical and quantum mechanics. #flashcard
 		- (Page 10)
@@ -45,12 +46,14 @@ tags:: Science
 	- -
 	- -
 		- The basic unit of quantum computing is the qubit. We will see what qubits are and what happens when we measure them. A classical bit is either 0 or 1. If it's 0 and we measure it, we get 0. If it's 1 and we measure 1, we get 1. 
+		  id:: d5fa372e-b381-42f5-8461-eb5ac5b39ebc
 		  
 		  In both cases the bit remains unchanged. The situation is totally different for qubits. A qubit can be in one of an infinite number of states-a superposition of both 0 and 1-but when we measure it, as in the classical case, we just get one of two values, either 0 or 1. The act of measurement changes the qubit. A simple mathematical model describes all of this precisely. #flashcard
 		- (Page 14)
 	- -
 	- -
 		- How Quantum and traditional computing are related #flashcard
+		  id:: 6af375c2-15c6-4b8e-892f-be5f759cbade
 			- You will also come to realize that quantum computing and classical computing are not two distinct disciplines, but that quantum computing is the more fundamental form of computing anything that can be computed classically can be computed on a quantum computer. 
 			  
 			  The qubit is the basic unit of computation, not the bit. Computation, in its essence, really means quantum computation.
@@ -65,6 +68,7 @@ tags:: Science
 	- -
 	- -
 		- About being sure of (specific) Quantum measurements #flashcard
+		  id:: 56f08440-8529-4661-b551-3feb43bf6dc7
 			- If we measure the spin first in the vertical direction and then once more in the same direction, we obtain exactly the same result for both measurements. If the first measurement shows that the electron has its north pole upward, then so will the second measurement.
 		- (Page 37)
 	- -
@@ -101,12 +105,14 @@ tags:: Science
 	- -
 	- -
 		- You will also come to realize that quantum computing and classical computing are not two distinct disciplines, but that quantum computing is the more fundamental form of computing. Anything that can be computed classically can be computed on a quantum computer. #flashcard
+		  id:: cd16fa42-4f3c-4bca-93d3-6cb00433a59b
 	- -
 	- -
 		- Quantum computing is based on an area of mathematics called linear algebra. Fortunately, we only need a few concepts. #flashcard
 	- -
 	- -
 		- A classical bit is either 0 or 1. If it's 0 and we measure it, we get 0. If it's 1 and we measure 1, we get 1. In both cases the bit remains unchanged. The situation is totally different for qubits. A qubit can be in one of an infinite number of states-a superposition of both 0 and 1-but when we measure it, as in the classical case, we just get one of two values, either 0 or 1. The act of measurement changes the qubit. A simple mathematical model describes all of this precisely.
+		  id:: f9a06f79-8fef-4ab2-8084-0c86bb6f2cde
 		  
 		  Qubits can also be entangled. When we make a measurement of one of them, it affects the state of the other. Again, this is something that we don't experience in our daily lives, but it is described perfectly by our mathematical model.
 		  

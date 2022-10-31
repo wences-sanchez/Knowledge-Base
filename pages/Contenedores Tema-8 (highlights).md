@@ -25,6 +25,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- <<<<<< #flashcard
+		  id:: 21e7aefd-5aa8-4a04-b9b4-4701bd52148c
 			- spec: replicas: 4 selector: matchLabels: role: web template: metadata: labels: role: web spec: containers: - name: nginx-server image: nginx
 		- (Page 7)
 	- -
@@ -76,6 +77,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- Los  servicios  de  tipo  ExternalName  nos  permiten  crear  un  alias  para  un  servicio externo  al  clúster.  En  este  tipo  de  servicios  no  utilizaremos  ningún  selector  ni obtendrán ninguna dirección IP del clúster. Simplemente mapearán el nombre del servicio con un DNS externo, el cual se especificará como un registro CNAME en la definición YAML. #flashcard
+		  id:: ed9ab777-a3d1-40f3-848d-ab2de4a796e2
 		- (Page 26)
 	- -
 	- -

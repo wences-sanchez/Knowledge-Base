@@ -12,6 +12,7 @@ category:: #books
 		- -
 		- -
 			- What is cloud computing? #flashcard
+			  id:: 2d944d38-9602-4a24-be75-a3e0ff50da4b
 				- Cloud computing: You can use software and data stored in the “cloud”—i.e., accessed on remote computers (or servers) via the Internet and available on demand—rather than having ...
 		- -
 		- -
@@ -23,6 +24,7 @@ category:: #books
 		- -
 		- -
 			- How can we see the source code for a function (if available)? #flashcard
+			  id:: 4d8cfa1e-2ecc-4346-a9ce-f02ad6619e3e
 				- you can use ?? to display the function’s full source-code definition
 		- -
 		- -
@@ -40,10 +42,12 @@ category:: #books
 		- -
 		- -
 			- Module #flashcard
+			  id:: 504161c9-7446-4c14-b15c-3eebb6b0eba3
 				- (Fill-In) Every Python source code (.py) file you create is a(n)      .
 		- -
 		- -
 			- Define a function with default parameters. 
+			  id:: ce3c0b2d-a93d-4f38-a2d0-e1984c012f45
 			  $... #flashcard
 				- def rectangle_area(length=2, width=3):
 		- -

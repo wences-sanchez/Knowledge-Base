@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ePUB is an open, industry-standard format for eBooks. #flashcard
+		  id:: 37e2dec5-b92a-4e9a-8df2-4aef5dd987b4
 		- ([Location 2](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=2))
 	- -
 	- -
@@ -20,6 +21,7 @@ category:: #books
 	- -
 	- -
 		- Testers are also on the developer team, because testing is a central component of agile software development. Testers advocate for quality on behalf of the customer and assist the development team in delivering the maximum business value. #flashcard
+		  id:: 341747f9-d24a-4504-b4e5-9f176982e010
 		- ([Location 1237](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1237))
 	- -
 	- -
@@ -28,6 +30,7 @@ category:: #books
 	- -
 	- -
 		- Agile development has transformed the testing profession in many ways. #flashcard
+		  id:: 40439548-fd70-48af-b67d-51bb33c34fa5
 		- ([Location 1258](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1258))
 	- -
 	- -
@@ -44,6 +47,7 @@ category:: #books
 	- -
 	- -
 		- Testers don’t sit and wait for work; they get up and look for ways to contribute throughout the development cycle and beyond. #flashcard
+		  id:: 528523b9-3783-422f-a7ec-7e6e0c6bbbd2
 		- ([Location 1327](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1327))
 	- -
 	- -
@@ -52,6 +56,7 @@ category:: #books
 	- -
 	- -
 		- Programmers never get ahead of the testers, because a story is not “done” until it has been tested. #flashcard
+		  id:: 72be81ee-d59d-4237-a1fd-3545a1d19322
 		- ([Location 1340](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1340))
 	- -
 	- -
@@ -60,6 +65,7 @@ category:: #books
 	- -
 	- -
 		- While some teams do seem to use the “agile” buzzword to justify simply doing whatever they want, true agile teams are all about repeatable quality as well as efficiency. In our experience, an agile team is a wonderful place to be a tester. #flashcard
+		  id:: 115e19db-03d1-4624-881d-5045f0c9ccdb
 		- ([Location 1376](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1376))
 	- -
 	- -
@@ -96,6 +102,7 @@ category:: #books
 	- -
 	- -
 		- The developers have the courage to make changes and refactor the code because they have the safety net of an automated regression suite. #flashcard
+		  id:: b8f60282-d726-41c1-8555-570f6e6cd947
 		- ([Location 1538](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1538))
 	- -
 	- -
@@ -105,6 +112,7 @@ category:: #books
 	- -
 	- -
 		- We like to think of a test strategy as a static document that seldom changes, while a test plan is created new and is specific to each new project. #flashcard
+		  id:: 133dd031-c574-4b9d-a399-01f958952d72
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2746](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=2746))
 	- -
@@ -115,6 +123,7 @@ category:: #books
 	- -
 	- -
 		- A team should think about risks and dependencies and the big picture for each project before it starts. #flashcard
+		  id:: 6d82082b-d29c-4b41-a813-a0ab46baa35f
 		- ([Location 2768](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=2768))
 	- -
 	- -

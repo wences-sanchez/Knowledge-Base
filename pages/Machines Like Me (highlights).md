@@ -20,6 +20,7 @@ tags:: Literature
 	- -
 	- -
 		- Ways to live #flashcard
+		  id:: ac945ba8-147c-4675-b525-c6b927612795
 			- I paid my rent, which was low in those days, ate and dressed well enough, and thought I was beginning to stabilise, learning to know myself.
 		- ([Location 393](https://readwise.io/to_kindle?action=open&asin=B07HR6SGQ9&location=393))
 	- -

@@ -10,6 +10,7 @@ tags:: Contenedores UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Qué es **Docker Compose**? #flashcard
+		  id:: 19316aa7-a68d-484d-a479-c907b7ae53c4
 			- Docker Compose es una herramienta que nos permite simplificar el despliegue de aplicaciones  multicontenedor  como  un  único  servicio,  permitiéndonos  gestionar fácilmente todo el ciclo de vida de los contenedores y otros objetos de la aplicación como volúmenes y redes. En  lugar  de  crear  nuestros  propios  scripts  con  llamadas  al  cliente  de  Docker  para configurar y desplegar todos los objetos de nuestra aplicación (contenedores, redes, volúmenes,  etc.),  Docker  Compose  nos  permite  definir  en  ficheros  YAML  toda nuestra  aplicación,  su  configuración  y  cómo  se  relacionan  los  objetos  y  sus dependencias. Será la propia herramienta Docker Compose la encargada de enviar las  tareas  necesarias  a  Docker  Engine  para  crear  los  objetos  y  ejecutar  los contenedores.
 		- (Page 5)
 	- -
@@ -38,6 +39,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- JUNTAR CON LO DE ARRIBA #flashcard
+		  id:: d670f9e1-e61a-4b7c-a69c-815bfaf6f630
 			- Veamos algún ejemplo de uso: command: /app/entrypoint.sh command: ["php", "-d", "vendor/bin/phpunit"] entrypoint: /app/start-service.sh entrypoint: [php, -d, vendor/bin/phpunit]
 		- (Page 10)
 	- -
@@ -48,6 +50,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- Orden de las variables de entorno en Docker Compose #flashcard
+		  id:: 32925311-2220-44e1-b60a-71d8fb5655e0
 			- En  caso  de  tener  varias  definiciones  de  la  misma  variable  de  entorno,  Compose utilizará el siguiente orden para elegir qué valor utilizar:   Fichero de Compose.   Variables de entorno del Shell.   Fichero de variables de entorno.   Variables definidas en el Dockerfile.
 		- (Page 10)
 	- -
@@ -58,6 +61,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- Acerca de montar volúmenes en un servicio con Docker Compose #flashcard
+		  id:: ad711eae-8f7a-42d0-b120-8ded46bc7cb3
 			- La opción volumes, dentro de la definición de un servicio, nos permite montar rutas del host en el contenedor o bien volúmenes a partir de su nombre. La sintaxis corta de esta opción nos permite utilizar el formato [ruta_host:]ruta_contenedor[:modo], mientras que la sintaxis larga permite configuraciones adicionales como por ejemplo el tipo de montaje.
 		- (Page 11)
 	- -
@@ -72,6 +76,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- Veamos un extracto del fichero Compose de la aplicación: - ./nginx/nginx.conf:/tmp/nginx.conf version: "3.7" services: web: image: nginx volumes: ... ports: - 80:80 depends_on: - backend backend: build: flask ... volumes: - ./flask:/src depends_on: -  mongo mongo: #flashcard
+		  id:: 340a1433-885a-4778-9bf1-8316fbcd9b75
 		- (Page 15)
 	- -
 	- -

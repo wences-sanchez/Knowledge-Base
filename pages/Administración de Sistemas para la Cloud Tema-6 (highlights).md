@@ -18,10 +18,12 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- configuración.  El  modo  Core,  sin  embargo,  no  tiene  escritorio.  Mantiene  las funcionalidades para soportar aplicaciones tradicionales y permite la activación de cualquier rol, pero no tiene el entorno de escritorio tradicional. Está pensando para ser administrado remotamente a través de la línea de comandos, con PowerShell o con consolas MMC remotas. Hay  otras  diferencias,  como  que  Server  Core  no  incluye  las  herramientas  de accesibilidad,  soporte  de  audio  o  Internet  Explorer.  La  Tabla  1  lista  algunas  de  las diferencias en cuanto a disponibilidad de aplicaciones entre ambos modos. Administración de Sistemas en la Cloud Tema 6. Ideas clave 6 I  ) R N U i j (  a o R a L  e d   l a n o i c a n r e t n I  d a d i s r e v i n U © #flashcard
+		  id:: 9ce50553-a08c-452a-b9a2-70b21533f443
 		- (Page 6)
 	- -
 	- -
 		- El  tercer  modo  de  ejecución  mencionado  anteriormente,  Nano  Server,  no  es  un modo  de  instalación  y,  de  hecho,  no  es  posible  instalarlo  sobre  hardware  físico  o virtual. Esta opción era posible con Windows Server 2016, pero no lo es con Windows Server  2019.  Nano  Server  solo  está  disponible  para  ser  ejecutado  como  un contenedor y, por tanto, Microsoft no ofrece un disco de instalación, sino una imagen base de contenedor. Nano Server es aún más limitado que Server Core, pero, al ser más ligero, está más indicado para entornos de virtualización. #flashcard
+		  id:: 3e2898d7-72fe-418b-992a-23a42e7bf489
 		- (Page 8)
 	- -
 	- -
@@ -42,6 +44,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- RSAT no es más que una colección de herramientas de administración remotas, listas para ser instaladas en un equipo Windows cliente (por ejemplo, Windows 10) con un único  paquete.  Incluye  Server  Manager,  la  consola  MMC  con  múltiples  snapins  y commandlets de PowerShell que solo las versiones de Windows Server incorporan por defecto. #flashcard
+		  id:: 21e100e0-1f1c-4ea1-a30c-a21a3a74d25d
 		- (Page 13)
 	- -
 	- -
@@ -54,6 +57,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- A nivel de protocolos, AD se sirve de múltiples tecnologías:   DNS  para  localizar  servicios  (gracias  a  entradas  SRV)  y  para  identificar  tanto dominios como los equipos miembros del dominio.   LDAP  es  el  servicio  de  directorio  como  tal.  Sirve  de  base  de  datos  para  alojar información de las cuentas de máquinas y de usuario. Es extensible, por lo que sistemas como Exchange pueden alojar datos adicionales de cada usuario, como los datos de la cuenta de correo, sin necesidad de crear otro repositorio de datos.   Kerberos es el sistema de autenticación y autorización entre equipos. #flashcard
+		  id:: f00277c5-c12e-457b-b59d-d3b5255115d9
 		- (Page 14)
 	- -
 	- -
@@ -70,6 +74,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Un dominio es un área de la red con una única base de datos de autenticación. A efectos  prácticos,  sirve  para  establecer  límites  administrativos  entre  diferentes grupos de red. Cualquier objeto pertenece a un único dominio y los objetos de un mismo  dominio  pueden  estar  dispersos  en  diferentes  ubicaciones  físicas.  Por ejemplo,  una organización puede  establecer  un dominio para  cada departamento, pero  en  una  misma  oficina  pueden  convivir  usuarios  y  equipos  de  departamentos diferentes sin que eso rompa la estructura del dominio. #flashcard
+		  id:: 1f68a6a9-6d8f-422b-8021-4a5ad3b02e69
 		- (Page 16)
 	- -
 	- -
@@ -78,6 +83,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cómo se organizan en árboles el Directorio Activo? #flashcard
+		  id:: ab1283fe-47da-45f8-92c7-270f24e87d27
 			- Cada dominio tiene una estructura de  árbol de contenedores. Estos contenedores pueden ser carpetas normales o unidades organizativas. La Figura 9 muestra el árbol de carpetas de un dominio y el contenido de una de las carpetas.
 		- (Page 16)
 	- -

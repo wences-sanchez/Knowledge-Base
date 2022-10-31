@@ -26,10 +26,12 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- En resumen, los contenedores comparten los recursos subyacentes del host sobre el que  se  ejecutan.  Además,  los  desarrolladores  construyen  una  imagen  que  incluye exactamente lo que necesitan para ejecutar su aplicación o servicio, comenzando por lo básico y agregando solo lo necesario. #flashcard
+		  id:: 9fcfe3e9-48c7-4f6e-9c19-d2058611b584
 		- (Page 9)
 	- -
 	- -
 		- Las  máquinas  virtuales  se  construyen  en  la  dirección  opuesta,  se  empieza  por  un sistema  operativo  completo  y,  dependiendo  de  las  necesidades  de  aplicación,  se añadirán o eliminarán componentes. #flashcard
+		  id:: 4794bfb9-ee01-4511-925a-82901961cf23
 		- (Page 10)
 	- -
 	- -
@@ -55,11 +57,13 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Qué hace el cliente Docker? #flashcard
+		  id:: 53093803-3fe4-4c3c-80f2-56090d81b01f
 			- sistema remoto. El  cliente  Docker  (comando  docker)  permite  a  los  usuarios  interactuar  con  el demonio de Docker utilizando la línea de comandos. El cliente Docker y el demonio de Docker se comunican mediante un API REST, ya sea a través de sockets UNIX o mediante  una  interfaz  de  red.  Ambos  no  tienen  por  qué  ejecutarse  en  la  misma máquina, ya que el cliente Docker podrá conectarse a un demonio de Docker de un
 		- (Page 14)
 	- -
 	- -
 		- Para entender mejor la diferencia entre imágenes y contenedores podemos ver su paralelismo con un fichero ejecutable y el proceso que lo ejecuta. La imagen sería el equivalente al ejecutable y el contenedor similar a los distintos procesos que hay en ejecución del ejecutable. #flashcard
+		  id:: a165802b-3f19-484f-b616-9366c430ac1f
 		- (Page 14)
 	- -
 	- -
@@ -69,6 +73,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Cómo describirías los contenedores en Docker? #flashcard
+		  id:: d93a4601-2f63-4df1-afe1-cd4c1a7c96a4
 			- Los contenedores son instancias o ejecuciones de la imagen de nuestra aplicación o servicio. Los contenedores se comportan como entornos aislados y seguros, por lo que en una misma máquina podemos tener varios contenedores en ejecución de la misma imagen.
 		- (Page 14)
 	- -

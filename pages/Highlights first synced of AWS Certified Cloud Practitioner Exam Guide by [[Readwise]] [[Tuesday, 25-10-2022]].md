@@ -376,6 +376,9 @@ deck:: [[O'Reilly-Learning::AWS Certified Cloud Practitioner Exam Guide]]
 	  AWS Lambda is a serverless offering from AWS that allows you to run code and perform some tasks. AWS Lambda is known as a Function as a Service (FaaS) solution that can be used to build an entirely serverless architecture comprised of storage, databases, and network capabilities where you do not manage any underlying servers. #flashcard
 	- -
 	- -
-	- Amazon also offers an alternative solution known as Session Manager, which is a feature of the AWS Systems Manager service offering. Session Manager enables you to manage your EC2 instances and on-premises instances via an interactive browser shell or the AWS CLI tools, without the need to open inbound ports or maintain bastion hosts and SSH keys. It also offers a fully auditable instance management service recording instance access details. #flashcard
-	  id:: cee0f3cf-37f9-44a0-94ca-36bedd4d2b8b
+		- Amazon also offers an alternative solution known as Session Manager, which is a feature of the AWS Systems Manager service offering. Session Manager enables you to manage your EC2 instances and on-premises instances via an interactive browser shell or the AWS CLI tools, without the need to open inbound ports or maintain bastion hosts and SSH keys. It also offers a fully auditable instance management service recording instance access details. #flashcard
+		  id:: cee0f3cf-37f9-44a0-94ca-36bedd4d2b8b
+	- -
+	- -
+		- Under Availability Zone, select us-east-1a – this is the same zone where we placed Public Subnet One. This way, any frontend web resources in Public Subnet One can access any backend resources in Private Subnet One, allowing those resources to be in the same Availability Zone. #flashcard
 	- -

@@ -37,4 +37,18 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 - ## Tema 2: Beneficios y consideraciones de la nube
 	- ![image.png](../assets/image_1667236714098_0.png)
 	- ### Alta disponibilidad
-		- Nos aseguramos de una redundancia para que nuestras aplicaciones nunca se caigan ni en el caso de
+		- Nos aseguramos de una redundancia para que nuestras aplicaciones nunca se caigan en el caso de errores.
+			- Si tenemos solo un servidor y hay un desastre natural, lógicamente, nuestra aplicación *crasheará*
+			- Si tenemos un servicio de un proveedor que nos brinda diferentes zonas en diferentes puntos de la geografía, los clientes serán redirigidos a otro servidor secundario.
+	- ### Escalabilidad
+		- Es la propiedad que tienen los sistemas de crecer vertical u horizontalmente.
+	- ### Agilidad
+		- Podemos disponer de forma casi inmediata (o dejar de disponer) de una gran cantidad de recursos
+		- Reduce el **Time To Market**
+	- ### Elasticidad
+		- Un sistema elástico es un sistema capaz de reaccionar a distintos **cambios** en la carga **automáticamente** y escalar a más o a menos.
+	- ### Tolerancia a fallos y Disaster Recovery
+		- Si una aplicación se destruye, podemos recuperarnos de esos fallos gracias a la nube
+		-
+-
+	-

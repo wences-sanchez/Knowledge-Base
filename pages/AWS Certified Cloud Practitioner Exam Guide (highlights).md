@@ -400,12 +400,14 @@ tags:: AWS O'Reilly-Learning
 			- Let's look at the core components of a DynamoDB database:
 			  id:: 3e2bd775-ac5c-4dfc-95fd-ba105d2c5991
 			  
-			  Tables: Like Amazon RDS databases, your data is stored in tables. So, you can have a customers table that will host information about your customers and their orders. Each table will also have a unique primary key, which is crucial for uniquely identifying every record in the table. Records are known as items in DynamoDB Tables.
-			  Items: Items are like records in Amazon RDS databases. A table can have one or more items, and each item will be a unique combination of attributes that define that item. Items can be up to 400 KB in size and can contain key-value pairs called attributes.
-			  Attributes: An attribute is like a column heading or a field in an Amazon RDS database. Attributes help define the items in your table. So, in a Customers Table, the attributes could be First-Name or Last-Name and so on. #flashcard
+			  **Tables**: Like Amazon RDS databases, your data is stored in tables. So, you can have a customers table that will host information about your customers and their orders. Each table will also have a unique primary key, which is crucial for uniquely identifying every record in the table. Records are known as items in DynamoDB Tables.
+			-
+			- **Items**: Items are like records in Amazon RDS databases. A table can have one or more items, and each item will be a unique combination of attributes that define that item. Items can be up to 400 KB in size and can contain key-value pairs called attributes.
+			-
+			- **Attributes**: An attribute is like a column heading or a field in an Amazon RDS database. Attributes help define the items in your table. So, in a Customers Table, the attributes could be First-Name or Last-Name and so on. #flashcard
 		- -
 		- -
-			- Amazon Neptune is a fully managed graph database service and a type of NoSQL database. #flashcard
+			- {{cloze Amazon Neptune}} is a fully managed graph database service and a type of NoSQL database. #flashcard
 			  id:: 0d8e8783-86bd-4ec0-a2ad-a17eb9d98a8d
 		- -
 	- Chapter 9: High Availability and Elasticity on AWS
@@ -416,10 +418,6 @@ tags:: AWS O'Reilly-Learning
 				  Applications deployed in the cloud must be resilient to failures. The resources that your applications depend on (compute, storage, networks, and databases) must be available and reliable. Any technical issues on any of these resources will cause your application to become unreliable and potentially fail.
 				  
 				  The reliability pillar also focuses on how quickly you can recover from failure based on your architectural design. This is because failures are bound to happen and your architecture must be able to recover from these failures swiftly. One key concept that you should also consider is the fact that replacing a failed component is often better than trying to figure out why the component failed and attempting to resolve the issue that caused the failure. This is because as you spend time trying to troubleshoot the failure, you risk increasing your Recovery Time Objective (RTO). For example, with EC2, you can deploy your application across multiple instances and multiple AZs. You can then configure Elastic Load Balancers and the Auto Scaling service to ensure that if an EC2 instance fails, traffic is routed to only those instances that are healthy, while the failed EC2 instance is replaced automatically in the background.
-		- -
-		- -
-			- Some key benefits of ALBs include the following: #flashcard
-			  id:: 916b624c-b3a8-4614-8dcd-7cf933425b81
 		- -
 		- -
 			- Explain the *Performance Efficiency* pillar of the **Well-Architected Framework** #flashcard

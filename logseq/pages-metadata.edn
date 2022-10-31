@@ -1545,7 +1545,7 @@
   :block/updated-at 1665484160872}
  {:block/name "monday, 31-10-2022",
   :block/created-at 1667209353630,
-  :block/updated-at 1667236501894}
+  :block/updated-at 1667238360281}
  {:block/name "my knowledge path",
   :block/created-at 1665484231603,
   :block/updated-at 1665484231603}
@@ -2763,7 +2763,7 @@
  {:block/name
   "unir/curso azure/módulo-1: conceptos básicos de la nube",
   :block/created-at 1667231398298,
-  :block/updated-at 1667237971554}
+  :block/updated-at 1667238340325}
  {:block/name "unir::curso azure::módulo-1",
   :block/created-at 1667234893883,
   :block/updated-at 1667234893883}

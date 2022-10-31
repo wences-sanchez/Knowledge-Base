@@ -3,6 +3,7 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 
 -
 - ## Tema 1: Modelos de nube
+  collapsed:: true
 	- ### 1.2 Computación en la nube
 		- #### Definición de computación en la nube #flashcard
 		  id:: 635ff09c-8330-42f8-aad0-68292d825400
@@ -32,3 +33,6 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 		  id:: 635ff454-53a9-4f38-bf6e-36824aaf38b2
 			- ![image.png](../assets/image_1667232918510_0.png)
 			-
+-
+- ## Tema 2: Beneficios y consideraciones de la nube
+	-

@@ -2760,9 +2760,10 @@
  {:block/name "unir/curso azure/módulo-0",
   :block/created-at 1667230425508,
   :block/updated-at 1667231006147}
- {:block/name "unir/curso azure/módulo-1",
+ {:block/name
+  "unir/curso azure/módulo-1: conceptos básicos de la nube",
   :block/created-at 1667231398298,
-  :block/updated-at 1667234893887}
+  :block/updated-at 1667235015374}
  {:block/name "unir::curso azure::módulo-1",
   :block/created-at 1667234893883,
   :block/updated-at 1667234893883}

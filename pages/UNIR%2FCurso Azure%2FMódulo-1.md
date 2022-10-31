@@ -13,4 +13,11 @@ tags:: UNIR, Azure
 					- El proveedor proporciona recursos y servicios a sus usuarios.
 					- El acceso a los recursos se realiza a través de una conexión de red segura (generalmente a través de Internet).
 				- **Nube privada:**
-					- Las organizaciones
+					- Las organizaciones crean entornos en la nube en sus propios centros de datos locales o bien pueden estar hospedadas por un proveedor de servicios a terceros.
+					- La organización es responsable de operar los servicios que brinda.
+					- No proporciona acceso a usuarios ajenos a la organización.
+				- **Nube híbrida:**
+					- Combina nubes públicas y privadas para permitir que las aplicaciones se ejecuten en la ubicación más adecuada.
+			- #### Comparación de los modelos de nube
+				- ![image.png](../assets/image_1667232918510_0.png)
+				-

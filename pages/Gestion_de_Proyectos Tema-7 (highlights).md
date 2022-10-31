@@ -10,11 +10,13 @@ tags:: Gestión de Proyectos UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Qué es el (product) **roadmap**? #flashcard
+		  id:: 7609a6d0-c81a-4990-bc52-7f0c1483e8d8
 			- se debe hacer un cálculo de la capacidad del equipo para realizar cada iteración, lo que establece un plan de alto nivel que describirá cómo el producto va a evolucionar. A esto se le conoce como (Product) Roadmap, que, de forma resumida, es la hoja de ruta o plan de acción flexible y efectivo, que indica la evolución para lograr la visión del producto, a través de un sumario visual de alto nivel. El  Roadmap  comunica  las  próximas  entregas  de  productos  y  muestra  cómo  cada historia de usuario contribuye a la estrategia de producto a través de la hoja de ruta ágil  para  visualizar  todo  el  trabajo  necesario.
 		- (Page 5)
 	- -
 	- -
 		- Sobre el roadmap y la planificación en DevOps #flashcard
+		  id:: 65216c22-89bf-4082-b442-f78e5db26aa4
 			- Es  importante  tener  en  cuenta  que  algunos  equipos  ágiles  creen  que  su  enfoque incremental  del  trabajo  es  incompatible  con  el  proceso  de  planificación.  Estos equipos  pueden  resistirse  a  construir  una  hoja  de  ruta  del  producto  porque  no quieren comprometerse con un plan o cronograma firme. Pero la realidad es que el Roadmap de producto es realmente una planificación de duraciones, que sirve para aproximar  las  fechas.  De  hecho,  incluso  los  equipos  de  productos  altamente adaptables deben cumplir con las fechas de entrega (o al menos los rangos de fechas).
 		- (Page 5)
 	- -
@@ -25,10 +27,12 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- Hay que pensar en el Roadmap como la dirección general que se desea tomar para alcanzar un producto final, y en el Release Plan como los detalles de las paradas y entregas específicas que se harán en el camino. #flashcard
+		  id:: ae2161a3-270d-4f50-9f64-b5737162d73a
 		- (Page 18)
 	- -
 	- -
 		- ¿Qué es el valor ganado de un proyecto? #flashcard
+		  id:: 1d691760-98bc-4964-af72-ecde2454628c
 			- El valor ganado del proyecto es la estrategia usada para conocer el valor de negocio real que genera un proyecto a una serie de usuarios finales y en un determinado momento. En el caso de proyectos ágiles, se considera que el valor ganado es 100 % real, ya que se basa en los resultados entregados en base al plan de entregas, y no en avances parciales de las tareas. Para poder obtener este valor, se divide el presupuesto del proyecto por el número total de puntos de historia, obteniendo un valor único para cada proyecto, que se asocia con lo que vale económicamente cada punto de historia. Por  tanto,  si  conocemos  cuántos  puntos  de  historia  se  han  completado  en  un momento  del  proyecto,  entonces  podremos  determinar  el  valor  actual  ganado (multiplicando).
 		- (Page 24)
 	- -
@@ -44,5 +48,6 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		-   La estrategia de gestión del riesgo consiste en ejecutar primero los requisitos con más riesgo. #flashcard
+		  id:: eda2675a-1b02-4982-8280-2f935cf41c11
 		- (Page 28)
 	- -

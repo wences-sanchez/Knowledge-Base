@@ -10,16 +10,19 @@ tags:: Herramientas-DevOps UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Qué es logstash? #flashcard
+		  id:: 9298073a-47c9-43ef-9388-49e8419b8fd0
 			- Logstash es un motor de recopilación de datos de código abierto con capacidades de procesamiento en tiempo real.Puede unificar dinámicamente datos de fuentes dispares y normalizar los datos en los destinos que indique el usuario. Permite limpiar y unificar todos los datos para casos de uso avanzados de análisis y visualización. Logstash  tiene  capacidades  para  ingestar  directamente  algunas  fuentes  de  datos como pueden ser los ficheros o ciertas bases de datos. Para algunas aplicaciones es posible  utilizar  Logstash  exclusivamente,  sin  embargo,  para  aplicaciones  de monitorización como las que estamos analizando nosotros, las diferentes piezas de Beats permiten la recolección y enriquecimiento de datos en las fuentes, y presentan un menor consumo de recursos, por lo que suelen ser la solución preferida. Además suele requerir muy poco mantenimiento frente a Logstash I ) R N U i j (  a o R a L  e d   l a n o i c a n r e t n I  d a d i s r e v i n U ©
 		- (Page 6)
 	- -
 	- -
 		- Ejemplos de Yaml con listas y dicts #flashcard
+		  id:: 9a1859fa-55b6-470b-afeb-bc03953badcd
 			- index: 'beat-%{[agent.version]}-%{+yyyy.MM.dd}'  output.elasticsearch.index: 'beat-%{[agent.version]}-%{+yyyy.MM.dd}' output:  elasticsearch: Será guardado como: En el caso de listas: filebeat:  inputs:  - type: log Se almacena como:       filebeat.inputs.0.type: log
 		- (Page 10)
 	- -
 	- -
 		- En  YAML  los  strings  se  soportan  cerrados  por  comillas  dobles  (“string”),  comillas simples  (‘string’)  y  sin  poner  comillas.  Las  comillas  dobles  permiten  escapar caracteres mediante la barra invertida: \. Es necesario tener cuidado si no utilizamos comillas de que el texto no haga conflicto con ningún otro significado en YAML. #flashcard
+		  id:: 713dfb7f-aa9d-4655-9db1-464a07004292
 		- (Page 11)
 	- -
 	- -
@@ -29,6 +32,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿Cómo funciona Filebeat? #flashcard
+		  id:: 3d62df52-2127-477e-b002-8c53a8615650
 			- Así es como funciona Filebeat: cuando inicia Filebeat, inicia una o más entradas que se  leen  en  las  ubicaciones  que  ha  especificado.  Para  cada  fichero  o  registro  que Filebeat localiza, Filebeat inicia un recolector. Cada recolector lee el contenido nuevo de un único logy envía los nuevos datos de registro a libbeat, que agrega los eventos y envía los datos agregados a la salida que ha configurado para Filebeat
 		- (Page 14)
 	- -
@@ -40,6 +44,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿Qué hacen los recolectores de Filebeat? #flashcard
+		  id:: 54627696-0ab8-4cda-b3ad-128aca7cab8a
 			- Un recolector es responsable de leer el contenido de un solo archivo. El recolector lee cada archivo, línea por línea, y envía el contenido a la salida. Se inicia un recolector para cada archivo. El recolector es responsable de abrir y cerrar el archivo, lo que significa que el descriptor del archivo permanece abierto mientras el recolector se está  ejecutando.  Si  un  archivo  se  elimina  o  cambia  de  nombre  mientras  se  está monitorizando, Filebeat continúa leyendo el archivo. Esto tiene el efecto secundario de que el espacio en su disco está reservado hasta que la recolección se cierre. Por defecto,  Filebeat  mantiene  el  archivo  abierto  hasta  que  close_inactive  se  alcanza. Esto es útil ya que cuando rotamos un fichero de logs con alguna herramienta como logrotate1 es posible terminar de leer las últimas líneas del fichero.
 		- (Page 15)
 	- -

@@ -8,4 +8,5 @@ url:: https://learning.oreilly.com/library/view/practical-devops/9781788392570/f
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- The presentation tier will be a web #flashcard
+		  id:: d5f3f03a-c75d-420e-8563-d546fedd36ef
 	- -

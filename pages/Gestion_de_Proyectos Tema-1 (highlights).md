@@ -10,6 +10,7 @@ tags:: Gestión de Proyectos UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Cuáles son las fases de un proyecto? #flashcard
+		  id:: a444ecde-09f6-46a8-8aea-fb57c5fb309f
 			- La gestión de proyectos tiene importantes beneficios para las empresas, apoyados sobre la base de los objetivos o fases de:   Análisis de viabilidad del proyecto, con la gestión del inicio.   Planificación del trabajo, con las estimaciones de costes y recursos.   Ejecución del proyecto, con las tareas asignadas.   Seguimiento  y  control  del  trabajo,  con  la  evolución  del  proyecto,  gestión  de incidencias y entregables.   Cierre del proyecto, con el análisis de resultados y aprobación.
 		- (Page 5)
 	- -
@@ -20,6 +21,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- ¿En qué se parecen y en qué se diferencian la metodología ágil y DevOps? #flashcard
+		  id:: 22e7b8bd-a23a-44e6-aef0-84c66888f8fb
 			- La principal similitud es el objetivo común en el que ambos paradigmas tratan de acelerar los procesos de desarrollo y distribución de software haciendo uso de una buena organización y trabajo colaborativo en equipo. La principal diferencia radica en los equipos de trabajo. Por un lado, la propuesta ágil  es  una  filosofía  de  trabajo  de  apoyo  a  la  construcción  de  proyectos  mediante pequeños equipos que colaboran y se adaptan ante los posibles cambios durante el desarrollo.  Por  otro  lado,  DevOps  es  una  metodología  que  une  a  los  equipos  de desarrollo  con  los  de  operaciones  o  sistemas,  que  hasta  el  momento  estaban separados y no había comunicación existente entre ambos equipos. Ya que ambos paradigmas son totalmente compatibles,  la combinación de  ambos hace  que  las  empresas  aceleren  de  manera  muy  considerable  sus  proyectos  de ingeniería de software, con resultados apreciables y de alta calidad.
 		- (Page 19)
 	- -

@@ -18,15 +18,18 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- ¿Cuáles son los tres principios clave de Agile? #flashcard
+		  id:: 9e19c0be-b7eb-48fa-8cb5-89e5772f89ee
 			-   Entrega incremental.   Retroalimentación y mejora continua.   El trabajo en elementos de alto valor.
 		- (Page 8)
 	- -
 	- -
 		- La orientación al producto se refiere a la necesidad de que un equipo que acude al Dojo  adopte,  si  no  lo  ha  hecho  ya,  una  orientación  al  producto  en  lugar  de  una orientación al proyecto. Esta orientación implica que el equipo esté preparado para resolver,  crear  y  construir  soluciones  que  puedan  satisfacer  una  necesidad  de negocio. #flashcard
+		  id:: 6c966989-28b3-4c02-b2b7-5ebd18741cab
 		- (Page 8)
 	- -
 	- -
 		- ¿A qué nos referimos con "orientción l producto" cundo hblmos de Dojo? #flashcard
+		  id:: a48871d3-eed0-47b0-8d02-e2866c5e2479
 			- a
 		- (Page 8)
 	- -
@@ -37,15 +40,18 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Las  organizaciones  también  pueden  fijarse  en  las  métricas  de  rendimiento  para decidir que un equipo está listo para una experiencia de Dojo:   Velocidad del equipo.   Frecuencia de despliegue.   Tiempo medio de recuperación (en siglas, MTTR). Resulta  útil  tener  una  métrica  que  sirva  de  base  para  medir  el  desempeño  de  los equipos antes de demostrar cómo evolucionan esas métricas durante la experiencia en  el  Dojo  y  una  vez  que  este  acaba.  A  medida  que  los  equipos  avanzan,  es recomendable  incorporar  métricas  orientadas  al  valor  de  los  productos  que  están construyendo, de modo que puedan asegurar que el mejor rendimiento se canaliza hacia los mejores negocios y clientes. #flashcard
+		  id:: 46e2055d-6306-4c8b-9dc2-7aabdf8734ef
 		- (Page 19)
 	- -
 	- -
 		- Etapa del Dojo #flashcard
+		  id:: f8426100-8267-496a-8496-bda8b31c80f5
 			-   Consulta: consiste en una breve reunión con el equipo interesado a fin de describir qué es un Dojo y cómo podría ayudar a ese equipo en concreto. El objetivo de esta reunión es el de dar a los equipos interesados suficiente información para decidir si el Dojo es una buena solución para ellos y para que los entrenadores evalúen si pueden cumplir con todos los requisitos necesarios de formación para el Dojo.
 		- (Page 20)
 	- -
 	- -
 		- Etapa del Dojo #flashcard
+		  id:: 556d6e26-b005-4d02-9d69-33eb2cba1c83
 			-   Acuerdo: se trata de una reunión, de aproximadamente media jornada, en la que participa  el  equipo  que  desea  entrar  en  el  Dojo,  así  como  cualquier  otra  parte interesada que resulte crítica. El equipo se alinea en sus resultados para el Dojo a través de la articulación de su campo de interés, metas, métricas clave, acuerdos de trabajo y una evaluación completa de las habilidades del equipo.
 		- (Page 20)
 	- -
@@ -57,6 +63,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Etapa del Dojo
+		  id:: d278af07-0170-47a1-96cb-ab1aec4452af
 		  
 		  comprobar que están aplicando lo aprendido durante el Dojo, solventar lagunas que puedan haber quedado de las sesiones e identificar nuevas oportunidades en otros equipos. #flashcard
 			-   De vuelta a la «naturaleza»: el equipo retorna al entorno habitual de trabajo y es encuestado  sobre  su  experiencia  en  el  Dojo.  Se  espera  que  compartan  sus vivencias  y  aquello  que  han  aprendido  con  otras  personas  ajenas  al  Dojo.  Los entrenadores hacen un seguimiento en las siguientes cuatro a seis semanas para
@@ -70,6 +77,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Un formato de Dojo #flashcard
+		  id:: e9afb481-b1b5-4e1e-aa3c-ab31881517eb
 			-   FlashBuild: este formato es más pequeño, suele durar menos de una semana  y está  pensado  para  equipos  que  intentan  resolver  un  problema  técnico  muy específico,  cómo  establecer  un  pipeline  de  CI/CD,  aplicar  un  framework  de desarrollo o de pruebas, configurar servicios basados en nube o contenedores, etc. Los entrenadores expertos trabajan junto a los equipos para cocrear la solución, transfiriendo  el  conocimiento  a  lo  largo  del  proceso  de  trabajo.  Dada  su  corta duración, hay menos enfoque en el aprendizaje de las prácticas que determinan cómo los equipos deben trabajar con las nuevas tecnologías.
 		- (Page 21)
 	- -

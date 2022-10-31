@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- DevOps engineers must understand networking and storage because these are no longer silos. #flashcard
+		  id:: a348154c-6416-4375-a985-808dd3aaa36a
 		- tags:: [[pink]]
 		- ([Location 626](https://readwise.io/to_kindle?action=open&asin=B07NDDGNLS&location=626))
 	- -

@@ -15,10 +15,12 @@ tags:: Literature
 	- -
 	- -
 		- I was finally a member of the Arcanum, in some ways exactly where I had always wanted to be. #flashcard
+		  id:: 16efb479-e6f1-4cb1-9cb1-43c7d602eec5
 		- ([Location 5266](https://readwise.io/to_kindle?action=open&asin=B003HV0TN2&location=5266))
 	- -
 	- -
 		- “I used to do that for hours,” Elodin said, drawing a deep breath and looking around the room fondly. “Good times.” #flashcard
+		  id:: a2793b18-e1a3-46bc-b29e-919ff3a717f6
 		- ([Location 6084](https://readwise.io/to_kindle?action=open&asin=B003HV0TN2&location=6084))
 	- -
 	- -
@@ -30,12 +32,14 @@ tags:: Literature
 	- -
 	- -
 		- About a student’s life .mind #flashcard
+		  id:: a953b712-54b8-44ed-94b5-9e1567b9a10c
 			- Simmon looked a little shocked. “No wonder you look like you haven’t slept in a span of days,” he said. Wilem nodded to himself. “And you’re still working in Kilvin’s shop, aren’t you?” “A couple hours every night.” Simmon was aghast. “And you’re learning an instrument at the same time? Are you insane?”
 		- tags:: [[pink]]
 		- ([Location 6609](https://readwise.io/to_kindle?action=open&asin=B003HV0TN2&location=6609))
 	- -
 	- -
 		- About hardworking .mind #flashcard
+		  id:: f88bad04-82f9-4c77-befd-033c16449fa5
 			- I took the time to fret uselessly about things I had no control over.
 		- tags:: [[pink]]
 		- ([Location 7111](https://readwise.io/to_kindle?action=open&asin=B003HV0TN2&location=7111))

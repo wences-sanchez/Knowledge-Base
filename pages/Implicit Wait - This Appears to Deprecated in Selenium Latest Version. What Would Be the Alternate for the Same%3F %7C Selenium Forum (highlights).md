@@ -8,5 +8,6 @@ url:: https://www.qtpselenium.com/selenium-training/forum/7358/implicit-wait-thi
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- What is the way of using implicitlyWait() in Selenium 4 (since it's deprecated)? #flashcard
+		  id:: 799c84f0-4687-4c93-8a56-4ad07f969076
 			- driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	- -

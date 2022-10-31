@@ -10,6 +10,7 @@ tags:: SecDevOps UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- ¿Cómo de diferente es la incorporación de los controles de seguridad en devops? #flashcard
+		  id:: b62b748f-e8cd-44ad-b627-b516bdf234d8
 			- No  hay  excepciones  en  la  incorporación  de  controles  de  seguridad  a  un  entorno DevOps. Sí hay diferencias esenciales en cuanto a su aplicación, ya que la velocidad de iteración y las herramientas disponibles son diferentes.
 		- (Page 4)
 	- -
@@ -21,6 +22,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Define "Red de ordenadores". #flashcard
+		  id:: bc7ee0f7-817f-4c47-9d31-61a13ad43d18
 			- «El modelo tradicional de  un  único  ordenador  para  todas  las  necesidades  de  computación  de  una organización  ha  sido  reemplazado  por  un  modelo  en  el  que  un  gran  número  de ordenadores independientes pero interconectados realizan el mismo trabajo. Estos sistemas se denominan redes de ordenadores». Se observa que la definición no habla de servidores y clientes, ni de centros de datos, ni de proveedores de nube. De hecho, los autores usan para su definición la diferencia principal frente un ordenador monolítico: la interconexión de múltiples ordenadores. Esto  sigue  siendo  verdad  a  pesar  de  la  cantidad  de  protocolos  disponibles  en  el mercado
 		- (Page 5)
 	- -
@@ -38,21 +40,25 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Tipos de redes según su arquitectura: #flashcard
+		  id:: 031d53ca-f361-4acb-80d1-032e991ea831
 			- Este criterio se refiere al rol que cumplen los dispositivos que pertenecen a la red:   Puede haber uno o más sistemas que actúen como servidor. Un cliente solicita al servidor  que  atienda  las  solicitudes.  El  servidor  toma  y  procesa  la  solicitud  en nombre de los clientes.   Dos sistemas pueden estar conectados punto a punto y formar una red peer-to peer. Ambos residen en el mismo nivel, se les denomina pares.
 		- (Page 9)
 	- -
 	- -
 		- Explica los cuatro tipos de redes según su extensión geográfica. #flashcard
+		  id:: aecfe8a0-6fb3-449e-8362-d45501467549
 			-   Redes de área personal o personal area network (PAN): aquellas con un alcance de  hasta  diez  metros.  Pueden  incluir  dispositivos  habilitados  para  bluetooth  o dispositivos habilitados para infrarrojos.   Redes de área local o local area network (LAN): aquellas que abarcan una oficina o  un  edificio  y  están  operadas  bajo  un  único  sistema  administrativo. Normalmente,  una  LAN  abarca  un  hogar,  una  oficina  o  un  edificio,  pero  puede abarcar  una  extensión  de  un  campus  de  universidad.  El  número  de  sistemas conectados en LAN puede variar desde al menos dos hasta dieciséis millones. Es la topología  habitual  para  compartir  los  recursos  como  impresoras,  servidores  de archivos  o  incluso  acceso  a  Internet  por  parte  de  dispositivos  en  una  misma ubicación.   Redes de área metropolitana o metropolitan area network (MAN): aquellas que cubren  una  ciudad.  Se  pueden  citar  como  ejemplos  las  redes  de  televisión  por cable y las redes WiMAX, aunque solo han tenido aceptación en algunos países.   Redes  de  área  amplia  o  wide  área  network  (WAN):  cubren  una  extensa  zona geográfica que puede expandirse a través de provincias o países. Una WAN tiende a interconectar otras redes. Por ejemplo, cada sucursal de una organización puede tener una LAN para compartir el acceso a Internet y las impresoras, mientras que una WAN, mediante la conmutación de etiquetas de protocolo múltiple (MPLS), conecta todas las LAN para permitir el acceso a una aplicación corporativa ubicada en una oficina principal.
 		- (Page 10)
 	- -
 	- -
 		- ¿Qué se define como SecDevOps? +++ #flashcard
+		  id:: 7ac3f56e-7e38-4569-9531-6cccacb1f49e
 			- paradigma en el que se integran los procesos de desarrollo de software y operaciones considerando requisitos de seguridad y conformidad».
 		- (Page 12)
 	- -
 	- -
 		- ¿Cuándo se introduce la seguridad en el producto en SecDevOps? #flashcard
+		  id:: 47d35625-4b4a-4775-8500-3c3a32d36987
 			- «Cuando la seguridad se convierte en una parte integral de DevOps, los ingenieros de seguridad puedan desarrollar los controles directamente en el producto, en vez de insertarlo a la fuerza una vez construido»
 		- (Page 12)
 	- -
@@ -70,6 +76,7 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Las 6 fases de reacción ante un incidente de seguridad: #flashcard
+		  id:: bb67aba1-420b-4d03-a696-9b01f49cbaa5
 			-   Preparación:  garantizar  que  la  organización  ha  definido  los  procesos  mínimos necesarios para lidiar con un incidente.   Identificación: decidir rápidamente si una anomalía es un incidente de seguridad.   Contención: impedir que la violación se extienda.   Erradicación: eliminar las amenazas de la organización.   Recuperación: devolver la organización a las operaciones normales.   Lecciones aprendidas: analizar el incidente a posteriori para aprender de él.
 		- (Page 25)
 	- -

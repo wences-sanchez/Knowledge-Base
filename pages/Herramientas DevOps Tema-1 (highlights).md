@@ -10,18 +10,21 @@ tags:: Herramientas-DevOps UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Aunque las fases se traten linealmente en esta asignatura, estas no se implementarán en cascada. Una de las enseñanzas más importantes de DevOps es la necesidad de iterar e ir realizando pasos incrementales lo más frecuentes posibles.
+		  id:: cf427afa-2dec-4be1-8622-6cc2915231a8
 		  
 		  Esto nos llevará a hablar en todas las fases de cómo las diferentes herramientas pueden soportar esta iteración. #flashcard
 		- (Page 5)
 	- -
 	- -
 		- Define despliegue. #flashcard
+		  id:: fe1d0285-30a0-42a4-bbea-8adc28d1053c
 			- Definiremos la Implementación y Despliegue como la fase en la que aplicamos una nueva versión de nuestra aplicación al entorno productivo. Es importante destacar que eso no es únicamente desplegar una nueva versión de código (aunque es una parte esencial y compleja en sí misma) sino desplegar un entorno nuevo, cambiar las piezas necesarias, desplegar componentes nuevos completos, configurar conexiones y eliminar las piezas que dejen de ser fundamentales.
 		- tags:: [[favorite]]
 		- (Page 7)
 	- -
 	- -
 		- ¿Qué es la infraestructura inmutable? #flashcard
+		  id:: d320c15d-33d0-49ed-9c0f-4f2ee58380c0
 			- La infraestructura inmutable es un paradigma que intenta considerar las piezas de infraestructura  como  inmutables  y,  por  tanto,  la  forma  de  cambiarlas  sería reemplazarlas por una nueva con la próxima versión.
 		- (Page 9)
 	- -
@@ -32,6 +35,7 @@ tags:: Herramientas-DevOps UNI
 	- -
 	- -
 		- ¿En qué consiste mantener un sistema? #flashcard
+		  id:: 09b5be80-390c-479e-b468-e9972e804cc8
 			- El  mantenimiento  de  un  sistema  consiste  en  lograr  que  el  sistema  continúe funcionando y mantenga nuestro objetivo de nivel de servicio, SLO (del inglés Service Level  Objectives)  y  nuestros  acuerdos  de  servicio,  SLA  (del  inglés  Service  Level Agreement).
 		- (Page 22)
 	- -

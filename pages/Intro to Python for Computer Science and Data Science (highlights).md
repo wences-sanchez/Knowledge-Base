@@ -10,15 +10,18 @@ tags:: O'Reilly-Learning
 	- 4.12 Methods: Functions That Belong to Objects
 		- -
 			- Method to make the character low #flashcard
+			  id:: 2030ad62-bc6b-4163-ad34-597c86ef1714
 				- s.lower()
 		- -
 		- -
 			- Method to set all the characters small #flashcard
+			  id:: 2e12710d-8661-4e14-ae2a-03ebb58c318d
 				- s.upper()
 		- -
 	- 10.4 Properties for Data Access
 		- -
 			- Example of @property #flashcard
+			  id:: fd7d57aa-74b9-44e2-aba0-830a63cca43a
 				- @property
 				  14 def hour(self):
 				  15     """Return the hour."""
@@ -26,6 +29,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example of setter #flashcard
+			  id:: a0a09e01-c774-4260-b08a-a5ce55d49204
 				- @hour.setter
 				  19 def hour(self, hour):
 				  20     """Set the hour."""

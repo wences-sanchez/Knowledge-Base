@@ -8,6 +8,7 @@ url:: https://stackoverflow.com/questions/4142151/how-to-import-the-class-within
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Python 2
+		  id:: a616c4b3-be13-4c82-8864-745735bfe5c8
 		  
 		  Make an empty file called __init__.py in the same directory as the files. That will signify to Python that it's "ok to import from this directory".
 		  

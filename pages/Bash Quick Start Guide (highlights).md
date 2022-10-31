@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- Saving fields into arrays
 		- -
 			- Example of looping an array in bash #flashcard
+			  id:: 77570771-5451-478d-bdba-2c2ac49c6e25
 				- for animal in "${animals[@]}" ; do
 				        printf '%s\n' "$animal"
 				    done
@@ -17,6 +18,7 @@ tags:: O'Reilly-Learning
 	- Reading data line by line
 		- -
 			- How to read a file line by line in Bash [fcs is the name of the file!] #flashcard
+			  id:: 0bd1f964-d2f6-4b4e-b7f4-3628e6304b73
 				- while read -r name ; do
 				    printf '%s\n' "$name"
 				    printf 'https://en.wikipedia.org/wiki/%s\n' "${name// /_}"
@@ -25,6 +27,7 @@ tags:: O'Reilly-Learning
 	- Scripting methods
 		- -
 			- Sourcing the script means to use the Bash source command to read all of the commands in a script into the current shell session and run them there. A source command to read in a script such as hello.bash might look like this:
+			  id:: 754af07d-ccc7-4668-afe1-55fa83e2c755
 			  bash$ source hello.bash
 			  Hello, bashuser! #flashcard
 		- -

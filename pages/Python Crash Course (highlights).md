@@ -41,6 +41,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Sometimes you won’t know the position of the value you want to remove from a list. If you only know the value of the item you want to remove, you can use the remove() method. #flashcard
+			  id:: c78a7324-6be6-4377-abc0-bed301eae79b
 		- -
 		- -
 			- The Python variables you’re using at this point should be lowercase. You won’t get errors if you use uppercase letters, but uppercase letters in variable names have special meanings that we’ll discuss in later chapters. #flashcard
@@ -54,6 +55,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Show a variable named status inside a string (in Python 3) #flashcard
+			  id:: 1e08f40f-82de-43e5-8cfd-22d913be477a
 				- message = f"My first bicycle was a {bicycles[0].title()}."
 		- -
 		- -
@@ -62,6 +64,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- It’s much better to think of variables as labels that you can assign to values. You can also say that a variable references a certain value. #flashcard
+			  id:: 4d3ac1d3-25df-4949-bf8c-6fa855e2cd0f
 		- -
 		- -
 			- Add 'ducati' at the end of the list motorcycles #flashcard
@@ -74,6 +77,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Function to get the size of the list cars #flashcard
+			  id:: f772dfc0-0898-4bf6-b829-7e185eecfeca
 				- len(cars)
 		- -
 		- -
@@ -84,9 +88,11 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- A method is an action that Python can perform on a piece of data. #flashcard
+			  id:: 4d1f3baa-a1ab-40a8-987a-9dfa80f8ef1d
 		- -
 		- -
 			- Construct a list named bicycles which contains the items:
+			  id:: eda28f35-e086-42ef-80d1-d05982129b93
 			  * 'trek'
 			  * 'cannondale'
 			  * 'redline'
@@ -95,6 +101,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Show the first element of the list bicycles. #flashcard
+			  id:: 08ebf3b5-10ea-41a9-8333-cee4712f1ddd
 				- print(bicycles[0])
 		- -
 		- -
@@ -112,6 +119,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Remove the first element of the list motorcycles #flashcard
+			  id:: 27905e46-a8ee-4136-89ed-20b3ce83044e
 				- del motorcycles[0]
 		- -
 		- -
@@ -145,9 +153,11 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Python considers the first item in a list to be at position 0, not position 1 #flashcard
+			  id:: f22e4552-d4e4-4798-ab01-288c5e79b5fd
 		- -
 		- -
 			- Show the numbers: [1, 4] #flashcard
+			  id:: e2c33370-bcc1-4fab-b6f7-58bafd2e5557
 				- for value in range(1, 5):
 				    print(value)
 		- -
@@ -168,9 +178,11 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Remember that each time you use pop(), the item you work with is no longer stored in the list. #flashcard
+			  id:: e32e6d17-8b0a-45d2-af51-4103c6ae8501
 		- -
 		- -
 			- [List Comprehension]
+			  id:: 5c4849f3-a9c3-4759-89ab-bcfae656593b
 			  Begin with a descriptive name for the list, such as squares. Next, open a set of square brackets and define the expression for the values you want to store in the new list. In this example the expression is value**2, which raises the value to the second power. Then, write a for loop to generate the numbers you want to feed into the expression, and close the square brackets. The for loop in this example is for value in range [1, 10] #flashcard
 				- squares = [value**2 for value in range(1, 11)]
 		- -
@@ -180,9 +192,11 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- alphabetically #flashcard
+			  id:: 687b4d01-a23b-4845-a5d4-a47a27760278
 		- -
 		- -
 			- Construct a list with the numbers: [1, 5] #flashcard
+			  id:: 76915ba3-0245-465c-a71d-9dae0a44a880
 				- numbers = list(range(1, 6))
 		- -
 		- -
@@ -195,6 +209,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- The PEP 8 guidelines for line length are not set in stone, and some teams prefer a 99-character limit. #flashcard
+			  id:: 63eb1a16-bdf8-4150-aa3d-b30c33f98ff3
 		- -
 		- -
 			- keep in mind when writing your own for loops that you can choose any name you want for the temporary variable that will be associated with each value in the list. However, it’s helpful to choose a meaningful name that represents a single item from the list. #flashcard
@@ -222,6 +237,7 @@ tags:: O'Reilly-Learning Python
 	- 6 DICTIONARIES
 		- -
 			- The colon at the end of a for statement tells Python to interpret the next line as the start of a loop. #flashcard
+			  id:: 89b12ec8-b503-47b4-ab84-1306aa8c74ec
 		- -
 		- -
 			- Build a dict named alien_0 with:
@@ -246,6 +262,7 @@ tags:: O'Reilly-Learning Python
 	- 10 FILES AND EXCEPTIONS
 		- -
 			- To do any work with a file, even just printing its contents, you first need to open the file to access it. The open() function needs one argument: the name of the file you want to open. Python looks for this file in the directory where the program that’s currently being executed is stored. #flashcard
+			  id:: cf0c5409-4f2c-40bb-b938-e6279e26f939
 		- -
 		- -
 			- The keyword with closes the file once access to it is no longer needed. #flashcard
@@ -256,10 +273,12 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Is it possible to reassign a tuple's content? #flashcard
+			  id:: e8a6cf46-3ffc-4243-b2f0-6ddfd15bb78c
 				- Although you can’t modify a tuple, you can assign a new value to a variable that represents a tuple.
 		- -
 		- -
 			- How do you call a base class' constructor? #flashcard
+			  id:: e2a5de9f-311a-4243-84e2-41fa92659a0b
 				- super().__init__(make, model, year)
 		- -
 		- -
@@ -314,6 +333,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Iterate over the content of a dict without repeating.
+			  id:: 5f895da7-9ca4-4517-98ff-8173eee83f64
 			  Dict: fav_langs #flashcard
 				- for language in set(favorite_languages.values()):
 		- -
@@ -333,10 +353,12 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Print via a function in Python a list without being able to modify it. #flashcard
+			  id:: 6a55ebbc-8577-4064-b0fd-c87a439a0623
 				- print_models(unprinted_designs[:], completed_models)
 		- -
 		- -
 			- Design a function which contains unlimited arguments. #flashcard
+			  id:: 7000edb5-e560-4642-88e7-fe544bae54dc
 				- def make_pizza(*toppings):
 				    """Print the list of toppings that have been requested."""
 				    print(toppings)
@@ -366,6 +388,7 @@ tags:: O'Reilly-Learning Python
 		- -
 		- -
 			- Bring the module ‘pizza’ into your scope to use ONLY pizza.make_pizza(). Use an alias.
+			  id:: b43cf3a2-e92a-43db-90bc-d4579ed1b528
 			  
 			  Use it. #flashcard
 				- from pizza import make_pizza as mp

@@ -16,4 +16,5 @@ url:: https://theagileadmin.com/what-is-devops/
 	- -
 	- -
 		- DevOps is also characterized by operations staff making use many of the same techniques as developers for their systems work. #flashcard
+		  id:: 8521a360-adf5-405d-82e0-777f1c5a681f
 	- -

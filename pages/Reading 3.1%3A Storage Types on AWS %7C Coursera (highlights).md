@@ -8,9 +8,11 @@ url:: https://www.coursera.org/learn/aws-cloud-technical-essentials/lecture/7WOV
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- AWS storage services are grouped into three different categories: block storage, file storage, and object storage. #flashcard
+		  id:: 310bdc2e-68e4-45a5-825e-2d741752d21a
 	- -
 	- -
 		- Understand the Types of High Availability
+		  id:: c5b34fe5-4a06-43bd-b4fb-b45426f6c2f9
 		  The last challenge to address when having more than one server is the type of availability you need—either be an active-passive or an active-active system. 
 		  Active-Passive: With an active-passive system, only one of the two instances is available at a time. One advantage of this method is that for stateful applications where data about the client’s session is stored on the server, there won’t be any issues as the customers are always sent to the same server where their session is stored.Active-Active: A disadvantage of active-passive and where an active-active system shines is scalability. By having both servers available, the second server can take some load for the application, thus allowing the entire system to take more load. However, if the application is stateful, there would be an issue if the customer’s session isn’t available on both servers. Stateless applications work better for active-active systems. #flashcard
 	- -

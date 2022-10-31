@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- Chapter 1: Welcome to Networking
 		- -
 			- What is a network, for dummies? #flashcard
+			  id:: ead1093e-af03-4eb2-8645-463c17690991
 				- A network is nothing more than two or more computers connected by a cable or by a wireless radio connection so that they can exchange information.
 		- -
 		- -
@@ -29,27 +30,33 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Who did computers work in a bus network? #flashcard
+			  id:: f10fe6c4-4e4e-4efb-b598-a70525bff27c
 				- In a bus topology, every node on the network can see every packet that’s sent on the cable. Each node looks at each packet to determine whether the packet is intended for it. If so, the node claims the packet. If not, the node ignores the packet. This way, each computer can respond to data sent to it and ignore data sent to other computers on the network.
 		- -
 	- Chapter 2: Network Infrastructure
 		- -
 			- What is a network protocol, for dummies? #flashcard
+			  id:: 1a9be186-164d-4239-b75e-f3b8f947a0f0
 				- A protocol provides a precise sequence of steps that each element of a network must follow to enable communications. Protocols also define the precise format of all data that is exchanged in a network. For example, the Internet Protocol (IP) defines the format of IP addresses: four eight-bit numbers called octets whose decimal values range from 0 to 255, as in 10.0.101.155.
 		- -
 		- -
 			- What is a network standard, for dummies? #flashcard
+			  id:: c3043cd0-2fea-4660-abda-09570eb5f6f5
 				- A standard is a detailed definition of a protocol that has been established by a standards organization and that vendors follow when they create products. Without standards, it would be impossible for one vendor’s products to work with another vendor’s.
 		- -
 		- -
 			- What is a network interface, for dummies? #flashcard
+			  id:: b1d60fc4-dcc5-470d-8297-6962c26194d6
 				- A network interface is the electronic circuitry that allows a device to connect to a network. Each network interface provides a port, which is the plug-in point for the interface. Generally speaking, the terms port and interface are synonymous.
 		- -
 		- -
 			- What does a MAC stand for? #flashcard
+			  id:: 9bcb10f8-837a-4529-9dba-f3d6d63c1a5b
 				- Every network interface must have a unique identifier called a MAC address. (MAC stands for media access control, but that won’t be on the test.) Each MAC address is unique throughout the entire world.
 		- -
 		- -
 			- What is DHCP used for? #flashcard
+			  id:: 90863b31-a881-4eac-88ec-72bdd094638b
 				- Dynamic Host Configuration Protocol (DHCP), which allows computers that join a network to be assigned an IP address. When a network interface is first connected to a network, it sends out a broadcast message requesting the address of the network’s DHCP server. Every device on the network sees this packet. But only the DHCP service will respond.
 		- -
 		- -
@@ -58,6 +65,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Usually a LAN is contained within a single building, but a LAN can extend to several buildings on a campus, provided that the buildings are close to each other (typically within 300 feet of each other, although greater distances are possible with special equipment). #flashcard
+			  id:: 4875e6d1-c1ba-4af2-aa3a-f4f7efe89834
 		- -
 		- -
 			- About mesh networks on the internet #flashcard
@@ -75,11 +83,13 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What is DHCP used for? #flashcard
+			  id:: fffd17b9-eb25-4867-9486-5c3e2dd47571
 				- One of the most common users of broadcast packets is Dynamic Host Configuration Protocol (DHCP), which allows computers that join a network to be assigned an IP address. When a network interface is first connected to a network, it sends out a broadcast message requesting the address of the network’s DHCP server. Every device on the network sees this packet. But only the DHCP service will respond.
 		- -
 	- Chapter 3: Switches, Routers, and VLANs
 		- -
 			- the three basic functions of a switch:
+			  id:: f0b85644-4902-4471-80d1-db29f3e266f5
 			  
 			  Learning: The switch learns what devices are reachable on each of its ports.
 			  Forwarding: The switch forwards incoming packets just to the correct port based on the intended destination.
@@ -87,10 +97,12 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About ARP and its use #flashcard
+			  id:: 263634ca-8bca-49c6-af95-99863fe95a6b
 				- You may be surprised to discover just how much broadcast traffic actually happens on a large network. The most common type of broadcast packet is an Address Resolution Protocol (ARP) request. ARP is the protocol used to determine the MAC address of a given IP address. If one IP device wants to send a packet to another IP device, the sender needs to know the MAC address of the recipient. So, the sender broadcasts an ARP request, which is essentially the question “Does anyone know the MAC address of this particular IP address? If so, please let me know.”
 		- -
 		- -
 			- the switches — which don’t know about IP addresses — must determine the MAC addresses not only of the sending and receiving computers, but also of the router. And the router must also know the MAC addresses of the two switches #flashcard
+			  id:: 3166eb9d-e965-4d41-9bc3-bcee9cb4b8f3
 		- -
 		- -
 			- Explain, basically, what NAT does. #flashcard
@@ -101,6 +113,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Explain what is a VPN. #flashcard
+			  id:: dccb5a1d-d2fc-41bf-8eec-1dc6a8d5fff8
 				- A virtual private network (VPN) is a secure connection between two private networks over a public network (in other words, over the Internet). All the data that flows over the VPN is encrypted, so anyone who steals packets from the VPN will find them unintelligible; only the parties on either end of the VPN are able to decrypt the packets.
 				  
 				  VPN connections are often called tunnels, because they provide an isolated pathway from one point to another through the Internet. The only way to gain meaningful access to a VPN tunnel is at either end.
@@ -113,8 +126,10 @@ tags:: O'Reilly-Learning
 	- Chapter 5: Cloud Computing
 		- -
 			- Also referred to as Platform as a Service (PaaS), this class of service refers to providers that give you access to a remote virtual operating platform on which you can build your own applications. #flashcard
+			  id:: 1061dd91-3f85-417e-b15a-fe4f289f4fef
 		- -
 	- Chapter 6: Running Apache
 		- -
 			- Manually Editing Apache’s Configuration Files #flashcard
+			  id:: 8962c94c-c9a4-4e66-84ea-be237ca67260
 		- -

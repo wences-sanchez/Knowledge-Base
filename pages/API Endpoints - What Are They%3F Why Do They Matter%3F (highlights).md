@@ -20,11 +20,13 @@ url:: https://smartbear.com/learn/performance-monitoring/api-endpoints/
 	- -
 	- -
 		- What is an Endpoint? .cs #flashcard
+		  id:: 572ba900-dfca-4ded-b0e2-d496a3e5bb74
 			- Simply put, an endpoint is one end of a communication channel. When an API interacts with another system, the touchpoints of this communication are considered endpoints. For APIs, an endpoint can include a URL of a server or service. Each endpoint is the location from which APIs can access the resources they need to carry out their function.
 		- ([View Highlight](https://instapaper.com/read/1390206485/15618858))
 	- -
 	- -
 		- Where is an endpoint? .cs #flashcard
+		  id:: 5b597b01-41b5-420a-b879-808294809637
 			- APIs work using ‘requests’ and ‘responses.’ When an API requests information from a web application or web server, it will receive a response. The place that APIs send requests and where the resource lives, is called an endpoint.
 		- ([View Highlight](https://instapaper.com/read/1390206485/15618903))
 	- -

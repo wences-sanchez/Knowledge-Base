@@ -174,7 +174,6 @@ category:: #books
 	- -
 	- -
 		- mainTextBox.Text = "I am text for the textbox #flashcard
-		  id:: a621ca16-7b19-4a05-9adc-83f1723349fb
 		- ([Location 4343](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4343))
 	- -
 	- -
@@ -285,7 +284,6 @@ category:: #books
 	- -
 	- -
 		- you have to ensure that you avoid the type of method overloading that you can do in traditional C# development. #flashcard
-		  id:: 4c9bb6a8-a61a-4543-9c4a-35618dc20d29
 		- tags:: [[blue]] [[azul]]
 		- ([Location 7226](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7226))
 	- -

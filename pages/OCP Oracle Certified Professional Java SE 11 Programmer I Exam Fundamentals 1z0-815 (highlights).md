@@ -8,31 +8,38 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- I will recommend you to buy the exam simulator created by this team from our website Enthuware.com. It is priced quite reasonably (only 9.99 USD) and has stood the test of time. #flashcard
+		  id:: c1ccfa1d-db70-4825-a058-5213ce5e666a
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 266](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=266))
 	- -
 	- -
 		- Instead of presenting MCQs or quizzes at the end of a topic or chapter, I ask you to write code that uses the concepts taught in that topic or chapter. #flashcard
+		  id:: d13c626a-5446-4ebf-9b68-3728d5611b63
 		- ([Location 297](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=297))
 	- -
 	- -
 		- I strongly suggest you use Enthuware's exam simulator to get familiar with this style. It closely mimics the user interface of the real exam. #flashcard
+		  id:: b1ba5bad-8130-4d43-a10c-5ca4839d8de4
 		- ([Location 306](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=306))
 	- -
 	- -
 		- API stands for Application Programming Interface #flashcard
+		  id:: b747aa1c-1ad4-44d3-82ac-92ebf189e9af
 		- ([Location 447](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=447))
 	- -
 	- -
 		- The key point about an interface is that you cannot have an instance of an interface #flashcard
+		  id:: 144156ea-743e-42ce-8972-e629af044e6f
 		- ([Location 488](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=488))
 	- -
 	- -
 		- For example, you cannot really have just a Movable. #flashcard
+		  id:: 2e96dfac-0acb-4b7a-86d6-70fc9361fc14
 		- ([Location 489](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=489))
 	- -
 	- -
 		- In that sense, an interface is always abstract. It cannot exist on its own. You need a class to implement the behavior described by an interface. #flashcard
+		  id:: ce8d4391-9008-4b0a-b7ff-1e08020e5a4c
 		- tags:: [[blue]] [[azul]]
 		- ([Location 490](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=490))
 	- -
@@ -49,11 +56,13 @@ category:: #books
 	- -
 	- -
 		- since Java 8, interfaces contain method declarations as well as definitions. #flashcard
+		  id:: db3b3abd-0ed3-4da3-bb0f-7961b3e8e7f9
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 588](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=588))
 	- -
 	- -
 		- String str = 0; //will not compile int n = null; //will not compile. #flashcard
+		  id:: cc57d36a-e3a3-4711-970a-7c206dff3990
 		- tags:: [[blue]] [[azul]]
 		- ([Location 655](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=655))
 	- -
@@ -71,16 +80,19 @@ category:: #books
 	- -
 	- -
 		- Local variables are always kept on the stack. Objects are always stored in the heap. #flashcard
+		  id:: 6eb28f55-c29a-4672-ac05-28264f56e87c
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 750](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=750))
 	- -
 	- -
 		- JVM may have several threads. Each thread is given a fixed amount of stack space that is dedicated completely and exclusively to that thread. No one but that thread can access its stack space. This is called "stack semantics".  A thread accesses its stack space by creating and using variables. There is no other special way of accessing the stack space. #flashcard
+		  id:: 36106a09-5f2e-4edd-b391-7b08425d7666
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 752](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=752))
 	- -
 	- -
 		- Heap space is shared among all threads. Any thread can use space on a heap by creating objects. Since heap space is shared, it is possible for one thread to access objects created by another if it has a reference to that object. This is called "heap semantics". #flashcard
+		  id:: 0757a257-5703-4334-b6d0-5f601ae6061d
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 755](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=755))
 	- -
@@ -92,11 +104,13 @@ category:: #books
 	- -
 	- -
 		- Only temporary variables, i.e., variables created in a method (also known as local variables and automatic variables) are created on the stack space. Everything else is created on the heap space. If you have any doubt, ask yourself this question - is this a temporary variable created in a method? #flashcard
+		  id:: 2f32efd1-b55e-417b-9dc2-9439171d3ff6
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 760](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=760))
 	- -
 	- -
 		- When a method is invoked by a thread, it uses the thread's stack space to keep its temporary variables. #flashcard
+		  id:: 8c9c075d-6c35-41c7-988e-b08d84fae6cb
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 763](https://readwise.io/to_kindle?action=open&asin=B07VWMD2LB&location=763))
 	- -

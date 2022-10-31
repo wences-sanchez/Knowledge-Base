@@ -10,9 +10,11 @@ tags:: O'Reilly-Learning
 	- One. Fundamentals
 		- -
 			- In Java, every value of any nonprimitive type is an object. In particular, arrays are objects. #flashcard
+			  id:: 0753cb9f-615f-4a20-a096-338c815b5cbc
 		- -
 		- -
 			- El operador asignación no crea ningún objeto. Sólo hace que apunte a la referencia #flashcard
+			  id:: 28ee71ec-42f5-42cf-9380-50425f2d4fcf
 				- An assignment statement with a reference type creates a copy of the reference. The assignment statement does not create a new object, just another reference to an existing object.
 		- -
 		- -

@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- 2. The Bank Statements Analyzer
 		- -
 			- Describe the SRP Principle #flashcard
+			  id:: 0c376f46-771e-4003-9ce8-531742aa4753
 				- The Single Responsibility Principle (SRP) is a general software development guideline to follow that contributes to writing code that is easier to manage and maintain.
 				  
 				  You can think about SRP in two complementary ways:
@@ -45,6 +46,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- An old bad practice of mine… #flashcard
+			  id:: c40985e3-d777-45b0-bc45-d630cdd79ebd
 				- Ultimately your goal is to manage the complexity of the application you are building. However, if you keep on copy pasting the same code as new requirements come in, you will end up with the following issues, which are called anti-patterns because they are common ineffective solutions:
 				  
 				  Hard to understand code because you have one giant “God Class”
@@ -53,6 +55,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Don’t overuse KISS #flashcard
+			  id:: f7ecb3db-9d8f-4304-9abd-ea17889e5a64
 				- it is good to keep things simple when possible, but do not abuse the KISS principle. Instead, you need to reflect on the design of your whole application and have an understanding of how to break down the problem into separate sub-problems that are easier to manage individually. The result is that you will have code that is easier to understand, maintain, and adapt to new requirements.
 		- -
 		- -
@@ -70,6 +73,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Takeaways
+			  id:: b0e26161-bc03-4d8d-a759-c16b77a4c0af
 			  God Classes and code duplication lead to code that is hard to reason about and maintain.
 			  
 			  The Single Responsibility Principle helps you write code that is easier to manage and maintain.
@@ -94,6 +98,7 @@ tags:: O'Reilly-Learning
 	- 3. Extending the Bank Statements Analyzer
 		- -
 			- __Open/Closed Principle #flashcard
+			  id:: 084a6129-2cb5-4e63-be4e-977ca8e2e810
 				- This is where the Open/Closed principle comes in. It promotes the idea of being able to change the behavior of a method or class without having to modify the code. In our example, it would mean the ability to extend the behavior of a findTransactions() method without having to duplicate the code or change it to introduce a new parameter. How is this possible? As discussed earlier, the concepts of iterating and the business logic are coupled together. In the previous chapter, you learned about interfaces as a useful tool to decouple concepts from one another. In this case, you will introduce a BankTransactionFilter interface that will be responsible for the selection logic, as shown in Example 3-4. It contains a single method test() that returns a boolean and takes the complete BankTransaction object as an argument. This way the method test() has access to all the properties of a BankTransaction to specify any appropriate selection criteria.
 		- -
 		- -
@@ -106,10 +111,12 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- OCP applied to a solution #flashcard
+			  id:: bdeaca34-d2bd-499b-ad58-682ebfe27b75
 				- This refactoring is very important because you now have introduced a way to decouple the iteration logic from the business logic through this interface. Your method no longer depends on one specific implementation of a filter. You can introduce new implementations by passing them as an argument without modifying the body of this method. Hence, it is now open for extension and closed for modification. This reduces the scope for introducing new bugs because it minimizes cascading changes required to parts of code that have already been implemented and tested. In other words, old code still works and is untouched.
 		- -
 		- -
 			- Example of class implementing an interface for OCP in Java #flashcard
+			  id:: 272ad980-1dd0-4e74-9b2b-e0e9485a55c5
 				- class BankTransactionIsInFebruaryAndExpensive implements BankTransactionFilter {
 				  
 				    @Override
@@ -124,6 +131,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Same code but using Lambda. Much better than the previous!!! #flashcard
+			  id:: ae9bdd2a-30c4-4c84-9fa6-17773cbdec12
 				- Example 3-8. Implementing BankTransactionFilter using a lambda expression
 				  final List transactions
 				    = bankStatementProcessor.findTransactions(bankTransaction -&gt;
@@ -143,6 +151,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- All these reasons are why it is generally recommended to define smaller interfaces. The idea is to minimize dependency to multiple operations or internals of a domain object. #flashcard
+			  id:: 22fb8cb6-5108-49f3-95c8-ec95ec755b69
 		- -
 		- -
 			- In fact, there are two sides of the coin to consider. On one side a method like findTransactionsGreaterThanEqual() is self-explanatory and easy to use. You should not be worried about adding descriptive method names to help readability and comprehension of your API. However, this method is restricted to a particular case and you can easily have an explosion of new methods to cater for various multiple requirements. On the other side, a method like findTransactions() is initially more difficult to use and it needs to be well-documented. However, it provides a unified API for all cases where you need to look up transactions. There isn’t a rule of what is best; it depends on what kind of queries you expect. If findTransactionsGreaterThanEqual() is a very common operation, it makes sense to extract it into an explicit API to make it easier for users to understand and use. #flashcard
@@ -150,12 +159,14 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Domain Class or Primitive Value?
+			  id:: 366a3f4c-bcda-4e3b-aa66-1110d9bb7856
 			  While we kept the interface definition of BankTransactionSummarizer simple, it is often preferable to not return a primitive value like a double if you are looking at returning a result from an aggregation. This is because it doesn’t give you the flexibility to later return multiple results. For example, the method summarizeTransaction() returns a double. If you were to change the signature of the result to include more results, you would need to change every single implementation of the BankTransactionProcessor.
 			  
 			  A solution to this problem is to introduce a new domain class such as Summary that wraps the double value. This means that in the future you can add other fields and results to this class. This technique helps further decouple the various concepts in your domain and also helps minimize cascading changes when requirements change. #flashcard
 		- -
 		- -
 			- About code ready for test #flashcard
+			  id:: 3f241173-e254-4786-a835-47dbfb2f8db0
 				- Returning void makes it very hard to test the result with assertions. What is the actual result to compare with the expected result? Unfortunately, you can’t get a result with void.
 		- -
 		- -
@@ -165,6 +176,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- ou may be familiar with the fact that Java distinguishes between two kinds of exceptions:
+			  id:: 0d4874fe-115a-431b-a36f-be234b1b2887
 			  
 			  Checked exceptions
 			  These are errors that you are expected to be able to recover from. In Java, you have to declare a method with a list of checked exceptions it can throw. If not, you have to provide a suitable try/catch block for that particular exception.
@@ -174,9 +186,11 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- In a nutshell, the recommendation is to use unchecked exceptions and only use checked exceptions sparingly to avoid significant clutter in the code. #flashcard
+			  id:: b97dfcd8-0e4c-4761-95dd-4d3b19d4e5e3
 		- -
 		- -
 			- we recommend creating a dedicated Validator class for several reasons:
+			  id:: d8d0fd4a-a1f9-4502-ae67-9031defef786
 			  
 			  You don’t have to duplicate the validation logic when you need to reuse it.
 			  
@@ -188,6 +202,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Notification Pattern
+			  id:: ac8c9bc0-3ae1-4a2b-aa4f-33db43c03eeb
 			  The Notification pattern aims to provide a solution for the situation in which you are using too many unchecked exceptions. The solution is to introduce a domain class to collect errors.1
 			  
 			  The first thing you need is a Notification class whose responsibility is to collect errors. The code in Example&nbsp;3-20 shows its declaration.
@@ -247,6 +262,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- A build tool has many benefits:
+			  id:: 7d878f54-670a-4e91-8fa8-0e8e0ec960e7
 			  
 			  It provides you with a common structure to think about a project so your colleagues feel immediately at home with the project.
 			  
@@ -295,6 +311,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About public constructors #flashcard
+			  id:: d07b9e39-3b90-467b-a228-17850d0109cc
 				- One final thing to note about Document is that it has a package-scoped constructor. Often Java classes make their constructor public, but this can be a bad choice as it allows code anywhere in your project to create objects of that type. Only code in the Document Management System should be able to create Documents, so we keep the constructor package scoped and restrict access to only the package that the Document Management System lives in.
 		- -
 		- -
@@ -304,16 +321,19 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- But really there’s a broader principle at stake here, one that allows us to generalize these examples into an approach that you can use in any piece of software. This is called the Liskov Substitution Principle (LSP) and it helps us understand how to subclass and implement interfaces correctly. LSP forms the L of the SOLID principles that we’ve been referring to throughout this book.
+			  id:: 756ab97a-68d7-4736-b482-0608e1a025e3
 			  
 			  The Liskov Substitution Principle is often stated in these very formal terms, but is actually a very simple concept. Let’s demystify some of this terminology. If you hear type in this context, just think of a class or an interface. The term subtype means establish a parent-to-child relationship between types; in other words, extend a class or implement an interface. So informally you can think of this as meaning that child classes should maintain the behavior they inherit from their parents. We know, we know—it sounds like an obvious statement, but we can be more specific and split out LSP into four distinct parts: #flashcard
 		- -
 		- -
 			- Formal definition of LSP #flashcard
+			  id:: 35ac4c18-ada8-4d3d-b6b9-1359b5e1ae37
 				- LSP
 				  Let q(x) be a property provable about objects x of type T. Then q(y) should be true for objects y of type S where S is a subtype of T.
 		- -
 		- -
 			- Preconditions cannot be strengthened in a subtype #flashcard
+			  id:: d4d433cf-8840-464f-a720-bcb8932fbc25
 				- LSP means that you can’t require any more restrictive preconditions than your parent required. So, for example, you can’t require your document to be smaller than 100KB in size if your parent should be able to import any size of document.
 		- -
 		- -
@@ -323,6 +343,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- The History Rule
+			  id:: 50ebc178-d1c1-4836-9432-275dbb1f40af
 			  This is the hardest aspect of LSP to understand. In essence, the child class shouldn’t allow state changes that your parent disallowed. So, in our example program we have an immutable Document class. In other words, once it has been instantiated you can’t remove, add, or alter any of the attributes. You shouldn’t subclass this Document class and create a mutable Document class. This is because any user of the parent class would expect certain behavior in response to calling methods on the Document class. If the child were mutable, it could violate callers’ expectations about what calling those methods does. #flashcard
 		- -
 		- -
@@ -332,6 +353,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Don't overuse the white-box tests!!!
+			  id:: 14115962-3bc6-4973-963a-814dcbf3d5ce
 			  Specification, NOT Behaviour!!! #flashcard
 				- Our tests should only invoke these public API methods and not try to inspect the internal state of the objects or the design. This is one of the key mistakes made by developers that leads to hard-to-maintain tests. Relying on specific implementation details results in brittle tests because if you change the implementation detail in question, the test can start to fail even if the behavior is still working.
 		- -
@@ -357,6 +379,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example of Test expecting an Exception #flashcard
+			  id:: cbab2faa-4b4c-4d73-97f9-70aa2d403452
 				- @Test(expected = UnknownFileTypeException.class)
 				    public void shouldNotImportUnknownFile() throws Exception
 				    {
@@ -366,6 +389,7 @@ tags:: O'Reilly-Learning
 	- 5. The Business Rules Engine
 		- -
 			- Why should you take this approach? There are several benefits:
+			  id:: e9bb7d8d-bd6a-45b2-90bf-39b4134efbb0
 			  
 			  Writing a test at a time will help you focus and refine the requirements by correctly implementing one thing at a time.
 			  
@@ -377,6 +401,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- You’ll be using Mockito, which is a popular mocking library for Java. At its simplest you can do two things:
+			  id:: 3b4870b8-527b-496f-adb2-be335d384203
 			  
 			  Create a mock.
 			  
@@ -389,6 +414,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example 5-5. Mocking and verifying interaction with an Action object
+			  id:: f4be887b-1f17-462e-ada1-9ef9053d81f9
 			  @Test
 			  void shouldExecuteOneAction() {
 			        final BusinessRuleEngine businessRuleEngine = new BusinessRuleEngine();
@@ -412,11 +438,13 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- ISP (Cohesion between Interfaces and clients) #flashcard
+			  id:: fdd35848-5d29-4b92-b6e5-d47933eeab28
 				- Interface Segregation Principle. It makes the case that no class should be forced to depend on methods it does not use because this introduces unnecessary coupling. In Chapter 2, you learned about another principle, the Single Responsibility Principle (SRP), which promotes high cohesion. The SRP is a general design guideline that a class has responsibility over a single functionality and there should be only one reason for it to change. Although the ISP may sound like the same idea, it takes a different view. The ISP focuses on the user of an interface rather than its design. In other words, if an interface ends up very large, it may be that the user of that interface sees some behaviors it doesn’t care for, which causes unnecessary coupling.
 		- -
 	- 7. Extending Twootr
 		- -
 			- What does the Dependency Inversion principle mean? #flashcard
+			  id:: 858f1ccf-6ef3-46fe-a32a-0eed65ca9992
 				- It states that:
 				  
 				  High-level modules should not depend upon low-level modules. Both should depend upon abstractions.

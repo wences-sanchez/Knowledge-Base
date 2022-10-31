@@ -23,6 +23,7 @@ category:: #books
 	- -
 	- -
 		- This “code-sense” is the key. Some of us are born with it. Some of us have to fight to acquire it. #flashcard
+		  id:: 54a0b6ce-5d89-4495-a1ab-f3b2c7e7444e
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 607](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=607))
 	- -
@@ -52,6 +53,7 @@ category:: #books
 	- -
 	- -
 		- accounts would be better. #flashcard
+		  id:: 4c17c723-af77-45c0-a27b-e4c0bacdfc17
 		- ([Location 852](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=852))
 	- -
 	- -
@@ -60,6 +62,7 @@ category:: #books
 	- -
 	- -
 		- When constructors are overloaded, use static factory methods with names that describe the arguments. #flashcard
+		  id:: 25d79a3c-364b-48f7-9b3f-4a5079d56822
 		- ([Location 1021](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1021))
 	- -
 	- -
@@ -84,11 +87,13 @@ category:: #books
 	- -
 	- -
 		- I don’t write them that way to start. I don’t think anyone could. #flashcard
+		  id:: 778c62c6-f191-4fb2-a54d-98f2f066ca5e
 		- tags:: [[blue]] [[azul]]
 		- ([Location 1662](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1662))
 	- -
 	- -
 		- your real goal is to tell the story of the system, #flashcard
+		  id:: 0dc6f097-742f-4ed0-9075-d3bb1161e145
 		- ([Location 1672](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=1672))
 	- -
 	- -
@@ -103,11 +108,13 @@ category:: #books
 	- -
 	- -
 		- The common convention in Java, however, is to put them all at the top of the class. #flashcard
+		  id:: 557dd473-9420-4596-b748-0abdf2dff2bd
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2420](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2420))
 	- -
 	- -
 		- Vertical Ordering #flashcard
+		  id:: 5e54939f-13b0-44b5-8103-4b8d6be99a18
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 2491](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2491))
 	- -
@@ -125,6 +132,7 @@ category:: #books
 	- -
 	- -
 		- Why, then, do so many programmers automatically add getters and setters to their objects, exposing their private variables as if they were public? #flashcard
+		  id:: 99882937-9d05-41b6-9603-080348724a9f
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2676](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2676))
 	- -
@@ -139,6 +147,7 @@ category:: #books
 	- -
 	- -
 		- Procedural code (code using data structures) makes it easy to add new functions without changing the existing data structures. OO code, on the other hand, makes it easy to add new classes without changing existing functions. #flashcard
+		  id:: 9e3ea03c-e283-4193-997c-8a5209d12335
 		- ([Location 2763](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2763))
 	- -
 	- -
@@ -161,11 +170,13 @@ category:: #books
 	- -
 	- -
 		- is better to throw an exception #flashcard
+		  id:: 9ad2db4b-5c57-47c2-ad65-05701e99dd6b
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2908](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=2908))
 	- -
 	- -
 		- Map<Sensor> sensors = new HashMap<Sensor>();    …        Sensor s = sensors.get(sensorId ); #flashcard
+		  id:: d4b824a3-1176-4494-9d99-828747f9cca4
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 3177](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3177))
 	- -
@@ -203,6 +214,7 @@ category:: #books
 	- -
 	- -
 		- Classes should have one responsibility—one reason to change. #flashcard
+		  id:: c148fd05-ecc8-44c5-b35c-604cff230fa0
 		- tags:: [[blue]] [[azul]]
 		- ([Location 3702](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3702))
 	- -
@@ -233,6 +245,7 @@ category:: #books
 	- -
 	- -
 		- Open-Closed Principle, or OCP:4 Classes should be open for extension but closed for modification. #flashcard
+		  id:: cd9d164c-743f-409d-a6d6-5d8d9dc486ec
 		- ([Location 3984](https://readwise.io/to_kindle?action=open&asin=B001GSTOAM&location=3984))
 	- -
 	- -

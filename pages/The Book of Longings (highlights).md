@@ -17,10 +17,12 @@ tags:: Literature
 	- -
 	- -
 		- I heard Yaltha’s voice float up: Your moment will come, and when it does, you must seize it with all the bravery you can find. . . . Your moment will come because you’ll make it come. #flashcard
+		  id:: dff61e43-2644-4969-a37b-10a310a7f6d8
 		- ([Location 1997](https://readwise.io/to_kindle?action=open&asin=B07Z4LLBQ4&location=1997))
 	- -
 	- -
 		- If I don’t seize this chance to return, I won’t have another.” #flashcard
+		  id:: 8c4883eb-d09f-4b1c-8377-e62ad239f5c6
 		- ([Location 3487](https://readwise.io/to_kindle?action=open&asin=B07Z4LLBQ4&location=3487))
 	- -
 	- -
@@ -32,5 +34,6 @@ tags:: Literature
 	- -
 	- -
 		- “You were something to be reckoned with. Fourteen years old and full of rebellion and longings. You were the most stubborn, determined, ambitious child I’d ever seen. When I saw what was inside your cedar chest, I knew.” She smiled. #flashcard
+		  id:: edac79ca-460e-453d-ab09-f24e1307e36b
 		- ([Location 5231](https://readwise.io/to_kindle?action=open&asin=B07Z4LLBQ4&location=5231))
 	- -

@@ -10,10 +10,12 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Windows  Server  2019  está  disponible  en  dos  ediciones,  también  conocidas  como SKU:  Standard  y  Datacenter.  Las  ediciones  se  diferencian  por  su  precio  y  las funcionalidades que soportan. La edición Datacenter está enfocada principalmente a  entornos  de  virtualización  y  puede  alojar  un  número  ilimitado  de  máquinas virtuales  (siempre  que  el  servidor  sea  capaz  de  servir  los  requisitos  de  hardware virtual), mientras que la edición Standard solo puede ejecutar dos máquinas. Además de algunas diferencias específicas de Hyper-V (el hipervisor de virtualización de Windows), Datacenter soporta software defined networking (SDN, redes definidas por  software), #flashcard
+		  id:: 143409ec-6cd8-4f6e-991a-4e2dea921b07
 		- (Page 5)
 	- -
 	- -
 		- Ambas ediciones soportan, además, varios modos de ejecución:   Escritorio o Server with Desktop Experience.   Server Core.   Nano Server. El modo de escritorio es el más familiar, ya que convierte al servidor en un host similar a  cualquier  máquina  Windows:  tiene  botón  de  inicio,  ventanas  y  consolas  de #flashcard
+		  id:: ecac698e-f08d-40c4-81d1-ae4126d22805
 		- (Page 5)
 	- -
 	- -
@@ -28,18 +30,22 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Remote  Desktop  Protocol  (RDP)  es  un  protocolo  propietario,  desarrollado  por Microsoft,  que  proporciona  al  usuario  una  interfaz  gráfica  para  conectarse  a  otro ordenador  a  través  de  una  conexión  de  red.  El  usuario  necesita  un  cliente  RDP mientras que el otro equipo debe tener habilitada la funcionalidad de acceso remoto. #flashcard
+		  id:: 08f55951-a24e-4106-b5ce-35cc8afdf03b
 		- (Page 9)
 	- -
 	- -
 		- La  consola  nativa  de  Windows,  PowerShell,  permite  ejecutar  comandos  al  iniciar sesiones  de  consola  en  hosts  remotos.  Está  disponible  tanto  en  el  servidor  con escritorio  como  en  Server  Core  y  puede  habilitarse  en  Nano  Server  si  se  instala PowerShell  Core. #flashcard
+		  id:: 4e712a0c-07f0-4e46-bbcf-7ac8b1452927
 		- (Page 10)
 	- -
 	- -
 		- La herramienta de Administración de Servidor, o Server Manager, ofrece una interfaz gráfica  para  ejecutar  tareas  de  configuración,  tanto  en  el  equipo  local  como  en equipos remotos. Ofrece acceso a consolas de administración de roles de Windows, como DNS o Directorio Activo, desde un único punto, instalación de roles, escritorio remoto, etc. La Figura 6 muestra una instancia de Server Manager #flashcard
+		  id:: b893cd89-81f4-4a4f-aac2-1ca861070738
 		- (Page 11)
 	- -
 	- -
 		- La consola tradicional de administración de Windows, MMC (Microsoft Management Console), es otra herramienta gráfica de configuración. Mientras que Server Manager es  una  herramienta  centralizada,  MMC  ofrece  múltiples  snapins  para  cada funcionalidad y solo permite administrar un equipo con cada snapin. De hecho, parte de la funcionalidad de Server Manager es abrir la consola MMC con el snapin correcto en un equipo concreto, ahorrando tiempo al administrador. MMC soporta servidores con escritorio, Server Core y Nano Server. #flashcard
+		  id:: 208d74c5-f462-4141-9cd3-40bd1955a6b9
 		- (Page 12)
 	- -
 	- -
@@ -49,10 +55,12 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Directorio Activo, o AD (Active Directory), es un servicio de directorio para redes de equipos  Windows.  Cualquier  versión  de  Windows  Server  puede  actuar  como controlador  de  dominio,  desde  Windows  Server  2000.  AD  se  usa  para  tareas  de administración  centralizada,  aparte  de integrar  otras  funcionalidades,  como servicios de certificados. #flashcard
+		  id:: 6043302d-7f9d-4e91-a353-e53000bbcb34
 		- (Page 14)
 	- -
 	- -
 		- Un  controlador  de dominio  es  un  servidor  Windows  que  ejecuta el  servicio  Active Directory Domain Service. Autentica y autoriza todos los usuarios y equipos de un dominio  y  les  aplica  políticas  de  seguridad.  Por  ejemplo,  cuando  un  usuario  inicia sesión  en  un  ordenador  que  es  parte  de  un  dominio  Windows,  un  controlador  de dominio, y no el equipo local, comprueba que la contraseña sea válida. #flashcard
+		  id:: 2f5a8461-7bea-4c56-ad2a-d7a9c35e5e5f
 		- (Page 14)
 	- -
 	- -
@@ -62,14 +70,17 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- AD  funciona  esencialmente  como  una  base  de  datos  administrativa.  Usa  una estructura jerárquica formada por objetos, dominio, árboles y bosques #flashcard
+		  id:: 27399708-8504-4675-8f71-5a5626bbe6aa
 		- (Page 14)
 	- -
 	- -
 		- Los  objetos  son  los  elementos  básicos  del  dominio.  Representan  los  ordenadores cliente (por ejemplo, los equipos ofimáticos de escritorio, que actúan como clientes de  AD),  los  servidores  de  aplicaciones  (que,  a  efectos  del  directorio,  son  también clientes  de  AD),  carpetas  compartidas  y  cuentas  de  usuario.  Cada  objeto  tiene  un identificador  único  y  un  conjunto  de  atributos. #flashcard
+		  id:: b66dc380-b62e-4f24-a7fa-bc963196672a
 		- (Page 15)
 	- -
 	- -
 		- Los objetos se pueden organizar en objetos contenedores, como carpetas y unidades organizativas, o OU. Las carpetas son similares a las de un sistema de ficheros, pero las  unidades  organizativas  permiten,  además,  aplicar  políticas  de  seguridad  a  los objetos de la OU y delegar la administración a otros usuarios. #flashcard
+		  id:: 0a488f4e-512a-418b-8225-bc0eac07c3f2
 		- (Page 15)
 	- -
 	- -
@@ -79,6 +90,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Cada dominio tendrá al menos un  controlador de dominio, o DC, que actúa como autoridad  de  aquel;  es  decir,  es  responsable  de  los  permisos  de  los  objetos,  la autenticación y las modificaciones de objetos. Es habitual que un dominio disponga de  más  de  un  DC.  Esta  disposición  es  posible  porque  los  DC  pueden  trabajar  de manera  distribuida  y  es  necesaria  porque  la  caída  del  único  DC  de  un  dominio colapsaría  todas  las  máquinas  del  dominio,  ya  que  nadie  podría  iniciar  sesión  ni acceder  a  carpetas  compartidas.  Los  controladores  de  dominio  suelen  alojar  el servicio DNS, que también puede funcionar en modo distribuido. #flashcard
+		  id:: 9ba658c3-9a7f-49e8-ab61-241abbf7fbc7
 		- (Page 16)
 	- -
 	- -
@@ -89,10 +101,12 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Los dominios se identifican con un nombre DNS. De hecho, la creación de un dominio requiere  la presencia  de  un  servicio DNS  asociado,  bien  externo  o  integrado  en  el propio dominio. Al ser un nombre DNS, las cuentas de máquina reciben un nombre de  dominio  completo  (o  FQDN,  fully  qualified  domain  name)  en  el  que  se  une  el nombre del host con el nombre del dominio. Un  equipo  con  nombre  member  en  el  dominio  demo.loc  tendrá  un  registro  DNS member.demo.loc. La integración de AD con DNS es tan fuerte que los dominios siguen una estructura de árbol, de manera que un dominio padre puede ser demo.loc y un dominio hijo podría ser, a su vez, child.demo.loc. #flashcard
+		  id:: a70c329d-4094-44bc-a694-ffc2960826b3
 		- (Page 17)
 	- -
 	- -
 		- ¿Qué son los bosques dentro del Directorio Activo? #flashcard
+		  id:: 50fa3420-e5fb-4da1-9789-527426a29725
 			- Las empresas con cientos o miles de usuarios pueden disponer de varios árboles de directorios.  Los  administradores  podrán  organizar  los  árboles  en  bosques.  Los bosques son el límite administrativo y de seguridad más amplio en una estructura AD. Una organización puede decidir tener no ya varios dominios, sino varios bosques. Esta situación  es  habitual,  por  ejemplo,  cuando  hay  uniones  y  adquisiciones  de organizaciones. En estos casos, es posible conectar los bosques con una relación de confianza. Estas relaciones extienden la accesibilidad de los recursos de los dominios, de manera que centraliza la administración a nivel lógico.
 		- (Page 18)
 	- -

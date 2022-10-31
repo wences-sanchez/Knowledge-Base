@@ -8,6 +8,7 @@ url:: https://stackoverflow.com/questions/1274675/what-does-warray-mean
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- What does %w mean in Ruby? .code .ruby
+		  id:: 952b08e9-ee0a-4f45-ab7f-7b5570833925
 		  ![](https://picsum.photos/200) #flashcard
 			- %w(foo bar) is a shortcut for ["foo", "bar"]. Meaning it's a notation to write an array of strings separated by spaces instead of commas and without quotes around them.
 	- -

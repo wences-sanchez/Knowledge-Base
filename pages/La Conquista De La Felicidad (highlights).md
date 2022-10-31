@@ -10,6 +10,7 @@ tags:: Self-Help
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Volvamos a considerar la cuestión de la mentira. No niego que hay demasiada mentira en el mundo, ni que todos estaríamos mejor si aumentara la sinceridad, pero sí niego que, como creo que haría toda persona razonable, mentir no esté justificado en ninguna circunstancia. Una vez, paseando por el campo, vi un zorro cansado, al borde del agotamiento total, pero que aún se esforzaba por seguir corriendo.
+		  id:: 03443cff-474a-470f-bfa2-3cb470bf3d40
 		  
 		  Pocos minutos después vi a los cazadores. Me preguntaron si había visto al zorro y yo dije que sí. Me preguntaron por  dónde había ido y yo les mentí. No creo que hubiera sido mejor persona si les hubiera dicho la verdad. #flashcard
 		- (Page 90)
@@ -29,20 +30,24 @@ tags:: Self-Help
 	- -
 	- -
 		- Muy pocas personas pueden ser felices sin que su modo de vida y su concepto del mundo sean aprobados, en términos generales, por las personas con las que mantienen relaciones sociales y, muy especialmente, por las personas con que viven. #flashcard
+		  id:: bda19062-c61c-4c95-a6e0-3c124cad4268
 		- (Page 111)
 	- -
 	- -
 		- Es fácil que a los jóvenes les parezca que el único entorno con el que están familiarizados es representativo del mundo entero. Les cuesta creer que, en otro lugar o en otro ambiente, las opiniones que ellos no se atreven a expresar por miedo a que se les considere totalmente perverSOs serían aceptadas como cosa normal de la época. Y de este modo, por ignorancia del mundo, se sufre mucha desgracia innecesaria, a veces solo en la juventud, pero muchas veces durante toda la vida. Este aislamiento no solo es una fuente de dolor, sino que además provoca un enorme gasto de energía en la innecesaria tarea de mantener la independencia mental frente a un entorno hostil, y en el 99 por ciento de los casos ocasiona cierto reparo a seguir las ideas hasta sus conclusiones lógicas. #flashcard
+		  id:: 96a4b1e6-a99c-4230-af0b-63f82fb2cc11
 		- (Page 112)
 	- -
 	- -
 		- Pero no hay muchas personas cuya vida interior tenga este grado de fuerza. Casi todo el mundo necesita un entoristoso para ser feliz. La mayoría, por supuesto, se encuentra a gusto en el ambiente en que le ha tocado vivir.
+		  id:: c49fa573-7a31-446a-b0d6-ef2894f18020
 		  
 		  Han asimilado de jóvenes los prejuicios más en boga y se adaptan instintivamente a las creencias y costumbres que encuentran a su alrededor. Pero para una gran minoría, que incluye a prácticamente todos los que tienen algún méto intelectual o artístico, esta actitud de aquiescencia es imposible. Una persona nacida, por ejemplo, en una pequeia aldea rural se encontrará desde la infancia rodeada de hostilidad contra todo lo necesario para la excelencia mental. Si quiere leer libros serios, los demás niños se reirán de él y los maestros le dirán que esas obras pueden trastornarle. Si le interesa el arte, sus coetáneos le considerarán afeminado, y sus mayores dirán que es inmoral. Si quiere seguir una profesión, por muy respetable que sea, que no haya sido común en el círculo al que pertenece, se le dice que está siendo presuntuoso y que lo que estuvo bien para su padre también debería estar bien para él. Si muestra alguna tendencia a criticar las creencias religiosas o las opiniones ponticas de sus padres, es probable que se meta en graves apuros. Por todas estas razones, la adolescencia es una época de gran infelicidad para casi todos los chicos y chicas con taTentos excepcionales. Para sus compañeros más vulgares Puede ser una época de alegría y diversión, pero ellos quieaigo más serio, que no pueden encontrar ni entre sus mayores ni entre sus coetáneos del entorno social concreto Cii que el azar les hizo nacer. #flashcard
 		- (Page 113)
 	- -
 	- -
 		- Los seres humanos son muy diferentes en lo que se refiere a la tendencia a considerar sus vidas como un todo.
+		  id:: 87f6c403-b7bb-4ff4-ae3a-6b74e869e441
 		  
 		  Algunos lo hacen de manera natural y consideran que para ser feliz es imprescindible hacerlo con cierta satisfacción.
 		  
@@ -58,6 +63,7 @@ tags:: Self-Help
 	- -
 	- -
 		- Cuando un hombre comete esos actos, se siente molesto sin saber muy bien por qué. Desearía ser la clase de persona capaz de abstenerse de lo que considera pecado.
+		  id:: 150b1089-06ca-4a2c-8cb5-cd8920b89f17
 		  
 		  Solo siente admiración moral por los que cree que son puros de corazón. Reconoce, con mayor o menor grado de pesar, que no tiene madera de santo; de hecho, su concepto de la santidad es, probablemente, imposible de mantener en la vida cotidiana normal. En consecuencia, se pasa toda la vida con una sensación de culpa, convencido de que las cosas buenas no se han hecho para él y de que sus mejores momentos son los de llorosa penitencia.
 		  

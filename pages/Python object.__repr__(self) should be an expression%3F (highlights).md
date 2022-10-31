@@ -7,7 +7,8 @@ url:: https://stackoverflow.com/questions/452300/python-object-repr-self-should-
 
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
-		- >>> from datetime import date
+		- id:: 27359538-d9ea-4838-96b7-7981a2b39788
+		  >>> from datetime import date
 		  >>>
 		  >>> repr(date.today())        # calls date.today().__repr__()
 		  'datetime.date(2009, 1, 16)'

@@ -8,5 +8,6 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Un fantôme ne meurt jamais, il reste toujours à venir et à revenir. jacques derrida #flashcard
+		  id:: d05b65a0-e5e7-4cb9-a5cd-8471af50ab1c
 		- ([Location 15](https://readwise.io/to_kindle?action=open&asin=B0845ZCR91&location=15))
 	- -

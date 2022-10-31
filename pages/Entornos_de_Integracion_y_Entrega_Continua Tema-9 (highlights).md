@@ -15,6 +15,7 @@ tags:: Entornos-CI-CD UNI
 	- -
 	- -
 		- ¿Qué es, en una frase, Nexus? #flashcard
+		  id:: 02907639-58a0-4ebb-bb01-b1c52ef09e2f
 			- Nexus es un repositorio de paquetes de varios sistemas. Es una alternativa local para aquellos proyectos que necesiten publicar sus artefactos en una intranet.
 		- (Page 25)
 	- -

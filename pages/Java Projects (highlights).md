@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- Integration tests
 		- -
 			- Integration tests
+			  id:: a9ec1f24-fd40-44bd-917b-50e409b748d4
 			                
 			            
 			            
@@ -25,6 +26,7 @@ tags:: O'Reilly-Learning
 	- Getting started with Java
 		- -
 			- the basic operation of JVM is almost as important as the language itself. Java is a compiled and interpreted language. It is a special beast that forges the best of both worlds. Before Java, there were interpreted and compiled languages. #flashcard
+			  id:: 54f5126c-3379-422f-a9ef-a9bb15f16fc2
 		- -
 	- Executing jshell
 		- -

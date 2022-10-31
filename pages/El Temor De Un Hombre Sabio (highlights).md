@@ -10,10 +10,12 @@ tags:: Literature
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Tras casi un año en la Universidad, empezaba a sentir que pertenecía a ese lugar. Era una sensación extraña, ese cariño a un sitio. En cierto modo era reconfortante, pero el Ruh que llevaba dentro estaba inquieto, pues se rebelaba contra la idea de echar raíces como una planta. #flashcard
+		  id:: a4fce10a-e00a-4e55-b45b-6b13153f75a3
 		- ([Location 1479](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=1479))
 	- -
 	- -
 		- So as life? #flashcard
+		  id:: f4ea3537-1af8-4881-8abf-681d6708bc30
 			- Nombres —dijo Dal con firmeza, y apartó la mano del brasero. La tenía manchada de ceniza, pero ilesa—. Los nombres reflejan la verdadera comprensión de una cosa, y cuando comprendes de verdad una cosa, tienes poder sobre ella.
 		- tags:: [[mind]]
 		- ([Location 4231](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=4231))
@@ -31,6 +33,7 @@ tags:: Literature
 	- -
 	- -
 		- ¿Quieres la verdad...? #flashcard
+		  id:: 48acd605-dd54-4484-8f65-3a83ffdd1fd4
 			- Y mientras corría, oía al Cthaeh hablando detrás de mí. Su voz áspera me siguió hasta donde yo no habría creído posible. —Vuelve. Vuelve. Tengo más cosas que contarte. Tengo muchísimas más cosas que contarte. ¿No quieres quedarte?
 		- tags:: [[mind]]
 		- ([Location 15558](https://readwise.io/to_kindle?action=open&asin=B006BD49ZC&location=15558))

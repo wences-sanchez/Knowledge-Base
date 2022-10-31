@@ -8,6 +8,7 @@ url:: https://stackoverflow.com/questions/53830926/run-a-function-only-once-in-a
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- How to set a field only once in Python? #flashcard
+		  id:: 8571e87d-a7ba-4b86-9efa-40639a2dce23
 			- class MyClass(object):
 			    postgres_data = None
 			  

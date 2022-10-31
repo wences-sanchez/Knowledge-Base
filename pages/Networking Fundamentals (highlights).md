@@ -8,10 +8,12 @@ category:: #books
 	- Firewalls
 		- -
 			- About what a firewall is. #flashcard
+			  id:: 220202d1-bd9a-48e5-8ca1-b7a96ea212c0
 				- As a basic description, a firewall is designed to either allow or deny network traffic based upon a set of defined criteria. These criteria could be a predefined set of default rules or could be user-created, or even a combination of the two. These rules are often referred to as access control entries (ACEs), and a group of them form an access control list (ACL). These criteria could then be applied to outbound (or egress) traffic or inbound (or ingress) traffic. Understanding that a rule can be applied in each direction is important to know. For example, you may be troubleshooting a connectivity problem between two devices, so you would use the commonly used ICMP tool known as ping since ICMP can be used for malicious purposes and Windows Firewall blocks it by default.
 		- -
 		- -
 			- About **network-based firewalls** and **host-based firewalls** #flashcard
+			  id:: 91f10cf1-b0a8-478f-a7ee-257d95ed0fa7
 				- you may be thinking that a network-based firewall is the better of the two as it protects the entire network. However, look at the following diagram and pay particular attention to the placement of the firewall. It's only inspecting traffic that transits through it. But what would happen if Computer A was compromised? If we only had a network-based firewall in place, there is nothing preventing Computer A from attacking Computer B:
 				  
 				  
@@ -21,6 +23,7 @@ category:: #books
 	- DMZ
 		- -
 			- What does **DMZ** stand for?
+			  id:: f81fd7ca-0d15-442f-85b4-dfac44720dca
 			  Figure 1.5 #flashcard
 				- A DMZ, or a perimeter network, is a means of allowing the public to access certain network services while still maintaining the security of your internal devices. At this point, you may be thinking, that's what an extranet does. Yes, there are some similarities between them, but, remember, an extranet provides access to those services to trusted organizations, whereas a DMZ allows access to the public. No trust or authorization is required.
 				  
@@ -44,8 +47,10 @@ category:: #books
 	- Peer-to-peer networks
 		- -
 			- A P2P network (sometimes referred to as a workgroup) is one where there is no one device that has complete control of the network and the files, services, and so on that are used on the network. The term peer refers to individuals #flashcard
+			  id:: 3a7fdc0c-9246-43ba-a895-8d34b46ff872
 		- -
 	- Virtual LANs
 		- -
 			- Figure 2.25: Example VLAN in a hospital #flashcard
+			  id:: 480bac35-9cff-4d38-b4fd-1d284c2e2a78
 		- -

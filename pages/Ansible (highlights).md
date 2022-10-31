@@ -27,6 +27,7 @@ tags:: O'Reilly-Learning
 	- 7. Orchestrating AWS
 		- -
 			- About orchestration and provisioning types of playbooks in Ansible. #flashcard
+			  id:: 8a4ab22d-9d81-42b4-a563-88fd411b815b
 				- Ansible playbooks can be categorized as one of two types of playbook: orchestration or provisioning . Up until this point, you’ve been writing provisioning playbooks that log in to a remote machine and configure it using the information defined in the playbook. This new playbook is the other kind—an orchestration playbook. An orchestration playbook does not connect to any remote machines to perform its tasks. Instead, it runs everything on your local machine. This is because orchestration playbooks tend to use public APIs to accomplish their work rather than running shell commands against a remote machine.
 				  
 				  As this is an orchestration playbook and you don’t have a remote machine to connect to, you should add connection: local to your playbook. This tells Ansible that it should run on the local machine instead of trying to SSH to a remote machine (as there isn’t one available). We do this because the AWS modules in Ansible do not run against a remote host. Instead, they make HTTP requests to the Amazon API to perform actions such as creating a virtual machine.

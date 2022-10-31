@@ -15,13 +15,16 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- La metodología Lean se enfoca en eliminar el desperdicio, tomar decisiones lo más tarde posible, entregar resultados lo más rápido posible y enfocarse en el panorama general  (Figura  13).  Los  equipos  de  proyecto  que  trabajan  con  el  modelo  Lean encuentran  oportunidades  para  reducir  el  desperdicio  en  cada  paso  del  proceso SDLC #flashcard
+		  id:: de694909-f2ed-4b6d-b4fe-55242808e593
 		- (Page 27)
 	- -
 	- -
 		- DevOps  se  define  como  un  conjunto  de  prácticas  que  combina  el  desarrollo  de software y las operaciones de TI. Su objetivo es acortar el ciclo de vida del desarrollo de  sistemas  y  proporcionar  una  entrega  continua  con  software  de  alta  calidad. DevOps es complementario con el desarrollo de software ágil, y varios aspectos de DevOps provinieron de la metodología ágil. #flashcard
+		  id:: 761f0653-821a-4931-b43b-5be1cb0c823d
 		- (Page 27)
 	- -
 	- -
 		- DevOps  se  considera  como  un  híbrido  de  Ágil  y  Lean,  y  evolucionó  a  partir  de  la creciente necesidad de colaboración entre los equipos de operaciones y desarrollo a lo largo del proceso SDLC (más información en el Tema 1). DevOps, al igual que Lean, puede trabajar junto con el agilismo para crear una infraestructura que elimine las barreras  que  ralentizan  el  desarrollo  y  la  entrega  del  producto  de  software  final. DevOps lleva la implementación y el funcionamiento del software completamente al proceso de desarrollo Ágil de la misma manera que Ágil incorporó las pruebas y el análisis  comercial  al  desarrollo  de  software.  En  última  instancia,  el  equipo  está facultado para ser autosuficiente y hacerse cargo del desarrollo, el envío y el soporte del  software.  Usan  Entrega  Continua,  Continuous  Delivery  (CD)  para  lanzamientos frecuentes y para mantener un código base bien probado y de alta calidad. #flashcard
+		  id:: b9ebf84a-9526-4b06-ae45-035658125d08
 		- (Page 28)
 	- -

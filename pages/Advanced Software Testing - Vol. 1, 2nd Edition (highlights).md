@@ -10,16 +10,20 @@ tags:: O'Reilly-Learning
 	- 1 Testing Process
 		- -
 			- when you’re documenting the tests, keep in mind that you might not be documenting them just for yourself. What other testers will need to run them? Will the tests be reviewed by other project stakeholders? #flashcard
+			  id:: c759ae23-7115-41c5-83ee-6add4c018dc1
 		- -
 	- 2 Test Management: Responsibilities for the Test Analyst
 		- -
 			- In some cases, values are not independent, in that the selection of one value from one subset constrains the choice in another subset #flashcard
+			  id:: 9b9c391f-b3d6-4253-8364-b19f6e343943
 		- -
 		- -
 			- for those partitions that are ordered values, we select the minimum and maximum values—the boundary values—as test values. This technique can be applied at any level of testing. It can even be used during white-box testing when looking at loops, when looking at data structures such as lists and arrays, and during non-functional testing for boundaries in memory usage and performance. #flashcard
+			  id:: b645cc24-5a48-49c1-9843-a5ec15778f6c
 		- -
 		- -
 			- When used properly, this technique will find situations where boundaries are in the wrong place, boundaries are just plain missing, or undesired boundaries exist #flashcard
+			  id:: 92503d80-6a7a-457f-8236-f04ce665e42f
 		- -
 		- -
 			- Conceptually, boundary value analysis is about testing the edges of equivalence classes #flashcard
@@ -40,6 +44,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What does a cause-effect graph look like? #flashcard
+			  id:: 0040377f-b13e-4544-a7da-7a762b8213e5
 				- Cause-effect graphs are simply pictorial representations of the same business logic that is shown in a decision table.
 		- -
 	- 3 Test Techniques
@@ -49,11 +54,14 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- It’s important to remember that fulfilling coverage criteria for a particular test design technique does not mean that your tests are in any way complete or exhaustive. Instead, it means that the model has run out of useful tests to suggest, based on that technique. #flashcard
+			  id:: 92d0e748-0f97-4ec0-bd06-2f082f04a228
 		- -
 		- -
 			- About Equivalence Partitioning #flashcard
+			  id:: 2a50b907-6f63-4c60-aa6c-febc057da13b
 				- This technique is also very useful in constructing smoke tests, though testing of some of the less-risky partitions frequently is omitted in smoke tests.
 		- -
 		- -
 			- If the conditions are not sufficient, but we must also refer to what conditions have existed in the past, then we’ll want to use state-based testing #flashcard
+			  id:: 50ffbaaa-87f5-4185-b7e2-bf5c242144c0
 		- -

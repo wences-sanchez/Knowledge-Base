@@ -8,6 +8,7 @@ url:: https://askubuntu.com/questions/36111/whats-a-command-line-way-to-find-lar
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- How can you find all files in your Linux distro which are bigger than 10MiB through the terminal? .code .linux #flashcard
+		  id:: 1014e63b-a63d-469e-9685-69c347325d5f
 			- If you just need to find large files, you can use find with the -size option. The next command will list all files larger than 10MiB (not to be confused with 10MB):
 			  
 			  find / -size +10M -ls

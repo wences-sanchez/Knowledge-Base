@@ -10,6 +10,7 @@ tags:: Self-Help
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Por ejemplo, en lugar de despedir a Clive, ¿por qué no cambiar su rol para que esté más acorde con sus virtudes? #flashcard
+		  id:: 05bbcac6-6439-4d6e-aa53-2ce27ad93a49
 		- tags:: [[mind]]
 		- ([Location 145](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=145))
 	- -
@@ -21,6 +22,7 @@ tags:: Self-Help
 	- -
 	- -
 		- primer villano de la toma de decisiones, la visión estrecha, que es la tendencia a definir nuestras opciones de forma demasiado restringida, a verlas en términos binarios. Preguntamos: «¿Me separo de mi socio o no?», #flashcard
+		  id:: 23ae8569-d445-47a8-8065-4a9572333b4f
 		- tags:: [[mind]]
 		- ([Location 258](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=258))
 	- -
@@ -50,6 +52,7 @@ tags:: Self-Help
 	- -
 	- -
 		- el cuarto villano de la toma de decisiones es la confianza desmedida. La gente cree que sabe más de lo que realmente sabe sobre lo que ocurrirá en un futuro. #flashcard
+		  id:: 909e0d59-8428-4e8e-a819-bdc2ea7c5181
 		- ([Location 378](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=378))
 	- -
 	- -
@@ -66,11 +69,13 @@ tags:: Self-Help
 	- -
 	- -
 		- Son: Tiempo libre y Autosatisfacción personal .mind #flashcard
+		  id:: 8850d98c-cf57-4a8f-9c93-af0236d1fae2
 			- Tomó su decisión basándose en los dos factores que más le importaban a largo plazo:
 		- ([Location 458](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=458))
 	- -
 	- -
 		- Para tomar mejores decisiones usa el proceso WRAP: Aumenta tus opciones. Contrasta tus suposiciones. Toma distancia antes de decidir. Prepárate para el error. #flashcard
+		  id:: 8fbd8e04-6051-4f2f-93f9-55fd0df67e6b
 		- ([Location 612](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=612))
 	- -
 	- -
@@ -81,12 +86,14 @@ tags:: Self-Help
 	- -
 	- -
 		- Opciones... #flashcard
+		  id:: a1325570-5681-45e2-975e-f2c10a1cfb7e
 			- Tendrás que hacer jornadas maratonianas. ¿Vale la pena?
 		- tags:: [[mind]]
 		- ([Location 3116](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=3116))
 	- -
 	- -
 		- Desarrollo personal #flashcard
+		  id:: 25c7efe7-8efc-4c9e-9f20-592540f845ed
 			- una lista de «cosas para dejar de hacer». Es tentador pero ingenuo pretender que podemos sacar tiempo para todo a través de la multitarea o trabajando con más eficacia. Pero, afróntalo, tu agenda no es tan flexible. Una hora invertida en una cosa es una hora que no se invierte en otra.
 		- tags:: [[mind]]
 		- ([Location 3310](https://readwise.io/to_kindle?action=open&asin=B00N82KASE&location=3310))

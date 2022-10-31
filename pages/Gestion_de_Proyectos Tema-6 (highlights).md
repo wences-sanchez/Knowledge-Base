@@ -10,15 +10,18 @@ tags:: Gestión de Proyectos UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Un  punto  de  historia  es  una  métrica  utilizada  en  la  gestión  y  el  desarrollo  de proyectos ágiles para estimar la dificultad de implementar una historia de usuario determinada,  que  es  una  medida  abstracta  del  esfuerzo  necesario  para implementarla, según Garzás, Enríquez de S. e Irrazábal (2013). Es decir, un punto de la historia es un número que le indica al equipo el nivel de dificultad de la historia. #flashcard
+		  id:: 65e7e0fb-bfbd-4777-9a67-260a919f23ed
 		- (Page 6)
 	- -
 	- -
 		- ¿Qué es un punto de histor? #flashcard
+		  id:: 8aa6626c-b4f7-4aef-b3fa-09bf24eaa86b
 			- ia
 		- (Page 6)
 	- -
 	- -
 		- Explica qué es la técnica del Planning Poker. #flashcard
+		  id:: 4e41c0c4-a0e9-4f2b-b65b-8438b4b0cd70
 			- El Planning Poker es una técnica de estimación ágil que utiliza puntos de historia para  estimar  la  dificultad  de  la  tarea  en  cuestión.  Es  una  de  las  técnicas  de estimación más populares. Está técnica gamifica el procedimiento de la estimación ágil mediante una votación en la que se usa una baraja de cartas donde los valores de puntos de historia que se pueden asignar se hacen en base a la serie de Fibonacci: 1, 2, 3, 5, 8, 13, 20, 40 y 100, incluso  «?» e infinito. Se usan valores de este tipo al representar  diferencias  razonables  en  valor  entre  un  número  y  otro  (o  entre  un concepto  y  otro).  Cada  uno  de  estos  valores  representa  un  nivel  diferente  de complejidad
 		- (Page 10)
 	- -
@@ -29,6 +32,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- En  la  planificación  tradicional,  la  base  es  el  control  predictivo,  y  está  basada  en tareas que son necesarias para construir el producto. Se  puede realizar  alguna replanificación, realizando las  modificaciones correspondientes  durante  el  proyecto.  Se  realizan  un  número  muy  limitado  de entregas  de  producto,  y  en  muchas  ocasiones  solo  una  entrega,  con  una  única retrospectiva. De  esta  manera,  el  problema  es  que  el  feedback  llega  tarde,  puesto  que  ya  se  ha avanzado mucho en el desarrollo del producto, o incluso se ha finalizado, sin poder ir verificando los posibles cambios necesarios. #flashcard
+		  id:: 385760a6-31e8-478c-a149-94c207facf33
 		- (Page 25)
 	- -
 	- -
@@ -56,10 +60,12 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		-   El  alcance,  no  la  fecha  o  la  calidad,  es  la  variable  que  destaca  la  necesidad  de utilizar  una  acumulación  de  productos  priorizada  como  base  de  un  evento  de planificación.  Cuando  una  fecha  de  entrega  es  inamovible  y  es  improbable  un aumento en el presupuesto y, por lo general, no tiene un efecto positivo en una entrega. El alcance es la única variable que puede hacer o deshacer la fecha de entrega. planificación.   Todos  los  equipos  deben  comprometerse  con  el  mismo  ritmo  de  iteraciones. Cuando todos los equipos trabajan al mismo ritmo, el descubrimiento y la gestión de  las  dependencias  se  producen  automáticamente  durante  las  actividades  de   Hay fechas de entregas fijas en todos los equipos del programa: un intervalo típico sería de dos a cuatro meses. #flashcard
+		  id:: 68caee24-3c64-42e9-bd2d-713eafc7f833
 		- (Page 31)
 	- -
 	- -
 		- ¿En qué consiste la planificación de las iteraciones o sprints? #flashcard
+		  id:: f1dcffc4-f984-4cd4-bbd2-7a5557a8d333
 			- Se trata de planificar las historias de usuario o tareas para la iteración en curso para obtener una parte funcional del producto (a nivel de desarrollo táctico). Cada iteración o Sprint comienza con una reunión de planificación de Sprint de dos partes. La primera parte de la reunión es una revisión de la Backlog Product. Este es el momento para que el Product Owner describa lo que quiere ver construido para el próximo Sprint. Durante esta parte de la reunión, el equipo suele hacer preguntas aclaratorias  y  que  eliminen  la  ambigüedad.  Al  final  de  esta  parte,  el  equipo seleccionará  un  objetivo  de  la  iteración  (Sprint  Goal):  una  descripción  breve  del resultado general del Sprint. Durante la segunda parte de la reunión de planificación del Sprint, el equipo decide cómo se desarrollará el trabajo. El equipo comenzará a descomponer los elementos del Product Backlog en tareas de trabajo, con una estimación en tiempo. El resultado de la segunda parte de la reunión será el Sprint Backlog.
 		- (Page 31)
 	- -

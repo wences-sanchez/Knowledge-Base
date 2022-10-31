@@ -11,6 +11,7 @@ tags:: O'Reilly-Learning
 	- 2. Getting Started with Terraform
 		- -
 			- The goal of DevOps is to make software delivery vastly more efficient. #flashcard
+			  id:: e55a5976-2dc0-47fb-be0e-b6ae64f0db1d
 		- -
 		- -
 			- How could you add tags to a resource in Terraform (e.g. an AWS instance)? #flashcard
@@ -26,6 +27,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- The three (optional) parts of a variable’s declaration body. #flashcard
+			  id:: c82ed4a0-144a-4d57-a5e2-4d916d2f4570
 				- The body of the variable declaration can contain three parameters, all of them optional:
 				  
 				  description
@@ -40,6 +42,7 @@ tags:: O'Reilly-Learning
 	- A. Recommended Reading
 		- -
 			- Which files and/or directories should I put in the .gitignore when using Terraform? #flashcard
+			  id:: f872d3ba-1874-4da8-9683-c6ec69f04976
 				- You should also create a file called .gitignore that tells Git to ignore certain types of files so that you don’t accidentally check them in:
 				  
 				  .terraform
@@ -86,6 +89,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Mention an example of a security group in AWS with Terraform. #flashcard
+			  id:: c996a1dc-50e5-4f55-939d-0ef239e5f59e
 				- resource "aws_security_group" "instance" {
 				  name = "terraform-example-instance"
 				  
@@ -99,6 +103,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- To use the value from an input variable in your Terraform code, you can use a new type of expression called a variable reference, which has the following syntax:
+			  id:: 3dc6b1f9-cfb0-4c41-aacd-02af66f97634
 			  
 			  var.<VARIABLE_NAME> #flashcard
 		- -
@@ -112,6 +117,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About output variables in Terraform. #flashcard
+			  id:: 748da334-c55c-46a9-9006-0f23fabd8688
 				- In addition to input variables, Terraform also allows you to define output variables by using the following syntax:
 				  
 				  output "<NAME>" {
@@ -128,6 +134,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What does provisioning mean? #flashcard
+			  id:: 8fdbb31f-6a6e-4f27-8b06-1512e27f22a6
 				- Whereas configuration management, server templating, and orchestration tools define the code that runs on each server, provisioning tools such as Terraform, CloudFormation, and OpenStack Heat are responsible for creating the servers themselves. In fact, you can use provisioning tools to not only create servers, but also databases, caches, load balancers, queues, monitoring, subnet configurations, firewall settings, routing rules, Secure Sockets Layer (SSL) certificates, and almost every other aspect of your infrastructure
 		- -
 		- -
@@ -140,24 +147,29 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- output variables show up in the console after you run terraform apply, which users of your Terraform code might find useful (e.g., you now know what IP to test after the web server is deployed). You can also use the terraform output command to list all outputs without applying any changes:
+			  id:: 7ee470a6-7ac9-4bcc-9833-9eeb901b4f0e
 			  
 			  $ terraform output
 			  public_ip = 54.174.13.5 #flashcard
 		- -
 		- -
 			- That said, if you’re not using server templating tools, a good alternative is to use a configuration management and provisioning tool together. For example, you might use Terraform to provision your servers and run Chef to configure each one. #flashcard
+			  id:: 6a7c0d74-49ce-4673-8b49-e804d4830416
 		- -
 		- -
 			- When you add a reference from one resource to another, you create an implicit dependency. Terraform parses these dependencies, builds a dependency graph from them, and uses that to automatically determine in which order it should create resources. For example, if you were deploying this code from scratch, Terraform would know that it needs to create the security group before the EC2 Instance, because the EC2 Instance references the ID of the security group. You can even get Terraform to show you the dependency graph by running the graph command: #flashcard
+			  id:: 758b98a5-348a-4791-9dcd-ed9f316a2b6c
 		- -
 		- -
 			- And you can run terraform output <OUTPUT_NAME> to see the value of a specific output called <OUTPUT_NAME>:
+			  id:: e1c45804-3ff3-4b84-a3f6-5397821b639c
 			  
 			  $ terraform output public_ip
 			  54.174.13.5 #flashcard
 		- -
 		- -
 			- The -/+ in the plan output means “replace” #flashcard
+			  id:: 92f7e362-2c39-48f1-a730-8b8ff48a5380
 		- -
 		- -
 			- About how can AWS ease with automated scalability. #flashcard
@@ -166,23 +178,27 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- provider "aws" {
+			  id:: 64eb8030-af0a-43db-b258-89f3e690bd62
 			  region = "us-east-2"
 			  }
 			  This tells Terraform that you are going to be using AWS as your provider and that you want to deploy your infrastructure into the us-east-2 region. #flashcard
 		- -
 		- -
 			- What is the syntax for declaring a variable: #flashcard
+			  id:: d1c8dcc3-c180-480a-b412-1e8f35732dd6
 				- variable "NAME" {
 				  [CONFIG ...]
 				  }
 		- -
 		- -
 			- Note that the ASG uses a reference to fill in the launch configuration name. This leads to a problem: launch configurations are immutable, so if you change any parameter of your launch configuration, Terraform will try to replace it. Normally, when replacing a resource, Terraform deletes the old resource first and then creates its replacement, but because your ASG now has a reference to the old resource, Terraform won’t be able to delete it.
+			  id:: c6bf401a-19db-4219-b663-63c339a3da71
 			  
 			  To solve this problem, you can use a lifecycle setting. Every Terraform resource supports several lifecycle settings that configure how that resource is created, updated, and/or deleted. A particularly useful lifecycle setting is create_before_destroy. If you set create_before_destroy to true, Terraform will invert the order in which it replaces resources, creating the replacement resource first (including updating any references that were pointing at the old resource to point to the replacement) and then deleting the old resource. Add the lifecycle block to your aws_launch_configuration #flashcard
 		- -
 		- -
 			- What is the general syntax for creating a resource in Terraform? #flashcard
+			  id:: 7b62c4b8-bd4d-4727-85c2-1fb85f1470f4
 				- resource "<PROVIDER>_<TYPE>" "<NAME>" {
 				  [CONFIG ...]
 				  }
@@ -190,6 +206,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What is a data source in Terraform? #flashcard
+			  id:: 5f40c8ed-2e01-4d3a-b4b3-413c8ddf42e2
 				- A data source represents a piece of read-only information that is fetched from the provider (in this case, AWS) every time you run Terraform. Adding a data source to your Terraform configurations does not create anything new; it’s just a way to query the provider’s APIs for data and to make that data available to the rest of your Terraform code. Each Terraform provider exposes a variety of data sources. For example, the AWS provider includes data sources to look up VPC data, subnet data, AMI IDs, IP address ranges, the current user’s identity, and much more.
 		- -
 		- -
@@ -199,12 +216,14 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Example of data source declaration in Terraform. #flashcard
+			  id:: 13f91eab-7469-4358-a11f-df695ee6e3d8
 				- data "aws_vpc" "default" {
 				  default = true
 				  }
 		- -
 		- -
 			- The terraform binary contains the basic functionality for Terraform, but it does not come with the code for any of the providers (e.g., the AWS provider, Azure provider, GCP provider, etc.), so when you’re first starting to use Terraform, you need to run terraform init to tell Terraform to scan the code, figure out which providers you’re using, and download the code for them. By default, the provider code will be downloaded into a .terraform folder, which is Terraform’s scratch directory (you may want to add it to .gitignore). #flashcard
+			  id:: 5f43a380-6a9b-4007-91ec-9d7b439ca388
 		- -
 		- -
 			- Example of data source use in Terraform. #flashcard
@@ -216,6 +235,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- The plan command lets you see what Terraform will do before actually making any changes. #flashcard
+			  id:: 74ee545f-d295-4ac8-900d-a9facf175533
 		- -
 		- -
 			- When you’re done experimenting with Terraform, either at the end of this chapter, or at the end of future chapters, it’s a good idea to remove all of the resources you created so that AWS doesn’t charge you for them. Because Terraform keeps track of what resources you created, cleanup is simple. All you need to do is run the destroy command: #flashcard
@@ -223,6 +243,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- How does the Terraform output specify the results? #flashcard
+			  id:: 71abbc9b-40f7-42e7-8d47-e4117d41dccf
 				- The output of the plan command is similar to the output of the diff command that is part of Unix, Linux, and git: anything with a plus sign (+) will be created, anything with a minus sign (–) will be deleted, and anything with a tilde sign (~) will be modified in place.
 		- -
 		- -
@@ -231,16 +252,20 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- To actually create the Instance, run the terraform apply command: #flashcard
+			  id:: 3d6606f1-5e3e-4350-b656-57c3af6a62be
 		- -
 	- 3. How to Manage Terraform State
 		- -
 			- In other words, the output of the plan command is a diff between the code on your computer and the infrastructure deployed in the real world, as discovered via IDs in the state file. #flashcard
+			  id:: e50d5142-b704-46dd-812a-557267fc7481
 		- -
 		- -
 			- Instead of using version control, the best way to manage shared storage for state files is to use Terraform’s built-in support for remote backends. A Terraform backend determines how Terraform loads and stores state. The default backend, which you’ve been using this entire time, is the local backend, which stores the state file on your local disk. Remote backends allow you to store the state file in a remote, shared store. A number of remote backends are supported, including Amazon S3; Azure Storage; Google Cloud Storage; and HashiCorp’s Terraform Cloud, Terraform Pro, and Terraform Enterprise. #flashcard
+			  id:: d7641e71-cbaf-4c06-9340-700adcfaa65c
 		- -
 		- -
 			- About port numbers #flashcard
+			  id:: f72a0d3d-5ff5-4f47-b5a3-312532f76200
 				- PORT NUMBERS
 				  The reason this example uses port 8080, rather than the default HTTP port 80, is that listening on any port less than 1024 requires root user privileges. This is a security risk, because any attacker who manages to compromise your server would get root privileges, too.
 				  
@@ -248,6 +273,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- How do you interpolate a variable in Terraform? #flashcard
+			  id:: fdb2183a-bb1e-45fe-b5f5-82c324500218
 				- "${...}"
 				  You can put any valid reference within the curly braces, and Terraform will convert it to a string. For example, here’s how you can use var.server_port inside of the User Data string:
 				  

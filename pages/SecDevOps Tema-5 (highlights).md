@@ -16,22 +16,27 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Para que un firewall sea efectivo, las organizaciones deben tener bien definida una política  de  seguridad  de  red.  Esta  política  identifica  los  recursos  que  necesitan protección y las amenazas que existen contra ellos. A partir de estos datos, define cómo  estos  recursos  pueden  ser  utilizados  y  por  quién,  y  establece  las  acciones  a llevar a cabo cuando se violan estas políticas. #flashcard
+		  id:: 2d1f7a47-1c76-4ef9-83ce-baef6bf0ba59
 		- (Page 5)
 	- -
 	- -
 		- Una política se aplica sobre los dispositivos de red como un conjunto de reglas que comprueban  los  paquetes  que  llegan  a  cada  dispositivo.  Estas  reglas  incluyen  qué tráfico IP desea permitir la organización para que acceda a su red, qué direcciones de origen deben excluirse de la red y qué direcciones de destino pueden ser accedidas desde fuera de la red. En cuanto a las acciones específicas, estas incluyen aceptar o rechazar paquetes #flashcard
+		  id:: 84bb7669-eb34-4d39-a728-dec584e9626a
 		- (Page 5)
 	- -
 	- -
 		- Filtros de paquetes Un filtro de paquetes es un cortafuegos que inspecciona cada paquete de acuerdo con  las  reglas  de  filtrado  que  haya  definido  el  usuario.  Por  ejemplo,  una  regla  de filtrado podría requerir que todas las solicitudes de Telnet se eliminen. Teniendo en cuenta  esta  Información,  el  firewall  bloqueará  todos  los  paquetes  con  el  puerto TCP 23 como destino (el puerto predeterminado para Telnet). Las reglas de filtrado pueden estar basadas en:   Dirección IP de origen.   Dirección IP de destino.   Protocolo de capa 4 (TCP/UDP).   Puerto de destino.     Por lo tanto, un filtro de paquetes toma decisiones basadas en la  capa de red y la capa  de  transporte.  Los  filtros  de  paquetes  son  rápidos  y pueden  implementarse, fácilmente, en rúters existentes. #flashcard
+		  id:: 34b46d3a-1638-400d-8bdf-7d13d3ee3771
 		- (Page 6)
 	- -
 	- -
 		- Servidores proxy Un servicio proxy es una aplicación que redirige las solicitudes de los usuarios hacia servicios basados en la política de seguridad de una organización. Así, un servidor proxy actúa como un intermediario de comunicaciones entre los clientes y servidores de  aplicaciones.  Dado  que  actúa  como  un  punto  de  control  donde  se  validan aplicaciones específicas, un servidor proxy puede convertirse en un cuello de botella si hay demasiado tráfico. Los servidores proxy pueden funcionar tanto en la capa de aplicación como en la de transporte. Los primeros se denominan gateway de aplicación y los segundos gateway de circuito. #flashcard
+		  id:: cc45c613-9b5d-4bde-ba6f-26ecfe0611da
 		- (Page 7)
 	- -
 	- -
 		- Gateway de aplicación Un  gateway  de  aplicaciones  es  un  servidor  proxy  que  proporciona  el  control  de acceso a la capa de aplicación. Dado que opera en la capa de aplicación, es capaz de examinar el tráfico de la capa más alta en detalle y, por lo tanto, es considerado el tipo de firewall más seguro. Genera registros de todas las actividades y aplicaciones de la red, de acuerdo con las necesidades de auditoría de seguridad. Los gateways de aplicación también pueden ocultar información hacia el exterior. Dado  que  todos  los  servicios  en  la  red  protegida  pasan  a  través del  gateway,  este puede proporcionar la funcionalidad de traducción de direcciones de red (u ocultar direcciones  IP)  y  ocultar  direcciones  IP  en  la  red  protegida  desde  Internet, reemplazando la dirección IP de cada paquete saliente (es decir, paquetes que van desde la red protegida a Internet) con su propia dirección IP. #flashcard
+		  id:: c31b1499-d704-428e-b63c-c1ac944619d6
 		- (Page 7)
 	- -
 	- -
@@ -41,14 +46,17 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Filtros de paquetes con estado Los  gateway  de  aplicación  ofrecen  la  mejor  seguridad,  pero  tienen,  también,  los requisitos de procesamiento más alto, lo que puede reducir el rendimiento de la red. Un filtro de paquetes con estado intenta proporcionar seguridad sin comprometer el rendimiento. A diferencia de un gateway de aplicación, un filtro con estado comprueba los datos que pasan a través de la capa de red, pero  no los procesa. El firewall mantiene la información de estado para cada sesión. Si los paquetes nuevos no pertenecen a una sesión válida, ni intentan crear una sesión que cumple con las políticas del firewall, se rechazan. #flashcard
+		  id:: 5e786f6e-cdb6-4a6c-bb10-3d9baa78d5a8
 		- (Page 8)
 	- -
 	- -
 		- Un equipo dual-homed es aquel que tiene dos tarjetas de red. Si el host ejecuta un proceso de firewall, las interfaces se pueden aprovechar para una  arquitectura de seguridad concreta: una interfaz está conectada a la red interna y otra interfaz está conectada a Internet, o a alguna otra red no confiable (Figura 2). Por lo tanto, todo el tráfico IP de Internet debe pasar por el firewall antes de llegar a un host en la red privada. Del mismo modo, un host interno puede comunicarse con hosts externos a través del host dual-homed #flashcard
+		  id:: a2d8fa4a-08e3-419c-8c93-686b437ec70d
 		- (Page 9)
 	- -
 	- -
 		- Cualquier  comunicación indirecta  que intente  esquivar  el  cortafuegos  está bloqueada por diseño, ya que no hay otra conectividad entre las redes más que la que atraviesa el cortafuegos. El host dual-homed puede funcionar como un rúter para garantizar que Internet y la red privada están lógicamente desconectadas, de modo que, incluso cuando haya problemas en el sistema, el cortafuegos no falle. #flashcard
+		  id:: db5f6e81-9379-4867-91d1-91eb716f16e8
 		- (Page 10)
 	- -
 	- -
@@ -58,5 +66,6 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- Cortafuegos de subred o DMZ El cortafuegos de subred se puede considerar una extensión del cortafuegos de host de rastreo.También incorpora un rúter de rastreo, denominado externo, y un host bastión.  Sin  embargo,  este  cortafuegos  crea  una  capa  adicional  de  seguridad añadiendo una red de perímetroque aísla a la red privada de Internet. Esta  capa define  una  Demilitarized  Zoneo  zona desmilitarizada(DMZ) demarcada por el rúter externo y un rúter interno, tal como muestra la Figura4. Este último es localizado más cerca de la red privada que del enrutador externo. El  bastión servidores de acceso público se encuentran,entonces,dentro de la DMZ #flashcard
+		  id:: 71aabb23-0d04-496c-9022-cc107151cd11
 		- (Page 11)
 	- -

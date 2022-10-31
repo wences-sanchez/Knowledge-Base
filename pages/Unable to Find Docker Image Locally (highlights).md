@@ -8,6 +8,7 @@ url:: https://stackoverflow.com/questions/56512769/unable-to-find-docker-image-l
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- PROBLEM: Unable to find docker image locally #problem #flashcard
+		  id:: 9a029880-da1a-447f-97db-491d4cfefbef
 			- So the problem was that I was trying to run a docker image which doesn't exist.
 			  
 			  I needed to build the image:

@@ -8,6 +8,7 @@ url:: https://serverfault.com/questions/684346/ssh-copy-id-permission-denied-pub
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Permission denied (publickey) is the remote SSH server saying "I only accept public keys as an authentication method, go away".
+		  id:: 33b4a18f-7189-4aa6-85c9-5f2682d468d5
 		  
 		  That's your main challenge: Getting onto the remote system. Once you can do that, you can upload your key:
 		  

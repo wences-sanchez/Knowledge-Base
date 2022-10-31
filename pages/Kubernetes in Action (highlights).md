@@ -12,6 +12,7 @@ tags:: O'Reilly-Learning
 	- Chapter 6. Volumes: attaching disk storage to containers
 		- -
 			- Figure 1.1. Components inside a monolithic application vs. standalone microservices #flashcard
+			  id:: 8214eeef-af3a-4cde-b18e-064dcd58a111
 		- -
 		- -
 			- [Figure 5.10](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/05fig10_alt.jpg) #flashcard
@@ -19,6 +20,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Use case examples of a volume inside a pod in Kubernetes
+			  id:: 8c9fb021-19e9-4838-852d-6903dccdb13d
 			  [Figure 6.1](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/06fig01.jpg) #flashcard
 				- Imagine you have a pod with three containers (shown in figure 6.1). One container runs a web server that serves HTML pages from the /var/htdocs directory and stores the access log to /var/logs. The second container runs an agent that creates HTML files and stores them in /var/html. The third container processes the logs it finds in the /var/logs directory (rotates them, compresses them, analyzes them, or whatever).
 		- -
@@ -37,9 +39,11 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Microservices communicate through synchronous protocols such as HTTP, over which they usually expose RESTful (REpresentational State Transfer) APIs, or through asynchronous protocols such as AMQP (Advanced Message Queueing Protocol). These protocols are simple, well understood by most developers, and not tied to any specific programming language. Each microservice can be written in the language that’s most appropriate for implementing that specific microservice. #flashcard
+			  id:: 8239bd87-ff28-4991-b5fb-6b5e4aea649e
 		- -
 		- -
 			- What is the _readiness probe_ in Kubernetes? #flashcard
+			  id:: 6e0b2375-0abd-4660-bad5-bb74ccef29a2
 				- The readiness probe is invoked periodically and determines whether the specific pod should receive client requests or not. When a container’s readiness probe returns success, it’s signaling that the container is ready to accept requests.
 				  
 				  This notion of being ready is obviously something that’s specific to each container. Kubernetes can merely check if the app running in the container responds to a simple GET / request or it can hit a specific URL path, which causes the app to perform a whole list of checks to determine if it’s ready. Such a detailed readiness probe, which takes the app’s specifics into account, is the app developer’s responsibility.
@@ -47,14 +51,17 @@ tags:: O'Reilly-Learning
 	- Chapter 9. Deployments: updating applications declaratively
 		- -
 			- What is NoOps? #flashcard
+			  id:: e6636b64-d4ee-431a-9f42-3b5dfa5ccb44
 				- Ideally, you want the developers to deploy applications themselves without knowing anything about the hardware infrastructure and without dealing with the ops team. This is referred to as NoOps. Obviously, you still need someone to take care of the hardware infrastructure, but ideally, without having to deal with peculiarities of each application running on it.
 		- -
 		- -
 			- **Liveness probes** VS **Readiness probes** #flashcard
+			  id:: 7a36721c-b9a1-4bc1-a848-10119808d2e2
 				- Unlike liveness probes, if a container fails the readiness check, it won’t be killed or restarted. This is an important distinction between liveness and readiness probes. Liveness probes keep pods healthy by killing off unhealthy containers and replacing them with new, healthy ones, whereas readiness probes make sure that only pods that are ready to serve requests receive them. This is mostly necessary during container start up, but it’s also useful after the container has been running for a while.
 		- -
 		- -
 			- How could you undo a deployment in Kubernetes if something goes wrong? #flashcard
+			  id:: 5e2b164c-53d9-4eee-b0ce-74264413850e
 				- Luckily, Deployments make it easy to roll back to the previously deployed version by telling Kubernetes to undo the last rollout of a Deployment:
 				  
 				  $ kubectl rollout undo deployment kubia
@@ -62,18 +69,22 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Kubernetes uses Linux container technologies to provide isolation of running applications #flashcard
+			  id:: a93c8545-2102-4e97-9f12-24d0482c3680
 		- -
 		- -
 			- About containers and Linux #flashcard
+			  id:: bcdb4c92-58df-4ebc-9b6d-88be25567a00
 				- Instead of using virtual machines to isolate the environments of each microservice (or software processes in general), developers are turning to Linux container technologies. They allow you to run multiple services on the same host machine, while not only exposing a different environment to each of them, but also isolating them from each other, similarly to VMs, but with much less overhead.
 				  
 				  A process running in a container runs inside the host’s operating system, like all the other processes (unlike VMs, where processes run in separate operating systems). But the process in the container is still isolated from other processes. To the process itself, it looks like it’s the only one running on the machine and in its operating system.
 		- -
 		- -
 			- Figure 1.4. Using VMs to isolate groups of applications vs. isolating individual apps with containers #flashcard
+			  id:: b98e5255-eddb-4e27-b649-6576fb28d3c9
 		- -
 		- -
 			- Types of hypervisors #flashcard
+			  id:: e3aea0c2-d418-41db-a641-8a16e75ad33b
 				- Note
 				  Two types of hypervisors exist. Type 1 hypervisors don’t use a host OS, while Type 2 do.
 		- -
@@ -92,19 +103,23 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- What is a registy in Docker? #flashcard
+			  id:: dde70130-254e-4e0f-b3c8-653f5a5d0442
 				- Registries—A Docker Registry is a repository that stores your Docker images and facilitates easy sharing of those images between different people and computers. When you build your image, you can either run it on the computer you’ve built it on, or you can push (upload) the image to a registry and then pull (download) it on another computer and run it there. Certain registries are public, allowing anyone to pull images from it, while others are private, only accessible to certain people or machines.
 		- -
 		- -
 			- Containers—A Docker-based container is a regular Linux container created from a Docker-based container image. A running container is a process running on the host running Docker, but it’s completely isolated from both the host and all other processes running on it. The process is also resource-constrained, meaning it can only access and use the amount of resources (CPU, RAM, and so on) that are allocated to it. #flashcard
+			  id:: 5962e1cf-6b5a-4dfe-90cf-4bae08b88794
 		- -
 		- -
 			- https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/01fig08_alt.jpg #flashcard
+			  id:: 1e5a6adb-9d08-4f4a-99dc-fccca66b2ca6
 				- Figure 1.8 shows the simplest possible view of a Kubernetes system. The system is composed of a master node and any number of worker nodes. When the developer submits a list of apps to the master, Kubernetes deploys them to the cluster of worker nodes. What node a component lands on doesn’t (and shouldn’t) matter—neither to the developer nor to the system administrator.
 				  
 				  Figure 1.8. Kubernetes exposes the whole datacenter as a single deployment platform.
 		- -
 		- -
 			- https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/01fig09_alt.jpg #flashcard
+			  id:: ad46bb67-d07a-4614-ad6d-c56d6250f33f
 				- At the hardware level, a Kubernetes cluster is composed of many nodes, which can be split into two types:
 				  
 				  The master node, which hosts the Kubernetes Control Plane that controls and manages the whole Kubernetes system
@@ -127,6 +142,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About the nodes in Kubernetes #flashcard
+			  id:: 80644eec-9802-45fe-8921-231582d39120
 				- The nodes
 				  The worker nodes are the machines that run your containerized applications. The task of running, monitoring, and providing services to your applications is done by the following components:
 				  
@@ -136,13 +152,16 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Figure 1.10. A basic overview of the Kubernetes architecture and an application running on top of it #flashcard
+			  id:: b375efd3-6fbc-4241-945a-e8dc94bfd31f
 		- -
 	- Chapter 2. First steps with Docker and Kubernetes
 		- -
 			- All software packages get updated, so more than a single version of a package usually exists. Docker supports having multiple versions or variants of the same image under the same name. Each variant must have a unique tag. When referring to images without explicitly specifying the tag, Docker will assume you’re referring to the so-called latest tag. #flashcard
+			  id:: 75e700bd-c767-4c50-ac4f-a9cb3717acfd
 		- -
 		- -
 			- You could now download and install Node.js and test your app directly, but this isn’t necessary, because you’ll use Docker to package the app into a container image and enable it to be run anywhere without having to download or install anything (except Docker, which does need to be installed on the machine you want to run the image on). #flashcard
+			  id:: 95dcf2f6-a442-4786-8972-00a623e58bc5
 		- -
 		- -
 			- Choosing a base image
@@ -151,6 +170,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- You may think that each Dockerfile creates only a single new layer, but that’s not the case. When building an image, a new layer is created for each individual command in the Dockerfile. During the build of your image, after pulling all the layers of the base image, Docker will create a new layer on top of them and add the app.js file into it. Then it will create yet another layer that will specify the command that should be executed when the image is run. This last layer will then be tagged as kubia:latest. This is shown in figure 2.3, which also shows how a different image called other:latest would use the same layers of the Node.js image as your own image does.
+			  id:: 59ab1d05-e549-4552-b584-ad55bfb1f652
 			  
 			  Figure 2.3. Container images are composed of layers that can be shared among different images.
 			  
@@ -187,10 +207,12 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Definition
+			  id:: 1d6a4838-cb26-4c08-9e48-cb37b6c9be11
 			  The term scheduling means assigning the pod to a node. The pod is run immediately, not at a time in the future as the term might lead you to believe. #flashcard
 		- -
 		- -
 			- Why do we need services in Kubernetes? #flashcard
+			  id:: 1ff07c2a-b32a-45af-a1fe-33c563a6871b
 				- To understand why you need services, you need to learn a key detail about pods. They’re ephemeral. A pod may disappear at any time—because the node it’s running on has failed, because someone deleted the pod, or because the pod was evicted from an otherwise healthy node. When any of those occurs, a missing pod is replaced with a new one by the Replication-Controller, as described
 		- -
 	- Chapter 3. Pods: running containers in Kubernetes
@@ -202,6 +224,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- About pods and IPs. #flashcard
+			  id:: f0fdc2ed-a1b6-4088-9f41-a8e6fd60c36e
 				- Like a computer on a LAN, each pod gets its own IP address and is accessible from all other pods through this network established specifically for pods.
 		- -
 		- -
@@ -218,6 +241,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- How can you **remove** the Kubernetes resources? #flashcard
+			  id:: b45ad16c-bf70-4603-8017-581dc0c9c9a5
 				- You can delete the ReplicationController and the pods, as well as all the Services you’ve created, by deleting all resources in the current namespace with a single command:
 				  
 				  $ kubectl delete all --all
@@ -229,6 +253,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Which is the purpose of a ReplicationController in Kubernetes? #flashcard
+			  id:: 9a9f75e2-9c66-4202-b675-d08949bfd842
 				- ReplicationController. It makes sure there’s always exactly one instance of your pod running. Generally, ReplicationControllers are used to replicate pods (that is, create multiple copies of a pod) and keep them running. In your case, you didn’t specify how many pod replicas you want, so the Replication-Controller created a single one. If your pod were to disappear for any reason, the Replication-Controller would create a new pod to replace the missing one.
 		- -
 	- Chapter 4. Replication and other controllers: deploying managed pods
@@ -248,10 +273,12 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [Figure 4.1](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/04fig01_alt.jpg) #flashcard
+			  id:: f91b1435-51d3-4401-b3be-8f00a7b7b81c
 				- Figure 4.1. When a node fails, only pods backed by a ReplicationController are recreated.
 		- -
 		- -
 			- How many parts has a **ReplicationController** ? [Figure](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/04fig03.jpg) #flashcard
+			  id:: 10bc1b6f-c99e-470b-addb-ce33631cfa6d
 				- A ReplicationController has three essential parts (also shown in figure 4.3):
 				  
 				  A label selector, which determines what pods are in the ReplicationController’s scope
@@ -261,13 +288,16 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Tip
+			  id:: 2419406a-f769-48cb-a534-a1da551be39f
 			  Don’t specify a pod selector when defining a ReplicationController. Let Kubernetes extract it from the pod template. This will keep your YAML shorter and simpler. #flashcard
 		- -
 		- -
 			- If a node fails in the non-Kubernetes world, the ops team would need to migrate the applications running on that node to other machines manually. Kubernetes, on the other hand, does that automatically. Soon after the ReplicationController detects that its pods are down, it will spin up new pods to replace them. #flashcard
+			  id:: 54ce031d-90c2-43e7-aef1-8768d97b6916
 		- -
 		- -
 			- When deleting a ReplicationController with kubectl delete, you can keep its pods running by passing the --cascade=false option to the command. Try that now:
+			  id:: 91c2a39d-45ed-4bdc-b2e9-1c2756b1621b
 			  
 			  $ kubectl delete rc kubia --cascade=false
 			  replicationcontroller "kubia" deleted
@@ -275,6 +305,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- a single ReplicationController can’t match pods with the label env=production and those with the label env=devel at the same time. It can only match either pods with the env=production label or pods with the env=devel label. But a single ReplicaSet can match both sets of pods and treat them as a single group. #flashcard
+			  id:: f63d502a-c78d-4d9f-bc36-89738b012851
 		- -
 		- -
 			- Example of **matchExpressions** selector in Kubernetes #flashcard
@@ -285,12 +316,14 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [Figure 4.8](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/04fig08_alt.jpg) #flashcard
+			  id:: 17d333da-e95d-44bf-a2a3-e2c78117c819
 				- Both ReplicationControllers and ReplicaSets are used for running a specific number of pods deployed anywhere in the Kubernetes cluster. But certain cases exist when you want a pod to run on each and every node in the cluster (and each node needs to run exactly one instance of the pod, as shown in figure 4.8).
 				  
 				  Figure 4.8. DaemonSets run only a single pod replica on each node, whereas ReplicaSets scatter them around the whole cluster randomly.
 		- -
 		- -
 			- Example of a Service YAML definition #flashcard
+			  id:: 386102d7-f7d3-432c-a024-e0e58e410873
 				- Listing 5.1. A definition of a service: kubia-svc.yaml
 				  apiVersion: v1
 				  kind: Service
@@ -301,6 +334,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- If you later decide to migrate the external service to pods running inside Kubernetes, you can add a selector to the service, thereby making its Endpoints managed automatically. The same is also true in reverse—by removing the selector from a Service, Kubernetes stops updating its Endpoints. This means a service IP address can remain constant while the actual implementation of the service is changed. #flashcard
+			  id:: e740c588-a6ab-4777-a226-1dea4caf788f
 		- -
 		- -
 			- About NodePort in Kubernetes #flashcard
@@ -313,5 +347,6 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- [Figure 5.9](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781617293726/files/Images/05fig09_alt.jpg) #flashcard
+			  id:: c6b7dfb6-5c51-401a-9fa4-bc34779803dc
 				- One important reason is that each LoadBalancer service requires its own load balancer with its own public IP address, whereas an Ingress only requires one, even when providing access to dozens of services. When a client sends an HTTP request to the Ingress, the host and path in the request determine which service the request is forwarded to, as shown in figure 5.9.
 		- -

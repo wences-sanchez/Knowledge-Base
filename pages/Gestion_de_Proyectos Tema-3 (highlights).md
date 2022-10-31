@@ -15,6 +15,7 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- Kniberg (2007) explica que, al tratarse de un conjunto de buenas prácticas, Scrum no indicará qué hacer en cada paso, por lo que se debe aplicar con cautela al desarrollo del proyecto en cuestión, para seguir en todo momento enfocados en el paradigma de  la  agilidad.  En  este  sentido,  se  han  llegado  a  describir  una  serie  de  errores comunes que algunas organizaciones cometen al tratar de aplicar Scrum #flashcard
+		  id:: 7899166b-a42a-44e7-aa5e-58577f1a9c0a
 		- (Page 6)
 	- -
 	- -
@@ -31,15 +32,18 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- Coraje  (courage).  Los  integrantes  del  Equipo  Scrum  deben  tener  suficiente valentía  para  hacer  lo  correcto  y  trabajar  en  problemas  complejos  a  los  que enfrentarse.  Si  ocurre  algún inconveniente,  el  equipo  debe levantarse  y aprovecharlo  como  una  oportunidad  parar  mejorar.  No  se  debe  hacer directamente lo que indica un cliente o jefe sin considerar el valor real, ni se deben degradar los valores Scrum. #flashcard
+		  id:: 446cd217-b25f-471d-a436-81df7c72e050
 		- (Page 12)
 	- -
 	- -
 		- Define el rol de *Product Owner* #flashcard
+		  id:: f66ff3ec-b4c0-4ba4-a07d-c0c1165b4575
 			- El Propietario del Producto (Product Owner) es una persona, y no un comité, y es el responsable  de  gestionar  todas  las  funcionalidades,  encargado  de  optimizar  y maximizar  el  valor  del  producto  a  través  del  Product  Backlog,  dependiendo  de  su trabajo, en gran parte el éxito del proyecto. Debe tener una visión clara y conocer perfectamente el software a ser desarrollado, ser capaz de transmitir dicha visión a los desarrolladores y actuar como interlocutor entre los stakeholders y sponsors del proyecto. El Product Owner también se relaciona con la representación del negocio, aportando  valor  al  producto.  Este  rol  suele  ser  adoptado  por  uno  de  los  futuros usuarios del sistema a desarrollar, o algún representante de marketing que tenga un conocimiento de lo que el sistema necesita. Por tanto, es realmente importante que el  Product  Owner  tenga  la  capacidad  suficiente  de  tomar  cualquier  decisión  que
 		- (Page 14)
 	- -
 	- -
 		- <<<<<<<<<< #flashcard
+		  id:: 035d056f-fad4-4787-b53d-6d64a717fd8d
 			- afecte  al  producto,  estableciendo  una  estructura  adecuada  y  prioridades  en  las demandas y cambios de requisitos por parte del cliente. Puede realizar el trabajo por sí  mismo  o  incluso  delegar  la  responsabilidad  en  otros,  aunque  sigue  siendo  el máximo  responsable.  En  resumen,  las  principales  responsabilidades  del  Product Owner son las siguientes:   Definir la planificación ágil del proyecto a cualquier nivel de abstracción.   Determinar  claramente,  gestionar  y  priorizar las  historias  de  usuario  o funcionalidades del sistema.   Definir los criterios de aceptación de las historias de usuario.   Desarrollar y comunicar explícitamente el Objetivo del Producto.   Validar las entregas del producto software resultante tras cada iteración, antes de  ser  entregadas  al  usuario,  asegurando  que  el  trabajo  pendiente  sea transparente, visible y comprendido.   Definir los productos mínimo-viables MVP (Minimum Viable Produt).   Disponibilidad para abordar cualquier duda o necesidad que surja al equipo.   Maximizar el retorno de inversión del proyecto.
 		- (Page 15)
 	- -
@@ -56,11 +60,13 @@ tags:: Gestión de Proyectos UNI
 	- -
 	- -
 		- <<<<<<<<<<< #flashcard
+		  id:: 3d2fc5c7-3c19-4aff-ac7e-c2b2d2f8a21f
 			- o
 		- (Page 16)
 	- -
 	- -
 		-   Cross-funcional. Cada miembro del equipo debe ser capaz de realizar tareas de diseño,  programación,  pruebas,  despliegue,  etc.,  pues  en  Scrum  no  existen especialistas.  Así,  aunque  puede  que  cada  miembro  posea  una  serie  de capacidades y conocimientos que sean diferentes y puedan aportar más a unas tareas que a otras, lo fundamental es que todos sean capaces de poder llevar a cabo cualquier función necesaria respecto al proceso de desarrollo del producto software. #flashcard
+		  id:: f5408a2c-f96d-4efd-9919-ae21ddfba632
 		- (Page 17)
 	- -
 	- -

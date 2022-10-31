@@ -10,5 +10,6 @@ tags:: Entornos-CI-CD UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Buscar la mejora continua Este principio aparece en muchas metodologías de trabajo, como en el movimiento Lean y en ITIL. Un proyecto de implementación de CICD no debe acabar cuando se han definido los pipelines. Hay que seguir trabajando en la mejora de cada proceso. #flashcard
+		  id:: eae0e625-dc7f-430d-9520-13c648009fd5
 		- (Page 7)
 	- -

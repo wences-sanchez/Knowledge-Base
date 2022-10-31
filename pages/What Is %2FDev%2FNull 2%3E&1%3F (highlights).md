@@ -8,6 +8,7 @@ url:: https://stackoverflow.com/questions/10508843/what-is-dev-null-21
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- About how to redirect to /dev/null .bash #flashcard
+		  id:: 20767191-a27d-4ec9-9c77-ea506bf258db
 			- >> /dev/null redirects standard output (stdout) to /dev/null, which discards it.
 			  
 			  (The >> seems sort of superfluous, since >> means append while > means truncate and write, and either appending to or writing to /dev/null has the same net effect. I usually just use > for that reason.)

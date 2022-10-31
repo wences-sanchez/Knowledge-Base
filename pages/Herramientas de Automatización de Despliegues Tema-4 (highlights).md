@@ -10,16 +10,19 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Ejemplo de código en ChefSpec #flashcard
+		  id:: 96a3c9d5-8aea-41d1-bfab-f5268008c7aa
 			- require 'chefspec' describe 'vim_pruebas_chef::default' do platform 'ubuntu' context 'with default attributes' do it "should have default install_method 'package'" do expect(chef_run.node['vim']['install_method']).to eq('package') end end end
 		- (Page 12)
 	- -
 	- -
 		- ¿Con qué comando puedes ejecutar los tests unitarios de ChefSpec? #flashcard
+		  id:: 3ba093c3-fee0-46d4-81ee-bc29a07012db
 			- $ chef exec rspec .
 		- (Page 13)
 	- -
 	- -
 		- Un nodo se puede representar en Test Kitchen con cualquier tipo de virtualización, a través de plugins denominados drivers. En la mayoría de los casos se suele utilizar Vagrant,  pero  hay  diferentes  alternativas  tales  como  Docker  o  cualquiera  de  los muchos  proveedores  de  nube  soportados,  como  Amazon  Web  Services  o DigitalOcean. #flashcard
+		  id:: f65bda54-b785-42ac-bd0e-49f1252a09ed
 		- (Page 18)
 	- -
 	- -

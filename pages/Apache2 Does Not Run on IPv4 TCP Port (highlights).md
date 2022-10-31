@@ -8,5 +8,6 @@ url:: https://unix.stackexchange.com/questions/106502/apache2-does-not-run-on-ip
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- How can you check if a port is open (or not) in a Linux machine for a specific tool (e.g. apache)? #flashcard
+		  id:: 61810151-828c-4c33-8cc0-127256b32da9
 			- woodpecker ~ # netstat -anp |grep apache
 	- -

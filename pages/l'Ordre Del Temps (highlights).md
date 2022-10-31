@@ -9,6 +9,7 @@ tags:: Science
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- A nivel atómico-molecular el tiempo pierde su significado #flashcard
+		  id:: 9b8219f5-128f-45cc-8ede-430bff5fff2e
 			- En la descripció microscòpica no té sentit que el passat sigui diferent del futur.* Aquesta és la conclusió desconcertant que sorgeix de la investigació de Boltzmann: la diferència entre passat i futur fa referència a la nostra visió desenfocada del món. Es una conclusió que ens deixa estupefactes: ¿és possible que aquesta sensació meva tan vívida, elemental, existencial -el temps, depengui del fet que no percebo el món en el seu més mínim detall? ;Una mena d'enlluernament a causa de la meva miopia? Realment, ;si tingués en compte la dansa exacta dels milers de milions de molècules, el futur seria «com» el pas del passat? ¿Podria conèixer -o desconèixer- igual el passat que el futur? Potser sí que les nostres intuïcions del món sovint són equivocades, però ¿tan equivocades? ¿Pot ser que el món sigui tan profundament diferent de la intuïció que en tenim?
 			  
 			  Tot això mina la nostra manera habitual d'entendre el temps.
@@ -16,6 +17,7 @@ tags:: Science
 	- -
 	- -
 		- Això il·lustra el que els físics anomenen l'espaitemps corbat. Corbat perquè està distorsionat: les distàncies s'estiren i es contrauen com el full elàstic raó, els cons de llum s'inclinen en els dibuixos de l'últim hem estirat. Per aquesta ənb capítol. #flashcard
+		  id:: 316b2f0a-86ce-4cde-9d32-18c3e79367e1
 		- (Page 58)
 	- -
 	- -
@@ -27,12 +29,14 @@ tags:: Science
 	- -
 	- -
 		- És a dir, la manca de temps no vol dir que tot estigui congelat i immòbil. Vol dir la incessant successió que causa la fatiga del món no està ordenada per una línia del temps, no està mesurada per un enorme tic-tac. Ni tan sols forma una geometria quadridimensional. És una xarxa immensa i desordenada d'esdeveniments quàntics. El món s'assembla més a Nàpols que a Singapur.
+		  id:: 6503b3c4-5ea4-4d33-a726-637ca6c2d263
 		  
 		  que Si per «temps» no entenem res més que successió, llavors tot és temps: només existeix allò que és en el temps. #flashcard
 		- (Page 77)
 	- -
 	- -
 		- Tot el que volia dir en aquest capítol és que ells dos van trobar la forma senzillíssima de l'estructura ənb de l'equació que descriu la dinàmica del món. La dinàmica del món ve determinada per l'equació que estableix quines relacions hi ha entre totes les variables que el descriuen. Totes en el mateix pla. Descriu els possibles esdeveniments, les possibles correlacions entre ells. Res més.
+		  id:: df3a9db5-266e-4687-afae-f0bdd9df86c4
 		  
 		  És la forma elemental de la mecànica del món, i no li cal parlar de temps. El món sense variable temps no és un món complicat.
 		  
@@ -53,6 +57,7 @@ tags:: Science
 	- -
 	- -
 		- Embasto, tot seguit, el recorregut que hem fet en els dos últims capítols. I espero que encara no hauré perdut tots els meus lectors: a una escala fonamental, el món és un conjunt d'esdeveniments no ordenats en el temps. Aquests esdeveniments tenen relacions entre variables físiques que, a priori, són en el mateix pla. Cada part del món interactua amb una petita part de totes les variables, el valor de les quals determina l'«estat del món pel que fa a aquest subsistema».
+		  id:: a6ebeee0-f743-4868-adc8-137193fc9c70
 		  
 		  Aleshores, per a cada part del món hi ha configuracions de la resta del món indistingibles. L'entropia les compta. Els estats amb més configuracions indistingibles són més freqüents, de manera que els estats de màxima entropia són aquells que genèricament descriuen «la resta del món» vista des d'un subsistema. De manera natural, a aquests estats se'ls associa un flux respecte del qual apareixen en equilibri. El paràmetre d'aquest flux és el temps tèrmic.
 		  
@@ -65,6 +70,7 @@ tags:: Science
 	- -
 	- -
 		- L'energia -també m'ho van dir a l'escolaes conserva. No es crea ni es destrueix. Ara bé, si es conserva, per què sempre n'hem d'obtenir més i més? Per què no fem servir sempre la mateixa? La veritat és d'energia n'hi ha en abundància i no es consumeix. Però no és energia que el món necessita per seguir endavant. És entropia baixa.
+		  id:: bf075913-c48b-4b26-ba85-36877af4f340
 		  
 		  L'energia (mecànica, química, elèctrica o potencial) es transforma en energia tèrmica -és a dir, en calor-, va a les coses fredes, i des d'allà no hi ha manera de portar-la enrere gratuïtament i reutilitzar-la per fer créixer una planta o fer girar un motor. En aquest procés l'energia segueix sent la mateixa, però l'entropia augmenta, i aquesta entropia no torna enrere. La segona llei de la termodinàmica és el que que la consumeix. #flashcard
 		- (Page 115)
@@ -78,4 +84,5 @@ tags:: Science
 	- -
 	- -
 		- Einstein va buscar una explicació plausible. Va imaginar que el Sol i la Terra no s'atreuen directament, sinó que cadascun dels dos astres actua gradualment sobre el que hi ha entremig. I com que entremig només hi ha espai i temps, va imaginar que el Sol i la Terra alteren l'espai i el temps al seu voltant, com quan un cos, en submergir-se, desplaça l'aigua que l'envolta. #flashcard
+		  id:: 4f36ed9d-7c67-419d-90b8-ca0682cb1466
 	- -

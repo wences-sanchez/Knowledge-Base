@@ -7,10 +7,12 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Que no pot reduir les expectatives a una única via. Que cadascú té una memòria, una veritat i una percepció. Només cal posar-les en comú, trobar un lloc compartit on les memòries de cadascú convisquin en pau. Per això  existeix la literatura, perquè els milions, bilions, de narratives tinguin un espai on parlar-se les unes a les altres. I d'això es tracta. Que es parlin i s'escoltin. Només així es pot trobar un petit moment de pau, que al final és el que importa #flashcard
+		  id:: 4149597e-e019-4a58-b5ab-6d80b3af15e1
 		- (Page 23)
 	- -
 	- -
 		- Qualsevol d'aquests inicis també serviria com a final.
+		  id:: 5d9f72ef-b2da-4827-b5de-c3d51b1057fa
 		  
 		  La història no té ni principi ni final.
 		  
@@ -21,6 +23,7 @@ category:: #books
 	- -
 	- -
 		- -Què m'ofereixen, doncs?
+		  id:: dc5febff-cdbf-4cc4-9485-6efe8cfe1f5b
 		  
 		  -Un magisteri superior al que els seus collegues adquiriran amb el seu pas per aquesta universitat. No ens n'amaguem, l'excel·lència no ha estat mai gaire democràtica. Una autèntica educació humanista -va respondre el professor Gardner.
 		  
@@ -35,6 +38,7 @@ category:: #books
 	- -
 	- -
 		- Por esto es por lo que no quieres (aún, en el fondo) ir a London tan pronto. #flashcard
+		  id:: 0ce28351-76a7-46c9-9de1-2f76048d557c
 			- Mentre el tren avançava pels suburbis de Nova York camí del nord, la Sarah amb prou feines va tenir temps per pensar conscientment. De seguida la va envair l'ensopiment habitual que ocasiona el sotrac del tren. Els seus pensaments eren inconnexos i anaven d'una realitat a una altra. D'un lloc a un altre. D'un moment a un altre. Només per un instant va recordar que abandonava tot el que li era conegut i va sentir el vertigen a la boca de l'estómac.
 			  
 			  La decisió d'escollir Pembroke havia estat únicament seva.
@@ -56,6 +60,7 @@ category:: #books
 	- -
 	- -
 		- Ja ho veus, havia d'escollir entre determinisme o aleatorietat. Les dues opcions són vàlides, però ara que em queda poc temps, l'única cosa en què puc pensar és en el que deia Nietzsche: som aquí per trobar un significat a la nostra existència. No em puc imaginar com a fruit de la casualitat. #flashcard
+		  id:: a990a2a9-445d-408c-9fc6-fe0acf891b6d
 		- (Page 399)
 	- -
 	- -

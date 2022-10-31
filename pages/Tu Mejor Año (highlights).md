@@ -10,6 +10,7 @@ tags:: Self-Help
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- De hecho, muchos de nosotros dejamos de hacer resoluciones porque no las hemos cumplido en el pasado. #flashcard
+		  id:: ba76dda6-ec7a-4ac8-acb7-159c5fcbc1a8
 		- ([Location 173](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=173))
 	- -
 	- -
@@ -18,10 +19,12 @@ tags:: Self-Help
 	- -
 	- -
 		- Sin importar lo que está sucediendo en el mundo o cuán desviado y frustrado te sientas, no tienes que conformarte con cómo son las cosas. #flashcard
+		  id:: 7c77551b-eaea-4c48-a713-a5ac86206107
 		- ([Location 265](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=265))
 	- -
 	- -
 		- Una de las mayores razones por las que no tenemos éxito con nuestras metas es que dudamos que podamos alcanzarlas. Creemos que están fuera de nuestro alcance. #flashcard
+		  id:: 987da68e-3b50-4dd5-8895-cabe0c2bce41
 		- ([Location 354](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=354))
 	- -
 	- -
@@ -32,32 +35,39 @@ tags:: Self-Help
 	- -
 	- -
 		- Para alcanzar cualquier cosa, tenemos que creer que estamos a la altura del reto. Eso no significa que será fácil o que sepamos cómo vamos a lograrlo. Por lo general no lo sabemos. Solamente significa que creemos que somos capaces, que tenemos lo necesario para prevalecer. ¿Por qué es importante eso? Porque toda meta tiene obstáculos. #flashcard
+		  id:: 26b4cfa4-c9dd-4fa8-a105-0fad1f02b8e0
 		- ([Location 435](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=435))
 	- -
 	- -
 		- Según el profesor de psicología de la Universidad de Stanford, Albert Bandura, este poder recoge cuatro propiedades que nos ayudan a alcanzar nuestras metas. La primera es intención. Podemos imaginar una realidad mejor de la que estamos experimentando en el presente; y podemos trabajar con otros y dentro de nuestras circunstancias para alcanzarla. La segunda es previsión. Al visualizar el futuro, podemos gobernar nuestra conducta en el presente, y dar propósito y significado a nuestros actos. La tercera es acción. Tenemos la capacidad de actuar según nuestros planes, mantenernos motivados, y responder en el momento para seguir en rumbo. Finalmente, la autorreflexión. No solo actuamos; sabemos que actuamos. Eso significa que podemos evaluar cómo nos va, hacer ajustes, e incluso revisar nuestros planes.4 #flashcard
+		  id:: e67bc273-fd45-480e-a996-ad32593b8002
 		- ([Location 627](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=627))
 	- -
 	- -
 		- Si yo no hubiera ajustado mi conducta como resultado de lo que aprendí de ser despedido, toda esa tristeza no habría servido de nada. Me habría encontrado en la misma situación una y otra vez. En cambio, a medida que he progresado en mi carrera he actuado según esas lecciones, y me he ahorrado muchos problemas como resultado. #flashcard
+		  id:: a649c46d-781c-47f4-a0ad-f172d42158ae
 		- ([Location 946](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=946))
 	- -
 	- -
 		- Las cuatro etapas de un Repaso Tras la Acción eficaz son beneficiosas para poner fin a nuestro pasado. Pero también es beneficioso reconocer que algunas de nuestras mayores decepciones pueden conducirnos a nuestras mayores posibilidades para el nuevo año. #flashcard
+		  id:: 84c49d89-2a1e-475d-a64c-4a124bb21f2c
 		- ([Location 957](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=957))
 	- -
 	- -
 		- “Si no te arrepientes de nada, o intencionalmente te propones vivir sin arrepentimientos, creo que te estás perdiendo el valor mismo del arrepentimiento”.4 #flashcard
+		  id:: 744a108e-cc52-458f-8692-53764aa6e7da
 		- ([Location 997](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=997))
 	- -
 	- -
 		- About regrets. #flashcard
+		  id:: 585df8c7-a80c-41bd-836f-d37c496f2070
 			- “El arrepentimiento persiste precisamente en esas situaciones en las cuales la oportunidad para la acción positiva sigue siendo elevada”. Esto señala al menos hacia una razón por la cual Landman subtituló su libro La persistencia de lo posible. El arrepentimiento es un potente indicador de oportunidad futura.
 		- tags:: [[mind]]
 		- ([Location 1054](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1054))
 	- -
 	- -
 		- About regrets. #flashcard
+		  id:: 4c9b5cbc-c0f5-4c61-8e5c-80a94285fabe
 			- Con frecuencia sentimos el mayor arrepentimiento cuando tenemos la mayor oportunidad para un remedio positivo.
 		- tags:: [[mind]]
 		- ([Location 1202](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1202))
@@ -74,6 +84,7 @@ tags:: Self-Help
 	- -
 	- -
 		- Hazte la pregunta: “¿Me inspira esta meta?”, o “¿Conecta con mi corazón? ¿Estoy dispuesto a trabajar duro para hacer que suceda?”. #flashcard
+		  id:: 042e487b-8b90-4db4-a33c-4f2fdb62a704
 		- ([Location 1382](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1382))
 	- -
 	- -
@@ -83,10 +94,12 @@ tags:: Self-Help
 	- -
 	- -
 		- El primero es perspectiva. Miremos las carreras profesionales de grandes líderes, innovadores o deportistas. ¿Fue una oportunidad instantánea hasta lo más alto sin ningún revés para ninguno de ellos? No es así por lo general. Obstáculos, reveses e incluso fracasos son todos ellos parte de su camino hacia el éxito. Eso es cierto para cualquiera. #flashcard
+		  id:: 89a2c7a5-89b6-43f6-b191-7cc8fcb99e49
 		- ([Location 1800](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1800))
 	- -
 	- -
 		- Remember your life destiny #flashcard
+		  id:: f9ed88ce-c88f-49bb-91a0-7d73c60305ad
 			- Si quieres recorrer la distancia, tienes que encontrar una razón que te hable a ti personalmente y poderosamente.
 		- tags:: [[mind]]
 		- ([Location 1840](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1840))
@@ -105,30 +118,37 @@ tags:: Self-Help
 	- -
 	- -
 		- La segunda parte del repaso semanal es un mini repaso tras la acción. Recordarás estas etapas en el Paso 2, pero en lugar de realizar el proceso para un año entero, querrás recapitular solamente la semana anterior. Repasa tu progreso. Enumera tus ganancias y lo que pasaste por alto. A continuación, enumera las lecciones que aprendiste y lo querías de modo distinto o mejor. ¿Cómo ajustarás tu conducta? Escribe eso también. Ponerlo sobre el papel (o la pantalla) te ayudará a encontrar claridad y construir la resolución necesaria. #flashcard
+		  id:: 96f0c199-2c6f-4ae4-861e-086419217670
 		- ([Location 2545](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2545))
 	- -
 	- -
 		- Si ya no estás comprometido con la meta, tu tercera opción es revisarla. Esto es totalmente válido. Después de todo, cuando estás planificando tienes un conocimiento limitado. Quizá te hayas dado cuenta de que estableciste la meta en la zona delirante, en lugar de hacerlo en la zona de incomodidad. Puede que entren en juego otros hechos o circunstancias que no podías haber conocido, y quizá están fuera de tu control. Sí tienes que ser cuidadoso cuando revises una meta. No querrás hacerlo solamente para poder quedarte en la zona de comodidad y no estirarte; pero tampoco necesitas ponerte en una situación en la que nadie gana para demostrar un punto. #flashcard
+		  id:: 012b54b6-5948-443f-a128-d8849310feb8
 		- ([Location 2608](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2608))
 	- -
 	- -
 		- Cuando no puedo volver a comprometerme, y no quiero revisar la meta, la cuarta opción es la eliminación. Agarra un borrador. Pulsa el botón de borrar. No dejes que eso te asombre. Es un último recurso, pero a veces es necesario. Yo estoy a favor de alcanzar nuestras metas, pero “el día de reposo fue hecho para el hombre”, y no al contrario. Este es tu juego. Yo nunca conocí al policía de metas, pero estoy seguro de que no aparece cuando eliminas una meta de tu lista. Si una meta ya no es relevante, si ya no es atractiva, si has intentado revisarla y no has podido, elimínala. Si no lo haces, la meta se quedará ahí y te acusará. No hay necesidad alguna de pagar un peaje emocional como ese en tu propia lista. #flashcard
+		  id:: 43ecafb8-5d9b-4aec-aaad-c0ec777c693e
 		- tags:: [[favorite]]
 		- ([Location 2614](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2614))
 	- -
 	- -
 		- Actívate y haz algo: cualquier cosa. A veces esperamos para movernos hasta tener toda la información. Eso es un error. La claridad llega en grados, y solamente necesitas tener luz suficiente para el siguiente paso. Incluso si sales con el pie equivocado, el resto del viaje se irá esclareciendo a medida que avances. #flashcard
+		  id:: 25c8dbfa-bb24-4830-b657-67b892879548
 		- ([Location 2714](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2714))
 	- -
 	- -
 		- Ahora te toca a ti. Tu mejor año no es una película que puedes ver recostado; es una visión que necesita ser construida, comenzando ahora mismo, o no se hará realidad. No es ningún accidente que te vieras atraído a este libro y que te hayas quedado hasta el final. Este es tu año, este es tu momento. #flashcard
+		  id:: f36dd189-206f-4bd5-9201-31b8c4c0be5f
 		- ([Location 2726](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2726))
 	- -
 	- -
 		- No pospongas tus sueños. No demores tus metas. No aplaces lo único que necesitas hacer hoy para realizar progreso significativo en tu vida personal o profesional. Cuando hayas decidido cuál será tu paso siguiente, da ese paso. No esperes. Da el salto. #flashcard
+		  id:: bedae3a2-84b1-4c59-a80c-00e03ab33892
 		- ([Location 2728](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2728))
 	- -
 	- -
 		- Full Focus PlannerTM. #flashcard
+		  id:: a8573f5f-7565-4ec4-97db-ac5de7a7098a
 		- ([Location 2733](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2733))
 	- -

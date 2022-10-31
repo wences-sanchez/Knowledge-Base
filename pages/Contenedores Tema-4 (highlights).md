@@ -16,25 +16,30 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- Menciona tres ventajas de *Docker Compose* #flashcard
+		  id:: deda0fc7-e2a4-46c7-83a0-3aee68bcbe58
 			- Algunas de las ventajas de los servicios de Docker Compose son:   Permite el despliegue en el mismo host de múltiples entornos aislados de nuestra aplicación  multi  contenedor.  Cada  uno  de  estos  entornos  será  un  servicio  en Docker Compose con un nombre de proyecto asociado.   Al iniciar un servicio de Docker Compose se buscan ejecuciones anteriores de los contenedores manteniendo sus volúmenes de datos, de manera que no perdamos información.   Al reiniciar un servicio de Docker Compose, se reutilizan aquellos contenedores cuya  configuración  no  ha  sido  modificada,  recreando  únicamente  aquellos  que han sido modificados, acelerando así el reinicio.
 		- (Page 5)
 	- -
 	- -
 		- Nombra las secciones que tiene un fichero de Docker Compose #flashcard
+		  id:: 159ad1ab-69b8-4ba6-8d80-2a3ae09d3995
 			- Un fichero de Compose puede incluir las siguientes secciones a nivel raíz:   version. Indica la versión de Compose utilizada en el fichero.   services. Lista de servicios que componen nuestra aplicación.   volumes. Permite crear volúmenes que serán utilizados por los servicios.   networks. Permite crear volúmenes que serán utilizados por los servicios.
 		- (Page 7)
 	- -
 	- -
 		- En el siguiente ejemplo se muestra el contenido de un sencillo fichero de Compose en el que se definen dos servicios: version: '3' services: web: build: . ports: - "5000:5000" redis: image: "redis:alpine" #flashcard
+		  id:: 7a9f0b86-cc2c-446b-88f6-36695c12081d
 		- (Page 7)
 	- -
 	- -
 		- Sobre la opción expose de Docker Compose #flashcard
+		  id:: a18d968d-c77e-4127-8327-46c8fcc2737f
 			- La  opción  expose  permite  exponer  puertos  sin  publicarlos  en  el  host.  Solamente serían accesibles por los servicios enlazados. Veamos un par de formas de definirlos: expose: ["3000"] expose: - "3000" - "8000"
 		- (Page 9)
 	- -
 	- -
 		- sobrescribe a command. Las opciones command y entrypoint de Compose son equivalentes a las instrucciones CMD  y  ENTRYPOINT  de  los  Dockerfiles  que  ya  vimos.  Recordemos  que  entrypoint #flashcard
+		  id:: 8a293e8f-7487-4b01-80d8-aa799f3ea7db
 		- (Page 9)
 	- -
 	- -
@@ -45,6 +50,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Cómo se pueden definir variables de entorno en Docker Compose? #flashcard
+		  id:: 062cb10e-d5f1-4bef-9beb-26c052b2b404
 			- Existen  varias  formas  de  pasar  variables  de  entorno  a  los  contenedores  de  los servicios.  Podemos  utilizar  la  configuración  environment  para  indicar  una  lista  de variables  o  bien  la  configuración  env_file  para  múltiples  variables  de  entorno definidas en un fichero externo: $ cat ./Docker/api/api.env $ cat docker-compose.yml NODE_ENV=test version: '3' services: api: image: 'node:6-alpine' env_file: - ./Docker/api/api.env environment: - NODE_ENV=production
 		- (Page 10)
 	- -
@@ -56,6 +62,7 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Cómo puedo establecer **dependencias** entre servicios en **Docker Compose**? #flashcard
+		  id:: 47f8371e-6437-4dfc-b249-ee2918013962
 			- Para  establecer  dependencias  entre  servicios  utilizaremos  la  opción  depends_on, permitiendo que un servicio espere a que otros estén arrancados antes de empezar su ejecución. Veamos un ejemplo: services: web: build: . depends_on: - db - redis redis: image: redis db: image: postgres
 		- (Page 11)
 	- -
@@ -67,11 +74,13 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- ¿Cómo puedo llamar a un volumen para un servicio en **Docker Compose**? #flashcard
+		  id:: 32324ca3-3fb4-4f77-ba5d-0cc4ed042f8b
 			- Cuando referenciamos por nombre un volumen en la sección de los servicios, estos deben estar definidos en la sección volumes a nivel raíz del fichero de Compose. Esta sección nos permite la creación y definición de volúmenes asignado un nombre para poder ser referenciado en los servicios definidos. - datavolume:/var/lib/postgresql/data services: db: image: postgres volumes: volumes: datavolume: external:true
 		- (Page 12)
 	- -
 	- -
 		- Tabla 1. Comandos de Docker Compose para la gestión de servicios. Fuente: elaboración propia. #flashcard
+		  id:: c6f12c4c-10ba-46cc-8c2c-93a761034b18
 		- (Page 14)
 	- -
 	- -
@@ -81,11 +90,13 @@ tags:: Contenedores UNI
 	- -
 	- -
 		- <<<<<< #flashcard
+		  id:: e9e97855-d371-40bc-9eee-1bae6b45f7f8
 			- image: mongo
 		- (Page 16)
 	- -
 	- -
 		- INCLUIR IMAGEN #flashcard
+		  id:: 11f905b6-d66d-4a7d-906a-fbbca1cadde1
 			- La siguiente tabla describe las entradas y salidas de los comandos mencionados.
 		- (Page 23)
 	- -

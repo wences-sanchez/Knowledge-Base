@@ -8,6 +8,7 @@ url:: https://www.plesk.com/blog/various/nginx-configuration-guide/
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- What are Listening Ports?
+		  id:: 3385ebd2-98ec-4054-b335-4ec30a398a95
 		  
 		  The listen directive informs NGINX of the hostname/IP and TCP port, so it recognizes where it must listen for HTTP connections.
 		  
@@ -16,6 +17,7 @@ url:: https://www.plesk.com/blog/various/nginx-configuration-guide/
 	- -
 	- -
 		- What is Name-based Virtual Hosting?
+		  id:: ec5b8321-fc2c-4b8b-8d02-b2be5bc75281
 		  
 		  The server_name directive enables a number of domains to be served from just one IP address, and the server will determine which domain it will serve according to the request header received.
 		  
@@ -24,6 +26,7 @@ url:: https://www.plesk.com/blog/various/nginx-configuration-guide/
 	- -
 	- -
 		- What are Location Blocks?
+		  id:: 731fdb2d-daf7-43b5-ad54-a108c105829a
 		  
 		  NGINX’s location setting helps you set up the way in which NGINX responds to requests for resources inside the server. As the server_name directive informs NGINX how it should process requests for the domain, location directives apply to requests for certain folders and files (e.g. http://example.com/blog/.) .
 		  
@@ -40,6 +43,7 @@ url:: https://www.plesk.com/blog/various/nginx-configuration-guide/
 	- -
 	- -
 		- location / {
+		  id:: 32d86b7b-0806-459e-9b6c-07101bf8bc89
 		  
 		  root html;
 		  

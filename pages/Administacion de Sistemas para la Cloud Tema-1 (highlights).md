@@ -10,6 +10,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Explica la diferencia entre un entorno onsite y uno offsite #flashcard
+		  id:: 6619399d-0c1b-406d-8603-a68ae4b6244d
 			- Onsite tiende a referirse a una localización propia de la organización, frente a una ubicación offsite, a la que la organización tiene acceso por red. Un entorno offsite tradicional podía ser un centro de datos o una parte de un centro de datos subalquilado a un proveedor. En estos casos,  la  organización  cliente  podía  llegar  a  optar  por  administrar  los  servidores físicos y subcontratar el espacio y la electricidad.
 		- (Page 5)
 	- -
@@ -21,11 +22,13 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cómo podríamos tener la máxima disponibilidad de recursos en la nube? #flashcard
+		  id:: 72e89a95-0100-400a-a585-05772b382b29
 			- Esto  no  es  algo  que  pueda  lograrse  de forma automática por el mero hecho de utilizar la nube. Si bien es cierto que se podría pensar que al usar la nube no habrá caídas en los sistemas por fallos de hardware, no es  menos  cierto  que  las  máquinas  en  la  nube  a  veces  necesitan  ser  movidas  para tareas  de  mantenimiento  o  incluso  apagadas  por  parte  del  proveedor.  En  este escenario, muy cercano a la realidad, la única forma de garantizar el uptime es contar con mecanismos que permitan desplegar flotas de servidores autogestionados.
 		- (Page 7)
 	- -
 	- -
 		- Define flota. #flashcard
+		  id:: 7cf0637b-42e3-4853-bff8-404f03ac6840
 			- El concepto de flota se puede concretar en un grupo de autoescalado en AWS (Amazon Web Services) o en un despliegue en Kubernetes, por citar algunos.
 			  
 			  Los objetivos detrás de un grupo de servidores autogestionados son:
@@ -33,6 +36,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Un servidor,
+		  id:: 9c0864f8-4910-475d-a8b8-bf8ec20ce49c
 		  * ¿en qué se diferencia de un cliente?
 		  * ¿debería dicho servidor tener interfaz gráfica? #flashcard
 			- Los  sistemas  operativos  usados  como  servidores  no  son  muy diferente  de  los  que ejecutan  los  ordenadores  de  sobremesa  o  los  portátiles.  Ambos  tipos  tienen  un núcleo,  una  arquitectura  de  procesador  habitualmente  compatible  (por  ejemplo, x86), controladores de hardware y utilidades de software. Muchos de los ejemplos descritos pueden ejecutarse también en un entorno de escritorio sin cambio alguno. Sin embargo, una instalación de servidor suele tener dos características relevantes: solo  es  posible  interactuar  con  él  por  red  y  no  tiene  entorno  gráfico.  Un  DevOps deberá  escoger  herramientas  que  le  permitan  adaptarse  a  ambas  características. Como normal general, cuantas menos piezas tenga un sistema, menos pueden fallar. Si  los  servidores  no  tienen  una  pantalla  conectada,  ¿por  qué  no  obviar  el  sistema gráfico totalmente?
@@ -74,6 +78,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Define knowledge base. #flashcard
+		  id:: dd933fb2-123e-46d6-88b1-9e1592b082c4
 			- Tanto  la  comunicación  con  otros  equipos  como  la  interna  benefician  a  todas  las partes. Internamente, estar al tanto de lo que ocurre o de cómo se ha solucionado un  problema  puede  ayudar  en  futuros  problemas.  La  documentación  de  estas soluciones se suele llevar a cabo en un knowledge base (KB), o base o biblioteca de conocimiento.  Incluso,  algunas  organizaciones  publican  estos  KB  al  exterior  (bien públicamente o al menos a un sector interno más amplio que el propio equipo de IT), para facilitar la resolución proactiva de problemas.
 		- (Page 13)
 	- -

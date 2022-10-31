@@ -33,5 +33,6 @@ tags:: Literature
 	- -
 	- -
 		- De vegades, al moment de dir o de fer alguna cosa, m'he sorprès desitjant tenir un mirall per veure si el que deia o feia era encertat. Potser, al capdavall, aquell «i si?» sigui el preu més alt de l'emigració. Hi convius sempre. T'agafa desprevingut, t'encerta com una bala perduda. En qualsevol moment. Pot ser quan t'acotes per fer un petó al teu fill, o quan et fas el llit, o quan et trobes sol en una ciutat estrangera, a París, per exemple, i de sobte sents la fressa de les moreres de la plaça  Guizi d'Atenes. Saps que potser has viscut una vida equivocada. I que no hi pots fer res. Només esperar el moment en què la vida que vius sigui més present que la vida que no has viscut #flashcard
+		  id:: a096e000-b4b7-43a8-810a-96b4fbc75ab1
 		- (Page 19)
 	- -

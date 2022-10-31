@@ -8,6 +8,7 @@ url:: https://docs.python.org/3/library/unittest.html
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- How to tell Python a test is not yet implemented #flashcard
+		  id:: 433cb357-2fc7-422c-ae00-1dbfceea2882
 			- @unittest.skip("demonstrating skipping")
 			    def test_nothing(self):
 		- ([View Highlight](https://instapaper.com/read/1389016602/15572877))

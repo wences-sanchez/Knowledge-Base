@@ -16,10 +16,12 @@ tags:: O'Reilly-Learning
 	- Verifying the Ansible installation
 		- -
 			- [CODE] Display facts but with a filter: #flashcard
+			  id:: 8574f8eb-f3e0-4418-b545-4a9be737556c
 				- $ ansible frontends -i hosts -m setup -a "filter=ansible_distribution*"
 		- -
 		- -
 			- [CODE] Display facts about your inventory: #flashcard
+			  id:: a16cc2ec-cb7c-408c-b4b6-dd681b5e986e
 				- $ ansible frontends -i hosts -m setup | less
 		- -
 		- -

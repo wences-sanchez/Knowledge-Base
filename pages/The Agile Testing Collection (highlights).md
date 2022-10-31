@@ -13,10 +13,12 @@ category:: #books
 	- -
 	- -
 		- London #flashcard
+		  id:: 8caafc91-ee0d-4782-8bd0-3cc4c7284113
 		- ([Location 16](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=16))
 	- -
 	- -
 		- the number one success factor for agile testing, he answered: “Start doing it—today!” #flashcard
+		  id:: c2b78f71-1be0-416c-8bb8-ab02c26fc6fb
 		- ([Location 1060](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1060))
 	- -
 	- -
@@ -39,6 +41,7 @@ category:: #books
 	- -
 	- -
 		- On my first day of the project, Jonathan Rasmusson, one of the developers, came up to me and asked me why I was there. The team was practicing XP, and the programmers were practicing test-first and automating all their own tests. #flashcard
+		  id:: bafe8511-9293-4349-a7c0-a8d4f6645d5f
 		- ([Location 1303](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1303))
 	- -
 	- -
@@ -61,6 +64,7 @@ category:: #books
 	- -
 	- -
 		- Regardless of how a project or subset of a project gets started, you’ll need to get a high-level understanding of it. #flashcard
+		  id:: 0aab3764-39fd-4a62-b118-ff05f51b3099
 		- ([Location 1344](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1344))
 	- -
 	- -
@@ -70,6 +74,7 @@ category:: #books
 	- -
 	- -
 		- The focus of agile development is producing high-quality software in a time frame that maximizes its value to the business. #flashcard
+		  id:: ef159b45-709e-4b45-aee7-d0129408aa5b
 		- ([Location 1381](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1381))
 	- -
 	- -
@@ -82,6 +87,7 @@ category:: #books
 	- -
 	- -
 		- Your situation is unique. That’s why you need to be aware of the potential testing obstacles your team might face and how you can apply agile values and principles to overcome them. #flashcard
+		  id:: 1bd8bb12-3715-4e04-abaa-588d136f138a
 		- ([Location 1400](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1400))
 	- -
 	- -
@@ -94,10 +100,12 @@ category:: #books
 	- -
 	- -
 		- Good testers have an instinct and understanding for where and how software might fail, and how to track down failures. #flashcard
+		  id:: 19d4d689-d324-441d-a546-06619044b9ac
 		- ([Location 1449](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1449))
 	- -
 	- -
 		- Given that tests drive agile projects, it’s no surprise that feedback plays a big part in any agile team. #flashcard
+		  id:: 1aba51f0-903c-437a-a799-5d31a5f276af
 		- ([Location 1474](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=1474))
 	- -
 	- -
@@ -107,6 +115,7 @@ category:: #books
 	- -
 	- -
 		- difference between a test plan and a test strategy or approach. #flashcard
+		  id:: dea68ede-8b85-485f-ba59-c5f96ce3f801
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 2744](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=2744))
 	- -
@@ -118,6 +127,7 @@ category:: #books
 	- -
 	- -
 		- A strategy is a long-term plan of action, the key word being “long-term.” #flashcard
+		  id:: 87bcef7b-3a7c-4739-bf10-ff41504a50d2
 		- tags:: [[blue]] [[azul]]
 		- ([Location 2748](https://readwise.io/to_kindle?action=open&asin=B010BWL8CA&location=2748))
 	- -

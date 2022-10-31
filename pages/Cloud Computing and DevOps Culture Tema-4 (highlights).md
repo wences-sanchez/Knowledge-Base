@@ -19,6 +19,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- La emulación o imitación de hardware también es conocida como virtualización de metal desnudo (del inglés bare metal virtualization), para simbolizar el hecho de que ningún  software  se  encuentra  entre  hipervisor  y  el  «metal»del  servidor.  Como hemos  mencionado,  el  hipervisor  intercepta  las  llamadas  del  sistema  desde  la máquina virtual huésped y coordina el acceso al hardware subyacente directamente. I ) R N U i j (  a o R a L  e d   l a n o i c a n r e t n I  d a d i s r e v i n U © #flashcard
+		  id:: 930d2b3a-5bd0-42fd-8c8a-5e74b9355e71
 		- (Page 5)
 	- -
 	- -
@@ -27,6 +28,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- En la paravirtualización, el hipervisor reside en el hardware y, por lo tanto, esta se puede concebir como una arquitectura de virtualización de metal desnudo.Uno o más sistemas operativos huésped (equivalente a máquinas virtuales en virtualización de emulación del hardware) se ejecutan sobre el hipervisor. Un huésped privilegiado se ejecuta como una máquina virtualhuésped,pero tiene privilegios que le permiten acceder directamente a ciertos recursos en el hardware subyacente #flashcard
+		  id:: 1cbd0540-a3fe-49f0-8e01-dfd5b3063b47
 		- (Page 6)
 	- -
 	- -
@@ -54,6 +56,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Nombra algunos hipervisores de tipo 1 #flashcard
+		  id:: d736cb16-502c-46c1-beb0-fd807644fc90
 			- VMware ESX y ESXi Estos  hipervisores  ofrecen  funciones  avanzadas  y  escalabilidad,  pero  requieren licencia, por  lo que  los  costos  son  más  altos. VMware  ofrece  algunos  paquetes  de menor costo y pueden hacer que la tecnología de hipervisor sea más asequible para infraestructuras pequeñas. VMware es el líder en los hipervisores tipo 1. Su producto vSphere ESXi está disponible en una edición gratuita y en cinco ediciones comerciales. Microsoft Hyper-V El  hipervisor de Microsoft,  Hyper-V, no ofrece  muchas  de  las funciones  avanzadas que  ofrecen  los  productos  de  VMware.  Sin  embargo,  con  XenServer  y  vSphere, Hyper-V es uno de los tres principales hipervisores tipo 1. Se lanzó por primera vez con  Windows  Server,  pero  ahora,  Hyper-V  se  ha  mejorado  enormemente  con Windows Server 2012 Hyper-V. Hyper-V está disponible tanto en una edición gratuita (sin  GUI  y  sin  derechos  de  virtualización)  como  en  cuatro  ediciones  comerciales:
 		- (Page 8)
 	- -
@@ -86,11 +89,13 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Network Attached Storage (en siglas, NAS) #flashcard
+		  id:: 7baf5101-1173-42c2-a9f1-2d4dbd5912a8
 			- El almacenamiento conectado a la red, o NAS, es un dispositivo de almacenamiento que se encuentra en la propia red y ofrece almacenamiento a los servidores en la red. Permite  que múltiples  clientes,  como  usuarios  de PC  y servidores,  compartan archivos  a  través  de  una  red  de  área  local  (en  siglas,  LAN).  NAS  utiliza  archivos basados en protocolos como  Network File System (en siglas, NFS), Server Message Block  (en  siglas,  SMB)  o  Common  Internet  File  System  (en  siglas,  CIFS),  donde  el almacenamiento  es  remoto  y  las  ordenadoras  solicitan  un  archivo  en  lugar  de  un bloque de disco. El hecho de tener todos los archivos movidos a una única ubicación central hace que se simplifique la administración de estos. Es decir que, en lugar de tener  que  hacer  un  seguimiento  de  todos  los  archivos  repartidos  entre  docenas, cientos, o incluso miles de máquinas, todos los datos se encuentran en un lugar, lo que  permite  realizar  una  mejor  copia  de  seguridad,  archivado,  etc.  Una  de  las ventajas más acusadas del NAS es que está basado en Internet Protocol (en siglas, IP) y es fácil de usar, desplegar y gestionar. Los usos más comunes incluyen archivos de rápido almacenamiento para rich media, documentos y archivos de back-up y correo electrónico.
 		- (Page 12)
 	- -
 	- -
 		- Storage Area Network (en siglas, SAN) #flashcard
+		  id:: 45da545f-e330-4a57-a8d1-7a5c6c23f662
 			- Una red de área de almacenamiento, o SAN, es un dispositivo de almacenamiento (como una matriz de  discos o una biblioteca de cintas) accesible a los servidores para  que  los  dispositivos  puedan  permanecer  localmente  conectados  al  sistema operativo.  La  SAN,  normalmente,  tiene  su  propia  red  de  dispositivos  de almacenamiento  a  los  que  usualmente  no  se  puede  acceder  a  través  de  una  red ordinaria de dispositivos. Una SAN sola no proporciona la abstracción del «archivo» como en el caso de NAS, sino que solo provee operaciones a nivel de bloque. La mayoría de las SAN usan la conectividad del canal de fibra, del inglés Fibre Channel Connectivity  (en  siglas,  FC),  una  tecnología  de  red  especialmente  diseñada  para gestionar comunicaciones de almacenamiento, o Internet SCSI (en siglas, iSCSI), que es un estándar de red basado en IP para vincular dispositivos de almacenamiento. Las empresas utilizan almacenamiento este tipo de almacenamiento para centralizar la  gestión  de  los  datos  corporativos.  Los  usos  comunes  de  una  SAN  incluyen  el aprovisionamiento de datos de acceso transaccional que requieren acceso a nivel de bloque de alta velocidad a los discos duros de almacenamiento, tales como servidores de correo electrónico, bases de datos y servidores de archivos de acusado uso.
 		- (Page 13)
 	- -
@@ -106,6 +111,7 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- La virtualización de aplicaciones es una separación de la ejecución del programa y de la visualización de este.En otras palabras, un programa como Microsoft Word se ejecuta en un servidor ubicado en el centro de datos, pero la salida gráfica se envía a un  dispositivo  cliente  remoto.  El  usuario  final  ve  la  pantalla  gráfica  completa  del programa y puede interactuar con él a través del teclado y el ratón. #flashcard
+		  id:: 72f21e82-cfb7-48a6-926c-282a0746b7b7
 		- (Page 15)
 	- -
 	- -
@@ -119,5 +125,6 @@ tags:: Cloud-Computing-and-DevOps-Culture UNI
 	- -
 	- -
 		- Esta  forma  de  entrada  y  salida  de  virtualización  cliente  está  comenzando  a explorarse, pero es muy prometedora para los entornos donde la disponibilidad de conectividad de red de alta velocidad es incierta. Por ejemplo, cuando alguien trabaja de  forma  remota  desde  casa,  puede  que  no  esté  claro  si  su  conexión  es  lo suficientemente  sólida  como  para  permitir  la  virtualización  de  aplicaciones  o  la virtualización  de  escritorio  tradicional.  En  estos  casos,  una  única  descarga  del escritorio a un dispositivo cliente puede ser una buena opción. #flashcard
+		  id:: 1400b21e-29fe-4f47-8203-4e77f67d1ffc
 		- (Page 17)
 	- -

@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- For some, the stress of the event will become chronic, lasting for years. #flashcard
+		  id:: c2de7647-aea6-4b50-a62a-2e7247686d20
 		- ([Location 72](https://readwise.io/to_kindle?action=open&asin=B009GEY7WI&location=72))
 	- -
 	- -

@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- XXIX Caminante, son tus huellas el camino, y nada más; caminante, no hay camino, se hace camino al andar. #flashcard
+		  id:: 1f75db8f-9254-4ef5-83c1-28d8adc46348
 		- ([Location 1688](https://readwise.io/to_kindle?action=open&asin=B08BJF6X6P&location=1688))
 	- -
 	- -

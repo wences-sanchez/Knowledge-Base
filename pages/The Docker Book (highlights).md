@@ -10,11 +10,13 @@ tags:: Docker O'Reilly-Learning
 	- 1 Introduction
 		- -
 			- Talk about Docker's running mechanisms.
+			  id:: d91fcde0-a3f4-454f-a2f7-1992969ce9f5
 			  [](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9780988820203/files/media/file0.png) #flashcard
 				- Docker is a client-server application. The Docker client talks to the Docker server or daemon, which, in turn, does all the work. You’ll also sometimes see the Docker daemon called the Docker Engine. Docker ships with a command line client binary, docker, as well as a full RESTful API to interact with the daemon: dockerd. You can run the Docker daemon and client on the same host or connect your local Docker client to a remote daemon running on another host. You can see Docker’s architecture depicted here:
 		- -
 		- -
 			- Docker's technical components: #flashcard
+			  id:: f3b62fc2-45eb-45ef-9687-acfedbc779f3
 				- A native Linux container format that Docker calls libcontainer.
 				  Linux kernel namespaces, which provide isolation for filesystems, processes, and networks.
 				  
@@ -30,10 +32,12 @@ tags:: Docker O'Reilly-Learning
 	- 2 Installing Docker
 		- -
 			- Docker for Mac and Docker for Windows are a collection of components that installs everything you need to get started with Docker. It includes a tiny virtual machine shipped with a wrapper script to manage it. The virtual machine runs the daemon and provides a local Docker daemon on OS X and Microsoft Windows. The Docker client binary, docker, is installed natively on these platforms and connected to the Docker daemon running in the virtual machine. It replaces the legacy Docker Toolbox and Boot2Docker. #flashcard
+			  id:: 2075a7da-316a-405d-b8d5-46d834f246c2
 		- -
 	- 3 Getting Started with Docker
 		- -
 			- By default, when we run just docker ps, we will only see the running containers. When we specify the -a flag, the docker ps command will show us all containers, both stopped and running. #flashcard
+			  id:: 30461b8e-ff45-4c7c-8ff6-3e9b075b9514
 		- -
 		- -
 			- How can you name a container? #flashcard
@@ -51,6 +55,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- How can you make a daemon of a container? #flashcard
+			  id:: 712ab634-89c6-464e-a181-bcab1cb15533
 				- $ sudo docker run --name daemon_dave -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"
 				  1333bb1a66af402138485fe44a335b382c09a887aa9f95cb9725e309ce5b7db3
 				  
@@ -58,6 +63,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- How can you inspect the logs of a container named daemon_dave? #flashcard
+			  id:: e90cab37-c663-4172-a8c4-73812c802784
 				- see what’s happening. To do so, we can use the docker logs command. The docker logs command fetches the logs of a container.
 				  
 				  $ sudo docker logs daemon_dave
@@ -76,6 +82,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- To make debugging a little easier, we can also add the -t flag to prefix our log entries with timestamps.
+			  id:: 91555211-b884-4b20-abc4-9cb4f7097c84
 			  
 			  $ sudo docker logs -ft daemon_dave
 			  2016-08-02T03:31:16.743679596Z hello world
@@ -83,21 +90,26 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- How can you run the command `touch /etc/new_config_file` inside the already-running container named daemon_dave? #flashcard
+			  id:: 82abfc86-abcd-4322-9587-b109f4e076da
 				- $ sudo docker exec -d daemon_dave touch /etc/new_config_file
 		- -
 		- -
 			- How can you terminate a container named daemon_dave? #flashcard
+			  id:: c5504991-935e-4687-a0ff-afae96bc3fc0
 				- $ sudo docker stop daemon_dave
 		- -
 		- -
 			- In addition to the information we retrieved about our container using the docker ps command, we can get a whole lot more information using the docker inspect command. #flashcard
+			  id:: 027cfbad-3b0e-453e-80e3-0c00b7db2198
 		- -
 	- 4 Working with Docker images and repositories
 		- -
 			- This pattern is traditionally called “copy on write” and is one of the features that makes Docker so powerful. Each read-only image layer is read-only; this image never changes. When a container is created, Docker builds from the stack of images and then adds the read-write layer on top. That layer, combined with the knowledge of the image layers below it and some configuration data, form the container. As we discovered in the last chapter, containers can be changed, they have state, and they can be started and stopped. This, and the image-layering framework, allows us to quickly build images and run containers with our applications and services. #flashcard
+			  id:: 9bee91b6-d01a-46a7-8195-90d1a71b19f5
 		- -
 		- -
 			- Let’s get started with Docker images by looking at what images are available to us on our Docker host. We can do this using the docker images command. #flashcard
+			  id:: d3e5a7de-501e-4afc-af2c-c3205bcee8cc
 		- -
 		- -
 			- We identify each image inside that repository by what Docker calls tags. Each image is being listed by the tags applied to it, so, for example, 12.04, 12.10, quantal, or precise and so on. Each tag marks together a series of image layers that represent a specific image (e.g., the 18.04 tag collects together all the layers of the Ubuntu 18.04 image). This allows us to store more than one image inside a repository.
@@ -132,10 +144,12 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- What are, basically, Docker images? #flashcard
+			  id:: e07d7d89-d478-4ded-97f0-664e1bfc9e94
 				- A Docker image is made up of filesystems layered over each other. At the base is a boot filesystem, bootfs, which resembles the typical Linux/Unix boot filesystem. A Docker user will probably never interact with the boot filesystem.
 		- -
 		- -
 			- How do the tiers work in Docker?
+			  id:: 71b871e6-9904-4c63-8337-affe4491f072
 			  [](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9780988820203/files/media/file2.png) #flashcard
 				- In a more traditional Linux boot, the root filesystem is mounted read-only and then switched to read-write after boot and an integrity check is conducted. In the Docker world, however, the root filesystem stays in read-only mode, and Docker takes advantage of a union mount to add more read-only filesystems onto the root filesystem. A union mount is a mount that allows several filesystems to be mounted at one time but appear to be one filesystem. The union mount overlays the filesystems on top of one another so that the resulting filesystem may contain files and subdirectories from any or all of the underlying filesystems.
 				  
@@ -145,6 +159,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- What instruction must be the first in a Dockerfile? #flashcard
+			  id:: 743bc048-6832-40a0-b45f-3fcd5671cbde
 				- The first instruction in a Dockerfile must be FROM. The FROM instruction specifies an existing image that the following instructions will operate on; this image is called the base image.
 		- -
 		- -
@@ -153,10 +168,12 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- We’ve used the docker build command to build our new image. We’ve specified the -t option to mark our resulting image with a repository and a name, here the jamtur01 repository and the image name static_web. I strongly recommend you always name your images to make it easier to track and manage them. #flashcard
+			  id:: c05a21d6-609d-4ae7-8310-36b58169f037
 				- $ sudo docker build -t="jamtur01/static_web:v1" .
 		- -
 		- -
 			- The docker run command will open a random port on the Docker host that will connect to port 80 on the Docker container. #flashcard
+			  id:: bdc6eaf3-0d27-4d06-a9c6-ed544831732a
 		- -
 		- -
 			- What is WORKDIR used for in Dockerfile? #flashcard
@@ -165,6 +182,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- How could you specify a user in a Dockerfile? #flashcard
+			  id:: a6add13f-460a-4c7d-8417-92d944000936
 				- The USER instruction specifies a user that the image should be run as; for example:
 				  
 				  USER nginx
@@ -173,6 +191,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- Volume features in Docker #flashcard
+			  id:: 8a8934e2-0edb-4495-abac-7933fc56ff3a
 				- A volume is a specially designated directory within one or more containers that bypasses the Union File System to provide several useful features for persistent or shared data:
 				  
 				    Volumes can be shared and reused between containers.
@@ -188,6 +207,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- The ADD instruction adds files and directories from our build environment into our image; for example, when installing an application. The ADD instruction specifies a source and a destination for the files, like so:
+			  id:: b937483b-c0a8-4796-bda2-9c6f815d3717
 			  
 			  ADD software.lic /opt/application/software.lic
 			  
@@ -197,6 +217,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- The ARG instruction defines variables that can be passed at build-time via the docker build command. This is done using the --build-arg flag. You can only specify build-time arguments that have been defined in the Dockerfile.
+			  id:: 9788e27e-4eef-4cd0-adde-da400f4ffbf3
 			  
 			  ARG build
 			  ARG webapp_user=user
@@ -209,6 +230,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- If you are trying to unzip something or you are dealing with a URL, then you must use ADD instead of COPY #flashcard
+			  id:: 85299798-5c14-487f-ac3d-d940d7f24f0c
 				- The COPY instruction is closely related to the ADD instruction. The key difference is that the COPY instruction is purely focused on copying local files from the build context and does not have any extraction or decompression capabilities.
 				  
 				  COPY conf.d/ /etc/apache2/
@@ -219,6 +241,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- The difference is that CMD doesn't allow additional arguments to the creation command, but allows replacing the command itself.
+			  id:: b36491a2-a5a0-4fc3-8ed8-f98e6c75060a
 			  On the opposite, ENTRYPOINT does allow additional arguments, but you can't replace it.
 			  
 			  But RUN always does the magic!!! #flashcard
@@ -226,13 +249,16 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- When you insert an ONBUILD, it triggers **all** the instructions that are executed in that moment to the client dockerfile. #flashcard
+			  id:: 27afe858-a7ea-4aa0-9a1f-90d8cc2089e0
 				- The ONBUILD instruction adds triggers to images. A trigger is executed when the image is used as the basis of another image (e.g., if you have an image that needs source code added from a specific location that might not yet be available, or if you need to execute a build script that is specific to the environment in which the image is built).
 		- -
 		- -
 			- NOTE We call it the Ubuntu operating system, but really it is not the full operating system. It’s a cut-down version with the bare runtime required to run the distribution. #flashcard
+			  id:: c2a12725-7df9-481d-95d2-d73112570a6b
 		- -
 		- -
 			- The CMD instruction specifies the command to run when a container is launched. It is similar to the RUN instruction, but rather than running the command when the container is being built, it will specify the command to run when the container is launched, much like specifying a command to run when launching a container with the docker run command #flashcard
+			  id:: 9e32f12b-9f87-4326-8145-45bb40f9ba33
 		- -
 	- 5 Testing with Docker
 		- -
@@ -245,6 +271,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- To use Docker networks we first need to create a network and then launch a container inside that network.
+			  id:: 282a74ba-53b6-4cf2-b8f4-b19bda1190eb
 			  
 			  $ sudo docker network create app
 			  ec8bc3a70094a1ac3179b232bc185fcda120dad85dec394e6b5b01f7006476d4
@@ -254,6 +281,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- To use Docker networks we first need to create a network and then launch a container inside that network.
+			  id:: 30faab93-e9eb-41c0-a88e-a722125f76d3
 			  
 			  $ sudo docker network create app
 			  ec8bc3a70094a1ac3179b232bc185fcda120dad85dec394e6b5b01f7006476d4
@@ -263,6 +291,7 @@ tags:: Docker O'Reilly-Learning
 		- -
 		- -
 			- TIP In addition to bridge networks, which exist on a single host, we can also create overlay networks, which allow us to span multiple hosts. You can read more about overlay networks in the Docker multi-host network documentation. #flashcard
+			  id:: d1ca3480-521e-45f8-846c-64822cc191e7
 		- -
 		- -
 			- You can list all current networks using the docker network ls command.

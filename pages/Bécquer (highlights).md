@@ -7,6 +7,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Todo el mundo siente.
+		  id:: 7a8aa8be-5dda-488a-877e-1b00343b6791
 		  
 		  Solo a algunos seres les es dado el guardar, como un tesoro, la memoria viva de lo han sentido.
 		  
@@ -24,6 +25,7 @@ category:: #books
 	- -
 	- -
 		- Era una de las estatuas del claustro derruido ..
+		  id:: 9d850ed1-de3d-49ce-8c04-b1686204dcae
 		  
 		  escultura arrancada de un pedestal y arrimada al muro que me había recostado, yacía allí cubierta de polvo y medio condida entre el follaje, junto a la rota losa de un sepulcro val que y el capitel de una columna. Más allá, a lo lejos, y veladas por lae penumbras y la oscuridad de las extensas bóvedas, se distingufan confusamente algunas otras imágenes: vírgenes con sus palmas v sus nimbos, monjes con sus báculos y sus capuchas, eremitas con sus cruces, mártires con sus emblemas y sus aureolas sus libros toda una generación de granito, silenciosa e inmóvil, pero en cuyos rostros había grabado el cincel la huella del ascetismo y una expresión de beatitud y serenidad inefables.
 		  

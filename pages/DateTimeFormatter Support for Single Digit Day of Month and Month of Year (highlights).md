@@ -8,6 +8,7 @@ url:: https://stackoverflow.com/questions/27571377/datetimeformatter-support-for
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- . #flashcard
+		  id:: 592744b4-014a-4bec-b0df-59b303f01379
 			- DateTimeFormatter formatter = new DateTimeFormatterBuilder()
 			            .appendOptional(DateTimeFormatter.ofPattern("M/dd/yyyy"))
 			            .toFormatter();

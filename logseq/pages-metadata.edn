@@ -274,7 +274,7 @@
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1667213203097,
-  :block/updated-at 1667213203719}
+  :block/updated-at 1667213528419}
  {:block/name "aws elastic beanstalk",
   :block/created-at 1665138467036,
   :block/updated-at 1665138467036}
@@ -1064,8 +1064,8 @@
   :block/updated-at 1665484207335}
  {:block/name
   "highlights first synced of aws certified cloud practitioner exam guide by [[readwise]] [[tuesday, 25-10-2022]]",
-  :block/created-at 1666890149792,
-  :block/updated-at 1666890545159}
+  :block/created-at 1667213586221,
+  :block/updated-at 1667213586221}
  {:block/name
   "highlights from aws certified cloud practitioner exam guide [[readwise]] [[wednesday, 26-10-2022]]",
   :block/created-at 1666802016900,

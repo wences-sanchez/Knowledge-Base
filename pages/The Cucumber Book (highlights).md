@@ -10,6 +10,7 @@ tags:: O'Reilly-Learning
 	- Data Tables
 		- -
 			- Feature​:
+			  id:: 64f21c00-c1e5-476c-9955-af109751702c
 			  ​ 	  ​Scenario​:
 			  ​ 	    ​Given a board like this​:
 			  ​ 	      |   | 1 | 2 | 3 |
@@ -26,6 +27,7 @@ tags:: O'Reilly-Learning
 	- Scenario Outline
 		- -
 			- Once you have a scenario outline with a few examples, it’s very easy to think of more examples, and even easier to add them. Before you know it, you have a huge, very comprehensive table of examples—and a problem.
+			  id:: bb128a52-e5e1-4367-a8e6-98fd1d34e8f6
 			  
 			  Why?
 			  
@@ -38,6 +40,7 @@ tags:: O'Reilly-Learning
 	- Working Together
 		- -
 			- Let’s rewrite the scenario without the passwords:
+			  id:: 4c6d989d-d03a-4392-bb8c-dbb84707618f
 			  
 			  ​ 	​Scenario​: Check inbox
 			  ​ 	  Given a User ​"Dave"​
@@ -55,12 +58,14 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Cucumber has to be a declarative language #flashcard
+			  id:: 4ca3c984-c7f0-460c-9164-800c6d36e2a3
 				- In computer programming, there are two contrasting styles for expressing the instructions you give to a computer to make it do something for you. These styles are called imperative programming and declarative programming.
 				  
 				  Imperative programming means using a sequence of commands for the computer to perform in a particular order. Ruby is an example of an imperative language: you write a program as a series of statements that Ruby runs one at a time, in order. A declarative program tells the computer what it should do without prescribing precisely how to do it. CSS is an example of a declarative language: you tell the computer what you want the various elements on a web page to look like, and you leave it to take care of the rest.
 		- -
 		- -
 			- Tienes que escribir el qué, no el cómo! #flashcard
+			  id:: c0d34c99-645a-4df9-ac96-55acdcee7719
 				- Scenario​: Redirect user to originally requested page after logging in
 				  ​ 	  Given I am an unauthenticated User
 				  ​ 	  When I attempt to view some restricted content
@@ -71,6 +76,7 @@ tags:: O'Reilly-Learning
 		- -
 		- -
 			- Puedes enlazar varios tests con un mismo step!!! #flashcard
+			  id:: 3d23ce76-bab6-4c7d-97b6-f42f0d9efa76
 				- It’s true that using declarative style will mean you have to write more step definitions, but you can keep the code in those step definitions short
 		- -
 	- Caring for Your Tests
@@ -83,6 +89,7 @@ tags:: O'Reilly-Learning
 	- 7. Step Definitions: On the Inside
 		- -
 			- How is Cucumber used in the real life? #flashcard
+			  id:: d1e90621-22fb-462d-b116-b21c53127c6d
 				- Now we’re going to pick up this scenario and work outside-in, designing the system as we go, just as we would on a real project
 		- -
 	- Sketching Out the Domain Model
@@ -94,6 +101,7 @@ tags:: O'Reilly-Learning
 	- Removing Duplication with Transforms
 		- -
 			- Transform(​/^\d+$/​) ​do​ |number|
+			  id:: 6238d548-dd04-4c9c-aebb-ed497ca6fe96
 			  ​ 	  number.to_i
 			  ​ 	​end​ #flashcard
 		- -

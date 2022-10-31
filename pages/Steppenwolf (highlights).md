@@ -8,6 +8,7 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- I often dream of him at night, and the mere existence of such a man, much as I got to like him, has had a thoroughly disturbing and disquieting effect on me. #flashcard
+		  id:: 4e44b5ef-72c4-4c5e-b599-0fea81e1f4ae
 		- tags:: [[blue]] [[azul]]
 		- ([Location 92](https://readwise.io/to_kindle?action=open&asin=B00AQUTONI&location=92))
 	- -

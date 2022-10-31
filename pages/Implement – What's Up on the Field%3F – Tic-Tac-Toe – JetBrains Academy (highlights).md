@@ -8,6 +8,7 @@ url:: https://hyperskill.org/learn/step/6224
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- About Dynamic typing in .python #flashcard
+		  id:: 4937a4cb-8391-420c-bc14-4ac58e0340d3
 			- Dynamic vs. Static typingPython is a dynamically and strongly typed language. Dynamic typing means that only runtime objects (values) have a type, but not the variables that store them. You are able to store several values of different types in a single variable during your code execution and no errors will occur.
 			  
 			  The following code is totally valid:
@@ -18,6 +19,7 @@ url:: https://hyperskill.org/learn/step/6224
 	- -
 	- -
 		- About Strong typing in .python #flashcard
+		  id:: abcbf080-ad07-4eb9-bbeb-ac59fdb3feeb
 			- Strong vs. Weak typingStrong typing means that implicit type conversions don't happen. For example, even though "125" consists only of digits it's a string. To use it in arithmetic operations you need to change its type to an integer or another numerical type. Trying to use it as is leads to a TypeError.
 			  
 			  >>> "125" + 10...TypeError: can only concatenate str (not "int") to str
@@ -32,6 +34,7 @@ url:: https://hyperskill.org/learn/step/6224
 	- -
 	- -
 		- About Type Casting in .python #flashcard
+		  id:: b7c4d815-7a04-4f31-bc2c-84b3341ff3fd
 			- Explicit type castingThe process of converting a value to another type is also called type casting. Though implicit type casting isn't allowed in Python you will often find yourself in need to define an explicit type conversion within your code. This happens a lot when you work with the user's input.
 			  
 			  Imagine, you asked a user to provide an age that you will later use in some calculations. To convert a string to integer type you can use the built-in int function.

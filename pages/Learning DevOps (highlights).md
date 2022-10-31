@@ -21,11 +21,13 @@ tags:: O'Reilly-Learning
 	- Implementing CI
 		- -
 			- When does CI start? #flashcard
+			  id:: 9bb98aca-9e52-4848-a4fa-9706c824c300
 				- This integration of all the commits is the starting point of the CI process.
 		- -
 	- Continuous delivery (CD)
 		- -
 			- What is important in Continuous Delivery (not deployment)? #flashcard
+			  id:: 87924d9f-583d-4669-96ce-27035bee1e9c
 				- What is important in a CD process is that the deployment to the production environment, that is, to the end user, is triggered manually by approved users
 		- -
 	- Continuous deployment

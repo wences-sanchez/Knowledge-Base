@@ -16,15 +16,18 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- En  este  modelo  de  despliegue,  todos  los  roles  de  servidor  se  basan  en  una  única imagen maestra (o unas pocas, en caso de necesitar diferentes sistemas operativos o  distribuciones  para  diferentes  roles).  La  configuración  del  rol  ocurre  durante  el arranque  de  la  instancia  mediante  la  ejecución  de  un  script  a  partir  de  algún mecanismo concreto: user data en AWS, extensiones de máquina virtual de Azure o herramientas con Ansible o Puppet. Una posible actualización de una aplicación de la versión 1.0 a la versión 1.1 con este modelo seguiría estos pasos:   Una  vez  completados  los  pasos  generales,  los  binarios  o  los  paquetes  de actualización, se etiquetan con el número de versión 1.1.   Se modifican los scripts de despliegue para hacer referencia a los paquetes de la versión 1.1.   Todas las instancias desplegadas a partir de este momento ejecutarían los scripts para instalar la versión 1.1, pero las instancias ya desplegadas siguen en la versión 1.0. En un grupo de autoescalado, en el que pueden aparecer instancias nuevas en cualquier  momento,  se  podría  llegar  a  una  situación  con  instancias  en  ambas versiones simultáneamente.   Idealmente,  las  instancias  en  la  versión  1.0  se  destruyen  y  son  sustituidas  por instancias  nuevas,  que  tendrán la  versión  1.1.  Esta  sustitución  ocurre paulatinamente en un  rolling update. Para que una sustitución paulatina pueda ocurrir,  ambas  versiones  deben  poder  convivir, incluso  aunque  sea momentáneamente.  De  lo  contrario,  pueden  aparecer  problemas  con  los esquemas de las bases de datos u otras configuraciones. Si no pueden convivir, es probable  que  sea  necesaria  una  actualización  en  bloque  en  la  que  habrá  un intervalo sin servicio. #flashcard
+		  id:: bed9e5ba-bbd9-4dd7-aa5f-e10c3ebb860a
 		- (Page 6)
 	- -
 	- -
 		- Explica el modelo de despliegue basado en instancias #flashcard
+		  id:: e73612d3-ae6a-405f-8bf8-28485b5eb809
 			- v
 		- (Page 6)
 	- -
 	- -
 		- CONTINUE #flashcard
+		  id:: 635a5e39-a0b8-4eb2-ae0a-988bcebbab8b
 			- En ambos casos, es habitual que las instancias estén detrás de un balanceador de carga que solo dirige tráfico a las instancias que pasan una llamada de prueba o healthcheck (que puede ser, por ejemplo, una petición REST a una ruta diseñada expresamente para validar que la instancia funciona bien). No todas las instancias tienen por qué alojar un servidor web: un servicio que se alimente de una cola de mensajes  puede  evitar  la  llamada  de  healthcheck,  ya  que  el  propio  servicio  no recogerá mensajes hasta que no esté listo para hacerlo. Se podría pensar que se podrían aplicar los scripts de la versión 1.1 en las instancias con  la  versión 1.0 para evitar un  despliegue  completo.  Este enfoque  es  realmente más  parecido  al  tradicional,  en  el  que  se  aplican  parches  sobre  un  servidor indefinidamente.
 		- (Page 7)
 	- -
@@ -42,6 +45,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- Sysprep (Krause, 2019) es una herramienta que prepara el sistema para el clonado, aplicando un proceso llamado generalización. Su nombre oficial es Herramienta de preparación  del  sistema  de  Microsoft.  En  resumen,  permite  crear  una  imagen maestra de un servidor que puede reutilizarse tantas veces como sea necesario para desplegar servidores adicionales. #flashcard
+		  id:: 1653c7e4-7df5-490d-ad9d-03840c525a48
 		- (Page 10)
 	- -
 	- -
@@ -52,11 +56,13 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
 	- -
 	- -
 		- ¿Cuáles son las fases para preparar una imagen maestra con Sysprep? #flashcard
+		  id:: 8c67d29a-fc82-48ce-ab02-0b60ea873949
 			- Las fases para preparar una imagen maestra con Sysprep son las siguientes:   Instalación del sistema operativo en un nuevo servidor.   Configuración y actualización.   Ejecución de Sysprep y apagado del servidor.   Creación de imagen maestra del disco duro.   Clonado del disco para desplegar nuevos servidores.
 		- (Page 11)
 	- -
 	- -
 		- ¿Qué hace el comando generalize de Sysprep? #flashcard
+		  id:: d5050de9-a39d-4124-9d48-b0ccb8268e15
 			- /generalize: Sysprep eliminará toda la información única del sistema (SID) de la instalación de Windows, haciendo que la imagen final sea utilizable en múltiples máquinas, ya que cada nuevo servidor creado a partir de la imagen obtendrá un SID nuevo único.
 		- (Page 12)
 	- -

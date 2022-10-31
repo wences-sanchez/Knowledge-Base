@@ -22,11 +22,13 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿A qué se considera un servidor en el modelo cliente-servidor? #flashcard
+		  id:: 02190cb2-bcfc-4a99-a6ff-8522a1296252
 			- En  el  modelo  cliente-servidor,  cualquier  proceso  puede  actuar  como  servidor  o cliente. No es el tipo o tamaño de la máquina, ni sus especificaciones de hardware, lo que lo convierten en servidor, sino su capacidad de atender las peticiones de los procesos cliente. Un sistema puede actuar simultáneamente como servidor y cliente. Es decir, uno de sus procesos está actuando como servidor, y otro está actuando como cliente. Tanto cliente como servidor pueden residir en la misma máquina. Dos procesos en el modelo cliente-servidor pueden interactuar de varias maneras:   Llamada a procedimiento remoto (Remote Procedure Calls o RPC).   Sockets.
 		- (Page 6)
 	- -
 	- -
 		- ¿Qué es un socket? #flashcard
+		  id:: b4ae6eb4-8522-44f0-90ba-ca84be593438
 			- Un socket es un objeto en la pila de protocolos de red del sistema operativo al que se entregan los paquetes recibidos por el host y dirigidos al socket, identificado por el número de puerto. El segundo proceso, actuando como cliente, también abre un socket, pero, en lugar de esperar una solicitud entrante, envía paquetes a través de dicho socket. Cuando llega la petición al servidor, esta es dirigida al socket y atendida por el proceso.
 		- (Page 6)
 	- -
@@ -38,11 +40,13 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Qué es SMTP? #flashcard
+		  id:: 0856933b-2b67-474e-885d-2811919f8829
 			- El protocolo de transferencia de correo simple (SMTP) se utiliza para el intercambio de mensajes de correo electrónico entre un cliente y un servidor, o entre servidores (IETF,  s.  f.).  En  un  cliente  de  escritorio,  un  agente  de  la  aplicación  se  encarga  de gestionar el envío al servidor mediante SMTP, mientras que el usuario final utiliza SMTP solo para enviar los correos electrónicos, los servidores normalmente utilizan SMTP tanto para enviar como para recibir correos.
 		- (Page 14)
 	- -
 	- -
 		- +++ #flashcard
+		  id:: 6ff5c1e5-6058-4c75-a724-c95f5d60bd22
 			- La recepción de correos en los clientes se suele llevar a cabo con POP o IMAP.
 		- (Page 15)
 	- -
@@ -54,11 +58,13 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Para qué se usa el protocolo POP? #flashcard
+		  id:: 52768ab9-1a97-4791-a85a-28b47c0aa3de
 			- Aunque los clientes de correo usan SMTP para el envío de mensajes, usan POP (Post Office Protocol) para la descarga de mensajes nuevos. IMAP es otro protocolo que también permite el envío y la recepción.
 		- (Page 16)
 	- -
 	- -
 		- +++ #flashcard
+		  id:: 64018c1e-3b31-4580-8429-6a8bffdfc25d
 			- El protocolo funciona sobre el puerto TCP 110. En el modo delete, el servidor borra los mensajes una vez descargados por el cliente. En el modo keep, tanto el servidor como el cliente mantienen los mensajes, hasta que el usuario los borra.
 		- (Page 17)
 	- -
@@ -75,20 +81,24 @@ tags:: SecDevOps UNI
 	- -
 	- -
 		- ¿Cuáles son los códigos más comunes de HTTP? #flashcard
+		  id:: 6e20c10c-cedf-4cc2-80ad-aebbde6bd419
 			- pu
 		- (Page 21)
 	- -
 	- -
 		- Network Time Protocol (NTP), es un protocolo de sincronización de reloj. Un equipo puede fijar su reloj local tras una petición a un servidor, sin necesidad de intervención del usuario. Funciona a través de redes con una latencia variable. #flashcard
+		  id:: 7d3044e7-cc8a-4d98-990d-f94bfa2b1ca6
 		- (Page 28)
 	- -
 	- -
 		- ¿Para qué se usa NTP? #flashcard
+		  id:: 2affde5d-3777-45f5-909b-72e36d573c87
 			- d
 		- (Page 28)
 	- -
 	- -
 		- Criptografía asimétrica Estos algoritmos también se conocen como de clave pública. Resuelven el problema del  intercambio  de  claves  definiendo  un  algoritmo  que  usa  dos  claves  (conocidas como key pair o pareja de claves), cada una de las cuales puede usarse para cifrar un mensaje. Cuando  se  cifra  un  mensaje  con  una  de  las  claves,  hay  que  usar  la  otra  para descifrarlo. Los usuarios ya no tienen  que compartir una misma clave, sino que es suficiente que compartan una de las dos claves. Siguiendo con el ejemplo anterior, si el  usuario  A  quiere  que  solo  el  usuario  B  lea  el  contenido  del  mensaje,  cifrará  el mensaje  con  la  clave  pública  de  B.  Es  decir,  B  siempre  compartirá  la  misma  clave, considerada pública, con cualquier usuario de quien necesite recibir mensajes. Deberá mantener la otra clave, la privada, en secreto. Esta clave privada será la única que permite descifrar los mensajes cifrados con la clave pública de B. No hace falta compartir la clave pública por un canal seguro, hay otras implicaciones a la hora de compartir esta clave. #flashcard
+		  id:: fa03ee8e-a70b-4d86-aece-d4cfe10331c0
 		- (Page 31)
 	- -
 	- -

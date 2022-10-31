@@ -8,6 +8,7 @@ url:: https://stackoverflow.com/questions/7124778/how-can-i-match-anything-up-un
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- How do you build a regex that eat everything until one character? #flashcard
+		  id:: ed367a40-4815-4f84-8484-4926aab2b984
 			- You didn't  specify which flavor  of regex  you're using, but  this will
 			  work in any of the most popular ones that can be considered "complete".
 			  

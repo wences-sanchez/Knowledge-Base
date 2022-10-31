@@ -13,10 +13,12 @@ category:: #books
 	- -
 	- -
 		- Patrick Debois is a software developer and consultant with experience in many fields within IT. He was frustrated with the divide between developers and operations personnel. #flashcard
+		  id:: 8b6ba772-d750-40e7-b803-56912e11b457
 		- ([Location 325](https://readwise.io/to_kindle?action=open&asin=B07BJKRXXK&location=325))
 	- -
 	- -
 		- In light of this, DevOps can be said to relate to the first principle, Individuals and interactions over processes and tools. #flashcard
+		  id:: 1d0ee3eb-a08d-49a9-92c7-c4aaabcd0b15
 		- tags:: [[blue]] [[azul]]
 		- ([Location 336](https://readwise.io/to_kindle?action=open&asin=B07BJKRXXK&location=336))
 	- -

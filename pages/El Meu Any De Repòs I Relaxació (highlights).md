@@ -9,12 +9,14 @@ tags:: Literature
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- -No soc una ionqui ni res d'això li deia jo a la defensiva.
+		  id:: 5e1c31d4-c53d-45ba-a211-1ccb3c0abbd1
 		  
 		  M'estic prenent un descans. Aquest és el meu any de repòs i relaxació. Quina sort que tens-va dir la Reva-. A mi no m'importaria agafarme una temporada de descans de la feina. per fer el ronsa, mirar pel·lícules i dormitar tot el dia, però no em queixo. No m'ho puc permetre. #flashcard
 		- (Page 20)
 	- -
 	- -
 		- . Llavors es va girar cap a mi. Intentava envalentir-se per fer contacte visual amb l'enemic. Li podia veure la por als ulls, com si els hagués clavat en un forat negre dins del qual podia caure.
+		  id:: 2ca55a40-e5b4-4359-8c81-c78f81cabf3a
 		  
 		  Com a mínim jo m'esforço per canviar i per anar al darrere de les coses que vull -va dir ella-. A banda de dormir, tu què vols, a la vida?
 		  
@@ -28,6 +30,7 @@ tags:: Literature
 	- -
 	- -
 		- -Tots tenim les nostres maneres de combatre l'estrès-va dir, i va continuar xerrant sobre els beneficis dels comportaments habituals. Ho va descriure com «un mètode per calmar-se un mateix»-. Com la meditació.Jo vaig badallar; la trobava insofrible. Dormir en tot moment no farà pas que et trobis més bé -va dir-. Perquè mentre dorms no canvies res. Només evites els teus problemes.
+		  id:: 79b750d8-4126-458d-abc1-aef447ffc3cc
 		  
 		  -Quins problemes?
 		  
@@ -41,6 +44,7 @@ tags:: Literature
 	- -
 	- -
 		- Vaig intentar no escoltar-la-. "El teu problema és que ets passiva. Et dediques a esperar que canviïn les coses, i no canviaran mai. Ha de ser dolorós, viure així. Molt incapacitant-va dir, i va fer un rot." #flashcard
+		  id:: 41b802b4-e5cc-4c9a-a334-1fdd8e56ce7b
 		- (Page 80)
 	- -
 	- -
@@ -50,10 +54,12 @@ tags:: Literature
 	- -
 	- -
 		- Aquell dia vaig mirar la cinta una vegada i una altra per tranquil·litzar-me.
+		  id:: 8d061569-9f31-434b-9eea-ba21c8d5d5aa
 		  
 		  I encara la miro, normalment alguna tarda que em sento sola, o en qualsevol altre moment que dubto que valgui la pena viure, o quan em fa falta coratge, o quan estic avorrida. Cada vegada que veig la dona que salta de la planta setanta-vuit de la Torre Nord-una sabata de taló que li llisca fora del peu i plana per sobre d'ella, l'altra encastada al peu com si li anés petita, la brusa per fora, els cabells tots agitats, els membres rígids mentre cau en picat, un braç alçat com quan saltes en un llac un dia d'estiu-, l'astorament em supera, no pas perquè s'assembla a la Reva i jo penso que és ella, gairebé clavada a ella, ni tampoc perquè la Reva i jo havíem estat amigues, ni perquè ja no la tornaré a veure més, sinó perquè és molt bonica. Es un ésser humà que s'endinsa en l'inconegut, i està plenament conscient #flashcard
 		- (Page 279)
 	- -
 	- -
 		- jo em sentia alleujada i irritada alhora, tal com et sentiries si t'interrompessin a mig suïcidi. No era pas que els meus actes fossin un suïcidi. En realitat eren el contrari d'un suïcidi. La meva hibernació era una qüestió de supervivència. Pensava que em salvaria la vida. #flashcard
+		  id:: 9111057c-d4a7-4db8-8b29-a79f74a50c11
 	- -

@@ -8,11 +8,13 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- Selenium is a set of tools for automating browsers. #flashcard
+		  id:: 5a6c1e69-1153-4943-95fd-6e75895d0051
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 316](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=316))
 	- -
 	- -
 		- Selenium 3.0 offers three important tools, Selenium WebDriver, Selenium Server, and Selenium IDE. Each of these tools provides features to create, debug, and run tests on supported browsers #flashcard
+		  id:: 85af3bc9-062d-4e40-af05-dad6a186712d
 		- tags:: [[blue]] [[azul]]
 		- ([Location 429](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=429))
 	- -
@@ -24,6 +26,7 @@ category:: #books
 	- -
 	- -
 		- Selenium Server allows us to run tests on browser instances running on remote machines and in parallel, #flashcard
+		  id:: 55c65149-6cad-4232-88db-6a215409f52f
 		- tags:: [[blue]] [[azul]]
 		- ([Location 445](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=445))
 	- -
@@ -35,10 +38,12 @@ category:: #books
 	- -
 	- -
 		- The Selenium IDE for Firefox stopped working after the Firefox 55 moved to the WebExtension format from XPI format and it is currently no longer maintained. #flashcard
+		  id:: e3274281-5311-40ea-bb2f-3982f047cbe0
 		- ([Location 455](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=455))
 	- -
 	- -
 		- Apache Maven provides support for managing the life cycle of a test project. Maven is used to define the project structure, dependencies, build, and test-management. #flashcard
+		  id:: a514456a-8f31-4d97-a9a7-edbfd1ad68bf
 		- tags:: [[blue]] [[azul]]
 		- ([Location 481](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=481))
 	- -
@@ -51,11 +56,13 @@ category:: #books
 	- -
 	- -
 		- A web page is composed of many different types of HTML elements, such as links, textboxes, dropdown buttons, a body, labels, and forms. These are called WebElements in the context of WebDriver. #flashcard
+		  id:: 74955dbd-1b81-4c9d-ad60-efae8e166e9a
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 574](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=574))
 	- -
 	- -
 		- UI-automation using Selenium is mostly about locating these WebElements on a web page and executing user actions on them. #flashcard
+		  id:: a02d10a2-0e20-48c2-ab2e-6c0b7b1457e4
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 601](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=601))
 	- -
@@ -67,26 +74,31 @@ category:: #books
 	- -
 	- -
 		- There are eight different ways to locate a WebElement on a web page. #flashcard
+		  id:: 7f407db3-4594-434f-926e-605699ab0f52
 		- tags:: [[blue]] [[azul]]
 		- ([Location 644](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=644))
 	- -
 	- -
 		- The method declaration of the findElements() method is as follows: java.util.List findElements(By by) #flashcard
+		  id:: 9f01e403-ef66-4dfd-b80c-232a32a2424f
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 652](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=652))
 	- -
 	- -
 		- There are eight different locating mechanisms; that is, eight different ways to identify an HTML element on a web page. They are located by ID, Name, ClassName, TagName, LinkText, PartialLinkText, XPath, and CSS Selector. #flashcard
+		  id:: 022f7c36-5b8f-4b62-bed7-06b739da80a0
 		- tags:: [[blue]] [[azul]]
 		- ([Location 695](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=695))
 	- -
 	- -
 		- driver.findElement(By.id("search")); #flashcard
+		  id:: 6c7d0143-3685-4511-8642-454da0de101a
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 707](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=707))
 	- -
 	- -
 		- driver.findElement(By.name("q")); #flashcard
+		  id:: ddcad60c-5c85-48d9-b051-7b2e5693883c
 		- tags:: [[orange]] [[naranja]]
 		- ([Location 731](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=731))
 	- -
@@ -99,6 +111,7 @@ category:: #books
 	- -
 	- -
 		- As the name suggests, the By.linkText locating mechanism can only be used to identify the HTML links. #flashcard
+		  id:: b3fa36e5-a4a9-49af-b3e3-6b6e774cda64
 		- tags:: [[pink]] [[rosa]]
 		- ([Location 768](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=768))
 	- -

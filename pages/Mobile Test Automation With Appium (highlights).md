@@ -16,6 +16,7 @@ tags:: O'Reilly-Learning
 	- Appium architecture
 		- -
 			- What is Appium? #flashcard
+			  id:: e59a6f56-32b5-4346-aedf-0969432ec8bb
 				- Appium is basically a web server written in Node.js. The server performs actions in the given order:
 				  
 				  Receives connection from client and initiates a session

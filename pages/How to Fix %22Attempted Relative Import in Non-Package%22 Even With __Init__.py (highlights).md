@@ -8,6 +8,7 @@ url:: https://stackoverflow.com/questions/11536764/how-to-fix-attempted-relative
 - Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
 	- -
 		- About relative imports in Python modules and packages .python #flashcard
+		  id:: cf3c7585-70c6-4cc3-b406-8411637f13ae
 			- It depends on how you want to launch your script.
 			  
 			  If you want to launch your UnitTest from the command line in a classic way, that is:

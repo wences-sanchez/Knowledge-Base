@@ -35,21 +35,22 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 			-
 -
 - ## Tema 2: Beneficios y consideraciones de la nube
-	- ![image.png](../assets/image_1667236714098_0.png)
-	- ### Alta disponibilidad
-		- Nos aseguramos de una redundancia para que nuestras aplicaciones nunca se caigan en el caso de errores.
-			- Si tenemos solo un servidor y hay un desastre natural, lógicamente, nuestra aplicación *crasheará*
-			- Si tenemos un servicio de un proveedor que nos brinda diferentes zonas en diferentes puntos de la geografía, los clientes serán redirigidos a otro servidor secundario.
-	- ### Escalabilidad
-		- Es la propiedad que tienen los sistemas de crecer vertical u horizontalmente.
-	- ### Agilidad
-		- Podemos disponer de forma casi inmediata (o dejar de disponer) de una gran cantidad de recursos
-		- Reduce el **Time To Market**
-	- ### Elasticidad
-		- Un sistema elástico es un sistema capaz de reaccionar a distintos **cambios** en la carga **automáticamente** y escalar a más o a menos.
-	- ### Tolerancia a fallos y Disaster Recovery
-		- Si una aplicación se destruye, podemos recuperarnos de esos fallos gracias a la nube
-		-
+	- ### Beneficios del uso de la nube
+		- ![image.png](../assets/image_1667236714098_0.png)
+		- ### Alta disponibilidad
+			- Nos aseguramos de una redundancia para que nuestras aplicaciones nunca se caigan en el caso de errores.
+				- Si tenemos solo un servidor y hay un desastre natural, lógicamente, nuestra aplicación *crasheará*
+				- Si tenemos un servicio de un proveedor que nos brinda diferentes zonas en diferentes puntos de la geografía, los clientes serán redirigidos a otro servidor secundario.
+		- ### Escalabilidad
+			- Es la propiedad que tienen los sistemas de crecer vertical u horizontalmente.
+		- ### Agilidad
+			- Podemos disponer de forma casi inmediata (o dejar de disponer) de una gran cantidad de recursos
+			- Reduce el **Time To Market**
+		- ### Elasticidad
+			- Un sistema elástico es un sistema capaz de reaccionar a distintos **cambios** en la carga **automáticamente** y escalar a más o a menos.
+		- ### Tolerancia a fallos y Disaster Recovery
+			- Si una aplicación se destruye, podemos recuperarnos de esos fallos gracias a la nube
+			-
 	- ### Tipos de gastos
 		- #### Gastos de capital (CapEx)
 			- El gasto inicial de dinero que invertimos en la infraestructura física a utilizar.
@@ -60,12 +61,12 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 		-
 	- ### Modelo basado en consumo
 		- Solo pagamos por los recursos que utilizamos.
-			- Por ejemplo, si compramos un servidor, no podemos hacerlo desaparecer y no mantenerlo si solo lo tenemos encendido un intervalo de horas.
-			- Si alquilamos servidores virtuales, podemos no pagar nada por el tiempo que no los usemos, simplemente.
+			- Por ejemplo, si compramos un servidor, no podemos *hacerlo desaparecer* y no mantenerlo si solo lo tenemos encendido un intervalo de horas.
+			- Si alquilamos servidores virtuales, podemos *no pagar nada* por el tiempo que no los usemos, simplemente.
 		- Tenemos una mejor predicción de costes
 			- Las empresas saben de antemano cuánto les va a costar tener X servidores con Y recursos al céntimo.
 			- Esto es brutal para las empresas.
 		- Precios para recursos y servicios de forma individualizada.
 		- Facturación basada en uso real.
-			- No pagan por las horas que no han utilizado los recursos
+			- No pagan por las horas que no han utilizado los recursos.
 		-

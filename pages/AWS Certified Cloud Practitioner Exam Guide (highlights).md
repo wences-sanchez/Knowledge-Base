@@ -37,10 +37,8 @@ tags:: AWS O'Reilly-Learning
 			- **4).** Increase speed and agility: Cloud vendors such as AWS enable you to launch and configure new IT resources in a few mouse clicks—for example, you can provision a new fleet of servers for your developers within minutes, allowing your organization to exponentially increase its agility in building infrastructure and launching applications
 			-
 			- **5).** Stop spending money running and maintaining data centers: Hosting your own on-premises infrastructure consumes several hidden costs. In addition to using up precious capital to purchase expensive hardware, you also need a team of engineers to efficiently configure every infrastructure component and lease necessary real estate to rack, stack, and then power up your servers. You would also be required to keep the servers cool with appropriate air-conditioning systems—and that's not all. You would also have to spend money on expensive maintenance contracts to handle the wear and tear of the hardware.
-			- 6th advantage of cloud computing #flashcard
-			  id:: b8f3bace-7417-44c8-b426-31dc3d10e1a9
-				-
-				- Go global in minutes: AWS host their data centers in various regions across the globe. Although you may be based in one country, you will have complete access to all regions. This will help you offer lower latency and a superior customer experience, regardless of where your customers are located. Hosting copies of your resources in additional regions can also help you design for disaster recovery (DR) and business continuity requirements.
+			-
+			- **6).** Go global in minutes: AWS host their data centers in various regions across the globe. Although you may be based in one country, you will have complete access to all regions. This will help you offer lower latency and a superior customer experience, regardless of where your customers are located. Hosting copies of your resources in additional regions can also help you design for disaster recovery (DR) and business continuity requirements.
 		- -
 		- -
 		- What is a hypervisor? #flashcard
@@ -93,10 +91,12 @@ tags:: AWS O'Reilly-Learning
 			  Many companies that venture into the public cloud generally start with some form of hybrid model. Often, businesses will move/migrate services to the public cloud to reduce CAPEX investment as they opt for a pay-as-you-go model for the consumption of IT services. An example of this is where companies may need to increase the number of servers deployed for their applications, and rather than procuring more expensive physical hardware, they can set up network connectivity between on-premises infrastructure and the public cloud provider
 		- -
 	- Chapter 2: Introduction to AWS and the Global Infrastructure
-	  collapsed:: true
 		- -
-		- Amazon Storage Gateway—This enables users to connect their on-premises storage with Amazon S3, offering different gateway options designed to enable offloading of their storage data to Amazon S3. They will continue to have seamless connectivity to that data from their on-premises servers. Depending on the configuration option chosen, Amazon Storage Gateway can maintain a small subnet of frequently accessed data locally, with the bulk of that data in Amazon S3, reducing the total storage hardware needed on premises, which leads to lower capital costs. Alternatively, if on-premises applications are extremely sensitive to network latency, then the Amazon Storage Gateway service can provide data backup capabilities, with the ability to send snapshots of locally stored data to Amazon S3. #flashcard
+		- **Amazon Storage Gateway**  #flashcard
 		  id:: fc59951d-9112-4ed2-8433-6d716549abc1
+			- — This enables users to connect their **on-premises storage** with **Amazon S3**, offering different **gateway options** designed to enable **offloading** of their storage data to **Amazon S3**.
+			- They will continue to have **seamless connectivity** to that data from their on-premises servers. Depending on the configuration option chosen, Amazon Storage Gateway can maintain a small subnet of **frequently accessed data** locally, with the bulk of that data in Amazon S3, reducing the total storage hardware needed on premises, which leads to lower capital costs.
+			- Alternatively, if on-premises applications are extremely sensitive to **network latency**, then the Amazon Storage Gateway service can provide **data backup capabilities**, with the ability to **send snapshots of locally stored data** to Amazon S3.
 		- -
 	- Chapter 13: Management and Governance on AWS
 	  collapsed:: true
@@ -378,6 +378,7 @@ tags:: AWS O'Reilly-Learning
 			  id:: 45d1616c-9199-4f31-bcf0-bea430227b3e
 		- -
 	- Chapter 8: AWS Database Services
+	  collapsed:: true
 		- -
 			- About relational and non-relational databases #flashcard
 			  id:: b3345a26-530b-4e77-a8c9-69dc0c36dc69
@@ -398,6 +399,7 @@ tags:: AWS O'Reilly-Learning
 			  id:: 0d8e8783-86bd-4ec0-a2ad-a17eb9d98a8d
 		- -
 	- Chapter 9: High Availability and Elasticity on AWS
+	  collapsed:: true
 		- -
 			- Explain the *Reliability* pilar of the **Well-Architected Framework** #flashcard
 			  id:: 59d764dc-bf12-4188-9999-5a5b28e17ded
@@ -439,6 +441,7 @@ tags:: AWS O'Reilly-Learning
 				  Next, you must always try to adopt a consumption model. If you are running development and test servers that only going to be used for 8 hours a day, Monday to Friday, it makes sense to consider procuring those EC2 instances using the On-Demand pricing option. You should then ensure that those servers stopped outside of normal business hours for a potential cost saving of up to 75%
 		- -
 	- Chapter 14: Implementing Security in AWS
+	  collapsed:: true
 		- -
 			- Where possible, AWS always recommends considering opting for managed versions of their products and services rather than adopting a data center mindset management approach. For example, if you require a MySQL database solution, it makes sense to opt for Amazon RDS rather than to provision EC2 instances and deploy the MySQL database software on those instances. #flashcard
 			  id:: 0ccde540-2327-4aef-b7fc-51548df8773e
@@ -455,6 +458,7 @@ tags:: AWS O'Reilly-Learning
 				  Amazon Detective can extract time-based events such as logins, network traffic from AWS CloudTrail and Amazon VPC Flow Logs, as well as ingesting your GuardDuty findings. Amazon Detective then helps by producing visualizations using the information that's been ingested, which can help you identify resource behaviors over time and interactions between those resources, ultimately assisting in identifying the root cause of your security issues.
 		- -
 	- Chapter 15: Billing and Pricing
+	  collapsed:: true
 		- -
 			- About data transfers inside or across regions:  #flashcard
 			  id:: 16eb96a8-182f-43a5-aa9e-3a93b9ef2ed2

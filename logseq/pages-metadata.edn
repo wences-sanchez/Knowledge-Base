@@ -1545,7 +1545,7 @@
   :block/updated-at 1665484160872}
  {:block/name "monday, 31-10-2022",
   :block/created-at 1667209353630,
-  :block/updated-at 1667230431660}
+  :block/updated-at 1667231402444}
  {:block/name "my knowledge path",
   :block/created-at 1665484231603,
   :block/updated-at 1665484231603}
@@ -2759,7 +2759,10 @@
   :block/updated-at 1667230425513}
  {:block/name "unir/curso azure/módulo-0",
   :block/created-at 1667230425508,
-  :block/updated-at 1667230727289}
+  :block/updated-at 1667231006147}
+ {:block/name "unir/curso azure/módulo-1",
+  :block/created-at 1667231398298,
+  :block/updated-at 1667232919223}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

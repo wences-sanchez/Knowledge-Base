@@ -6,7 +6,9 @@ tags:: UNIR, Azure
 	- ## Tema 1: Modelos de nube
 		- ### 1.2 Computación en la nube
 			- #### Definición de computación en la nube #flashcard
-				- El término **computación en la nube** o **informática en la nube** es la prestación de servicios informáticos a través de Internet, lo que permite disponer de recursos de forma flexible a precios modulables y acelerar la innovación.
+				- El término **computación en la nube** o **informática en la nube** es la prestación de servicios informáticos **a través de Internet**, lo que permite disponer de recursos de forma flexible a precios modulables y acelerar la innovación.
+				- Al final, la nube no deja de ser un conjunto de centros de datos accesibles por Internet que tienen en su interior una gran cantidad de servidores físicos que, gracias a la virtualización, permiten alojar muchas máquinas virtuales y almacenar discos y proveer su análisis.
+				- Si una empresa invierte en un servidor físico, tendrá que hacer frente a unos costos fijos los cuales suponen, por ejemplo, mantenerlos en unas instalaciones y refrigerarlos. Si quisiera escalar sus recursos para crecer o para hacer frente a un pico
 			- #### Modelos de implementación de nube
 				- **Nube pública**:
 					- Los **recursos**, tales como servidores o almacenamiento, son **propiedad del proveedor de servicios en la nube** que los explota y distribuye a través de Internet.

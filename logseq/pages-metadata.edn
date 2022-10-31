@@ -274,7 +274,7 @@
  {:block/name
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1667213203097,
-  :block/updated-at 1667220063070}
+  :block/updated-at 1667221654172}
  {:block/name "aws elastic beanstalk",
   :block/created-at 1665138467036,
   :block/updated-at 1665138467036}
@@ -881,6 +881,9 @@
  {:block/name "flashcard",
   :block/created-at 1665484163100,
   :block/updated-at 1665484163100}
+ {:block/name "flashcstop",
+  :block/created-at 1667221084275,
+  :block/updated-at 1667221084275}
  {:block/name "friday, 02-09-2022",
   :block/created-at 1665484159489,
   :block/updated-at 1665484159489}
@@ -1066,10 +1069,6 @@
   "highlights first synced of aws certified cloud practitioner exam guide by [[readwise]] [[tuesday, 25-10-2022]]",
   :block/created-at 1667213586221,
   :block/updated-at 1667213586221}
- {:block/name
-  "highlights from aws certified cloud practitioner exam guide [[readwise]] [[wednesday, 26-10-2022]]",
-  :block/created-at 1666802016900,
-  :block/updated-at 1666802018659}
  {:block/name "historia de dos ciudades (highlights)",
   :block/created-at 1667213027927,
   :block/updated-at 1667213028544}

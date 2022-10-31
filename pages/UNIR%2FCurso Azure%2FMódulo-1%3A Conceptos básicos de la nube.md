@@ -35,4 +35,6 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 			-
 -
 - ## Tema 2: Beneficios y consideraciones de la nube
-	-
+	- ![image.png](../assets/image_1667236714098_0.png)
+	- ### Alta disponibilidad
+		- Nos aseguramos de una redundancia para que nuestras aplicaciones nunca se caigan ni en el caso de

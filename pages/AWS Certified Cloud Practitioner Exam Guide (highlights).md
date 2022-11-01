@@ -99,6 +99,7 @@ tags:: AWS O'Reilly-Learning
 			- Alternatively, if on-premises applications are extremely sensitive to **network latency**, then the Amazon Storage Gateway service can provide **data backup capabilities**, with the ability to **send snapshots of locally stored data** to Amazon S3.
 		- -
 	- Chapter 13: Management and Governance on AWS
+		- tags::
 		- -
 		- What are the 5 categories that **AWS Trusted Advisor** shows? #flashcard
 		  id:: bf13c021-3ec2-4b95-965a-ae2096cabe14

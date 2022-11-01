@@ -54,3 +54,11 @@ category:: #books
 			- Figure 2.25: Example VLAN in a hospital #flashcard
 			  id:: 480bac35-9cff-4d38-b4fd-1d284c2e2a78
 		- -
+- New highlights added [[Tuesday, 01-11-2022]] at 12:53 PM
+	- Digital Subscriber Line
+		- -
+			- Similar to ISDN, Digital Subscriber Line (DSL) provides a means of transmitting digital signals across the existing telephone network. Again a modem is required, but unlike ISDN a digital to analog conversion does take place. Although the data being transmitted is now an analog signal, both data and voice communications can take place simultaneously as the data is being transmitted at a higher frequency than the voice communications. Common forms of DSL are Asymmetric DSL (ADSL) and Symmetric DSL (SDSL):
+			  
+			  ADSL: Most homes utilized ADSL, so this became synonymous with the term DSL. ADSL offers a faster download speed than upload speed. This made sense at the time. Most home users would only be downloading from the internet, even if this was just web pages, and the only uploads they would be doing were the commands from their devices to pull those websites down.
+			  SDSL: SDSL was more the domain of organizations, as this was a dedicated line, and therefore more expensive. As can probably be deduced from its name, SDSL could upload and download at the same speed. #flashcard
+		- -

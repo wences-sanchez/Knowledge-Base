@@ -99,7 +99,6 @@ tags:: AWS O'Reilly-Learning
 			- Alternatively, if on-premises applications are extremely sensitive to **network latency**, then the Amazon Storage Gateway service can provide **data backup capabilities**, with the ability to **send snapshots of locally stored data** to Amazon S3.
 		- -
 	- Chapter 13: Management and Governance on AWS
-	  collapsed:: true
 		- -
 		- What are the 5 categories that **AWS Trusted Advisor** shows? #flashcard
 		  id:: bf13c021-3ec2-4b95-965a-ae2096cabe14
@@ -197,9 +196,8 @@ tags:: AWS O'Reilly-Learning
 				- ![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/Table_2.1.jpg)
 		- -
 		- -
-		- What is the functionality of the **AWS Service Health Dashboard** (not Personal)?
+		- What is the functionality of the **AWS Service Health Dashboard** (not Personal)? #flashcard
 		  id:: efaee544-b935-4c98-9061-a2925168703b
-		  INCLUIR IMAGEN #flashcard
 			- AWS publishes service health status across all data centers located in its various Regions. This is the first place you should consider investigating if a service appears to be non-responsive. AWS offers SLAs for its various service offerings
 			- ![Figure 2.7 – AWS Service Health Dashboard. Image courtesy of AWS (https://status.aws.amazon.com/)](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781801075930/files/image/B17124_02_07.jpg)
 			-

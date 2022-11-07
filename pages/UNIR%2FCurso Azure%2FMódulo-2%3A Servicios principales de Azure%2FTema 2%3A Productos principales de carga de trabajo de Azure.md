@@ -27,6 +27,13 @@ tags:: UNIR, Azure
 	- ### Servicios de red
 		- ![image.png](../assets/image_1667824113488_0.png)
 		-
+	- ### Servicios de almacenamiento
+		- ![image.png](../assets/image_1667824254083_0.png)
+		-
+	- ### Servicios de bases de datos
+		- ![image.png](../assets/image_1667824503063_0.png)
+		- Es PaaS porque no tenemos acceso a la infraestructura subyacente.
+		-
 		-
 		-
 		- ##

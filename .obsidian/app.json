@@ -1,1 +1,8 @@
-{}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "pages",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "assets",
+  "fileSortOrder": "byModifiedTime"
+}

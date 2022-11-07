@@ -38,6 +38,7 @@
   :block/created-at 1665484162659,
   :block/updated-at 1665484162659}
  {:block/name "\"introduction to containers w",
+<<<<<<< HEAD
   :block/created-at 1660315062268,
   :block/updated-at 1660315062268}
  {:block/name
@@ -50,6 +51,17 @@
  {:block/name "'reilly-learning",
   :block/created-at 1667810331959,
   :block/updated-at 1667810331959}
+=======
+  :block/created-at 1665484214500,
+  :block/updated-at 1665484214500}
+ {:block/name
+  "\"introduction to containers w/ docker, kubernetes & openshift\"",
+  :block/created-at 1665484214498,
+  :block/updated-at 1665484214498}
+ {:block/name "# tema 2: facturación y economía en la nube",
+  :block/created-at 1665484162723,
+  :block/updated-at 1665484162723}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "(nop)",
   :block/created-at 1667209373298,
   :block/updated-at 1667209373298}
@@ -60,6 +72,7 @@
   :block/created-at 1667209368523,
   :block/updated-at 1667209368523}
  {:block/name "12-factor apps",
+<<<<<<< HEAD
   :block/created-at 1658825284556,
   :block/updated-at 1658825284556}
  {:block/name "2",
@@ -86,10 +99,21 @@
  {:block/name "2022_08_05-debian-laptop",
   :block/created-at 1667810304236,
   :block/updated-at 1667810304236}
+=======
+  :block/created-at 1665484172284,
+  :block/updated-at 1665484172284}
+ {:block/name "2",
+  :block/created-at 1667209368526,
+  :block/updated-at 1667209368526}
+ {:block/name "2022_08_05 2",
+  :block/created-at 1665484160620,
+  :block/updated-at 1665484160620}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "2022_08_06 2",
-  :block/created-at 1660315975883,
-  :block/updated-at 1660315975883}
+  :block/created-at 1665484160545,
+  :block/updated-at 1665484160545}
  {:block/name "2022_08_07 2",
+<<<<<<< HEAD
   :block/created-at 1660315976488,
   :block/updated-at 1660315976488}
  {:block/name "2022_08_08-debian-laptop",
@@ -104,6 +128,10 @@
  {:block/name "2022_11_07-debian-laptop",
   :block/created-at 1667820464759,
   :block/updated-at 1667820464759}
+=======
+  :block/created-at 1665484160492,
+  :block/updated-at 1665484160492}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "3",
   :block/created-at 1667209368528,
   :block/updated-at 1667209368528}
@@ -123,6 +151,7 @@
   "5. waits — selenium python bindings 2 documentation (highlights)",
   :block/created-at 1667212870605,
   :block/updated-at 1667212871203}
+<<<<<<< HEAD
  {:block/name "5/ waits — selenium python bindings 2 documentation",
   :block/created-at 1667471517011,
   :block/updated-at 1667471517011}
@@ -130,6 +159,8 @@
   "5/ waits — selenium python bindings 2 documentation-debian-laptop",
   :block/created-at 1667820762317,
   :block/updated-at 1667820762317}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "6",
   :block/created-at 1667209368532,
   :block/updated-at 1667209368532}
@@ -140,11 +171,16 @@
   :block/created-at 1660316566295,
   :block/updated-at 1660316566295}
  {:block/name "62f6461c-f1b4-4b0b-bd96-bf4458c0af3b",
-  :block/created-at 1660316565941,
-  :block/updated-at 1660316565941}
+  :block/created-at 1665484213615,
+  :block/updated-at 1665484213615}
  {:block/name "62f66ba7-794b-4605-a7dc-145760843477",
+<<<<<<< HEAD
   :block/created-at 1660375167178,
   :block/updated-at 1660375167178}
+=======
+  :block/created-at 1665484203782,
+  :block/updated-at 1665484203782}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "999999",
   :block/created-at 1667209365652,
   :block/updated-at 1667209365652}
@@ -155,8 +191,13 @@
   :block/created-at 1665484231675,
   :block/updated-at 1665484231675}
  {:block/name "a",
+<<<<<<< HEAD
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+=======
+  :block/created-at 1665484256318,
+  :block/updated-at 1665484256318}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "acloudguru",
   :block/created-at 1665484162114,
   :block/updated-at 1665484162114}
@@ -166,14 +207,18 @@
  {:block/name "across-the-net",
   :block/created-at 1667210467791,
   :block/updated-at 1667210467791}
+<<<<<<< HEAD
  {:block/name "administacion de sistemas para la cloud tema-1",
   :block/created-at 1667471530826,
   :block/updated-at 1667471530826}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "administacion de sistemas para la cloud tema-1 (highlights)",
   :block/created-at 1667213045512,
   :block/updated-at 1667213046116}
  {:block/name
+<<<<<<< HEAD
   "administacion de sistemas para la cloud tema-1-debian-laptop",
   :block/created-at 1667820665480,
   :block/updated-at 1667820665480}
@@ -181,10 +226,13 @@
   :block/created-at 1667471531264,
   :block/updated-at 1667471531264}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "administración de sistemas para la cloud tema-10 (highlights)",
   :block/created-at 1667213085300,
   :block/updated-at 1667213085895}
  {:block/name
+<<<<<<< HEAD
   "administración de sistemas para la cloud tema-10-debian-laptop",
   :block/created-at 1667820655632,
   :block/updated-at 1667820655632}
@@ -192,10 +240,13 @@
   :block/created-at 1667471531760,
   :block/updated-at 1667471531760}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "administración de sistemas para la cloud tema-2 (highlights)",
   :block/created-at 1667213046636,
   :block/updated-at 1667213047226}
  {:block/name
+<<<<<<< HEAD
   "administración de sistemas para la cloud tema-2-debian-laptop",
   :block/created-at 1667820691647,
   :block/updated-at 1667820691647}
@@ -203,10 +254,13 @@
   :block/created-at 1667471532257,
   :block/updated-at 1667471532257}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "administración de sistemas para la cloud tema-3 (highlights)",
   :block/created-at 1667213047874,
   :block/updated-at 1667213048487}
  {:block/name
+<<<<<<< HEAD
   "administración de sistemas para la cloud tema-3-debian-laptop",
   :block/created-at 1667820652330,
   :block/updated-at 1667820652330}
@@ -214,10 +268,13 @@
   :block/created-at 1667471532616,
   :block/updated-at 1667471532616}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "administración de sistemas para la cloud tema-4 (highlights)",
   :block/created-at 1667213049702,
   :block/updated-at 1667213050294}
  {:block/name
+<<<<<<< HEAD
   "administración de sistemas para la cloud tema-4-debian-laptop",
   :block/created-at 1667820592740,
   :block/updated-at 1667820592740}
@@ -225,10 +282,13 @@
   :block/created-at 1667471533175,
   :block/updated-at 1667471533175}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "administración de sistemas para la cloud tema-5 (highlights)",
   :block/created-at 1667213050742,
   :block/updated-at 1667213051343}
  {:block/name
+<<<<<<< HEAD
   "administración de sistemas para la cloud tema-5-debian-laptop",
   :block/created-at 1667820550928,
   :block/updated-at 1667820550928}
@@ -236,10 +296,13 @@
   :block/created-at 1667471534136,
   :block/updated-at 1667471534136}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "administración de sistemas para la cloud tema-6 (highlights)",
   :block/created-at 1667213068980,
   :block/updated-at 1667213069578}
  {:block/name
+<<<<<<< HEAD
   "administración de sistemas para la cloud tema-6-debian-laptop",
   :block/created-at 1667820573033,
   :block/updated-at 1667820573033}
@@ -247,10 +310,13 @@
   :block/created-at 1667471534481,
   :block/updated-at 1667471534481}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "administración de sistemas para la cloud tema-7 (highlights)",
   :block/created-at 1667213070416,
   :block/updated-at 1667213070996}
  {:block/name
+<<<<<<< HEAD
   "administración de sistemas para la cloud tema-7-debian-laptop",
   :block/created-at 1667820577060,
   :block/updated-at 1667820577060}
@@ -271,10 +337,22 @@
  {:block/name "advanced software testing - vol",
   :block/created-at 1667471535041,
   :block/updated-at 1667471535041}
+=======
+  "administración de sistemas para la cloud tema-9 (highlights)",
+  :block/created-at 1667213083844,
+  :block/updated-at 1667213084484}
+ {:block/name "administración-de-sistemas-para-la-cloud",
+  :block/created-at 1665484165111,
+  :block/updated-at 1665484165111}
+ {:block/name "advanced file management tools",
+  :block/created-at 1665484230970,
+  :block/updated-at 1665484230970}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "advanced software testing - vol. 1, 2nd edition (highlights)",
   :block/created-at 1667213028774,
   :block/updated-at 1667213029369}
+<<<<<<< HEAD
  {:block/name "advanced software testing - vol/ 1, 2nd edition",
   :block/created-at 1667471535040,
   :block/updated-at 1667471535040}
@@ -291,6 +369,11 @@
  {:block/name "algorithms-debian-laptop",
   :block/created-at 1667820571845,
   :block/updated-at 1667820571845}
+=======
+ {:block/name "algorithms (highlights)",
+  :block/created-at 1667213024414,
+  :block/updated-at 1667213025003}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "amazon ecr",
   :block/created-at 1665998210743,
   :block/updated-at 1665998210743}
@@ -300,6 +383,7 @@
  {:block/name "amazon eks",
   :block/created-at 1665998198930,
   :block/updated-at 1665998198930}
+<<<<<<< HEAD
  {:block/name "amazon web services",
   :block/created-at 1667810308721,
   :block/updated-at 1667810308721}
@@ -321,12 +405,21 @@
  {:block/name "android user interface design-debian-laptop",
   :block/created-at 1667820611103,
   :block/updated-at 1667820611103}
+=======
+ {:block/name "android programming (highlights)",
+  :block/created-at 1667212705475,
+  :block/updated-at 1667212706106}
+ {:block/name "android user interface design (highlights)",
+  :block/created-at 1667212702337,
+  :block/updated-at 1667212702979}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "ansible",
   :block/created-at 1666960862870,
   :block/updated-at 1666960862870}
  {:block/name "ansible (highlights)",
   :block/created-at 1667213097432,
   :block/updated-at 1667213098026}
+<<<<<<< HEAD
  {:block/name "ansible-2",
   :block/created-at 1667471536444,
   :block/updated-at 1667471536444}
@@ -336,12 +429,15 @@
  {:block/name "ansible-debian-laptop",
   :block/created-at 1667820625945,
   :block/updated-at 1667820625945}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "ansible: from basics to guru",
   :block/created-at 1665484160037,
   :block/updated-at 1665484160037}
  {:block/name "ansible: from basics to guru (legacy)",
   :block/created-at 1665484169918,
   :block/updated-at 1665484169918}
+<<<<<<< HEAD
  {:block/name "antología poética",
   :block/created-at 1667471536735,
   :block/updated-at 1667471536735}
@@ -351,6 +447,11 @@
  {:block/name "antología poética-debian-laptop",
   :block/created-at 1667820632160,
   :block/updated-at 1667820632160}
+=======
+ {:block/name "antología poética (highlights)",
+  :block/created-at 1667213115814,
+  :block/updated-at 1667213116394}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "antonio lopez",
   :block/created-at 1665484227448,
   :block/updated-at 1665484227448}
@@ -358,6 +459,7 @@
   "antonio machado, jordi vila delclòs, and raquel ramírez de arellano",
   :block/created-at 1665484170296,
   :block/updated-at 1665484170296}
+<<<<<<< HEAD
  {:block/name "apache2 does not run on ipv4 tcp port",
   :block/created-at 1667471517746,
   :block/updated-at 1667471517746}
@@ -374,11 +476,17 @@
   "api endpoints - what are they why do they matter-debian-laptop",
   :block/created-at 1667820740673,
   :block/updated-at 1667820740673}
+=======
+ {:block/name "apache2 does not run on ipv4 tcp port (highlights)",
+  :block/created-at 1667213060483,
+  :block/updated-at 1667213061075}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "api endpoints - what are they? why do they matter? (highlights)",
   :block/created-at 1667212903583,
   :block/updated-at 1667212904199}
  {:block/name
+<<<<<<< HEAD
   "append a single character to a string or char array in java",
   :block/created-at 1667471517989,
   :block/updated-at 1667471517989}
@@ -387,6 +495,8 @@
   :block/created-at 1667820777997,
   :block/updated-at 1667820777997}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "append a single character to a string or char array in java? (highlights)",
   :block/created-at 1667212860195,
   :block/updated-at 1667212860811}
@@ -417,15 +527,19 @@
  {:block/name "articles",
   :block/created-at 1665484163259,
   :block/updated-at 1665484163259}
+<<<<<<< HEAD
  {:block/name "articles\\",
   :block/created-at 1667471516992,
   :block/updated-at 1667471516992}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "arun gupta",
   :block/created-at 1665484223547,
   :block/updated-at 1665484223547}
  {:block/name "askubuntu.com",
   :block/created-at 1665484209324,
   :block/updated-at 1665484209324}
+<<<<<<< HEAD
  {:block/name "astrophysics for people in a hurry",
   :block/created-at 1667471536920,
   :block/updated-at 1667471536920}
@@ -435,18 +549,29 @@
  {:block/name "astrophysics for people in a hurry-debian-laptop",
   :block/created-at 1667820642498,
   :block/updated-at 1667820642498}
+=======
+ {:block/name "astrophysics for people in a hurry (highlights)",
+  :block/created-at 1667212961814,
+  :block/updated-at 1667212962470}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "author",
   :block/created-at 1665484165195,
   :block/updated-at 1665484165195}
  {:block/name "aws",
+<<<<<<< HEAD
   :block/created-at 1660029985876,
   :block/updated-at 1660029985876}
+=======
+  :block/created-at 1665484163298,
+  :block/updated-at 1665484163298}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "aws ccp exam tips",
   :block/created-at 1666774946644,
   :block/updated-at 1666774946644}
  {:block/name "aws certified cloud practitioner by acg",
   :block/created-at 1665484163206,
   :block/updated-at 1666279231160}
+<<<<<<< HEAD
  {:block/name "aws certified cloud practitioner exam guide",
   :block/created-at 1667471530312,
   :block/updated-at 1667471530312}
@@ -458,10 +583,17 @@
   "aws certified cloud practitioner exam guide-debian-laptop",
   :block/created-at 1667820641294,
   :block/updated-at 1667820641294}
+=======
+ {:block/name
+  "aws certified cloud practitioner exam guide (highlights)",
+  :block/created-at 1667213203097,
+  :block/updated-at 1667303857358}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "aws elastic beanstalk",
   :block/created-at 1665138467036,
   :block/updated-at 1665138467036}
  {:block/name
+<<<<<<< HEAD
   "aws how to allow all tcp traffic between all instances in same vpc",
   :block/created-at 1667471517646,
   :block/updated-at 1667471517646}
@@ -470,6 +602,8 @@
   :block/created-at 1667820781298,
   :block/updated-at 1667820781298}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "aws: how to allow all tcp traffic between all instances in same vpc? (highlights)",
   :block/created-at 1667213062109,
   :block/updated-at 1667213062759}
@@ -485,9 +619,12 @@
  {:block/name "aws::ccp::tips",
   :block/created-at 1666774946638,
   :block/updated-at 1666774946638}
+<<<<<<< HEAD
  {:block/name "aws::management-and-governance",
   :block/created-at 1667394909832,
   :block/updated-at 1667394909832}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "aws::modulo-2",
   :block/created-at 1665484016230,
   :block/updated-at 1665484016230}
@@ -498,12 +635,18 @@
   :block/created-at 1667230480768,
   :block/updated-at 1667230480768}
  {:block/name "b",
+<<<<<<< HEAD
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
+=======
+  :block/created-at 1665484256318,
+  :block/updated-at 1665484256318}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "b2.1",
   :block/created-at 1665484161633,
   :block/updated-at 1665484161633}
  {:block/name "bash",
+<<<<<<< HEAD
   :block/created-at 1658825284486,
   :block/updated-at 1658825284486}
  {:block/name "bash quick start guide",
@@ -518,10 +661,18 @@
  {:block/name "bash scripting tutorial for beginners - linuxconfig",
   :block/created-at 1667471518608,
   :block/updated-at 1667471518608}
+=======
+  :block/created-at 1665484160771,
+  :block/updated-at 1665484160771}
+ {:block/name "bash quick start guide (highlights)",
+  :block/created-at 1667212852177,
+  :block/updated-at 1667212852763}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "bash scripting tutorial for beginners - linuxconfig.org (highlights)",
   :block/created-at 1667212848108,
   :block/updated-at 1667212848747}
+<<<<<<< HEAD
  {:block/name
   "bash scripting tutorial for beginners - linuxconfig/org",
   :block/created-at 1667471518859,
@@ -538,6 +689,8 @@
   "bash scripting tutorial for beginners - linuxconfig/org-debian-laptop",
   :block/created-at 1667820806587,
   :block/updated-at 1667820806587}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "bash shell redirect output and errors to ",
   :block/created-at 1665484171498,
   :block/updated-at 1665484171498}
@@ -548,6 +701,7 @@
   "bash shell redirect output and errors to /dev/null (highlights)",
   :block/created-at 1667213068202,
   :block/updated-at 1667213068794}
+<<<<<<< HEAD
  {:block/name "bash shell redirect output and errors to devnull",
   :block/created-at 1667471518241,
   :block/updated-at 1667471518241}
@@ -564,6 +718,11 @@
  {:block/name "bash shell scripting, 2nd edition-debian-laptop-2",
   :block/created-at 1667820942825,
   :block/updated-at 1667820942825}
+=======
+ {:block/name "bash shell scripting, 2nd edition",
+  :block/created-at 1665484160812,
+  :block/updated-at 1665484160812}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "become a devops engineer",
   :block/created-at 1665484159583,
   :block/updated-at 1665484159583}
@@ -577,6 +736,7 @@
  {:block/name "beginnersbook.com",
   :block/created-at 1665484222945,
   :block/updated-at 1665484222945}
+<<<<<<< HEAD
  {:block/name "beginning asp",
   :block/created-at 1667471537696,
   :block/updated-at 1667471537696}
@@ -589,6 +749,11 @@
  {:block/name "beginning asp/net for visual studio 2015-debian-laptop",
   :block/created-at 1667820583867,
   :block/updated-at 1667820583867}
+=======
+ {:block/name "beginning asp.net for visual studio 2015 (highlights)",
+  :block/created-at 1667212694590,
+  :block/updated-at 1667212695215}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "bertrand russell",
   :block/created-at 1665484225550,
   :block/updated-at 1665484225550}
@@ -613,16 +778,20 @@
  {:block/name "books",
   :block/created-at 1665484165194,
   :block/updated-at 1665484165194}
+<<<<<<< HEAD
  {:block/name "books\\",
   :block/created-at 1667471530129,
   :block/updated-at 1667471530129}
  {:block/name "boolean and logical operations – jetbrains academy",
   :block/created-at 1667471519121,
   :block/updated-at 1667471519121}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "boolean and logical operations – jetbrains academy (highlights)",
   :block/created-at 1667212876095,
   :block/updated-at 1667212876742}
+<<<<<<< HEAD
  {:block/name
   "boolean and logical operations – jetbrains academy-debian-laptop",
   :block/created-at 1667820749846,
@@ -651,15 +820,37 @@
  {:block/name "call it sleep-debian-laptop",
   :block/created-at 1667820612507,
   :block/updated-at 1667820612507}
+=======
+ {:block/name "bécquer (highlights)",
+  :block/created-at 1667213118455,
+  :block/updated-at 1667213119074}
+ {:block/name "c",
+  :block/created-at 1665484256317,
+  :block/updated-at 1665484256317}
+ {:block/name "caf (cloud adoption framework)",
+  :block/created-at 1665484174085,
+  :block/updated-at 1665484174085}
+ {:block/name "call it sleep (highlights)",
+  :block/created-at 1667212805760,
+  :block/updated-at 1667212806372}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "canceled",
-  :block/created-at 1660045579874,
-  :block/updated-at 1660045579874}
+  :block/created-at 1665484256317,
+  :block/updated-at 1665484256317}
  {:block/name "cancelled",
-  :block/created-at 1658772277799,
-  :block/updated-at 1658772277799}
+  :block/created-at 1665484256317,
+  :block/updated-at 1665484256317}
+ {:block/name "car",
+  :block/created-at 1665484165187,
+  :block/updated-at 1665484165187}
  {:block/name "card",
+<<<<<<< HEAD
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+=======
+  :block/created-at 1665484256316,
+  :block/updated-at 1665484256316}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "carlo rovelli",
   :block/created-at 1660807857792,
   :block/updated-at 1660807857792}
@@ -676,12 +867,24 @@
   :block/created-at 1665484230388,
   :block/updated-at 1665484230388}
  {:block/name "cert prep: comptia linux+ (xk0-004)",
-  :block/created-at 1660316566250,
-  :block/updated-at 1660316566250}
+  :block/created-at 1665484160265,
+  :block/updated-at 1665484160265}
  {:block/name
   "certificado profesional de ibm devops and software engineering",
-  :block/created-at 1660315975038,
-  :block/updated-at 1660315975038}
+  :block/created-at 1665484162596,
+  :block/updated-at 1665484162596}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/ibm-devops-containers",
+  :block/created-at 1665484174315,
+  :block/updated-at 1665484174315}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-1",
+  :block/created-at 1665484174209,
+  :block/updated-at 1665484174209}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering/ibm-devops-containers/lab-2",
+  :block/created-at 1665484174312,
+  :block/updated-at 1665484174312}
  {:block/name
   "certificado profesional de ibm devops and software engineering-debian-laptop",
   :block/created-at 1667810316384,
@@ -700,8 +903,13 @@
   :block/updated-at 1665484174312}
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift",
+<<<<<<< HEAD
   :block/created-at 1660315975029,
   :block/updated-at 1660315975029}
+=======
+  :block/created-at 1665484162598,
+  :block/updated-at 1665770051644}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "certificado profesional de ibm devops and software engineering/introduction to containers with docker, kubernetes & openshift/lab-1",
   :block/created-at 1665484174341,
@@ -738,6 +946,7 @@
  {:block/name "chris f. a. johnson, jayant varma",
   :block/created-at 1665484233736,
   :block/updated-at 1665484233736}
+<<<<<<< HEAD
  {:block/name "cien poemas clásicos",
   :block/created-at 1667471539673,
   :block/updated-at 1667471539673}
@@ -768,10 +977,22 @@
  {:block/name "cloud computing and devops culture tema-1",
   :block/created-at 1667471540874,
   :block/updated-at 1667471540874}
+=======
+ {:block/name "cien poemas clásicos (highlights)",
+  :block/created-at 1667212777926,
+  :block/updated-at 1667212778604}
+ {:block/name "classical mechanics (highlights)",
+  :block/created-at 1667212928027,
+  :block/updated-at 1667212928629}
+ {:block/name "clean code (highlights)",
+  :block/created-at 1667212753522,
+  :block/updated-at 1667212754247}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "cloud computing and devops culture tema-1 (highlights)",
   :block/created-at 1667213052235,
   :block/updated-at 1667213052850}
  {:block/name
+<<<<<<< HEAD
   "cloud computing and devops culture tema-1-debian-laptop",
   :block/created-at 1667820552320,
   :block/updated-at 1667820552320}
@@ -866,6 +1087,35 @@
   "cloud computing and devops culture tema-9-debian-laptop",
   :block/created-at 1667820644894,
   :block/updated-at 1667820644894}
+=======
+  "cloud computing and devops culture tema-10 (highlights)",
+  :block/created-at 1667213096381,
+  :block/updated-at 1667213096994}
+ {:block/name "cloud computing and devops culture tema-2 (highlights)",
+  :block/created-at 1667213053529,
+  :block/updated-at 1667213054135}
+ {:block/name "cloud computing and devops culture tema-3 (highlights)",
+  :block/created-at 1667213055857,
+  :block/updated-at 1667213056427}
+ {:block/name "cloud computing and devops culture tema-4 (highlights)",
+  :block/created-at 1667213092160,
+  :block/updated-at 1667213092759}
+ {:block/name "cloud computing and devops culture tema-5 (highlights)",
+  :block/created-at 1667213093964,
+  :block/updated-at 1667213094569}
+ {:block/name "cloud computing and devops culture tema-6 (highlights)",
+  :block/created-at 1667213073075,
+  :block/updated-at 1667213073709}
+ {:block/name "cloud computing and devops culture tema-7 (highlights)",
+  :block/created-at 1667213074423,
+  :block/updated-at 1667213075033}
+ {:block/name "cloud computing and devops culture tema-8 (highlights)",
+  :block/created-at 1667213075311,
+  :block/updated-at 1667213075943}
+ {:block/name "cloud computing and devops culture tema-9 (highlights)",
+  :block/created-at 1667213095091,
+  :block/updated-at 1667213095694}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "cloud computing nanodegree by udacity",
   :block/created-at 1666337879005,
   :block/updated-at 1666338014275}
@@ -893,6 +1143,7 @@
  {:block/name "code",
   :block/created-at 1665484164402,
   :block/updated-at 1665484164402}
+<<<<<<< HEAD
  {:block/name "code complete",
   :block/created-at 1667471543404,
   :block/updated-at 1667471543404}
@@ -938,6 +1189,23 @@
  {:block/name "computer science illuminated-debian-laptop",
   :block/created-at 1667820582244,
   :block/updated-at 1667820582244}
+=======
+ {:block/name "code complete (highlights)",
+  :block/created-at 1667212779434,
+  :block/updated-at 1667212780075}
+ {:block/name "colección poesía salvat",
+  :block/created-at 1665484174048,
+  :block/updated-at 1665484174048}
+ {:block/name "como si existiese el perdón (highlights)",
+  :block/created-at 1667213130452,
+  :block/updated-at 1667213131079}
+ {:block/name "complete guide to test automation (highlights)",
+  :block/created-at 1667212810581,
+  :block/updated-at 1667212811190}
+ {:block/name "computer science illuminated (highlights)",
+  :block/created-at 1667212976238,
+  :block/updated-at 1667212976881}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "containers",
   :block/created-at 1665484162517,
   :block/updated-at 1665484162517}
@@ -947,6 +1215,7 @@
  {:block/name "contenedores",
   :block/created-at 1665484182055,
   :block/updated-at 1665484182055}
+<<<<<<< HEAD
  {:block/name "contenedores tema-1",
   :block/created-at 1667471544512,
   :block/updated-at 1667471544512}
@@ -1076,12 +1345,63 @@
  {:block/name "coursera",
   :block/created-at 1659355629307,
   :block/updated-at 1659355629307}
+=======
+ {:block/name "contenedores tema-1 (highlights)",
+  :block/created-at 1667213146339,
+  :block/updated-at 1667213146943}
+ {:block/name "contenedores tema-10 (highlights)",
+  :block/created-at 1667213145130,
+  :block/updated-at 1667213145747}
+ {:block/name "contenedores tema-2 (highlights)",
+  :block/created-at 1667213147717,
+  :block/updated-at 1667213148313}
+ {:block/name "contenedores tema-3 (highlights)",
+  :block/created-at 1667213149633,
+  :block/updated-at 1667213150230}
+ {:block/name "contenedores tema-4 (highlights)",
+  :block/created-at 1667213160293,
+  :block/updated-at 1667213160951}
+ {:block/name "contenedores tema-5 (highlights)",
+  :block/created-at 1667213162162,
+  :block/updated-at 1667213162815}
+ {:block/name "contenedores tema-6 (highlights)",
+  :block/created-at 1667213151624,
+  :block/updated-at 1667213152230}
+ {:block/name "contenedores tema-7 (highlights)",
+  :block/created-at 1667213153719,
+  :block/updated-at 1667213154415}
+ {:block/name "contenedores tema-8 (highlights)",
+  :block/created-at 1667213156721,
+  :block/updated-at 1667213157432}
+ {:block/name "contenedores tema-9 (highlights)",
+  :block/created-at 1667213158474,
+  :block/updated-at 1667213159110}
+ {:block/name "contents",
+  :block/created-at 1665484256315,
+  :block/updated-at 1665484256315}
+ {:block/name "core java volume i--fundamentals (highlights)",
+  :block/created-at 1667212988307,
+  :block/updated-at 1667212988934}
+ {:block/name "core java volume i—fundamentals (highlights)",
+  :block/created-at 1667212853942,
+  :block/updated-at 1667212854558}
+ {:block/name "coste visado uk",
+  :block/created-at 1665484182532,
+  :block/updated-at 1665484182532}
+ {:block/name "course_slides_annotated.pdf (highlights)",
+  :block/created-at 1667213022740,
+  :block/updated-at 1667213023338}
+ {:block/name "coursera",
+  :block/created-at 1665484162522,
+  :block/updated-at 1665484162522}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "coursera.org",
   :block/created-at 1665484186086,
   :block/updated-at 1665484186086}
  {:block/name "cover letter",
   :block/created-at 1665484182852,
   :block/updated-at 1665484182852}
+<<<<<<< HEAD
  {:block/name "create empty matrix python",
   :block/created-at 1667471519197,
   :block/updated-at 1667471519197}
@@ -1112,27 +1432,53 @@
  {:block/name "cómo convertirse en un ingeniero de devops en 2020",
   :block/created-at 1667471519435,
   :block/updated-at 1667471519435}
+=======
+ {:block/name "create empty matrix python (highlights)",
+  :block/created-at 1667212901765,
+  :block/updated-at 1667212902393}
+ {:block/name "cs",
+  :block/created-at 1665484214371,
+  :block/updated-at 1665484214371}
+ {:block/name "css (highlights)",
+  :block/created-at 1667212680251,
+  :block/updated-at 1667212680984}
+ {:block/name "curiosities",
+  :block/created-at 1665484237393,
+  :block/updated-at 1665484237393}
+ {:block/name "cyberciti.biz",
+  :block/created-at 1665484171448,
+  :block/updated-at 1665484171448}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "cómo convertirse en un ingeniero de devops en 2020 (highlights)",
   :block/created-at 1667213013480,
   :block/updated-at 1667213014081}
+<<<<<<< HEAD
  {:block/name
   "cómo convertirse en un ingeniero de devops en 2020-debian-laptop",
   :block/created-at 1667820739443,
   :block/updated-at 1667820739443}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "daily",
-  :block/created-at 1659864619449,
-  :block/updated-at 1659864619449}
+  :block/created-at 1665484231598,
+  :block/updated-at 1665484231598}
  {:block/name "daily log",
-  :block/created-at 1659864618983,
-  :block/updated-at 1659864618983}
+  :block/created-at 1665484160486,
+  :block/updated-at 1665484160486}
  {:block/name "daily-notes",
+<<<<<<< HEAD
   :block/created-at 1660029984464,
   :block/updated-at 1660029984464}
+=======
+  :block/created-at 1665484160436,
+  :block/updated-at 1665484160436}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "dan brown",
   :block/created-at 1665484233118,
   :block/updated-at 1665484233118}
  {:block/name
+<<<<<<< HEAD
   "datetimeformatter support for single digit day of month and month of year",
   :block/created-at 1667471519641,
   :block/updated-at 1667471519641}
@@ -1144,12 +1490,18 @@
   "datetimeformatter support for single digit day of month and month of year-debian-laptop",
   :block/created-at 1667820794799,
   :block/updated-at 1667820794799}
+=======
+  "datetimeformatter support for single digit day of month and month of year (highlights)",
+  :block/created-at 1667212986212,
+  :block/updated-at 1667212986832}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "david sawyer mcfarland",
   :block/created-at 1665484184461,
   :block/updated-at 1665484184461}
  {:block/name "deck",
   :block/created-at 1665483783503,
   :block/updated-at 1665483783503}
+<<<<<<< HEAD
  {:block/name "decídete",
   :block/created-at 1667471548380,
   :block/updated-at 1667471548380}
@@ -1219,6 +1571,35 @@
  {:block/name "devops-debian-laptop",
   :block/created-at 1667820632700,
   :block/updated-at 1667820632700}
+=======
+ {:block/name "decídete (highlights)",
+  :block/created-at 1667212945354,
+  :block/updated-at 1667212946004}
+ {:block/name "designing your life (highlights)",
+  :block/created-at 1667213015653,
+  :block/updated-at 1667213016256}
+ {:block/name "dev-notes",
+  :block/created-at 1665484160768,
+  :block/updated-at 1665484160768}
+ {:block/name "devconnected.com",
+  :block/created-at 1665484209394,
+  :block/updated-at 1665484209394}
+ {:block/name "developer testing (highlights)",
+  :block/created-at 1667213001481,
+  :block/updated-at 1667213002090}
+ {:block/name "devops",
+  :block/created-at 1666960848186,
+  :block/updated-at 1666960848186}
+ {:block/name "devops (highlights)",
+  :block/created-at 1667212801396,
+  :block/updated-at 1667212802004}
+ {:block/name "devops course",
+  :block/created-at 1665484184759,
+  :block/updated-at 1665484184759}
+ {:block/name "devops on aws - aws technical essentials (highlights)",
+  :block/created-at 1667213116611,
+  :block/updated-at 1667213117205}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "devops: continuous delivery, integration, and deployment with devops (highlights)",
   :block/created-at 1667212839374,
@@ -1227,6 +1608,7 @@
   :block/created-at 1665484186695,
   :block/updated-at 1665484186695}
  {:block/name
+<<<<<<< HEAD
   "difference between 'directory' and 'python package' in pycharm",
   :block/created-at 1667471520405,
   :block/updated-at 1667471520405}
@@ -1256,6 +1638,17 @@
  {:block/name "do the math with powershell-debian-laptop",
   :block/created-at 1667820775392,
   :block/updated-at 1667820775392}
+=======
+  "difference between 'directory' and 'python package' in pycharm (highlights)",
+  :block/created-at 1667212881651,
+  :block/updated-at 1667212882284}
+ {:block/name "django restful web services (highlights)",
+  :block/created-at 1667212895085,
+  :block/updated-at 1667212895694}
+ {:block/name "do the math with powershell (highlights)",
+  :block/created-at 1667213072233,
+  :block/updated-at 1667213072837}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "docker",
   :block/created-at 1665484188376,
   :block/updated-at 1665484188376}
@@ -1287,11 +1680,16 @@
   :block/created-at 1660807840862,
   :block/updated-at 1660807840862}
  {:block/name "doing",
-  :block/created-at 1658772277799,
-  :block/updated-at 1658772277799}
+  :block/created-at 1665484256318,
+  :block/updated-at 1665484256318}
  {:block/name "done",
+<<<<<<< HEAD
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
+=======
+  :block/created-at 1665484256316,
+  :block/updated-at 1665484256316}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "doug lowe",
   :block/created-at 1665484231789,
   :block/updated-at 1665484231789}
@@ -1304,6 +1702,7 @@
  {:block/name "eckhart tolle",
   :block/created-at 1660807904139,
   :block/updated-at 1660807904139}
+<<<<<<< HEAD
  {:block/name "effective devops",
   :block/created-at 1667471550495,
   :block/updated-at 1667471550495}
@@ -1424,10 +1823,55 @@
  {:block/name "entendiendo devops en 5 minutos - autentia",
   :block/created-at 1667471520699,
   :block/updated-at 1667471520699}
+=======
+ {:block/name "effective devops (highlights)",
+  :block/created-at 1667213192102,
+  :block/updated-at 1667213192699}
+ {:block/name "effective devops with aws (highlights)",
+  :block/created-at 1667213115045,
+  :block/updated-at 1667213115632}
+ {:block/name "el alquimista (highlights)",
+  :block/created-at 1667212897723,
+  :block/updated-at 1667212898333}
+ {:block/name "el elemento (highlights)",
+  :block/created-at 1667212887208,
+  :block/updated-at 1667212887806}
+ {:block/name "el enigma de la habitación 622 (highlights)",
+  :block/created-at 1667212829879,
+  :block/updated-at 1667212830526}
+ {:block/name "el meu any de repòs i relaxació (highlights)",
+  :block/created-at 1667213189139,
+  :block/updated-at 1667213189779}
+ {:block/name "el país colecciones",
+  :block/created-at 1665484233181,
+  :block/updated-at 1665484233181}
+ {:block/name "el retrato de dorian gray (highlights)",
+  :block/created-at 1667212817264,
+  :block/updated-at 1667212817867}
+ {:block/name "el ruido y la furia (highlights)",
+  :block/created-at 1667212964267,
+  :block/updated-at 1667212964881}
+ {:block/name "el temor de un hombre sabio (highlights)",
+  :block/created-at 1667212914328,
+  :block/updated-at 1667212914947}
+ {:block/name "en busca del tiempo perdido, 1 (highlights)",
+  :block/created-at 1667212815646,
+  :block/updated-at 1667212816240}
+ {:block/name "en busca del tiempo perdido, 2 (highlights)",
+  :block/created-at 1667213004282,
+  :block/updated-at 1667213004898}
+ {:block/name "engineering software products (highlights)",
+  :block/created-at 1667213114252,
+  :block/updated-at 1667213114851}
+ {:block/name "english",
+  :block/created-at 1665484161636,
+  :block/updated-at 1665484161636}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "entendiendo devops en 5 minutos - autentia (highlights)",
   :block/created-at 1667213011370,
   :block/updated-at 1667213011965}
+<<<<<<< HEAD
  {:block/name
   "entendiendo devops en 5 minutos - autentia-debian-laptop",
   :block/created-at 1667820538686,
@@ -1438,11 +1882,17 @@
  {:block/name "entornos_de_integracion_y_entrega_continua tema-1",
   :block/created-at 1667471552773,
   :block/updated-at 1667471552773}
+=======
+ {:block/name "entornos-ci-cd",
+  :block/created-at 1665484203696,
+  :block/updated-at 1665484203696}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "entornos_de_integracion_y_entrega_continua tema-1 (highlights)",
   :block/created-at 1667213173967,
   :block/updated-at 1667213174596}
  {:block/name
+<<<<<<< HEAD
   "entornos_de_integracion_y_entrega_continua tema-1-debian-laptop",
   :block/created-at 1667820646405,
   :block/updated-at 1667820646405}
@@ -1450,10 +1900,13 @@
   :block/created-at 1667471553038,
   :block/updated-at 1667471553038}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "entornos_de_integracion_y_entrega_continua tema-10 (highlights)",
   :block/created-at 1667213140788,
   :block/updated-at 1667213141442}
  {:block/name
+<<<<<<< HEAD
   "entornos_de_integracion_y_entrega_continua tema-10-debian-laptop",
   :block/created-at 1667820718290,
   :block/updated-at 1667820718290}
@@ -1461,10 +1914,13 @@
   :block/created-at 1667471553209,
   :block/updated-at 1667471553209}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "entornos_de_integracion_y_entrega_continua tema-2 (highlights)",
   :block/created-at 1667213175106,
   :block/updated-at 1667213175760}
  {:block/name
+<<<<<<< HEAD
   "entornos_de_integracion_y_entrega_continua tema-2-debian-laptop",
   :block/created-at 1667820631206,
   :block/updated-at 1667820631206}
@@ -1472,10 +1928,13 @@
   :block/created-at 1667471553530,
   :block/updated-at 1667471553530}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "entornos_de_integracion_y_entrega_continua tema-3 (highlights)",
   :block/created-at 1667213177043,
   :block/updated-at 1667213177693}
  {:block/name
+<<<<<<< HEAD
   "entornos_de_integracion_y_entrega_continua tema-3-debian-laptop",
   :block/created-at 1667820647797,
   :block/updated-at 1667820647797}
@@ -1483,10 +1942,13 @@
   :block/created-at 1667471553600,
   :block/updated-at 1667471553600}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "entornos_de_integracion_y_entrega_continua tema-4 (highlights)",
   :block/created-at 1667213178145,
   :block/updated-at 1667213178766}
  {:block/name
+<<<<<<< HEAD
   "entornos_de_integracion_y_entrega_continua tema-4-debian-laptop",
   :block/created-at 1667820641891,
   :block/updated-at 1667820641891}
@@ -1494,10 +1956,13 @@
   :block/created-at 1667471553856,
   :block/updated-at 1667471553856}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "entornos_de_integracion_y_entrega_continua tema-5 (highlights)",
   :block/created-at 1667213126764,
   :block/updated-at 1667213127410}
  {:block/name
+<<<<<<< HEAD
   "entornos_de_integracion_y_entrega_continua tema-5-debian-laptop",
   :block/created-at 1667820723636,
   :block/updated-at 1667820723636}
@@ -1505,10 +1970,13 @@
   :block/created-at 1667471553907,
   :block/updated-at 1667471553907}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "entornos_de_integracion_y_entrega_continua tema-6 (highlights)",
   :block/created-at 1667213129567,
   :block/updated-at 1667213130179}
  {:block/name
+<<<<<<< HEAD
   "entornos_de_integracion_y_entrega_continua tema-6-debian-laptop",
   :block/created-at 1667820588009,
   :block/updated-at 1667820588009}
@@ -1516,10 +1984,13 @@
   :block/created-at 1667471554163,
   :block/updated-at 1667471554163}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "entornos_de_integracion_y_entrega_continua tema-7 (highlights)",
   :block/created-at 1667213179084,
   :block/updated-at 1667213179712}
  {:block/name
+<<<<<<< HEAD
   "entornos_de_integracion_y_entrega_continua tema-7-debian-laptop",
   :block/created-at 1667820725948,
   :block/updated-at 1667820725948}
@@ -1527,10 +1998,13 @@
   :block/created-at 1667471554220,
   :block/updated-at 1667471554220}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "entornos_de_integracion_y_entrega_continua tema-8 (highlights)",
   :block/created-at 1667213140014,
   :block/updated-at 1667213140595}
  {:block/name
+<<<<<<< HEAD
   "entornos_de_integracion_y_entrega_continua tema-8-debian-laptop",
   :block/created-at 1667820656096,
   :block/updated-at 1667820656096}
@@ -1545,18 +2019,29 @@
   "entornos_de_integracion_y_entrega_continua tema-9-debian-laptop",
   :block/created-at 1667820681777,
   :block/updated-at 1667820681777}
+=======
+  "entornos_de_integracion_y_entrega_continua tema-9 (highlights)",
+  :block/created-at 1667213180172,
+  :block/updated-at 1667213180763}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "eric matthes",
   :block/created-at 1665484236146,
   :block/updated-at 1665484236146}
  {:block/name "essential file management tools",
+<<<<<<< HEAD
   :block/created-at 1660373717546,
   :block/updated-at 1660375167180}
+=======
+  :block/created-at 1665484203785,
+  :block/updated-at 1665484203785}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "ethan thorpe",
   :block/created-at 1665484186792,
   :block/updated-at 1665484186792}
  {:block/name "evernote.com",
   :block/created-at 1665484235035,
   :block/updated-at 1665484235035}
+<<<<<<< HEAD
  {:block/name "execute php code in python",
   :block/created-at 1667471520795,
   :block/updated-at 1667471520795}
@@ -1569,10 +2054,16 @@
  {:block/name "existing types – sizes and ranges – jetbrains academy",
   :block/created-at 1667471521001,
   :block/updated-at 1667471521001}
+=======
+ {:block/name "execute php code in python (highlights)",
+  :block/created-at 1667212912447,
+  :block/updated-at 1667212913049}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "existing types – sizes and ranges – jetbrains academy (highlights)",
   :block/created-at 1667212874310,
   :block/updated-at 1667212874917}
+<<<<<<< HEAD
  {:block/name
   "existing types – sizes and ranges – jetbrains academy-debian-laptop",
   :block/created-at 1667820780423,
@@ -1580,6 +2071,11 @@
  {:block/name "existo",
   :block/created-at 1659947334568,
   :block/updated-at 1659947334568}
+=======
+ {:block/name "existo",
+  :block/created-at 1665484160585,
+  :block/updated-at 1665484160585}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "failure=3",
   :block/created-at 1665484224997,
   :block/updated-at 1665484224997}
@@ -1590,11 +2086,16 @@
   :block/created-at 1665484206552,
   :block/updated-at 1665484206552}
  {:block/name "favorites",
+<<<<<<< HEAD
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
  {:block/name "feynman-technique",
   :block/created-at 1667810308700,
   :block/updated-at 1667810308700}
+=======
+  :block/created-at 1665484256315,
+  :block/updated-at 1665484256315}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "file",
   :block/created-at 1665043863474,
   :block/updated-at 1665043863474}
@@ -1602,17 +2103,30 @@
   :block/created-at 1662195436568,
   :block/updated-at 1662195436568}
  {:block/name "flashcard",
+<<<<<<< HEAD
   :block/created-at 1660315974291,
   :block/updated-at 1660315974291}
  {:block/name "flashcard-debian-laptop",
   :block/created-at 1667810324754,
   :block/updated-at 1667810324754}
+=======
+  :block/created-at 1665484163100,
+  :block/updated-at 1665484163100}
+ {:block/name "flashcstop",
+  :block/created-at 1667221084275,
+  :block/updated-at 1667221084275}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "friday, 02-09-2022",
   :block/created-at 1665484159489,
   :block/updated-at 1665484159489}
  {:block/name "friday, 05-08-2022",
+<<<<<<< HEAD
   :block/created-at 1660315975479,
   :block/updated-at 1660315975479}
+=======
+  :block/created-at 1665484160595,
+  :block/updated-at 1665484160595}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "friday, 07-10-2022",
   :block/created-at 1665484158798,
   :block/updated-at 1665484158798}
@@ -1620,8 +2134,13 @@
   :block/created-at 1665484160843,
   :block/updated-at 1665484160843}
  {:block/name "friday, 12-08-2022",
+<<<<<<< HEAD
   :block/created-at 1660214678273,
   :block/updated-at 1660373313379}
+=======
+  :block/created-at 1665484160293,
+  :block/updated-at 1665484160293}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "friday, 14-10-2022",
   :block/created-at 1665760899313,
   :block/updated-at 1665768733205}
@@ -1634,9 +2153,21 @@
  {:block/name "friday, 21-10-2022",
   :block/created-at 1666337794590,
   :block/updated-at 1666352647252}
+<<<<<<< HEAD
  {:block/name "friday, 26-08-2022",
   :block/created-at 1665484159825,
   :block/updated-at 1665484159825}
+=======
+ {:block/name "friday, 23-09-2022",
+  :block/created-at 1665484163060,
+  :block/updated-at 1665484163060}
+ {:block/name "friday, 26-08-2022",
+  :block/created-at 1665484159825,
+  :block/updated-at 1665484159825}
+ {:block/name "friday, 28-10-2022",
+  :block/created-at 1666947447952,
+  :block/updated-at 1666947447952}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "friday, 30-09-2022",
   :block/created-at 1665484158900,
   :block/updated-at 1665484158900}
@@ -1644,6 +2175,7 @@
   :block/created-at 1665484165196,
   :block/updated-at 1665484165196}
  {:block/name
+<<<<<<< HEAD
   "generating passwords – processing strings – jetbrains academy",
   :block/created-at 1667471521197,
   :block/updated-at 1667471521197}
@@ -1760,6 +2292,53 @@
  {:block/name "great expectations-debian-laptop",
   :block/created-at 1667820587706,
   :block/updated-at 1667820587706}
+=======
+  "generating passwords – processing strings – jetbrains academy (highlights)",
+  :block/created-at 1667212862014,
+  :block/updated-at 1667212862624}
+ {:block/name "george hrabovsky and leonard susskind",
+  :block/created-at 1665484176345,
+  :block/updated-at 1665484176345}
+ {:block/name "gestion_de_proyectos tema-1 (highlights)",
+  :block/created-at 1667213124283,
+  :block/updated-at 1667213124885}
+ {:block/name "gestion_de_proyectos tema-10 (highlights)",
+  :block/created-at 1667213163651,
+  :block/updated-at 1667213164276}
+ {:block/name "gestion_de_proyectos tema-2 (highlights)",
+  :block/created-at 1667213164683,
+  :block/updated-at 1667213165302}
+ {:block/name "gestion_de_proyectos tema-3 (highlights)",
+  :block/created-at 1667213166075,
+  :block/updated-at 1667213166701}
+ {:block/name "gestion_de_proyectos tema-4 (highlights)",
+  :block/created-at 1667213167422,
+  :block/updated-at 1667213168028}
+ {:block/name "gestion_de_proyectos tema-5 (highlights)",
+  :block/created-at 1667213168314,
+  :block/updated-at 1667213168907}
+ {:block/name "gestion_de_proyectos tema-6 (highlights)",
+  :block/created-at 1667213169924,
+  :block/updated-at 1667213170548}
+ {:block/name "gestion_de_proyectos tema-7 (highlights)",
+  :block/created-at 1667213136863,
+  :block/updated-at 1667213137553}
+ {:block/name "gestion_de_proyectos tema-8 (highlights)",
+  :block/created-at 1667213171433,
+  :block/updated-at 1667213172124}
+ {:block/name "gestion_de_proyectos tema-9 (highlights)",
+  :block/created-at 1667213172566,
+  :block/updated-at 1667213173231}
+ {:block/name "gestión de proyectos",
+  :block/created-at 1665484205537,
+  :block/updated-at 1665484205537}
+ {:block/name "grammar",
+  :block/created-at 1665484161664,
+  :block/updated-at 1665484161664}
+ {:block/name "great expectations (highlights)",
+  :block/created-at 1667212773610,
+  :block/updated-at 1667212774270}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "guru99.com",
   :block/created-at 1660807822425,
   :block/updated-at 1660807822425}
@@ -1784,14 +2363,18 @@
  {:block/name "hermann hesse",
   :block/created-at 1665484240493,
   :block/updated-at 1665484240493}
+<<<<<<< HEAD
  {:block/name "herramientas de automatización de despliegues tema-1",
   :block/created-at 1667471559159,
   :block/updated-at 1667471559159}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "herramientas de automatización de despliegues tema-1 (highlights)",
   :block/created-at 1667213106479,
   :block/updated-at 1667213107062}
  {:block/name
+<<<<<<< HEAD
   "herramientas de automatización de despliegues tema-1-debian-laptop",
   :block/created-at 1667820675527,
   :block/updated-at 1667820675527}
@@ -1799,10 +2382,13 @@
   :block/created-at 1667471559471,
   :block/updated-at 1667471559471}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "herramientas de automatización de despliegues tema-2 (highlights)",
   :block/created-at 1667213107862,
   :block/updated-at 1667213108444}
  {:block/name
+<<<<<<< HEAD
   "herramientas de automatización de despliegues tema-2-debian-laptop",
   :block/created-at 1667820581437,
   :block/updated-at 1667820581437}
@@ -1810,10 +2396,13 @@
   :block/created-at 1667471559783,
   :block/updated-at 1667471559783}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "herramientas de automatización de despliegues tema-3 (highlights)",
   :block/created-at 1667213109272,
   :block/updated-at 1667213109863}
  {:block/name
+<<<<<<< HEAD
   "herramientas de automatización de despliegues tema-3-debian-laptop",
   :block/created-at 1667820635489,
   :block/updated-at 1667820635489}
@@ -1821,10 +2410,13 @@
   :block/created-at 1667471560015,
   :block/updated-at 1667471560015}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "herramientas de automatización de despliegues tema-4 (highlights)",
   :block/created-at 1667213111088,
   :block/updated-at 1667213111725}
  {:block/name
+<<<<<<< HEAD
   "herramientas de automatización de despliegues tema-4-debian-laptop",
   :block/created-at 1667820613394,
   :block/updated-at 1667820613394}
@@ -1832,10 +2424,13 @@
   :block/created-at 1667471560139,
   :block/updated-at 1667471560139}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "herramientas de automatización de despliegues tema-5 (highlights)",
   :block/created-at 1667213098292,
   :block/updated-at 1667213098891}
  {:block/name
+<<<<<<< HEAD
   "herramientas de automatización de despliegues tema-5-debian-laptop",
   :block/created-at 1667820639011,
   :block/updated-at 1667820639011}
@@ -1843,10 +2438,13 @@
   :block/created-at 1667471560405,
   :block/updated-at 1667471560405}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "herramientas de automatización de despliegues tema-6 (highlights)",
   :block/created-at 1667213099746,
   :block/updated-at 1667213100429}
  {:block/name
+<<<<<<< HEAD
   "herramientas de automatización de despliegues tema-6-debian-laptop",
   :block/created-at 1667820621041,
   :block/updated-at 1667820621041}
@@ -1854,10 +2452,13 @@
   :block/created-at 1667471560674,
   :block/updated-at 1667471560674}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "herramientas de automatización de despliegues tema-7 (highlights)",
   :block/created-at 1667213101157,
   :block/updated-at 1667213101795}
  {:block/name
+<<<<<<< HEAD
   "herramientas de automatización de despliegues tema-7-debian-laptop",
   :block/created-at 1667820645953,
   :block/updated-at 1667820645953}
@@ -1865,10 +2466,13 @@
   :block/created-at 1667471560942,
   :block/updated-at 1667471560942}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "herramientas de automatización de despliegues tema-8 (highlights)",
   :block/created-at 1667213102533,
   :block/updated-at 1667213103171}
  {:block/name
+<<<<<<< HEAD
   "herramientas de automatización de despliegues tema-8-debian-laptop",
   :block/created-at 1667820731557,
   :block/updated-at 1667820731557}
@@ -1964,12 +2568,45 @@
  {:block/name "herramientas devops tema-9-debian-laptop",
   :block/created-at 1667820605908,
   :block/updated-at 1667820605908}
+=======
+  "herramientas de automatización de despliegues tema-9 (highlights)",
+  :block/created-at 1667213103840,
+  :block/updated-at 1667213104448}
+ {:block/name "herramientas devops tema-1 (highlights)",
+  :block/created-at 1667213033559,
+  :block/updated-at 1667213034157}
+ {:block/name "herramientas devops tema-2 (highlights)",
+  :block/created-at 1667213034609,
+  :block/updated-at 1667213035207}
+ {:block/name "herramientas devops tema-3 (highlights)",
+  :block/created-at 1667213057099,
+  :block/updated-at 1667213057691}
+ {:block/name "herramientas devops tema-4 (highlights)",
+  :block/created-at 1667213040321,
+  :block/updated-at 1667213040917}
+ {:block/name "herramientas devops tema-5 (highlights)",
+  :block/created-at 1667213062982,
+  :block/updated-at 1667213063580}
+ {:block/name "herramientas devops tema-6 (highlights)",
+  :block/created-at 1667213081745,
+  :block/updated-at 1667213082329}
+ {:block/name "herramientas devops tema-7 (highlights)",
+  :block/created-at 1667213077508,
+  :block/updated-at 1667213078094}
+ {:block/name "herramientas devops tema-8 (highlights)",
+  :block/created-at 1667213079708,
+  :block/updated-at 1667213080345}
+ {:block/name "herramientas devops tema-9 (highlights)",
+  :block/created-at 1667213080912,
+  :block/updated-at 1667213081526}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "herramientas-de-automatización-de-despliegues",
   :block/created-at 1665484208912,
   :block/updated-at 1665484208912}
  {:block/name "herramientas-devops",
   :block/created-at 1665484207335,
   :block/updated-at 1665484207335}
+<<<<<<< HEAD
  {:block/name "historia de dos ciudades",
   :block/created-at 1667471561228,
   :block/updated-at 1667471561228}
@@ -1983,6 +2620,19 @@
   "hls__azure_modulo-2_servicios-principales-de-azure_1667813268169_0",
   :block/created-at 1667813947154,
   :block/updated-at 1667814994156}
+=======
+ {:block/name
+  "highlights first synced of aws certified cloud practitioner exam guide by [[readwise]] [[tuesday, 25-10-2022]]",
+  :block/created-at 1667213586221,
+  :block/updated-at 1667213586221}
+ {:block/name
+  "highlights from aws certified cloud practitioner exam guide [[readwise]] [[wednesday, 26-10-2022]]",
+  :block/created-at 1667230320365,
+  :block/updated-at 1667230320365}
+ {:block/name "historia de dos ciudades (highlights)",
+  :block/created-at 1667213027927,
+  :block/updated-at 1667213028544}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "hls__contenedores_tema-1_1662122655208_0",
   :block/created-at 1663348729201,
   :block/updated-at 1663348729201}
@@ -1994,6 +2644,7 @@
   :block/created-at 1667213132275,
   :block/updated-at 1667213132916}
  {:block/name
+<<<<<<< HEAD
   "how can i match anything up until this sequence of characters in a regular expression",
   :block/created-at 1667471521287,
   :block/updated-at 1667471521287}
@@ -2009,10 +2660,13 @@
   :block/created-at 1667820764778,
   :block/updated-at 1667820764778}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "how do i do a case-insensitive string comparison? (highlights)",
   :block/created-at 1667212865456,
   :block/updated-at 1667212866065}
  {:block/name
+<<<<<<< HEAD
   "how do you test that a python function throws an exception",
   :block/created-at 1667471521625,
   :block/updated-at 1667471521625}
@@ -2039,10 +2693,19 @@
  {:block/name "how to add a directory to the path-debian-laptop",
   :block/created-at 1667820548687,
   :block/updated-at 1667820548687}
+=======
+  "how do you test that a python function throws an exception? (highlights)",
+  :block/created-at 1667213127694,
+  :block/updated-at 1667213128305}
+ {:block/name "how sre relates to devops (highlights)",
+  :block/created-at 1667213191251,
+  :block/updated-at 1667213191865}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "how to add a directory to the path? (highlights)",
   :block/created-at 1667213036877,
   :block/updated-at 1667213037483}
  {:block/name
+<<<<<<< HEAD
   "how to count files in directory on linux – devconnected",
   :block/created-at 1667471521905,
   :block/updated-at 1667471521905}
@@ -2060,6 +2723,11 @@
  {:block/name "how to determine why my computer crashed-debian-laptop",
   :block/created-at 1667820799169,
   :block/updated-at 1667820799169}
+=======
+  "how to count files in directory on linux – devconnected (highlights)",
+  :block/created-at 1667213131353,
+  :block/updated-at 1667213131979}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "how to determine why my computer crashed? (highlights)",
   :block/created-at 1667213139115,
   :block/updated-at 1667213139799}
@@ -2068,6 +2736,7 @@
   :block/created-at 1667212916385,
   :block/updated-at 1667212916999}
  {:block/name
+<<<<<<< HEAD
   "how to fix attempted relative import in non-package even with __init__",
   :block/created-at 1667471522180,
   :block/updated-at 1667471522180}
@@ -2098,10 +2767,16 @@
   "how to point to the amazon ec2 instance's localhost-debian-laptop",
   :block/created-at 1667820549838,
   :block/updated-at 1667820549838}
+=======
+  "how to import the class within the same directory or sub directory? (highlights)",
+  :block/created-at 1667213128652,
+  :block/updated-at 1667213129303}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "how to point to the amazon ec2 instance's localhost? (highlights)",
   :block/created-at 1667213059694,
   :block/updated-at 1667213060300}
+<<<<<<< HEAD
  {:block/name "how to round to 2 decimals with python",
   :block/created-at 1667471522621,
   :block/updated-at 1667471522621}
@@ -2114,10 +2789,16 @@
  {:block/name "how to use arrays in bash script - linuxconfig",
   :block/created-at 1667471522694,
   :block/updated-at 1667471522694}
+=======
+ {:block/name "how to round to 2 decimals with python? (highlights)",
+  :block/created-at 1667213037635,
+  :block/updated-at 1667213038214}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "how to use arrays in bash script - linuxconfig.org (highlights)",
   :block/created-at 1667212850466,
   :block/updated-at 1667212851074}
+<<<<<<< HEAD
  {:block/name "how to use arrays in bash script - linuxconfig/org",
   :block/created-at 1667471522863,
   :block/updated-at 1667471522863}
@@ -2132,6 +2813,8 @@
   "how to use arrays in bash script - linuxconfig/org-debian-laptop",
   :block/created-at 1667820767866,
   :block/updated-at 1667820767866}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "hybrid",
   :block/created-at 1666079835139,
   :block/updated-at 1666079835139}
@@ -2222,6 +2905,7 @@
   :block/created-at 1665484211532,
   :block/updated-at 1665484211532}
  {:block/name "ibm-devops-containers-lab-1",
+<<<<<<< HEAD
   :block/created-at 1660315979804,
   :block/updated-at 1660315979804}
  {:block/name "ibm-devops-containers-lab-1-debian-laptop",
@@ -2233,6 +2917,13 @@
  {:block/name "ibm-devops-containers-lab-2-debian-laptop",
   :block/created-at 1667810318524,
   :block/updated-at 1667810318524}
+=======
+  :block/created-at 1665484175533,
+  :block/updated-at 1665484175533}
+ {:block/name "ibm-devops-containers-lab-2",
+  :block/created-at 1665484175534,
+  :block/updated-at 1665484175534}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "ibm-devops-containers-lab-3",
   :block/created-at 1665484162543,
   :block/updated-at 1665484162543}
@@ -2252,6 +2943,7 @@
   :block/created-at 1660807835028,
   :block/updated-at 1660807835028}
  {:block/name
+<<<<<<< HEAD
   "implement – what's up on the field – tic-tac-toe – jetbrains academy",
   :block/created-at 1667471522975,
   :block/updated-at 1667471522975}
@@ -2260,20 +2952,28 @@
   :block/created-at 1667820540304,
   :block/updated-at 1667820540304}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "implement – what's up on the field? – tic-tac-toe – jetbrains academy (highlights)",
   :block/created-at 1667212925783,
   :block/updated-at 1667212926409}
  {:block/name "implementing a full ci-cd pipeline",
+<<<<<<< HEAD
   :block/created-at 1659948044636,
   :block/updated-at 1659948044636}
  {:block/name
   "implicit wait - this appears to deprecated in selenium latest version",
   :block/created-at 1667471523158,
   :block/updated-at 1667471523158}
+=======
+  :block/created-at 1665484160417,
+  :block/updated-at 1665484160417}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "implicit wait - this appears to deprecated in selenium latest version. what would be the alternate for the same? | selenium forum (highlights)",
   :block/created-at 1667213029934,
   :block/updated-at 1667213030540}
+<<<<<<< HEAD
  {:block/name
   "implicit wait - this appears to deprecated in selenium latest version/ what would be the alternate for the same  selenium forum",
   :block/created-at 1667471523156,
@@ -2294,6 +2994,14 @@
  {:block/name "in-progress",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277799}
+=======
+ {:block/name "in search of lost time (highlights)",
+  :block/created-at 1667212771874,
+  :block/updated-at 1667212772525}
+ {:block/name "in-progress",
+  :block/created-at 1665484256317,
+  :block/updated-at 1665484256317}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "index website",
   :block/created-at 1666079833315,
   :block/updated-at 1666079833315}
@@ -2306,13 +3014,17 @@
  {:block/name "infraestructura como sofware",
   :block/created-at 1665484213537,
   :block/updated-at 1665484213537}
+<<<<<<< HEAD
  {:block/name "initialise a list to a specific length in python",
   :block/created-at 1667471523237,
   :block/updated-at 1667471523237}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "initialise a list to a specific length in python (highlights)",
   :block/created-at 1667212893301,
   :block/updated-at 1667212893924}
+<<<<<<< HEAD
  {:block/name
   "initialise a list to a specific length in python-debian-laptop",
   :block/created-at 1667820549558,
@@ -2323,11 +3035,17 @@
  {:block/name "intro to python for computer science and data science",
   :block/created-at 1667471561930,
   :block/updated-at 1667471561930}
+=======
+ {:block/name "installing linux",
+  :block/created-at 1665484213617,
+  :block/updated-at 1665484213617}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "intro to python for computer science and data science (highlights)",
   :block/created-at 1667212879671,
   :block/updated-at 1667212880298}
  {:block/name
+<<<<<<< HEAD
   "intro to python for computer science and data science learning to program with ai, big data and the cloud",
   :block/created-at 1667471561680,
   :block/updated-at 1667471561680}
@@ -2350,6 +3068,11 @@
   "introduction - universidad de minnesota  coursera-debian-laptop",
   :block/created-at 1667820751710,
   :block/updated-at 1667820751710}
+=======
+  "intro to python for computer science and data science: learning to program with ai, big data and the cloud (highlights)",
+  :block/created-at 1667212841090,
+  :block/updated-at 1667212841738}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "introduction - universidad de minnesota | coursera (highlights)",
   :block/created-at 1667212837285,
@@ -2358,14 +3081,18 @@
   :block/created-at 1665484162116,
   :block/updated-at 1665768875622}
  {:block/name
+<<<<<<< HEAD
   "introduction to computation and programming using python",
   :block/created-at 1667471562563,
   :block/updated-at 1667471562563}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "introduction to computation and programming using python (highlights)",
   :block/created-at 1667212970701,
   :block/updated-at 1667212971317}
  {:block/name
+<<<<<<< HEAD
   "introduction to computation and programming using python-debian-laptop",
   :block/created-at 1667820594279,
   :block/updated-at 1667820594279}
@@ -2377,10 +3104,13 @@
   :block/created-at 1667820808125,
   :block/updated-at 1667820808125}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "introduction to git and github - inicio | coursera (highlights)",
   :block/created-at 1667212835602,
   :block/updated-at 1667212836241}
  {:block/name "introduction to software testing",
+<<<<<<< HEAD
   :block/created-at 1660315974591,
   :block/updated-at 1660375685084}
  {:block/name "introduction to software testing-debian-laptop",
@@ -2389,6 +3119,10 @@
  {:block/name "introduction to software testing-debian-laptop-2",
   :block/created-at 1667820944750,
   :block/updated-at 1667820944750}
+=======
+  :block/created-at 1665484160675,
+  :block/updated-at 1665484160675}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "james turnbull",
   :block/created-at 1665484242478,
   :block/updated-at 1665484242478}
@@ -2399,6 +3133,7 @@
   :block/created-at 1665484241581,
   :block/updated-at 1665484241581}
  {:block/name "java",
+<<<<<<< HEAD
   :block/created-at 1659780224946,
   :block/updated-at 1659780224946}
  {:block/name "java (highlights)",
@@ -2444,10 +3179,30 @@
  {:block/name "javaserver pages-debian-laptop",
   :block/created-at 1667820607245,
   :block/updated-at 1667820607245}
+=======
+  :block/created-at 1666960846053,
+  :block/updated-at 1666960846053}
+ {:block/name "java (highlights)",
+  :block/created-at 1667212781844,
+  :block/updated-at 1667212782488}
+ {:block/name "java convert char to string with examples (highlights)",
+  :block/created-at 1667212858468,
+  :block/updated-at 1667212859080}
+ {:block/name "java ee 7 essentials (highlights)",
+  :block/created-at 1667212748524,
+  :block/updated-at 1667212749125}
+ {:block/name "java projects (highlights)",
+  :block/created-at 1667213006603,
+  :block/updated-at 1667213007223}
+ {:block/name "javaserver pages (highlights)",
+  :block/created-at 1667212691116,
+  :block/updated-at 1667212691757}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "jeanne boyarsky, scott selikoff",
   :block/created-at 1665484232947,
   :block/updated-at 1665484232947}
  {:block/name "jenkins",
+<<<<<<< HEAD
   :block/created-at 1660029984396,
   :block/updated-at 1660029984396}
  {:block/name "jenkins core",
@@ -2472,10 +3227,21 @@
   "jetbrains academy - learn programming by building your own apps",
   :block/created-at 1667471524191,
   :block/updated-at 1667471524191}
+=======
+  :block/created-at 1665484224334,
+  :block/updated-at 1665484224334}
+ {:block/name "jenkins core (highlights)",
+  :block/created-at 1667213135962,
+  :block/updated-at 1667213136597}
+ {:block/name "jenkins essential training",
+  :block/created-at 1665484160428,
+  :block/updated-at 1665484160428}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "jetbrains academy - learn programming by building your own apps (highlights)",
   :block/created-at 1667212856621,
   :block/updated-at 1667212857236}
+<<<<<<< HEAD
  {:block/name
   "jetbrains academy - learn programming by building your own apps-2",
   :block/created-at 1667471524093,
@@ -2488,6 +3254,8 @@
   "jetbrains academy - learn programming by building your own apps-debian-laptop",
   :block/created-at 1667820790278,
   :block/updated-at 1667820790278}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "joakim verona",
   :block/created-at 1665484233331,
   :block/updated-at 1665484233331}
@@ -2506,6 +3274,7 @@
  {:block/name "ken follett",
   :block/created-at 1660807859029,
   :block/updated-at 1660807859029}
+<<<<<<< HEAD
  {:block/name "kubectl  unable to connect to the server  dial tcp 192",
   :block/created-at 1667471524377,
   :block/updated-at 1667471524377}
@@ -2525,6 +3294,8 @@
   "kubectl  unable to connect to the server  dial tcp 192/168/214/1366443 connect no route to host-debian-laptop",
   :block/created-at 1667820758671,
   :block/updated-at 1667820758671}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "kubectl : unable to connect to the server : dial tcp 192.168.214.136:6443: connect: no route to host (highlights)",
   :block/created-at 1667213193021,
@@ -2532,6 +3303,7 @@
  {:block/name "kubernetes",
   :block/created-at 1665484171276,
   :block/updated-at 1665484171276}
+<<<<<<< HEAD
  {:block/name "kubernetes in action",
   :block/created-at 1667471565343,
   :block/updated-at 1667471565343}
@@ -2595,10 +3367,34 @@
  {:block/name "la verdad sobre el caso harry quebert-debian-laptop",
   :block/created-at 1667820578052,
   :block/updated-at 1667820578052}
+=======
+ {:block/name "kubernetes in action (highlights)",
+  :block/created-at 1667213141913,
+  :block/updated-at 1667213142525}
+ {:block/name "l'ordre del temps (highlights)",
+  :block/created-at 1667212938054,
+  :block/updated-at 1667212938663}
+ {:block/name "la búsqueda de la felicidad (highlights)",
+  :block/created-at 1667213195896,
+  :block/updated-at 1667213196534}
+ {:block/name "la conquista de la felicidad (highlights)",
+  :block/created-at 1667212891293,
+  :block/updated-at 1667212891895}
+ {:block/name "la historia de la nostalgia (highlights)",
+  :block/created-at 1667213194744,
+  :block/updated-at 1667213195372}
+ {:block/name "la síntesis de la libertad (highlights)",
+  :block/created-at 1667212744753,
+  :block/updated-at 1667212745355}
+ {:block/name "la verdad sobre el caso harry quebert (highlights)",
+  :block/created-at 1667212827451,
+  :block/updated-at 1667212828090}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "labs",
   :block/created-at 1665484174458,
   :block/updated-at 1665484174458}
  {:block/name "later",
+<<<<<<< HEAD
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
  {:block/name "learn",
@@ -2640,12 +3436,32 @@
  {:block/name "learning php, mysql & javascript-debian-laptop",
   :block/created-at 1667820569659,
   :block/updated-at 1667820569659}
+=======
+  :block/created-at 1665484256317,
+  :block/updated-at 1665484256317}
+ {:block/name "learn",
+  :block/created-at 1665484176319,
+  :block/updated-at 1665484176319}
+ {:block/name "learn selenium (highlights)",
+  :block/created-at 1667212957577,
+  :block/updated-at 1667212958188}
+ {:block/name "learning devops (highlights)",
+  :block/created-at 1667212966616,
+  :block/updated-at 1667212967253}
+ {:block/name "learning php 7 (highlights)",
+  :block/created-at 1667212791974,
+  :block/updated-at 1667212792586}
+ {:block/name "learning php, mysql & javascript (highlights)",
+  :block/created-at 1667212710623,
+  :block/updated-at 1667212711232}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "learning-path-aws-developer",
   :block/created-at 1665484162099,
   :block/updated-at 1665484162099}
  {:block/name "learning.oreilly.com",
   :block/created-at 1665484241937,
   :block/updated-at 1665484241937}
+<<<<<<< HEAD
  {:block/name "lessons learned in software testing",
   :block/created-at 1667471571740,
   :block/updated-at 1667471571740}
@@ -2655,22 +3471,33 @@
  {:block/name "lessons learned in software testing-debian-laptop",
   :block/created-at 1667820688003,
   :block/updated-at 1667820688003}
+=======
+ {:block/name "lessons learned in software testing (highlights)",
+  :block/created-at 1667212742608,
+  :block/updated-at 1667212743223}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "linkedin personal brand",
   :block/created-at 1665484159900,
   :block/updated-at 1665484159900}
  {:block/name "linkedin-learning",
+<<<<<<< HEAD
   :block/created-at 1660316566236,
   :block/updated-at 1660316566236}
+=======
+  :block/created-at 1665484188199,
+  :block/updated-at 1665484188199}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "linkedin-learning devops ansible",
   :block/created-at 1665484172534,
   :block/updated-at 1665484172534}
  {:block/name "linux",
-  :block/created-at 1660316566234,
-  :block/updated-at 1660316566234}
+  :block/created-at 1665484174168,
+  :block/updated-at 1665484174168}
  {:block/name "linux essential commands",
-  :block/created-at 1660316566646,
-  :block/updated-at 1660316566646}
+  :block/created-at 1665484160163,
+  :block/updated-at 1665484160163}
  {:block/name "linux fundamentals",
+<<<<<<< HEAD
   :block/created-at 1660316566670,
   :block/updated-at 1660391337099}
  {:block/name "linux fundamentals-debian-laptop",
@@ -2679,6 +3506,10 @@
  {:block/name "linux fundamentals-debian-laptop-2",
   :block/created-at 1667820946926,
   :block/updated-at 1667820946926}
+=======
+  :block/created-at 1665484160283,
+  :block/updated-at 1665646074406}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "linux fundamentals/operating running systems",
   :block/created-at 1665484230514,
   :block/updated-at 1665484230514}
@@ -2689,6 +3520,7 @@
  {:block/name "linuxconfig.org",
   :block/created-at 1665484171746,
   :block/updated-at 1665484171746}
+<<<<<<< HEAD
  {:block/name "list comprehension – jetbrains academy",
   :block/created-at 1667471524478,
   :block/updated-at 1667471524478}
@@ -2713,6 +3545,20 @@
  {:block/name "machines like me-debian-laptop",
   :block/created-at 1667820624214,
   :block/updated-at 1667820624214}
+=======
+ {:block/name "list comprehension – jetbrains academy (highlights)",
+  :block/created-at 1667212920873,
+  :block/updated-at 1667212921516}
+ {:block/name "literature",
+  :block/created-at 1665484209011,
+  :block/updated-at 1665484209011}
+ {:block/name "literature-quotes",
+  :block/created-at 1667210436074,
+  :block/updated-at 1667210436074}
+ {:block/name "machines like me (highlights)",
+  :block/created-at 1667212813731,
+  :block/updated-at 1667212814362}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "marcel proust",
   :block/created-at 1665484213493,
   :block/updated-at 1665484213493}
@@ -2722,17 +3568,23 @@
  {:block/name "mariana travacio",
   :block/created-at 1665484179229,
   :block/updated-at 1665484179229}
+<<<<<<< HEAD
  {:block/name "markdown editing basics - west wind html help builder",
   :block/created-at 1667471524643,
   :block/updated-at 1667471524643}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "markdown editing basics - west wind html help builder (highlights)",
   :block/created-at 1667212883440,
   :block/updated-at 1667212884049}
+<<<<<<< HEAD
  {:block/name
   "markdown editing basics - west wind html help builder-debian-laptop",
   :block/created-at 1667820807242,
   :block/updated-at 1667820807242}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "marko luksa",
   :block/created-at 1665484225049,
   :block/updated-at 1665484225049}
@@ -2757,6 +3609,7 @@
  {:block/name "mind",
   :block/created-at 1665484185875,
   :block/updated-at 1665484185875}
+<<<<<<< HEAD
  {:block/name "mobile test automation with appium",
   :block/created-at 1667471572257,
   :block/updated-at 1667471572257}
@@ -2783,11 +3636,20 @@
   "modules overview - configuration language  terraform by hashicorp-debian-laptop",
   :block/created-at 1667820757737,
   :block/updated-at 1667820757737}
+=======
+ {:block/name "mobile test automation with appium (highlights)",
+  :block/created-at 1667213031480,
+  :block/updated-at 1667213032061}
+ {:block/name "moby dick (highlights)",
+  :block/created-at 1667212808994,
+  :block/updated-at 1667212809623}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "modules overview - configuration language | terraform by hashicorp (highlights)",
   :block/created-at 1667213064020,
   :block/updated-at 1667213064625}
  {:block/name "monday, 01-08-2022",
+<<<<<<< HEAD
   :block/created-at 1660315974600,
   :block/updated-at 1660315974600}
  {:block/name "monday, 05-09-2022",
@@ -2799,6 +3661,19 @@
  {:block/name "monday, 08-08-2022",
   :block/created-at 1660315976840,
   :block/updated-at 1660315976840}
+=======
+  :block/created-at 1665484160680,
+  :block/updated-at 1665484160680}
+ {:block/name "monday, 03-10-2022",
+  :block/created-at 1665484236817,
+  :block/updated-at 1665484236817}
+ {:block/name "monday, 05-09-2022",
+  :block/created-at 1665484160857,
+  :block/updated-at 1665484160857}
+ {:block/name "monday, 08-08-2022",
+  :block/created-at 1665484160445,
+  :block/updated-at 1665484160445}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "monday, 10-10-2022",
   :block/created-at 1665484158723,
   :block/updated-at 1667230342603}
@@ -2808,9 +3683,18 @@
  {:block/name "monday, 17-10-2022",
   :block/created-at 1665994470879,
   :block/updated-at 1666001029161}
+<<<<<<< HEAD
  {:block/name "monday, 25-07-2022",
   :block/created-at 1660315973345,
   :block/updated-at 1660315973345}
+=======
+ {:block/name "monday, 24-10-2022",
+  :block/created-at 1666774949111,
+  :block/updated-at 1666774949111}
+ {:block/name "monday, 25-07-2022",
+  :block/created-at 1665484160827,
+  :block/updated-at 1665484160827}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "monday, 26-09-2022",
   :block/created-at 1665484159078,
   :block/updated-at 1665484159078}
@@ -2821,11 +3705,16 @@
   :block/created-at 1667209353630,
   :block/updated-at 1667238360281}
  {:block/name "my knowledge path",
-  :block/created-at 1660315984032,
-  :block/updated-at 1660315984032}
+  :block/created-at 1665484231603,
+  :block/updated-at 1665484231603}
  {:block/name "my knowledge path 2",
+<<<<<<< HEAD
   :block/created-at 1660315983964,
   :block/updated-at 1660315983964}
+=======
+  :block/created-at 1665484231575,
+  :block/updated-at 1665484231575}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "naranja",
   :block/created-at 1665484184432,
   :block/updated-at 1665484184432}
@@ -2838,6 +3727,7 @@
  {:block/name "networking",
   :block/created-at 1662196727625,
   :block/updated-at 1662196727625}
+<<<<<<< HEAD
  {:block/name "networking all-in-one for dummies",
   :block/created-at 1667471572608,
   :block/updated-at 1667471572608}
@@ -2871,10 +3761,25 @@
  {:block/name "none",
   :block/created-at 1667471530127,
   :block/updated-at 1667471530127}
+=======
+ {:block/name "networking all-in-one for dummies (highlights)",
+  :block/created-at 1667213201132,
+  :block/updated-at 1667213201772}
+ {:block/name "networking fundamentals (highlights)",
+  :block/created-at 1667213199746,
+  :block/updated-at 1667213200376}
+ {:block/name "nginx configuration guide (highlights)",
+  :block/created-at 1667213061263,
+  :block/updated-at 1667213061843}
+ {:block/name "nishant verma",
+  :block/created-at 1665484231420,
+  :block/updated-at 1665484231420}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "note",
   :block/created-at 1665484236597,
   :block/updated-at 1665484236597}
  {:block/name "now",
+<<<<<<< HEAD
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
  {:block/name "nullpointerexception when using @findby",
@@ -2886,6 +3791,13 @@
  {:block/name "nullpointerexception when using @findby-debian-laptop",
   :block/created-at 1667820756845,
   :block/updated-at 1667820756845}
+=======
+  :block/created-at 1665484256316,
+  :block/updated-at 1665484256316}
+ {:block/name "nullpointerexception when using @findby (highlights)",
+  :block/created-at 1667213030714,
+  :block/updated-at 1667213031297}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "o",
   :block/created-at 1665484160810,
   :block/updated-at 1665484160810}
@@ -2893,8 +3805,13 @@
   :block/created-at 1665484213793,
   :block/updated-at 1665484213793}
  {:block/name "o'reilly-learning",
+<<<<<<< HEAD
   :block/created-at 1658825284488,
   :block/updated-at 1658825284488}
+=======
+  :block/created-at 1665484163040,
+  :block/updated-at 1665484163040}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "o'reilly-learning::advanced software testing - vol. 1, 2nd edition",
   :block/created-at 1667210715501,
@@ -2964,6 +3881,7 @@
  {:block/name "o'reilly-learning::networking all-in-one for dummies",
   :block/created-at 1666949112026,
   :block/updated-at 1666949112026}
+<<<<<<< HEAD
  {:block/name "o'reilly-learning::networking fundamentals",
   :block/created-at 1667211138176,
   :block/updated-at 1667211138176}
@@ -2973,6 +3891,11 @@
  {:block/name "o'reilly-learning::practical devops",
   :block/created-at 1667471574622,
   :block/updated-at 1667471574622}
+=======
+ {:block/name "o'reilly-learning::practical ansible 2",
+  :block/created-at 1667210618521,
+  :block/updated-at 1667210618521}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "o'reilly-learning::pragmatic software testing",
   :block/created-at 1667210620767,
   :block/updated-at 1667210620767}
@@ -2992,10 +3915,13 @@
   "o'reilly-learning::red hat certified engineer (rhce) study guide",
   :block/created-at 1667211112820,
   :block/updated-at 1667211112820}
+<<<<<<< HEAD
  {:block/name
   "o'reilly-learning::selenium webdriver 3 practical guide",
   :block/created-at 1667471583683,
   :block/updated-at 1667471583683}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "o'reilly-learning::software testing",
   :block/created-at 1667210674199,
   :block/updated-at 1667210674199}
@@ -3030,6 +3956,7 @@
  {:block/name "obsidian readwise template",
   :block/created-at 1666959102245,
   :block/updated-at 1666959102245}
+<<<<<<< HEAD
  {:block/name "oca",
   :block/created-at 1667471573962,
   :block/updated-at 1667471573962}
@@ -3043,10 +3970,16 @@
   "ocp oracle certified professional java se 11 programmer i exam fundamentals 1z0-815",
   :block/created-at 1667471573201,
   :block/updated-at 1667471573201}
+=======
+ {:block/name "oca (highlights)",
+  :block/created-at 1667212819059,
+  :block/updated-at 1667212819660}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "ocp oracle certified professional java se 11 programmer i exam fundamentals 1z0-815 (highlights)",
   :block/created-at 1667212775629,
   :block/updated-at 1667212776231}
+<<<<<<< HEAD
  {:block/name
   "ocp oracle certified professional java se 11 programmer i exam fundamentals 1z0-815-debian-laptop",
   :block/created-at 1667820630814,
@@ -3066,6 +3999,17 @@
  {:block/name "origin-debian-laptop",
   :block/created-at 1667820683886,
   :block/updated-at 1667820683886}
+=======
+ {:block/name "operating running system",
+  :block/created-at 1665484160197,
+  :block/updated-at 1665484160197}
+ {:block/name "orange",
+  :block/created-at 1665484184436,
+  :block/updated-at 1665484184436}
+ {:block/name "origin (highlights)",
+  :block/created-at 1667213125152,
+  :block/updated-at 1667213125730}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "oscar wilde and mauro armiño",
   :block/created-at 1665484201374,
   :block/updated-at 1665484201374}
@@ -3225,6 +4169,7 @@
  {:block/name "paulo coelho",
   :block/created-at 1665484200680,
   :block/updated-at 1665484200680}
+<<<<<<< HEAD
  {:block/name "pdfs",
   :block/created-at 1667814065886,
   :block/updated-at 1667814065886}
@@ -3240,6 +4185,14 @@
  {:block/name "personalidad-debian-laptop",
   :block/created-at 1667820622752,
   :block/updated-at 1667820622752}
+=======
+ {:block/name "permissions management",
+  :block/created-at 1665484230620,
+  :block/updated-at 1665484230620}
+ {:block/name "personalidad (highlights)",
+  :block/created-at 1667213193847,
+  :block/updated-at 1667213194452}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "pink",
   :block/created-at 1665484186786,
   :block/updated-at 1665484186786}
@@ -3249,6 +4202,7 @@
  {:block/name "por jesús angulo",
   :block/created-at 1665484202124,
   :block/updated-at 1665484202124}
+<<<<<<< HEAD
  {:block/name "practical ansible 2",
   :block/created-at 1667471574582,
   :block/updated-at 1667471574582}
@@ -3306,6 +4260,26 @@
  {:block/name "pro puppet-debian-laptop",
   :block/created-at 1667820618230,
   :block/updated-at 1667820618230}
+=======
+ {:block/name "practical ansible 2 (highlights)",
+  :block/created-at 1667212953251,
+  :block/updated-at 1667212953836}
+ {:block/name "practical devops (highlights)",
+  :block/created-at 1667212770284,
+  :block/updated-at 1667212770921}
+ {:block/name "pragmatic software testing (highlights)",
+  :block/created-at 1667212955252,
+  :block/updated-at 1667212955849}
+ {:block/name "pretty things (highlights)",
+  :block/created-at 1667213076532,
+  :block/updated-at 1667213077183}
+ {:block/name "pro bash programming (highlights)",
+  :block/created-at 1667213183684,
+  :block/updated-at 1667213184284}
+ {:block/name "pro puppet (highlights)",
+  :block/created-at 1667212759376,
+  :block/updated-at 1667212759987}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "problem",
   :block/created-at 1660808012410,
   :block/updated-at 1660808012410}
@@ -3324,6 +4298,7 @@
  {:block/name "programiz.com",
   :block/created-at 1665484236344,
   :block/updated-at 1665484236344}
+<<<<<<< HEAD
  {:block/name "programming - evernote",
   :block/created-at 1667471525177,
   :block/updated-at 1667471525177}
@@ -3341,10 +4316,16 @@
   "providers - configuration language  terraform by hashicorp-debian-laptop",
   :block/created-at 1667820541413,
   :block/updated-at 1667820541413}
+=======
+ {:block/name "programming - evernote (highlights)",
+  :block/created-at 1667212868894,
+  :block/updated-at 1667212869494}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "providers - configuration language | terraform by hashicorp (highlights)",
   :block/created-at 1667213064807,
   :block/updated-at 1667213065403}
+<<<<<<< HEAD
  {:block/name "puppet 5 beginner's guide",
   :block/created-at 1667471576688,
   :block/updated-at 1667471576688}
@@ -3378,10 +4359,28 @@
  {:block/name "python object",
   :block/created-at 1667471525718,
   :block/updated-at 1667471525718}
+=======
+ {:block/name "puppet",
+  :block/created-at 1665484235339,
+  :block/updated-at 1665484235339}
+ {:block/name "puppet 5 beginner's guide (highlights)",
+  :block/created-at 1667213181012,
+  :block/updated-at 1667213181634}
+ {:block/name "python",
+  :block/created-at 1665484182894,
+  :block/updated-at 1665484182894}
+ {:block/name "python crash course (highlights)",
+  :block/created-at 1667213119344,
+  :block/updated-at 1667213119940}
+ {:block/name "python file naming convention? (highlights)",
+  :block/created-at 1667212877864,
+  :block/updated-at 1667212878471}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "python object.__repr__(self) should be an expression? (highlights)",
   :block/created-at 1667212968732,
   :block/updated-at 1667212969323}
+<<<<<<< HEAD
  {:block/name "python object/__repr__(self) should be an expression",
   :block/created-at 1667471525714,
   :block/updated-at 1667471525714}
@@ -3398,6 +4397,11 @@
  {:block/name "python string count-debian-laptop",
   :block/created-at 1667820540631,
   :block/updated-at 1667820540631}
+=======
+ {:block/name "python string count (highlights)",
+  :block/created-at 1667212923410,
+  :block/updated-at 1667212924243}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "qa",
   :block/created-at 1665484168278,
   :block/updated-at 1665484168278}
@@ -3407,6 +4411,7 @@
  {:block/name "quantum",
   :block/created-at 1665484236578,
   :block/updated-at 1665484236578}
+<<<<<<< HEAD
  {:block/name "quantum computing for everyone",
   :block/created-at 1667471578747,
   :block/updated-at 1667471578747}
@@ -3428,10 +4433,19 @@
  {:block/name "reading 3",
   :block/created-at 1667471525951,
   :block/updated-at 1667471525951}
+=======
+ {:block/name "quantum computing for everyone (highlights)",
+  :block/created-at 1667213198152,
+  :block/updated-at 1667213198798}
+ {:block/name "quotes (highlights)",
+  :block/created-at 1667212846443,
+  :block/updated-at 1667212847055}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "reading 3.1: storage types on aws | coursera (highlights)",
   :block/created-at 1667213117551,
   :block/updated-at 1667213118165}
+<<<<<<< HEAD
  {:block/name "reading 3/1 storage types on aws  coursera",
   :block/created-at 1667471525948,
   :block/updated-at 1667471525948}
@@ -3457,15 +4471,29 @@
  {:block/name "red hat certified engineer (rhce) study guide",
   :block/created-at 1667471579759,
   :block/updated-at 1667471579759}
+=======
+ {:block/name "readme",
+  :block/created-at 1665484162156,
+  :block/updated-at 1665484162156}
+ {:block/name "readwise",
+  :block/created-at 1667212681196,
+  :block/updated-at 1667212681196}
+ {:block/name "real-world software development (highlights)",
+  :block/created-at 1667212979323,
+  :block/updated-at 1667212979935}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "red hat certified engineer (rhce) study guide (highlights)",
   :block/created-at 1667213187248,
   :block/updated-at 1667213187835}
  {:block/name
+<<<<<<< HEAD
   "red hat certified engineer (rhce) study guide-debian-laptop",
   :block/created-at 1667820720782,
   :block/updated-at 1667820720782}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "red hat certified specialist in ansible automation (ex407) preparation course",
   :block/created-at 1665484159602,
   :block/updated-at 1665484159602}
@@ -3484,6 +4512,7 @@
  {:block/name "region",
   :block/created-at 1665484163198,
   :block/updated-at 1665484163198}
+<<<<<<< HEAD
  {:block/name "resilience",
   :block/created-at 1667471580022,
   :block/updated-at 1667471580022}
@@ -3493,6 +4522,11 @@
  {:block/name "resilience-debian-laptop",
   :block/created-at 1667820701809,
   :block/updated-at 1667820701809}
+=======
+ {:block/name "resilience (highlights)",
+  :block/created-at 1667212807381,
+  :block/updated-at 1667212807984}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "richard p. feynman, robert b. leighton, and matthew sands",
   :block/created-at 1665484242740,
@@ -3512,32 +4546,48 @@
  {:block/name "rosa",
   :block/created-at 1665484186785,
   :block/updated-at 1665484186785}
+<<<<<<< HEAD
  {:block/name "run a function only once in a class - python",
   :block/created-at 1667471526028,
   :block/updated-at 1667471526028}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "run a function only once in a class - python (highlights)",
   :block/created-at 1667212905508,
   :block/updated-at 1667212906107}
+<<<<<<< HEAD
  {:block/name
   "run a function only once in a class - python-debian-laptop",
   :block/created-at 1667820791097,
   :block/updated-at 1667820791097}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "saturday, 03-09-2022",
   :block/created-at 1665484159451,
   :block/updated-at 1665484159451}
  {:block/name "saturday, 06-08-2022",
+<<<<<<< HEAD
   :block/created-at 1660315976205,
   :block/updated-at 1660315976205}
+=======
+  :block/created-at 1665484160512,
+  :block/updated-at 1665484160512}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "saturday, 10-09-2022",
   :block/created-at 1665484159195,
   :block/updated-at 1665484159195}
  {:block/name "saturday, 13-08-2022",
-  :block/created-at 1660373272169,
-  :block/updated-at 1660392401585}
+  :block/created-at 1665484160219,
+  :block/updated-at 1665484160219}
  {:block/name "saturday, 17-09-2022",
+<<<<<<< HEAD
   :block/created-at 1660315977409,
   :block/updated-at 1660315977409}
+=======
+  :block/created-at 1665484159097,
+  :block/updated-at 1665484159097}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "saturday, 20-08-2022",
   :block/created-at 1665484160012,
   :block/updated-at 1665484160012}
@@ -3545,11 +4595,22 @@
   :block/created-at 1665484159741,
   :block/updated-at 1665484159741}
  {:block/name "saturday, 30-07-2022",
+<<<<<<< HEAD
   :block/created-at 1660315973907,
   :block/updated-at 1660315973907}
  {:block/name "sci",
   :block/created-at 1665484242737,
   :block/updated-at 1665484242737}
+=======
+  :block/created-at 1665484160775,
+  :block/updated-at 1665484160775}
+ {:block/name "sci",
+  :block/created-at 1665484242737,
+  :block/updated-at 1665484242737}
+ {:block/name "science",
+  :block/created-at 1665484176247,
+  :block/updated-at 1665484176247}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "science::astrophysics for people in a hurry",
   :block/created-at 1667210627107,
   :block/updated-at 1667210627107}
@@ -3571,6 +4632,7 @@
  {:block/name "science::the history of the world",
   :block/created-at 1667210603012,
   :block/updated-at 1667210603012}
+<<<<<<< HEAD
  {:block/name "scrolling to element using webdriver",
   :block/created-at 1667471526282,
   :block/updated-at 1667471526282}
@@ -3679,6 +4741,50 @@
  {:block/name "selenium-python.readthedocs.io",
   :block/created-at 1665484162795,
   :block/updated-at 1665484162795}
+=======
+ {:block/name "scrolling to element using webdriver? (highlights)",
+  :block/created-at 1667212872334,
+  :block/updated-at 1667212872958}
+ {:block/name "secdevops",
+  :block/created-at 1665484239701,
+  :block/updated-at 1665484239701}
+ {:block/name "secdevops tema-1 (highlights)",
+  :block/created-at 1667213032289,
+  :block/updated-at 1667213032855}
+ {:block/name "secdevops tema-2 (highlights)",
+  :block/created-at 1667213038404,
+  :block/updated-at 1667213038986}
+ {:block/name "secdevops tema-3 (highlights)",
+  :block/created-at 1667213041550,
+  :block/updated-at 1667213042162}
+ {:block/name "secdevops tema-4 (highlights)",
+  :block/created-at 1667213044035,
+  :block/updated-at 1667213044624}
+ {:block/name "secdevops tema-5 (highlights)",
+  :block/created-at 1667213058481,
+  :block/updated-at 1667213059076}
+ {:block/name "secdevops tema-6 (highlights)",
+  :block/created-at 1667213086701,
+  :block/updated-at 1667213087331}
+ {:block/name "secdevops tema-7 (highlights)",
+  :block/created-at 1667213087961,
+  :block/updated-at 1667213088568}
+ {:block/name "secdevops tema-8 (highlights)",
+  :block/created-at 1667213089380,
+  :block/updated-at 1667213090002}
+ {:block/name "secdevops tema-9 (highlights)",
+  :block/created-at 1667213090822,
+  :block/updated-at 1667213091440}
+ {:block/name "selenium webdriver 3 practical guide (highlights)",
+  :block/created-at 1667212789411,
+  :block/updated-at 1667212790063}
+ {:block/name "selenium-python.readthedocs.io",
+  :block/created-at 1665484162795,
+  :block/updated-at 1665484162795}
+ {:block/name "self-help",
+  :block/created-at 1665484185618,
+  :block/updated-at 1665484185618}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "self-help::decídete",
   :block/created-at 1667210611998,
   :block/updated-at 1667210611998}
@@ -3715,6 +4821,7 @@
  {:block/name "serverless",
   :block/created-at 1666079835134,
   :block/updated-at 1666079835134}
+<<<<<<< HEAD
  {:block/name "servicios de cómputo",
   :block/created-at 1667810308659,
   :block/updated-at 1667810308659}
@@ -3727,6 +4834,11 @@
  {:block/name "siddhartha-debian-laptop",
   :block/created-at 1667820528154,
   :block/updated-at 1667820528154}
+=======
+ {:block/name "siddhartha (highlights)",
+  :block/created-at 1667212740451,
+  :block/updated-at 1667212741046}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "sir ken robinson, aronica lou",
   :block/created-at 1665484200979,
   :block/updated-at 1665484200979}
@@ -3736,6 +4848,7 @@
  {:block/name "software como servicio (saas)",
   :block/created-at 1664877844942,
   :block/updated-at 1664877844942}
+<<<<<<< HEAD
  {:block/name "software testing",
   :block/created-at 1667471584922,
   :block/updated-at 1667471584922}
@@ -3745,12 +4858,22 @@
  {:block/name "software testing-debian-laptop",
   :block/created-at 1667820591039,
   :block/updated-at 1667820591039}
+=======
+ {:block/name "software testing (highlights)",
+  :block/created-at 1667212998633,
+  :block/updated-at 1667212999243}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "softwareengineering.stackexchange.com",
   :block/created-at 1665484236277,
   :block/updated-at 1665484236277}
  {:block/name "spaced",
+<<<<<<< HEAD
   :block/created-at 1658774346833,
   :block/updated-at 1658774346833}
+=======
+  :block/created-at 1665484163201,
+  :block/updated-at 1665484163201}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "speaking recordings",
   :block/created-at 1665484162282,
   :block/updated-at 1665484162282}
@@ -3764,6 +4887,7 @@
  {:block/name "sricharan vadapalli",
   :block/created-at 1665484186178,
   :block/updated-at 1665484186178}
+<<<<<<< HEAD
  {:block/name "ssh-copy-id - permission denied",
   :block/created-at 1667471526212,
   :block/updated-at 1667471526212}
@@ -3773,12 +4897,18 @@
  {:block/name "ssh-copy-id - permission denied-debian-laptop",
   :block/created-at 1667820761621,
   :block/updated-at 1667820761621}
+=======
+ {:block/name "ssh-copy-id - permission denied (highlights)",
+  :block/created-at 1667213188275,
+  :block/updated-at 1667213188909}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "stackoverflow.com",
   :block/created-at 1665484163257,
   :block/updated-at 1665484163257}
  {:block/name "stephen fleming",
   :block/created-at 1665484242106,
   :block/updated-at 1665484242106}
+<<<<<<< HEAD
  {:block/name "steppenwolf",
   :block/created-at 1667471585152,
   :block/updated-at 1667471585152}
@@ -3788,6 +4918,11 @@
  {:block/name "steppenwolf-debian-laptop",
   :block/created-at 1667820532101,
   :block/updated-at 1667820532101}
+=======
+ {:block/name "steppenwolf (highlights)",
+  :block/created-at 1667212709304,
+  :block/updated-at 1667212709890}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "steve mcconnell",
   :block/created-at 1665484179143,
   :block/updated-at 1665484179143}
@@ -3801,24 +4936,36 @@
   :block/created-at 1665484241722,
   :block/updated-at 1665484241722}
  {:block/name "sunday, 07-08-2022",
+<<<<<<< HEAD
   :block/created-at 1660315976546,
   :block/updated-at 1660315976546}
  {:block/name "sunday, 09-10-2022",
   :block/created-at 1665484158772,
   :block/updated-at 1665484158772}
+=======
+  :block/created-at 1665484160467,
+  :block/updated-at 1665484160467}
+ {:block/name "sunday, 09-10-2022",
+  :block/created-at 1665484158772,
+  :block/updated-at 1665484158772}
+ {:block/name "sunday, 21-08-2022",
+  :block/created-at 1665484236808,
+  :block/updated-at 1665484236808}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "sunday, 28-08-2022",
   :block/created-at 1665484159698,
   :block/updated-at 1665484159698}
  {:block/name "sunday, 31-07-2022",
-  :block/created-at 1660315974297,
-  :block/updated-at 1660315974297}
+  :block/created-at 1665484160740,
+  :block/updated-at 1665484160740}
  {:block/name "sw-testing",
-  :block/created-at 1659378302553,
-  :block/updated-at 1659378302553}
+  :block/created-at 1665484173892,
+  :block/updated-at 1665484173892}
  {:block/name "system hardware",
-  :block/created-at 1660316566248,
-  :block/updated-at 1660316566248}
+  :block/created-at 1665484160274,
+  :block/updated-at 1665484160274}
  {:block/name "tags",
+<<<<<<< HEAD
   :block/created-at 1658775007501,
   :block/updated-at 1658775007501}
  {:block/name "tal ben-shahar and ana garcía bertrán",
@@ -3828,19 +4975,30 @@
   "tema 1: componentes arquitectónicos principales de azure",
   :block/created-at 1667811315852,
   :block/updated-at 1667811315852}
+=======
+  :block/created-at 1665484165115,
+  :block/updated-at 1665484165115}
+ {:block/name "tal ben-shahar and ana garcía bertrán",
+  :block/created-at 1665484225365,
+  :block/updated-at 1665484225365}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "tema-1",
   :block/created-at 1665043862285,
   :block/updated-at 1665043862285}
  {:block/name "templates",
   :block/created-at 1660315984263,
   :block/updated-at 1660315984263}
+<<<<<<< HEAD
  {:block/name "terminology – pycharm basics – jetbrains academy",
   :block/created-at 1667471526475,
   :block/updated-at 1667471526475}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "terminology – pycharm basics – jetbrains academy (highlights)",
   :block/created-at 1667212918515,
   :block/updated-at 1667212919213}
+<<<<<<< HEAD
  {:block/name
   "terminology – pycharm basics – jetbrains academy-debian-laptop",
   :block/created-at 1667820547642,
@@ -3862,6 +5020,11 @@
  {:block/name "terraform-debian-laptop",
   :block/created-at 1667820705524,
   :block/updated-at 1667820705524}
+=======
+ {:block/name "terraform (highlights)",
+  :block/created-at 1667213112124,
+  :block/updated-at 1667213112727}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "terraform.io",
   :block/created-at 1665484235099,
   :block/updated-at 1665484235099}
@@ -3870,6 +5033,7 @@
   :block/created-at 1667213065695,
   :block/updated-at 1667213066278}
  {:block/name "test",
+<<<<<<< HEAD
   :block/created-at 1658773372838,
   :block/updated-at 1658775369612}
  {:block/name "test-driven development with python",
@@ -3890,12 +5054,23 @@
  {:block/name "test-driven python development-debian-laptop",
   :block/created-at 1667820623570,
   :block/updated-at 1667820623570}
+=======
+  :block/created-at 1666001114724,
+  :block/updated-at 1666001114724}
+ {:block/name "test-driven development with python (highlights)",
+  :block/created-at 1667212993461,
+  :block/updated-at 1667212994083}
+ {:block/name "test-driven python development (highlights)",
+  :block/created-at 1667212907315,
+  :block/updated-at 1667212907910}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "testing",
   :block/created-at 1665484241360,
   :block/updated-at 1665484241360}
  {:block/name "testing-2",
   :block/created-at 1665484241335,
   :block/updated-at 1665484241335}
+<<<<<<< HEAD
  {:block/name "the agile testing collection",
   :block/created-at 1667471586513,
   :block/updated-at 1667471586513}
@@ -3905,12 +5080,18 @@
  {:block/name "the agile testing collection-debian-laptop",
   :block/created-at 1667820714596,
   :block/updated-at 1667820714596}
+=======
+ {:block/name "the agile testing collection (highlights)",
+  :block/created-at 1667212746354,
+  :block/updated-at 1667212746969}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "the bits and bytes of computer networking",
   :block/created-at 1665484159191,
   :block/updated-at 1665484159191}
  {:block/name "the bits and bytes of computer networking (legacy)",
   :block/created-at 1663348728676,
   :block/updated-at 1663348728676}
+<<<<<<< HEAD
  {:block/name "the book of longings",
   :block/created-at 1667471586784,
   :block/updated-at 1667471586784}
@@ -4047,10 +5228,52 @@
  {:block/name "the software test engineer's handbook, 2nd edition",
   :block/created-at 1667471588970,
   :block/updated-at 1667471588970}
+=======
+ {:block/name "the book of longings (highlights)",
+  :block/created-at 1667213020193,
+  :block/updated-at 1667213020788}
+ {:block/name "the cucumber book (highlights)",
+  :block/created-at 1667212995757,
+  :block/updated-at 1667212996424}
+ {:block/name "the data tier (highlights)",
+  :block/created-at 1667212843049,
+  :block/updated-at 1667212843682}
+ {:block/name "the devops career handbook (highlights)",
+  :block/created-at 1667213190236,
+  :block/updated-at 1667213190833}
+ {:block/name "the devops engineer’s career guide (highlights)",
+  :block/created-at 1667212812142,
+  :block/updated-at 1667212812751}
+ {:block/name "the docker book (highlights)",
+  :block/created-at 1667213133160,
+  :block/updated-at 1667213133800}
+ {:block/name "the feynman lectures on physics (highlights)",
+  :block/created-at 1667212933295,
+  :block/updated-at 1667212933899}
+ {:block/name "the feynman lectures on physics, vol. iii (highlights)",
+  :block/created-at 1667212931077,
+  :block/updated-at 1667212931684}
+ {:block/name "the history of the world (highlights)",
+  :block/created-at 1667212935886,
+  :block/updated-at 1667212936493}
+ {:block/name "the midnight library (highlights)",
+  :block/created-at 1667212949160,
+  :block/updated-at 1667212949939}
+ {:block/name "the name of the wind (highlights)",
+  :block/created-at 1667212885147,
+  :block/updated-at 1667212885736}
+ {:block/name "the practical test pyramid (highlights)",
+  :block/created-at 1667212991275,
+  :block/updated-at 1667212991882}
+ {:block/name "the presentation tier (highlights)",
+  :block/created-at 1667212844776,
+  :block/updated-at 1667212845376}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "the software test engineer's handbook, 2nd edition (highlights)",
   :block/created-at 1667212983824,
   :block/updated-at 1667212984447}
+<<<<<<< HEAD
  {:block/name
   "the software test engineer's handbook, 2nd edition-debian-laptop",
   :block/created-at 1667820533104,
@@ -4064,6 +5287,11 @@
  {:block/name "the tempest-debian-laptop",
   :block/created-at 1667820724349,
   :block/updated-at 1667820724349}
+=======
+ {:block/name "the tempest (highlights)",
+  :block/created-at 1667212757826,
+  :block/updated-at 1667212758469}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "theagileadmin.com",
   :block/created-at 1660807790591,
   :block/updated-at 1660807790591}
@@ -4073,15 +5301,26 @@
  {:block/name "thursday, 01-09-2022",
   :block/created-at 1665484159529,
   :block/updated-at 1665484159529}
+<<<<<<< HEAD
  {:block/name "thursday, 03-11-2022",
   :block/created-at 1667471516330,
   :block/updated-at 1667471516330}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "thursday, 06-10-2022",
   :block/created-at 1665484158818,
   :block/updated-at 1665484158818}
  {:block/name "thursday, 11-08-2022",
+<<<<<<< HEAD
   :block/created-at 1660315984981,
   :block/updated-at 1660315984981}
+=======
+  :block/created-at 1665484160305,
+  :block/updated-at 1665484160305}
+ {:block/name "thursday, 13-10-2022",
+  :block/created-at 1665994539765,
+  :block/updated-at 1665994539765}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "thursday, 15-09-2022",
   :block/created-at 1665484159160,
   :block/updated-at 1665484159160}
@@ -4094,6 +5333,7 @@
  {:block/name "thursday, 25-08-2022",
   :block/created-at 1665484159909,
   :block/updated-at 1665484159909}
+<<<<<<< HEAD
  {:block/name "thursday, 29-09-2022",
   :block/created-at 1665484158938,
   :block/updated-at 1665484158938}
@@ -4133,6 +5373,32 @@
  {:block/name "tuesday, 02-08-2022",
   :block/created-at 1660315974691,
   :block/updated-at 1660315974691}
+=======
+ {:block/name "thursday, 27-10-2022",
+  :block/created-at 1666889573366,
+  :block/updated-at 1666889573366}
+ {:block/name "thursday, 29-09-2022",
+  :block/created-at 1665484158938,
+  :block/updated-at 1665484158938}
+ {:block/name "tiny python projects (highlights)",
+  :block/created-at 1667212910555,
+  :block/updated-at 1667212911191}
+ {:block/name "todas las notas - evernote (highlights)",
+  :block/created-at 1667212867166,
+  :block/updated-at 1667212867783}
+ {:block/name "todo",
+  :block/created-at 1665484256318,
+  :block/updated-at 1665484256318}
+ {:block/name "tu mejor año (highlights)",
+  :block/created-at 1667212942377,
+  :block/updated-at 1667212942977}
+ {:block/name "tuesday, 01-11-2022",
+  :block/created-at 1667303575618,
+  :block/updated-at 1667303575618}
+ {:block/name "tuesday, 02-08-2022",
+  :block/created-at 1665484160655,
+  :block/updated-at 1665484160655}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "tuesday, 04-10-2022",
   :block/created-at 1665484158843,
   :block/updated-at 1665484158843}
@@ -4140,11 +5406,19 @@
   :block/created-at 1665484159396,
   :block/updated-at 1665484159396}
  {:block/name "tuesday, 09-08-2022",
-  :block/created-at 1660315984914,
-  :block/updated-at 1660315984914}
+  :block/created-at 1665484160383,
+  :block/updated-at 1665484160383}
+ {:block/name "tuesday, 11-10-2022",
+  :block/created-at 1665484158556,
+  :block/updated-at 1665484158556}
  {:block/name "tuesday, 16-08-2022",
+<<<<<<< HEAD
   :block/created-at 1660158105615,
   :block/updated-at 1660158105615}
+=======
+  :block/created-at 1665484160091,
+  :block/updated-at 1665484160091}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "tuesday, 18-10-2022",
   :block/created-at 1666079824236,
   :block/updated-at 1666279362974}
@@ -4152,14 +5426,23 @@
   :block/created-at 1665484159983,
   :block/updated-at 1665484159983}
  {:block/name "tuesday, 26-07-2022",
+<<<<<<< HEAD
   :block/created-at 1660315973459,
   :block/updated-at 1660315973459}
+=======
+  :block/created-at 1665484160815,
+  :block/updated-at 1665484160815}
+ {:block/name "tuesday, 27-09-2022",
+  :block/created-at 1665484236815,
+  :block/updated-at 1665484236815}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "type:",
   :block/created-at 1665484224149,
   :block/updated-at 1665484224149}
  {:block/name "udacity",
   :block/created-at 1666774947488,
   :block/updated-at 1666774947488}
+<<<<<<< HEAD
  {:block/name "un lugar llamado libertad",
   :block/created-at 1667471589782,
   :block/updated-at 1667471589782}
@@ -4196,6 +5479,20 @@
  {:block/name "unable to find docker image locally-debian-laptop",
   :block/created-at 1667820741701,
   :block/updated-at 1667820741701}
+=======
+ {:block/name "un lugar llamado libertad (highlights)",
+  :block/created-at 1667212940256,
+  :block/updated-at 1667212940853}
+ {:block/name "un nuevo mundo, ahora (highlights)",
+  :block/created-at 1667213026063,
+  :block/updated-at 1667213026639}
+ {:block/name "una altra vida, encara (highlights)",
+  :block/created-at 1667213185335,
+  :block/updated-at 1667213186009}
+ {:block/name "unable to find docker image locally (highlights)",
+  :block/created-at 1667213125995,
+  :block/updated-at 1667213126577}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "uni",
   :block/created-at 1665484165108,
   :block/updated-at 1665484165108}
@@ -4508,6 +5805,7 @@
  {:block/name
   "unir/curso azure/módulo-1: conceptos básicos de la nube",
   :block/created-at 1667231398298,
+<<<<<<< HEAD
   :block/updated-at 1667405336258}
  {:block/name
   "unir/curso azure/módulo-1: conceptos básicos de la nube-debian-laptop",
@@ -4553,10 +5851,20 @@
  {:block/name "unittest — unit testing framework — python 3",
   :block/created-at 1667471527494,
   :block/updated-at 1667471527494}
+=======
+  :block/updated-at 1667238340325}
+ {:block/name "unir::curso azure::módulo-1",
+  :block/created-at 1667234893883,
+  :block/updated-at 1667234893883}
+ {:block/name "unit-4",
+  :block/created-at 1665484161631,
+  :block/updated-at 1665484161631}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "unittest — unit testing framework — python 3.9.2rc1 documentation (highlights)",
   :block/created-at 1667212899922,
   :block/updated-at 1667212900532}
+<<<<<<< HEAD
  {:block/name "unittest — unit testing framework — python 3/9",
   :block/created-at 1667471527496,
   :block/updated-at 1667471527496}
@@ -4577,6 +5885,11 @@
  {:block/name "unix  linux grep word count command-debian-laptop",
   :block/created-at 1667820799499,
   :block/updated-at 1667820799499}
+=======
+ {:block/name "unix ",
+  :block/created-at 1660808022391,
+  :block/updated-at 1660808022391}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "unix / linux: grep word count command (highlights)",
   :block/created-at 1667213138169,
   :block/updated-at 1667213138843}
@@ -4587,11 +5900,16 @@
   :block/created-at 1665484240013,
   :block/updated-at 1665484240013}
  {:block/name "uno",
-  :block/created-at 1659947327750,
-  :block/updated-at 1659947327750}
+  :block/created-at 1665484160582,
+  :block/updated-at 1665484160582}
  {:block/name "uno/dos",
+<<<<<<< HEAD
   :block/created-at 1660315975434,
   :block/updated-at 1660315975434}
+=======
+  :block/created-at 1665484160581,
+  :block/updated-at 1665484160581}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "url",
   :block/created-at 1665484163267,
   :block/updated-at 1665484163267}
@@ -4599,9 +5917,10 @@
   :block/created-at 1665484230614,
   :block/updated-at 1665484230614}
  {:block/name "user and group management and permissions",
-  :block/created-at 1660385607690,
-  :block/updated-at 1660385607690}
+  :block/created-at 1665484160185,
+  :block/updated-at 1665484160185}
  {:block/name "using essential tools",
+<<<<<<< HEAD
   :block/created-at 1660316566300,
   :block/updated-at 1660316566300}
  {:block/name "vagrant by hashicorp",
@@ -4613,6 +5932,13 @@
  {:block/name "vagrant by hashicorp-debian-laptop",
   :block/created-at 1667820772995,
   :block/updated-at 1667820772995}
+=======
+  :block/created-at 1665484230931,
+  :block/updated-at 1665484230931}
+ {:block/name "vagrant by hashicorp (highlights)",
+  :block/created-at 1667213186385,
+  :block/updated-at 1667213187012}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "vagrantup.com",
   :block/created-at 1660808071018,
   :block/updated-at 1660808071018}
@@ -4620,12 +5946,13 @@
   :block/created-at 1665484176072,
   :block/updated-at 1665484176072}
  {:block/name "videos",
-  :block/created-at 1658838871148,
-  :block/updated-at 1658838871148}
+  :block/created-at 1665484188379,
+  :block/updated-at 1665484188379}
  {:block/name "wait",
-  :block/created-at 1658772277798,
-  :block/updated-at 1658772277798}
+  :block/created-at 1665484256316,
+  :block/updated-at 1665484256316}
  {:block/name "waiting",
+<<<<<<< HEAD
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
  {:block/name "way to create multiline comments in bash",
@@ -4646,12 +5973,27 @@
  {:block/name "we were liars-debian-laptop",
   :block/created-at 1667820587545,
   :block/updated-at 1667820587545}
+=======
+  :block/created-at 1665484256315,
+  :block/updated-at 1665484256315}
+ {:block/name "way to create multiline comments in bash? (highlights)",
+  :block/created-at 1667213066462,
+  :block/updated-at 1667213067045}
+ {:block/name "we were liars (highlights)",
+  :block/created-at 1667213025255,
+  :block/updated-at 1667213025823}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "wednesday, 03-08-2022",
-  :block/created-at 1660315974680,
-  :block/updated-at 1660315974680}
+  :block/created-at 1665484160642,
+  :block/updated-at 1665484160642}
  {:block/name "wednesday, 10-08-2022",
+<<<<<<< HEAD
   :block/created-at 1660124752451,
   :block/updated-at 1660159772212}
+=======
+  :block/created-at 1665484160348,
+  :block/updated-at 1665484160348}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "wednesday, 17-08-2022",
   :block/created-at 1665484160081,
   :block/updated-at 1665484160081}
@@ -4661,9 +6003,18 @@
  {:block/name "wednesday, 24-08-2022",
   :block/created-at 1665484159930,
   :block/updated-at 1665484159930}
+<<<<<<< HEAD
  {:block/name "wednesday, 27-07-2022",
   :block/created-at 1660315973792,
   :block/updated-at 1660315973792}
+=======
+ {:block/name "wednesday, 26-10-2022",
+  :block/created-at 1666774942725,
+  :block/updated-at 1666774942725}
+ {:block/name "wednesday, 27-07-2022",
+  :block/created-at 1665484160788,
+  :block/updated-at 1665484160788}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "wednesday, 28-09-2022",
   :block/created-at 1665484158998,
   :block/updated-at 1665484158998}
@@ -4673,6 +6024,7 @@
  {:block/name "week 1",
   :block/created-at 1665484162216,
   :block/updated-at 1665484162216}
+<<<<<<< HEAD
  {:block/name "wenceslao sanchez's highlights and notes",
   :block/created-at 1667471528276,
   :block/updated-at 1667471528276}
@@ -4692,10 +6044,16 @@
  {:block/name "wenceslaosanchez1 highlighted a",
   :block/created-at 1667471528465,
   :block/updated-at 1667471528465}
+=======
+ {:block/name "wenceslao sanchez's highlights and notes (highlights)",
+  :block/created-at 1667212833889,
+  :block/updated-at 1667212834526}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name
   "wenceslaosanchez1 highlighted a... from hands-on devops with vagrant (highlights)",
   :block/created-at 1667212831961,
   :block/updated-at 1667212832593}
+<<<<<<< HEAD
  {:block/name "wenceslaosanchez1 highlighted a/",
   :block/created-at 1667471613411,
   :block/updated-at 1667471613411}
@@ -4707,6 +6065,8 @@
   "wenceslaosanchez1 highlighted a/// from hands-on devops with vagrant-debian-laptop",
   :block/created-at 1667820785566,
   :block/updated-at 1667820785566}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "what does %w(array) mean? (highlights)",
   :block/created-at 1667213055061,
   :block/updated-at 1667213055672}
@@ -4719,6 +6079,7 @@
  {:block/name "what is /dev/null 2>&1? (highlights)",
   :block/created-at 1667213067311,
   :block/updated-at 1667213067946}
+<<<<<<< HEAD
  {:block/name "what is devnull 2&1",
   :block/created-at 1667471528696,
   :block/updated-at 1667471528696}
@@ -4731,10 +6092,13 @@
  {:block/name "what is devops-debian-laptop",
   :block/created-at 1667820788639,
   :block/updated-at 1667820788639}
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "what is devops? (highlights)",
   :block/created-at 1667212804076,
   :block/updated-at 1667212804702}
  {:block/name
+<<<<<<< HEAD
   "what is sdet full form, meaning, role and responsibilities",
   :block/created-at 1667471528952,
   :block/updated-at 1667471528952}
@@ -4743,6 +6107,8 @@
   :block/created-at 1667820782678,
   :block/updated-at 1667820782678}
  {:block/name
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
   "what is sdet? full form, meaning, role and responsibilities (highlights)",
   :block/created-at 1667212863731,
   :block/updated-at 1667212864342}
@@ -4753,6 +6119,7 @@
   "what's a command line way to find large files/directories to remove and free up space? (highlights)",
   :block/created-at 1667213083041,
   :block/updated-at 1667213083654}
+<<<<<<< HEAD
  {:block/name
   "what's a command line way to find large filesdirectories to remove and free up space",
   :block/created-at 1667471529018,
@@ -4770,6 +6137,11 @@
  {:block/name "why the fck can't i change-debian-laptop",
   :block/created-at 1667820667859,
   :block/updated-at 1667820667859}
+=======
+ {:block/name "why the f*ck can't i change? (highlights)",
+  :block/created-at 1667213027125,
+  :block/updated-at 1667213027722}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "william faulkner",
   :block/created-at 1665484201530,
   :block/updated-at 1665484201530}
@@ -4785,6 +6157,7 @@
  {:block/name "xeridia.com",
   :block/created-at 1660807893542,
   :block/updated-at 1660807893542}
+<<<<<<< HEAD
  {:block/name "yaml indentation for array in hash",
   :block/created-at 1667471529212,
   :block/updated-at 1667471529212}
@@ -4794,12 +6167,18 @@
  {:block/name "yaml indentation for array in hash-debian-laptop",
   :block/created-at 1667820750757,
   :block/updated-at 1667820750757}
+=======
+ {:block/name "yaml indentation for array in hash (highlights)",
+  :block/created-at 1667213104912,
+  :block/updated-at 1667213105504}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "yevgeniy brikman",
   :block/created-at 1665484240903,
   :block/updated-at 1665484240903}
  {:block/name "yogesh raheja, giuseppe borgese, nathaniel felsen",
   :block/created-at 1665484200402,
   :block/updated-at 1665484200402}
+<<<<<<< HEAD
  {:block/name "yyyy-mm-dd format date in shell script",
   :block/created-at 1667471529296,
   :block/updated-at 1667471529296}
@@ -4809,6 +6188,11 @@
  {:block/name "yyyy-mm-dd format date in shell script-debian-laptop",
   :block/created-at 1667820766620,
   :block/updated-at 1667820766620}
+=======
+ {:block/name "yyyy-mm-dd format date in shell script (highlights)",
+  :block/created-at 1667213105677,
+  :block/updated-at 1667213106279}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
  {:block/name "{c.value}<",
   :block/created-at 1667209414228,
   :block/updated-at 1667209414228}
@@ -4842,6 +6226,7 @@
  {:block/name " v now stores a string",
   :block/created-at 1667209409595,
   :block/updated-at 1667209409595}
+<<<<<<< HEAD
  {:block/name "¿qué es la ilustración",
   :block/created-at 1667471590734,
   :block/updated-at 1667471590734}
@@ -4862,3 +6247,15 @@
   "¿sabes realmente qué es devops? | blog xeridia (highlights)",
   :block/created-at 1667213009067, 
   :block/updated-at 1667213009754}]
+=======
+ {:block/name "¿qué es la ilustración? (highlights)",
+  :block/created-at 1667212889420,
+  :block/updated-at 1667212890028}
+ {:block/name
+  "¿sabes realmente qué es devops? | blog xeridia (highlights)",
+  :block/created-at 1667213009067,
+  :block/updated-at 1667213009754}
+ {:block/name "ñspace",
+  :block/created-at 1665484164913, 
+  :block/updated-at 1665484164913}]
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe

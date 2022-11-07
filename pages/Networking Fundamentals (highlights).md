@@ -58,7 +58,10 @@ category:: #books
 	- Digital Subscriber Line
 		- -
 			- Similar to ISDN, Digital Subscriber Line (DSL) provides a means of transmitting digital signals across the existing telephone network. Again a modem is required, but unlike ISDN a digital to analog conversion does take place. Although the data being transmitted is now an analog signal, both data and voice communications can take place simultaneously as the data is being transmitted at a higher frequency than the voice communications. Common forms of DSL are Asymmetric DSL (ADSL) and Symmetric DSL (SDSL):
+<<<<<<< HEAD
 			  id:: 63626d60-54cf-4c8a-ac91-758d58381372
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
 			  
 			  ADSL: Most homes utilized ADSL, so this became synonymous with the term DSL. ADSL offers a faster download speed than upload speed. This made sense at the time. Most home users would only be downloading from the internet, even if this was just web pages, and the only uploads they would be doing were the commands from their devices to pull those websites down.
 			  SDSL: SDSL was more the domain of organizations, as this was a dedicated line, and therefore more expensive. As can probably be deduced from its name, SDSL could upload and download at the same speed. #flashcard

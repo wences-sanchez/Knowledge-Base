@@ -35,8 +35,12 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 			-
 -
 - ## Tema 2: Beneficios y consideraciones de la nube
+<<<<<<< HEAD
 	- ### Beneficios del uso de la nube #flashcard
 	  id:: 636008ab-6278-4706-80b3-5f0d61e2fb6d
+=======
+	- ### Beneficios del uso de la nube
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
 		- ![image.png](../assets/image_1667236714098_0.png)
 		- ### Alta disponibilidad
 			- Nos aseguramos de una redundancia para que nuestras aplicaciones nunca se caigan en el caso de errores.
@@ -52,8 +56,12 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 		- ### Tolerancia a fallos y Disaster Recovery
 			- Si una aplicación se destruye, podemos recuperarnos de esos fallos gracias a la nube
 			-
+<<<<<<< HEAD
 	- ### Tipos de gastos #flashcard
 	  id:: 636005e9-3d5b-40f8-a7f5-2ffddb43d7fc
+=======
+	- ### Tipos de gastos
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
 		- #### Gastos de capital (CapEx)
 			- El gasto inicial de dinero que invertimos en la infraestructura física a utilizar.
 			- Los costes derivados de CapEx se irán reduciendo con el tiempo (amortización).
@@ -61,8 +69,12 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 			- Gasto en productos o servicios según sean necesarios (pago por uso o necesidad).
 		- Cuando usamos modelos basados en nube, tratamos de reducir *CapEx* para priorizar *OpEx*.
 		-
+<<<<<<< HEAD
 	- ### Modelo basado en consumo #flashcard
 	  id:: 636006e4-35b5-4368-9531-b19f9628410f
+=======
+	- ### Modelo basado en consumo
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
 		- Solo pagamos por los recursos que utilizamos.
 			- Por ejemplo, si compramos un servidor, no podemos *hacerlo desaparecer* y no mantenerlo si solo lo tenemos encendido un intervalo de horas.
 			- Si alquilamos servidores virtuales, podemos *no pagar nada* por el tiempo que no los usemos, simplemente.
@@ -72,6 +84,7 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 		- Precios para recursos y servicios de forma individualizada.
 		- Facturación basada en uso real.
 			- No pagan por las horas que no han utilizado los recursos.
+<<<<<<< HEAD
 	-
 - ## Tema 3: Servicios en la nube
 	- ### Modelos de servicio en la nube #flashcard
@@ -105,3 +118,6 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 -
 -
 -
+=======
+		-
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe

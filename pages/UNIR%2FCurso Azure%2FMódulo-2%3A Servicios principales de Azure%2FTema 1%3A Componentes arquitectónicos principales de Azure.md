@@ -1,0 +1,13 @@
+- ## Tema 1: Componentes arquitectónicos principales de Azure
+	- ### Infraestructura global de Azure
+		- ![image.png](../assets/image_1667811645260_0.png)
+		-
+			- **CPD** == Centro de Procesamiento de Datos
+				- Diferentes servidores físicos que conforman la nube de Azure
+		- Nosotros, como usuarios, nunca tendremos visión ni de los pares de regiones ni de las geografías. Tampoco de los CPDs
+		- #### Geografías
+			- Perímetro lógico de la infraestructura de Azure
+			- Existen varias: EE.UU., Canadá, UK, Oeste de Europa...
+			- Están formadas por dos o más regiones
+		- ####
+		-

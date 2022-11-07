@@ -1,0 +1,108 @@
+title:: Aprende Kubernetes/Primeros pasos en Kubernetes
+tags:: LinkedIn-Learning, Kubernetes
+
+- #tags #LinkedIn-Learning #Kubernetes
+-
+-
+- ## La herramienta kubectl
+	- `$ kubectl <comando> <parámetros>`
+-
+-
+- ## El panel de control o dashboard de Kubernetes
+	- El dashboard es peligroso porque requiere permisos totales.
+		- Por eso no se recomienda para entornos que sean de producción.
+-
+	- ### Flashcards
+		- ¿Por qué se desaconseja el uso del dashboard de Kubernetes en favor de la CLI? #flashcard
+		  id:: 6345458b-b4fa-403a-8b98-949a265c485b
+			- El dashboard es peligroso porque requiere permisos totales.
+				- Por eso no se recomienda para entornos que sean de producción.
+-
+-
+- ## Crear un pod en Kubernetes
+	- `$ kubectl apply -f mi-fichero.yml`
+	- `$ kubectl delete -f mi-fichero.yml`
+	- `$ kubectl describe pod mi-pod`
+	- Un `kubectl apply` no puede añadir ni quitar contenedores.
+		- Hay que hacer un `kubectl delete` y `kubectl create`
+	-
+	-
+- ## Crear un despliegue en Kubernetes
+	- Un deployment es un proceso declarativo
+	- Los selectores ayudan al deployment a encontrar los pods que dependen de él gracias a unas etiquetas.
+		- Y esas mismas etiquetas se las tenemos que asignar a cada uno de los contenedores.
+		- Ayudan, pero no hacen que si tuviésemos otro pod con el mismo label (que nosotros por nuestra cuenta creemos) nos lo vaya a parar o a arrancar.
+		- La utilidad de los despliegues es simplemente tener siempre pods ejecutándose, los que queramos.
+	-
+	- ### Flashcards
+		- ¿Dónde le tenemos que indicar a Kubernetes el número de instancias que queremos? #flashcard #dev-notes
+		  id:: 6345458b-688a-49cd-abe6-e5e709d188e8
+			- En `spec:`. Justo antes de `selector:`, así:
+				- `replicas: 3` **O el número que quieras :P**
+				-
+		- ¿Cómo se comportan los deployments en Kubernetes si añadimos nuevos pods con mismo label? #flashcard
+		  id:: 6345458b-6edc-4fd1-ba8c-06eb5db621c9
+			- Los selectores ayudan al deployment a encontrar los pods que dependen de él gracias a unas etiquetas.
+				- Y esas mismas etiquetas se las tenemos que asignar a cada uno de los contenedores.
+				- Ayudan, pero no hacen que si tuviésemos otro pod con el mismo label (que nosotros por nuestra cuenta creemos) nos lo vaya a parar o a arrancar.
+			- La utilidad de los despliegues es simplemente tener siempre pods ejecutándose, los que queramos.
+			-
+			-
+- ## Crear un servicio en Kubernetes
+	- Un servicio en Kubernetes es esencialmente importante porque las IPs de cada pod son efímeras.
+		- Así, necesitamos un mecanismo que exponga una IP que no cambie (persistente) para poder usar nuestra aplicación.
+		- Podríamos usar simplemente un balanceador de carga. Pero necesitaríamos actualizar cada vez las direcciones de cada pod igualmente.
+		- La solución es un servicio
+	-
+	- El **servicio** tiene un **selector**, que vamos a ver ahora qué sentido tiene y que redirige las llamadas del puerto 80 hasta el puerto 80 de los POD.
+		- Este **selector** (del servicio) lo que indica es a qué post se va a acoplar o a qué POD se va a repartir el tráfico cuando tenga una llamada.
+	- De la misma manera que en un **despliegue** nosotros teníamos un "matchlabel" que nos indicaba qué pods iban a quedar debajo de este despliegue, que POD iba a gestionar,
+		- en un **servicio** apuntamos a una **etiqueta** para saber a qué POD tenemos que **lanzarles** las peticiones.
+	- El servicio tiene DNS para conocer la IP de cualquier pod con solo conocer su nombre.
+	-
+	- ### Flashcards
+		- ¿Qué uso tiene un servicio en *Kubernetes*? #flashcard
+		  id:: 6345458b-29a2-412d-8deb-66fdbe237a9f
+			- Un servicio en Kubernetes es esencialmente importante porque las IPs de cada pod son efímeras.
+				- Así, necesitamos un mecanismo que exponga una IP que no cambie (persistente) para poder usar nuestra aplicación.
+				- Podríamos usar simplemente un balanceador de carga. Pero necesitaríamos actualizar cada vez las direcciones de cada pod igualmente.
+			- Así, la solución es un servicio.
+			-
+		- ¿De qué manera usan, en *Kubernetes*, las etiquetas los **deployment**?, ¿y los **servicios**? #flashcard
+		  id:: 6345458b-9f6a-469e-b0e9-3e323ec6f3d0
+			- El **servicio** tiene un **selector** que le indica a qué post se va a acoplar o a qué pod se va a repartir el tráfico cuando tenga una llamada; a qué pod tenemos que lanzarles las peticiones.
+			- En cuanto a los **deployment**, tienen un **matchLabel** que nos indica qué pods van a quedar debajo de justo ese despliegue, qué etiquetas van a tener los pods que va a gestionar.
+				- Esto lo que hace es ayudarle a *Kubernetes* para saber y tener la información suficiente a la hora de levantar y/o borrar *pods*.
+	-
+		- ¿Qué quiere decir que los servicios en Kubernetes tienen resolución de nombre? #flashcard
+		  id:: 6345458b-6350-4bd6-9a60-e9d58d99e78b
+			- Que el servicio tiene DNS para conocer la IP de cualquier pod con solo conocer su nombre.
+				- Y actualizarla automáticamente
+	-
+	-
+- ## Escalar despliegues en Kubernetes
+	-
+	-
+- ## Acceder a nuestros recursos desde fuera de Kubernetes
+	- Dependiendo del tipo de recurso o de aplicación que coloquemos dentro de nuestro clúster de Kubernetes, podría ser necesario el acceso desde el exterior.
+	- Por ejemplo, cuando tenemos un servidor web o algún tipo de API o de aplicación pública para el público general.
+	- Para estos casos necesitamos utilizar un objeto diferente, que podría ser un 'Ingress', un 'LoadBalancer' o un 'NodePort'.
+	- El objeto 'service' estándar, que ya lo conocemos, tiene una particularidad y es que el balanceador de carga y la dirección IP que nos asigna son internos, solo valen para dentro de nuestro clúster Kubernetes.
+	-
+	- Si necesitamos una manera de exponer nuestros pods al exterior, un modo es con **NodePort**
+		- Coloca un puerto entre 30 y 32000 (que son unos puertos especiales que asigna Kubernetes como accesibles o disponibles para abrir al exterior)
+		- Un objeto **NodePort** es de *kind* **Service** y de *type* **NodePort**
+		- Se le añade un parámetro dentro del apartado `ports:`
+			- `nodePort: xxxx`
+			- Pero si no le asignamos lo anterior, *Kubernetes* nos asignará uno automáticamente que esté libre.
+			- A partir de aquí, lo que necesitaríamos sería apuntar un balanceador de carga exterior a todos nuestros nodos apuntando a este puerto donde hemos abierto el servicio.
+	- Otra opción es **LoadBalancer**,
+		- Para el caso de un cloud, **LoadBalancer** lo que hará será generar un balanceador de carga directamente en nuestro proveedore de nube que se conecte a nuestro servicio.
+			- Pero *no le asignamos* ningún puerto específico para que lo haga automático
+	- Otra última opción es **Ingress**
+		-
+	-
+	-
+	-
+	-
+-

@@ -1,0 +1,56 @@
+title:: Contenedores Tema-10 (highlights)
+deck:: [[UNI::Contenedores Tema-10]]
+author:: [[UNIR]]
+full-title:: "Contenedores Tema-10"
+category:: #books
+
+tags:: Contenedores UNI
+
+- ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/673e4247-86d7-421b-8346-963806a9ab69.jpg)
+- Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
+	- -
+		- Cuando ejecutemos comandos con kubectl para crear o actualizar un Deployment, podremos  especificar  la  opción  --record  para  anotar  en  el  recurso  el  comando ejecutado.  Esta  información  se  guardaría  en  la  anotación  kubernetes.io/change cause y podrá ser consultada en el histórico de las revisiones del Deployment. $ kubectl create -f nginx-deployment.yaml --record deployment "nginx-deployment" created $ kubectl apply -f nginx-deployment.yaml --record #flashcard
+		  id:: 29e2ce31-2d8f-48a0-821d-876301059b4c
+		- (Page 7)
+	- -
+	- -
+		- ¿Con qué comando de Kubernetes puedes comprobar el estado de un despliegue? #flashcard
+		  id:: 58a304b5-6b37-4eb4-8515-0fb9156e4491
+			- Una  vez  ejecutado  un  comando  de  creación  o  actualización  del  Deployment, podemos consultar el estado en que se encuentra el despliegue de los Pods con el comando kubectl rollout status.
+		- (Page 7)
+	- -
+	- -
+		- ¿Cuándo se activa el lanzamiento de un **Deployment** en *Kubernetes* ? #flashcard
+		  id:: 2ee90ded-f90b-4e44-aa30-7de84a54ce88
+			- El proceso de despliegue de un recurso Deployment actualizará los Pods asociados con una nueva versión, por lo tanto, se disparará solamente cuando modifiquemos la  plantilla  de  los  Pods,  por  ejemplo,  modificando  la  imagen  utilizada.  Cuando modifiquemos  otra  configuración  del  Deployment  como  puede  ser  el  número  de réplicas o la estrategia utilizada, no se lanzará el despliegue de actualización de Pods, ya que en estos casos la definición de estos es la misma. En todo caso se crearán o eliminarán Pods.
+		- (Page 8)
+	- -
+	- -
+		- ¿Cuáles son las dos **estrategias de despliegue** que se pueden usar en *Kubernetes* ? #flashcard
+		  id:: cb19a1ed-6b5f-413f-8a18-c0c49e98efae
+			- Deployments: Kubernetes  soporta  dos  estrategias  de  despliegue  para  la  actualización  de  los   La estrategia Recreate, que elimina primero los Pods de la versión actual y vuelve a crearlos de nuevo con los cambios aplicados. Existe cierta pérdida de servicio durante la actualización.   La  estrategia  RollingUpdate,  utilizada  por  defecto,  en  la  que  los  Pods  se  van reemplazando  progresivamente.  La  aplicación  debe  soportar  el  funcionamiento eventual  con  Pods  de  dos  versiones  diferentes.  Esta  estrategia  se  basa  en  la configuración de dos propiedades: •  maxSurge, que indica el número de Pods que puede haber por encima del valor deseado. •  maxUnavailable,  que  establece  el  número  máximo  de  Pods  que  pueden  no estar disponibles en un momento dado.
+		- (Page 10)
+	- -
+	- -
+		- En **Kubernetes**,
+			- Si después de desplegar los cambios queremos volver al estado anterior porque las actualizaciones no están funcionando como esperábamos, utilizaremos el comando kubectl rollout undo. El Deployment utilizará el Replicaset que ya teníamos creado, y aún no ha sido eliminado, el cual ahora estaría con cero réplicas. $ kubectl rollout undo deployment nginx-deployment Si  en  lugar  de  volver  a  la  revisión  previa  queremos  restablecer  una  en  concreto, podemos utilizar el parámetro --to-revision: $ kubectl rollout undo deployment nginx-deployment --to-revision=2
+		- (Page 12)
+	- -
+	- -
+		- UNIR CON EL DE DEBAJO
+		  id:: 938c9cfd-36a4-4c51-bec7-bec2f0ac691f
+		  INCLUIR LA IMAGEN #flashcard
+			- Los StatefulSets se utilizarán para gestionar aplicaciones con estado. Al igual que los Replicasets,  nos  permitirán  gestionar  varias  réplicas  de  Pods.  Sin  embargo,  los StatefulSets nos ofrecen algunas propiedades únicas:   A cada una de las réplicas de los Pods se le asignará un hostname e IP persistente, además de nombrar los Pods con un índice único. El hostname estará compuesto por el nombre del StatefulSet y el ordinal del Pod: $(statefulset-name)-$(ordinal). Por ejemplo: web-0, web-1, etc.
+		- (Page 22)
+	- -
+	- -
+		-   Las réplicas se crean en orden, comenzando por el índice más bajo. Además, hasta que el Pod de una réplica no esté creado y disponible, no se comenzará con el de la siguiente réplica. Esto aplica tanto en la creación como en el escalado.   Al borrar un StatefulSet, las réplicas de los Pods serán eliminados en orden inverso, es decir, comenzando por el índice más alto. Igualmente, también aplica durante un escalado al reducir el número de réplicas.   Cada una de las réplicas tendrá su propio almacenamiento persistente. #flashcard
+		  id:: a45c798b-ddc8-4ba3-b609-e9d7ff2fb3ad
+		- (Page 23)
+	- -
+	- -
+		- INCLUIR IMÁGENES #flashcard
+		  id:: bdbaa503-ca63-4273-a799-daa07722ce19
+			- En  los  Replicasets  todas  las  réplicas  compartían  el  mismo  almacenamiento persistente  reclamado  por  un  PersistentVolumeClaim.  Sin  embargo,  en las aplicaciones  con  estado,  cada  una  de  las  réplicas  deberá  tener  su  propio almacenamiento persistente. Para ello, el StatefulSet creará un PersistentVolumeClaim en cada una de las réplicas: Figura 4. Los StatefulSets crearan Pods con su propio almacenamiento. Fuente: Luksa, M. (2018). Este almacenamiento persistente asociado a cada réplica no será eliminado cuando un  Pod  sea  eliminado  por  haberse  reducido  el  número  de  réplicas.  El PersistentVolumeClaim simplemente se desvinculará del Pod, de manera que pueda volver a asociarse al Pod si la réplica se vuelve a escalar más adelante. Veamos cómo funciona con el siguiente ejemplo gráfico:
+		- (Page 24)
+	- -

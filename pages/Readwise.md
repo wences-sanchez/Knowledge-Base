@@ -1,0 +1,4 @@
+- On [[Monday, 31-10-2022]] at 11:37 AM Readwise synced 3748 highlights from 274 books.
+-
+- * On [[Monday, 31-10-2022]] at 2:29 PM Readwise synced 3751 highlights from 274 books.
+- On [[Tuesday, 01-11-2022]] at 12:53 PM Readwise synced 2 highlights from 1 book.

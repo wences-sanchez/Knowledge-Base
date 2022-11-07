@@ -1,0 +1,74 @@
+title:: Black-box and White-box Testing/Week-1
+tags:: Coursera, SW-Testing
+
+- #tags #Coursera #SW-Testing
+-
+- # Black-box and White-box Testing - Week 1
+-
+-
+- ## Course Introduction
+	- ### Introduction to Test Selection and Test Adequacy
+		- **Test Selection** is: choosing the right inputs to use to test my program
+		- **Test Adequacy** is: are those inputs any good?
+			- This is very difficult. Correctness is generally impossible
+			- So we measure adequacy indirectly by: program structure, program inputs, requirements...
+		- #### Terminology
+			- **Test Case:** A set of inputs, execution conditions, and a pass/fail criterion.
+			- **Test Case Specification:** A requirement to be satisfied by one or more test cases.
+			- **Test Obligation:** A partial test case specification, requiring some property deemed important to thorough testing.
+			- **Test Suite:** A set of test cases.
+			- **Test or Test Execution:** The activity of executing test cases and evaluating their results.
+			- **Adequacy Criterion:** A predicate that is true (satisfied) or false (not satisfied) of a (program, test suite) pair.
+	- ### What are Test Obligations?
+		- Test Obligations come from:
+			- **Functional:** From software specifications
+			- **Fault-based:** From hypothesized faults (common bugs)
+			- **Model-based:** From model of system
+			- **Structural (white or glass box):** From code
+		-
+	- ### Flashcards
+		- Test Selection VS Test Adequacy #flashcard
+		  id:: 6345458d-b33b-4f22-9a70-5202336ceb04
+			- **Test Selection** is: choosing the right inputs to use to test my program
+			- **Test Adequacy** is: are those inputs any good?
+				- This is very difficult. Correctness is generally impossible
+				- So we measure adequacy indirectly by: program structure, program inputs, requirements...
+		- Some terminology of test cases and criteria. #flashcard
+		  id:: 6345458d-2bb3-4f4f-94f0-46832ff160de
+			- #### Terminology
+				- **Test Case:** A set of inputs, execution conditions, and a pass/fail criterion.
+				- **Test Case Specification:** A requirement to be satisfied by one or more test cases.
+				- **Test Obligation:** A partial test case specification, requiring some property deemed important to thorough testing.
+				- **Test Suite:** A set of test cases.
+				- **Test or Test Execution:** The activity of executing test cases and evaluating their results.
+				- **Adequacy Criterion:** A predicate that is true (satisfied) or false (not satisfied) of a (program, test suite) pair.
+		- Where do test obligations come from? #flashcard
+		  id:: 6345458d-384c-4503-ae7c-7cb5c4ce40af
+			- Test Obligations come from:
+				- **Functional:** From software specifications
+				- **Fault-based:** From hypothesized faults (common bugs)
+				- **Model-based:** From model of system
+				- **Structural (white or glass box):** From code
+	-
+- ## Factors Influencing Test Effectiveness
+	- ### Factors Influencing Test Effectiveness
+		- The Oracle is an important part of the testing process.
+	- ### Program Structure: Reachability and Observability
+	- ### Mutation Testing Revisited
+		- We kill a mutant if its value produced is different than the value produced by the original program.
+		- If the tests all pass, you have a problem!
+	- ### Program Structure and Fault Finding
+		- You have to look at the location of the mutants, because they can become almost unreachable.
+	- ### Test Oracles
+		- It could be a human being, a previous version of a program, another program...
+		- It can be a human, manually, but that is impossible when there are so many test cases
+		- An automated oracle could be a comparison against the specification or requirements
+		- ![image.png](../assets/image_1664545700780_0.png)
+		- ![image.png](../assets/image_1664545792105_0.png)
+		-
+	- ### Oracles and Fault Finding
+		- ![image.png](../assets/image_1664546090305_0.png)
+		-
+		-
+	-
+	-

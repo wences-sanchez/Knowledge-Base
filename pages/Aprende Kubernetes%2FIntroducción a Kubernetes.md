@@ -1,0 +1,183 @@
+title:: Aprende Kubernetes/Introducción a Kubernetes
+tags:: LinkedIn-Learning, Kubernetes
+
+- #tags #LinkedIn-Learning #Kubernetes
+-
+- ## ¿Qué es Kubernetes?
+	- **Kubernetes** es un sistema open-source (de software libre) de orquestación de contenedores para su despliegue, escalado y gestión.
+	- No es solo un Job Scheduler, sino que nos aporta cosas para gestionar: infraestructura, software, recursos,...
+	- Kubernetes nos ayuda con el despliegue de aplicaciones, con facilidad, sin realizar tareas manuales.
+		- También con el **escalado** de las mismas.
+		- Y su **gestión**.
+		- Con **IaC**.
+-
+	- ### Flashcards
+		- Define **Kubernetes**. #flashcard
+		  id:: 6345458a-22fd-4bd8-975d-0788e64ed714
+			- **Kubernetes** es un sistema open-source (de software libre) de orquestación de contenedores para su despliegue, escalado y gestión.
+			- No es solo un Job Scheduler, sino que nos aporta cosas para gestionar: infraestructura, software, recursos,...
+			- Kubernetes nos ayuda con el despliegue de aplicaciones, con facilidad, sin realizar tareas manuales.
+			- También con el **escalado** de las mismas.
+			- Y su **gestión**.
+			- Con **IaC**.
+-
+-
+- ## Historia breve de Kubernetes
+	- Acceso a través de una API.
+	-
+	-
+- ## La relación entre Kubernetes y Docker
+	- El kubelet es el módulo de Kubernetes que se encarga de la creación de los pods.
+	- El runtime por defecto es containerd, que es compatible con Docker.
+	-
+	- ### Flashcards
+		- ¿Qué container trae por defecto Kubernetes? #flashcard
+		  id:: 6345458a-061a-4e0a-aa84-c86c20bd9685
+			- El runtime por defecto es containerd, que es compatible con Docker.
+	-
+	-
+- ## Alternativas a Kubernetes
+	- Docker Swarm
+		- Menos comunidad y foros.
+		- Proyecto casi abandonado por Docker
+	- Hashicorp Nomad
+		- Más sencillo
+		- Más portable (diferentes backends)
+		- Menos herramientas externas VS el ecosistema de Kubernetes
+		- Extensible con herramientas Hashicorp
+	- Apache Mesos
+		- Más sencillo de todos
+		- Más genérico
+		- Soporta orquestación con Marathon
+		- Pero menos extendido.
+-
+	- ### Flashcards
+		- Alternativas a Kubernetes #flashcard
+		  id:: 6345458a-54af-4af7-a77b-dfe1971ed50c
+			- Docker Swarm
+				- Menos comunidad y foros.
+				- Proyecto casi abandonado por Docker
+			- Hashicorp Nomad
+				- Más sencillo
+				- Más portable (diferentes backends)
+				- Menos herramientas externas VS el ecosistema de Kubernetes
+				- Extensible con herramientas Hashicorp
+			- Apache Mesos
+				- Más sencillo de todos
+				- Más genérico
+				- Soporta orquestación con Marathon
+				- Pero menos extendido.
+		-
+- ## Kubernetes: Arquitectura General
+	- ![image.png](../assets/image_1664207963644_0.png)
+	- Si tenemos solo un nodo en el Control Plane (o plano de control) no podremos tener balanceo de carga ni tolerancia a fallos.
+	-
+	- ### Flashcards
+		- Esquema general de la arquitectura de Kubernetes: #flashcard
+		  id:: 6345458a-6759-4d9e-9a74-564cccef83ce
+			- ![image.png](../assets/image_1664207963644_0.png)
+			-
+			-
+	-
+	-
+- ## Kubernetes: El plano de control
+	- ### Etcd
+		- Guarda todos los metadatos que tenemos de los objetos que hay en el clúster.
+			- Pueden ser las definiciones de los objetos, su configuración, su estado de ejecución... La fuente de la verdad
+		- Se puede externalizar
+	- ### Scheduler
+		- Asigna pods a los nodos.
+	- ### Controller Manager
+		- Ejecuta los controladores.
+		- Funciona como circuito de control:
+			- Mantiene nodos, jobs,... para que éstos estén dentro de un rango.
+	- ### Cloud Controller Manager
+		- Conecta con la API de la nube.
+		- Intermediario para generar recursos.
+	- ### API Server
+		- Hace de intermediario entre componentes
+		- Es el punto de entrada administrativo
+	-
+	- ### Flashcards
+		- ¿Cuáles son los elementos del plano de control de Kubernetes? #flashcard
+		  id:: 6345458a-2030-4bb0-a66d-b77cc547a26b
+			- ### Etcd
+				- Guarda todos los metadatos que tenemos de los objetos que hay en el clúster.
+					- Pueden ser las definiciones de los objetos, su configuración, su estado de ejecución... La fuente de la verdad
+				- Se puede externalizar
+			- ### Scheduler
+				- Asigna pods a los nodos.
+			- ### Controller Manager
+				- Ejecuta los controladores.
+				- Funciona como circuito de control:
+					- Mantiene nodos, jobs,... para que éstos estén dentro de un rango.
+			- ### Cloud Controller Manager
+				- Conecta con la API de la nube.
+				- Intermediario para generar recursos.
+			- ### API Server
+				- Hace de intermediario entre componentes
+				- Es el punto de entrada administrativo
+	-
+	-
+- ## Kubernetes: los Nodos
+	- ### Kubelet
+		- Agente que vigila y arranca los pods.
+	- ### CRI / Runtime
+		- Software que ejecuta contenedores
+		- Descarga también las imágenes del registro
+		- Usa el protocolo CRI
+	- ### Kube-Proxy
+		- Balanceador de carga
+	- ### Objetos
+		- Pods
+		- Services
+		- Deployment
+		- ConfigMap
+		- SecretMap
+	-
+	- ### Flashcards
+		- ¿Cuáles son los elementos del plano de datos de Kubernetes? #flashcard
+		  id:: 6345458a-360b-4782-b3a6-d4878b6f09b6
+			- ### Kubelet
+				- Agente que vigila y arranca los pods.
+			- ### CRI / Runtime
+				- Software que ejecuta contenedores
+				- Descarga también las imágenes del registro
+				- Usa el protocolo CRI
+			- ### Kube-Proxy
+				- Balanceador de carga
+			- ### Objetos
+				- Pods
+				- Services
+				- Deployment
+				- ConfigMap
+				- SecretMap
+	-
+	-
+- ## Kubernetes: los namespaces y pods
+	- Un **pod** es un agrupamiento de uno o más contenedores que están relacionados entre sí porque necesitan estar juntos para colaborar y ejecutar algún tipo de cagra o de aplicación
+	- Cada pod tiene una dirección IP que comparte con todos los nodos que hay dentro. Y pueden compartir también un volumen de disco, por ejemplo.
+	- Los pods comparten también los puertos libres (y ocupados :( )
+	- Pero un **deployment** es lo mejor
+		- Porque mantiene un número determinado de pods. Para poder **gestionarlos**.
+	- El namespace por defecto que viene en Kubernetes para nuestras cosas es el **Default**
+		- Todos los namespaces se pueden comunicar entre sí
+	-
+	- ### Flashcards
+		- Acerca de pods en Kubernetes y de cómo usarlos. #flashcard
+		  id:: 6345458a-b815-406c-b1db-7f11a132e61a
+			- Un **pod** es un agrupamiento de uno o más contenedores que están relacionados entre sí porque necesitan estar juntos para colaborar y ejecutar algún tipo de cagra o de aplicación
+			- Cada pod tiene una dirección IP que comparte con todos los nodos que hay dentro. Y pueden compartir también un volumen de disco, por ejemplo.
+			- Los pods comparten también los puertos libres (y ocupados :( )
+			- Pero un **deployment** es lo mejor
+				- Porque mantiene un número determinado de pods. Para poder **gestionarlos**.
+			- El namespace por defecto que viene en Kubernetes para nuestras cosas es el **Default**
+				- Todos los namespaces se pueden comunicar entre sí
+	-
+	-
+	-
+- ## Extendiendo Kubernetes
+	-
+	-
+	-
+	-

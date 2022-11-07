@@ -20,6 +20,14 @@ tags:: UNIR, Azure
 				- **Azure Container Instances:** Contenedores de Azure
 				- **Azure Kubernetes Service:** Servicio gestionado de Azure para Kubernetes
 			- De tipo PaaS
+		- #### Azure Virtual Desktop
+			- Nos permite virtualizar aplicaciones y utilizar ordenadores remotos en la nube
+			- De tipo PaaS
+		-
+	- ### Servicios de red
+		- ![image.png](../assets/image_1667824113488_0.png)
+		-
+		-
 		-
 		- ##
 		-

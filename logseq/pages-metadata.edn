@@ -68,24 +68,39 @@
  {:block/name "2022_07_30-debian-laptop",
   :block/created-at 1667810300751,
   :block/updated-at 1667810300751}
+ {:block/name "2022_07_30-debian-laptop-2",
+  :block/created-at 1667829507644,
+  :block/updated-at 1667829507644}
  {:block/name "2022_07_31-debian-laptop",
   :block/created-at 1667810301867,
   :block/updated-at 1667810301867}
  {:block/name "2022_07_31-debian-laptop-2",
   :block/created-at 1667820957044,
   :block/updated-at 1667820957044}
+ {:block/name "2022_07_31-debian-laptop-3",
+  :block/created-at 1667829508947,
+  :block/updated-at 1667829508947}
  {:block/name "2022_08_02-debian-laptop",
   :block/created-at 1667810302524,
   :block/updated-at 1667810302524}
+ {:block/name "2022_08_02-debian-laptop-2",
+  :block/created-at 1667829508551,
+  :block/updated-at 1667829508551}
  {:block/name "2022_08_05 2",
   :block/created-at 1660315975057,
   :block/updated-at 1660315975057}
  {:block/name "2022_08_05 2-debian-laptop",
   :block/created-at 1667810302748,
   :block/updated-at 1667810302748}
+ {:block/name "2022_08_05 2-debian-laptop-2",
+  :block/created-at 1667829508008,
+  :block/updated-at 1667829508008}
  {:block/name "2022_08_05-debian-laptop",
   :block/created-at 1667810304236,
   :block/updated-at 1667810304236}
+ {:block/name "2022_08_05-debian-laptop-2",
+  :block/created-at 1667829506816,
+  :block/updated-at 1667829506816}
  {:block/name "2022_08_06 2",
   :block/created-at 1660315975883,
   :block/updated-at 1660315975883}
@@ -95,12 +110,21 @@
  {:block/name "2022_08_08-debian-laptop",
   :block/created-at 1667810305002,
   :block/updated-at 1667810305002}
+ {:block/name "2022_08_08-debian-laptop-2",
+  :block/created-at 1667829507283,
+  :block/updated-at 1667829507283}
  {:block/name "2022_08_13-debian-laptop",
   :block/created-at 1667810305678,
   :block/updated-at 1667810305678}
+ {:block/name "2022_08_13-debian-laptop-2",
+  :block/created-at 1667829502805,
+  :block/updated-at 1667829502805}
  {:block/name "2022_08_18-debian-laptop",
   :block/created-at 1667810306177,
   :block/updated-at 1667810306177}
+ {:block/name "2022_08_18-debian-laptop-2",
+  :block/created-at 1667829499081,
+  :block/updated-at 1667829499081}
  {:block/name "2022_11_07-debian-laptop",
   :block/created-at 1667820464759,
   :block/updated-at 1667820464759}
@@ -564,6 +588,9 @@
  {:block/name "bash shell scripting, 2nd edition-debian-laptop-2",
   :block/created-at 1667820942825,
   :block/updated-at 1667820942825}
+ {:block/name "bash shell scripting, 2nd edition-debian-laptop-3",
+  :block/created-at 1667829492684,
+  :block/updated-at 1667829492684}
  {:block/name "become a devops engineer",
   :block/created-at 1665484159583,
   :block/updated-at 1665484159583}
@@ -686,6 +713,10 @@
   "certificado profesional de ibm devops and software engineering-debian-laptop",
   :block/created-at 1667810316384,
   :block/updated-at 1667810316384}
+ {:block/name
+  "certificado profesional de ibm devops and software engineering-debian-laptop-2",
+  :block/created-at 1667829490889,
+  :block/updated-at 1667829490889}
  {:block/name
   "certificado profesional de ibm devops and software engineering/ibm-devops-containers",
   :block/created-at 1665484174315,
@@ -1607,6 +1638,9 @@
  {:block/name "flashcard-debian-laptop",
   :block/created-at 1667810324754,
   :block/updated-at 1667810324754}
+ {:block/name "flashcard-debian-laptop-2",
+  :block/created-at 1667829486079,
+  :block/updated-at 1667829486079}
  {:block/name "friday, 02-09-2022",
   :block/created-at 1665484159489,
   :block/updated-at 1665484159489}
@@ -2227,12 +2261,18 @@
  {:block/name "ibm-devops-containers-lab-1-debian-laptop",
   :block/created-at 1667810317258,
   :block/updated-at 1667810317258}
+ {:block/name "ibm-devops-containers-lab-1-debian-laptop-2",
+  :block/created-at 1667829493252,
+  :block/updated-at 1667829493252}
  {:block/name "ibm-devops-containers-lab-2",
   :block/created-at 1660315979807,
   :block/updated-at 1660315979807}
  {:block/name "ibm-devops-containers-lab-2-debian-laptop",
   :block/created-at 1667810318524,
   :block/updated-at 1667810318524}
+ {:block/name "ibm-devops-containers-lab-2-debian-laptop-2",
+  :block/created-at 1667829487166,
+  :block/updated-at 1667829487166}
  {:block/name "ibm-devops-containers-lab-3",
   :block/created-at 1665484162543,
   :block/updated-at 1665484162543}
@@ -2389,6 +2429,9 @@
  {:block/name "introduction to software testing-debian-laptop-2",
   :block/created-at 1667820944750,
   :block/updated-at 1667820944750}
+ {:block/name "introduction to software testing-debian-laptop-3",
+  :block/created-at 1667829497757,
+  :block/updated-at 1667829497757}
  {:block/name "james turnbull",
   :block/created-at 1665484242478,
   :block/updated-at 1665484242478}
@@ -2468,6 +2511,9 @@
  {:block/name "jenkins essential training-debian-laptop-2",
   :block/created-at 1667820945913,
   :block/updated-at 1667820945913}
+ {:block/name "jenkins essential training-debian-laptop-3",
+  :block/created-at 1667829498405,
+  :block/updated-at 1667829498405}
  {:block/name
   "jetbrains academy - learn programming by building your own apps",
   :block/created-at 1667471524191,
@@ -2679,6 +2725,9 @@
  {:block/name "linux fundamentals-debian-laptop-2",
   :block/created-at 1667820946926,
   :block/updated-at 1667820946926}
+ {:block/name "linux fundamentals-debian-laptop-3",
+  :block/created-at 1667829501260,
+  :block/updated-at 1667829501260}
  {:block/name "linux fundamentals/operating running systems",
   :block/created-at 1665484230514,
   :block/updated-at 1665484230514}
@@ -4514,6 +4563,10 @@
   :block/created-at 1667820822933,
   :block/updated-at 1667820822933}
  {:block/name
+  "unir/curso azure/módulo-1: conceptos básicos de la nube-debian-laptop-2",
+  :block/created-at 1667829409471,
+  :block/updated-at 1667829409471}
+ {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure",
   :block/created-at 1667810757203,
   :block/updated-at 1667811306918}
@@ -4521,6 +4574,10 @@
   "unir/curso azure/módulo-2: servicios principales de azure-debian-laptop",
   :block/created-at 1667820480420,
   :block/updated-at 1667820480420}
+ {:block/name
+  "unir/curso azure/módulo-2: servicios principales de azure-debian-laptop-2",
+  :block/created-at 1667829344918,
+  :block/updated-at 1667829344918}
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure/tema 1: com",
   :block/created-at 1667811174070,

@@ -1,5 +1,10 @@
+deck:: [[UNIR::Curso Azure::Módulo-2]]
+tags:: UNIR, Azure
+
+-
 - ## Tema 1: Componentes arquitectónicos principales de Azure
-	- ### Infraestructura global de Azure
+	- ### Infraestructura global de Azure #flashcard
+	  id:: 6368c91a-6bb0-41fb-8d88-b2d82568cfa4
 		- ![image.png](../assets/image_1667811645260_0.png)
 		-
 			- **CPD** == Centro de Procesamiento de Datos
@@ -29,4 +34,5 @@
 	- ### Suscripciones
 		- La propia cuenta de Azure
 		- Acceso autenticado y autorizado a una o varias cuentas de Azure
+		- ![image.png](../assets/image_1667813022715_0.png)
 		-

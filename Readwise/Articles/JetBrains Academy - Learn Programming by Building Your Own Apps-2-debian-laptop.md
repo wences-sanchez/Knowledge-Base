@@ -1,0 +1,21 @@
+# JetBrains Academy - Learn Programming by Building Your Own Apps
+
+deck:: [[Across-the-Net]]\
+author:: [[hyperskill.org]]\
+full-title:: "JetBrains Academy - Learn Programming by Building Your Own Apps"\
+category:: #articles\
+url:: https://hyperskill.org/learn/step/3532\
+
+![](https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png)
+## Highlights
+- id:: 63639907-fafb-41ec-ae52-63cafbf857ec
+   Name the types of integer numbers in Java .java #flashcard 
+    byte: size 8 bits (1 byte), range from -128 to 127
+     short: size 16 bits (2 bytes), range from -32768 to 32767
+     int: size 32 bits (4 bytes), range from −(231) to (231)−1
+     long: size 64 bits (8 bytes), range from −(263) to (263)−1
+-
+- id:: 63639907-c6f3-46fc-9567-d4d4902152d5
+   Mention the floating-point types in Java and its sizes .java #flashcard 
+    Floating-point types represent numbers with fractional parts. Java has two such types: double (64 bits) and float (32 bits). These types can store only a limited number of significant decimal digits (~6-7 for float and ~14-16 for double). Usually, you will use the double type in practice.
+-

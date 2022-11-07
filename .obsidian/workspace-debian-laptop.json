@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "e37127908b568132",
+    "type": "split",
+    "children": [
+      {
+        "id": "5eba891bf75945ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d51e896e2644b7b3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6f215d45f903ff61",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d49d1ff682bd1b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb8c857138beacfa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "3bb41d2a9580acc2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d898667eddb62ced",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+<<<<<<< HEAD
+    "width": 300,
+    "collapsed": true
+=======
+    "width": 300
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
+  },
+  "right": {
+    "id": "ab2d0a4dab6d8bfa",
+    "type": "split",
+    "children": [
+      {
+        "id": "527444a8d507b3a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27e4f1548744fea2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+<<<<<<< HEAD
+                "file": "pages/Amazon Web Services.md",
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "985a4935b0cc993c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+<<<<<<< HEAD
+                "file": "pages/Amazon Web Services.md",
+=======
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a74c5e64a398a679",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6482a18e29aebbf0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+<<<<<<< HEAD
+              "state": {
+                "file": "pages/Amazon Web Services.md"
+              }
+=======
+              "state": {}
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+<<<<<<< HEAD
+  "active": "9e9ee4d3252c84fe",
+  "lastOpenFiles": [
+    "pages/servicios de cómputo.md",
+    "pages/Amazon Web Services.md",
+    "journals/2022_11_03.md",
+=======
+  "active": "eb8c857138beacfa",
+  "lastOpenFiles": [
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
+    "pages/obsidian headers readwise template.md",
+    "Readwise/Books/AWS Certified Cloud Practitioner Exam Guide.md",
+    "pages/Readwise.md",
+    "pages/UNIR%2FCurso AWS%2FMódulo-3%2FTema-1%3A Servicios de Bases de Datos.md",
+    "pages/AWS Certified Cloud Practitioner Exam Guide (highlights).md",
+    "pages/obsidian readwise template.md",
+<<<<<<< HEAD
+    "journals/2022_10_28.md"
+=======
+    "journals/2022_10_28.md",
+    "pages/AWS Certified Cloud Practitioner by ACG.md",
+    "pages/UNIR%2FCurso AWS%2FMódulo-2%2FTema-3%3A Otros servicios de cómputo. Contenedores.md",
+    "journals/2022_10_17.md"
+>>>>>>> 857f5228a5bbf578e20ca8343ed934e1026913fe
+  ]
+}

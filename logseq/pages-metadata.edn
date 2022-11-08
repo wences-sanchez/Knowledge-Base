@@ -150,10 +150,6 @@
  {:block/name "5/ waits — selenium python bindings 2 documentation",
   :block/created-at 1667471517011,
   :block/updated-at 1667471517011}
- {:block/name
-  "5/ waits — selenium python bindings 2 documentation-debian-laptop",
-  :block/created-at 1667894737492,
-  :block/updated-at 1667894737492}
  {:block/name "6",
   :block/created-at 1667209368532,
   :block/updated-at 1667209368532}
@@ -197,10 +193,6 @@
   "administacion de sistemas para la cloud tema-1 (highlights)",
   :block/created-at 1667213045512,
   :block/updated-at 1667213046116}
- {:block/name
-  "administacion de sistemas para la cloud tema-1-debian-laptop",
-  :block/created-at 1667894750483,
-  :block/updated-at 1667894750483}
  {:block/name "administración de sistemas para la cloud tema-10",
   :block/created-at 1667471531264,
   :block/updated-at 1667471531264}
@@ -208,10 +200,6 @@
   "administración de sistemas para la cloud tema-10 (highlights)",
   :block/created-at 1667213085300,
   :block/updated-at 1667213085895}
- {:block/name
-  "administración de sistemas para la cloud tema-10-debian-laptop",
-  :block/created-at 1667894750788,
-  :block/updated-at 1667894750788}
  {:block/name "administración de sistemas para la cloud tema-2",
   :block/created-at 1667471531760,
   :block/updated-at 1667471531760}
@@ -219,10 +207,6 @@
   "administración de sistemas para la cloud tema-2 (highlights)",
   :block/created-at 1667213046636,
   :block/updated-at 1667213047226}
- {:block/name
-  "administración de sistemas para la cloud tema-2-debian-laptop",
-  :block/created-at 1667894751047,
-  :block/updated-at 1667894751047}
  {:block/name "administración de sistemas para la cloud tema-3",
   :block/created-at 1667471532257,
   :block/updated-at 1667471532257}
@@ -230,10 +214,6 @@
   "administración de sistemas para la cloud tema-3 (highlights)",
   :block/created-at 1667213047874,
   :block/updated-at 1667213048487}
- {:block/name
-  "administración de sistemas para la cloud tema-3-debian-laptop",
-  :block/created-at 1667894751371,
-  :block/updated-at 1667894751371}
  {:block/name "administración de sistemas para la cloud tema-4",
   :block/created-at 1667471532616,
   :block/updated-at 1667471532616}
@@ -241,10 +221,6 @@
   "administración de sistemas para la cloud tema-4 (highlights)",
   :block/created-at 1667213049702,
   :block/updated-at 1667213050294}
- {:block/name
-  "administración de sistemas para la cloud tema-4-debian-laptop",
-  :block/created-at 1667894751675,
-  :block/updated-at 1667894751675}
  {:block/name "administración de sistemas para la cloud tema-5",
   :block/created-at 1667471533175,
   :block/updated-at 1667471533175}
@@ -252,10 +228,6 @@
   "administración de sistemas para la cloud tema-5 (highlights)",
   :block/created-at 1667213050742,
   :block/updated-at 1667213051343}
- {:block/name
-  "administración de sistemas para la cloud tema-5-debian-laptop",
-  :block/created-at 1667894751988,
-  :block/updated-at 1667894751988}
  {:block/name "administración de sistemas para la cloud tema-6",
   :block/created-at 1667471534136,
   :block/updated-at 1667471534136}
@@ -263,10 +235,6 @@
   "administración de sistemas para la cloud tema-6 (highlights)",
   :block/created-at 1667213068980,
   :block/updated-at 1667213069578}
- {:block/name
-  "administración de sistemas para la cloud tema-6-debian-laptop",
-  :block/created-at 1667894752388,
-  :block/updated-at 1667894752388}
  {:block/name "administración de sistemas para la cloud tema-7",
   :block/created-at 1667471534481,
   :block/updated-at 1667471534481}
@@ -274,10 +242,6 @@
   "administración de sistemas para la cloud tema-7 (highlights)",
   :block/created-at 1667213070416,
   :block/updated-at 1667213070996}
- {:block/name
-  "administración de sistemas para la cloud tema-7-debian-laptop",
-  :block/created-at 1667894752963,
-  :block/updated-at 1667894752963}
  {:block/name "administración de sistemas para la cloud tema-9",
   :block/created-at 1667471534778,
   :block/updated-at 1667471534778}
@@ -285,10 +249,6 @@
   "administración de sistemas para la cloud tema-9 (highlights)",
   :block/created-at 1667213083844,
   :block/updated-at 1667213084484}
- {:block/name
-  "administración de sistemas para la cloud tema-9-debian-laptop",
-  :block/created-at 1667894753412,
-  :block/updated-at 1667894753412}
  {:block/name "advanced file management tools",
   :block/created-at 1660385967232,
   :block/updated-at 1660385967232}
@@ -302,19 +262,12 @@
  {:block/name "advanced software testing - vol/ 1, 2nd edition",
   :block/created-at 1667471535040,
   :block/updated-at 1667471535040}
- {:block/name
-  "advanced software testing - vol/ 1, 2nd edition-debian-laptop",
-  :block/created-at 1667894753813,
-  :block/updated-at 1667894753813}
  {:block/name "algorithms",
   :block/created-at 1667471535265,
   :block/updated-at 1667471535265}
  {:block/name "algorithms (highlights)",
   :block/created-at 1667213024414,
   :block/updated-at 1667213025003}
- {:block/name "algorithms-debian-laptop",
-  :block/created-at 1667894754065,
-  :block/updated-at 1667894754065}
  {:block/name "amazon ecr",
   :block/created-at 1665998210743,
   :block/updated-at 1665998210743}
@@ -333,18 +286,12 @@
  {:block/name "android programming (highlights)",
   :block/created-at 1667212705475,
   :block/updated-at 1667212706106}
- {:block/name "android programming-debian-laptop",
-  :block/created-at 1667894754432,
-  :block/updated-at 1667894754432}
  {:block/name "android user interface design",
   :block/created-at 1667471536072,
   :block/updated-at 1667471536072}
  {:block/name "android user interface design (highlights)",
   :block/created-at 1667212702337,
   :block/updated-at 1667212702979}
- {:block/name "android user interface design-debian-laptop",
-  :block/created-at 1667894755062,
-  :block/updated-at 1667894755062}
  {:block/name "ansible",
   :block/created-at 1666960862870,
   :block/updated-at 1666960862870}
@@ -354,12 +301,6 @@
  {:block/name "ansible-2",
   :block/created-at 1667471536444,
   :block/updated-at 1667471536444}
- {:block/name "ansible-2-debian-laptop",
-  :block/created-at 1667894755402,
-  :block/updated-at 1667894755402}
- {:block/name "ansible-debian-laptop",
-  :block/created-at 1667894755646,
-  :block/updated-at 1667894755646}
  {:block/name "ansible: from basics to guru",
   :block/created-at 1665484160037,
   :block/updated-at 1665484160037}
@@ -372,9 +313,6 @@
  {:block/name "antología poética (highlights)",
   :block/created-at 1667213115814,
   :block/updated-at 1667213116394}
- {:block/name "antología poética-debian-laptop",
-  :block/created-at 1667894755835,
-  :block/updated-at 1667894755835}
  {:block/name "antonio lopez",
   :block/created-at 1665484227448,
   :block/updated-at 1665484227448}
@@ -388,16 +326,9 @@
  {:block/name "apache2 does not run on ipv4 tcp port (highlights)",
   :block/created-at 1667213060483,
   :block/updated-at 1667213061075}
- {:block/name "apache2 does not run on ipv4 tcp port-debian-laptop",
-  :block/created-at 1667894737948,
-  :block/updated-at 1667894737948}
  {:block/name "api endpoints - what are they why do they matter",
   :block/created-at 1667471517376,
   :block/updated-at 1667471517376}
- {:block/name
-  "api endpoints - what are they why do they matter-debian-laptop",
-  :block/created-at 1667894737721,
-  :block/updated-at 1667894737721}
  {:block/name
   "api endpoints - what are they? why do they matter? (highlights)",
   :block/created-at 1667212903583,
@@ -406,10 +337,6 @@
   "append a single character to a string or char array in java",
   :block/created-at 1667471517989,
   :block/updated-at 1667471517989}
- {:block/name
-  "append a single character to a string or char array in java-debian-laptop",
-  :block/created-at 1667894738116,
-  :block/updated-at 1667894738116}
  {:block/name
   "append a single character to a string or char array in java? (highlights)",
   :block/created-at 1667212860195,
@@ -456,9 +383,6 @@
  {:block/name "astrophysics for people in a hurry (highlights)",
   :block/created-at 1667212961814,
   :block/updated-at 1667212962470}
- {:block/name "astrophysics for people in a hurry-debian-laptop",
-  :block/created-at 1667894755901,
-  :block/updated-at 1667894755901}
  {:block/name "author",
   :block/created-at 1665484165195,
   :block/updated-at 1665484165195}
@@ -478,10 +402,6 @@
   "aws certified cloud practitioner exam guide (highlights)",
   :block/created-at 1667213203097,
   :block/updated-at 1667306202947}
- {:block/name
-  "aws certified cloud practitioner exam guide-debian-laptop",
-  :block/created-at 1667894750081,
-  :block/updated-at 1667894750081}
  {:block/name "aws elastic beanstalk",
   :block/created-at 1665138467036,
   :block/updated-at 1665138467036}
@@ -489,10 +409,6 @@
   "aws how to allow all tcp traffic between all instances in same vpc",
   :block/created-at 1667471517646,
   :block/updated-at 1667471517646}
- {:block/name
-  "aws how to allow all tcp traffic between all instances in same vpc-debian-laptop",
-  :block/created-at 1667894737895,
-  :block/updated-at 1667894737895}
  {:block/name
   "aws: how to allow all tcp traffic between all instances in same vpc? (highlights)",
   :block/created-at 1667213062109,
@@ -536,9 +452,6 @@
  {:block/name "bash quick start guide (highlights)",
   :block/created-at 1667212852177,
   :block/updated-at 1667212852763}
- {:block/name "bash quick start guide-debian-laptop",
-  :block/created-at 1667894756085,
-  :block/updated-at 1667894756085}
  {:block/name "bash scripting tutorial for beginners - linuxconfig",
   :block/created-at 1667471518608,
   :block/updated-at 1667471518608}
@@ -554,14 +467,6 @@
   "bash scripting tutorial for beginners - linuxconfig/org-2",
   :block/created-at 1667471518606,
   :block/updated-at 1667471518606}
- {:block/name
-  "bash scripting tutorial for beginners - linuxconfig/org-2-debian-laptop",
-  :block/created-at 1667894738367,
-  :block/updated-at 1667894738367}
- {:block/name
-  "bash scripting tutorial for beginners - linuxconfig/org-debian-laptop",
-  :block/created-at 1667894738675,
-  :block/updated-at 1667894738675}
  {:block/name "bash shell redirect output and errors to ",
   :block/created-at 1665484171498,
   :block/updated-at 1665484171498}
@@ -575,10 +480,6 @@
  {:block/name "bash shell redirect output and errors to devnull",
   :block/created-at 1667471518241,
   :block/updated-at 1667471518241}
- {:block/name
-  "bash shell redirect output and errors to devnull-debian-laptop",
-  :block/created-at 1667894738170,
-  :block/updated-at 1667894738170}
  {:block/name "bash shell scripting, 2nd edition",
   :block/created-at 1660315973441,
   :block/updated-at 1660315973441}
@@ -586,11 +487,11 @@
   :block/created-at 1667810311626,
   :block/updated-at 1667810311626}
  {:block/name "bash shell scripting, 2nd edition-debian-laptop-2",
-  :block/created-at 1667894723543,
-  :block/updated-at 1667894723543}
+  :block/created-at 1667897957652,
+  :block/updated-at 1667897957652}
  {:block/name "bash shell scripting, 2nd edition-debian-laptop-3",
-  :block/created-at 1667894725676,
-  :block/updated-at 1667894725676}
+  :block/created-at 1667897960048,
+  :block/updated-at 1667897960048}
  {:block/name "become a devops engineer",
   :block/created-at 1665484159583,
   :block/updated-at 1665484159583}
@@ -613,9 +514,6 @@
  {:block/name "beginning asp/net for visual studio 2015",
   :block/created-at 1667471537695,
   :block/updated-at 1667471537695}
- {:block/name "beginning asp/net for visual studio 2015-debian-laptop",
-  :block/created-at 1667894756807,
-  :block/updated-at 1667894756807}
  {:block/name "bertrand russell",
   :block/created-at 1665484225550,
   :block/updated-at 1665484225550}
@@ -650,19 +548,12 @@
   "boolean and logical operations – jetbrains academy (highlights)",
   :block/created-at 1667212876095,
   :block/updated-at 1667212876742}
- {:block/name
-  "boolean and logical operations – jetbrains academy-debian-laptop",
-  :block/created-at 1667894738876,
-  :block/updated-at 1667894738876}
  {:block/name "bécquer",
   :block/created-at 1667471538134,
   :block/updated-at 1667471538134}
  {:block/name "bécquer (highlights)",
   :block/created-at 1667213118455,
   :block/updated-at 1667213119074}
- {:block/name "bécquer-debian-laptop",
-  :block/created-at 1667894757228,
-  :block/updated-at 1667894757228}
  {:block/name "c",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277798}
@@ -675,9 +566,6 @@
  {:block/name "call it sleep (highlights)",
   :block/created-at 1667212805760,
   :block/updated-at 1667212806372}
- {:block/name "call it sleep-debian-laptop",
-  :block/created-at 1667894758866,
-  :block/updated-at 1667894758866}
  {:block/name "canceled",
   :block/created-at 1660045579874,
   :block/updated-at 1660045579874}
@@ -715,8 +603,8 @@
   :block/updated-at 1667810316384}
  {:block/name
   "certificado profesional de ibm devops and software engineering-debian-laptop-2",
-  :block/created-at 1667894727707,
-  :block/updated-at 1667894727707}
+  :block/created-at 1667897962090,
+  :block/updated-at 1667897962090}
  {:block/name
   "certificado profesional de ibm devops and software engineering/ibm-devops-containers",
   :block/created-at 1665484174315,
@@ -775,37 +663,24 @@
  {:block/name "cien poemas clásicos (highlights)",
   :block/created-at 1667212777926,
   :block/updated-at 1667212778604}
- {:block/name "cien poemas clásicos-debian-laptop",
-  :block/created-at 1667894758923,
-  :block/updated-at 1667894758923}
  {:block/name "classical mechanics",
   :block/created-at 1667471539968,
   :block/updated-at 1667471539968}
  {:block/name "classical mechanics (highlights)",
   :block/created-at 1667212928027,
   :block/updated-at 1667212928629}
- {:block/name "classical mechanics-debian-laptop",
-  :block/created-at 1667894759226,
-  :block/updated-at 1667894759226}
  {:block/name "clean code",
   :block/created-at 1667471540521,
   :block/updated-at 1667471540521}
  {:block/name "clean code (highlights)",
   :block/created-at 1667212753522,
   :block/updated-at 1667212754247}
- {:block/name "clean code-debian-laptop",
-  :block/created-at 1667894759883,
-  :block/updated-at 1667894759883}
  {:block/name "cloud computing and devops culture tema-1",
   :block/created-at 1667471540874,
   :block/updated-at 1667471540874}
  {:block/name "cloud computing and devops culture tema-1 (highlights)",
   :block/created-at 1667213052235,
   :block/updated-at 1667213052850}
- {:block/name
-  "cloud computing and devops culture tema-1-debian-laptop",
-  :block/created-at 1667894760263,
-  :block/updated-at 1667894760263}
  {:block/name "cloud computing and devops culture tema-10",
   :block/created-at 1667471541103,
   :block/updated-at 1667471541103}
@@ -813,90 +688,54 @@
   "cloud computing and devops culture tema-10 (highlights)",
   :block/created-at 1667213096381,
   :block/updated-at 1667213096994}
- {:block/name
-  "cloud computing and devops culture tema-10-debian-laptop",
-  :block/created-at 1667894760507,
-  :block/updated-at 1667894760507}
  {:block/name "cloud computing and devops culture tema-2",
   :block/created-at 1667471541260,
   :block/updated-at 1667471541260}
  {:block/name "cloud computing and devops culture tema-2 (highlights)",
   :block/created-at 1667213053529,
   :block/updated-at 1667213054135}
- {:block/name
-  "cloud computing and devops culture tema-2-debian-laptop",
-  :block/created-at 1667894760818,
-  :block/updated-at 1667894760818}
  {:block/name "cloud computing and devops culture tema-3",
   :block/created-at 1667471541548,
   :block/updated-at 1667471541548}
  {:block/name "cloud computing and devops culture tema-3 (highlights)",
   :block/created-at 1667213055857,
   :block/updated-at 1667213056427}
- {:block/name
-  "cloud computing and devops culture tema-3-debian-laptop",
-  :block/created-at 1667894761122,
-  :block/updated-at 1667894761122}
  {:block/name "cloud computing and devops culture tema-4",
   :block/created-at 1667471541887,
   :block/updated-at 1667471541887}
  {:block/name "cloud computing and devops culture tema-4 (highlights)",
   :block/created-at 1667213092160,
   :block/updated-at 1667213092759}
- {:block/name
-  "cloud computing and devops culture tema-4-debian-laptop",
-  :block/created-at 1667894761515,
-  :block/updated-at 1667894761515}
  {:block/name "cloud computing and devops culture tema-5",
   :block/created-at 1667471542165,
   :block/updated-at 1667471542165}
  {:block/name "cloud computing and devops culture tema-5 (highlights)",
   :block/created-at 1667213093964,
   :block/updated-at 1667213094569}
- {:block/name
-  "cloud computing and devops culture tema-5-debian-laptop",
-  :block/created-at 1667894761893,
-  :block/updated-at 1667894761893}
  {:block/name "cloud computing and devops culture tema-6",
   :block/created-at 1667471542410,
   :block/updated-at 1667471542410}
  {:block/name "cloud computing and devops culture tema-6 (highlights)",
   :block/created-at 1667213073075,
   :block/updated-at 1667213073709}
- {:block/name
-  "cloud computing and devops culture tema-6-debian-laptop",
-  :block/created-at 1667894762131,
-  :block/updated-at 1667894762131}
  {:block/name "cloud computing and devops culture tema-7",
   :block/created-at 1667471542627,
   :block/updated-at 1667471542627}
  {:block/name "cloud computing and devops culture tema-7 (highlights)",
   :block/created-at 1667213074423,
   :block/updated-at 1667213075033}
- {:block/name
-  "cloud computing and devops culture tema-7-debian-laptop",
-  :block/created-at 1667894762310,
-  :block/updated-at 1667894762310}
  {:block/name "cloud computing and devops culture tema-8",
   :block/created-at 1667471542731,
   :block/updated-at 1667471542731}
  {:block/name "cloud computing and devops culture tema-8 (highlights)",
   :block/created-at 1667213075311,
   :block/updated-at 1667213075943}
- {:block/name
-  "cloud computing and devops culture tema-8-debian-laptop",
-  :block/created-at 1667894762424,
-  :block/updated-at 1667894762424}
  {:block/name "cloud computing and devops culture tema-9",
   :block/created-at 1667471542984,
   :block/updated-at 1667471542984}
  {:block/name "cloud computing and devops culture tema-9 (highlights)",
   :block/created-at 1667213095091,
   :block/updated-at 1667213095694}
- {:block/name
-  "cloud computing and devops culture tema-9-debian-laptop",
-  :block/created-at 1667894762739,
-  :block/updated-at 1667894762739}
  {:block/name "cloud computing nanodegree by udacity",
   :block/created-at 1666337879005,
   :block/updated-at 1666338014275}
@@ -930,9 +769,6 @@
  {:block/name "code complete (highlights)",
   :block/created-at 1667212779434,
   :block/updated-at 1667212780075}
- {:block/name "code complete-debian-laptop",
-  :block/created-at 1667894763118,
-  :block/updated-at 1667894763118}
  {:block/name "colección poesía salvat",
   :block/created-at 1665484174048,
   :block/updated-at 1665484174048}
@@ -942,9 +778,6 @@
  {:block/name "como si existiese el perdón (highlights)",
   :block/created-at 1667213130452,
   :block/updated-at 1667213131079}
- {:block/name "como si existiese el perdón-debian-laptop",
-  :block/created-at 1667894763319,
-  :block/updated-at 1667894763319}
  {:block/name "complete guide to test automation",
   :block/created-at 1667471544054,
   :block/updated-at 1667471544054}
@@ -954,21 +787,12 @@
  {:block/name "complete guide to test automation-2",
   :block/created-at 1667471543833,
   :block/updated-at 1667471543833}
- {:block/name "complete guide to test automation-2-debian-laptop",
-  :block/created-at 1667894763490,
-  :block/updated-at 1667894763490}
- {:block/name "complete guide to test automation-debian-laptop",
-  :block/created-at 1667894763746,
-  :block/updated-at 1667894763746}
  {:block/name "computer science illuminated",
   :block/created-at 1667471544195,
   :block/updated-at 1667471544195}
  {:block/name "computer science illuminated (highlights)",
   :block/created-at 1667212976238,
   :block/updated-at 1667212976881}
- {:block/name "computer science illuminated-debian-laptop",
-  :block/created-at 1667894763893,
-  :block/updated-at 1667894763893}
  {:block/name "containers",
   :block/created-at 1665484162517,
   :block/updated-at 1665484162517}
@@ -984,90 +808,60 @@
  {:block/name "contenedores tema-1 (highlights)",
   :block/created-at 1667213146339,
   :block/updated-at 1667213146943}
- {:block/name "contenedores tema-1-debian-laptop",
-  :block/created-at 1667894764188,
-  :block/updated-at 1667894764188}
  {:block/name "contenedores tema-10",
   :block/created-at 1667471544768,
   :block/updated-at 1667471544768}
  {:block/name "contenedores tema-10 (highlights)",
   :block/created-at 1667213145130,
   :block/updated-at 1667213145747}
- {:block/name "contenedores tema-10-debian-laptop",
-  :block/created-at 1667894764429,
-  :block/updated-at 1667894764429}
  {:block/name "contenedores tema-2",
   :block/created-at 1667471544975,
   :block/updated-at 1667471544975}
  {:block/name "contenedores tema-2 (highlights)",
   :block/created-at 1667213147717,
   :block/updated-at 1667213148313}
- {:block/name "contenedores tema-2-debian-laptop",
-  :block/created-at 1667894764822,
-  :block/updated-at 1667894764822}
  {:block/name "contenedores tema-3",
   :block/created-at 1667471545346,
   :block/updated-at 1667471545346}
  {:block/name "contenedores tema-3 (highlights)",
   :block/created-at 1667213149633,
   :block/updated-at 1667213150230}
- {:block/name "contenedores tema-3-debian-laptop",
-  :block/created-at 1667894765299,
-  :block/updated-at 1667894765299}
  {:block/name "contenedores tema-4",
   :block/created-at 1667471545665,
   :block/updated-at 1667471545665}
  {:block/name "contenedores tema-4 (highlights)",
   :block/created-at 1667213160293,
   :block/updated-at 1667213160951}
- {:block/name "contenedores tema-4-debian-laptop",
-  :block/created-at 1667894765689,
-  :block/updated-at 1667894765689}
  {:block/name "contenedores tema-5",
   :block/created-at 1667471545923,
   :block/updated-at 1667471545923}
  {:block/name "contenedores tema-5 (highlights)",
   :block/created-at 1667213162162,
   :block/updated-at 1667213162815}
- {:block/name "contenedores tema-5-debian-laptop",
-  :block/created-at 1667894766001,
-  :block/updated-at 1667894766001}
  {:block/name "contenedores tema-6",
   :block/created-at 1667471546246,
   :block/updated-at 1667471546246}
  {:block/name "contenedores tema-6 (highlights)",
   :block/created-at 1667213151624,
   :block/updated-at 1667213152230}
- {:block/name "contenedores tema-6-debian-laptop",
-  :block/created-at 1667894766515,
-  :block/updated-at 1667894766515}
  {:block/name "contenedores tema-7",
   :block/created-at 1667471546606,
   :block/updated-at 1667471546606}
  {:block/name "contenedores tema-7 (highlights)",
   :block/created-at 1667213153719,
   :block/updated-at 1667213154415}
- {:block/name "contenedores tema-7-debian-laptop",
-  :block/created-at 1667894767015,
-  :block/updated-at 1667894767015}
  {:block/name "contenedores tema-8",
   :block/created-at 1667471546921,
   :block/updated-at 1667471546921}
  {:block/name "contenedores tema-8 (highlights)",
   :block/created-at 1667213156721,
   :block/updated-at 1667213157432}
- {:block/name "contenedores tema-8-debian-laptop",
-  :block/created-at 1667894767342,
-  :block/updated-at 1667894767342}
  {:block/name "contenedores tema-9",
   :block/created-at 1667471547194,
   :block/updated-at 1667471547194}
  {:block/name "contenedores tema-9 (highlights)",
   :block/created-at 1667213158474,
   :block/updated-at 1667213159110}
- {:block/name "contenedores tema-9-debian-laptop",
-  :block/created-at 1667894767645,
-  :block/updated-at 1667894767645}
  {:block/name "contents",
   :block/created-at 1660316145971,
   :block/updated-at 1660316145971}
@@ -1077,18 +871,12 @@
  {:block/name "core java volume i--fundamentals (highlights)",
   :block/created-at 1667212988307,
   :block/updated-at 1667212988934}
- {:block/name "core java volume i--fundamentals-debian-laptop",
-  :block/created-at 1667894767941,
-  :block/updated-at 1667894767941}
  {:block/name "core java volume i—fundamentals",
   :block/created-at 1667471547780,
   :block/updated-at 1667471547780}
  {:block/name "core java volume i—fundamentals (highlights)",
   :block/created-at 1667212853942,
   :block/updated-at 1667212854558}
- {:block/name "core java volume i—fundamentals-debian-laptop",
-  :block/created-at 1667894768267,
-  :block/updated-at 1667894768267}
  {:block/name "coste visado uk",
   :block/created-at 1665484182532,
   :block/updated-at 1665484182532}
@@ -1101,9 +889,6 @@
  {:block/name "course_slides_annotated/pdf",
   :block/created-at 1667471548080,
   :block/updated-at 1667471548080}
- {:block/name "course_slides_annotated/pdf-debian-laptop",
-  :block/created-at 1667894768618,
-  :block/updated-at 1667894768618}
  {:block/name "coursera",
   :block/created-at 1659355629307,
   :block/updated-at 1659355629307}
@@ -1119,9 +904,6 @@
  {:block/name "create empty matrix python (highlights)",
   :block/created-at 1667212901765,
   :block/updated-at 1667212902393}
- {:block/name "create empty matrix python-debian-laptop",
-  :block/created-at 1667894738934,
-  :block/updated-at 1667894738934}
  {:block/name "cs",
   :block/created-at 1665484214371,
   :block/updated-at 1665484214371}
@@ -1131,9 +913,6 @@
  {:block/name "css (highlights)",
   :block/created-at 1667212680251,
   :block/updated-at 1667212680984}
- {:block/name "css-debian-laptop",
-  :block/created-at 1667894758352,
-  :block/updated-at 1667894758352}
  {:block/name "curiosities",
   :block/created-at 1659378302560,
   :block/updated-at 1659378302560}
@@ -1147,10 +926,6 @@
   "cómo convertirse en un ingeniero de devops en 2020 (highlights)",
   :block/created-at 1667213013480,
   :block/updated-at 1667213014081}
- {:block/name
-  "cómo convertirse en un ingeniero de devops en 2020-debian-laptop",
-  :block/created-at 1667894739101,
-  :block/updated-at 1667894739101}
  {:block/name "daily",
   :block/created-at 1659864619449,
   :block/updated-at 1659864619449}
@@ -1171,10 +946,6 @@
   "datetimeformatter support for single digit day of month and month of year (highlights)",
   :block/created-at 1667212986212,
   :block/updated-at 1667212986832}
- {:block/name
-  "datetimeformatter support for single digit day of month and month of year-debian-laptop",
-  :block/created-at 1667894739159,
-  :block/updated-at 1667894739159}
  {:block/name "david sawyer mcfarland",
   :block/created-at 1665484184461,
   :block/updated-at 1665484184461}
@@ -1187,18 +958,12 @@
  {:block/name "decídete (highlights)",
   :block/created-at 1667212945354,
   :block/updated-at 1667212946004}
- {:block/name "decídete-debian-laptop",
-  :block/created-at 1667894768926,
-  :block/updated-at 1667894768926}
  {:block/name "designing your life",
   :block/created-at 1667471548975,
   :block/updated-at 1667471548975}
  {:block/name "designing your life (highlights)",
   :block/created-at 1667213015653,
   :block/updated-at 1667213016256}
- {:block/name "designing your life-debian-laptop",
-  :block/created-at 1667894769431,
-  :block/updated-at 1667894769431}
  {:block/name "dev-notes",
   :block/created-at 1658832523329,
   :block/updated-at 1658832523329}
@@ -1211,9 +976,6 @@
  {:block/name "developer testing (highlights)",
   :block/created-at 1667213001481,
   :block/updated-at 1667213002090}
- {:block/name "developer testing-debian-laptop",
-  :block/created-at 1667894769841,
-  :block/updated-at 1667894769841}
  {:block/name "devops",
   :block/created-at 1660029984401,
   :block/updated-at 1660029984401}
@@ -1224,10 +986,6 @@
   "devops continuous delivery, integration, and deployment with devops",
   :block/created-at 1667471519723,
   :block/updated-at 1667471519723}
- {:block/name
-  "devops continuous delivery, integration, and deployment with devops-debian-laptop",
-  :block/created-at 1667894739320,
-  :block/updated-at 1667894739320}
  {:block/name "devops course",
   :block/created-at 1665484184759,
   :block/updated-at 1665484184759}
@@ -1240,16 +998,6 @@
  {:block/name "devops on aws - aws technical essentials-2",
   :block/created-at 1667471519952,
   :block/updated-at 1667471519952}
- {:block/name
-  "devops on aws - aws technical essentials-2-debian-laptop",
-  :block/created-at 1667894739393,
-  :block/updated-at 1667894739393}
- {:block/name "devops on aws - aws technical essentials-debian-laptop",
-  :block/created-at 1667894739638,
-  :block/updated-at 1667894739638}
- {:block/name "devops-debian-laptop",
-  :block/created-at 1667894770202,
-  :block/updated-at 1667894770202}
  {:block/name
   "devops: continuous delivery, integration, and deployment with devops (highlights)",
   :block/created-at 1667212839374,
@@ -1265,28 +1013,18 @@
   "difference between 'directory' and 'python package' in pycharm (highlights)",
   :block/created-at 1667212881651,
   :block/updated-at 1667212882284}
- {:block/name
-  "difference between 'directory' and 'python package' in pycharm-debian-laptop",
-  :block/created-at 1667894739829,
-  :block/updated-at 1667894739829}
  {:block/name "django restful web services",
   :block/created-at 1667471550138,
   :block/updated-at 1667471550138}
  {:block/name "django restful web services (highlights)",
   :block/created-at 1667212895085,
   :block/updated-at 1667212895694}
- {:block/name "django restful web services-debian-laptop",
-  :block/created-at 1667894770498,
-  :block/updated-at 1667894770498}
  {:block/name "do the math with powershell",
   :block/created-at 1667471520494,
   :block/updated-at 1667471520494}
  {:block/name "do the math with powershell (highlights)",
   :block/created-at 1667213072233,
   :block/updated-at 1667213072837}
- {:block/name "do the math with powershell-debian-laptop",
-  :block/created-at 1667894739885,
-  :block/updated-at 1667894739885}
  {:block/name "docker",
   :block/created-at 1665484188376,
   :block/updated-at 1665484188376}
@@ -1347,12 +1085,6 @@
  {:block/name "effective devops with aws (highlights)",
   :block/created-at 1667213115045,
   :block/updated-at 1667213115632}
- {:block/name "effective devops with aws-debian-laptop",
-  :block/created-at 1667894770745,
-  :block/updated-at 1667894770745}
- {:block/name "effective devops-debian-laptop",
-  :block/created-at 1667894770825,
-  :block/updated-at 1667894770825}
  {:block/name "egidio docile",
   :block/created-at 1667471522672,
   :block/updated-at 1667471522672}
@@ -1362,36 +1094,24 @@
  {:block/name "el alquimista (highlights)",
   :block/created-at 1667212897723,
   :block/updated-at 1667212898333}
- {:block/name "el alquimista-debian-laptop",
-  :block/created-at 1667894771053,
-  :block/updated-at 1667894771053}
  {:block/name "el elemento",
   :block/created-at 1667471551101,
   :block/updated-at 1667471551101}
  {:block/name "el elemento (highlights)",
   :block/created-at 1667212887208,
   :block/updated-at 1667212887806}
- {:block/name "el elemento-debian-laptop",
-  :block/created-at 1667894771291,
-  :block/updated-at 1667894771291}
  {:block/name "el enigma de la habitación 622",
   :block/created-at 1667471551385,
   :block/updated-at 1667471551385}
  {:block/name "el enigma de la habitación 622 (highlights)",
   :block/created-at 1667212829879,
   :block/updated-at 1667212830526}
- {:block/name "el enigma de la habitación 622-debian-laptop",
-  :block/created-at 1667894771524,
-  :block/updated-at 1667894771524}
  {:block/name "el meu any de repòs i relaxació",
   :block/created-at 1667471551497,
   :block/updated-at 1667471551497}
  {:block/name "el meu any de repòs i relaxació (highlights)",
   :block/created-at 1667213189139,
   :block/updated-at 1667213189779}
- {:block/name "el meu any de repòs i relaxació-debian-laptop",
-  :block/created-at 1667894771788,
-  :block/updated-at 1667894771788}
  {:block/name "el país colecciones",
   :block/created-at 1665484233181,
   :block/updated-at 1665484233181}
@@ -1401,54 +1121,36 @@
  {:block/name "el retrato de dorian gray (highlights)",
   :block/created-at 1667212817264,
   :block/updated-at 1667212817867}
- {:block/name "el retrato de dorian gray-debian-laptop",
-  :block/created-at 1667894771997,
-  :block/updated-at 1667894771997}
  {:block/name "el ruido y la furia",
   :block/created-at 1667471552049,
   :block/updated-at 1667471552049}
  {:block/name "el ruido y la furia (highlights)",
   :block/created-at 1667212964267,
   :block/updated-at 1667212964881}
- {:block/name "el ruido y la furia-debian-laptop",
-  :block/created-at 1667894772164,
-  :block/updated-at 1667894772164}
  {:block/name "el temor de un hombre sabio",
   :block/created-at 1667471552124,
   :block/updated-at 1667471552124}
  {:block/name "el temor de un hombre sabio (highlights)",
   :block/created-at 1667212914328,
   :block/updated-at 1667212914947}
- {:block/name "el temor de un hombre sabio-debian-laptop",
-  :block/created-at 1667894772250,
-  :block/updated-at 1667894772250}
  {:block/name "en busca del tiempo perdido, 1",
   :block/created-at 1667471552377,
   :block/updated-at 1667471552377}
  {:block/name "en busca del tiempo perdido, 1 (highlights)",
   :block/created-at 1667212815646,
   :block/updated-at 1667212816240}
- {:block/name "en busca del tiempo perdido, 1-debian-laptop",
-  :block/created-at 1667894772418,
-  :block/updated-at 1667894772418}
  {:block/name "en busca del tiempo perdido, 2",
   :block/created-at 1667471552466,
   :block/updated-at 1667471552466}
  {:block/name "en busca del tiempo perdido, 2 (highlights)",
   :block/created-at 1667213004282,
   :block/updated-at 1667213004898}
- {:block/name "en busca del tiempo perdido, 2-debian-laptop",
-  :block/created-at 1667894772533,
-  :block/updated-at 1667894772533}
  {:block/name "engineering software products",
   :block/created-at 1667471552702,
   :block/updated-at 1667471552702}
  {:block/name "engineering software products (highlights)",
   :block/created-at 1667213114252,
   :block/updated-at 1667213114851}
- {:block/name "engineering software products-debian-laptop",
-  :block/created-at 1667894772724,
-  :block/updated-at 1667894772724}
  {:block/name "english",
   :block/created-at 1665484161636,
   :block/updated-at 1665484161636}
@@ -1459,10 +1161,6 @@
   "entendiendo devops en 5 minutos - autentia (highlights)",
   :block/created-at 1667213011370,
   :block/updated-at 1667213011965}
- {:block/name
-  "entendiendo devops en 5 minutos - autentia-debian-laptop",
-  :block/created-at 1667894740048,
-  :block/updated-at 1667894740048}
  {:block/name "entornos-ci-cd",
   :block/created-at 1665484203696,
   :block/updated-at 1665484203696}
@@ -1473,10 +1171,6 @@
   "entornos_de_integracion_y_entrega_continua tema-1 (highlights)",
   :block/created-at 1667213173967,
   :block/updated-at 1667213174596}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-1-debian-laptop",
-  :block/created-at 1667894772806,
-  :block/updated-at 1667894772806}
  {:block/name "entornos_de_integracion_y_entrega_continua tema-10",
   :block/created-at 1667471553038,
   :block/updated-at 1667471553038}
@@ -1484,10 +1178,6 @@
   "entornos_de_integracion_y_entrega_continua tema-10 (highlights)",
   :block/created-at 1667213140788,
   :block/updated-at 1667213141442}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-10-debian-laptop",
-  :block/created-at 1667894773013,
-  :block/updated-at 1667894773013}
  {:block/name "entornos_de_integracion_y_entrega_continua tema-2",
   :block/created-at 1667471553209,
   :block/updated-at 1667471553209}
@@ -1495,10 +1185,6 @@
   "entornos_de_integracion_y_entrega_continua tema-2 (highlights)",
   :block/created-at 1667213175106,
   :block/updated-at 1667213175760}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-2-debian-laptop",
-  :block/created-at 1667894773285,
-  :block/updated-at 1667894773285}
  {:block/name "entornos_de_integracion_y_entrega_continua tema-3",
   :block/created-at 1667471553530,
   :block/updated-at 1667471553530}
@@ -1506,10 +1192,6 @@
   "entornos_de_integracion_y_entrega_continua tema-3 (highlights)",
   :block/created-at 1667213177043,
   :block/updated-at 1667213177693}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-3-debian-laptop",
-  :block/created-at 1667894773552,
-  :block/updated-at 1667894773552}
  {:block/name "entornos_de_integracion_y_entrega_continua tema-4",
   :block/created-at 1667471553600,
   :block/updated-at 1667471553600}
@@ -1517,10 +1199,6 @@
   "entornos_de_integracion_y_entrega_continua tema-4 (highlights)",
   :block/created-at 1667213178145,
   :block/updated-at 1667213178766}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-4-debian-laptop",
-  :block/created-at 1667894773759,
-  :block/updated-at 1667894773759}
  {:block/name "entornos_de_integracion_y_entrega_continua tema-5",
   :block/created-at 1667471553856,
   :block/updated-at 1667471553856}
@@ -1528,10 +1206,6 @@
   "entornos_de_integracion_y_entrega_continua tema-5 (highlights)",
   :block/created-at 1667213126764,
   :block/updated-at 1667213127410}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-5-debian-laptop",
-  :block/created-at 1667894773836,
-  :block/updated-at 1667894773836}
  {:block/name "entornos_de_integracion_y_entrega_continua tema-6",
   :block/created-at 1667471553907,
   :block/updated-at 1667471553907}
@@ -1539,10 +1213,6 @@
   "entornos_de_integracion_y_entrega_continua tema-6 (highlights)",
   :block/created-at 1667213129567,
   :block/updated-at 1667213130179}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-6-debian-laptop",
-  :block/created-at 1667894773987,
-  :block/updated-at 1667894773987}
  {:block/name "entornos_de_integracion_y_entrega_continua tema-7",
   :block/created-at 1667471554163,
   :block/updated-at 1667471554163}
@@ -1550,10 +1220,6 @@
   "entornos_de_integracion_y_entrega_continua tema-7 (highlights)",
   :block/created-at 1667213179084,
   :block/updated-at 1667213179712}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-7-debian-laptop",
-  :block/created-at 1667894774087,
-  :block/updated-at 1667894774087}
  {:block/name "entornos_de_integracion_y_entrega_continua tema-8",
   :block/created-at 1667471554220,
   :block/updated-at 1667471554220}
@@ -1561,10 +1227,6 @@
   "entornos_de_integracion_y_entrega_continua tema-8 (highlights)",
   :block/created-at 1667213140014,
   :block/updated-at 1667213140595}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-8-debian-laptop",
-  :block/created-at 1667894774240,
-  :block/updated-at 1667894774240}
  {:block/name "entornos_de_integracion_y_entrega_continua tema-9",
   :block/created-at 1667471554463,
   :block/updated-at 1667471554463}
@@ -1572,10 +1234,6 @@
   "entornos_de_integracion_y_entrega_continua tema-9 (highlights)",
   :block/created-at 1667213180172,
   :block/updated-at 1667213180763}
- {:block/name
-  "entornos_de_integracion_y_entrega_continua tema-9-debian-laptop",
-  :block/created-at 1667894774295,
-  :block/updated-at 1667894774295}
  {:block/name "eric matthes",
   :block/created-at 1665484236146,
   :block/updated-at 1665484236146}
@@ -1594,9 +1252,6 @@
  {:block/name "execute php code in python (highlights)",
   :block/created-at 1667212912447,
   :block/updated-at 1667212913049}
- {:block/name "execute php code in python-debian-laptop",
-  :block/created-at 1667894740110,
-  :block/updated-at 1667894740110}
  {:block/name "existing types – sizes and ranges – jetbrains academy",
   :block/created-at 1667471521001,
   :block/updated-at 1667471521001}
@@ -1604,10 +1259,6 @@
   "existing types – sizes and ranges – jetbrains academy (highlights)",
   :block/created-at 1667212874310,
   :block/updated-at 1667212874917}
- {:block/name
-  "existing types – sizes and ranges – jetbrains academy-debian-laptop",
-  :block/created-at 1667894740298,
-  :block/updated-at 1667894740298}
  {:block/name "existo",
   :block/created-at 1659947334568,
   :block/updated-at 1659947334568}
@@ -1639,8 +1290,8 @@
   :block/created-at 1667810324754,
   :block/updated-at 1667810324754}
  {:block/name "flashcard-debian-laptop-2",
-  :block/created-at 1667894737390,
-  :block/updated-at 1667894737390}
+  :block/created-at 1667897974976,
+  :block/updated-at 1667897974976}
  {:block/name "friday, 02-09-2022",
   :block/created-at 1665484159489,
   :block/updated-at 1665484159489}
@@ -1685,10 +1336,6 @@
   "generating passwords – processing strings – jetbrains academy (highlights)",
   :block/created-at 1667212862014,
   :block/updated-at 1667212862624}
- {:block/name
-  "generating passwords – processing strings – jetbrains academy-debian-laptop",
-  :block/created-at 1667894740593,
-  :block/updated-at 1667894740593}
  {:block/name "george hrabovsky and leonard susskind",
   :block/created-at 1665484176345,
   :block/updated-at 1665484176345}
@@ -1698,90 +1345,60 @@
  {:block/name "gestion_de_proyectos tema-1 (highlights)",
   :block/created-at 1667213124283,
   :block/updated-at 1667213124885}
- {:block/name "gestion_de_proyectos tema-1-debian-laptop",
-  :block/created-at 1667894774469,
-  :block/updated-at 1667894774469}
  {:block/name "gestion_de_proyectos tema-10",
   :block/created-at 1667471554789,
   :block/updated-at 1667471554789}
  {:block/name "gestion_de_proyectos tema-10 (highlights)",
   :block/created-at 1667213163651,
   :block/updated-at 1667213164276}
- {:block/name "gestion_de_proyectos tema-10-debian-laptop",
-  :block/created-at 1667894774568,
-  :block/updated-at 1667894774568}
  {:block/name "gestion_de_proyectos tema-2",
   :block/created-at 1667471554928,
   :block/updated-at 1667471554928}
  {:block/name "gestion_de_proyectos tema-2 (highlights)",
   :block/created-at 1667213164683,
   :block/updated-at 1667213165302}
- {:block/name "gestion_de_proyectos tema-2-debian-laptop",
-  :block/created-at 1667894774851,
-  :block/updated-at 1667894774851}
  {:block/name "gestion_de_proyectos tema-3",
   :block/created-at 1667471555265,
   :block/updated-at 1667471555265}
  {:block/name "gestion_de_proyectos tema-3 (highlights)",
   :block/created-at 1667213166075,
   :block/updated-at 1667213166701}
- {:block/name "gestion_de_proyectos tema-3-debian-laptop",
-  :block/created-at 1667894775116,
-  :block/updated-at 1667894775116}
  {:block/name "gestion_de_proyectos tema-4",
   :block/created-at 1667471555500,
   :block/updated-at 1667471555500}
  {:block/name "gestion_de_proyectos tema-4 (highlights)",
   :block/created-at 1667213167422,
   :block/updated-at 1667213168028}
- {:block/name "gestion_de_proyectos tema-4-debian-laptop",
-  :block/created-at 1667894775303,
-  :block/updated-at 1667894775303}
  {:block/name "gestion_de_proyectos tema-5",
   :block/created-at 1667471555674,
   :block/updated-at 1667471555674}
  {:block/name "gestion_de_proyectos tema-5 (highlights)",
   :block/created-at 1667213168314,
   :block/updated-at 1667213168907}
- {:block/name "gestion_de_proyectos tema-5-debian-laptop",
-  :block/created-at 1667894775481,
-  :block/updated-at 1667894775481}
  {:block/name "gestion_de_proyectos tema-6",
   :block/created-at 1667471555956,
   :block/updated-at 1667471555956}
  {:block/name "gestion_de_proyectos tema-6 (highlights)",
   :block/created-at 1667213169924,
   :block/updated-at 1667213170548}
- {:block/name "gestion_de_proyectos tema-6-debian-laptop",
-  :block/created-at 1667894775780,
-  :block/updated-at 1667894775780}
  {:block/name "gestion_de_proyectos tema-7",
   :block/created-at 1667471556190,
   :block/updated-at 1667471556190}
  {:block/name "gestion_de_proyectos tema-7 (highlights)",
   :block/created-at 1667213136863,
   :block/updated-at 1667213137553}
- {:block/name "gestion_de_proyectos tema-7-debian-laptop",
-  :block/created-at 1667894776014,
-  :block/updated-at 1667894776014}
  {:block/name "gestion_de_proyectos tema-8",
   :block/created-at 1667471556271,
   :block/updated-at 1667471556271}
  {:block/name "gestion_de_proyectos tema-8 (highlights)",
   :block/created-at 1667213171433,
   :block/updated-at 1667213172124}
- {:block/name "gestion_de_proyectos tema-8-debian-laptop",
-  :block/created-at 1667894776198,
-  :block/updated-at 1667894776198}
  {:block/name "gestion_de_proyectos tema-9",
   :block/created-at 1667471556511,
   :block/updated-at 1667471556511}
  {:block/name "gestion_de_proyectos tema-9 (highlights)",
   :block/created-at 1667213172566,
   :block/updated-at 1667213173231}
- {:block/name "gestion_de_proyectos tema-9-debian-laptop",
-  :block/created-at 1667894776304,
-  :block/updated-at 1667894776304}
  {:block/name "grammar",
   :block/created-at 1665484161664,
   :block/updated-at 1665484161664}
@@ -1791,9 +1408,6 @@
  {:block/name "great expectations (highlights)",
   :block/created-at 1667212773610,
   :block/updated-at 1667212774270}
- {:block/name "great expectations-debian-laptop",
-  :block/created-at 1667894776633,
-  :block/updated-at 1667894776633}
  {:block/name "guru99.com",
   :block/created-at 1660807822425,
   :block/updated-at 1660807822425}
@@ -1825,10 +1439,6 @@
   "herramientas de automatización de despliegues tema-1 (highlights)",
   :block/created-at 1667213106479,
   :block/updated-at 1667213107062}
- {:block/name
-  "herramientas de automatización de despliegues tema-1-debian-laptop",
-  :block/created-at 1667894779282,
-  :block/updated-at 1667894779282}
  {:block/name "herramientas de automatización de despliegues tema-2",
   :block/created-at 1667471559471,
   :block/updated-at 1667471559471}
@@ -1836,10 +1446,6 @@
   "herramientas de automatización de despliegues tema-2 (highlights)",
   :block/created-at 1667213107862,
   :block/updated-at 1667213108444}
- {:block/name
-  "herramientas de automatización de despliegues tema-2-debian-laptop",
-  :block/created-at 1667894779647,
-  :block/updated-at 1667894779647}
  {:block/name "herramientas de automatización de despliegues tema-3",
   :block/created-at 1667471559783,
   :block/updated-at 1667471559783}
@@ -1847,10 +1453,6 @@
   "herramientas de automatización de despliegues tema-3 (highlights)",
   :block/created-at 1667213109272,
   :block/updated-at 1667213109863}
- {:block/name
-  "herramientas de automatización de despliegues tema-3-debian-laptop",
-  :block/created-at 1667894779958,
-  :block/updated-at 1667894779958}
  {:block/name "herramientas de automatización de despliegues tema-4",
   :block/created-at 1667471560015,
   :block/updated-at 1667471560015}
@@ -1858,10 +1460,6 @@
   "herramientas de automatización de despliegues tema-4 (highlights)",
   :block/created-at 1667213111088,
   :block/updated-at 1667213111725}
- {:block/name
-  "herramientas de automatización de despliegues tema-4-debian-laptop",
-  :block/created-at 1667894780195,
-  :block/updated-at 1667894780195}
  {:block/name "herramientas de automatización de despliegues tema-5",
   :block/created-at 1667471560139,
   :block/updated-at 1667471560139}
@@ -1869,10 +1467,6 @@
   "herramientas de automatización de despliegues tema-5 (highlights)",
   :block/created-at 1667213098292,
   :block/updated-at 1667213098891}
- {:block/name
-  "herramientas de automatización de despliegues tema-5-debian-laptop",
-  :block/created-at 1667894780338,
-  :block/updated-at 1667894780338}
  {:block/name "herramientas de automatización de despliegues tema-6",
   :block/created-at 1667471560405,
   :block/updated-at 1667471560405}
@@ -1880,10 +1474,6 @@
   "herramientas de automatización de despliegues tema-6 (highlights)",
   :block/created-at 1667213099746,
   :block/updated-at 1667213100429}
- {:block/name
-  "herramientas de automatización de despliegues tema-6-debian-laptop",
-  :block/created-at 1667894780646,
-  :block/updated-at 1667894780646}
  {:block/name "herramientas de automatización de despliegues tema-7",
   :block/created-at 1667471560674,
   :block/updated-at 1667471560674}
@@ -1891,10 +1481,6 @@
   "herramientas de automatización de despliegues tema-7 (highlights)",
   :block/created-at 1667213101157,
   :block/updated-at 1667213101795}
- {:block/name
-  "herramientas de automatización de despliegues tema-7-debian-laptop",
-  :block/created-at 1667894780920,
-  :block/updated-at 1667894780920}
  {:block/name "herramientas de automatización de despliegues tema-8",
   :block/created-at 1667471560942,
   :block/updated-at 1667471560942}
@@ -1902,10 +1488,6 @@
   "herramientas de automatización de despliegues tema-8 (highlights)",
   :block/created-at 1667213102533,
   :block/updated-at 1667213103171}
- {:block/name
-  "herramientas de automatización de despliegues tema-8-debian-laptop",
-  :block/created-at 1667894781187,
-  :block/updated-at 1667894781187}
  {:block/name "herramientas de automatización de despliegues tema-9",
   :block/created-at 1667471561164,
   :block/updated-at 1667471561164}
@@ -1913,91 +1495,60 @@
   "herramientas de automatización de despliegues tema-9 (highlights)",
   :block/created-at 1667213103840,
   :block/updated-at 1667213104448}
- {:block/name
-  "herramientas de automatización de despliegues tema-9-debian-laptop",
-  :block/created-at 1667894781403,
-  :block/updated-at 1667894781403}
  {:block/name "herramientas devops tema-1",
   :block/created-at 1667471557001,
   :block/updated-at 1667471557001}
  {:block/name "herramientas devops tema-1 (highlights)",
   :block/created-at 1667213033559,
   :block/updated-at 1667213034157}
- {:block/name "herramientas devops tema-1-debian-laptop",
-  :block/created-at 1667894776882,
-  :block/updated-at 1667894776882}
  {:block/name "herramientas devops tema-2",
   :block/created-at 1667471557225,
   :block/updated-at 1667471557225}
  {:block/name "herramientas devops tema-2 (highlights)",
   :block/created-at 1667213034609,
   :block/updated-at 1667213035207}
- {:block/name "herramientas devops tema-2-debian-laptop",
-  :block/created-at 1667894777146,
-  :block/updated-at 1667894777146}
  {:block/name "herramientas devops tema-3",
   :block/created-at 1667471557547,
   :block/updated-at 1667471557547}
  {:block/name "herramientas devops tema-3 (highlights)",
   :block/created-at 1667213057099,
   :block/updated-at 1667213057691}
- {:block/name "herramientas devops tema-3-debian-laptop",
-  :block/created-at 1667894777454,
-  :block/updated-at 1667894777454}
  {:block/name "herramientas devops tema-4",
   :block/created-at 1667471557801,
   :block/updated-at 1667471557801}
  {:block/name "herramientas devops tema-4 (highlights)",
   :block/created-at 1667213040321,
   :block/updated-at 1667213040917}
- {:block/name "herramientas devops tema-4-debian-laptop",
-  :block/created-at 1667894777754,
-  :block/updated-at 1667894777754}
  {:block/name "herramientas devops tema-5",
   :block/created-at 1667471558026,
   :block/updated-at 1667471558026}
  {:block/name "herramientas devops tema-5 (highlights)",
   :block/created-at 1667213062982,
   :block/updated-at 1667213063580}
- {:block/name "herramientas devops tema-5-debian-laptop",
-  :block/created-at 1667894777972,
-  :block/updated-at 1667894777972}
  {:block/name "herramientas devops tema-6",
   :block/created-at 1667471558117,
   :block/updated-at 1667471558117}
  {:block/name "herramientas devops tema-6 (highlights)",
   :block/created-at 1667213081745,
   :block/updated-at 1667213082329}
- {:block/name "herramientas devops tema-6-debian-laptop",
-  :block/created-at 1667894778178,
-  :block/updated-at 1667894778178}
  {:block/name "herramientas devops tema-7",
   :block/created-at 1667471558462,
   :block/updated-at 1667471558462}
  {:block/name "herramientas devops tema-7 (highlights)",
   :block/created-at 1667213077508,
   :block/updated-at 1667213078094}
- {:block/name "herramientas devops tema-7-debian-laptop",
-  :block/created-at 1667894778516,
-  :block/updated-at 1667894778516}
  {:block/name "herramientas devops tema-8",
   :block/created-at 1667471558723,
   :block/updated-at 1667471558723}
  {:block/name "herramientas devops tema-8 (highlights)",
   :block/created-at 1667213079708,
   :block/updated-at 1667213080345}
- {:block/name "herramientas devops tema-8-debian-laptop",
-  :block/created-at 1667894778806,
-  :block/updated-at 1667894778806}
  {:block/name "herramientas devops tema-9",
   :block/created-at 1667471558996,
   :block/updated-at 1667471558996}
  {:block/name "herramientas devops tema-9 (highlights)",
   :block/created-at 1667213080912,
   :block/updated-at 1667213081526}
- {:block/name "herramientas devops tema-9-debian-laptop",
-  :block/created-at 1667894779020,
-  :block/updated-at 1667894779020}
  {:block/name "herramientas-de-automatización-de-despliegues",
   :block/created-at 1665484208912,
   :block/updated-at 1665484208912}
@@ -2010,17 +1561,14 @@
  {:block/name "historia de dos ciudades (highlights)",
   :block/created-at 1667213027927,
   :block/updated-at 1667213028544}
- {:block/name "historia de dos ciudades-debian-laptop",
-  :block/created-at 1667894781616,
-  :block/updated-at 1667894781616}
  {:block/name
   "hls__azure_modulo-2_servicios-principales-de-azure_1667813268169_0",
   :block/created-at 1667813947154,
   :block/updated-at 1667814994156}
  {:block/name
   "hls__azure_modulo-2_servicios-principales-de-azure_1667895294380_0",
-  :block/created-at 1667895325475,
-  :block/updated-at 1667897088050}
+  :block/created-at 1667897975128,
+  :block/updated-at 1667897975128}
  {:block/name "hls__contenedores_tema-1_1662122655208_0",
   :block/created-at 1663348729201,
   :block/updated-at 1663348729201}
@@ -2035,17 +1583,9 @@
   "how can i match anything up until this sequence of characters in a regular expression",
   :block/created-at 1667471521287,
   :block/updated-at 1667471521287}
- {:block/name
-  "how can i match anything up until this sequence of characters in a regular expression-debian-laptop",
-  :block/created-at 1667894740676,
-  :block/updated-at 1667894740676}
  {:block/name "how do i do a case-insensitive string comparison",
   :block/created-at 1667471521507,
   :block/updated-at 1667471521507}
- {:block/name
-  "how do i do a case-insensitive string comparison-debian-laptop",
-  :block/created-at 1667894740893,
-  :block/updated-at 1667894740893}
  {:block/name
   "how do i do a case-insensitive string comparison? (highlights)",
   :block/created-at 1667212865456,
@@ -2054,10 +1594,6 @@
   "how do you test that a python function throws an exception",
   :block/created-at 1667471521625,
   :block/updated-at 1667471521625}
- {:block/name
-  "how do you test that a python function throws an exception-debian-laptop",
-  :block/created-at 1667894740951,
-  :block/updated-at 1667894740951}
  {:block/name
   "how do you test that a python function throws an exception? (highlights)",
   :block/created-at 1667213127694,
@@ -2068,15 +1604,9 @@
  {:block/name "how sre relates to devops (highlights)",
   :block/created-at 1667213191251,
   :block/updated-at 1667213191865}
- {:block/name "how sre relates to devops-debian-laptop",
-  :block/created-at 1667894781691,
-  :block/updated-at 1667894781691}
  {:block/name "how to add a directory to the path",
   :block/created-at 1667471521811,
   :block/updated-at 1667471521811}
- {:block/name "how to add a directory to the path-debian-laptop",
-  :block/created-at 1667894741125,
-  :block/updated-at 1667894741125}
  {:block/name "how to add a directory to the path? (highlights)",
   :block/created-at 1667213036877,
   :block/updated-at 1667213037483}
@@ -2088,16 +1618,9 @@
   "how to count files in directory on linux – devconnected (highlights)",
   :block/created-at 1667213131353,
   :block/updated-at 1667213131979}
- {:block/name
-  "how to count files in directory on linux – devconnected-debian-laptop",
-  :block/created-at 1667894741180,
-  :block/updated-at 1667894741180}
  {:block/name "how to determine why my computer crashed",
   :block/created-at 1667471522097,
   :block/updated-at 1667471522097}
- {:block/name "how to determine why my computer crashed-debian-laptop",
-  :block/created-at 1667894741358,
-  :block/updated-at 1667894741358}
  {:block/name "how to determine why my computer crashed? (highlights)",
   :block/created-at 1667213139115,
   :block/updated-at 1667213139799}
@@ -2114,17 +1637,9 @@
   :block/created-at 1667471522178,
   :block/updated-at 1667471522178}
  {:block/name
-  "how to fix attempted relative import in non-package even with __init__/py-debian-laptop",
-  :block/created-at 1667894741471,
-  :block/updated-at 1667894741471}
- {:block/name
   "how to import the class within the same directory or sub directory",
   :block/created-at 1667471522357,
   :block/updated-at 1667471522357}
- {:block/name
-  "how to import the class within the same directory or sub directory-debian-laptop",
-  :block/created-at 1667894741748,
-  :block/updated-at 1667894741748}
  {:block/name
   "how to import the class within the same directory or sub directory? (highlights)",
   :block/created-at 1667213128652,
@@ -2133,19 +1648,12 @@
   :block/created-at 1667471522446,
   :block/updated-at 1667471522446}
  {:block/name
-  "how to point to the amazon ec2 instance's localhost-debian-laptop",
-  :block/created-at 1667894742064,
-  :block/updated-at 1667894742064}
- {:block/name
   "how to point to the amazon ec2 instance's localhost? (highlights)",
   :block/created-at 1667213059694,
   :block/updated-at 1667213060300}
  {:block/name "how to round to 2 decimals with python",
   :block/created-at 1667471522621,
   :block/updated-at 1667471522621}
- {:block/name "how to round to 2 decimals with python-debian-laptop",
-  :block/created-at 1667894742122,
-  :block/updated-at 1667894742122}
  {:block/name "how to round to 2 decimals with python? (highlights)",
   :block/created-at 1667213037635,
   :block/updated-at 1667213038214}
@@ -2162,14 +1670,6 @@
  {:block/name "how to use arrays in bash script - linuxconfig/org-2",
   :block/created-at 1667471522692,
   :block/updated-at 1667471522692}
- {:block/name
-  "how to use arrays in bash script - linuxconfig/org-2-debian-laptop",
-  :block/created-at 1667894742264,
-  :block/updated-at 1667894742264}
- {:block/name
-  "how to use arrays in bash script - linuxconfig/org-debian-laptop",
-  :block/created-at 1667894742328,
-  :block/updated-at 1667894742328}
  {:block/name "hybrid",
   :block/created-at 1666079835139,
   :block/updated-at 1666079835139}
@@ -2266,8 +1766,8 @@
   :block/created-at 1667810317258,
   :block/updated-at 1667810317258}
  {:block/name "ibm-devops-containers-lab-1-debian-laptop-2",
-  :block/created-at 1667894728693,
-  :block/updated-at 1667894728693}
+  :block/created-at 1667897962485,
+  :block/updated-at 1667897962485}
  {:block/name "ibm-devops-containers-lab-2",
   :block/created-at 1660315979807,
   :block/updated-at 1660315979807}
@@ -2275,8 +1775,8 @@
   :block/created-at 1667810318524,
   :block/updated-at 1667810318524}
  {:block/name "ibm-devops-containers-lab-2-debian-laptop-2",
-  :block/created-at 1667894729414,
-  :block/updated-at 1667894729414}
+  :block/created-at 1667897963417,
+  :block/updated-at 1667897963417}
  {:block/name "ibm-devops-containers-lab-3",
   :block/created-at 1665484162543,
   :block/updated-at 1665484162543}
@@ -2300,10 +1800,6 @@
   :block/created-at 1667471522975,
   :block/updated-at 1667471522975}
  {:block/name
-  "implement – what's up on the field – tic-tac-toe – jetbrains academy-debian-laptop",
-  :block/created-at 1667894742699,
-  :block/updated-at 1667894742699}
- {:block/name
   "implement – what's up on the field? – tic-tac-toe – jetbrains academy (highlights)",
   :block/created-at 1667212925783,
   :block/updated-at 1667212926409}
@@ -2322,19 +1818,12 @@
   "implicit wait - this appears to deprecated in selenium latest version/ what would be the alternate for the same  selenium forum",
   :block/created-at 1667471523156,
   :block/updated-at 1667471523156}
- {:block/name
-  "implicit wait - this appears to deprecated in selenium latest version/ what would be the alternate for the same  selenium forum-debian-laptop",
-  :block/created-at 1667894743007,
-  :block/updated-at 1667894743007}
  {:block/name "in search of lost time",
   :block/created-at 1667471561471,
   :block/updated-at 1667471561471}
  {:block/name "in search of lost time (highlights)",
   :block/created-at 1667212771874,
   :block/updated-at 1667212772525}
- {:block/name "in search of lost time-debian-laptop",
-  :block/created-at 1667894781861,
-  :block/updated-at 1667894781861}
  {:block/name "in-progress",
   :block/created-at 1658772277798,
   :block/updated-at 1658772277799}
@@ -2357,10 +1846,6 @@
   "initialise a list to a specific length in python (highlights)",
   :block/created-at 1667212893301,
   :block/updated-at 1667212893924}
- {:block/name
-  "initialise a list to a specific length in python-debian-laptop",
-  :block/created-at 1667894743072,
-  :block/updated-at 1667894743072}
  {:block/name "installing linux",
   :block/created-at 1660316565944,
   :block/updated-at 1660316565944}
@@ -2376,24 +1861,12 @@
   :block/created-at 1667471561680,
   :block/updated-at 1667471561680}
  {:block/name
-  "intro to python for computer science and data science learning to program with ai, big data and the cloud-debian-laptop",
-  :block/created-at 1667894781963,
-  :block/updated-at 1667894781963}
- {:block/name
-  "intro to python for computer science and data science-debian-laptop",
-  :block/created-at 1667894782158,
-  :block/updated-at 1667894782158}
- {:block/name
   "intro to python for computer science and data science: learning to program with ai, big data and the cloud (highlights)",
   :block/created-at 1667212841090,
   :block/updated-at 1667212841738}
  {:block/name "introduction - universidad de minnesota  coursera",
   :block/created-at 1667471523515,
   :block/updated-at 1667471523515}
- {:block/name
-  "introduction - universidad de minnesota  coursera-debian-laptop",
-  :block/created-at 1667894743281,
-  :block/updated-at 1667894743281}
  {:block/name
   "introduction - universidad de minnesota | coursera (highlights)",
   :block/created-at 1667212837285,
@@ -2409,17 +1882,9 @@
   "introduction to computation and programming using python (highlights)",
   :block/created-at 1667212970701,
   :block/updated-at 1667212971317}
- {:block/name
-  "introduction to computation and programming using python-debian-laptop",
-  :block/created-at 1667894782519,
-  :block/updated-at 1667894782519}
  {:block/name "introduction to git and github - inicio  coursera",
   :block/created-at 1667471523631,
   :block/updated-at 1667471523631}
- {:block/name
-  "introduction to git and github - inicio  coursera-debian-laptop",
-  :block/created-at 1667894743496,
-  :block/updated-at 1667894743496}
  {:block/name
   "introduction to git and github - inicio | coursera (highlights)",
   :block/created-at 1667212835602,
@@ -2431,11 +1896,11 @@
   :block/created-at 1667810321812,
   :block/updated-at 1667810321812}
  {:block/name "introduction to software testing-debian-laptop-2",
-  :block/created-at 1667894730840,
-  :block/updated-at 1667894730840}
+  :block/created-at 1667897965510,
+  :block/updated-at 1667897965510}
  {:block/name "introduction to software testing-debian-laptop-3",
-  :block/created-at 1667894732061,
-  :block/updated-at 1667894732061}
+  :block/created-at 1667897966989,
+  :block/updated-at 1667897966989}
  {:block/name "james turnbull",
   :block/created-at 1665484242478,
   :block/updated-at 1665484242478}
@@ -2457,40 +1922,24 @@
  {:block/name "java convert char to string with examples (highlights)",
   :block/created-at 1667212858468,
   :block/updated-at 1667212859080}
- {:block/name
-  "java convert char to string with examples-debian-laptop",
-  :block/created-at 1667894743573,
-  :block/updated-at 1667894743573}
  {:block/name "java ee 7 essentials",
   :block/created-at 1667471563443,
   :block/updated-at 1667471563443}
  {:block/name "java ee 7 essentials (highlights)",
   :block/created-at 1667212748524,
   :block/updated-at 1667212749125}
- {:block/name "java ee 7 essentials-debian-laptop",
-  :block/created-at 1667894783208,
-  :block/updated-at 1667894783208}
  {:block/name "java projects",
   :block/created-at 1667471563765,
   :block/updated-at 1667471563765}
  {:block/name "java projects (highlights)",
   :block/created-at 1667213006603,
   :block/updated-at 1667213007223}
- {:block/name "java projects-debian-laptop",
-  :block/created-at 1667894783573,
-  :block/updated-at 1667894783573}
- {:block/name "java-debian-laptop",
-  :block/created-at 1667894784314,
-  :block/updated-at 1667894784314}
  {:block/name "javaserver pages",
   :block/created-at 1667471564813,
   :block/updated-at 1667471564813}
  {:block/name "javaserver pages (highlights)",
   :block/created-at 1667212691116,
   :block/updated-at 1667212691757}
- {:block/name "javaserver pages-debian-laptop",
-  :block/created-at 1667894784965,
-  :block/updated-at 1667894784965}
  {:block/name "jeanne boyarsky, scott selikoff",
   :block/created-at 1665484232947,
   :block/updated-at 1665484232947}
@@ -2503,9 +1952,6 @@
  {:block/name "jenkins core (highlights)",
   :block/created-at 1667213135962,
   :block/updated-at 1667213136597}
- {:block/name "jenkins core-debian-laptop",
-  :block/created-at 1667894743747,
-  :block/updated-at 1667894743747}
  {:block/name "jenkins essential training",
   :block/created-at 1660029984474,
   :block/updated-at 1660375709572}
@@ -2513,11 +1959,11 @@
   :block/created-at 1667810323412,
   :block/updated-at 1667810323412}
  {:block/name "jenkins essential training-debian-laptop-2",
-  :block/created-at 1667894732965,
-  :block/updated-at 1667894732965}
+  :block/created-at 1667897968159,
+  :block/updated-at 1667897968159}
  {:block/name "jenkins essential training-debian-laptop-3",
-  :block/created-at 1667894733526,
-  :block/updated-at 1667894733526}
+  :block/created-at 1667897969077,
+  :block/updated-at 1667897969077}
  {:block/name
   "jetbrains academy - learn programming by building your own apps",
   :block/created-at 1667471524191,
@@ -2530,14 +1976,6 @@
   "jetbrains academy - learn programming by building your own apps-2",
   :block/created-at 1667471524093,
   :block/updated-at 1667471524093}
- {:block/name
-  "jetbrains academy - learn programming by building your own apps-2-debian-laptop",
-  :block/created-at 1667894743809,
-  :block/updated-at 1667894743809}
- {:block/name
-  "jetbrains academy - learn programming by building your own apps-debian-laptop",
-  :block/created-at 1667894743999,
-  :block/updated-at 1667894743999}
  {:block/name "joakim verona",
   :block/created-at 1665484233331,
   :block/updated-at 1665484233331}
@@ -2572,10 +2010,6 @@
   :block/created-at 1667471524376,
   :block/updated-at 1667471524376}
  {:block/name
-  "kubectl  unable to connect to the server  dial tcp 192/168/214/1366443 connect no route to host-debian-laptop",
-  :block/created-at 1667894744064,
-  :block/updated-at 1667894744064}
- {:block/name
   "kubectl : unable to connect to the server : dial tcp 192.168.214.136:6443: connect: no route to host (highlights)",
   :block/created-at 1667213193021,
   :block/updated-at 1667213193636}
@@ -2588,63 +2022,42 @@
  {:block/name "kubernetes in action (highlights)",
   :block/created-at 1667213141913,
   :block/updated-at 1667213142525}
- {:block/name "kubernetes in action-debian-laptop",
-  :block/created-at 1667894785556,
-  :block/updated-at 1667894785556}
  {:block/name "l'ordre del temps",
   :block/created-at 1667471590476,
   :block/updated-at 1667471590476}
  {:block/name "l'ordre del temps (highlights)",
   :block/created-at 1667212938054,
   :block/updated-at 1667212938663}
- {:block/name "l'ordre del temps-debian-laptop",
-  :block/created-at 1667894815603,
-  :block/updated-at 1667894815603}
  {:block/name "la búsqueda de la felicidad",
   :block/created-at 1667471565797,
   :block/updated-at 1667471565797}
  {:block/name "la búsqueda de la felicidad (highlights)",
   :block/created-at 1667213195896,
   :block/updated-at 1667213196534}
- {:block/name "la búsqueda de la felicidad-debian-laptop",
-  :block/created-at 1667894786066,
-  :block/updated-at 1667894786066}
  {:block/name "la conquista de la felicidad",
   :block/created-at 1667471566072,
   :block/updated-at 1667471566072}
  {:block/name "la conquista de la felicidad (highlights)",
   :block/created-at 1667212891293,
   :block/updated-at 1667212891895}
- {:block/name "la conquista de la felicidad-debian-laptop",
-  :block/created-at 1667894786373,
-  :block/updated-at 1667894786373}
  {:block/name "la historia de la nostalgia",
   :block/created-at 1667471566314,
   :block/updated-at 1667471566314}
  {:block/name "la historia de la nostalgia (highlights)",
   :block/created-at 1667213194744,
   :block/updated-at 1667213195372}
- {:block/name "la historia de la nostalgia-debian-laptop",
-  :block/created-at 1667894786626,
-  :block/updated-at 1667894786626}
  {:block/name "la síntesis de la libertad",
   :block/created-at 1667471566582,
   :block/updated-at 1667471566582}
  {:block/name "la síntesis de la libertad (highlights)",
   :block/created-at 1667212744753,
   :block/updated-at 1667212745355}
- {:block/name "la síntesis de la libertad-debian-laptop",
-  :block/created-at 1667894786865,
-  :block/updated-at 1667894786865}
  {:block/name "la verdad sobre el caso harry quebert",
   :block/created-at 1667471566829,
   :block/updated-at 1667471566829}
  {:block/name "la verdad sobre el caso harry quebert (highlights)",
   :block/created-at 1667212827451,
   :block/updated-at 1667212828090}
- {:block/name "la verdad sobre el caso harry quebert-debian-laptop",
-  :block/created-at 1667894787110,
-  :block/updated-at 1667894787110}
  {:block/name "labs",
   :block/created-at 1665484174458,
   :block/updated-at 1665484174458}
@@ -2660,36 +2073,24 @@
  {:block/name "learn selenium (highlights)",
   :block/created-at 1667212957577,
   :block/updated-at 1667212958188}
- {:block/name "learn selenium-debian-laptop",
-  :block/created-at 1667894787470,
-  :block/updated-at 1667894787470}
  {:block/name "learning devops",
   :block/created-at 1667471567557,
   :block/updated-at 1667471567557}
  {:block/name "learning devops (highlights)",
   :block/created-at 1667212966616,
   :block/updated-at 1667212967253}
- {:block/name "learning devops-debian-laptop",
-  :block/created-at 1667894787799,
-  :block/updated-at 1667894787799}
  {:block/name "learning php 7",
   :block/created-at 1667471568443,
   :block/updated-at 1667471568443}
  {:block/name "learning php 7 (highlights)",
   :block/created-at 1667212791974,
   :block/updated-at 1667212792586}
- {:block/name "learning php 7-debian-laptop",
-  :block/created-at 1667894788719,
-  :block/updated-at 1667894788719}
  {:block/name "learning php, mysql & javascript",
   :block/created-at 1667471570919,
   :block/updated-at 1667471570919}
  {:block/name "learning php, mysql & javascript (highlights)",
   :block/created-at 1667212710623,
   :block/updated-at 1667212711232}
- {:block/name "learning php, mysql & javascript-debian-laptop",
-  :block/created-at 1667894790971,
-  :block/updated-at 1667894790971}
  {:block/name "learning-path-aws-developer",
   :block/created-at 1665484162099,
   :block/updated-at 1665484162099}
@@ -2702,9 +2103,6 @@
  {:block/name "lessons learned in software testing (highlights)",
   :block/created-at 1667212742608,
   :block/updated-at 1667212743223}
- {:block/name "lessons learned in software testing-debian-laptop",
-  :block/created-at 1667894791936,
-  :block/updated-at 1667894791936}
  {:block/name "linkedin personal brand",
   :block/created-at 1665484159900,
   :block/updated-at 1665484159900}
@@ -2727,11 +2125,11 @@
   :block/created-at 1667810324272,
   :block/updated-at 1667810324272}
  {:block/name "linux fundamentals-debian-laptop-2",
-  :block/created-at 1667894734197,
-  :block/updated-at 1667894734197}
+  :block/created-at 1667897970413,
+  :block/updated-at 1667897970413}
  {:block/name "linux fundamentals-debian-laptop-3",
-  :block/created-at 1667894735085,
-  :block/updated-at 1667894735085}
+  :block/created-at 1667897971681,
+  :block/updated-at 1667897971681}
  {:block/name "linux fundamentals/operating running systems",
   :block/created-at 1665484230514,
   :block/updated-at 1665484230514}
@@ -2748,9 +2146,6 @@
  {:block/name "list comprehension – jetbrains academy (highlights)",
   :block/created-at 1667212920873,
   :block/updated-at 1667212921516}
- {:block/name "list comprehension – jetbrains academy-debian-laptop",
-  :block/created-at 1667894744221,
-  :block/updated-at 1667894744221}
  {:block/name "literature-quotes",
   :block/created-at 1667210436074,
   :block/updated-at 1667210436074}
@@ -2763,9 +2158,6 @@
  {:block/name "machines like me (highlights)",
   :block/created-at 1667212813731,
   :block/updated-at 1667212814362}
- {:block/name "machines like me-debian-laptop",
-  :block/created-at 1667894792195,
-  :block/updated-at 1667894792195}
  {:block/name "marcel proust",
   :block/created-at 1665484213493,
   :block/updated-at 1665484213493}
@@ -2782,10 +2174,6 @@
   "markdown editing basics - west wind html help builder (highlights)",
   :block/created-at 1667212883440,
   :block/updated-at 1667212884049}
- {:block/name
-  "markdown editing basics - west wind html help builder-debian-laptop",
-  :block/created-at 1667894744283,
-  :block/updated-at 1667894744283}
  {:block/name "marko luksa",
   :block/created-at 1665484225049,
   :block/updated-at 1665484225049}
@@ -2816,26 +2204,16 @@
  {:block/name "mobile test automation with appium (highlights)",
   :block/created-at 1667213031480,
   :block/updated-at 1667213032061}
- {:block/name "mobile test automation with appium-debian-laptop",
-  :block/created-at 1667894792375,
-  :block/updated-at 1667894792375}
  {:block/name "moby dick",
   :block/created-at 1667471572306,
   :block/updated-at 1667471572306}
  {:block/name "moby dick (highlights)",
   :block/created-at 1667212808994,
   :block/updated-at 1667212809623}
- {:block/name "moby dick-debian-laptop",
-  :block/created-at 1667894792429,
-  :block/updated-at 1667894792429}
  {:block/name
   "modules overview - configuration language  terraform by hashicorp",
   :block/created-at 1667471524712,
   :block/updated-at 1667471524712}
- {:block/name
-  "modules overview - configuration language  terraform by hashicorp-debian-laptop",
-  :block/created-at 1667894744441,
-  :block/updated-at 1667894744441}
  {:block/name
   "modules overview - configuration language | terraform by hashicorp (highlights)",
   :block/created-at 1667213064020,
@@ -2897,27 +2275,18 @@
  {:block/name "networking all-in-one for dummies (highlights)",
   :block/created-at 1667213201132,
   :block/updated-at 1667213201772}
- {:block/name "networking all-in-one for dummies-debian-laptop",
-  :block/created-at 1667894792748,
-  :block/updated-at 1667894792748}
  {:block/name "networking fundamentals",
   :block/created-at 1667471572887,
   :block/updated-at 1667471572887}
  {:block/name "networking fundamentals (highlights)",
   :block/created-at 1667213199746,
   :block/updated-at 1667213200376}
- {:block/name "networking fundamentals-debian-laptop",
-  :block/created-at 1667894793014,
-  :block/updated-at 1667894793014}
  {:block/name "nginx configuration guide",
   :block/created-at 1667471524926,
   :block/updated-at 1667471524926}
  {:block/name "nginx configuration guide (highlights)",
   :block/created-at 1667213061263,
   :block/updated-at 1667213061843}
- {:block/name "nginx configuration guide-debian-laptop",
-  :block/created-at 1667894744557,
-  :block/updated-at 1667894744557}
  {:block/name "nishant verma",
   :block/created-at 1665484231420,
   :block/updated-at 1665484231420}
@@ -2936,9 +2305,6 @@
  {:block/name "nullpointerexception when using @findby (highlights)",
   :block/created-at 1667213030714,
   :block/updated-at 1667213031297}
- {:block/name "nullpointerexception when using @findby-debian-laptop",
-  :block/created-at 1667894744766,
-  :block/updated-at 1667894744766}
  {:block/name "o",
   :block/created-at 1665484160810,
   :block/updated-at 1665484160810}
@@ -3089,9 +2455,6 @@
  {:block/name "oca (highlights)",
   :block/created-at 1667212819059,
   :block/updated-at 1667212819660}
- {:block/name "oca-debian-laptop",
-  :block/created-at 1667894794218,
-  :block/updated-at 1667894794218}
  {:block/name
   "ocp oracle certified professional java se 11 programmer i exam fundamentals 1z0-815",
   :block/created-at 1667471573201,
@@ -3100,10 +2463,6 @@
   "ocp oracle certified professional java se 11 programmer i exam fundamentals 1z0-815 (highlights)",
   :block/created-at 1667212775629,
   :block/updated-at 1667212776231}
- {:block/name
-  "ocp oracle certified professional java se 11 programmer i exam fundamentals 1z0-815-debian-laptop",
-  :block/created-at 1667894793341,
-  :block/updated-at 1667894793341}
  {:block/name "operating running system",
   :block/created-at 1660385674273,
   :block/updated-at 1660385674273}
@@ -3116,9 +2475,6 @@
  {:block/name "origin (highlights)",
   :block/created-at 1667213125152,
   :block/updated-at 1667213125730}
- {:block/name "origin-debian-laptop",
-  :block/created-at 1667894794692,
-  :block/updated-at 1667894794692}
  {:block/name "oscar wilde and mauro armiño",
   :block/created-at 1665484201374,
   :block/updated-at 1665484201374}
@@ -3200,8 +2556,8 @@
   :block/created-at 1667210472927,
   :block/updated-at 1667210472927}
  {:block/name "other-books::networking fundamentals",
-  :block/created-at 1667894817405,
-  :block/updated-at 1667894817405}
+  :block/created-at 1667897975845,
+  :block/updated-at 1667897975845}
  {:block/name "other-books::oca",
   :block/created-at 1667210484286,
   :block/updated-at 1667210484286}
@@ -3290,9 +2646,6 @@
  {:block/name "personalidad (highlights)",
   :block/created-at 1667213193847,
   :block/updated-at 1667213194452}
- {:block/name "personalidad-debian-laptop",
-  :block/created-at 1667894794754,
-  :block/updated-at 1667894794754}
  {:block/name "pink",
   :block/created-at 1665484186786,
   :block/updated-at 1665484186786}
@@ -3308,9 +2661,6 @@
  {:block/name "practical ansible 2 (highlights)",
   :block/created-at 1667212953251,
   :block/updated-at 1667212953836}
- {:block/name "practical ansible 2-debian-laptop",
-  :block/created-at 1667894794911,
-  :block/updated-at 1667894794911}
  {:block/name "practical devops",
   :block/created-at 1667471574820,
   :block/updated-at 1667471574820}
@@ -3320,45 +2670,30 @@
  {:block/name "practical devops-2",
   :block/created-at 1667471574632,
   :block/updated-at 1667471574632}
- {:block/name "practical devops-debian-laptop",
-  :block/created-at 1667894795009,
-  :block/updated-at 1667894795009}
  {:block/name "pragmatic software testing",
   :block/created-at 1667471574925,
   :block/updated-at 1667471574925}
  {:block/name "pragmatic software testing (highlights)",
   :block/created-at 1667212955252,
   :block/updated-at 1667212955849}
- {:block/name "pragmatic software testing-debian-laptop",
-  :block/created-at 1667894795227,
-  :block/updated-at 1667894795227}
  {:block/name "pretty things",
   :block/created-at 1667471575139,
   :block/updated-at 1667471575139}
  {:block/name "pretty things (highlights)",
   :block/created-at 1667213076532,
   :block/updated-at 1667213077183}
- {:block/name "pretty things-debian-laptop",
-  :block/created-at 1667894795423,
-  :block/updated-at 1667894795423}
  {:block/name "pro bash programming",
   :block/created-at 1667471575256,
   :block/updated-at 1667471575256}
  {:block/name "pro bash programming (highlights)",
   :block/created-at 1667213183684,
   :block/updated-at 1667213184284}
- {:block/name "pro bash programming-debian-laptop",
-  :block/created-at 1667894795726,
-  :block/updated-at 1667894795726}
  {:block/name "pro puppet",
   :block/created-at 1667471576082,
   :block/updated-at 1667471576082}
  {:block/name "pro puppet (highlights)",
   :block/created-at 1667212759376,
   :block/updated-at 1667212759987}
- {:block/name "pro puppet-debian-laptop",
-  :block/created-at 1667894796761,
-  :block/updated-at 1667894796761}
  {:block/name "problem",
   :block/created-at 1660808012410,
   :block/updated-at 1660808012410}
@@ -3383,17 +2718,10 @@
  {:block/name "programming - evernote (highlights)",
   :block/created-at 1667212868894,
   :block/updated-at 1667212869494}
- {:block/name "programming - evernote-debian-laptop",
-  :block/created-at 1667894744828,
-  :block/updated-at 1667894744828}
  {:block/name
   "providers - configuration language  terraform by hashicorp",
   :block/created-at 1667471525377,
   :block/updated-at 1667471525377}
- {:block/name
-  "providers - configuration language  terraform by hashicorp-debian-laptop",
-  :block/created-at 1667894745003,
-  :block/updated-at 1667894745003}
  {:block/name
   "providers - configuration language | terraform by hashicorp (highlights)",
   :block/created-at 1667213064807,
@@ -3404,9 +2732,6 @@
  {:block/name "puppet 5 beginner's guide (highlights)",
   :block/created-at 1667213181012,
   :block/updated-at 1667213181634}
- {:block/name "puppet 5 beginner's guide-debian-laptop",
-  :block/created-at 1667894797499,
-  :block/updated-at 1667894797499}
  {:block/name "python",
   :block/created-at 1665484182894,
   :block/updated-at 1665484182894}
@@ -3416,15 +2741,9 @@
  {:block/name "python crash course (highlights)",
   :block/created-at 1667213119344,
   :block/updated-at 1667213119940}
- {:block/name "python crash course-debian-laptop",
-  :block/created-at 1667894798270,
-  :block/updated-at 1667894798270}
  {:block/name "python file naming convention",
   :block/created-at 1667471525468,
   :block/updated-at 1667471525468}
- {:block/name "python file naming convention-debian-laptop",
-  :block/created-at 1667894745069,
-  :block/updated-at 1667894745069}
  {:block/name "python file naming convention? (highlights)",
   :block/created-at 1667212877864,
   :block/updated-at 1667212878471}
@@ -3438,19 +2757,12 @@
  {:block/name "python object/__repr__(self) should be an expression",
   :block/created-at 1667471525714,
   :block/updated-at 1667471525714}
- {:block/name
-  "python object/__repr__(self) should be an expression-debian-laptop",
-  :block/created-at 1667894745287,
-  :block/updated-at 1667894745287}
  {:block/name "python string count",
   :block/created-at 1667471525632,
   :block/updated-at 1667471525632}
  {:block/name "python string count (highlights)",
   :block/created-at 1667212923410,
   :block/updated-at 1667212924243}
- {:block/name "python string count-debian-laptop",
-  :block/created-at 1667894745222,
-  :block/updated-at 1667894745222}
  {:block/name "qa",
   :block/created-at 1665484168278,
   :block/updated-at 1665484168278}
@@ -3466,18 +2778,12 @@
  {:block/name "quantum computing for everyone (highlights)",
   :block/created-at 1667213198152,
   :block/updated-at 1667213198798}
- {:block/name "quantum computing for everyone-debian-laptop",
-  :block/created-at 1667894798827,
-  :block/updated-at 1667894798827}
  {:block/name "quotes",
   :block/created-at 1667471579017,
   :block/updated-at 1667471579017}
  {:block/name "quotes (highlights)",
   :block/created-at 1667212846443,
   :block/updated-at 1667212847055}
- {:block/name "quotes-debian-laptop",
-  :block/created-at 1667894799025,
-  :block/updated-at 1667894799025}
  {:block/name "reading 3",
   :block/created-at 1667471525951,
   :block/updated-at 1667471525951}
@@ -3488,10 +2794,6 @@
  {:block/name "reading 3/1 storage types on aws  coursera",
   :block/created-at 1667471525948,
   :block/updated-at 1667471525948}
- {:block/name
-  "reading 3/1 storage types on aws  coursera-debian-laptop",
-  :block/created-at 1667894745455,
-  :block/updated-at 1667894745455}
  {:block/name "readme",
   :block/created-at 1660315973090,
   :block/updated-at 1660315973090}
@@ -3504,9 +2806,6 @@
  {:block/name "real-world software development (highlights)",
   :block/created-at 1667212979323,
   :block/updated-at 1667212979935}
- {:block/name "real-world software development-debian-laptop",
-  :block/created-at 1667894799375,
-  :block/updated-at 1667894799375}
  {:block/name "red hat certified engineer (rhce) study guide",
   :block/created-at 1667471579759,
   :block/updated-at 1667471579759}
@@ -3514,10 +2813,6 @@
   "red hat certified engineer (rhce) study guide (highlights)",
   :block/created-at 1667213187248,
   :block/updated-at 1667213187835}
- {:block/name
-  "red hat certified engineer (rhce) study guide-debian-laptop",
-  :block/created-at 1667894799789,
-  :block/updated-at 1667894799789}
  {:block/name
   "red hat certified specialist in ansible automation (ex407) preparation course",
   :block/created-at 1665484159602,
@@ -3543,9 +2838,6 @@
  {:block/name "resilience (highlights)",
   :block/created-at 1667212807381,
   :block/updated-at 1667212807984}
- {:block/name "resilience-debian-laptop",
-  :block/created-at 1667894799958,
-  :block/updated-at 1667894799958}
  {:block/name
   "richard p. feynman, robert b. leighton, and matthew sands",
   :block/created-at 1665484242740,
@@ -3572,10 +2864,6 @@
   "run a function only once in a class - python (highlights)",
   :block/created-at 1667212905508,
   :block/updated-at 1667212906107}
- {:block/name
-  "run a function only once in a class - python-debian-laptop",
-  :block/created-at 1667894745542,
-  :block/updated-at 1667894745542}
  {:block/name "saturday, 03-09-2022",
   :block/created-at 1665484159451,
   :block/updated-at 1665484159451}
@@ -3627,9 +2915,6 @@
  {:block/name "scrolling to element using webdriver",
   :block/created-at 1667471526282,
   :block/updated-at 1667471526282}
- {:block/name "scrolling to element using webdriver-debian-laptop",
-  :block/created-at 1667894745786,
-  :block/updated-at 1667894745786}
  {:block/name "scrolling to element using webdriver? (highlights)",
   :block/created-at 1667212872334,
   :block/updated-at 1667212872958}
@@ -3639,81 +2924,54 @@
  {:block/name "secdevops tema-1 (highlights)",
   :block/created-at 1667213032289,
   :block/updated-at 1667213032855}
- {:block/name "secdevops tema-1-debian-laptop",
-  :block/created-at 1667894800105,
-  :block/updated-at 1667894800105}
  {:block/name "secdevops tema-2",
   :block/created-at 1667471580770,
   :block/updated-at 1667471580770}
  {:block/name "secdevops tema-2 (highlights)",
   :block/created-at 1667213038404,
   :block/updated-at 1667213038986}
- {:block/name "secdevops tema-2-debian-laptop",
-  :block/created-at 1667894800460,
-  :block/updated-at 1667894800460}
  {:block/name "secdevops tema-3",
   :block/created-at 1667471581303,
   :block/updated-at 1667471581303}
  {:block/name "secdevops tema-3 (highlights)",
   :block/created-at 1667213041550,
   :block/updated-at 1667213042162}
- {:block/name "secdevops tema-3-debian-laptop",
-  :block/created-at 1667894800951,
-  :block/updated-at 1667894800951}
  {:block/name "secdevops tema-4",
   :block/created-at 1667471581712,
   :block/updated-at 1667471581712}
  {:block/name "secdevops tema-4 (highlights)",
   :block/created-at 1667213044035,
   :block/updated-at 1667213044624}
- {:block/name "secdevops tema-4-debian-laptop",
-  :block/created-at 1667894801294,
-  :block/updated-at 1667894801294}
  {:block/name "secdevops tema-5",
   :block/created-at 1667471581996,
   :block/updated-at 1667471581996}
  {:block/name "secdevops tema-5 (highlights)",
   :block/created-at 1667213058481,
   :block/updated-at 1667213059076}
- {:block/name "secdevops tema-5-debian-laptop",
-  :block/created-at 1667894801618,
-  :block/updated-at 1667894801618}
  {:block/name "secdevops tema-6",
   :block/created-at 1667471582484,
   :block/updated-at 1667471582484}
  {:block/name "secdevops tema-6 (highlights)",
   :block/created-at 1667213086701,
   :block/updated-at 1667213087331}
- {:block/name "secdevops tema-6-debian-laptop",
-  :block/created-at 1667894801962,
-  :block/updated-at 1667894801962}
  {:block/name "secdevops tema-7",
   :block/created-at 1667471582931,
   :block/updated-at 1667471582931}
  {:block/name "secdevops tema-7 (highlights)",
   :block/created-at 1667213087961,
   :block/updated-at 1667213088568}
- {:block/name "secdevops tema-7-debian-laptop",
-  :block/created-at 1667894802368,
-  :block/updated-at 1667894802368}
  {:block/name "secdevops tema-8",
   :block/created-at 1667471583089,
   :block/updated-at 1667471583089}
  {:block/name "secdevops tema-8 (highlights)",
   :block/created-at 1667213089380,
   :block/updated-at 1667213090002}
- {:block/name "secdevops tema-8-debian-laptop",
-  :block/created-at 1667894802744,
-  :block/updated-at 1667894802744}
  {:block/name "secdevops tema-9",
   :block/created-at 1667471583365,
   :block/updated-at 1667471583365}
  {:block/name "secdevops tema-9 (highlights)",
   :block/created-at 1667213090822,
   :block/updated-at 1667213091440}
- {:block/name "secdevops tema-9-debian-laptop",
-  :block/created-at 1667894803047,
-  :block/updated-at 1667894803047}
  {:block/name "selenium webdriver 3 practical guide",
   :block/created-at 1667471584188,
   :block/updated-at 1667471584188}
@@ -3723,12 +2981,6 @@
  {:block/name "selenium webdriver 3 practical guide-2",
   :block/created-at 1667471583755,
   :block/updated-at 1667471583755}
- {:block/name "selenium webdriver 3 practical guide-2-debian-laptop",
-  :block/created-at 1667894803477,
-  :block/updated-at 1667894803477}
- {:block/name "selenium webdriver 3 practical guide-debian-laptop",
-  :block/created-at 1667894803978,
-  :block/updated-at 1667894803978}
  {:block/name "selenium-python.readthedocs.io",
   :block/created-at 1665484162795,
   :block/updated-at 1665484162795}
@@ -3777,9 +3029,6 @@
  {:block/name "siddhartha (highlights)",
   :block/created-at 1667212740451,
   :block/updated-at 1667212741046}
- {:block/name "siddhartha-debian-laptop",
-  :block/created-at 1667894804343,
-  :block/updated-at 1667894804343}
  {:block/name "sir ken robinson, aronica lou",
   :block/created-at 1665484200979,
   :block/updated-at 1665484200979}
@@ -3795,9 +3044,6 @@
  {:block/name "software testing (highlights)",
   :block/created-at 1667212998633,
   :block/updated-at 1667212999243}
- {:block/name "software testing-debian-laptop",
-  :block/created-at 1667894804707,
-  :block/updated-at 1667894804707}
  {:block/name "softwareengineering.stackexchange.com",
   :block/created-at 1665484236277,
   :block/updated-at 1665484236277}
@@ -3823,9 +3069,6 @@
  {:block/name "ssh-copy-id - permission denied (highlights)",
   :block/created-at 1667213188275,
   :block/updated-at 1667213188909}
- {:block/name "ssh-copy-id - permission denied-debian-laptop",
-  :block/created-at 1667894745737,
-  :block/updated-at 1667894745737}
  {:block/name "stackoverflow.com",
   :block/created-at 1665484163257,
   :block/updated-at 1665484163257}
@@ -3838,9 +3081,6 @@
  {:block/name "steppenwolf (highlights)",
   :block/created-at 1667212709304,
   :block/updated-at 1667212709890}
- {:block/name "steppenwolf-debian-laptop",
-  :block/created-at 1667894804971,
-  :block/updated-at 1667894804971}
  {:block/name "steve mcconnell",
   :block/created-at 1665484179143,
   :block/updated-at 1665484179143}
@@ -3894,10 +3134,6 @@
   "terminology – pycharm basics – jetbrains academy (highlights)",
   :block/created-at 1667212918515,
   :block/updated-at 1667212919213}
- {:block/name
-  "terminology – pycharm basics – jetbrains academy-debian-laptop",
-  :block/created-at 1667894745942,
-  :block/updated-at 1667894745942}
  {:block/name "terraform",
   :block/created-at 1667471585571,
   :block/updated-at 1667471585571}
@@ -3908,13 +3144,6 @@
   "terraform allow all internal traffic inside aws security group",
   :block/created-at 1667471526547,
   :block/updated-at 1667471526547}
- {:block/name
-  "terraform allow all internal traffic inside aws security group-debian-laptop",
-  :block/created-at 1667894746004,
-  :block/updated-at 1667894746004}
- {:block/name "terraform-debian-laptop",
-  :block/created-at 1667894805644,
-  :block/updated-at 1667894805644}
  {:block/name "terraform.io",
   :block/created-at 1665484235099,
   :block/updated-at 1665484235099}
@@ -3931,18 +3160,12 @@
  {:block/name "test-driven development with python (highlights)",
   :block/created-at 1667212993461,
   :block/updated-at 1667212994083}
- {:block/name "test-driven development with python-debian-laptop",
-  :block/created-at 1667894806104,
-  :block/updated-at 1667894806104}
  {:block/name "test-driven python development",
   :block/created-at 1667471586033,
   :block/updated-at 1667471586033}
  {:block/name "test-driven python development (highlights)",
   :block/created-at 1667212907315,
   :block/updated-at 1667212907910}
- {:block/name "test-driven python development-debian-laptop",
-  :block/created-at 1667894806635,
-  :block/updated-at 1667894806635}
  {:block/name "testing",
   :block/created-at 1665484241360,
   :block/updated-at 1665484241360}
@@ -3955,9 +3178,6 @@
  {:block/name "the agile testing collection (highlights)",
   :block/created-at 1667212746354,
   :block/updated-at 1667212746969}
- {:block/name "the agile testing collection-debian-laptop",
-  :block/created-at 1667894807317,
-  :block/updated-at 1667894807317}
  {:block/name "the bits and bytes of computer networking",
   :block/created-at 1665484159191,
   :block/updated-at 1665484159191}
@@ -3970,18 +3190,12 @@
  {:block/name "the book of longings (highlights)",
   :block/created-at 1667213020193,
   :block/updated-at 1667213020788}
- {:block/name "the book of longings-debian-laptop",
-  :block/created-at 1667894807790,
-  :block/updated-at 1667894807790}
  {:block/name "the cucumber book",
   :block/created-at 1667471586898,
   :block/updated-at 1667471586898}
  {:block/name "the cucumber book (highlights)",
   :block/created-at 1667212995757,
   :block/updated-at 1667212996424}
- {:block/name "the cucumber book-debian-laptop",
-  :block/created-at 1667894808194,
-  :block/updated-at 1667894808194}
  {:block/name "the data tier",
   :block/created-at 1667471526808,
   :block/updated-at 1667471526808}
@@ -3991,39 +3205,24 @@
  {:block/name "the data tier-2",
   :block/created-at 1667471526730,
   :block/updated-at 1667471526730}
- {:block/name "the data tier-2-debian-laptop",
-  :block/created-at 1667894746157,
-  :block/updated-at 1667894746157}
- {:block/name "the data tier-debian-laptop",
-  :block/created-at 1667894746214,
-  :block/updated-at 1667894746214}
  {:block/name "the devops career handbook",
   :block/created-at 1667471587132,
   :block/updated-at 1667471587132}
  {:block/name "the devops career handbook (highlights)",
   :block/created-at 1667213190236,
   :block/updated-at 1667213190833}
- {:block/name "the devops career handbook-debian-laptop",
-  :block/created-at 1667894808588,
-  :block/updated-at 1667894808588}
  {:block/name "the devops engineer’s career guide",
   :block/created-at 1667471587192,
   :block/updated-at 1667471587192}
  {:block/name "the devops engineer’s career guide (highlights)",
   :block/created-at 1667212812142,
   :block/updated-at 1667212812751}
- {:block/name "the devops engineer’s career guide-debian-laptop",
-  :block/created-at 1667894808909,
-  :block/updated-at 1667894808909}
  {:block/name "the docker book",
   :block/created-at 1667471587644,
   :block/updated-at 1667471587644}
  {:block/name "the docker book (highlights)",
   :block/created-at 1667213133160,
   :block/updated-at 1667213133800}
- {:block/name "the docker book-debian-laptop",
-  :block/created-at 1667894809704,
-  :block/updated-at 1667894809704}
  {:block/name "the feynman lectures on physics",
   :block/created-at 1667471587983,
   :block/updated-at 1667471587983}
@@ -4039,49 +3238,30 @@
  {:block/name "the feynman lectures on physics, vol/ iii",
   :block/created-at 1667471587899,
   :block/updated-at 1667471587899}
- {:block/name
-  "the feynman lectures on physics, vol/ iii-debian-laptop",
-  :block/created-at 1667894810160,
-  :block/updated-at 1667894810160}
- {:block/name "the feynman lectures on physics-debian-laptop",
-  :block/created-at 1667894810537,
-  :block/updated-at 1667894810537}
  {:block/name "the history of the world",
   :block/created-at 1667471588163,
   :block/updated-at 1667471588163}
  {:block/name "the history of the world (highlights)",
   :block/created-at 1667212935886,
   :block/updated-at 1667212936493}
- {:block/name "the history of the world-debian-laptop",
-  :block/created-at 1667894810869,
-  :block/updated-at 1667894810869}
  {:block/name "the midnight library",
   :block/created-at 1667471588390,
   :block/updated-at 1667471588390}
  {:block/name "the midnight library (highlights)",
   :block/created-at 1667212949160,
   :block/updated-at 1667212949939}
- {:block/name "the midnight library-debian-laptop",
-  :block/created-at 1667894811338,
-  :block/updated-at 1667894811338}
  {:block/name "the name of the wind",
   :block/created-at 1667471588761,
   :block/updated-at 1667471588761}
  {:block/name "the name of the wind (highlights)",
   :block/created-at 1667212885147,
   :block/updated-at 1667212885736}
- {:block/name "the name of the wind-debian-laptop",
-  :block/created-at 1667894811910,
-  :block/updated-at 1667894811910}
  {:block/name "the practical test pyramid",
   :block/created-at 1667471526999,
   :block/updated-at 1667471526999}
  {:block/name "the practical test pyramid (highlights)",
   :block/created-at 1667212991275,
   :block/updated-at 1667212991882}
- {:block/name "the practical test pyramid-debian-laptop",
-  :block/created-at 1667894746390,
-  :block/updated-at 1667894746390}
  {:block/name "the presentation tier",
   :block/created-at 1667471527070,
   :block/updated-at 1667471527070}
@@ -4091,12 +3271,6 @@
  {:block/name "the presentation tier-2",
   :block/created-at 1667471527683,
   :block/updated-at 1667471527683}
- {:block/name "the presentation tier-2-debian-laptop",
-  :block/created-at 1667894746496,
-  :block/updated-at 1667894746496}
- {:block/name "the presentation tier-debian-laptop",
-  :block/created-at 1667894746741,
-  :block/updated-at 1667894746741}
  {:block/name "the software test engineer's handbook, 2nd edition",
   :block/created-at 1667471588970,
   :block/updated-at 1667471588970}
@@ -4104,19 +3278,12 @@
   "the software test engineer's handbook, 2nd edition (highlights)",
   :block/created-at 1667212983824,
   :block/updated-at 1667212984447}
- {:block/name
-  "the software test engineer's handbook, 2nd edition-debian-laptop",
-  :block/created-at 1667894812807,
-  :block/updated-at 1667894812807}
  {:block/name "the tempest",
   :block/created-at 1667471589028,
   :block/updated-at 1667471589028}
  {:block/name "the tempest (highlights)",
   :block/created-at 1667212757826,
   :block/updated-at 1667212758469}
- {:block/name "the tempest-debian-laptop",
-  :block/created-at 1667894813088,
-  :block/updated-at 1667894813088}
  {:block/name "theagileadmin.com",
   :block/created-at 1660807790591,
   :block/updated-at 1660807790591}
@@ -4156,18 +3323,12 @@
  {:block/name "tiny python projects (highlights)",
   :block/created-at 1667212910555,
   :block/updated-at 1667212911191}
- {:block/name "tiny python projects-debian-laptop",
-  :block/created-at 1667894813203,
-  :block/updated-at 1667894813203}
  {:block/name "todas las notas - evernote",
   :block/created-at 1667471527230,
   :block/updated-at 1667471527230}
  {:block/name "todas las notas - evernote (highlights)",
   :block/created-at 1667212867166,
   :block/updated-at 1667212867783}
- {:block/name "todas las notas - evernote-debian-laptop",
-  :block/created-at 1667894746796,
-  :block/updated-at 1667894746796}
  {:block/name "todo",
   :block/created-at 1658772277799,
   :block/updated-at 1658772277799}
@@ -4177,9 +3338,6 @@
  {:block/name "tu mejor año (highlights)",
   :block/created-at 1667212942377,
   :block/updated-at 1667212942977}
- {:block/name "tu mejor año-debian-laptop",
-  :block/created-at 1667894813794,
-  :block/updated-at 1667894813794}
  {:block/name "tuesday, 01-11-2022",
   :block/created-at 1667394913077,
   :block/updated-at 1667394913077}
@@ -4222,36 +3380,24 @@
  {:block/name "un lugar llamado libertad (highlights)",
   :block/created-at 1667212940256,
   :block/updated-at 1667212940853}
- {:block/name "un lugar llamado libertad-debian-laptop",
-  :block/created-at 1667894814253,
-  :block/updated-at 1667894814253}
  {:block/name "un nuevo mundo, ahora",
   :block/created-at 1667471589899,
   :block/updated-at 1667471589899}
  {:block/name "un nuevo mundo, ahora (highlights)",
   :block/created-at 1667213026063,
   :block/updated-at 1667213026639}
- {:block/name "un nuevo mundo, ahora-debian-laptop",
-  :block/created-at 1667894814645,
-  :block/updated-at 1667894814645}
  {:block/name "una altra vida, encara",
   :block/created-at 1667471590112,
   :block/updated-at 1667471590112}
  {:block/name "una altra vida, encara (highlights)",
   :block/created-at 1667213185335,
   :block/updated-at 1667213186009}
- {:block/name "una altra vida, encara-debian-laptop",
-  :block/created-at 1667894814796,
-  :block/updated-at 1667894814796}
  {:block/name "unable to find docker image locally",
   :block/created-at 1667471527306,
   :block/updated-at 1667471527306}
  {:block/name "unable to find docker image locally (highlights)",
   :block/created-at 1667213125995,
   :block/updated-at 1667213126577}
- {:block/name "unable to find docker image locally-debian-laptop",
-  :block/created-at 1667894746963,
-  :block/updated-at 1667894746963}
  {:block/name "uni",
   :block/created-at 1665484165108,
   :block/updated-at 1665484165108}
@@ -4567,24 +3713,24 @@
   :block/updated-at 1667405336258}
  {:block/name
   "unir/curso azure/módulo-1: conceptos básicos de la nube-debian-laptop",
-  :block/created-at 1667894736374,
-  :block/updated-at 1667894736374}
+  :block/created-at 1667897973240,
+  :block/updated-at 1667897973240}
  {:block/name
   "unir/curso azure/módulo-1: conceptos básicos de la nube-debian-laptop-2",
-  :block/created-at 1667894736095,
-  :block/updated-at 1667894736095}
+  :block/created-at 1667897972862,
+  :block/updated-at 1667897972862}
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure",
   :block/created-at 1667810757203,
   :block/updated-at 1667895314693}
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure-debian-laptop",
-  :block/created-at 1667894737229,
-  :block/updated-at 1667894737229}
+  :block/created-at 1667897974744,
+  :block/updated-at 1667897974744}
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure-debian-laptop-2",
-  :block/created-at 1667894737140,
-  :block/updated-at 1667894737140}
+  :block/created-at 1667897974429,
+  :block/updated-at 1667897974429}
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure/tema 1: com",
   :block/created-at 1667811174070,
@@ -4595,8 +3741,8 @@
   :block/updated-at 1667815355261}
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure/tema 1: componentes arquitectónicos principales de azure-debian-laptop",
-  :block/created-at 1667894736645,
-  :block/updated-at 1667894736645}
+  :block/created-at 1667897973672,
+  :block/updated-at 1667897973672}
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure/tema 2: productos principales de carga de trabajo de azure",
   :block/created-at 1667818822230,
@@ -4624,19 +3770,12 @@
   "unittest — unit testing framework — python 3/9/2rc1 documentation",
   :block/created-at 1667471527492,
   :block/updated-at 1667471527492}
- {:block/name
-  "unittest — unit testing framework — python 3/9/2rc1 documentation-debian-laptop",
-  :block/created-at 1667894747043,
-  :block/updated-at 1667894747043}
  {:block/name "unix ",
   :block/created-at 1660808022391,
   :block/updated-at 1660808022391}
  {:block/name "unix  linux grep word count command",
   :block/created-at 1667471527763,
   :block/updated-at 1667471527763}
- {:block/name "unix  linux grep word count command-debian-laptop",
-  :block/created-at 1667894747267,
-  :block/updated-at 1667894747267}
  {:block/name "unix / linux: grep word count command (highlights)",
   :block/created-at 1667213138169,
   :block/updated-at 1667213138843}
@@ -4670,9 +3809,6 @@
  {:block/name "vagrant by hashicorp (highlights)",
   :block/created-at 1667213186385,
   :block/updated-at 1667213187012}
- {:block/name "vagrant by hashicorp-debian-laptop",
-  :block/created-at 1667894747352,
-  :block/updated-at 1667894747352}
  {:block/name "vagrantup.com",
   :block/created-at 1660808071018,
   :block/updated-at 1660808071018}
@@ -4691,9 +3827,6 @@
  {:block/name "way to create multiline comments in bash",
   :block/created-at 1667471528019,
   :block/updated-at 1667471528019}
- {:block/name "way to create multiline comments in bash-debian-laptop",
-  :block/created-at 1667894747648,
-  :block/updated-at 1667894747648}
  {:block/name "way to create multiline comments in bash? (highlights)",
   :block/created-at 1667213066462,
   :block/updated-at 1667213067045}
@@ -4703,9 +3836,6 @@
  {:block/name "we were liars (highlights)",
   :block/created-at 1667213025255,
   :block/updated-at 1667213025823}
- {:block/name "we were liars-debian-laptop",
-  :block/created-at 1667894815080,
-  :block/updated-at 1667894815080}
  {:block/name "wednesday, 03-08-2022",
   :block/created-at 1660315974680,
   :block/updated-at 1660315974680}
@@ -4742,13 +3872,6 @@
  {:block/name "wenceslao sanchez's highlights and notes-2",
   :block/created-at 1667471528199,
   :block/updated-at 1667471528199}
- {:block/name
-  "wenceslao sanchez's highlights and notes-2-debian-laptop",
-  :block/created-at 1667894747896,
-  :block/updated-at 1667894747896}
- {:block/name "wenceslao sanchez's highlights and notes-debian-laptop",
-  :block/created-at 1667894747988,
-  :block/updated-at 1667894747988}
  {:block/name "wenceslaosanchez1 highlighted a",
   :block/created-at 1667471528465,
   :block/updated-at 1667471528465}
@@ -4763,10 +3886,6 @@
   "wenceslaosanchez1 highlighted a/// from hands-on devops with vagrant",
   :block/created-at 1667471528463,
   :block/updated-at 1667471528463}
- {:block/name
-  "wenceslaosanchez1 highlighted a/// from hands-on devops with vagrant-debian-laptop",
-  :block/created-at 1667894748245,
-  :block/updated-at 1667894748245}
  {:block/name "what does %w(array) mean? (highlights)",
   :block/created-at 1667213055061,
   :block/updated-at 1667213055672}
@@ -4782,15 +3901,9 @@
  {:block/name "what is devnull 2&1",
   :block/created-at 1667471528696,
   :block/updated-at 1667471528696}
- {:block/name "what is devnull 2&1-debian-laptop",
-  :block/created-at 1667894748416,
-  :block/updated-at 1667894748416}
  {:block/name "what is devops",
   :block/created-at 1667471528776,
   :block/updated-at 1667471528776}
- {:block/name "what is devops-debian-laptop",
-  :block/created-at 1667894748620,
-  :block/updated-at 1667894748620}
  {:block/name "what is devops? (highlights)",
   :block/created-at 1667212804076,
   :block/updated-at 1667212804702}
@@ -4798,10 +3911,6 @@
   "what is sdet full form, meaning, role and responsibilities",
   :block/created-at 1667471528952,
   :block/updated-at 1667471528952}
- {:block/name
-  "what is sdet full form, meaning, role and responsibilities-debian-laptop",
-  :block/created-at 1667894748690,
-  :block/updated-at 1667894748690}
  {:block/name
   "what is sdet? full form, meaning, role and responsibilities (highlights)",
   :block/created-at 1667212863731,
@@ -4817,19 +3926,12 @@
   "what's a command line way to find large filesdirectories to remove and free up space",
   :block/created-at 1667471529018,
   :block/updated-at 1667471529018}
- {:block/name
-  "what's a command line way to find large filesdirectories to remove and free up space-debian-laptop",
-  :block/created-at 1667894748841,
-  :block/updated-at 1667894748841}
  {:block/name "why the f*ck can't i change? (highlights)",
   :block/created-at 1667213027125,
   :block/updated-at 1667213027722}
  {:block/name "why the fck can't i change",
   :block/created-at 1667471590341,
   :block/updated-at 1667471590341}
- {:block/name "why the fck can't i change-debian-laptop",
-  :block/created-at 1667894815181,
-  :block/updated-at 1667894815181}
  {:block/name "william faulkner",
   :block/created-at 1665484201530,
   :block/updated-at 1665484201530}
@@ -4851,9 +3953,6 @@
  {:block/name "yaml indentation for array in hash (highlights)",
   :block/created-at 1667213104912,
   :block/updated-at 1667213105504}
- {:block/name "yaml indentation for array in hash-debian-laptop",
-  :block/created-at 1667894749047,
-  :block/updated-at 1667894749047}
  {:block/name "yevgeniy brikman",
   :block/created-at 1665484240903,
   :block/updated-at 1665484240903}
@@ -4866,9 +3965,6 @@
  {:block/name "yyyy-mm-dd format date in shell script (highlights)",
   :block/created-at 1667213105677,
   :block/updated-at 1667213106279}
- {:block/name "yyyy-mm-dd format date in shell script-debian-laptop",
-  :block/created-at 1667894749273,
-  :block/updated-at 1667894749273}
  {:block/name "{c.value}<",
   :block/created-at 1667209414228,
   :block/updated-at 1667209414228}
@@ -4905,19 +4001,12 @@
  {:block/name "¿qué es la ilustración",
   :block/created-at 1667471590734,
   :block/updated-at 1667471590734}
- {:block/name "¿qué es la ilustración-debian-laptop",
-  :block/created-at 1667894815950,
-  :block/updated-at 1667894815950}
  {:block/name "¿qué es la ilustración? (highlights)",
   :block/created-at 1667212889420,
   :block/updated-at 1667212890028}
  {:block/name "¿sabes realmente qué es devops  blog xeridia",
   :block/created-at 1667471529492,
   :block/updated-at 1667471529492}
- {:block/name
-  "¿sabes realmente qué es devops  blog xeridia-debian-laptop",
-  :block/created-at 1667894749466,
-  :block/updated-at 1667894749466}
  {:block/name
   "¿sabes realmente qué es devops? | blog xeridia (highlights)",
   :block/created-at 1667213009067, 

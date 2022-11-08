@@ -2017,6 +2017,10 @@
   "hls__azure_modulo-2_servicios-principales-de-azure_1667813268169_0",
   :block/created-at 1667813947154,
   :block/updated-at 1667814994156}
+ {:block/name
+  "hls__azure_modulo-2_servicios-principales-de-azure_1667895294380_0",
+  :block/created-at 1667895325475,
+  :block/updated-at 1667895325475}
  {:block/name "hls__contenedores_tema-1_1662122655208_0",
   :block/created-at 1663348729201,
   :block/updated-at 1663348729201}
@@ -4572,7 +4576,7 @@
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure",
   :block/created-at 1667810757203,
-  :block/updated-at 1667895294994}
+  :block/updated-at 1667895314693}
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure-debian-laptop",
   :block/created-at 1667894737229,

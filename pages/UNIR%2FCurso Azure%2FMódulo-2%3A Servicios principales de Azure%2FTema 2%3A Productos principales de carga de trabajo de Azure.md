@@ -3,7 +3,7 @@ tags:: UNIR, Azure
 
 -
 - ## Tema 2: Servicios Principales de Azure
-	- ### Servicios de cómputo
+	- ### Servicios de cómputo #flashcard
 		- ![image.png](../assets/image_1667819384961_0.png)
 		- #### Azure Virtual Machines
 			- Emulaciones por hardware de equipos físicos
@@ -24,13 +24,13 @@ tags:: UNIR, Azure
 			- Nos permite virtualizar aplicaciones y utilizar ordenadores remotos en la nube
 			- De tipo PaaS
 		-
-	- ### Servicios de red
+	- ### Servicios de red #flashcard
 		- ![image.png](../assets/image_1667824113488_0.png)
 		-
-	- ### Servicios de almacenamiento
+	- ### Servicios de almacenamiento #flashcard
 		- ![image.png](../assets/image_1667824254083_0.png)
 		-
-	- ### Servicios de bases de datos
+	- ### Servicios de bases de datos #flashcard
 		- ![image.png](../assets/image_1667824503063_0.png)
 		- Es PaaS porque no tenemos acceso a la infraestructura subyacente.
 		-

@@ -1625,7 +1625,7 @@
   :block/updated-at 1665484160857}
  {:block/name "monday, 07-11-2022",
   :block/created-at 1667810295368,
-  :block/updated-at 1667894838548}
+  :block/updated-at 1667901367483}
  {:block/name "monday, 08-08-2022",
   :block/created-at 1660315976840,
   :block/updated-at 1660315976840}
@@ -2887,7 +2887,7 @@
  {:block/name
   "unir/curso azure/módulo-2: servicios principales de azure/tema 2: productos principales de carga de trabajo de azure",
   :block/created-at 1667818822230,
-  :block/updated-at 1667824556972}
+  :block/updated-at 1667901356767}
  {:block/name "unir::curso azure::módulo-1",
   :block/created-at 1667234893883,
   :block/updated-at 1667234893883}

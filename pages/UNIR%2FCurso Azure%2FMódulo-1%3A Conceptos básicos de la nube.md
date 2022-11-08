@@ -75,6 +75,7 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 	-
 - ## Tema 3: Servicios en la nube
 	- ### Modelos de servicio en la nube #flashcard
+	  id:: 636a1ba0-1056-4074-ba8f-8d3efb67bab2
 		- ### IaaS
 			- ![image.png](../assets/image_1667479398587_0.png)
 			- Se centra en ofrecer a los usuarios recursos de infraestructura genéricos, como pueden ser:
@@ -92,12 +93,14 @@ deck:: [[UNIR::Curso Azure::Módulo-1]]
 			- Se trata de soluciones software que están totalmente desarrolladas por el proveedor y basadas en la nube.
 			- El usuario puede configurarlas pero nunca podrá acceder a su implementación ni tampoco a su infraestructura subyacente.
 	- ### Comparativa de tipos de servicio #flashcard
+	  id:: 636a1ba0-918a-4771-9791-bc8b4604f7fd
 		- ![image.png](../assets/image_1667478416374_0.png)
 		- ![image.png](../assets/image_1667479481558_0.png)
 		- ![image.png](../assets/image_1667479510310_0.png)
 		-
 	-
 	- ### Serverless Computing #flashcard
+	  id:: 636a1ba0-6130-41dd-935e-3a462b6b8c22
 		- Se refiere a que los servicios que nos da el proveedor no tienen para nosotros ningún tipo de decisión acerca de la infraestructura subyacente.
 		- Todos los servicios que se engloban dentro de esta categoría son PaaS
 		-

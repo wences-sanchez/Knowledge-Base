@@ -5,6 +5,7 @@
 -
 -
 - ### Lesson 2: Getting Familiar with Bash #flashcard
+  id:: 636a1ae0-f35f-44c0-94de-74c316b4dba6
 	- STDIN, STDOUT and STDERR are file descriptors. They are flexible and dynamically allocated.
 	-
 	- A way of getting info about commands is: `help|info|man <command>`
@@ -35,11 +36,13 @@
 - #### Flashcards
   collapsed:: true
 	- Explain what is alias #flashcard
+	  id:: 636a1ae0-e185-428d-bc85-82771a2c4d18
 		- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
 			- With `alias` you can print all the aliased commands
 			- With `alias brief='my command'` you can write your own alias
 			- With `unalias <alias>` you can delete a created alias
 	- Name the files which contain the default settings of the shell boots #flashcard
+	  id:: 636a1ae0-10e8-4abd-a958-5e4e0886eb63
 		- Bash startup files are used to provide default settings for the operating system enviroment.
 			- These startup files are shell scripts themselves
 				- **/etc/profile** is a generic startup fiel that is started for every login shell
@@ -48,6 +51,7 @@
 					- **~/.bash_profile**
 					- **~/.bashrc**
 	- About exit codes: #flashcard
+	  id:: 636a1ae0-9275-4b29-8807-174cc5fbf35f
 		- If 0, the command was executed successfully
 		- If 1, there was a generic error
 		- The developer of a program can decide to code other exit codes as well
@@ -116,6 +120,7 @@
 - #### Flashcards
   collapsed:: true
 	- Tell me the command in Bash for printing message and be respectful about special characters #flashcard
+	  id:: 636a1ae0-b0ef-4521-996d-12e878280c5a
 		- **echo -e** is for special characters
 		- `$ echo -e "Estoy partido\nen dos"`
 		- **printf** is an alternative, but is more like C-Shell...
@@ -158,14 +163,18 @@
   collapsed:: true
 	- Why do we have to indicate the exact path when calling a script in Linux? #flashcard
 	  collapsed:: true
+	  id:: 636a1ae0-bf86-4f1b-b273-a797f3c449d5
 		- The scripts cannot be executed from a relative path because of security concerns of Linux
 	- How can we check the exit code of the last command in Bash? #flashcard
+	  id:: 636a1ae0-db74-4005-8a92-2fa824816d98
 		- With the token **$?**
 	- What do you have to type in Google to search Bash stuff? #flashcard
 	  collapsed:: true
+	  id:: 636a1ae0-d643-46c8-a2bf-ac7e937bb598
 		- Bash Scripting Guide
 	- How could you make a script to call it wherever? #flashcard
 	  collapsed:: true
+	  id:: 636a1ae0-ab54-4fcf-90d3-559cf1e66ed0
 		- By:
 			- `$ export PATH=$PATH:$( pwd )`
 			- With *:* because that's the path delimiter
@@ -234,18 +243,22 @@
   collapsed:: true
 	- What is an argument? #flashcard
 	  collapsed:: true
+	  id:: 636a1ae0-25b3-46b9-8089-21c9f9987ef2
 		- An **argument** is anything that can be put behind the name of a command or script
 		- **ls -l /etc** has 2 arguments
 	- What's an option? #flashcard
+	  id:: 636a1ae0-4959-496f-931d-1a5d8d180249
 		- An **option** is an argument that changes the behavior of the command or script, and its functionality is programmed into the command
 		- In **ls -l /etc**, **-l** is used as an option
 	- What is a posicional parameter? #flashcard
 	  collapsed:: true
+	  id:: 636a1ae0-4f8e-41a3-803d-9a0136d4d4b2
 		- A **posicional parameter** is another word for an argument.
 		- It's the same thing as argument. But argument is a preferred name.
 		- A **variable** is a key with a name that can refer to a specific value
 	- How are quotes used in Bash? #flashcard
 	  collapsed:: true
+	  id:: 636a1ae0-6530-44c7-8597-eec8d641bfcb
 		- **Double quotes** (or **weak** quotes)are used to avoid interpretation of **spaces**
 			- echo "my value"
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
@@ -256,6 +269,7 @@
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*
 	- About the variables in Bash #flashcard
+	  id:: 636a1ae0-869d-4881-8c40-134d933adad8
 		- You can check your variables with **grep** in **$ set**
 		- You can refer to script arguments with a number:
 			- $1, $2, ... $9, ${10}, ${11}...
@@ -301,6 +315,7 @@
 - #### Flashcards
 - How do you deal with a default value for one variable in Bash? #flashcard
   collapsed:: true
+  id:: 636a1ae0-0a55-4325-ae4b-02bbffcb5732
 	- If we want to use the default, NOT set it,
 		- With ${myvar**:-**default_value}
 	- If we want to set that to the default value,
@@ -330,10 +345,12 @@
 - #### Flashcards
 	- How could you do to search about special meanings of every test character in Bash? #flashcard #dev-notes
 	  collapsed:: true
+	  id:: 636a1ae0-bfee-401b-8655-658efcee1bf8
 		- With $ help test
 	-
 	- How can you check the condition of one test in one token depending its output? #flashcard #dev-notes
 	  collapsed:: true
+	  id:: 636a1ae0-b8bb-4c24-b875-c094ec8261ef
 		- With the below:
 		- `[ -d /home/wences ] && echo directory exists`
 		- `[ -d /home/noone ] || echo directory does not exist`
@@ -356,6 +373,7 @@
 	- With `read VAR`, you are already saving it in $VAR #spaced #dev-notes
 	- Syntax of case in Bash: #flashcard
 	  collapsed:: true
+	  id:: 636a1ae0-ec3b-4959-b734-c13997debf34
 		- You can see it below:
 		- ```
 		  case $VAR in
@@ -390,6 +408,7 @@
 - ---
 - #### Flashcards
 	- What is the syntax of **getopts**? #flashcard
+	  id:: 636a1ae0-b052-4286-9a57-c4dce1436d51
 		- The below one:
 		- ```
 		  while getopts "hs:" arg; do
@@ -408,11 +427,14 @@
 		  done
 		  ```
 	- How can you restrict a variable to a function? #flashcard
+	  id:: 636a1ae0-f231-43e6-b70e-a8dda457eabb
 		- With **local** var=value
 	- How could you create a menu in Bash? #flashcard
 	  collapsed:: true
+	  id:: 636a1ae0-2c8d-49d2-8eee-f7b3a33f7b9e
 		- ![image.png](../assets/image_1658921094274_0.png)
 	- What is the use of **trap**? #flashcard
+	  id:: 636a1ae0-67c4-400b-9cd0-2039dd4bad3a
 		- You can catch OS signals with it as CTL^C and prevent the scrpt to stop
 		- You can assign actions that happen when those signals are executed or pressed
 - ---
@@ -434,13 +456,16 @@
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard
+	  id:: 636a1ae0-0581-4130-b206-9de871b36187
 		- `myArray=(content with spaces)` # Without '$'
 		- In order to print it, simply put:
 			- `"${myArray[@]}"`
 	- How can you build a range of numbers in the shell? #flashcard
+	  id:: 636a1ae0-362a-4540-bd0d-832481592bd2
 		- With somethin like this`{1..10}`
 		- Remember the curly brackets!!
 	- How do you iterate over an array in Bash? #flashcard
+	  id:: 636a1ae0-3d21-49a2-b027-970dd3c56ee5
 		- With **"${myArray[@}]}"**
 -
 - ---

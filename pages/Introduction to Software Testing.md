@@ -16,6 +16,7 @@
 		- Even with **TDD**, there is *re-test* when you modify your code.
 		- The function f(x) of a program is not continuous, so we can't derive its output (unlike other engineering fields) to test it. #Curiosities
 		- *Optimistic* VS *Pessimistic* **testing** #flashcard
+		  id:: 636a1b48-4696-4512-940f-5be916a23883
 			- **Optimistic** means that the system gives you a lot of outputs. And you'll have to be careful because of the false positives.
 				- > They say your program is right, when in fact it may be wrong in some cases.
 			- **Pessimistic** means that the system gives you a lot of false negatives that you (the human) have to discard.
@@ -25,6 +26,7 @@
 		- #### Questions
 			- ##### Pregunta 3
 			- Is testing a (primarily) optimistic or pessimistic verification technique?
+			  id:: 636a1b48-f584-42ef-9438-ee3c4fc982e0
 			  
 			  [ ] Optimistic
 			  [ ] Pessimistic
@@ -39,6 +41,7 @@
 		- We have to automate testing output upon ***the oracle***.
 		-
 		- Anatomy of the parts of a Test: #flashcard
+		  id:: 636a1b48-ac1f-4b6b-83f2-59e61f52911f
 			- 1. **Setup**: How you put the software under test into the state under which the test input would make sense.
 			  2. **Invocation**: Merely the execution of a single test case.
 			  3. **Assessment**: The act of observing the behavior of that software under test.
@@ -67,6 +70,7 @@
 				- **Error removal:** minimizing, by *verification*, the presence of latent errors. (This is where **testing** stands).
 				- **Error forecasting:** estimating, by *evaluation*, the presence, the creation, and the consequences of errors.
 		- Explain the graph: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472} #flashcard
+		  id:: 636a1b48-ffa4-4a16-b7d8-849415df823d
 			-
 			- **Dependability**:
 				- **Impairments** (*things we're trying to avoid*):
@@ -94,6 +98,7 @@
 			-
 			- ![image.png](../assets/image_1659428454929_0.png)
 		- #### Testing Principles: Where #flashcard
+		  id:: 636a1b48-4fdb-4bde-8937-ce38f4b754fd
 			- Programmers tend to make mistakes in some frequent places or ways:
 				- Floating points (inherently imprecise in comparisons)
 				- Pointers (memory difficult issues)
@@ -111,6 +116,7 @@
 		- Quizzes
 		  collapsed:: true
 		- #flashcard Pregunta 3
+		  id:: 636a1b48-8742-4044-8aa6-d30ce1293061
 		  
 		  *Is availability is the same as reliability?*
 		  
@@ -120,6 +126,7 @@
 			  
 			  >Correct: availability says the system is running, reliability says that it is doing the right thing.
 			- Pregunta 4
+			  id:: 636a1b48-243f-4223-a1b6-cbca49140ce9
 			  *A correct system (with respect to its requirements) will be safe.*
 			  [ ] True
 			  [ ] False #flashcard
@@ -127,6 +134,7 @@
 				  
 				  > Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
 			- Pregunta 5
+			  id:: 636a1b48-7b87-45d9-9631-9a1ae10314de
 			  *A correct system will be reliable.*
 			  [ ] True
 			  [ ] False #flashcard
@@ -143,6 +151,7 @@
 		- Code Coverage
 		- #### Mutation Testing
 			- When do we say that a mutant is *killed* in Mutation testing? #flashcard
+			  id:: 636a1b48-4458-4f7f-abc7-313a1f45f995
 				- A mutant is *killed* when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program.
 				- If all our tests pass after creating mutants in our AUT, then we have a problem.
 					- The next step should be write more test cases (in order to *kill* them) if the tests pass.
@@ -152,6 +161,7 @@
 		- #### Quizzes
 		  collapsed:: true
 			- #flashcard Pregunta 8: Adaptive cruise control software that continues to run in the presence of multiple hardware and service failures but regularly misjudges the distance between cars by a substantial amount is an example of a ______ system.
+			  id:: 636a1b48-f6c4-4017-8866-a551f2c91de9
 			  [ ] certainly reliable
 			  [ ] certainly correct
 			  [ ] certainly safe
@@ -162,6 +172,7 @@
 - ## Week 3
 	- ### Lesson 1: Fundamental Testing Processes
 		- #### What is a test plan? #flashcard
+		  id:: 636a1b48-cbdb-4612-8633-0b778ad0632d
 			- ![image.png](../assets/image_1659437816019_0.png)
 			- This plan is created by testers.
 			- The DVT *(Design Verification Test)* checks if we build the thing right.
@@ -169,6 +180,7 @@
 			- There is also the CAT *(Customer Acceptance Test)*
 			-
 		- Mention the components of a Test Plan: #flashcard
+		  id:: 636a1b48-e1c2-43c1-bd83-0b07669a42df
 			- ![image.png](../assets/image_1659438258912_0.png)
 			- **Scope:** means you know your domain.
 				- There's no way to properly definen your tests without knowing the bounds and the domain within your project works.
@@ -219,6 +231,7 @@
 			- **Testing** is our primary means of reducing **risk**.
 		- #### Quiz
 			- Question 2: #flashcard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
+			  id:: 636a1b48-71a6-4e44-b2ae-da5ce8253569
 			  [] System Validation Test
 			  [] Customer Acceptance Test
 			  [] Unit Test
@@ -231,6 +244,7 @@
 	- ## Lesson 2: Software Defect Reports
 		- #### Software Defect Reports
 			- What is the defect (bug) lifecycle? #flashcard
+			  id:: 636a1b48-d1d0-4a7f-800a-a002d01a4207
 				- 1. **Analyze**: Analyze bug to ensure proper reporting
 				  2. **Report**: Make report
 				  3. **Track**: Track status of the fix
@@ -304,6 +318,7 @@
 			-
 		- #### Quiz
 			- #flashcard **Pregunta 1:** When providing test inputs for test doubles, we want to use ____ and ____.
+			  id:: 636a1b48-bf11-407b-964f-539bcc6b1bef
 			  
 			  [ ] Mock objects; Spy objects
 			  [ ] Dummy objects; Mock objects
@@ -313,6 +328,7 @@
 				- > Correct! These would be dummy objects and test stubs. Mock and spy objects are used for outputs.
 			-
 			- #flashcard **Pregunta 2:** During constructing test doubles, you wish to provide outputs for just a handful of values. What do you use?
+			  id:: 636a1b48-cc57-4b83-b89e-fe931af298b1
 			  
 			  [ ] Dummy Objects
 			  [ ] Test Doubles
@@ -322,6 +338,7 @@
 				- > Test stubs would provide outputs for a few values.
 			-
 			- #flashcard **Pregunta 3:** During testing, you find that the unit tests require the use of a computationally expensive database. What could you use as a test double?
+			  id:: 636a1b48-7f9a-4d1b-8844-3d70ed13b1c3
 			  
 			  [ ] Test Stubs
 			  [ ] Fake Objects
@@ -329,6 +346,7 @@
 				- > Test stubs would only provide outputs for a few values.
 				- > Fake objects would replace expensive with cheap (for instance, an in memory database).
 			- #flashcard **Pregunta 4:** <...> objects allow us to observe interactions of fake objects. <...> objects allow us to observe interactions of real objects.
+			  id:: 636a1b48-5260-4588-afba-1ec02225c62c
 			  
 			  Mock; Dummy
 			  Spy; Mock
@@ -337,6 +355,7 @@
 				- Correcto: *Mock; Spy*
 				- > Mock objects allow observation of the interaction of fake objects whereas spy objects allow us to observe the interactions of real objects.
 			- #flashcard **Pregunta 6:**
+			  id:: 636a1b48-650a-4739-9764-14d6a15c6ae3
 			  In Mockito, it is possible to create an object that is both a stub and a mock.
 			  
 			  [ ] True

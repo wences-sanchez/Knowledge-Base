@@ -89,3 +89,54 @@ file-path:: ../assets/Azure_Modulo-2_Servicios-principales-de-Azure_166789529438
 	-  Plataforma como servicio (PaaS) totalmente administrada y permanentemente disponible.
 	-  Conserva todas las capacidades de una PaaS (parches automáticos y actualizaciones de versiones, copias de seguridad automáticas y alta disponibilidad).
 	-  El cliente puede intercambiar sus licencias existentes por tarifas con descuento en SQL Managed Instance mediante la ventaja híbrida de Azure.
+-
+- # Tema 1: Componentes arquitectónicos principales de Azure
+	- ## 1.3 Regiones
+		- El término región corresponde con la zona geográfica en la que Azure tiene presencia física (mediante uno o varios centros de datos conectados por redes de baja latencia) y por tanto puede ofrecer servicios con una baja latencia a los clientes en dicha zona.
+		  ls-type:: annotation
+		  hl-page:: 3
+		  hl-color:: yellow
+		  id:: 636a1dba-0b79-4fcd-b7f5-1140171ab65e
+- [:span]
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 636a1e34-acea-4ecf-b7d8-ad84cf8756f4
+  hl-type:: area
+  hl-stamp:: 1667898931758
+-
+- Las características principales de una región son: Están compuestas de uno o más centros de datos próximos. Proporcionan flexibilidad y capacidad de adaptación para reducir la latencia de los clientes. Permiten conservar la residencia de los datos de forma que se aseguren los requerimientos de cumplimiento normativo.
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 636a1e6f-c7e2-4ea6-aec7-972c2b8c0ad9
+- Existen una serie de regiones especiales que Azure denomina geografías, que dan servicio a una serie de mercados especiales y preservan la residencia de los datos y los límites de cumplimiento. Ello permite que clientes con necesidades específicas de residencia y cumplimiento de datos mantengan sus datos y aplicaciones muy cerca.
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 636a1e7f-4ed3-4af1-b85d-6f6e7a9bf457
+- Azure ofrece a los usuarios diferentes opciones para conseguir una alta disponibilidad y recuperación ante desastres. Las opciones posibles son: Zonas de disponibilidad (Availability Zones) que brindan protección contra fallos completos del centro de datos. Conjuntos de disponibilidad (Availability Sets) para poder mantener las aplicaciones disponibles durante ventanas de mantenimiento o ante errores de hardware. Pares de regiones que permiten una protección regional sin salir de los límites de residencia de datos.
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 636a1e8b-b8c1-466c-bac8-2615cae6f494
+- Las zonas de disponibilidad (Availability Zones) actúan como límites de aislamiento de la infraestructura de nuestras aplicaciones. Funcionan de modo que, si una zona de disponibilidad se desactiva, las otras siguen funcionando. Se caracterizan por: Proporcionar protección contra el tiempo de inactividad debido a errores del centro de datos. Pertenecer a centros de datos separados físicamente dentro de una misma región. Cada centro de datos está equipado con redes, alimentación y refrigeración independientes. Cuentan con conexiones de red privadas de fibra óptica para alta disponibilidad y replicación de baja latencia.
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: yellow
+  id:: 636a1e9c-6bf0-48b1-a4e9-b3558d6b550e
+- Conjuntos de disponibilidad Los conjuntos de disponibilidad permiten mantener las aplicaciones disponibles durante ventanas de mantenimiento o ante errores de hardware. Se componen de: Dominios de actualización (Update Domains, UD), de modo que las operaciones de mantenimiento programado, actualizaciones por cuestiones de rendimiento o seguridad se secuencian a través de os dominios de actualización. Dominios de error (Fault Domains, FD), que proporcionan separación física de cargas de trabajo distribuidas a través del hardware del centro de datos.
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 636a1ea6-2f61-41c4-8351-ae5ee46ad9d6
+- Pares de regiones Azure agrupa sus regiones en pares con la finalidad de conseguir beneficios relacionados con la recuperación ante desastres. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 2. Temas 8© Universidad Internacional de La Rioja (UNIR) Los pares de regiones se caracterizan por lo siguiente: Entre pares de regiones existe al menos 300 millas (unos 482 Km) de separación. Replicación automática para algunos servicios. Se prioriza la recuperación de una región en caso de interrupción. Las actualizaciones se implementan secuencialmente para minimizar el tiempo de inactividad
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 636a1eb2-bd12-48b8-a27a-543d6f7f773c
+- Los recursos de Azure son componentes que permite crear soluciones informáticas en la nube. Los principales son: Máquinas virtuales (Virtual Machines). Cuentas de almacenamiento (Storage Accounts). Redes virtuales (Virtual Networks). Servicios gestionados de aplicaciones (App Services). Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 2. Temas 9© Universidad Internacional de La Rioja (UNIR) Bases de datos SQL (SQL Database). Funciones (Azure Functions). Figura 4. Iconos de los principales recursos de Azure. Fuente: Microsoft Learn. Grupos de recursos Un grupo de recursos (Resource Group) es un contenedor que permite administrar recursos en una misma unidad. Se utilizan para agrupar recursos que comparten el mismo ciclo de vida y se caracteriza por lo siguiente: Los recursos solo pueden estar presentes en un único grupo. Los recursos pueden pertenecer a diferentes regiones. Los recursos se pueden trasladar a otros grupos de recursos. Las aplicaciones pueden utilizar varios grupos de recursos. Figura 5. Ejemplo de grupo de recursos. Fuente: Microsoft Learn.
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 636a1ec7-e175-4076-a978-7c3512905661

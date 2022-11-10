@@ -31,7 +31,6 @@ tags:: UNIR, Azure
 		- También podemos crear alertas
 	- ### ARM
 		- Son archivos JSON que permiten crear infraestructura de forma automática (IaC).
-		-
 	- ### Azure Service Health
 		- Es donde aparecen los servicios que están up por parte de posibles caídas de servicio.
 	-

@@ -124,6 +124,7 @@ tags:: UNIR, Azure
 			- Todas estas herramientas de administración hacen uso internamente del Azure Resource Manager (ARM) de modo que se pueden entender como interfaces de esteúltimo.
 	- ### 2.4 Azure Advisor
 		- Azure Advisor analiza los recursos implementados en Azure y efectúa recomendaciones al usuario basadas en los procesos recomendados para optimizar dichas implementaciones. Su uso permite mejorar tales como: #flashcard
+		  id:: 636cd28f-e853-46fc-a596-57c6096e2ca9
 			-  Coste.
 			-  Rendimiento.
 			-  Confiabilidad.
@@ -131,6 +132,7 @@ tags:: UNIR, Azure
 			-  Excelencia operativa
 	- ### 2.5 Azure Monitor
 		- **Azure Monitor** permite maximizar la disponibilidad y el rendimiento de aplicaciones y servicios gracias a que recopila, analiza y actúa sobre los datos de telemetría en entornos locales y en la nube. #flashcard
+		  id:: 636cd356-febc-45ec-a075-7bd68c3a71f2
 			- Las principales funcionalidades de Azure Monitor son:
 				-  Application Insights.
 				-  Log Analytics.

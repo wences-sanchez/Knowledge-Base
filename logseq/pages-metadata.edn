@@ -1154,6 +1154,9 @@
   "hls__azure_modulo-3_soluciones-principales-de-azure_1668072076275_0",
   :block/created-at 1668072579550,
   :block/updated-at 1668077387507}
+ {:block/name "hls__azure_modulo-4_seguridad_1668082128848_0",
+  :block/created-at 1668082151718,
+  :block/updated-at 1668082151718}
  {:block/name "hls__contenedores_tema-1_1662122655208_0",
   :block/created-at 1663348729201,
   :block/updated-at 1663348729201}
@@ -2901,7 +2904,7 @@
   :block/updated-at 1668074489107}
  {:block/name "unir/curso azure/módulo-4: seguridad",
   :block/created-at 1668080871969,
-  :block/updated-at 1668080871969}
+  :block/updated-at 1668082129470}
  {:block/name "unir::curso azure::módulo-1",
   :block/created-at 1667234893883,
   :block/updated-at 1667234893883}

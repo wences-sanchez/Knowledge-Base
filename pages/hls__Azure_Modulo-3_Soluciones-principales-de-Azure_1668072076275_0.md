@@ -106,13 +106,44 @@ tags:: UNIR, Azure
   id:: 636cc535-af41-4793-b092-a90dfac33ff8
   hl-color:: yellow
 -
-- Las principales herramientas de administración disponibles en Azure son: Azure Portal. Portal web que permite la administración completa de la plataforma haciendo uso de un navegador Web. Aplicación móvil de Azure (Azure Mobile App) que posibilita acceder a las principales funcionalidades de administración de Azure. Azure REST API. API que permite la integración con aplicaciones web de todas las funcionalidades de administración de Azure. Azure PowerShell e Interfaz de línea de comandos (CLI) permiten al usuario la administración completa de los activos en la nube mediante las consolas de PowerShell y de línea de comandos (Símbolo del sistema) respectivamente, en entornos Windows, macOS y Linux. Azure Cloud Shell. Provee una completa interfaz de administración basada en línea de comandos utilizando un navegador Web. Todas estas herramientas de administración hacen uso internamente del Azure Resource Manager (ARM) de modo que se pueden entender como interfaces de esteúltimo.
+- ## Tema 2: Herramientas de administración de Azure
+	- ### 2.3 Herramientas de administración disponibles en Azure
+		- Las principales herramientas de administración disponibles en Azure son: #flashcard
+		  hl-page:: 13
+		  ls-type:: annotation
+		  id:: 636cd082-eac3-4e97-afb4-9c18667ffba8
+		  hl-color:: yellow
+			-  **Azure Portal**. Portal web que permite la administración completa de la plataforma haciendo uso de un navegador Web.
+			- ** Aplicación móvil de Azure (Azure Mobile App)** que posibilita acceder a las principales funcionalidades de administración de Azure.
+			-  **Azure REST API**. API que permite la integración con aplicaciones web de todas las funcionalidades de administración de Azure.
+			-  **Azure PowerShell e Interfaz de línea de comandos (CLI)** permiten al usuario la administración completa de los activos en la nube mediante las consolas de PowerShell y de línea de comandos (Símbolo del sistema) respectivamente, en entornos Windows, macOS y Linux.
+			-  **Azure Cloud Shell**. Provee una completa interfaz de administración basada en línea de comandos utilizando un navegador Web.
+			-
+			- Todas estas herramientas de administración hacen uso internamente del Azure Resource Manager (ARM) de modo que se pueden entender como interfaces de esteúltimo.
+		- Azure Advisor analiza los recursos implementados en Azure y efectúa recomendaciones al usuario basadas en los procesos recomendados para optimizar dichas implementaciones. Su uso permite mejorar tales como:
+			-  Coste. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 14© Universidad Internacional de La Rioja (UNIR) Rendimiento. Confiabilidad. Seguridad. Excelencia operativa
+- Azure Monitor permite maximizar la disponibilidad y el rendimiento de aplicaciones y servicios gracias a que recopila, analiza y actúa sobre los datos de telemetría en entornos locales y en la nube. Las principales funcionalidades de Azure Monitor son: Application Insights. Log Analytics. Alertas inteligentes. Acciones de automatización. Paneles personalizados. Azure Monitor recopila datos desde el mismo momento en que se agregan recursos a una suscripción. Los eventos de creación y modificación de recursos se almacenan en registros de actividad
   ls-type:: annotation
-  hl-page:: 13
+  hl-page:: 14
   hl-color:: yellow
-  id:: 636cd082-eac3-4e97-afb4-9c18667ffba8
-- Azure Advisor analiza los recursos implementados en Azure y efectúa recomendaciones al usuario basadas en los procesos recomendados para optimizar dichas implementaciones. Su uso permite mejorar tales como: Coste. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 14© Universidad Internacional de La Rioja (UNIR) Rendimiento. Confiabilidad. Seguridad. Excelencia operativa
+  id:: 636cd0ab-47ac-4ed6-9dae-2028fa8e1677
+- Las métricas permiten medir el rendimiento y el consumo de los recursos. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 15© Universidad Internacional de La Rioja (UNIR) Los datos operativos de un recurso se recopilan a través de agentes de Azure Monitor
   ls-type:: annotation
-  hl-page:: 13
+  hl-page:: 14
   hl-color:: yellow
-  id:: 636cd097-57ad-4109-a773-6268c05a12d1
+  id:: 636cd0c5-cef5-4b5a-9fb9-e20d045390a9
+- Azure Service Health es un sitio web que proporciona un panel personalizable que realiza un seguimiento del estado de los servicios de Azure en las regiones donde los use. En este panel, puede realizar el seguimiento de eventos activos, como problemas de servicio, próximos mantenimientos planeados o avisos de estado relevantes. Permite evaluar el impacto de los problemas del servicio de Azure con orientación y soporte personalizados, notificaciones y actualizaciones de resolución de problemas. En Azure Service Health se realiza el seguimiento de cuatro tipos de evento: Comunicación sobre interrupciones o problemas en los servicios. Mantenimiento planificado. Con información sobre próximas acciones de mantenimiento que pueden afectar a la disponibilidad de los servicios en el futuro Avisos de estado. Cambios en los servicios de Azure que requieren la atención del usuario. Algunos ejemplos son el desuso de características de Azure o los requerimientos de actualización. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 16© Universidad Internacional de La Rioja (UNIR) Avisos de seguridad. Relativos a infracciones o notificaciones relacionadas con la seguridad que pueden afectar a la disponibilidad de los servicios de Azure
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: yellow
+  id:: 636cd13a-d272-493a-a5fd-f878551453f7
+- Las plantillas de Azure Resource Manager (ARM) son archivos JSON (JavaScript Object Notation) que se pueden usar para crear e implementar la infraestructura de Azure sin tener que escribir comandos de programación. Las características y ventajas del uso de estas plantillas son: Sintaxis declarativa. Permite definir la infraestructura y las dependencias de la aplicación en una única plantilla declarativa. Las plantillas aportan la flexibilidad necesaria para poder usarlas en todos los entornos (desarrollo, pruebas, preproducción, producción, etc.) Resultados repetibles. Su uso permite implementar repetidamente aplicaciones con la confianza de que todos los recursos se implementan en un estado coherente. Organización. ARM facilita la administración y visualización de recursos en la aplicación, de modo que no es necesario implementar la aplicación por partes. Admite grupos de recursos, lo que permite agrupar aquellos recursos con un mismo ciclo de vida. Los recursos se vinculan entre sí mediante dependencias. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 17© Universidad Internacional de La Rioja (UNIR) También se pueden emplear etiquetas para ayudar a clasificar los recursos con fines de administración o facturación. Archivos modulares. Validación incorporada. Código exportable
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: yellow
+  id:: 636cd14d-8f0e-42b7-b14f-f79f1140970c
+- Azure Resource Manager permite controlar qué personas de la organización pueden realizar acciones en los recursos. Los permisos se administran definiendo roles y agregando usuarios o grupos a los roles. Para los recursos más importantes se puede aplicar un bloqueo que evite que los usuarios eliminen o modifiquen el recurso. ARM registra todas las acciones de los usuarios para poder auditarlas.
+  ls-type:: annotation
+  hl-page:: 17
+  hl-color:: yellow
+  id:: 636cd162-4422-4ced-9fac-214c6e15c897

@@ -3,7 +3,8 @@ tags:: UNIR, Azure
 
 -
 - ## PDF
-	-
+	- ![Azure_Modulo-3_Soluciones-principales-de-Azure.pdf](../assets/Azure_Modulo-3_Soluciones-principales-de-Azure_1668072076275_0.pdf)
+-
 -
 - ## Tema 1: Soluciones principales de Azure
 	- ### IoT

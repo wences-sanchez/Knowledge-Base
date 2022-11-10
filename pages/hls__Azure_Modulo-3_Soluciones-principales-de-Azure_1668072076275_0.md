@@ -106,3 +106,13 @@ tags:: UNIR, Azure
   id:: 636cc535-af41-4793-b092-a90dfac33ff8
   hl-color:: yellow
 -
+- Las principales herramientas de administración disponibles en Azure son: Azure Portal. Portal web que permite la administración completa de la plataforma haciendo uso de un navegador Web. Aplicación móvil de Azure (Azure Mobile App) que posibilita acceder a las principales funcionalidades de administración de Azure. Azure REST API. API que permite la integración con aplicaciones web de todas las funcionalidades de administración de Azure. Azure PowerShell e Interfaz de línea de comandos (CLI) permiten al usuario la administración completa de los activos en la nube mediante las consolas de PowerShell y de línea de comandos (Símbolo del sistema) respectivamente, en entornos Windows, macOS y Linux. Azure Cloud Shell. Provee una completa interfaz de administración basada en línea de comandos utilizando un navegador Web. Todas estas herramientas de administración hacen uso internamente del Azure Resource Manager (ARM) de modo que se pueden entender como interfaces de esteúltimo.
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 636cd082-eac3-4e97-afb4-9c18667ffba8
+- Azure Advisor analiza los recursos implementados en Azure y efectúa recomendaciones al usuario basadas en los procesos recomendados para optimizar dichas implementaciones. Su uso permite mejorar tales como: Coste. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 14© Universidad Internacional de La Rioja (UNIR) Rendimiento. Confiabilidad. Seguridad. Excelencia operativa
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 636cd097-57ad-4109-a773-6268c05a12d1

@@ -120,23 +120,37 @@ tags:: UNIR, Azure
 			-  **Azure Cloud Shell**. Provee una completa interfaz de administración basada en línea de comandos utilizando un navegador Web.
 			-
 			- Todas estas herramientas de administración hacen uso internamente del Azure Resource Manager (ARM) de modo que se pueden entender como interfaces de esteúltimo.
-		- Azure Advisor analiza los recursos implementados en Azure y efectúa recomendaciones al usuario basadas en los procesos recomendados para optimizar dichas implementaciones. Su uso permite mejorar tales como:
-			-  Coste. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 14© Universidad Internacional de La Rioja (UNIR) Rendimiento. Confiabilidad. Seguridad. Excelencia operativa
-- Azure Monitor permite maximizar la disponibilidad y el rendimiento de aplicaciones y servicios gracias a que recopila, analiza y actúa sobre los datos de telemetría en entornos locales y en la nube. Las principales funcionalidades de Azure Monitor son: Application Insights. Log Analytics. Alertas inteligentes. Acciones de automatización. Paneles personalizados. Azure Monitor recopila datos desde el mismo momento en que se agregan recursos a una suscripción. Los eventos de creación y modificación de recursos se almacenan en registros de actividad
-  ls-type:: annotation
-  hl-page:: 14
-  hl-color:: yellow
-  id:: 636cd0ab-47ac-4ed6-9dae-2028fa8e1677
-- Las métricas permiten medir el rendimiento y el consumo de los recursos. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 15© Universidad Internacional de La Rioja (UNIR) Los datos operativos de un recurso se recopilan a través de agentes de Azure Monitor
-  ls-type:: annotation
-  hl-page:: 14
-  hl-color:: yellow
-  id:: 636cd0c5-cef5-4b5a-9fb9-e20d045390a9
-- Azure Service Health es un sitio web que proporciona un panel personalizable que realiza un seguimiento del estado de los servicios de Azure en las regiones donde los use. En este panel, puede realizar el seguimiento de eventos activos, como problemas de servicio, próximos mantenimientos planeados o avisos de estado relevantes. Permite evaluar el impacto de los problemas del servicio de Azure con orientación y soporte personalizados, notificaciones y actualizaciones de resolución de problemas. En Azure Service Health se realiza el seguimiento de cuatro tipos de evento: Comunicación sobre interrupciones o problemas en los servicios. Mantenimiento planificado. Con información sobre próximas acciones de mantenimiento que pueden afectar a la disponibilidad de los servicios en el futuro Avisos de estado. Cambios en los servicios de Azure que requieren la atención del usuario. Algunos ejemplos son el desuso de características de Azure o los requerimientos de actualización. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 16© Universidad Internacional de La Rioja (UNIR) Avisos de seguridad. Relativos a infracciones o notificaciones relacionadas con la seguridad que pueden afectar a la disponibilidad de los servicios de Azure
-  ls-type:: annotation
-  hl-page:: 15
-  hl-color:: yellow
-  id:: 636cd13a-d272-493a-a5fd-f878551453f7
+	- ### 2.4 Azure Advisor
+		- Azure Advisor analiza los recursos implementados en Azure y efectúa recomendaciones al usuario basadas en los procesos recomendados para optimizar dichas implementaciones. Su uso permite mejorar tales como: #flashcard
+			-  Coste.
+			-  Rendimiento.
+			-  Confiabilidad.
+			-  Seguridad.
+			-  Excelencia operativa
+	- ### 2.5 Azure Monitor
+		- **Azure Monitor** permite maximizar la disponibilidad y el rendimiento de aplicaciones y servicios gracias a que recopila, analiza y actúa sobre los datos de telemetría en entornos locales y en la nube. #flashcard
+			- Las principales funcionalidades de Azure Monitor son:
+				-  Application Insights.
+				-  Log Analytics.
+				-  Alertas inteligentes.
+				-  Acciones de automatización.
+				-  Paneles personalizados.
+				-
+			- Azure Monitor recopila datos desde el mismo momento en que se agregan recursos a una suscripción. Los eventos de creación y modificación de recursos se almacenan en registros de actividad
+			- Las métricas permiten medir el rendimiento y el consumo de los recursos.
+			  hl-page:: 14
+			  ls-type:: annotation
+			  id:: 636cd0c5-cef5-4b5a-9fb9-e20d045390a9
+			  hl-color:: yellow
+			- Los datos operativos de un recurso se recopilan a través de agentes de Azure Monitor
+	- ### 2.6 Azure Service Health
+		- **Azure Service Health** es un sitio web que proporciona un panel personalizable que realiza un seguimiento del estado de los servicios de Azure en las regiones donde los use. En este panel, puede realizar el seguimiento de eventos activos, como problemas de servicio, próximos mantenimientos planeados o avisos de estado relevantes.
+		  hl-page:: 15
+		  ls-type:: annotation
+		  id:: 636cd13a-d272-493a-a5fd-f878551453f7
+		  hl-color:: yellow
+		-
+		- Permite evaluar el impacto de los problemas del servicio de Azure con orientación y soporte personalizados, notificaciones y actualizaciones de resolución de problemas. En Azure Service Health se realiza el seguimiento de cuatro tipos de evento: Comunicación sobre interrupciones o problemas en los servicios. Mantenimiento planificado. Con información sobre próximas acciones de mantenimiento que pueden afectar a la disponibilidad de los servicios en el futuro Avisos de estado. Cambios en los servicios de Azure que requieren la atención del usuario. Algunos ejemplos son el desuso de características de Azure o los requerimientos de actualización. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 16© Universidad Internacional de La Rioja (UNIR) Avisos de seguridad. Relativos a infracciones o notificaciones relacionadas con la seguridad que pueden afectar a la disponibilidad de los servicios de Azure
 - Las plantillas de Azure Resource Manager (ARM) son archivos JSON (JavaScript Object Notation) que se pueden usar para crear e implementar la infraestructura de Azure sin tener que escribir comandos de programación. Las características y ventajas del uso de estas plantillas son: Sintaxis declarativa. Permite definir la infraestructura y las dependencias de la aplicación en una única plantilla declarativa. Las plantillas aportan la flexibilidad necesaria para poder usarlas en todos los entornos (desarrollo, pruebas, preproducción, producción, etc.) Resultados repetibles. Su uso permite implementar repetidamente aplicaciones con la confianza de que todos los recursos se implementan en un estado coherente. Organización. ARM facilita la administración y visualización de recursos en la aplicación, de modo que no es necesario implementar la aplicación por partes. Admite grupos de recursos, lo que permite agrupar aquellos recursos con un mismo ciclo de vida. Los recursos se vinculan entre sí mediante dependencias. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 3. Temas 17© Universidad Internacional de La Rioja (UNIR) También se pueden emplear etiquetas para ayudar a clasificar los recursos con fines de administración o facturación. Archivos modulares. Validación incorporada. Código exportable
   ls-type:: annotation
   hl-page:: 16

@@ -22,4 +22,16 @@ tags:: UNIR, Azure
 		-
 -
 - ## Tema 2: Herramientas de administración de Azure
+	- ### Azure Portal, PowerShell, CLI, Cloud Shell, Mobile App
+		- ![image.png](../assets/image_1668074017956_0.png)
+	- ### Azure Advisor, Azure Monitor
+		- **Azure Advisor** es una herramienta de administración que se encarga de analizar todos los recursos que estamos utilizando en nuestra cuenta de Azure, independientemente del servicio.
+		- Y hace recomendaciones acerca de nuestro uso particular.
+		- **Azure Monitor** se encarga de recopilar y analizar todos los logs que llegan de diferentes servicios de las diferentes VMs, aplicaciones, contenedores... y llega a realizar acciones que podemos definir.
+		- También podemos crear alertas
+	- ### ARM
+		- Son archivos JSON que permiten crear infraestructura de forma automática (IaC).
+		-
+	- ### Azure Service Health
+		- Es donde aparecen los servicios que están up por parte de posibles caídas de servicio.
 	-

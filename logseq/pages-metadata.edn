@@ -1025,31 +1025,31 @@
   :block/updated-at 1668183723141}
  {:block/name "herramientas devops tema-1 (highlights)",
   :block/created-at 1668163597460,
-  :block/updated-at 1668163597460}
+  :block/updated-at 1668184200399}
  {:block/name "herramientas devops tema-2 (highlights)",
   :block/created-at 1668163598464,
-  :block/updated-at 1668163598464}
+  :block/updated-at 1668184210998}
  {:block/name "herramientas devops tema-3 (highlights)",
   :block/created-at 1668163599673,
-  :block/updated-at 1668163599673}
+  :block/updated-at 1668184222540}
  {:block/name "herramientas devops tema-4 (highlights)",
   :block/created-at 1668163600425,
-  :block/updated-at 1668163600425}
+  :block/updated-at 1668184234241}
  {:block/name "herramientas devops tema-5 (highlights)",
   :block/created-at 1668163600960,
-  :block/updated-at 1668163600960}
+  :block/updated-at 1668184245079}
  {:block/name "herramientas devops tema-6 (highlights)",
   :block/created-at 1668163601529,
-  :block/updated-at 1668163601529}
+  :block/updated-at 1668184256767}
  {:block/name "herramientas devops tema-7 (highlights)",
   :block/created-at 1668163602550,
-  :block/updated-at 1668163602550}
+  :block/updated-at 1668184268325}
  {:block/name "herramientas devops tema-8 (highlights)",
   :block/created-at 1668163603389,
-  :block/updated-at 1668163603389}
+  :block/updated-at 1668184281427}
  {:block/name "herramientas devops tema-9 (highlights)",
   :block/created-at 1668163603720,
-  :block/updated-at 1668163603720}
+  :block/updated-at 1668184292042}
  {:block/name "herramientas-de-automatización-de-despliegues",
   :block/created-at 1668163683474,
   :block/updated-at 1668163683474}
@@ -2567,33 +2567,6 @@
   "uni::herramientas de automatización de despliegues tema-4",
   :block/created-at 1668163606923,
   :block/updated-at 1668163606923}
- {:block/name "uni::herramientas devops tema-1",
-  :block/created-at 1668163597418,
-  :block/updated-at 1668163597418}
- {:block/name "uni::herramientas devops tema-2",
-  :block/created-at 1668163598418,
-  :block/updated-at 1668163598418}
- {:block/name "uni::herramientas devops tema-3",
-  :block/created-at 1668163599636,
-  :block/updated-at 1668163599636}
- {:block/name "uni::herramientas devops tema-4",
-  :block/created-at 1668163600386,
-  :block/updated-at 1668163600386}
- {:block/name "uni::herramientas devops tema-5",
-  :block/created-at 1668163600922,
-  :block/updated-at 1668163600922}
- {:block/name "uni::herramientas devops tema-6",
-  :block/created-at 1668163601486,
-  :block/updated-at 1668163601486}
- {:block/name "uni::herramientas devops tema-7",
-  :block/created-at 1668163602502,
-  :block/updated-at 1668163602502}
- {:block/name "uni::herramientas devops tema-8",
-  :block/created-at 1668163603344,
-  :block/updated-at 1668163603344}
- {:block/name "uni::herramientas devops tema-9",
-  :block/created-at 1668163603679,
-  :block/updated-at 1668163603679}
  {:block/name "uni::secdevops tema-1",
   :block/created-at 1668163710352,
   :block/updated-at 1668163710352}

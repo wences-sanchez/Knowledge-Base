@@ -5,6 +5,7 @@ tags:: UNIR, Azure, PDFs
 -
 - ## Tema 1: Servicios principales de identidad de Azure
 	- El concepto de {{cloze autenticación}}: #flashcard
+	  id:: 636e2aab-4754-4651-9168-5bdcde295ebe
 		-  Identifica a la persona o el servicio que intenta acceder a un recurso.
 		-  Solicita credenciales de acceso legítimas.
 		-  Es la base para crear principios seguros de identidad y control de acceso.

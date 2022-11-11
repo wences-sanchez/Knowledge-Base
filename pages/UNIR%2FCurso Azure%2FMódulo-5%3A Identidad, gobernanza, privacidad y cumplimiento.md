@@ -7,6 +7,7 @@ tags:: UNIR, Azure
 	-
 -
 - ## Tema 1: Servicios principales de identidad de Azure #flashcard
+  id:: 636e2aa5-2207-4a39-b123-30f6ac1e1662
 	- ### Autenticación VS Autorización
 		- La **autenticación** es identificar la persona o servicio que está intentando acceder a un recurso
 		- Quiero identificar **quién** está accediendo a un recurso concreto
@@ -26,6 +27,7 @@ tags:: UNIR, Azure
 	-
 	-
 - ## Tema 2: Gobernanza en Azure #flashcard
+  id:: 636e2b0e-9821-4582-a40d-b598f6cae196
 	- ### RBAC
 		- **Acceso Basado en Roles**
 		- Nos permite asociar un rol a un grupo de personas, un grupo de procesos, un único recurso o proceso
@@ -44,6 +46,7 @@ tags:: UNIR, Azure
 				- Grupos de recursos necesarios
 	-
 - ## Tema 3: Privacidad, cumplimiento y estándares de protección de datos #flashcard
+  id:: 636e3259-869d-4430-be0c-6f5cb76d31ad
 	- ### Términos y requisitos de cumplimiento de Azure
 		- ![image.png](../assets/image_1668166549577_0.png)
 		-

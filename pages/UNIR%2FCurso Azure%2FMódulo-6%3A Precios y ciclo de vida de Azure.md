@@ -26,6 +26,7 @@ tags:: UNIR, Azure
 -
 -
 - ## Tema 2: Ciclo de vida de los servicios y SLA de Azure #flashcard
+  id:: 636e45cf-b2d7-4395-89f5-e586a36cbec5
 	- ### SLA de Azure
 		- Un **SLA (Service Level Agreement)** es un acuerdo que se establece entre una empresa y el cliente.
 		- En este caso, el **SLA** de Azure hace referencia al tiempo de actividad y la conectividad de los servicios que ofrece.

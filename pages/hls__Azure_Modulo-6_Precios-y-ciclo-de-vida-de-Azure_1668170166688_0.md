@@ -43,6 +43,7 @@ tags:: UNIR, Azure, PDFs
 		-  Recomendaciones sobre los costes.
 	-
 	- Recomendaciones para minimizar costes en Azure: #flashcard
+	  id:: 636e448a-2c86-40f6-8479-5d96c5752ddf
 		- [:span]
 		  ls-type:: annotation
 		  hl-page:: 7
@@ -61,6 +62,7 @@ tags:: UNIR, Azure, PDFs
 - ## Tema 2: Ciclo de vida de los servicios y SLA de Azure
 -
 	- Los {{cloze acuerdos de nivel de servicio (Service Level Agreements, SLA)}} describen los compromisos de Microsoft con respecto a tiempo de actividad y conectividad. 
+	  id:: 636e4bab-4caa-4f62-b8ea-c02803543718
 	  Se caracterizan por: #flashcard
 		-  Representar servicios y productos de manera individual.
 		-  Recoger acuerdos detallados sobre el servicio ofrecido y cualquier excepción al SLA. Las características de prelanzamiento y los servicios gratuitos no están sujetos a SLA

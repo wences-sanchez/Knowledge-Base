@@ -40,11 +40,11 @@
 		  |`node {}` |  `pipeline { }` |
 		  | Groovy-based DSL | Specifically designed for configuring Jenkins projects as code |
 	- What are the four different parameters to specify an agent in Jenkins? #flashcard
-<<<<<<< HEAD
+	  <<<<<<< HEAD
 	  id:: 636a1b4f-bd30-4e27-94cf-07a15fdf931f
-=======
+	  =======
 	  id:: 634545c0-4df2-43bd-82c4-26c594936605
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+	  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- **any**: Run on the first available system
 			- `agent any`
 		- **label**: When we need to be specific about the agent that runs the pipeline, we can use the label parameter.
@@ -60,11 +60,12 @@
 		- **none**: Defer agent selection to what is specified in its more granular stages.
 	- Example of Jenkins Pipeline Outline: #flashcard
 	  collapsed:: true
-<<<<<<< HEAD
-	  id:: 636a1b4f-7822-4bcf-8cd1-9d5864646688
-=======
-	  id:: 634545c0-66c9-422f-86e3-62c8db1446c6
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+	  id:: 636e51f2-58c4-48e1-8bf7-69af8e1a7af5
+	  <<<<<<< HEAD
+	  id:: 636e51f2-58c4-48e1-8bf7-69af8e1a7af5
+	  =======
+	  id:: 636e51f2-58c4-48e1-8bf7-69af8e1a7af5
+	  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- ```
 		  pipeline {
 		  	agent any
@@ -92,11 +93,11 @@
 	- Some commands to write in the steps of a pipeline. More at: https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/
 		- ![image.png](../assets/image_1659976322192_0.png)
 	- Jenkins has 3 types of variables: #flashcard
-<<<<<<< HEAD
+	  <<<<<<< HEAD
 	  id:: 636a1b4e-0198-45b7-9d78-fce8371144d9
-=======
+	  =======
 	  id:: 634545c0-2bd4-4798-aa51-8ed034928d6a
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+	  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- Environment variables
 			- In upper case.
 			- Can be global or local to any stage
@@ -187,11 +188,11 @@
 -
 - ## 3. Integrate Jenkins with Version Control Systems
 	- Where can you find the absolute path of a Jenkins project? #flashcard
-<<<<<<< HEAD
+	  <<<<<<< HEAD
 	  id:: 636a1b4e-9eea-4a03-957a-0d136b82ca7d
-=======
+	  =======
 	  id:: 634545c0-f48c-4ffa-b7b2-398d195de71a
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+	  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- env.WORKSPACE includes the absolute path of our project.
 	- To get the status badges we need the "embeddable build status" plugin for jenkins.
 	- You have to add `github-webhook/` to the end of the Jenkins URL when copying that in GitHub for a synchronization. And with **application/json** in the menu option #flashcard #daily-notes

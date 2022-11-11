@@ -1,5 +1,4 @@
 title:: SecDevOps Tema-7 (highlights)
-deck:: [[UNI::SecDevOps Tema-7]]
 author:: [[UNIR]]
 full-title:: "SecDevOps Tema-7"
 category:: #books

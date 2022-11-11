@@ -48,11 +48,12 @@ tags:: #Linux #Videos
 		- #### Flashcards
 			- How can you open a shell as another user? #flashcard
 			  collapsed:: true
-<<<<<<< HEAD
-			  id:: 636a1b5f-30b9-4378-8109-9659e0df00b3
-=======
-			  id:: 634545c6-b68c-4e93-b326-e50540ab7cbe
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+			  id:: 636e51f3-78ba-46e0-ab93-abe0e32ff894
+			  <<<<<<< HEAD
+			  id:: 636e51f3-78ba-46e0-ab93-abe0e32ff894
+			  =======
+			  id:: 636e51f3-78ba-46e0-ab93-abe0e32ff894
+			  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 				- `$ su - [<user>]` can be used to open a shell as another user.
 					- When used without arguments, a  root shell is opened after entering the root password
 					- When used with a username as argument, a user shell is opened.
@@ -131,11 +132,12 @@ tags:: #Linux #Videos
 		  collapsed:: true
 			- Explain each directory of the Linux hierarchy: #flashcard
 			  collapsed:: true
-<<<<<<< HEAD
-			  id:: 636a1b5f-502f-46bd-831e-a84f0a3bdbba
-=======
-			  id:: 634545c6-d232-45de-bed3-dd21dccd601b
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+			  id:: 636e51f3-01b4-487c-871d-7bb1a4a36a1f
+			  <<<<<<< HEAD
+			  id:: 636e51f3-01b4-487c-871d-7bb1a4a36a1f
+			  =======
+			  id:: 636e51f3-01b4-487c-871d-7bb1a4a36a1f
+			  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 				- `/usr` is for your program files
 				- `/var` is the directory that different services use to dynamically create files.
 					- `/var/log` contains your log files and
@@ -168,11 +170,11 @@ tags:: #Linux #Videos
 					- `/tmp`
 						- That's why all the tutorial examples write in `/tmp`!!
 			- What does the symbol `?` mean in globbing? #flashcard
-<<<<<<< HEAD
+			  <<<<<<< HEAD
 			  id:: 636a1b5f-f7ce-41f9-aa74-63a536e51bbc
-=======
+			  =======
 			  id:: 634545c6-5c32-4912-a807-110e891ed1ab
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+			  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 				- The `?` (in wildcards) does **not** match any previous character.
 					- It just matches a single character **(any)**, but **one**
 						- `$ ls t???` -> temp (if exists)
@@ -290,11 +292,12 @@ tags:: #Linux #Videos
 		- #### Flashcards
 			- Describe what is a link in Linux. #flashcard
 			  collapsed:: true
-<<<<<<< HEAD
-			  id:: 636a1b5f-94db-416f-9312-95c8f7235459
-=======
-			  id:: 634545c6-08e7-432e-97ad-494a43b71f4c
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+			  id:: 636e51f3-6fb6-4373-9dd6-109e28124c5a
+			  <<<<<<< HEAD
+			  id:: 636e51f3-6fb6-4373-9dd6-109e28124c5a
+			  =======
+			  id:: 636e51f3-6fb6-4373-9dd6-109e28124c5a
+			  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 				- A link is a file system entry that refers to another file or directory
 				- Hard links are pointing to the same inode on the same file system
 				- Symbolic links are shortcuts and add additional flexibility
@@ -310,11 +313,12 @@ tags:: #Linux #Videos
 				- It's a good idea to use **absolute** paths when creating symbolic links
 			- What means the second column (that number) in the output of the `$ ls -l` command? #flashcard
 			  collapsed:: true
-<<<<<<< HEAD
-			  id:: 636a1b5f-474a-46e2-9155-79abdfc5ebdd
-=======
-			  id:: 634545c6-dc96-485c-81ee-7946178c3434
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+			  id:: 636e51f3-ed2a-4a70-a898-91b2e6f850a9
+			  <<<<<<< HEAD
+			  id:: 636e51f3-ed2a-4a70-a898-91b2e6f850a9
+			  =======
+			  id:: 636e51f3-ed2a-4a70-a898-91b2e6f850a9
+			  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 				- The **second column of $ls** indicates the number of **hard links** that exist in the directory
 -
 -

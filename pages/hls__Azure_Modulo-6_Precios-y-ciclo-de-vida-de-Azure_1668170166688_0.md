@@ -57,3 +57,25 @@ tags:: UNIR, Azure, PDFs
 		  id:: 636e430f-c23d-4f5d-855c-f6e832a79e09
 		  hl-type:: area
 		  hl-stamp:: 1668170511440
+- Los acuerdos de nivel de servicio (Service Level Agreements, SLA) describen los compromisos de Microsoft con respecto a tiempo de actividad y conectividad. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 6. Tema 2 10© Universidad Internacional de La Rioja (UNIR) Los SLA se caracterizan por: Representar servicios y productos de manera individual. Recoger acuerdos detallados sobre el servicio ofrecido y cualquier excepción al SLA. Las características de prelanzamiento y los servicios gratuitos no están sujetos a SLA
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 636e49b9-2ecf-441b-a6ef-4fd022c8f2c9
+- Azure expresa los objetivos de rendimiento como tiempo de actividad y garantías de conectividad. La disponibilidad de un servicio (SLA) va desde el 99 % a 99,999 % con los tiempos de inactividad mensuales que se expresan en la tabla 2. En el caso de que un servicio no cumpla con los SLA acordados, Azure proporcionará crédito por valor de un porcentaje de las tarifas mensuales del servicio.
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 636e49c6-46ef-4fae-99ea-e3849b86368d
+- Existen múltiples factores pueden empeorar o mejorar un SLA. Para determinar los valores de SLA objetivos se requiere realizar una toma de decisiones basada en los objetivos empresariales. Acciones que resultan en un SLA inferior: Agregar más servicios (de modo que unos dependan de otros). Seleccionar servicios gratis o sin SLA. Acciones que resultan en un SLA superior: Usar zonas de disponibilidad (Availability Zones). Hacer que los sistemas sean redundantes.
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 636e49fa-d1dc-4b8f-9ece-902327f16faa
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 636e4a08-ebd2-45eb-8ba2-aa5e313eb58a
+  hl-type:: area
+  hl-stamp:: 1668172296191

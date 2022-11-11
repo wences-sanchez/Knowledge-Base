@@ -26,5 +26,21 @@ tags:: UNIR, Azure
 	-
 	-
 - ## Tema 2: Gobernanza en Azure
-	-
+	- ### RBAC
+		- **Acceso Basado en Roles**
+		- Nos permite asociar un rol a un grupo de personas, un grupo de procesos, un único recurso o proceso
+	- ### Bloqueos de recursos y etiquetas
+		- Nos permite proteger todos nuestros recursos para no eliminarlos o para no modificarlos. Accidentalmente.
+	- ### Políticas, Blueprints y CAF
+		- #### Azure Policy
+			- Ayuda a hacer cumplir los estándares que una organización haya definido a la hora de gestionar los recursos de las suscripciones.
+			- Son reglas de alto nivel.
+			- Hay predefinidas
+		- #### Azure Blueprints
+			- La diferencia entre blueprints y las plantillas de ARM es que ARM se centra en los recursos y Blueprints incluye muchas maś cosas. Como:
+				- Roles necesarios
+				- Políticas necesarios
+				- Plantillas de Azure Resource Manager necesarias
+				- Grupos de recursos necesarios
+			-
 	-

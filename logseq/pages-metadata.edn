@@ -2086,31 +2086,31 @@
   :block/updated-at 1668163709781}
  {:block/name "secdevops tema-1 (highlights)",
   :block/created-at 1668163710374,
-  :block/updated-at 1668163710374}
+  :block/updated-at 1668184673801}
  {:block/name "secdevops tema-2 (highlights)",
   :block/created-at 1668163711114,
-  :block/updated-at 1668163711114}
+  :block/updated-at 1668184684291}
  {:block/name "secdevops tema-3 (highlights)",
   :block/created-at 1668163712145,
-  :block/updated-at 1668163712145}
+  :block/updated-at 1668184693282}
  {:block/name "secdevops tema-4 (highlights)",
   :block/created-at 1668163713074,
-  :block/updated-at 1668163713074}
+  :block/updated-at 1668184702293}
  {:block/name "secdevops tema-5 (highlights)",
   :block/created-at 1668163713803,
-  :block/updated-at 1668163713803}
+  :block/updated-at 1668184712930}
  {:block/name "secdevops tema-6 (highlights)",
   :block/created-at 1668163714721,
-  :block/updated-at 1668163714721}
+  :block/updated-at 1668184722606}
  {:block/name "secdevops tema-7 (highlights)",
   :block/created-at 1668163715373,
-  :block/updated-at 1668163715373}
+  :block/updated-at 1668184734052}
  {:block/name "secdevops tema-8 (highlights)",
   :block/created-at 1668163715767,
-  :block/updated-at 1668163715767}
+  :block/updated-at 1668184745250}
  {:block/name "secdevops tema-9 (highlights)",
   :block/created-at 1668163716536,
-  :block/updated-at 1668163716536}
+  :block/updated-at 1668184774822}
  {:block/name "selenium webdriver 3 practical guide (highlights)",
   :block/created-at 1668163717089,
   :block/updated-at 1668163717089}
@@ -2567,33 +2567,6 @@
   "uni::herramientas de automatización de despliegues tema-4",
   :block/created-at 1668163606923,
   :block/updated-at 1668163606923}
- {:block/name "uni::secdevops tema-1",
-  :block/created-at 1668163710352,
-  :block/updated-at 1668163710352}
- {:block/name "uni::secdevops tema-2",
-  :block/created-at 1668163711090,
-  :block/updated-at 1668163711090}
- {:block/name "uni::secdevops tema-3",
-  :block/created-at 1668163712118,
-  :block/updated-at 1668163712118}
- {:block/name "uni::secdevops tema-4",
-  :block/created-at 1668163713042,
-  :block/updated-at 1668163713042}
- {:block/name "uni::secdevops tema-5",
-  :block/created-at 1668163713779,
-  :block/updated-at 1668163713779}
- {:block/name "uni::secdevops tema-6",
-  :block/created-at 1668163714700,
-  :block/updated-at 1668163714700}
- {:block/name "uni::secdevops tema-7",
-  :block/created-at 1668163715349,
-  :block/updated-at 1668163715349}
- {:block/name "uni::secdevops tema-8",
-  :block/created-at 1668163715742,
-  :block/updated-at 1668163715742}
- {:block/name "uni::secdevops tema-9",
-  :block/created-at 1668163716512,
-  :block/updated-at 1668163716512}
  {:block/name "unir",
   :block/created-at 1668163366912,
   :block/updated-at 1668163366912}

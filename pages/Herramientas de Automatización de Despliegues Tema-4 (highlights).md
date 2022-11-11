@@ -1,5 +1,5 @@
 title:: Herramientas de Automatización de Despliegues Tema-4 (highlights)
-deck:: [[UNI::Herramientas de Automatización de Despliegues Tema-4]]
+
 author:: [[UNIR]]
 full-title:: "Herramientas de Automatización de Despliegues Tema-4"
 category:: #books

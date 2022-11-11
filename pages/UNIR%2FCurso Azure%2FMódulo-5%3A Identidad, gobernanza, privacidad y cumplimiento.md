@@ -43,8 +43,15 @@ tags:: UNIR, Azure
 				- Plantillas de Azure Resource Manager necesarias
 				- Grupos de recursos necesarios
 	-
-- ## Tema 3: Privacidad, cumplimiento y estándares de protección de datos
+- ## Tema 3: Privacidad, cumplimiento y estándares de protección de datos #flashcard
 	- ### Términos y requisitos de cumplimiento de Azure
+		- ![image.png](../assets/image_1668166549577_0.png)
+		-
 	- ### Declaración de privacidad y condiciones de uso
+		- Es una declaración que Microsoft realiza de manera obligada.
+		- Igual que cuaalquier otro proveedor de un servicio o producto.
 	- ### Regiones soberanas
+		- Algunas regiones no están disponibles de forma pública. Ejemplos:
+			- Azure China
+			- Azure Government
 	-

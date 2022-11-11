@@ -898,7 +898,7 @@
   :block/updated-at 1668164004773}
  {:block/name "friday, 11-11-2022",
   :block/created-at 1668163365289,
-  :block/updated-at 1668163365289}
+  :block/updated-at 1668166131258}
  {:block/name "friday, 12-08-2022",
   :block/created-at 1668163370742,
   :block/updated-at 1668163370742}
@@ -1077,7 +1077,7 @@
  {:block/name
   "hls__azure_modulo-5_identidad-gobernanza-privacidad-y-cumplimiento_1668160422073_0",
   :block/created-at 1668163764309,
-  :block/updated-at 1668165841108}
+  :block/updated-at 1668166166099}
  {:block/name "hls__contenedores_tema-1_1662122655208_0",
   :block/created-at 1668163764890,
   :block/updated-at 1668163764890}
@@ -2749,7 +2749,7 @@
  {:block/name
   "unir/curso azure/módulo-5: identidad, gobernanza, privacidad y cumplimiento",
   :block/created-at 1668163365256,
-  :block/updated-at 1668165253625}
+  :block/updated-at 1668166499994}
  {:block/name "unir::curso azure::módulo-1",
   :block/created-at 1668163745971,
   :block/updated-at 1668163745971}

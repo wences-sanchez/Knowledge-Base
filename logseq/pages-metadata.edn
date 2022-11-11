@@ -1160,6 +1160,10 @@
  {:block/name "hls__azure_modulo-4_seguridad_1668082128848_0",
   :block/created-at 1668154509939,
   :block/updated-at 1668157384620}
+ {:block/name
+  "hls__azure_modulo-5_identidad-gobernanza-privacidad-y-cumplimiento_1668160422073_0",
+  :block/created-at 1668160432709,
+  :block/updated-at 1668160432709}
  {:block/name "hls__contenedores_tema-1_1662122655208_0",
   :block/created-at 1663348729201,
   :block/updated-at 1663348729201}
@@ -2911,7 +2915,7 @@
  {:block/name
   "unir/curso azure/módulo-5: identidad, gobernanza, privacidad y cumplimiento",
   :block/created-at 1668159006497,
-  :block/updated-at 1668159883187}
+  :block/updated-at 1668160422745}
  {:block/name "unir::curso azure::módulo-1",
   :block/created-at 1667234893883,
   :block/updated-at 1667234893883}

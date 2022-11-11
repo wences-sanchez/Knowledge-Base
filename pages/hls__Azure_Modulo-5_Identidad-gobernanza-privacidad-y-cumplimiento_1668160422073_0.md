@@ -83,7 +83,7 @@ tags:: UNIR, Azure, PDFs
 			-  Acciones que no puede realizar (Not Actions).
 			-  Alcances (Scopes).
 		-
-	- El {{cloze bloqueo de recursos}} es un mecanismo de control que permite a los administradores proteger los recursos de Azure contra la eliminación o la modificación accidental. La administración de bloqueos se puede realizar a nivel de suscripción, grupo de recursos o recursos individuales en Azure Portal.
+	- El {{cloze bloqueo de recursos}} es un mecanismo de control que permite a los administradores proteger los recursos de Azure contra la eliminación o la modificación accidental. La administración de bloqueos se puede realizar a nivel de suscripción, grupo de recursos o recursos individuales en Azure Portal. #flashcard
 	  hl-page:: 12
 	  ls-type:: annotation
 	  id:: 636e2fc6-986d-4c2d-a3bb-78c9b0ee63cb
@@ -96,17 +96,23 @@ tags:: UNIR, Azure, PDFs
 		  hl-type:: area
 		  hl-stamp:: 1668165585647
 -
-	- El servicio Azure Policy ayuda a hacer cumplir los estándares de la organización y a evaluar el cumplimiento a escala. Proporciona gobernanza y consistencia de recursos con cumplimiento normativo, seguridad, costes y administración. 
-	  ls-type:: annotation
+	- El servicio {{cloze Azure Policy}} ayuda a hacer cumplir los estándares de la organización y a evaluar el cumplimiento a escala. Proporciona gobernanza y consistencia de recursos con cumplimiento normativo, seguridad, costes y administración. #flashcard
 	  hl-page:: 13
-	  hl-color:: yellow
+	  ls-type:: annotation
 	  id:: 636e2ff7-8c4e-41bd-bd1e-9b5424b9d15f
+	  hl-color:: yellow
 		- Sus funcionalidades principales son:
 			-  Evaluar e identificar los recursos de Azure que no cumplen las directivas.
 			-  Proporcionar definiciones de directivas e iniciativas integradas, en categorías, tales como almacenamiento, redes, proceso, Security Center y supervisión.
 -
-- Azure Blueprints es un servicio que permite la creación rápida y repetible de suscripciones en la nube totalmente gobernadas. Azure Blueprints permite a los equipos de desarrollo construir y poner en marcha nuevos entornos rápidamente. Los artefactos clave del entorno se empaquetan como plantillas de Azure Resource Manager, controles de acceso basado en el rol (RBAC) y directivas en una única definición. Con Azure Blueprints se aúnan los aspectos siguientes: Grupos de recursos. Asignaciones de roles. Asignaciones de directivas. Plantillas de Azure Resource Manager.
-  ls-type:: annotation
-  hl-page:: 14
-  hl-color:: yellow
-  id:: 636e3012-9ae5-4f86-ac45-869571283812
+	- {{cloze Azure Blueprints}} es un servicio que permite la creación rápida y repetible de suscripciones en la nube totalmente gobernadas. #flashcard
+	  hl-page:: 14
+	  ls-type:: annotation
+	  id:: 636e3012-9ae5-4f86-ac45-869571283812
+	  hl-color:: yellow
+		- Además, permite a los equipos de desarrollo construir y poner en marcha nuevos entornos rápidamente. Los artefactos clave del entorno se empaquetan como plantillas de Azure Resource Manager, controles de acceso basado en el rol (RBAC) y directivas en una única definición.
+		- Con Azure Blueprints se aúnan los aspectos siguientes:
+			-  Grupos de recursos.
+			-  Asignaciones de roles.
+			-  Asignaciones de directivas.
+			-  Plantillas de Azure Resource Manager.

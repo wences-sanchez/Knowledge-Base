@@ -6,7 +6,7 @@ tags:: UNIR, Azure
 	- ![Azure_Modulo-5_Identidad-gobernanza-privacidad-y-cumplimiento.pdf](../assets/Azure_Modulo-5_Identidad-gobernanza-privacidad-y-cumplimiento_1668160422073_0.pdf)
 	-
 -
-- ## Tema 1: Servicios principales de identidad de Azure
+- ## Tema 1: Servicios principales de identidad de Azure #flashcard
 	- ### Autenticación VS Autorización
 		- La **autenticación** es identificar la persona o servicio que está intentando acceder a un recurso
 		- Quiero identificar **quién** está accediendo a un recurso concreto
@@ -25,7 +25,7 @@ tags:: UNIR, Azure
 		- ![image.png](../assets/image_1668160199070_0.png)
 	-
 	-
-- ## Tema 2: Gobernanza en Azure
+- ## Tema 2: Gobernanza en Azure #flashcard
 	- ### RBAC
 		- **Acceso Basado en Roles**
 		- Nos permite asociar un rol a un grupo de personas, un grupo de procesos, un único recurso o proceso
@@ -42,5 +42,9 @@ tags:: UNIR, Azure
 				- Políticas necesarios
 				- Plantillas de Azure Resource Manager necesarias
 				- Grupos de recursos necesarios
-			-
+	-
+- ## Tema 3: Privacidad, cumplimiento y estándares de protección de datos
+	- ### Términos y requisitos de cumplimiento de Azure
+	- ### Declaración de privacidad y condiciones de uso
+	- ### Regiones soberanas
 	-

@@ -37,5 +37,7 @@ tags:: UNIR, Azure
 	- ### Protección frente a DDoS
 		- Azure ofrece un servicio básico de protección contra ataques de denegación de servicio básico.
 			- Aunque solo filtra tráfico sospechoso y no tiene logging ni alertas. Por lo que no nos enteraremos si hemos sido protegidos o no.
+		- ![image.png](../assets/image_1668156345383_0.png)
+		- ![image.png](../assets/image_1668156496802_0.png)
 		-
 	-

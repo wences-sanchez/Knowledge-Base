@@ -1,5 +1,4 @@
 title:: Gestion_de_Proyectos Tema-4 (highlights)
-deck:: [[UNI::Gestion_de_Proyectos Tema-4]]
 author:: [[UNIR]]
 full-title:: "Gestion_de_Proyectos Tema-4"
 category:: #books

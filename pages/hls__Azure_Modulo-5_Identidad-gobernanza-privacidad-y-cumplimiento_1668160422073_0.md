@@ -63,3 +63,50 @@ tags:: UNIR, Azure, PDFs
 		  id:: 636e1d3e-bac2-4bbf-b239-b1d08e086682
 		  hl-type:: area
 		  hl-stamp:: 1668160830178
+-
+- ## Tema 2: Gobernanza en Azure
+	- El {{cloze control de acceso basado en el rol de Azure (Role-Based Access Control, RBAC)}} es un sistema de autorización basado en Azure Resource Manager que proporciona administración de acceso específico a los recursos de Azure. El uso de este sistema proporciona los beneficios siguientes: #flashcard
+	  hl-page:: 10
+	  ls-type:: annotation
+	  id:: 636e2f2b-c446-497e-9512-d0e8787cdbff
+	  hl-color:: yellow
+		-  Ayuda a administrar quién tiene acceso a los recursos, qué puede hacer con esos recursos y a qué áreas puede acceder.
+		-  Permite separar las tareas dentro del equipo y conceder a los usuarios solo el acceso mínimo necesario para realizar su trabajo.
+		-  Permite controlar el acceso a Azure Portal y a los recursos en la nube.
+		-
+		- Cada rol está compuesto de:
+		  ls-type:: annotation
+		  hl-page:: 11
+		  hl-color:: yellow
+		  id:: 636e2f3c-d0f2-4d8e-a182-504811722f3a
+			-  Acciones que puede realizar (Actions).
+			-  Acciones que no puede realizar (Not Actions).
+			-  Alcances (Scopes).
+		-
+	- El {{cloze bloqueo de recursos}} es un mecanismo de control que permite a los administradores proteger los recursos de Azure contra la eliminación o la modificación accidental. La administración de bloqueos se puede realizar a nivel de suscripción, grupo de recursos o recursos individuales en Azure Portal.
+	  hl-page:: 12
+	  ls-type:: annotation
+	  id:: 636e2fc6-986d-4c2d-a3bb-78c9b0ee63cb
+	  hl-color:: yellow
+		- [:span]
+		  ls-type:: annotation
+		  hl-page:: 12
+		  hl-color:: yellow
+		  id:: 636e2fd2-aa3d-4250-aa58-15d369ffa78c
+		  hl-type:: area
+		  hl-stamp:: 1668165585647
+-
+	- El servicio Azure Policy ayuda a hacer cumplir los estándares de la organización y a evaluar el cumplimiento a escala. Proporciona gobernanza y consistencia de recursos con cumplimiento normativo, seguridad, costes y administración. 
+	  ls-type:: annotation
+	  hl-page:: 13
+	  hl-color:: yellow
+	  id:: 636e2ff7-8c4e-41bd-bd1e-9b5424b9d15f
+		- Sus funcionalidades principales son:
+			-  Evaluar e identificar los recursos de Azure que no cumplen las directivas.
+			-  Proporcionar definiciones de directivas e iniciativas integradas, en categorías, tales como almacenamiento, redes, proceso, Security Center y supervisión.
+-
+- Azure Blueprints es un servicio que permite la creación rápida y repetible de suscripciones en la nube totalmente gobernadas. Azure Blueprints permite a los equipos de desarrollo construir y poner en marcha nuevos entornos rápidamente. Los artefactos clave del entorno se empaquetan como plantillas de Azure Resource Manager, controles de acceso basado en el rol (RBAC) y directivas en una única definición. Con Azure Blueprints se aúnan los aspectos siguientes: Grupos de recursos. Asignaciones de roles. Asignaciones de directivas. Plantillas de Azure Resource Manager.
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 636e3012-9ae5-4f86-ac45-869571283812

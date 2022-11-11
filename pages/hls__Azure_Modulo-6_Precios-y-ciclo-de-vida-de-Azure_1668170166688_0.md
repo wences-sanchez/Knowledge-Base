@@ -57,25 +57,49 @@ tags:: UNIR, Azure, PDFs
 		  id:: 636e430f-c23d-4f5d-855c-f6e832a79e09
 		  hl-type:: area
 		  hl-stamp:: 1668170511440
-- Los acuerdos de nivel de servicio (Service Level Agreements, SLA) describen los compromisos de Microsoft con respecto a tiempo de actividad y conectividad. Preparación para la certificación AZ-900: Microsoft Azure Fundamentals Módulo 6. Tema 2 10© Universidad Internacional de La Rioja (UNIR) Los SLA se caracterizan por: Representar servicios y productos de manera individual. Recoger acuerdos detallados sobre el servicio ofrecido y cualquier excepción al SLA. Las características de prelanzamiento y los servicios gratuitos no están sujetos a SLA
-  ls-type:: annotation
-  hl-page:: 9
-  hl-color:: yellow
-  id:: 636e49b9-2ecf-441b-a6ef-4fd022c8f2c9
-- Azure expresa los objetivos de rendimiento como tiempo de actividad y garantías de conectividad. La disponibilidad de un servicio (SLA) va desde el 99 % a 99,999 % con los tiempos de inactividad mensuales que se expresan en la tabla 2. En el caso de que un servicio no cumpla con los SLA acordados, Azure proporcionará crédito por valor de un porcentaje de las tarifas mensuales del servicio.
-  ls-type:: annotation
-  hl-page:: 10
-  hl-color:: yellow
-  id:: 636e49c6-46ef-4fae-99ea-e3849b86368d
-- Existen múltiples factores pueden empeorar o mejorar un SLA. Para determinar los valores de SLA objetivos se requiere realizar una toma de decisiones basada en los objetivos empresariales. Acciones que resultan en un SLA inferior: Agregar más servicios (de modo que unos dependan de otros). Seleccionar servicios gratis o sin SLA. Acciones que resultan en un SLA superior: Usar zonas de disponibilidad (Availability Zones). Hacer que los sistemas sean redundantes.
-  ls-type:: annotation
+-
+- ## Tema 2: Ciclo de vida de los servicios y SLA de Azure
+-
+	- Los {{cloze acuerdos de nivel de servicio (Service Level Agreements, SLA)}} describen los compromisos de Microsoft con respecto a tiempo de actividad y conectividad. 
+	  Se caracterizan por: #flashcard
+		-  Representar servicios y productos de manera individual.
+		-  Recoger acuerdos detallados sobre el servicio ofrecido y cualquier excepción al SLA. Las características de prelanzamiento y los servicios gratuitos no están sujetos a SLA
+	- Azure expresa los objetivos de rendimiento como {{cloze tiempo de actividad y garantías de conectividad}}. 
+	  hl-page:: 10
+	  ls-type:: annotation
+	  id:: 636e49c6-46ef-4fae-99ea-e3849b86368d
+	  hl-color:: yellow
+	  La disponibilidad de un servicio (SLA) va desde el 99 % a 99,999 % con los tiempos de inactividad mensuales que se expresan en la tabla 2. 
+	  En el caso de que un servicio no cumpla con los SLA acordados, Azure proporcionará crédito por valor de un porcentaje de las tarifas mensuales del servicio. #flashcard
+		- [:span]
+		  ls-type:: annotation
+		  hl-page:: 10
+		  hl-color:: yellow
+		  id:: 636e4a08-ebd2-45eb-8ba2-aa5e313eb58a
+		  hl-type:: area
+		  hl-stamp:: 1668172296191
+-
+- Existen múltiples factores pueden empeorar o mejorar un SLA. Para determinar los valores de SLA objetivos se requiere realizar una toma de decisiones basada en los objetivos empresariales. #flashcard
   hl-page:: 11
-  hl-color:: yellow
-  id:: 636e49fa-d1dc-4b8f-9ece-902327f16faa
-- [:span]
   ls-type:: annotation
-  hl-page:: 10
+  id:: 636e49fa-d1dc-4b8f-9ece-902327f16faa
   hl-color:: yellow
-  id:: 636e4a08-ebd2-45eb-8ba2-aa5e313eb58a
-  hl-type:: area
-  hl-stamp:: 1668172296191
+	- Acciones que resultan en un SLA inferior:
+		-  Agregar más servicios (de modo que unos dependan de otros).
+		-  Seleccionar servicios gratis o sin SLA.
+	- Acciones que resultan en un SLA superior:
+		-  Usar zonas de disponibilidad (Availability Zones).
+		-  Hacer que los sistemas sean redundantes.
+-
+- Es frecuente encontrar en el examen preguntas relacionadas con la disponibilidad de los servicios y la forma de mejorarla. Para ello es fundamental tener claros los conceptos de zona de disponibilidad (Availability Zone) y mecanismos de redundancia de los sistemas. Para poder resolver este tipo de preguntas hay que tener en cuenta que la disponibilidad de un servicio que es resultado de redundar elementos independientes es el producto de las disponibilidades de los elementos individuales que forman parte del servicio redundado. #flashcard
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 636e4b20-90f2-4dfc-b383-25c209f5e0d2
+	- [:span]
+	  ls-type:: annotation
+	  hl-page:: 13
+	  hl-color:: yellow
+	  id:: 636e4d21-db9f-49db-b5dd-29010a9ef010
+	  hl-type:: area
+	  hl-stamp:: 1668173089011

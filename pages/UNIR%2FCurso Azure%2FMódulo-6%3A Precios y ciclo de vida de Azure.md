@@ -2,6 +2,11 @@ deck:: [[UNIR::Curso Azure::Módulo-6]]
 tags:: UNIR, Azure
 
 -
+-
+- ## PDF
+	- ![Azure_Modulo-6_Precios-y-ciclo-de-vida-de-Azure.pdf](../assets/Azure_Modulo-6_Precios-y-ciclo-de-vida-de-Azure_1668170166688_0.pdf)
+	-
+-
 - ## Tema 1: Planificación y gestión de costes
 	- ### Factores que afectan a los costes
 		- ![image.png](../assets/image_1668168817047_0.png)

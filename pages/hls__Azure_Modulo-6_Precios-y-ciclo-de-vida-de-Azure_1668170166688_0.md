@@ -25,27 +25,35 @@ tags:: UNIR, Azure, PDFs
 		  id:: 636e4244-4bb9-458e-940c-fd16b79bf9e9
 		  hl-type:: area
 		  hl-stamp:: 1668170307965
-- La calculadora del coste total de propiedad (Total Cost of Ownership, TCO) es una herramienta para estimar los ahorros de costes que puede conseguir el cliente migrando a Azure. Genera un informe comparativo de los costes de las infraestructuras locales (on premise) con los costes del uso de productos y servicios de Azure en la nube.
-  ls-type:: annotation
-  hl-page:: 6
-  hl-color:: yellow
-  id:: 636e425a-82e7-4fc3-ac3f-ebb681ea2b19
-- El servicio de administración de costes y facturación de Azure (Azure Cost Management) ofrece a los clientes las funcionalidades siguientes: Creación de informes de facturación. Enriquecimiento de datos. Fijar presupuestos máximos. Alertas si se exceden los límites de costes. Recomendaciones sobre los costes.
-  ls-type:: annotation
-  hl-page:: 7
-  hl-color:: yellow
-  id:: 636e426b-123a-45c3-87f6-82e634a0a157
-- [:span]
-  ls-type:: annotation
-  hl-page:: 7
-  hl-color:: yellow
-  id:: 636e42fe-176f-4dd2-93cd-59ee5d2bb59f
-  hl-type:: area
-  hl-stamp:: 1668170494346
-- [:span]
-  ls-type:: annotation
-  hl-page:: 8
-  hl-color:: yellow
-  id:: 636e430f-c23d-4f5d-855c-f6e832a79e09
-  hl-type:: area
-  hl-stamp:: 1668170511440
+	- {{cloze La calculadora del coste total de propiedad (Total Cost of Ownership, TCO)}} es una herramienta para estimar los ahorros de costes que puede conseguir el cliente migrando a Azure. Genera un informe comparativo de los costes de las infraestructuras locales (on premise) con los costes del uso de productos y servicios de Azure en la nube. #flashcard
+	  hl-page:: 6
+	  ls-type:: annotation
+	  id:: 636e425a-82e7-4fc3-ac3f-ebb681ea2b19
+	  hl-color:: yellow
+	-
+	- El servicio de administración de costes y facturación de Azure (Azure Cost Management) ofrece a los clientes las funcionalidades siguientes: #flashcard
+	  hl-page:: 7
+	  ls-type:: annotation
+	  id:: 636e426b-123a-45c3-87f6-82e634a0a157
+	  hl-color:: yellow
+		-  Creación de informes de facturación.
+		-  Enriquecimiento de datos.
+		-  Fijar presupuestos máximos.
+		-  Alertas si se exceden los límites de costes.
+		-  Recomendaciones sobre los costes.
+	-
+	- Recomendaciones para minimizar costes en Azure: #flashcard
+		- [:span]
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: yellow
+		  id:: 636e42fe-176f-4dd2-93cd-59ee5d2bb59f
+		  hl-type:: area
+		  hl-stamp:: 1668170494346
+		- [:span]
+		  ls-type:: annotation
+		  hl-page:: 8
+		  hl-color:: yellow
+		  id:: 636e430f-c23d-4f5d-855c-f6e832a79e09
+		  hl-type:: area
+		  hl-stamp:: 1668170511440

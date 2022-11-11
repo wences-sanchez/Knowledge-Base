@@ -23,4 +23,7 @@ tags:: UNIR, Azure
 		- También nos dará consejos sobre los costes.
 	- ### Opciones para reducir los costes
 		- ![image.png](../assets/image_1668169958705_0.png)
-		-
+-
+-
+- ## Tema 2: Ciclo de vida de los servicios y SLA de Azure
+	-

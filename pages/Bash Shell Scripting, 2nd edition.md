@@ -5,7 +5,11 @@
 -
 -
 - ### Lesson 2: Getting Familiar with Bash #flashcard
+<<<<<<< HEAD
   id:: 636a1ae0-f35f-44c0-94de-74c316b4dba6
+=======
+  id:: 63454672-0a50-47a3-8ee2-dd044abbc8a9
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 	- STDIN, STDOUT and STDERR are file descriptors. They are flexible and dynamically allocated.
 	-
 	- A way of getting info about commands is: `help|info|man <command>`
@@ -36,13 +40,21 @@
 - #### Flashcards
   collapsed:: true
 	- Explain what is alias #flashcard
+<<<<<<< HEAD
 	  id:: 636a1ae0-e185-428d-bc85-82771a2c4d18
+=======
+	  id:: 63454672-0763-4a61-8cef-92ba6427c332
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- **alias** is a Bash internal command that allows us to define our own ones to sum up tasks
 			- With `alias` you can print all the aliased commands
 			- With `alias brief='my command'` you can write your own alias
 			- With `unalias <alias>` you can delete a created alias
 	- Name the files which contain the default settings of the shell boots #flashcard
+<<<<<<< HEAD
 	  id:: 636a1ae0-10e8-4abd-a958-5e4e0886eb63
+=======
+	  id:: 63454672-e8f1-4204-b5ba-5417f0b1ea43
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- Bash startup files are used to provide default settings for the operating system enviroment.
 			- These startup files are shell scripts themselves
 				- **/etc/profile** is a generic startup fiel that is started for every login shell
@@ -51,7 +63,11 @@
 					- **~/.bash_profile**
 					- **~/.bashrc**
 	- About exit codes: #flashcard
+<<<<<<< HEAD
 	  id:: 636a1ae0-9275-4b29-8807-174cc5fbf35f
+=======
+	  id:: 63454672-01a8-4882-b5a7-f35336c6faff
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- If 0, the command was executed successfully
 		- If 1, there was a generic error
 		- The developer of a program can decide to code other exit codes as well
@@ -59,7 +75,8 @@
 -
 - ---
 -
-- ### Lesson 3: Shell scripts in a DevOps environment: #spaced
+- ### Lesson 3: Shell scripts in a DevOps environment: #flashcard
+  id:: 63454672-c116-4955-af12-b6484ef0e523
 -
 	- The purpose of DevOps is to shorten the system development life cycle.
 	-
@@ -72,7 +89,8 @@
 	- For more advanced and more complex tasks, it might have sense develop a **Python** script. But **Bash** will be native (and maybe more suitable for not-so-complex tasks), so in the real world you have to learn both.
 - ---
 -
-- ### Lesson 4: Learning Linux Essentials for Shell Scripting #spaced
+- ### Lesson 4: Learning Linux Essentials for Shell Scripting #flashcard
+  id:: 63454672-29f7-4357-a72a-a9739314868c
 -
 	- The command in Bash for printing message and be respectful about special characters is:
 		- **echo -e** is for special characters
@@ -120,7 +138,11 @@
 - #### Flashcards
   collapsed:: true
 	- Tell me the command in Bash for printing message and be respectful about special characters #flashcard
+<<<<<<< HEAD
 	  id:: 636a1ae0-b0ef-4521-996d-12e878280c5a
+=======
+	  id:: 6345458c-1ed7-42d6-b083-f850c3c1733d
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- **echo -e** is for special characters
 		- `$ echo -e "Estoy partido\nen dos"`
 		- **printf** is an alternative, but is more like C-Shell...
@@ -130,7 +152,8 @@
 -
 - ## Module 2: Shell Scripting Fundamentals
 -
-- ### Lesson 5: Creating your First Shell Script #spaced
+- ### Lesson 5: Creating your First Shell Script #flashcard
+  id:: 63454672-1bf2-4392-92c8-ca8ccde67a86
 	-
 	- Things to consider when writing scritps:
 		- 1. Put the shebang: `#!/bin/bash`
@@ -163,6 +186,7 @@
   collapsed:: true
 	- Why do we have to indicate the exact path when calling a script in Linux? #flashcard
 	  collapsed:: true
+<<<<<<< HEAD
 	  id:: 636a1ae0-bf86-4f1b-b273-a797f3c449d5
 		- The scripts cannot be executed from a relative path because of security concerns of Linux
 	- How can we check the exit code of the last command in Bash? #flashcard
@@ -175,6 +199,20 @@
 	- How could you make a script to call it wherever? #flashcard
 	  collapsed:: true
 	  id:: 636a1ae0-ab54-4fcf-90d3-559cf1e66ed0
+=======
+	  id:: 63454672-001c-4986-b307-d1fa2375cb45
+		- The scripts cannot be executed from a relative path because of security concerns of Linux
+	- How can we check the exit code of the last command in Bash? #flashcard
+	  id:: 63454672-c4d4-46a1-98fa-8098aff12d3a
+		- With the token **$?**
+	- What do you have to type in Google to search Bash stuff? #flashcard
+	  collapsed:: true
+	  id:: 6345458c-ffa0-485b-af92-ce1535113621
+		- Bash Scripting Guide
+	- How could you make a script to call it wherever? #flashcard
+	  collapsed:: true
+	  id:: 63454672-789b-4679-9632-94e9106470b0
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- By:
 			- `$ export PATH=$PATH:$( pwd )`
 			- With *:* because that's the path delimiter
@@ -182,7 +220,8 @@
 			- `$ sudo cp myscript /usr/local/bin`
 - ---
 -
-- ### Lesson 6: Working with Variables and Arguments #spaced
+- ### Lesson 6: Working with Variables and Arguments #flashcard
+  id:: 63454672-c48a-4402-b3eb-8ada90c45c90
 	- An **argument** is anything that can be put behind the name of a command or script
 		- **ls -l /etc** has 2 arguments
 	- An **option** is an argument that changes the behavior of the command or script, and its functionality is programmed into the command
@@ -243,33 +282,54 @@
   collapsed:: true
 	- What is an argument? #flashcard
 	  collapsed:: true
+<<<<<<< HEAD
 	  id:: 636a1ae0-25b3-46b9-8089-21c9f9987ef2
 		- An **argument** is anything that can be put behind the name of a command or script
 		- **ls -l /etc** has 2 arguments
 	- What's an option? #flashcard
 	  id:: 636a1ae0-4959-496f-931d-1a5d8d180249
+=======
+	  id:: 63454672-aa0f-4baf-b82d-e3050a3b1d42
+		- An **argument** is anything that can be put behind the name of a command or script
+		- **ls -l /etc** has 2 arguments
+	- What's an option? #flashcard
+	  id:: 6345458c-1e41-4fde-ba99-d7770300395f
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- An **option** is an argument that changes the behavior of the command or script, and its functionality is programmed into the command
 		- In **ls -l /etc**, **-l** is used as an option
 	- What is a posicional parameter? #flashcard
 	  collapsed:: true
+<<<<<<< HEAD
 	  id:: 636a1ae0-4f8e-41a3-803d-9a0136d4d4b2
+=======
+	  id:: 63454672-4e4f-4372-bda1-660763ba2833
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- A **posicional parameter** is another word for an argument.
 		- It's the same thing as argument. But argument is a preferred name.
 		- A **variable** is a key with a name that can refer to a specific value
 	- How are quotes used in Bash? #flashcard
 	  collapsed:: true
+<<<<<<< HEAD
 	  id:: 636a1ae0-6530-44c7-8597-eec8d641bfcb
+=======
+	  id:: 63454672-bc31-46c4-a45e-e70630321a56
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- **Double quotes** (or **weak** quotes)are used to avoid interpretation of **spaces**
 			- echo "my value"
 		- **Single quotes** (or **strong** quotes)are used to avoid interpretation of **anything**
 			- echo the current '$SHELL' is $SHELL
-	- **declare** can be used to set specific the following variable attributes: #spaced
+	- **declare** can be used to set specific the following variable attributes: #flashcard
 	  collapsed:: true
+	  id:: 63454672-173a-48f5-af0d-52456ce2ee60
 		- **declare -r ANSWER=yes** sets *$ANSWER* as a read-only variable
 		- **declare [-a|-A] MYARRAY** is used to define an indexed (or associative) array.
 		- **declare -p var** tells you about *var*
 	- About the variables in Bash #flashcard
+<<<<<<< HEAD
 	  id:: 636a1ae0-869d-4881-8c40-134d933adad8
+=======
+	  id:: 63454672-7d19-4e83-8351-322efd89a5e9
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- You can check your variables with **grep** in **$ set**
 		- You can refer to script arguments with a number:
 			- $1, $2, ... $9, ${10}, ${11}...
@@ -286,7 +346,8 @@
 		- Inside a function, it doesn't matter if the variable is only inside the scope. If it's in the middle of the flow, then that's enough.
 - ---
 -
-- ### Lesson 7: Transforming Input #spaced
+- ### Lesson 7: Transforming Input #flashcard
+  id:: 63454672-58ab-47b3-8086-4c7d65828d5e
 	- When we want to define a default value for a variable in Bash:
 		- If we want to use the default, NOT set it,
 			- With ${myvar**:-**default_value}
@@ -308,14 +369,20 @@
 - #### Lab 7
   collapsed:: true
 	- ![image.png](../assets/image_1658906736055_0.png)
-	- Hay que incluir los parámetros de pattern matching dentro de las llaves del nombre del parámetro: #spaced #dev-notes
+	- Hay que incluir los parámetros de pattern matching dentro de las llaves del nombre del parámetro: #flashcard #dev-notes
+	  id:: 63454672-1b8d-4c78-9ae9-184904f384bf
 		- `mv ${file} ${file%*.txt}`
-	- With **bash -x** you can view the script execution line by line so that you can debug it #spaced #dev-notes
+	- With **bash -x** you can view the script execution line by line so that you can debug it #flashcard #dev-notes
+	  id:: 63454672-e31d-4e9b-be63-394dd37cef36
 - ---
 - #### Flashcards
 - How do you deal with a default value for one variable in Bash? #flashcard
   collapsed:: true
+<<<<<<< HEAD
   id:: 636a1ae0-0a55-4325-ae4b-02bbffcb5732
+=======
+  id:: 63454672-3e37-44d0-9265-4438dea77f6b
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 	- If we want to use the default, NOT set it,
 		- With ${myvar**:-**default_value}
 	- If we want to set that to the default value,
@@ -326,7 +393,8 @@
 - ---
 - ## Module 3: Using Conditional Statements
 -
-- ### Lesson 8: Using if and if then else #spaced
+- ### Lesson 8: Using if and if then else #flashcard
+  id:: 63454672-0fc9-423d-b479-5ecad247063b
 	- **help test** lists all the arguments =)
 	- We can write tests in another way:
 		- && for and
@@ -345,12 +413,20 @@
 - #### Flashcards
 	- How could you do to search about special meanings of every test character in Bash? #flashcard #dev-notes
 	  collapsed:: true
+<<<<<<< HEAD
 	  id:: 636a1ae0-bfee-401b-8655-658efcee1bf8
+=======
+	  id:: 63454672-35a8-418a-b101-b28c086ed831
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- With $ help test
 	-
 	- How can you check the condition of one test in one token depending its output? #flashcard #dev-notes
 	  collapsed:: true
+<<<<<<< HEAD
 	  id:: 636a1ae0-b8bb-4c24-b875-c094ec8261ef
+=======
+	  id:: 63454672-78ee-44f3-aca7-4f65f8d32653
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- With the below:
 		- `[ -d /home/wences ] && echo directory exists`
 		- `[ -d /home/noone ] || echo directory does not exist`
@@ -370,10 +446,15 @@
 -
 - ---
 - #### Flashcards
-	- With `read VAR`, you are already saving it in $VAR #spaced #dev-notes
+	- With `read VAR`, you are already saving it in $VAR #flashcard #dev-notes
+	  id:: 63454672-05d4-4e50-a298-bddb30515638
 	- Syntax of case in Bash: #flashcard
 	  collapsed:: true
+<<<<<<< HEAD
 	  id:: 636a1ae0-ec3b-4959-b734-c13997debf34
+=======
+	  id:: 6345458c-6d35-4b07-8183-4e6408b957c3
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- You can see it below:
 		- ```
 		  case $VAR in
@@ -408,7 +489,11 @@
 - ---
 - #### Flashcards
 	- What is the syntax of **getopts**? #flashcard
+<<<<<<< HEAD
 	  id:: 636a1ae0-b052-4286-9a57-c4dce1436d51
+=======
+	  id:: 6345458c-0344-40d1-8e7d-6b7e5effe337
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- The below one:
 		- ```
 		  while getopts "hs:" arg; do
@@ -427,6 +512,7 @@
 		  done
 		  ```
 	- How can you restrict a variable to a function? #flashcard
+<<<<<<< HEAD
 	  id:: 636a1ae0-f231-43e6-b70e-a8dda457eabb
 		- With **local** var=value
 	- How could you create a menu in Bash? #flashcard
@@ -435,10 +521,21 @@
 		- ![image.png](../assets/image_1658921094274_0.png)
 	- What is the use of **trap**? #flashcard
 	  id:: 636a1ae0-67c4-400b-9cd0-2039dd4bad3a
+=======
+	  id:: 63454672-80d4-427b-8ff3-c56b376b3638
+		- With **local** var=value
+	- How could you create a menu in Bash? #flashcard
+	  collapsed:: true
+	  id:: 6345458c-16da-4212-8d0d-f77acff6f34b
+		- ![image.png](../assets/image_1658921094274_0.png)
+	- What is the use of **trap**? #flashcard
+	  id:: 6345458c-b3d1-4c21-9931-784412ce1892
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- You can catch OS signals with it as CTL^C and prevent the scrpt to stop
 		- You can assign actions that happen when those signals are executed or pressed
 - ---
-- ### Lesson 11: Using Arrays #spaced
+- ### Lesson 11: Using Arrays #flashcard
+  id:: 63454672-6d1a-4386-84c4-b8e426f1bb8e
 	- You can use **declare -A** to buid an asociative array in Bash.
 		- **declare -a** in lowercase to a regular array
 	-
@@ -456,16 +553,28 @@
 - ---
 - #### Flashcards
 	- How to create an array in Bash? #flashcard
+<<<<<<< HEAD
 	  id:: 636a1ae0-0581-4130-b206-9de871b36187
+=======
+	  id:: 63454672-40c3-483f-83d4-c5a88e7fa878
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- `myArray=(content with spaces)` # Without '$'
 		- In order to print it, simply put:
 			- `"${myArray[@]}"`
 	- How can you build a range of numbers in the shell? #flashcard
+<<<<<<< HEAD
 	  id:: 636a1ae0-362a-4540-bd0d-832481592bd2
 		- With somethin like this`{1..10}`
 		- Remember the curly brackets!!
 	- How do you iterate over an array in Bash? #flashcard
 	  id:: 636a1ae0-3d21-49a2-b027-970dd3c56ee5
+=======
+	  id:: 63454672-6d95-4555-a37d-194c82d519cd
+		- With somethin like this`{1..10}`
+		- Remember the curly brackets!!
+	- How do you iterate over an array in Bash? #flashcard
+	  id:: 63454672-8478-407b-8385-6713e003de3e
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- With **"${myArray[@}]}"**
 -
 - ---

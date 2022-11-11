@@ -12,4 +12,10 @@ tags:: UNIR, Azure
 	-
 - ## Tema 2: Productos principales de carga de trabajo de Azure
 	- ### [[UNIR/Curso Azure/Módulo-2: Servicios principales de Azure/Tema 2: Productos principales de carga de trabajo de Azure]]
+<<<<<<< HEAD
 	-
+=======
+-
+-
+-
+>>>>>>> cd827be2af13b105731b701835027f11e7012c97

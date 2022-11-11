@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "422e709abe73a32b",
+        "id": "d51e896e2644b7b3",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -37,7 +41,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/UNIR%2FCurso AWS%2FMódulo-1.md"
+              }
             }
           }
         ]
@@ -120,6 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "422e709abe73a32b",
-  "lastOpenFiles": []
+  "active": "d51e896e2644b7b3",
+  "lastOpenFiles": [
+    "pages/hls__UNIR-AWS_Modulo-1_1664869606733_0.md",
+    "pages/UNIR%2FCurso AWS%2FMódulo-1.md",
+    "pages/CAF (Cloud Adoption Framework).md",
+    "pages/AWS.md",
+    "pages/Infraestructura como Sofware.md",
+    "logseq/bak/pages/UNIR%2FCurso AWS%2FMódulo-1/2022-10-04T09_20_46.177Z.Desktop.md",
+    "logseq/bak/pages/Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course/2022-09-02T09_20_42.267Z.Desktop.md",
+    "logseq/bak/pages/Introduction to Software Testing/2022-08-31T11_02_30.564Z.Desktop.md",
+    "pages/informática en la nube.md",
+    "UNIR/Curso AWS/Módulo-1.md"
+  ]
 }

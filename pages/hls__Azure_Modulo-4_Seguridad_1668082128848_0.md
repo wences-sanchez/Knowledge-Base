@@ -71,18 +71,55 @@ tags:: UNIR, Azure, PDFs
 -
 - ## Tema 2: Conectividad de red segura
 	-
-- Los grupos de seguridad de red (Network Security Groups, NSG) filtran el tráfico de red hacia y desde los recursos de Azure en redes virtuales de Azure. Sus principales características son: Permiten establecer reglas de entrada y salida para filtrar por dirección IP, puerto y protocolo de origen y destino. Se pueden añadir varias reglas, según sea necesario, dentro de los límites de la suscripción. Azure aplica las reglas de seguridad predeterminadas de línea de base a los nuevos NSG. Las reglas de mayor prioridad anulan las reglas predeterminadas.
-  ls-type:: annotation
-  hl-page:: 10
-  hl-color:: yellow
-  id:: 636e0d76-8fe3-4492-9b92-78cc26b4b342
-- Los grupos de seguridad de aplicaciones (Applications Security Groups) permiten configurar la seguridad de red como una extensión natural de la estructura de una aplicación. Sus principales características son: Permiten agrupar máquinas virtuales y directivas de seguridad de red basadas en esos grupos. Se pueden reutilizar las directivas de seguridad a escala sin necesidad de modificar manualmente direcciones IP. Con grupos de seguridad de aplicaciones se pueden habilitar o denegar determinados tráficos desde y hacia las interfaces de red pertenecientes al ASG.
-  ls-type:: annotation
-  hl-page:: 11
-  hl-color:: yellow
-  id:: 636e0d98-5507-491b-af07-14713bca9d00
-- Azure Firewall es un Firewall como servicio (FaaS) con estado y administrado que permite o deniega el acceso a los servidores en función de la dirección IP de origen para proteger los recursos de la red. Sus principales características son: Permite aplicar reglas de filtrado de tráfico de entrada y de salida. Alta disponibilidad. Escalabilidad ilimitada que aporta la nube. Utiliza el registro de Azure Monitor. Por otro lado, Azure también ofrece un servicio de firewall de aplicaciones web (Web Application Firewall, WAF) denominado Azure Application Gateway. Este servicio de WAF ofrece una protección centralizada del tráfico entrante para aplicaciones web.
-  ls-type:: annotation
-  hl-page:: 11
-  hl-color:: yellow
-  id:: 636e0db8-b49b-43f9-8df4-f3eafca03291
+	- Los **grupos de seguridad de red** (Network Security Groups, NSG) filtran el tráfico de red hacia y desde los recursos de Azure en redes virtuales de Azure. Sus principales características son: #flashcard
+	  hl-page:: 10
+	  ls-type:: annotation
+	  id:: 636e0d76-8fe3-4492-9b92-78cc26b4b342
+	  hl-color:: yellow
+		-  Permiten **establecer reglas de entrada y salida** para filtrar por **dirección IP**, puerto y **protocolo** de **origen** y **destino**.
+		-  Se pueden añadir **varias reglas**, según sea necesario, dentro de los límites de la suscripción.
+		-  Azure aplica las **reglas de seguridad predeterminadas** de línea de base a los **nuevos** NSG.
+		-  Las reglas de **mayor prioridad anulan** las reglas **predeterminadas**.
+-
+	- Los grupos de seguridad de aplicaciones (Applications Security Groups) permiten configurar la seguridad de red como una extensión natural de la estructura de una aplicación. Sus principales características son: #flashcard
+	  hl-page:: 11
+	  ls-type:: annotation
+	  id:: 636e0d98-5507-491b-af07-14713bca9d00
+	  hl-color:: yellow
+		-  Permiten agrupar máquinas virtuales y directivas de seguridad de red basadas en esos grupos.
+		-  Se pueden reutilizar las directivas de seguridad a escala sin necesidad de modificar manualmente direcciones IP.
+		- Con grupos de seguridad de aplicaciones se pueden habilitar o denegar determinados tráficos desde y hacia las interfaces de red pertenecientes al ASG.
+	-
+	- **Azure Firewall** es un Firewall como servicio (FaaS) con estado y administrado que permite o deniega el acceso a los servidores en función de la dirección IP de origen para proteger los recursos de la red. Sus principales características son: #flashcard
+	  hl-page:: 11
+	  ls-type:: annotation
+	  id:: 636e0db8-b49b-43f9-8df4-f3eafca03291
+	  hl-color:: yellow
+		-  Permite aplicar reglas de filtrado de tráfico de entrada y de salida.
+		-  Alta disponibilidad.
+		-  Escalabilidad ilimitada que aporta la nube.
+		-  Utiliza el registro de Azure Monitor.
+		- Por otro lado, Azure también ofrece un servicio de firewall de aplicaciones web (Web Application Firewall, WAF) denominado Azure Application Gateway. Este servicio de WAF ofrece una protección centralizada del tráfico entrante para aplicaciones web.
+	-
+	- Los ataques DDoS saturan y agotan los recursos de la red, motivando que las aplicaciones vayan lentas o bien dejen de responder. La protección contra DDoS en Azure corrige el tráfico de red no deseado antes de que afecte a la disponibilidad del servicio. Azure DDoS Protection proporciona dos niveles de servicio: #flashcard
+	  hl-page:: 12
+	  ls-type:: annotation
+	  id:: 636e0de0-253a-4848-8661-e022bd5a4faf
+	  hl-color:: yellow
+		-  **Básico**, que está habilitado automáticamente sin coste como parte de la suscripción. Garantiza que la infraestructura de Azure no se vea afectada por un ataque DDoS a gran escala.
+		-  **Estándar**, que ofrece El nivel de servicio estándar añade capacidades de mitigación, ajustadas para proteger los recursos de Azure Virtual Network. Ambas modalidades proporcionan supervisión continua del tráfico y mitigación en tiempo real de los ataques a nivel de red más comunes.
+		- [:span]
+		  ls-type:: annotation
+		  hl-page:: 12
+		  hl-color:: yellow
+		  id:: 636e0f4f-89a2-435c-87e8-e55025349317
+		  hl-type:: area
+		  hl-stamp:: 1668157262988
+	- Los tipos de ataques que ayuda a evitar DDoS Protection son: #flashcard
+	  hl-page:: 13
+	  ls-type:: annotation
+	  id:: 636e0df5-34d9-4757-81f9-6ca74b15a8c7
+	  hl-color:: yellow
+		-  Ataques volumétricos, cuyo objetivo es desbordar la capa de red con una gran cantidad de tráfico aparentemente legítimo.
+		-  Ataques de protocolo que vuelven un destino inaccesible al aprovechar una vulnerabilidad en la pila de protocolo de capa 3 y 4.
+		-  Ataques a nivel de recurso (nivel de aplicación) aplicaciones web para interrumpir la transmisión de datos entre hosts. Para la defensa contra este tipo de ataque DDoS Protection estándar requiere un firewall de aplicaciones web (WAF).

@@ -23,5 +23,8 @@ tags:: UNIR, Azure
 		- **Acceso Condicional**
 		- Es lo que utiliza Azure Active Directory para reunir señales, tomar decisiones y aplicar directivas de la organización referentes a la autenticación.
 		- ![image.png](../assets/image_1668160199070_0.png)
-		-
+	-
+	-
+- ## Tema 2: Gobernanza en Azure
+	-
 	-

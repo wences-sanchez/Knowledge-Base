@@ -898,7 +898,7 @@
   :block/updated-at 1668164004773}
  {:block/name "friday, 11-11-2022",
   :block/created-at 1668163365289,
-  :block/updated-at 1668173000814}
+  :block/updated-at 1668180060704}
  {:block/name "friday, 12-08-2022",
   :block/created-at 1668163370742,
   :block/updated-at 1668163370742}
@@ -1515,7 +1515,7 @@
   :block/updated-at 1668163372349}
  {:block/name "monday, 07-11-2022",
   :block/created-at 1668163365558,
-  :block/updated-at 1668163365558}
+  :block/updated-at 1668180176663}
  {:block/name "monday, 08-08-2022",
   :block/created-at 1668163371062,
   :block/updated-at 1668163371062}

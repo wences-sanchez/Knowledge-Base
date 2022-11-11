@@ -1,2 +1,0 @@
-- CANCELED Darme de baja en Zety 
-  SCHEDULED: <2022-09-09 Fri>

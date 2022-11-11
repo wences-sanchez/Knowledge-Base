@@ -1,4 +1,4 @@
-deck:: [[UNIR::Curso Azure::Módulo-3]]
+deck:: [[UNIR::Curso Azure::Módulo-4]] 
 tags:: UNIR, Azure
 
 -
@@ -20,4 +20,16 @@ tags:: UNIR, Azure
 		- Recopila información de nuestras aplicaciones para buscar actividad maliciosa
 	- ### Hosts dedicados
 		-
+-
+- ## Tema 2: Conectividad de red segura
+	- ### Defensa en profundidad
+		- ![image.png](../assets/image_1668155431551_0.png)
+		- La defensa en profundidad hace referencia a un modelo por capas que nos permite asegurar un sistema.
+		- Deberíamos añadir un mecanismo de seguridad en cada una de nuestras capas.
+		- Si alguien consigue sobrepasar un nivel, tendrá que pasar también las otras capas
+	- ### Modelo de seguridad compartida
+		- ![image.png](../assets/image_1668155563043_0.png)
+		-
+	- ### Grupos de seguridad y firewall
+	- ### Protección frente a DDoS
 	-

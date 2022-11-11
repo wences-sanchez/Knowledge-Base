@@ -60,4 +60,9 @@ tags:: UNIR, Azure, PDFs
   ls-type:: annotation
   id:: 636ceaae-37c7-40b7-af90-49978781ece1
   hl-color:: yellow
-	- Es posible aprovisionar hosts dedicados dentro de una región, zona de disponibilidad y dominio de error, de modo que se pueden ejecutar máquinas virtuales directamente en sus hosts dedicados en la configuración que mejor se adapte a las necesidades del cliente. Los beneficios que reporta su uso son: Aislamiento de hardware a nivel de servidor. Esto significa que no se colocarán otras máquinas virtuales en estos hosts. Los hosts dedicados comparten la misma red y la misma infraestructura de almacenamiento subyacente que otros hosts no aislados. Control sobre la programación de eventos de mantenimiento. Alineado con las ventajas híbridas de Azure. Con ello el cliente puede aportar sus propias licencias de Windows y SQL. La limitación de este servicio es que no permite utilizar conjuntos de escalado de máquinas virtuales.
+	- Es posible aprovisionar hosts dedicados dentro de una región, zona de disponibilidad y dominio de error, de modo que se pueden ejecutar máquinas virtuales directamente en sus hosts dedicados en la configuración que mejor se adapte a las necesidades del cliente.
+	- Los beneficios que reporta su uso son:
+		-  **Aislamiento de hardware a nivel de servidor**. Esto significa que no se colocarán otras máquinas virtuales en estos hosts. Los hosts dedicados comparten la misma red y la misma infraestructura de almacenamiento subyacente que otros hosts no aislados.
+		-  **Control sobre** la programación de **eventos de mantenimiento**.
+		-  Alineado con las **ventajas híbridas de Azure**. Con ello el cliente puede aportar sus propias licencias de Windows y SQL.
+	- La **limitación** de este servicio es que **no permite** utilizar **conjuntos de escalado de máquinas virtuales**.

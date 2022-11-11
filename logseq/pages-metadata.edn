@@ -981,7 +981,7 @@
   :block/updated-at 1665484160843}
  {:block/name "friday, 11-11-2022",
   :block/created-at 1668154504104,
-  :block/updated-at 1668159093684}
+  :block/updated-at 1668159369650}
  {:block/name "friday, 12-08-2022",
   :block/created-at 1660214678273,
   :block/updated-at 1660373313379}
@@ -2911,7 +2911,7 @@
  {:block/name
   "unir/curso azure/módulo-5: identidad, gobernanza, privacidad y cumplimiento",
   :block/created-at 1668159006497,
-  :block/updated-at 1668159006497}
+  :block/updated-at 1668159883187}
  {:block/name "unir::curso azure::módulo-1",
   :block/created-at 1667234893883,
   :block/updated-at 1667234893883}
@@ -2924,6 +2924,9 @@
  {:block/name "unir::curso azure::módulo-4",
   :block/created-at 1668154509916,
   :block/updated-at 1668154509916}
+ {:block/name "unir::curso azure::módulo-5",
+  :block/created-at 1668159472701,
+  :block/updated-at 1668159472701}
  {:block/name "unit-4",
   :block/created-at 1665484161631,
   :block/updated-at 1665484161631}

@@ -38,21 +38,28 @@ tags:: UNIR, Azure, PDFs
 		-  Administración de aplicaciones.
 		-  Administración de dispositivos.
 		-
-	- Un inquilino (Tenant) de Azure es una instancia propia y segura de Azure AD que se crea automáticamente cuando la organización adquiere una suscripción a un servicio en la nube de Microsoft, como por ejemplo Microsoft Azure u Office 365. Cada inquilino de Azure representa una única organización. Cada inquilino de Azure cuenta con un directorio de Azure AD propio y seguro. Dicho AAD incluye los usuarios, grupos y aplicaciones del inquilino, y sirve para llevar a cabo funciones de administración de acceso e identidad para los recursos del inquilino.
-	  ls-type:: annotation
+	- Un **inquilino** (**Tenant**) de Azure es una instancia propia y segura de Azure AD que se crea automáticamente cuando la organización adquiere una suscripción a un servicio en la nube de Microsoft, como por ejemplo Microsoft Azure u Office 365. Cada inquilino de Azure representa una única organización. Cada inquilino de Azure cuenta con un directorio de Azure AD propio y seguro. Dicho AAD incluye los usuarios, grupos y aplicaciones del inquilino, y sirve para llevar a cabo funciones de administración de acceso e identidad para los recursos del inquilino. #flashcard
 	  hl-page:: 6
-	  hl-color:: yellow
+	  ls-type:: annotation
 	  id:: 636e1d1a-fa21-4bd9-aee1-7d50f3fd7d46
+	  hl-color:: yellow
 -
-- El acceso condicional es el mecanismo utilizado por Azure Active Directory para reunir señales, tomar decisiones y aplicar las directivas de la organización. El uso de directivas de acceso condicional permite aplicar los controles de acceso correctos cuando sea necesario para mantener la organización segura y no interferir con los usuarios cuando no se necesita. Las principales señales de entrada a las directivas de acceso condicional son: Usuario o pertenencia a un grupo. Ubicación de la dirección IP. Dispositivo. Aplicación. Detección de riesgos.
-  ls-type:: annotation
-  hl-page:: 7
-  hl-color:: yellow
-  id:: 636e1d33-e61e-4965-aeae-c94f7f50db2a
-- [:span]
-  ls-type:: annotation
-  hl-page:: 7
-  hl-color:: yellow
-  id:: 636e1d3e-bac2-4bbf-b239-b1d08e086682
-  hl-type:: area
-  hl-stamp:: 1668160830178
+	- El acceso condicional es el mecanismo utilizado por Azure Active Directory para reunir señales, tomar decisiones y aplicar las directivas de la organización. #flashcard
+	  hl-page:: 7
+	  ls-type:: annotation
+	  id:: 636e1d33-e61e-4965-aeae-c94f7f50db2a
+	  hl-color:: yellow
+		- El uso de directivas de acceso condicional permite aplicar los controles de acceso correctos cuando sea necesario para mantener la organización segura y no interferir con los usuarios cuando no se necesita.
+		- Las principales señales de entrada a las directivas de acceso condicional son:
+			-  Usuario o pertenencia a un grupo.
+			-  Ubicación de la dirección IP.
+			-  Dispositivo.
+			-  Aplicación.
+			-  Detección de riesgos.
+		- [:span]
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: yellow
+		  id:: 636e1d3e-bac2-4bbf-b239-b1d08e086682
+		  hl-type:: area
+		  hl-stamp:: 1668160830178

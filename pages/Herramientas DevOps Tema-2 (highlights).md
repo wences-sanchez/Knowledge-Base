@@ -1,5 +1,4 @@
 title:: Herramientas DevOps Tema-2 (highlights)
-deck:: [[UNI::Herramientas DevOps Tema-2]]
 author:: [[UNIR]]
 full-title:: "Herramientas DevOps Tema-2"
 category:: #books

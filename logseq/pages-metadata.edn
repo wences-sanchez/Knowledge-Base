@@ -932,7 +932,7 @@
   :block/updated-at 1668163421134}
  {:block/name "gestion_de_proyectos tema-1 (highlights)",
   :block/created-at 1668163590434,
-  :block/updated-at 1668163590434}
+  :block/updated-at 1668183604031}
  {:block/name "gestion_de_proyectos tema-10 (highlights)",
   :block/created-at 1668163590852,
   :block/updated-at 1668163590852}
@@ -944,7 +944,7 @@
   :block/updated-at 1668163592149}
  {:block/name "gestion_de_proyectos tema-4 (highlights)",
   :block/created-at 1668163592759,
-  :block/updated-at 1668163592759}
+  :block/updated-at 1668183660006}
  {:block/name "gestion_de_proyectos tema-5 (highlights)",
   :block/created-at 1668163593521,
   :block/updated-at 1668163593521}
@@ -990,15 +990,15 @@
  {:block/name
   "herramientas de automatización de despliegues tema-1 (highlights)",
   :block/created-at 1668163604411,
-  :block/updated-at 1668163604411}
+  :block/updated-at 1668183755484}
  {:block/name
   "herramientas de automatización de despliegues tema-2 (highlights)",
   :block/created-at 1668163605392,
-  :block/updated-at 1668163605392}
+  :block/updated-at 1668183775071}
  {:block/name
   "herramientas de automatización de despliegues tema-3 (highlights)",
   :block/created-at 1668163606183,
-  :block/updated-at 1668163606183}
+  :block/updated-at 1668183735920}
  {:block/name
   "herramientas de automatización de despliegues tema-4 (highlights)",
   :block/created-at 1668163606964,
@@ -1006,23 +1006,23 @@
  {:block/name
   "herramientas de automatización de despliegues tema-5 (highlights)",
   :block/created-at 1668163607832,
-  :block/updated-at 1668163607832}
+  :block/updated-at 1668183787275}
  {:block/name
   "herramientas de automatización de despliegues tema-6 (highlights)",
   :block/created-at 1668163608730,
-  :block/updated-at 1668163608730}
+  :block/updated-at 1668183765888}
  {:block/name
   "herramientas de automatización de despliegues tema-7 (highlights)",
   :block/created-at 1668163609627,
-  :block/updated-at 1668163609627}
+  :block/updated-at 1668183745759}
  {:block/name
   "herramientas de automatización de despliegues tema-8 (highlights)",
   :block/created-at 1668163610403,
-  :block/updated-at 1668163610403}
+  :block/updated-at 1668183709417}
  {:block/name
   "herramientas de automatización de despliegues tema-9 (highlights)",
   :block/created-at 1668163611056,
-  :block/updated-at 1668163611056}
+  :block/updated-at 1668183723141}
  {:block/name "herramientas devops tema-1 (highlights)",
   :block/created-at 1668163597460,
   :block/updated-at 1668163597460}
@@ -2539,9 +2539,6 @@
  {:block/name "uni::entornos_de_integracion_y_entrega_continua tema-9",
   :block/created-at 1668163588689,
   :block/updated-at 1668163588689}
- {:block/name "uni::gestion_de_proyectos tema-1",
-  :block/created-at 1668163590386,
-  :block/updated-at 1668163590386}
  {:block/name "uni::gestion_de_proyectos tema-10",
   :block/created-at 1668163590809,
   :block/updated-at 1668163590809}
@@ -2551,9 +2548,6 @@
  {:block/name "uni::gestion_de_proyectos tema-3",
   :block/created-at 1668163592105,
   :block/updated-at 1668163592105}
- {:block/name "uni::gestion_de_proyectos tema-4",
-  :block/created-at 1668163592719,
-  :block/updated-at 1668163592719}
  {:block/name "uni::gestion_de_proyectos tema-5",
   :block/created-at 1668163593474,
   :block/updated-at 1668163593474}
@@ -2570,41 +2564,9 @@
   :block/created-at 1668163595784,
   :block/updated-at 1668163595784}
  {:block/name
-  "uni::herramientas de automatización de despliegues tema-1",
-  :block/created-at 1668163604367,
-  :block/updated-at 1668163604367}
- {:block/name
-  "uni::herramientas de automatización de despliegues tema-2",
-  :block/created-at 1668163605352,
-  :block/updated-at 1668163605352}
- {:block/name
-  "uni::herramientas de automatización de despliegues tema-3",
-  :block/created-at 1668163606140,
-  :block/updated-at 1668163606140}
- {:block/name
   "uni::herramientas de automatización de despliegues tema-4",
   :block/created-at 1668163606923,
   :block/updated-at 1668163606923}
- {:block/name
-  "uni::herramientas de automatización de despliegues tema-5",
-  :block/created-at 1668163607772,
-  :block/updated-at 1668163607772}
- {:block/name
-  "uni::herramientas de automatización de despliegues tema-6",
-  :block/created-at 1668163608683,
-  :block/updated-at 1668163608683}
- {:block/name
-  "uni::herramientas de automatización de despliegues tema-7",
-  :block/created-at 1668163609585,
-  :block/updated-at 1668163609585}
- {:block/name
-  "uni::herramientas de automatización de despliegues tema-8",
-  :block/created-at 1668163610362,
-  :block/updated-at 1668163610362}
- {:block/name
-  "uni::herramientas de automatización de despliegues tema-9",
-  :block/created-at 1668163611012,
-  :block/updated-at 1668163611012}
  {:block/name "uni::herramientas devops tema-1",
   :block/created-at 1668163597418,
   :block/updated-at 1668163597418}

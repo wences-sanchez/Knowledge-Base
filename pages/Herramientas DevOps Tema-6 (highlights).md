@@ -1,5 +1,4 @@
 title:: Herramientas DevOps Tema-6 (highlights)
-deck:: [[UNI::Herramientas DevOps Tema-6]]
 author:: [[UNIR]]
 full-title:: "Herramientas DevOps Tema-6"
 category:: #books

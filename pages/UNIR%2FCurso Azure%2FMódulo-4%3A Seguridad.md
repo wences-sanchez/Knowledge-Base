@@ -22,19 +22,19 @@ tags:: UNIR, Azure
 		-
 -
 - ## Tema 2: Conectividad de red segura
-	- ### Defensa en profundidad
+	- ### Defensa en profundidad #flashcard
 		- ![image.png](../assets/image_1668155431551_0.png)
 		- La defensa en profundidad hace referencia a un modelo por capas que nos permite asegurar un sistema.
 		- Deberíamos añadir un mecanismo de seguridad en cada una de nuestras capas.
 		- Si alguien consigue sobrepasar un nivel, tendrá que pasar también las otras capas
-	- ### Modelo de seguridad compartida
+	- ### Modelo de seguridad compartida #flashcard
 		- ![image.png](../assets/image_1668155563043_0.png)
-	- ### Grupos de seguridad y firewall
+	- ### Grupos de seguridad y firewall #flashcard
 		- Filtra el tráfico de red hacia y desde los recursos de Azure en redes virtuales.
 		- Las reglas empiezan a contar a partir de 100 para arriba. Más alta, menos prioritaria.
 		- Un proxy inverso es un punto de entrada único a nuestro sistema para el mundo.
 			- Podemos tener una aplicación con muchos microservicios pero un único punto para redirigir nuestro tráfico.
-	- ### Protección frente a DDoS
+	- ### Protección frente a DDoS #flashcard
 		- Azure ofrece un servicio básico de protección contra ataques de denegación de servicio básico.
 			- Aunque solo filtra tráfico sospechoso y no tiene logging ni alertas. Por lo que no nos enteraremos si hemos sido protegidos o no.
 		- ![image.png](../assets/image_1668156345383_0.png)

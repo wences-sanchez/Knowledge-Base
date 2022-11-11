@@ -29,7 +29,13 @@ tags:: UNIR, Azure
 		- Si alguien consigue sobrepasar un nivel, tendrá que pasar también las otras capas
 	- ### Modelo de seguridad compartida
 		- ![image.png](../assets/image_1668155563043_0.png)
-		-
 	- ### Grupos de seguridad y firewall
+		- Filtra el tráfico de red hacia y desde los recursos de Azure en redes virtuales.
+		- Las reglas empiezan a contar a partir de 100 para arriba. Más alta, menos prioritaria.
+		- Un proxy inverso es un punto de entrada único a nuestro sistema para el mundo.
+			- Podemos tener una aplicación con muchos microservicios pero un único punto para redirigir nuestro tráfico.
 	- ### Protección frente a DDoS
+		- Azure ofrece un servicio básico de protección contra ataques de denegación de servicio básico.
+			- Aunque solo filtra tráfico sospechoso y no tiene logging ni alertas. Por lo que no nos enteraremos si hemos sido protegidos o no.
+		-
 	-

@@ -1,5 +1,5 @@
 title:: Networking Fundamentals (highlights)
-deck:: [[Other-Books::Networking Fundamentals]]
+deck:: [[O'Reilly-Learning::Networking Fundamentals]]
 author:: [[]]
 full-title:: "Networking Fundamentals"
 category:: #books

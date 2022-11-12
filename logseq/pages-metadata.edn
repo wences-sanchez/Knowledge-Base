@@ -1557,7 +1557,7 @@
   :block/updated-at 1668163685765}
  {:block/name "networking fundamentals (highlights)",
   :block/created-at 1668163686365,
-  :block/updated-at 1668163686365}
+  :block/updated-at 1668243118254}
  {:block/name "nginx configuration guide (highlights)",
   :block/created-at 1668163685018,
   :block/updated-at 1668163685018}
@@ -1651,6 +1651,9 @@
  {:block/name "o'reilly-learning::networking all-in-one for dummies",
   :block/created-at 1668163685721,
   :block/updated-at 1668163685721}
+ {:block/name "o'reilly-learning::networking fundamentals",
+  :block/created-at 1668243118241,
+  :block/updated-at 1668243118241}
  {:block/name "o'reilly-learning::practical ansible 2",
   :block/created-at 1668163693805,
   :block/updated-at 1668163693805}
@@ -1804,8 +1807,8 @@
   :block/created-at 1668163684017,
   :block/updated-at 1668163684017}
  {:block/name "other-books::networking fundamentals",
-  :block/created-at 1668163686331,
-  :block/updated-at 1668163686331}
+  :block/created-at 1668243088315,
+  :block/updated-at 1668243088315}
  {:block/name "other-books::oca",
   :block/created-at 1668163690708,
   :block/updated-at 1668163690708}
@@ -2042,6 +2045,9 @@
  {:block/name "saturday, 10-09-2022",
   :block/created-at 1668163367821,
   :block/updated-at 1668163367821}
+ {:block/name "saturday, 12-11-2022",
+  :block/created-at 1668241953295,
+  :block/updated-at 1668241953295}
  {:block/name "saturday, 13-08-2022",
   :block/created-at 1668163370102,
   :block/updated-at 1668163370102}

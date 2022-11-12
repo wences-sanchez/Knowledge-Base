@@ -1002,7 +1002,7 @@
  {:block/name
   "herramientas de automatización de despliegues tema-4 (highlights)",
   :block/created-at 1668163606964,
-  :block/updated-at 1668163606964}
+  :block/updated-at 1668185360247}
  {:block/name
   "herramientas de automatización de despliegues tema-5 (highlights)",
   :block/created-at 1668163607832,
@@ -2563,10 +2563,6 @@
  {:block/name "uni::gestion_de_proyectos tema-9",
   :block/created-at 1668163595784,
   :block/updated-at 1668163595784}
- {:block/name
-  "uni::herramientas de automatización de despliegues tema-4",
-  :block/created-at 1668163606923,
-  :block/updated-at 1668163606923}
  {:block/name "unir",
   :block/created-at 1668163366912,
   :block/updated-at 1668163366912}

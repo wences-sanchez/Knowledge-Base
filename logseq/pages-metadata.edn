@@ -1522,6 +1522,9 @@
  {:block/name "monday, 10-10-2022",
   :block/created-at 1668163366692,
   :block/updated-at 1668163366692}
+ {:block/name "monday, 14-11-2022",
+  :block/created-at 1668430019696,
+  :block/updated-at 1668430019696}
  {:block/name "monday, 15-08-2022",
   :block/created-at 1668163369883,
   :block/updated-at 1668163369883}
@@ -1652,8 +1655,8 @@
   :block/created-at 1668163685721,
   :block/updated-at 1668163685721}
  {:block/name "o'reilly-learning::networking fundamentals",
-  :block/created-at 1668243118241,
-  :block/updated-at 1668243118241}
+  :block/created-at 1668430020913,
+  :block/updated-at 1668430020913}
  {:block/name "o'reilly-learning::practical ansible 2",
   :block/created-at 1668163693805,
   :block/updated-at 1668163693805}
@@ -2045,9 +2048,6 @@
  {:block/name "saturday, 10-09-2022",
   :block/created-at 1668163367821,
   :block/updated-at 1668163367821}
- {:block/name "saturday, 12-11-2022",
-  :block/created-at 1668241953295,
-  :block/updated-at 1668241953295}
  {:block/name "saturday, 13-08-2022",
   :block/created-at 1668163370102,
   :block/updated-at 1668163370102}

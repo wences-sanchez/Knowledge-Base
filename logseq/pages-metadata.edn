@@ -2153,6 +2153,12 @@
  {:block/name "self-learning",
   :block/created-at 1668163733853,
   :block/updated-at 1668163733853}
+ {:block/name "semantic versioning 2.0.0 (highlights)",
+  :block/created-at 1668437223244,
+  :block/updated-at 1668437224536}
+ {:block/name "semver.org",
+  :block/created-at 1668437224511,
+  :block/updated-at 1668437224511}
  {:block/name "serverfault.com",
   :block/created-at 1668163709352,
   :block/updated-at 1668163709352}

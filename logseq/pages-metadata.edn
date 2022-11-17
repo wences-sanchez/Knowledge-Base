@@ -121,8 +121,8 @@
   :block/created-at 1668163460559,
   :block/updated-at 1668163460559}
  {:block/name "a room with a view (highlights)",
-  :block/created-at 1668589332700,
-  :block/updated-at 1668589333330}
+  :block/created-at 1668674376231,
+  :block/updated-at 1668674376231}
  {:block/name "acloudguru",
   :block/created-at 1668163390175,
   :block/updated-at 1668163390175}
@@ -690,6 +690,12 @@
  {:block/name "devops on aws - aws technical essentials (highlights)",
   :block/created-at 1668163568648,
   :block/updated-at 1668163568648}
+ {:block/name "devops project ci",
+  :block/created-at 1668674447090,
+  :block/updated-at 1668674447090}
+ {:block/name "devops project ci-cd with jenkins ansible kubernetes",
+  :block/created-at 1668674447085,
+  :block/updated-at 1668674447085}
  {:block/name
   "devops: continuous delivery, integration, and deployment with devops (highlights)",
   :block/created-at 1668163569127,
@@ -753,8 +759,8 @@
   :block/created-at 1668163753137,
   :block/updated-at 1668163753137}
  {:block/name "e. m. forster",
-  :block/created-at 1668589333305,
-  :block/updated-at 1668589333305}
+  :block/created-at 1668674376199,
+  :block/updated-at 1668674376199}
  {:block/name "eckhart tolle",
   :block/created-at 1668163749801,
   :block/updated-at 1668163749801}
@@ -1529,8 +1535,8 @@
   :block/created-at 1668163366692,
   :block/updated-at 1668163366692}
  {:block/name "monday, 14-11-2022",
-  :block/created-at 1668589324943,
-  :block/updated-at 1668589324943}
+  :block/created-at 1668674377346,
+  :block/updated-at 1668674377346}
  {:block/name "monday, 15-08-2022",
   :block/created-at 1668163369883,
   :block/updated-at 1668163369883}
@@ -1661,8 +1667,8 @@
   :block/created-at 1668163685721,
   :block/updated-at 1668163685721}
  {:block/name "o'reilly-learning::networking fundamentals",
-  :block/created-at 1668589326496,
-  :block/updated-at 1668589326496}
+  :block/created-at 1668674378323,
+  :block/updated-at 1668674378323}
  {:block/name "o'reilly-learning::practical ansible 2",
   :block/created-at 1668163693805,
   :block/updated-at 1668163693805}
@@ -1739,8 +1745,8 @@
   :block/created-at 1668163581263,
   :block/updated-at 1668163581263}
  {:block/name "other-books::a room with a view",
-  :block/created-at 1668589333302,
-  :block/updated-at 1668589333302}
+  :block/created-at 1668674376197,
+  :block/updated-at 1668674376197}
  {:block/name "other-books::android programming",
   :block/created-at 1668163398689,
   :block/updated-at 1668163398689}
@@ -2163,11 +2169,11 @@
   :block/created-at 1668163733853,
   :block/updated-at 1668163733853}
  {:block/name "semantic versioning 2.0.0 (highlights)",
-  :block/created-at 1668589325042,
-  :block/updated-at 1668589325042}
+  :block/created-at 1668674377425,
+  :block/updated-at 1668674377425}
  {:block/name "semver.org",
-  :block/created-at 1668589325001,
-  :block/updated-at 1668589325001}
+  :block/created-at 1668674377379,
+  :block/updated-at 1668674377379}
  {:block/name "serverfault.com",
   :block/created-at 1668163709352,
   :block/updated-at 1668163709352}
@@ -2370,6 +2376,9 @@
  {:block/name "thursday, 15-09-2022",
   :block/created-at 1668163367756,
   :block/updated-at 1668163367756}
+ {:block/name "thursday, 17-11-2022",
+  :block/created-at 1668674373190,
+  :block/updated-at 1668674451560}
  {:block/name "thursday, 18-08-2022",
   :block/created-at 1668163369735,
   :block/updated-at 1668163369735}
@@ -2767,7 +2776,7 @@
   :block/updated-at 1668163370836}
  {:block/name "wednesday, 16-11-2022",
   :block/created-at 1668589322083,
-  :block/updated-at 1668591409668}
+  :block/updated-at 1668674402585}
  {:block/name "wednesday, 17-08-2022",
   :block/created-at 1668163369830,
   :block/updated-at 1668163369830}

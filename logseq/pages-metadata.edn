@@ -695,7 +695,7 @@
   :block/updated-at 1668674447090}
  {:block/name "devops project ci-cd with jenkins ansible kubernetes",
   :block/created-at 1668674447085,
-  :block/updated-at 1668674447085}
+  :block/updated-at 1668679227667}
  {:block/name
   "devops: continuous delivery, integration, and deployment with devops (highlights)",
   :block/created-at 1668163569127,

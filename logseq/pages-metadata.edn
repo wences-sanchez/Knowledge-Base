@@ -695,7 +695,7 @@
   :block/updated-at 1668674447090}
  {:block/name "devops project ci-cd with jenkins ansible kubernetes",
   :block/created-at 1668674447085,
-  :block/updated-at 1668679227667}
+  :block/updated-at 1668702199706}
  {:block/name
   "devops: continuous delivery, integration, and deployment with devops (highlights)",
   :block/created-at 1668163569127,
@@ -1358,6 +1358,9 @@
  {:block/name "jenkins essential training",
   :block/created-at 1668163371289,
   :block/updated-at 1668163371289}
+ {:block/name "jenkins pipelines",
+  :block/created-at 1668702283782,
+  :block/updated-at 1668702332505}
  {:block/name
   "jetbrains academy - learn programming by building your own apps (highlights)",
   :block/created-at 1668163651076,
@@ -2378,7 +2381,7 @@
   :block/updated-at 1668163367756}
  {:block/name "thursday, 17-11-2022",
   :block/created-at 1668674373190,
-  :block/updated-at 1668698354616}
+  :block/updated-at 1668702287048}
  {:block/name "thursday, 18-08-2022",
   :block/created-at 1668163369735,
   :block/updated-at 1668163369735}

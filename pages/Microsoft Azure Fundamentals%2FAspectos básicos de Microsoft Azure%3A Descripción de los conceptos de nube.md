@@ -24,6 +24,9 @@ tags:: Azure, Microsoft-Learn
 		- Del lado de la seguridad, puede encontrar una solución en la nube que coincida con sus necesidades de seguridad. Si quiere tener un **control máximo** de la **seguridad**, la infraestructura como servicio le proporciona recursos físicos, pero le permite administrar los sistemas operativos y el software instalado, incluidas las revisiones y el mantenimiento. Si quiere que las revisiones y el mantenimiento se administren automáticamente, las implementaciones de {{c1 plataforma como servicio}} o {{c1 software como servicio}} pueden ser las mejores estrategias en la nube.
 		- Y dado que la nube está pensada como entrega mediante Internet de los recursos de TI, los proveedores de nube suelen ser adecuados para controlar cosas como **ataques de denegación de servicio distribuido (DDoS)**, lo que hace que la red sea más sólida y segura.
 	-
+- ## Descripción de los tipos de servicio en la nube
+	- ### Descripción de la {{c1 plataforma como servicio}}
+		- La {{c1 plataforma como servicio (PaaS)}} es un punto intermedio entre alquilar espacio en un centro de datos (infraestructura como servicio) y pagar por una solución completa e implementada (software como servicio). En un entorno {{c1 paaS}}, el proveedor de nube mantiene la infraestructura física, la seguridad física y la conexión a Internet. También mantienen los sistemas operativos, el middleware, las herramientas de desarrollo y los servicios de inteligencia empresarial que componen una solución en la nube. En un escenario de {{c1 PaaS}}, no tiene que preocuparse por las licencias ni la aplicación de revisiones para los sistemas operativos y las bases de datos.
 	-
 	-
 	-

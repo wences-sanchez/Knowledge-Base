@@ -7,8 +7,8 @@ tags:: Azure, Microsoft-Learn
 		- Azure proporciona más de 100 servicios que permiten hacer todo tipo de cosas: desde ejecutar las aplicaciones existentes en máquinas virtuales hasta explorar nuevos paradigmas de software, como bots inteligentes y realidad mixta.
 		- Muchos equipos comienzan a explorar la nube mediante la migración de sus aplicaciones existentes a máquinas virtuales (VM) que se ejecutan en Azure. Aunque este es un buen comienzo, **la nube es mucho más que un lugar diferente donde ejecutar las máquinas virtuales**.
 		- Por ejemplo, Azure proporciona servicios de inteligencia artificial (IA) y aprendizaje automático (ML) que pueden comunicarse de forma natural con los usuarios mediante la vista, el oído y la voz. También facilita soluciones de almacenamiento que crecen dinámicamente para dar cabida a grandes cantidades de datos. Los servicios de Azure permiten soluciones que no son factibles sin la potencia de la nube.
-	- ### Introducción a las cuentas de Azure
-		-
+	- ### Ejercicio: Exploración del espacio aislado de Learn
+		- Para ejecutar bash desde PowerShell, usar {{cloze `$ bash`}}
 	-
 	-
 	-

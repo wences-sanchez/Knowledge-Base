@@ -1,3 +1,3 @@
 -
 -
-- ## [[Aspectos básicos de Microsoft Azure: Descripción de los conceptos de nube]]
+- ## [[Microsoft Azure Fundamentals/Aspectos básicos de Microsoft Azure: Descripción de los conceptos de nube]]

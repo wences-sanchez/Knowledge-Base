@@ -8,8 +8,10 @@ tags:: Azure, Microsoft-Learn
 		- Muchos equipos comienzan a explorar la nube mediante la migración de sus aplicaciones existentes a máquinas virtuales (VM) que se ejecutan en Azure. Aunque este es un buen comienzo, **la nube es mucho más que un lugar diferente donde ejecutar las máquinas virtuales**.
 		- Por ejemplo, Azure proporciona servicios de inteligencia artificial (IA) y aprendizaje automático (ML) que pueden comunicarse de forma natural con los usuarios mediante la vista, el oído y la voz. También facilita soluciones de almacenamiento que crecen dinámicamente para dar cabida a grandes cantidades de datos. Los servicios de Azure permiten soluciones que no son factibles sin la potencia de la nube.
 	- ### Ejercicio: Exploración del espacio aislado de Learn
-		- Para ejecutar bash desde PowerShell, usar {{cloze `$ bash`}}
-	-
+		- Para ejecutar bash desde PowerShell, usar {{cloze $ bash}} #flashcard
+		- Para establecer una sesión de texto con Azure interactiva desde la terminal, usar {{cloze $ az interactive}} #flashcard
+		-
+		-
 	-
 	-
 	-

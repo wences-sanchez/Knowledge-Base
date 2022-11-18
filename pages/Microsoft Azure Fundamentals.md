@@ -1,3 +1,3 @@
 -
--
-- ## [[Microsoft Azure Fundamentals/Aspectos básicos de Microsoft Azure: Descripción de los conceptos de nube]]
+- ## Rutas de Aprendizaje
+	- ## [[Microsoft Azure Fundamentals/Aspectos básicos de Microsoft Azure: Descripción de los conceptos de nube]]

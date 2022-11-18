@@ -27,6 +27,9 @@ tags:: Azure, Microsoft-Learn
 - ## Descripción de los tipos de servicio en la nube
 	- ### Descripción de la {{c1 plataforma como servicio}}
 		- La {{c1 plataforma como servicio (PaaS)}} es un punto intermedio entre alquilar espacio en un centro de datos (infraestructura como servicio) y pagar por una solución completa e implementada (software como servicio). En un entorno {{c1 paaS}}, el proveedor de nube mantiene la infraestructura física, la seguridad física y la conexión a Internet. También mantienen los sistemas operativos, el middleware, las herramientas de desarrollo y los servicios de inteligencia empresarial que componen una solución en la nube. En un escenario de {{c1 PaaS}}, no tiene que preocuparse por las licencias ni la aplicación de revisiones para los sistemas operativos y las bases de datos.
+		  
+		  {{c1 PaaS}} es adecuado para proporcionar un entorno de desarrollo completo sin el problema que supone mantener toda la infraestructura de desarrollo. #flashcard
+		-
 	-
 	-
 	-

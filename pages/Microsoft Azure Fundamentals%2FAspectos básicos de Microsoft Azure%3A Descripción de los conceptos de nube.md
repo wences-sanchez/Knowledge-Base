@@ -20,19 +20,9 @@ tags:: Azure, Microsoft-Learn
 - ## Descripción de las ventajas de usar servicios en la nube
 	- ### Descripción de las ventajas de la alta disponibilidad y la {{c1 escalabilidad}} en la nube
 		- Otra ventaja importante de la informática en la nube es la escalabilidad de los recursos en la nube. La {{c1 escalabilidad}} hace referencia a la capacidad de ajustar los recursos para satisfacer la demanda. Si de pronto experimenta un tráfico máximo y los sistemas están sobrecargados, la capacidad de escalar implica que puede agregar más recursos para controlar mejor la mayor demanda. #flashcard
-	- ### Descripción de las ventajas de la seguridad y la go
-	- Del lado de la seguridad, puede encontrar una solución en la nube que
-	   coincida con sus necesidades de seguridad. Si quiere tener un control 
-	  máximo de la seguridad, la infraestructura como servicio le proporciona 
-	  recursos físicos, pero le permite administrar los sistemas operativos y 
-	  el software instalado, incluidas las revisiones y el mantenimiento. Si 
-	  quiere que las revisiones y el mantenimiento se administren 
-	  automáticamente, las implementaciones de plataforma como servicio o 
-	  software como servicio pueden ser las mejores estrategias en la nube.
-	- Y dado que la nube está pensada como entrega mediante Internet de los
-	   recursos de TI, los proveedores de nube suelen ser adecuados para 
-	  controlar cosas como ataques de denegación de servicio distribuido 
-	  (DDoS), lo que hace que la red sea más sólida y segura.
+	- ### Descripción de las ventajas de la seguridad y la gobernanza en la nube
+		- Del lado de la seguridad, puede encontrar una solución en la nube que coincida con sus necesidades de seguridad. Si quiere tener un **control máximo** de la **seguridad**, la infraestructura como servicio le proporciona recursos físicos, pero le permite administrar los sistemas operativos y el software instalado, incluidas las revisiones y el mantenimiento. Si quiere que las revisiones y el mantenimiento se administren automáticamente, las implementaciones de {{c1 plataforma como servicio}} o {{c1 software como servicio}} pueden ser las mejores estrategias en la nube.
+		- Y dado que la nube está pensada como entrega mediante Internet de los recursos de TI, los proveedores de nube suelen ser adecuados para controlar cosas como **ataques de denegación de servicio distribuido (DDoS)**, lo que hace que la red sea más sólida y segura.
 	-
 	-
 	-

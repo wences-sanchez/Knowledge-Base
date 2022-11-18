@@ -1,3 +1,5 @@
+deck::
+
 -
 ## Descripción de la informática en la nube
 	- ### Definición de modelos en la nube
@@ -13,5 +15,12 @@
 			- Escalar a medida que cambien las necesidades empresariales.
 		- Dicho de otro modo, la informática en la nube es una forma de alquilar potencia de proceso y almacenamiento de un centro de datos de terceros. Los recursos de la nube se pueden tratar igual que los recursos de un centro de datos propio. Pero, a diferencia de en su propio centro de datos, cuando haya terminado de usar recursos en la nube, los devuelve. Únicamente se le cobrará por lo que use.
 		- En lugar de mantener las CPU y el almacenamiento en un centro de datos, se alquilan durante el tiempo que sea necesario. El proveedor de nube se encarga de mantener la infraestructura subyacente por usted. La nube permite resolver rápidamente los desafíos empresariales más difíciles y proporcionar soluciones de vanguardia a los usuarios.
-		-
-			-
+	-
+- ## Descripción de las ventajas de usar servicios en la nube
+	- ### Descripción de las ventajas de la alta disponibilidad y la escalabilidad en la nube
+		- Otra ventaja importante de la informática en la nube es la escalabilidad de los recursos en la nube. La escalabilidad hace referencia a la capacidad de ajustar los recursos para satisfacer la demanda. Si de pronto experimenta un tráfico máximo y los sistemas están sobrecargados, la capacidad de escalar implica que puede agregar más recursos para controlar mejor la mayor demanda.
+	-
+	-
+	-
+	-
+	-

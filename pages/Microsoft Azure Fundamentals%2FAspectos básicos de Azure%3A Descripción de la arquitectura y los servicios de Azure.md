@@ -13,6 +13,9 @@ tags:: Azure, Microsoft-Learn
 	- ### Descripción de la infraestructura física de Azure
 		- Una {{c1 región}} es un área geográfica del planeta que contiene al menos un centro de datos, aunque podrían ser varios cercanos y conectados mediante una red de baja latencia. Azure asigna y controla los recursos de forma inteligente dentro de cada {{c1 región}} para garantizar que las cargas de trabajo están bien compensadas. #flashcard
 		-
+		- Las {{c1 zonas de disponibilidad}} son centros de datos separados físicamente dentro de una región de Azure. Cada {{c1 zona de disponibilidad}} consta de uno o varios centros de datos equipados con alimentación, refrigeración y redes independientes. Una {{c1 zona de disponibilidad}} se configura para constituir un límite de aislamiento. Si una zona deja de funcionar, la otra continúa trabajando. Las {{c1 zonas de disponibilidad}} están conectadas a través de redes de fibra óptica de alta velocidad privadas.
+		  
+		  Para garantizar la resistencia, se configuran un mínimo de tres {{c1 zonas de disponibilidad}} independientes en todas las regiones habilitadas. Pero no todas las regiones de Azure admiten actualmente las {{c1 zonas de disponibilidad}}.
 		-
 	-
 	-

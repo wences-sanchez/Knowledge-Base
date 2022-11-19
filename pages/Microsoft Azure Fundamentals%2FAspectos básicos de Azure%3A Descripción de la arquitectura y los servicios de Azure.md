@@ -10,6 +10,8 @@ tags:: Azure, Microsoft-Learn
 	- ### Ejercicio: Exploración del espacio aislado de Learn
 		- Para ejecutar bash desde PowerShell, usar {{cloze $ bash}} #flashcard
 		- Para establecer una sesión de texto con Azure interactiva desde la terminal, usar {{cloze $ az interactive}} #flashcard
+	- ### Descripción de la infraestructura física de Azure
+		- Una {{c1 región}} es un área geográfica del planeta que contiene al menos un centro de datos, aunque podrían ser varios cercanos y conectados mediante una red de baja latencia. Azure asigna y controla los recursos de forma inteligente dentro de cada {{c1 región}} para garantizar que las cargas de trabajo están bien compensadas. #flashcard
 		-
 		-
 	-

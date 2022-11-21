@@ -42,8 +42,15 @@ tags:: Azure, Microsoft-Learn
 		- #### Conjuntos de disponibilidad de máquinas virtuales
 			- Los conjuntos de disponibilidad de máquinas virtuales son otra herramienta que nos ayuda a crear un entorno más resistente y de alta disponibilidad. Están diseñados para garantizar que las máquinas virtuales escalen pero además, que sean resistentes a un fallo de energía o de red de manera que tengan una conectividad de red y potencia variadas.
 			-
-			- Los conjuntos de disponiblidad agrupan las máquinas virtuales de dos maneras:
-				- **Dominio de actualización:**
+			- Los **conjuntos de disponiblidad** agrupan las máquinas virtuales de dos maneras:
+				- **Dominio de actualización:** Agrupa las máquinas virtuales que se pueden reiniciar al mismo tiempo. Esto le permite aplicar actualizaciones en distintas ventanas (de 30 minutos) a nuestras instancias.
+				- **Dominio de error:** Agrupa las máquinas virtuales por fuente de alimentación común y conmutador de red. Por defecto, un conjunto de disponiblidad dividirá las máquinas virtuales en un máximo de tres dominios de error. Esto ayuda frente a cortes de alimentación y/o de red.
+			-
+			- Los conjuntos de disponibilidad no llevan asociado **ningún coste adicional** salvo las instancias que se estén ejecutando.
+			-
+		- #### Ejemplos de cuándo usar máquinas virtuales
+			- **Durante las pruebas y el desarrollo:** Para construir entornos de prueba y desarrollo específicos a nuestros requerimientos.
+			- **Para ejecutar aplicaciones en la nube:**
 			-
 -
 -

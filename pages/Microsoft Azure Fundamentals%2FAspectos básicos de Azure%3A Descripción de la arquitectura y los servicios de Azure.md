@@ -65,7 +65,12 @@ tags:: Azure, Microsoft-Learn
 	- ### Descripción de las opciones de hospedaje de aplicaciones
 		- **Azure App Service** es tu opción para implementar tu Proyecto Final de Master. 😉
 		-
-		-
+	- ### Descripción de las redes virtuales de Azure
+		- #### Comunicación con recursos locales
+			- Las **redes virtuales** de Azure permiten vincular entre sí los recursos del entorno local y dentro de la suscripción de Azure. De hecho, puede crear una red que abarque tanto el entorno local como el entorno en la nube. Existen tres mecanismos para lograr esta conectividad: #flashcard
+				- Las conexiones de red privada virtual de punto a sitio se establecen desde un equipo ajeno a la organización a la red corporativa. En este caso, el equipo cliente inicia una conexión VPN cifrada para conectarse a la red virtual de Azure.
+				- Las redes virtuales privadas de sitio a sitio vinculan el dispositivo o puerta de enlace de VPN local con la puerta de enlace de VPN de Azure en una red virtual. De hecho, puede parecer que los dispositivos de Azure están en la red local. La conexión se cifra y funciona a través de Internet.
+				- Azure ExpressRoute proporciona una conectividad privada dedicada a Azure que no se desplaza por Internet. ExpressRoute es útil para los entornos donde se necesita más ancho de banda e incluso mayores niveles de seguridad.
 		-
 -
 -

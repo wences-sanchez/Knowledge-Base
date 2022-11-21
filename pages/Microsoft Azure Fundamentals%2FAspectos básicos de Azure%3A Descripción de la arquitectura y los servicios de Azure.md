@@ -53,6 +53,14 @@ tags:: Azure, Microsoft-Learn
 			- **Para ejecutar aplicaciones en la nube:** Para ahorrar costes y tener escalabilidad.
 			- **Para ampliar el centro de datos a la nube:** Es más simple que implementar un servidor de manera local.
 			- **Para recuperarnos frente a desastres naturales**
+	-
+	- ### Descripción de contenedores de Azure
+		- #### ¿Qué son los contenedores?
+			- Los contenedores son un entorno de virtualización.
+			- Igual que las máquinas virtuales, nos permiten ejecutar varios contenedores en un solo host.
+			- A diferencia de las máquinas virtuales, no se administra el sistema operativo de un contenedor. Los contenedores son ligeros y se han diseñado para crearse, escalarse horizontalmentet y detenerse de forma dinámica. De manera mucho más agil que con máquinas virtuales.
+			- **Las máquinas virtuales virtualizan el hardware, mientras que los contenedores virtualizan el Sistema Operativo.**
+			-
 			-
 -
 -

@@ -32,11 +32,19 @@ tags:: Azure, Microsoft-Learn
 	-
 - ## Descripción de los servicios de proceso y redes de Azure
 	- ### Descripción de Azure Virtual Machines
-		- Con **Azure Virtual Machines (VM)**, puede crear y usar máquinas virtuales en la nube. Estas máquinas virtuales proporcionan una infraestructura como servicio (IaaS) en forma de un servidor virtualizado y se pueden usar de muchas formas. Como sucede en un equipo físico, puede personalizar todo el software que se ejecuta en la máquina virtual. Las máquinas virtuales son una opción ideal cuando se necesita lo siguiente: #flashcard
-			- Control total sobre el sistema operativo (SO).
-			- Capacidad de ejecutar software personalizado.
-			- Usar configuraciones de hospedaje personalizadas.
--
+		- #### Introducción
+			- Con **Azure Virtual Machines (VM)**, puede crear y usar máquinas virtuales en la nube. Estas máquinas virtuales proporcionan una infraestructura como servicio (IaaS) en forma de un servidor virtualizado y se pueden usar de muchas formas. Como sucede en un equipo físico, puede personalizar todo el software que se ejecuta en la máquina virtual. Las máquinas virtuales son una opción ideal cuando se necesita lo siguiente: #flashcard
+				- Control total sobre el sistema operativo (SO).
+				- Capacidad de ejecutar software personalizado.
+				- Usar configuraciones de hospedaje personalizadas.
+		- #### Conjuntos de escalado de máquinas virtuales
+			- Los conjuntos de escalado de máquinas virtuales permiten crear y administrar un grupo de máquinas virtuales idénticas de carga equilibrada. De manera que permite automatizar y gestionar la tarea de crear máquinas idénticas para reducir nuestro esfuerzo manual.
+		- #### Conjuntos de disponibilidad de máquinas virtuales
+			- Los conjuntos de disponibilidad de máquinas virtuales son otra herramienta que nos ayuda a crear un entorno más resistente y de alta disponibilidad. Están diseñados para garantizar que las máquinas virtuales escalen pero además, que sean resistentes a un fallo de energía o de red de manera que tengan una conectividad de red y potencia variadas.
+			-
+			- Los conjuntos de disponiblidad agrupan las máquinas virtuales de dos maneras:
+				- **Dominio de actualización:**
+			-
 -
 -
 - ## Descripción de los servicios de almacenamiento de Azure

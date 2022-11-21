@@ -37,9 +37,9 @@ tags:: Azure, Microsoft-Learn
 				- Control total sobre el sistema operativo (SO).
 				- Capacidad de ejecutar software personalizado.
 				- Usar configuraciones de hospedaje personalizadas.
-		- #### Conjuntos de escalado de máquinas virtuales
+		- #### Conjuntos de escalado de máquinas virtuales #flashcard
 			- Los conjuntos de escalado de máquinas virtuales permiten crear y administrar un grupo de máquinas virtuales idénticas de carga equilibrada. De manera que permite automatizar y gestionar la tarea de crear máquinas idénticas para reducir nuestro esfuerzo manual.
-		- #### Conjuntos de disponibilidad de máquinas virtuales
+		- #### Conjuntos de disponibilidad de máquinas virtuales #flashcard
 			- Los conjuntos de disponibilidad de máquinas virtuales son otra herramienta que nos ayuda a crear un entorno más resistente y de alta disponibilidad. Están diseñados para garantizar que las máquinas virtuales escalen pero además, que sean resistentes a un fallo de energía o de red de manera que tengan una conectividad de red y potencia variadas.
 			-
 			- Los **conjuntos de disponiblidad** agrupan las máquinas virtuales de dos maneras:
@@ -48,21 +48,25 @@ tags:: Azure, Microsoft-Learn
 			-
 			- Los conjuntos de disponibilidad no llevan asociado **ningún coste adicional** salvo las instancias que se estén ejecutando.
 			-
-		- #### Ejemplos de cuándo usar máquinas virtuales
+		- #### Ejemplos de cuándo usar máquinas virtuales #flashcard
 			- **Durante las pruebas y el desarrollo:** Para construir entornos de prueba y desarrollo específicos a nuestros requerimientos.
 			- **Para ejecutar aplicaciones en la nube:** Para ahorrar costes y tener escalabilidad.
 			- **Para ampliar el centro de datos a la nube:** Es más simple que implementar un servidor de manera local.
 			- **Para recuperarnos frente a desastres naturales**
 	-
 	- ### Descripción de contenedores de Azure
-		- #### ¿Qué son los contenedores?
+		- #### ¿Qué son los contenedores? #flashcard
 			- Los contenedores son un entorno de virtualización.
 			- Igual que las máquinas virtuales, nos permiten ejecutar varios contenedores en un solo host.
 			- A diferencia de las máquinas virtuales, no se administra el sistema operativo de un contenedor. Los contenedores son ligeros y se han diseñado para crearse, escalarse horizontalmentet y detenerse de forma dinámica. De manera mucho más agil que con máquinas virtuales.
 			- **Las máquinas virtuales virtualizan el hardware, mientras que los contenedores virtualizan el Sistema Operativo.**
 			- Las máquins virtuales son apropiadas para cuando queremos control total sobre nuestra instancia.
+	-
+	- ### Descripción de las opciones de hospedaje de aplicaciones
+		- **Azure App Service** es tu opción para implementar tu Proyecto Final de Master. 😉
 		-
-			-
+		-
+		-
 -
 -
 - ## Descripción de los servicios de almacenamiento de Azure

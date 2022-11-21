@@ -31,7 +31,11 @@ tags:: Azure, Microsoft-Learn
 			- Si tiene muchas suscripciones, es posible que necesite una forma de administrar con eficacia el acceso, las directivas y el cumplimiento para esas suscripciones. Los grupos de administración de Azure proporcionan un nivel de ámbito por encima de las suscripciones. Las suscripciones se organizan en contenedores llamados grupos de administración, a los que se aplican condiciones de gobernanza. Todas las suscripciones de un grupo de administración heredan automáticamente las condiciones que tenga aplicadas, de la misma manera que los grupos de recursos heredan la configuración de las suscripciones y los recursos heredan de los grupos de recursos. Los grupos de administración proporcionan capacidad de administración de nivel empresarial a gran escala con independencia del tipo de suscripciones que tenga. Los **grupos de administración** se pueden anidar.
 	-
 - ## Descripción de los servicios de proceso y redes de Azure
-	-
+	- ### Descripción de Azure Virtual Machines
+		- Con **Azure Virtual Machines (VM)**, puede crear y usar máquinas virtuales en la nube. Estas máquinas virtuales proporcionan una infraestructura como servicio (IaaS) en forma de un servidor virtualizado y se pueden usar de muchas formas. Como sucede en un equipo físico, puede personalizar todo el software que se ejecuta en la máquina virtual. Las máquinas virtuales son una opción ideal cuando se necesita lo siguiente: #flashcard
+			- Control total sobre el sistema operativo (SO).
+			- Capacidad de ejecutar software personalizado.
+			- Usar configuraciones de hospedaje personalizadas.
 -
 -
 -

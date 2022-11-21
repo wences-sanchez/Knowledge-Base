@@ -76,7 +76,17 @@ tags:: Azure, Microsoft-Learn
 			- Al implementar una instancia de VPN Gateway, especifique el tipo de red privada virtual, es decir, **basada en directivas** o **basada en rutas**. La principal diferencia entre estos dos tipos de VPN es cómo se especifica el tráfico que se va a cifrar. En Azure, ambos tipos de puertas de enlace de VPN usan una clave previamente compartida como único método de autenticación. #flashcard
 				- Las **instancias de VPN Gateway basadas en directivas** especifican de forma estática la dirección IP de los paquetes que se deben cifrar a través de cada túnel. Este tipo de dispositivo evalúa cada paquete de datos en función de los conjuntos de direcciones IP para elegir el túnel a través del cual se va a enviar el paquete.
 				- En las **puertas de enlace basadas en rutas**, los túneles IPSec se modelan como una interfaz de red o una interfaz de túnel virtual. El enrutamiento IP (ya sean rutas estáticas o protocolos de enrutamiento dinámico) decide cuál de estas interfaces de túnel se va a usar al enviar cada paquete. Las redes privadas virtuales basadas en rutas son el método preferido para conectar dispositivos locales. Son más resistentes a los cambios de la topología, como la creación de subredes.
--
+	- ### Describir Azure ExpressRoute
+		- #### Modelos de conectividad de ExpressRoute
+			- ExpressRoute admite cuatro modelos que puede usar para conectar la red local con la nube de Microsoft: #flashcard
+				- **Ubicación de CloudExchange**
+					- La ubicación conjunta hace referencia al centro de datos, la oficina u otras instalaciones que se encuentran físicamente en un intercambio en la nube, como un ISP. Si la instalación tiene la ubicación compartida en un intercambio en la nube, puede solicitar una conexión cruzada virtual a la nube de Microsoft.
+				- **Conexión Ethernet de punto a punto**
+					- La conexión Ethernet de punto a punto hace referencia al uso de una conexión punto a punto para conectar la instalación a la nube de Microsoft.
+				- **Conexión universal**
+					- Con la conectividad universal, puede integrar la red de área extensa (WAN) con Azure si proporciona conexiones a las oficinas y los centros de datos. Azure se integra con la conexión WAN para proporcionarle una conexión, como la que tendría entre el centro de datos y las sucursales.
+				- **Directamente desde sitios de ExpressRoute**
+					- Puede conectarse directamente a la red global de Microsoft en una ubicación de emparejamiento distribuida estratégicamente por todo el mundo. ExpressRoute Direct proporciona conectividad dual de 100 Gbps o 10 Gbps, que es compatible con la conectividad activa/activa a escala.
 -
 - ## Descripción de los servicios de almacenamiento de Azure
 - ## Descripción de la identidad, el acceso y la seguridad de Azure

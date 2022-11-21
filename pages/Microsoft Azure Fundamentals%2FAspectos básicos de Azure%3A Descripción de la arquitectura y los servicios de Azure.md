@@ -50,7 +50,9 @@ tags:: Azure, Microsoft-Learn
 			-
 		- #### Ejemplos de cuándo usar máquinas virtuales
 			- **Durante las pruebas y el desarrollo:** Para construir entornos de prueba y desarrollo específicos a nuestros requerimientos.
-			- **Para ejecutar aplicaciones en la nube:**
+			- **Para ejecutar aplicaciones en la nube:** Para ahorrar costes y tener escalabilidad.
+			- **Para ampliar el centro de datos a la nube:** Es más simple que implementar un servidor de manera local.
+			- **Para recuperarnos frente a desastres naturales**
 			-
 -
 -

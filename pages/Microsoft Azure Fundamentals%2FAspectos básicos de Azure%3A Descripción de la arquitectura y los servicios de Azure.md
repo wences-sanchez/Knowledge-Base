@@ -144,7 +144,12 @@ tags:: Azure, Microsoft-Learn
 			- El **almacenamiento en disco** o los discos administrados de Azure son **volúmenes** de almacenamiento de nivel de **bloque** que administra Azure para su uso con **máquinas virtuales** de Azure. Conceptualmente, son iguales que un disco físico, pero están **virtualizados**, lo que ofrece mayor resistencia y disponibilidad que un disco físico. Con los discos administrados, lo único que debe hacer es aprovisionar el disco; Azure se encargará del resto.
 		-
 	- ### Identificación de las opciones de migración de datos de Azure
-		- ####
+		- #### Azure Migrate #flashcard
+			- Azure Migrate es un servicio que le ayuda a migrar desde un entorno local a la nube. Azure Migrate funciona como centro para ayudarle a administrar la valoración y la migración del centro de datos local a Azure. Ofrece lo siguiente:
+				- **Plataforma de migración unificada**: un único portal para iniciar, ejecutar y realizar un seguimiento de la migración a Azure.
+				- **Rango de herramientas**: Rango de herramientas para la evaluación y migración Las herramientas de Azure Migrate incluyen Azure Migrate: Discovery y assessment y Azure Migrate: Server Migration.
+				   Azure Migrate también se integra con otros servicios y herramientas de Azure, así como con ofertas de proveedores de software independientes (ISV).
+				- **Assessment and migration** (Evaluación y migración): en el centro de Azure Migrate, puede evaluar y migrar la infraestructura local a Azure.
 		- #### Herramientas integradas #flashcard
 			- Además de trabajar con herramientas de ISV, el centro de Azure Migrate también incluye las siguientes herramientas para ayudar con la migración:
 			- **Azure Migrate: Discovery and assessment** (Azure Migrate: detección y evaluación). Detecte y evalúe servidores locales que se ejecutan en VMware, Hyper-V y servidores físicos para preparar la migración a Azure.
@@ -155,6 +160,14 @@ tags:: Azure, Microsoft-Learn
 			- **Azure Data Box**. Use los productos de Azure Data Box para trasladar grandes cantidades de datos sin conexión a Azure.
 		- #### Azure Data Box #flashcard
 			- Azure Data Box es un servicio de **migración física** que ayuda a transferir grandes cantidades de datos de forma rápida, económica y confiable. La transferencia de datos segura se acelera mediante el envío de un dispositivo de almacenamiento propietario de Data Box que tiene una capacidad de almacenamiento utilizable máxima de 80 terabytes. **Data Box se transporta hacia y desde el centro de datos a través de un transportista regional**. Una caja resistente asegura y protege Data Box de daños durante el trayecto.
+			- **Data Box** es ideal para transferir tamaños de datos con **más de 40 TB** en escenarios sin conectividad de red limitada. El movimiento de datos puede ser único, periódico o una transferencia de datos masiva inicial seguida de transferencias periódicas.
+	- ### Identificación de las opciones de movimiento de archivos de Azure
+		- Además de la migración a gran escala mediante servicios como Azure Migrate y Azure Data Box, Azure también tiene herramientas diseñadas para ayudarle a mover o interactuar con archivos individuales o grupos de archivos pequeños. Entre esas herramientas se encuentran AzCopy, Explorador de Azure Storage y Azure File Sync. #flashcard
+		- #### AzCopy #flashcard
+			- **AzCopy** es una utilidad de línea de comandos que puede usar para copiar blobs o archivos a una cuenta de almacenamiento o desde una cuenta de almacenamiento. Con AzCopy, puede copiar archivos entre cuentas de almacenamiento, cargarlos, descargarlos e incluso sincronizarlos. AzCopy incluso se puede configurar para trabajar con otros proveedores de nube para ayudar a mover archivos entre nubes.
+		- #### Azure File Sync #flashcard
+			- **Azure File Sync** es una herramienta que permite centralizar los archivos compartidos en Azure Files y mantener la flexibilidad, el rendimiento y la compatibilidad de un servidor de archivos de Windows. Es casi como convertir el servidor de archivos de Windows en una **red de entrega de contenido en miniatura**. Una vez que instale Azure File Sync en el servidor local de Windows, se mantendrá sincronizado bidireccionalmente con los archivos en Azure de forma automática.
+			-
 -
 - ## Descripción de la identidad, el acceso y la seguridad de Azure
 -

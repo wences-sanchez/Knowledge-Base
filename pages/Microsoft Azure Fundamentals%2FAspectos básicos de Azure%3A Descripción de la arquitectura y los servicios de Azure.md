@@ -136,10 +136,12 @@ tags:: Azure, Microsoft-Learn
 				- **Nivel de acceso frecuente**: optimizado para almacenar datos a los que se accede con frecuencia (por ejemplo, imágenes para el sitio web).
 				- **Nivel de acceso esporádico**: optimizado para datos a los que se accede con poca frecuencia y que se almacenan al menos durante 30 días (por ejemplo, las facturas de los clientes).
 				- **Nivel de acceso de archivo**: conveniente para datos a los que raramente se accede y que se almacenan durante al menos 180 días con requisitos de latencia flexibles (por ejemplo, copias de seguridad a largo plazo).
-		- #### Azure Files
+		- #### Azure Files #flashcard
 			- **Azure Files** ofrece recursos compartidos de archivos totalmente administrados en la nube a los que se puede acceder mediante los protocolos **SMB (Bloque de mensajes del servidor)** o **NFS (Network File System)** estándar del sector. Los recursos compartidos de archivos de Azure Files se pueden montar simultáneamente mediante implementaciones locales o en la nube. A los recursos compartidos de archivos SMB de Azure se puede acceder desde clientes Windows, Linux y macOS. A los recursos compartidos de archivos NFS de Azure Files se puede acceder desde clientes Linux y macOS. Además, los recursos compartidos de archivos SMB de Azure Files se pueden almacenar en la caché de los servidores de Windows Server con Azure File Sync, lo que permite un acceso rápido allí donde se utilizan los datos.
-		- #### Queue Storage
-			- **Azure Queue Storage** es un servicio para almacenar grandes cantidades de **mensajes**. Una vez que están almacenados, se puede acceder a los mensajes desde cualquier lugar del mundo mediante llamadas autenticadas con HTTP o HTTPS. Una cola puede contener tantos mensajes como el espacio que tenga la cuenta de almacenamiento (pueden ser millones). Cada mensaje individual de la cola puede llegar a tener un tamaño máximo de 64 KB. Las colas se utilizan normalmente para crear un trabajo pendiente del trabajo que se va a procesar de forma asincrónica.
+		- #### Queue Storage #flashcard
+			- **Azure Queue Storage** es un servicio para almacenar grandes cantidades de **mensajes**. Una vez que están almacenados, se puede acceder a los mensajes desde cualquier lugar del mundo mediante llamadas autenticadas con HTTP o HTTPS. Una cola puede contener tantos mensajes como el **espacio que tenga la cuenta de almacenamiento** (pueden ser **millones**). Cada mensaje individual de la cola puede llegar a tener un tamaño **máximo** de 64 KB. Las colas se utilizan normalmente para crear un trabajo pendiente del trabajo que se va a procesar de forma **asíncrona**.
+		- #### Disk Storage #flashcard
+			- El **almacenamiento en disco** o los discos administrados de Azure son **volúmenes** de almacenamiento de nivel de **bloque** que administra Azure para su uso con **máquinas virtuales** de Azure. Conceptualmente, son iguales que un disco físico, pero están **virtualizados**, lo que ofrece mayor resistencia y disponibilidad que un disco físico. Con los discos administrados, lo único que debe hacer es aprovisionar el disco; Azure se encargará del resto.
 			-
 		-
 -

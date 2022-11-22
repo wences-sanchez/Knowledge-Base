@@ -142,9 +142,19 @@ tags:: Azure, Microsoft-Learn
 			- **Azure Queue Storage** es un servicio para almacenar grandes cantidades de **mensajes**. Una vez que están almacenados, se puede acceder a los mensajes desde cualquier lugar del mundo mediante llamadas autenticadas con HTTP o HTTPS. Una cola puede contener tantos mensajes como el **espacio que tenga la cuenta de almacenamiento** (pueden ser **millones**). Cada mensaje individual de la cola puede llegar a tener un tamaño **máximo** de 64 KB. Las colas se utilizan normalmente para crear un trabajo pendiente del trabajo que se va a procesar de forma **asíncrona**.
 		- #### Disk Storage #flashcard
 			- El **almacenamiento en disco** o los discos administrados de Azure son **volúmenes** de almacenamiento de nivel de **bloque** que administra Azure para su uso con **máquinas virtuales** de Azure. Conceptualmente, son iguales que un disco físico, pero están **virtualizados**, lo que ofrece mayor resistencia y disponibilidad que un disco físico. Con los discos administrados, lo único que debe hacer es aprovisionar el disco; Azure se encargará del resto.
-			-
 		-
--
+	- ### Identificación de las opciones de migración de datos de Azure
+		- ####
+		- #### Herramientas integradas #flashcard
+			- Además de trabajar con herramientas de ISV, el centro de Azure Migrate también incluye las siguientes herramientas para ayudar con la migración:
+			- **Azure Migrate: Discovery and assessment** (Azure Migrate: detección y evaluación). Detecte y evalúe servidores locales que se ejecutan en VMware, Hyper-V y servidores físicos para preparar la migración a Azure.
+			- **Azure Migrate: Server Migration** (Azure Migrate: migración del servidor). Migre máquinas virtuales de VMware, máquinas virtuales de Hyper-V, servidores físicos, otros servidores virtualizados y máquinas virtuales de la nube pública a Azure.
+			- **Data Migration Assistant**. Data Migration Assistant es una herramienta independiente para evaluar servidores de SQL Server. Ayuda a identificar posibles problemas que bloquean la migración. Identifica características no admitidas, nuevas características que puede aprovechar después de la migración y la ruta de acceso correcta para la migración de la base de datos.
+			- **Azure Database Migration Service**. Migre bases de datos locales a máquinas virtuales de Azure en las que se ejecutan SQL Server, Azure SQL Database o instancias administradas de SQL.
+			- **Web app migration assistant** (Asistente de migración de aplicación web). Azure App Service Migration Assistant es una herramienta independiente para evaluar sitios web locales para la migración a Azure App Service. Use Migration Assistant para migrar aplicaciones web de .NET y PHP a Azure.
+			- **Azure Data Box**. Use los productos de Azure Data Box para trasladar grandes cantidades de datos sin conexión a Azure.
+		- #### Azure Data Box #flashcard
+			- Azure Data Box es un servicio de **migración física** que ayuda a transferir grandes cantidades de datos de forma rápida, económica y confiable. La transferencia de datos segura se acelera mediante el envío de un dispositivo de almacenamiento propietario de Data Box que tiene una capacidad de almacenamiento utilizable máxima de 80 terabytes. **Data Box se transporta hacia y desde el centro de datos a través de un transportista regional**. Una caja resistente asegura y protege Data Box de daños durante el trayecto.
 -
 - ## Descripción de la identidad, el acceso y la seguridad de Azure
 -

@@ -101,21 +101,40 @@ tags:: Azure, Microsoft-Learn
 			- Microsoft recomienda usar ZRS en la región primaria para escenarios que requieren de **alta disponibilidad**. También se recomienda ZRS para restringir la replicación de datos dentro de un país o **región** para cumplir los requisitos de **gobernanza** de datos.
 				- ![Diagrama en el que se muestra ZRS, con una copia de los datos almacenados en cada una de las tres zonas de disponibilidad.](https://learn.microsoft.com/es-es/training/wwl-azure/describe-azure-storage-services/media/zone-redundant-storage-6dd46d22.png)
 			-
-		- #### Redundancia en una región secundaria
+		- #### Redundancia en una región secundaria #flashcard
 			- En el caso de las aplicaciones que requieren de alta durabilidad, puede optar por copiar los datos de la cuenta de almacenamiento en una **región secundaria** que esté a cientos de kilómetros de distancia de la **región primaria**. Si los datos de la cuenta de almacenamiento se copian en una región secundaria, los datos serán duraderos incluso en caso de un error catastrófico que impida que se recuperen los datos de la región primaria.
 			- Al crear una cuenta de almacenamiento, seleccione la región **principal** de la cuenta. La región secundaria emparejada **se determina en función de los Pares de regiones** de Azure y **no se puede cambiar**.
 			- Azure Storage ofrece dos opciones para copiar los datos en una región secundaria:
 				- almacenamiento con redundancia geográfica (**GRS**) y
 				- almacenamiento con redundancia de zona geográfica (**GZRS**).
 			- GRS es similar a ejecutar LRS en dos regiones, y GZRS es similar a ejecutar ZRS en la región primaria y LRS en la región secundaria.
-		- #### Almacenamiento con redundancia geográfica
+		- #### Almacenamiento con redundancia geográfica #flashcard
 			- GRS copia los datos de manera sincrónica **tres veces** dentro de una ubicación física única en la **región primaria** mediante LRS. Luego copia los datos de forma asincrónica en **una única ubicación física en la región secundaria** (el par de regiones) mediante LRS. GRS proporciona a los objetos de datos de Azure Storage una durabilidad de al menos **16 nueves** (99,99999999999999 %) durante un año determinado.
 			- ![image.png](../assets/image_1669123089295_0.png)
 			-
-		- #### Almacenamiento con redundancia de zona geográfica
+		- #### Almacenamiento con redundancia de zona geográfica #flashcard
 			- **GZRS** combina la alta disponibilidad que proporciona la redundancia entre zonas de disponibilidad con la protección frente a interrupciones regionales que proporciona la replicación geográfica. Los datos de una cuenta de almacenamiento de GZRS se almacenan en **tres zonas de disponibilidad** de Azure en la región **primaria** (de manera similar a ZRS) y también se replican en una **región geográfica secundaria** para protegerlos frente a **desastres** regionales.
+			- ![Diagrama en el que se muestra GZRS, con el ZRS de la región primaria replicando datos al LRS en una segunda región.](https://learn.microsoft.com/es-es/training/wwl-azure/describe-azure-storage-services/media/geo-zone-redundant-storage-138ab5af.png)
 			-
+	- ### Descripción de los servicios de almacenamiento de Azure
+		- La plataforma de Azure Storage incluye los servicios de datos siguientes: #flashcard
+			- **Blobs de Azure**: un almacén de objetos que se puede escalar de forma masiva para datos de texto y binarios. También incluye compatibilidad con el análisis de macrodatos a través de Data Lake Storage Gen2.
+			- **Azure Files**: recursos compartidos de archivos administrados para implementaciones locales y en la nube.
+			- **Colas de Azure**: un almacén de mensajería para mensajería confiable entre componentes de aplicación.
+			- **Azure Disks**: volúmenes de almacenamiento en el nivel de bloque para máquinas virtuales de Azure.
+		- #### Blob Storage
+			- **Azure Blob Storage** es una solución de almacenamiento de **objetos** para la nube. Puede almacenar grandes cantidades de datos, como **datos de texto o binarios**. Azure Blob Storage es **no estructurado**, lo que significa que no hay ninguna restricción en cuanto a los tipos de datos que puede contener. Blob Storage puede administrar miles de cargas simultáneas, cantidades enormes de datos de vídeo, archivos de registro en constante crecimiento y es accesible desde cualquier lugar con conexión a Internet.
+			- Una ventaja del almacenamiento en **blobs** con respecto al almacenamiento en **disco** es que no requiere que los desarrolladores piensen en discos o los administren. Los datos se cargan como **blobs** y **Azure** se encarga de las necesidades de almacenamiento físico.
+			- Usos:
+				- Visualización de imágenes o documentos directamente en un explorador.
+				- Almacenamiento de archivos para acceso distribuido.
+				- Streaming de audio y vídeo.
+				- Almacenamiento de datos para copia de seguridad y restauración, recuperación ante desastres y archivado.
+				- Almacenamiento de datos para el análisis en local o en un servicio hospedado de Azure.
 			-
+		-
+			-
+		-
 -
 -
 - ## Descripción de la identidad, el acceso y la seguridad de Azure

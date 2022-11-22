@@ -91,8 +91,16 @@ tags:: Azure, Microsoft-Learn
 - ## Descripción de los servicios de almacenamiento de Azure
   id:: 637cc071-e79b-4fc3-aee0-144bf2dff0c1
 	- ### Descripción de la redundancia de almacenamiento de Azure
-		- ### Almacenamiento con redundancia local
+		- #### Almacenamiento con redundancia local
+			- El **almacenamiento con redundancia local (LRS)** replica los datos tres veces dentro de **un único** centro de datos en la región primaria. LRS ofrece una durabilidad mínima de **11 nueves** (99,999999999 %) de los objetos en un año determinado.
+			- **LRS** es la opción de redundancia de costo más bajo y ofrece la menor durabilidad en comparación con otras opciones. **LRS** protege los datos frente a errores en la **estantería** de servidores y en la **unidad**. No obstante, si se produce un **desastre** como un incendio o una inundación en el **centro de datos**, es posible que todas las réplicas de una cuenta de almacenamiento con LRS se pierdan o no se puedan recuperar. Para mitigar este riesgo, Microsoft **recomienda** el uso del almacenamiento con redundancia de zona (**ZRS**), el almacenamiento con redundancia geográfica (**GRS**) o el almacenamiento con redundancia de zona geográfica (**GZRS**).
+				- ![Diagrama en el que se muestra la estructura usada para el almacenamiento con redundancia local.](https://learn.microsoft.com/es-es/training/wwl-azure/describe-azure-storage-services/media/locally-redundant-storage-37247957.png)
+		- #### Almacenamiento con redundancia de zona
+			- Para las regiones con zona de disponibilidad habilitada, el **almacenamiento con redundancia de zona (ZRS)** replica los datos de Azure Storage sincrónicamente en **tres** zonas de disponibilidad de Azure en la región primaria. ZRS proporciona a los objetos de datos de Azure Storage una durabilidad de al menos **12 nueves** (99,9999999999 %) durante un año determinado.
+				- ![Diagrama en el que se muestra ZRS, con una copia de los datos almacenados en cada una de las tres zonas de disponibilidad.](https://learn.microsoft.com/es-es/training/wwl-azure/describe-azure-storage-services/media/zone-redundant-storage-6dd46d22.png)
+				-
 			-
+			- ###
 -
 -
 -

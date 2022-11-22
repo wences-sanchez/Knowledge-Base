@@ -122,7 +122,7 @@ tags:: Azure, Microsoft-Learn
 			- **Azure Files**: recursos compartidos de archivos administrados para implementaciones locales y en la nube.
 			- **Colas de Azure**: un almacén de mensajería para mensajería confiable entre componentes de aplicación.
 			- **Azure Disks**: volúmenes de almacenamiento en el nivel de bloque para máquinas virtuales de Azure.
-		- #### Blob Storage
+		- #### Blob Storage #flashcard
 			- **Azure Blob Storage** es una solución de almacenamiento de **objetos** para la nube. Puede almacenar grandes cantidades de datos, como **datos de texto o binarios**. Azure Blob Storage es **no estructurado**, lo que significa que no hay ninguna restricción en cuanto a los tipos de datos que puede contener. Blob Storage puede administrar miles de cargas simultáneas, cantidades enormes de datos de vídeo, archivos de registro en constante crecimiento y es accesible desde cualquier lugar con conexión a Internet.
 			- Una ventaja del almacenamiento en **blobs** con respecto al almacenamiento en **disco** es que no requiere que los desarrolladores piensen en discos o los administren. Los datos se cargan como **blobs** y **Azure** se encarga de las necesidades de almacenamiento físico.
 			- Usos:
@@ -131,8 +131,15 @@ tags:: Azure, Microsoft-Learn
 				- Streaming de audio y vídeo.
 				- Almacenamiento de datos para copia de seguridad y restauración, recuperación ante desastres y archivado.
 				- Almacenamiento de datos para el análisis en local o en un servicio hospedado de Azure.
-			-
-		-
+		- #### Niveles de Blob Storage #flashcard
+			- Entre los niveles de acceso disponibles se incluyen:
+				- **Nivel de acceso frecuente**: optimizado para almacenar datos a los que se accede con frecuencia (por ejemplo, imágenes para el sitio web).
+				- **Nivel de acceso esporádico**: optimizado para datos a los que se accede con poca frecuencia y que se almacenan al menos durante 30 días (por ejemplo, las facturas de los clientes).
+				- **Nivel de acceso de archivo**: conveniente para datos a los que raramente se accede y que se almacenan durante al menos 180 días con requisitos de latencia flexibles (por ejemplo, copias de seguridad a largo plazo).
+		- #### Azure Files
+			- **Azure Files** ofrece recursos compartidos de archivos totalmente administrados en la nube a los que se puede acceder mediante los protocolos **SMB (Bloque de mensajes del servidor)** o **NFS (Network File System)** estándar del sector. Los recursos compartidos de archivos de Azure Files se pueden montar simultáneamente mediante implementaciones locales o en la nube. A los recursos compartidos de archivos SMB de Azure se puede acceder desde clientes Windows, Linux y macOS. A los recursos compartidos de archivos NFS de Azure Files se puede acceder desde clientes Linux y macOS. Además, los recursos compartidos de archivos SMB de Azure Files se pueden almacenar en la caché de los servidores de Windows Server con Azure File Sync, lo que permite un acceso rápido allí donde se utilizan los datos.
+		- #### Queue Storage
+			- **Azure Queue Storage** es un servicio para almacenar grandes cantidades de **mensajes**. Una vez que están almacenados, se puede acceder a los mensajes desde cualquier lugar del mundo mediante llamadas autenticadas con HTTP o HTTPS. Una cola puede contener tantos mensajes como el espacio que tenga la cuenta de almacenamiento (pueden ser millones). Cada mensaje individual de la cola puede llegar a tener un tamaño máximo de 64 KB. Las colas se utilizan normalmente para crear un trabajo pendiente del trabajo que se va a procesar de forma asincrónica.
 			-
 		-
 -

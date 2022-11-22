@@ -103,9 +103,19 @@ tags:: Azure, Microsoft-Learn
 			-
 		- #### Redundancia en una región secundaria
 			- En el caso de las aplicaciones que requieren de alta durabilidad, puede optar por copiar los datos de la cuenta de almacenamiento en una **región secundaria** que esté a cientos de kilómetros de distancia de la **región primaria**. Si los datos de la cuenta de almacenamiento se copian en una región secundaria, los datos serán duraderos incluso en caso de un error catastrófico que impida que se recuperen los datos de la región primaria.
-			- Al crear una cuenta de almacenamiento, seleccione la región principal de la cuenta. La región secundaria emparejada se determina en función de los Pares de regiones de Azure y no se puede cambiar.
-			- Azure Storage ofrece dos opciones para copiar los datos en una región secundaria: almacenamiento con redundancia geográfica (GRS) y almacenamiento con redundancia de zona geográfica (GZRS). GRS es similar a ejecutar LRS en dos regiones, y GZRS es similar a ejecutar ZRS en la región primaria y LRS en la región secundaria.
--
+			- Al crear una cuenta de almacenamiento, seleccione la región **principal** de la cuenta. La región secundaria emparejada **se determina en función de los Pares de regiones** de Azure y **no se puede cambiar**.
+			- Azure Storage ofrece dos opciones para copiar los datos en una región secundaria:
+				- almacenamiento con redundancia geográfica (**GRS**) y
+				- almacenamiento con redundancia de zona geográfica (**GZRS**).
+			- GRS es similar a ejecutar LRS en dos regiones, y GZRS es similar a ejecutar ZRS en la región primaria y LRS en la región secundaria.
+		- #### Almacenamiento con redundancia geográfica
+			- GRS copia los datos de manera sincrónica **tres veces** dentro de una ubicación física única en la **región primaria** mediante LRS. Luego copia los datos de forma asincrónica en **una única ubicación física en la región secundaria** (el par de regiones) mediante LRS. GRS proporciona a los objetos de datos de Azure Storage una durabilidad de al menos **16 nueves** (99,99999999999999 %) durante un año determinado.
+			- ![image.png](../assets/image_1669123089295_0.png)
+			-
+		- #### Almacenamiento con redundancia de zona geográfica
+			- **GZRS** combina la alta disponibilidad que proporciona la redundancia entre zonas de disponibilidad con la protección frente a interrupciones regionales que proporciona la replicación geográfica. Los datos de una cuenta de almacenamiento de GZRS se almacenan en **tres zonas de disponibilidad** de Azure en la región **primaria** (de manera similar a ZRS) y también se replican en una **región geográfica secundaria** para protegerlos frente a **desastres** regionales.
+			-
+			-
 -
 -
 - ## Descripción de la identidad, el acceso y la seguridad de Azure

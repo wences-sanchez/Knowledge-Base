@@ -89,5 +89,7 @@ tags:: Azure, Microsoft-Learn
 					- Puede conectarse directamente a la red global de Microsoft en una ubicación de emparejamiento distribuida estratégicamente por todo el mundo. ExpressRoute Direct proporciona conectividad dual de 100 Gbps o 10 Gbps, que es compatible con la conectividad activa/activa a escala.
 -
 - ## Descripción de los servicios de almacenamiento de Azure
+  id:: 637cc071-e79b-4fc3-aee0-144bf2dff0c1
+	-
 - ## Descripción de la identidad, el acceso y la seguridad de Azure
 -

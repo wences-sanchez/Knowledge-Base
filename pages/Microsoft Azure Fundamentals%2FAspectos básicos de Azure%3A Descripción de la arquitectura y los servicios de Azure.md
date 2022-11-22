@@ -102,9 +102,9 @@ tags:: Azure, Microsoft-Learn
 				- ![Diagrama en el que se muestra ZRS, con una copia de los datos almacenados en cada una de las tres zonas de disponibilidad.](https://learn.microsoft.com/es-es/training/wwl-azure/describe-azure-storage-services/media/zone-redundant-storage-6dd46d22.png)
 			-
 		- #### Redundancia en una región secundaria
-			-
-			-
-			- ###
+			- En el caso de las aplicaciones que requieren de alta durabilidad, puede optar por copiar los datos de la cuenta de almacenamiento en una **región secundaria** que esté a cientos de kilómetros de distancia de la **región primaria**. Si los datos de la cuenta de almacenamiento se copian en una región secundaria, los datos serán duraderos incluso en caso de un error catastrófico que impida que se recuperen los datos de la región primaria.
+			- Al crear una cuenta de almacenamiento, seleccione la región principal de la cuenta. La región secundaria emparejada se determina en función de los Pares de regiones de Azure y no se puede cambiar.
+			- Azure Storage ofrece dos opciones para copiar los datos en una región secundaria: almacenamiento con redundancia geográfica (GRS) y almacenamiento con redundancia de zona geográfica (GZRS). GRS es similar a ejecutar LRS en dos regiones, y GZRS es similar a ejecutar ZRS en la región primaria y LRS en la región secundaria.
 -
 -
 -

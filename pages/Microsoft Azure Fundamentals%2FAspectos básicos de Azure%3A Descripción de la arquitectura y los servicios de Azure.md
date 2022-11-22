@@ -90,6 +90,11 @@ tags:: Azure, Microsoft-Learn
 -
 - ## Descripción de los servicios de almacenamiento de Azure
   id:: 637cc071-e79b-4fc3-aee0-144bf2dff0c1
-	-
+	- ### Descripción de la redundancia de almacenamiento de Azure
+		- ### Almacenamiento con redundancia local
+			-
+-
+-
+-
 - ## Descripción de la identidad, el acceso y la seguridad de Azure
 -

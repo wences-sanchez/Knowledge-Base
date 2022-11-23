@@ -223,4 +223,13 @@ tags:: Azure, Microsoft-Learn
 				- Proteja el acceso a las máquinas virtuales.
 				- Implemente la protección del punto de conexión de los dispositivos y mantenga los sistemas revisados y actualizados.
 		- #### Aplicación
-			-
+		- #### Datos
+			- Los que almacenan y controlan el acceso a los datos son responsables de asegurarse de que están protegidos correctamente. A menudo, los requisitos legales dictan los controles y procesos que deben cumplirse para garantizar la confidencialidad, la integridad y la disponibilidad de los datos.
+			- En casi todos los casos, los atacantes intentan conseguir datos:
+				- Almacenados en una base de datos.
+				- Almacenados en discos en máquinas virtuales.
+				- Almacenados en aplicaciones de software como servicio (SaaS), como Office 365.
+				- Administrados mediante el almacenamiento en la nube.
+	- ### Descripción de Microsoft Defender for Cloud
+		- Microsoft Defender for Cloud es una herramienta de supervisión para la administración de la posición de seguridad y la protección contra amenazas. Supervisa los entornos en la nube, locales, híbridos y multinube para ofrecer instrucciones y notificaciones destinadas a reforzar la posición de seguridad.
+		-

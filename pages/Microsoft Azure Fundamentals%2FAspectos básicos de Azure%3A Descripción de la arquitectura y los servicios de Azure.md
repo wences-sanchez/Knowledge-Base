@@ -176,6 +176,18 @@ tags:: Azure, Microsoft-Learn
   id:: 637ddaaa-df19-435c-9626-ca9b2e70fe3c
 	- ### Descripción de los servicios de directorio de Azure
 		- {{c1 Azure Active Directory (Azure AD)}} es un servicio de directorio que le permite iniciar sesión y acceder tanto a las aplicaciones en la nube de Microsoft como a las aplicaciones en la nube que desarrolle. {{c1 Azure AD}} también puede ayudarle a mantener la implementación de Active Directory local. #flashcard
+	- ### Descripción del control de acceso basado en roles de Azure
+		- El control de acceso basado en roles se aplica a un ámbito, que es un recurso o un conjunto de recursos en los que este acceso se permite. Los ámbitos pueden ser lo siguiente: #flashcard
+			- Un grupo de administración (una colección de varias suscripciones)
+			- Una sola suscripción
+			- Un grupo de recursos.
+			- Un solo recurso
+	- ### Descripción del modelo de Confianza cero #flashcard
+		- **Confianza cero** es un modelo de seguridad que supone el peor de los escenarios posibles y protege los recursos con esa expectativa. Confianza cero presupone que hay una vulneración y comprueba todas las solicitudes como si provinieran de una red no controlada.
+		- Para abordar este nuevo mundo informático, Microsoft recomienda encarecidamente el modelo de seguridad de Confianza cero, que se basa en estos principios rectores:
+			- **Comprobar explícitamente**: realice siempre las operaciones de autorización y autenticación en función de todos los puntos de datos disponibles.
+			- **Usar el acceso de privilegios mínimos**: limite el acceso de los usuarios con Just-in-Time y Just-Enough-Access (JIT/JEA), directivas que se adaptan al nivel de riesgo y protección de datos.
+			- **Asumir que hay brechas**: minimice el radio de expansión y el acceso a los segmentos. Comprobación del cifrado de un extremo a otro. Utilice el análisis para obtener visibilidad, impulsar la detección de amenazas y mejorar las defensas.
+		- ![Diagrama en el que se compara la autenticación de todos los usuarios por parte de Confianza cero con la opción clásica de la ubicación de red.](https://learn.microsoft.com/es-es/training/wwl-azure/describe-azure-identity-access-security/media/zero-trust-cf9202be.png)
 		-
--
 -

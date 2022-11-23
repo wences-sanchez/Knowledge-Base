@@ -8,10 +8,12 @@ category:: #books
 - Highlights first synced by [[Readwise]] [[Monday, 21-11-2022]]
 	- -
 		- Como en todos los pueblos y como todos los rumores :/ #flashcard
+		  id:: 637ddaa9-49e6-4529-8d64-d9fa3235708a
 			- Monseñor Myriel tuvo que correr la suerte de todos los recién llegados a una ciudad pequeña en la que hay muchas bocas que hablan y pocas cabezas que piensan.
 		- ([Location 55](https://readwise.io/to_kindle?action=open&asin=B01BI5M0YO&location=55))
 	- -
 	- -
 		- –No pensaba que esto fuera tan monstruoso. Es un error pensar sólo en la ley divina hasta el punto de no reparar ya en la humana. La muerte sólo pertenece a Dios. ¿Con qué derecho los hombres entran en contacto con esa cosa desconocida? #flashcard
+		  id:: 637ddaa9-8e62-4bf1-9081-554317cfe0ca
 		- ([Location 298](https://readwise.io/to_kindle?action=open&asin=B01BI5M0YO&location=298))
 	- -

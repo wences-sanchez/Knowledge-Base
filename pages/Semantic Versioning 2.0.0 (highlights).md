@@ -8,6 +8,7 @@ url:: https://semver.org/
 - Highlights first synced by [[Readwise]] [[Monday, 14-11-2022]]
 	- -
 		- What are the most proper versioning numbers? #flashcard
+		  id:: 63774583-d125-4b89-aa1b-4e94f17811db
 			- Given a version number MAJOR.MINOR.PATCH, increment the:
 			  
 			  

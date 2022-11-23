@@ -189,5 +189,38 @@ tags:: Azure, Microsoft-Learn
 			- **Usar el acceso de privilegios mínimos**: limite el acceso de los usuarios con Just-in-Time y Just-Enough-Access (JIT/JEA), directivas que se adaptan al nivel de riesgo y protección de datos.
 			- **Asumir que hay brechas**: minimice el radio de expansión y el acceso a los segmentos. Comprobación del cifrado de un extremo a otro. Utilice el análisis para obtener visibilidad, impulsar la detección de amenazas y mejorar las defensas.
 		- ![Diagrama en el que se compara la autenticación de todos los usuarios por parte de Confianza cero con la opción clásica de la ubicación de red.](https://learn.microsoft.com/es-es/training/wwl-azure/describe-azure-identity-access-security/media/zero-trust-cf9202be.png)
+	- ### Descripción de defensa en profundidad
+		- ![Un diagrama de las capas de defensa en profundidad. Desde el centro, estas capas son: datos, aplicación, proceso, red, perímetro, identidad y acceso, y seguridad física.](https://learn.microsoft.com/es-es/training/wwl-azure/describe-azure-identity-access-security/media/defense-depth-486afc12.png)
 		-
--
+		- Aquí tiene una breve descripción del rol de cada capa:
+			- La capa de seguridad física es la primera línea de defensa para proteger el hardware informático del centro de datos.
+			- La capa de identidad y acceso controla el acceso a la infraestructura y al control de cambios.
+			- La capa perimetral usa protección frente a ataques de denegación de servicio distribuido (DDoS) para filtrar los ataques a gran escala antes de que puedan causar una denegación de servicio para los usuarios.
+			- La capa de red limita la comunicación entre los recursos a través de controles de acceso y segmentación.
+			- La capa de proceso protege el acceso a las máquinas virtuales.
+			- La capa de aplicación ayuda a garantizar que las aplicaciones sean seguras y estén libres de vulnerabilidades de seguridad.
+			- La capa de datos controla el acceso a los datos empresariales y de clientes que es necesario proteger.
+		-
+		- #### Seguridad física
+			- La protección física del acceso a los edificios y el control del acceso al hardware de proceso del centro de datos son la primera línea de defensa.
+			- La intención de la seguridad física es proporcionar medidas de seguridad físicas contra el acceso a los recursos. Estas medidas garantizan que no se puedan omitir otras capas y se controle apropiadamente la pérdida o el robo. Microsoft usa varios mecanismos de seguridad físicos en sus centros de datos de la nube.
+		- #### Perímetro
+			- El perímetro de la red protege frente a ataques basados en red contra los recursos. Identificar estos ataques, eliminar sus repercusiones y recibir alertas sobre ellos cuando suceden son formas importantes de proteger la red.
+			  
+			  En esta capa, es importante que realice lo siguiente:
+				- Use protección contra DDoS para filtrar los ataques a gran escala antes de que puedan afectar a la disponibilidad de un sistema para los usuarios.
+				- Use firewalls perimetrales para identificar los ataques malintencionados contra la red y alertar sobre ellos.
+		- #### Red
+			- En esta capa, el enfoque está en limitar la conectividad de la red en todos los recursos para permitir solo la necesaria. Al limitar esta comunicación, se reduce el riesgo de que se propaguen los ataques a otros sistemas de la red.
+			- En esta capa, es importante que realice lo siguiente:
+				- Limite la comunicación entre los recursos.
+				- Deniegue de forma predeterminada.
+				- Restrinja el acceso entrante de Internet y limite el saliente cuando sea apropiado.
+				- Implemente conectividad segura a las redes locales.
+		- #### Procesos
+			- El software malintencionado, los sistemas sin revisiones aplicadas y los sistemas protegidos inadecuadamente abren el entorno a los ataques. El enfoque en esta capa es asegurarse de que sus recursos de proceso estén seguros y de que cuenta con los controles adecuados para minimizar los problemas de seguridad.
+			- En esta capa, es importante que realice lo siguiente:
+				- Proteja el acceso a las máquinas virtuales.
+				- Implemente la protección del punto de conexión de los dispositivos y mantenga los sistemas revisados y actualizados.
+		- #### Aplicación
+			-

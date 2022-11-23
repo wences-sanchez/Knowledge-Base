@@ -16,6 +16,16 @@ tags:: Azure, Microsoft-Learn
   id:: 637df651-0cbe-4c7c-895e-37a8b565531b
 	- ### Descripción del propósito de Azure Blueprints
 		- Azure Blueprints le permite estandarizar las implementaciones de entorno o suscripción en la nube. En lugar de tener que configurar características como Azure Policy para cada nueva suscripción, con Azure Blueprints puede definir la configuración repetible y las directivas que se aplican a medida que se crean suscripciones. ¿Necesita un nuevo entorno de pruebas y desarrollo? Azure Blueprints permite implementar un nuevo entorno de pruebas y desarrollo con las opciones de seguridad y cumplimiento ya configuradas. De este modo, los equipos de desarrollo pueden crear e implementar rápidamente nuevos entornos sabiendo que se crean de acuerdo con los estándares organizativos.
+	- ### Descripción del propósito de Azure Policy
+		- #### ¿Qué son las iniciativas Azure Policy?
+			- Una iniciativa de Azure Policy es una forma de agrupar las directivas relacionadas. La definición de iniciativa contiene todas las definiciones de directiva para facilitar el seguimiento del estado de cumplimiento de cara a un objetivo mayor.
+			- Por ejemplo, Azure Policy incluye una iniciativa denominada Habilitar la supervisión en Azure Security Center, Su objetivo es supervisar todas las recomendaciones de seguridad disponibles para todos los tipos de recursos de Azure en Azure Security Center.
+			- En esta iniciativa se incluyen las siguientes definiciones de directiva:
+				- **Supervisar base de datos SQL sin cifrar en Security Center:** esta directiva supervisa servidores y bases de datos SQL sin cifrar.
+				- **Supervisión de los puntos vulnerables del sistema operativo en Security Center:** esta directiva supervisa los servidores que no cumplen la línea base de la vulnerabilidad del sistema operativo configurada.
+				- **Supervisar la falta de Endpoint Protection en Security Center:** esta directiva supervisa los servidores que no tienen instalado un agente de Endpoint Protection.
+			- La iniciativa Habilitar la supervisión en Azure Security Center 
+			  contiene más de 100 definiciones de directiva independientes, de hecho.
 - ## Describe features and tools for Managing and Deploying Azure resources
   id:: 637df670-a5ca-4a7e-9014-89c6ee61de66
 - ## Describe monitoring tools in Azure

@@ -3,6 +3,7 @@ tags:: Azure, Microsoft-Learn
 
 -
 - ## Describir los componentes arquitectónicos principales de Azure
+  collapsed:: true
 	- ### Qué es Microsoft Azure #flashcard
 		- Azure proporciona más de 100 servicios que permiten hacer todo tipo de cosas: desde ejecutar las aplicaciones existentes en máquinas virtuales hasta explorar nuevos paradigmas de software, como bots inteligentes y realidad mixta.
 		- Muchos equipos comienzan a explorar la nube mediante la migración de sus aplicaciones existentes a máquinas virtuales (VM) que se ejecutan en Azure. Aunque este es un buen comienzo, **la nube es mucho más que un lugar diferente donde ejecutar las máquinas virtuales**.
@@ -31,6 +32,7 @@ tags:: Azure, Microsoft-Learn
 			- Si tiene muchas suscripciones, es posible que necesite una forma de administrar con eficacia el acceso, las directivas y el cumplimiento para esas suscripciones. Los grupos de administración de Azure proporcionan un nivel de ámbito por encima de las suscripciones. Las suscripciones se organizan en contenedores llamados grupos de administración, a los que se aplican condiciones de gobernanza. Todas las suscripciones de un grupo de administración heredan automáticamente las condiciones que tenga aplicadas, de la misma manera que los grupos de recursos heredan la configuración de las suscripciones y los recursos heredan de los grupos de recursos. Los grupos de administración proporcionan capacidad de administración de nivel empresarial a gran escala con independencia del tipo de suscripciones que tenga. Los **grupos de administración** se pueden anidar.
 	-
 - ## Descripción de los servicios de proceso y redes de Azure
+  collapsed:: true
 	- ### Descripción de Azure Virtual Machines
 		- #### Introducción
 			- Con **Azure Virtual Machines (VM)**, puede crear y usar máquinas virtuales en la nube. Estas máquinas virtuales proporcionan una infraestructura como servicio (IaaS) en forma de un servidor virtualizado y se pueden usar de muchas formas. Como sucede en un equipo físico, puede personalizar todo el software que se ejecuta en la máquina virtual. Las máquinas virtuales son una opción ideal cuando se necesita lo siguiente: #flashcard
@@ -90,6 +92,7 @@ tags:: Azure, Microsoft-Learn
 -
 - ## Descripción de los servicios de almacenamiento de Azure
   id:: 637cc071-e79b-4fc3-aee0-144bf2dff0c1
+  collapsed:: true
 	- ### Descripción de la redundancia de almacenamiento de Azure
 		- #### Almacenamiento con redundancia local #flashcard
 			- El **almacenamiento con redundancia local (LRS)** replica los datos tres veces dentro de **un único** centro de datos en la región primaria. LRS ofrece una durabilidad mínima de **11 nueves** (99,999999999 %) de los objetos en un año determinado.
@@ -172,6 +175,7 @@ tags:: Azure, Microsoft-Learn
 - ## Descripción de la identidad, el acceso y la seguridad de Azure
   id:: 637ddaaa-df19-435c-9626-ca9b2e70fe3c
 	- ### Descripción de los servicios de directorio de Azure
+		- {{c1 Azure Active Directory (Azure AD)}} es un servicio de directorio que le permite iniciar sesión y acceder tanto a las aplicaciones en la nube de Microsoft como a las aplicaciones en la nube que desarrolle. {{c1 Azure AD}} también puede ayudarle a mantener la implementación de Active Directory local. #flashcard
 		-
 -
 -

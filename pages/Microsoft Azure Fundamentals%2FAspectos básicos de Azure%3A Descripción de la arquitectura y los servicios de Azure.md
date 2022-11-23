@@ -170,4 +170,8 @@ tags:: Azure, Microsoft-Learn
 			-
 -
 - ## Descripción de la identidad, el acceso y la seguridad de Azure
+  id:: 637ddaaa-df19-435c-9626-ca9b2e70fe3c
+	- ### Descripción de los servicios de directorio de Azure
+		-
+-
 -

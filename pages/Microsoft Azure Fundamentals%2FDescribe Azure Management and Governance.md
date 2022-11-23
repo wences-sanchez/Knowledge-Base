@@ -38,4 +38,21 @@ id:: 637df55b-de1e-4f79-9e1b-8ff28edaf32c
 		- Cuando un usuario envía una solicitud de cualquiera de las herramientas, API o SDK de Azure, ARM la recibe. ARM autentica y autoriza la solicitud. Después, ARM envía la solicitud al servicio de Azure, que lleva a cabo la acción solicitada. Verá resultados y funcionalidades coherentes en todas las herramientas, ya que todas las solicitudes se controlan mediante la misma API.
 - ## Describe monitoring tools in Azure
   id:: 637df68c-8293-4ae9-9a0f-91eb6e63ff72
+	- ### Descripción del propósito de Azure Advisor
+		- Azure Advisor evalúa los recursos de Azure y hace recomendaciones que contribuyen a mejorar la confiabilidad, la seguridad y el rendimiento, lograr la excelencia operativa y reducir los costos. Azure Advisor está diseñado para ayudarle a ahorrar tiempo en la optimización en la nube. El servicio de recomendaciones sugiere medidas que puede adoptar de inmediato, posponer o descartar.
+		- Las recomendaciones se dividen en cinco categorías:
+			- La **fiabilidad** se usa para garantizar y mejorar la continuidad de las aplicaciones críticas para la empresa.
+			- La **seguridad** se usa para detectar amenazas y vulnerabilidades que podrían conducir a vulneraciones de la seguridad.
+			- El **rendimiento** se usa para mejorar la velocidad de las aplicaciones.
+			- La **excelencia operativa** se usa para aumentar la eficiencia de procesos y flujos de trabajo, mejorar la administración de recursos y obtener procedimientos recomendados para la implementación.
+			- El **costo** se usa para optimizar y reducir el gasto general de Azure.
+	- ### Descripción de Azure Service Health
+		- Azure Service Health le permite realizar un seguimiento de los recursos de Azure, tanto los recursos implementados específicamente como el estado general de Azure.
+		- Azure Service Health lo hace combinando tres servicios de Azure diferentes:
+			- **Estado de Azure** es una visión general del estado de Azure de forma global. Estado de Azure informa de las interrupciones de servicio en Azure en la página de estado de Azure . La página es una vista global del estado de todos los servicios y regiones de Azure. Es una buena referencia de los incidentes con un impacto generalizado.
+			- **Service Health** proporciona una vista más limitada del estado de los servicios y regiones de Azure. Se centra en los servicios y regiones de Azure que usa. Es el mejor lugar para buscar comunicaciones que afecten a los servicios relativas a interrupciones, actividades de mantenimiento planeado y otros avisos de mantenimiento, ya que tras la autenticación, Service Health conoce los servicios y recursos que usa en la actualidad. Incluso puede configurar las alertas de Service Health para que le envíen notificaciones cuando se produzcan problemas del servicio, mantenimientos planeados o cualquier otro cambio que pueda afectar a los servicios y regiones de Azure que usa.
+			- **Resource Health** es una vista personalizada de los recursos reales de Azure. Proporciona información sobre el estado de los recursos en la nube individuales, como una instancia de máquina virtual concreta. Mediante Azure Monitor también puede configurar alertas que le notifiquen los cambios de disponibilidad de los recursos en la nube.
+		-
+-
+-
 -

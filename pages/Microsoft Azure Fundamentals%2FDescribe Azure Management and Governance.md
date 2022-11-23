@@ -1,5 +1,6 @@
 deck:: [[UNIR::Curso Azure::Microsoft Learn Course]]
 tags:: Azure, Microsoft-Learn
+id:: 637df55b-de1e-4f79-9e1b-8ff28edaf32c
 
 -
 - ## Describe Cost Management in Azure
@@ -28,6 +29,13 @@ tags:: Azure, Microsoft-Learn
 			  contiene más de 100 definiciones de directiva independientes, de hecho.
 - ## Describe features and tools for Managing and Deploying Azure resources
   id:: 637df670-a5ca-4a7e-9014-89c6ee61de66
+	- ### Descripción del propósito de Azure Arc
+		- La administración de entornos híbridos y de varias nubes puede complicarse rápidamente. Azure proporciona una serie de herramientas para aprovisionar, configurar y supervisar recursos de Azure. ¿Qué ocurre con los recursos locales en una configuración híbrida o los 
+		  recursos de nube en una configuración de varias nubes?
+		- Al usar Azure Resource Manager (ARM), Arc le permite ampliar el cumplimiento y la supervisión de Azure a las configuraciones híbridas y de varias nubes. Azure Arc simplifica el gobierno y la administración al ofrecer una plataforma de administración local y multinube coherente.
+	- ### Descripción de las plantillas de Azure Resource Manager y Azure ARM
+		- Azure Resource Manager (ARM) es el servicio de implementación y administración de Azure. Proporciona una capa de administración que le permite crear, actualizar y eliminar recursos de la cuenta de Azure. Cada vez que haga algo con los recursos de Azure, ARM está implicado.
+		- Cuando un usuario envía una solicitud de cualquiera de las herramientas, API o SDK de Azure, ARM la recibe. ARM autentica y autoriza la solicitud. Después, ARM envía la solicitud al servicio de Azure, que lleva a cabo la acción solicitada. Verá resultados y funcionalidades coherentes en todas las herramientas, ya que todas las solicitudes se controlan mediante la misma API.
 - ## Describe monitoring tools in Azure
   id:: 637df68c-8293-4ae9-9a0f-91eb6e63ff72
 -

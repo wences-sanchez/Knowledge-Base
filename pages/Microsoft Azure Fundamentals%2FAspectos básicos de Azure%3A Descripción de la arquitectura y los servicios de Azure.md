@@ -92,7 +92,6 @@ tags:: Azure, Microsoft-Learn
 -
 - ## Descripción de los servicios de almacenamiento de Azure
   id:: 637cc071-e79b-4fc3-aee0-144bf2dff0c1
-  collapsed:: true
 	- ### Descripción de la redundancia de almacenamiento de Azure
 		- #### Almacenamiento con redundancia local #flashcard
 			- El **almacenamiento con redundancia local (LRS)** replica los datos tres veces dentro de **un único** centro de datos en la región primaria. LRS ofrece una durabilidad mínima de **11 nueves** (99,999999999 %) de los objetos en un año determinado.

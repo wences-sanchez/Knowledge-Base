@@ -52,7 +52,18 @@ id:: 637df55b-de1e-4f79-9e1b-8ff28edaf32c
 			- **Estado de Azure** es una visión general del estado de Azure de forma global. Estado de Azure informa de las interrupciones de servicio en Azure en la página de estado de Azure . La página es una vista global del estado de todos los servicios y regiones de Azure. Es una buena referencia de los incidentes con un impacto generalizado.
 			- **Service Health** proporciona una vista más limitada del estado de los servicios y regiones de Azure. Se centra en los servicios y regiones de Azure que usa. Es el mejor lugar para buscar comunicaciones que afecten a los servicios relativas a interrupciones, actividades de mantenimiento planeado y otros avisos de mantenimiento, ya que tras la autenticación, Service Health conoce los servicios y recursos que usa en la actualidad. Incluso puede configurar las alertas de Service Health para que le envíen notificaciones cuando se produzcan problemas del servicio, mantenimientos planeados o cualquier otro cambio que pueda afectar a los servicios y regiones de Azure que usa.
 			- **Resource Health** es una vista personalizada de los recursos reales de Azure. Proporciona información sobre el estado de los recursos en la nube individuales, como una instancia de máquina virtual concreta. Mediante Azure Monitor también puede configurar alertas que le notifiquen los cambios de disponibilidad de los recursos en la nube.
-		-
--
+	- ### Descripción de Azure Monitor
+		- Azure Monitor es una plataforma para recopilar datos sobre los recursos, analizar esos datos, visualizar la información e incluso actuar en función de los resultados. Azure Monitor puede supervisar los recursos de Azure, los recursos locales e incluso los recursos de varias nubes, como las máquinas virtuales hospedadas con otro proveedor de nube.
+		- ![Ilustración en la que se muestra el flujo de información que usa Azure Monitor para proporcionar supervisión y visualización de datos.](https://learn.microsoft.com/es-es/training/wwl-azure/describe-monitoring-tools-azure/media/azure-monitor-overview-614cd2fd.svg)
+		- #### Application Insights
+			- Application Insights, una característica de Azure Monitor, supervisa las aplicaciones web. Application Insights es capaz de supervisar aplicaciones que se ejecutan en Azure, en el entorno local o en otro entorno de nube.
+			- Hay dos maneras de configurar Application Insights para ayudar a supervisar la aplicación. Puede instalar un SDK en la aplicación, o bien puede usar el agente de Application Insights.
+			- Una vez que Application Insights esté en funcionamiento, puede usarlo para supervisar una amplia gama de información, como la siguiente:
+				- Tasas de solicitudes, tiempos de respuesta y tasas de error
+				- Las tasas de dependencia, los tiempos de respuesta y las tasas de error muestran si los servicios externos ralentizan el rendimiento.
+				- Vistas de página y rendimiento de carga notificados por los exploradores de los usuarios
+				- Llamadas AJAX desde páginas web, incluyendo tasas, tiempos de respuesta y tasas de error
+				- Recuentos de usuarios y sesiones
+				- Contadores de rendimiento de las máquinas de servidor de Windows o Linux, como CPU, memoria y uso de la red
 -
 -

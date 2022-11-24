@@ -36,6 +36,7 @@ tags:: Azure, Microsoft-Learn
 		- La {{c1 plataforma como servicio (PaaS)}} es un punto intermedio entre alquilar espacio en un centro de datos (infraestructura como servicio) y pagar por una solución completa e implementada (software como servicio). En un entorno {{c1 paaS}}, el proveedor de nube mantiene la infraestructura física, la seguridad física y la conexión a Internet. También mantienen los sistemas operativos, el middleware, las herramientas de desarrollo y los servicios de inteligencia empresarial que componen una solución en la nube. En un escenario de {{c1 PaaS}}, no tiene que preocuparse por las licencias ni la aplicación de revisiones para los sistemas operativos y las bases de datos. #flashcard
 		  id:: 6378a372-9335-4409-b04a-4d97e1b96934
 			- {{c1 PaaS}} es adecuado para proporcionar un entorno de desarrollo completo sin el problema que supone mantener toda la infraestructura de desarrollo.
+			  id:: 637f3952-8ddc-494c-ae8f-b4e9aa515392
 		-
 	-
 	-

@@ -1,5 +1,5 @@
 title:: Contenedores Tema-3 (highlights)
-deck:: [[UNI::Contenedores::Tema-3]]
+deck:: [[UNI::Contenedores Tema-3]]
 author:: [[UNIR]]
 full-title:: "Contenedores Tema-3"
 category:: #books

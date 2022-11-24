@@ -1,5 +1,5 @@
 title:: Contenedores Tema-2 (highlights)
-deck:: [[UNI::Contenedores::Tema-2]]
+deck:: [[UNI::Contenedores Tema-2]]
 author:: [[UNIR]]
 full-title:: "Contenedores Tema-2"
 category:: #books

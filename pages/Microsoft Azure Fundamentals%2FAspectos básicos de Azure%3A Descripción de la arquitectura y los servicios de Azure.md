@@ -1,4 +1,4 @@
-deck:: [[UNIR::Curso Azure::Microsoft Learn Course]]
+deck:: [[Cloud Learning::Azure::Microsoft Learn Course]] 
 tags:: Azure, Microsoft-Learn
 
 -

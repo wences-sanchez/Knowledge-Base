@@ -1,6 +1,6 @@
-deck:: [[UNIR::Curso Azure::Microsoft Learn Course]]
-tags:: Azure, Microsoft-Learn
 id:: 637df55b-de1e-4f79-9e1b-8ff28edaf32c
+deck:: [[Cloud Learning::Azure::Microsoft Learn Course]] 
+tags:: Azure, Microsoft-Learn
 
 -
 - ## Describe Cost Management in Azure

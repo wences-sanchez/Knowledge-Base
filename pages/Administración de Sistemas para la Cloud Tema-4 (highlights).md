@@ -1,5 +1,4 @@
 title:: Administración de Sistemas para la Cloud Tema-4 (highlights)
-deck:: [[UNI::Administración de Sistemas para la Cloud Tema-4]]
 author:: [[UNIR]]
 full-title:: "Administración de Sistemas para la Cloud Tema-4"
 category:: #books

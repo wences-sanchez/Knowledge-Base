@@ -1,5 +1,4 @@
 title:: Administración de Sistemas para la Cloud Tema-2 (highlights)
-deck:: [[UNI::Administración de Sistemas para la Cloud Tema-2]]
 author:: [[UNIR]]
 full-title:: "Administración de Sistemas para la Cloud Tema-2"
 category:: #books

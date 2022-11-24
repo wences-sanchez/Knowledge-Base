@@ -1,5 +1,4 @@
 title:: Cloud Computing and DevOps Culture Tema-7 (highlights)
-deck:: [[UNI::Cloud Computing and DevOps Culture Tema-7]]
 author:: [[UNIR]]
 full-title:: "Cloud Computing and DevOps Culture Tema-7"
 category:: #books

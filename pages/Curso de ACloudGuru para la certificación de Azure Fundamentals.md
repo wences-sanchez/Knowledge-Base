@@ -1,9 +1,9 @@
 - ### Tareas del curso {{renderer :todomaster}}
   collapsed:: true
-	- DOING Chapter 1: Introduction
+	- TODO Chapter 1: Introduction
 	  id:: 63886c8f-3c6d-4508-94d0-2a6fa4e56954
 	  :LOGBOOK:
-	  CLOCK: [2022-12-01 Thu 10:13:43]
+	  CLOCK: [2022-12-01 Thu 10:13:43]--[2022-12-01 Thu 10:55:08] =>  00:41:25
 	  :END:
 	- TODO Chapter 2: Cloud Concepts
 	- TODO Chapter 3: Azure Architecture

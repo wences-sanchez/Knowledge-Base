@@ -5,7 +5,7 @@ tags:: ACloudGuru, Azure
 - ## Microsoft Learn
 	- The course provides Microsoft Learn links =)
 - ## Course Introduction
-	- The coruse covers all the foundationals materials
+	- The course covers all the foundationals materials
 	- The course will cover all the areas of the AZ-900 exam, which are divided into the following sections, ready?
 	- **Cloud Concepts**
 		- which focuses on the core benefits of using Azure, such as high availability and scalability.

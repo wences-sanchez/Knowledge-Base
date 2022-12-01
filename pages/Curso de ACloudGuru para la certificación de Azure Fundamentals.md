@@ -19,5 +19,8 @@
 	- TODO Chapter 13: Support
 	- TODO Chapter 14: Exam Preparation
 -
+- ## Contenidos en PDF
+	- ![Course-Slides.pdf](../assets/Course-Slides_1669887168805_0.pdf)
+-
 - ## Chapter 1: [[Curso de ACloudGuru para la certificación de Azure Fundamentals/Introduction]]
 -

@@ -84,6 +84,18 @@
 			- `$ az vm delete --resource-group <resource-group-name> --name <vm-name>`
 			- or also `$ az vm delete --ids <vm-id>`
 			- Lo comprobamos con `$ az vm list`
+	- ### Azure Mobile Apps
+		- You cam run a bash session just inside your iPhone!!
+	- ### ARM Templates
+		- Templates are useful to describe resources usage declaratively
+		- They're idempotent
+		- They're written in JSON
+		- A variable is interplaoted with *{* and *}*
+		- You can use the benefits of source control with templates
+		- Your can reuse them
+		- They're declarative
+		- No human errors
+		-
 		-
 -
 -

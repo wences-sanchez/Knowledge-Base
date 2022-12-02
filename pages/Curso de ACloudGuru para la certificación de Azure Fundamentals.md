@@ -1,11 +1,15 @@
 - ### Tareas del curso {{renderer :todomaster}}
-	- DOING Chapter 1: Introduction ((6389b6b2-25e7-44fb-bab1-5469ecbadf72))
+	- DONE Chapter 1: Introduction ((6389b6b2-25e7-44fb-bab1-5469ecbadf72))
 	  id:: 63886c8f-3c6d-4508-94d0-2a6fa4e56954
 	  :LOGBOOK:
 	  CLOCK: [2022-12-01 Thu 10:13:43]--[2022-12-01 Thu 10:55:08] =>  00:41:25
-	  CLOCK: [2022-12-02 Fri 09:30:45]
+	  CLOCK: [2022-12-02 Fri 09:30:45]--[2022-12-02 Fri 11:57:41] =>  02:26:56
 	  :END:
-	- TODO Chapter 2: Cloud Concepts
+	- DOING Chapter 2: Cloud Concepts ((6389db47-d3ed-4d31-95ae-016d4f4e01d7))
+	  id:: 6389b6b2-56ea-4db2-a88e-56e75e5d09d3
+	  :LOGBOOK:
+	  CLOCK: [2022-12-02 Fri 12:03:20]
+	  :END:
 	- TODO Chapter 3: Azure Architecture
 	- TODO Chapter 4: Compute
 	- TODO Chapter 5: Networking
@@ -99,8 +103,12 @@
 		- It's free
 		- You have suggestions to improve your infrastructure from Azure
 	- ### Summary
-		-
-		-
+-
+- ## Chapter 2: Cloud Concepts
+  id:: 6389db47-d3ed-4d31-95ae-016d4f4e01d7
+	- ### Introduction
+		- Cloud computing is the on-demand delivery of computing serivices.
+	-
 -
 -
 -

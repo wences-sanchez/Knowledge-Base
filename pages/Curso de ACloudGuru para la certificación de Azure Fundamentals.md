@@ -73,7 +73,8 @@
 		- Many tools are included
 		- Dedicated storage to persist data between seesions
 		- A complete file editor
-	-
+	- ### Lab: Cloud Shell
+		-
 -
 -
 -

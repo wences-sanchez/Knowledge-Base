@@ -112,7 +112,7 @@
 		- #### High Availability
 			- In traditional computing,
 				- you own the hardware.
-				- Your hae physical access
+				- Your have physical access
 				- Your can't just add servers
 			- In the cloud,
 				- You don't own the hardware

@@ -28,6 +28,7 @@
 -
 - ## Chapter 1: Introduction
   id:: 6389b6b2-25e7-44fb-bab1-5469ecbadf72
+  collapsed:: true
 	- ### Microsoft Learn
 		- The course provides Microsoft Learn links =)
 	- ### Course Introduction
@@ -89,7 +90,7 @@
 			- or also `$ az vm delete --ids <vm-id>`
 			- Lo comprobamos con `$ az vm list`
 	- ### Azure Mobile Apps
-		- You cam run a bash session just inside your iPhone!!
+		- You can run a bash session just inside your iPhone!!
 	- ### ARM Templates
 		- Templates are useful to describe resources usage declaratively
 		- They're idempotent
@@ -153,7 +154,10 @@
 				- Azure Portal
 				- Azure CLI
 				- Azure APIs
-		-
+	- ### The Economy of Cloud Computing
+		- #### Capital Expenditure
+			- Money spent by a business or organization on acquiring or maintaining
+		- #### Operational Expenditure
 		-
 -
 -

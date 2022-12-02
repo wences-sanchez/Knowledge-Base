@@ -108,7 +108,28 @@
   id:: 6389db47-d3ed-4d31-95ae-016d4f4e01d7
 	- ### Introduction
 		- Cloud computing is the on-demand delivery of computing serivices.
-	-
+	- ### The Language of Cloud Computing
+		- #### High Availability
+			- In traditional computing,
+				- you own the hardware.
+				- Your hae physical access
+				- Your can't just add servers
+			- In the cloud,
+				- You don't own the hardware
+				- You add more servers with a click
+				- If hardware fails, replace it instantly
+				- You use clusters to ensure high availabiltiy
+		- #### Scalability
+		- #### Predictability
+		- #### Reliability
+			- a.k.a. Fault Tolerance or Disaster Recovery
+			- Resilience
+				- The ability of a system to recover from failures and continue to function
+			- Deploy in Multiple Locations
+		- #### Security
+		- #### Governance
+		- #### Manageability
+		-
 -
 -
 -

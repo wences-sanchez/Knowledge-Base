@@ -80,7 +80,10 @@
 			- `$ az storage account list`
 		- How do you list the virtual machines using Azure CLI? #flashcard
 			- `$ az vm list`
-		- How do you re
+		- How do you remove a virtual machine using Azure CLI? #flashcard
+			- `$ az vm delete --resource-group <resource-group-name> --name <vm-name>`
+			- or also `$ az vm delete --ids <vm-id>`
+			- Lo comprobamos con `$ az vm list`
 		-
 -
 -

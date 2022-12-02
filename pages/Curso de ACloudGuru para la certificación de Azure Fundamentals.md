@@ -166,6 +166,7 @@
 			- Also known as **OpEx**
 				- Ongoing costs needed to run your business
 	- ### Cloud Service Models
+		-
 		- #### Infrastructure as a Service
 			- Infrastructure of virtual servers used as actual servers
 			- Scaling is fast
@@ -174,12 +175,27 @@
 				- VMs and Servers
 				- Networks
 				- Physical buildings
-		- #### Platform as a Service
-			- The cloud provider manages for you the VMs and servers, the network and the physical buildings
-			- You
-			- ![image.png](../assets/image_1669982712481_0.png)
-			-
 		-
+		- #### Platform as a Service
+			- It is a super set of IaaS, and like IaaS, PaaS includes infrastructure, service, storage, and networking. But also middleware, development tools, business intelligence (or BI), services, database management systems, and more.
+			- PaaS is designed to support the complete web application lifecycle: building, testing,
+			  deploying, managing, and updating.
+			- On Azure, the PaaS offering avoids the expense and complexity of buying and managing software licenses, the underlying application infrastructure, and middleware.
+			- The cloud provider manages for you the VMs and servers, the network and the physical buildings
+			- You manage the applications and services that you develop
+			- And the cloud service provider typically manages everything else.
+			- You just have to worry about your application.
+			- ![image.png](../assets/image_1669982712481_0.png)
+		-
+		- #### Software as a Service
+			- It implicitly includes both IaaS and PaaS, and it is built on top of those.
+			- Normally, it has to do with providing a service via a managed rented software service, such as Stripe for credit card payments, Gmail for emails, or QuickBooks for accounting.
+			- You don't own the software, but you pay an access fee to use it or might even be free.
+			- That removes any maintenance you might have to do, and you always have the latest features.
+			- ![image.png](../assets/image_1669983108657_0.png)
+		-
+		- #### Serverless
+			- It doesn't mean that there are not servers. Of course the
 		-
 		-
 -

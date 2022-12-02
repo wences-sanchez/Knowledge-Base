@@ -73,7 +73,14 @@
 		- Many tools are included
 		- Dedicated storage to persist data between seesions
 		- A complete file editor
-	- ### Lab: Cloud Shell
+	- ### Lab: Cloud Shell #Labs
+		- How do you list the resource groups using Azure CLI? #flashcard
+			- `$ az resource list`
+		- How do you list the storage accounts using Azure CLI? #flashcard
+			- `$ az storage account list`
+		- How do you list the virtual machines using Azure CLI? #flashcard
+			- `$ az vm list`
+		- How do you re
 		-
 -
 -

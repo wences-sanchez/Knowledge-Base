@@ -140,11 +140,20 @@
 				- Resources in multiple locations
 				- If one serever goes down, others pick up the load
 		- #### Security
+			- Full control of the security of your cloud environment
 		- #### Governance
+			- Standardized environmentss
+			- Regulatory audit for compliance
 		- #### Manageability
-			- Security
-				- Full control of the security of your cloud environment
-			-
+			- Management **OF** the cloud:
+				- Autoscaling
+				- Monitoring
+				- Template-based deployments
+			- Management **IN** the cloud:
+				- Azure Portal
+				- Azure CLI
+				- Azure APIs
+		-
 		-
 -
 -

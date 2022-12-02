@@ -195,7 +195,14 @@
 			- ![image.png](../assets/image_1669983108657_0.png)
 		-
 		- #### Serverless
-			- It doesn't mean that there are not servers. Of course the
+			- It doesn't mean that there are not servers. Of course there are! But Azure manages them for you
+			- Azure Functions is an example of PaaS that provides a serverless service
+			- ![image.png](../assets/image_1669983537595_0.png)
+			-
+		- ![image.png](../assets/image_1669983611128_0.png)
+		- Azure doesn't really provide a SaaS option.
+		- ![image.png](../assets/image_1669983831090_0.png)
+		-
 		-
 		-
 -

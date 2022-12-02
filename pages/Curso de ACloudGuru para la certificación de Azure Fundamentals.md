@@ -59,6 +59,16 @@
 	-
 	- ### Azure Portal
 		- You can personalize the Azure Portal
+	- ### Azure Command Line Interface
+		- The CLI is stable
+		- It's cross platform
+		- Enable automation
+		- Offers logging
+	- ### Azure Powershell
+		- It's text based
+	- ### Cloud Shell
+		- It's an interactive, browser accessible shell for managing Azure
+		- Access for
 		-
 -
 -

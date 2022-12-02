@@ -156,8 +156,31 @@
 				- Azure APIs
 	- ### The Economy of Cloud Computing
 		- #### Capital Expenditure
-			- Money spent by a business or organization on acquiring or maintaining
+			- Money spent by a business or organization on acquiring or maintaining fixed assets, such as land, buildings and equipment.
+			- Large upfront investments
+			- Also known as **CapEx**
+				- Buying hardware outright, paid upfront as a one time purchase
 		- #### Operational Expenditure
+			- An ongoing cost for running a product, business or system on a day-to-day basis including annual costs
+			- Pay-as-you-go
+			- Also known as **OpEx**
+				- Ongoing costs needed to run your business
+	- ### Cloud Service Models
+		- #### Infrastructure as a Service
+			- Infrastructure of virtual servers used as actual servers
+			- Scaling is fast
+			- No ownership of hardware
+			- Examples:
+				- VMs and Servers
+				- Networks
+				- Physical buildings
+		- #### Platform as a Service
+			- The cloud provider manages for you the VMs and servers, the network and the physical buildings
+			- You
+			- ![image.png](../assets/image_1669982712481_0.png)
+			-
+		-
+		-
 		-
 -
 -

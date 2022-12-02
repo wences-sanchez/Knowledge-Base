@@ -95,6 +95,9 @@
 		- Your can reuse them
 		- They're declarative
 		- No human errors
+	- ### Azure Advisor
+		- It's free
+		- You have suggestions to improve your infrastructure from Azure
 		-
 		-
 -

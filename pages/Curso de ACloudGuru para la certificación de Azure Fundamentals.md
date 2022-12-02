@@ -68,8 +68,12 @@
 		- It's text based
 	- ### Cloud Shell
 		- It's an interactive, browser accessible shell for managing Azure
-		- Access for
-		-
+		- Access to any resource
+		- You can use bash or PowerShell
+		- Many tools are included
+		- Dedicated storage to persist data between seesions
+		- A complete file editor
+	-
 -
 -
 -

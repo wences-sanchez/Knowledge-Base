@@ -120,15 +120,31 @@
 				- If hardware fails, replace it instantly
 				- You use clusters to ensure high availabiltiy
 		- #### Scalability
+			- Automatically adjust resources to meet demand
+			- Tipically used with a load balancer
 		- #### Predictability
+			- Predictable Performance
+				- Consistent experience for customers regardless of traffic
+				- Autoscaling, load balancing and HA provide a consistent experience
+			- Predictable Costs
+				- No unexpected surprises
+				- Track and forecast resource usage (costs) in real time
+				- Analytics tools offered
 		- #### Reliability
 			- a.k.a. Fault Tolerance or Disaster Recovery
 			- Resilience
 				- The ability of a system to recover from failures and continue to function
 			- Deploy in Multiple Locations
+				- Protects against regional failure/disaster
+			- No single point of Failure
+				- Resources in multiple locations
+				- If one serever goes down, others pick up the load
 		- #### Security
 		- #### Governance
 		- #### Manageability
+			- Security
+				- Full control of the security of your cloud environment
+			-
 		-
 -
 -

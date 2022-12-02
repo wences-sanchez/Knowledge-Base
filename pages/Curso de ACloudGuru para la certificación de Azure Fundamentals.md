@@ -57,6 +57,9 @@
 			- outlines the many ways you can get help and assistance to using Azure, both from Microsoft and the wider community.
 		- And, of course, we also go through what to expect on **the day of the exam**.
 	-
+	- ### Azure Portal
+		- You can personalize the Azure Portal
+		-
 -
 -
 -

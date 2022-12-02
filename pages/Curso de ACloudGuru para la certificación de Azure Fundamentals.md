@@ -1,9 +1,9 @@
 - ### Tareas del curso {{renderer :todomaster}}
-  collapsed:: true
-	- TODO Chapter 1: Introduction
+	- DOING Chapter 1: Introduction [[Curso de ACloudGuru para la certificación de Azure Fundamentals/Introduction]]
 	  id:: 63886c8f-3c6d-4508-94d0-2a6fa4e56954
 	  :LOGBOOK:
 	  CLOCK: [2022-12-01 Thu 10:13:43]--[2022-12-01 Thu 10:55:08] =>  00:41:25
+	  CLOCK: [2022-12-02 Fri 09:30:45]
 	  :END:
 	- TODO Chapter 2: Cloud Concepts
 	- TODO Chapter 3: Azure Architecture

@@ -1,3 +1,8 @@
+deck:: [[ACloudGuru::Azure Fundamentals]]
+tags:: Azure, ACloudGuru
+
+-
+-
 - ### Tareas del curso {{renderer :todomaster}}
 	- DONE Chapter 1: Introduction ((6389b6b2-25e7-44fb-bab1-5469ecbadf72))
 	  id:: 63886c8f-3c6d-4508-94d0-2a6fa4e56954
@@ -5,11 +10,11 @@
 	  CLOCK: [2022-12-01 Thu 10:13:43]--[2022-12-01 Thu 10:55:08] =>  00:41:25
 	  CLOCK: [2022-12-02 Fri 09:30:45]--[2022-12-02 Fri 11:57:41] =>  02:26:56
 	  :END:
-	- DOING Chapter 2: Cloud Concepts ((6389db47-d3ed-4d31-95ae-016d4f4e01d7))
+	- DONE Chapter 2: Cloud Concepts ((6389db47-d3ed-4d31-95ae-016d4f4e01d7))
 	  id:: 6389b6b2-56ea-4db2-a88e-56e75e5d09d3
 	  :LOGBOOK:
 	  CLOCK: [2022-12-02 Fri 12:03:20]--[2022-12-02 Fri 13:48:22] =>  01:45:02
-	  CLOCK: [2022-12-05 Mon 17:13:52]
+	  CLOCK: [2022-12-05 Mon 17:13:52]--[2022-12-05 Mon 17:41:17] =>  00:27:25
 	  :END:
 	- TODO Chapter 3: Azure Architecture
 	- TODO Chapter 4: Compute
@@ -110,7 +115,7 @@
   id:: 6389db47-d3ed-4d31-95ae-016d4f4e01d7
 	- ### Introduction
 		- Cloud computing is the on-demand delivery of computing serivices.
-	- ### The Language of Cloud Computing
+	- ### The Language of Cloud Computing #flashcard
 		- #### High Availability
 			- In traditional computing,
 				- you own the hardware.
@@ -155,7 +160,7 @@
 				- Azure Portal
 				- Azure CLI
 				- Azure APIs
-	- ### The Economy of Cloud Computing
+	- ### The Economy of Cloud Computing #flashcard
 		- #### Capital Expenditure
 			- Money spent by a business or organization on acquiring or maintaining fixed assets, such as land, buildings and equipment.
 			- Large upfront investments
@@ -166,8 +171,8 @@
 			- Pay-as-you-go
 			- Also known as **OpEx**
 				- Ongoing costs needed to run your business
-	- ### Cloud Service Models
-		-
+				-
+	- ### Cloud Service Models #flashcard
 		- #### Infrastructure as a Service
 			- Infrastructure of virtual servers used as actual servers
 			- Scaling is fast
@@ -204,8 +209,7 @@
 		- Azure doesn't really provide a SaaS option.
 		- ![image.png](../assets/image_1669983831090_0.png)
 		-
-	- ### Azure Marketplace
-	- ### Cloud Architecture Models
+	- ### Cloud Architecture Models #flashcard
 		- #### Private Cloud
 			- Private means that the servers in the cloud are open to selected users only, instead of the public.
 		- #### Public Cloud

@@ -206,7 +206,14 @@
 		-
 	- ### Azure Marketplace
 	- ### Cloud Architecture Models
-		-
+		- #### Private Cloud
+			- Private means that the servers in the cloud are open to selected users only, instead of the public.
+		- #### Public Cloud
+			- Anyone with an internet connection can instantly becomea a master of the service.
+		- #### Hybrid Cloud
+			- It's a mix of the two previous models
+			- It could be *the best of both worlds*
+	-
 -
 -
 -

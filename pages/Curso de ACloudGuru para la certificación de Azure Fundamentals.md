@@ -86,12 +86,16 @@ tags:: Azure, ACloudGuru
 		- A complete file editor
 	- ### Lab: Cloud Shell #Labs
 		- How do you list the resource groups using Azure CLI? #flashcard
+		  id:: 638e17e4-31a4-4143-b402-81f3e885734c
 			- `$ az resource list`
 		- How do you list the storage accounts using Azure CLI? #flashcard
+		  id:: 638e17e4-ee54-4d25-bb48-0d9b72830641
 			- `$ az storage account list`
 		- How do you list the virtual machines using Azure CLI? #flashcard
+		  id:: 638e17e4-c309-48a0-b6da-3663305d604d
 			- `$ az vm list`
 		- How do you remove a virtual machine using Azure CLI? #flashcard
+		  id:: 638e17e4-745e-4417-8017-df0d64e20160
 			- `$ az vm delete --resource-group <resource-group-name> --name <vm-name>`
 			- or also `$ az vm delete --ids <vm-id>`
 			- Lo comprobamos con `$ az vm list`
@@ -116,6 +120,7 @@ tags:: Azure, ACloudGuru
 	- ### Introduction
 		- Cloud computing is the on-demand delivery of computing serivices.
 	- ### The Language of Cloud Computing #flashcard
+	  id:: 638e17e3-b213-42c8-8bba-aa0353a44391
 		- #### High Availability
 			- In traditional computing,
 				- you own the hardware.
@@ -161,6 +166,7 @@ tags:: Azure, ACloudGuru
 				- Azure CLI
 				- Azure APIs
 	- ### The Economy of Cloud Computing #flashcard
+	  id:: 638e17e3-7c6a-4ce2-965b-64330e6768f5
 		- #### Capital Expenditure
 			- Money spent by a business or organization on acquiring or maintaining fixed assets, such as land, buildings and equipment.
 			- Large upfront investments
@@ -173,6 +179,7 @@ tags:: Azure, ACloudGuru
 				- Ongoing costs needed to run your business
 				-
 	- ### Cloud Service Models #flashcard
+	  id:: 638e17e3-8add-4f19-8512-fd231e56f8c9
 		- #### Infrastructure as a Service
 			- Infrastructure of virtual servers used as actual servers
 			- Scaling is fast
@@ -210,6 +217,7 @@ tags:: Azure, ACloudGuru
 		- ![image.png](../assets/image_1669983831090_0.png)
 		-
 	- ### Cloud Architecture Models #flashcard
+	  id:: 638e1a02-b767-4bd5-ad3e-57b2268e3dd5
 		- #### Private Cloud
 			- Private means that the servers in the cloud are open to selected users only, instead of the public.
 		- #### Public Cloud

@@ -294,13 +294,29 @@ tags:: Azure, ACloudGuru
 			- **Not for Everything:** If you can use another Azure service instead, it is often worth it.
 			- **Maintenance:** A lot of maintenance with VMs. Operating systems updates, patches, security concerns.
 	- ### Scale Sets
-		- A Scale Set allows you to create a group of {cloze identical (cloned)}, load balanced VMs #flashcard
+		- A Scale Set allows you to create a group of {{cloze identical (cloned)}}, load balanced VMs #flashcard
 		- #### Benefits:
 			- **Multiple VMs**: Simple to manage multiple identical VMs using a load balancer
 			- **High Availability:** If one VM fails or stops, the others in the *scale set* will keep working.
 			- **Auto Scaling:** Automatically match demand by adding or removing VMs from the scale set.
 			- **Large Scale:** Run up to 1.000 VMs in a single scale set.
 			- **No Extra Cost:**  No added cost for using scale sets.
+			- Scale Sets are taking virtual machines to the next level. And keeping your sanity.
+	- ### App Services
+		- It's a fully managed platform.
+			- You just have to focus on your business value and logic
+			- ![image.png](../assets/image_1670410893019_0.png)
+		- There are three main categories inside App Services:
+			- #### Web Apps:
+				- Website and online applications hosted on Azure's managed platform
+				- They can run on both Windows and Linux Platforms.
+				- Supports a lot of languages like .NET, Java, Node.js, PHP, Python and Ruby.
+				- Azure Integration for easier deployment.
+				- Auto-scaling and load balancing.
+			- #### Web Apps for Containers:
+				- Deploy and run containerized applications in Azure
+				- A container is completely self-contained
+		-
 		-
 	-
 -

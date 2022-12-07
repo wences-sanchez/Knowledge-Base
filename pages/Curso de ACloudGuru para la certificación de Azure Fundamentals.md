@@ -233,11 +233,11 @@ tags:: Azure, ACloudGuru
 - ## Chapter 3: Azure Architecture
   id:: 6390514e-b8ad-4fe5-ab3f-adcc31ed2b12
 	- ### Regions and Availability Zones
-		- What is a Region?
+		- What is a Region? #flashcard
 			- A region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.
 			- Two or more data centers not too far from each other connected with a fiber connection.
 			- A set of data centers that are close enough to each other that it doesn't matter which datacenter your data is in. Latency is the time it takes for data to travel.
-		- How to choose a region?
+		- How to choose a region? #flashcard
 			- **Location**
 				- Choose a region closest to your users to minimize latency
 			- **Features**
@@ -245,20 +245,37 @@ tags:: Azure, ACloudGuru
 			- **Price**
 				- The price of service vary from region to region. For example, because of the cost of electric power.
 		- Each region is {{cloze paired}} with another region (except Brasil South) #flashcard
-		- What are availability zones?
+		- What are availability zones? #flashcard
 			- An availability zone is a physical location within a region.
 			- Each zone has its own power, cooling and networking
 			- Each region has **a minimum of three** zones
 			- Within a region and each zone has its own separate power, cooling and networking. Used for protecting data from failures
 	- ### Resource Groups & Azure Resource Manager
-		- A Resource Group is not a resource.
-		- Each resource can only exist in a single resource group
-		- You can add or remove resources to any resource group at any time
-		- You can move a resource from one resource group to another
-		- Resources from multiple regions can be in one resource group
-		- You can give users access to a resource group and everything in it.
-		- Resources can interact with other resources in different resource groups
-		- A resource group has a location, or region
+		- #### FeResource Groups #flashcard
+			- All resources belong to a resource group.
+			- A Resource Group is not a resource.
+			- Each resource can only exist in a single resource group
+			- You can add or remove resources to any resource group at any time
+			- You can move a resource from one resource group to another
+			- Resources from multiple regions can be in one resource group
+			- You can give users access to a resource group and everything in it.
+			- Resources can interact with other resources in different resource groups
+			- A resource group has a location, or region, as it stores meta data about the resources in it.
+		- #### Features of Azure Resource Manager #flashcard
+			- **Group Resource Handling:**
+				- You can deploy, manage and monitor resources as a group
+			- **Consistency:**
+				- Deploying resources from various tools will always result in the same consistent state.
+			- **Dependencies:**
+				- Define dependencies between resources to make sure they don't get in a fight.
+			- **Access Control:**
+				- Built-in features in the ARM make it easy to assign access rights to users.
+			- **Tagging:**
+				- Tag resources to easily identify them for future scenarios. Tagging is a way to label individual resources.
+			- **Billing:**
+				- Use tagging to stay on top of billing for groups of resources.
+		-
+		-
 -
 	-
 	-

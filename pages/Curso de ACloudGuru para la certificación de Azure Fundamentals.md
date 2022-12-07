@@ -125,6 +125,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 2: Cloud Concepts
   id:: 6389db47-d3ed-4d31-95ae-016d4f4e01d7
+  collapsed:: true
 	- ### Introduction
 		- Cloud computing is the on-demand delivery of computing serivices.
 	- ### The Language of Cloud Computing #flashcard
@@ -236,6 +237,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 3: Azure Architecture
   id:: 6390514e-b8ad-4fe5-ab3f-adcc31ed2b12
+  collapsed:: true
 	- ### Regions and Availability Zones
 		- What is a Region? #flashcard
 			- A region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.
@@ -279,6 +281,7 @@ tags:: Azure, ACloudGuru
 			- **Billing:**
 				- Use tagging to stay on top of billing for groups of resources.
 		-
+-
 - ## Chapter 4: Compute
   id:: 639067f0-818d-4556-b135-d0eff0c2a63d
 	- ### Virtual Machines #flashcard
@@ -331,8 +334,19 @@ tags:: Azure, ACloudGuru
 			- Web Apps are used to host web sites and web applications
 			- Web Apps for Containers can host your existing container images
 			- API Apps can host your data backend services
-		-
 	-
+	- ### Azure Container Instances
+		- #### Features
+			- **Manage Application Dependencies:**
+				- All the dependencies fora an application are included in the container image. You can manage the application and its dependencies with confidence.
+			- **Less Overhead:**
+				- Virtual Machines require a lot more maintenance and updates.
+				- Containers don't have any components relating to the operating system that require maintenance.
+			- **Increased Portability:**
+				- Applications running in containers can be deployed easily to multiple different operating systems and hardware platforms.
+			- **Efficiency:**
+				- Development, depl
+			-
 -
 	-
 	-

@@ -26,7 +26,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-07 Wed 11:17:27]--[2022-12-07 Wed 13:46:06] =>  02:28:39
 	  :END:
-	- TODO Chapter 5: Networking
+	- DOING Chapter 5: Networking ((63908dff-fc3b-4ae6-b465-bf1acd943452))
+	  id:: 639050d1-8696-4553-b73a-14eab392cf3c
+	  :LOGBOOK:
+	  CLOCK: [2022-12-07 Wed 13:59:44]
+	  :END:
 	- TODO Chapter 6: Storage
 	- TODO Chapter 7: Database
 	- TODO Chapter 8: Authentication and Authorization
@@ -284,6 +288,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 4: Compute
   id:: 639067f0-818d-4556-b135-d0eff0c2a63d
+  collapsed:: true
 	- ### Virtual Machines #flashcard
 		- Essentially, it's a computer, or server, that you access exclusively.
 		- It's virtual because its hardware is shared by the power of virtualisation.
@@ -391,6 +396,9 @@ tags:: Azure, ACloudGuru
 		- Virtual machines on Azure abstract away the physical hardware layer, so you don't need to worry about maintaining physical hardware. Microsoft handles this instead.
 	-
 -
+- ## Chapter 5: Networking
+  id:: 63908dff-fc3b-4ae6-b465-bf1acd943452
+	- ### Virtual Ne
 	-
 	-
 	-

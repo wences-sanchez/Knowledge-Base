@@ -373,7 +373,12 @@ tags:: Azure, ACloudGuru
 			- It allows multiple users inside.
 	-
 	- ### Functions
-		-
+		- If there is no traffic, there isn't resource usage
+		- If no resources are running, we don't pay for the function when it is not used.
+		- ACloudGuru is ALL Serverless. They don't have any VM
+	-
+	-
+	-
 		-
 		-
 -

@@ -370,8 +370,11 @@ tags:: Azure, ACloudGuru
 		-
 	- ### Azure Virtual Desktop
 		- Azure Virtual Desktop is a completely virtualized version of Windows, meaning it runs 100% in the cloud.
-			- It allows multiple users
-			-
+			- It allows multiple users inside.
+	-
+	- ### Functions
+		-
+		-
 		-
 -
 	-

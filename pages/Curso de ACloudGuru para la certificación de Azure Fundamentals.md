@@ -284,14 +284,16 @@ tags:: Azure, ACloudGuru
 	- ### Virtual Machines
 		- Essentially, it's a computer, or server, that you access exclusively.
 		- It's virtual because its hardware is shared by the power of virtualisation.
-		- Related to **IaaS**
+		- Virtual Machines are an **IaaS** offering, where you are responsible for the entire machine.
 		- Priced hourly and type of resource.
 		- #### Pros:
 			- **Control:** Use virtual machines when you need to control all aspects of an environment or machine.
 			- **Application:** Install specific applications on your Linux or Windows machines.
 			- **Existing Infrastructure:** You can move existing resources and virtual machines to Azure from on-premises or another cloud provider.
 		- #### Cons:
-			- **Not for Everything:**
+			- **Not for Everything:** If you can use another Azure service instead, it is often worth it.
+			- **Maintenance:** A lot of maintenance with VMs. Operating systems updates, patches, security concerns.
+		-
 	-
 -
 	-

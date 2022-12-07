@@ -353,9 +353,24 @@ tags:: Azure, ACloudGuru
 		- {{cloze Azure Container Instances}} allows users to run container workloads (processes or applications). #flashcard
 	-
 	- ### Azure Kubernetes Service
-		- Describe briefly Kubernetes #flashcard
+		- Describe a little Kubernetes #flashcard
 			- Kubernetes is an open-source container orchestration system for automating application deployment, scaling and management.
-			- **Open Source:**
+			- **Open Source:** Public code base and community involvement in the product
+			- **Orchestration:** Keeps track of lots of parts of a system. Makes sure containerss are configured correctly to work together.
+			- **Automatic application deployment:** Kubernetes will deploy more images of containers as needed
+			- **Automatic scaling:** Automatic monitoring of application load to determine when to scale the number of containers used.
+			-
+			- You can replicate container architecture in Azure
+			- You don't have to worry about infrastructure and hardware.
+			- Get identity and access management, elastic provisioning and much more.
+			- Global Reach using regions and Azure stack
+			- ![image.png](../assets/image_1670414118953_0.png){:height 369, :width 716}
+			-
+		- {{cloze Azure Container Registry}} is the service from Azure that keep track of current valid container images. #flashcard
+		-
+	- ### Azure Virtual Desktop
+		-
+		-
 -
 	-
 	-

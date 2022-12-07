@@ -398,7 +398,10 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 5: Networking
   id:: 63908dff-fc3b-4ae6-b465-bf1acd943452
-	- ### Virtual Ne
+	- ### Virtual Network (a.k.a. VNet)
+		- Enables many types of Azure resources, such as Azure Virtual Machines, to securely communicates with each other and with the Internet.
+		- It's virtual because we don't have any access to any physical router or network.
+		-
 	-
 	-
 	-

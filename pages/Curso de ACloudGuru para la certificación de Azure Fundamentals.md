@@ -21,10 +21,10 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-07 Wed 09:44:06]--[2022-12-07 Wed 11:14:58] =>  01:30:52
 	  :END:
-	- DOING Chapter 4: Compute ((639067f0-818d-4556-b135-d0eff0c2a63d))
+	- DONE Chapter 4: Compute ((639067f0-818d-4556-b135-d0eff0c2a63d))
 	  id:: 639050d1-d0dd-4c0c-a70f-f776d08d340d
 	  :LOGBOOK:
-	  CLOCK: [2022-12-07 Wed 11:17:27]
+	  CLOCK: [2022-12-07 Wed 11:17:27]--[2022-12-07 Wed 13:46:06] =>  02:28:39
 	  :END:
 	- TODO Chapter 5: Networking
 	- TODO Chapter 6: Storage
@@ -368,16 +368,16 @@ tags:: Azure, ACloudGuru
 			-
 		- {{cloze Azure Container Registry}} is the service from Azure that keep track of current valid container images. #flashcard
 		-
-	- ### Azure Virtual Desktop
+	- ### Azure Virtual Desktop #flashcard
 		- Azure Virtual Desktop is a completely virtualized version of Windows, meaning it runs 100% in the cloud.
 			- It allows multiple users inside.
 	-
-	- ### Functions
+	- ### Azure Functions #flashcard
 		- If there is no traffic, there isn't resource usage
 		- If no resources are running, we don't pay for the function when it is not used.
 		- ACloudGuru is ALL Serverless. They don't have any VM
 	-
-	- ### Summary
+	- ### Summary #flashcard
 		- Virtual Machines are virtual hardware that you use exclusively.
 			- You pay for VM by hour and type
 		- Scale Sets allow us to specify a fleet of cloned instances
@@ -386,10 +386,10 @@ tags:: Azure, ACloudGuru
 		- Kubernetes is an open-source tool for orchestrating and managing containers.
 		- Windows Virtual Desktop for remote access.
 		- Azure Functions is used to serverless
+	- What are some benefits of using a Virtual Machine on Azure, compared to using your own on-site physical server? #flashcard
+		- No maintenance of hardware and only paying for what you use.
+		- Virtual machines on Azure abstract away the physical hardware layer, so you don't need to worry about maintaining physical hardware. Microsoft handles this instead.
 	-
-	-
-		-
-		-
 -
 	-
 	-

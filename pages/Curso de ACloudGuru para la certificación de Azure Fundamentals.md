@@ -345,8 +345,17 @@ tags:: Azure, ACloudGuru
 			- **Increased Portability:**
 				- Applications running in containers can be deployed easily to multiple different operating systems and hardware platforms.
 			- **Efficiency:**
-				- Development, depl
+				- Development, deployment and maintenance are all more efficient when using containers. Scaling and patching is much easier.
+			- **Consistency:**
+				- The operations team can rely on containers being the same every time, no matter which target they are being deployed to.
+			- We can run our containers on demand.
 			-
+		- {{cloze Azure Container Instances}} allows users to run container workloads (processes or applications). #flashcard
+	-
+	- ### Azure Kubernetes Service
+		- Describe briefly Kubernetes #flashcard
+			- Kubernetes is an open-source container orchestration system for automating application deployment, scaling and management.
+			- **Open Source:**
 -
 	-
 	-

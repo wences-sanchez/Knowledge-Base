@@ -16,12 +16,13 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-02 Fri 12:03:20]--[2022-12-02 Fri 13:48:22] =>  01:45:02
 	  CLOCK: [2022-12-05 Mon 17:13:52]--[2022-12-05 Mon 17:41:17] =>  00:27:25
 	  :END:
-	- DOING Chapter 3: Azure Architecture ((6390514e-b8ad-4fe5-ab3f-adcc31ed2b12))
+	- DONE Chapter 3: Azure Architecture ((6390514e-b8ad-4fe5-ab3f-adcc31ed2b12))
 	  id:: 639050d1-6a6a-4858-a88e-cc3000cf2f98
 	  :LOGBOOK:
-	  CLOCK: [2022-12-07 Wed 09:44:06]
+	  CLOCK: [2022-12-07 Wed 09:44:06]--[2022-12-07 Wed 11:14:58] =>  01:30:52
 	  :END:
 	- TODO Chapter 4: Compute
+	  id:: 639050d1-d0dd-4c0c-a70f-f776d08d340d
 	- TODO Chapter 5: Networking
 	- TODO Chapter 6: Storage
 	- TODO Chapter 7: Database
@@ -275,7 +276,9 @@ tags:: Azure, ACloudGuru
 			- **Billing:**
 				- Use tagging to stay on top of billing for groups of resources.
 		-
-		-
+- ## Chapter 4: Compute
+	-
+	-
 -
 	-
 	-

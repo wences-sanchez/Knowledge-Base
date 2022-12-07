@@ -293,6 +293,14 @@ tags:: Azure, ACloudGuru
 		- #### Cons:
 			- **Not for Everything:** If you can use another Azure service instead, it is often worth it.
 			- **Maintenance:** A lot of maintenance with VMs. Operating systems updates, patches, security concerns.
+	- ### Scale Sets
+		- A Scale Set allows you to create a group of {cloze identical (cloned)}, load balanced VMs #flashcard
+		- #### Benefits:
+			- **Multiple VMs**: Simple to manage multiple identical VMs using a load balancer
+			- **High Availability:** If one VM fails or stops, the others in the *scale set* will keep working.
+			- **Auto Scaling:** Automatically match demand by adding or removing VMs from the scale set.
+			- **Large Scale:** Run up to 1.000 VMs in a single scale set.
+			- **No Extra Cost:**  No added cost for using scale sets.
 		-
 	-
 -

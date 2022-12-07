@@ -16,7 +16,11 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-02 Fri 12:03:20]--[2022-12-02 Fri 13:48:22] =>  01:45:02
 	  CLOCK: [2022-12-05 Mon 17:13:52]--[2022-12-05 Mon 17:41:17] =>  00:27:25
 	  :END:
-	- TODO Chapter 3: Azure Architecture
+	- DOING Chapter 3: Azure Architecture ((6390514e-b8ad-4fe5-ab3f-adcc31ed2b12))
+	  id:: 639050d1-6a6a-4858-a88e-cc3000cf2f98
+	  :LOGBOOK:
+	  CLOCK: [2022-12-07 Wed 09:44:06]
+	  :END:
 	- TODO Chapter 4: Compute
 	- TODO Chapter 5: Networking
 	- TODO Chapter 6: Storage
@@ -225,8 +229,11 @@ tags:: Azure, ACloudGuru
 		- #### Hybrid Cloud
 			- It's a mix of the two previous models
 			- It could be *the best of both worlds*
-	-
 -
+- ## Chapter 3: Azure Architecture
+  id:: 6390514e-b8ad-4fe5-ab3f-adcc31ed2b12
+	- ### Regions and Availability Zones
+		- A rre
 -
 -
 -

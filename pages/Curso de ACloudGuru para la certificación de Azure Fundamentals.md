@@ -251,7 +251,7 @@ tags:: Azure, ACloudGuru
 			- Each region has **a minimum of three** zones
 			- Within a region and each zone has its own separate power, cooling and networking. Used for protecting data from failures
 	- ### Resource Groups & Azure Resource Manager
-		- #### FeResource Groups #flashcard
+		- #### Features of Resource Groups #flashcard
 			- All resources belong to a resource group.
 			- A Resource Group is not a resource.
 			- Each resource can only exist in a single resource group

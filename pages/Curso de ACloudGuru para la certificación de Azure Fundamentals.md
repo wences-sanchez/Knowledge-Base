@@ -336,7 +336,7 @@ tags:: Azure, ACloudGuru
 			- API Apps can host your data backend services
 	-
 	- ### Azure Container Instances
-		- #### Features
+		- #### Features #flashcard
 			- **Manage Application Dependencies:**
 				- All the dependencies fora an application are included in the container image. You can manage the application and its dependencies with confidence.
 			- **Less Overhead:**
@@ -377,6 +377,15 @@ tags:: Azure, ACloudGuru
 		- If no resources are running, we don't pay for the function when it is not used.
 		- ACloudGuru is ALL Serverless. They don't have any VM
 	-
+	- ### Summary
+		- Virtual Machines are virtual hardware that you use exclusively.
+			- You pay for VM by hour and type
+		- Scale Sets allow us to specify a fleet of cloned instances
+		- App Services is a PaaS service that alllows us to build and deploy applications without worrying of the underlying infrastructure.
+		- Azure Container Instances are easier to deal with than VMs
+		- Kubernetes is an open-source tool for orchestrating and managing containers.
+		- Windows Virtual Desktop for remote access.
+		- Azure Functions is used to serverless
 	-
 	-
 		-

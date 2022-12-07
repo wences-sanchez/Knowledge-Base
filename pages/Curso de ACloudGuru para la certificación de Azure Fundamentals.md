@@ -281,7 +281,7 @@ tags:: Azure, ACloudGuru
 		-
 - ## Chapter 4: Compute
   id:: 639067f0-818d-4556-b135-d0eff0c2a63d
-	- ### Virtual Machines
+	- ### Virtual Machines #flashcard
 		- Essentially, it's a computer, or server, that you access exclusively.
 		- It's virtual because its hardware is shared by the power of virtualisation.
 		- Virtual Machines are an **IaaS** offering, where you are responsible for the entire machine.
@@ -295,7 +295,7 @@ tags:: Azure, ACloudGuru
 			- **Maintenance:** A lot of maintenance with VMs. Operating systems updates, patches, security concerns.
 	- ### Scale Sets
 		- A Scale Set allows you to create a group of {{cloze identical (cloned)}}, load balanced VMs #flashcard
-		- #### Benefits:
+		- #### Benefits: #flashcard
 			- **Multiple VMs**: Simple to manage multiple identical VMs using a load balancer
 			- **High Availability:** If one VM fails or stops, the others in the *scale set* will keep working.
 			- **Auto Scaling:** Automatically match demand by adding or removing VMs from the scale set.
@@ -303,10 +303,10 @@ tags:: Azure, ACloudGuru
 			- **No Extra Cost:**  No added cost for using scale sets.
 			- Scale Sets are taking virtual machines to the next level. And keeping your sanity.
 	- ### App Services
-		- It's a fully managed platform.
+		- It's a fully managed platform. Diagram below: #flashcard
 			- You just have to focus on your business value and logic
 			- ![image.png](../assets/image_1670410893019_0.png)
-		- There are three main categories inside App Services:
+		- There are three main categories inside App Services: #flashcard
 			- #### Web Apps:
 				- Website and online applications hosted on Azure's managed platform
 				- They can run on both Windows and Linux Platforms.
@@ -325,7 +325,7 @@ tags:: Azure, ACloudGuru
 				- No graphical component. No user interface
 				- Connect other applications programmatically
 				- Use a range of programming languages
-		- #### Summary
+		- #### Summary #flashcard
 			- App Services is an easy way to host and manage your web application
 			- App Services are a **PaaS** offering on Azure
 			- Web Apps are used to host web sites and web applications

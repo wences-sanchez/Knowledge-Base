@@ -236,6 +236,7 @@ tags:: Azure, ACloudGuru
 		- What is a Region?
 			- A region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.
 			- Two or more data centers not too far from each other connected with a fiber connection.
+			- A set of data centers that are close enough to each other that it doesn't matter which datacenter your data is in. Latency is the time it takes for data to travel.
 		- How to choose a region?
 			- **Location**
 				- Choose a region closest to your users to minimize latency
@@ -247,9 +248,21 @@ tags:: Azure, ACloudGuru
 		- What are availability zones?
 			- An availability zone is a physical location within a region.
 			- Each zone has its own power, cooling and networking
-			- Each region has a minimum of three zones
-		-
-		-
+			- Each region has **a minimum of three** zones
+			- Within a region and each zone has its own separate power, cooling and networking. Used for protecting data from failures
+	- ### Resource Groups & Azure Resource Manager
+		- A Resource Group is not a resource.
+		- Each resource can only exist in a single resource group
+		- You can add or remove resources to any resource group at any time
+		- You can move a resource from one resource group to another
+		- Resources from multiple regions can be in one resource group
+		- You can give users access to a resource group and everything in it.
+		- Resources can interact with other resources in different resource groups
+		- A resource group has a location, or region
+-
+	-
+	-
+	-
 -
 -
 -

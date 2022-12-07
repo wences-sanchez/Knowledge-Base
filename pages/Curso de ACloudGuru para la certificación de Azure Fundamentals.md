@@ -369,7 +369,9 @@ tags:: Azure, ACloudGuru
 		- {{cloze Azure Container Registry}} is the service from Azure that keep track of current valid container images. #flashcard
 		-
 	- ### Azure Virtual Desktop
-		-
+		- Azure Virtual Desktop is a completely virtualized version of Windows, meaning it runs 100% in the cloud.
+			- It allows multiple users
+			-
 		-
 -
 	-

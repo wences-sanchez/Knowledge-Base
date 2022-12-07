@@ -21,8 +21,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-07 Wed 09:44:06]--[2022-12-07 Wed 11:14:58] =>  01:30:52
 	  :END:
-	- TODO Chapter 4: Compute
+	- DOING Chapter 4: Compute ((639067f0-818d-4556-b135-d0eff0c2a63d))
 	  id:: 639050d1-d0dd-4c0c-a70f-f776d08d340d
+	  :LOGBOOK:
+	  CLOCK: [2022-12-07 Wed 11:17:27]
+	  :END:
 	- TODO Chapter 5: Networking
 	- TODO Chapter 6: Storage
 	- TODO Chapter 7: Database
@@ -277,7 +280,18 @@ tags:: Azure, ACloudGuru
 				- Use tagging to stay on top of billing for groups of resources.
 		-
 - ## Chapter 4: Compute
-	-
+  id:: 639067f0-818d-4556-b135-d0eff0c2a63d
+	- ### Virtual Machines
+		- Essentially, it's a computer, or server, that you access exclusively.
+		- It's virtual because its hardware is shared by the power of virtualisation.
+		- Related to **IaaS**
+		- Priced hourly and type of resource.
+		- #### Pros:
+			- **Control:** Use virtual machines when you need to control all aspects of an environment or machine.
+			- **Application:** Install specific applications on your Linux or Windows machines.
+			- **Existing Infrastructure:** You can move existing resources and virtual machines to Azure from on-premises or another cloud provider.
+		- #### Cons:
+			- **Not for Everything:**
 	-
 -
 	-

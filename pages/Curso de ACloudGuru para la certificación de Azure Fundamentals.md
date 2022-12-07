@@ -315,8 +315,22 @@ tags:: Azure, ACloudGuru
 				- Auto-scaling and load balancing.
 			- #### Web Apps for Containers:
 				- Deploy and run containerized applications in Azure
-				- A container is completely self-contained
-		-
+				- A container is completely self-contained.
+				- All dependencies are shipped inside the container.
+				- Deploy anywhere with a consistent experience.
+				- Reliable between environments.
+			- #### API Apps:
+				- Expose and connect your data backend
+				- Application Programming Interface
+				- No graphical component. No user interface
+				- Connect other applications programmatically
+				- Use a range of programming languages
+		- #### Summary
+			- App Services is an easy way to host and manage your web application
+			- App Services are a **PaaS** offering on Azure
+			- Web Apps are used to host web sites and web applications
+			- Web Apps for Containers can host your existing container images
+			- API Apps can host your data backend services
 		-
 	-
 -

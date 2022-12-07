@@ -233,7 +233,23 @@ tags:: Azure, ACloudGuru
 - ## Chapter 3: Azure Architecture
   id:: 6390514e-b8ad-4fe5-ab3f-adcc31ed2b12
 	- ### Regions and Availability Zones
-		- A rre
+		- What is a Region?
+			- A region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.
+			- Two or more data centers not too far from each other connected with a fiber connection.
+		- How to choose a region?
+			- **Location**
+				- Choose a region closest to your users to minimize latency
+			- **Features**
+				- Some features aren't in all regions. If you need a specific feature, some regions might be unavailable.
+			- **Price**
+				- The price of service vary from region to region. For example, because of the cost of electric power.
+		- Each region is {{cloze paired}} with another region (except Brasil South) #flashcard
+		- What are availability zones?
+			- An availability zone is a physical location within a region.
+			- Each zone has its own power, cooling and networking
+			- Each region has a minimum of three zones
+		-
+		-
 -
 -
 -

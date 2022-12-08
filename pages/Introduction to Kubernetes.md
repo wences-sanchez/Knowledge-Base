@@ -59,7 +59,11 @@ tags:: ACloudGuru, Kubernetes
 	- ### The Kubernetes API
 		- The core of Kubernetes' control plane is {{cloze the API server}} #flashcard
 		- #### What is the Kubernetes API?
-			- The
+			- The Kubernetes API is a basic HTTP API
+			- The API lets users query and manipulate objects, thereby controlling the cluster.
+			- Central point of communication. The various components of Kubernetes communicate with each other using the API
+			- Kubernetes usa HTTP API Rest como lenguaje interno para hacer todas sus tareas. Muchas otras tecnologías también usan este mecanismo. #InMyOwnWords
+				-
 -
 - ## Chapter 4: Conclusion
   id:: 63920409-cb83-491b-943b-d66507fd19b5

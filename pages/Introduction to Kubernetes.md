@@ -3,22 +3,31 @@ tags:: ACloudGuru, Kubernetes
 
 -
 - ### Tareas del curso
-	- DOING Chapter 1: Introduction ((63920337-6981-4716-a295-96fccad013de))
+	- DONE Chapter 1: Introduction ((63920337-6981-4716-a295-96fccad013de))
 	  id:: 63920303-beb4-4e77-91ca-bc26fa42f1f6
 	  :LOGBOOK:
-	  CLOCK: [2022-12-08 Thu 16:37:14]
+	  CLOCK: [2022-12-08 Thu 16:37:14]--[2022-12-08 Thu 16:41:16] =>  00:04:02
 	  :END:
-	- TODO Chapter 2: The Basics ((639203f0-4fea-45ca-8aa2-bf528a80fb90))
+	- DOING Chapter 2: The Basics ((639203f0-4fea-45ca-8aa2-bf528a80fb90))
+	  id:: 63920322-337f-4a16-8a1a-0137c77eeb9f
+	  :LOGBOOK:
+	  CLOCK: [2022-12-08 Thu 16:41:33]
+	  :END:
 	- TODO Chapter 3: Working with Kubernetes ((639203fb-4681-462c-883b-81e987f47196))
 	- TODO Chapter 4: Conclusion ((63920409-cb83-491b-943b-d66507fd19b5))
 	-
 -
 - ## Chapter 1: Introduction
   id:: 63920337-6981-4716-a295-96fccad013de
-	-
 -
 - ## Chapter 2: The Basics
   id:: 639203f0-4fea-45ca-8aa2-bf528a80fb90
+	- What is a container? #flashcard
+		- A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
+		- It contains all its dependencies inside its *unit*
+		- You can therefore share it in the cloud
+	-
+-
 -
 - ## Chapter 3: Working with Kubernetes
   id:: 639203fb-4681-462c-883b-81e987f47196

@@ -42,7 +42,10 @@ tags:: ACloudGuru, Kubernetes
 			- It monitors the state of the cluster.
 			- They're just a collection of multiple different pieces of software (that really could be running anywhere, but are in the server) that control the cluster.
 		- A **worker node** is responsible for actually running the containers.
-		-
+			- Also, monitor containers and reports it to the control plane.
+			- The kubelet is the agent that runs on each node and manages Kubernetes' activity on that node
+		- In my own words: #InMyOwnWords
+			- El cluster de Kubernetes está formado del *control plane*, que es un grupo de aplicaciones que están ejecutándose, en un servidor, con el fin de controlar y gestionar los contenedores en que se ejecutan las aplicaciones. Las cuales estarán en máquinas que llamamos nodos o *worker nodes*, que incluyen a su vez distintos componentes como un entorno de ejecución (que puede ser Docker) o un agente que va gestionando el contenedor.
 -
 - ## Chapter 3: Working with Kubernetes
   id:: 639203fb-4681-462c-883b-81e987f47196

@@ -34,7 +34,7 @@ tags:: ACloudGuru, Kubernetes
 		- Kubernetes makes it easy to scale up and scale down.
 		- In my own words: #InMyOwnWords
 			- Kubernetes es una plataforma que permite automatizar el despliegue de nuestras aplicaciones (que estarán en contenedores) para hacer que éstas se ejecuten en distintos servidores sin ningún problema, automáticamente. Y también se pueden usar **replicas** para *repetir* nuestra aplicación en distintos servidores.
-	- ### The Kubernetes Cluster
+	- ### The Kubernetes Cluster #flashcard
 		- A **Kubernetes Cluster** is a collection of worker machines that run containers.
 		- A **control plane** manages one or more **worker nodes**.
 			- It's a collection of services that **control** the cluster
@@ -49,6 +49,9 @@ tags:: ACloudGuru, Kubernetes
 			-
 			- Las cuales estarán en máquinas que llamamos nodos o *worker nodes*, que incluyen a su vez distintos componentes como un entorno de ejecución (que puede ser Docker) o un agente que va gestionando el contenedor.
 	- ### Building a Kubernetes Cluster
+		-
+		-
+		-
 		-
 -
 - ## Chapter 3: Working with Kubernetes

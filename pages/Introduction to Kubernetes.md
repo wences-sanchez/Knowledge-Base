@@ -40,7 +40,8 @@ tags:: ACloudGuru, Kubernetes
 			- It's a collection of services that **control** the cluster
 			- Users interact with the cluster using the control plane.
 			- It monitors the state of the cluster.
-		-
+			- They're just a collection of multiple different pieces of software (that really could be running anywhere, but are in the server) that control the cluster.
+		- A **worker node** is responsible for actually running the containers.
 		-
 -
 - ## Chapter 3: Working with Kubernetes

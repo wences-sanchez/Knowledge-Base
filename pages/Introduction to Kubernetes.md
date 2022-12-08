@@ -2,18 +2,22 @@ deck:: [[ACloudGuru::Kubernetes]]
 tags:: ACloudGuru, Kubernetes
 
 -
-- ### Tareas del curso
+- ### Tareas del curso {{renderer :todomaster}}
 	- DONE Chapter 1: Introduction ((63920337-6981-4716-a295-96fccad013de))
 	  id:: 63920303-beb4-4e77-91ca-bc26fa42f1f6
 	  :LOGBOOK:
 	  CLOCK: [2022-12-08 Thu 16:37:14]--[2022-12-08 Thu 16:41:16] =>  00:04:02
 	  :END:
-	- DOING Chapter 2: The Basics ((639203f0-4fea-45ca-8aa2-bf528a80fb90))
+	- DONE Chapter 2: The Basics ((639203f0-4fea-45ca-8aa2-bf528a80fb90))
 	  id:: 63920322-337f-4a16-8a1a-0137c77eeb9f
 	  :LOGBOOK:
-	  CLOCK: [2022-12-08 Thu 16:41:33]
+	  CLOCK: [2022-12-08 Thu 16:41:33]--[2022-12-08 Thu 18:25:48] =>  01:44:15
 	  :END:
-	- TODO Chapter 3: Working with Kubernetes ((639203fb-4681-462c-883b-81e987f47196))
+	- DOING Chapter 3: Working with Kubernetes ((639203fb-4681-462c-883b-81e987f47196))
+	  id:: 63920327-2c0b-4220-a7d5-d32b92d8e9dd
+	  :LOGBOOK:
+	  CLOCK: [2022-12-08 Thu 18:26:33]
+	  :END:
 	- TODO Chapter 4: Conclusion ((63920409-cb83-491b-943b-d66507fd19b5))
 	-
 -
@@ -49,13 +53,13 @@ tags:: ACloudGuru, Kubernetes
 			-
 			- Las cuales estarán en máquinas que llamamos nodos o *worker nodes*, que incluyen a su vez distintos componentes como un entorno de ejecución (que puede ser Docker) o un agente que va gestionando el contenedor.
 	- ### Building a Kubernetes Cluster
-		-
-		-
-		-
-		-
 -
 - ## Chapter 3: Working with Kubernetes
   id:: 639203fb-4681-462c-883b-81e987f47196
+	- ### The Kubernetes API
+		- The core of Kubernetes' control plane is {{cloze the API server}} #flashcard
+		- #### What is the Kubernetes API?
+			- The
 -
 - ## Chapter 4: Conclusion
   id:: 63920409-cb83-491b-943b-d66507fd19b5

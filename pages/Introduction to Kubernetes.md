@@ -22,11 +22,18 @@ tags:: ACloudGuru, Kubernetes
 -
 - ## Chapter 2: The Basics
   id:: 639203f0-4fea-45ca-8aa2-bf528a80fb90
-	- What is a container? #flashcard
-		- A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
-		- It contains all its dependencies inside its *unit*
-		- You can therefore share it in the cloud
-	-
+	- ### What are Containers?
+		- What is a container? #flashcard
+			- A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
+			- It contains all its dependencies inside its *unit*
+			- You can therefore share it in the cloud
+	- ### What is Kubernetes?
+		- Kubernetes is an open-source system for automating deployment, scaling and management of containerized applications.
+		- Kubernetes essentialy helps you deploy containers across a pool of compute resources, such as servers.
+		- You can easily manage multiple replicas of your application.
+		- Kubernetes makes it easy to scale up and scale down.
+		- In my own words:
+			-
 -
 -
 - ## Chapter 3: Working with Kubernetes

@@ -244,10 +244,12 @@ tags:: Azure, ACloudGuru
   collapsed:: true
 	- ### Regions and Availability Zones
 		- What is a Region? #flashcard
+		  id:: 639201ec-4b49-4cbb-8dba-a7d455b49a28
 			- A region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.
 			- Two or more data centers not too far from each other connected with a fiber connection.
 			- A set of data centers that are close enough to each other that it doesn't matter which datacenter your data is in. Latency is the time it takes for data to travel.
 		- How to choose a region? #flashcard
+		  id:: 639201ec-480d-4c72-96d0-8937edb68ae9
 			- **Location**
 				- Choose a region closest to your users to minimize latency
 			- **Features**
@@ -255,13 +257,16 @@ tags:: Azure, ACloudGuru
 			- **Price**
 				- The price of service vary from region to region. For example, because of the cost of electric power.
 		- Each region is {{cloze paired}} with another region (except Brasil South) #flashcard
+		  id:: 639201ec-3c48-475b-8e2b-98bee7875205
 		- What are availability zones? #flashcard
+		  id:: 639201ec-bb00-4279-b311-8631f87ae56d
 			- An availability zone is a physical location within a region.
 			- Each zone has its own power, cooling and networking
 			- Each region has **a minimum of three** zones
 			- Within a region and each zone has its own separate power, cooling and networking. Used for protecting data from failures
 	- ### Resource Groups & Azure Resource Manager
 		- #### Features of Resource Groups #flashcard
+		  id:: 639201ec-da56-4fd9-916a-cc885b9a3ed0
 			- All resources belong to a resource group.
 			- A Resource Group is not a resource.
 			- Each resource can only exist in a single resource group
@@ -272,6 +277,7 @@ tags:: Azure, ACloudGuru
 			- Resources can interact with other resources in different resource groups
 			- A resource group has a location, or region, as it stores meta data about the resources in it.
 		- #### Features of Azure Resource Manager #flashcard
+		  id:: 639201ec-e28a-49e3-b9e9-65c2b0603918
 			- **Group Resource Handling:**
 				- You can deploy, manage and monitor resources as a group
 			- **Consistency:**
@@ -290,6 +296,7 @@ tags:: Azure, ACloudGuru
   id:: 639067f0-818d-4556-b135-d0eff0c2a63d
   collapsed:: true
 	- ### Virtual Machines #flashcard
+	  id:: 639201ec-1bdb-4d31-afb9-d1d2e5ee2cc0
 		- Essentially, it's a computer, or server, that you access exclusively.
 		- It's virtual because its hardware is shared by the power of virtualisation.
 		- Virtual Machines are an **IaaS** offering, where you are responsible for the entire machine.
@@ -303,7 +310,9 @@ tags:: Azure, ACloudGuru
 			- **Maintenance:** A lot of maintenance with VMs. Operating systems updates, patches, security concerns.
 	- ### Scale Sets
 		- A Scale Set allows you to create a group of {{cloze identical (cloned)}}, load balanced VMs #flashcard
+		  id:: 639201ec-ddaf-4a3b-a3bd-cb6ae52d3a9e
 		- #### Benefits: #flashcard
+		  id:: 639201ec-e40c-494e-b14d-0c5948a01823
 			- **Multiple VMs**: Simple to manage multiple identical VMs using a load balancer
 			- **High Availability:** If one VM fails or stops, the others in the *scale set* will keep working.
 			- **Auto Scaling:** Automatically match demand by adding or removing VMs from the scale set.
@@ -312,9 +321,11 @@ tags:: Azure, ACloudGuru
 			- Scale Sets are taking virtual machines to the next level. And keeping your sanity.
 	- ### App Services
 		- It's a fully managed platform. Diagram below: #flashcard
+		  id:: 639201ec-fc15-4368-9897-1de8f4c9f358
 			- You just have to focus on your business value and logic
 			- ![image.png](../assets/image_1670410893019_0.png)
 		- There are three main categories inside App Services: #flashcard
+		  id:: 639201ec-7634-41bc-89c1-afbfa8eaf0df
 			- #### Web Apps:
 				- Website and online applications hosted on Azure's managed platform
 				- They can run on both Windows and Linux Platforms.
@@ -334,6 +345,7 @@ tags:: Azure, ACloudGuru
 				- Connect other applications programmatically
 				- Use a range of programming languages
 		- #### Summary #flashcard
+		  id:: 639201ec-bb6e-4864-bca9-a96f50d78802
 			- App Services is an easy way to host and manage your web application
 			- App Services are a **PaaS** offering on Azure
 			- Web Apps are used to host web sites and web applications
@@ -342,6 +354,7 @@ tags:: Azure, ACloudGuru
 	-
 	- ### Azure Container Instances
 		- #### Features #flashcard
+		  id:: 639201ec-0f52-476f-a55f-8a67485dc817
 			- **Manage Application Dependencies:**
 				- All the dependencies fora an application are included in the container image. You can manage the application and its dependencies with confidence.
 			- **Less Overhead:**
@@ -356,9 +369,11 @@ tags:: Azure, ACloudGuru
 			- We can run our containers on demand.
 			-
 		- {{cloze Azure Container Instances}} allows users to run container workloads (processes or applications). #flashcard
+		  id:: 639201ec-2196-45bd-a329-d5ffeb492744
 	-
 	- ### Azure Kubernetes Service
 		- Describe a little Kubernetes #flashcard
+		  id:: 639201ec-1113-4b3f-a467-ae0ac2d9c96f
 			- Kubernetes is an open-source container orchestration system for automating application deployment, scaling and management.
 			- **Open Source:** Public code base and community involvement in the product
 			- **Orchestration:** Keeps track of lots of parts of a system. Makes sure containerss are configured correctly to work together.
@@ -372,17 +387,21 @@ tags:: Azure, ACloudGuru
 			- ![image.png](../assets/image_1670414118953_0.png){:height 369, :width 716}
 			-
 		- {{cloze Azure Container Registry}} is the service from Azure that keep track of current valid container images. #flashcard
+		  id:: 639201ec-a6b0-4b22-a7ab-cc9abe535666
 		-
 	- ### Azure Virtual Desktop #flashcard
+	  id:: 639201ec-fe29-468d-b582-b53c4e1d2abe
 		- Azure Virtual Desktop is a completely virtualized version of Windows, meaning it runs 100% in the cloud.
 			- It allows multiple users inside.
 	-
 	- ### Azure Functions #flashcard
+	  id:: 639201ec-93e5-46fe-af7e-a17986403353
 		- If there is no traffic, there isn't resource usage
 		- If no resources are running, we don't pay for the function when it is not used.
 		- ACloudGuru is ALL Serverless. They don't have any VM
 	-
 	- ### Summary #flashcard
+	  id:: 639201ec-77fd-4a1b-9fa8-ca975f491c6b
 		- Virtual Machines are virtual hardware that you use exclusively.
 			- You pay for VM by hour and type
 		- Scale Sets allow us to specify a fleet of cloned instances
@@ -392,6 +411,7 @@ tags:: Azure, ACloudGuru
 		- Windows Virtual Desktop for remote access.
 		- Azure Functions is used to serverless
 	- What are some benefits of using a Virtual Machine on Azure, compared to using your own on-site physical server? #flashcard
+	  id:: 639201ec-6823-4abc-ba69-eb770ed0bd27
 		- No maintenance of hardware and only paying for what you use.
 		- Virtual machines on Azure abstract away the physical hardware layer, so you don't need to worry about maintaining physical hardware. Microsoft handles this instead.
 	-

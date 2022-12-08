@@ -28,10 +28,12 @@ tags:: ACloudGuru, Kubernetes
   id:: 639203f0-4fea-45ca-8aa2-bf528a80fb90
 	- ### What are Containers?
 		- What is a container? #flashcard
+		  id:: 639206c0-9955-4e25-b034-be956df2f0e4
 			- A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
 			- It contains all its dependencies inside its *unit*
 			- You can therefore share it in the cloud
 	- ### What is Kubernetes? #flashcard
+	  id:: 639207d1-fdbb-4e6c-a3e6-99801a3e0533
 		- Kubernetes is an open-source system for automating deployment, scaling and management of containerized applications.
 		- Kubernetes essentialy helps you deploy containers across a pool of compute resources, such as servers.
 		- You can easily manage multiple replicas of your application.
@@ -39,6 +41,7 @@ tags:: ACloudGuru, Kubernetes
 		- In my own words: #InMyOwnWords
 			- Kubernetes es una plataforma que permite automatizar el despliegue de nuestras aplicaciones (que estarán en contenedores) para hacer que éstas se ejecuten en distintos servidores sin ningún problema, automáticamente. Y también se pueden usar **replicas** para *repetir* nuestra aplicación en distintos servidores.
 	- ### The Kubernetes Cluster #flashcard
+	  id:: 639205ee-0576-40f7-a18c-1478236c51ab
 		- A **Kubernetes Cluster** is a collection of worker machines that run containers.
 		- A **control plane** manages one or more **worker nodes**.
 			- It's a collection of services that **control** the cluster
@@ -58,6 +61,7 @@ tags:: ACloudGuru, Kubernetes
   id:: 639203fb-4681-462c-883b-81e987f47196
 	- ### The Kubernetes API
 		- The core of Kubernetes' control plane is {{cloze the API server}} #flashcard
+		  id:: 63921ecb-2fe7-46e2-8254-c3e5d2d8b494
 		- #### What is the Kubernetes API?
 			- The Kubernetes API is a basic HTTP API
 			- The API lets users query and manipulate objects, thereby controlling the cluster.

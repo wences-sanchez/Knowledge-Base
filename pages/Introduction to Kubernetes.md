@@ -27,14 +27,21 @@ tags:: ACloudGuru, Kubernetes
 			- A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
 			- It contains all its dependencies inside its *unit*
 			- You can therefore share it in the cloud
-	- ### What is Kubernetes?
+	- ### What is Kubernetes? #flashcard
 		- Kubernetes is an open-source system for automating deployment, scaling and management of containerized applications.
 		- Kubernetes essentialy helps you deploy containers across a pool of compute resources, such as servers.
 		- You can easily manage multiple replicas of your application.
 		- Kubernetes makes it easy to scale up and scale down.
-		- In my own words:
-			-
--
+		- In my own words: #InMyOwnWords
+			- Kubernetes es una plataforma que permite automatizar el despliegue de nuestras aplicaciones (que estarán en contenedores) para hacer que éstas se ejecuten en distintos servidores sin ningún problema, automáticamente. Y también se pueden usar **replicas** para *repetir* nuestra aplicación en distintos servidores.
+	- ### The Kubernetes Cluster
+		- A **Kubernetes Cluster** is a collection of worker machines that run containers.
+		- A **control plane** manages one or more **worker nodes**.
+			- It's a collection of services that **control** the cluster
+			- Users interact with the cluster using the control plane.
+			- It monitors the state of the cluster.
+		-
+		-
 -
 - ## Chapter 3: Working with Kubernetes
   id:: 639203fb-4681-462c-883b-81e987f47196

@@ -13,10 +13,10 @@ tags:: ACloudGuru, Kubernetes
 	  :LOGBOOK:
 	  CLOCK: [2022-12-08 Thu 16:41:33]--[2022-12-08 Thu 18:25:48] =>  01:44:15
 	  :END:
-	- DOING Chapter 3: Working with Kubernetes ((639203fb-4681-462c-883b-81e987f47196))
+	- TODO Chapter 3: Working with Kubernetes ((639203fb-4681-462c-883b-81e987f47196))
 	  id:: 63920327-2c0b-4220-a7d5-d32b92d8e9dd
 	  :LOGBOOK:
-	  CLOCK: [2022-12-08 Thu 18:26:33]
+	  CLOCK: [2022-12-08 Thu 18:26:33]--[2022-12-08 Thu 18:44:05] =>  00:17:32
 	  :END:
 	- TODO Chapter 4: Conclusion ((63920409-cb83-491b-943b-d66507fd19b5))
 	-
@@ -63,6 +63,7 @@ tags:: ACloudGuru, Kubernetes
 			- The API lets users query and manipulate objects, thereby controlling the cluster.
 			- Central point of communication. The various components of Kubernetes communicate with each other using the API
 			- Kubernetes usa HTTP API Rest como lenguaje interno para hacer todas sus tareas. Muchas otras tecnologías también usan este mecanismo. #InMyOwnWords
+				- Kubernetes se comunica con los pods de esta manera. Y cuando ejecutamos un `$ kubectl ...` estamos interactuando con el *backend* de dicho mecanismo.
 				-
 -
 - ## Chapter 4: Conclusion

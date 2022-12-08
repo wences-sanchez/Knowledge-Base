@@ -129,7 +129,6 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 2: Cloud Concepts
   id:: 6389db47-d3ed-4d31-95ae-016d4f4e01d7
-  collapsed:: true
 	- ### Introduction
 		- Cloud computing is the on-demand delivery of computing serivices.
 	- ### The Language of Cloud Computing #flashcard
@@ -138,7 +137,7 @@ tags:: Azure, ACloudGuru
 			- In traditional computing,
 				- you own the hardware.
 				- Your have physical access
-				- Your can't just add servers
+				- You can't just add servers
 			- In the cloud,
 				- You don't own the hardware
 				- You add more servers with a click
@@ -167,7 +166,7 @@ tags:: Azure, ACloudGuru
 		- #### Security
 			- Full control of the security of your cloud environment
 		- #### Governance
-			- Standardized environmentss
+			- Standardized environments
 			- Regulatory audit for compliance
 		- #### Manageability
 			- Management **OF** the cloud:

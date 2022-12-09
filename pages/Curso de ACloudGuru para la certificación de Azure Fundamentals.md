@@ -541,10 +541,18 @@ tags:: Azure, ACloudGuru
 		- #### Geo-Redundant Storage (GRS)
 			- We have three copies in two different regions
 			- Three copies in primary regional physical location (LRS)
+			- Three copies in secondary (paired) region physical location (LRS)
+			- Protects against primary region failure but no primary region zone redundancy
 			- ![image.png](../assets/image_1670588054042_0.png)
+		- #### Geo-Zone-Redundant Storage (GZRS)
+			- Maximum redundancy
+			- Copy across three availability zones in **primary** region (ZRS)
+			- Three copies in **secondary** region physical location/zone (LRS)
+			- Protects against primary region failure AND primary region zone failure
+			- ![image.png](../assets/image_1670588345761_0.png)
 	-
--
--
+	- ### Moving Data
+		-
 -
 -
 -

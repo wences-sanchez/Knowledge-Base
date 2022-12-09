@@ -426,11 +426,13 @@ tags:: Azure, ACloudGuru
 - ## Chapter 5: Networking
   id:: 63908dff-fc3b-4ae6-b465-bf1acd943452
 	- ### Virtual Network (a.k.a. VNet) #flashcard
+	  id:: 6392fa86-4baa-4507-8d0e-075d24cb6548
 		- Enables many types of Azure resources, such as Azure Virtual Machines, to securely communicates with each other and with the Internet.
 		- It's virtual because we don't have any access to any physical router or network.
 		-
 	- ### Load Balancer
 		- What is a Load Balancer and what does it do? #flashcard
+		  id:: 6392fa86-8687-4347-8830-7d330d26bd91
 			- Load Balancer distributes new inbound flows that arrive on the Load Balancer's frontend to backend pool instances, according to rules and health probes.
 				- **Inbound Flows** are traffic from the Internet or local network.
 				- **Frontend** is the access point for the load balancer. All traffic goes here first.
@@ -438,14 +440,17 @@ tags:: Azure, ACloudGuru
 				- **Rules & Health Probes** are checks to ensure backend instance can receive the data.
 	- ### VPN Gateway
 		- What is a Virtual Network Gateway? #flashcard
+		  id:: 6392fa86-faf7-4550-9f3e-be2da00eaed6
 			- A **Virtual Network Gateway** is composed of two or more virtual machines that are deployed to a specific subnet you create, which is called the gateway subnet.
 			- The VMs that are located in the gateway subnet are created when you create the virtual network gateway.
 			- ![image.png](../assets/image_1670576046570_0.png)
 		- What is a VPN Gateway? #flashcard
+		  id:: 6392fa86-b2fc-4351-849c-7158fbd5fefd
 			- A **VPN Gateway** is a specific type of virtual network gateway that is used to send encrypted traffic between an Azure vitrual network and an on-premises location over the public internet.
 			- VNet Gateway + vpn = VPN Gateway
 			- ![image.png](../assets/image_1670576248298_0.png)
 	- ### Application Gateway #flashcard
+	  id:: 6392fa86-d5aa-41d4-aee0-f723d52b8154
 		- It's a load balancer but improved with additional rules.
 		- You can make routing decisions based on additional attributes of an HTTP request, such as URI path or host headers. You can deliver messages to specific machines.
 		- ![image.png](../assets/image_1670577241223_0.png)
@@ -469,6 +474,7 @@ tags:: Azure, ACloudGuru
 		- With ExpressRoute, you can connect to Azure servers without passing over the public Internet, just with a dedicated connection which is private. #InMyOwnWords
 		-
 	- ### Summary #flashcard
+	  id:: 639303d6-7d38-4300-84cf-8c300152e106
 		- A Vritual Network is a fundamental part of Azure. All services are connected to a VNet. Includes an IP address range and subnets. Belongs to a single region and a single subscription.
 		- A Load Balancer solves the problem of where to send traffic on a group of VMs running the same application. Based on IP address and port number.
 		- A VPN Gateway connects your Azure infrastructure with your on-premises network. It is a specific type of virtual network gateway and is a secure way to connect your hybrid cloud solution.
@@ -481,16 +487,20 @@ tags:: Azure, ACloudGuru
   id:: 63930c18-c71f-4b89-a765-f76cf0c6828f
 	- ### Introduction
 		- Storage Account = Unique Azure Namespace #flashcard
+		  id:: 63930c90-9232-4189-8960-723625cfe209
 			- Every object in Azure has its own web address
 	- ### Blob
 		- What does *blob* mean and how is organized? #flashcard
+		  id:: 63931326-1839-41be-b386-8c886f62de24
 			- Blob means *"Binary Large Object"*
 			- ![image.png](../assets/image_1670581697684_0.png)
 		- What are the Azure Blob types: #flashcard
+		  id:: 63930dc2-906f-48ea-b58c-ef62b1f50aed
 			- **Block:** Store text and binary data up to 4.7 TB. Made up of individually managed blocks of data
 			- **Append:** Block blobs that are optimized for append operations. Works well for logging where data is constantly appended.
 			- **Page:** Store files up to 8 TB. Any part of the file could be accessed at any time, for esxample a virtual hard drive.
 		- Mention the three Azure Blob Pricing Tiers: #flashcard
+		  id:: 63930f7f-b7d4-48dc-8024-30ac4ec18572
 			- #### Hot:
 				- Frequently accessed files. Lower access times and higher access costs.
 			- #### Cool:
@@ -499,6 +509,7 @@ tags:: Azure, ACloudGuru
 				- Lowest costs and highest access times.
 	- ### Disk
 		- What's the point with Azure Disk storage and what are its four types? #flashcard
+		  id:: 6393139e-3493-4156-85b3-b10cd49ba4d7
 			- It's like the machines disks, but **managed**
 			- Disk types:
 				- #### HDD
@@ -519,6 +530,7 @@ tags:: Azure, ACloudGuru
 		- Durable, encrypted and stable. Perfectly suited for data that is accessed infrequently.
 		-
 	- ### Storage Redundancy #flashcard
+	  id:: 63931eab-e791-40f4-9eb0-1ca9d423c91c
 		- #### Single Region
 			- Locally Redundant Storage (LRS)
 			- Zone-Redundant Storage (ZRS)
@@ -551,6 +563,7 @@ tags:: Azure, ACloudGuru
 			- ![image.png](../assets/image_1670588345761_0.png)
 	-
 	- ### Moving Data #flashcard
+	  id:: 639327bb-edcc-4a8d-a5d9-5c54b9ad9608
 		- #### AzCopy
 			- AzCopy is a command-line utility for occasional data transfers.
 			- Transfers blobs and Azure Files
@@ -564,6 +577,7 @@ tags:: Azure, ACloudGuru
 			- Remote users access Azure Files
 			- Transition to only Azure Files for file server
 	- ### Additional Migration Options #flashcard
+	  id:: 6392fa86-9314-4e6d-93bc-f159c7eb5891
 		- #### Azure Data Box
 			- When you have **lots** of data and/or limited **bandwidth**
 			- Azure Data Box provides offline data transfer to/from Azure
@@ -572,6 +586,7 @@ tags:: Azure, ACloudGuru
 			- Migrates non-Azure resources into Azure
 			- Migrates all, not only storage (e.g. VMs, databases, applications and dependencies, servers,...)
 	- ### Premium Performance Options #flashcard
+	  id:: 63932c64-e9d7-444b-8368-c9f4190b622e
 		- ![image.png](../assets/image_1670590762117_0.png)
 		-
 		-

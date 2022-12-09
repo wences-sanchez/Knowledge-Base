@@ -31,6 +31,8 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-07 Wed 13:59:44]--[2022-12-07 Wed 14:30:36] =>  00:30:52
 	  CLOCK: [2022-12-09 Fri 10:03:35]
+	  CLOCK: [2022-12-09 Fri 10:07:05]--[2022-12-09 Fri 10:07:06] =>  00:00:01
+	  CLOCK: [2022-12-09 Fri 10:07:31]
 	  :END:
 	- TODO Chapter 6: Storage
 	- TODO Chapter 7: Database
@@ -439,7 +441,11 @@ tags:: Azure, ACloudGuru
 			- A **VPN Gateway** is a specific type of virtual network gateway that is used to send encrypted traffic between an Azure vitrual network and an on-premises location over the public internet.
 			- VNet Gateway + vpn = VPN Gateway
 			- ![image.png](../assets/image_1670576248298_0.png)
-			-
+	- ### Application Gateway
+		- It's a load balancer but improved with additional rules.
+		- You can
+		- ![image.png](../assets/image_1670577241223_0.png)
+		-
 	-
 -
 -

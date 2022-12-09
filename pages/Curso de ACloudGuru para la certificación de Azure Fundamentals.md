@@ -528,9 +528,20 @@ tags:: Azure, ACloudGuru
 			- Geo-Zone-Redundant Storage (GZRS)
 		- ![image.png](../assets/image_1670587322693_0.png)
 		- #### Locally Redundant Storage (LRS)
-			-
-		-
-			-
+			- LRS is the lowest cost redundancy option because it creataes 3 copies of your data
+			- Protects against single disk failure
+			- Does not protect against zone or regional outage
+			- ![image.png](../assets/image_1670587635716_0.png)
+		- #### Zone-Redundant Storage (ZRS)
+			- ZRS is also hosted in a single region.
+			- However, those 3 copies of your data, instead of being hosted in a single location or availability zone, it spans 3 different availability zones
+			- One copy in each zone
+			- Protects against zone outage but not regional outage
+			- ![image.png](../assets/image_1670587758265_0.png)
+		- #### Geo-Redundant Storage (GRS)
+			- We have three copies in two different regions
+			- Three copies in primary regional physical location (LRS)
+			- ![image.png](../assets/image_1670588054042_0.png)
 	-
 -
 -

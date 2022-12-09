@@ -479,16 +479,17 @@ tags:: Azure, ACloudGuru
 - ## Chapter 6: Storage
   id:: 63930c18-c71f-4b89-a765-f76cf0c6828f
 	- ### Introduction
-		- Storage Account = Unique Azure Namespace
+		- Storage Account = Unique Azure Namespace #flashcard
 			- Every object in Azure has its own web address
 	- ### Blob
-		- Blob means *"Binary Large Object"*
-		- ![image.png](../assets/image_1670581697684_0.png)
-		- Blob types:
+		- What does *blob* mean and how is organized? #flashcard
+			- Blob means *"Binary Large Object"*
+			- ![image.png](../assets/image_1670581697684_0.png)
+		- What are the Azure Blob types: #flashcard
 			- **Block:** Store text and binary data up to 4.7 TB. Made up of individually managed blocks of data
 			- **Append:** Block blobs that are optimized for append operations. Works well for logging where data is constantly appended.
 			- **Page:** Store files up to 8 TB. Any part of the file could be accessed at any time, for esxample a virtual hard drive.
-		- Blob Pricing Tiers:
+		- Mention the three Azure Blob Pricing Tiers: #flashcard
 			- #### Hot:
 				- Frequently accessed files. Lower access times and higher access costs.
 			- #### Cool:
@@ -496,10 +497,23 @@ tags:: Azure, ACloudGuru
 			- #### Archive:
 				- Lowest costs and highest access times.
 	- ### Disk
+		- What's the point with Azure Disk storage and what
 		- It's like the machines disks, but **managed**
 		- Disk types:
 			- #### HDD
-				- Spinning hard drive. Low cost and suitable for backups
+				- Spinning hard drive.
+				- Low cost and suitable for backups
+			- #### Standard SSD
+				- Standard for production.
+				- Higher reliability, scalability and lower latency over HDD
+			- #### Premium SSD
+				- Super fast and high performance. Very low latency.
+				- Use for critical workloads
+			- #### Ultra Disk
+				- For the most demanding, data-intensive workloads.
+				- Disks up to 64 TB
+		-
+	- ### File
 		-
 		-
 		-

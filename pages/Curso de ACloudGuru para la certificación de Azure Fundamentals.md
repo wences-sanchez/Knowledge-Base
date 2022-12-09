@@ -479,9 +479,16 @@ tags:: Azure, ACloudGuru
 - ## Chapter 6: Storage
   id:: 63930c18-c71f-4b89-a765-f76cf0c6828f
 	- ### Introduction
+		- Storage Account = Unique Azure Namespace
+			- Every object in Azure has its own web address
+	- ### Blob
+		- Blob means *"Binary Large Object"*
+		- ![image.png](../assets/image_1670581697684_0.png)
+		- Blob types:
+			- **Block:** Store text and binary data up to 4.7 TB. Made up of individually managed blocks of data
+			- **Append:** Block blobs that are optimized for append operations. Works well for logging where data is
 		-
 			-
-				-
 	-
 -
 -

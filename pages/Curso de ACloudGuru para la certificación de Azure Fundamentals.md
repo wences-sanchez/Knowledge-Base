@@ -569,6 +569,11 @@ tags:: Azure, ACloudGuru
 			- When you have **lots** of data and/or limited **bandwidth**
 			- Azure Data Box provides offline data transfer to/from Azure
 			- ![image.png](../assets/image_1670589253378_0.png)
-			-
+		- #### Azure Migrate
+			- Migrates non-Azure resources into Azure
+			- Migrates all, not only storage (e.g. VMs, databases, applications and dependencies, servers,...)
+	- ### Premium Performance Options
+		-
+		-
 -
 -

@@ -423,7 +423,13 @@ tags:: Azure, ACloudGuru
 		- It's virtual because we don't have any access to any physical router or network.
 		-
 	- ### Load Balancer
-		- Load Balancer distributes new inbound flows that arrive on the Load Balancer's frontend to backend pool instances, according to rules and health probes.
+		- What is a Load Balancer and what does it do? #flashcard
+			- Load Balancer distributes new inbound flows that arrive on the Load Balancer's frontend to backend pool instances, according to rules and health probes.
+				- **Inbound Flows** are traffic from the Internet or local network.
+				- **Frontend** is the access point for the load balancer. All traffic goes here first.
+				- **Backend Pool** are the VM instances receiving traffic.
+				- **Rules & Health Probes** are checks to ensure backend instance can receive the data.
+	- ### VPN Gateway
 		-
 	-
 	-

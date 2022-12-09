@@ -425,6 +425,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 5: Networking
   id:: 63908dff-fc3b-4ae6-b465-bf1acd943452
+  collapsed:: true
 	- ### Virtual Network (a.k.a. VNet) #flashcard
 		- Enables many types of Azure resources, such as Azure Virtual Machines, to securely communicates with each other and with the Internet.
 		- It's virtual because we don't have any access to any physical router or network.
@@ -476,6 +477,7 @@ tags:: Azure, ACloudGuru
 		- An ExpressRoute connection is between your on-premises infrastructure and directly to Azure.
 		- A Content Delivery Network stores a cached version of your application on edge nodes, which are servers close to the users. Your application will load faster and less traffic will hit your main server. When content changes, cache will be invalidated.
 	-
+-
 - ## Chapter 6: Storage
   id:: 63930c18-c71f-4b89-a765-f76cf0c6828f
 	- ### Introduction
@@ -497,22 +499,21 @@ tags:: Azure, ACloudGuru
 			- #### Archive:
 				- Lowest costs and highest access times.
 	- ### Disk
-		- What's the point with Azure Disk storage and what
-		- It's like the machines disks, but **managed**
-		- Disk types:
-			- #### HDD
-				- Spinning hard drive.
-				- Low cost and suitable for backups
-			- #### Standard SSD
-				- Standard for production.
-				- Higher reliability, scalability and lower latency over HDD
-			- #### Premium SSD
-				- Super fast and high performance. Very low latency.
-				- Use for critical workloads
-			- #### Ultra Disk
-				- For the most demanding, data-intensive workloads.
-				- Disks up to 64 TB
-		-
+		- What's the point with Azure Disk storage and what are its four types? #flashcard
+			- It's like the machines disks, but **managed**
+			- Disk types:
+				- #### HDD
+					- Spinning hard drive.
+					- Low cost and suitable for backups
+				- #### Standard SSD
+					- Standard for production.
+					- Higher reliability, scalability and lower latency over HDD
+				- #### Premium SSD
+					- Super fast and high performance. Very low latency.
+					- Use for critical workloads
+				- #### Ultra Disk
+					- For the most demanding, data-intensive workloads.
+					- Disks up to 64 TB
 	- ### File
 		-
 		-

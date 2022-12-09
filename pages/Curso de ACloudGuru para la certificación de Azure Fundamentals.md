@@ -430,8 +430,11 @@ tags:: Azure, ACloudGuru
 				- **Backend Pool** are the VM instances receiving traffic.
 				- **Rules & Health Probes** are checks to ensure backend instance can receive the data.
 	- ### VPN Gateway
-		-
-	-
+		- What is a Virtual Network Gateway? #flashcard
+			- A Virtual Network Gateway is composed of two or more virtual machines that are deployed to a specific subnet you create, which is called the gateway subnet.
+			- The VMs that are located in the gateway subnet are created when you create the virtual network gateway.
+			- ![image.png](../assets/image_1670576046570_0.png)
+		- Wha
 	-
 -
 -

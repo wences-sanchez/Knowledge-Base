@@ -443,9 +443,22 @@ tags:: Azure, ACloudGuru
 			- ![image.png](../assets/image_1670576248298_0.png)
 	- ### Application Gateway
 		- It's a load balancer but improved with additional rules.
-		- You can
+		- You can make routing decisions based on additional attributes of an HTTP request, such as URI path or host headers. You can deliver messages to specific machines.
 		- ![image.png](../assets/image_1670577241223_0.png)
+		- Benefits:
+			- An Application Gateway can scale up or down based on the amount of traffic received.
+				- It costs more, but you don't have to worry about managing the resources needed to serve your application
+			- It hass end-to-end encryption for all traffic
+			- It includes zone redundancy: Span multiple availability zones and improve fault resiliency.
+			- Multi-site Hosting: Use the same application gateway for up to 100 websites.
+		- Summary:
+			- An application gateway is a higher level load balancer
+			- It works on the HTTP request of the traffic, instead of the IP address and port
+			- Traffic from a specific web address can go to a specific machine.
+			- Is a fit for most other Azure services.
+			- Supports auto-scaling, end-to-end encryptio
 		-
+			-
 	-
 -
 -

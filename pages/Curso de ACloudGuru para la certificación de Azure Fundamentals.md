@@ -520,6 +520,9 @@ tags:: Azure, ACloudGuru
 		- Durable, encrypted and stable. Perfectly suited for data that is accessed infrequently.
 		-
 	- ### Storage Redundancy
+		- #### Single Region
+			-
+		- #### Multi-Region
 		-
 		-
 			-

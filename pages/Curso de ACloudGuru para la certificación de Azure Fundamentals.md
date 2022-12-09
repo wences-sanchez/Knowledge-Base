@@ -456,7 +456,14 @@ tags:: Azure, ACloudGuru
 			- It works on the HTTP request of the traffic, instead of the IP address and port
 			- Traffic from a specific web address can go to a specific machine.
 			- Is a fit for most other Azure services.
-			- Supports auto-scaling, end-to-end encryptio
+			- Supports auto-scaling, end-to-end encryption, zone redundancy and multi-site hosting.
+		-
+	- ### Content Delivery Network
+		- A Content Delivery Network (or CDN) is a distributed network of servers that can deliver web content close to users.
+		-
+	- ### ExpressRoute
+		- With ExpressRoute, you can connect to Azure servers without passing over the public Internet, just with a dedicated connection which is private. #InMyOwnWords
+		-
 		-
 			-
 	-

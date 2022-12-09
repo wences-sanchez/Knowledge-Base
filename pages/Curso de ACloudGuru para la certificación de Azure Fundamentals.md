@@ -515,7 +515,9 @@ tags:: Azure, ACloudGuru
 					- For the most demanding, data-intensive workloads.
 					- Disks up to 64 TB
 	- ### File
-		-
+	- ### Archive
+		- For compliance. Lowest price.
+		- Durable, encrypted and stable. Perfectly suited for data that is accessed infrequently.
 		-
 		-
 			-

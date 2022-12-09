@@ -34,7 +34,11 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-09 Fri 10:07:05]--[2022-12-09 Fri 10:07:06] =>  00:00:01
 	  CLOCK: [2022-12-09 Fri 10:07:31]--[2022-12-09 Fri 11:09:05] =>  01:01:34
 	  :END:
-	- TODO Chapter 6: Storage
+	- DOING Chapter 6: Storage ((63930c18-c71f-4b89-a765-f76cf0c6828f))
+	  id:: 6392fa86-a948-4ec6-8357-1d9280230a7a
+	  :LOGBOOK:
+	  CLOCK: [2022-12-09 Fri 11:19:29]
+	  :END:
 	- TODO Chapter 7: Database
 	- TODO Chapter 8: Authentication and Authorization
 	- TODO Chapter 9: Azure Solutions
@@ -441,7 +445,7 @@ tags:: Azure, ACloudGuru
 			- A **VPN Gateway** is a specific type of virtual network gateway that is used to send encrypted traffic between an Azure vitrual network and an on-premises location over the public internet.
 			- VNet Gateway + vpn = VPN Gateway
 			- ![image.png](../assets/image_1670576248298_0.png)
-	- ### Application Gateway
+	- ### Application Gateway #flashcard
 		- It's a load balancer but improved with additional rules.
 		- You can make routing decisions based on additional attributes of an HTTP request, such as URI path or host headers. You can deliver messages to specific machines.
 		- ![image.png](../assets/image_1670577241223_0.png)
@@ -464,17 +468,20 @@ tags:: Azure, ACloudGuru
 	- ### ExpressRoute
 		- With ExpressRoute, you can connect to Azure servers without passing over the public Internet, just with a dedicated connection which is private. #InMyOwnWords
 		-
-	- ### Summary
+	- ### Summary #flashcard
 		- A Vritual Network is a fundamental part of Azure. All services are connected to a VNet. Includes an IP address range and subnets. Belongs to a single region and a single subscription.
 		- A Load Balancer solves the problem of where to send traffic on a group of VMs running the same application. Based on IP address and port number.
 		- A VPN Gateway connects your Azure infrastructure with your on-premises network. It is a specific type of virtual network gateway and is a secure way to connect your hybrid cloud solution.
 		- An Application Gateway is similar to a load balancer but can distribute incoming traffic based on HTTP request properties, such as URL and headers.
 		- An ExpressRoute connection is between your on-premises infrastructure and directly to Azure.
 		- A Content Delivery Network stores a cached version of your application on edge nodes, which are servers close to the users. Your application will load faster and less traffic will hit your main server. When content changes, cache will be invalidated.
-		-
 	-
+- ## Chapter 6: Storage
+  id:: 63930c18-c71f-4b89-a765-f76cf0c6828f
+	- ### Introduction
 		-
 			-
+				-
 	-
 -
 -

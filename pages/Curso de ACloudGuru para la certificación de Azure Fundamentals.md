@@ -521,9 +521,14 @@ tags:: Azure, ACloudGuru
 		-
 	- ### Storage Redundancy
 		- #### Single Region
-			-
+			- Locally Redundant Storage (LRS)
+			- Zone-Redundant Storage (ZRS)
 		- #### Multi-Region
-		-
+			- Geo-Redundant Storage (GRS)
+			- Geo-Zone-Redundant Storage (GZRS)
+		- ![image.png](../assets/image_1670587322693_0.png)
+		- #### Locally Redundant Storage (LRS)
+			-
 		-
 			-
 	-

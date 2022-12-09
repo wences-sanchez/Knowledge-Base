@@ -552,8 +552,23 @@ tags:: Azure, ACloudGuru
 			- ![image.png](../assets/image_1670588345761_0.png)
 	-
 	- ### Moving Data
-		-
--
--
+		- #### AzCopy
+			- AzCopy is a command-line utility for occasional data transfers.
+			- Transfers blobs and Azure Files
+			- Useful for scripting data transfers
+		- #### Storage Explorer
+			- It's a GUI Application for transfer files which is more friendly than AzCopy
+		- #### Azure File Sync
+			- Synchronize Azure Files with On-Premises File Servers
+			- Back up local file server in the cloud
+			- Synchronize files between multiple on-premises locations
+			- Remote users access Azure Files
+			- Transition to only Azure Files for file server
+	- ### Additional Migration Options
+		- #### Azure Data Box
+			- When you have **lots** of data and/or limited **bandwidth**
+			- Azure Data Box provides offline data transfer to/from Azure
+			- ![image.png](../assets/image_1670589253378_0.png)
+			-
 -
 -

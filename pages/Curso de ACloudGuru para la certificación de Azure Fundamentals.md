@@ -26,13 +26,13 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-07 Wed 11:17:27]--[2022-12-07 Wed 13:46:06] =>  02:28:39
 	  :END:
-	- DOING Chapter 5: Networking ((63908dff-fc3b-4ae6-b465-bf1acd943452))
+	- DONE Chapter 5: Networking ((63908dff-fc3b-4ae6-b465-bf1acd943452))
 	  id:: 639050d1-8696-4553-b73a-14eab392cf3c
 	  :LOGBOOK:
 	  CLOCK: [2022-12-07 Wed 13:59:44]--[2022-12-07 Wed 14:30:36] =>  00:30:52
 	  CLOCK: [2022-12-09 Fri 10:03:35]
 	  CLOCK: [2022-12-09 Fri 10:07:05]--[2022-12-09 Fri 10:07:06] =>  00:00:01
-	  CLOCK: [2022-12-09 Fri 10:07:31]
+	  CLOCK: [2022-12-09 Fri 10:07:31]--[2022-12-09 Fri 11:09:05] =>  01:01:34
 	  :END:
 	- TODO Chapter 6: Storage
 	- TODO Chapter 7: Database

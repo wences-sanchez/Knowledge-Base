@@ -486,7 +486,22 @@ tags:: Azure, ACloudGuru
 		- ![image.png](../assets/image_1670581697684_0.png)
 		- Blob types:
 			- **Block:** Store text and binary data up to 4.7 TB. Made up of individually managed blocks of data
-			- **Append:** Block blobs that are optimized for append operations. Works well for logging where data is
+			- **Append:** Block blobs that are optimized for append operations. Works well for logging where data is constantly appended.
+			- **Page:** Store files up to 8 TB. Any part of the file could be accessed at any time, for esxample a virtual hard drive.
+		- Blob Pricing Tiers:
+			- #### Hot:
+				- Frequently accessed files. Lower access times and higher access costs.
+			- #### Cool:
+				- Lower storage costs and higher access times. Data remains here for at least 30 days.
+			- #### Archive:
+				- Lowest costs and highest access times.
+	- ### Disk
+		- It's like the machines disks, but **managed**
+		- Disk types:
+			- #### HDD
+				- Spinning hard drive. Low cost and suitable for backups
+		-
+		-
 		-
 			-
 	-

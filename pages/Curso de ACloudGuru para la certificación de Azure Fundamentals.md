@@ -34,10 +34,10 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-09 Fri 10:07:05]--[2022-12-09 Fri 10:07:06] =>  00:00:01
 	  CLOCK: [2022-12-09 Fri 10:07:31]--[2022-12-09 Fri 11:09:05] =>  01:01:34
 	  :END:
-	- DOING Chapter 6: Storage ((63930c18-c71f-4b89-a765-f76cf0c6828f))
+	- TODO Chapter 6: Storage ((63930c18-c71f-4b89-a765-f76cf0c6828f))
 	  id:: 6392fa86-a948-4ec6-8357-1d9280230a7a
 	  :LOGBOOK:
-	  CLOCK: [2022-12-09 Fri 11:19:29]
+	  CLOCK: [2022-12-09 Fri 11:19:29]--[2022-12-09 Fri 13:59:50] =>  02:40:21
 	  :END:
 	- TODO Chapter 7: Database
 	- TODO Chapter 8: Authentication and Authorization
@@ -425,7 +425,6 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 5: Networking
   id:: 63908dff-fc3b-4ae6-b465-bf1acd943452
-  collapsed:: true
 	- ### Virtual Network (a.k.a. VNet) #flashcard
 		- Enables many types of Azure resources, such as Azure Virtual Machines, to securely communicates with each other and with the Internet.
 		- It's virtual because we don't have any access to any physical router or network.
@@ -519,7 +518,7 @@ tags:: Azure, ACloudGuru
 		- For compliance. Lowest price.
 		- Durable, encrypted and stable. Perfectly suited for data that is accessed infrequently.
 		-
-	- ### Storage Redundancy
+	- ### Storage Redundancy #flashcard
 		- #### Single Region
 			- Locally Redundant Storage (LRS)
 			- Zone-Redundant Storage (ZRS)
@@ -551,7 +550,7 @@ tags:: Azure, ACloudGuru
 			- Protects against primary region failure AND primary region zone failure
 			- ![image.png](../assets/image_1670588345761_0.png)
 	-
-	- ### Moving Data
+	- ### Moving Data #flashcard
 		- #### AzCopy
 			- AzCopy is a command-line utility for occasional data transfers.
 			- Transfers blobs and Azure Files
@@ -564,7 +563,7 @@ tags:: Azure, ACloudGuru
 			- Synchronize files between multiple on-premises locations
 			- Remote users access Azure Files
 			- Transition to only Azure Files for file server
-	- ### Additional Migration Options
+	- ### Additional Migration Options #flashcard
 		- #### Azure Data Box
 			- When you have **lots** of data and/or limited **bandwidth**
 			- Azure Data Box provides offline data transfer to/from Azure
@@ -572,7 +571,8 @@ tags:: Azure, ACloudGuru
 		- #### Azure Migrate
 			- Migrates non-Azure resources into Azure
 			- Migrates all, not only storage (e.g. VMs, databases, applications and dependencies, servers,...)
-	- ### Premium Performance Options
+	- ### Premium Performance Options #flashcard
+		- ![image.png](../assets/image_1670590762117_0.png)
 		-
 		-
 -

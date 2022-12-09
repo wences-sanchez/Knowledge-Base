@@ -464,6 +464,15 @@ tags:: Azure, ACloudGuru
 	- ### ExpressRoute
 		- With ExpressRoute, you can connect to Azure servers without passing over the public Internet, just with a dedicated connection which is private. #InMyOwnWords
 		-
+	- ### Summary
+		- A Vritual Network is a fundamental part of Azure. All services are connected to a VNet. Includes an IP address range and subnets. Belongs to a single region and a single subscription.
+		- A Load Balancer solves the problem of where to send traffic on a group of VMs running the same application. Based on IP address and port number.
+		- A VPN Gateway connects your Azure infrastructure with your on-premises network. It is a specific type of virtual network gateway and is a secure way to connect your hybrid cloud solution.
+		- An Application Gateway is similar to a load balancer but can distribute incoming traffic based on HTTP request properties, such as URL and headers.
+		- An ExpressRoute connection is between your on-premises infrastructure and directly to Azure.
+		- A Content Delivery Network stores a cached version of your application on edge nodes, which are servers close to the users. Your application will load faster and less traffic will hit your main server. When content changes, cache will be invalidated.
+		-
+	-
 		-
 			-
 	-

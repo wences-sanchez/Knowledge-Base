@@ -129,6 +129,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 2: Cloud Concepts
   id:: 6389db47-d3ed-4d31-95ae-016d4f4e01d7
+  collapsed:: true
 	- ### Introduction
 		- Cloud computing is the on-demand delivery of computing serivices.
 	- ### The Language of Cloud Computing #flashcard
@@ -421,7 +422,9 @@ tags:: Azure, ACloudGuru
 		- Enables many types of Azure resources, such as Azure Virtual Machines, to securely communicates with each other and with the Internet.
 		- It's virtual because we don't have any access to any physical router or network.
 		-
-	-
+	- ### Load Balancer
+		- Load Balancer distributes new inbound flows that arrive on the Load Balancer's frontend to backend pool instances, according to rules and health probes.
+		-
 	-
 	-
 -

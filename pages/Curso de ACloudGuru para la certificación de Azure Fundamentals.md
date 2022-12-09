@@ -26,10 +26,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-07 Wed 11:17:27]--[2022-12-07 Wed 13:46:06] =>  02:28:39
 	  :END:
-	- TODO Chapter 5: Networking ((63908dff-fc3b-4ae6-b465-bf1acd943452))
+	- DOING Chapter 5: Networking ((63908dff-fc3b-4ae6-b465-bf1acd943452))
 	  id:: 639050d1-8696-4553-b73a-14eab392cf3c
 	  :LOGBOOK:
 	  CLOCK: [2022-12-07 Wed 13:59:44]--[2022-12-07 Wed 14:30:36] =>  00:30:52
+	  CLOCK: [2022-12-09 Fri 10:03:35]
 	  :END:
 	- TODO Chapter 6: Storage
 	- TODO Chapter 7: Database
@@ -418,7 +419,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 5: Networking
   id:: 63908dff-fc3b-4ae6-b465-bf1acd943452
-	- ### Virtual Network (a.k.a. VNet)
+	- ### Virtual Network (a.k.a. VNet) #flashcard
 		- Enables many types of Azure resources, such as Azure Virtual Machines, to securely communicates with each other and with the Internet.
 		- It's virtual because we don't have any access to any physical router or network.
 		-
@@ -431,10 +432,14 @@ tags:: Azure, ACloudGuru
 				- **Rules & Health Probes** are checks to ensure backend instance can receive the data.
 	- ### VPN Gateway
 		- What is a Virtual Network Gateway? #flashcard
-			- A Virtual Network Gateway is composed of two or more virtual machines that are deployed to a specific subnet you create, which is called the gateway subnet.
+			- A **Virtual Network Gateway** is composed of two or more virtual machines that are deployed to a specific subnet you create, which is called the gateway subnet.
 			- The VMs that are located in the gateway subnet are created when you create the virtual network gateway.
 			- ![image.png](../assets/image_1670576046570_0.png)
-		- Wha
+		- What is a VPN Gateway? #flashcard
+			- A **VPN Gateway** is a specific type of virtual network gateway that is used to send encrypted traffic between an Azure vitrual network and an on-premises location over the public internet.
+			- VNet Gateway + vpn = VPN Gateway
+			- ![image.png](../assets/image_1670576248298_0.png)
+			-
 	-
 -
 -

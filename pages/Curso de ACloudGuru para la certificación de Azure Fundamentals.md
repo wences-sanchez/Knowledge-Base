@@ -519,6 +519,8 @@ tags:: Azure, ACloudGuru
 		- For compliance. Lowest price.
 		- Durable, encrypted and stable. Perfectly suited for data that is accessed infrequently.
 		-
+	- ### Storage Redundancy
+		-
 		-
 			-
 	-

@@ -34,10 +34,11 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-09 Fri 10:07:05]--[2022-12-09 Fri 10:07:06] =>  00:00:01
 	  CLOCK: [2022-12-09 Fri 10:07:31]--[2022-12-09 Fri 11:09:05] =>  01:01:34
 	  :END:
-	- TODO Chapter 6: Storage ((63930c18-c71f-4b89-a765-f76cf0c6828f))
+	- DOING Chapter 6: Storage ((63930c18-c71f-4b89-a765-f76cf0c6828f))
 	  id:: 6392fa86-a948-4ec6-8357-1d9280230a7a
 	  :LOGBOOK:
 	  CLOCK: [2022-12-09 Fri 11:19:29]--[2022-12-09 Fri 13:59:50] =>  02:40:21
+	  CLOCK: [2022-12-11 Sun 16:16:51]
 	  :END:
 	- TODO Chapter 7: Database
 	- TODO Chapter 8: Authentication and Authorization

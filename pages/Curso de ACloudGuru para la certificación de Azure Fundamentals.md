@@ -612,6 +612,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 7: Databases #flashcard
   id:: 6396ece0-9347-4cf7-9416-922aeebbd89c
+  collapsed:: true
 	- ### Introduction
 		- A database is useful not just for store our data (we can get that with simple storage) but for organize our contents so that we can get them in an ordered, agroupated, specific way. For example: get all the books with start for 'A'; get all the books with a blue cover; get all the books with more than 200 pages. #InMyOwnWords
 	- ### CosmosDB
@@ -638,8 +639,10 @@ tags:: Azure, ACloudGuru
 		- Single tool for migrate Microsoft SQL to Azure SQL
 	- ### Summary
 		-
+-
 - ## Chapter 8: Authentication and Authorization
   id:: 6396e756-0535-4bce-acda-492cdfbe65a9
+  collapsed:: true
 	- ### Introduction
 	- ### Identity Services
 	- ### Azure Active Directory
@@ -724,5 +727,9 @@ tags:: Azure, ACloudGuru
 	- ### Big Data
 		- #### Azure Data Lake Analytics
 			- You have a massive body of data (a lake) that you can perform analytical procedures on.
+			- **Parallel Processing:** This is two or more computers or CPUs that process the same dataset at the same time.
+			- **Ready to Go:** You don't have to manage any servers, clusters or VMs
+		- #### HDInsights
+			- It's very similar to Azure Data Lake Analytics but uses all **open-source** frameworks.
 			-
 	-

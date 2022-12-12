@@ -491,6 +491,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 6: Storage
   id:: 63930c18-c71f-4b89-a765-f76cf0c6828f
+  collapsed:: true
 	- ### Introduction
 		- Storage Account = Unique Azure Namespace #flashcard
 		  id:: 63930c90-9232-4189-8960-723625cfe209
@@ -597,11 +598,14 @@ tags:: Azure, ACloudGuru
 		- You trade performance for redundancy.
 		- **Premium page blobs** doesn't support **ZRS**.
 		- ![image.png](../assets/image_1670590762117_0.png)
-	- ### Summary
+	-
 		-
+-
 - ## Chapter 7: Database
   id:: 6396ece0-9347-4cf7-9416-922aeebbd89c
 	- ### Introduction
-		- A database is useful not just for store our data
+		- A database is useful not just for store our data (we can get that with simple storage) but for organize our contents so that we can get them in an ordered, agroupated, specific way. For example: get all the books with start for 'A'; get all the books with a blue cover; get all the books with more than 200 pages. #InMyOwnWords
+	- ### CosmosDB
+		- It's more scalable, and that makes it more suitable for going global. In fact, Microsoft offers that to you (with CosmosDB) at the
 -
 -

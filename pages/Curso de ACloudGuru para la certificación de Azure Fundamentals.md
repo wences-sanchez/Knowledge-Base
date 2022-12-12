@@ -731,5 +731,15 @@ tags:: Azure, ACloudGuru
 			- **Ready to Go:** You don't have to manage any servers, clusters or VMs
 		- #### HDInsights
 			- It's very similar to Azure Data Lake Analytics but uses all **open-source** frameworks.
+			- Includes some popular big data open-source tools such ass Apache Hadoop, Spark or Kafka.
+		- #### Azure DataBricks
+			- It's an Azure service that is based on Apache Spark (an open-source distributed cluster computing framework).
+				- It means that Apache Spark can run on many computers at the same time and also process the same set of data on multiple computers at the same time.
+			- The advantage of Azure Databricks is, of course, that you don't need to buy lots of computers, nor maintain them.
+			- Azure provides the computing power and on top also offers a lot of integrations.
+		- #### Azure Synapse Analytics
+			- This is the data warehouse solution for Azure.
+			- It's built in the cloud - that's its strength
+			-
 			-
 	-

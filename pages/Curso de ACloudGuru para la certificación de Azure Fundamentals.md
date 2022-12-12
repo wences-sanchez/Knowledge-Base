@@ -40,12 +40,13 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-09 Fri 11:19:29]--[2022-12-09 Fri 13:59:50] =>  02:40:21
 	  CLOCK: [2022-12-12 Mon 09:34:08]--[2022-12-12 Mon 09:51:34] =>  00:17:26
 	  :END:
-	- DOING Chapter 7: Database ((6396ece0-9347-4cf7-9416-922aeebbd89c))
+	- DONE Chapter 7: Database ((6396ece0-9347-4cf7-9416-922aeebbd89c))
 	  id:: 6396e756-05ba-472d-ab96-bdbabd82f04a
 	  :LOGBOOK:
-	  CLOCK: [2022-12-12 Mon 09:52:52]
+	  CLOCK: [2022-12-12 Mon 09:52:52]--[2022-12-12 Mon 11:07:13] =>  01:14:21
 	  :END:
-	- TODO Chapter 8: Authentication and Authorization
+	- TODO Chapter 8: Authentication and Authorization ((6396e756-0535-4bce-acda-492cdfbe65a9))
+	  id:: 6396e756-1f8b-4173-9f0d-0ff7bd124969
 	- TODO Chapter 9: Azure Solutions
 	- TODO Chapter 10: Security
 	- TODO Chapter 11: Monitoring and Management
@@ -629,5 +630,7 @@ tags:: Azure, ACloudGuru
 		- Single tool for migrate Microsoft SQL to Azure SQL
 	- ### Summary
 		-
--
+- ## Chapter 8: Authentication and Authorization
+  id:: 6396e756-0535-4bce-acda-492cdfbe65a9
+	-
 -

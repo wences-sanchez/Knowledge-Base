@@ -620,6 +620,12 @@ tags:: Azure, ACloudGuru
 		- **MySQL**, unlike **Microsoft SQL**, is open source.
 		- Platform-as-a-Service
 		- You can focus on development
-		- Choice of language
+		- Choice of language, such as PHP
+	- ### Azure Database for PostgreSQL
+		- It's OpenSource, like MySQL
+		- PostgreSQL can be configured for redundancy in case of critical operations
+	- ### Database Migration Services
+		- Single tool for migrate Microsoft SQL to Azure SQL
+		-
 -
 -

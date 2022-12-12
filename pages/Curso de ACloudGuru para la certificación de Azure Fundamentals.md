@@ -51,8 +51,11 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-12 Mon 11:17:43]--[2022-12-12 Mon 11:51:25] =>  00:33:42
 	  CLOCK: [2022-12-12 Mon 13:54:45]--[2022-12-12 Mon 15:03:23] =>  01:08:38
 	  :END:
-	- TODO Chapter 9: Azure Solutions ((63974c2d-5d95-48bc-9953-e6961c9b3c23))
+	- DOING Chapter 9: Azure Solutions ((63974c2d-5d95-48bc-9953-e6961c9b3c23))
 	  id:: 6396e756-dee3-4553-8c12-9632c904408b
+	  :LOGBOOK:
+	  CLOCK: [2022-12-12 Mon 16:44:13]
+	  :END:
 	- TODO Chapter 10: Security
 	- TODO Chapter 11: Monitoring and Management
 	- TODO Chapter 12: Pricing
@@ -695,4 +698,8 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 9: Azure Solutions
   id:: 63974c2d-5d95-48bc-9953-e6961c9b3c23
+	- ### Internet of Things
+		- IoT is the set of all the different devices that are connected to the Internet and are sending data without any human intervention at all.
+		- A system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
+		-
 	-

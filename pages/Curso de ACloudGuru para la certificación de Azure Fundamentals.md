@@ -665,6 +665,9 @@ tags:: Azure, ACloudGuru
 	- ### Azure Active Directory Domain Services
 		- It's a managed Active Directory Domain Services
 		- Azure AD Connect
+		- For those applications which do not support modern authentication
 		-
+	- ### Single Sign-On
+		- One single credential for all different service accounts.
 		-
 -

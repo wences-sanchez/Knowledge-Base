@@ -34,13 +34,17 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-09 Fri 10:07:05]--[2022-12-09 Fri 10:07:06] =>  00:00:01
 	  CLOCK: [2022-12-09 Fri 10:07:31]--[2022-12-09 Fri 11:09:05] =>  01:01:34
 	  :END:
-	- DOING Chapter 6: Storage ((63930c18-c71f-4b89-a765-f76cf0c6828f))
+	- DONE Chapter 6: Storage ((63930c18-c71f-4b89-a765-f76cf0c6828f))
 	  id:: 6392fa86-a948-4ec6-8357-1d9280230a7a
 	  :LOGBOOK:
 	  CLOCK: [2022-12-09 Fri 11:19:29]--[2022-12-09 Fri 13:59:50] =>  02:40:21
-	  CLOCK: [2022-12-12 Mon 09:34:08]
+	  CLOCK: [2022-12-12 Mon 09:34:08]--[2022-12-12 Mon 09:51:34] =>  00:17:26
 	  :END:
-	- TODO Chapter 7: Database
+	- DOING Chapter 7: Database
+	  id:: 6396e756-05ba-472d-ab96-bdbabd82f04a
+	  :LOGBOOK:
+	  CLOCK: [2022-12-12 Mon 09:52:52]
+	  :END:
 	- TODO Chapter 8: Authentication and Authorization
 	- TODO Chapter 9: Azure Solutions
 	- TODO Chapter 10: Security
@@ -426,6 +430,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 5: Networking
   id:: 63908dff-fc3b-4ae6-b465-bf1acd943452
+  collapsed:: true
 	- ### Virtual Network (a.k.a. VNet) #flashcard
 	  id:: 6392fa86-4baa-4507-8d0e-075d24cb6548
 		- Enables many types of Azure resources, such as Azure Virtual Machines, to securely communicates with each other and with the Internet.
@@ -594,6 +599,8 @@ tags:: Azure, ACloudGuru
 		- ![image.png](../assets/image_1670590762117_0.png)
 	- ### Summary
 		-
-		-
+-
+- ## Chapter 7: Database
+	-
 -
 -

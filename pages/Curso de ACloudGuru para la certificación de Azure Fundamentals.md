@@ -751,6 +751,22 @@ tags:: Azure, ACloudGuru
 		- #### Azure Cognitive Services
 			- AI as a service on Azure comes in a few different forms. They're all part of Azure Cognitive Services.
 			- Azure Cognitive Services is a collection of tools to use in your own applications.
-			- The Vision service, which provides information
+			- **Vision service**
+				- Which provides information about visual content found in images and videos.
+			- **Decision service**
+				- Which can make informed decisions based on data available to an app.
+				- This could include identifying potential offensive language, get notified of anomalies in your IoT network or leveraging data analytics from your business
+			- **Speeck service**
+				- Which takes any spoken audio stream and then convert it into text as a transcript.
+		- #### Machine Learning Studio
+		- #### Machine Learning Service
+	- ### Serverless
+		- #### Azure Functions
+			-
+		- #### Logic App
+			- You can create conditions and automations which are serverless.
+		- #### Even Grid
+			- You can build triggers to run you functions
+		-
 		-
 	-

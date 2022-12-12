@@ -606,6 +606,20 @@ tags:: Azure, ACloudGuru
 	- ### Introduction
 		- A database is useful not just for store our data (we can get that with simple storage) but for organize our contents so that we can get them in an ordered, agroupated, specific way. For example: get all the books with start for 'A'; get all the books with a blue cover; get all the books with more than 200 pages. #InMyOwnWords
 	- ### CosmosDB
-		- It's more scalable, and that makes it more suitable for going global. In fact, Microsoft offers that to you (with CosmosDB) at the
+		- It's more scalable, and that makes it more suitable for going global. In fact, Microsoft offers that to you (with CosmosDB) at the power of a click, to add regions.
+		- It's expensive
+	- ### Azure SQL
+		- Database-as-a-Service
+		- Built-in Machine Learning
+		- #### Azure SQL Database
+			- Most like traditional SQL Server
+		- #### Azure SQL Managed Instance
+			- Aimed at migrating from on-premises
+		- ![image.png](../assets/image_1670836820890_0.png)
+	- ### Azure Database for MySQL
+		- **MySQL**, unlike **Microsoft SQL**, is open source.
+		- Platform-as-a-Service
+		- You can focus on development
+		- Choice of language
 -
 -

@@ -662,7 +662,9 @@ tags:: Azure, ACloudGuru
 		- Increase convenience while staying secure
 		- ![image.png](../assets/image_1670850749787_0.png)
 		-
-		-
+	- ### Azure Active Directory Domain Services
+		- It's a managed Active Directory Domain Services
+		- Azure AD Connect
 		-
 		-
 -

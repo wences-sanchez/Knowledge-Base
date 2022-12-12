@@ -716,5 +716,12 @@ tags:: Azure, ACloudGuru
 			- You don't have to write any code to connect your things.
 			- While **IoT Hub** is a PaaS tool, **IoT Central** is an easier SaaS service.
 		- #### Azure Sphere
-			-
+			- **Azure Sphere** is a kind of all-in-one solution for IoT devices.
+			- But you can only use hardware and chipsets **certified** by **Microsoft** for use on Azure.
+			- It contains a specialized security service that manages maintenance, updates and general control.
+			- The **Azure Sphere Operating System** is what runs on the device. This is a piece of software made specifically for this Sphere devices and will connect to the Azure Sphere security service for you too.
+			- **Azure Sphere** offers you a well organized, secure and neat way of approaching to IoT, but you are somewhat tied to Microsoft. #InMyOwnWords
+	- ### Big Data
+		-
+		-
 	-

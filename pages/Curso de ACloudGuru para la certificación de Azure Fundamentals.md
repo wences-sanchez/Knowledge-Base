@@ -740,6 +740,10 @@ tags:: Azure, ACloudGuru
 		- #### Azure Synapse Analytics
 			- This is the data warehouse solution for Azure.
 			- It's built in the cloud - that's its strength
-			-
-			-
+	- ### Machine Learning
+		- We define a **model** (a set of rules) for the machines to learn (by playing that model over and over again with the data we've provided).
+		- And, later, the model will find patterns in the data that follow the rules you have provided.
+		- **Knowledge Mining** is when you ask **Azure Search** (a Service from Azure) to find insights that are present in your data. This could be relationships between files, data based on geography, images with the same person in them, and much more.
+		- **Built-in Apps:** Ready-made build in-apps on Azure
+		-
 	-

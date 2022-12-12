@@ -762,11 +762,27 @@ tags:: Azure, ACloudGuru
 		- #### Machine Learning Service
 	- ### Serverless
 		- #### Azure Functions
-			-
-		- #### Logic App
+			- The first service to create serverless functions
+		- #### Logic Apps
+			- Logic Apps are a quick and simple way to integrate systems and applications inside and outside of Azure.
 			- You can create conditions and automations which are serverless.
-		- #### Even Grid
-			- You can build triggers to run you functions
+		- #### Event Grid
+			- Event Grid is a routing service for sending and receiving events (messages) between applications
+			- It's serverless. No management of infrastructure components. Just connecting services.
+	- ### DevOps
+		- #### Azure DevOps
+			- Azure Boards
+			- Azure Pipelines
+			- Azure Repos
+			- Azure Test Plans
+			- Azure Artifacts
+			- ...and it's free!
+		- #### Azure DevTest Labs
+			- Where Azure DevOps focuses on the software and applications, DevTest Labs focuses on the environment they run on.
+			- For creating test environments and reuse them.
+		- #### GitHub & GitHub Actions
+			-
+		-
 		-
 		-
 	-

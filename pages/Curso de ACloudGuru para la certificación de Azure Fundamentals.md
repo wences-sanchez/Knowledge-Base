@@ -699,7 +699,22 @@ tags:: Azure, ACloudGuru
 - ## Chapter 9: Azure Solutions
   id:: 63974c2d-5d95-48bc-9953-e6961c9b3c23
 	- ### Internet of Things
-		- IoT is the set of all the different devices that are connected to the Internet and are sending data without any human intervention at all.
-		- A system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
-		-
+		- Definition of *Internet of Things*
+			- IoT is the set of all the different devices that are connected to the Internet and are sending data without any human intervention at all.
+			- A system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
+		- #### IoT Hub
+			- It's a hub to collect data feeds from all your things.
+			- It is what is called a backend, meaning the system that receives the data and manages it
+			- ![image.png](../assets/image_1670860611817_0.png)
+			- Managed and secure
+			- Ease of Deployment
+			- Platform-as-a-Service
+			- Scaling and Authentication
+		- #### IoT Central
+			- This is the Software-as-a-Service offering for IoT on Azure
+			- **IoT Central** simplifies the setup of your IoT solution and can be a really fast way to get your IoT solution running.
+			- You don't have to write any code to connect your things.
+			- While **IoT Hub** is a PaaS tool, **IoT Central** is an easier SaaS service.
+		- #### Azure Sphere
+			-
 	-

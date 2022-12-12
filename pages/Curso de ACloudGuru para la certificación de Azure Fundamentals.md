@@ -744,6 +744,13 @@ tags:: Azure, ACloudGuru
 		- We define a **model** (a set of rules) for the machines to learn (by playing that model over and over again with the data we've provided).
 		- And, later, the model will find patterns in the data that follow the rules you have provided.
 		- **Knowledge Mining** is when you ask **Azure Search** (a Service from Azure) to find insights that are present in your data. This could be relationships between files, data based on geography, images with the same person in them, and much more.
-		- **Built-in Apps:** Ready-made build in-apps on Azure
+		- **Built-in Apps:** Ready-made build in-apps on Azure (such as **Cognitive Services**) for **recognizing speech** and language or **bot services** to create an automated process to answer questions in an interactive way.
+		- #### Azure Bot Service
+			- The Azure Bot Service is a PaaS service that you can use to build your own bot.
+			- And you can build any kind of bot. From a simple question and answer bot that has a predefined list of questions and answers, to a complex virtual assistant bot
+		- #### Azure Cognitive Services
+			- AI as a service on Azure comes in a few different forms. They're all part of Azure Cognitive Services.
+			- Azure Cognitive Services is a collection of tools to use in your own applications.
+			- The Vision service, which provides information
 		-
 	-

@@ -642,18 +642,19 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 8: Authentication and Authorization
   id:: 6396e756-0535-4bce-acda-492cdfbe65a9
-  collapsed:: true
 	- ### Introduction
 	- ### Identity Services
 	- ### Azure Active Directory
 		- Azure Active Directory is the main tool for managing users and permissions in Azure
 		- You can't have an account without Azure Active Directory.
 		- What is a tenant in Azure? #flashcard
+		  id:: 6397025e-2438-4e43-a833-19e829f58ca7
 			- A tenant is a representation of your organization in Azure.
 			- A tenant is a dedicated instance of Azure Active Directory which is the first AAD instance that is created when a user signs up for Azure or another Microsoft cloud service.
 			- Each tenant is distinct and completely separate from other AAD tenants.
 			- Each user in Azure can be a member or guest of up to 500 Azure AD tenants.
 	- ### Zero Trust Concepts #flashcard
+	  id:: 63970304-0352-4205-8fae-adc89fe94c69
 		- Every device is bad unless proven otherwise
 		- Least privilege access
 		- Zero Trust = Trusted identities, not location
@@ -662,14 +663,17 @@ tags:: Azure, ACloudGuru
 		- ![image.png](../assets/image_1670849983016_0.png)
 	- ### Multi-Factor Authentication
 	- ### Conditional Access #flashcard
+	  id:: 63972687-68d0-4e01-aa86-7bc1cf77d80e
 		- If/Then policies to grant access
 		- ![image.png](../assets/image_1670850472071_0.png)
 		-
 	- ### What is Passwordless Authentication? #flashcard
+	  id:: 639727fa-b7a0-4419-b6a8-ec72136835cd
 		- Increase convenience while staying secure
 		- ![image.png](../assets/image_1670850749787_0.png)
 		-
 	- ### What is Azure Active Directory Domain Services? #flashcard
+	  id:: 63972950-1313-48b8-aac6-a4829c483c86
 		- It's a managed Active Directory Domain Services
 		- Azure AD Connect
 		- For those applications which do not support modern authentication
@@ -678,6 +682,7 @@ tags:: Azure, ACloudGuru
 		- One single credential for all different service accounts.
 	-
 	- ### Summary #flashcard
+	  id:: 63972756-157a-482b-95ee-1dc2e7cd0dd2
 		- Azure Active Directory is NOT the same than Active Directory
 			- The former is an Azure service for identity management
 				- The very first service that is created with our account.
@@ -703,9 +708,11 @@ tags:: Azure, ACloudGuru
   id:: 63974c2d-5d95-48bc-9953-e6961c9b3c23
 	- ### Internet of Things
 		- Definition of *Internet of Things* #flashcard
+		  id:: 63974db7-514f-461c-937b-57c17fc26ceb
 			- IoT is the set of all the different devices that are connected to the Internet and are sending data without any human intervention at all.
 			- A system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
 		- #### IoT Hub #flashcard
+		  id:: 63974e92-9529-452d-8178-5c289f78b2be
 			- It's a hub to collect data feeds from all your things.
 			- It is what is called a backend, meaning the system that receives the data and manages it
 			- ![image.png](../assets/image_1670860611817_0.png)
@@ -714,33 +721,40 @@ tags:: Azure, ACloudGuru
 			- Platform-as-a-Service
 			- Scaling and Authentication
 		- #### IoT Central #flashcard
+		  id:: 63974fd8-eb06-4d1a-97bd-12942937f95b
 			- This is the Software-as-a-Service offering for IoT on Azure
 			- **IoT Central** simplifies the setup of your IoT solution and can be a really fast way to get your IoT solution running.
 			- You don't have to write any code to connect your things.
 			- While **IoT Hub** is a PaaS tool, **IoT Central** is an easier SaaS service.
 		- #### Azure Sphere #flashcard
+		  id:: 639750ee-c723-4cb2-96c8-2047a359d533
 			- **Azure Sphere** is a kind of all-in-one solution for IoT devices.
 			- But you can only use hardware and chipsets **certified** by **Microsoft** for use on Azure.
 			- It contains a specialized security service that manages maintenance, updates and general control.
 			- The **Azure Sphere Operating System** is what runs on the device. This is a piece of software made specifically for this Sphere devices and will connect to the Azure Sphere security service for you too.
 			- **Azure Sphere** offers you a well organized, secure and neat way of approaching to IoT, but you are somewhat tied to Microsoft. #InMyOwnWords
 	- ### Big Data
-		- #### Azure Data Lake Analytics
+		- #### Azure Data Lake Analytics #flashcard
+		  id:: 63975337-ab67-4ec1-8e11-3f4ce5eaa40a
 			- You have a massive body of data (a lake) that you can perform analytical procedures on.
 			- **Parallel Processing:** This is two or more computers or CPUs that process the same dataset at the same time.
 			- **Ready to Go:** You don't have to manage any servers, clusters or VMs
-		- #### HDInsights
+		- #### HDInsights #flashcard
+		  id:: 63975785-e4d1-4238-a5db-96b50b54a957
 			- It's very similar to Azure Data Lake Analytics but uses all **open-source** frameworks.
 			- Includes some popular big data open-source tools such ass Apache Hadoop, Spark or Kafka.
-		- #### Azure DataBricks
+		- #### Azure DataBricks #flashcard
+		  id:: 63975830-7e90-49ec-bdeb-7c66ee024f0e
 			- It's an Azure service that is based on Apache Spark (an open-source distributed cluster computing framework).
 				- It means that Apache Spark can run on many computers at the same time and also process the same set of data on multiple computers at the same time.
 			- The advantage of Azure Databricks is, of course, that you don't need to buy lots of computers, nor maintain them.
 			- Azure provides the computing power and on top also offers a lot of integrations.
-		- #### Azure Synapse Analytics
+		- #### Azure Synapse Analytics #flashcard
+		  id:: 6397597a-9592-4aca-a4b9-6003e9b110ee
 			- This is the data warehouse solution for Azure.
 			- It's built in the cloud - that's its strength
-	- ### Machine Learning
+	- ### Machine Learning #flashcard
+	  id:: 63975a29-5e84-4945-aa42-d0dc10d77eb2
 		- We define a **model** (a set of rules) for the machines to learn (by playing that model over and over again with the data we've provided).
 		- And, later, the model will find patterns in the data that follow the rules you have provided.
 		- **Knowledge Mining** is when you ask **Azure Search** (a Service from Azure) to find insights that are present in your data. This could be relationships between files, data based on geography, images with the same person in them, and much more.
@@ -760,7 +774,8 @@ tags:: Azure, ACloudGuru
 				- Which takes any spoken audio stream and then convert it into text as a transcript.
 		- #### Machine Learning Studio
 		- #### Machine Learning Service
-	- ### Serverless
+	- ### Serverless #flashcard
+	  id:: 6397603f-6b0a-4133-970d-83c9a6c0369e
 		- #### Azure Functions
 			- The first service to create serverless functions
 		- #### Logic Apps
@@ -769,7 +784,8 @@ tags:: Azure, ACloudGuru
 		- #### Event Grid
 			- Event Grid is a routing service for sending and receiving events (messages) between applications
 			- It's serverless. No management of infrastructure components. Just connecting services.
-	- ### DevOps
+	- ### DevOps (Azure DevOps & Azure DevTest Labs) #flashcard
+	  id:: 63976262-518c-44da-9df5-4a1808752589
 		- #### Azure DevOps
 			- Azure Boards
 			- Azure Pipelines

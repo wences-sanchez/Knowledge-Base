@@ -669,5 +669,20 @@ tags:: Azure, ACloudGuru
 		-
 	- ### Single Sign-On
 		- One single credential for all different service accounts.
-		-
+	-
+	- ### Summary
+		- Azure Active Directory is NOT the same than Active Directory
+			- The former is an Azure service for identity management
+				- The very first service that is created with our account.
+			- The latter, classic AD, is the identity management solution for your on-premises implementation
+		- A tenant is a special instance of Azure AD
+			- It's the first AD instance that gets created when a new Azure account is set up.
+			- The tenant represents your organization and holds all the users for it.
+		- According to the Zero-Trust model:
+			- Everyone assumed untrustworthy unless proven otherwise
+				- Regardless of location
+			- Trusted **identities**, instead locations
+			- This is necessary for remote work
+			-
+			-
 -

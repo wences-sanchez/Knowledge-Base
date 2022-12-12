@@ -601,13 +601,14 @@ tags:: Azure, ACloudGuru
 	-
 		-
 -
-- ## Chapter 7: Database
+- ## Chapter 7: Databases #flashcard
   id:: 6396ece0-9347-4cf7-9416-922aeebbd89c
 	- ### Introduction
 		- A database is useful not just for store our data (we can get that with simple storage) but for organize our contents so that we can get them in an ordered, agroupated, specific way. For example: get all the books with start for 'A'; get all the books with a blue cover; get all the books with more than 200 pages. #InMyOwnWords
 	- ### CosmosDB
 		- It's more scalable, and that makes it more suitable for going global. In fact, Microsoft offers that to you (with CosmosDB) at the power of a click, to add regions.
 		- It's expensive
+		- You can really replicate your data globally in whatever region that you want!
 	- ### Azure SQL
 		- Database-as-a-Service
 		- Built-in Machine Learning
@@ -626,6 +627,6 @@ tags:: Azure, ACloudGuru
 		- PostgreSQL can be configured for redundancy in case of critical operations
 	- ### Database Migration Services
 		- Single tool for migrate Microsoft SQL to Azure SQL
-		-
+	-
 -
 -

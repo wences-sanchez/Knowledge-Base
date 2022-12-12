@@ -650,7 +650,7 @@ tags:: Azure, ACloudGuru
 			- A tenant is a dedicated instance of Azure Active Directory which is the first AAD instance that is created when a user signs up for Azure or another Microsoft cloud service.
 			- Each tenant is distinct and completely separate from other AAD tenants.
 			- Each user in Azure can be a member or guest of up to 500 Azure AD tenants.
-	- ### Zero Trust Concepts
+	- ### Zero Trust Concepts #flashcard
 		- Every device is bad unless proven otherwise
 		- Least privilege access
 		- Zero Trust = Trusted identities, not location
@@ -658,15 +658,15 @@ tags:: Azure, ACloudGuru
 			- Independent from network location.
 		- ![image.png](../assets/image_1670849983016_0.png)
 	- ### Multi-Factor Authentication
-	- ### Conditional Access
+	- ### Conditional Access #flashcard
 		- If/Then policies to grant access
 		- ![image.png](../assets/image_1670850472071_0.png)
 		-
-	- ### Passwordless Authentication
+	- ### What is Passwordless Authentication? #flashcard
 		- Increase convenience while staying secure
 		- ![image.png](../assets/image_1670850749787_0.png)
 		-
-	- ### Azure Active Directory Domain Services
+	- ### What is Azure Active Directory Domain Services? #flashcard
 		- It's a managed Active Directory Domain Services
 		- Azure AD Connect
 		- For those applications which do not support modern authentication
@@ -674,7 +674,7 @@ tags:: Azure, ACloudGuru
 	- ### Single Sign-On
 		- One single credential for all different service accounts.
 	-
-	- ### Summary
+	- ### Summary #flashcard
 		- Azure Active Directory is NOT the same than Active Directory
 			- The former is an Azure service for identity management
 				- The very first service that is created with our account.
@@ -699,10 +699,10 @@ tags:: Azure, ACloudGuru
 - ## Chapter 9: Azure Solutions
   id:: 63974c2d-5d95-48bc-9953-e6961c9b3c23
 	- ### Internet of Things
-		- Definition of *Internet of Things*
+		- Definition of *Internet of Things* #flashcard
 			- IoT is the set of all the different devices that are connected to the Internet and are sending data without any human intervention at all.
 			- A system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
-		- #### IoT Hub
+		- #### IoT Hub #flashcard
 			- It's a hub to collect data feeds from all your things.
 			- It is what is called a backend, meaning the system that receives the data and manages it
 			- ![image.png](../assets/image_1670860611817_0.png)
@@ -710,18 +710,19 @@ tags:: Azure, ACloudGuru
 			- Ease of Deployment
 			- Platform-as-a-Service
 			- Scaling and Authentication
-		- #### IoT Central
+		- #### IoT Central #flashcard
 			- This is the Software-as-a-Service offering for IoT on Azure
 			- **IoT Central** simplifies the setup of your IoT solution and can be a really fast way to get your IoT solution running.
 			- You don't have to write any code to connect your things.
 			- While **IoT Hub** is a PaaS tool, **IoT Central** is an easier SaaS service.
-		- #### Azure Sphere
+		- #### Azure Sphere #flashcard
 			- **Azure Sphere** is a kind of all-in-one solution for IoT devices.
 			- But you can only use hardware and chipsets **certified** by **Microsoft** for use on Azure.
 			- It contains a specialized security service that manages maintenance, updates and general control.
 			- The **Azure Sphere Operating System** is what runs on the device. This is a piece of software made specifically for this Sphere devices and will connect to the Azure Sphere security service for you too.
 			- **Azure Sphere** offers you a well organized, secure and neat way of approaching to IoT, but you are somewhat tied to Microsoft. #InMyOwnWords
 	- ### Big Data
-		-
-		-
+		- #### Azure Data Lake Analytics
+			- You have a massive body of data (a lake) that you can perform analytical procedures on.
+			-
 	-

@@ -51,10 +51,10 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-12 Mon 11:17:43]--[2022-12-12 Mon 11:51:25] =>  00:33:42
 	  CLOCK: [2022-12-12 Mon 13:54:45]--[2022-12-12 Mon 15:03:23] =>  01:08:38
 	  :END:
-	- DOING Chapter 9: Azure Solutions ((63974c2d-5d95-48bc-9953-e6961c9b3c23))
+	- TODO Chapter 9: Azure Solutions ((63974c2d-5d95-48bc-9953-e6961c9b3c23))
 	  id:: 6396e756-dee3-4553-8c12-9632c904408b
 	  :LOGBOOK:
-	  CLOCK: [2022-12-12 Mon 16:44:13]
+	  CLOCK: [2022-12-12 Mon 16:44:13]--[2022-12-12 Mon 18:31:04] =>  01:46:51
 	  :END:
 	- TODO Chapter 10: Security
 	- TODO Chapter 11: Monitoring and Management
@@ -781,7 +781,8 @@ tags:: Azure, ACloudGuru
 			- Where Azure DevOps focuses on the software and applications, DevTest Labs focuses on the environment they run on.
 			- For creating test environments and reuse them.
 		- #### GitHub & GitHub Actions
-			-
+	- ### Summary
+		-
 		-
 		-
 		-

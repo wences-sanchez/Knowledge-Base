@@ -654,5 +654,15 @@ tags:: Azure, ACloudGuru
 			- Independent from network location.
 		- ![image.png](../assets/image_1670849983016_0.png)
 	- ### Multi-Factor Authentication
-	-
+	- ### Conditional Access
+		- If/Then policies to grant access
+		- ![image.png](../assets/image_1670850472071_0.png)
+		-
+	- ### Passwordless Authentication
+		- Increase convenience while staying secure
+		- ![image.png](../assets/image_1670850749787_0.png)
+		-
+		-
+		-
+		-
 -

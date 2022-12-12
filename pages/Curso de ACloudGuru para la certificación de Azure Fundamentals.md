@@ -40,7 +40,7 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-09 Fri 11:19:29]--[2022-12-09 Fri 13:59:50] =>  02:40:21
 	  CLOCK: [2022-12-12 Mon 09:34:08]--[2022-12-12 Mon 09:51:34] =>  00:17:26
 	  :END:
-	- DOING Chapter 7: Database
+	- DOING Chapter 7: Database ((6396ece0-9347-4cf7-9416-922aeebbd89c))
 	  id:: 6396e756-05ba-472d-ab96-bdbabd82f04a
 	  :LOGBOOK:
 	  CLOCK: [2022-12-12 Mon 09:52:52]
@@ -599,8 +599,9 @@ tags:: Azure, ACloudGuru
 		- ![image.png](../assets/image_1670590762117_0.png)
 	- ### Summary
 		-
--
 - ## Chapter 7: Database
-	-
+  id:: 6396ece0-9347-4cf7-9416-922aeebbd89c
+	- ### Introduction
+		- A database is useful not just for store our data
 -
 -

@@ -627,6 +627,7 @@ tags:: Azure, ACloudGuru
 		- PostgreSQL can be configured for redundancy in case of critical operations
 	- ### Database Migration Services
 		- Single tool for migrate Microsoft SQL to Azure SQL
-	-
+	- ### Summary
+		-
 -
 -

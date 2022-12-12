@@ -645,5 +645,6 @@ tags:: Azure, ACloudGuru
 			- A tenant is a dedicated instance of Azure Active Directory which is the first AAD instance that is created when a user signs up for Azure or another Microsoft cloud service.
 			- Each tenant is distinct and completely separate from other AAD tenants.
 			- Each user in Azure can be a member or guest of up to 500 Azure AD tenants.
+	- ### Zero Trust Concepts
 		-
 -

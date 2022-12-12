@@ -38,7 +38,7 @@ tags:: Azure, ACloudGuru
 	  id:: 6392fa86-a948-4ec6-8357-1d9280230a7a
 	  :LOGBOOK:
 	  CLOCK: [2022-12-09 Fri 11:19:29]--[2022-12-09 Fri 13:59:50] =>  02:40:21
-	  CLOCK: [2022-12-11 Sun 16:16:51]
+	  CLOCK: [2022-12-12 Mon 09:34:08]
 	  :END:
 	- TODO Chapter 7: Database
 	- TODO Chapter 8: Authentication and Authorization

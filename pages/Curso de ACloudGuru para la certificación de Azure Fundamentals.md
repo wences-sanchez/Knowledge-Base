@@ -45,10 +45,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-12 Mon 09:52:52]--[2022-12-12 Mon 11:07:13] =>  01:14:21
 	  :END:
-	- TODO Chapter 8: Authentication and Authorization ((6396e756-0535-4bce-acda-492cdfbe65a9))
+	- DOING Chapter 8: Authentication and Authorization ((6396e756-0535-4bce-acda-492cdfbe65a9))
 	  id:: 6396e756-1f8b-4173-9f0d-0ff7bd124969
 	  :LOGBOOK:
 	  CLOCK: [2022-12-12 Mon 11:17:43]--[2022-12-12 Mon 11:51:25] =>  00:33:42
+	  CLOCK: [2022-12-12 Mon 13:54:45]
 	  :END:
 	- TODO Chapter 9: Azure Solutions
 	- TODO Chapter 10: Security
@@ -646,5 +647,12 @@ tags:: Azure, ACloudGuru
 			- Each tenant is distinct and completely separate from other AAD tenants.
 			- Each user in Azure can be a member or guest of up to 500 Azure AD tenants.
 	- ### Zero Trust Concepts
-		-
+		- Every device is bad unless proven otherwise
+		- Least privilege access
+		- Zero Trust = Trusted identities, not location
+		- Allow access only from approved managed devices
+			- Independent from network location.
+		- ![image.png](../assets/image_1670849983016_0.png)
+	- ### Multi-Factor Authentication
+	-
 -

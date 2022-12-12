@@ -51,7 +51,8 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-12 Mon 11:17:43]--[2022-12-12 Mon 11:51:25] =>  00:33:42
 	  CLOCK: [2022-12-12 Mon 13:54:45]--[2022-12-12 Mon 15:03:23] =>  01:08:38
 	  :END:
-	- TODO Chapter 9: Azure Solutions
+	- TODO Chapter 9: Azure Solutions ((63974c2d-5d95-48bc-9953-e6961c9b3c23))
+	  id:: 6396e756-dee3-4553-8c12-9632c904408b
 	- TODO Chapter 10: Security
 	- TODO Chapter 11: Monitoring and Management
 	- TODO Chapter 12: Pricing
@@ -691,5 +692,7 @@ tags:: Azure, ACloudGuru
 				- Microsoft Authenticator
 				- Windows Hello
 				- FIDO2 security key (usb drive)
-		-
 -
+- ## Chapter 9: Azure Solutions
+  id:: 63974c2d-5d95-48bc-9953-e6961c9b3c23
+	-

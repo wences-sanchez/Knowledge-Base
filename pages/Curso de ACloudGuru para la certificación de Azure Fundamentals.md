@@ -45,10 +45,10 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-12 Mon 09:52:52]--[2022-12-12 Mon 11:07:13] =>  01:14:21
 	  :END:
-	- DOING Chapter 8: Authentication and Authorization ((6396e756-0535-4bce-acda-492cdfbe65a9))
+	- TODO Chapter 8: Authentication and Authorization ((6396e756-0535-4bce-acda-492cdfbe65a9))
 	  id:: 6396e756-1f8b-4173-9f0d-0ff7bd124969
 	  :LOGBOOK:
-	  CLOCK: [2022-12-12 Mon 11:17:43]
+	  CLOCK: [2022-12-12 Mon 11:17:43]--[2022-12-12 Mon 11:51:25] =>  00:33:42
 	  :END:
 	- TODO Chapter 9: Azure Solutions
 	- TODO Chapter 10: Security

@@ -45,11 +45,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-12 Mon 09:52:52]--[2022-12-12 Mon 11:07:13] =>  01:14:21
 	  :END:
-	- DOING Chapter 8: Authentication and Authorization ((6396e756-0535-4bce-acda-492cdfbe65a9))
+	- DONE Chapter 8: Authentication and Authorization ((6396e756-0535-4bce-acda-492cdfbe65a9))
 	  id:: 6396e756-1f8b-4173-9f0d-0ff7bd124969
 	  :LOGBOOK:
 	  CLOCK: [2022-12-12 Mon 11:17:43]--[2022-12-12 Mon 11:51:25] =>  00:33:42
-	  CLOCK: [2022-12-12 Mon 13:54:45]
+	  CLOCK: [2022-12-12 Mon 13:54:45]--[2022-12-12 Mon 15:03:23] =>  01:08:38
 	  :END:
 	- TODO Chapter 9: Azure Solutions
 	- TODO Chapter 10: Security
@@ -683,6 +683,13 @@ tags:: Azure, ACloudGuru
 				- Regardless of location
 			- Trusted **identities**, instead locations
 			- This is necessary for remote work
-			-
-			-
+		- Conditional Access offers policies for granting access in the form: **If/Then**
+			- For example, MFA or a managed device
+		- Passwordless Authentication
+			- Remove system password with something you have/are
+			- Methods:
+				- Microsoft Authenticator
+				- Windows Hello
+				- FIDO2 security key (usb drive)
+		-
 -

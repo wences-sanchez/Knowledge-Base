@@ -588,7 +588,11 @@ tags:: Azure, ACloudGuru
 			- Migrates all, not only storage (e.g. VMs, databases, applications and dependencies, servers,...)
 	- ### Premium Performance Options #flashcard
 	  id:: 63932c64-e9d7-444b-8368-c9f4190b622e
+		- If you have the need of speed.
+		- You trade performance for redundancy.
+		- **Premium page blobs** doesn't support **ZRS**.
 		- ![image.png](../assets/image_1670590762117_0.png)
+	- ### Summary
 		-
 		-
 -

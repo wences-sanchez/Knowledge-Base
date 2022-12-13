@@ -56,10 +56,10 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-12 Mon 16:44:13]--[2022-12-12 Mon 18:31:04] =>  01:46:51
 	  :END:
-	- DOING Chapter 10: Security ((63983a40-e2d2-4105-9a69-9fb3ea466c51))
+	- DONE Chapter 10: Security ((63983a40-e2d2-4105-9a69-9fb3ea466c51))
 	  id:: 63983897-38e9-43c2-8c28-82fe1831d64c
 	  :LOGBOOK:
-	  CLOCK: [2022-12-13 Tue 09:40:43]
+	  CLOCK: [2022-12-13 Tue 09:40:43]--[2022-12-13 Tue 13:03:02] =>  03:22:19
 	  :END:
 	- TODO Chapter 11: Monitoring and Management
 	- TODO Chapter 12: Pricing

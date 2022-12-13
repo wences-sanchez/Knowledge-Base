@@ -956,7 +956,17 @@ tags:: Azure, ACloudGuru
 - ## Chapter 11: Monitoring and Management
   id:: 63986e9d-f9ac-475c-ab3e-582783b4de51
 	- ### Governance
-		-
+		- Governance on Azure is a set or rules, policies and roles to define acceptable use of Azure resources.
+		- Or, telling the employees which resources they are allowed to use.
+		- #### Azure Policy (and what is a policy) #flashcard
+			- Governance validates that your organization can achieve its goals through effective and efficient use of IT.
+			- What is a policy?
+				- A policiy is a set of rules.
+				- Rules to make sure that standards and agreements within your corporation are followed and that resources are compliant with these policies.
+				- If you have a bunch of Azure resources, you then also have a bunch of Azure policies defined for those resources.
+				- ![image.png](../assets/image_1670935158548_0.png)
+			- The next part of Azure Policy is **RBAC (or Role-Based Access Control)**
+			-
 	-
 	-
 	-

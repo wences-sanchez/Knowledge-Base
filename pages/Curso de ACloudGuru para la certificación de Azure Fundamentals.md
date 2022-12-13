@@ -880,8 +880,12 @@ tags:: Azure, ACloudGuru
 			- #### Private Endpoints *(better)*
 				- How private endpoints works as opposed to service endpoints that it acts as a managed network interface that sits inside of your virtual network subnet.
 				- This managed network interface will provide a private connection to a specific instance of the service.
-				- In other words, it provides private access to only a single storage account, or others.
-				- Available over connected networks such as hybrid or on-premises network
+				- In other words, it provides private access to only a **single** storage account, or others.
+				- It provides truly private connectivity over other connected networks. Such as hybrid or on-premises network.
+				- And also peer virtual networks.
+				- It can be truly private
+				- Public endpoint can be disabled.
+				- ![image.png](../assets/image_1670927568719_0.png)
 				-
 	-
 	-

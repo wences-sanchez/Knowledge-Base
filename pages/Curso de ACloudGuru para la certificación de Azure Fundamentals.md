@@ -933,8 +933,21 @@ tags:: Azure, ACloudGuru
 			- Any attempt by a user to gain more privileges will be flagged.
 	- ### Azure Sentinel
 		- Sentinel is a security information and event management (SIEM) tool.
+		- Step 1: Data Collection
+			- Data is collected from a range of sources such as your network controllers, virtual machines, DNS traffic managers and much more
+		- Step 2: Data is aggregated and normalized
+			- This just means that it's sort of sorted and made a bit more usable
+		- Step 3: The data is analyzed and any threats are detected
+		- Step 4: Magic!
+		- Step 5: Any security breaches and threats are identified and you can investigate and take appropriate action!
+			-
 		- ![image.png](../assets/image_1670931674115_0.png)
-		-
+		- ![image.png](../assets/image_1670932053276_0.png)
+	- ### Azure Dedicated Hosts
+		- They are hosts that Azure offers you in a dedicated way.
+		- You can reuse your software licenses.
+		- But it's expensive. Use it wisely!
+	-
 	-
 	-
 	-

@@ -842,7 +842,15 @@ tags:: Azure, ACloudGuru
 		- #### Distributed Denial of Service (DDoS)
 			- When a *malicious user* makes your server be so busy with tons of requests that it suddenly stops by trying to resolve every one of them. At some point, the server hasn't got enough resources and simply stops.
 				- If this is done on purpose to take the server out, it is called **Denial-of-Service attack**.
-				- What often happens is that the attack is distributed, meaning it comes from many
+				- What often happens is that the attack is distributed, meaning it comes from many different sources or computers
+			- So a **DDoS** attack is lots of computers targeting a single server or website with the aim of making it stop.
+			- To protect against this, Azure has the **DDoS Protection Service**
+				- This service has various levels of protection, depending on what your needs are for your application. And without stopping your application.
+		- #### Network Security Group (NSG)
+			- **Resource Firewall**
+				- They are like personal firewalls for your resources
+				- You can attach a NSG to any virtual network, subnet or network interface which is attached to a virtual machine
+			-
 		-
 	-
 	-

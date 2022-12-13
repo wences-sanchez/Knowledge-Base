@@ -966,7 +966,23 @@ tags:: Azure, ACloudGuru
 				- If you have a bunch of Azure resources, you then also have a bunch of Azure policies defined for those resources.
 				- ![image.png](../assets/image_1670935158548_0.png)
 			- The next part of Azure Policy is **RBAC (or Role-Based Access Control)**
-			-
+			- With RBAC, you can:
+				- Define User Access
+					- You can define specific user access to individual resources
+				- Minimum Access
+					- RBAC can enable minimum access necessary to resources.
+					- This ensures only users with valid access can manage resources.
+				- Target Specific Use Cases
+					- Being very explicit about uses and access
+			- 3 Parts of a Role Assignment:
+				- **A security Principal**
+					- An object representing an entity such as a user or group, which can access the resource
+				- **A Role Definition**
+					- A collection of permissions such as read, write and delete.
+				- **A Scope**
+					- The resources the access applies to.
+					- Specify which role can access a resource or resource group.
+		-
 	-
 	-
 	-

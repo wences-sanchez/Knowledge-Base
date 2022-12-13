@@ -810,7 +810,7 @@ tags:: Azure, ACloudGuru
   id:: 63983a40-e2d2-4105-9a69-9fb3ea466c51
 	- ### Introduction
 	- ### Defense in Depth
-		- There are seven general layers of security in cloud computing:
+		- There are seven general layers of security in cloud computing: #flashcard
 			- #### Physical:
 				- This is the actual data center.
 				- Only authorized personnel has access.
@@ -829,39 +829,44 @@ tags:: Azure, ACloudGuru
 			- ![image.png](../assets/image_1670922019920_0.png)
 			-
 	- ### Securing Network Connectivity
-		- A firewall is like the only way to get into your system. If the firewall is closed, no one can enter! By this, we can build rules, so that only the packets with the features we want (or we don't want) can enter into our system, because we want. #InMyOwnWords
-		- A firewall is a dramatic name for a proven and crucial service. It's composed by:
-			- #### Rules:
-				- A firewall defines rules for what kind of traffic can and cannot access the device or service behind it.
-				- It is a set of rules that decides whether network traffic is allowed to access the service or device attached to the network
-			- #### Variations:
-				- Firewalls come as hardware and software versions.
-				- They can suit any type and size of network
-			- #### Critical Part:
-				- Any network that take security serious will have a firewall.
-		- #### Distributed Denial of Service (DDoS)
-			- When a *malicious user* makes your server be so busy with tons of requests that it suddenly stops by trying to resolve every one of them. At some point, the server hasn't got enough resources and simply stops.
-				- If this is done on purpose to take the server out, it is called **Denial-of-Service attack**.
-				- What often happens is that the attack is distributed, meaning it comes from many different sources or computers
-			- So a **DDoS** attack is lots of computers targeting a single server or website with the aim of making it stop.
-			- To protect against this, Azure has the **DDoS Protection Service**
-				- This service has various levels of protection, depending on what your needs are for your application. And without stopping your application.
-		- #### Network Security Group (NSG)
-			- **Resource Firewall**
-				- They are like personal firewalls for your resources
-				- You can attach a NSG to any virtual network, subnet or network interface which is attached to a virtual machine
-			- **Rules**
-				- A Network Security Group (NSG) is a set of rules for who and what can access any resource attached to the NSG
-			- ![image.png](../assets/image_1670924618857_0.png)
-		- #### Application Security Groups
-			- An extension of NSGs that can help you secure your Azure services is an Application Security Group.
-			- **Protects Application Infrastructure**
-				- Focus the security on the application rather that the IP endpoint.
-				- Where a NSG will protect and monitor traffic to a specific network or virtual machine, an Application Security Group will protect an application.
-			- **Natural Extension**
-				- You can group VM and virtual networks into logical application groups and apply an application security group, instead of an IP address.
-				- It lets you configure your network security as a natural extension of an application's structure.
-			-
+		- What is a firewall and how does it work? #flashcard
+			- A firewall is like the only way to get into your system. If the firewall is closed, no one can enter! By this, we can build rules, so that only the packets with the features we want (or we don't want) can enter into our system, because we want. #InMyOwnWords
+			- A firewall is a dramatic name for a proven and crucial service. It's composed by:
+				- #### Rules:
+					- A firewall defines rules for what kind of traffic can and cannot access the device or service behind it.
+					- It is a set of rules that decides whether network traffic is allowed to access the service or device attached to the network
+				- #### Variations:
+					- Firewalls come as hardware and software versions.
+					- They can suit any type and size of network
+				- #### Critical Part:
+					- Any network that take security serious will have a firewall.
+		- Talk about the DDoS and its methods #flashcard
+			- #### Distributed Denial of Service (DDoS)
+				- When a *malicious user* makes your server be so busy with tons of requests that it suddenly stops by trying to resolve every one of them. At some point, the server hasn't got enough resources and simply stops.
+					- If this is done on purpose to take the server out, it is called **Denial-of-Service attack**.
+					- What often happens is that the attack is distributed, meaning it comes from many different sources or computers
+				- So a **DDoS** attack is lots of computers targeting a single server or website with the aim of making it stop.
+				- To protect against this, Azure has the **DDoS Protection Service**
+					- This service has various levels of protection, depending on what your needs are for your application. And without stopping your application.
+		- What is a Network Security Group in Azure? #flashcard
+			- #### Network Security Group (NSG)
+				- **Resource Firewall**
+					- They are like personal firewalls for your resources
+					- You can attach a NSG to any virtual network, subnet or network interface which is attached to a virtual machine
+				- **Rules**
+					- A Network Security Group (NSG) is a set of rules for who and what can access any resource attached to the NSG
+				- ![image.png](../assets/image_1670924618857_0.png)
+		- What is an Application Security Group? #flashcard
+			- #### Application Security Groups
+				- An extension of NSGs that can help you secure your Azure services is an Application Security Group.
+				- **Protects Application Infrastructure**
+					- Focus the security on the application rather that the IP endpoint.
+					- Where a NSG will protect and monitor traffic to a specific network or virtual machine, an Application Security Group will protect an application.
+				- **Natural Extension**
+					- You can group VM and virtual networks into logical application groups and apply an application security group, instead of an IP address.
+					- It lets you configure your network security as a natural extension of an application's structure.
+	- ### Public and Private Endpoints
+		- When we are discussing public and private endp
 	-
 	-
 	-

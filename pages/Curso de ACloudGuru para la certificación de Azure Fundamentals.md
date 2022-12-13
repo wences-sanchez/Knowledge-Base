@@ -61,10 +61,10 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-13 Tue 09:40:43]--[2022-12-13 Tue 13:03:02] =>  03:22:19
 	  :END:
-	- DOING Chapter 11: Monitoring and Management ((63986e9d-f9ac-475c-ab3e-582783b4de51))
+	- TODO Chapter 11: Monitoring and Management ((63986e9d-f9ac-475c-ab3e-582783b4de51))
 	  id:: 63983897-de87-4969-9b38-5f5807ab2244
 	  :LOGBOOK:
-	  CLOCK: [2022-12-13 Tue 13:22:24]
+	  CLOCK: [2022-12-13 Tue 13:22:24]--[2022-12-13 Tue 13:59:31] =>  00:37:07
 	  :END:
 	- TODO Chapter 12: Pricing
 	- TODO Chapter 13: Support
@@ -956,8 +956,9 @@ tags:: Azure, ACloudGuru
 - ## Chapter 11: Monitoring and Management
   id:: 63986e9d-f9ac-475c-ab3e-582783b4de51
 	- ### Governance
-		- Governance on Azure is a set or rules, policies and roles to define acceptable use of Azure resources.
-		- Or, telling the employees which resources they are allowed to use.
+		- What does Governance mean in Azure? #flashcard
+			- Governance on Azure is a set or rules, policies and roles to define acceptable use of Azure resources.
+			- Or, telling the employees which resources they are allowed to use.
 		- #### Azure Policy (and what is a policy) #flashcard
 			- Governance validates that your organization can achieve its goals through effective and efficient use of IT.
 			- What is a policy?
@@ -966,22 +967,27 @@ tags:: Azure, ACloudGuru
 				- If you have a bunch of Azure resources, you then also have a bunch of Azure policies defined for those resources.
 				- ![image.png](../assets/image_1670935158548_0.png)
 			- The next part of Azure Policy is **RBAC (or Role-Based Access Control)**
-			- With RBAC, you can:
-				- Define User Access
-					- You can define specific user access to individual resources
-				- Minimum Access
-					- RBAC can enable minimum access necessary to resources.
-					- This ensures only users with valid access can manage resources.
-				- Target Specific Use Cases
-					- Being very explicit about uses and access
-			- 3 Parts of a Role Assignment:
-				- **A security Principal**
-					- An object representing an entity such as a user or group, which can access the resource
-				- **A Role Definition**
-					- A collection of permissions such as read, write and delete.
-				- **A Scope**
-					- The resources the access applies to.
-					- Specify which role can access a resource or resource group.
+		- With RBAC, you can: #flashcard
+			- Define User Access
+				- You can define specific user access to individual resources
+			- Minimum Access
+				- RBAC can enable minimum access necessary to resources.
+				- This ensures only users with valid access can manage resources.
+			- Target Specific Use Cases
+				- Being very explicit about uses and access
+		- 3 Parts of a Role Assignment: #flashcard
+			- **A security Principal**
+				- An object representing an entity such as a user or group, which can access the resource
+			- **A Role Definition**
+				- A collection of permissions such as read, write and delete.
+			- **A Scope**
+				- The resources the access applies to.
+				- Specify which role can access a resource or resource group.
+		- What are Blueprints in Azure? #flashcard
+			- Blueprints are templates for creating Azure resources
+			- They help you with the creation of your infrastructure
+		- #### Azure Advisor
+			- While Azure Advisor is a separate blade and a separate portal within the Azure portal, the security assistance part of it is the same as the Azure Security Center.
 		-
 	-
 	-

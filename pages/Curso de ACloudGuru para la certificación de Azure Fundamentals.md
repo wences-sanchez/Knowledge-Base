@@ -711,6 +711,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 9: Azure Solutions
   id:: 63974c2d-5d95-48bc-9953-e6961c9b3c23
+  collapsed:: true
 	- ### Internet of Things
 		- Definition of *Internet of Things* #flashcard
 		  id:: 63974db7-514f-461c-937b-57c17fc26ceb
@@ -804,6 +805,7 @@ tags:: Azure, ACloudGuru
 		- #### GitHub & GitHub Actions
 	- ### Summary
 		-
+-
 - ## Chapter 10: Security
   id:: 63983a40-e2d2-4105-9a69-9fb3ea466c51
 	- ### Introduction
@@ -837,7 +839,10 @@ tags:: Azure, ACloudGuru
 				- They can suit any type and size of network
 			- #### Critical Part:
 				- Any network that take security serious will have a firewall.
-		- ####
+		- #### Distributed Denial of Service (DDoS)
+			- When a *malicious user* makes your server be so busy with tons of requests that it suddenly stops by trying to resolve every one of them. At some point, the server hasn't got enough resources and simply stops.
+				- If this is done on purpose to take the server out, it is called **Denial-of-Service attack**.
+				- What often happens is that the attack is distributed, meaning it comes from many
 		-
 	-
 	-

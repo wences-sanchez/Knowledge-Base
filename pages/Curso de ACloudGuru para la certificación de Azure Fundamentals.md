@@ -913,7 +913,23 @@ tags:: Azure, ACloudGuru
 	-
 	- ### Azure Information Protection
 		- It works together with Microsoft 365
-	-
+		- ![image.png](../assets/image_1670930525191_0.png)
+		- ![image.png](../assets/image_1670930595247_0.png)
+	- ### Microsoft Defender for Identity
+		- The users are unreliable!
+		- Monitor users
+			- Microsoft Defender for Identity monitor users and analyze their activity and information.
+				- This includes any permissions and memberships of groups.
+		- Baseline Behaviour
+			- This service records what a user's normal behaviour and routine is.
+			- Any activity outside this routine will be logged as **suspicious**.
+		- Suggest Changes
+			- Microsoft Defender for Identity will suggest changes to conform with security best practices in order to reduce risks.
+		- Reconnaissance
+			- If a user is searching for information about other users, IPs or more, Microsoft Defender for Identity will raise alerts.
+		- Brute Force
+			- Any attempts to guess user credentials will be identified and flagged
+		-
 	-
 	-
 	-

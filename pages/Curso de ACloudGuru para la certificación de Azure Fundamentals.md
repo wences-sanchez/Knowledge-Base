@@ -827,6 +827,16 @@ tags:: Azure, ACloudGuru
 			- ![image.png](../assets/image_1670922019920_0.png)
 			-
 	- ### Securing Network Connectivity
+		- A firewall is like the only way to get into your system. If the firewall is closed, no one can enter! By this, we can build rules, so that only the packets with the features we want (or we don't want) can enter into our system, because we want. #InMyOwnWords
+		- A firewall is a dramatic name for a proven and crucial service.
+		- Rules:
+			- A firewall defines rules for what kind of traffic can and cannot access the device or service behind it.
+			- It is a set of rules that decides whether network traffic is allowed to access the service or device attached to the network
+		- Variations:
+			- Firewalls come as hardware and software versions.
+			- They can suit any type and size of network
+		- #### Critical Part:
+			- Any network that take security serious will have a firewall.
 		-
 		-
 	-

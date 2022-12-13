@@ -902,7 +902,17 @@ tags:: Azure, ACloudGuru
 				- Actively protect your resources through monitoring your policies and their outcomes.
 			- Respond
 				- Respond to any security alerts. Investigate all of them and then go back to step 1 to define new policies to accoount for the alert.
-		-
+	- ### Azure Key Vault
+		- Azure Key Vault is the service from Azure that manages your passwords.
+		- Secure hardware:
+			- The Key Vault hardware is secure too. Not even Microsoft can access the keys in it.
+		- Application isolation:
+			- An application can't pass on secrets, nor access another application's secrets
+		- Global Scaling:
+			- Scale globally like any other managed Azure service
+	-
+	- ### Azure Information Protection
+		- It works together with Microsoft 365
 	-
 	-
 	-

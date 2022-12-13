@@ -850,8 +850,18 @@ tags:: Azure, ACloudGuru
 			- **Resource Firewall**
 				- They are like personal firewalls for your resources
 				- You can attach a NSG to any virtual network, subnet or network interface which is attached to a virtual machine
+			- **Rules**
+				- A Network Security Group (NSG) is a set of rules for who and what can access any resource attached to the NSG
+			- ![image.png](../assets/image_1670924618857_0.png)
+		- #### Application Security Groups
+			- An extension of NSGs that can help you secure your Azure services is an Application Security Group.
+			- **Protects Application Infrastructure**
+				- Focus the security on the application rather that the IP endpoint.
+				- Where a NSG will protect and monitor traffic to a specific network or virtual machine, an Application Security Group will protect an application.
+			- **Natural Extension**
+				- You can group VM and virtual networks into logical application groups and apply an application security group, instead of an IP address.
+				- It lets you configure your network security as a natural extension of an application's structure.
 			-
-		-
 	-
 	-
 	-

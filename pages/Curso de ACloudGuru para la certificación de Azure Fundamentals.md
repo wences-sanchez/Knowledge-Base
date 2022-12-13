@@ -808,7 +808,27 @@ tags:: Azure, ACloudGuru
   id:: 63983a40-e2d2-4105-9a69-9fb3ea466c51
 	- ### Introduction
 	- ### Defense in Depth
-		- There are seven general layers of security in cloud computing
+		- There are seven general layers of security in cloud computing:
+			- #### Physical:
+				- This is the actual data center.
+				- Only authorized personnel has access.
+			- #### Identity and access:
+				- Relates to the Azure Active Directory
+			- #### Perimeter:
+				- It's the protection against DDoS attacks, volumetric attacks, protocol attacks and more
+			- #### Network:
+				- Network is the filter of traffic *to* and *from* Azure using virtual networks and applying security standards
+			- #### Compute:
+				- The compute component protects against intruders trying to get into your virtual machines or databases.
+			- #### Application Gateways and Firewalls:
+				- Gateways and Firewalls provide security to your Azure applications.
+			- #### Data:
+				- The data on Azure is encrypted and protected against anyone unauthorized reading it or making sense of it.
+			- ![image.png](../assets/image_1670922019920_0.png)
+			-
+	- ### Securing Network Connectivity
+		-
+		-
 	-
 	-
 	-

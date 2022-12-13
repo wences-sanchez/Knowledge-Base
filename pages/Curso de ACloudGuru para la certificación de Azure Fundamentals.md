@@ -867,7 +867,15 @@ tags:: Azure, ACloudGuru
 					- It lets you configure your network security as a natural extension of an application's structure.
 	- ### Public and Private Endpoints
 		- When we are discussing public and private endpoints what we are referring to specifically is our managed services or our Azure Platform as a Service services.
-		- By default, when you create these public services
+		- By default, when you create these public services, such as Azure Storage, Azure SQL and others, these services are publicly reachable or publicly exposed over the public internet
+		- That information travels over the internet (whether we want or not) so any smart hacker has potentially the chance of intercept that.
+		- We have two solutions to this problem:
+			- #### Service Endpoints *(good)*
+				- They allow you to privately connect a virtual network subnet to different Azure PaaS Services
+				- It will enable a direct connection from that individual subnet to that managed service.
+				- Resources inside that subnet, like virtual machines, will connect over Microsoft's private backbone (not over public internet)
+				- ![image.png](../assets/image_1670926701862_0.png)
+			- Private Endpoints *(better)*
 	-
 	-
 	-

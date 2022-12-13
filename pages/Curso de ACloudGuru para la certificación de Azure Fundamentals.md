@@ -886,7 +886,7 @@ tags:: Azure, ACloudGuru
 				- It can be truly private
 				- Public endpoint can be disabled.
 				- ![image.png](../assets/image_1670927568719_0.png)
-	- ### Microsoft Defender for Cloud
+	- ### Microsoft Defender for Cloud #flashcard
 		- Each VM has an agent installed that sends data
 		- Azure analyzes the data and alerts you if necessary.
 		- It covers:
@@ -902,7 +902,7 @@ tags:: Azure, ACloudGuru
 				- Actively protect your resources through monitoring your policies and their outcomes.
 			- Respond
 				- Respond to any security alerts. Investigate all of them and then go back to step 1 to define new policies to accoount for the alert.
-	- ### Azure Key Vault
+	- ### Azure Key Vault #flashcard
 		- Azure Key Vault is the service from Azure that manages your passwords.
 		- Secure hardware:
 			- The Key Vault hardware is secure too. Not even Microsoft can access the keys in it.
@@ -911,11 +911,11 @@ tags:: Azure, ACloudGuru
 		- Global Scaling:
 			- Scale globally like any other managed Azure service
 	-
-	- ### Azure Information Protection
+	- ### Azure Information Protection #flashcard
 		- It works together with Microsoft 365
 		- ![image.png](../assets/image_1670930525191_0.png)
 		- ![image.png](../assets/image_1670930595247_0.png)
-	- ### Microsoft Defender for Identity
+	- ### Microsoft Defender for Identity #flashcard
 		- The users are unreliable!
 		- Monitor users
 			- Microsoft Defender for Identity monitor users and analyze their activity and information.
@@ -929,6 +929,11 @@ tags:: Azure, ACloudGuru
 			- If a user is searching for information about other users, IPs or more, Microsoft Defender for Identity will raise alerts.
 		- Brute Force
 			- Any attempts to guess user credentials will be identified and flagged
+		- Increasing Privileges
+			- Any attempt by a user to gain more privileges will be flagged.
+	- ### Azure Sentinel
+		- Sentinel is a security information and event management (SIEM) tool.
+		- ![image.png](../assets/image_1670931674115_0.png)
 		-
 	-
 	-

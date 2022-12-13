@@ -61,7 +61,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-13 Tue 09:40:43]--[2022-12-13 Tue 13:03:02] =>  03:22:19
 	  :END:
-	- TODO Chapter 11: Monitoring and Management
+	- DOING Chapter 11: Monitoring and Management ((63986e9d-f9ac-475c-ab3e-582783b4de51))
+	  id:: 63983897-de87-4969-9b38-5f5807ab2244
+	  :LOGBOOK:
+	  CLOCK: [2022-12-13 Tue 13:22:24]
+	  :END:
 	- TODO Chapter 12: Pricing
 	- TODO Chapter 13: Support
 	- TODO Chapter 14: Exam Preparation
@@ -948,6 +952,10 @@ tags:: Azure, ACloudGuru
 		- You can reuse your software licenses.
 		- But it's expensive. Use it wisely!
 	- ### Summary
+	-
+- ## Chapter 11: Monitoring and Management
+  id:: 63986e9d-f9ac-475c-ab3e-582783b4de51
+	- ### Governance
 		-
 	-
 	-

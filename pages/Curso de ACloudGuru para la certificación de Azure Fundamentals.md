@@ -815,6 +815,7 @@ tags:: Azure, ACloudGuru
 	- ### Introduction
 	- ### Defense in Depth
 		- There are seven general layers of security in cloud computing: #flashcard
+		  id:: 63983c9e-6d52-453f-9c54-89eec91e2208
 			- #### Physical:
 				- This is the actual data center.
 				- Only authorized personnel has access.
@@ -834,6 +835,7 @@ tags:: Azure, ACloudGuru
 			-
 	- ### Securing Network Connectivity
 		- What is a firewall and how does it work? #flashcard
+		  id:: 63984c41-d6b2-487c-83d4-35e2564cb0f3
 			- A firewall is like the only way to get into your system. If the firewall is closed, no one can enter! By this, we can build rules, so that only the packets with the features we want (or we don't want) can enter into our system, because we want. #InMyOwnWords
 			- A firewall is a dramatic name for a proven and crucial service. It's composed by:
 				- #### Rules:
@@ -845,6 +847,7 @@ tags:: Azure, ACloudGuru
 				- #### Critical Part:
 					- Any network that take security serious will have a firewall.
 		- Talk about the DDoS and its methods #flashcard
+		  id:: 63984c66-e7cc-4d7e-a8fd-cb7b26f26178
 			- #### Distributed Denial of Service (DDoS)
 				- When a *malicious user* makes your server be so busy with tons of requests that it suddenly stops by trying to resolve every one of them. At some point, the server hasn't got enough resources and simply stops.
 					- If this is done on purpose to take the server out, it is called **Denial-of-Service attack**.
@@ -853,6 +856,7 @@ tags:: Azure, ACloudGuru
 				- To protect against this, Azure has the **DDoS Protection Service**
 					- This service has various levels of protection, depending on what your needs are for your application. And without stopping your application.
 		- What is a Network Security Group in Azure? #flashcard
+		  id:: 63984c89-71d7-436a-922b-031728406d07
 			- #### Network Security Group (NSG)
 				- **Resource Firewall**
 					- They are like personal firewalls for your resources
@@ -861,6 +865,7 @@ tags:: Azure, ACloudGuru
 					- A Network Security Group (NSG) is a set of rules for who and what can access any resource attached to the NSG
 				- ![image.png](../assets/image_1670924618857_0.png)
 		- What is an Application Security Group? #flashcard
+		  id:: 63984cb5-db5b-431c-a388-ff646e9a7cc5
 			- #### Application Security Groups
 				- An extension of NSGs that can help you secure your Azure services is an Application Security Group.
 				- **Protects Application Infrastructure**
@@ -870,6 +875,7 @@ tags:: Azure, ACloudGuru
 					- You can group VM and virtual networks into logical application groups and apply an application security group, instead of an IP address.
 					- It lets you configure your network security as a natural extension of an application's structure.
 	- ### Public and Private Endpoints #flashcard
+	  id:: 63983e65-6390-4391-9b93-1dd7d5cfc369
 		- When we are discussing public and private endpoints what we are referring to specifically is our managed services or our Azure Platform as a Service services.
 		- By default, when you create these public services, such as Azure Storage, Azure SQL and others, these services are publicly reachable or publicly exposed over the public internet
 		- That information travels over the internet (whether we want or not) so any smart hacker has potentially the chance of intercept that.
@@ -891,6 +897,7 @@ tags:: Azure, ACloudGuru
 				- Public endpoint can be disabled.
 				- ![image.png](../assets/image_1670927568719_0.png)
 	- ### Microsoft Defender for Cloud #flashcard
+	  id:: 639854d2-4814-4434-8843-fe26090b5d10
 		- Each VM has an agent installed that sends data
 		- Azure analyzes the data and alerts you if necessary.
 		- It covers:
@@ -907,6 +914,7 @@ tags:: Azure, ACloudGuru
 			- Respond
 				- Respond to any security alerts. Investigate all of them and then go back to step 1 to define new policies to accoount for the alert.
 	- ### Azure Key Vault #flashcard
+	  id:: 63985dc5-7b05-497d-bf3b-3d0303270351
 		- Azure Key Vault is the service from Azure that manages your passwords.
 		- Secure hardware:
 			- The Key Vault hardware is secure too. Not even Microsoft can access the keys in it.
@@ -916,10 +924,12 @@ tags:: Azure, ACloudGuru
 			- Scale globally like any other managed Azure service
 	-
 	- ### Azure Information Protection #flashcard
+	  id:: 63985fc6-d14f-4641-bde3-1f1f3be26dc3
 		- It works together with Microsoft 365
 		- ![image.png](../assets/image_1670930525191_0.png)
 		- ![image.png](../assets/image_1670930595247_0.png)
 	- ### Microsoft Defender for Identity #flashcard
+	  id:: 639860a4-bbd7-4334-8b5e-28e214b13067
 		- The users are unreliable!
 		- Monitor users
 			- Microsoft Defender for Identity monitor users and analyze their activity and information.
@@ -957,9 +967,11 @@ tags:: Azure, ACloudGuru
   id:: 63986e9d-f9ac-475c-ab3e-582783b4de51
 	- ### Governance
 		- What does Governance mean in Azure? #flashcard
+		  id:: 6398770b-2676-4512-96e1-d6dc86f1bae8
 			- Governance on Azure is a set or rules, policies and roles to define acceptable use of Azure resources.
 			- Or, telling the employees which resources they are allowed to use.
 		- #### Azure Policy (and what is a policy) #flashcard
+		  id:: 63987159-cb39-4f68-8eb9-49dbc2bcc9b3
 			- Governance validates that your organization can achieve its goals through effective and efficient use of IT.
 			- What is a policy?
 				- A policiy is a set of rules.
@@ -968,6 +980,7 @@ tags:: Azure, ACloudGuru
 				- ![image.png](../assets/image_1670935158548_0.png)
 			- The next part of Azure Policy is **RBAC (or Role-Based Access Control)**
 		- With RBAC, you can: #flashcard
+		  id:: 63987302-1d18-4aa0-91ea-382280396b51
 			- Define User Access
 				- You can define specific user access to individual resources
 			- Minimum Access
@@ -976,6 +989,7 @@ tags:: Azure, ACloudGuru
 			- Target Specific Use Cases
 				- Being very explicit about uses and access
 		- 3 Parts of a Role Assignment: #flashcard
+		  id:: 63987411-2be7-461d-b25f-d97191f66fde
 			- **A security Principal**
 				- An object representing an entity such as a user or group, which can access the resource
 			- **A Role Definition**
@@ -984,6 +998,7 @@ tags:: Azure, ACloudGuru
 				- The resources the access applies to.
 				- Specify which role can access a resource or resource group.
 		- What are Blueprints in Azure? #flashcard
+		  id:: 639874cc-5a7b-45fb-a7cc-426495c8180d
 			- Blueprints are templates for creating Azure resources
 			- They help you with the creation of your infrastructure
 		- #### Azure Advisor

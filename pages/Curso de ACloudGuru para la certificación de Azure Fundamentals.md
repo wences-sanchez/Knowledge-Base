@@ -865,7 +865,7 @@ tags:: Azure, ACloudGuru
 				- **Natural Extension**
 					- You can group VM and virtual networks into logical application groups and apply an application security group, instead of an IP address.
 					- It lets you configure your network security as a natural extension of an application's structure.
-	- ### Public and Private Endpoints
+	- ### Public and Private Endpoints #flashcard
 		- When we are discussing public and private endpoints what we are referring to specifically is our managed services or our Azure Platform as a Service services.
 		- By default, when you create these public services, such as Azure Storage, Azure SQL and others, these services are publicly reachable or publicly exposed over the public internet
 		- That information travels over the internet (whether we want or not) so any smart hacker has potentially the chance of intercept that.
@@ -886,7 +886,8 @@ tags:: Azure, ACloudGuru
 				- It can be truly private
 				- Public endpoint can be disabled.
 				- ![image.png](../assets/image_1670927568719_0.png)
-	- ### M
+	- ### Microsoft Defender for Cloud
+		-
 	-
 	-
 	-

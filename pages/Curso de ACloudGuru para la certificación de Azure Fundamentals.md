@@ -947,7 +947,8 @@ tags:: Azure, ACloudGuru
 		- They are hosts that Azure offers you in a dedicated way.
 		- You can reuse your software licenses.
 		- But it's expensive. Use it wisely!
-	-
+	- ### Summary
+		-
 	-
 	-
 	-

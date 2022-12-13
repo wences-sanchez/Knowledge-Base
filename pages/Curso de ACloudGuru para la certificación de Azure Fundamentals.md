@@ -886,7 +886,7 @@ tags:: Azure, ACloudGuru
 				- It can be truly private
 				- Public endpoint can be disabled.
 				- ![image.png](../assets/image_1670927568719_0.png)
-				-
+	- ### M
 	-
 	-
 	-

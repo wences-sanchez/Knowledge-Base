@@ -866,7 +866,8 @@ tags:: Azure, ACloudGuru
 					- You can group VM and virtual networks into logical application groups and apply an application security group, instead of an IP address.
 					- It lets you configure your network security as a natural extension of an application's structure.
 	- ### Public and Private Endpoints
-		- When we are discussing public and private endp
+		- When we are discussing public and private endpoints what we are referring to specifically is our managed services or our Azure Platform as a Service services.
+		- By default, when you create these public services
 	-
 	-
 	-

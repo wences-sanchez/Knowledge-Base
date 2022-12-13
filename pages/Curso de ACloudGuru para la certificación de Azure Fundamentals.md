@@ -56,7 +56,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-12 Mon 16:44:13]--[2022-12-12 Mon 18:31:04] =>  01:46:51
 	  :END:
-	- TODO Chapter 10: Security
+	- DOING Chapter 10: Security ((63983a40-e2d2-4105-9a69-9fb3ea466c51))
+	  id:: 63983897-38e9-43c2-8c28-82fe1831d64c
+	  :LOGBOOK:
+	  CLOCK: [2022-12-13 Tue 09:40:43]
+	  :END:
 	- TODO Chapter 11: Monitoring and Management
 	- TODO Chapter 12: Pricing
 	- TODO Chapter 13: Support
@@ -642,6 +646,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 8: Authentication and Authorization
   id:: 6396e756-0535-4bce-acda-492cdfbe65a9
+  collapsed:: true
 	- ### Introduction
 	- ### Identity Services
 	- ### Azure Active Directory
@@ -787,19 +792,23 @@ tags:: Azure, ACloudGuru
 	- ### DevOps (Azure DevOps & Azure DevTest Labs) #flashcard
 	  id:: 63976262-518c-44da-9df5-4a1808752589
 		- #### Azure DevOps
-			- Azure Boards
-			- Azure Pipelines
-			- Azure Repos
-			- Azure Test Plans
-			- Azure Artifacts
-			- ...and it's free!
+			- **Azure Boards** for managing and tracking projects
+			- **Azure Pipelines** for building, testing, and deploying projects
+			- **Azure Repos** for storing and managing code
+			- **Azure Test Plans** for conducting manual tests and automating tests
+			- **Azure Artifacts** for hosting and sharing packages to share functionality across teams
+			- ...and it's **free**!
 		- #### Azure DevTest Labs
 			- Where Azure DevOps focuses on the software and applications, DevTest Labs focuses on the environment they run on.
 			- For creating test environments and reuse them.
 		- #### GitHub & GitHub Actions
 	- ### Summary
 		-
-		-
-		-
-		-
+- ## Chapter 10: Security
+  id:: 63983a40-e2d2-4105-9a69-9fb3ea466c51
+	-
+	-
+	-
+	-
+	-
 	-

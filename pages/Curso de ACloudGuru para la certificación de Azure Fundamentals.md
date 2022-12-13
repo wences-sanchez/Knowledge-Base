@@ -887,6 +887,21 @@ tags:: Azure, ACloudGuru
 				- Public endpoint can be disabled.
 				- ![image.png](../assets/image_1670927568719_0.png)
 	- ### Microsoft Defender for Cloud
+		- Each VM has an agent installed that sends data
+		- Azure analyzes the data and alerts you if necessary.
+		- It covers:
+			- Policy and compliance metrics
+			- A secure score to encourage great security hygiene
+			- Integrate with other cloud providers (requires Azure Arc)
+			- Alerts for resources that aren't secure
+		- Steps:
+			- You have to set up policies for Azure to monitor resources from.
+				- A policy is a set of rules used to evalutate a resource.
+				- Use predefined policies or create your own.
+			- Protect Resources
+				- Actively protect your resources through monitoring your policies and their outcomes.
+			- Respond
+				- Respond to any security alerts. Investigate all of them and then go back to step 1 to define new policies to accoount for the alert.
 		-
 	-
 	-

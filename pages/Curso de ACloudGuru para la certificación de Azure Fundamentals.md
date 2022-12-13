@@ -875,7 +875,14 @@ tags:: Azure, ACloudGuru
 				- It will enable a direct connection from that individual subnet to that managed service.
 				- Resources inside that subnet, like virtual machines, will connect over Microsoft's private backbone (not over public internet)
 				- ![image.png](../assets/image_1670926701862_0.png)
-			- Private Endpoints *(better)*
+				- ![image.png](../assets/image_1670926944067_0.png)
+				- But the endpoint is not truly private... like **private endpoints**
+			- #### Private Endpoints *(better)*
+				- How private endpoints works as opposed to service endpoints that it acts as a managed network interface that sits inside of your virtual network subnet.
+				- This managed network interface will provide a private connection to a specific instance of the service.
+				- In other words, it provides private access to only a single storage account, or others.
+				- Available over connected networks such as hybrid or on-premises network
+				-
 	-
 	-
 	-

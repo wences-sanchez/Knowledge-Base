@@ -972,7 +972,6 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 11: Monitoring and Management
   id:: 63986e9d-f9ac-475c-ab3e-582783b4de51
-  collapsed:: true
 	- ### Governance
 		- What does Governance mean in Azure? #flashcard
 		  id:: 6398770b-2676-4512-96e1-d6dc86f1bae8
@@ -1096,6 +1095,7 @@ tags:: Azure, ACloudGuru
 	- ### Pricing Factors
 	- ### Best Practices
 		- Use tags for identify roles, related resources, filter an unambiguous.
+	- ### Summary
 		-
 	-
 	-

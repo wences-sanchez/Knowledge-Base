@@ -67,7 +67,11 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-13 Tue 13:22:24]--[2022-12-13 Tue 13:59:31] =>  00:37:07
 	  CLOCK: [2022-12-14 Wed 09:19:09]--[2022-12-14 Wed 10:56:54] =>  01:37:45
 	  :END:
-	- TODO Chapter 12: Pricing
+	- DOING Chapter 12: Pricing ((6399a11e-933a-45d0-b04c-1b12f91c19ee))
+	  id:: 63998692-61ac-40cc-b73c-6b8ebf473eb9
+	  :LOGBOOK:
+	  CLOCK: [2022-12-14 Wed 11:12:26]
+	  :END:
 	- TODO Chapter 13: Support
 	- TODO Chapter 14: Exam Preparation
 -
@@ -813,6 +817,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 10: Security
   id:: 63983a40-e2d2-4105-9a69-9fb3ea466c51
+  collapsed:: true
 	- ### Introduction
 	- ### Defense in Depth
 		- There are seven general layers of security in cloud computing: #flashcard
@@ -964,8 +969,10 @@ tags:: Azure, ACloudGuru
 		- But it's expensive. Use it wisely!
 	- ### Summary
 	-
+-
 - ## Chapter 11: Monitoring and Management
   id:: 63986e9d-f9ac-475c-ab3e-582783b4de51
+  collapsed:: true
 	- ### Governance
 		- What does Governance mean in Azure? #flashcard
 		  id:: 6398770b-2676-4512-96e1-d6dc86f1bae8
@@ -1074,7 +1081,12 @@ tags:: Azure, ACloudGuru
 		- Azure Arc managges non-Azure resources as if they were in Azure.
 		- It works as an Azure agent.
 	- ### Summary
-		-
+	-
+-
+- ## Chapter 12: Pricing
+  id:: 6399a11e-933a-45d0-b04c-1b12f91c19ee
+	- ### Subscriptions
+		- Every resource on Azure lives within a subscription
 		-
 	-
 	-

@@ -72,10 +72,10 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-14 Wed 11:12:26]--[2022-12-14 Wed 11:54:02] =>  00:41:36
 	  :END:
-	- DOING Chapter 13: Support ((6399ab41-0898-4788-8a19-a569396b8de3))
+	- DONE Chapter 13: Support ((6399ab41-0898-4788-8a19-a569396b8de3))
 	  id:: 63998692-25f7-4c7c-9539-65260980becb
 	  :LOGBOOK:
-	  CLOCK: [2022-12-14 Wed 11:57:44]
+	  CLOCK: [2022-12-14 Wed 11:57:44]--[2022-12-14 Wed 12:33:10] =>  00:35:26
 	  :END:
 	- TODO Chapter 14: Exam Preparation
 -
@@ -1106,7 +1106,8 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 13: Support
   id:: 6399ab41-0898-4788-8a19-a569396b8de3
-	- ### Plans
+  collapsed:: true
+	- ### Plans #flashcard
 		- Included in all support plans:
 			- 24/7 Access to billing and subscription to make sure you can pay them
 			- Azure Documentation and white papers
@@ -1131,7 +1132,7 @@ tags:: Azure, ACloudGuru
 	- ### Azure on Q&A
 		- You can search common questions other fellows could have.
 	- ### Service Level Agreements
-	- ### Service Lifecycle
+	- ### Service Lifecycle #flashcard
 		- 1. (Private) Preview
 			- Only available to specific customers invited by the product team behind the service
 		- 2. (Public) Preview
@@ -1140,7 +1141,8 @@ tags:: Azure, ACloudGuru
 		- 3. General Availability
 			- Available to all Azure customers as a normal service, including SLA Services become generally available when they are ready.
 			- Can be gradual rollout to some regions first.
-	-
+	- ### Summary
+		-
 	-
 	-
 	-

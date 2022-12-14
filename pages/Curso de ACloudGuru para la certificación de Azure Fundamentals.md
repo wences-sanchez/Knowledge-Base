@@ -1016,6 +1016,7 @@ tags:: Azure, ACloudGuru
 		- #### Azure Advisor
 			- While Azure Advisor is a separate blade and a separate portal within the Azure portal, the security assistance part of it is the same as the Azure Security Center.
 	- ### Azure Monitor #flashcard
+	  id:: 63998692-496b-467b-8c09-0ba02e1e0321
 		- Azure Monitor helps you find resources that aren't performing 100%
 		- Features:
 			- Constant Feed (by telemetry)
@@ -1028,6 +1029,7 @@ tags:: Azure, ACloudGuru
 			- Identify Issues
 	- ### Monitoring Tools
 		- Azure includes multiple 3 monitoring tools to gain fulll visibility into your Azure environment: #flashcard
+		  id:: 63998912-e283-4d28-8556-bf6978ca448d
 			- #### Log Analytics
 				- Azure Monitor generates **a lot**  of logs and telemetry data.
 				- Log Analytics stores and queries (or analyzes) that datat to gain valuable insights
@@ -1060,6 +1062,7 @@ tags:: Azure, ACloudGuru
 							- Send to automation workflows (Logic Apps, Azure Functions...)
 	- ### Azure Service Health
 	- ### Compliance #flashcard
+	  id:: 63999062-d1bc-46ae-ad96-58efdeb1fb28
 		- Regulations, legislation, rules and guidelines are all things you need to adhere to, follow and implement. If you don't, you get in trouble. So that's why compliance in Azure is so important.
 		- Industry Regulations:
 			- General Data Protection Regulation (GDPR):
@@ -1080,6 +1083,7 @@ tags:: Azure, ACloudGuru
 		- Service Trust Portal:
 			- This is the location to review all the independent audit reports about Azure.
 	- ### Azure Arc #flashcard
+	  id:: 63999579-ea99-4774-b56c-3ada4e052545
 		- Azure Arc simplifies the process of managing complex computing environments, whether they're in Azure or in other places, through a single unified interface.
 		- It manages for you all your different resources no matter if they're in Azure, on-premises or in other cloud.
 		- Azure Arc managges non-Azure resources as if they were in Azure.
@@ -1108,6 +1112,7 @@ tags:: Azure, ACloudGuru
   id:: 6399ab41-0898-4788-8a19-a569396b8de3
   collapsed:: true
 	- ### Plans #flashcard
+	  id:: 6399ac7e-73a1-4816-8302-4efb98d8f895
 		- Included in all support plans:
 			- 24/7 Access to billing and subscription to make sure you can pay them
 			- Azure Documentation and white papers
@@ -1133,6 +1138,7 @@ tags:: Azure, ACloudGuru
 		- You can search common questions other fellows could have.
 	- ### Service Level Agreements
 	- ### Service Lifecycle #flashcard
+	  id:: 6399b054-d0ce-4534-9dbc-fda2f68765db
 		- 1. (Private) Preview
 			- Only available to specific customers invited by the product team behind the service
 		- 2. (Public) Preview

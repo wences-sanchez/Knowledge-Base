@@ -1093,6 +1093,9 @@ tags:: Azure, ACloudGuru
 			- Many free services, as Microsoft wants you to get a taste of Virtual Machines, databases, storage and more.
 			- You get 12 months of free access
 			- Some services are always free. Some partially free up to a threshold.
+	- ### Pricing Factors
+	- ### Best Practices
+		- Use tags for identify roles, related resources, filter an unambiguous.
 		-
 	-
 	-

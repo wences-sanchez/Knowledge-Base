@@ -1072,6 +1072,8 @@ tags:: Azure, ACloudGuru
 		- Azure Arc simplifies the process of managing complex computing environments, whether they're in Azure or in other places, through a single unified interface.
 		- It manages for you all your different resources no matter if they're in Azure, on-premises or in other cloud.
 		- Azure Arc managges non-Azure resources as if they were in Azure.
+		- It works as an Azure agent.
+	- ### Summary
 		-
 		-
 	-

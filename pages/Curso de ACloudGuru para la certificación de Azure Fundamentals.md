@@ -1011,7 +1011,25 @@ tags:: Azure, ACloudGuru
 			- Fully Managed
 			- Query Language
 			- Machine Learning
-		-
+		- It's used for:
+			- Maximize Performance
+			- Maximize Availability
+			- Identify Issues
+	- ### Monitoring Tools
+		- Azure includes multiple monitoring tools to gain fulll visibility into your Azure environment:
+			- #### Log Analytics
+				- Azure Monitor generates **a lot**  of logs and telemetry data.
+				- Log Analytics stores and queries (or analyzes) that datat to gain valuable insights
+				- Examples:
+					- VM disk size
+					- VPN connection logs
+					- Long term analysis
+					- Combine metrics for complex queries
+			- #### Application Insights
+				- As its name, it gives you insights into your applications
+				-
+				-
+			- Azure Monitor Alerts
 	-
 	-
 	-

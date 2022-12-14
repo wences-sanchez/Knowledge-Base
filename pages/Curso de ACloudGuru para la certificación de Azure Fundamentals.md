@@ -1042,7 +1042,13 @@ tags:: Azure, ACloudGuru
 				- **Alert Components:**
 					- Alert Rule:
 						- The Alert Rule is the trigger that is met before it sends out a notification
-					-
+					- Action Group:
+						- Action(s) taken when the rule is triggered.
+						- Notification targets:
+							- E-mail/SMS to support personnel
+							- Send to automation workflows (Logic Apps, Azure Functions...)
+	- ### Azure Service Health
+		-
 	-
 	-
 	-

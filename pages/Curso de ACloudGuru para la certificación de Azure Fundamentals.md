@@ -61,11 +61,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-13 Tue 09:40:43]--[2022-12-13 Tue 13:03:02] =>  03:22:19
 	  :END:
-	- DOING Chapter 11: Monitoring and Management ((63986e9d-f9ac-475c-ab3e-582783b4de51))
+	- DONE Chapter 11: Monitoring and Management ((63986e9d-f9ac-475c-ab3e-582783b4de51))
 	  id:: 63983897-de87-4969-9b38-5f5807ab2244
 	  :LOGBOOK:
 	  CLOCK: [2022-12-13 Tue 13:22:24]--[2022-12-13 Tue 13:59:31] =>  00:37:07
-	  CLOCK: [2022-12-14 Wed 09:19:09]
+	  CLOCK: [2022-12-14 Wed 09:19:09]--[2022-12-14 Wed 10:56:54] =>  01:37:45
 	  :END:
 	- TODO Chapter 12: Pricing
 	- TODO Chapter 13: Support

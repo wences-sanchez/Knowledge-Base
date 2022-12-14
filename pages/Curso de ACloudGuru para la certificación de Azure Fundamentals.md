@@ -1131,7 +1131,16 @@ tags:: Azure, ACloudGuru
 	- ### Azure on Q&A
 		- You can search common questions other fellows could have.
 	- ### Service Level Agreements
-		-
+	- ### Service Lifecycle
+		- 1. (Private) Preview
+			- Only available to specific customers invited by the product team behind the service
+		- 2. (Public) Preview
+			- Available to all Azure customers.
+			- Enable preview features in the Azure Portal
+		- 3. General Availability
+			- Available to all Azure customers as a normal service, including SLA Services become generally available when they are ready.
+			- Can be gradual rollout to some regions first.
+	-
 	-
 	-
 	-

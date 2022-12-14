@@ -1087,6 +1087,12 @@ tags:: Azure, ACloudGuru
   id:: 6399a11e-933a-45d0-b04c-1b12f91c19ee
 	- ### Subscriptions
 		- Every resource on Azure lives within a subscription
+	- ### Cost Management
+		- #### Free Accounts
+			- It's free
+			- Many free services, as Microsoft wants you to get a taste of Virtual Machines, databases, storage and more.
+			- You get 12 months of free access
+			- Some services are always free. Some partially free up to a threshold.
 		-
 	-
 	-

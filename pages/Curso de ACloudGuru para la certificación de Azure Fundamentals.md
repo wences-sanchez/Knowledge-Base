@@ -1026,10 +1026,23 @@ tags:: Azure, ACloudGuru
 					- Long term analysis
 					- Combine metrics for complex queries
 			- #### Application Insights
-				- As its name, it gives you insights into your applications
-				-
-				-
-			- Azure Monitor Alerts
+				- As its name implies, it gives you insights into your applications
+				- Specifically, it provides performance insights for web-based applications
+				- Examples:
+					- *How are users using our app?*
+					- *Where are our performance bottlenecks?*
+					- *Why are we getting website errors?*
+			- #### Azure Monitor Alerts
+				- Specifically, if something in your Azure environment breaks, it sends out an alert, so someone can do something about it.
+				- More specifically, it sends out notifications in response to different unexpected events.
+				- Examples:
+					- VM unresponsive
+					- VM using excessive CPU
+					- Application latency over 500 ms
+				- **Alert Components:**
+					- Alert Rule:
+						- The Alert Rule is the trigger that is met before it sends out a notification
+					-
 	-
 	-
 	-

@@ -72,8 +72,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-14 Wed 11:12:26]--[2022-12-14 Wed 11:54:02] =>  00:41:36
 	  :END:
-	- TODO Chapter 13: Support
+	- DOING Chapter 13: Support ((6399ab41-0898-4788-8a19-a569396b8de3))
 	  id:: 63998692-25f7-4c7c-9539-65260980becb
+	  :LOGBOOK:
+	  CLOCK: [2022-12-14 Wed 11:57:44]
+	  :END:
 	- TODO Chapter 14: Exam Preparation
 -
 - ## Contenidos en PDF
@@ -1102,7 +1105,21 @@ tags:: Azure, ACloudGuru
 		-
 -
 - ## Chapter 13: Support
-	-
+  id:: 6399ab41-0898-4788-8a19-a569396b8de3
+	- ### Plans
+		- Included in all support plans:
+			- 24/7 Access to billing and subscription to make sure you can pay them
+			- Azure Documentation and white papers
+			- Forums
+			- Azure Advisor
+			- Service Health status on how Azure is doing
+		- #### Basic
+			- Just the common features included in every plan
+		- #### Developer
+		- #### Standard
+		- #### Professional Direct
+		- #### Premier
+		-
 	-
 	-
 	-

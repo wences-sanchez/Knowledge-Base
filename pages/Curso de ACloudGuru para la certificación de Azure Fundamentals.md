@@ -67,12 +67,13 @@ tags:: Azure, ACloudGuru
 	  CLOCK: [2022-12-13 Tue 13:22:24]--[2022-12-13 Tue 13:59:31] =>  00:37:07
 	  CLOCK: [2022-12-14 Wed 09:19:09]--[2022-12-14 Wed 10:56:54] =>  01:37:45
 	  :END:
-	- DOING Chapter 12: Pricing ((6399a11e-933a-45d0-b04c-1b12f91c19ee))
+	- DONE Chapter 12: Pricing ((6399a11e-933a-45d0-b04c-1b12f91c19ee))
 	  id:: 63998692-61ac-40cc-b73c-6b8ebf473eb9
 	  :LOGBOOK:
-	  CLOCK: [2022-12-14 Wed 11:12:26]
+	  CLOCK: [2022-12-14 Wed 11:12:26]--[2022-12-14 Wed 11:54:02] =>  00:41:36
 	  :END:
 	- TODO Chapter 13: Support
+	  id:: 63998692-25f7-4c7c-9539-65260980becb
 	- TODO Chapter 14: Exam Preparation
 -
 - ## Contenidos en PDF
@@ -972,6 +973,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 11: Monitoring and Management
   id:: 63986e9d-f9ac-475c-ab3e-582783b4de51
+  collapsed:: true
 	- ### Governance
 		- What does Governance mean in Azure? #flashcard
 		  id:: 6398770b-2676-4512-96e1-d6dc86f1bae8
@@ -1054,7 +1056,7 @@ tags:: Azure, ACloudGuru
 							- E-mail/SMS to support personnel
 							- Send to automation workflows (Logic Apps, Azure Functions...)
 	- ### Azure Service Health
-	- ### Compliance
+	- ### Compliance #flashcard
 		- Regulations, legislation, rules and guidelines are all things you need to adhere to, follow and implement. If you don't, you get in trouble. So that's why compliance in Azure is so important.
 		- Industry Regulations:
 			- General Data Protection Regulation (GDPR):
@@ -1074,7 +1076,7 @@ tags:: Azure, ACloudGuru
 			- It includes links
 		- Service Trust Portal:
 			- This is the location to review all the independent audit reports about Azure.
-	- ### Azure Arc
+	- ### Azure Arc #flashcard
 		- Azure Arc simplifies the process of managing complex computing environments, whether they're in Azure or in other places, through a single unified interface.
 		- It manages for you all your different resources no matter if they're in Azure, on-premises or in other cloud.
 		- Azure Arc managges non-Azure resources as if they were in Azure.
@@ -1084,6 +1086,7 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 12: Pricing
   id:: 6399a11e-933a-45d0-b04c-1b12f91c19ee
+  collapsed:: true
 	- ### Subscriptions
 		- Every resource on Azure lives within a subscription
 	- ### Cost Management
@@ -1097,6 +1100,10 @@ tags:: Azure, ACloudGuru
 		- Use tags for identify roles, related resources, filter an unambiguous.
 	- ### Summary
 		-
+-
+- ## Chapter 13: Support
+	-
+	-
 	-
 	-
 	-

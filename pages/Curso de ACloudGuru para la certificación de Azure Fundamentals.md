@@ -1004,7 +1004,7 @@ tags:: Azure, ACloudGuru
 			- They help you with the creation of your infrastructure
 		- #### Azure Advisor
 			- While Azure Advisor is a separate blade and a separate portal within the Azure portal, the security assistance part of it is the same as the Azure Security Center.
-	- ### Azure Monitor
+	- ### Azure Monitor #flashcard
 		- Azure Monitor helps you find resources that aren't performing 100%
 		- Features:
 			- Constant Feed (by telemetry)
@@ -1016,7 +1016,7 @@ tags:: Azure, ACloudGuru
 			- Maximize Availability
 			- Identify Issues
 	- ### Monitoring Tools
-		- Azure includes multiple monitoring tools to gain fulll visibility into your Azure environment:
+		- Azure includes multiple 3 monitoring tools to gain fulll visibility into your Azure environment: #flashcard
 			- #### Log Analytics
 				- Azure Monitor generates **a lot**  of logs and telemetry data.
 				- Log Analytics stores and queries (or analyzes) that datat to gain valuable insights
@@ -1048,7 +1048,13 @@ tags:: Azure, ACloudGuru
 							- E-mail/SMS to support personnel
 							- Send to automation workflows (Logic Apps, Azure Functions...)
 	- ### Azure Service Health
-		-
+	- ### Compliance
+		- Regulations, legislation, rules and guidelines are all things you need to adhere to, follow and implement. If you don't, you get in trouble. So that's why compliance in Azure is so important.
+		- Industry Regulations:
+			- General Data Protection Regulation (GDPR):
+				- Its main function is protect individuals with regard to the processing of their personal data.
+				- It's giving control of the data back to individuals
+				-
 	-
 	-
 	-

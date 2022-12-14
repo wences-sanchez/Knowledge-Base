@@ -1119,6 +1119,18 @@ tags:: Azure, ACloudGuru
 		- #### Standard
 		- #### Professional Direct
 		- #### Premier
+		- ![image.png](../assets/image_1671016058605_0.png)
+		-
+	- ### Tickets
+		- A ticket is a support enquiry. It's a unique identifier with a ticket number attached to it.
+	- ### Channels
+		- Support Channels:
+			- Azure Documentation
+			- Forums
+			- Social Media
+	- ### Azure on Q&A
+		- You can search common questions other fellows could have.
+	- ### Service Level Agreements
 		-
 	-
 	-

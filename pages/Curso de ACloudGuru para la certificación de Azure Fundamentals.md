@@ -61,10 +61,11 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-13 Tue 09:40:43]--[2022-12-13 Tue 13:03:02] =>  03:22:19
 	  :END:
-	- TODO Chapter 11: Monitoring and Management ((63986e9d-f9ac-475c-ab3e-582783b4de51))
+	- DOING Chapter 11: Monitoring and Management ((63986e9d-f9ac-475c-ab3e-582783b4de51))
 	  id:: 63983897-de87-4969-9b38-5f5807ab2244
 	  :LOGBOOK:
 	  CLOCK: [2022-12-13 Tue 13:22:24]--[2022-12-13 Tue 13:59:31] =>  00:37:07
+	  CLOCK: [2022-12-14 Wed 09:19:09]
 	  :END:
 	- TODO Chapter 12: Pricing
 	- TODO Chapter 13: Support
@@ -1003,6 +1004,13 @@ tags:: Azure, ACloudGuru
 			- They help you with the creation of your infrastructure
 		- #### Azure Advisor
 			- While Azure Advisor is a separate blade and a separate portal within the Azure portal, the security assistance part of it is the same as the Azure Security Center.
+	- ### Azure Monitor
+		- Azure Monitor helps you find resources that aren't performing 100%
+		- Features:
+			- Constant Feed (by telemetry)
+			- Fully Managed
+			- Query Language
+			- Machine Learning
 		-
 	-
 	-

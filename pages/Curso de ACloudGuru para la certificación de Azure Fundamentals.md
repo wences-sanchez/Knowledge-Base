@@ -1063,6 +1063,15 @@ tags:: Azure, ACloudGuru
 			- Azure know about compliance and resources, and can give you recommendations through the Compliance manager
 	- ### Privacy
 		- In Azure, privacy is such a core part of the platform that there isn't a single service or place for it.
+	- ### Trust
+		- Trust Center:
+			- It includes links
+		- Service Trust Portal:
+			- This is the location to review all the independent audit reports about Azure.
+	- ### Azure Arc
+		- Azure Arc simplifies the process of managing complex computing environments, whether they're in Azure or in other places, through a single unified interface.
+		- It manages for you all your different resources no matter if they're in Azure, on-premises or in other cloud.
+		- Azure Arc managges non-Azure resources as if they were in Azure.
 		-
 		-
 	-

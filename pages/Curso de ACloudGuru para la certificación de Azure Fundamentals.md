@@ -1053,8 +1053,18 @@ tags:: Azure, ACloudGuru
 		- Industry Regulations:
 			- General Data Protection Regulation (GDPR):
 				- Its main function is protect individuals with regard to the processing of their personal data.
-				- It's giving control of the data back to individuals
-				-
+				- It's giving control of the data back to individuals instead of the companies owning the data.
+			- ISO Standard:
+				- They have a lot of different categories of compliance.
+			- NIST:
+				- It's the National Institure of Standards and Technology
+				- NIST focuses purely on tech industry for US Federal regulations
+		- #### Azure Compliance Manager
+			- Azure know about compliance and resources, and can give you recommendations through the Compliance manager
+	- ### Privacy
+		- In Azure, privacy is such a core part of the platform that there isn't a single service or place for it.
+		-
+		-
 	-
 	-
 	-

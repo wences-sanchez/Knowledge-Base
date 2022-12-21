@@ -90,10 +90,11 @@ tags:: [[Feynman-Technique]], [[Azure]]
 	- ## Describe los servicios de almacenamiento de Azure
 		- ### Compara los servicios de almacenamiento de Azure
 			- **Azure Disks** es un servicio administrado por Azure que gestiona todos los discos de nuestras máquinas virtuales en un único lugar. Está formado por los tipos:
-				- Standard HDD
-				- SSD
+				- HDD
+				- Standard SSD
 				- Premium SSD
 				- Ultra Disk
+			- **Azure Blob Storage**
 		-
 		-
 	-

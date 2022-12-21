@@ -77,11 +77,10 @@ tags:: Azure, ACloudGuru
 	  :LOGBOOK:
 	  CLOCK: [2022-12-14 Wed 11:57:44]--[2022-12-14 Wed 12:33:10] =>  00:35:26
 	  :END:
-	- DOING Chapter 14: Exam Preparation
+	- DONE Chapter 14: Exam Preparation
 	  id:: 639c29e8-ecc9-4ced-914a-158457019dc0
 	  :LOGBOOK:
 	  CLOCK: [2022-12-16 Fri 09:19:55]--[2022-12-16 Fri 11:39:55] => 02:20:00
-	  CLOCK: [2022-12-16 Fri 16:42:25]
 	  :END:
 -
 - ## Contenidos en PDF

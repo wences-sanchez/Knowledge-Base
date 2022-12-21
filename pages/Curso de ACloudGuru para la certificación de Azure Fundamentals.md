@@ -1097,7 +1097,6 @@ tags:: Azure, ACloudGuru
 -
 - ## Chapter 12: Pricing
   id:: 6399a11e-933a-45d0-b04c-1b12f91c19ee
-  collapsed:: true
 	- ### Subscriptions
 		- Every resource on Azure lives within a subscription
 	- ### Cost Management

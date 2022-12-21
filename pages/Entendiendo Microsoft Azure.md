@@ -113,7 +113,14 @@ tags:: [[Feynman-Technique]], [[Azure]]
 				- Se guarda el contenido de nuestros datos en tres discos distintos dentro de un mismo centro de datos. Pero se guardan además otras tres copias en tres discos de otro centro de datos de la región par dada.
 			- Almacenamiento con Redundancia de Zona Geográfica (GZRS):
 				- Se guardan los contenidos en tres zonas distintas dentro de una misma región. Separadamente. Pero además se guardan tres copias más en tres discos distintos de un centro de datos en la región par determinada.
-		- ###
-		-
-		-
+- # Describe la gestión y la gobernanza en Azure
+	- ## Describe la gestión del coste en Azure
+		- ### Describe los factores que pueden afectar a los costes en Azure
+			- Los datos salientes (no exclusivamente) de los servicios de Azure que vayan a otras regiones
+			- El tipo de las instancias, es decir, su tamaño
+			- El tiempo que consuman las instancias (como máquinas virtuales u otros, si aplican)
+		- ### Compara la calculadora de precios con la calculadora del Coste Total de la Propiedad
+			- La calculadora *Pricing Calculator* está incluída dentro de Azure Portal y sirve para calcular el coste de los q
+	-
+	-
 	-

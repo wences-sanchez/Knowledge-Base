@@ -81,7 +81,10 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- **Azure VPN Gateway** es un servicio que permite encriptar una conexión de extremo a extremo para que viaje a través de internet de manera segura. Se usa para conectar redes físicamente separadas de una empresa, por ejemplo.
 			- **Azure ExpressRoute** es una manera de conectar las instalaciones de una empresa con Azure sin pasar los datos por Internet, sino que viajan a través de medios dedicados por Azure.
 				- Existe también la opción de la nube con CloudExchange o por ethernet de punto-a-punto
-		- ### Define
+		- ### Define los endpoints público y privado
+			- Un endpoint público es uno creado normalmente.
+			- Un endpoint de tipo *service* está entre público y privado
+				- Concretamente, se consigue configurando Azure para que el endpoint de nuestra parte sea privado. Es decir, que no esté expuesto a Internet
 			-
 		-
 	-

@@ -103,7 +103,17 @@ tags:: [[Feynman-Technique]], [[Azure]]
 		- ### Describe las capas de almacenamiento
 			- **Hot tier:** Para acceso frecuente. Es el más caro
 			- **Cool tier:** Para acceso poco frecuente. Como mínimo un mes
-			- **Archive tier:** Para guardar a largo plazo. Ideal para guardar datos para cumplir las normativas que obliguen a guardarlos.
+			- **Archive tier:** Para guardar a largo plazo. Ideal para guardar datos para cumplir las normativas que obliguen a guardarlos. Como mínimo medio año. Es el más barato
+		- ### Describe las opciones de redundancia
+			- Almacenamiento de Redundancia Local (LRS):
+				- Se guarda el contenido en tres discos distintos y separados dentro de un mismo centro de datos
+			- Almacenamiento de Redundancia de Zona (ZRS):
+				- Se guarda el contenido en tres zonas de disponibilidad distintas dentro de una misma región. De manera que en cada zona hay una copia independiente de nuestros datos.
+			- Almacenamiento de Redundancia Geográfica (GRS):
+				- Se guarda el contenido de nuestros datos en tres discos distintos dentro de un mismo centro de datos. Pero se guardan además otras tres copias en tres discos de otro centro de datos de la región par dada.
+			- Almacenamiento con Redundancia de Zona Geográfica (GZRS):
+				- Se guardan los contenidos en tres zonas distintas dentro de una misma región. Separadamente. Pero además se guardan tres copias más en tres discos distintos de un centro de datos en la región par determinada.
+		- ###
 		-
 		-
 	-

@@ -74,6 +74,11 @@ tags:: [[Feynman-Technique]], [[Azure]]
 				- Memoria: RAM
 				- y Disco: *Azure Disk Storage* o *Azure Blob Storage Pages*
 		- ### Describe las redes virtuales, incluyendo el objetivo de Azure Virtual Networks, Azure Virtual Subnets, peering, Azure DNS, Azure VPN Gateway y Azure ExpressRoute
-			- El objetivo de **Azure Virtual Networks** (o VNet)
+			- El objetivo de **Azure Virtual Networks** (o VNet) es comunicar nuestros dispositivos que tenemos en nuestras instalaciones a través de una red (virtual porque no es física, sino que está virtualizada). Así, podemos tener una red (como si fuera nuestra LAN) para comunicar y enlazar nuestros ordenadores sin problemas.
+			- **Azure Virtual Subnets** se usa para descomponer una VNet que tengamos para nuestra empresa en, por ejemplo, distintas subredes para distintos departamentos.
+			- **VNet peering** es una manera de conectar dos VNets entre sí.
+			- **Azure DNS** es un servicio de *Domain Name Service* administrado por Azure. También ofrece opciones de comprobación de estado de instancias.
+			- **Azure VPN Gateway** es un servicio que permite encriptar una conexión de extremo a extremo a t
+			-
 		-
 	-

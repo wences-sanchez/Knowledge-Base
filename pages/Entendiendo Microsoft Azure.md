@@ -130,7 +130,12 @@ tags:: [[Feynman-Technique]], [[Azure]]
 	- ## Describe las funcionalidades y herramientas en Azure para la gobernanza y cumplimiento
 		- ### Describe el propósito de Azure Blueprints
 			- Es una herramienta que nos permite recrear entornos completos exhaustivamente.
-			- Incluye no solo máquinas virtuales sino policies,
+			- Incluye no solo máquinas virtuales sino policies, plantillas de ARM, recursos o roles
+			- Puede contener dentro plantillas ARM que, a diferencia de las blueprints, no tienen relación nativa con Azure
+		- ### Describe el proósito de Azure Policy
+			- Sirve para controlar, por ejemplo, los recursos que los empleados de una organización puedan gastar.
+			- Si tenemos muchos recursos en nuestra suscripción, lo má
+			-
 	-
 	-
 	-

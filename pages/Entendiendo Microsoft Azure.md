@@ -61,6 +61,7 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- No es que no haya servidores, sino que lo manejan por nosotros.
 			- La función se ejecuta a través de eventos o, por ejemplo, cuando se llama a una URL.
 			- *Azure Functions* es un servicio de tipo *Plataforma-como-Servicio*.
-		-
+		- ### Describe las opciones de máquinas virtuales, incluídas Azure Virtual Machines, Azure Virtual Machine Scale Stes, Availability Sets y Azure Virtual Desktop
+			- *Azure Virtual Machines* es un servicio de Azure que ofrece alquilar máquinas virtuales dentro de sus centros de datos para dar un acceso mediante internet a ellas. Hay muchos tipos, desd
 		-
 	-

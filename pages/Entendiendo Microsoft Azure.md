@@ -155,8 +155,17 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Azure Arc es un agente que se instala en los sistemas de otras nubes o de nuestras instalaciones y que sirve para poder administrar todos nuestros recursos (ya sean de Azure, AWS, GCP, on-premises...) desde un único dashboard.
 		- ### Describe Azure Resource Manager y Azure Resource Manager Templates
 			- Azure Resource Manager es el backend que lo maneja todo y que lo hace todo.
-			- Las distintas formas de interactuar con Azure (Azure portal, )
-			-
+			- Las distintas formas de interactuar con Azure (Azure portal, Azure CLI, app, PowerShell...) no son sino medios para llegar a ARM, que es al final el que lo hace todo
+			- Las templates de ARM son ficheros JSON que contienen de forma declarativa la configuración que queremos.
+	- ## Describe las herramientas de monitorización de Azure
+		- ### Describe el propósito de Azure Advisor
+			- El propósito de Azure Advisor es ofrecer recomendaciones de buenas prácticas y de análisis de nuestras aplicaciones para mejorar su rendimiento, seguridad, confiabilidad, cose y excelencia operacional.
+		- ### Describe Azure Service Health
+			- Es el primer sitio al que hay que ir para comprobar el estado de los servicios cuando algo falla.
+			- Es el portal en el cual Azure actualiza el estado de todos sus servicios.
+		- ### Describe Azure Monitor, incluyendo Log Analytics, Azure Monitor alerts y Application Insights
+			- Azure Monitor es donde están todos l
+		-
 		-
 		-
 		-

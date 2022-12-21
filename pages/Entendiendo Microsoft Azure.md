@@ -89,12 +89,21 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Un endpoint privado es uno que tiene una interfaz de red virtual administrada que le permite establecer una conexión privada, no con el servicio de Azure sino con una instancia específica ligada a nuestra cuenta del servicio, no accesible desde el resto de Internet.
 	- ## Describe los servicios de almacenamiento de Azure
 		- ### Compara los servicios de almacenamiento de Azure
-			- **Azure Disks** es un servicio administrado por Azure que gestiona todos los discos de nuestras máquinas virtuales en un único lugar. Está formado por los tipos:
+			- **Azure Disks Storage** es un servicio administrado por Azure que gestiona todos los discos de nuestras máquinas virtuales en un único lugar. Está formado por los tipos:
 				- HDD
 				- Standard SSD
 				- Premium SSD
 				- Ultra Disk
-			- **Azure Blob Storage**
+			- **Azure Blob Storage** permite guardar cualquier tipo de contenido, ya que se fundamenta en datos binarios. Se usa para imágenes o backups, pero no tiene restricciones. Está formado por los tipos:
+				- Block: El estándard para almacenamiento
+				- Page: Optimizado para lectura/escritura por su eficiencia. Por ejemplo, discos.
+				- Append: Optimizado para añadir contenido. Por ejemplo, ficheros de logs.
+			- **Azure Files** es como un CDN en miniatura. Es decir, nos permite disponer de nuestros ficheros en nuestras instalaciones como si fuera un servidor de SMB o NFS.
+			- **Azure Queue Storage** almacena mensajes encolados para conectar aplicaciones entre sí mediante colas de trabajo.
+		- ### Describe las capas de almacenamiento
+			- **Hot tier:** Para acceso frecuente. Es el más caro
+			- **Cool tier:** Para acceso poco frecuente. Como mínimo un mes
+			- **Archive tier:** Para guardar a largo plazo. Ideal para guardar datos para cumplir las normativas que obliguen a guardarlos.
 		-
 		-
 	-

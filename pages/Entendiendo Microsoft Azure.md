@@ -142,9 +142,16 @@ tags:: [[Feynman-Technique]], [[Azure]]
 				- CanNotDelete: Para habilitar la lectura y escritura pero impedir su eliminación.
 			- Podemos aplicar bloqueos a cualquier recurso como una suscripción o un grupo de recursos
 		- ### Describe el propósito del *Service Trust Portal*
+			- El portal *Service Trust* expone al público todos los estándares que Azure cumple para que los (futuros) usuarios puedan comprobar cómo serán tratados sus datos allí.
+			- Es el lugar donde revisar todos los informes de auditoría de Azure
+	- ## Describe las funcionalidades y herramientas para manejar y desplegar recursos de Azure
+		- ### Describe el portal de Azure
+			- Es una interfaz web donde podemos administrar todos los recursos y servicios de Azure de manera gráfica. Es actualizada con el paso de cierto tiempo.
+		- ### Describe Azure Cloud Shell, incluyendo Azure CLI y Azure PowerShell
 			-
-			-
-			-
+		-
+		-
+		-
 	-
 	-
 	-

@@ -149,7 +149,13 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Es una interfaz web donde podemos administrar todos los recursos y servicios de Azure de manera gráfica. Es actualizada con el paso de cierto tiempo.
 		- ### Describe Azure Cloud Shell, incluyendo Azure CLI y Azure PowerShell
 			- **Azure Cloud Shell** es parte de la interfaz de Azure que permite ejecutar comandos tanto de Bash como de PowerShell mediante un menú en el que podemos elegir uno de los dos.
-			-
+			- **Azure CLI** es un producto software basado en línea de comandos que está disponible para descargar tanto en Windows como en Linux or MacOS. Con él podemos administrar nuestros recursos como en la interfaz gráfica pero con comandos de CLI.
+			- **Azure PowerShell** es una colección de módulos para administrar recursos de Azure desde PowerShell.
+		- ### Describe el propósito de Azure Arc
+			- Azure Arc es un agente que se instala en los sistemas de otras nubes o de nuestras instalaciones y que sirve para poder administrar todos nuestros recursos (ya sean de Azure, AWS, GCP, on-premises...) desde un único dashboard.
+		- ### Describe Azure Resource Manager y Azure Resource Manager Templates
+			- Azure Resource Manager es el backend que lo maneja todo y que lo hace todo.
+			- Las distintas formas de interactuar con Azure (Azure portal, )
 			-
 		-
 		-

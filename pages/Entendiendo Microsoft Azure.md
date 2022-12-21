@@ -78,7 +78,9 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- **Azure Virtual Subnets** se usa para descomponer una VNet que tengamos para nuestra empresa en, por ejemplo, distintas subredes para distintos departamentos.
 			- **VNet peering** es una manera de conectar dos VNets entre sí.
 			- **Azure DNS** es un servicio de *Domain Name Service* administrado por Azure. También ofrece opciones de comprobación de estado de instancias.
-			- **Azure VPN Gateway** es un servicio que permite encriptar una conexión de extremo a extremo a t
+			- **Azure VPN Gateway** es un servicio que permite encriptar una conexión de extremo a extremo para que viaje a través de internet de manera segura. Se usa para conectar redes físicamente separadas de una empresa, por ejemplo.
+			- **Azure ExpressRoute** es una manera de conectar las instalaciones de una empresa con Azure sin pasar los datos por Internet, sino que viajan a través de medios dedicados por Azure.
+				- Existe también la opción de
 			-
 		-
 	-

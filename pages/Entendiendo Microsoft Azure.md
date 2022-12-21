@@ -117,8 +117,22 @@ tags:: [[Feynman-Technique]], [[Azure]]
 				- Se guardan los contenidos en tres zonas distintas dentro de una misma región. Separadamente. Pero además se guardan tres copias más en tres discos distintos de un centro de datos en la región par determinada.
 	- ## Describe la identidad, seguridad y acceso en Azure
 		- ### TODO Describe Azure AD
+		- ### Describe el Control de Acceso Basado en Roles (RBAC)
+			-
+		- ### Describe el concepto de Confianza Cero
+			- El modelo de Confianza Cero (o Zero Trust) hace referencia a tratar los distintos componentes de la red como si fueran totalmente externos. Esto choca con lo que se estaba haciendo hasta ahora: confiar en los dispositivos de la red principal y no confiar en cualquiera que fuese externo.
+			- Esto ha tenido que cambiar debido al cambio de paradigma en el cual la mayoría de dispositivos están fuera de las instalaciones por tema de teletrabajo.
+			- Mediante este modelo, aplicamos todas las reglas a todos los equipos. Así, ningún usuario que no esté en las instalaciones podrá conseguir nada.
 		- ### Describe el propósito de la defensa en profundidad de Azure
-			- La defensa en profundidad supone e
+			- La defensa en profundidad supone estructurar nuestros sistemas en capas sucesivas, de manera que si un atacante quiere entrar, tenga que encontrarse con distintas *fronteras*. Las capas son:
+				- Acceso físico (los centros de datos de Azure)
+				- Identidad y autenticación (Azure AD)
+				- Perimetral (nos protege de ataques de DDoS y otros parecidos)
+				- Red (nuestras redes virtuales)
+				- Cómputo (nuestras instancias, deberían estar con security groups)
+				- Aplicación y balanceado de carga (las aplicaciones deben ser seguras)
+				- Datos (deberían estar cifrados, si es responsabilidad nuestra)
+		- ### TODO Describe el propósito de Microsoft Defender for Cloud
 - # Describe la gestión y la gobernanza en Azure
 	- ## Describe la gestión del coste en Azure
 	  collapsed:: true

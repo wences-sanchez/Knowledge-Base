@@ -62,6 +62,10 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- La función se ejecuta a través de eventos o, por ejemplo, cuando se llama a una URL.
 			- *Azure Functions* es un servicio de tipo *Plataforma-como-Servicio*.
 		- ### Describe las opciones de máquinas virtuales, incluídas Azure Virtual Machines, Azure Virtual Machine Scale Stes, Availability Sets y Azure Virtual Desktop
-			- *Azure Virtual Machines* es un servicio de Azure que ofrece alquilar máquinas virtuales dentro de sus centros de datos para dar un acceso mediante internet a ellas. Hay muchos tipos, desd
+			- **Azure Virtual Machines** es un servicio de Azure que ofrece alquilar máquinas virtuales dentro de sus centros de datos para dar un acceso mediante internet a ellas. Hay muchos tipos, desde las más básicas a las más exigentes. El precio es pago-por-uso aunque también hay una opción de reserva por 1 o 3 años con un 70% de descuento mediante pago por adelantado del servicio.
+			- **Azure Virtual Machines Scale Set** es un grupo de máquinas virtuales clonadas iguales que podemos definir sin coste adicional para que sean usadas cuando la aplicación necesite ser escalada horizontalmente.
+			- **Availability Sets**, o conjuntos de disponibilidad, son grupos donde se pueden asignar las máquinas virtuales de manera que hay:
+				- Dominios de actualización (o update domains) en los que nos asegura Azure que no va a reiniciar nuestras máquinas asignadas en menos de 30 minutos unas de otras. Así, nos aseguran de que cuando se actualicen (al reinicio) nunca se actualizarán juntas. Por lo que siempre habrá otra disponible en otro dominio de actualización.
+				- Dominios de error (o fault domains) en los que las máquinas están aisladas unas de otras
 		-
 	-

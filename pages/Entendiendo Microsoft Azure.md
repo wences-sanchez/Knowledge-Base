@@ -36,6 +36,7 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Cuando queramos usar una interfaz web como único punto de contacto con el usuario.
 - # Describe los servicios y arquitectura de Azure
 	- ## Describe los componentes principales de la arquitectura de Azure
+	  collapsed:: true
 		- ### Describe las regiones de Azure, los pares de regiones y las regiones soberanas
 			- Las regiones de Azure son una zona geográfica que contiene un conjunto de centros de datos. La mayoría de las regiones están estructuradas en zonas de disponibilidad y éstas a su vez en centros de datos, pero no todas las regiones incluyen zonas de disponibilidad.
 			- Casi todas las regiones tienen una *region par* que se utiliza para tener redundancia más allá de sus zonas de disponibilidad. Para, por ejemplo, desastres naturales; ya que hay más de 500 km como mínimo de una region a otra.
@@ -54,6 +55,7 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Los grupos de gestión son una opción que nos ofrece Azure para agrupar distintas suscripciones y así manejarlas como un solo grupo (o varios unidos).
 			- Es muy útil por ejemplo para una compañía que tenga varias suscripciones en varios departamentos.
 	- ## Describe los servicios de cómputo y red de Azure
+	  collapsed:: true
 		- ### Compara los tipos de cómputo, incluídos *Azure Container Instances*, *Virtual Machines* y *Functions*
 			- *Azure Container Instances* es un servicio que ofrece contenedores como método de cómputo. Más allá de explicar lo que son los contenedores, diremos que podemos agrupar sus dependencias y aislarlos unos de otros por si fallan, además de desplegarlos más fácilmente y sin intervención humana.
 			- *Virtual Machines* nos ofrece máquinas virtuales. Las cuales podemos gestionar como servidores. Nos ofrecen una potencia de cómputo mucho mayor porque tienen más recursos. En las máquinas virtuales, si queremos, podemos ejecutar contenedores. Aunque es recomendado usar un servicio manejado por Azure en vez de ello.
@@ -113,8 +115,13 @@ tags:: [[Feynman-Technique]], [[Azure]]
 				- Se guarda el contenido de nuestros datos en tres discos distintos dentro de un mismo centro de datos. Pero se guardan además otras tres copias en tres discos de otro centro de datos de la región par dada.
 			- Almacenamiento con Redundancia de Zona Geográfica (GZRS):
 				- Se guardan los contenidos en tres zonas distintas dentro de una misma región. Separadamente. Pero además se guardan tres copias más en tres discos distintos de un centro de datos en la región par determinada.
+	- ## Describe la identidad, seguridad y acceso en Azure
+		- ### TODO Describe Azure AD
+		- ### Describe el propósito de la defensa en profundidad de Azure
+			- La defensa en profundidad supone e
 - # Describe la gestión y la gobernanza en Azure
 	- ## Describe la gestión del coste en Azure
+	  collapsed:: true
 		- ### Describe los factores que pueden afectar a los costes en Azure
 			- Los datos salientes (no exclusivamente) de los servicios de Azure que vayan a otras regiones
 			- El tipo de las instancias, es decir, su tamaño
@@ -128,6 +135,7 @@ tags:: [[Feynman-Technique]], [[Azure]]
 		- ### Describe el propósito de las etiquetas
 			- Categorizarlo todo de manera que cuando queramos investigar algo todos los recursos estarán claramente indicados de dónde vienen y a qué sirven.
 	- ## Describe las funcionalidades y herramientas en Azure para la gobernanza y cumplimiento
+	  collapsed:: true
 		- ### Describe el propósito de Azure Blueprints
 			- Es una herramienta que nos permite recrear entornos completos exhaustivamente.
 			- Incluye no solo máquinas virtuales sino policies, plantillas de ARM, recursos o roles
@@ -145,6 +153,7 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- El portal *Service Trust* expone al público todos los estándares que Azure cumple para que los (futuros) usuarios puedan comprobar cómo serán tratados sus datos allí.
 			- Es el lugar donde revisar todos los informes de auditoría de Azure
 	- ## Describe las funcionalidades y herramientas para manejar y desplegar recursos de Azure
+	  collapsed:: true
 		- ### Describe el portal de Azure
 			- Es una interfaz web donde podemos administrar todos los recursos y servicios de Azure de manera gráfica. Es actualizada con el paso de cierto tiempo.
 		- ### Describe Azure Cloud Shell, incluyendo Azure CLI y Azure PowerShell
@@ -158,13 +167,18 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Las distintas formas de interactuar con Azure (Azure portal, Azure CLI, app, PowerShell...) no son sino medios para llegar a ARM, que es al final el que lo hace todo
 			- Las templates de ARM son ficheros JSON que contienen de forma declarativa la configuración que queremos.
 	- ## Describe las herramientas de monitorización de Azure
+	  collapsed:: true
 		- ### Describe el propósito de Azure Advisor
 			- El propósito de Azure Advisor es ofrecer recomendaciones de buenas prácticas y de análisis de nuestras aplicaciones para mejorar su rendimiento, seguridad, confiabilidad, cose y excelencia operacional.
 		- ### Describe Azure Service Health
 			- Es el primer sitio al que hay que ir para comprobar el estado de los servicios cuando algo falla.
 			- Es el portal en el cual Azure actualiza el estado de todos sus servicios.
-		- ### Describe Azure Monitor, incluyendo Log Analytics, Azure Monitor alerts y Application Insights
-			- Azure Monitor es donde están todos l
+		- ### Describe Azure Monitor, incluyendo Log Analytics, Azure Monitor Alerts y Application Insights
+			- Azure Monitor es donde están toda la información recolectada mediante telemetría de todos nuestros recursos.
+			- Log Analytics nos muestra todos los logs de nuestras aplicaciones y servicios
+			- Con Azure Monitor Alerts podemos crear alertas mediante reglas y parámetros para que nos avise si algo ocurre.
+			- Application Insights nos da información muy valiosa de nuestras aplicaciones, como datos de nuestros usuarios, de páginas vistas, de métricas, etc.
+			-
 		-
 		-
 		-

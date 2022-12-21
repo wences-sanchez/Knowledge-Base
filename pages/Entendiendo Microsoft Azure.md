@@ -42,6 +42,15 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Las regiones soberanas, también llamadas geografías, son un conjunto de una o más regiones en las cuales Azure nos garantiza que nuestros datos no van a salir.
 		- ### Describe las zonas de disponibilidad
 			- Son un conjunto de centros de datos dentro de una misma región.
-			- Están diseñadas para ofrecer al usuario una alta disponiblidad mediante el diseño mismo de la red de Azure. De manera que dichas zonas de disponibilidad
+			- Están diseñadas para ofrecer al usuario una alta disponiblidad mediante el diseño mismo de la red de Azure. De manera que dichas zonas de disponibilidad están aisladas unas de otras respecto de red física y electricidad. Por otra parte, están conectadas todas juntas a través de fibra de baja latencia y redundante.
+		- ### Describe los centros de datos
+			- Son ubicaciones físicas en las cuales están los servidores que, en su conjunto global, sostienten toda la infraestructura de Azure. No se conocen sus ubicaciones por motivos de seguridad.
+		- ### Describe los recursos de Azure y los grupos de recursos
+			- Los recursos de Azure representan a todos los componentes que están a nuestro alcance para contratar.
+			- Los grupos de recursos son una forma de agruparlos para facilitarnos su gestión.
+		- ### Describe las suscripciones
+			- Una suscripción es la manera que tiene Azure de llamar a nuestras cuentas individuales de pago.
+		- ### Describe los grupos de gestión
+			-
 			-
 	-

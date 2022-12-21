@@ -66,6 +66,14 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- **Azure Virtual Machines Scale Set** es un grupo de máquinas virtuales clonadas iguales que podemos definir sin coste adicional para que sean usadas cuando la aplicación necesite ser escalada horizontalmente.
 			- **Availability Sets**, o conjuntos de disponibilidad, son grupos donde se pueden asignar las máquinas virtuales de manera que hay:
 				- Dominios de actualización (o update domains) en los que nos asegura Azure que no va a reiniciar nuestras máquinas asignadas en menos de 30 minutos unas de otras. Así, nos aseguran de que cuando se actualicen (al reinicio) nunca se actualizarán juntas. Por lo que siempre habrá otra disponible en otro dominio de actualización.
-				- Dominios de error (o fault domains) en los que las máquinas están aisladas unas de otras
+				- Dominios de error (o fault domains) en los que las máquinas están aisladas unas de otras respecto de conexión a red y alimentación y refrigeración.
+			- **Azure Virtual Desktop** es un servicio que nos ofrece un Sistema Operativo Windows virtualizado el cual es multi-usuario y está totalmente integrado con Windows local en nuestro PC
+		- ### Describe los recursos requeridos por las máquinas virtuales
+			- Son:
+				- Cómputo: CPU
+				- Memoria: RAM
+				- y Disco: *Azure Disk Storage* o *Azure Blob Storage Pages*
+		- ### Describe las redes virtuales, incluyendo el objetivo de Azure Virtual Networks, Azure Virtual Subnets, peering, Azure DNS, Azure VPN Gateway y Azure ExpressRoute
+			- El objetivo de **Azure Virtual Networks** (o VNet)
 		-
 	-

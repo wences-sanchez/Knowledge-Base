@@ -119,7 +119,10 @@ tags:: [[Feynman-Technique]], [[Azure]]
 		- ### TODO Describe Azure AD
 		- ### Describe los métodos de autenticación en Azure, incluyendo SSO, MFA y passwordless
 			- Los métodos de autenticación de Azure de Single Sign-On (SSO) consisten en aprovechar cuentas de usuarios de otras organizaciones dentro de Azure
-			- Con el método de Multi-Factor Authentication lo que hacemos es añadir una (o dos) capas más de seguridad. De manera que podemos crear una regla condicional para que haya que ingresar un PIN en un dispositivo, para que haya que usar biometría de un dispositivo (táctil o facial) o que simplemente tengamos que acceder a dicho dispositivo y verificarlo; además de introudci
+			- Con el método de Multi-Factor Authentication lo que hacemos es añadir una (o dos) capas más de seguridad. De manera que podemos crear una regla condicional para que haya que ingresar un PIN en un dispositivo, para que haya que usar biometría de un dispositivo (táctil o facial) o que simplemente tengamos que acceder a dicho dispositivo y verificarlo; además de introducir nuestra contraseña.
+			- Passwordless se refiere a usar el punto anterior para eliminar el paso de introducir una contraseña. Pues una contraseña es sólo *algo que se sabe* y que se puede robar.
+				- Por otra parte,  MFA incluye *algo que se tiene*, como un teléfono móvil, y *algo que se es*, como una huella dactilar o una retina ocular.
+				- Este último punto es el más difícil de falsificar. Por lo cual se puede establecer como passwordless y eliminar el paso de introducir la contraseña, incluso manteniendo un incremento de seguridad con respecto a una simple contraseña.
 		- ### Describe el acceso de invitado en Azure
 			- El acceso de invitado en Azure consiste en usar las cuentas que tengan dichos invitados en Microsoft, Google, Facebook, etc. para crear un acceso condicional y permitir y confiar en dichas credenciales para darles un acceso (siguiendo el permiso de Least Privilege) y no tener que crearles una cuenta específica que después (supuestamente) habría que encargarse de eliminar.
 		- ### TODO Describe el acceso condicional en Azure AD
@@ -141,7 +144,6 @@ tags:: [[Feynman-Technique]], [[Azure]]
 		- ### TODO Describe el propósito de Microsoft Defender for Cloud
 - # Describe la gestión y la gobernanza en Azure
 	- ## Describe la gestión del coste en Azure
-	  collapsed:: true
 		- ### Describe los factores que pueden afectar a los costes en Azure
 			- Los datos salientes (no exclusivamente) de los servicios de Azure que vayan a otras regiones
 			- El tipo de las instancias, es decir, su tamaño
@@ -155,7 +157,6 @@ tags:: [[Feynman-Technique]], [[Azure]]
 		- ### Describe el propósito de las etiquetas
 			- Categorizarlo todo de manera que cuando queramos investigar algo todos los recursos estarán claramente indicados de dónde vienen y a qué sirven.
 	- ## Describe las funcionalidades y herramientas en Azure para la gobernanza y cumplimiento
-	  collapsed:: true
 		- ### Describe el propósito de Azure Blueprints
 			- Es una herramienta que nos permite recrear entornos completos exhaustivamente.
 			- Incluye no solo máquinas virtuales sino policies, plantillas de ARM, recursos o roles
@@ -173,7 +174,6 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- El portal *Service Trust* expone al público todos los estándares que Azure cumple para que los (futuros) usuarios puedan comprobar cómo serán tratados sus datos allí.
 			- Es el lugar donde revisar todos los informes de auditoría de Azure
 	- ## Describe las funcionalidades y herramientas para manejar y desplegar recursos de Azure
-	  collapsed:: true
 		- ### Describe el portal de Azure
 			- Es una interfaz web donde podemos administrar todos los recursos y servicios de Azure de manera gráfica. Es actualizada con el paso de cierto tiempo.
 		- ### Describe Azure Cloud Shell, incluyendo Azure CLI y Azure PowerShell
@@ -187,7 +187,6 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Las distintas formas de interactuar con Azure (Azure portal, Azure CLI, app, PowerShell...) no son sino medios para llegar a ARM, que es al final el que lo hace todo
 			- Las templates de ARM son ficheros JSON que contienen de forma declarativa la configuración que queremos.
 	- ## Describe las herramientas de monitorización de Azure
-	  collapsed:: true
 		- ### Describe el propósito de Azure Advisor
 			- El propósito de Azure Advisor es ofrecer recomendaciones de buenas prácticas y de análisis de nuestras aplicaciones para mejorar su rendimiento, seguridad, confiabilidad, cose y excelencia operacional.
 		- ### Describe Azure Service Health

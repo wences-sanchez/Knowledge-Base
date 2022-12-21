@@ -1,8 +1,8 @@
 tags:: [[Feynman-Technique]], [[Azure]]
 
 -
-- # Habilidades
-	- ## Describiendo los conceptos de la computación en la nube
+- # Describiendo los conceptos de la computación en la nube
+	- ## Describiendo la computación en la nube
 		- ### Qué es la computación en la nube
 			- La computación en la nube es un servicio por parte de los proveedores de nube sobre cómputo, almacenamiento y otros productos relacionados.
 			- Lo que realmente marca la diferencia es que:
@@ -24,4 +24,8 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Supone tener los servidores duplicados, con su consiguiente mantenimiento.
 			- Escalarlos supone añadir más dinero, con el consiguiente problema de que, si la demanda baja, no podemos devolver el dinero que nos ha costado para no tener dichos recursos ociosos.
 			- En la nube, como solo pagamos por uso, podemos tener varios servidores para conseguir alta disponibilidad. Así, aunque la carga sea alta o baja, nunca pagaremos costes por recursos *ociosos* (de hecho, podemos configurar nuestro servicio para que escale automáticamente, despreocupándonos de casi todo lo demás).
-	- ## Describiendo los tipos de servicios de nub
+	- ## Describiendo los tipos de servicios de nube
+		- ### Describe *Infraestructura-como-Servicio*
+			- En este tipo de nube, básicamente lo que tenemos son servidores virtuales, que podremos  escalar vertical y horizontalmente, pero que tendremos que mantener aunque sus aspectos físicos los hayamos externalizado hacia el proveedor de nube.
+		- ### Describe *Plataforma-como-Servicio*
+			-

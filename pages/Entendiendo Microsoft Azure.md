@@ -87,7 +87,13 @@ tags:: [[Feynman-Technique]], [[Azure]]
 				- Concretamente, se consigue configurando Azure para que el endpoint de nuestra parte sea privado. Es decir, que no esté expuesto a Internet. Porque está en una subred privada que previamente hemos indicado.
 				- Aunque seguimos teniendo uno de los dos enpoints público: el que conecta con el servicio de Azure
 			- Un endpoint privado es uno que tiene una interfaz de red virtual administrada que le permite establecer una conexión privada, no con el servicio de Azure sino con una instancia específica ligada a nuestra cuenta del servicio, no accesible desde el resto de Internet.
-	-
+	- ## Describe los servicios de almacenamiento de Azure
+		- ### Compara los servicios de almacenamiento de Azure
+			- **Azure Disks** es un servicio administrado por Azure que gestiona todos los discos de nuestras máquinas virtuales en un único lugar. Está formado por los tipos:
+				- Standard HDD
+				- SSD
+				- Premium SSD
+				- Ultra Disk
 		-
 		-
 	-

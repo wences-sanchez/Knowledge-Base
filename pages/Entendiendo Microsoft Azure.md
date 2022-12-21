@@ -20,4 +20,8 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Una nube **híbrida** es una mezcla de las dos anteriores juntas usadas en una empresa. De manera que puedan tener los datos en una nube privada y la aplicación en una nube pública.
 	- ## Describiendo los beneficios de usar los servicios de la nube
 		- ### Beneficios de alta disponibilidad y escalabilidad en la nube
-			- Es bastante costoso y requiere una redundancia no siempre
+			- Es bastante costoso (y requiere una redundancia de la que no siempre podemos aprovechar su coste) el implementar una alta disponibilidad en nuestras instalaciones físicas.
+			- Supone tener los servidores duplicados, con su consiguiente mantenimiento.
+			- Escalarlos supone añadir más dinero, con el consiguiente problema de que, si la demanda baja, no podemos devolver el dinero que nos ha costado para no tener dichos recursos ociosos.
+			- En la nube, como solo pagamos por uso, podemos tener varios servidores para conseguir alta disponibilidad. Así, aunque la carga sea alta o baja, nunca pagaremos costes por recursos *ociosos* (de hecho, podemos configurar nuestro servicio para que escale automáticamente, despreocupándonos de casi todo lo demás).
+	- ## Describiendo los tipos de servicios de nub

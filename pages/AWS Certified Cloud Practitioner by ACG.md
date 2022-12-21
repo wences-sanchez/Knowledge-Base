@@ -1309,7 +1309,8 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- **Cost Explorer** allows you to visualize and forecast your costs and usage over time
 			- **Visualize** costs over time
 			- View **past 12 months**
-			- **Forecast** for up to 3 months
+			- **Forecast** for up to **12** months
+			-
 	- ### 5.4 Exploring Governance Services
 		- **Governance** and management services help you **maintain control** over cost, compliance and security **across** you AWS accounts.
 		- #### AWS Organizations #flashcard

@@ -1,4 +1,4 @@
-tags:: [[Feynman-Technique]], [[Azure]]
+tags:: [[Feynman-Technique]], [[InMyOwnWords]] ,[[Azure]]
 
 -
 - # Describiendo los conceptos de la computación en la nube {{renderer :wordcount_iijpmxuii}}

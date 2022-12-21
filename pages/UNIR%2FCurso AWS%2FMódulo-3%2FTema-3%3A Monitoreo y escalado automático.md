@@ -1,7 +1,10 @@
 title:: UNIR/Curso AWS/Módulo-3/Tema-3: Monitoreo y escalado automático
 tags:: UNIR, AWS
-deck:: [[AWS::CCP::Módulo-3]]
+deck:: [[UNIR::Curso AWS::Módulo-3]]
 
+-
+-
+-
 -
 - ## Elastic Load Balancing
 	- Distribuye el tráfico entrante de las aplicaciones o de la red entre varios destinos en una o varias AZs

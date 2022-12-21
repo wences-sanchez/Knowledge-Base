@@ -1,7 +1,9 @@
 title:: UNIR/Curso AWS/Módulo-2/Tema-3: Otros servicios de cómputo. Contenedores
 tags:: UNIR, AWS
-deck:: [[AWS::CCP::Módulo-2]]
+deck:: [[UNIR::Curso AWS::Módulo-2]]
 
+-
+-
 -
 - ## Servicios de contenedores
 	- ### Contenedores

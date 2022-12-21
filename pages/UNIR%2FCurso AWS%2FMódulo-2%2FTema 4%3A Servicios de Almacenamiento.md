@@ -1,7 +1,9 @@
 title:: UNIR/Curso AWS/Módulo-2/Tema 4: Servicios de Almacenamiento
 tags:: UNIR, AWS
-deck:: [[AWS::CCP::Módulo-2]]
+deck:: [[UNIR::Curso AWS::Módulo-2]]
 
+-
+-
 -
 - ## Amazon Elastic Block Store (Amazon EBS)
 	- ### Amazon EBS

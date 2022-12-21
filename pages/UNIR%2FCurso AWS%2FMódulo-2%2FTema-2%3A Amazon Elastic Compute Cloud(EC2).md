@@ -1,7 +1,9 @@
 title:: UNIR/Curso AWS/Módulo-2/Tema-2: Amazon Elastic Compute Cloud(EC2)
 tags:: UNIR, AWS
-deck:: [[AWS::CCP::Módulo-2]]
+deck:: [[UNIR::Curso AWS::Módulo-2]]
 
+-
+-
 -
 - ## Servicios de informática de AWS #flashcard
   id:: 63497f97-05b1-45e8-bca5-9c79311b049b

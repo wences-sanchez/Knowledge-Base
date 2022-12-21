@@ -1,7 +1,9 @@
 title:: UNIR/Curso AWS/Módulo-2/Tema-1: Servicio de Redes y Entrega de Contenido
 tags:: UNIR, AWS
-deck:: [[AWS::CCP::Módulo-2]]
+deck:: [[UNIR::Curso AWS::Módulo-2]]
 
+-
+-
 -
 - #tags #UNI #AWS
 -

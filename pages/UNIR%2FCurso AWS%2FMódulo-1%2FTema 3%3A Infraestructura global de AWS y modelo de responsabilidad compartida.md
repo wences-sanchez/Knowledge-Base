@@ -1,6 +1,6 @@
 title:: UNIR/Curso AWS/Módulo-1/Tema 3: Infraestructura global de AWS y modelo de responsabilidad compartida
 tags:: UNIR, AWS
-deck:: [[AWS::CCP::Módulo-1]]
+deck:: [[UNIR::Curso AWS::Módulo-1]]
 
 - #tags #UNI #AWS #Tema-1
 -

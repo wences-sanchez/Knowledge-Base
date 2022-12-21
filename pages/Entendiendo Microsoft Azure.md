@@ -56,6 +56,11 @@ tags:: [[Feynman-Technique]], [[Azure]]
 	- ## Describe los servicios de cómputo y red de Azure
 		- ### Compara los tipos de cómputo, incluídos *Azure Container Instances*, *Virtual Machines* y *Functions*
 			- *Azure Container Instances* es un servicio que ofrece contenedores como método de cómputo. Más allá de explicar lo que son los contenedores, diremos que podemos agrupar sus dependencias y aislarlos unos de otros por si fallan, además de desplegarlos más fácilmente y sin intervención humana.
-			- *Virtual Machines* nos ofrece máquinas virtuales. Las cuales podemos gestionar como servidores.
+			- *Virtual Machines* nos ofrece máquinas virtuales. Las cuales podemos gestionar como servidores. Nos ofrecen una potencia de cómputo mucho mayor porque tienen más recursos. En las máquinas virtuales, si queremos, podemos ejecutar contenedores. Aunque es recomendado usar un servicio manejado por Azure en vez de ello.
+			- Las Funciones, o *Functions*, entendiendo éstas como *Azure Functions*, son parte de lo que se llama **informática sin servidor**. Llamamos así a las funciones que no se ejecutan en un servidor definido ni administrado ni ejecutado por nosotros, sino que es Azure quien se encarga de absolutamente todo lo relativo a la ejecución del código en uno de sus servidores y simplemente lo ejecuta por nosotros.
+			- No es que no haya servidores, sino que lo manejan por nosotros.
+			- La función se ejecuta a través de eventos o, por ejemplo, cuando se llama a una URL.
+			- *Azure Functions* es un servicio de tipo *Plataforma-como-Servicio*.
+		-
 		-
 	-

@@ -148,6 +148,8 @@ tags:: [[Feynman-Technique]], [[Azure]]
 		- ### Describe el portal de Azure
 			- Es una interfaz web donde podemos administrar todos los recursos y servicios de Azure de manera gráfica. Es actualizada con el paso de cierto tiempo.
 		- ### Describe Azure Cloud Shell, incluyendo Azure CLI y Azure PowerShell
+			- **Azure Cloud Shell** es parte de la interfaz de Azure que permite ejecutar comandos tanto de Bash como de PowerShell mediante un menú en el que podemos elegir uno de los dos.
+			-
 			-
 		-
 		-

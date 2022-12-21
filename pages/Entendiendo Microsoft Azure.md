@@ -27,5 +27,15 @@ tags:: [[Feynman-Technique]], [[Azure]]
 	- ## Describiendo los tipos de servicios de nube
 		- ### Describe *Infraestructura-como-Servicio*
 			- En este tipo de nube, básicamente lo que tenemos son servidores virtuales, que podremos  escalar vertical y horizontalmente, pero que tendremos que mantener aunque sus aspectos físicos los hayamos externalizado hacia el proveedor de nube.
+			- Cuando queremos tener control total sobre nuestra infraestructura aunque usemos un modelo de nube.
 		- ### Describe *Plataforma-como-Servicio*
+			- El proveedor de nube nos administra todo solo para que nosotros pongamos nuestro código y pensemos en cómo será su despliegue en las máquinas de nuestros usuarios.
+			- Cuando nos interesa pagar un poco más para no tener que preocuparnos de la infraestructura subyacente. Así, nos podemos centrar en lo que más valor aporta a nuestra empresa.
+		- ### Describe *Software-como-Servicio*
+			- Todo está administrado salvo nuestro código. Incluso el despliegue de nuestra aplicación, que se realiza a través de la Internet como una página web con un navegador.
+			- Cuando queramos usar una interfaz web como único punto de contacto con el usuario.
+- # Describe los servicios y arquitectura de Azure
+	- ## Describe los componentes principales de la arquitectura de Azure
+		- ### Describe las regiones de Azure, los pares de regiones y las regiones soberanas
 			-
+	-

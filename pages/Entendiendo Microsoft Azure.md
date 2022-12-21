@@ -117,8 +117,14 @@ tags:: [[Feynman-Technique]], [[Azure]]
 				- Se guardan los contenidos en tres zonas distintas dentro de una misma región. Separadamente. Pero además se guardan tres copias más en tres discos distintos de un centro de datos en la región par determinada.
 	- ## Describe la identidad, seguridad y acceso en Azure
 		- ### TODO Describe Azure AD
+		- ### Describe los métodos de autenticación en Azure, incluyendo SSO, MFA y passwordless
+			- Los métodos de autenticación de Azure de Single Sign-On (SSO) consisten en aprovechar cuentas de usuarios de otras organizaciones dentro de Azure
+			- Con el método de Multi-Factor Authentication lo que hacemos es añadir una (o dos) capas más de seguridad. De manera que podemos crear una regla condicional para que haya que ingresar un PIN en un dispositivo, para que haya que usar biometría de un dispositivo (táctil o facial) o que simplemente tengamos que acceder a dicho dispositivo y verificarlo; además de introudci
+		- ### Describe el acceso de invitado en Azure
+			- El acceso de invitado en Azure consiste en usar las cuentas que tengan dichos invitados en Microsoft, Google, Facebook, etc. para crear un acceso condicional y permitir y confiar en dichas credenciales para darles un acceso (siguiendo el permiso de Least Privilege) y no tener que crearles una cuenta específica que después (supuestamente) habría que encargarse de eliminar.
+		- ### TODO Describe el acceso condicional en Azure AD
 		- ### Describe el Control de Acceso Basado en Roles (RBAC)
-			-
+			- En este modelo, se usan roles para ayudarnos con las tareas de otorgar acceso a los usuarios de Azure.
 		- ### Describe el concepto de Confianza Cero
 			- El modelo de Confianza Cero (o Zero Trust) hace referencia a tratar los distintos componentes de la red como si fueran totalmente externos. Esto choca con lo que se estaba haciendo hasta ahora: confiar en los dispositivos de la red principal y no confiar en cualquiera que fuese externo.
 			- Esto ha tenido que cambiar debido al cambio de paradigma en el cual la mayoría de dispositivos están fuera de las instalaciones por tema de teletrabajo.

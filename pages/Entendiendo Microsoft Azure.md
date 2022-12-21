@@ -80,7 +80,8 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- **Azure DNS** es un servicio de *Domain Name Service* administrado por Azure. También ofrece opciones de comprobación de estado de instancias.
 			- **Azure VPN Gateway** es un servicio que permite encriptar una conexión de extremo a extremo para que viaje a través de internet de manera segura. Se usa para conectar redes físicamente separadas de una empresa, por ejemplo.
 			- **Azure ExpressRoute** es una manera de conectar las instalaciones de una empresa con Azure sin pasar los datos por Internet, sino que viajan a través de medios dedicados por Azure.
-				- Existe también la opción de
+				- Existe también la opción de la nube con CloudExchange o por ethernet de punto-a-punto
+		- ### Define
 			-
 		-
 	-

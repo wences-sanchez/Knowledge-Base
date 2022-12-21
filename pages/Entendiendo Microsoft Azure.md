@@ -51,6 +51,11 @@ tags:: [[Feynman-Technique]], [[Azure]]
 		- ### Describe las suscripciones
 			- Una suscripción es la manera que tiene Azure de llamar a nuestras cuentas individuales de pago.
 		- ### Describe los grupos de gestión
-			-
-			-
+			- Los grupos de gestión son una opción que nos ofrece Azure para agrupar distintas suscripciones y así manejarlas como un solo grupo (o varios unidos).
+			- Es muy útil por ejemplo para una compañía que tenga varias suscripciones en varios departamentos.
+	- ## Describe los servicios de cómputo y red de Azure
+		- ### Compara los tipos de cómputo, incluídos *Azure Container Instances*, *Virtual Machines* y *Functions*
+			- *Azure Container Instances* es un servicio que ofrece contenedores como método de cómputo. Más allá de explicar lo que son los contenedores, diremos que podemos agrupar sus dependencias y aislarlos unos de otros por si fallan, además de desplegarlos más fácilmente y sin intervención humana.
+			- *Virtual Machines* nos ofrece máquinas virtuales. Las cuales podemos gestionar como servidores.
+		-
 	-

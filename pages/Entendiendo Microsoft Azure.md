@@ -15,4 +15,9 @@ tags:: [[Feynman-Technique]], [[Azure]]
 				- Si usamos *Plataforma-como-Servicio*, el proveedor se encargará también del almacenamiento y sistema operativo. Dejándonos solo al cargo de nuestro código y nuestros tests. Todo lo demás está manejado por el proveedor de nube.
 				- Si usamos *Software-como-Servicio*, tampoco tendremos que preocuparnos siquiera del despliegue de nuestra aplicación. Ya que estará administrado por el proveedor de nube.
 		- ### Define los modelos de nube
-			- Cuando usamos una nube pública, todos nuestros datos viajan a través de Internet (o a través de medios dedicados si pagamos por ello)
+			- Cuando usamos una nube **pública**, todos nuestros datos viajan a través de Internet (o a través de medios dedicados si queremos y pagamos por ello) hacia los centros de datos del proveedor de nube. Los servidores de dichos centros de datos, no son nuestros. Estas son las principales características de este tipo de nube.
+			- Cuando usamos una nube **privada**, los servidores son nuestros y los datos no salen de nuestros dominios. Es mucho más cara ya que tenemos que pagar los servidores y hacer frente a los costes de su mantenimiento como su ubicación y refrigeración. Además de manejar los picos de demanda por nuestra cuenta.
+			- Una nube **híbrida** es una mezcla de las dos anteriores juntas usadas en una empresa. De manera que puedan tener los datos en una nube privada y la aplicación en una nube pública.
+	- ## Describiendo los beneficios de usar los servicios de la nube
+		- ### Beneficios de alta disponibilidad y escalabilidad en la nube
+			- Es bastante costoso y requiere una redundancia no siempre

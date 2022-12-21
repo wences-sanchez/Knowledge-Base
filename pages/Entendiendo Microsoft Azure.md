@@ -39,6 +39,9 @@ tags:: [[Feynman-Technique]], [[Azure]]
 		- ### Describe las regiones de Azure, los pares de regiones y las regiones soberanas
 			- Las regiones de Azure son una zona geográfica que contiene un conjunto de centros de datos. La mayoría de las regiones están estructuradas en zonas de disponibilidad y éstas a su vez en centros de datos, pero no todas las regiones incluyen zonas de disponibilidad.
 			- Casi todas las regiones tienen una *region par* que se utiliza para tener redundancia más allá de sus zonas de disponibilidad. Para, por ejemplo, desastres naturales; ya que hay más de 500 km como mínimo de una region a otra.
-			- Las regiones soberanas, también llamadas geografías,
+			- Las regiones soberanas, también llamadas geografías, son un conjunto de una o más regiones en las cuales Azure nos garantiza que nuestros datos no van a salir.
+		- ### Describe las zonas de disponibilidad
+			- Son un conjunto de centros de datos dentro de una misma región.
+			- Están diseñadas para ofrecer al usuario una alta disponiblidad mediante el diseño mismo de la red de Azure. De manera que dichas zonas de disponibilidad
 			-
 	-

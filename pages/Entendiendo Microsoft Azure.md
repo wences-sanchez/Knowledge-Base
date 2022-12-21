@@ -134,7 +134,16 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Puede contener dentro plantillas ARM que, a diferencia de las blueprints, no tienen relación nativa con Azure
 		- ### Describe el proósito de Azure Policy
 			- Sirve para controlar, por ejemplo, los recursos que los empleados de una organización puedan gastar.
-			- Si tenemos muchos recursos en nuestra suscripción, lo má
+			- Si tenemos muchos recursos en nuestra suscripción, lo más normal es que también tengamos muchas *policies*
+		- ### Describe el propósito de *Resource locks*
+			- Su propósito es asegurarnos de que no borramos o modificamos por error o sin querer los recursos que marquemos.
+			- Los dos tipos de bloqueo de recursos son:
+				- ReadOnly: Para marcar de solo lectura, no se puede modificar ni eliminar.
+				- CanNotDelete: Para habilitar la lectura y escritura pero impedir su eliminación.
+			- Podemos aplicar bloqueos a cualquier recurso como una suscripción o un grupo de recursos
+		- ### Describe el propósito del *Service Trust Portal*
+			-
+			-
 			-
 	-
 	-

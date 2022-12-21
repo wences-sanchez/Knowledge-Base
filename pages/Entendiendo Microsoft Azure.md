@@ -120,7 +120,13 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- El tipo de las instancias, es decir, su tamaño
 			- El tiempo que consuman las instancias (como máquinas virtuales u otros, si aplican)
 		- ### Compara la calculadora de precios con la calculadora del Coste Total de la Propiedad
-			- La calculadora *Pricing Calculator* está incluída dentro de Azure Portal y sirve para calcular el coste de los q
+			- La calculadora **Pricing Calculator** está incluída dentro de Azure Portal y sirve para calcular el coste de los recursos que allí le especificamos. Tiene en cuenta recursos, regiones, planes de soporte,...
+			- La calculadora **Total Cost of Ownership (TCO)** calcula cuánto dinero costaría el conjunto de una infraestructura en la nube. Es útil para las empresas que quieran migrar las suyas a Azure. Esta página está disponible para todo el mundo, no solo para los suscritos a Azure.
+		- ### Describe *Azure Cost Management and Billing tool*
+			- Es un servicio para gestionar los pagos a Azure
+			- También nos permite gestionar lo que estamos usando (o gastando) con gráficas y información detallada que nos ayuda a ahorrar de manera que nos damos cuenta de recursos sobreutilizados (o invertir más en recursos importantes e infrautilizados)
+		- ### Describe el propósito de las etiquetas
+			-
 	-
 	-
 	-

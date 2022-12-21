@@ -1,7 +1,7 @@
 tags:: [[Feynman-Technique]], [[Azure]]
 
 -
-- # Describiendo los conceptos de la computación en la nube
+- # Describiendo los conceptos de la computación en la nube {{renderer :wordcount_iijpmxuii}}
 	- ## Describiendo la computación en la nube
 		- ### Qué es la computación en la nube
 			- La computación en la nube es un servicio por parte de los proveedores de nube sobre cómputo, almacenamiento y otros productos relacionados.
@@ -126,7 +126,11 @@ tags:: [[Feynman-Technique]], [[Azure]]
 			- Es un servicio para gestionar los pagos a Azure
 			- También nos permite gestionar lo que estamos usando (o gastando) con gráficas y información detallada que nos ayuda a ahorrar de manera que nos damos cuenta de recursos sobreutilizados (o invertir más en recursos importantes e infrautilizados)
 		- ### Describe el propósito de las etiquetas
-			-
+			- Categorizarlo todo de manera que cuando queramos investigar algo todos los recursos estarán claramente indicados de dónde vienen y a qué sirven.
+	- ## Describe las funcionalidades y herramientas en Azure para la gobernanza y cumplimiento
+		- ### Describe el propósito de Azure Blueprints
+			- Es una herramienta que nos permite recrear entornos completos exhaustivamente.
+			- Incluye no solo máquinas virtuales sino policies,
 	-
 	-
 	-

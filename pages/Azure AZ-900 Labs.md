@@ -1,3 +1,6 @@
+tags:: [[Labs]], [[Azure]]
+
+-
 - ## Labs de https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/
 	- DONE [Crear una máquina virtual en el portal](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/01-Create%20a%20virtual%20machine.html)
 	- DONE [Crear una aplicación web (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/02-Create%20a%20Web%20App.html)
@@ -52,3 +55,5 @@
 		   ON pc.productcategoryid = p.productcategoryid;
 		  ```
 		-
+	- TODO [Implementar un Azure IoT Hub (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/07-Implement%20the%20Azure%20IoT%20Hub.html)
+	-

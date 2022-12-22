@@ -107,3 +107,13 @@ tags:: [[Labs]], [[Azure]]
 	  CLOCK: [2022-12-22 Thu 13:37:29]--[2022-12-22 Thu 13:57:01] =>  00:19:32
 	  :END:
 		- He creado, eliminado y manejado una máquina virtual con la CLI de Bash
+	- DOING [Implementar Azure Key Vault (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/12-Implement%20Azure%20Key%20Vault.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 16:55:25]
+	  :END:
+	-
+-
+-
+-
+-
+-

@@ -152,12 +152,20 @@ tags:: [[Labs]], [[Azure]]
 		- He creado una cuenta de almacenamiento dentro del grupo de recursos
 		- He comprobado cómo la cuenta hereda el bloqueo y tampoco se puede eliminar
 		-
-	- DOING [Implementar el etiquetado de recursos (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/16-Implement%20resource%20tagging.html)
+	- DONE [Implementar el etiquetado de recursos (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/16-Implement%20resource%20tagging.html)
+	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2022-12-22 Thu 18:22:10]
+	  CLOCK: [2022-12-22 Thu 18:22:10]--[2022-12-22 Thu 18:39:04] =>  00:16:54
+	  :END:
+		- He creado una policy para obligar a que determinados recursos de un ámbito tengan una etiqueta obligatoria
+		- He comprobado cómo esto es forzado cuando añado un recurso
+		- Puedo filtrar cualquier tabla por etiquetas, si están asignadas
+		-
+	- DOING [Crear una directiva de Azure (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/17-Create%20an%20Azure%20Policy.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 18:43:01]
 	  :END:
 	-
--
 -
 -
 -

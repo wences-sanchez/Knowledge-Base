@@ -118,6 +118,9 @@ tags:: [[Labs]], [[Azure]]
 		- ![image.png](../assets/image_1671725244737_0.png)
 		-
 	- TODO [Crear un Network Security Group (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/13-Secure%20network%20traffic.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 17:34:26]--[2022-12-22 Thu 17:34:29] =>  00:00:03
+	  :END:
 	-
 -
 -

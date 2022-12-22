@@ -143,10 +143,21 @@ tags:: [[Labs]], [[Azure]]
 		- He asignado un rol a mi usuario (de colaborador de máquina virtual)
 		- ![image.png](../assets/image_1671728803415_0.png)
 		-
-	- TODO [Administrar bloqueos de recursos (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/15-Manage%20resource%20locks.html)
+	- DONE [Administrar bloqueos de recursos (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/15-Manage%20resource%20locks.html)
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-12-22 Thu 18:08:41]--[2022-12-22 Thu 18:16:44] =>  00:08:03
 	  :END:
+		- He creado un bloqueo para el grupo de recursos de *CanNotDelete*
+		- He creado una cuenta de almacenamiento dentro del grupo de recursos
+		- He comprobado cómo la cuenta hereda el bloqueo y tampoco se puede eliminar
 		-
+	- DOING [Implementar el etiquetado de recursos (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/16-Implement%20resource%20tagging.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 18:22:10]
+	  :END:
+	-
+-
+-
 -
 -

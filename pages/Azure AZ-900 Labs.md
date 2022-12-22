@@ -105,4 +105,4 @@ tags:: [[Labs]], [[Azure]]
 	  :LOGBOOK:
 	  CLOCK: [2022-12-22 Thu 13:37:29]
 	  :END:
-	-
+		- He creado, eliminado y manejado una

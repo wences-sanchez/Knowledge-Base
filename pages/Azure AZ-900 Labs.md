@@ -12,8 +12,18 @@
 		- ![image.png](../assets/image_1671701455577_0.png)
 		- ![image.png](../assets/image_1671701491090_0.png)
 		-
-	- DOING [Crear una red virtual (20 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/04-Create%20a%20virtual%20network.html)
+	- DONE [Crear una red virtual (20 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/04-Create%20a%20virtual%20network.html)
+	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2022-12-22 Thu 10:32:50]
+	  CLOCK: [2022-12-22 Thu 10:32:50]--[2022-12-22 Thu 10:58:54] =>  00:26:04
+	  :END:
+		- ![image.png](../assets/image_1671703167483_0.png)
+		- ![image.png](../assets/image_1671703194333_0.png)
+		- ![image.png](../assets/image_1671703217144_0.png)
+		- ![image.png](../assets/image_1671703239837_0.png)
+		-
+	- DOING [Crear almacenamiento de blobs (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/05-Create%20Blob%20storage.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 11:01:46]
 	  :END:
 	-

@@ -55,7 +55,8 @@ tags:: [[Labs]], [[Azure]]
 		   ON pc.productcategoryid = p.productcategoryid;
 		  ```
 		-
-	- TODO [Implementar un Azure IoT Hub (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/07-Implement%20the%20Azure%20IoT%20Hub.html)
+	- DONE [Implementar un Azure IoT Hub (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/07-Implement%20the%20Azure%20IoT%20Hub.html)
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-12-22 Thu 12:00:03]--[2022-12-22 Thu 12:20:06] => 00:20:03
 	  :END:
@@ -68,3 +69,8 @@ tags:: [[Labs]], [[Azure]]
 		- ![image.png](../assets/image_1671708361874_0.png)
 		-
 		-
+	- DOING [Implementar Azure Functions (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/08-Implement%20Azure%20Functions.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 12:29:07]
+	  :END:
+	-

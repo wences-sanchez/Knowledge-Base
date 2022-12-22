@@ -133,7 +133,8 @@ tags:: [[Labs]], [[Azure]]
 		- ![image.png](../assets/image_1671727546897_0.png)
 		- ![image.png](../assets/image_1671727576450_0.png)
 		-
-	- TODO [Administrar el acceso con RBAC (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/14-Manage%20access%20with%20RBAC.html)
+	- DONE [Administrar el acceso con RBAC (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/14-Manage%20access%20with%20RBAC.html)
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-12-22 Thu 17:40:51]--[2022-12-22 Thu 18:02:51] =>  00:22:00
 	  :END:
@@ -142,6 +143,10 @@ tags:: [[Labs]], [[Azure]]
 		- He asignado un rol a mi usuario (de colaborador de máquina virtual)
 		- ![image.png](../assets/image_1671728803415_0.png)
 		-
--
+	- TODO [Administrar bloqueos de recursos (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/15-Manage%20resource%20locks.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 18:08:41]--[2022-12-22 Thu 18:16:44] =>  00:08:03
+	  :END:
+		-
 -
 -

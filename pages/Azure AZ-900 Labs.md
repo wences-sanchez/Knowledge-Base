@@ -95,8 +95,9 @@ tags:: [[Labs]], [[Azure]]
 		- ![image.png](../assets/image_1671711510982_0.png)
 		- ![image.png](../assets/image_1671711530216_0.png)
 		-
-	- DOING [Crear una VM con PowerShell (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/10-Create%20a%20VM%20with%20PowerShell.html)
+	- DONE [Crear una VM con PowerShell (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/10-Create%20a%20VM%20with%20PowerShell.html)
 	  :LOGBOOK:
-	  CLOCK: [2022-12-22 Thu 13:22:39]
+	  CLOCK: [2022-12-22 Thu 13:22:39]--[2022-12-22 Thu 13:34:53] =>  00:12:14
 	  :END:
-	-
+		- He creado una máquina virtual con comandos de PowerShell
+	- TODO []()

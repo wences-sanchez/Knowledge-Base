@@ -134,7 +134,14 @@ tags:: [[Labs]], [[Azure]]
 		- ![image.png](../assets/image_1671727576450_0.png)
 		-
 	- TODO [Administrar el acceso con RBAC (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/14-Manage%20access%20with%20RBAC.html)
-	-
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 17:40:51]--[2022-12-22 Thu 18:02:51] =>  00:22:00
+	  :END:
+		- He creado un grupo de recursos
+		- He observado cuántos roles distintos hay disponibles
+		- He asignado un rol a mi usuario (de colaborador de máquina virtual)
+		- ![image.png](../assets/image_1671728803415_0.png)
+		-
 -
 -
 -

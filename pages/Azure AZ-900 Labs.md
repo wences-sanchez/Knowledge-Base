@@ -83,10 +83,20 @@ tags:: [[Labs]], [[Azure]]
 		- ![image.png](../assets/image_1671709719194_0.png)
 		- ![image.png](../assets/image_1671709737215_0.png)
 		-
-	- DOING [Crear una VM con una plantilla (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/09-Create%20a%20VM%20with%20a%20Template.html)
+	- DONE [Crear una VM con una plantilla (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/09-Create%20a%20VM%20with%20a%20Template.html)
+	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2022-12-22 Thu 12:51:12]
+	  CLOCK: [2022-12-22 Thu 12:51:12]--[2022-12-22 Thu 13:21:06] =>  00:29:54
 	  :END:
 		- He ido a la página https://azure.microsoft.com/es-es/resources/templates/?azure-portal=true y he elegido *Deploy a simple Windows VM*
 		- Le he dado al botón de *Desplegar en Azure*
+		- He modificado algún parámetro y rellenado otros en el formulario de Azure (tamaño = `Standard_B1s`)
+		- He desplegado la máquina virtual correctamente
+		- ![image.png](../assets/image_1671711510982_0.png)
+		- ![image.png](../assets/image_1671711530216_0.png)
 		-
+	- DOING [Crear una VM con PowerShell (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/10-Create%20a%20VM%20with%20PowerShell.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 13:22:39]
+	  :END:
+	-

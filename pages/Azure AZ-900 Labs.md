@@ -117,12 +117,23 @@ tags:: [[Labs]], [[Azure]]
 		- ![image.png](../assets/image_1671725222853_0.png)
 		- ![image.png](../assets/image_1671725244737_0.png)
 		-
-	- TODO [Crear un Network Security Group (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/13-Secure%20network%20traffic.html)
+	- DONE [Crear un Network Security Group (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/13-Secure%20network%20traffic.html)
+	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2022-12-22 Thu 17:34:26]--[2022-12-22 Thu 17:34:29] =>  00:00:03
+	  CLOCK: [2022-12-22 Thu 17:07:29]--[2022-12-22 Thu 17:34:29] =>  00:27:00
 	  :END:
+		- He creado una máquina virtual con una tarjeta de red en blanco
+		- He asociado a ella el grupo de seguridad de red que acabo de crear
+		- Le asocio la regla al grupo para permitir conexiones RDP en el puerto 3389
+		- Le asocio la regla al grupo para denegarle el acceso a internet.
+			- Con una etiqueta de servicio de destino *internet* en el formulario.
+			- Y con un número de regla más prioritario que la regla existente que habilita internet.
+		- ![image.png](../assets/image_1671727474103_0.png)
+		- ![image.png](../assets/image_1671727518160_0.png)
+		- ![image.png](../assets/image_1671727546897_0.png)
+		- ![image.png](../assets/image_1671727576450_0.png)
+		-
 	-
--
 -
 -
 -

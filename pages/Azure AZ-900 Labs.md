@@ -87,4 +87,6 @@ tags:: [[Labs]], [[Azure]]
 	  :LOGBOOK:
 	  CLOCK: [2022-12-22 Thu 12:51:12]
 	  :END:
-	-
+		- He ido a la página https://azure.microsoft.com/es-es/resources/templates/?azure-portal=true y he elegido *Deploy a simple Windows VM*
+		- Le he dado al botón de *Desplegar en Azure*
+		-

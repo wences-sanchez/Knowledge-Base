@@ -61,4 +61,10 @@ tags:: [[Labs]], [[Azure]]
 	  :END:
 		- He creado un hub para IoT
 		- He añadido un nuevo dispositivo
-		- He simulado mediante la página
+		- He simulado mediante la página https://aka.ms/RaspPi una RaspberryPi
+		- He conectado la RaspberryPi a mi Azure Hub y ejecutado y visto mis mensajes en Azure
+		- ![image.png](../assets/image_1671708300625_0.png)
+		- ![image.png](../assets/image_1671708332493_0.png)
+		- ![image.png](../assets/image_1671708361874_0.png)
+		-
+		-

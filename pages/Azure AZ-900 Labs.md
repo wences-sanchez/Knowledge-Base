@@ -30,8 +30,13 @@
 		- ![image.png](../assets/image_1671704299301_0.png)
 		- ![image.png](../assets/image_1671704341625_0.png)
 		-
-	- DOING [Crear una base de datos SQL (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/06-Create%20a%20SQL%20database.html)
+	- TODO [Crear una base de datos SQL (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/06-Create%20a%20SQL%20database.html)
 	  :LOGBOOK:
-	  CLOCK: [2022-12-22 Thu 11:20:48]
+	  CLOCK: [2022-12-22 Thu 11:20:48]--[2022-12-22 Thu 11:40:08] =>  00:19:20
 	  :END:
-	-
+		- He creado la base de datos con el nombre db1
+		- He creado el servidor SQL con nombre único
+		- He configurado los detalles de la base de datos acorde con la documentación
+		- He añadido mi IP al firewall del servidor SQL a través del portal Azure
+		- Me he conectado al servidor y he ejecutado la consulta SQL
+		- He borrado

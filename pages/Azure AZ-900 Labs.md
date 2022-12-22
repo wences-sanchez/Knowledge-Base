@@ -161,9 +161,9 @@ tags:: [[Labs]], [[Azure]]
 		- He comprobado cómo esto es forzado cuando añado un recurso
 		- Puedo filtrar cualquier tabla por etiquetas, si están asignadas
 		-
-	- DOING [Crear una directiva de Azure (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/17-Create%20an%20Azure%20Policy.html)
+	- TODO [Crear una directiva de Azure (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/17-Create%20an%20Azure%20Policy.html)
 	  :LOGBOOK:
-	  CLOCK: [2022-12-22 Thu 18:43:01]
+	  CLOCK: [2022-12-22 Thu 18:43:01]--[2022-12-22 Thu 19:09:38] =>  00:26:37
 	  :END:
 	-
 -

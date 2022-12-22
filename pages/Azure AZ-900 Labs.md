@@ -133,6 +133,7 @@ tags:: [[Labs]], [[Azure]]
 		- ![image.png](../assets/image_1671727546897_0.png)
 		- ![image.png](../assets/image_1671727576450_0.png)
 		-
+	- TODO [Administrar el acceso con RBAC (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/14-Manage%20access%20with%20RBAC.html)
 	-
 -
 -

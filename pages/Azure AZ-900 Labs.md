@@ -69,7 +69,8 @@ tags:: [[Labs]], [[Azure]]
 		- ![image.png](../assets/image_1671708361874_0.png)
 		-
 		-
-	- TODO [Implementar Azure Functions (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/08-Implement%20Azure%20Functions.html)
+	- DONE [Implementar Azure Functions (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/08-Implement%20Azure%20Functions.html)
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-12-22 Thu 12:29:07]--[2022-12-22 Thu 12:44:45] =>  00:15:38
 	  :END:
@@ -77,4 +78,13 @@ tags:: [[Labs]], [[Azure]]
 		- He añadido una función de ejemplo predefinida
 		- La he ejecutado mediante copiar y llamar a su URL
 		- He añadido el parámetro de mi nombre al final de la URL y vuelto a ejecutar
+		- ![image.png](../assets/image_1671709633024_0.png)
+		- ![image.png](../assets/image_1671709686846_0.png)
+		- ![image.png](../assets/image_1671709719194_0.png)
+		- ![image.png](../assets/image_1671709737215_0.png)
 		-
+	- DOING [Crear una VM con una plantilla (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/09-Create%20a%20VM%20with%20a%20Template.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 12:51:12]
+	  :END:
+	-

@@ -56,4 +56,9 @@ tags:: [[Labs]], [[Azure]]
 		  ```
 		-
 	- TODO [Implementar un Azure IoT Hub (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/07-Implement%20the%20Azure%20IoT%20Hub.html)
-	-
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 12:00:03]--[2022-12-22 Thu 12:20:06] => 00:20:03
+	  :END:
+		- He creado un hub para IoT
+		- He añadido un nuevo dispositivo
+		- He simulado mediante la página

@@ -161,9 +161,19 @@ tags:: [[Labs]], [[Azure]]
 		- He comprobado cómo esto es forzado cuando añado un recurso
 		- Puedo filtrar cualquier tabla por etiquetas, si están asignadas
 		-
-	- TODO [Crear una directiva de Azure (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/17-Create%20an%20Azure%20Policy.html)
+	- DONE [Crear una directiva de Azure (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/17-Create%20an%20Azure%20Policy.html)
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-12-22 Thu 18:43:01]--[2022-12-22 Thu 19:09:38] =>  00:26:37
+	  :END:
+		- He creado una policy para limitar la geolocalización de la creación de recursos
+	- DONE [Explorar el centro de confianza (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/18-Explore%20the%20Trust%20Center.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 19:19:34]--[2022-12-22 Thu 19:20:36] =>  00:01:02
+	  :END:
+	- DONE [Usar la calculadora de precios de Azure (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/19-Use%20the%20Azure%20Pricing%20Calculator.html)
+	  :LOGBOOK:
+	  CLOCK: [2022-12-22 Thu 19:21:43]--[2022-12-22 Thu 19:26:20] =>  00:04:37
 	  :END:
 	-
 -

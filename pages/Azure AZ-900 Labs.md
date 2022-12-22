@@ -107,14 +107,18 @@ tags:: [[Labs]], [[Azure]]
 	  CLOCK: [2022-12-22 Thu 13:37:29]--[2022-12-22 Thu 13:57:01] =>  00:19:32
 	  :END:
 		- He creado, eliminado y manejado una máquina virtual con la CLI de Bash
-	- TODO [Implementar Azure Key Vault (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/12-Implement%20Azure%20Key%20Vault.html)
+	- DONE [Implementar Azure Key Vault (5 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/12-Implement%20Azure%20Key%20Vault.html)
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-12-22 Thu 16:55:25]--[2022-12-22 Thu 17:05:02] =>  00:09:37
 	  :END:
 		- He creado un nuevo vault para contraseñas
 		- He añadido una contraseña nueva dándole un nombre y asignándole una petición HTTPS para pedir su valor
+		- ![image.png](../assets/image_1671725222853_0.png)
+		- ![image.png](../assets/image_1671725244737_0.png)
 		-
--
+	- TODO [Crear un Network Security Group (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/13-Secure%20network%20traffic.html)
+	-
 -
 -
 -

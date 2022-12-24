@@ -3,17 +3,17 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 
 -
 - ## Tareas
-	- DOING Introducción a las redes virtuales de Azure (1h 18min.) {{renderer :todomaster}}
+	- TODO Introducción a las redes virtuales de Azure (1h 18min.) {{renderer :todomaster}}
 	  :LOGBOOK:
-	  CLOCK: [2022-12-24 Sat 11:07:29]
+	  CLOCK: [2022-12-24 Sat 11:07:29]--[2022-12-24 Sat 11:12:27] =>  00:04:58
 	  :END:
 		- DONE Introducción (1 min.)
 		  :LOGBOOK:
 		  CLOCK: [2022-12-24 Sat 11:07:31]--[2022-12-24 Sat 11:08:11] =>  00:00:40
 		  :END:
-		- DOING Exploración de las redes virtuales de Azure (11 min.)
+		- TODO Exploración de las redes virtuales de Azure (11 min.)
 		  :LOGBOOK:
-		  CLOCK: [2022-12-24 Sat 11:08:14]
+		  CLOCK: [2022-12-24 Sat 11:08:14]--[2022-12-24 Sat 11:12:08] =>  00:03:54
 		  :END:
 		- TODO Configurar servicios de IP pública (8 min.)
 		- TODO Diseño e implementación de una red virtual en Azure (7 min.) #Labs

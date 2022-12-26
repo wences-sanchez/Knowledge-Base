@@ -18,11 +18,14 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 		  CLOCK: [2022-12-24 Sat 11:08:14]--[2022-12-24 Sat 11:12:08] =>  00:03:54
 		  CLOCK: [2022-12-24 Sat 11:40:16]--[2022-12-24 Sat 11:59:34] =>  00:19:18
 		  :END:
-		- DOING Configurar servicios de IP pública (8 min.)
+		- DONE Configurar servicios de IP pública (8 min.)
 		  :LOGBOOK:
-		  CLOCK: [2022-12-26 Mon 10:21:45]
+		  CLOCK: [2022-12-26 Mon 10:21:45]--[2022-12-26 Mon 10:30:19] =>  00:08:34
 		  :END:
-		- TODO Diseño e implementación de una red virtual en Azure (7 min.) #Labs
+		- DOING Diseño e implementación de una red virtual en Azure (7 min.) #Labs
+		  :LOGBOOK:
+		  CLOCK: [2022-12-26 Mon 10:30:31]
+		  :END:
 		- TODO Diseño de la resolución de nombres para la red virtual (10 min.)
 		- TODO Configuración de lso servidores de nombres de dominio en Azure (7 min.) #Labs
 		- TODO Habilitación de la conectividad entre redes virtuales con emparejamiento (6 min.)

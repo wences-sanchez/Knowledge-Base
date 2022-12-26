@@ -35,11 +35,14 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 		  :LOGBOOK:
 		  CLOCK: [2022-12-26 Mon 11:08:18]--[2022-12-26 Mon 12:09:00] =>  01:00:42
 		  :END:
-		- DOING Habilitación de la conectividad entre redes virtuales con emparejamiento (6 min.)
+		- DONE Habilitación de la conectividad entre redes virtuales con emparejamiento (6 min.)
 		  :LOGBOOK:
-		  CLOCK: [2022-12-26 Mon 12:40:44]
+		  CLOCK: [2022-12-26 Mon 12:40:44]--[2022-12-26 Mon 12:49:51] =>  00:09:07
 		  :END:
-		- TODO Conexión de dos redes virtuales de Azure mediante el emparejamiento de red virtual global (5 min.) #Labs
+		- DOING Conexión de dos redes virtuales de Azure mediante el emparejamiento de red virtual global (5 min.) #Labs
+		  :LOGBOOK:
+		  CLOCK: [2022-12-26 Mon 12:49:55]
+		  :END:
 		- TODO Implementación del enrutamiento del tráfico de redes virtuales (16 min.)
 		- TODO Configuración del acceso a Internet con Azure Virtual NAT (6 min.)
 		- TODO Resumen (1 min.)

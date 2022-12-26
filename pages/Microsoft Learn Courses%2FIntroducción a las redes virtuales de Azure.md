@@ -3,11 +3,11 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 
 -
 - ## Tareas
-	- DOING Introducción a las redes virtuales de Azure (1h 18min.) {{renderer :todomaster}}
+	- TODO Introducción a las redes virtuales de Azure (1h 18min.) {{renderer :todomaster}}
 	  :LOGBOOK:
 	  CLOCK: [2022-12-24 Sat 11:07:29]--[2022-12-24 Sat 11:12:27] =>  00:04:58
 	  CLOCK: [2022-12-24 Sat 11:40:14]--[2022-12-24 Sat 11:59:36] =>  00:19:22
-	  CLOCK: [2022-12-26 Mon 10:21:43]
+	  CLOCK: [2022-12-26 Mon 10:21:43]--[2022-12-26 Mon 12:09:08] =>  01:47:25
 	  :END:
 		- DONE Introducción (1 min.)
 		  :LOGBOOK:
@@ -30,9 +30,9 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 		  :LOGBOOK:
 		  CLOCK: [2022-12-26 Mon 10:57:07]--[2022-12-26 Mon 11:08:07] =>  00:11:00
 		  :END:
-		- DOING Configuración de lso servidores de nombres de dominio en Azure (7 min.) #Labs
+		- DONE Configuración de lso servidores de nombres de dominio en Azure (7 min.) #Labs
 		  :LOGBOOK:
-		  CLOCK: [2022-12-26 Mon 11:08:18]
+		  CLOCK: [2022-12-26 Mon 11:08:18]--[2022-12-26 Mon 12:09:00] =>  01:00:42
 		  :END:
 		- TODO Habilitación de la conectividad entre redes virtuales con emparejamiento (6 min.)
 		- TODO Conexión de dos redes virtuales de Azure mediante el emparejamiento de red virtual global (5 min.) #Labs

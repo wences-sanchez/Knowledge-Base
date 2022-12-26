@@ -3,12 +3,13 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 
 -
 - ## Tareas
-	- DOING Introducción a las redes virtuales de Azure (1h 18min.) {{renderer :todomaster}}
+	- DONE Introducción a las redes virtuales de Azure (1h 18min.) {{renderer :todomaster}}
 	  :LOGBOOK:
 	  CLOCK: [2022-12-24 Sat 11:07:29]--[2022-12-24 Sat 11:12:27] =>  00:04:58
 	  CLOCK: [2022-12-24 Sat 11:40:14]--[2022-12-24 Sat 11:59:36] =>  00:19:22
 	  CLOCK: [2022-12-26 Mon 10:21:43]--[2022-12-26 Mon 12:09:08] =>  01:47:25
-	  CLOCK: [2022-12-26 Mon 12:40:47]
+	  CLOCK: [2022-12-26 Mon 12:40:47]--[2022-12-26 Mon 13:15:12] =>  00:34:25
+	  CLOCK: [2022-12-26 Mon 13:15:13]--[2022-12-26 Mon 13:15:15] =>  00:00:02
 	  :END:
 		- DONE Introducción (1 min.)
 		  :LOGBOOK:
@@ -47,11 +48,14 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 		  :LOGBOOK:
 		  CLOCK: [2022-12-26 Mon 12:58:19]--[2022-12-26 Mon 13:09:22] =>  00:11:03
 		  :END:
-		- DOING Configuración del acceso a Internet con Azure Virtual NAT (6 min.)
+		- DONE Configuración del acceso a Internet con Azure Virtual NAT (6 min.)
 		  :LOGBOOK:
-		  CLOCK: [2022-12-26 Mon 13:09:25]
+		  CLOCK: [2022-12-26 Mon 13:09:25]--[2022-12-26 Mon 13:12:38] =>  00:03:13
 		  :END:
-		- TODO Resumen (1 min.)
+		- DONE Resumen (1 min.)
+		  :LOGBOOK:
+		  CLOCK: [2022-12-26 Mon 13:12:41]--[2022-12-26 Mon 13:15:09] =>  00:02:28
+		  :END:
 		-
 -
 - ## Introducción
@@ -63,3 +67,12 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 -
 - ## Configurar servicios de IP pública
 	-
+- ## Resumen
+	- Ahora que ha revisado este módulo, debe ser capaz de:
+		- Implementar redes virtuales
+		- Configurar servicios de IP pública
+		- Diseñar e implementar la resolución de nombres
+		- Diseñar e implementar la conectividad entre redes virtuales
+		- Implementación de una red virtual
+		- Diseño e implementación de una instancia de Azure Virtual Network NAT
+		-

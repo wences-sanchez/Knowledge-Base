@@ -26,11 +26,14 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 		  :LOGBOOK:
 		  CLOCK: [2022-12-26 Mon 10:30:31]--[2022-12-26 Mon 10:55:46] =>  00:25:15
 		  :END:
-		- DOING Diseño de la resolución de nombres para la red virtual (10 min.)
+		- DONE Diseño de la resolución de nombres para la red virtual (10 min.)
 		  :LOGBOOK:
-		  CLOCK: [2022-12-26 Mon 10:57:07]
+		  CLOCK: [2022-12-26 Mon 10:57:07]--[2022-12-26 Mon 11:08:07] =>  00:11:00
 		  :END:
-		- TODO Configuración de lso servidores de nombres de dominio en Azure (7 min.) #Labs
+		- DOING Configuración de lso servidores de nombres de dominio en Azure (7 min.) #Labs
+		  :LOGBOOK:
+		  CLOCK: [2022-12-26 Mon 11:08:18]
+		  :END:
 		- TODO Habilitación de la conectividad entre redes virtuales con emparejamiento (6 min.)
 		- TODO Conexión de dos redes virtuales de Azure mediante el emparejamiento de red virtual global (5 min.) #Labs
 		- TODO Implementación del enrutamiento del tráfico de redes virtuales (16 min.)

@@ -43,11 +43,14 @@ deck:: [[Cloud Learning::Azure::Practical Skills::Introducción a las redes virt
 		  :LOGBOOK:
 		  CLOCK: [2022-12-26 Mon 12:49:55]--[2022-12-26 Mon 12:58:10] =>  00:08:15
 		  :END:
-		- DOING Implementación del enrutamiento del tráfico de redes virtuales (16 min.)
+		- DONE Implementación del enrutamiento del tráfico de redes virtuales (16 min.)
 		  :LOGBOOK:
-		  CLOCK: [2022-12-26 Mon 12:58:19]
+		  CLOCK: [2022-12-26 Mon 12:58:19]--[2022-12-26 Mon 13:09:22] =>  00:11:03
 		  :END:
-		- TODO Configuración del acceso a Internet con Azure Virtual NAT (6 min.)
+		- DOING Configuración del acceso a Internet con Azure Virtual NAT (6 min.)
+		  :LOGBOOK:
+		  CLOCK: [2022-12-26 Mon 13:09:25]
+		  :END:
 		- TODO Resumen (1 min.)
 		-
 -

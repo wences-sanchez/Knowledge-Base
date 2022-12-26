@@ -8,7 +8,6 @@ tags:: [[Labs]], [[Azure]]
 	  CLOCK: [2022-12-22 Thu 10:08:33]--[2022-12-22 Thu 10:19:10] =>  00:10:37
 	  :END:
 	- DONE [Implementación de Azure Container Instances (10 min.)](https://microsoftlearning.github.io/AZ-900T0xES-MicrosoftAzureFundamentals/Instructions/Walkthroughs/03-Deploy%20Azure%20Container%20Instances.html)
-	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-12-22 Thu 10:20:53]--[2022-12-22 Thu 10:30:17] =>  00:09:24
 	  :END:

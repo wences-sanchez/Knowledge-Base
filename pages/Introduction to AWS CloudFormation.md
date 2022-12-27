@@ -32,4 +32,14 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
   id:: 63aad7c6-7330-439b-b81f-413b9af7bbf8
 	- ### Managing Infrastructure in the Cloud
 		- When Infrastucture comes so quickly, we now have a problem about how do we manage those infracture components.
-		- The scripts start to be error pro
+		- The scripts start to be difficult to maintain compared as IaC
+	- ### Infrastructure as Code
+		- Tools from software development applied to Infrastrucure:
+			- Version Control
+			- Testing
+			- CI/CD
+	- ### What is CloudFormation?
+		- CloudFormation is an Infrastructe as Code tool for AWS
+		- It's designed specifically for AWS
+		- It's free, but the resources
+		-

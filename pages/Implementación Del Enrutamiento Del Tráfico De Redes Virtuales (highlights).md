@@ -8,6 +8,7 @@ url:: https://learn.microsoft.com/es-es/training/modules/introduction-to-azure-v
 - Highlights first synced by [[Readwise]] [[Monday, 26-12-2022]]
 	- -
 		- Acerca de cómo funcionan los endpoints privados en Azure #flashcard
+		  id:: 63aac1bd-b0e4-420f-aae6-e145eea90691
 			- Protección de una red virtual mediante la tunelización forzada
 			  
 			  La tunelización forzada permite redirigir o forzar todo el tráfico vinculado a Internet de vuelta a su ubicación local a través de un túnel VPN de sitio a sitio con fines de inspección y auditoría. Se trata de un requisito de seguridad crítico en la mayoría de las directivas de las empresas de TI. Si no configura la tunelización forzada, el tráfico de Internet desde las máquinas virtuales de Azure siempre va desde la infraestructura de red de Azure directamente a Internet, sin la opción que permite inspeccionarlo o auditarlo. Un acceso no autorizado a Internet puede provocar la divulgación de información u otros tipos de infracciones de seguridad. La tunelización forzada puede configurarse mediante Azure PowerShell. No se puede configurar con Azure Portal.

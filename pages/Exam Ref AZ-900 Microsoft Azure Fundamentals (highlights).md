@@ -53,6 +53,7 @@ tags:: Azure O'Reilly-Learning
 		- -
 		- -
 			- Azure offers another feature for VMs called scale sets that solves these problems nicely. When you create a scale set, you tell Azure what operating system you want to run and then you tell Azure how many VMs you want in your scale set. You have many other options such as creating a load balancer or gateway and so forth. Azure will create as many VMs as you specify (up to 1,000) in one easy step. #flashcard
+			  id:: 63a2f5b3-c1c9-486d-8684-ec317b56286f
 		- -
 		- -
 			- This diagram is simplified, but it illustrates the basics of how App Service works. Azure Load Balancer distributes traffic to a special VM within App Service called a front end. The front end is running special software that allows it to effectively distribute traffic to the VMs that are actually running your web app. These VMs run inside of an App Service plan, a logical container for one or more VMs that are running your web app.

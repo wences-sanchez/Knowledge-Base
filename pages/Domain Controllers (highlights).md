@@ -8,6 +8,7 @@ url:: https://learning.oreilly.com/library/view/networking-fundamentals/97818386
 - Highlights first synced by [[Readwise]] [[Monday, 26-12-2022]]
 	- -
 		- Active Directory is broken down into the following:
+		  id:: 63aac1bd-c844-464f-8941-39bf5bdaf52b
 		  
 		  •   Containers
 		  •   **Organizational Units** (**OUs**)

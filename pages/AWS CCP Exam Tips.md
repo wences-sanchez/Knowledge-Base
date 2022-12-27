@@ -21,12 +21,17 @@ deck:: [[AWS::CCP::Tips]]
 		- The company will still be responsible for maintaining an internal help desk.
 -
 	- ¿Pueden ser los despliegues multi-regionales? #flashcard
+	  id:: 63aac21a-8828-4675-ab4e-a3785df07251
 		- Sí
 	- ¿Pueden las subredes comunicarse entre sí? #flashcard
+	  id:: 63aac24a-9ea1-467a-acdb-f10b54600176
 		- Sí, por defecto las subredes de una misma red o VPC pueden comunicarse entre sí.
 	- ¿Puede usarse CloudFront para aumentar la Alta Disponibilidad? #flashcard
+	  id:: 63aac285-477d-4ae7-acdf-6f165b7e60e5
 		- No, CloudFron solo no puede aumentar la Alta Disponibilidad.
 	- ¿Pueden usarse las alarmas de CloudWatch para activar triggers? #flashcard
+	  id:: 63aac2d6-42bb-47bf-88f3-14ff6b7ef883
 		- Sí, una alarma de CloudWatch se puede usar para activar cualquier trigger
 	- ¿A qué pilar del *Well-Architected Framework* le corresponde el descubrimiento de servicios? #flashcard
+	  id:: 63aac363-a0cb-4db2-9474-4c25ba3718f8
 		- A la eficacia del rendimiento

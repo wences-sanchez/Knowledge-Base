@@ -19,4 +19,14 @@ deck:: [[AWS::CCP::Tips]]
 	- AWS doesn't provide {{cloze a help desk service}} for your internals #flashcard
 	  id:: 635679d4-4273-43c2-9ed4-9cd3f61a701c
 		- The company will still be responsible for maintaining an internal help desk.
-	-
+-
+	- ¿Pueden ser los despliegues multi-regionales? #flashcard
+		- Sí
+	- ¿Pueden las subredes comunicarse entre sí? #flashcard
+		- Sí, por defecto las subredes de una misma red o VPC pueden comunicarse entre sí.
+	- ¿Puede usarse CloudFront para aumentar la Alta Disponibilidad? #flashcard
+		- No, CloudFron solo no puede aumentar la Alta Disponibilidad.
+	- ¿Pueden usarse las alarmas de CloudWatch para activar triggers? #flashcard
+		- Sí, una alarma de CloudWatch se puede usar para activar cualquier trigger
+	- ¿A qué pilar del *Well-Architected Framework* le corresponde el descubrimiento de servicios? #flashcard
+		- A la eficacia del rendimiento

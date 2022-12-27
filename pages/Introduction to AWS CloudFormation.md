@@ -3,21 +3,25 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 
 -
 - ## Tareas
-	- DOING Introduction to AWS CloudFormation
+	- TODO Introduction to AWS CloudFormation
 	  :LOGBOOK:
-	  CLOCK: [2022-12-27 Tue 12:22:53]
+	  CLOCK: [2022-12-27 Tue 12:22:53]--[2022-12-27 Tue 13:46:28] =>  01:23:35
 	  :END:
 		- DONE Introduction (6 min.) ((63aad5a1-19f4-462d-9277-a5dfe9d9f40f))
 		  id:: 63aad4d2-df9d-4fe6-922d-ccd2e84a7820
 		  :LOGBOOK:
 		  CLOCK: [2022-12-27 Tue 12:23:09]--[2022-12-27 Tue 12:31:59] =>  00:08:50
 		  :END:
-		- DOING Managing Infrastructure in the Cloud (14 min.) ((63aad7c6-7330-439b-b81f-413b9af7bbf8))
+		- DONE Managing Infrastructure in the Cloud (14 min.) ((63aad7c6-7330-439b-b81f-413b9af7bbf8))
 		  id:: 63aad4da-1f9d-4848-9009-ce790dd5f4c9
 		  :LOGBOOK:
-		  CLOCK: [2022-12-27 Tue 12:33:07]
+		  CLOCK: [2022-12-27 Tue 12:33:07]--[2022-12-27 Tue 13:42:36] =>  01:09:29
 		  :END:
-		- TODO CloudFormation Fundamentals (10 min.)
+		- TODO CloudFormation Fundamentals (10 min.) ((63aae85b-0a1f-43f4-a2b0-c0849206f61b))
+		  id:: 63aad4fd-53e8-47af-aa2c-905e6791ba51
+		  :LOGBOOK:
+		  CLOCK: [2022-12-27 Tue 13:44:09]--[2022-12-27 Tue 13:46:15] =>  00:02:06
+		  :END:
 		- TODO CloudFormation Features (38 min.)
 		- TODO Setting up an EC2 Instance (18 min.)
 		- TODO Updating our Stack with Change Sets (33 min.)
@@ -42,4 +46,15 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		- CloudFormation is an Infrastructe as Code tool for AWS
 		- It's designed specifically for AWS
 		- It's free, but the resources
-		-
+-
+- ## Chapter 3: CloudFormation Fundamentals
+  id:: 63aae85b-0a1f-43f4-a2b0-c0849206f61b
+	-
+-
+-
+-
+-
+-
+-
+-
+-

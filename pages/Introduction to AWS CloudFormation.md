@@ -82,8 +82,9 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 	- ### Multiple Resources
 	- ### Pseudo-Parameters
 		- ![image.png](../assets/image_1672221322061_0.png)
+		- You have to use `!Join` if you want to append a pseudo-parameter to a string
+	- ### Mappings
 		-
--
 -
 -
 -

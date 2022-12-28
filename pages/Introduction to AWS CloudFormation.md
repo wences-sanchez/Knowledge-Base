@@ -97,7 +97,11 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 	- ### Introduction
 	- ### User Data
 		- UserData is a property of AWS::EC2::Instance
-	- ###
+		- ![image.png](../assets/image_1672229488759_0.png)
+	- ### CloudFormation Helper Scripts
+		- ![image.png](../assets/image_1672229692382_0.png)
+	- ### CloudFormation Init
+		-
 -
 -
 -

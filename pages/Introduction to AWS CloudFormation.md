@@ -3,10 +3,10 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 
 -
 - ## Tareas
-	- DOING Introduction to AWS CloudFormation
+	- TODO Introduction to AWS CloudFormation
 	  :LOGBOOK:
 	  CLOCK: [2022-12-27 Tue 12:22:53]--[2022-12-27 Tue 13:46:28] =>  01:23:35
-	  CLOCK: [2022-12-28 Wed 09:30:31]
+	  CLOCK: [2022-12-28 Wed 09:30:31]--[2022-12-28 Wed 12:44:20] =>  03:13:49
 	  :END:
 		- DONE Introduction (6 min.) ((63aad5a1-19f4-462d-9277-a5dfe9d9f40f))
 		  id:: 63aad4d2-df9d-4fe6-922d-ccd2e84a7820
@@ -24,10 +24,10 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  CLOCK: [2022-12-27 Tue 13:44:09]--[2022-12-27 Tue 13:46:15] =>  00:02:06
 		  CLOCK: [2022-12-28 Wed 09:30:30]--[2022-12-28 Wed 09:53:16] =>  00:22:46
 		  :END:
-		- DOING CloudFormation Features (38 min.) ((63ac0433-32a6-4663-9299-da8e2509a8f9))
+		- DONE CloudFormation Features (38 min.) ((63ac0433-32a6-4663-9299-da8e2509a8f9))
 		  id:: 63abfe90-d3d1-4db6-8f70-61c9bb1e7e13
 		  :LOGBOOK:
-		  CLOCK: [2022-12-28 Wed 09:54:57]
+		  CLOCK: [2022-12-28 Wed 09:54:57]--[2022-12-28 Wed 12:44:13] =>  02:49:16
 		  :END:
 		- TODO Setting up an EC2 Instance (18 min.)
 		- TODO Updating our Stack with Change Sets (33 min.)
@@ -140,7 +140,15 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  # ...
 		  
 		  # To be used with !FindInMap [ RegionMap, region, AMI ]
-		  # Optionally, with !Ref ""
+		  # Optionally, with !Ref AWS::Region
+		  ```
+	-
+	- How can you show out information with CloudFormation? #flashcard
+		- tags:: #dev-notes
+		- ``` yaml
+		  Outputs:
+		  	LogicalName:
+		      	Value: !GetAtt SomeValueToReturn
 		  ```
 		-
 	-

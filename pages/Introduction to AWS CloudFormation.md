@@ -80,6 +80,8 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 	- ### Intrinsic Functions
 		- ![image.png](../assets/image_1672217857675_0.png)
 	- ### Multiple Resources
+	- ### Pseudo-Parameters
+		- ![image.png](../assets/image_1672221322061_0.png)
 		-
 -
 -

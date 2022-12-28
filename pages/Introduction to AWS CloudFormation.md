@@ -101,7 +101,9 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		    - Key: "Name"
 		      Value: A valid name  
 		  ```
-		-
+	- How can you specify a resouce to include another? #flashcard
+		- With `!Ref AnotherResourceName`
+		- CloudFormation will be smart enough to c
 	-
 	-
 	-

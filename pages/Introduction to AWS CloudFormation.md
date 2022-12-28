@@ -104,11 +104,25 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		    - Key: "Name"
 		      Value: A valid name  
 		  ```
-	- How can you specify a resouce to include another? #flashcard
+	- How can you specify a resource to reference another one? #flashcard
 		- With `!Ref AnotherResourceName`
 			- CloudFormation will be smart enough to configure the dependencies and the best order
-		-
 	-
+	- How can you join multiple words or identifiers together separate by a space? #flashcard
+		- tags:: #dev-notes
+		- ``` yaml
+		  !Join [ " ", [ This, is, a, sentence. ] ]
+		  ```
+		-
+	- How can you specify external parameters to your script that can be filled in a template form? #flashcard
+		- tags:: #dev-notes
+		- ``` yaml
+		  Parameters:
+		  	LogicalName:
+		      	Description: Some description
+		          Type: # A valid type
+		  ```
+		-
 	-
 	-
 -

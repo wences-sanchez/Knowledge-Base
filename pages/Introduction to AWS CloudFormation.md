@@ -165,7 +165,35 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  	LogicalName:
 		      	Value: !GetAtt SomeValueToReturn
 		  ```
-		-
+	-
+	- ¿Dónde pondrías (y cómo) los metadatos en una plantilla de CloudFormation para instalar software? #flashcard
+		- tags:: #dev-notes
+		- Como una propiedad más de la instancia EC2. Más específicamente:
+			- ``` yaml
+			  Resources: 
+			    MyInstance: 
+			      Type: AWS::EC2::Instance
+			      Metadata: 
+			        AWS::CloudFormation::Init: 
+			          config: 
+			            packages: 
+			              :
+			            groups: 
+			              :
+			            users: 
+			              :
+			            sources: 
+			              :
+			            files: 
+			              :
+			            commands: 
+			              :
+			            services: 
+			              :
+			      Properties: 
+			        :
+			  ```
+			-
 	-
 -
 -

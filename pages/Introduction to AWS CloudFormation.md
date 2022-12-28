@@ -3,10 +3,11 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 
 -
 - ## Tareas
-	- TODO Introduction to AWS CloudFormation
+	- DOING Introduction to AWS CloudFormation
 	  :LOGBOOK:
 	  CLOCK: [2022-12-27 Tue 12:22:53]--[2022-12-27 Tue 13:46:28] =>  01:23:35
 	  CLOCK: [2022-12-28 Wed 09:30:31]--[2022-12-28 Wed 12:44:20] =>  03:13:49
+	  CLOCK: [2022-12-28 Wed 13:03:07]
 	  :END:
 		- DONE Introduction (6 min.) ((63aad5a1-19f4-462d-9277-a5dfe9d9f40f))
 		  id:: 63aad4d2-df9d-4fe6-922d-ccd2e84a7820
@@ -29,7 +30,11 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  :LOGBOOK:
 		  CLOCK: [2022-12-28 Wed 09:54:57]--[2022-12-28 Wed 12:44:13] =>  02:49:16
 		  :END:
-		- TODO Setting up an EC2 Instance (18 min.)
+		- DOING Setting up an EC2 Instance (18 min.) ((63ac30f9-63e8-4ba2-968e-7154db1babd6))
+		  id:: 63abfe90-3acc-4b81-98ac-63cd0b71dfde
+		  :LOGBOOK:
+		  CLOCK: [2022-12-28 Wed 13:03:09]
+		  :END:
 		- TODO Updating our Stack with Change Sets (33 min.)
 		- TODO Closing Notes (3 min.)
 		-
@@ -86,7 +91,13 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 			- You have to use `!Join` if you want to append a pseudo-parameter to a string
 		-
 	- ### Mappings
-		-
+-
+- ## Chapter 5: Setting up an EC2 Instance
+  id:: 63ac30f9-63e8-4ba2-968e-7154db1babd6
+	- ### Introduction
+	- ### User Data
+		- UserData is a property of AWS::EC2::Instance
+	- ###
 -
 -
 -

@@ -79,9 +79,32 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
   id:: 63ac0433-32a6-4663-9299-da8e2509a8f9
 	- ### Intrinsic Functions
 		- ![image.png](../assets/image_1672217857675_0.png)
+	- ### Multiple Resources
 		-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+- ## Dev-Notes
+	- What is the structure of a tag in CloudFormation? #flashcard
+		- tags:: #dev-notes
+		- ``` yaml
+		  Tags:
+		    - Key: "Name"
+		      Value: A valid name  
+		  ```
 		-
-		-
+	-
+	-
+	-
 -
 -
 -

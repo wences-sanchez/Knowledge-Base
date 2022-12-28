@@ -3,9 +3,10 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 
 -
 - ## Tareas
-	- TODO Introduction to AWS CloudFormation
+	- DOING Introduction to AWS CloudFormation
 	  :LOGBOOK:
 	  CLOCK: [2022-12-27 Tue 12:22:53]--[2022-12-27 Tue 13:46:28] =>  01:23:35
+	  CLOCK: [2022-12-28 Wed 09:30:31]
 	  :END:
 		- DONE Introduction (6 min.) ((63aad5a1-19f4-462d-9277-a5dfe9d9f40f))
 		  id:: 63aad4d2-df9d-4fe6-922d-ccd2e84a7820
@@ -17,10 +18,11 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  :LOGBOOK:
 		  CLOCK: [2022-12-27 Tue 12:33:07]--[2022-12-27 Tue 13:42:36] =>  01:09:29
 		  :END:
-		- TODO CloudFormation Fundamentals (10 min.) ((63aae85b-0a1f-43f4-a2b0-c0849206f61b))
+		- DOING CloudFormation Fundamentals (10 min.) ((63aae85b-0a1f-43f4-a2b0-c0849206f61b))
 		  id:: 63aad4fd-53e8-47af-aa2c-905e6791ba51
 		  :LOGBOOK:
 		  CLOCK: [2022-12-27 Tue 13:44:09]--[2022-12-27 Tue 13:46:15] =>  00:02:06
+		  CLOCK: [2022-12-28 Wed 09:30:30]
 		  :END:
 		- TODO CloudFormation Features (38 min.)
 		- TODO Setting up an EC2 Instance (18 min.)
@@ -49,7 +51,16 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 -
 - ## Chapter 3: CloudFormation Fundamentals
   id:: 63aae85b-0a1f-43f4-a2b0-c0849206f61b
-	-
+	- A Template is a JSON or YAML file
+	- What is a stack in CloudFormation? #flashcard
+		- A set of related resources as a single unit is called **a stack**.
+		- When CloudFormation executes a template, it creates a stack
+		- To update the resources within a template, you need to update a stack
+		- ![image.png](../assets/image_1672216598727_0.png)
+	- What is a change set? #flashcard
+		- A **change set** allows you to see how the canges will **impact** your running resources
+		- Before updating a stackl, you can generate a cha
+		-
 -
 -
 -

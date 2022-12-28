@@ -81,8 +81,10 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		- ![image.png](../assets/image_1672217857675_0.png)
 	- ### Multiple Resources
 	- ### Pseudo-Parameters
-		- ![image.png](../assets/image_1672221322061_0.png)
-		- You have to use `!Join` if you want to append a pseudo-parameter to a string
+		- What are the main pseudo-parameters in CloudFormation? #flashcard
+			- ![image.png](../assets/image_1672221322061_0.png)
+			- You have to use `!Join` if you want to append a pseudo-parameter to a string
+		-
 	- ### Mappings
 		-
 -
@@ -121,9 +123,26 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  	LogicalName:
 		      	Description: Some description
 		          Type: # A valid type
+		          
+		  # ...
+		  
+		  # To be used with !Ref LogicalName
 		  ```
 		-
-	-
+	- How can you use maps in CloudFormation? #flashcard
+		- tags:: #dev-notes
+		- ``` yaml
+		  Mappings:
+		  	RegionMap:
+		      	region:
+		          	AMI: ami-xxxxx
+		  
+		  # ...
+		  
+		  # To be used with !FindInMap [ RegionMap, region, AMI ]
+		  # Optionally, with !Ref ""
+		  ```
+		-
 	-
 -
 -

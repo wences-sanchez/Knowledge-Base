@@ -103,7 +103,8 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  ```
 	- How can you specify a resouce to include another? #flashcard
 		- With `!Ref AnotherResourceName`
-		- CloudFormation will be smart enough to c
+			- CloudFormation will be smart enough to configure the dependencies and the best order
+		-
 	-
 	-
 	-

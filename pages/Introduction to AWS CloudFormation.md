@@ -51,15 +51,26 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 -
 - ## Chapter 3: CloudFormation Fundamentals
   id:: 63aae85b-0a1f-43f4-a2b0-c0849206f61b
-	- A Template is a JSON or YAML file
-	- What is a stack in CloudFormation? #flashcard
-		- A set of related resources as a single unit is called **a stack**.
-		- When CloudFormation executes a template, it creates a stack
-		- To update the resources within a template, you need to update a stack
-		- ![image.png](../assets/image_1672216598727_0.png)
-	- What is a change set? #flashcard
-		- A **change set** allows you to see how the canges will **impact** your running resources
-		- Before updating a stackl, you can generate a cha
+	- ### Terminology
+		- A Template is a JSON or YAML file
+		- What is a stack in CloudFormation? #flashcard
+			- A set of related resources as a single unit is called **a stack**.
+			- When CloudFormation executes a template, it creates a stack
+			- To update the resources within a template, you need to update a stack
+			- ![image.png](../assets/image_1672216598727_0.png)
+		- What is a change set? #flashcard
+			- Before updating a stackl, you can generate a change set
+			- A **change set** allows you to see how the canges will **impact** your running resources
+			- This can be very important for live systems
+			- ![image.png](../assets/image_1672216863091_0.png)
+	- ### Template Anatomy
+		- ![image.png](../assets/image_1672217056480_0.png)
+		- **Resources** is the only required section
+		- ![image.png](../assets/image_1672217207454_0.png)
+		- ![image.png](../assets/image_1672217311330_0.png)
+		-
+	-
+		-
 		-
 -
 -

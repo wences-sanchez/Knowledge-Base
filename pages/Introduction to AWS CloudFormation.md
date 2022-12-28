@@ -18,13 +18,17 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  :LOGBOOK:
 		  CLOCK: [2022-12-27 Tue 12:33:07]--[2022-12-27 Tue 13:42:36] =>  01:09:29
 		  :END:
-		- DOING CloudFormation Fundamentals (10 min.) ((63aae85b-0a1f-43f4-a2b0-c0849206f61b))
+		- DONE CloudFormation Fundamentals (10 min.) ((63aae85b-0a1f-43f4-a2b0-c0849206f61b))
 		  id:: 63aad4fd-53e8-47af-aa2c-905e6791ba51
 		  :LOGBOOK:
 		  CLOCK: [2022-12-27 Tue 13:44:09]--[2022-12-27 Tue 13:46:15] =>  00:02:06
-		  CLOCK: [2022-12-28 Wed 09:30:30]
+		  CLOCK: [2022-12-28 Wed 09:30:30]--[2022-12-28 Wed 09:53:16] =>  00:22:46
 		  :END:
-		- TODO CloudFormation Features (38 min.)
+		- DOING CloudFormation Features (38 min.) ((63ac0433-32a6-4663-9299-da8e2509a8f9))
+		  id:: 63abfe90-d3d1-4db6-8f70-61c9bb1e7e13
+		  :LOGBOOK:
+		  CLOCK: [2022-12-28 Wed 09:54:57]
+		  :END:
 		- TODO Setting up an EC2 Instance (18 min.)
 		- TODO Updating our Stack with Change Sets (33 min.)
 		- TODO Closing Notes (3 min.)
@@ -64,12 +68,18 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 			- This can be very important for live systems
 			- ![image.png](../assets/image_1672216863091_0.png)
 	- ### Template Anatomy
-		- ![image.png](../assets/image_1672217056480_0.png)
-		- **Resources** is the only required section
-		- ![image.png](../assets/image_1672217207454_0.png)
-		- ![image.png](../assets/image_1672217311330_0.png)
-		-
+		- Structure of a CloudFormation template: #flashcard
+			- ![image.png](../assets/image_1672217056480_0.png)
+			- **Resources** is the only required section
+			- ![image.png](../assets/image_1672217207454_0.png)
+			- Concrete example:
+				- ![image.png](../assets/image_1672217311330_0.png)
 	-
+- ## Chapter 4: CloudFormation Features
+  id:: 63ac0433-32a6-4663-9299-da8e2509a8f9
+	- ### Intrinsic Functions
+		- ![image.png](../assets/image_1672217857675_0.png)
+		-
 		-
 		-
 -

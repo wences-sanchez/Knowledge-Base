@@ -83,7 +83,11 @@ tags:: ACloudGuru, Kubernetes
 			- Pods are the Kubernetes objects that we use to run and manage containers.
 	- ### kubectl Basics
 		- Kubectl lets you interact with Kubernetes from the command line.
-		-
+	- ### Managing containers with Pods
+		- What is a Pod? #flashcard
+			- A pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers.
+			- A Pod is an object that represents one or more closely-connected containers in the cluster.
+			- Unless you have a very good reason for deploy your pods together, is better to keep them
 -
 - ## Chapter 4: Conclusion
   id:: 63920409-cb83-491b-943b-d66507fd19b5

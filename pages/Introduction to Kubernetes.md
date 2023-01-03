@@ -73,7 +73,7 @@ tags:: ACloudGuru, Kubernetes
 		- What are Kubernetes objects? #flashcard
 			- Kubernetes Objects are persistent data entities stored by Kubernetes.
 			- They represent the state of your cluster.
-			- You can deploy and configure applications, run containers and configure cluster behavior by creating, modigying and deleting objects.
+			- You can deploy and configure applications, run containers and configure cluster behavior by creating, modifying and deleting objects.
 			- All of this happens through the Kubernetes API.
 			- Los objetos de Kubernetes representan el estado deseado de los recursos. Kubernetes los almacena para construir entidades *reales* basadas en ellos. #InMyOwnWords
 			- ![image.png](../assets/image_1672747326745_0.png)
@@ -102,7 +102,8 @@ tags:: ACloudGuru, Kubernetes
 			            ports:
 			            	- containerPort: 80
 			  ```
-			-
+	- ### Kubernetes in the Cloud
+		-
 -
 - ## Chapter 4: Conclusion
   id:: 63920409-cb83-491b-943b-d66507fd19b5

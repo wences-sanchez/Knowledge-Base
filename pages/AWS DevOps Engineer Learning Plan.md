@@ -26,6 +26,10 @@ title:: AWS DevOps Engineer Learning Plan
 -
 - ## Getting Started with DevOps on AWS
   id:: 63b44817-01fa-4e08-972b-0e1795a5b22c
+	- People use devops to innovate and create new features faster than others.
+	- > Teams supporting the software development lifecycle have traditionally been siloed. Specialized in their skill set, teams such as business, development, quality assurance, specialists, maintenance, and operations, have been separated from each other and require scheduled and rigid hand-offs. Even though these teams have a common goal of delivering and supporting the application, they also have their own priorities, tooling, and processes. It is difficult to achieve efficiencies when project members are reporting to different units and aimed for different targets.
+	- ### Why do some teams initially resist adopting DevOps?
+		- Reluctance to DevOps adoption is natural because DevOps will bring change and disrupt the way you work and interact with others. DevOps will have organizational and team-level impact. To overcome this reluctance, it is important to understand the value of DevOps, and set realistic expectations for the teams. To be successful, you need buy-in across the organization and development teams.
 	-
 -
 -

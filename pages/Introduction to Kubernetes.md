@@ -69,13 +69,19 @@ tags:: ACloudGuru, Kubernetes
 			- Kubernetes usa HTTP API Rest como lenguaje interno para hacer todas sus tareas. Muchas otras tecnologías también usan este mecanismo. #InMyOwnWords
 				- Kubernetes se comunica con los pods de esta manera. Y cuando ejecutamos un `$ kubectl ...` estamos interactuando con el *backend* de dicho mecanismo.
 	- ### Kubernetes Objects
-		- What are Kubernetes objects?
+		- What are Kubernetes objects? #flashcard
 			- Kubernetes Objects are persistent data entities stored by Kubernetes.
 			- They represent the state of your cluster.
 			- You can deploy and configure applications, run containers and configure cluster behavior by creating, modigying and deleting objects.
 			- All of this happens through the Kubernetes API.
-		- What are pods?
+		- What are pods? #flashcard
 			- Pods are the Kubernetes objects that we use to run and manage containers.
+		- Los objetos de Kubernetes representan el estado deseado de los recursos. Kubernetes los almacena para construir entidades *reales* basadas en ellos. #InMyOwnWords
+		- ![image.png](../assets/image_1672747326745_0.png)
+		- ![image.png](../assets/image_1672747345231_0.png)
+		- ![image.png](../assets/image_1672747365741_0.png)
+		- ![image.png](../assets/image_1672747392353_0.png)
+	-
 -
 - ## Chapter 4: Conclusion
   id:: 63920409-cb83-491b-943b-d66507fd19b5

@@ -13,13 +13,17 @@ tags:: ACloudGuru, Kubernetes
 	  :LOGBOOK:
 	  CLOCK: [2022-12-08 Thu 16:41:33]--[2022-12-08 Thu 18:25:48] =>  01:44:15
 	  :END:
-	- DOING Chapter 3: Working with Kubernetes ((639203fb-4681-462c-883b-81e987f47196))
+	- DONE Chapter 3: Working with Kubernetes ((639203fb-4681-462c-883b-81e987f47196))
 	  id:: 63920327-2c0b-4220-a7d5-d32b92d8e9dd
 	  :LOGBOOK:
 	  CLOCK: [2022-12-08 Thu 18:26:33]--[2022-12-08 Thu 18:44:05] =>  00:17:32
 	  CLOCK: [2023-01-03 Tue 12:40:46]--[2023-01-03 Tue 13:48:46] =>  01:08:00
 	  :END:
-	- TODO Chapter 4: Conclusion ((63920409-cb83-491b-943b-d66507fd19b5))
+	- DONE Chapter 4: Conclusion ((63920409-cb83-491b-943b-d66507fd19b5))
+	  id:: 63b4249f-527a-4b44-9545-38f526199b5b
+	  :LOGBOOK:
+	  CLOCK: [2023-01-03 Tue 14:22:59]--[2023-01-03 Tue 14:23:57] =>  00:00:58
+	  :END:
 	-
 -
 - ## Chapter 1: Introduction

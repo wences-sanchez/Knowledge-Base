@@ -4,16 +4,15 @@ title:: AWS DevOps Engineer Learning Plan
 
 -
 - ## Tareas
-- DOING DevOps Engineer Learning Plan
+- TODO DevOps Engineer Learning Plan
   id:: 63b4464a-6ac7-4049-8506-5ab75f18878d
   :LOGBOOK:
-  
-  CLOCK: [2023-01-03 Tue 16:32:25]
+  CLOCK: [2023-01-03 Tue 16:32:25]--[2023-01-03 Tue 18:04:26] =>  01:32:01
   :END:
-	- DOING Getting Started with DevOps on AWS [1h] [[AWS DevOps Engineer Learning Plan/Getting Started with DevOps on AWS]]
+	- TODO Getting Started with DevOps on AWS [1h] [[AWS DevOps Engineer Learning Plan/Getting Started with DevOps on AWS]]
 	  id:: 63b44656-a08a-4f9e-aeba-888b88811560
 	  :LOGBOOK:
-	  CLOCK: [2023-01-03 Tue 16:32:27]
+	  CLOCK: [2023-01-03 Tue 16:32:27]--[2023-01-03 Tue 18:04:24] =>  01:31:57
 	  :END:
 	- TODO Introduction to AWS Command Line Interface (CLI) [10m]
 	- TODO AWS Cloud Development Kit Primer [1h30m]

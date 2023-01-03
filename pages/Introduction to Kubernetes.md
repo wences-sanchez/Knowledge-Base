@@ -17,7 +17,7 @@ tags:: ACloudGuru, Kubernetes
 	  id:: 63920327-2c0b-4220-a7d5-d32b92d8e9dd
 	  :LOGBOOK:
 	  CLOCK: [2022-12-08 Thu 18:26:33]--[2022-12-08 Thu 18:44:05] =>  00:17:32
-	  CLOCK: [2023-01-03 Tue 13:48:46]
+	  CLOCK: [2023-01-03 Tue 12:40:46]--[2023-01-03 Tue 13:48:46] =>  01:08:00
 	  :END:
 	- TODO Chapter 4: Conclusion ((63920409-cb83-491b-943b-d66507fd19b5))
 	-

@@ -36,7 +36,13 @@
 			- **Continuous deployment** is similar to continuous delivery, but with automatic deployment to production. Tested code does not need an explicit approval before being pushed to production.
 		- #### Microservices Architecture
 			- A microservices architecture, is a design approach that builds an application as a set of loosely coupled services. Each service is designed for a set of capabilities and focuses on solving a specific business problem. Services do not need to share any of their code or implementation with other services. Any communication between individual components happens via well-defined APIs. These services can be assigned to fully accountable teams, and be developed, tested, an deployed independently of other services.
--
+		- #### Release
+			- Prepare and package the tested code with a specific version number.
+		- #### Deploy
+			- Deploy the release to targeted environments such as test, staging, alpha, beta or production.
+		- #### About pipelines
+			- A **CI/CD pipeline** is a good example of how DevOps teams use tools to streamline **workflows** and standardize practices. A CI/CD pipeline assures **code quality**, **security**, and **fast**, **consistent** deployments by **repeatably** progressing through the pipeline. **DevOps teams** iteratively remove process overlaps, human errors, and bottlenecks through **automation**.
+			- Every DevOps team requires an efficient and reliable CI/CD pipeline. A CI/CD pipeline requires a well-integrated tool chain.
 -
 -
 -

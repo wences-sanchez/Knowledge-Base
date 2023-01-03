@@ -74,14 +74,16 @@ tags:: ACloudGuru, Kubernetes
 			- They represent the state of your cluster.
 			- You can deploy and configure applications, run containers and configure cluster behavior by creating, modigying and deleting objects.
 			- All of this happens through the Kubernetes API.
+			- Los objetos de Kubernetes representan el estado deseado de los recursos. Kubernetes los almacena para construir entidades *reales* basadas en ellos. #InMyOwnWords
+			- ![image.png](../assets/image_1672747326745_0.png)
+			- ![image.png](../assets/image_1672747345231_0.png)
+			- ![image.png](../assets/image_1672747365741_0.png)
+			- ![image.png](../assets/image_1672747392353_0.png)
 		- What are pods? #flashcard
 			- Pods are the Kubernetes objects that we use to run and manage containers.
-		- Los objetos de Kubernetes representan el estado deseado de los recursos. Kubernetes los almacena para construir entidades *reales* basadas en ellos. #InMyOwnWords
-		- ![image.png](../assets/image_1672747326745_0.png)
-		- ![image.png](../assets/image_1672747345231_0.png)
-		- ![image.png](../assets/image_1672747365741_0.png)
-		- ![image.png](../assets/image_1672747392353_0.png)
-	-
+	- ### kubectl Basics
+		- Kubectl lets you interact with Kubernetes from the command line.
+		-
 -
 - ## Chapter 4: Conclusion
   id:: 63920409-cb83-491b-943b-d66507fd19b5

@@ -7,12 +7,14 @@ title:: AWS DevOps Engineer Learning Plan
 - DOING DevOps Engineer Learning Plan
   id:: 63b4464a-6ac7-4049-8506-5ab75f18878d
   :LOGBOOK:
-  CLOCK: [2023-01-03 Tue 16:21:52]
+  
+  CLOCK: [2023-01-03 Tue 16:32:25]
   :END:
 	- DOING Getting Started with DevOps on AWS [1h] ((63b44817-01fa-4e08-972b-0e1795a5b22c))
 	  id:: 63b44656-a08a-4f9e-aeba-888b88811560
 	  :LOGBOOK:
-	  CLOCK: [2023-01-03 Tue 16:21:54]
+	  
+	  CLOCK: [2023-01-03 Tue 16:32:27]
 	  :END:
 	- TODO Introduction to AWS Command Line Interface (CLI) [10m]
 	- TODO AWS Cloud Development Kit Primer [1h30m]

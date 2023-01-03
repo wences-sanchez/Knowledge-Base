@@ -50,7 +50,11 @@ title:: AWS DevOps Engineer Learning Plan
 				  increases an organization’s ability to deliver applications and services
 				   at high velocity.
 		- #### Summary
-			- DevOps, más que aprender a hacer de todo
+			- DevOps, más que aprender a hacer de todo, es la combinación de un conjunto de filosofías y prácticas. De manera que los desarrolladores se hablen entre sí y sean capaces de hacer las cosas mejor y más rápido (a base de que haya una muy buena comunicación).
+			- El enfoque tradicional no es que esté pasado de moda, sino que se ha descubierto que si los sistemas están (aunque sea mínimamente) ligados al cambio, no sirve y hay que plantear el proyecto de manera ágil para que se pueda adaptar al cambio.
+				- Si no hubiera ningún cambio durante todo el proyecto (y estemos seguros de ello) sí que se podría aplicar el enfoque tradicional.
+	-
+	-
 	-
 -
 -

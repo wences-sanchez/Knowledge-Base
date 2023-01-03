@@ -13,10 +13,11 @@ tags:: ACloudGuru, Kubernetes
 	  :LOGBOOK:
 	  CLOCK: [2022-12-08 Thu 16:41:33]--[2022-12-08 Thu 18:25:48] =>  01:44:15
 	  :END:
-	- TODO Chapter 3: Working with Kubernetes ((639203fb-4681-462c-883b-81e987f47196))
+	- DOING Chapter 3: Working with Kubernetes ((639203fb-4681-462c-883b-81e987f47196))
 	  id:: 63920327-2c0b-4220-a7d5-d32b92d8e9dd
 	  :LOGBOOK:
 	  CLOCK: [2022-12-08 Thu 18:26:33]--[2022-12-08 Thu 18:44:05] =>  00:17:32
+	  CLOCK: [2023-01-03 Tue 13:48:46]
 	  :END:
 	- TODO Chapter 4: Conclusion ((63920409-cb83-491b-943b-d66507fd19b5))
 	-
@@ -87,7 +88,21 @@ tags:: ACloudGuru, Kubernetes
 		- What is a Pod? #flashcard
 			- A pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers.
 			- A Pod is an object that represents one or more closely-connected containers in the cluster.
-			- Unless you have a very good reason for deploy your pods together, is better to keep them
+			- Unless you have a very good reason for deploy your containers together, is better to keep them in different pods
+		- Example of a Kubernetes Pod YAML file: #flashcard
+			- ``` yaml
+			  apiVersion: v1
+			  kind: Pod
+			  metadata:
+			  	name: mi-ejemplo
+			  spec:
+			  	containers:
+			      - name: nginx
+			            image: nginx
+			            ports:
+			            	- containerPort: 80
+			  ```
+			-
 -
 - ## Chapter 4: Conclusion
   id:: 63920409-cb83-491b-943b-d66507fd19b5

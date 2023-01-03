@@ -68,6 +68,7 @@ tags:: ACloudGuru, Kubernetes
 		- The core of Kubernetes' control plane is {{cloze the API server}} #flashcard
 		  id:: 63921ecb-2fe7-46e2-8254-c3e5d2d8b494
 		- #### What is the Kubernetes API? #flashcard
+		  id:: 63b4249f-a597-462a-b543-5ededfbe0ef7
 			- The Kubernetes API is a basic HTTP API
 			- The API lets users query and manipulate objects, thereby controlling the cluster.
 			- Central point of communication. The various components of Kubernetes communicate with each other using the API
@@ -75,6 +76,7 @@ tags:: ACloudGuru, Kubernetes
 				- Kubernetes se comunica con los pods de esta manera. Y cuando ejecutamos un `$ kubectl ...` estamos interactuando con el *backend* de dicho mecanismo.
 	- ### Kubernetes Objects
 		- What are Kubernetes objects? #flashcard
+		  id:: 63b4249f-d721-4317-b017-89701b923bbf
 			- Kubernetes Objects are persistent data entities stored by Kubernetes.
 			- They represent the state of your cluster.
 			- You can deploy and configure applications, run containers and configure cluster behavior by creating, modifying and deleting objects.
@@ -85,15 +87,18 @@ tags:: ACloudGuru, Kubernetes
 			- ![image.png](../assets/image_1672747365741_0.png)
 			- ![image.png](../assets/image_1672747392353_0.png)
 		- What are pods? #flashcard
+		  id:: 63b4249f-12e2-41f1-b7a1-d1be2dfda0b4
 			- Pods are the Kubernetes objects that we use to run and manage containers.
 	- ### kubectl Basics
 		- Kubectl lets you interact with Kubernetes from the command line.
 	- ### Managing containers with Pods
 		- What is a Pod? #flashcard
+		  id:: 63b4249f-b4f2-499d-8f82-d57e2183aa24
 			- A pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers.
 			- A Pod is an object that represents one or more closely-connected containers in the cluster.
 			- Unless you have a very good reason for deploy your containers together, is better to keep them in different pods
 		- Example of a Kubernetes Pod YAML file: #flashcard
+		  id:: 63b4249f-c542-4113-8e59-591589664b7a
 			- ``` yaml
 			  apiVersion: v1
 			  kind: Pod

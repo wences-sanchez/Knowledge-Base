@@ -70,17 +70,20 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 	- ### Terminology
 		- A Template is a JSON or YAML file
 		- What is a stack in CloudFormation? #flashcard
+		  id:: 63add73d-be28-414d-ac7d-d746ec0a3b91
 			- A set of related resources as a single unit is called **a stack**.
 			- When CloudFormation executes a template, it creates a stack
 			- To update the resources within a template, you need to update a stack
 			- ![image.png](../assets/image_1672216598727_0.png)
 		- What is a change set? #flashcard
+		  id:: 63add73d-f913-4a8a-99d4-9f6de4022d23
 			- Before updating a stackl, you can generate a change set
 			- A **change set** allows you to see how the canges will **impact** your running resources
 			- This can be very important for live systems
 			- ![image.png](../assets/image_1672216863091_0.png)
 	- ### Template Anatomy
 		- Structure of a CloudFormation template: #flashcard
+		  id:: 63add73d-2c15-4d48-b01b-b822804527b6
 			- ![image.png](../assets/image_1672217056480_0.png)
 			- **Resources** is the only required section
 			- ![image.png](../assets/image_1672217207454_0.png)
@@ -94,6 +97,7 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 	- ### Multiple Resources
 	- ### Pseudo-Parameters
 		- What are the main pseudo-parameters in CloudFormation? #flashcard
+		  id:: 63add73d-faa9-4e55-934f-39bf1aa5bf32
 			- ![image.png](../assets/image_1672221322061_0.png)
 			- You have to use `!Join` if you want to append a pseudo-parameter to a string
 		-
@@ -126,6 +130,7 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 -
 - ## Dev-Notes
 	- What is the structure of a tag in CloudFormation? #flashcard
+	  id:: 63add73d-261a-4be9-833b-9641d5a4e52e
 		- tags:: #dev-notes
 		- ``` yaml
 		  Tags:
@@ -133,16 +138,19 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		      Value: A valid name  
 		  ```
 	- How can you specify a resource to reference another one? #flashcard
+	  id:: 63add73d-14f8-4602-9e9b-046c354c9d83
 		- With `!Ref AnotherResourceName`
 			- CloudFormation will be smart enough to configure the dependencies and the best order
 	-
 	- How can you join multiple words or identifiers together separate by a space? #flashcard
+	  id:: 63add73d-8b21-4d73-a317-e3493455f8fa
 		- tags:: #dev-notes
 		- ``` yaml
 		  !Join [ " ", [ This, is, a, sentence. ] ]
 		  ```
 		-
 	- How can you specify external parameters to your script that can be filled in a template form? #flashcard
+	  id:: 63add73d-c87a-4150-bbe0-b897a2978657
 		- tags:: #dev-notes
 		- ``` yaml
 		  Parameters:
@@ -156,6 +164,7 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  ```
 		-
 	- How can you use maps in CloudFormation? #flashcard
+	  id:: 63add73d-ea33-45df-af93-d3cbd56013e6
 		- tags:: #dev-notes
 		- ``` yaml
 		  Mappings:
@@ -170,6 +179,7 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  ```
 	-
 	- How can you show out information with CloudFormation? #flashcard
+	  id:: 63add73d-d1be-4357-acd5-c9603b9a88b1
 		- tags:: #dev-notes
 		- ``` yaml
 		  Outputs:
@@ -178,6 +188,7 @@ deck:: [[ACloudGuru::AWS::CloudFormation]]
 		  ```
 	-
 	- ¿Dónde pondrías (y cómo) los metadatos en una plantilla de CloudFormation para instalar software? #flashcard
+	  id:: 63add73d-5af5-4915-bec6-8c4e5cc0196d
 		- tags:: #dev-notes
 		- Como una propiedad más de la instancia EC2. Más específicamente:
 			- ``` yaml

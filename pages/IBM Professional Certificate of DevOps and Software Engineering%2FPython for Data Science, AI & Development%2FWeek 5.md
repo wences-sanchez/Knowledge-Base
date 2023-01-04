@@ -19,4 +19,8 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 			- 3. Output or Response
 	- ### REST API over HTTP
 		- HTTP methods are a way of transmitting data over the internet.
-		- We tell the Rest APIs what to do by sending a request. Which it's usually communicated via
+		- We tell the Rest APIs what to do by sending a request. Which it's usually communicated via an HTTP message.
+		- ![image.png](../assets/image_1672836158821_0.png)
+		- ![image.png](../assets/image_1672836223016_0.png)
+	- ### Part 2
+		- An endpoint is simply the location of the service. It's used to find the API on the Internet just like a web address.

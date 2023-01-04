@@ -78,17 +78,14 @@ deck:: [[Cloud Learning::AWS::DevOps Engineer Learning Plan]]
 			- A *deployment group* specifies the deployment targeted environment. The information it contains is specific to the target compute platform: AWS Lambda, Amazon ECS, Amazon EC2, or on-premises. For example, Amazon ECS lets you specify the Amazon ECS service, load balancer and more. For Amazon EC2, it is a logical group of deployment target instances or physical environments.
 			- A CodeDeploy application can have one or more deployment groups.
 			- Security needs to be assigned so the environment can communicate with CodeDeploy.
-			- The CodeDeploy agent is needed if you are deploying to Amazon EC2 or an on-premises compute platform. It is installed and configured on the 
-			  target instances. It accepts and executes requests on behalf of 
-			  CodeDeploy.
+			- The CodeDeploy agent is needed if you are deploying to Amazon EC2 or an on-premises compute platform. It is installed and configured on the target instances. It accepts and executes requests on behalf of CodeDeploy.
 		- **D****eployment configuration **
-		- A *deployment configuration *is
-		   a set of deployment rules and deployment success and failure conditions
-		   used by AWS CodeDeploy during a deployment. For an Amazon EC2 compute 
-		  platform, it specifies the number or percentage of instances that must 
-		  remain available during deployment. It also specifies if an instance in 
-		  the deployment group is briefly taken offline and updated with the 
-		  latest code revision, or if a new instance replaces the instances in the
-		   deployment group.
+			- A *deployment configuration *is a set of deployment rules and deployment success and failure conditions used by AWS CodeDeploy during a deployment. For an Amazon EC2 compute platform, it specifies the number or percentage of instances that must remain available during deployment. It also specifies if an instance in the deployment group is briefly taken offline and updated with the latest code revision, or if a new instance replaces the instances in the deployment group.
+		- ![image.png](../assets/image_1672832083108_0.png)
+	- ### Containers and Serverless Services
+		- AWS offers a number of services that support development efforts and enhance your pipeline, including:
+			- **AWS Lambda** is a **serverless** compute service that lets you write code and run it when it gets invoked. With Lambda functions, you can **customize** your CI/CD **pipeline**. For example, you can approve release actions, halt the release flow, and control traffic flow during deployments, and more.
+			- **Amazon Elastic Container service (Amazon ECS)** is a highly scalable, high performance container management service that supports Docker containers. It enables you to easily run applications on a managed cluster of Amazon Elastic Compute Cloud (Amazon EC2) instances. ECS eliminates the need for you to install, operate, and scale container management software.
+		-
 -
 -

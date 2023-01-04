@@ -9,6 +9,7 @@ deck:: [[Cloud Learning::AWS::DevOps Engineer Learning Plan]]
 		- Reluctance to DevOps adoption is natural because DevOps will bring change and disrupt the way you work and interact with others. DevOps will have organizational and team-level impact. To overcome this reluctance, it is important to understand the value of DevOps, and set realistic expectations for the teams. To be successful, you need buy-in across the organization and development teams.
 	- ### Knowledge Check
 		- Select the answer that best describes DevOps:
+		  id:: 63b54c34-a50a-4817-b087-e5471c9b85da
 		  
 		  [ ] DevOps is the combination of development and operations teams, where members
 		  of each team must learn to develop, test, and deploy the software.
@@ -26,12 +27,14 @@ deck:: [[Cloud Learning::AWS::DevOps Engineer Learning Plan]]
 			  increases an organization’s ability to deliver applications and services
 			   at high velocity.
 	- ### Summary #flashcard
+	  id:: 63b54c34-dfcf-49b9-bc2e-b64b3392a4f6
 		- DevOps, más que aprender a hacer de todo, es la combinación de un conjunto de filosofías y prácticas. De manera que los desarrolladores se hablen entre sí y sean capaces de hacer las cosas mejor y más rápido (a base de que haya una muy buena comunicación).
 		- El enfoque tradicional no es que esté pasado de moda, sino que se ha descubierto que si los sistemas están (aunque sea mínimamente) ligados al cambio, no sirve y hay que plantear el proyecto de manera ágil para que se pueda adaptar al cambio.
 			- Si no hubiera ningún cambio durante todo el proyecto (y estemos seguros de ello) sí que se podría aplicar el enfoque tradicional.
 -
 - ## Module 2: DevOps Methodology
 	- ### DevOps Practices #flashcard
+	  id:: 63b54c34-c4b9-4024-b7d8-277c24c00e31
 		- #### Continuous Integration (CI)
 			- **Continuous integration** is a DevOps software development practice where developers regularly **merge** their code changes into a central **repository**, after which **automated builds** and **tests** are run. This way, teams can resolve merging issues and code defects **early**, when they are easier and more cost effective to resolve.
 			- Continuous integration most often refers to the build or integration stage of the software release process. It requires both an automation component (for example, a CI or build service) and a cultural component (for example, learning to integrate frequently). The key goals of continuous integration are to find and address bugs quicker, improve software quality, and reduce the time it takes to validate and release new software updates.

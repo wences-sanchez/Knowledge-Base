@@ -58,22 +58,37 @@ deck:: [[Cloud Learning::AWS::DevOps Engineer Learning Plan]]
 	- For example, **security policies** were created to stop teams from deploying code with known **security** risks. **Testing** is done early and more frequently, catching errors early in development. **Automation** started appearing with source and build tasks, in testing and in the deployment phase, and soon **became full CI/CD**. Automation increased velocity and reduced errors by the team and on the final product.
 -
 - ## Module 4: AWS DevOps Tools
-	- **Why use?**
-	- With CodeBuild you can:
-	- Eliminate the need to set up, patch, update, and manage your own build servers, since CodeBuild is fully managed.
-	- Automatically compile source code, run tests, and produce build artifacts.
-	- Specify build commands to run at each phase of the build.
-	- Process
-	   multiple builds concurrently, for example, developers can continuously 
-	  build and test their code, catch errors early, and correct them early.
-	- Leverage
-	   out of the box preconfigured build environments (such as .NET Core, 
-	  Java, Ruby, Python, Go, NodeJS, Android and Docker). Build environments 
-	  contain the operating system, programming language runtime, and build 
-	  tools (such as Apache Maven, Gradle). You can also provide custom build 
-	  environments suited to your needs by means of Docker images.
-	- Pull source code from CodeCommit, Amazon S3, GitHub, GitHub Enterprise, and Bitbucket.
-	- Integrate CodeBuild with Jenkins to simplify the build process.
--
+	- ### AWS CodeBuild
+		- With CodeBuild you can:
+			- Eliminate the need to set up, patch, update, and manage your own build servers, since CodeBuild is fully managed.
+			- Automatically compile source code, run tests, and produce build artifacts.
+			- Specify build commands to run at each phase of the build.
+			- Process multiple builds concurrently, for example, developers can continuously
+			  build and test their code, catch errors early, and correct them early.
+			- Leverage out of the box preconfigured build environments (such as .NET Core, Java, Ruby, Python, Go, NodeJS, Android and Docker). Build environments contain the operating system, programming language runtime, and build tools (such as Apache Maven, Gradle). You can also provide custom build environments suited to your needs by means of Docker images.
+			- Pull source code from CodeCommit, Amazon S3, GitHub, GitHub Enterprise, and Bitbucket.
+			- Integrate CodeBuild with Jenkins to simplify the build process.
+	- ### AWS CodeDeploy
+		- The concept of an *application *is used by CodeDeploy to ensure it knows what to deploy (correct revision of code), where to deploy (deployment group), and how to deploy (deployment configuration).
+		- #### Code
+			- Identify the correct version (revision) of the code.
+			- With the code, you provide an application specification file (AppSpec file) which is used to manage each deployment. During deployment, CodeDeploy looks for your AppSpec file in the root directory of the application's source.
+			- The AppSpec file specifies where to copy the code and ow to get it running. For example, it tells CodeDeploy how to stop the application if it is already running, how to install the code, what command to run before and after the code is installed, and how to get the application running again.
+		- #### Deployment group
+			- A *deployment group* specifies the deployment targeted environment. The information it contains is specific to the target compute platform: AWS Lambda, Amazon ECS, Amazon EC2, or on-premises. For example, Amazon ECS lets you specify the Amazon ECS service, load balancer and more. For Amazon EC2, it is a logical group of deployment target instances or physical environments.
+			- A CodeDeploy application can have one or more deployment groups.
+			- Security needs to be assigned so the environment can communicate with CodeDeploy.
+			- The CodeDeploy agent is needed if you are deploying to Amazon EC2 or an on-premises compute platform. It is installed and configured on the 
+			  target instances. It accepts and executes requests on behalf of 
+			  CodeDeploy.
+		- **D****eployment configuration **
+		- A *deployment configuration *is
+		   a set of deployment rules and deployment success and failure conditions
+		   used by AWS CodeDeploy during a deployment. For an Amazon EC2 compute 
+		  platform, it specifies the number or percentage of instances that must 
+		  remain available during deployment. It also specifies if an instance in 
+		  the deployment group is briefly taken offline and updated with the 
+		  latest code revision, or if a new instance replaces the instances in the
+		   deployment group.
 -
 -

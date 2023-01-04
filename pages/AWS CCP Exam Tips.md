@@ -51,4 +51,18 @@ deck:: [[AWS::CCP::Tips]]
 			- *The cloud gives you increased agility. All the services you have access to help you innovate faster, giving you speed to market.*
 		- **Elasticity**
 			- > With elasticity, you do not have to plan ahead of time how much capacity you need. You can provision only what you need, and then grow and shrink based on demand.
-	-
+	- Are you (as a customer) responsible for network traffic? #flashcard
+		- Yes. You are responsible for network traffic protection, which includes security group firewall configuration.
+	- Upon attempting to create an additional S3 bucket, you realize you have reached your S3 bucket limit in your AWS account. You anticipate creating even more S3 buckets in the future for your photos and documents. Which of the following is the quickest solution? #flashcard
+		- ~~Simply create the S3 bucket; AWS will automatically override the bucket limit.~~
+			- *By default, you can create up to 100 buckets in an AWS account, and that is a limit AWS does not override without officially requesting a service limit increase.*
+		- **Submit a service limit increase.**
+			- > The key word here is "quickest," and the fastest option is to request a service limit increase at the AWS Support Center.
+			  [https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)
+	- What is the maximum number of objects you can store in S3 per AWS account? #flashcard
+		- Unlimited
+			- >You can store an essentially unlimited number of objects in S3 - either in a single bucket or across multiple in your account.
+	- A company would like to reduce operational overhead when operating AWS infrastructure. Which service can help them do this? #flashcard
+		- **Managed Services**
+			- > Managed Services helps you efficiently operate your AWS infrastructure and reduces operational risks and overhead.
+-

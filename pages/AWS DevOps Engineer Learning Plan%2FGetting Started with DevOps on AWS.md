@@ -56,8 +56,24 @@ deck:: [[Cloud Learning::AWS::DevOps Engineer Learning Plan]]
 	- The *two pizza* teams soon realized that to maximize their efforts and best leverage the team resources, they had to implement best practices for deployment and to leverage automation. Metrics and monitoring supported their decisions. Templates, processes, and tools were put in place to support teams. Automation was used in pre-production and post-production phases.
 	-
 	- For example, **security policies** were created to stop teams from deploying code with known **security** risks. **Testing** is done early and more frequently, catching errors early in development. **Automation** started appearing with source and build tasks, in testing and in the deployment phase, and soon **became full CI/CD**. Automation increased velocity and reduced errors by the team and on the final product.
-	-
 -
+- ## Module 4: AWS DevOps Tools
+	- **Why use?**
+	- With CodeBuild you can:
+	- Eliminate the need to set up, patch, update, and manage your own build servers, since CodeBuild is fully managed.
+	- Automatically compile source code, run tests, and produce build artifacts.
+	- Specify build commands to run at each phase of the build.
+	- Process
+	   multiple builds concurrently, for example, developers can continuously 
+	  build and test their code, catch errors early, and correct them early.
+	- Leverage
+	   out of the box preconfigured build environments (such as .NET Core, 
+	  Java, Ruby, Python, Go, NodeJS, Android and Docker). Build environments 
+	  contain the operating system, programming language runtime, and build 
+	  tools (such as Apache Maven, Gradle). You can also provide custom build 
+	  environments suited to your needs by means of Docker images.
+	- Pull source code from CodeCommit, Amazon S3, GitHub, GitHub Enterprise, and Bitbucket.
+	- Integrate CodeBuild with Jenkins to simplify the build process.
 -
 -
 -

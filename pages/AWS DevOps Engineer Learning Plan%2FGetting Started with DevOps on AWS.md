@@ -51,6 +51,12 @@ deck:: [[Cloud Learning::AWS::DevOps Engineer Learning Plan]]
 			- A **CI/CD pipeline** is a good example of how DevOps teams use tools to streamline **workflows** and standardize practices. A CI/CD pipeline assures **code quality**, **security**, and **fast**, **consistent** deployments by **repeatably** progressing through the pipeline. **DevOps teams** iteratively remove process overlaps, human errors, and bottlenecks through **automation**.
 			- Every DevOps team requires an efficient and reliable CI/CD pipeline. A CI/CD pipeline requires a well-integrated tool chain.
 -
+- ## Module 3: Amazon's DevOps Transformation
+	- ### Use tools and automate
+	- The *two pizza* teams soon realized that to maximize their efforts and best leverage the team resources, they had to implement best practices for deployment and to leverage automation. Metrics and monitoring supported their decisions. Templates, processes, and tools were put in place to support teams. Automation was used in pre-production and post-production phases.
+	-
+	- For example, **security policies** were created to stop teams from deploying code with known **security** risks. **Testing** is done early and more frequently, catching errors early in development. **Automation** started appearing with source and build tasks, in testing and in the deployment phase, and soon **became full CI/CD**. Automation increased velocity and reduced errors by the team and on the final product.
+	-
 -
 -
 -

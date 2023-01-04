@@ -51,14 +51,14 @@ deck:: [[Cloud Learning::AWS::DevOps Engineer Learning Plan]]
 			- A **CI/CD pipeline** is a good example of how DevOps teams use tools to streamline **workflows** and standardize practices. A CI/CD pipeline assures **code quality**, **security**, and **fast**, **consistent** deployments by **repeatably** progressing through the pipeline. **DevOps teams** iteratively remove process overlaps, human errors, and bottlenecks through **automation**.
 			- Every DevOps team requires an efficient and reliable CI/CD pipeline. A CI/CD pipeline requires a well-integrated tool chain.
 -
-- ## Module 3: Amazon's DevOps Transformation
+- ## Module 3: Amazon's DevOps Transformation #flashcard
 	- ### Use tools and automate
 	- The *two pizza* teams soon realized that to maximize their efforts and best leverage the team resources, they had to implement best practices for deployment and to leverage automation. Metrics and monitoring supported their decisions. Templates, processes, and tools were put in place to support teams. Automation was used in pre-production and post-production phases.
 	-
 	- For example, **security policies** were created to stop teams from deploying code with known **security** risks. **Testing** is done early and more frequently, catching errors early in development. **Automation** started appearing with source and build tasks, in testing and in the deployment phase, and soon **became full CI/CD**. Automation increased velocity and reduced errors by the team and on the final product.
 -
 - ## Module 4: AWS DevOps Tools
-	- ### AWS CodeBuild
+	- ### AWS CodeBuild #flashcard
 		- With CodeBuild you can:
 			- Eliminate the need to set up, patch, update, and manage your own build servers, since CodeBuild is fully managed.
 			- Automatically compile source code, run tests, and produce build artifacts.
@@ -68,7 +68,7 @@ deck:: [[Cloud Learning::AWS::DevOps Engineer Learning Plan]]
 			- Leverage out of the box preconfigured build environments (such as .NET Core, Java, Ruby, Python, Go, NodeJS, Android and Docker). Build environments contain the operating system, programming language runtime, and build tools (such as Apache Maven, Gradle). You can also provide custom build environments suited to your needs by means of Docker images.
 			- Pull source code from CodeCommit, Amazon S3, GitHub, GitHub Enterprise, and Bitbucket.
 			- Integrate CodeBuild with Jenkins to simplify the build process.
-	- ### AWS CodeDeploy
+	- ### AWS CodeDeploy #flashcard
 		- The concept of an *application *is used by CodeDeploy to ensure it knows what to deploy (correct revision of code), where to deploy (deployment group), and how to deploy (deployment configuration).
 		- #### Code
 			- Identify the correct version (revision) of the code.
@@ -82,7 +82,7 @@ deck:: [[Cloud Learning::AWS::DevOps Engineer Learning Plan]]
 		- **D****eployment configuration **
 			- A *deployment configuration *is a set of deployment rules and deployment success and failure conditions used by AWS CodeDeploy during a deployment. For an Amazon EC2 compute platform, it specifies the number or percentage of instances that must remain available during deployment. It also specifies if an instance in the deployment group is briefly taken offline and updated with the latest code revision, or if a new instance replaces the instances in the deployment group.
 		- ![image.png](../assets/image_1672832083108_0.png)
-	- ### Containers and Serverless Services
+	- ### Containers and Serverless Services #flashcard
 		- AWS offers a number of services that support development efforts and enhance your pipeline, including:
 			- **AWS Lambda** is a **serverless** compute service that lets you write code and run it when it gets invoked. With Lambda functions, you can **customize** your CI/CD **pipeline**. For example, you can approve release actions, halt the release flow, and control traffic flow during deployments, and more.
 			- **Amazon Elastic Container service (Amazon ECS)** is a highly scalable, high performance container management service that supports Docker containers. It enables you to easily run applications on a managed cluster of Amazon Elastic Compute Cloud (Amazon EC2) instances. ECS eliminates the need for you to install, operate, and scale container management software.

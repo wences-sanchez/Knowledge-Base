@@ -69,3 +69,16 @@ tags:: cloud o'reilly-learning
 		  • By leveraging cloud environments to make IT resources highly available and reliable, organizations are able to increase quality-of-service guarantees to customers and further reduce or avoid potential loss of business resulting from unanticipated runtime failures. #flashcard
 		- ([View Highlight](https://read.readwise.io/read/01gp0vb60fys458tgr6t2npgv0))
 	- -
+- New highlights added [[Thursday, 05-01-2023]] at 1:39 PM
+	- Chapter 3. Understanding Cloud Computing
+		- -
+			- The importance of a Content Delivery Network in Cloud Computing #flashcard
+				- • Longer geographic distances between the cloud consumer and cloud provider can require additional network hops that introduce fluctuating latency and potential bandwidth constraints.
+				  
+				  The latter scenario is illustrated in [Figure 3.10](https://readwise.io/reader/document_raw_content/24323849#ch03fig10).
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/24323849/a03fig10-03fig10.jpg)
+				  
+				  **Figure 3.10** An unreliable network connection compromises the quality of communication between cloud consumer and cloud provider environments.
+			- ([View Highlight](https://read.readwise.io/read/01gp0vwg29cnswdx2k00b4bg1q))
+		- -

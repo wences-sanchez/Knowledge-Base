@@ -37,6 +37,7 @@ deck:: [[AWS::CCP::Tips]]
 		- A la eficacia del rendimiento
 	-
 	- During disaster recovery exercises, you need to re-route traffic from EC2 instances to instances in another Region. With which service can you do this? #flashcard
+	  id:: 63bae884-3616-4fc8-a9f1-89e60e453758
 		- ~~VPC Peering~~
 			- *VPC peering facilitates communication between 2 different VPCs, but it is not a mechanism for disaster recovery. In a disaster situation, the original Region would be out of service.*
 		-

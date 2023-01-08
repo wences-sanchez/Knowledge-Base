@@ -9,6 +9,7 @@ tags:: cloud o'reilly-learning
 - Highlights first synced by [[Readwise]] [[Thursday, 05-01-2023]]
 	- -
 		- Define cloud computing #flashcard
+		  id:: 63bae882-79de-4e0d-b308-b74dc9766b7c
 			- *“Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction. This cloud model is composed of five essential characteristics, three service models, and four deployment models.”*
 			  
 			  This book provides a more concise definition:
@@ -19,12 +20,14 @@ tags:: cloud o'reilly-learning
 - New highlights added [[Thursday, 05-01-2023]] at 12:38 PM
 	- -
 		- Grid Computing
+		  id:: 63bae882-8f1b-48dc-885d-4d2cf2de359c
 		  
 		  A computing grid (or “computational grid”) provides a platform in which computing resources are organized into one or more logical pools. These pools are collectively coordinated to provide a high performance distributed grid, sometimes referred to as a “super virtual computer.” Grid computing differs from clustering in that grid systems are much more loosely coupled and distributed. As a result, grid computing systems can involve computing resources that are heterogeneous and geographically dispersed, which is generally not possible with cluster computing-based systems. #flashcard
 		- ([View Highlight](https://read.readwise.io/read/01gp0rjcx8z1p9e615009ph07k))
 	- -
 	- -
 		- Which type of scaling is more expensive, in Cloud Computing? #flashcard
+		  id:: 63bae882-66e0-4490-9eb4-cd1d90f65bd6
 			- [Table 3.1](https://readwise.io/reader/document_raw_content/24323849#ch03tab01) provides a brief overview of common pros and cons associated with horizontal and vertical scaling.
 			  
 			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/24323849/a03tab01-03tab01.jpg)
@@ -34,10 +37,12 @@ tags:: cloud o'reilly-learning
 	- -
 	- -
 		- The driving motivation behind cloud computing is to provide IT resources as services that encapsulate other IT resources, while offering functions for clients to use and leverage remotely. A multitude of models for generic types of cloud services have emerged, most of which are labeled with the “as-a-service” suffix. #flashcard
+		  id:: 63bae882-7d68-45ee-91a7-dc7ba4b67625
 		- ([View Highlight](https://read.readwise.io/read/01gp0t73nbttgdsb7fme71dbpf))
 	- -
 	- -
 		- Benefits of the cloud (academically described): #flashcard
+		  id:: 63bae882-0675-42e8-8f45-6b4999f6c52e
 			- Common measurable benefits to cloud consumers include:
 			  
 			  • On-demand access to pay-as-you-go computing resources on a short-term basis (such as processors by the hour), and the ability to release these computing resources when they are no longer needed.
@@ -51,6 +56,7 @@ tags:: cloud o'reilly-learning
 	- -
 	- -
 		- A simple example of usage demand fluctuations throughout a 24 hour period is provided in [Figure 3.8](https://readwise.io/reader/document_raw_content/24323849#ch03fig08).
+		  id:: 63bae882-c651-4a44-aab4-6a61f7ec76b0
 		  
 		  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/24323849/a03fig08-03fig08.jpg)
 		  
@@ -61,6 +67,7 @@ tags:: cloud o'reilly-learning
 	- -
 	- -
 		- Summary of Key Points
+		  id:: 63bae882-0f84-4804-b798-6757f846d9d9
 		  
 		  • Cloud environments are comprised of highly extensive infrastructure that offers pools of IT resources that can be leased using a pay-for-use model whereby only the actual usage of the IT resources is billable. When compared to equivalent on-premise environments, clouds provide the potential for reduced initial investments and operational costs proportional to measured usage.
 		  
@@ -73,6 +80,7 @@ tags:: cloud o'reilly-learning
 	- Chapter 3. Understanding Cloud Computing
 		- -
 			- The importance of a Content Delivery Network in Cloud Computing #flashcard
+			  id:: 63bae882-eb92-4ca5-87a3-219c23b43948
 				- • Longer geographic distances between the cloud consumer and cloud provider can require additional network hops that introduce fluctuating latency and potential bandwidth constraints.
 				  
 				  The latter scenario is illustrated in [Figure 3.10](https://readwise.io/reader/document_raw_content/24323849#ch03fig10).

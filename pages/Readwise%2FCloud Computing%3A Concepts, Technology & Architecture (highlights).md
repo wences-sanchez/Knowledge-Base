@@ -163,3 +163,9 @@ tags:: cloud o'reilly-learning
 					  **Figure 5.2** An abstraction of the internetworking structure of the Internet. #flashcard
 					- ([View Highlight](https://read.readwise.io/read/01gp6vq0m40tzyx3xa8x188sxj))
 				- -
+- New highlights added [[Monday, 09-01-2023]] at 1:48 PM
+	- -
+		- A comparison of on-premise and cloud-based internetworking. #flashcard
+			- ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/24323849/a05tab01-05tab01.jpg)
+		- ([View Highlight](https://read.readwise.io/read/01gp929ewppq40hskr5t8d9ya1))
+	- -

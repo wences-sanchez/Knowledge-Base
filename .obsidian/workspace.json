@@ -11,8 +11,12 @@
             "id": "2ccb56b4a0176c67",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Coursera/DevOps Course/Python for Data Science, AI & Development/Week 5.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023_01_17.md",
+                "file": "Coursera/DevOps Course/Python for Data Science, AI & Development/Week 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2023_01_17.md",
+                "file": "Coursera/DevOps Course/Python for Data Science, AI & Development/Week 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023_01_17.md"
+                "file": "Coursera/DevOps Course/Python for Data Science, AI & Development/Week 5.md"
               }
             }
           }
@@ -142,14 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb8c857138beacfa",
+  "active": "2ccb56b4a0176c67",
   "lastOpenFiles": [
+    "journals/2023_01_17.md",
     "journals/2022_12_14.md",
     "journals/2022_12_16.md",
     "journals/2022_12_21.md",
     "journals/2022_12_27.md",
     "journals/2022_12_28.md",
-    "journals/2023_01_17.md",
     "test/Test.md",
     "Readwise/Books/Kubernetes in Action-2.md",
     "pages/Web Knowledge-Base.md",

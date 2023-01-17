@@ -28,3 +28,4 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 	- How could you define an endpoint? #flashcard
 	  id:: 63bae885-7aea-4de6-83bd-d50e9b1d3338
 		- An endpoint is simply the location of the service. It's used to find the API on the Internet just like a web address.
+	-

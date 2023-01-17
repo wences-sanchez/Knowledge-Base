@@ -4,5 +4,6 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "attachmentFolderPath": "assets",
-  "fileSortOrder": "byModifiedTime"
+  "fileSortOrder": "byModifiedTime",
+  "alwaysUpdateLinks": true
 }

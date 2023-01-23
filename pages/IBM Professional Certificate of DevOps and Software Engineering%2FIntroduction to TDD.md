@@ -4,6 +4,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 -
 - ## Tasks
 	- DOING Week 1
+	  id:: 63ce7392-cf1f-40bc-93e8-b0f4eb2bb361
 	  :LOGBOOK:
 	  CLOCK: [2023-01-23 Mon 12:47:06]
 	  :END:
@@ -32,4 +33,28 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- You combine different units to see how they work and behave together correctly
 				- This is the level of Behaviour Driven Development. You are testing the behaviour.
 			- Next, **System Tests**
-				- At this level, the entire software
+				- At this level, the entire software process is being tested
+				- We make sure that the system works like in production
+			- Finally, it's **Acceptance Tests**
+				- The system is tested for acceptability.
+				- The purpose of this test is to evaluate the system's compliance with the business requierements
+			- ![image.png](../assets/image_1674476138370_0.png)
+			- ![image.png](../assets/image_1674476191183_0.png)
+		- ### TDD and BDD
+			- **BDD**
+				- Focuses on the behavior of the system from the outside
+				- NOT the minutia of how the system works from the inside
+				- It's great for integration testing
+				- Uses a syntax that can be understood by both developers and stakeholders
+			- **TDD**
+				-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-

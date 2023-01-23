@@ -38,6 +38,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- Finally, it's **Acceptance Tests**
 				- The system is tested for acceptability.
 				- The purpose of this test is to evaluate the system's compliance with the business requierements
+				- At this point, we want to ensure the validation of our code which we've already developed (until now).
 			- ![image.png](../assets/image_1674476138370_0.png)
 			- ![image.png](../assets/image_1674476191183_0.png)
 		- ### TDD and BDD
@@ -59,7 +60,18 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- It's important to use fixtures that are strange to the use case. Such as `True` or `None` or `"stfr"`
 			- ![image.png](../assets/image_1674477384725_0.png)
 			- You must code **defensively**. Because your code will be called from unkwon methods.
-			-
+		-
+		- ### Questions
+			- Why do developers need both test driven development (TDD) and behavior driven development (BDD)?
+			  
+			  [ ] Developers use both TDD and BDD to communicate with clients.
+			  
+			  [ ] TDD and BDD together ensure that you are building the software right.
+			  
+			  [ ]TDD and BDD complement each other in the development process.
+			  
+			  [ ] Developers use both TDD and BDD to perform acceptance testing. #flashcard
+				-
 			-
 -
 -

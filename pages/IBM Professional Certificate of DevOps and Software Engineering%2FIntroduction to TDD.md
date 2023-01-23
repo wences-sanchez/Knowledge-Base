@@ -56,7 +56,11 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- TDD ensures that you are building the "thing right"
 			- ![image.png](../assets/image_1674476762901_0.png)
 		- ### Testing Case Study
-			- It's important to use fixtures that are strange to the use case. Such as `True` or `None` or "
+			- It's important to use fixtures that are strange to the use case. Such as `True` or `None` or `"stfr"`
+			- ![image.png](../assets/image_1674477384725_0.png)
+			- You must code **defensively**. Because your code will be called from unkwon methods.
+			-
+			-
 -
 -
 -

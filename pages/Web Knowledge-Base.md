@@ -1,4 +1,4 @@
-- ## 🔖 Articles
+- 🚀 Fetching articles ...
 	- [What Is Quantum Mechanics?](https://omnivore.app/me/what-is-quantum-mechanics-1853f27d901)
 	      site:: [Live Science](https://www.livescience.com/33816-quantum-mechanics-explanation.html)
 	      author:: Adam Mann, Robert Coolman

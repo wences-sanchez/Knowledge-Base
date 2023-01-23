@@ -1,12 +1,13 @@
+public:: true
 tags:: #Coursera #IBM-DevOps #DevOps
 deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 
 -
 - ## Tasks
-	- DOING Week 1
+	- DONE Week 1
 	  id:: 63ce7392-cf1f-40bc-93e8-b0f4eb2bb361
 	  :LOGBOOK:
-	  CLOCK: [2023-01-23 Mon 12:47:06]
+	  CLOCK: [2023-01-23 Mon 12:47:06]--[2023-01-23 Mon 13:55:02] =>  01:07:56
 	  :END:
 	- TODO Week 2
 	- TODO Week 3
@@ -71,7 +72,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			  [ ]TDD and BDD complement each other in the development process.
 			  
 			  [ ] Developers use both TDD and BDD to perform acceptance testing. #flashcard
-				-
+				- **[x] TDD and BDD complement each other in the development process.**
 			-
 -
 -

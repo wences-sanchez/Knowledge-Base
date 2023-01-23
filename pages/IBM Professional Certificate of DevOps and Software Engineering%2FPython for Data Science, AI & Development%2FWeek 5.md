@@ -39,6 +39,7 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 	  
 	  You may also hear the term Uniform Resource Identifier (URI), URL are actually a subset of URIs. Another popular term is endpoint, this is the URL of an operation provided by a Web server.
 	- What is an endpoint? #flashcard
+	  id:: 63ce4c9a-e88a-4d35-9eb1-63ebf9ca0f24
 		- An endpoint is the URL of an operation provided by a web server
 	-
 		- ![image.png](../assets/image_1674463502749_0.png)

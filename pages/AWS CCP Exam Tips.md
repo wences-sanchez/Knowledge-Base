@@ -75,12 +75,14 @@ deck:: [[AWS::CCP::Tips]]
 			- > Managed Services helps you efficiently operate your AWS infrastructure and reduces operational risks and overhead.
 	-
 	- A customer is managing multiple AWS accounts using AWS Organizations. What can the customer use to restrict the same permissions across all AWS accounts managed under AWS Organizations using minimal effort? #flashcard
+	  id:: 63bfc832-5b00-4441-a5d2-60d1660919f0
 		- ~~IAM organization policy~~
 			- *There is no such thing as an IAM organization policy.*
 		- **Service control policies**
 			- > AWS Organizations provides central governance and management for multiple accounts.
 			  Organization service control policies (SCPs) allow you to create permissions guardrails that apply to all accounts within a given organization.
 	- A system administrator works for a company and manages several AWS accounts. He would like to use a Convertible Reserved Instance (RI) across different AWS accounts. How can this be set up? #flashcard
+	  id:: 63bfc832-3352-47f0-a42b-ff3fd54a3c4c
 		- ~~By using a service control policy (SCP) under Control Tower~~
 			- *SCPs use the_AWS Identity and Access Management_(IAM) policy language; however, they do not grant permissions, only restrict them.*
 		- **By using consolidated billing with AWS Organizations**

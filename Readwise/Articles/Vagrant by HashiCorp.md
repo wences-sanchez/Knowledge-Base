@@ -7,10 +7,9 @@ category:: #articles\
 url:: https://www.vagrantup.com/docs/multi-machine\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png)
-
 ## Highlights
-- 
- How do you include *two* machines in one Vagrantfile in **Vagrant**? #flashcard 
+- id:: 63c669d7-db07-40ac-93e3-000b2e8a2294
+   How do you include *two* machines in one Vagrantfile in **Vagrant**? #flashcard 
     Vagrant.configure("2") do |config|
      config.vm.provision "shell", inline: "echo Hello"
      config.vm.define "web" do |web|
@@ -20,6 +19,4 @@ url:: https://www.vagrantup.com/docs/multi-machine\
      db.vm.box = "mysql"
      end
      end
-
-    
 -

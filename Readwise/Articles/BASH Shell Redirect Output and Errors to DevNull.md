@@ -7,10 +7,9 @@ category:: #articles\
 url:: https://www.cyberciti.biz/faq/how-to-redirect-output-and-errors-to-devnull/\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png)
-
 ## Highlights
-- 
- What is the best way of using /dev/null redirection in Bash? .bash #flashcard 
+- id:: 63c669c9-f056-47e0-9210-fa50694865b8
+   What is the best way of using /dev/null redirection in Bash? .bash #flashcard 
     Syntax to redirect error and output messages to /dev/null
      The syntax discussed below works with Bourne-like shells, such as sh, ksh, and bash:
      $ command > /dev/null 2>&1
@@ -24,6 +23,4 @@ url:: https://www.cyberciti.biz/faq/how-to-redirect-output-and-errors-to-devnull
      @hourly /scripts/backup/nas.backup >/dev/null 2>&1
      OR
      @hourly /scripts/backup/nas.backup &>/dev/null
-
-    
 -

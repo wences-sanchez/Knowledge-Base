@@ -280,6 +280,7 @@ tags:: o'reilly-learning qa
 - New highlights added [[Monday, 23-01-2023]] at 9:23 AM
 	- -
 		- Structural testing in a nutshell
+		  id:: f711b294-1cd0-46c6-9a16-0386ae07e02a
 		  
 		  Based on what we just did, let me define a simple approach that any developer can follow (see figure 3.4):
 		  
@@ -310,6 +311,7 @@ tags:: o'reilly-learning qa
 	- -
 	- -
 		- What is branch coverage? #flashcard
+		  id:: 77bf4039-0cdb-4005-8b18-041aca62e764
 			- Branch coverage takes into consideration the fact that branching instructions (`if`s, `for`s, `while`s, and so on) make the program behave in different ways, depending how the instruction is evaluated. For a simple `if(a` `&&` `b)` statement, having a test case T1 that makes the `if` statement `true` and another test case T2 that makes the statement `false` is enough to consider the branch covered.
 			  
 			  Figure 3.5 illustrates a control-flow graph (CFG) of the `CountWords` program. You can see that for each `if` instruction, two edges come out of the node: one representing where the flow goes if the statement is evaluated to `true` and another representing where the program goes if the statement is evaluated to `false`. Covering all the edges in the graph means achieving 100% branch coverage.
@@ -319,6 +321,7 @@ tags:: o'reilly-learning qa
 	- -
 	- -
 		- What is condition + branch coverage? #flashcard
+		  id:: 4900345f-e70c-4403-92f6-bad8e43773df
 			- Condition + branch coverage considers not only possible branches but also each condition of each branch statement. For example, the first `if` statement in the `CountWords` program contains three conditions: `!Character.isLetter(str.charAt(i))`, `last` `==` `'s'`, and `last` `==` `'r'`. Therefore, a developer aiming for condition + branch coverage should create a test suite that exercises each of those individual conditions being evaluated to `true` and `false` at least once *and* the entire branch statement being `true` and `false` at least once.
 			  
 			  Note that blindly looking only at the conditions (and ignoring how they are combined) may result in test suites that do not cover everything. Imagine a simple `if(A` `||` `B)`. A test suite composed of two tests (T1 that makes A `true` and B `false` and T2 that makes A `false` and B `true`) covers the two conditions, as each condition is exercised as `true` and `false`. However, the test suite does not fully cover the branch, as in both tests, the evaluation of the entire `if` statement is always `true`. This is why we use condition + branch coverage, and not only (basic) condition coverage.
@@ -332,6 +335,7 @@ tags:: o'reilly-learning qa
 	- -
 	- -
 		- What is path coverage? #flashcard
+		  id:: b50f9b9b-8409-418f-9b2f-5f8529c1adc2
 			- A developer aiming for path coverage covers *all* the possible paths of execution of the program. While ideally this is the strongest criterion, it is often impossible or too expensive to achieve. In a single program with three conditions, where each condition could be independently evaluated to `true` or `false`, we would have 23 = 8 paths to cover. In a program with 10 conditions, the total number of combinations would be 210 = 1024. In other words, we would need to devise more than a thousand tests!
 			  
 			  Path coverage also gets more complicated for programs with loops. In a program with an unbounded loop, the loop might iterate hundreds of times. A rigorous tester aiming for path coverage would have to try the program with the loop executing one time, two times, three times, and so on.
@@ -343,10 +347,12 @@ tags:: o'reilly-learning qa
 	- -
 	- -
 		- Note I have a video on YouTube that explains MC/DC visually: [www.youtube.com/watch?v=HzmnCVaICQ4](http://www.youtube.com/watch?v=HzmnCVaICQ4). #flashcard
+		  id:: f2923b54-1953-4b2f-9767-d563ed819f0a
 		- ([View Highlight](https://read.readwise.io/read/01gq4rq40etx0xs2988q2d32cr))
 	- -
 	- -
 		- How do you test a loop? #flashcard
+		  id:: 5e99169f-6fef-4666-8535-f6472ceba3e3
 			- Given that exhaustive testing is impossible, testers often rely on the *loop boundary adequacy criterion* to decide when to stop testing a loop. A test suite satisfies this criterion if and only if for every loop
 			  
 			  •   There is a test case that exercises the loop zero times.
@@ -361,6 +367,7 @@ tags:: o'reilly-learning qa
 	- -
 	- -
 		- ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/24323188/x03-07.png-03-07.png)
+		  id:: 0b2853a0-d605-45be-839a-0fa2c6c2270d
 		  
 		  Figure 3.7 The different coverage criteria and their subsumption relations
 		  
@@ -369,14 +376,17 @@ tags:: o'reilly-learning qa
 	- -
 	- -
 		- My rule of thumb is branch coverage: I always try to at least reach all the branches of the program. Whenever I see a more complicated expression, I evaluate the need for condition + branch coverage. If I see an even more complex expression, I consider MC/DC. #flashcard
+		  id:: dfdec787-6180-47df-9d23-dcf75d800af5
 		- ([View Highlight](https://read.readwise.io/read/01gq4sqsyfqkkx5s71ymcjbckz))
 	- -
 	- -
 		- Note Arie van Deursen offers a clear answer on Stack Overflow about the differences between design-by-contract and validation, and I strongly recommend that you check it out: [https://stackoverflow.com/a/5452329](https://stackoverflow.com/a/5452329). #flashcard
+		  id:: eed084e9-de6a-4a85-8bcb-4e98d30bdf9a
 		- ([View Highlight](https://read.readwise.io/read/01gq50d8ccbda1vbm6337g10jr))
 	- -
 	- -
 		- About asserts vs exceptions #flashcard
+		  id:: 62a25856-ac3c-4106-895e-e367a0049508
 			- Here is my rule of thumb:
 			  
 			  •   If I am modeling the contracts of a library or utility class, I favor exceptions, following the wisdom of the most popular libraries.
@@ -398,6 +408,7 @@ tags:: o'reilly-learning qa
 	- 5 Property-based testing
 		- -
 			- About property-based testing #flashcard
+			  id:: 36d447b8-73f2-47e8-920a-0c233185ef30
 				- Pay attention to these two points:
 				  
 				  1.  Ask yourself, “Am I exercising the property as closely as possible to the real world?” If you come up with input data that will be wildly different from what you expect in the real world, it may not be a good test.
@@ -415,6 +426,7 @@ tags:: o'reilly-learning qa
 		- -
 		- -
 			- Property-based testing seems much fancier than example-based testing. It also explores the input domain much better. Should we only use property-based testing from now on?
+			  id:: 04841894-9aa2-4b51-b564-d89485ab443b
 			  
 			  In practice, I mix example-based testing and property-based testing. In the testing workflow I propose, I use example-based testing when doing specification-based and structural testing. Example-based tests are naturally simpler than property-based tests, and they require less creativity to automate. I like that: their simplicity allows me to focus on understanding the requirements and engineer better test cases. When I am done with both testing techniques and have a much better grasp of the program under test, I evaluate which test cases would be better as property-based tests. #flashcard
 			- ([View Highlight](https://read.readwise.io/read/01gq584p3k8d4m5xcfvtqzj0sw))
@@ -422,32 +434,38 @@ tags:: o'reilly-learning qa
 		- 6 Test doubles and mocks
 			- -
 				- Note While some of the schools of thought in testing prefer to see mocks as a design technique, in this book, I talk about stubs and mocks mostly from a testing perspective, as our goal is to use mocks to ease our lives when looking for bugs. If you are interested in mocking as a design technique, I strongly recommend Freeman and Pryce’s 2009 book, which is the canonical reference for the subject. #flashcard
+				  id:: 17bf02a1-27c5-4386-9c23-187e3ba944ef
 				- ([View Highlight](https://read.readwise.io/read/01gq58qxc0w6m7qqefwnk23sb0))
 			- -
 			- -
 				- Dummy objects are passed to the class under test but never used. This is common in business applications where you need to fill a long list of parameters, but the test exercises only a few of them. Think of a unit test for a `Customer` class. Maybe this class depends on several other classes like `Address`, `Email`, and so on. Maybe a specific test case A wants to exercise a behavior, and this behavior does not care which `Address` this `Customer` has. In this case, a tester can set up a dummy `Address` object and pass it to the `Customer` class. #flashcard
+				  id:: 261698fd-ba3f-488b-be54-b042842d6fdf
 				- ([View Highlight](https://read.readwise.io/read/01gq58tzw2k102rxfrk6mjmdr4))
 			- -
 			- -
 				- Fake objects have real working implementations of the class they simulate. However, they usually do the same task in a much simpler way. Imagine a fake database class that uses an array list instead of a real database. This fake object is simpler to control than the real database. A common example in real life is to use a simpler database during testing.
+				  id:: 02087a0e-2cb5-4fbd-80d5-087580211520
 				  
 				  In the Java world, developers like to use HSQLDB (HyperSQL database, [http://hsqldb.org](http://hsqldb.org)), an in-memory database that is much faster and easier to set up in the test code than a real database. We will talk more about in-memory databases when we discuss integration testing in chapter 9. #flashcard
 				- ([View Highlight](https://read.readwise.io/read/01gq58vfa1xm2hzpadd0p2q5x5))
 			- -
 			- -
 				- Stubs provide hard-coded answers to the calls performed during the test. Unlike fake objects, stubs do not have a working implementation. If the code calls a stubbed method `getAllInvoices`, the stub will return a hard-coded list of invoices.
+				  id:: e912696d-3e56-4803-8ad4-e8fd0df50c22
 				  
 				  Stubs are the most popular type of simulation. In most cases, all you need from a dependency is for it to return a value so the method under test can continue its execution. If we were testing a method that depends on this `getAllInvoices` method, we could stub it to return an empty list, then return a list with one element, then return a list with many elements, and so on. This would enable us to assert how the method under test would work for lists of various lengths being returned from the database. #flashcard
 				- ([View Highlight](https://read.readwise.io/read/01gq590tvfybtfjkn7gtqm6eky))
 			- -
 			- -
 				- Mock objects act like stubs in the sense that you can configure how they reply if a method is called: for example, to return a list of invoices when `getAllInvoices` is called. However, mocks go beyond that. They save all the interactions and allow you to make assertions afterward. For example, maybe we only want the `getAllInvoices` method to be called once. If the method is called twice by the class under test, this is a bug, and the test should fail. At the end of our test, we can write an assertion along the lines of “verify that `getAllInvoices` was called just once.”
+				  id:: f7e11c71-07ff-4b85-a457-31c091ca4e77
 				  
 				  Mocking frameworks let you assert all sorts of interactions, such as “the method was never called with this specific parameter” or “the method was called twice with parameter A and once with parameter B.” Mocks are also popular in industry since they can provide insight into how classes interact. #flashcard
 				- ([View Highlight](https://read.readwise.io/read/01gq5945263bbgxn66zps5xckt))
 			- -
 			- -
 				- As the name suggests, spies spy on a dependency. They wrap themselves around the real object and observe its behavior. Strictly speaking, we are not simulating the object but rather recording all the interactions with the underlying object we are spying on.
+				  id:: b92b68db-8d5b-4f57-b7d2-cf724f750130
 				  
 				  Spies are used in very specific contexts, such as when it is much easier to use the real implementation than a mock but you still want to assert how the method under test interacts with the dependency. Spies are less common in the wild. #flashcard
 				- ([View Highlight](https://read.readwise.io/read/01gq5951680gakrhxm6202nv1z))
@@ -458,10 +476,12 @@ tags:: o'reilly-learning qa
 			- -
 			- -
 				- To learn more about the differences between mocks and stubs, see the article “Mocks Aren’t Stubs,” by Martin Fowler (2007). #flashcard
+				  id:: e778f795-f442-4162-a040-39a036e2bff9
 				- ([View Highlight](https://read.readwise.io/read/01gq5apf9q18srp1gz8eatg0tr))
 			- -
 			- -
 				- I have been talking a lot about the advantages of mocks. However, as I hinted before, a common (and heated) discussion among practitioners is whether to use mocks. Let’s look at possible disadvantages.
+				  id:: 337281bc-e2d3-4dfc-8883-4eb8642a713a
 				  
 				  Some developers strongly believe that using mocks may lead to test suites that *test the mock, not the code*. That can happen. When you use mocks, you are naturally making your test less realistic. In production, your code will use the concrete implementation of the class you mocked during the test. Something may go wrong in the way the classes communicate in production, for example, and you may miss it because you mocked them.
 				  
@@ -484,6 +504,7 @@ tags:: o'reilly-learning qa
 			- -
 			- -
 				- On the other hand, developers tend not to mock or stub the following dependencies:
+				  id:: 2ced58f2-b9d8-4d24-baf9-f64985561cfc
 				  
 				  •   *Entities* —Entities are classes that represent business concepts. They consist primarily of data and methods that manipulate this data. Think of the `Invoice` class in this chapter or the `ShoppingCart` class from previous chapters. In business systems, entities commonly depend on other entities. This means, whenever testing an entity, we need to instantiate other entities.
 				    
@@ -523,5 +544,6 @@ tags:: o'reilly-learning qa
 		- 10 Test code quality
 			- -
 				- A *fixture* is the set of input values used to exercise the component under test #flashcard
+				  id:: 0bd8ba26-022f-4724-aab4-50fcec8bff1d
 				- ([View Highlight](https://read.readwise.io/read/01gq5jtf7jh6n26c5k1bqhafty))
 			- -

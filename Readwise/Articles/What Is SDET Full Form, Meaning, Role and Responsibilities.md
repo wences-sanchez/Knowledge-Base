@@ -7,12 +7,11 @@ category:: #articles\
 url:: https://www.guru99.com/software-developer-engineer-test-sdet.html\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png)
-
 ## Highlights
-- 
-
-SDETs take part in complete software development process as well as software testing process. SDET professional's knowledge is entirely focused on testability, robustness and performance of software testing and development process #flashcard 
-
-
+- id:: 63c669d9-1966-4fe9-a3a6-3bfb6285c81a
+  
+  SDETs take part in complete software development process as well as software testing process. SDET professional's knowledge is entirely focused on testability, robustness and performance of software testing and development process #flashcard 
+  
+  
     ([View Highlight](https://instapaper.com/read/1367799509/14796365))
 -

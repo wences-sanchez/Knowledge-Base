@@ -7,10 +7,9 @@ category:: #articles\
 url:: https://stackoverflow.com/questions/42322445/aws-how-to-allow-all-tcp-traffic-between-all-instances-in-same-vpc\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png)
-
 ## Highlights
-- 
- How can you allow all traffic between instances in the same VPC? .aws #flashcard 
+- id:: 63c669c9-81f7-4033-8223-7fbde408868f
+   How can you allow all traffic between instances in the same VPC? .aws #flashcard 
     to Allow any traffic between ALL servers in the VPC is not a good practice.
      you should rethink in your VPC purpose.
      Any way, if you want a group of servers to communicate with each other you can create a Security Group 
@@ -19,6 +18,4 @@ url:: https://stackoverflow.com/questions/42322445/aws-how-to-allow-all-tcp-traf
      if your Security Group ID is 'sg-xxxxxxxx'
      then the rule will be like this:
      All TPC | TCP | 0-65535 | custom | sg-xxxxxxxx
-
-    
 -

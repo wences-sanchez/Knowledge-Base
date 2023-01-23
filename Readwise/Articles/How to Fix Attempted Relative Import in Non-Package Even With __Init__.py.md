@@ -7,10 +7,9 @@ category:: #articles\
 url:: https://stackoverflow.com/questions/11536764/how-to-fix-attempted-relative-import-in-non-package-even-with-init-py\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png)
-
 ## Highlights
-- 
- About relative imports in Python modules and packages .python #flashcard 
+- id:: 63c669cf-baaa-4b70-a933-c8d3ddee0cd2
+   About relative imports in Python modules and packages .python #flashcard 
     It depends on how you want to launch your script.
      If you want to launch your UnitTest from the command line in a classic way, that is:
      python tests/core_test.py
@@ -34,6 +33,4 @@ url:: https://stackoverflow.com/questions/11536764/how-to-fix-attempted-relative
      from components.core import GameLoopEvents
      else:
      from ..components.core import GameLoopEvents
-
-    
 -

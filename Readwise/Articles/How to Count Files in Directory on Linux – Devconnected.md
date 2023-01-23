@@ -7,10 +7,9 @@ category:: #articles\
 url:: https://devconnected.com/how-to-count-files-in-directory-on-linux/\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png)
-
 ## Highlights
-- 
- How would you count the numbers of files inside a directory in the Linux Terminal? #flashcard  #linux 
+- id:: 63c669cf-baa0-4a49-9d18-4ece392f4328
+   How would you count the numbers of files inside a directory in the Linux Terminal? #flashcard  #linux 
     In order to count files recursively on Linux, you have to use the “find” command and pipe it with the “wc” command in order to count the number of files.
      $ find <directory> -type f | wc -l
      As a reminder, the “find” command is used in order to search for files on your system. 
@@ -19,6 +18,4 @@ url:: https://devconnected.com/how-to-count-files-in-directory-on-linux/\
      For example, if you want to recursively count files in the “/etc” directory, you would write the following query :
      $ find /etc -type f | wc -l
      2074
-
-    
 -

@@ -8,155 +8,154 @@ category:: #books\
 tags:: Administración-de-Sistemas-para-la-Cloud UNI  
 
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/dad4eef0-4646-4392-abe6-cb7908390c3d.jpg)
-
 ## Highlights
-- 
-
-la ruta /media suele alojan las unidades del CD (disco duro) y las unidades de USB externas, una vez montadas. #flashcard 
-
-
+- id:: 63c669de-ac2c-4169-b767-cd0555d571df
+  
+  la ruta /media suele alojan las unidades del CD (disco duro) y las unidades de USB externas, una vez montadas. #flashcard 
+  
+  
      (Page 5)
 -
-- 
-
-Como su propio nombre indica, el flag de lectura permite leer o ver un archivo normal o leer los nombres, pero no los detalles, del contenido de un directorio. El flag de escritura permite hacer cambios sobre un archivo o, si se trata de un directorio, permite crear, borrar y renombrar los ficheros del directorio. El flag de ejecución permite, efectivamente, la ejecución de un archivo. Los binarios de /bin deben tener el flag activo para que se puedan ejecutar. Un script, aunque sea un fichero de texto, puede tener el flag activo para poder ejecutarlo. Si el flag de ejecución se activa en un directorio, es posible «entrar» dentro del directorio usando el comando cd. #flashcard 
-
-
+- id:: 63c669de-d146-431b-9e22-3e3da4dd396b
+  
+  Como su propio nombre indica, el flag de lectura permite leer o ver un archivo normal o leer los nombres, pero no los detalles, del contenido de un directorio. El flag de escritura permite hacer cambios sobre un archivo o, si se trata de un directorio, permite crear, borrar y renombrar los ficheros del directorio. El flag de ejecución permite, efectivamente, la ejecución de un archivo. Los binarios de /bin deben tener el flag activo para que se puedan ejecutar. Un script, aunque sea un fichero de texto, puede tener el flag activo para poder ejecutarlo. Si el flag de ejecución se activa en un directorio, es posible «entrar» dentro del directorio usando el comando cd. #flashcard 
+  
+  
      (Page 9)
 -
-- 
- ¿Cuál es el patrón de sintaxis de chmod? #flashcard 
+- id:: 63c669de-af91-41cd-a263-aed6fcf5c001
+   ¿Cuál es el patrón de sintaxis de chmod? #flashcard 
      Clase|activar/desactivar|permiso.  Representación binaria.
-
+  
      (Page 10)
 -
-- 
-
-chmod u+x,g-x,o+r file chmod 764 file #flashcard 
-
-
+- id:: 63c669de-d002-4549-851c-d3faa0262a99
+  
+  chmod u+x,g-x,o+r file chmod 764 file #flashcard 
+  
+  
      (Page 10)
 -
-- 
-
-Hay dos tipos de enlaces: enlaces fuertes y enlaces débiles o simbólicos. Los enlaces fuertes, o hard links, son referencias reales al archivo. Si se borran todos los enlaces fuertes a un archivo, el archivo se borra también. Un enlace fuerte solo se puede crear en la misma partición que el archivo al que referencia. Los enlaces simbólicos se pueden borrar sin afectar al fichero al que referencian. Es habitual que los archivos binarios tengan enlaces simbólicos, para poder acceder a ellos con varios nombres o para poder cambiar la versión de un binario sin cambiar el nombre con el que se accede. Por ejemplo, la Figura 5 muestra los ejecutables de Python en la carpeta /usr/bin. La versión instalada de Python es la 3.6, tal como se indica en el binario python3.6. Sin embargo, es posible ejecutarlo tanto con python como con python3. Una actualización a Python 3.8 cambiaría estos enlaces simbólicos, para que apunten al nuevo binario, pero manteniendo los nombres python y python3. #flashcard 
-
-
+- id:: 63c669de-f3eb-4641-b8fe-5054f4294466
+  
+  Hay dos tipos de enlaces: enlaces fuertes y enlaces débiles o simbólicos. Los enlaces fuertes, o hard links, son referencias reales al archivo. Si se borran todos los enlaces fuertes a un archivo, el archivo se borra también. Un enlace fuerte solo se puede crear en la misma partición que el archivo al que referencia. Los enlaces simbólicos se pueden borrar sin afectar al fichero al que referencian. Es habitual que los archivos binarios tengan enlaces simbólicos, para poder acceder a ellos con varios nombres o para poder cambiar la versión de un binario sin cambiar el nombre con el que se accede. Por ejemplo, la Figura 5 muestra los ejecutables de Python en la carpeta /usr/bin. La versión instalada de Python es la 3.6, tal como se indica en el binario python3.6. Sin embargo, es posible ejecutarlo tanto con python como con python3. Una actualización a Python 3.8 cambiaría estos enlaces simbólicos, para que apunten al nuevo binario, pero manteniendo los nombres python y python3. #flashcard 
+  
+  
      (Page 11)
 -
-- 
- ¿Cómo se puede crear un enlace simbólico? #flashcard 
+- id:: 63c669de-6bc7-4f2d-a261-7ee778858c84
+   ¿Cómo se puede crear un enlace simbólico? #flashcard 
     Los enlaces se crean con el comando ln. Los enlaces serán fuertes por defecto y simbólicos con el flag -s. La manera más sencilla de crear un enlace simbólico en la ruta actual es simplemente indicando la ruta del archivo enlazado
-
+  
      (Page 12)
 -
-- 
-
-Linux es un sistema operativo multiusuario (Matotek et al., 2017). Esto significa que permite el inicio de sesión de múltiples usuarios simultáneamente, ya sea por la línea de comandos o en una sesión de escritorio. También hay usuarios específicos para ciertos componentes del sistema operativo. #flashcard 
-
-
+- id:: 63c669de-61a2-4a66-b5c1-bef4b9331ecc
+  
+  Linux es un sistema operativo multiusuario (Matotek et al., 2017). Esto significa que permite el inicio de sesión de múltiples usuarios simultáneamente, ya sea por la línea de comandos o en una sesión de escritorio. También hay usuarios específicos para ciertos componentes del sistema operativo. #flashcard 
+  
+  
      (Page 12)
 -
-- 
-
-la ruta /home. Esta carpeta ofrece un lugar en el que los usuarios pueden guardar sus ficheros, además de ser la ubicación por defecto que muchas aplicaciones usan para guardar las configuraciones específicas de cada usuario. Por ejemplo, las claves para las conexiones SSH se guardan en la carpeta ~/.ssh y el histórico de Bash se guarda en ~/.bash_profile. #flashcard 
-
-
+- id:: 63c669de-36c3-42a1-889c-98cbaeb75c61
+  
+  la ruta /home. Esta carpeta ofrece un lugar en el que los usuarios pueden guardar sus ficheros, además de ser la ubicación por defecto que muchas aplicaciones usan para guardar las configuraciones específicas de cada usuario. Por ejemplo, las claves para las conexiones SSH se guardan en la carpeta ~/.ssh y el histórico de Bash se guarda en ~/.bash_profile. #flashcard 
+  
+  
      (Page 13)
 -
-- 
-
-**$ id ubuntu**
+- id:: 63c669de-5d6d-43df-af47-e0116af62216
+  
+  **$ id ubuntu**
      uid=1000(ubuntu) gid=1000(ubuntu) min),126(sambashare) groups=1000(ubuntu),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpad #flashcard 
-
-
+  
+  
      (Page 17)
 -
-- 
-
-$ sudo useradd -m -G sudo,cdrom ubuntu_sudo
+- id:: 63c669de-1aa1-460a-8c08-9229ee0801db
+  
+  $ sudo useradd -m -G sudo,cdrom ubuntu_sudo
      $ id ubuntu_sudo uid=1002(ubuntu_sudo) gid=1002(ubuntu_sudo) groups=1002(ubuntu_sudo),24(cdrom),27(sudo) #flashcard 
-
-
+  
+  
      (Page 17)
 -
-- 
-
-$ sudo usermod -a -G plugdev ubuntu_sudo $ id ubuntu_sudo uid=1002(ubuntu_sudo) gid=1002(ubuntu_sudo) groups=1002(ubuntu_sudo),24(cdrom),27(sudo),46(plugdev) #flashcard 
-
-
+- id:: 63c669de-77e1-45b7-857d-0d61c255213f
+  
+  $ sudo usermod -a -G plugdev ubuntu_sudo $ id ubuntu_sudo uid=1002(ubuntu_sudo) gid=1002(ubuntu_sudo) groups=1002(ubuntu_sudo),24(cdrom),27(sudo),46(plugdev) #flashcard 
+  
+  
      (Page 17)
 -
-- 
-
-Al igual que otros sistemas operativos, en Linux existe el concepto de servicio, también llamado daemon. Los serviciosson procesos que no terminan inmediatamente tras la ejecución, como el comando pwd, sino que se ejecutan continuamente, ofreciendo ciertas funcionalidades al sistema operativo o a los usuarios. Algunos ejemplos de servicios son, por ejemplo, el daemonde SSH, cuyo proceso se llama sshd, o el servidor web Apache, cuyo proceso es httpd. El comando ps auxmuestra todos los procesos en ejecución, tanto servicios como otros procesos. #flashcard 
-
-
+- id:: 63c669de-4989-4bbb-95a0-e72b7befc526
+  
+  Al igual que otros sistemas operativos, en Linux existe el concepto de servicio, también llamado daemon. Los serviciosson procesos que no terminan inmediatamente tras la ejecución, como el comando pwd, sino que se ejecutan continuamente, ofreciendo ciertas funcionalidades al sistema operativo o a los usuarios. Algunos ejemplos de servicios son, por ejemplo, el daemonde SSH, cuyo proceso se llama sshd, o el servidor web Apache, cuyo proceso es httpd. El comando ps auxmuestra todos los procesos en ejecución, tanto servicios como otros procesos. #flashcard 
+  
+  
      (Page 18)
 -
-- 
-
-Se puede hacer uso de la sustitución al vuelo de comandos de Bash para obtener el PID del proceso con pidof e insertarlo en kill en una sola línea:
+- id:: 63c669de-0f6c-4857-8688-8f7b9e6067e0
+  
+  Se puede hacer uso de la sustitución al vuelo de comandos de Bash para obtener el PID del proceso con pidof e insertarlo en kill en una sola línea:
      **$ sudo kill -9 `pidof top`** #flashcard 
-
-
+  
+  
      (Page 20)
 -
-- 
-
-killallterminará todos los procesos con ese nombre. También permite especificar un usuario, por lo que terminará los procesos de ese usuario. #flashcard 
-
-
+- id:: 63c669de-e525-49ce-bbed-eaab89108619
+  
+  killallterminará todos los procesos con ese nombre. También permite especificar un usuario, por lo que terminará los procesos de ese usuario. #flashcard 
+  
+  
      (Page 20)
 -
-- 
-
-killall terminará también el proceso de consola y, por tanto, terminará la sesión del usuario. $ killall -u username $ killall -r httpd #flashcard 
-
-
+- id:: 63c669de-c6b0-4e00-a386-f01d0fa9e7ca
+  
+  killall terminará también el proceso de consola y, por tanto, terminará la sesión del usuario. $ killall -u username $ killall -r httpd #flashcard 
+  
+  
      (Page 21)
 -
-- 
-
-**$ pkill [-P] pid**
+- id:: 63c669de-62ab-4ab7-adab-d97f07015d55
+  
+  **$ pkill [-P] pid**
      Finalmente, pkill permite terminar procesos con el nombre del proceso.
      Es también capaz de terminar los procesos hijos de un proceso padre con el flag -P. #flashcard 
-
-
+  
+  
      (Page 21)
 -
-- 
-
-El comando uptime muestra por consola un resumen del estado del sistema:
+- id:: 63c669de-268c-46c0-a340-380252a8d29e
+  
+  El comando uptime muestra por consola un resumen del estado del sistema:
      la hora actual,
      el tiempo que el sistema ha estado arrancado,
      el número de usuarios conectados
      y el uso medio del CPU en el último minuto, últimos cinco últimos quinceminutos.
      **$ uptime**
      *23:32:56 up 37 min, 2 users, load average: 0.00, 0.00, 0.05* #flashcard 
-
-
+  
+  
      (Page 26)
 -
-- 
-
-**$ df -h** muestra el espacio disponible en los sistemas de ficheros montados. En la Figura20se muestra la salida de dfen una instalación de Ubuntu con escritorio. El modificador -h imprime los valores en unidades más legibles para un usuario, como KB, MB, etc. #flashcard 
-
-
+- id:: 63c669de-ad58-4879-be4b-861e033d809f
+  
+  **$ df -h** muestra el espacio disponible en los sistemas de ficheros montados. En la Figura20se muestra la salida de dfen una instalación de Ubuntu con escritorio. El modificador -h imprime los valores en unidades más legibles para un usuario, como KB, MB, etc. #flashcard 
+  
+  
      (Page 28)
 -
-- 
-
-El directorio /proc es un directorio especial, ya que contiene archivos con información del sistema operativo. De hecho, no solo se puede obtener información, sino que es posible cambiar los parámetros del núcleo de Linux editando los archivos contenidos de /proc, modificando así el comportamiento del sistema.
+- id:: 63c669de-dfe1-4f0a-bf68-600a4776cd0c
+  
+  El directorio /proc es un directorio especial, ya que contiene archivos con información del sistema operativo. De hecho, no solo se puede obtener información, sino que es posible cambiar los parámetros del núcleo de Linux editando los archivos contenidos de /proc, modificando así el comportamiento del sistema.
      El sistema de archivos /proc no es un directorio real en el disco duro, sino una colección de estructuras de datos en la memoria, administrada por el núcleo, que aparece como un conjunto de directorios y archivos. El propósito de /proc (también llamado sistema de archivos de procesos) es ofrecer acceso a la información sobre el sistema operativo y sobre todos los procesos que se encuentran en ejecución. Los archivos de /proc son accesibles,como cualquier otro, pero es necesario conocer el significado y la sintaxis de ellos para interpretar la información. #flashcard 
-
-
+  
+  
      (Page 29)
 -
-- 
-
-Fuente: elaboración propia. Otro archivo interesante es /proc/cpuinfo. Este contiene las características de los procesadores del equipo: fabricante, modelo, conjuntos de instrucciones, frecuencia, etc. #flashcard 
-
-
+- id:: 63c669de-2469-4359-81c1-e87278e16cc9
+  
+  Fuente: elaboración propia. Otro archivo interesante es /proc/cpuinfo. Este contiene las características de los procesadores del equipo: fabricante, modelo, conjuntos de instrucciones, frecuencia, etc. #flashcard 
+  
+  
      (Page 30)
 -

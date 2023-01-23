@@ -7,19 +7,18 @@ category:: #books\
 \
 
 ![](https://images-na.ssl-images-amazon.com/images/I/51593m8Q7pL._SL200_.jpg)
-
 ## Highlights
-- 
-
-And before them, rising on her high pedestal from the scaling swarmy brilliance of sunlit water to the west, Liberty. #flashcard 
-
-
+- id:: 63c669e6-48d7-4ecc-8efd-dc585a3be966
+  
+  And before them, rising on her high pedestal from the scaling swarmy brilliance of sunlit water to the west, Liberty. #flashcard 
+  
+  
     ([Location 334](https://readwise.io/to_kindle?action=open&asin=B00F8FXE8M&location=334))
 -
-- 
-
-This was that vast incredible land, the land of freedom, of immense opportunity, that Golden Land. #flashcard 
-
-
+- id:: 63c669e6-e20f-4e2e-9e6d-4372cfc452b3
+  
+  This was that vast incredible land, the land of freedom, of immense opportunity, that Golden Land. #flashcard 
+  
+  
     ([Location 364](https://readwise.io/to_kindle?action=open&asin=B00F8FXE8M&location=364))
 -

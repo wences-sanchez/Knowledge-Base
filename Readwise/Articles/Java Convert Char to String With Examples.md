@@ -7,12 +7,9 @@ category:: #articles\
 url:: https://beginnersbook.com/2019/04/java-char-to-string-conversion/\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png)
-
 ## Highlights
-- 
- How do you convert a char to a String? #flashcard  #java #code 
+- id:: 63c669d2-9fc7-45d7-8429-f3a170e1c6c6
+   How do you convert a char to a String? #flashcard  #java #code 
     //char to String using toString() method
      String str = Character.toString(ch);
-
-    
 -

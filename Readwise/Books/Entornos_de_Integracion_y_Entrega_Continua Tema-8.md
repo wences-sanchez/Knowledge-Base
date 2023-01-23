@@ -8,12 +8,11 @@ category:: #books\
 tags:: Entornos-CI-CD UNI  
 
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/435728cc-c310-465b-a48f-ec84ca431ab8.jpg)
-
 ## Highlights
-- 
-
-Si el repositorio de control de versiones es la fuente de verdad del código, el registro de contenedores se convierte en la fuente de verdad de las versiones publicadas. #flashcard 
-
-
+- id:: 63c669fc-63a9-46a8-8811-1a36fcfaa7ac
+  
+  Si el repositorio de control de versiones es la fuente de verdad del código, el registro de contenedores se convierte en la fuente de verdad de las versiones publicadas. #flashcard 
+  
+  
      (Page 24)
 -

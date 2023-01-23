@@ -8,205 +8,205 @@ category:: #books\
 tags:: Contenedores UNI  
 
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/fa317805-1e8b-47a1-bb48-006b2fab8523.jpg)
-
 ## Highlights
-- 
- Define **kubectl**
+- id:: 63c669ef-cae2-4e80-999a-383a9fc0071a
+   Define **kubectl**
    AÑADIR IMÁGEN #flashcard 
     El Cliente kubectl es la herramienta de línea de comandos de Kubernetes que nos permitirá desplegar y gestionar aplicaciones en el clúster. Los comandos que ejecutemos con el cliente serán enviados a Kubernetes mediante llamadas HTTP a su API REST. Figura 1. El Cliente kubectl envía comandos mediante llamadas al API de Kubernetes. Fuente: Weibel, D. (2019). I ) R N U i j ( a o R a L e d l a n o i c a n r e t n I d a d i s r e v i n U ©
-
+  
      (Page 5)
 -
-- 
- ¿Qué es un pod en Kubernetes? #flashcard 
+- id:: 63c669ef-a08c-430d-8961-4c736df1f86d
+   ¿Qué es un pod en Kubernetes? #flashcard 
     Un Pod está formado por una colección de contenedores más sus volúmenes. Este se ejecutará como una única unidad dentro de un mismo entorno de ejecución, es decir, todos los contenedores de un determinado Pod residirán en el mismo nodo. El Pod es la unidad mínima desplegable dentro de un clúster de Kubernetes. Cuando se despliegan en un nodo, permanecerán allí durante toda su ejecución, hasta que finalicen o sean eliminados. Nunca se moverán de nodo. En caso de fallo se planificará la creación de un nuevo Pod en otro nodo disponible del clúster.
-
+  
      (Page 7)
 -
-- 
-
-Los contenedores están diseñados para ejecutar un único proceso. Sin embargo, en nuestras aplicaciones, a veces querremos que varios procesos se ejecuten los más cerca posible y se comuniquen entre sí. Este es el principal motivo por el que en Kubernetes la unidad mínima de despliegue, el Pod, puede estar formada por más de un contenedor. #flashcard 
-
-
+- id:: 63c669ef-03a9-4136-b7c0-59d9136a7619
+  
+  Los contenedores están diseñados para ejecutar un único proceso. Sin embargo, en nuestras aplicaciones, a veces querremos que varios procesos se ejecuten los más cerca posible y se comuniquen entre sí. Este es el principal motivo por el que en Kubernetes la unidad mínima de despliegue, el Pod, puede estar formada por más de un contenedor. #flashcard 
+  
+  
      (Page 8)
 -
-- 
- AÑADIR IMAGEN #flashcard 
+- id:: 63c669ef-0c1b-43e5-93bb-aa817f88af75
+   AÑADIR IMAGEN #flashcard 
     En Kubernetes, todos los Pods desplegados en cualquiera de los nodos comparten el mismo espacio de direcciones de red. Esto significa que, por defecto, cualquier Pod del clúster podría comunicarse con otro a partir de su dirección IP.
-
+  
      (Page 8)
 -
-- 
-
-Podríamos pensar que los Pods actúan como máquinas virtuales donde alojar toda nuestra aplicación. Sin embargo, deberemos aprender a descomponer nuestra aplicación y organizarla en múltiples Pods, de manera que sea posible escalar cada capa de la aplicación de manera individual. Normalmente utilizaremos Pods con un único contenedor, sin embargo, habrá ocasiones en las que tendremos un contenedor principal y varios de apoyo para tareas específicas, pero que están relacionadas con el principal. #flashcard 
-
-
+- id:: 63c669ef-74f2-4bcb-bde8-9e84cdd41919
+  
+  Podríamos pensar que los Pods actúan como máquinas virtuales donde alojar toda nuestra aplicación. Sin embargo, deberemos aprender a descomponer nuestra aplicación y organizarla en múltiples Pods, de manera que sea posible escalar cada capa de la aplicación de manera individual. Normalmente utilizaremos Pods con un único contenedor, sin embargo, habrá ocasiones en las que tendremos un contenedor principal y varios de apoyo para tareas específicas, pero que están relacionadas con el principal. #flashcard 
+  
+  
      (Page 9)
 -
-- 
-
-si listamos todos los Pods veremos el estado en que se encuentra nuestro Pod. No es posible listar directamente todos los contenedores, ya que en Kubernetes el Pod es la unidad mínima de despliegue: $ kubectl get pods NAME READY STATUS RESTARTS AGE app-nginx 1/1 Running 0 14s Sin embargo, sí que podemos consultar los detalles de un Pod concreto mediante el comando kubectl describe. Podemos utilizar este comando para consultar todo tipo de recursos de Kubernetes. $ kubectl describe pods app-nginx ... #flashcard 
-
-
+- id:: 63c669ef-7a8d-4095-a13c-2eaaa877464f
+  
+  si listamos todos los Pods veremos el estado en que se encuentra nuestro Pod. No es posible listar directamente todos los contenedores, ya que en Kubernetes el Pod es la unidad mínima de despliegue: $ kubectl get pods NAME READY STATUS RESTARTS AGE app-nginx 1/1 Running 0 14s Sin embargo, sí que podemos consultar los detalles de un Pod concreto mediante el comando kubectl describe. Podemos utilizar este comando para consultar todo tipo de recursos de Kubernetes. $ kubectl describe pods app-nginx ... #flashcard 
+  
+  
      (Page 10)
 -
-- 
- ¿Cómo podrías establecer un túnel entre la máquina local u una instancia de un pod en Kubernetes?
+- id:: 63c669ef-c385-4135-ae5f-2aaee931a772
+   ¿Cómo podrías establecer un túnel entre la máquina local u una instancia de un pod en Kubernetes?
    INCLUIR IMAGEN #flashcard 
     El siguiente ejemplo establecería un túnel seguro entre nuestra máquina local y una de las instancias del Pod que se ejecuta en los nodos del clúster. Mientras el comando este ejecutándose, nuestra máquina escuchará por el puerto 8888, redirigiendo el tráfico al puerto 8080 del Pod. $ kubectl port-forward pod/mypod 8888:8080 ... Forwarding from 127.0.0.1:8888 -> 8080 ... Forwarding from [::1]:8888 -> 8080
-
+  
      (Page 11)
 -
-- 
- ¿Cómo ejecutarías un comando custom en un pod de Kubernetes? #flashcard 
+- id:: 63c669ef-7606-4acf-9ab6-0caa74345701
+   ¿Cómo ejecutarías un comando custom en un pod de Kubernetes? #flashcard 
     Cuando depuramos nuestros contenedores, en ocasiones, la información obtenida de los logs no nos será suficiente para determinar el problema y querremos ejecutar algún comando dentro del contexto del propio contenedor. Para ello, disponemos del comando kubectl exec. Las opciones -it nos permiten establecer una sesión interactiva con el contenedor. Veamos algún ejemplo: $ kubectl exec mypod date $ kubectl exec mypod -it sh
-
+  
      (Page 12)
 -
-- 
- Ejemplos de copia de ficheros de *pods* en Kubernetes #flashcard 
+- id:: 63c669ef-0bd6-4a73-9771-c36ec49dff96
+   Ejemplos de copia de ficheros de *pods* en Kubernetes #flashcard 
     $ kubectl cp mypod:/data/app.dump ./app.dump $ kubectl cp $HOME/config.txt mypod:/config.txt
-
+  
      (Page 13)
 -
-- 
- ¿Cuáles son las secciones más importantes que se usarán en la mayoría de los objetos de Kubernetes? #flashcard 
+- id:: 63c669ef-3d68-413a-ad53-6d7363de0c8c
+   ¿Cuáles son las secciones más importantes que se usarán en la mayoría de los objetos de Kubernetes? #flashcard 
     las tres secciones más importantes que se usarán en la mayoría de los objetos de Kubernetes:  La sección «metadata» incluirá información sobre el Pod, como son el nombre, el Namespace, etiquetas, etc.  En la sección «spec» describiremos el comportamiento deseado del Pod, además de su contenido, es decir, los contenedores, volúmenes, etc.  La sección «status» es de solo lectura e incluirá información relativa al estado de la ejecución del Pod. A la hora de crear un Pod obviaremos esta propiedad.
-
+  
      (Page 13)
 -
-- 
- Ejemplo sencillo de *pod* en Kubernetes #flashcard 
+- id:: 63c669ef-9ef5-4de3-83f8-b849f7e040a2
+   Ejemplo sencillo de *pod* en Kubernetes #flashcard 
     apiVersion: v1 kind: Pod metadata: name: ejemplo-nginx spec: containers:
-
+  
      (Page 13)
 -
-- 
- <<<< #flashcard 
-    - image: nginx name: servidor-nginx ports: - containerPort: 8080 protocol: TCP $ kubectl create -f ejemplo-nginx.yaml pod "ejemplo-nginx" created
-
+- id:: 63c669ef-4fd3-4441-ab5e-aeec01f3222a
+   <<<< #flashcard
+	- image: nginx name: servidor-nginx ports: - containerPort: 8080 protocol: TCP $ kubectl create -f ejemplo-nginx.yaml pod "ejemplo-nginx" created
+	  
+	       (Page 14)
+-
+- id:: 63c669ef-98c6-43bd-823f-00daf10086de
+  
+  el comando kubectl explain, el cual nos permite listar los atributos soportados por un recurso. #flashcard 
+  
+  
      (Page 14)
 -
-- 
-
-el comando kubectl explain, el cual nos permite listar los atributos soportados por un recurso. #flashcard 
-
-
-     (Page 14)
--
-- 
- ¿Cómo se podrían implementar los *checks* **livenessProbe** y **readinessProbe** en Kubernetes? #flashcard 
+- id:: 63c669ef-19ef-4301-a80e-fd432cd11760
+   ¿Cómo se podrían implementar los *checks* **livenessProbe** y **readinessProbe** en Kubernetes? #flashcard 
     Estas pruebas se podrán realizar de tres maneras:  Mediante la ejecución de un comando (exec).  Al realizar una llamada HTTP (httpGet).  Conectándose a un socket TCP (tcpSocket). Si la prueba de vida definida falla, Kubernetes entiende que no está funcionando bien y reiniciará el Pod. Veamos algunos ejemplos de cómo configurarlos en la definición de los Pods: spec: containers: - name: liveness livenessProbe: exec: command: - cat - /tmp/healthy httpGet: path: /health port: 8080
-
+  
      (Page 16)
 -
-- 
- <<<<<<< #flashcard 
+- id:: 63c669ef-6c27-48a3-b1b8-a6889fdcc363
+   <<<<<<< #flashcard 
     tcpSocket: port: 8080
-
+  
      (Page 17)
 -
-- 
- ¿Qué checks hay disponibles en Kubernetes, además de las *liveness probe*?` #flashcard 
+- id:: 63c669ef-ccfb-4dbf-a1ed-faf7dce2b450
+   ¿Qué checks hay disponibles en Kubernetes, además de las *liveness probe*?` #flashcard 
     Además de las pruebas de vida, también podemos definir dos tipos más de pruebas:  Pruebas de arranque (startup probe), para detectar problemas en el arranque de un Pod. Si el Pod tarda más de lo esperado creará uno nuevo.  Pruebas de disponibilidad (readiness probe), para detectar interrupciones temporales del servicio. En este caso, el Pod no se reiniciará, sino que dejará de recibir tráfico mientras esté fallando la prueba.
-
+  
      (Page 17)
 -
-- 
- Ejemplo de definición de recursos a un pod en YAML #flashcard 
+- id:: 63c669ef-4664-400c-9e29-7ef9990d1ea1
+   Ejemplo de definición de recursos a un pod en YAML #flashcard 
     ... spec: containers: - image: app-image:latest name: app resources: requests: cpu: "500m" memory: "128Mi" limits: cpu: "1000m" memory: "256Mi"
-
+  
      (Page 17)
 -
-- 
-
-Al listar recursos de Kubernetes, la opción --show-labels nos permitirá ver las etiquetas asociadas a un determinado objeto. Además, la opción -L nos permite mostrar en una columna el valor de una etiqueta específica. #flashcard 
-
-
+- id:: 63c669ef-8a4b-4bb2-beb0-904062ae5aa6
+  
+  Al listar recursos de Kubernetes, la opción --show-labels nos permitirá ver las etiquetas asociadas a un determinado objeto. Además, la opción -L nos permite mostrar en una columna el valor de una etiqueta específica. #flashcard 
+  
+  
      (Page 19)
 -
-- 
- ¿Cómo puedes mostrar las etiquetas de un objeto en Kubernetes?
+- id:: 63c669ef-4134-4b26-836c-231b4300e944
+   ¿Cómo puedes mostrar las etiquetas de un objeto en Kubernetes?
    ¿Y las adicionales que queramos? #flashcard 
     a. Veamos un par de ejemplos: $ kubectl get pods nginx --show-labels NAME READY STATUS RESTARTS AGE LABELS app-nginx 1/1 Running 0 7m6s autor=efren,environment=staging
-
+  
      (Page 19)
 -
-- 
-
-$ kubectl get pods nginx -L autor,environment NAME READY STATUS RESTARTS AGE AUTOR ENVIRONMENT app-nginx 1/1 Running 0 11m efren staging #flashcard 
-
-
+- id:: 63c669ef-0e53-44d8-926e-5a6c29511be1
+  
+  $ kubectl get pods nginx -L autor,environment NAME READY STATUS RESTARTS AGE AUTOR ENVIRONMENT app-nginx 1/1 Running 0 11m efren staging #flashcard 
+  
+  
      (Page 20)
 -
-- 
- <<<<<< #flashcard 
+- id:: 63c669ef-840d-4e5c-a6b6-7dc2a0f3dc2a
+   <<<<<< #flashcard 
     Sin embargo, si en lugar de asignar etiquetas nuevas lo que queremos es actualizar el valor de una etiqueta que ya está asociada al recurso, tendremos que utilizar la opción --overwrite para poder sobrescribirla. Pero si lo que queremos es eliminar una etiqueta del recurso, indicaremos un guion tras las key de la etiqueta: $ kubectl label pod app-nginx --overwrite autor=david $ kubectl label pod app-nginx autor
-
+  
      (Page 20)
 -
-- 
-
-Tabla 1. Operadores disponibles del comando kubectl para los selectores. Fuente: elaboración propia. #flashcard 
-
-
+- id:: 63c669ef-2805-43af-a678-9b0f727a0551
+  
+  Tabla 1. Operadores disponibles del comando kubectl para los selectores. Fuente: elaboración propia. #flashcard 
+  
+  
      (Page 22)
 -
-- 
- INCLUIR IMAGEN #flashcard 
+- id:: 63c669ef-b7ce-4374-b05e-3c793e6ddcaa
+   INCLUIR IMAGEN #flashcard 
     Por ejemplo, podríamos utilizar un selector para listar todos los Pods del entorno de desarrollo que pertenecen a las aplicaciones demo o test, suponiendo que los tenemos correctamente etiquetados: $ kubectl get pods --selector="environment=desarrollo,app in (demo, test)"
-
+  
      (Page 22)
 -
-- 
- Ejemplo de matchExpressions de Kubernetes en YAML.
+- id:: 63c669ef-abae-43c5-8213-e3e9335c8199
+   Ejemplo de matchExpressions de Kubernetes en YAML.
    INCLUIR IMAGEN #flashcard 
     matchExpressions: - {key: app, operator: In, values: [demo, test]}
-
+  
      (Page 23)
 -
-- 
-
-Tabla 2. Operadores disponibles en la sección matchExpressions de los selectores. Fuente: elaboración propia. #flashcard 
-
-
+- id:: 63c669ef-64a2-466b-956c-cec7b3808169
+  
+  Tabla 2. Operadores disponibles en la sección matchExpressions de los selectores. Fuente: elaboración propia. #flashcard 
+  
+  
      (Page 23)
 -
-- 
- ¿Qué **namespaces** por defecto tiene Kubernetes? #flashcard 
+- id:: 63c669ef-eee0-4854-93a7-3cc457136e8f
+   ¿Qué **namespaces** por defecto tiene Kubernetes? #flashcard 
     Cuando creamos un clúster de Kubernetes habitualmente este comienza con tres Namespaces por defecto, aunque dependiendo de la instalación podría tener inicialmente alguno más. Los Namespaces iniciales por defecto son:  Default: será el utilizado cuando no especifiquemos un Namespace.  Kube-system: es el Namespace para los objetos que han sido creados por el propio sistema de Kubernetes. Los usuarios no deberían desplegar aplicaciones en él.  Kube-public: visible y accesible por todos los usuarios del clúster. Aunque normalmente se utiliza de manera interna al clúster puede ser utilizado para que algunos recursos sean visibles en todo el clúster y accesible por cualquier usuario. El comando kubectl en este caso lo utilizamos para operar sobre los objetos del Namespace default. El siguiente comando obtiene la lista de Namespaces definidos en nuestro clúster: $ kubectl get ns NAME STATUS AGE default Active 12d docker Active 12d
-
+  
      (Page 25)
 -
-- 
- <<<<<<< #flashcard 
+- id:: 63c669ef-bb5e-4419-9476-943efcf66aa8
+   <<<<<<< #flashcard 
     kube-node-lease Active 12d kube-public Active 12d kube-system Active 12d
-
+  
      (Page 26)
 -
-- 
- Comandos para listar y crear **namespaces** en *Kubernetes* #flashcard 
+- id:: 63c669ef-37e9-4d0b-bac9-57b85f23313a
+   Comandos para listar y crear **namespaces** en *Kubernetes* #flashcard 
     En caso de querer interactuar con los objetos de todos los Namespaces definidos podemos utilizar la opción --all-namespaces. $ kubectl get pods --all-namespaces El siguiente comando crearía un Namespace de manera imperativa indicando el nombre que queremos utilizar: $ kubectl create namespace custom-namespace namespace "custom-namespace" created
-
+  
      (Page 26)
 -
-- 
- ¿De qué elementos están formados los contextos en Kubernetes?
+- id:: 63c669ef-9640-4d42-922b-4558b9745d89
+   ¿De qué elementos están formados los contextos en Kubernetes?
    INCLUIR IMAGEN #flashcard 
     En Kubernetes los contextos están formados por tres elementos: contexto.  Clúster: vendrá especificado por la URL al API de Kubernetes.  Usuario: incluirá las credenciales para un usuario concreto en dicho clúster.  Namespace: será el Namespace que se utilizará cuando seleccionemos este
-
+  
      (Page 28)
 -
-- 
- - ¿Cómo podemos listar los contextos disponibles, en Kubernetes?
-   - ¿Cómo podemos saber cuál es nuestro contexto actual? #flashcard 
-    Podemos consultar la lista de contextos disponibles, así como cual es contexto actual de la siguiente manera: $ kubectl config get-contexts CURRENT NAME CLUSTER AUTHINFO NAMESPACE * docker-desktop docker-desktop docker-desktop $ kubectl config current-context docker-desktop
-
-     (Page 29)
 -
-- 
- ¿Cómo podemos establecer un contexto como el actual en Kubernetes? #flashcard 
+	- ¿Cómo podemos listar los contextos disponibles, en Kubernetes?
+		- ¿Cómo podemos saber cuál es nuestro contexto actual? #flashcard 
+		  id:: 63c669ef-58e7-41b2-a4bb-16a2f7fc4e4c
+		      Podemos consultar la lista de contextos disponibles, así como cual es contexto actual de la siguiente manera: $ kubectl config get-contexts CURRENT NAME CLUSTER AUTHINFO NAMESPACE * docker-desktop docker-desktop docker-desktop $ kubectl config current-context docker-desktop
+		  
+		  (Page 29)
+-
+- id:: 63c669ef-6d2a-4356-b734-f315ae5bd3e3
+   ¿Cómo podemos establecer un contexto como el actual en Kubernetes? #flashcard 
     Si queremos establecer el contexto que acabamos de crear como el contexto actual, deberemos hacer un cambio de contexto de la siguiente manera: $ kubectl config use-context dev-context Switched to context "dev-context".
-
+  
      (Page 29)
 -

@@ -7,13 +7,10 @@ category:: #articles\
 url:: https://stackoverflow.com/questions/56220392/kubectl-unable-to-connect-to-the-server-dial-tcp-192-168-214-1366443-conne\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png)
-
 ## Highlights
-- 
- What could be the cause of "Kubectl unable to connect to the server"? #flashcard 
+- id:: 63c669d2-b4a5-4675-a4f1-7dd6b88cf247
+   What could be the cause of "Kubectl unable to connect to the server"? #flashcard 
     If you use minikube sometimes all you need is just to restart minikube.
      Run:
      minikube start
-
-    
 -

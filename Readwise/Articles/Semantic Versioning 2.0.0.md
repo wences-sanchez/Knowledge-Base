@@ -7,10 +7,9 @@ category:: #articles\
 url:: https://semver.org/\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png)
-
 ## Highlights
-- 
- What are the most proper versioning numbers? #flashcard 
+- id:: 63c669d5-8ab8-44a9-8226-87b9bbab51cf
+   What are the most proper versioning numbers? #flashcard 
     Given a version number MAJOR.MINOR.PATCH, increment the:
      MAJOR version when you make incompatible API changes
      MINOR version when you add functionality in a backwards compatible
@@ -18,6 +17,4 @@ url:: https://semver.org/\
      PATCH version when you make backwards compatible bug fixes
      Additional labels for pre-release and build metadata are available as extensions
      to the MAJOR.MINOR.PATCH format.
-
-    
 -

@@ -7,10 +7,9 @@ category:: #articles\
 url:: https://stackoverflow.com/questions/7124778/how-can-i-match-anything-up-until-this-sequence-of-characters-in-a-regular-exp\
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png)
-
 ## Highlights
-- 
- How do you build a regex that eat everything until one character? #flashcard 
+- id:: 63c669ce-4d71-47ba-be17-b57c20256763
+   How do you build a regex that eat everything until one character? #flashcard 
     You didn't specify which flavor of regex you're using, but this will
      work in any of the most popular ones that can be considered "complete".
      /.+?(?=abc)/
@@ -36,6 +35,4 @@ url:: https://stackoverflow.com/questions/7124778/how-can-i-match-anything-up-un
      Thus, in other terms the regex /.+?(?=abc)/ means:
      Match any characters as few as possible until a "abc" is found,
      without counting the "abc".
-
-    
 -

@@ -8,54 +8,38 @@ category:: #books\
 tags:: O'Reilly-Learning  
 
 ![](https://learning.oreilly.com/covers/9781617297540/)
-
 ## Highlights
 ### 2 Pipeline as code with Jenkins
-- 
-
-To use PaC with Jenkins, projects must contain a file named Jenkinsfile in the code repository top-level folder #flashcard  #jenkins 
-
-
-    
+- id:: 63c66a18-7a0e-458d-9f32-26de1503ce0c
+  
+  To use PaC with Jenkins, projects must contain a file named Jenkinsfile in the code repository top-level folder #flashcard  #jenkins
 -
 ### 1 What’s CI/CD?
-- 
-
-Cloud native is a paradigm for building applications as microservices and running them on containerized and dynamically orchestrated platforms that fully exploit the advantage of the cloud computing model. These applications are developed using the language and framework best suited for the functionality. They’re designed as loosely coupled systems, optimized for cloud scale and performance, use managed services, and take advantage of continuous delivery to achieve reliability and faster time to market.
-     The overall objective is to improve the speed, scalability, and finally, profit margin. Figure 1.2 illustrates an example of a cloud-native application. #flashcard 
-
-
-    
+- id:: 63c66a18-6a2e-45bb-a1d1-0037d452ed8b
+  
+  Cloud native is a paradigm for building applications as microservices and running them on containerized and dynamically orchestrated platforms that fully exploit the advantage of the cloud computing model. These applications are developed using the language and framework best suited for the functionality. They’re designed as loosely coupled systems, optimized for cloud scale and performance, use managed services, and take advantage of continuous delivery to achieve reliability and faster time to market.
+     The overall objective is to improve the speed, scalability, and finally, profit margin. Figure 1.2 illustrates an example of a cloud-native application. #flashcard
 -
-- 
-
-Cloud-native applications are packaged in lightweight containers and efficiently deployed as microservices. They use a lightweight API to expose their functionality, and binary and nonbinary protocols to communicate with each other internally. A step further, the applications are managed on elastic cloud infrastructure through Agile DevOps processes having continuous delivery workflows. #flashcard 
-
-
-    
+- id:: 63c66a18-773a-4cb1-b668-9ddabf7403bb
+  
+  Cloud-native applications are packaged in lightweight containers and efficiently deployed as microservices. They use a lightweight API to expose their functionality, and binary and nonbinary protocols to communicate with each other internally. A step further, the applications are managed on elastic cloud infrastructure through Agile DevOps processes having continuous delivery workflows. #flashcard
 -
-- 
-
-NOTE Serverless doesn’t mean “no ops.” You’re just outsourcing sysadmin with serverless services. You will still deal with monitoring, deployment, and security.
+- id:: 63c66a18-5299-4280-a70b-9b269262619b
+  
+  NOTE Serverless doesn’t mean “no ops.” You’re just outsourcing sysadmin with serverless services. You will still deal with monitoring, deployment, and security.
      An application built based on serverless architecture may end up looking like fig- ure 1.4.
      Figure 1.4 An example of a serverless application
-     Instead of maintaining a dedicated container or instance to host your static web application, you can combine an Amazon Simple Storage Service (S3) bucket to benefit from scalability at a cheaper cost. The HTTP requests coming from the website go through Amazon API Gateway HTTP endpoints that trigger the right AWS Lambda function to handle the application logic and persist data to a fully managed database service such as DynamoDB. #flashcard 
-
-
-    
+     Instead of maintaining a dedicated container or instance to host your static web application, you can combine an Amazon Simple Storage Service (S3) bucket to benefit from scalability at a cheaper cost. The HTTP requests coming from the website go through Amazon API Gateway HTTP endpoints that trigger the right AWS Lambda function to handle the application logic and persist data to a fully managed database service such as DynamoDB. #flashcard
 -
-- 
-
-The ability to click a few buttons to provision machines, databases, and other infrastructure has led to an increase in developer productivity we’ve never seen before.
+- id:: 63c66a18-57f0-4325-857c-5c1b57252300
+  
+  The ability to click a few buttons to provision machines, databases, and other infrastructure has led to an increase in developer productivity we’ve never seen before.
      While it was easy to spin up simple cloud architectures, mistakes can easily be made while provisioning complex ones. Human error will always be present, especially when you can launch cloud infrastructure by clicking buttons on the cloud provider’s web console.
-     The only way to avoid these kinds of errors is through automation, and infrastructure as code (IaC) is helping engineers automatically launch cloud environments quickly and without mistakes. The growth of DevOps and the adoption of its practices have led to more tooling that can implement the IaC paradigm to a larger degree. #flashcard 
-
-
-    
+     The only way to avoid these kinds of errors is through automation, and infrastructure as code (IaC) is helping engineers automatically launch cloud environments quickly and without mistakes. The growth of DevOps and the adoption of its practices have led to more tooling that can implement the IaC paradigm to a larger degree. #flashcard
 -
-- 
-
-We’ll dive deep into the syntax in the next chapter, but for now, let’s focus on what the stages are doing:
+- id:: 63c66a18-6fc9-4bde-a8e8-f0c5d7932d6f
+  
+  We’ll dive deep into the syntax in the next chapter, but for now, let’s focus on what the stages are doing:
      Checkout—Pulls the latest changes from the source code repository, which can be GitHub, Bitbucket, Mercurial, or any SCM.
      Quality tests—Contains instructions on how to execute static code analysis to measure code quality, and identify bugs, vulnerabilities, and code smell. It can be automated by integrating external tools like SonarQube to fix code-quality violations and reduce technical debt.
      Unit tests—In this stage, unit tests are executed. If tests are successful, a code coverage report will be generated that can be consumed by Jenkins plugins to show a visual overview of the project’s health and keep track of the code coverage metrics as your project grows. Code coverage can be an indication of how much your application code is executed during your tests, and can give some indication as to how well your team is applying good testing practices such test-driven development (TDD) or behavior-driven development (BDD).
@@ -63,24 +47,18 @@ We’ll dive deep into the syntax in the next chapter, but for now, let’s focu
      Build—In this phase, the needed dependencies will be installed, the source code will be compiled, and an artifact will be built (Docker image, zip file, Maven JAR, and so forth).
      Push—The artifact built in the previous stage will be versioned and stored in a remote repository.
      Deploy—In this stage, the artifact will be deployed to a sandbox/testing environment for quality assurance or to production after the user has approved the deployment.
-     Acceptance tests—After the changes are deployed, a series of smoke and validation tests will be executed against the deployed application to verify that the application is running as expected. The tests can be simple health checks with cURL commands or sophisticated API calls. #flashcard 
-
-
-    
+     Acceptance tests—After the changes are deployed, a series of smoke and validation tests will be executed against the deployed application to verify that the application is running as expected. The tests can be simple health checks with cURL commands or sophisticated API calls. #flashcard
 -
-- 
-
-The agent section defines the worker or machine where the pipeline will be executed. This section must be defined at the top level inside the pipeline block or overridden at the stage level. The agent can be any of the following:
+- id:: 63c66a18-2cbd-4969-92f8-0aaf1a43a7bc
+  
+  The agent section defines the worker or machine where the pipeline will be executed. This section must be defined at the top level inside the pipeline block or overridden at the stage level. The agent can be any of the following:
      Jenkins worker or node (refer to chapter 3 for distributed builds on Jenkins)
      Docker container based on a Docker image or a custom Dockerfile (covered in chapter 9)
-     Pod deployed on a Kubernetes cluster (covered in chapter 14) #flashcard 
-
-
-    
+     Pod deployed on a Kubernetes cluster (covered in chapter 14) #flashcard
 -
-- 
-
-The environment section contains a set of environment variables needed to run the pipeline steps. The variables can be defined as sequences of key-value pairs. These will be available for all steps if the environment block is defined at the pipeline top level; otherwise, the variables can be stage-specific. You can also reference credential variables by using a helper method credentials(), which takes as a parameter the ID of the target credential, as shown in the following listing.
+- id:: 63c66a18-e4a1-4c05-a4e7-db936537db11
+  
+  The environment section contains a set of environment variables needed to run the pipeline steps. The variables can be defined as sequences of key-value pairs. These will be available for all steps if the environment block is defined at the pipeline top level; otherwise, the variables can be stage-specific. You can also reference credential variables by using a helper method credentials(), which takes as a parameter the ID of the target credential, as shown in the following listing.
      Listing 2.3 Environment variables definition
      pipeline{
      environment {
@@ -95,14 +73,11 @@ The environment section contains a set of environment variables needed to run th
      }
      }
      }
-     The Docker registry username and password are accessible automatically by referencing the REGISTRY_CREDENTIALS_USR and REGISTRY_CREDENTIALS_PSW environment variables. Those credentials are then passed to the docker login command to authenticate with the Docker Registry before pushing a Docker image. #flashcard 
-
-
-    
+     The Docker registry username and password are accessible automatically by referencing the REGISTRY_CREDENTIALS_USR and REGISTRY_CREDENTIALS_PSW environment variables. Those credentials are then passed to the docker login command to authenticate with the Docker Registry before pushing a Docker image. #flashcard
 -
-- 
-
-Listing 2.5 Running automated tests within a pipeline
+- id:: 63c66a18-830e-44f1-9577-5fe924023dd8
+  
+  Listing 2.5 Running automated tests within a pipeline
      pipeline{
      agent any
      stages {
@@ -113,30 +88,22 @@ Listing 2.5 Running automated tests within a pipeline
      }
      }
      }
-     } #flashcard 
-
-
-    
+     } #flashcard
 -
-- 
- Branches of the GitFlow model #flashcard 
+- id:: 63c66a18-9773-4877-9bf0-7dadc347b3f1
+   Branches of the GitFlow model #flashcard 
     A couple of Git branching strategies exist. The most interesting and used one is GitFlow. It consists of the following essential branches:
      Master—A branch that corresponds to the current production code. You can’t commit directly except for hotfixes. Git tags can be used to tag all commits in the master branch with a version number (for instance, you can use the semantic versioning convention detailed at https://semver.org/).
      Preprod—A release branch, a mirror of production. It can be used to test all new features developed on the develop branch before merging them to the master branch.
      Develop—A development integration branch containing the latest integrated development code.
      Feature/X—An individual feature branch being developed. Each new feature resides in its own branch, and it’s generally created from the latest develop branch.
      Hotfix/X—When you need to solve something in production code, you can use the hotfix branch and open a pull request for the master branch. This branch is based on the master branch.
-
-    
 -
-- 
-
-Sometimes, when working on Jenkins jobs, you might find yourself stuck in this cycle of committing the Jenkinsfile, pushing it, and running the job over and over again. It can be a time-consuming and tedious workflow, especially if your build time is inherently long. Plus, your Git history will get filled with junk commits (unnecessary debugging commits).
+- id:: 63c66a18-2325-4e24-823c-227569341880
+  
+  Sometimes, when working on Jenkins jobs, you might find yourself stuck in this cycle of committing the Jenkinsfile, pushing it, and running the job over and over again. It can be a time-consuming and tedious workflow, especially if your build time is inherently long. Plus, your Git history will get filled with junk commits (unnecessary debugging commits).
      What if you could work on your Jenkinsfile in a “sandbox” and test the Jenkinsfile live on the system? A neat little feature allows you to modify the Jenkins file and rerun the job. You can do it over and over until you are happy with the results and then commit the working Jenkinsfile without breaking anything.
      Now, this is a little easier. If you have a Pipeline build that did not proceed exactly as you expected, you can use the Replay button in the build’s sidebar, shown in fig- ure 2.17.
      Figure 2.17 Rerunning the build with a Replay button
-     It is somewhat similar to the Rebuild button but allows you to edit the Jenkinsfile content just before running the job. Therefore, you can use the built-in Jenkinsfile block in the UI (figure 2.18), to test your pipelines out there before committing them to source control like GitHub. #flashcard 
-
-
-    
+     It is somewhat similar to the Rebuild button but allows you to edit the Jenkinsfile content just before running the job. Therefore, you can use the built-in Jenkinsfile block in the UI (figure 2.18), to test your pipelines out there before committing them to source control like GitHub. #flashcard
 -

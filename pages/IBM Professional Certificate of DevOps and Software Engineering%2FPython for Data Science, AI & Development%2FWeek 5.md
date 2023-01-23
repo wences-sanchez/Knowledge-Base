@@ -29,4 +29,11 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 	  id:: 63bae885-7aea-4de6-83bd-d50e9b1d3338
 		- An endpoint is simply the location of the service. It's used to find the API on the Internet just like a web address.
 -
--
+- ## REST APIs, Webscraping and Working with Files
+	- ![image.png](../assets/image_1674463502749_0.png)
+	- ![image.png](../assets/image_1674463663087_0.png)
+	- ![image.png](../assets/image_1674463690721_0.png)
+	- ![image.png](../assets/image_1674463717030_0.png)
+	- ### REST APIs & HTTP Requests - Part 2
+		- ![image.png](../assets/image_1674463952838_0.png)
+		-

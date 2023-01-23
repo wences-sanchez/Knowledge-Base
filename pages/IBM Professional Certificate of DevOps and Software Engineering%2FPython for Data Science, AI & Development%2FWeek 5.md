@@ -46,5 +46,7 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 	- ![image.png](../assets/image_1674463690721_0.png)
 	- ![image.png](../assets/image_1674463717030_0.png)
 	- ### REST APIs & HTTP Requests - Part 2
-		- ![image.png](../assets/image_1674463952838_0.png)
+		- A [query string](https://en.wikipedia.org/wiki/Query_string?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkPY0101ENSkillsNetwork1005-2022-01-01) is a part of a uniform resource locator (URL), this sends other information to the web server. The start of the query is a `?`, followed by a series of parameter and value pairs, as shown in the table below. The first parameter name is `name` and the value is `Joseph`. The second parameter name is `ID` and the Value is `123`. Each pair, parameter, and value is separated by an equals sign, `=`. The series of pairs is separated by the ampersand `&`.
+			- ![image.png](../assets/image_1674463952838_0.png)
 		-
+-

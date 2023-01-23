@@ -47,8 +47,16 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- It's great for integration testing
 				- Uses a syntax that can be understood by both developers and stakeholders
 			- **TDD**
-				-
--
+				- Focuses on how the system works from the inside
+				- Tests drive the design
+				- It keeps you focused on the purpose of the code
+			- BDD is for integration and acceptance testing
+			- TDD is for driving your development by writing your tests first
+			- BDD ensures that you are building the "right thing"
+			- TDD ensures that you are building the "thing right"
+			- ![image.png](../assets/image_1674476762901_0.png)
+		- ### Testing Case Study
+			- It's important to use fixtures that are strange to the use case. Such as `True` or `None` or "
 -
 -
 -

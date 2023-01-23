@@ -557,3 +557,126 @@ tags:: DevOps O'Reilly-Learning
 					- ([View Highlight](https://read.readwise.io/read/01gpx88fwsfw01yfxjc7bzjma0))
 				- -
 		- Chapter 4. Replication and other controllers: deploying managed pods
+- New highlights added [[Monday, 23-01-2023]] at 9:23 AM
+	- 4.1. Keeping pods healthy
+		- -
+			- 4.1.1. Introducing liveness probes #flashcard
+			- tags:: [[h4]]
+			- ([View Highlight](https://read.readwise.io/read/01gpzrpgqjj0344k8xgj835a60))
+		- -
+		- -
+			- What is a liveness probe in Kubernetes? #flashcard
+				- Kubernetes can check if a container is still alive through *liveness probes*. You can specify a liveness probe for each container in the pod’s specification. Kubernetes will periodically execute the probe and restart the container if the probe fails.
+			- ([View Highlight](https://read.readwise.io/read/01gpzrqekskctqdy05zwh4jpkv))
+		- -
+		- -
+			- What are the 3 ways of liveness probes in Kubernetes? #flashcard
+				- Kubernetes can probe a container using one of the three mechanisms:
+				  
+				  •   An *HTTP GET* probe performs an HTTP GET request on the container’s IP address, a port and path you specify. If the probe receives a response, and the response code doesn’t represent an error (in other words, if the HTTP response code is 2xx or 3xx), the probe is considered successful. If the server returns an error response code or if it doesn’t respond at all, the probe is considered a failure and the container will be restarted as a result.
+				  •   A *TCP Socket* probe tries to open a TCP connection to the specified port of the container. If the connection is established successfully, the probe is successful. Otherwise, the container is restarted.
+				  •   An *Exec* probe executes an arbitrary command inside the container and checks the command’s exit status code. If the status code is 0, the probe is successful. All other codes are considered failures.
+			- ([View Highlight](https://read.readwise.io/read/01gpzrv0m85qzv5642rb5ybb4e))
+		- -
+		- -
+			- Example of a liveness probe in Kubernetes #flashcard
+				- Adding a liveness probe to a pod: kubia-liveness-probe.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: kubia-liveness
+				  spec:
+				  containers:
+			- tags:: [[code]]
+			- ([View Highlight](https://read.readwise.io/read/01gpzrzatry7qewv8hc4tftdkj))
+		- -
+		- -
+			- When you want to figure out why the previous container terminated, you’ll want to see those logs instead of the current container’s logs. This can be done by using the --previous option:
+			  
+			  $ kubectl logs mypod --previous #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gpzs4n4chtpkghdjc7aa5d0m))
+		- -
+		- -
+			- A liveness probe with an initial delay: kubia-liveness-probe-initial-delay.yaml
+			  
+			   livenessProbe:
+			     httpGet:
+			       path: /
+			       port: 8080
+			     initialDelaySeconds: 15              ❶
+			  
+			  •   ❶ Kubernetes will wait 15 seconds before executing the first probe.
+			  
+			  If you don’t set the initial delay, the prober will start probing the container as soon as it starts, which usually leads to the probe failing, because the app isn’t ready to start receiving requests. If the number of failures exceeds the failure threshold, the container is restarted before it’s even able to start responding to requests properly. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gpzsc4pex5csg814jjp6j2nt))
+		- -
+		- -
+			- The ReplicationController in the figure manages only a single pod, but Replication-Controllers, in general, are meant to create and manage multiple copies (replicas) of a pod. That’s where ReplicationControllers got their name from. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gpztts6aqargx1cnrw5nk417))
+		- -
+		- -
+			- Understanding the three parts of a ReplicationController
+			  
+			  A ReplicationController has three essential parts (also shown in [figure 4.3](#ch04fig03)):
+			  
+			  •   A *label selector*, which determines what pods are in the ReplicationController’s scope
+			  •   A *replica count*, which specifies the desired number of pods that should be running
+			  •   A *pod template*, which is used when creating new pod replicas
+			  
+			  Figure 4.3. The three key parts of a ReplicationController (pod selector, replica count, and pod template)
+			  
+			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added36-04fig03_N6TiNzd.jpg) #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gpzv2kdvd2jb9rmbke4wsj6m))
+		- -
+		- -
+			- Changes to the label selector and the pod template have no effect on existing pods. Changing the label selector makes the existing pods fall out of the scope of the Replication-Controller, so the controller stops caring about them. ReplicationControllers also don’t care about the actual “contents” of its pods (the container images, environment variables, and other things) after they create the pod. The template therefore only affects new pods created by this ReplicationController. You can think of it as a cookie cutter for cutting out new pods. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gpzv4aekaph09qwkwhg1yfzj))
+		- -
+		- -
+			- Example of ReplicationController in Kubernetes #flashcard
+				- A YAML definition of a ReplicationController: kubia-rc.yaml
+				  
+				  apiVersion: v1
+				  kind: ReplicationController        ❶
+				  metadata:
+				  name: kubia                      ❷
+				  spec:
+				  replicas: 3                      ❸
+				  selector:                        ❹
+				    app: kubia                     ❹
+				  template:                        ❺
+				    metadata:                      ❺
+				      labels:                      ❺
+				        app: kubia                 ❺
+				    spec:                          ❺
+				      containers:                  ❺
+			- tags:: [[code]]
+			- ([View Highlight](https://read.readwise.io/read/01gpzv975cs3hwqq0p5dgdcvbd))
+		- -
+		- -
+			- If a node fails in the non-Kubernetes world, the ops team would need to migrate the applications running on that node to other machines manually. Kubernetes, on the other hand, does that automatically. Soon after the ReplicationController detects that its pods are down, it will spin up new pods to replace them. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gpzw0w03j1qemf7p0a2e0tva))
+		- -
+		- -
+			- You’re using the -L app option to display the app label in a column. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gpzwmsjqjaf31j9sr4570c32))
+		- -
+		- -
+			- You can edit the ReplicationController with the following command:
+			  
+			  **$ kubectl edit rc kubia**
+			  
+			  This will open the ReplicationController’s YAML definition in your default text editor. Find the pod template section and add an additional label to the metadata. After you save your changes and exit the editor, kubectl will update the ReplicationController and print the following message:
+			  
+			  replicationcontroller "kubia" edited #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gpzww06pyt5ak0162jhw3szp))
+		- -
+		- -
+			- When you delete a ReplicationController through kubectl delete, the pods are also deleted. But because pods created by a ReplicationController aren’t an integral part of the ReplicationController, and are only managed by it, you can delete only the ReplicationController and leave the pods running, as shown in [figure 4.7](#ch04fig07).
+			  
+			  Figure 4.7. Deleting a replication controller with --cascade=false leaves pods unmanaged.
+			  
+			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added40-04fig07_alt_k1fWUme.jpg) #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gpzx2g3snsr28d9r14bzrj99))
+		- -

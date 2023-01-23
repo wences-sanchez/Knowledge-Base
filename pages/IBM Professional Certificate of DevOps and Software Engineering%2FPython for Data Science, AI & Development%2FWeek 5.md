@@ -30,7 +30,18 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 		- An endpoint is simply the location of the service. It's used to find the API on the Internet just like a web address.
 -
 - ## REST APIs, Webscraping and Working with Files
-	- ![image.png](../assets/image_1674463502749_0.png)
+	- **Uniform Resource Locator**: URL [](https://jupyterlab-0-labs-prod-jupyterlab-us-east-0.labs.cognitiveclass.ai/user/wenceslaosan/lab/workspaces/auto-S/tree/labs/PY0101EN-5.3_Requests_HTTP.ipynb#Uniform-Resource-Locator:-URL)
+	  
+	  Uniform resource locator (URL) is the most popular way to find resources on the web. We can break the URL into three parts.
+	- **scheme** this is this protocol, for this lab it will always be `http://`
+	- **Internet address or Base URL **this will be used to find the location here are some examples: `www.ibm.com` and ` www.gitlab.com `
+	- **route** location on the web server for example: `/images/IDSNlogo.png`
+	  
+	  You may also hear the term Uniform Resource Identifier (URI), URL are actually a subset of URIs. Another popular term is endpoint, this is the URL of an operation provided by a Web server.
+	- What is an endpoint? #flashcard
+		- An endpoint is the URL of an operation provided by a web server
+	-
+		- ![image.png](../assets/image_1674463502749_0.png)
 	- ![image.png](../assets/image_1674463663087_0.png)
 	- ![image.png](../assets/image_1674463690721_0.png)
 	- ![image.png](../assets/image_1674463717030_0.png)

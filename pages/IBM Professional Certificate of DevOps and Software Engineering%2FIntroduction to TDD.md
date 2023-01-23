@@ -14,8 +14,11 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 - # Week 1
 	- ## Welcome
 	- ## Introduction to Testing
-		- > "If it's worth building, it's worth testing.
-		  If it's not worth testing, why are you wasting your time working on it?
-		  -- Scott Ambler, agiledata.org
-		- TDD is crucial for CD
-		-
+		- ### The Importance of Testing
+			- > "If it's worth building, it's worth testing.
+			  If it's not worth testing, why are you wasting your time working on it?
+			  -- Scott Ambler, agiledata.org
+			- TDD is crucial for CD
+		- ### Why Developers don't test
+			- Make sure that the tests pass before writing any new code
+			-

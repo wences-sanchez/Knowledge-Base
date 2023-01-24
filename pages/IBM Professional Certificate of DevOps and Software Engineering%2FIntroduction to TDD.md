@@ -85,6 +85,23 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- TDD means that your unit test cases drive the design of your code while developing
 				- It's a design approach to code.
 				- Because you have to think as a customer, externally, of your code.
+			- ![image.png](../assets/image_1674559192800_0.png)
+			- From a DevOps view:
+				- TDD saves development time and ensure that code works as expected
+		- ### Tools for TDD
+			- The most popular testing framework are the *xUnit series*.
+				- **PyUnit** for Python
+				- ...
+			- The most popular **python** testing framework are:
+				- PyUnit
+					- It's built into Python
+				- Pytest
+					- It has many setups and teardowns inside the framework
+				- Doctest
+					- It include the tests in the docstrings.
+					- But it's limited and doesn't scale for complex code
+				-
+				-
 			-
 -
 -

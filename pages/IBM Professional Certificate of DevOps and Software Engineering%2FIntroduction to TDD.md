@@ -119,7 +119,12 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 					- We use *discover* to search for all the tests
 			- How to run Nose + Pinocchio (add color):
 				- `$ nosetests -v --with-spec --spec-color`
-				-
+		- ### Hands-on Lab
+			- You should use **$ nosetests** because it's better than unittest
+			- With `$ python3 -m unittests` you run your test cases as *dots* (if they pass) or as `E` (if they fail)
+			- With `$ python3 -m unittests -v` you run your test cases not with dots but with the description. But it's duplicated :(
+			- With `$ nosetests -v` we have the same that `unittests -v`
+			-
 		-
 			-
 			-

@@ -100,8 +100,15 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- Doctest
 					- It include the tests in the docstrings.
 					- But it's limited and doesn't scale for complex code
+			- Other Python testing tools
+				- Nose
+					- It's a test runner. It adds the color to tests.
+					- Coverage
+						- It also offer test coverage
 				-
-				-
+		-
+			-
+			-
 			-
 -
 -

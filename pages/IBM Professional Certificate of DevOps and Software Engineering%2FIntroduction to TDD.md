@@ -111,7 +111,15 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- There are two common methods to run Python unit tests:
 				- unittest
 					- The default Python test runner
-				- And a tool called **Nose** for *sniffing*
+				- And a tool called **Nose**
+					- for *detectar (sniffing)* bugs in your code
+			- **unittest** is also known more generally as **PyUnit**.
+			- How to run unittest:
+				- `$ python -m unittest discover`
+					- We use *discover* to search for all the tests
+			- How to run Nose + Pinocchio (add color):
+				- `$ nosetests -v --with-spec --spec-color`
+				-
 		-
 			-
 			-

@@ -3,13 +3,17 @@ tags:: #Coursera #IBM-DevOps #DevOps
 deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 
 -
-- ## Tasks
+- ## Tasks {{renderer :todomaster}}
 	- DONE Week 1
 	  id:: 63ce7392-cf1f-40bc-93e8-b0f4eb2bb361
 	  :LOGBOOK:
 	  CLOCK: [2023-01-23 Mon 12:47:06]--[2023-01-23 Mon 13:55:02] =>  01:07:56
 	  :END:
-	- TODO Week 2
+	- DOING Week 2
+	  id:: 63cfbc8e-bc6b-40ef-9426-5259d701627a
+	  :LOGBOOK:
+	  CLOCK: [2023-01-24 Tue 12:13:44]
+	  :END:
 	- TODO Week 3
 	- TODO Week 4
 -
@@ -74,9 +78,14 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			  
 			  [ ] Developers use both TDD and BDD to perform acceptance testing. #flashcard
 				- **[x] TDD and BDD complement each other in the development process.**
+-
+- # Week 2
+	- ## Introduction to Test Driven Development
+		- ### Benefits of Test Driven Development
+			- TDD means that your unit test cases drive the design of your code while developing
+				- It's a design approach to code.
+				- Because you have to think as a customer, externally, of your code.
 			-
--
--
 -
 -
 -

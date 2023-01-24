@@ -38,6 +38,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
      (Page 8)
 -
 - IMAGEN #flashcard 
+  id:: 63cfbccc-f345-4893-8603-800fedc11d82
     a
   
      (Page 8)
@@ -70,6 +71,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
      (Page 20)
 -
 - dependencies: - ansibleunir.common - ansibleunir.php - ansibleunir.mysql - ansibleunir.nginx Esto es la lista de roles requeridos para ejecutar este rol. Después, modifica playbook.yml para que solo ansibleunir.wordpress esté en la lista de roles. Si ejecutas nuevamente vagrant provision, podrás apreciar que todas las dependencias se ejecutan antes de que se ejecute el rol ansibleunir.wordpress. #flashcard 
+  id:: 63cfbccc-1bee-43f3-8299-0c67c96f28b9
   
   
      (Page 20)
@@ -79,7 +81,7 @@ tags:: Herramientas-de-Automatización-de-Despliegues UNI
 id:: 63c66a06-4bbb-4fff-b99b-cef8b11d63b7
 
 
-   (Page 23)
+ (Page 23)
 -
 - id:: 63c66a06-c1d7-41b2-a667-f946939a98fc
   

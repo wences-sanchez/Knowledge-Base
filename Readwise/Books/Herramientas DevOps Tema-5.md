@@ -17,16 +17,19 @@ tags:: Herramientas-DevOps UNI
      (Page 4)
 -
 - Terraform es una herramienta que se utiliza para la construcción, el cambio y el versionado de infraestructura, de manera segura y eficiente. Esta puede administrar tanto servicios existentes como nubes públicas o soluciones internas personalizadas. #flashcard 
+  id:: 63cfbcca-fff6-45ef-bc47-9823500372d4
   
   
      (Page 5)
 -
 - Ejemplo de Terraform #flashcard 
+  id:: 63cfbcca-1402-4cd5-ab52-2a94b3e6c4f2
     provider "aws" { access_key = "ACCESS_KEY_HERE" secret_key = "SECRET_KEY_HERE" region = "us-east-1" resource "aws_instance" "example" { ami = "ami-2757f631" instance_type = "t2.micro" } }
   
      (Page 14)
 -
 - El comando terraform init descarga e instala de forma automática el Provider binario para los proveedores en uso dentro de la configuración. En este caso, es solo el proveedor de AWS #flashcard 
+  id:: 63cfbcca-938d-4996-95f6-64e757dbeed4
   
   
      (Page 16)
@@ -53,6 +56,7 @@ tags:: Herramientas-DevOps UNI
      (Page 28)
 -
 - Cuando necesites realizar cambios en la infraestructura, en lugar de actualizar la infraestructura de forma manual en los servidores, puedes directamente realizar los cambios en los archivos de configuración de Terraform. Esos cambios se validarán mediante pruebas automáticas y revisiones de códigos, se confirmará el código actualizado control de versiones, y luego se ejecutará el comando terraform apply para que Terraform realice las llamadas API necesarias para implementar los cambios. #flashcard 
+  id:: 63cfbcca-4144-4eba-84d0-f66cb7ad70d6
   
   
      (Page 31)

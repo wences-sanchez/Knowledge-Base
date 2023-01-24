@@ -34,6 +34,7 @@ tags:: Herramientas-DevOps UNI
      (Page 9)
 -
 - ¿Qué son los provisioners, en Packer? #flashcard  #favorite 
+  id:: 63cfbcca-7bb7-47ce-a44a-ca790fe7b4aa
      Provisioners: los aprovisionadores son componentes de Packer que instalan y configuran el software dentro de una máquina en funcionamiento antes de que esta se convierta en una imagen estática. Su trabajo principal es el de lograr que la imagen contenga el software deseado. Los proveedores de ejemplo incluyen scripts de Shell, Chef, Puppet, etc.
   
      (Page 10)
@@ -45,11 +46,13 @@ tags:: Herramientas-DevOps UNI
      (Page 10)
 -
 - ¿Qué son las templates, en Packer? #flashcard 
+  id:: 63cfbcca-bf65-474c-87e5-b83f0b0ebda9
      Templates: los templates son archivos JSON que definen una o más compilaciones (builds) configurando todos los componentes de Packer como los aprovisionadores y los compiladores.
   
      (Page 10)
 -
 - ¿Qué hace el subcomando de packer: inspect? #flashcard 
+  id:: 63cfbcca-11bf-4f65-ab04-5fc1e4a9c501
     El comando de Packer inspect toma una template y genera los diversos componentes que la definen. Esto puede ayudarte a aprender rápidamente sobre estas sin tener que sumergirte en el JSON. El comando te dirá cosas como qué variables acepta la template, los constructores y proveedores que define, y el orden en que se ejecutarán. Es útil cuando se tienen múltiples templates de Packer en una empresa y no recordamos los párametros o proveedores que tenía una template en particular.
   
      (Page 15)
@@ -61,6 +64,7 @@ tags:: Herramientas-DevOps UNI
      (Page 24)
 -
 - Sobre por qué es bueno usar Packer. #flashcard
+  id:: 63cfbcca-83ad-4f59-99bc-4926c70cac17
 	- Packer instala y configura todo el software para una máquina en el momento en que se construye la imagen.
 		- Si hay errores en estos scripts, se detectarán de forma inmediata, en lugar de varios minutos después del lanzamiento.
 		- Mayor capacidad de prueba.

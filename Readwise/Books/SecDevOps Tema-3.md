@@ -28,6 +28,7 @@ tags:: SecDevOps UNI
      (Page 6)
 -
 - ¿Qué es un gateway? #flashcard 
+  id:: 63cfbcdf-f98f-47ef-85bb-35a17550165e
     El gateway será un rúter equipado con una tabla de rutas para poder decidir cómo enrutar el paquete al host de destino. Las tablas de rutas contienen la siguiente información:  Dirección de la red de destino.  Siguiente salto. Al recibir un paquete, los enrutadores lo envían a su siguiente salto (es decir, uno de los enrutadores adyacentes) en dirección hacia el destino final. Lo mismo hará el siguiente enrutador y, eventualmente, el paquete de datos llegará a su destino.
   
      (Page 7)
@@ -39,11 +40,13 @@ tags:: SecDevOps UNI
      (Page 10)
 -
 - ¿Cómo es el enrutamiento unicast? +++ #flashcard 
+  id:: 63cfbcdf-6708-4e85-bbd5-9ecb36f47431
     La mayor parte del tráfico en Internet e intranets se envía con un destino concreto y se conoce como tráfico unicast. El enrutamiento de datos unicast, a través de Internet, es la forma más simple de enrutamiento, porque el destino ya es conocido. Por lo tanto, el rúter solo tiene que mirar la tabla de enrutamiento y enviar los datos hasta el siguiente salto. En la Figura 3, por ejemplo, el tráfico entre el host A y el host 1 solo involucra a ambos hosts y a los rúters que los conectan.
   
      (Page 10)
 -
 - ¿Cómo es el enrutamiento broadcast? +++ #flashcard 
+  id:: 63cfbcdf-f598-4f5c-a859-8c5fc980949f
     De forma predeterminada, los paquetes de broadcast no son enrutados ni enviados por los rúters en ninguna red. Los rúters crean dominios broadcast, pero pueden ser configurados para enviarlos en casos especiales. Un mensaje de broadcast está destinado a todos los dispositivos de la red.
   
      (Page 11)
@@ -61,11 +64,13 @@ tags:: SecDevOps UNI
      (Page 12)
 -
 - ¿Cómo es el enrutamiento anycast? +++ #flashcard 
+  id:: 63cfbcdf-dff2-4c9a-bb80-75fb44567529
     El reenvío de paquetes anycast es un mecanismo en el que varios hosts de un grupo pueden tener la misma dirección lógica. Cuando se recibe un paquete, este se envía al host que esté más cerca en la topología de enrutamiento.
   
      (Page 13)
 -
 - +++ #flashcard 
+  id:: 63cfbcdf-872d-48c1-8959-193a80c4d50e
     Este enrutamiento se realiza con la ayuda del servidor DNS. El servidor DNS responde a la solicitud con la dirección IP más cercana para el paquete unicast. Por ejemplo, en la Imagen 6, el nodo A envía un paquete anycast al grupo 2. El Host 1 no recibirá el paquete por no pertenecer al grupo 2.
   
      (Page 14)
@@ -77,21 +82,25 @@ tags:: SecDevOps UNI
      (Page 15)
 -
 - a #flashcard 
+  id:: 63cfbcdf-f8f4-4dda-8937-b6a25f062df3
   
   
      (Page 15)
 -
 - ¿Cómo funciona el algoritmo de enrutamiento de flooding? #flashcard 
+  id:: 63cfbcdf-2bb8-4d53-a4f8-014570d6e792
     Este es el método más simple de reenvío de paquetes. Cuando se recibe un paquete, los enrutadores lo envían a todas las interfaces, excepto a aquella de la que se recibió. Por tanto, se puede considera que este método es, simplemente, una técnica de reenvío más que un algoritmo de enrutamiento como tal.
   
      (Page 15)
 -
 - ¿Cómo funciona el algoritmo de enrutamiento de vectores de distancia? +++ #flashcard 
+  id:: 63cfbcdf-26be-42f2-b11e-2d32c6069655
     Es un protocolo de enrutamiento que decide sobre el número de saltos que debe haber entre origen y destino. La ruta que contenga la menor cantidad de saltos es considerada como la mejor ruta.
   
      (Page 15)
 -
 - +++ #flashcard 
+  id:: 63cfbcdf-7268-4b9c-9035-f058cb84f271
     Cada rúter anuncia sus mejores rutas establecidas a otros rúters. En última instancia, todos los enrutadores construyen su topología de red, basada en la información que les proveen sus rúters vecinos. RIP, de Routing Information Protocol, es un ejemplo de protocolo que usa un algoritmo de enrutamiento basado en vectores de distancia.
   
      (Page 16)
@@ -121,16 +130,19 @@ tags:: SecDevOps UNI
      (Page 20)
 -
 - ¿Cómo es mapeada la dirección MAC a la IP? #flashcard 
+  id:: 63cfbcdf-07c2-4c61-beb7-9872e66997bd
     El paquete ARP contiene la dirección IP del host de destino al que el host de origen quiere contactar. Cuando un host recibe un paquete ARP que se le ha destinado, responde con su propia dirección MAC. Una vez que el host recibe la dirección MAC de destino, puede comunicarse con el host remoto utilizando el protocolo de enlace. Este mapeo del MAC al IP se guarda en una caché de ambos hosts. Si en el futuro necesitan comunicarse pueden, directamente, dirigirse a su caché ARP.
   
      (Page 21)
 -
 - ¿Qué protocolo es el que usamos cuando hacemos 'ping' en un SO? #flashcard 
+  id:: 63cfbcdf-9f69-46e7-888c-fb30767dadcf
     Internet Control Message Protocol (ICMP) ICMP es un protocolo de diagnóstico y notificación de errores de red. Pertenece al protocolo IP y utiliza IP como protocolo de encapsulamiento. Después de construir el paquete ICMP, se encapsula en un paquete IP. Los hosts usan ICMP para informar si se produce algún error en la red. Este ofrece opciones para informar que contiene docenas de mensajes de diagnóstico y reporte de errores. operativos). Los mensajes de ICMP-echo y ICMP-echo-reply son los mensajes ICMP más comúnmente utilizados para comprobar la accesibilidad de los hosts de extremo a extremo (son más conocidos como ping, y así se llama la utilidad en los sistemas Cuando un host recibe una solicitud ICMP-echo, está obligado a enviar una respuesta ICMP-echo. No obstante, es habitual que muchos firewalls de red y de host descarten los mensajes de ping como medida de seguridad
   
      (Page 21)
 -
 - ¿Cómo podemos expresar un prefijo de red de 16 bits en una dirección IP? #flashcard 
+  id:: 63cfbcdf-6d89-4154-b55e-45ab4fbfa8ce
     Los prefijos se escriben dando la dirección IP más baja en el bloque y el tamaño del bloque. Por convenio, el tamaño del prefijo en bits se escribe después de la dirección IP. Así, si la IP anterior pertenece a una red con un prefijo de 16 bits, el prefijo de red se indicaría como 172.16.0.0/16.
   
      (Page 22)
@@ -142,6 +154,7 @@ tags:: SecDevOps UNI
      (Page 23)
 -
 - +++ #flashcard 
+  id:: 63cfbcdf-51bd-444d-8524-d07be6884fcf
      Primero, la dirección IP de un host depende de dónde se encuentre en la red. Las direcciones Ethernet se pueden usar en cualquier parte del mundo, ya que se utilizan para direccionamiento en un medio común; pero cada dirección IP pertenece a una red específica, y los rúters solo podrán entregar paquetes destinados a esa dirección a la red, ya que el direccionamiento es global.
   
      (Page 23)
@@ -153,6 +166,7 @@ tags:: SecDevOps UNI
      (Page 24)
 -
 - ¿Cuáles son las tres categorías de direcciones IP, teniendo en cuenta sus subredes? +++ #flashcard 
+  id:: 63cfbcdf-c4ae-4dde-9fa2-00bc9b870eab
     Las direcciones IP están divididas en tres categorías principales:  Clase A: utiliza el primer octeto para las direcciones de red y los últimos tres octetos para el direccionamiento del host.  Clase B: utiliza los primeros dos octetos para las direcciones de red y los dos últimos para el direccionamiento del host.  Clase C: utiliza los primeros tres octetos para las direcciones de red y el último para el direccionamiento del host.
   
      (Page 24)
@@ -176,6 +190,7 @@ tags:: SecDevOps UNI
      (Page 26)
 -
 - ¿Qué es TCP y cuáles son sus principales características? #flashcard 
+  id:: 63cfbcdf-c093-44e8-a5ec-6b6df1b3318f
     El protocolo de control de transmisión o TCP es uno de los más importantes de la suite de protocolos de Internet.  Es un protocolo fiable. Es decir, el receptor siempre envía una confirmación, ya sea positiva o negativa, sobre la recepción del paquete de datos al remitente, de manera que este último siempre está al tanto de si el paquete ha llegado en buenas condiciones, o si hace falta reenviarlo.  Asegura que los datos lleguen a destino en el mismo orden o secuencia en el que han sido enviados. capa superior.  Establece una conexión entre los hosts antes de iniciar el envío de los datos de la  Proporciona un mecanismo de comprobación de errores y recuperación.  Proporciona una comunicación de extremo a extremo, control del flujo y calidad de servicio.  Funciona en modo cliente/servidor, punto a punto.  Ofrece un servicio dúplex completo.
   
      (Page 31)
@@ -187,11 +202,13 @@ tags:: SecDevOps UNI
      (Page 34)
 -
 - +++ #flashcard 
+  id:: 63cfbcdf-96c3-4b67-b8d5-f7672bbf5bb8
     Cualquiera de los servidores y clientes pueden enviar un segmento TCP con el indicador FIN establecido en 1. Cuando el extremo receptor responde dando un acuse de recibo FIN (ACK FIN), en esa dirección de TCP se cierra la comunicación y se libera la conexión.
   
      (Page 35)
 -
 - ¿Qué se conoce como UDP? #flashcard 
+  id:: 63cfbcdf-b9f9-478a-a6bd-2e3d42596dce
     Protocolo de datagrama de usuario UDP es el protocolo más sencillo de la capa de transporte disponible para la suite TCP/IP. Se suele decir que UDP es poco fiable, pero, realmente, ofrece este servicio como tal: delega el control de entrega a la capa de aplicación para, a cambio, evitar la latencia inicial del 3-way handshake y el reenvío de paquetes si no es necesario. En UDP, el receptor no genera un acuse de recibo del paquete recibido y, por ende, el remitente no lo espera. Esta limitación hace que este protocolo sea poco fiable a la vez que más fácil de procesar.
   
      (Page 38)

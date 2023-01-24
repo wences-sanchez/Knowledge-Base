@@ -23,6 +23,7 @@ category:: #books\
     ([Location 387](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=387))
 -
 - $ vagrant up The first time you execute it, it will take some time as it will have to download the image from the repository, and then it will execute the provisioner.sh file. #flashcard 
+  id:: 63cfbcd3-f80b-410f-8e89-6ea98b92432a
   
   
     ([Location 420](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=420))
@@ -49,11 +50,13 @@ category:: #books\
     ([Location 592](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=592))
 -
 - http://myserver.com/greeting?name=Alex. #flashcard  #orange #naranja 
+  id:: 63cfbcd3-a6ac-48a0-95f8-73bc4806edb0
   
   
     ([Location 595](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=595))
 -
 - The HTTP method is the verb of the message. #flashcard  #pink #rosa 
+  id:: 63cfbcd3-368f-4092-a345-f42a4e2ab622
   
   
     ([Location 599](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=599))
@@ -66,11 +69,13 @@ category:: #books\
     ([Location 600](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=600))
 -
 - POST: This means that the sender wants to perform an action that will update the data that the receiver is holding. For example, the sender can ask the receiver to update his profile name. #flashcard  #blue #azul 
+  id:: 63cfbcd3-8172-4d4e-9470-ff6c8894ebdc
   
   
     ([Location 602](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=602))
 -
 - The body part is usually present in response messages even though a request message can contain it too. #flashcard  #blue #azul 
+  id:: 63cfbcd3-3fc6-45a5-b995-fbcdb4030362
   
   
     ([Location 607](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=607))
@@ -90,6 +95,7 @@ category:: #books\
     ([Location 619](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=619))
 -
 - Common status codes are: #flashcard 
+  id:: 63cfbcd3-ab17-4fa2-8bc4-c3bad7ad446c
   
   
     ([Location 622](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=622))
@@ -102,6 +108,7 @@ category:: #books\
     ([Location 633](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=633))
 -
 - rather all of them in a generic way. The main reason for this choice of terminology is to try to separate HTTP from web applications. You will see at the end of the book that HTTP is used for more than just websites. #flashcard 
+  id:: 63cfbcd3-987f-4b35-b541-a5172ecc2694
   
   
     ([Location 639](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=639))
@@ -114,11 +121,13 @@ category:: #books\
     ([Location 642](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=642))
 -
 - A website is the set of web pages that usually live in the same server and are related to each other. #flashcard  #blue #azul 
+  id:: 63cfbcd3-f819-4a9b-9035-252f239f1e89
   
   
     ([Location 644](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=644))
 -
 - A web application is just a piece of software that runs on a client, which is usually a browser, and communicates with a server. #flashcard  #pink #rosa 
+  id:: 63cfbcd3-82a7-481a-bc98-e9d6dd71004b
   
   
     ([Location 645](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=645))
@@ -131,6 +140,7 @@ category:: #books\
     ([Location 646](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=646))
 -
 - So, what is the difference between a website and a web application? Well, the web application can be a small part of a bigger website with a specific functionality. #flashcard  #blue #azul 
+  id:: 63cfbcd3-3a7c-4263-8079-6276b33be366
   
   
     ([Location 650](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=650))
@@ -150,6 +160,7 @@ category:: #books\
     ([Location 684](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=684))
 -
 - Recibiendo solicitudes por el protocolo HTTP #flashcard  #pink #rosa 
+  id:: 63cfbcd3-0bee-48c5-abd8-b5b227cde474
     A web server is no more than a piece of software running on a machine and listening to requests from a specific port.
   
     ([Location 692](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=692))
@@ -162,6 +173,7 @@ category:: #books\
     ([Location 702](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=702))
 -
 - There are powerful web servers that support high loads of traffic, such as Apache or Nginx, #flashcard  #pink #rosa 
+  id:: 63cfbcd3-55c7-4a47-afea-9b8bfd52e28c
   
   
     ([Location 709](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=709))
@@ -180,11 +192,13 @@ category:: #books\
     ([Location 738](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=738))
 -
 - you have to start the file with <?php. There are other options, and you can also finish the file with ?>, #flashcard  #pink #rosa 
+  id:: 63cfbcd3-4d8d-416a-be06-12ec01ece5c1
   
   
     ([Location 768](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=768))
 -
 - <?php   echo 'hello world'; ?> bye world #flashcard  #orange #naranja 
+  id:: 63cfbcd3-9ff7-49b9-9088-ae2140fa9b72
   
   
     ([Location 771](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=771))
@@ -204,31 +218,37 @@ category:: #books\
     ([Location 778](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=778))
 -
 - require: This will do the same as include, but PHP will throw an error instead of a warning if the file is not found. #flashcard  #blue #azul 
+  id:: 63cfbcd3-f93c-4f56-95fa-1922b793ec01
   
   
     ([Location 780](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=780))
 -
 - include_once: This function will do what include does, but it will include the file only the first time that it is invoked. Subsequent calls will be ignored. #flashcard  #blue #azul 
+  id:: 63cfbcd3-9bdf-49c8-9b7a-673dceed80fe
   
   
     ([Location 781](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=781))
 -
 - require_once: This works the same as require, but it will include the file only the first time that it is invoked. Subsequent calls will be ignored. #flashcard  #blue #azul 
+  id:: 63cfbcd3-73b8-4b6e-a1e8-d3e41534a582
   
   
     ([Location 782](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=782))
 -
 - Each function has its own usage, so it is not right to say that one is better than the other. #flashcard 
+  id:: 63cfbcd3-7522-415a-b3c2-278a8d115d60
   
   
     ([Location 784](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=784))
 -
 - Moreover, as it is some HTML code, we might want to include it multiple times, so we did not choose the require_once option. #flashcard 
+  id:: 63cfbcd3-d68d-4d5a-8c2e-e86cbaa74ed3
   
   
     ([Location 789](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=789))
 -
 - $a = 1; #flashcard  #orange #naranja 
+  id:: 63cfbcd3-d777-4e7d-a22c-5f180013a7d7
   
   
     ([Location 802](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=802))
@@ -241,11 +261,13 @@ category:: #books\
     ([Location 809](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=809))
 -
 - $1number = 12.3; // not valid! #flashcard  #orange #naranja 
+  id:: 63cfbcd3-5840-4840-9554-3b4289bc68c1
   
   
     ([Location 811](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=811))
 -
 - PHP has eight primitive types, but for now, we will focus on its four scalar types: #flashcard 
+  id:: 63cfbcd3-20ec-475e-8f99-93105a77e154
   
   
     ([Location 818](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=818))
@@ -265,11 +287,13 @@ category:: #books\
     ([Location 877](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=877))
 -
 - The == (equals) operator evaluates two expressions after type juggling, that is, it will try to transform both expressions to the same type, and then compare them. Instead, the === (identical) operator evaluates two expressions without type juggling, so even if they look the same, if they are not of the same type, the comparison will return false. The same applies to != or <> (not equal to) and !== (not identical): #flashcard  #blue #azul 
+  id:: 63cfbcd3-c971-4e14-8b01-fce07216a576
   
   
     ([Location 879](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=879))
 -
 - You can find the entire list of functions at http://php.net/manual/en/ref.strings.php, #flashcard 
+  id:: 63cfbcd3-5e2c-4bf6-9da6-125d03a16b4e
   
   
     ([Location 953](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=953))
@@ -282,11 +306,13 @@ category:: #books\
     ([Location 960](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=960))
 -
 - trim: This function returns the string, removing all the blank spaces to the left and to the right. #flashcard  #blue #azul 
+  id:: 63cfbcd3-5393-44e7-85fc-c6e2af26d79c
   
   
     ([Location 961](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=961))
 -
 - strtoupper and strtolower: These functions return the string with all the characters in upper or lower case respectively. #flashcard  #blue #azul 
+  id:: 63cfbcd3-2a0f-4e46-9d68-926d897360f2
   
   
     ([Location 962](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=962))
@@ -306,21 +332,25 @@ category:: #books\
     ([Location 964](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=964))
 -
 - strpos: This function shows the position of the first occurrence of the given string. It returns false if the string cannot be found. #flashcard  #blue #azul 
+  id:: 63cfbcd3-0514-4d08-92ba-2851da1ff0a3
   
   
     ([Location 966](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=966))
 -
 - there is an operator for strings (.) which concatenates two strings #flashcard  #blue #azul 
+  id:: 63cfbcd3-acf6-40a5-ae54-6f84cab92b06
   
   
     ([Location 967](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=967))
 -
 - $empty1 = []; $empty2 = array(); $names1 = ['Harry', 'Ron', 'Hermione']; $names2 = array('Harry', 'Ron', 'Hermione'); #flashcard  #orange #naranja 
+  id:: 63cfbcd3-4ad7-4de1-b1a3-27dca333c4c8
   
   
     ([Location 998](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=998))
 -
 - $status1 = [     'name' => 'James Potter',     'status' => 'dead' ]; $status2 = array(     'name' => 'James Potter',     'status' => 'dead' ); #flashcard  #orange #naranja 
+  id:: 63cfbcd3-51aa-4028-bb1d-5bfbbd07e123
   
   
     ([Location 999](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=999))
@@ -332,6 +362,7 @@ category:: #books\
     ([Location 1018](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1018))
 -
 - Para eliminar un elemento. 'status' es la clave a eliminar #flashcard  #orange #naranja 
+  id:: 63cfbcd3-0385-427f-81cc-e540f3f5592e
     unset($status['status']);
   
     ([Location 1029](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1029))
@@ -344,11 +375,13 @@ category:: #books\
     ([Location 1050](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1050))
 -
 - The isset function takes an array position, and returns true or false depending on whether that position exists or not: #flashcard  #blue #azul 
+  id:: 63cfbcd3-2c6c-4fc2-9026-eb54936adbb5
   
   
     ([Location 1051](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1051))
 -
 - empty($string)); #flashcard  #orange #naranja 
+  id:: 63cfbcd3-4d16-4fff-81ec-d4accb57e223
   
   
     ([Location 1053](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1053))
@@ -361,11 +394,13 @@ category:: #books\
     ([Location 1054](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1054))
 -
 - in_array. This function takes two values, the value that you want to search for and the array. The function returns true if the value is in the array and false otherwise. #flashcard  #blue #azul 
+  id:: 63cfbcd3-9c61-4cba-8270-ef25b83b5674
   
   
     ([Location 1060](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1060))
 -
 - array_search. This function works in the same way except that instead of returning a Boolean, it returns the key where the value is found, or false otherwise. #flashcard  #blue #azul 
+  id:: 63cfbcd3-ddc3-4f6b-994b-a7039e4b732a
   
   
     ([Location 1063](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1063))
@@ -377,11 +412,13 @@ category:: #books\
     ([Location 1065](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1065))
 -
 - $wheresVoldemort = array_search('Voldemort', $names); #flashcard  #orange #naranja 
+  id:: 63cfbcd3-eaa7-438a-9ae4-e14da893fa26
   
   
     ([Location 1068](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1068))
 -
 - sort, orders the values alphabetically. #flashcard  #blue #azul 
+  id:: 63cfbcd3-366e-4d2a-97bc-7cba65bfe9d2
   
   
     ([Location 1111](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1111))
@@ -394,6 +431,7 @@ category:: #books\
     ([Location 1112](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1112))
 -
 - ksort orders the elements by their keys, alphabetically. #flashcard  #blue #azul 
+  id:: 63cfbcd3-9730-40eb-8a2d-94a7496b08d7
   
   
     ([Location 1113](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1113))
@@ -406,6 +444,7 @@ category:: #books\
     ([Location 1118](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1118))
 -
 - We can get a list of the keys of the array with array_keys, and a list of its values with array_values: #flashcard  #blue #azul 
+  id:: 63cfbcd3-b903-4076-a0c7-dbd274d643fc
   
   
     ([Location 1124](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1124))
@@ -425,6 +464,7 @@ category:: #books\
     ([Location 1131](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1131))
 -
 - PHP stores all the parameters that come from the query string in an array called $_GET. #flashcard  #blue #azul 
+  id:: 63cfbcd3-86dd-420c-a803-6593e572cb2f
   
   
     ([Location 1157](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1157))
@@ -458,6 +498,7 @@ category:: #books\
     ([Location 1296](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1296))
 -
 - <?php endif; ?> #flashcard  #orange #naranja 
+  id:: 63cfbcd3-7684-45e6-843b-8785d9e7ee32
   
   
     ([Location 1297](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1297))
@@ -470,11 +511,13 @@ category:: #books\
     ([Location 1373](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1373))
 -
 - foreach ($names as $key => $name) {     echo $key . " -> " . $name . " "; } #flashcard  #orange #naranja 
+  id:: 63cfbcd3-6d94-40fe-9767-e999edcebc22
   
   
     ([Location 1374](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1374))
 -
 - <?php if (!$book['available']): ?>           <b>Not available</b> <?php endif; ?>         </li> <?php endforeach; ?> #flashcard  #orange #naranja 
+  id:: 63cfbcd3-a0e1-404f-8c0b-fcbd97c53660
   
   
     ([Location 1395](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1395))
@@ -487,11 +530,13 @@ category:: #books\
     ([Location 1416](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1416))
 -
 - As you can see, you can declare the arguments without knowing what their types are, so PHP would not be able to decide which function to use. #flashcard 
+  id:: 63cfbcd3-9c08-4aa3-ac50-934e646fa3a4
   
   
     ([Location 1417](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1417))
 -
 - pass the argument by reference. To do that, you add an ampersand (&) before the argument when declaring the function: #flashcard  #blue #azul 
+  id:: 63cfbcd3-f19e-4dd3-88f6-b19b4f5c67e9
   
   
     ([Location 1442](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1442))
@@ -504,11 +549,13 @@ category:: #books\
     ([Location 1444](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1444))
 -
 - Usually, when someone uses a function, they expect a result, and they do not want the arguments provided by them to be modified. So try to avoid it; people will be grateful! #flashcard 
+  id:: 63cfbcd3-c045-44bb-a3a0-38840b7f3a10
   
   
     ([Location 1449](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1449))
 -
 - declare(strict_types=1); #flashcard  #orange #naranja 
+  id:: 63cfbcd3-32d3-4889-820f-85c598b0d742
   
   
     ([Location 1467](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1467))
@@ -521,6 +568,7 @@ category:: #books\
     ([Location 1467](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1467))
 -
 - file_put_contents(__DIR__ . '/books.json', $booksJson); #flashcard  #orange #naranja 
+  id:: 63cfbcd3-3c44-4233-aa09-ca00e9aea4d2
   
   
     ([Location 1569](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1569))
@@ -554,11 +602,13 @@ category:: #books\
     ([Location 1868](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1868))
 -
 - So, what is the autoloader? It is no more than a PHP function that gets a class name as a parameter, and it is expected to load a file. #flashcard  #blue #azul 
+  id:: 63cfbcd3-938a-40e4-b288-00d4742913f9
   
   
     ([Location 1871](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1871))
 -
 - class Customer extends Person { #flashcard  #orange #naranja 
+  id:: 63cfbcd3-6c1c-470d-bc78-9138b7eb5361
   
   
     ([Location 1932](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1932))
@@ -571,11 +621,13 @@ category:: #books\
     ([Location 1954](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=1954))
 -
 - interface Customer { #flashcard  #orange #naranja 
+  id:: 63cfbcd3-031a-4d23-8997-abe9eae32125
   
   
     ([Location 2073](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=2073))
 -
 - class Basic implements Customer { #flashcard  #orange #naranja 
+  id:: 63cfbcd3-def4-4a68-9778-a5f664d07291
   
   
     ([Location 2083](https://readwise.io/to_kindle?action=open&asin=B01ALMQ550&location=2083))

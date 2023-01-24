@@ -30,6 +30,7 @@ category:: #books\
     ([Location 1151](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1151))
 -
 - A PUT indicates that the information included in the request should change already existing items. #flashcard 
+  id:: 63cfbcb0-a117-46d8-b1cb-81615bf1ae78
   
   
     ([Location 1153](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1153))
@@ -49,26 +50,31 @@ category:: #books\
     ([Location 1341](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1341))
 -
 - ViewState is how ASP.NET Web Forms take this customized approach and transfer state information between the browser and the server. ViewState is a hidden field <input type="hidden" name=“_VIEWSTATE” value=“blah blah #flashcard 
+  id:: 63cfbcb0-e47f-4ab8-85c7-a768b552de99
   
   
     ([Location 1346](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1346))
 -
 - types of controls: #flashcard 
+  id:: 63cfbcb0-a706-4390-a417-8db7893b38d0
   
   
     ([Location 1443](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1443))
 -
 - ensures that the data is correct when it gets to the server. #flashcard 
+  id:: 63cfbcb0-4a51-4272-a5c1-ac397003a4a7
   
   
     ([Location 1461](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1461))
 -
 - This enables the same control to be reused in multiple places, rather than copying the code itself into multiple pages. #flashcard 
+  id:: 63cfbcb0-7caf-4fe1-bd7f-eaf5c942d545
   
   
     ([Location 1465](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1465))
 -
 - MVC presents views, not pages, to the client. #flashcard 
+  id:: 63cfbcb0-41fe-406c-b02c-ff36ba21b1dc
   
   
     ([Location 1480](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=1480))
@@ -81,41 +87,49 @@ category:: #books\
     ([Location 3175](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3175))
 -
 - Dim squaredValue As Double = perItemCost ^ 2 #flashcard  #orange #naranja 
+  id:: 63cfbcb0-a589-4cdb-98da-68fd177022f5
   
   
     ([Location 3284](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3284))
 -
 - The two concatenation operators are + for C# and & for VB. #flashcard  #orange #naranja 
+  id:: 63cfbcb0-ba49-457b-ab45-6732b820b183
   
   
     ([Location 3290](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3290))
 -
 - string[] itemNames = new string[2]; #flashcard  #orange #naranja 
+  id:: 63cfbcb0-a05a-447c-a611-bc15f3c071cb
   
   
     ([Location 3431](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3431))
 -
 - Dim itemNames(1) As String #flashcard  #orange #naranja 
+  id:: 63cfbcb0-7f40-4bb1-aa80-4632828bdbe6
   
   
     ([Location 3435](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3435))
 -
 - List<string> itemNames = new List #flashcard  #orange #naranja 
+  id:: 63cfbcb0-8a42-4717-9af0-d75f41db6418
   
   
     ([Location 3492](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3492))
 -
 - Dim itemNames As New List(Of String) #flashcard  #orange #naranja 
+  id:: 63cfbcb0-7aad-4c62-8684-d3ab6a06623a
   
   
     ([Location 3495](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3495))
 -
 - name <> Nothing And name.Length > 10 #flashcard  #orange #naranja 
+  id:: 63cfbcb0-b218-432b-bac3-ee08e303b56f
   
   
     ([Location 3655](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3655))
 -
 - If availableItems > 0 Then #flashcard  #orange #naranja 
+  id:: 63cfbcb0-7b45-423b-8fdd-b4082b1d77c0
   
   
     ([Location 3672](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3672))
@@ -156,11 +170,13 @@ category:: #books\
     ([Location 3787](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3787))
 -
 - For Each item As String In collection.Count #flashcard  #orange #naranja 
+  id:: 63cfbcb0-f3c2-4b47-8c98-c1745aac35c1
   
   
     ([Location 3792](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3792))
 -
 - While Not isDone     If total > 100 Then         isDone = True     End If End While #flashcard  #orange #naranja 
+  id:: 63cfbcb0-984b-4b8b-be39-afd228fb2d63
   
   
     ([Location 3812](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=3812))
@@ -194,6 +210,7 @@ category:: #books\
     ([Location 4141](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4141))
 -
 - Public Class ElectricItem Inherits Item #flashcard  #orange #naranja 
+  id:: 63cfbcb0-7b0d-4673-ada7-f6faa0050806
   
   
     ([Location 4146](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4146))
@@ -206,26 +223,31 @@ category:: #books\
     ([Location 4328](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4328))
 -
 - The runat attribute, when set to server, enables the control to be accessed in the code-behind. Without this attribute set, it is not possible to interact with the control on the server, #flashcard  #blue #azul 
+  id:: 63cfbcb0-82b8-43f5-b013-54ff05798df5
   
   
     ([Location 4334](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4334))
 -
 - mainTextBox.Text = "I am text for the textbox #flashcard 
+  id:: 63cfbcb0-0ed7-40a5-87d8-c6dd5607fdba
   
   
     ([Location 4343](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4343))
 -
 - The combination of these two, the server control in the .aspx page and the code in the aspx.cs page, create the following HTML: #flashcard 
+  id:: 63cfbcb0-14e4-4513-9d6d-3327f253f3e4
   
   
     ([Location 4344](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4344))
 -
 - A standard control is a built-in ASP.NET control that helps display information to the user or helps capture information from the user. #flashcard  #blue #azul 
+  id:: 63cfbcb0-8c18-473a-87f5-b63377f70e2c
   
   
     ([Location 4502](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=4502))
 -
 - A view is concerned only with creating a user interface. A controller is concerned only with receiving information from, and providing information to, a view, and models are concerned only with performing the business logic. #flashcard  #blue #azul 
+  id:: 63cfbcb0-6d4d-4b1b-800d-9ae1c002b486
   
   
     ([Location 5123](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5123))
@@ -245,11 +267,13 @@ category:: #books\
     ([Location 5304](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5304))
 -
 - In an ASP.NET MVC application, the controller is what receives the request and determines what information is displayed. #flashcard 
+  id:: 63cfbcb0-c3c6-4ad0-8e41-a4301f542ad2
   
   
     ([Location 5333](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5333))
 -
 - name: "Default",     url: "{controller}/{action}/{id}",     defaults: new { action = "Index", id = 0 } #flashcard  #orange #naranja 
+  id:: 63cfbcb0-72dd-4cf0-b101-8641bf36c605
   
   
     ([Location 5432](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5432))
@@ -262,6 +286,7 @@ category:: #books\
     ([Location 5488](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5488))
 -
 - Scaffold-Created Actions in a New Controller #flashcard 
+  id:: 63cfbcb0-303b-49b8-82fb-8944b8899073
   
   
     ([Location 5739](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=5739))
@@ -274,6 +299,7 @@ category:: #books\
     ([Location 6316](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6316))
 -
 - Of key importance here is the location of the layout file that you created. The convention is to start the filename with an underscore (_) and place it within the Shared directory. #flashcard  #blue #azul 
+  id:: 63cfbcb0-1710-451c-8159-832c4614cc0a
   
   
     ([Location 6423](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6423))
@@ -286,11 +312,13 @@ category:: #books\
     ([Location 6477](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6477))
 -
 - To create the content section, use the Razor @ key character followed by the keyword section. #flashcard  #blue #azul 
+  id:: 63cfbcb0-93e4-47f5-8d17-0b7329a3bc8f
   
   
     ([Location 6492](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6492))
 -
 - Everything within these curly brackets replaces the @RenderSection command. #flashcard  #blue #azul 
+  id:: 63cfbcb0-1639-4bbe-90be-03d21ac34f88
   
   
     ([Location 6493](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6493))
@@ -303,11 +331,13 @@ category:: #books\
     ([Location 6521](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6521))
 -
 - Leaving the layout unassigned tells the system to use the default layout defined in the ViewStart file. #flashcard  #blue #azul 
+  id:: 63cfbcb0-40bf-4a4e-879a-bbd72fe9ab26
   
   
     ([Location 6523](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6523))
 -
 - In ASP.NET Web Forms this support is master pages, while in MVC it is called a layout. #flashcard  #blue #azul 
+  id:: 63cfbcb0-8124-46dd-8073-10117e2b94b3
   
   
     ([Location 6666](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6666))
@@ -327,21 +357,25 @@ category:: #books\
     ([Location 6794](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6794))
 -
 - using the tilde is important because it will correctly include the relative directory in the URL that is being linked. #flashcard  #blue #azul 
+  id:: 63cfbcb0-2a9b-4012-af0a-7ee59ef9867c
   
   
     ([Location 6813](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6813))
 -
 - it is recommended that you not declare the default part of the URL when trying to link to it; instead, reference the directory name only and allow the server to serve the default file as appropriate. #flashcard 
+  id:: 63cfbcb0-1881-407a-a935-e869aec12add
   
   
     ([Location 6833](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6833))
 -
 - navigation features in your website. There are three different server controls that help you: the TreeView, Menu, and SiteMapPath controls. #flashcard 
+  id:: 63cfbcb0-ff64-4981-abb7-296922f72a56
   
   
     ([Location 6882](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=6882))
 -
 - you have to ensure that you avoid the type of method overloading that you can do in traditional C# development. #flashcard  #blue #azul 
+  id:: 63cfbcb0-9345-4c7e-87c9-77fa86e0b77a
   
   
     ([Location 7226](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7226))
@@ -368,11 +402,13 @@ category:: #books\
     ([Location 7352](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7352))
 -
 - Server.Transfer("/Admin/ItemList", true); #flashcard  #orange #naranja 
+  id:: 63cfbcb0-ea49-43e4-8f98-326df0b9c056
   
   
     ([Location 7415](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7415))
 -
 - Server.TransferRequest("/DemoModel/Details/3", true, "GET", null); #flashcard  #orange #naranja 
+  id:: 63cfbcb0-2fc1-464a-ac97-086d14e8e653
   
   
     ([Location 7426](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7426))
@@ -385,6 +421,7 @@ category:: #books\
     ([Location 7463](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7463))
 -
 - The key difference between redirection in ASP.NET Web Forms and MVC is that the MVC controller simply determines what view will be returned, so there is no concept of transfer; the controller just returns the appropriate view. #flashcard 
+  id:: 63cfbcb0-6f5d-4b37-9956-1cfe67339bdc
   
   
     ([Location 7496](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7496))
@@ -397,11 +434,13 @@ category:: #books\
     ([Location 7977](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=7977))
 -
 - select ADO.NET Data Entity Model. Name it RentMyWroxContext, #flashcard  #blue #azul 
+  id:: 63cfbcb0-51f2-4611-9048-6205ba189a99
   
   
     ([Location 8037](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8037))
 -
 - using (RentMyWroxContext context = new RentMyWroxContext()) {     var list = context.UserDemographics.OrderBy(x => x.Birthdate).ToList();     return View(list); } #flashcard  #orange #naranja 
+  id:: 63cfbcb0-0b57-44b4-a88c-14c9ef04efe1
   
   
     ([Location 8188](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8188))
@@ -421,41 +460,49 @@ category:: #books\
     ([Location 8327](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8327))
 -
 - TryUpdateModel #flashcard  #blue #azul 
+  id:: 63cfbcb0-b2a4-4452-bd0e-127acd6d55e5
   
   
     ([Location 8388](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8388))
 -
 - This is an important concept in that it enables the developer to focus on the model rather than manually map the request fields to a model property. When the process is completed, the ModelState.IsValid property is checked. #flashcard  #blue #azul 
+  id:: 63cfbcb0-ce63-43bf-b428-467946aa5689
   
   
     ([Location 8389](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8389))
 -
 - Note that the code flow was stopped after the Add method was called but before the calling of the SaveChanges method, and how the Id value is shown as 0. #flashcard 
+  id:: 63cfbcb0-44e7-4671-bd8e-fa79cf7721cb
   
   
     ([Location 8409](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8409))
 -
 - If you had set a variable equal to the Id value before running the SaveChanges method, then you would not have the correct value. #flashcard 
+  id:: 63cfbcb0-1608-400c-90b7-0b310adcc2ef
   
   
     ([Location 8423](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8423))
 -
 - SaveChanges #flashcard  #blue #azul 
+  id:: 63cfbcb0-3566-4d20-b8a7-e74726b98e81
   
   
     ([Location 8425](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8425))
 -
 - A GridView is used to display the values of a series of data in a table format. #flashcard  #blue #azul 
+  id:: 63cfbcb0-d2a3-4705-be80-d4a4c1e2f796
   
   
     ([Location 8434](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=8434))
 -
 - nLog #flashcard  #pink #rosa 
+  id:: 63cfbcb0-df10-407a-ab60-b5cec9d359fc
   
   
     ([Location 16929](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=16929))
 -
 - nLog Logging Levels #flashcard 
+  id:: 63cfbcb0-d2ed-4281-8f96-dd19c718e28a
   
   
     ([Location 16979](https://readwise.io/to_kindle?action=open&asin=B01AXTFHZU&location=16979))

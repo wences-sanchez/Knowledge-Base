@@ -10,6 +10,7 @@ tags:: Entornos-CI-CD UNI
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/5360dc73-d287-4d6f-8309-e6ddfbb2ce3e.jpg)
 ## Highlights
 - ¿Qué es Jenkins? #flashcard 
+  id:: 63cfbcc6-340e-424f-9407-13fc093d759c
     Jenkins es un sistema de integración y entrega continuas. Es una herramienta de código abierto disponible para múltiples arquitecturas que puede manejar cualquier tipo de construcción, pruebas y despliegues gracias a su formato de plugins.
   
      (Page 4)

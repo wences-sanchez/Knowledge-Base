@@ -66,6 +66,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
      (Page 15)
 -
 - ¿Cómo harías, en bash, para ver cada línea de un script antes de que se ejecute? #flashcard 
+  id:: 63cfbca6-13fa-4ec8-9313-fba405cba833
     los scripts de shell se pueden invocar con el parámetro -v, que muestra cada línea antes de ejecutarla
   
      (Page 18)

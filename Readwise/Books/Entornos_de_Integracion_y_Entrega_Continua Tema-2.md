@@ -22,6 +22,7 @@ tags:: Entornos-CI-CD UNI
      (Page 6)
 -
 - Define **Check-out** #flashcard 
+  id:: 63cfbcc5-5cb9-49ad-9d19-02fc78ab3233
      Check-out: es el proceso de inicializar una copia de trabajo a partir de un punto concreto de un repositorio. En algunos sistemas de control de versiones este proceso se define con el término update and lock o actualizar y bloquear.
   
      (Page 6)
@@ -57,6 +58,7 @@ tags:: Entornos-CI-CD UNI
      (Page 7)
 -
 -  Tag o label: una etiqueta marca un commit determinado en el historial del repositorio, lo que permite acceder fácilmente a él de nuevo. Pueden usarse para indicar una versión liberada (release) o un punto de pase a producción. Aunque es posible borrarlas, no deberían ser modificadas. #flashcard 
+  id:: 63cfbcc5-e82d-43a5-a927-1d626ea9e4bb
   
   
      (Page 7)

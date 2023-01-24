@@ -9,26 +9,31 @@ category:: #books\
 ![](https://images-na.ssl-images-amazon.com/images/I/417fn1Op71L._SL200_.jpg)
 ## Highlights
 - An activity is responsible for managing user interaction with a screen of information. #flashcard 
+  id:: 63cfbcac-e18d-4bb1-95e9-bd552b634cce
   
   
     ([Location 679](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=679))
 -
 - Widgets are the building blocks you use to compose a user interface. #flashcard  #pink #rosa 
+  id:: 63cfbcac-2273-4145-8ce3-9db79c7b7cd0
   
   
     ([Location 765](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=765))
 -
 - Buttons, text input controls, and checkboxes are all types of widgets. #flashcard  #pink #rosa 
+  id:: 63cfbcac-24e5-4548-8e55-286e3f62b748
   
   
     ([Location 767](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=767))
 -
 - match_parent view will be as big as its parent wrap_content view will be as big as its contents require #flashcard  #orange #naranja 
+  id:: 63cfbcac-2fb4-4602-b517-e0299ec03bc1
   
   
     ([Location 850](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=850))
 -
 - setContentView(int layoutResID) #flashcard 
+  id:: 63cfbcac-dc69-40aa-aec4-a6d53547dfe2
   
   
     ([Location 957](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=957))
@@ -55,16 +60,19 @@ category:: #books\
     ([Location 1010](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1010))
 -
 - View findViewById(int id) #flashcard 
+  id:: 63cfbcac-ff80-42e7-9e39-15c1708df908
   
   
     ([Location 1056](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1056))
 -
 - public static Toast makeText(Context context, int resId, int duration) #flashcard  #orange #naranja 
+  id:: 63cfbcac-ea74-416b-813b-267931ab10ec
   
   
     ([Location 1141](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1141))
 -
 - Toast.makeText(QuizActivity.this,                            R.string.correct_toast,                            Toast.LENGTH_SHORT).show(); #flashcard  #orange #naranja 
+  id:: 63cfbcac-42d8-49cc-8d61-0d3f3f3a397d
   
   
     ([Location 1174](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1174))
@@ -84,11 +92,13 @@ category:: #books\
     ([Location 1351](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1351))
 -
 - They contain “application logic.” Controllers #flashcard 
+  id:: 63cfbcac-b6ff-408c-9527-af3798fcbc50
   
   
     ([Location 1356](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1356))
 -
 - android:drawableRight="@drawable/arrow_right" #flashcard 
+  id:: 63cfbcac-8a27-445c-8f19-c2810deb4185
   
   
     ([Location 1692](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1692))
@@ -101,6 +111,7 @@ category:: #books\
     ([Location 1957](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=1957))
 -
 - protected void onSaveInstanceState(Bundle outState) #flashcard  #orange #naranja 
+  id:: 63cfbcac-e32d-4140-8ed3-e45ef84250c0
   
   
     ([Location 2000](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2000))
@@ -134,6 +145,7 @@ category:: #books\
     ([Location 2575](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2575))
 -
 - Intent i = new Intent(QuizActivity.this, CheatActivity.class);                 startActivity(i); #flashcard  #orange #naranja 
+  id:: 63cfbcac-0264-4797-b26b-ed90b1cd6f16
   
   
     ([Location 2599](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2599))
@@ -160,6 +172,7 @@ category:: #books\
     ([Location 2711](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2711))
 -
 - startActivityForResult(i, REQUEST_CODE_CHEAT); #flashcard  #orange #naranja 
+  id:: 63cfbcac-0f2b-4158-8b6d-6a2a1bde90e3
   
   
     ([Location 2762](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2762))
@@ -172,21 +185,25 @@ category:: #books\
     ([Location 2765](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2765))
 -
 - setResult(RESULT_OK, data); #flashcard  #orange #naranja 
+  id:: 63cfbcac-833f-437a-8093-afb6df8232f9
   
   
     ([Location 2801](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2801))
 -
 - The final step is to override onActivityResult(int, int, Intent) in QuizActivity to handle the result. #flashcard 
+  id:: 63cfbcac-48cb-464d-90c8-4600c7f52c53
   
   
     ([Location 2815](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2815))
 -
 - result.getBooleanExtra(EXTRA_ANSWER_SHOWN, false); #flashcard  #orange #naranja 
+  id:: 63cfbcac-4f3f-444f-8848-db7c0e2d197f
   
   
     ([Location 2824](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=2824))
 -
 - The ViewAnimationUtils and its createCircularReveal method were both added to the Android SDK in API level 21, so this code would crash on a device running a lower version than that. #flashcard 
+  id:: 63cfbcac-a15e-4215-83bb-2f2a5bea2a3d
   
   
     ([Location 3060](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3060))
@@ -199,26 +216,31 @@ category:: #books\
     ([Location 3228](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3228))
 -
 - Notice that the container view is completely generic; #flashcard  #orange #naranja 
+  id:: 63cfbcac-8e26-42c5-8449-39682f5b4645
   
   
     ([Location 3429](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3429))
 -
 - The steps to creating a UI fragment are the same as those you followed to create an activity: compose a user interface by defining widgets in a layout file create the class and set its view to be the layout that you defined wire up the widgets inflated from the layout in code #flashcard 
+  id:: 63cfbcac-ecf0-4cff-9550-ecf62718bf07
   
   
     ([Location 3450](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3450))
 -
 - Its job is to present the details of a specific crime and update those details as the user changes them. #flashcard 
+  id:: 63cfbcac-c92d-4500-b64b-a80805237c6e
   
   
     ([Location 3519](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3519))
 -
 - Fragment.onCreate(Bundle) #flashcard  #orange #naranja 
+  id:: 63cfbcac-8629-485c-af22-500ea9bdf973
   
   
     ([Location 3525](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3525))
 -
 - public View onCreateView(LayoutInflater inflater, ViewGroup container,             Bundle savedInstanceState) {         View v = inflater.inflate(R.layout.fragment_crime, container, false);         return v;     } #flashcard  #orange #naranja 
+  id:: 63cfbcac-ac08-4a15-856a-62950e35b6ac
   
   
     ([Location 3559](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3559))
@@ -238,11 +260,13 @@ category:: #books\
     ([Location 3904](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3904))
 -
 - A theme is a collection of styles. #flashcard  #blue #azul 
+  id:: 63cfbcac-3fc6-427d-966e-7a3f7a475869
   
   
     ([Location 3915](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3915))
 -
 - Android provides density-independent dimension units that you can use to get the same size on different screen densities. #flashcard  #blue #azul 
+  id:: 63cfbcac-b994-45d6-b662-15d7715d13c0
   
   
     ([Location 3938](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3938))
@@ -255,6 +279,7 @@ category:: #books\
     ([Location 3947](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3947))
 -
 - You will almost always use sp to set display text size. #flashcard  #blue #azul 
+  id:: 63cfbcac-ad3b-4447-8cd1-7c2b0830a8d3
   
   
     ([Location 3953](https://readwise.io/to_kindle?action=open&asin=B0136ZXIMM&location=3953))

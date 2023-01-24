@@ -64,6 +64,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
      (Page 13)
 -
 - ¿Cómo se especifican los comentarios en PowerShell? #flashcard 
+  id:: 63cfbca9-5d0a-4734-85dc-1a8637d81df4
     Los scripts de PowerShell aceptan comentarios de una línea precedidos por el carácter # y de varias líneas rodeados con los delimitadores <# y #>. # comentario en una linea Write-Host Hello World <# #> comentario en multiples lineas Write-Host Bye bye
   
      (Page 14)
@@ -117,6 +118,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
      (Page 23)
 -
 - ¿Cómo usarías el comando Select-Object en PowerShell? #flashcard 
+  id:: 63cfbca9-8181-4cf0-b709-ee97752c2a5e
     El comando Select-Object se puede usar con dos objetivos: limitar el número de objetos de la colección y limitar las propiedades de estos objetos. La limitación en el número de objetos no es un filtrado como el de Where-Object, sino un truncado de la lista para obtener los primeros diez elementos, o los diez últimos, por ejemplo. PS C:\> Get-ChildItem -Path C:\Users\Administrator -File | Sort-Object Property Length -Descending | Select-Object -First 2 -Skip 1
   
      (Page 23)

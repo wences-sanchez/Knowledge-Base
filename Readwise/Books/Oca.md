@@ -9,6 +9,7 @@ category:: #books\
 ![](https://images-na.ssl-images-amazon.com/images/I/5158UjMFE4L._SL200_.jpg)
 ## Highlights
 - www.selikoff.net/oca. If there are any changes to the topics on the exam after this book is published, we will note them there. #flashcard 
+  id:: 63cfbcd8-d6b3-447a-b970-8dc1981b7551
   
   
     ([Location 471](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=471))
@@ -28,6 +29,7 @@ category:: #books\
     ([Location 1054](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1054))
 -
 - The public keyword on line 1 means the class can be used by other classes. #flashcard  #pink #rosa 
+  id:: 63cfbcd8-34b5-4cbd-9cf0-880d3f9908ba
   
   
     ([Location 1063](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1063))
@@ -54,11 +56,13 @@ category:: #books\
     ([Location 1138](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1138))
 -
 - A main() method is the gateway between the startup of a Java process, which is managed by the Java Virtual Machine (JVM), and the beginning of the programmer's code. The JVM calls on the underlying system to allocate memory and CPU time, access files, and so on. #flashcard 
+  id:: 63cfbcd8-86b9-42dd-8fe4-f036edcd1d88
   
   
     ([Location 1143](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1143))
 -
 - $ javac Zoo.java $ java Zoo #flashcard  #orange #naranja 
+  id:: 63cfbcd8-e706-4f08-af89-ddcf8be6b4ae
   
   
     ([Location 1155](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1155))
@@ -78,6 +82,7 @@ category:: #books\
     ([Location 1164](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1164))
 -
 - the JVM does this, #flashcard  #blue #azul 
+  id:: 63cfbcd8-0e21-458e-961a-61b5b3e6f680
   
   
     ([Location 1182](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1182))
@@ -90,6 +95,7 @@ category:: #books\
     ([Location 1182](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1182))
 -
 - Even if a main() method is present, Java will throw an exception if it isn't static. A nonstatic main() method might as well be invisible #flashcard  #orange #naranja 
+  id:: 63cfbcd8-8c84-4c0a-9b67-cc89b597b79f
   
   
     ([Location 1184](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1184))
@@ -102,21 +108,25 @@ category:: #books\
     ([Location 1188](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1188))
 -
 - you can write String[] args, String args[] or String… args; #flashcard  #orange #naranja 
+  id:: 63cfbcd8-8c7e-43ac-8c0a-fa46a13b8562
   
   
     ([Location 1193](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1193))
 -
 - The variable name args hints that this list contains values that were read in (arguments) when the JVM started. You can use any name you like, though. #flashcard  #orange #naranja 
+  id:: 63cfbcd8-beaa-48ce-81b8-ce9285de32c6
   
   
     ([Location 1194](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1194))
 -
 - The characters … are called varargs (variable argument lists). #flashcard 
+  id:: 63cfbcd8-e636-4235-b8b1-b475557e3841
   
   
     ([Location 1197](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1197))
 -
 - args[0] accesses the first element of the array. #flashcard  #blue 
+  id:: 63cfbcd8-5d12-4b21-a04e-e767ecc1cd33
   
   
     ([Location 1205](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1205))
@@ -129,26 +139,31 @@ category:: #books\
     ([Location 1208](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1208))
 -
 - you need to have a JDK to compile because it includes a compiler. You do not need to have a JDK to run the code—a JRE is enough. #flashcard  #blue #azul 
+  id:: 63cfbcd8-839f-4007-a5e1-959d469f1263
   
   
     ([Location 1230](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1230))
 -
 - Java class files run on the JVM and therefore run on any machine with Java rather than just the machine or operating system #flashcard 
+  id:: 63cfbcd8-15e3-43b6-90a5-92715a75e4b2
   
   
     ([Location 1231](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1231))
 -
 - It doesn't import child packages, fields, or methods; it imports only classes. #flashcard  #blue #azul 
+  id:: 63cfbcd8-04da-4d89-8b95-8a0173a2dccf
   
   
     ([Location 1282](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1282))
 -
 - You might think that including so many classes slows down your program, but it doesn't. The compiler figures out what's actually needed. Which approach you choose is personal preference. #flashcard  #pink #blue #azul 
+  id:: 63cfbcd8-3aae-45fc-b6cc-7d8addca3ccd
   
   
     ([Location 1285](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1285))
 -
 - java.lang. This package is special in that it is automatically imported. #flashcard  #pink #rosa 
+  id:: 63cfbcd8-bcba-4112-b6e5-ad0fd3d5c0f2
   
   
     ([Location 1291](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1291))
@@ -175,6 +190,7 @@ category:: #books\
     ([Location 1320](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1320))
 -
 - import java.util.Date; import java.sql.*; #flashcard  #orange #naranja 
+  id:: 63cfbcd8-1f64-4dba-b0c4-5b0781d5f792
   
   
     ([Location 1340](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1340))
@@ -194,6 +210,7 @@ category:: #books\
     ([Location 1364](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1364))
 -
 - In Java you don't pass the extension when running a program. #flashcard 
+  id:: 63cfbcd8-438b-4169-b87d-1fb1efe913a6
   
   
     ([Location 1405](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1405))
@@ -220,6 +237,7 @@ category:: #books\
     ([Location 1496](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1496))
 -
 - Instance Initializers <---> Static Initializers #flashcard  #blue #azul 
+  id:: 63cfbcd8-bb6e-4c86-9868-446c2afbbba0
     Sometimes code blocks are inside a method. These are run when the method is called. Other times, code blocks appear outside a method. These are called instance initializers.
   
     ([Location 1498](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1498))
@@ -232,11 +250,13 @@ category:: #books\
     ([Location 1508](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1508))
 -
 - The constructor runs after all fields and instance initializer blocks have run. #flashcard  #pink #rosa 
+  id:: 63cfbcd8-2cac-47ac-9026-20ecd9617af8
   
   
     ([Location 1514](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1514))
 -
 - Fields and instance initializer blocks are run in the order in which they appear in the file. #flashcard  #pink #rosa 
+  id:: 63cfbcd8-a935-42ec-90d6-a945bc80f5f7
   
   
     ([Location 1514](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1514))
@@ -248,6 +268,7 @@ category:: #books\
     ([Location 1540](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1540))
 -
 - A float requires the letter f following the number so Java knows it is a float. #flashcard 
+  id:: 63cfbcd8-9e2c-4072-ae4e-b36b2f58e71d
   
   
     ([Location 1576](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1576))
@@ -267,16 +288,19 @@ category:: #books\
     ([Location 1583](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1583))
 -
 - When a number is present in the code, it is called a literal. #flashcard  #blue 
+  id:: 63cfbcd8-6ea1-43f7-b4e6-6d58dcdfaeea
   
   
     ([Location 1598](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1598))
 -
 - long max = 3123456789L; #flashcard  #pink #rosa 
+  id:: 63cfbcd8-bfed-4670-8bbb-b656a1a04ca0
   
   
     ([Location 1607](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1607))
 -
 - octal (digits 0–7), which uses the number 0 as a prefix—for example, 017 #flashcard  #blue #azul 
+  id:: 63cfbcd8-b49b-4331-8bcd-80236b2e845a
   
   
     ([Location 1613](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1613))
@@ -310,6 +334,7 @@ category:: #books\
     ([Location 1640](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1640))
 -
 - El subrayado en los literales no puede ir:
+  id:: 63cfbcd8-40ef-404a-bba6-2bc683d234e1
    1. Ni al principio 
    2. Ni al final
    3. Ni pegado a un punto #flashcard  #orange #naranja 
@@ -318,6 +343,7 @@ category:: #books\
     ([Location 1641](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1641))
 -
 - The today variable is a reference of type Date and can only point to a Date object. The greeting variable is a reference that can only point to a String object. #flashcard 
+  id:: 63cfbcd8-08fa-4af9-b6db-a4c1b9a513bc
   
   
     ([Location 1652](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1652))
@@ -351,6 +377,7 @@ category:: #books\
     ([Location 1724](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1724))
 -
 - The name must begin with a letter or the symbol $ or _. #flashcard  #pink #rosa 
+  id:: 63cfbcd8-bc4d-4c34-9784-72b503287921
   
   
     ([Location 1759](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1759))
@@ -370,6 +397,7 @@ category:: #books\
     ([Location 1761](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1761))
 -
 - Until x is assigned a value, it cannot appear within an expression, #flashcard  #blue #azul 
+  id:: 63cfbcd8-3da1-4eea-aeeb-d8b63195dad2
   
   
     ([Location 1848](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1848))
@@ -393,16 +421,19 @@ category:: #books\
 	      ([Location 1872](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1872))
 -
 - two local variables in this method. bitesOfCheese is declared inside the method. piecesOfCheese is called a method parameter. #flashcard 
+  id:: 63cfbcd8-1624-4b02-964f-7674976526fe
   
   
     ([Location 1896](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1896))
 -
 - Class variables—in scope from declaration until program ends #flashcard  #pink #rosa 
+  id:: 63cfbcd8-68ae-4f5e-8e2a-e00474685b16
   
   
     ([Location 1980](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=1980))
 -
 - Think of the acronym PIC (picture): package, import, and class. #flashcard 
+  id:: 63cfbcd8-38a8-4d00-9fdf-a5eb9c58a03e
   
   
     ([Location 2018](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2018))
@@ -423,6 +454,7 @@ category:: #books\
     ([Location 2044](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2044))
 -
 - An object sits on the heap and does not have a name. Therefore, you have no way to access an object except through a reference. #flashcard 
+  id:: 63cfbcd8-2060-4ff9-8d8a-b13c21fd19bc
   
   
     ([Location 2051](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2051))
@@ -435,6 +467,7 @@ category:: #books\
     ([Location 2054](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2054))
 -
 - finalize() for the exam. Just keep in mind that it might not get called and that it definitely won't be called twice. #flashcard 
+  id:: 63cfbcd8-ed7b-4589-a3f3-db797af7b272
   
   
     ([Location 2099](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2099))
@@ -447,12 +480,14 @@ category:: #books\
     ([Location 2112](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2112))
 -
 - finalize solo se ejecuta una o cero veces.
+  id:: 63cfbcd8-8bbc-41da-b016-d3eaccf5b244
    Si se procesa lo que pone en el primer intento, no lo vuelve a procesar. #flashcard  #pink #rosa 
     finalize() call could run zero or one time.
   
     ([Location 2117](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2117))
 -
 - Java allows for functional programming within a class, but object oriented is still the main organization of code. #flashcard 
+  id:: 63cfbcd8-d459-4645-b697-41b1de73a202
   
   
     ([Location 2125](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2125))
@@ -465,11 +500,13 @@ category:: #books\
     ([Location 2128](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2128))
 -
 - “write once, run everywhere.” #flashcard  #pink 
+  id:: 63cfbcd8-9c0d-4c87-8ce3-d4abf68e1685
   
   
     ([Location 2130](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2130))
 -
 - When an object is instantiated, fields and blocks of code are initialized first. Then the constructor is run. #flashcard  #blue #azul 
+  id:: 63cfbcd8-24e3-4554-b0f9-871a36cc203e
   
   
     ([Location 2150](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2150))
@@ -489,6 +526,7 @@ category:: #books\
     ([Location 2165](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2165))
 -
 - Local variables require an explicit initialization; #flashcard  #pink #rosa 
+  id:: 63cfbcd8-92c7-438f-890c-e0fa1bda6bb2
   
   
     ([Location 2179](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2179))
@@ -507,6 +545,7 @@ category:: #books\
     ([Location 2392](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=2392))
 -
 - The best way to practice is to keep solving the review questions at the end of each chapter until you can read, understand, and answer them in under a minute. #flashcard 
+  id:: 63cfbcd8-f9c1-4e99-a715-e40cdb0be0b8
   
   
     ([Location 10765](https://readwise.io/to_kindle?action=open&asin=B00R04DF3I&location=10765))

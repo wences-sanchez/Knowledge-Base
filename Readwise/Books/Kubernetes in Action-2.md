@@ -20,17 +20,20 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
 -
 ##### 1.2. Introducing container technologies
 - Figure 1.4. Using VMs to isolate groups of applications vs. isolating individual apps with containers
+  id:: 63cfbcd0-d809-4d3a-9c36-7beac90056fd
      ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added8-01fig04_alt_1eMwdte.jpg) #flashcard 
   
   
     ([View Highlight](https://read.readwise.io/read/01gpnnc5gef3x2qjscgce6jsnm))
 -
 - Which two mechanisms make containers possible? #flashcard 
+  id:: 63cfbcd0-7324-4c61-9364-60303f9911b5
     Two mechanisms make this possible. The first one, *Linux Namespaces*, makes sure each process sees its own personal view of the system (files, processes, network interfaces, hostname, and so on). The second one is *Linux Control Groups (cgroups)*, which limit the amount of resources the process can consume (CPU, memory, network bandwidth, and so on).
   
     ([View Highlight](https://read.readwise.io/read/01gpnnh2ms2a3mspna0w7mkkgr))
 -
 - Building, distributing, and running a Docker image
+  id:: 63cfbcd0-1739-4e95-8d4d-941de266bdee
      [Figure 1.6](https://readwise.io/reader/document_raw_content/26339439#ch01fig06) shows all three concepts and how they relate to each other. The developer first builds an image and then pushes it to a registry. The image is thus available to anyone who can access the registry. They can then pull the image to any other machine running Docker and run the image. Docker creates an isolated container based on the image and runs the binary executable specified as part of the image.
      Figure 1.6. Docker images, registries, and containers
      ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added10-01fig06_alt_MqDxmEi.jpg) #flashcard 
@@ -39,6 +42,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpnx8nx5drvpdzsj2tctq1g0))
 -
 - Understanding image layers
+  id:: 63cfbcd0-c92e-4213-a7fd-2e29e0f3f7ca
      I’ve already said that Docker images are composed of layers. Different images can contain the exact same layers because every Docker image is built on top of another image and two different images can both use the same parent image as their base. This speeds up the distribution of images across the network, because layers that have already been transferred as part of the first image don’t need to be transferred again when transferring the other image.
      But layers don’t only make distribution more efficient, they also help reduce the storage footprint of images. Each layer is only stored once. Two containers created from two images based on the same base layers can therefore read the same files, but if one of them writes over those files, the other one doesn’t see those changes. Therefore, even if they share files, they’re still isolated from each other. This works because container image layers are read-only. When a container is run, a new writable layer is created on top of the layers in the image. When the process in the container writes to a file located in one of the underlying layers, a copy of the whole file is created in the top-most layer and the process writes to the copy. #flashcard 
   
@@ -54,11 +58,13 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
 -
 ##### 1.3. Introducing Kubernetes
 - Define Kubernetes and highlight its relationship with cloud providers: #flashcard 
+  id:: 63cfbcd0-ff3d-4bd0-b36d-627e96f5d8b7
     Kubernetes is a software system that allows you to easily deploy and manage containerized applications on top of it. It relies on the features of Linux containers to run heterogeneous applications without having to know any internal details of these applications and without having to manually deploy these applications on each host. Because these apps run in containers, they don’t affect other apps running on the same server, which is critical when you run applications for completely different organizations on the same hardware. This is of paramount importance for cloud providers, because they strive for the best possible utilization of their hardware while still having to maintain complete isolation of hosted applications.
   
     ([View Highlight](https://read.readwise.io/read/01gpnydhp4h0zksrpw1a63y3p6))
 -
 - [Figure 1.8](https://readwise.io/reader/document_raw_content/26339439#ch01fig08) shows the simplest possible view of a Kubernetes system. The system is composed of a master node and any number of worker nodes. When the developer submits a list of apps to the master, Kubernetes deploys them to the cluster of worker nodes. What node a component lands on doesn’t (and shouldn’t) matter—neither to the developer nor to the system administrator.
+  id:: 63cfbcd0-b5ad-4163-be26-32bdbeb43a9c
      Figure 1.8. Kubernetes exposes the whole datacenter as a single deployment platform.
      ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added12-01fig08_alt_Zn8B1S0.jpg) #flashcard 
   
@@ -73,6 +79,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpnyq9k9kynwasqse3kneke9))
 -
 - What are the two main types of Kubernetes nodes? #flashcard 
+  id:: 63cfbcd0-100f-46ac-95ac-468ff3c53791
     At the hardware level, a Kubernetes cluster is composed of many nodes, which can be split into two types:
      • The *master* node, which hosts the *Kubernetes Control Plane* that controls and manages the whole Kubernetes system
      • Worker *nodes* that run the actual applications you deploy
@@ -99,6 +106,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpnz17wbphdazj8fhmbe7h8j))
 -
 - How can we find a specific service between the whole number of containers, in Kubernetes? #flashcard 
+  id:: 63cfbcd0-9a99-4113-a103-fa48dc48bef5
     To allow clients to easily find containers that provide a specific service, you can tell Kubernetes which containers provide the same service and Kubernetes will expose all of them at a single static IP address and expose that address to all applications running in the cluster. This is done through environment variables, but clients can also look up the service IP through good old DNS. The kube-proxy will make sure connections to the service are load balanced across all the containers that provide the service. The IP address of the service stays constant, so clients can always connect to its containers, even when they’re moved around the cluster.
   
     ([View Highlight](https://read.readwise.io/read/01gpwtsnzczqdsgb08xw04rscy))
@@ -119,6 +127,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpwvwehq2kbswt9sytsnsd68))
 -
 - $ docker run busybox echo "Hello world" #flashcard 
+  id:: 63cfbcd0-f2f0-4cd1-bb96-1c2fd03294ca
   
   
     ([View Highlight](https://read.readwise.io/read/01gpww3tjr48ph4gb6yk4ms9c1))
@@ -131,6 +140,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpww7ssebv6qnc5qsw02d6qg))
 -
 - How can you execute a specific version of an image in Docker? #flashcard  #code 
+  id:: 63cfbcd0-471e-4fee-a637-15c1f4f07b71
     $ docker run <image>:<tag>
   
     ([View Highlight](https://read.readwise.io/read/01gpwwdw67j7h959rzz895dj2t))
@@ -146,6 +156,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpwwq0c2vpb3mzcvabshb4a0))
 -
 - How do you make an image from a Dockerfile? #flashcard  #code 
+  id:: 63cfbcd0-0afa-4ee3-841f-6a9a77c61b7c
     $ docker build -t kubia .
   
     ([View Highlight](https://read.readwise.io/read/01gpwws2rhkbdawp06hwpgk5fh))
@@ -158,6 +169,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpwx105kdg7r1rwdbdc8fskn))
 -
 - You may think that each Dockerfile creates only a single new layer, but that’s not the case. When building an image, a new layer is created for each individual command in the Dockerfile. During the build of your image, after pulling all the layers of the base image, Docker will create a new layer on top of them and add the app.js file into it. Then it will create yet another layer that will specify the command that should be executed when the image is run. This last layer will then be tagged as kubia:latest. This is shown in [figure 2.3](https://readwise.io/reader/document_raw_content/26339439#ch02fig03), which also shows how a different image called other:latest would use the same layers of the Node.js image as your own image does.
+  id:: 63cfbcd0-3907-4ddc-b9c3-f5be4a8ff44c
      Figure 2.3. Container images are composed of layers that can be shared among different images.
      ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added17-02fig03_alt_1oz7GTY.jpg) #flashcard 
   
@@ -165,11 +177,13 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpwx7c0gwfxj8tbcwrx6w4kh))
 -
 - How do you list your locally stored images in Docker? #flashcard  #code 
+  id:: 63cfbcd0-0365-490f-b113-b72b49c7c8b0
     **$ docker images** REPOSITORY TAG IMAGE ID CREATED VIRTUAL SIZE kubia latest d30ecc7419e7 1 minute ago 637.1 MB ...
   
     ([View Highlight](https://read.readwise.io/read/01gpwx91tjrd9y3d19p1t37s2b))
 -
 - You can now run your image with the following command:
+  id:: 63cfbcd0-e67a-41f6-beef-7435918dc293
      **$ docker run --name kubia-container -p 8080:8080 -d kubia**
      This tells Docker to run a new container called kubia-container from the kubia image. The container will be detached from the console (-d flag), which means it will run in the background. Port 8080 on the local machine will be mapped to port 8080 inside the container (-p 8080:8080 option), so you can access the app through http://localhost:8080.
      If you’re not running the Docker daemon on your local machine (if you’re using a Mac or Windows, the daemon is running inside a VM), you’ll need to use the hostname or IP of the VM running the daemon instead of localhost. You can look it up through the DOCKER_HOST environment variable. #flashcard 
@@ -231,6 +245,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
 -
 ##### 2.2. Setting up a Kubernetes cluster
 - You’ll use kubectl often. You’ll soon realize that having to type the full command every time is a real pain. Before you continue, take a minute to make your life easier by setting up an alias and tab completion for kubectl.
+  id:: 63cfbcd0-492f-4ed6-b8fd-0b2fa8c9f86c
      Creating an alias
      Throughout the book, I’ll always be using the full name of the kubectl executable, but you may want to add a short alias such as k, so you won’t have to type kubectl every time. If you haven’t used aliases yet, here’s how you define one. Add the following line to your ~/.bashrc or equivalent file:
      **alias k=kubectl** #flashcard 
@@ -252,6 +267,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
 -
 ##### 2.3. Running your first app on Kubernetes
 - Explain what is a pod in Kubernetes #flashcard 
+  id:: 63cfbcd0-1e8f-40f1-a7c0-b1dff32172cd
     Each pod is like a separate logical machine with its own IP, hostname, processes, and so on, running a single application. The application can be a single process, running in a single container, or it can be a main application process and additional supporting processes, each running in its own container. All the containers in a pod will appear to be running on the same logical machine, whereas containers in other pods, even if they’re running on the same worker node, will appear to be running on a different one.
      To better understand the relationship between containers, pods, and nodes, examine [figure 2.5](https://readwise.io/reader/document_raw_content/26339439#ch02fig05). As you can see, each pod has its own IP and contains one or more containers, each running an application process. Pods are spread out across different worker nodes.
      Figure 2.5. The relationship between containers, pods, and physical worker nodes
@@ -260,6 +276,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpwza3s1v8w93vr62qspk53w))
 -
 - How can you list your pods in Kubernetes? #flashcard  #code 
+  id:: 63cfbcd0-9397-4070-94aa-509fb513cab7
     **$ kubectl get pods**
      NAME READY STATUS RESTARTS AGE
      kubia-4jfyf 0/1 Pending 0 1m
@@ -282,6 +299,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpwzpzp2k5fnzst3mgb55zx3))
 -
 - How can you list your services in
+  id:: 63cfbcd0-12b9-4f1e-aa4e-89003dc39b10
    Kubernetes? #flashcard  #code 
     you can see the newly created Service object by running the kubectl get services command, as shown in the following listing.
      Listing 2.16. Listing Services
@@ -293,6 +311,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpx058svtxa7ryceyq650629))
 -
 - Understanding the role of the ReplicationController #flashcard 
+  id:: 63cfbcd0-3b57-4401-bcc1-1f27a6c9f976
     The next component is the kubia ReplicationController. It makes sure there’s always exactly one instance of your pod running. Generally, ReplicationControllers are used to replicate pods (that is, create multiple copies of a pod) and keep them running. In your case, you didn’t specify how many pod replicas you want, so the Replication-Controller created a single one. If your pod were to disappear for any reason, the Replication-Controller would create a new pod to replace the missing one.
   
     ([View Highlight](https://read.readwise.io/read/01gpx0k72tkngw0vfgv240fkds))
@@ -300,6 +319,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
 #### Chapter 3. Pods: running containers in Kubernetes
 ##### 3.1. Introducing pods
 - Understanding why multiple containers are better than one contain- ner running multiple processes
+  id:: 63cfbcd0-8a25-44fb-b27a-5188486e6e99
      Imagine an app consisting of multiple processes that either communicate through *IPC* (Inter-Process Communication) or through locally stored files, which requires them to run on the same machine. Because in Kubernetes you always run processes in containers and each container is much like an isolated machine, you may think it makes sense to run multiple processes in a single container, but you shouldn’t do that.
      Containers are designed to run only a single process per container (unless the process itself spawns child processes). If you run multiple unrelated processes in a single container, it is your responsibility to keep all those processes running, manage their logs, and so on. For example, you’d have to include a mechanism for automatically restarting individual processes if they crash. Also, all those processes would log to the same standard output, so you’d have a hard time figuring out what process logged what.
      Therefore, you need to run each process in its own container. That’s how Docker and Kubernetes are meant to be used.
@@ -311,6 +331,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpx1s7187cras2ct1x1xbpfw))
 -
 - Understanding the partial isolation between containers of the same pod
+  id:: 63cfbcd0-5658-4ab7-b902-146c908038d5
      In the previous chapter, you learned that containers are completely isolated from each other, but now you see that you want to isolate groups of containers instead of individual ones. You want containers inside each group to share certain resources, although not all, so that they’re not fully isolated. Kubernetes achieves this by configuring Docker to have all containers of a pod share the same set of Linux namespaces instead of each container having its own set. #flashcard 
   
   
@@ -323,6 +344,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpx25c9wsysn10zf8pgpxgzp))
 -
 - Another reason why you shouldn’t put them both into a single pod is scaling. A pod is also the basic unit of scaling. Kubernetes can’t horizontally scale individual containers; instead, it scales whole pods. #flashcard 
+  id:: 63cfbcd0-d840-49f9-81ef-82c3d935fd10
   
   
     ([View Highlight](https://read.readwise.io/read/01gpx2hy22vhzv07xc1svbxf34))
@@ -338,6 +360,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpx2q09sfbezjctvfasrgmp4))
 -
 - Figure 3.4. A container shouldn’t run multiple processes. A pod shouldn’t contain multiple containers if they don’t need to run on the same machine.
+  id:: 63cfbcd0-09a3-4512-8316-052f60a1aaf0
      ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added27-03fig04_alt_4vv8G8J.jpg) #flashcard 
   
   
@@ -384,6 +407,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
 	      ([View Highlight](https://read.readwise.io/read/01gpx460zpe4jt0tzq8wmn9aqk))
 -
 - When preparing a manifest, you can either turn to the Kubernetes reference documentation at [http://kubernetes.io/docs/api](http://kubernetes.io/docs/api) to see which attributes are supported by each API object, or you can use the kubectl explain command. #flashcard 
+  id:: 63cfbcd0-cb5d-4afe-9673-3f60ee7bfd3a
   
   
     ([View Highlight](https://read.readwise.io/read/01gpx49fk1wmxf58jx01n97r1z))
@@ -417,6 +441,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpx4jwgm1bm5fh2b5mq505ga))
 -
 - If your pod includes multiple containers, you have to explicitly specify the container name by including the -c <container name> option when running kubectl logs. In your kubia-manual pod, you set the container’s name to kubia, so if additional containers exist in the pod, you’d have to get its logs like this:
+  id:: 63cfbcd0-603f-4348-9012-5955018e4919
      **$ kubectl logs kubia-manual -c kubia**
      Kubia server starting... #flashcard 
   
@@ -424,6 +449,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpx4vpa2134wj2gfe5ttgxsk))
 -
 - Forwarding a local network port to a port in the pod
+  id:: 63cfbcd0-183d-45a7-ab36-8ac4050d98a0
      When you want to talk to a specific pod without going through a service (for debugging or other reasons), Kubernetes allows you to configure port forwarding to the pod. This is done through the kubectl port-forward command. The following command will forward your machine’s local port 8888 to port 8080 of your kubia-manual pod:
      **$ kubectl port-forward kubia-manual 8888:8080**
      ... Forwarding from 127.0.0.1:8888 -> 8080
@@ -443,6 +469,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpx5tteqxp40vef0np2acjh6))
 -
 - The kubectl get pods command doesn’t list any labels by default, but you can see them by using the --show-labels switch:
+  id:: 63cfbcd0-9a46-4163-94de-3b23a0ef00b3
      **$ kubectl get po --show-labels**
      NAME READY STATUS RESTARTS AGE LABELS
      kubia-manual 1/1 Running 0 16m <none>
@@ -513,6 +540,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
 	      ([View Highlight](https://read.readwise.io/read/01gpx6vvkysp86nky9p481n2tq))
 -
 - A YAML definition of a namespace: custom-namespace.yaml
+  id:: 63cfbcd0-49a0-4401-8e59-882992525a25
      apiVersion: v1
      kind: Namespace ❶
      metadata:
@@ -532,6 +560,7 @@ tags:: devops DevOps o'reilly-learning O'Reilly-Learning
     ([View Highlight](https://read.readwise.io/read/01gpx7vr2sdsj5efam5p0b86yk))
 -
 - Wait, what!?! The kubia-zxzij pod is terminating, but a new pod called kubia-09as0, which wasn’t there before, has appeared. No matter how many times you delete all pods, a new pod called *kubia-something* will emerge.
+  id:: 63cfbcd0-a705-48a4-bdc6-49ea0a8f81b4
      You may remember you created your first pod with the kubectl run command. In [chapter 2](https://readwise.io/reader/document_raw_content/26339439#ch02), I mentioned that this doesn’t create a pod directly, but instead creates a ReplicationController, which then creates the pod. As soon as you delete a pod created by the ReplicationController, it immediately creates a new one. To delete the pod, you also need to delete the ReplicationController. #flashcard 
   
   

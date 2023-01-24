@@ -26,6 +26,7 @@ tags:: O'Reilly-Learning
      }
 -
 - The three (optional) parts of a variable’s declaration body. #flashcard 
+  id:: 63cfbce4-dd7e-463a-bf10-ed261ae25b01
     The body of the variable declaration can contain three parameters, all of them optional:
      description
      It’s always a good idea to use this parameter to document how a variable is used. Your teammates will not only be able to see this description while reading the code, but also when running the plan or apply commands (you’ll see an example of this shortly).
@@ -43,6 +44,7 @@ tags:: O'Reilly-Learning
      *.tfstate.backup
 -
 - Example of a variable declaration. #flashcard 
+  id:: 63cfbce4-64c5-40b3-9ad9-14e39b75a4e1
     variable "list_example" {
      description = "An example of a list in Terraform"
      type = list
@@ -67,6 +69,7 @@ tags:: O'Reilly-Learning
      Hello, Startup: A Programmer’s Guide to Building Products, Technologies, and Teams by Yevgeniy Brikman (O’Reilly) #flashcard
 -
 - Mention an example of a security group in AWS with Terraform. #flashcard 
+  id:: 63cfbce4-193c-4ddd-9941-1d4051985e12
     resource "aws_security_group" "instance" {
      name = "terraform-example-instance"
      ingress {
@@ -78,6 +81,7 @@ tags:: O'Reilly-Learning
      }
 -
 - To use the value from an input variable in your Terraform code, you can use a new type of expression called a variable reference, which has the following syntax:
+  id:: 63cfbce4-0443-4046-800b-fe7f8d6212a5
      var.<VARIABLE_NAME> #flashcard
 -
 - id:: 63c66a25-482e-4047-9506-4aa3a59cc526
@@ -85,8 +89,10 @@ tags:: O'Reilly-Learning
   The idea behind immutable infrastructure is similar: once you’ve deployed a server, you never make changes to it again. If you need to update something, such as deploy a new version of your code, you create a new image from your server template and you deploy it on a new server. Because servers never change, it’s a lot easier to reason about what’s deployed. #flashcard
 -
 - An expression in Terraform is anything that returns a value. You’ve already seen the simplest type of expressions, literals, such as strings (e.g., "ami-0c55b159cbfafe1f0") and numbers (e.g., 5). Terraform supports many other types of expressions #flashcard
+  id:: 63cfbce4-19e3-4c19-96f9-ad3307fb5771
 -
 - About output variables in Terraform. #flashcard 
+  id:: 63cfbce4-17e9-43a7-b0dd-2c3856d53473
     In addition to input variables, Terraform also allows you to define output variables by using the following syntax:
      output "<NAME>" {
      value = <VALUE>
@@ -99,14 +105,17 @@ tags:: O'Reilly-Learning
      Set this parameter to true to instruct Terraform not to log this output at the end of terraform apply. This is useful if the output variable contains sensitive material or secrets such as passwords or private keys.
 -
 - What does provisioning mean? #flashcard 
+  id:: 63cfbce4-6be7-490b-adec-1ad5d2b8a5a9
     Whereas configuration management, server templating, and orchestration tools define the code that runs on each server, provisioning tools such as Terraform, CloudFormation, and OpenStack Heat are responsible for creating the servers themselves. In fact, you can use provisioning tools to not only create servers, but also databases, caches, load balancers, queues, monitoring, subnet configurations, firewall settings, routing rules, Secure Sockets Layer (SSL) certificates, and almost every other aspect of your infrastructure
 -
 - How can you use a reference of an attribute in Terraform? #flashcard 
+  id:: 63cfbce4-26b1-4bb7-a67f-06665e4c6a43
     One particularly useful type of expression is a reference, which allows you to access values from other parts of your code. To access the ID of the security group resource, you are going to need to use a resource attribute reference, which uses the following syntax:
      <PROVIDER>_<TYPE>.<NAME>.<ATTRIBUTE>
      where PROVIDER is the name of the provider (e.g., aws), TYPE is the type of resource (e.g., security_group), NAME is the name of that resource (e.g., the security group is named "instance"), and ATTRIBUTE is either one of the arguments of that resource (e.g., name) or one of the attributes exported by the resource (you can find the list of available attributes in the documentation for each resource).
 -
 - output variables show up in the console after you run terraform apply, which users of your Terraform code might find useful (e.g., you now know what IP to test after the web server is deployed). You can also use the terraform output command to list all outputs without applying any changes:
+  id:: 63cfbce4-2170-4d1f-b5b7-03691b257f73
      $ terraform output
      public_ip = 54.174.13.5 #flashcard
 -
@@ -125,25 +134,30 @@ tags:: O'Reilly-Learning
      54.174.13.5 #flashcard
 -
 - The -/+ in the plan output means “replace” #flashcard
+  id:: 63cfbce4-db07-4b43-9f64-4c2a64ffe8d7
 -
 - id:: 63c66a25-9987-4489-b769-3601b74e37a7
    About how can AWS ease with automated scalability. #flashcard 
     Managing such a cluster manually is a lot of work. Fortunately, you can let AWS take care of it for by you using an Auto Scaling Group (ASG), as shown in Figure 2-9. An ASG takes care of a lot of tasks for you completely automatically, including launching a cluster of EC2 Instances, monitoring the health of each Instance, replacing failed Instances, and adjusting the size of the cluster in response to load.
 -
 - provider "aws" {
+  id:: 63cfbce4-2d16-4b5d-996b-f932aeaa3549
      region = "us-east-2"
      }
      This tells Terraform that you are going to be using AWS as your provider and that you want to deploy your infrastructure into the us-east-2 region. #flashcard
 -
 - What is the syntax for declaring a variable: #flashcard 
+  id:: 63cfbce4-d11d-4764-b044-ae9ea5a48b57
     variable "NAME" {
      [CONFIG ...]
      }
 -
 - Note that the ASG uses a reference to fill in the launch configuration name. This leads to a problem: launch configurations are immutable, so if you change any parameter of your launch configuration, Terraform will try to replace it. Normally, when replacing a resource, Terraform deletes the old resource first and then creates its replacement, but because your ASG now has a reference to the old resource, Terraform won’t be able to delete it.
+  id:: 63cfbce4-e554-4ba1-b98d-e82b6d2d78f6
      To solve this problem, you can use a lifecycle setting. Every Terraform resource supports several lifecycle settings that configure how that resource is created, updated, and/or deleted. A particularly useful lifecycle setting is create_before_destroy. If you set create_before_destroy to true, Terraform will invert the order in which it replaces resources, creating the replacement resource first (including updating any references that were pointing at the old resource to point to the replacement) and then deleting the old resource. Add the lifecycle block to your aws_launch_configuration #flashcard
 -
 - What is the general syntax for creating a resource in Terraform? #flashcard 
+  id:: 63cfbce4-989b-4d37-b163-a0991c480059
     resource "<PROVIDER>_<TYPE>" "<NAME>" {
      [CONFIG ...]
      }
@@ -158,24 +172,29 @@ tags:: O'Reilly-Learning
     Terraform supports dozens of providers, each of which supports dozens of resources, and each resource has dozens of arguments. There is no way to remember them all. When you’re writing Terraform code, you should be regularly referring to the Terraform documentation to look up what resources are available and how to use each one. For example, here’s the documentation for the aws_instance resource. I’ve been using Terraform for years and I still refer to these docs multiple times per day!
 -
 - Example of data source declaration in Terraform. #flashcard 
+  id:: 63cfbce4-8669-49f6-9c34-82b42aae402d
     data "aws_vpc" "default" {
      default = true
      }
 -
 - The terraform binary contains the basic functionality for Terraform, but it does not come with the code for any of the providers (e.g., the AWS provider, Azure provider, GCP provider, etc.), so when you’re first starting to use Terraform, you need to run terraform init to tell Terraform to scan the code, figure out which providers you’re using, and download the code for them. By default, the provider code will be downloaded into a .terraform folder, which is Terraform’s scratch directory (you may want to add it to .gitignore). #flashcard
+  id:: 63cfbce4-7313-4cbd-8662-0844a45ac466
 -
 - Example of data source use in Terraform. #flashcard 
+  id:: 63cfbce4-b9b4-43bc-bf3e-34d63dd21960
     data.<PROVIDER>_<TYPE>.<NAME>.<ATTRIBUTE>
      For example, to get the ID of the VPC from the aws_vpc data source, you would use the following:
      data.aws_vpc.default.id
 -
 - The plan command lets you see what Terraform will do before actually making any changes. #flashcard
+  id:: 63cfbce4-6f8d-4299-adbf-c304e4f84225
 -
 - id:: 63c66a25-75bb-4098-8fce-010c46d9c979
   
   When you’re done experimenting with Terraform, either at the end of this chapter, or at the end of future chapters, it’s a good idea to remove all of the resources you created so that AWS doesn’t charge you for them. Because Terraform keeps track of what resources you created, cleanup is simple. All you need to do is run the destroy command: #flashcard
 -
 - How does the Terraform output specify the results? #flashcard 
+  id:: 63cfbce4-78ca-48bd-a619-ead1c4091634
     The output of the plan command is similar to the output of the diff command that is part of Unix, Linux, and git: anything with a plus sign (+) will be created, anything with a minus sign (–) will be deleted, and anything with a tilde sign (~) will be modified in place.
 -
 - id:: 63c66a25-ec29-41ba-a72c-f04686d43e40
@@ -188,6 +207,7 @@ tags:: O'Reilly-Learning
 -
 ### 3. How to Manage Terraform State
 - In other words, the output of the plan command is a diff between the code on your computer and the infrastructure deployed in the real world, as discovered via IDs in the state file. #flashcard
+  id:: 63cfbce4-7b33-4daa-ac28-8b3e123d3cf3
 -
 - id:: 63c66a25-c7dc-4444-905e-5e2740c16d71
   
@@ -210,5 +230,6 @@ tags:: O'Reilly-Learning
      EOF
 -
 - How do you interpolate a variable in Terraform? #flashcard 
+  id:: 63cfbce4-d3d2-4f30-b7e3-32e183803cd1
     "${...}"
 -

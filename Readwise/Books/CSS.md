@@ -9,11 +9,13 @@ category:: #books\
 ![](https://images-na.ssl-images-amazon.com/images/I/41Towyq7DyL._SL200_.jpg)
 ## Highlights
 - The <a> tag, or anchor tag, creates a hyperlink #flashcard  #orange #naranja 
+  id:: 63cfbcb2-f265-455e-9904-c3449822e9ff
   
   
     ([Location 163](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=163))
 -
 - The <section> tag contains a grouping of related content, #flashcard  #orange #naranja 
+  id:: 63cfbcb2-6d5c-40e2-8e73-8e594c55350f
   
   
     ([Location 479](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=479))
@@ -40,11 +42,13 @@ category:: #books\
     ([Location 655](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=655))
 -
 - <link href="css/styles.css" #flashcard  #orange #naranja 
+  id:: 63cfbcb2-a173-40a7-8f27-450dbe35ad90
   
   
     ([Location 891](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=891))
 -
 - An em is the default browser font-size, so 2em is twice the normal text size. #flashcard 
+  id:: 63cfbcb2-63a7-48d5-88dc-77d5c40b32cf
   
   
     ([Location 2053](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2053))
@@ -57,11 +61,13 @@ category:: #books\
     ([Location 2151](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2151))
 -
 - The lines of text are too long to read comfortably. Fortunately, you can set a width for the page’s content, so it doesn’t get too wide to read. #flashcard  #blue #azul 
+  id:: 63cfbcb2-c9f7-47db-a33d-7b6c06eaa749
   
   
     ([Location 2170](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2170))
 -
 - max-width: 760px; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-db4e-4a9e-b7b1-cb82e8def8cd
   
   
     ([Location 2175](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2175))
@@ -74,6 +80,7 @@ category:: #books\
     ([Location 2181](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2181))
 -
 - margin: 0 auto; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-49bf-4ad7-9c4d-7c151cb74b6e
   
   
     ([Location 2187](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2187))
@@ -121,16 +128,19 @@ category:: #books\
     ([Location 2782](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2782))
 -
 - http://necolas.github.io/normalize.css/ #flashcard 
+  id:: 63cfbcb2-c783-407d-86b6-67021487515a
   
   
     ([Location 2796](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2796))
 -
 - font-family: Arial, Helvetica, sans-serif; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-804b-42b9-8c6c-b40a0f58767b
   
   
     ([Location 2970](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2970))
 -
 - font-family: "Times New Roman", Times, serif; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-32e0-447f-889e-0cc49dfdc6f3
   
   
     ([Location 2981](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2981))
@@ -143,6 +153,7 @@ category:: #books\
     ([Location 2984](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2984))
 -
 - Serif Fonts #flashcard 
+  id:: 63cfbcb2-926f-467d-991b-2f4824ce8a4e
   
   
     ([Location 2984](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2984))
@@ -155,11 +166,13 @@ category:: #books\
     ([Location 3003](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3003))
 -
 - Monospaced and Fun Fonts #flashcard 
+  id:: 63cfbcb2-29ab-4800-a552-f2bed5226054
   
   
     ([Location 3019](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3019))
 -
 - www.google.com/fonts #flashcard  #orange #naranja 
+  id:: 63cfbcb2-4310-4979-8ff0-afedc1afdb04
   
   
     ([Location 3418](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3418))
@@ -172,6 +185,7 @@ category:: #books\
     ([Location 3480](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3480))
 -
 - it uses a numeric scale from 100 to 900. A value of 700 is bold, 400 is normal, and the other numbers indicate variations #flashcard 
+  id:: 63cfbcb2-ee31-4068-a2da-bc751070767f
   
   
     ([Location 3532](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3532))
@@ -198,6 +212,7 @@ category:: #books\
     ([Location 3816](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3816))
 -
 - text-shadow: -4px 4px 3px #999999; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-6bd6-4511-a050-c9becbb905df
   
   
     ([Location 3878](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3878))
@@ -210,6 +225,7 @@ category:: #books\
     ([Location 3944](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3944))
 -
 - text-indent: 5em; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-c65b-4d3d-8cf9-e28a21810842
   
   
     ([Location 3970](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3970))
@@ -222,11 +238,13 @@ category:: #books\
     ([Location 3983](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3983))
 -
 - ::first-letter and ::first-line pseudo-elements #flashcard 
+  id:: 63cfbcb2-2ceb-4a83-ba6e-64978bfc7c05
   
   
     ([Location 4031](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4031))
 -
 - you can’t use CSS to capitalize the letters of a paragraph’s first line in Chrome or Safari. #flashcard  #blue #azul 
+  id:: 63cfbcb2-7b71-41ed-8b29-199ed2f983c7
   
   
     ([Location 4055](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4055))
@@ -239,6 +257,7 @@ category:: #books\
     ([Location 4065](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4065))
 -
 - list-style-type: #flashcard  #orange #naranja 
+  id:: 63cfbcb2-302f-4ef0-82f3-bb2fd7959130
   
   
     ([Location 4069](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4069))
@@ -251,6 +270,7 @@ category:: #books\
     ([Location 4096](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4096))
 -
 - The style should not apply to the <ul> or <ol> tag. #flashcard  #blue #azul 
+  id:: 63cfbcb2-37d4-454e-908e-cfe0d20026a6
   
   
     ([Location 4128](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4128))
@@ -277,21 +297,25 @@ category:: #books\
     ([Location 4502](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4502))
 -
 - Either add a small amount of padding around the <div> tag or add a border to it. #flashcard  #blue #azul 
+  id:: 63cfbcb2-90b7-412a-a176-f749b165ffb4
   
   
     ([Location 4544](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4544))
 -
 - display: #flashcard  #orange #naranja 
+  id:: 63cfbcb2-5aac-4436-9e4b-9f6536449e12
   
   
     ([Location 4628](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4628))
 -
 - 7. CSS offers nine different border styles. #flashcard  #blue #azul 
+  id:: 63cfbcb2-5dc0-4b7f-8544-d02925299b29
   
   
     ([Location 4657](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4657))
 -
 - background-color: #flashcard  #orange #naranja 
+  id:: 63cfbcb2-a348-4670-a63b-293d4f177f6d
   
   
     ([Location 4742](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4742))
@@ -311,6 +335,7 @@ category:: #books\
     ([Location 4782](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4782))
 -
 - box-shadow #flashcard  #orange #naranja 
+  id:: 63cfbcb2-a973-4243-91dc-3357b1ff0b06
   
   
     ([Location 4811](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4811))
@@ -330,6 +355,7 @@ category:: #books\
     ([Location 4937](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4937))
 -
 - overflow property. #flashcard  #orange #naranja 
+  id:: 63cfbcb2-092b-4888-8426-44eea6349983
   
   
     ([Location 4955](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4955))
@@ -363,6 +389,7 @@ category:: #books\
     ([Location 5632](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5632))
 -
 - Finding Free Imagery #flashcard  #pink #rosa 
+  id:: 63cfbcb2-645c-4d8b-b039-a5780bea20da
   
   
     ([Location 5775](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5775))
@@ -375,6 +402,7 @@ category:: #books\
     ([Location 5841](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5841))
 -
 - you should provide a backup color for IE9 and earlier. #flashcard 
+  id:: 63cfbcb2-2883-40e4-82e8-a5898d42c21b
   
   
     ([Location 5942](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5942))
@@ -387,26 +415,31 @@ category:: #books\
     ([Location 5963](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5963))
 -
 - states — :link, :visited, :hover, and :active #flashcard  #orange #naranja 
+  id:: 63cfbcb2-c9e0-4783-8d91-fe6f790dfff5
   
   
     ([Location 6387](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6387))
 -
 - <a href=“stale.html” class=“button”>Free Donuts Here! #flashcard  #orange #naranja 
+  id:: 63cfbcb2-b49c-4422-9bd5-e6196cdde8ba
   
   
     ([Location 6524](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6524))
 -
 - Padding gives you room. If you’re using an image #flashcard 
+  id:: 63cfbcb2-4552-4cb4-8721-3d81e929fa5a
   
   
     ([Location 6611](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6611))
 -
 - Building Navigation Bars #flashcard  #pink #rosa 
+  id:: 63cfbcb2-243e-4254-9ac9-02c54e086245
   
   
     ([Location 6628](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6628))
 -
 - display: block; #flashcard  #pink #rosa 
+  id:: 63cfbcb2-075a-4008-b2d5-a0242c4e7157
   
   
     ([Location 6810](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6810))
@@ -419,11 +452,13 @@ category:: #books\
     ([Location 6827](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6827))
 -
 - < #flashcard  #orange #naranja 
+  id:: 63cfbcb2-5a3d-4a37-8ef0-26bacf9b7047
   
   
     ([Location 8131](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8131))
 -
 - border-spacing: 0; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-1d61-44f7-91fd-4c374ac92079
   
   
     ([Location 8228](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8228))
@@ -450,6 +485,7 @@ category:: #books\
     ([Location 8650](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8650))
 -
 - br.clear { clear: both; } #flashcard  #orange #naranja 
+  id:: 63cfbcb2-4fa8-4d9b-a797-d3c16c5fe70b
   
   
     ([Location 9129](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9129))
@@ -469,16 +505,19 @@ category:: #books\
     ([Location 9347](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9347))
 -
 - position: absolute; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-2e9e-483c-81d7-a67837853b62
   
   
     ([Location 9656](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9656))
 -
 - the item that you want to position — the image — gets an absolute position, while the element you want to position the element relative to — the headline — gets a setting of relative. #flashcard  #blue #azul 
+  id:: 63cfbcb2-5270-4886-a84f-0c95121b04ca
   
   
     ([Location 9751](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9751))
 -
 - z-index: -1; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-2ed9-45c3-9a65-c75d8b12a6be
   
   
     ([Location 10023](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10023))
@@ -505,31 +544,37 @@ category:: #books\
     ([Location 10251](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10251))
 -
 - <link href="css/small.css" rel="stylesheet" media="(max-width:480px)" #flashcard  #orange #naranja 
+  id:: 63cfbcb2-e0bf-4111-8f95-fe4cf5cb698f
   
   
     ([Location 10284](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10284))
 -
 - @media (max-width: 480px) { #flashcard  #orange #naranja 
+  id:: 63cfbcb2-ff76-4476-9547-0b9f446ad37a
   
   
     ([Location 10325](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10325))
 -
 - .columns:after { #flashcard  #orange #naranja 
+  id:: 63cfbcb2-0afe-400b-8a7b-9e1a24b8ffe7
   
   
     ([Location 10380](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10380))
 -
-- * {   box-sizing: border-box; } #flashcard  #orange #naranja 
+- id:: 63cfbcb2-cd5c-4c88-91d7-834e8743defa
+  * {   box-sizing: border-box; } #flashcard  #orange #naranja 
   
   
     ([Location 10423](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10423))
 -
 - width: auto; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-e2e0-468b-8de3-23332ed1acb6
   
   
     ([Location 10434](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10434))
 -
 - img { max-width: 100%; } #flashcard  #orange #naranja 
+  id:: 63cfbcb2-3c55-44db-ae19-862b3e8f5d65
   
   
     ([Location 10468](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10468))
@@ -542,21 +587,25 @@ category:: #books\
     ([Location 10507](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10507))
 -
 - Foundation #flashcard  #pink #rosa 
+  id:: 63cfbcb2-89d8-471e-8bb3-7202841560e7
   
   
     ([Location 10886](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10886))
 -
 - Bootstrap #flashcard  #pink #rosa 
+  id:: 63cfbcb2-a4bd-4f62-b723-3e3719139393
   
   
     ([Location 10889](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10889))
 -
 - display: flex; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-6ee8-437d-bec4-4d5666e922ca
   
   
     ([Location 11430](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=11430))
 -
 - flex: 1; #flashcard  #orange #naranja 
+  id:: 63cfbcb2-6d11-4e5c-882e-ff807fdd2c40
   
   
     ([Location 11438](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=11438))

@@ -9,16 +9,19 @@ category:: #books\
 ![](https://images-na.ssl-images-amazon.com/images/I/51nYrf6CcmL._SL200_.jpg)
 ## Highlights
 - Selenium is a set of tools for automating browsers. #flashcard  #pink #rosa 
+  id:: 63cfbce3-8d55-4486-acfc-24bc06377f27
   
   
     ([Location 316](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=316))
 -
 - Selenium 3.0 offers three important tools, Selenium WebDriver, Selenium Server, and Selenium IDE. Each of these tools provides features to create, debug, and run tests on supported browsers #flashcard  #blue #azul 
+  id:: 63cfbce3-3701-491b-aba7-1ae7b16724ab
   
   
     ([Location 429](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=429))
 -
 - Selenium WebDriver accepts commands using the JSON-Wire protocol (also called Client API) and sends them to a browser launched by the specific driver class (such as ChromeDriver, FirefoxDriver, or IEDriver). This is implemented through a browser-specific browser driver. #flashcard  #blue #azul 
+  id:: 63cfbce3-2ede-4831-82de-ac8e7b6fef2a
   
   
     ([Location 432](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=432))
@@ -52,6 +55,7 @@ category:: #books\
     ([Location 481](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=481))
 -
 - Buscar y comparar con junit #flashcard  #pink #rosa 
+  id:: 63cfbce3-bac7-4242-b656-a35018c86ecf
     TestNG
   
     ([Location 490](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=490))
@@ -64,6 +68,7 @@ category:: #books\
     ([Location 574](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=574))
 -
 - UI-automation using Selenium is mostly about locating these WebElements on a web page and executing user actions on them. #flashcard  #pink #rosa 
+  id:: 63cfbce3-b858-4151-85fb-9e5cc22de779
   
   
     ([Location 601](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=601))
@@ -83,16 +88,19 @@ category:: #books\
     ([Location 644](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=644))
 -
 - The method declaration of the findElements() method is as follows: java.util.List findElements(By by) #flashcard  #pink #rosa 
+  id:: 63cfbce3-4ae7-4217-ae9d-30cecd0a152e
   
   
     ([Location 652](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=652))
 -
 - There are eight different locating mechanisms; that is, eight different ways to identify an HTML element on a web page. They are located by ID, Name, ClassName, TagName, LinkText, PartialLinkText, XPath, and CSS Selector. #flashcard  #blue #azul 
+  id:: 63cfbce3-fafb-4ee9-9abd-c9edb2f17d81
   
   
     ([Location 695](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=695))
 -
 - driver.findElement(By.id("search")); #flashcard  #orange #naranja 
+  id:: 63cfbce3-096f-43cf-a8a6-5b41d7a9eba1
   
   
     ([Location 707](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=707))
@@ -105,11 +113,13 @@ category:: #books\
     ([Location 731](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=731))
 -
 - La clase es la del CSS! Ya sea especificada en el .css o en el .html #flashcard  #orange #naranja 
+  id:: 63cfbce3-0409-4f89-920a-51bc3326583e
     driver.findElement(By.className("search-button"));
   
     ([Location 756](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=756))
 -
 - As the name suggests, the By.linkText locating mechanism can only be used to identify the HTML links. #flashcard  #pink #rosa 
+  id:: 63cfbce3-8539-40df-b946-0ae5c90ceb81
   
   
     ([Location 768](https://readwise.io/to_kindle?action=open&asin=B07BJKWB1J&location=768))

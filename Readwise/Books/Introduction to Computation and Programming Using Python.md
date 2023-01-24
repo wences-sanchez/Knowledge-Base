@@ -23,6 +23,7 @@ category:: #books\
     ([Location 490](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=490))
 -
 - an algorithm is a finite list of instructions describing a set of computations that when executed on a set of inputs will proceed through a sequence of well-defined states and eventually produce an output. #flashcard  #pink 
+  id:: 63cfbccd-c61e-45c9-86f4-47eab97dd074
   
   
     ([Location 518](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=518))
@@ -35,21 +36,25 @@ category:: #books\
     ([Location 559](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=559))
 -
 - Explain the Halt-Problem. #flashcard  #cs #pink 
+  id:: 63cfbccd-d009-46aa-bec4-b9c55f787fa7
     The “if” in the Church-Turing thesis is important. Not all problems have computational solutions. Turing showed, for example, that it is impossible to write a program that takes an arbitrary program as input, and prints true if and only if the input program will run forever. This is known as the halting problem.
   
     ([Location 560](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=560))
 -
 - Of course, some things may be easier to program in a particular language, but all languages are fundamentally equal with respect to computational power. #flashcard 
+  id:: 63cfbccd-89c7-48f8-b28f-0b53a23d04eb
   
   
     ([Location 566](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=566))
 -
 - Exhaustive enumeration is a search technique that works only if the set of values being searched includes the answer. #flashcard  #pink 
+  id:: 63cfbccd-b89a-4a99-8903-91451b659de7
   
   
     ([Location 1597](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=1597))
 -
 - Bisección #flashcard  #cs #blue 
+  id:: 63cfbccd-95cb-4e7f-8988-8e3af6550bc7
     notice that at each iteration of the loop, the size of the space to be searched is cut in half. For this reason, the algorithm is called bisection search. Bisection search is a huge improvement over our earlier algorithm, which reduced the search space by only a small amount at each iteration.
   
     ([Location 1666](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=1666))
@@ -62,11 +67,13 @@ category:: #books\
     ([Location 2273](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2273))
 -
 - Name Scalar and Structured types in Python. #flashcard 
+  id:: 63cfbccd-41d2-4500-9445-459cf613e270
     The numeric types int and float are scalar types. That is to say, objects of these types have no accessible internal structure. In contrast, str can be thought of as a structured, or non-scalar, type. We can use indexing to extract individual characters from a string and slicing to extract substrings.
   
     ([Location 2367](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2367))
 -
 - Do the tuples and strings in Python...
+  id:: 63cfbccd-6cc8-4dbd-b723-dace0ca92a85
    * have the same elements type?
    * have the same sequence behaviour? #flashcard 
     Like strings, tuples are immutable ordered sequences of elements. The difference is that the elements of a tuple need not be characters.
@@ -81,36 +88,43 @@ category:: #books\
     ([Location 2506](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2506))
 -
 - [expr for elem in iterable if test] #flashcard  #orange 
+  id:: 63cfbccd-39c2-4324-96a3-0632c621166e
   
   
     ([Location 2691](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2691))
 -
 - The map function is often used with a for loop. When used in a for loop, map behaves like the range function in that it returns one value for each iteration of the loop. #flashcard  #pink 
+  id:: 63cfbccd-f7c7-45c5-9e1f-52f6385b9993
   
   
     ([Location 2765](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2765))
 -
 - Example of map() #flashcard  #orange 
+  id:: 63cfbccd-d0d1-4cc3-aa06-dcf2723189b9
     For example, the code ﻿for i in map(lambda x: x**2, [2, 6, 4]):     print(i)  prints ﻿4 36 16
   
     ([Location 2769](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2769))
 -
 - Can you access a set by index? #flashcard  #python #pink 
+  id:: 63cfbccd-2d76-4ef6-add2-a1cdc38c6e62
     Since the elements of a set are unordered, attempting to index into a set, e.g., evaluating baseball_teams[0], generates a runtime error.
   
     ([Location 2833](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2833))
 -
 - dict comprehension syntax #flashcard  #orange 
+  id:: 63cfbccd-0138-42cc-a08f-2dfb37401f30
     {key: value for id1, id2 in iterable if test}
   
     ([Location 2980](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2980))
 -
 - The key difference (other than the use of set braces rather than square braces) is that it uses two values to create each element of the dictionary, and allows (but does not require) the #flashcard 
+  id:: 63cfbccd-f9d3-41bc-b4d0-53a77af59286
   
   
     ([Location 2982](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=2982))
 -
 - What is the difference between Testing and Debugging? #flashcard 
+  id:: 63cfbccd-5d60-4bbf-ad34-91ce25b7b43e
     Testing is the process of running a program to try and ascertain whether it works as intended. Debugging is the process of trying to fix a program that you already know does not work as intended.
   
     ([Location 3516](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3516))
@@ -129,11 +143,13 @@ category:: #books\
     ([Location 3595](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3595))
 -
 - Steps for white-box tests #flashcard 
+  id:: 63cfbccd-a8ec-499a-95e2-f7027fc25c09
     Despite the limitations of glass-box testing, a few rules of thumb are usually worth following: Exercise both branches of all if statements. Make sure that each except clause (see Chapter 9) is executed. For each for loop, have test cases in which ○ The loop is not entered (e.g., if the loop is iterating over the elements of a list, make sure that it is tested on the empty list). ○ The body of the loop is executed exactly once. ○ The body of the loop is executed more than once. For each while loop ○ Look at the same kinds of cases as when dealing with for loops. ○ Include test cases corresponding to all possible ways of exiting the loop. For example, for a loop starting with   while len(L) > 0 and not L[i] == e  find cases where the loop exits because len(L) is greater than zero and cases where it exits because L[i] == e. For recursive functions, include test cases that cause the function to return with no recursive calls, exactly one recursive call, and more than one recursive call.
   
     ([Location 3630](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3630))
 -
 - Usual cycle of tests in practice #flashcard 
+  id:: 63cfbccd-a947-4665-94fa-e190303f7df7
     Testing is often thought of as occurring in two phases. One should always start with unit testing. During this phase, testers construct and run tests designed to ascertain whether individual units of code (e.g., functions) work properly. This is followed by integration testing, which is designed to ascertain whether groups of units function properly when combined. Finally, functional testing is used to check if the program as a whole behaves as intended.
   
     ([Location 3648](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3648))
@@ -145,6 +161,7 @@ category:: #books\
     ([Location 3653](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3653))
 -
 - Soy un nuevo =) #flashcard 
+  id:: 63cfbccd-e54e-4677-9650-01da52a7217b
     software quality assurance (SQA)
   
     ([Location 3657](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3657))
@@ -156,6 +173,7 @@ category:: #books\
     ([Location 3702](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3702))
 -
 - Differences between 'Persistent' and 'Intermittent' Bugs #flashcard 
+  id:: 63cfbccd-1250-4389-8dee-ee609bd94a4e
     Persistent → intermittent: A persistent bug occurs every time the program is run with the same inputs. An intermittent bug occurs only some of the time, even when the program is run on the same inputs and seemingly under the same conditions.
   
     ([Location 3705](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3705))
@@ -167,11 +185,13 @@ category:: #books\
     ([Location 3738](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3738))
 -
 - How to use the bisection search to better debugging #flashcard 
+  id:: 63cfbccd-a1c4-44c3-912e-faf39c09b308
     Often the best way to do this is to conduct a bisection search. Find some point about halfway through the code, and devise an experiment that will allow you to decide if there is a problem before that point that might be related to the symptom.
   
     ([Location 3777](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3777))
 -
 - Tip for a better approach in Testing #flashcard  #pink 
+  id:: 63cfbccd-b4d0-454e-98de-768dace3b427
     Stop asking yourself why the program isn't doing what you want it to. Instead, ask yourself why it is doing what it is. That should be an easier question to answer, and will probably be a good first step in figuring out how to fix the program.
   
     ([Location 3844](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3844))
@@ -191,11 +211,13 @@ category:: #books\
     ([Location 3853](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3853))
 -
 - When you think you have found a bug in your code, the temptation to start coding and testing a fix is almost irresistible. It is often better, however, to pause. Remember that the goal is not to fix one bug, but to move rapidly and efficiently towards a bug-free program. #flashcard  #pink 
+  id:: 63cfbccd-6e91-4f38-b8d0-bbbb7de36279
   
   
     ([Location 3859](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3859))
 -
 - Always make sure that you can get back to where you are. Nothing is more frustrating than realizing that a long series of changes have left you farther from the goal than when you started, and having no way to get back to your starting point. #flashcard  #pink 
+  id:: 63cfbccd-262c-49b4-95f6-37c37d50a1fb
   
   
     ([Location 3868](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=3868))
@@ -207,16 +229,19 @@ category:: #books\
     ([Location 4149](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4149))
 -
 - What is the purpose of an ADT? #flashcard 
+  id:: 63cfbccd-c7cd-49fd-b650-7de9c7ab92d9
     These are bound together so that programmers can pass an object from one part of a program to another, and in doing so provide access not only to the data attributes of the object but also to operations that make it easy to manipulate that data. The specifications of those operations define an interface between the abstract data type and the rest of the program. The interface defines the behavior of the operations—what they do, but not how they do it. The interface thus provides an abstraction barrier that isolates the rest of the program from the data structures, algorithms, and code involved in providing a realization of the type abstraction. Programming is about managing complexity in a way that facilitates change. Two powerful mechanisms are available for accomplishing this: decomposition and abstraction. Decomposition creates structure in a program, and abstraction suppresses detail. The key is to suppress the appropriate details. This is where data abstraction hits the mark. We can create domain-specific types that provide a convenient abstraction. Ideally, these types capture concepts that will be relevant over the lifetime of a program.
   
     ([Location 4149](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4149))
 -
 - For simplicity, we will use a random access machine as our model of computation. In a random access machine, steps are executed sequentially, one at a time.66 A step is an operation that takes a fixed amount of time, such as binding a variable to an object, making a comparison, executing an arithmetic operation, or accessing an object in memory. #flashcard  #cs 
+  id:: 63cfbccd-9022-4fc0-8c90-66cb3a1caa05
   
   
     ([Location 4880](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4880))
 -
 - The worst-case provides an upper bound on the running time. #flashcard  #cs 
+  id:: 63cfbccd-7b6c-488c-b9c9-b4c18fb2aedf
   
   
     ([Location 4909](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4909))
@@ -228,6 +253,7 @@ category:: #books\
     ([Location 4924](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4924))
 -
 - About Big O #flashcard  #cs 
+  id:: 63cfbccd-1657-48b1-8840-ad985d96b1c3
     The most commonly used asymptotic notation is called “Big O” notation.67 Big O notation is used to give an upper bound on the asymptotic growth (often called the order of growth) of a function. For example, the formula f(x) ∈ O(x2) means that the function f grows no faster than the quadratic polynomial x2, in an asymptotic sense.
   
     ([Location 4989](https://readwise.io/to_kindle?action=open&asin=B08C6YH4XK&location=4989))

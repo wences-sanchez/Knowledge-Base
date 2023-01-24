@@ -11,14 +11,17 @@ tags:: O'Reilly-Learning
 ## Highlights
 ### Chapter 1: An Introduction to Java
 - Why the 'Java' name? #flashcard 
+  id:: 63cfbcc0-275f-4431-82bd-7f273a3f0ae2
     Gosling decided to call his language “Oak” (presumably because he liked the look of an oak tree that was right outside his window at Sun). The people at Sun later realized that Oak was the name of an existing computer language, so they changed the name to Java.
 -
 ### Chapter 2: The Java Programming Environment
 - About the shebang in Java 11 #flashcard 
+  id:: 63cfbcc0-b723-43af-bd00-44550e5f04bf
     In JDK 11, the javac command is not required with a single source file. This feature is intended to support shell scripts starting with a “shebang” line #!/path/to/java.
 -
 ### Chapter 3: Fundamental Programming Structures in Java
 - How do you define a long literal? #flashcard 
+  id:: 63cfbcc0-0a56-4f78-82b4-71ce3c8767af
     Long integer numbers have a suffix L or l (for example, 4000000000L)
 -
 - id:: 63c669f2-790f-4944-9328-f43429b524ae
@@ -30,6 +33,7 @@ tags:: O'Reilly-Learning
     In Java, it is considered good style to declare variables as closely as possible to the point where they are first used.
 -
 - [CODE]
+  id:: 63cfbcc0-7d1d-4063-9cf7-b4a54135b627
    Create a enum type with name Size and fields: SMALL, MEDIUM, LARGE and EXTRA_LARGE #flashcard 
     enum Size { SMALL, MEDIUM, LARGE, EXTRA_LARGE };
 -
@@ -44,10 +48,13 @@ tags:: O'Reilly-Learning
      returns true if the string is empty or consists of whitespace.
 -
 - String trim() #flashcard
+  id:: 63cfbcc0-edee-45b0-b4fb-7237eed0559a
 -
 - String strip() #flashcard
+  id:: 63cfbcc0-76d8-41ee-991c-6fb6ed8e1f30
 -
 - What does String::repeat do? #flashcard 
+  id:: 63cfbcc0-4f5e-4bc7-8c85-1b7a4489053c
     String repeat(int count) 11
      returns a string that repeats this string count times.
 -
@@ -56,6 +63,7 @@ tags:: O'Reilly-Learning
     It is plainly impossible to remember all useful classes and methods. Therefore, it is essential that you become familiar with the online API documentation that lets you look up all classes and methods in the standard library.
 -
 - [CODE]
+  id:: 63cfbcc0-9a41-42b9-924a-fdc1d7c052e8
    Create a StringBuilder object #flashcard 
     StringBuilder builder = new StringBuilder();
 -
@@ -65,10 +73,12 @@ tags:: O'Reilly-Learning
     builder.append(str);
 -
 - [CODE]
+  id:: 63cfbcc0-d41c-4de4-9bab-bf29c90afc74
    Print a StringBuffer 'builder' variable #flashcard 
     String completedString = builder.toString();
 -
 - [CODE]
+  id:: 63cfbcc0-4cf9-4010-b3d5-7660b8cb66c3
    Declare and define a Scanner variable. #flashcard 
     Scanner in = new Scanner(System.in);
 -
@@ -78,9 +88,11 @@ tags:: O'Reilly-Learning
     System.out.printf("Hello, %s. Next year, you'll be %d", name, age);
 -
 - [CODE] Make a separate thousands, and two decimal float number #flashcard 
+  id:: 63cfbcc0-8dd7-4026-9876-059281f69b4f
     System.out.printf("%,.2f", 10000.0 / 3.0);
 -
 - case SMALL: // no need to use Size.SMALL #flashcard
+  id:: 63cfbcc0-73ad-4ce9-a07a-6c0d6488ea78
 -
 - id:: 63c669f1-5f06-442e-b94c-14c9e9f7c18b
    [CODE] Clone an array #flashcard 
@@ -100,5 +112,6 @@ tags:: O'Reilly-Learning
     static LocalDate now()
 -
 - Constructs an object that represents the given date. #flashcard 
+  id:: 63cfbcc0-9fd0-4bb2-9acd-54621068ef9f
     static LocalDate of(int year, int month, int day)
 -

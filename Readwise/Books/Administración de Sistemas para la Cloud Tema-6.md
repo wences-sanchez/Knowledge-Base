@@ -24,6 +24,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
      (Page 5)
 -
 - configuración. El modo Core, sin embargo, no tiene escritorio. Mantiene las funcionalidades para soportar aplicaciones tradicionales y permite la activación de cualquier rol, pero no tiene el entorno de escritorio tradicional. Está pensando para ser administrado remotamente a través de la línea de comandos, con PowerShell o con consolas MMC remotas. Hay otras diferencias, como que Server Core no incluye las herramientas de accesibilidad, soporte de audio o Internet Explorer. La Tabla 1 lista algunas de las diferencias en cuanto a disponibilidad de aplicaciones entre ambos modos. Administración de Sistemas en la Cloud Tema 6. Ideas clave 6 I ) R N U i j ( a o R a L e d l a n o i c a n r e t n I d a d i s r e v i n U © #flashcard 
+  id:: 63cfbca8-edd2-462c-8a85-7becbafcbf97
   
   
      (Page 6)
@@ -50,6 +51,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
      (Page 10)
 -
 - La herramienta de Administración de Servidor, o Server Manager, ofrece una interfaz gráfica para ejecutar tareas de configuración, tanto en el equipo local como en equipos remotos. Ofrece acceso a consolas de administración de roles de Windows, como DNS o Directorio Activo, desde un único punto, instalación de roles, escritorio remoto, etc. La Figura 6 muestra una instancia de Server Manager #flashcard 
+  id:: 63cfbca8-f12d-43ea-89b1-38737276db7c
   
   
      (Page 11)
@@ -83,16 +85,19 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
      (Page 14)
 -
 - A nivel de protocolos, AD se sirve de múltiples tecnologías:  DNS para localizar servicios (gracias a entradas SRV) y para identificar tanto dominios como los equipos miembros del dominio.  LDAP es el servicio de directorio como tal. Sirve de base de datos para alojar información de las cuentas de máquinas y de usuario. Es extensible, por lo que sistemas como Exchange pueden alojar datos adicionales de cada usuario, como los datos de la cuenta de correo, sin necesidad de crear otro repositorio de datos.  Kerberos es el sistema de autenticación y autorización entre equipos. #flashcard 
+  id:: 63cfbca8-bdce-46b4-bcd1-5bd315ed9b45
   
   
      (Page 14)
 -
 - AD funciona esencialmente como una base de datos administrativa. Usa una estructura jerárquica formada por objetos, dominio, árboles y bosques #flashcard 
+  id:: 63cfbca8-3a3b-438d-9f8c-1f1ef94af78d
   
   
      (Page 14)
 -
 - Los objetos son los elementos básicos del dominio. Representan los ordenadores cliente (por ejemplo, los equipos ofimáticos de escritorio, que actúan como clientes de AD), los servidores de aplicaciones (que, a efectos del directorio, son también clientes de AD), carpetas compartidas y cuentas de usuario. Cada objeto tiene un identificador único y un conjunto de atributos. #flashcard 
+  id:: 63cfbca8-3468-4058-b640-7f6e0685b9c7
   
   
      (Page 15)
@@ -112,6 +117,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
      (Page 16)
 -
 - Cada dominio tendrá al menos un controlador de dominio, o DC, que actúa como autoridad de aquel; es decir, es responsable de los permisos de los objetos, la autenticación y las modificaciones de objetos. Es habitual que un dominio disponga de más de un DC. Esta disposición es posible porque los DC pueden trabajar de manera distribuida y es necesaria porque la caída del único DC de un dominio colapsaría todas las máquinas del dominio, ya que nadie podría iniciar sesión ni acceder a carpetas compartidas. Los controladores de dominio suelen alojar el servicio DNS, que también puede funcionar en modo distribuido. #flashcard 
+  id:: 63cfbca8-b896-4fc4-bebe-7377fa5477d9
   
   
      (Page 16)
@@ -123,6 +129,7 @@ tags:: Administración-de-Sistemas-para-la-Cloud UNI
      (Page 16)
 -
 - Los dominios se identifican con un nombre DNS. De hecho, la creación de un dominio requiere la presencia de un servicio DNS asociado, bien externo o integrado en el propio dominio. Al ser un nombre DNS, las cuentas de máquina reciben un nombre de dominio completo (o FQDN, fully qualified domain name) en el que se une el nombre del host con el nombre del dominio. Un equipo con nombre member en el dominio demo.loc tendrá un registro DNS member.demo.loc. La integración de AD con DNS es tan fuerte que los dominios siguen una estructura de árbol, de manera que un dominio padre puede ser demo.loc y un dominio hijo podría ser, a su vez, child.demo.loc. #flashcard 
+  id:: 63cfbca8-8f0e-4e51-9aba-cd1b0baa979d
   
   
      (Page 17)

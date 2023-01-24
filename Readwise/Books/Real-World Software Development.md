@@ -11,6 +11,7 @@ tags:: O'Reilly-Learning
 ## Highlights
 ### 2. The Bank Statements Analyzer
 - Describe the SRP Principle #flashcard 
+  id:: 63cfbcdd-e003-40a0-bcdf-6065c3934d03
     The Single Responsibility Principle (SRP) is a general software development guideline to follow that contributes to writing code that is easier to manage and maintain.
      You can think about SRP in two complementary ways:
      A class has responsibility over a single functionality
@@ -20,6 +21,7 @@ tags:: O'Reilly-Learning
      The reason why multiple concerns is problematic is, as you saw earlier, it complicates code maintainability by potentially introducing bugs in several places. It can also make the code harder to understand and change.
 -
 - Talk about the Principle of Least Surprise #flashcard 
+  id:: 63cfbcdd-3ea2-48ba-9972-5627c17de7f8
     It is a good habit to follow the principle of least surprise when you implement methods. It will help ensure that it is obvious what is happening when looking at the code. This means:
      Use self-documenting method names so it is immediately obvious what they do (e.g., calculateTotalAmount())
      Do not change the state of parameters as other parts of code may depend on it
@@ -65,12 +67,14 @@ tags:: O'Reilly-Learning
     This is where the Open/Closed principle comes in. It promotes the idea of being able to change the behavior of a method or class without having to modify the code. In our example, it would mean the ability to extend the behavior of a findTransactions() method without having to duplicate the code or change it to introduce a new parameter. How is this possible? As discussed earlier, the concepts of iterating and the business logic are coupled together. In the previous chapter, you learned about interfaces as a useful tool to decouple concepts from one another. In this case, you will introduce a BankTransactionFilter interface that will be responsible for the selection logic, as shown in Example 3-4. It contains a single method test() that returns a boolean and takes the complete BankTransaction object as an argument. This way the method test() has access to all the properties of a BankTransaction to specify any appropriate selection criteria.
 -
 - A functional interface code's example in Java #flashcard 
+  id:: 63cfbcdd-d0ca-4db9-96f3-baa20c6bd509
     @FunctionalInterface
      public interface BankTransactionFilter {
      boolean test(BankTransaction bankTransaction);
      }
 -
 - OCP applied to a solution #flashcard 
+  id:: 63cfbcdd-db58-425d-9b41-400b9b60cb27
     This refactoring is very important because you now have introduced a way to decouple the iteration logic from the business logic through this interface. Your method no longer depends on one specific implementation of a filter. You can introduce new implementations by passing them as an argument without modifying the body of this method. Hence, it is now open for extension and closed for modification. This reduces the scope for introducing new bugs because it minimizes cascading changes required to parts of code that have already been implemented and tested. In other words, old code still works and is untouched.
 -
 - id:: 63c66a1e-1cac-4509-a86b-2ac321b8adf2
@@ -87,6 +91,7 @@ tags:: O'Reilly-Learning
      = bankStatementProcessor.findTransactions(new BankTransactionIsInFebruaryAndExpensive());
 -
 - Same code but using Lambda. Much better than the previous!!! #flashcard 
+  id:: 63cfbcdd-d13f-49cc-9e62-7f40dc59a6be
     Example 3-8. Implementing BankTransactionFilter using a lambda expression
      final List transactions
      = bankStatementProcessor.findTransactions(bankTransaction -&gt;
@@ -94,6 +99,7 @@ tags:: O'Reilly-Learning
      &amp;&amp; bankTransaction.getAmount() &gt;= 1_000);
 -
 - Benefits of OCP #flashcard 
+  id:: 63cfbcdd-7f88-4b2c-b7ab-60d4abb41e1f
     To summarize, the Open/Closed Principle is a useful principle to follow because it:
      Reduces fragility of code by not changing existing code
      Promotes reusability of existing code and as a result avoids code duplication
@@ -104,6 +110,7 @@ tags:: O'Reilly-Learning
   All these reasons are why it is generally recommended to define smaller interfaces. The idea is to minimize dependency to multiple operations or internals of a domain object. #flashcard
 -
 - In fact, there are two sides of the coin to consider. On one side a method like findTransactionsGreaterThanEqual() is self-explanatory and easy to use. You should not be worried about adding descriptive method names to help readability and comprehension of your API. However, this method is restricted to a particular case and you can easily have an explosion of new methods to cater for various multiple requirements. On the other side, a method like findTransactions() is initially more difficult to use and it needs to be well-documented. However, it provides a unified API for all cases where you need to look up transactions. There isn’t a rule of what is best; it depends on what kind of queries you expect. If findTransactionsGreaterThanEqual() is a very common operation, it makes sense to extract it into an explicit API to make it easier for users to understand and use. #flashcard
+  id:: 63cfbcdd-2df1-4905-9971-289da5b02dfa
 -
 - id:: 63c66a1e-b215-4044-8ae5-5d6af2729ba7
   
@@ -128,6 +135,7 @@ tags:: O'Reilly-Learning
      These are errors that can be thrown at any time during the program execution. Methods don’t have to explicitly declare these exceptions in their signature and the caller doesn’t have to handle them explicitly, as it would with a checked exception. #flashcard
 -
 - In a nutshell, the recommendation is to use unchecked exceptions and only use checked exceptions sparingly to avoid significant clutter in the code. #flashcard
+  id:: 63cfbcdd-49a0-408c-9992-dc2bd79e52fe
 -
 - id:: 63c66a1e-a704-40ec-a35d-7a8f9e4443e4
   
@@ -188,6 +196,7 @@ tags:: O'Reilly-Learning
      } #flashcard
 -
 - A build tool has many benefits:
+  id:: 63cfbcdd-d445-4191-b14b-6153a46e464d
      It provides you with a common structure to think about a project so your colleagues feel immediately at home with the project.
      It sets you up with a repeatable and standardized process to build and run an application.
      You spend more time on development, and less time on low-level configurations and setup.
@@ -195,6 +204,7 @@ tags:: O'Reilly-Learning
      You save time by reusing common build tasks instead of reimplementing them. #flashcard
 -
 - Takeaways
+  id:: 63cfbcdd-200a-4ccc-9fa6-cfe425bd120a
      The Open/Closed Principle promotes the idea of being able to change the behavior of a method or class without having to modify the code.
      The Open/Closed Principle reduces fragility of code by not changing existing code, promotes reusability of existing code, and promotes decoupling, which leads to better code maintenance.
      God interfaces with many specific methods introduce complexity and coupling.
@@ -224,9 +234,11 @@ tags:: O'Reilly-Learning
      public static final String PATH = "path"; #flashcard
 -
 - But really there’s a broader principle at stake here, one that allows us to generalize these examples into an approach that you can use in any piece of software. This is called the Liskov Substitution Principle (LSP) and it helps us understand how to subclass and implement interfaces correctly. LSP forms the L of the SOLID principles that we’ve been referring to throughout this book.
+  id:: 63cfbcdd-3309-446b-8175-cc58c5eb4801
      The Liskov Substitution Principle is often stated in these very formal terms, but is actually a very simple concept. Let’s demystify some of this terminology. If you hear type in this context, just think of a class or an interface. The term subtype means establish a parent-to-child relationship between types; in other words, extend a class or implement an interface. So informally you can think of this as meaning that child classes should maintain the behavior they inherit from their parents. We know, we know—it sounds like an obvious statement, but we can be more specific and split out LSP into four distinct parts: #flashcard
 -
 - Formal definition of LSP #flashcard 
+  id:: 63cfbcdd-eeae-4340-aebe-8c552b2dd34b
     LSP
      Let q(x) be a property provable about objects x of type T. Then q(y) should be true for objects y of type S where S is a subtype of T.
 -
@@ -235,6 +247,7 @@ tags:: O'Reilly-Learning
     LSP means that you can’t require any more restrictive preconditions than your parent required. So, for example, you can’t require your document to be smaller than 100KB in size if your parent should be able to import any size of document.
 -
 - Postconditions cannot be weakened in a subtype #flashcard 
+  id:: 63cfbcdd-87ad-4dc0-bee4-b1ca8addb44d
     This might sound a bit confusing because it reads a lot like the first rule. Postconditions are things that have to be true after some code has run. For example, after importFile() has run, if the file in question is valid it must be in the list of documents returned by contents(). So if the parent has some kind of side effect or returns some value, then the child must do so as well.
 -
 - id:: 63c66a1e-0411-46f7-a903-41ac81e5b629
@@ -243,13 +256,16 @@ tags:: O'Reilly-Learning
      This is the hardest aspect of LSP to understand. In essence, the child class shouldn’t allow state changes that your parent disallowed. So, in our example program we have an immutable Document class. In other words, once it has been instantiated you can’t remove, add, or alter any of the attributes. You shouldn’t subclass this Document class and create a mutable Document class. This is because any user of the parent class would expect certain behavior in response to calling methods on the Document class. If the child were mutable, it could violate callers’ expectations about what calling those methods does. #flashcard
 -
 - About test function names #flashcard 
+  id:: 63cfbcdd-a354-4c5f-a183-a95d6db3c7a6
     The key driving principles when it comes to test naming are readability, maintainability, and acting as executable documentation. When you see a report of a test class being run, the names should act as statements that document what functionality works and what does not.
 -
 - Don't overuse the white-box tests!!!
+  id:: 63cfbcdd-d4b3-40f1-9866-7a90bd99b8a7
    Specification, NOT Behaviour!!! #flashcard 
     Our tests should only invoke these public API methods and not try to inspect the internal state of the objects or the design. This is one of the key mistakes made by developers that leads to hard-to-maintain tests. Relying on specific implementation details results in brittle tests because if you change the implementation detail in question, the test can start to fail even if the behavior is still working.
 -
 - DRY in unit tests #flashcard 
+  id:: 63cfbcdd-dc1a-4198-b310-e8019bca1b91
     Example 4-20. Implementing a new assertion
      private void assertAttributeEquals(
      final Document document,
@@ -263,6 +279,7 @@ tags:: O'Reilly-Learning
      }
 -
 - Do a little research about hamcrest #flashcard 
+  id:: 63cfbcdd-e5c8-4968-a73f-bbb6a8ce5553
     These matchers come from the Hamcrest library, which is a very commonly used Java library that enables cleaner testing.
 -
 - id:: 63c66a1e-c6b0-4589-a96d-7b4eb3a3ff11
@@ -304,6 +321,7 @@ tags:: O'Reilly-Learning
      } #flashcard
 -
 - ISP (Cohesion between Interfaces and clients) #flashcard 
+  id:: 63cfbcdd-1756-4d51-9539-3a9d20721a26
     Interface Segregation Principle. It makes the case that no class should be forced to depend on methods it does not use because this introduces unnecessary coupling. In Chapter 2, you learned about another principle, the Single Responsibility Principle (SRP), which promotes high cohesion. The SRP is a general design guideline that a class has responsibility over a single functionality and there should be only one reason for it to change. Although the ISP may sound like the same idea, it takes a different view. The ISP focuses on the user of an interface rather than its design. In other words, if an interface ends up very large, it may be that the user of that interface sees some behaviors it doesn’t care for, which causes unnecessary coupling.
 -
 ### 7. Extending Twootr

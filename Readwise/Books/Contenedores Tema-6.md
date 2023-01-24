@@ -22,11 +22,13 @@ tags:: Contenedores UNI
      (Page 6)
 -
 - <<<<<<< #flashcard 
+  id:: 63cfbcbf-eece-4068-97d2-66b18e3ce33b
      Kubernetes está integrado en los principales proveedores de nube (AWS, Google, Azure, Digital Ocean, etc). Se ofrece como servicios para simplificar el despliegue y gestión de clústeres.  Kubernetes ofrece más funcionalidades que Swarm. Por ejemplo, permite la actualización de aplicaciones de manera segura y eficiente, sin cortes de servicio, pudiendo revertir una versión anterior.  La gestión en Swarm se realiza con el mismo cliente de Docker, sin embargo, en Kubernetes hará falta un nuevo cliente (kubectl).  Por último, y no menos importante, la comunidad de usuarios de Kubernetes es mucho más numerosa que la de Swarm. Esto se traduce en un mayor volumen de contribución de nuevas funcionalidades y mayor ayuda por parte de la comunidad.
   
      (Page 7)
 -
 - ¿Qué es un servicio en Kubernetes? #flashcard 
+  id:: 63cfbcbf-eb3b-4d0e-b5ab-19cc898a9c8b
      Servicios: son una capa de abstracción más, que exponen un grupo de Pods como servicio, generalmente mediante balanceo de carga.
   
      (Page 8)
@@ -44,6 +46,7 @@ tags:: Contenedores UNI
      (Page 10)
 -
 - El Controller Manager es el componente que ejecuta varios procesos controladores encargados de mantener el estado deseado en el clúster de Kubernetes. Mediante llamadas al API server se obtendrá el estado deseado en cada momento y tras comprobar el estado actual de los nodos, se realizarán las acciones necesarias en caso de haber diferencias. #flashcard 
+  id:: 63cfbcbf-b7a6-469a-9076-8e3cc7c66427
   
   
      (Page 10)
@@ -74,6 +77,7 @@ tags:: Contenedores UNI
      (Page 12)
 -
 - ¿Para qué sirve el componente **kubelet** dentro de un *nodo worker* en *Kubernetes* ? #flashcard 
+  id:: 63cfbcbe-00c9-42db-993e-3db290f55dcc
     En cada uno de los nodos worker tendremos un servicio, llamado Kubelet, que será el encargado de comunicarse con el nodo máster, obteniendo la configuración de los
   
      (Page 12)
@@ -85,11 +89,13 @@ tags:: Contenedores UNI
      (Page 13)
 -
 - ¿Cuál es la función de **kube-proxy** en los *nodos worker* de *Kubernetes* ? #flashcard 
+  id:: 63cfbcbe-eb54-4b95-8e72-5bed1ba4673e
     El componente kube-proxy es un agente de red que se ejecuta en cada uno de los nodos y será el responsable de las actualizaciones dinámicas y el mantenimiento de las reglas de red. Además, hará funciones de proxy de red y balanceo de carga, redirigiendo el tráfico a los contenedores según la dirección IP y puerto de la petición.
   
      (Page 13)
 -
 - ¿Qué es un pod en Kubernetes? #flashcard 
+  id:: 63cfbcbe-577c-4ce1-acd8-7b4ad9e6ad0b
     En un clúster de Kubernetes, los Pods serán la unidad más básica de ejecución, el cual estará compuesto por uno o varios contenedores. Por diseño, los Pods son efímeros por naturaleza, es decir, pueden ser destruidos en cualquier momento y sustituidos por otros. Todos los contenedores que forman un Pod compartirán la misma dirección IP, tendrán acceso a cierto almacenamiento común y seguirán el mismo ciclo de vida. Por consiguiente, siempre podrán comunicarse directamente entre ellos y se ejecutarán en bloque, iniciándose y parándose a la vez.
   
      (Page 14)
@@ -101,16 +107,19 @@ tags:: Contenedores UNI
      (Page 15)
 -
 - ¿Para qué sirven los namespaces en Kubernetes? #flashcard 
+  id:: 63cfbcbe-d377-4532-af0a-ba73388de8ae
     Utilizaremos los Namespaces para organizar nuestros objetos en el clúster. Estos nos permiten agrupar recursos para realizar acciones sobre todos ellos. Un caso de uso típico de los Namespaces es el de crear diferentes entornos de ejecución (desarrollo, test, producción, etc.) para nuestras aplicaciones.
   
      (Page 15)
 -
 - Define PersistentVolume en Kubernetes. #flashcard 
+  id:: 63cfbcbe-f8d9-430b-b040-0a57900e95ab
     Kubernetes introduce una nueva abstracción denominada PersistentVolumes, la cual nos permitirá desacoplar los Pods de la infraestructura asociada al almacenamiento. A diferencia de los objetos volumes, los recursos de tipo PersistentVolume tienen un ciclo de vida independiente a los Pods.
   
      (Page 15)
 -
 - Acerca de los **ConfigMaps** y **Secrets** en *Kubernetes* #flashcard 
+  id:: 63cfbcbe-0fa9-49be-9235-0fbf6fd1ebfb
     Los ConfigMaps nos permitirán separar los datos de configuración de los contenedores, están pensados para el almacenamiento de información no confidencial. Por el contrario, para la gestión de información sensible como contraseñas y certificados, utilizaremos los Secrets.
   
      (Page 16)
@@ -122,6 +131,7 @@ tags:: Contenedores UNI
      (Page 16)
 -
 - Define ReplicaSet en Kubernetes. #flashcard 
+  id:: 63cfbcbe-5bd3-469d-93ee-a2b3148def61
     Los ReplicaSets son generalmente creados por los Deployments, aunque pueden crearse independientemente. Serán los encargados de crear en nuestro clúster múltiples copias de un mismo Pod. Asimismo, garantizan que nuestra aplicación tiene el numero deseado de Pods, creándolos y escalándolos según los disparadores configurados en el Deployment.
   
      (Page 16)

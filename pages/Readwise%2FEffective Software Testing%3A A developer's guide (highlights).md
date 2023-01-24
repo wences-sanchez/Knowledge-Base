@@ -306,6 +306,7 @@ tags:: o'reilly-learning qa
 	- -
 	- -
 		- What is line coverage? #flashcard
+		  id:: 63cfbced-30fd-4baa-89f2-ae19bf98a846
 			- A developer who aims to achieve line coverage wants at least one test case that covers the line under test. It does not matter if that line contains a complex `if` statement full of conditions. If a test touches that line in any way, the developer can count the line as covered.
 		- ([View Highlight](https://read.readwise.io/read/01gq4qh54fzf0xg68938td0r5m))
 	- -
@@ -343,6 +344,7 @@ tags:: o'reilly-learning qa
 	- -
 	- -
 		- The MC/DC criterion looks at combinations of conditions, as path coverage does. However, instead of testing *all* possible combinations, we identify the *important* combinations that need to be tested. MC/DC exercises each of these conditions so that it can, independently of the other conditions, affect the outcome of the entire decision. Every possible condition of each parameter must influence the outcome at least once. (For details, read Kelly Hayhurst’s 2001 paper.) #flashcard
+		  id:: 63cfbced-1338-448e-b476-8e13d5001c80
 		- ([View Highlight](https://read.readwise.io/read/01gq4rbejdpg9mzw7rzn40zb7g))
 	- -
 	- -
@@ -398,11 +400,13 @@ tags:: o'reilly-learning qa
 	- -
 	- -
 		- About design-by-contract VS testing #flashcard
+		  id:: 63cfbced-456c-4c10-a83f-c5c17aca784d
 			- I also want to highlight that design-by-contract does not replace the need for testing. Why? Because, to the best of my knowledge and experience, you cannot express all the expected behavior of a piece of code solely with pre-conditions, post-conditions, and invariants. In practice, I suggest that you design contracts to ensure that classes can communicate with each other without fear, and test to ensure that the behavior of the class is correct.
 		- ([View Highlight](https://read.readwise.io/read/01gq50y0qhg91vm684pbjxc6h7))
 	- -
 	- -
 		- let me again discuss the difference between validation and pre-conditions. Validation is what you do to ensure that the data is valid. Pre-conditions explicitly state under what conditions a method can be invoked. #flashcard
+		  id:: 63cfbced-7054-433d-8fa1-4dbbab784a31
 		- ([View Highlight](https://read.readwise.io/read/01gq511p4b14k376ra6qy0qjjw))
 	- -
 	- 5 Property-based testing
@@ -420,6 +424,7 @@ tags:: o'reilly-learning qa
 		- -
 		- -
 			- 😅 #flashcard
+			  id:: 63cfbced-6f46-4dcd-bb18-7c4c711693dc
 				- A developer who did not read the chapters on specification-based testing and structural testing would come up with at least three tests: one to ensure that `add()` adds the product to the cart, another to ensure that the method behaves correctly when the same product is added twice, and one to ensure that `remove()` indeed removes the product from the basket. Then they would probably add a few tests for the exceptional cases (which in this class are clearly specified in the contracts).
 			- tags:: [[favorite]]
 			- ([View Highlight](https://read.readwise.io/read/01gq57bxtzj7e0ahq89p7s7nex))
@@ -472,6 +477,7 @@ tags:: o'reilly-learning qa
 			- -
 			- -
 				- Note This idea of classes not instantiating their dependencies by themselves but instead receiving them is a popular design technique. It allows us to inject mocks and also makes the production code more flexible. This idea is also known as *dependency injection*. If you want to dive into the topic, I suggest *Dependency Injection: Principles, Practices, and Patterns* by Steven van Deursen and Mark Seemann (2019). #flashcard
+				  id:: 63cfbced-c3f7-4de2-bc6c-de7ae147d7ce
 				- ([View Highlight](https://read.readwise.io/read/01gq59wpj2p53m5fq8xx8amcqs))
 			- -
 			- -
@@ -494,6 +500,7 @@ tags:: o'reilly-learning qa
 			- -
 			- -
 				- Pragmatically, developers often mock or stub the following types of dependencies:
+				  id:: 63cfbcec-32d8-4b66-becf-54eb53fdc851
 				  
 				  •   *Dependencies that are too slow* —If the dependency is too slow for any reason, it might be a good idea to simulate it. We do not want slow test suites. Therefore, I mock classes that deal with databases or web services. Note that I still do integration tests to ensure that these classes work properly, but I use mocks for all the other classes that depend on these slow classes.
 				    
@@ -519,12 +526,14 @@ tags:: o'reilly-learning qa
 			- -
 			- -
 				- You do not have to (and should not) mock everything, even when you decide to go for mocks. Only mock what is necessary. #flashcard
+				  id:: 63cfbcec-21e0-4af4-8d8e-8080096ec7ee
 				- ([View Highlight](https://read.readwise.io/read/01gq5cjzjdb14p8ybv5y9wnkvd))
 			- -
 		- 7 Designing for testability
 		- 8 Test-driven development
 			- -
 				- Note You may wonder about corner cases: What about an empty string? or null? Those cases are worth testing. However, when doing TDD, I first focus on the happy path and the business rules; I consider corners and boundaries later.
+				  id:: 63cfbcec-fa22-4566-aa20-044dfc7eab8c
 				  
 				  Remember, we are not in testing mode. We are in development mode, coming up with inputs and outputs (or test cases) that will guide us through the implementation. In the development flow I introduced in figure 1.4, TDD is part of “testing to guide development.” When we are finished with the implementation, we can dive into rigorous testing using all the techniques we have discussed. #flashcard
 				- tags:: [[favorite]]
@@ -532,11 +541,13 @@ tags:: o'reilly-learning qa
 			- -
 			- -
 				- 8.3.5 Other schools of TDD #flashcard
+				  id:: 63cfbcec-923e-4a0c-946c-372b2aed7da8
 				- tags:: [[h4]]
 				- ([View Highlight](https://read.readwise.io/read/01gq5fb116pjfzdabvv5d3sr8g))
 			- -
 			- -
 				- About the different schools of TDD #flashcard
+				  id:: 63cfbcec-d0f0-401c-9f94-a28e7fb2ca91
 					- I suggest that you learn more about both schools. Both have good points, and combining them makes sense. I recommend Mancuso’s 2018 talk, which elaborates on the differences between the schools and how the approaches can be used.
 				- ([View Highlight](https://read.readwise.io/read/01gq5fxe10km4rc1ce13834kf6))
 			- -

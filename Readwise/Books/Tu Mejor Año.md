@@ -31,6 +31,7 @@ tags:: Self-Help
     ([Location 265](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=265))
 -
 - Una de las mayores razones por las que no tenemos éxito con nuestras metas es que dudamos que podamos alcanzarlas. Creemos que están fuera de nuestro alcance. #flashcard 
+  id:: 63cfbce9-1ab2-4f16-918d-91765c3bb91b
   
   
     ([Location 354](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=354))
@@ -42,26 +43,31 @@ tags:: Self-Help
     ([Location 361](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=361))
 -
 - Para alcanzar cualquier cosa, tenemos que creer que estamos a la altura del reto. Eso no significa que será fácil o que sepamos cómo vamos a lograrlo. Por lo general no lo sabemos. Solamente significa que creemos que somos capaces, que tenemos lo necesario para prevalecer. ¿Por qué es importante eso? Porque toda meta tiene obstáculos. #flashcard 
+  id:: 63cfbce9-a5e8-4625-9158-0529687f48da
   
   
     ([Location 435](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=435))
 -
 - Según el profesor de psicología de la Universidad de Stanford, Albert Bandura, este poder recoge cuatro propiedades que nos ayudan a alcanzar nuestras metas. La primera es intención. Podemos imaginar una realidad mejor de la que estamos experimentando en el presente; y podemos trabajar con otros y dentro de nuestras circunstancias para alcanzarla. La segunda es previsión. Al visualizar el futuro, podemos gobernar nuestra conducta en el presente, y dar propósito y significado a nuestros actos. La tercera es acción. Tenemos la capacidad de actuar según nuestros planes, mantenernos motivados, y responder en el momento para seguir en rumbo. Finalmente, la autorreflexión. No solo actuamos; sabemos que actuamos. Eso significa que podemos evaluar cómo nos va, hacer ajustes, e incluso revisar nuestros planes.4 #flashcard 
+  id:: 63cfbce9-c7c7-4ecd-8561-55da38abdf7b
   
   
     ([Location 627](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=627))
 -
 - Si yo no hubiera ajustado mi conducta como resultado de lo que aprendí de ser despedido, toda esa tristeza no habría servido de nada. Me habría encontrado en la misma situación una y otra vez. En cambio, a medida que he progresado en mi carrera he actuado según esas lecciones, y me he ahorrado muchos problemas como resultado. #flashcard 
+  id:: 63cfbce9-c659-474f-b507-60b26c5cd84f
   
   
     ([Location 946](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=946))
 -
 - Las cuatro etapas de un Repaso Tras la Acción eficaz son beneficiosas para poner fin a nuestro pasado. Pero también es beneficioso reconocer que algunas de nuestras mayores decepciones pueden conducirnos a nuestras mayores posibilidades para el nuevo año. #flashcard 
+  id:: 63cfbce9-a054-4957-bebf-705826eec8b5
   
   
     ([Location 957](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=957))
 -
 - “Si no te arrepientes de nada, o intencionalmente te propones vivir sin arrepentimientos, creo que te estás perdiendo el valor mismo del arrepentimiento”.4 #flashcard 
+  id:: 63cfbce9-4265-46bc-9c91-1553317ddcbd
   
   
     ([Location 997](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=997))
@@ -73,11 +79,13 @@ tags:: Self-Help
     ([Location 1054](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1054))
 -
 - About regrets. #flashcard  #mind 
+  id:: 63cfbce9-cc66-4d79-bb4d-506ec5096244
     Con frecuencia sentimos el mayor arrepentimiento cuando tenemos la mayor oportunidad para un remedio positivo.
   
     ([Location 1202](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1202))
 -
 - No pienses ni hagas nada sin tener algún objetivo a la vista; la persona que viaja sin dirección se habrá esforzado en vano. #flashcard 
+  id:: 63cfbce9-b5c1-4ff5-9850-0412fd526777
   
   
     ([Location 1225](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1225))
@@ -104,21 +112,25 @@ tags:: Self-Help
     ([Location 1768](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1768))
 -
 - El primero es perspectiva. Miremos las carreras profesionales de grandes líderes, innovadores o deportistas. ¿Fue una oportunidad instantánea hasta lo más alto sin ningún revés para ninguno de ellos? No es así por lo general. Obstáculos, reveses e incluso fracasos son todos ellos parte de su camino hacia el éxito. Eso es cierto para cualquiera. #flashcard 
+  id:: 63cfbce9-281c-4459-8ba9-1ee94d01a68f
   
   
     ([Location 1800](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1800))
 -
 - Remember your life destiny #flashcard  #mind 
+  id:: 63cfbce9-b487-4084-96ee-09d21a55ef64
     Si quieres recorrer la distancia, tienes que encontrar una razón que te hable a ti personalmente y poderosamente.
   
     ([Location 1840](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1840))
 -
 - Lista con las 3 motivaciones vitales más importantes #flashcard  #mind 
+  id:: 63cfbce9-3506-455b-9ebc-9e14f4316b0c
     He escrito una lista como esta para cada área importante en mi vida. Si me quedo atascado y quiero abandonar, saco la lista y comienzo a leerla. De inmediato me da perspectiva y me vigoriza; hace posible que silencie las voces y meta mi cabeza otra vez en la carrera.
   
     ([Location 1875](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=1875))
 -
 - dijo cuando se hizo cargo del ejército del Potomac. “Mi vida previa parece haber estado dirigida sin saberlo hacia este gran fin”.7 Pero se quedó estancado. #flashcard 
+  id:: 63cfbce9-5a28-4a6d-b46e-c82aa5fa2250
   
   
     ([Location 2370](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2370))
@@ -131,11 +143,13 @@ tags:: Self-Help
     ([Location 2545](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2545))
 -
 - Si ya no estás comprometido con la meta, tu tercera opción es revisarla. Esto es totalmente válido. Después de todo, cuando estás planificando tienes un conocimiento limitado. Quizá te hayas dado cuenta de que estableciste la meta en la zona delirante, en lugar de hacerlo en la zona de incomodidad. Puede que entren en juego otros hechos o circunstancias que no podías haber conocido, y quizá están fuera de tu control. Sí tienes que ser cuidadoso cuando revises una meta. No querrás hacerlo solamente para poder quedarte en la zona de comodidad y no estirarte; pero tampoco necesitas ponerte en una situación en la que nadie gana para demostrar un punto. #flashcard 
+  id:: 63cfbce9-8c75-451f-91f0-39310a0dc95b
   
   
     ([Location 2608](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2608))
 -
 - Cuando no puedo volver a comprometerme, y no quiero revisar la meta, la cuarta opción es la eliminación. Agarra un borrador. Pulsa el botón de borrar. No dejes que eso te asombre. Es un último recurso, pero a veces es necesario. Yo estoy a favor de alcanzar nuestras metas, pero “el día de reposo fue hecho para el hombre”, y no al contrario. Este es tu juego. Yo nunca conocí al policía de metas, pero estoy seguro de que no aparece cuando eliminas una meta de tu lista. Si una meta ya no es relevante, si ya no es atractiva, si has intentado revisarla y no has podido, elimínala. Si no lo haces, la meta se quedará ahí y te acusará. No hay necesidad alguna de pagar un peaje emocional como ese en tu propia lista. #flashcard  #favorite 
+  id:: 63cfbce9-e8b1-48f1-93ad-195f280f3b88
   
   
     ([Location 2614](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2614))
@@ -155,6 +169,7 @@ tags:: Self-Help
     ([Location 2726](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2726))
 -
 - No pospongas tus sueños. No demores tus metas. No aplaces lo único que necesitas hacer hoy para realizar progreso significativo en tu vida personal o profesional. Cuando hayas decidido cuál será tu paso siguiente, da ese paso. No esperes. Da el salto. #flashcard 
+  id:: 63cfbce9-da7f-431e-bfeb-73acabd81b0c
   
   
     ([Location 2728](https://readwise.io/to_kindle?action=open&asin=B077KT6R6J&location=2728))

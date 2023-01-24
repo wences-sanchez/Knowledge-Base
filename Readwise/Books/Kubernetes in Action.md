@@ -48,9 +48,11 @@ tags:: O'Reilly-Learning
 -
 ### Chapter 9. Deployments: updating applications declaratively
 - What is NoOps? #flashcard 
+  id:: 63cfbcd1-0d26-4439-bd95-c286035b1a0c
     Ideally, you want the developers to deploy applications themselves without knowing anything about the hardware infrastructure and without dealing with the ops team. This is referred to as NoOps. Obviously, you still need someone to take care of the hardware infrastructure, but ideally, without having to deal with peculiarities of each application running on it.
 -
 - **Liveness probes** VS **Readiness probes** #flashcard 
+  id:: 63cfbcd1-1b4d-487d-9ceb-ee57bfd5038c
     Unlike liveness probes, if a container fails the readiness check, it won’t be killed or restarted. This is an important distinction between liveness and readiness probes. Liveness probes keep pods healthy by killing off unhealthy containers and replacing them with new, healthy ones, whereas readiness probes make sure that only pods that are ready to serve requests receive them. This is mostly necessary during container start up, but it’s also useful after the container has been running for a while.
 -
 - id:: 63c66a0c-3514-41c3-817d-0115c4d65336
@@ -82,6 +84,7 @@ tags:: O'Reilly-Learning
     Containers, on the other hand, all perform system calls on the exact same kernel running in the host OS. This single kernel is the only one performing x86 instructions on the host’s CPU. The CPU doesn’t need to do any kind of virtualization the way it does with VMs (see figure 1.5).
 -
 - By this point, you’re probably wondering how exactly containers can isolate processes if they’re running on the same operating system. Two mechanisms make this possible. The first one, Linux Namespaces, makes sure each process sees its own personal view of the system (files, processes, network interfaces, hostname, and so on). The second one is Linux Control Groups (cgroups), which limit the amount of resources the process can consume (CPU, memory, network bandwidth, and so on). #flashcard
+  id:: 63cfbcd1-f02b-4881-8d33-91bf54f87784
 -
 - id:: 63c66a0c-36b9-40e3-a221-318dec965828
    What is an image in Docker? #flashcard 
@@ -127,6 +130,7 @@ tags:: O'Reilly-Learning
      The Kubernetes Service Proxy (kube-proxy), which load-balances network traffic between application components
 -
 - Figure 1.10. A basic overview of the Kubernetes architecture and an application running on top of it #flashcard
+  id:: 63cfbcd1-be19-4097-8253-a9afea7364b9
 -
 ### Chapter 2. First steps with Docker and Kubernetes
 - id:: 63c66a0c-1009-4c2c-98fa-b0edec7013ab
@@ -171,6 +175,7 @@ tags:: O'Reilly-Learning
      When you ran the kubectl command, it created a new ReplicationController object in the cluster by sending a REST HTTP request to the Kubernetes API server. The ReplicationController then created a new pod, which was then scheduled to one of the worker nodes by the Scheduler. The Kubelet on that node saw that the pod was scheduled to it and instructed Docker to pull the specified image from the registry because the image wasn’t available locally. After downloading the image, Docker created and ran the container. #flashcard
 -
 - Definition
+  id:: 63cfbcd1-328d-4f3c-baa1-348d0c741ed3
      The term scheduling means assigning the pod to a node. The pod is run immediately, not at a time in the future as the term might lead you to believe. #flashcard
 -
 - id:: 63c66a0c-cdd8-435e-a3da-e64d36421287
@@ -184,6 +189,7 @@ tags:: O'Reilly-Learning
     Understanding why multiple containers are better than one contain- ner running multiple processes
 -
 - About pods and IPs. #flashcard 
+  id:: 63cfbcd1-24b5-498d-93e3-1fa78a3857c7
     Like a computer on a LAN, each pod gets its own IP address and is accessible from all other pods through this network established specifically for pods.
 -
 - id:: 63c66a0c-3e7c-413a-9dbd-960989ae99ce
@@ -194,6 +200,7 @@ tags:: O'Reilly-Learning
      Status contains the current information about the running pod, such as what condition the pod is in, the description and status of each container, and the pod’s internal IP and other basic info.
 -
 - When preparing a manifest, you can either turn to the Kubernetes reference documentation at http://kubernetes.io/docs/api to see which attributes are supported by each API object, or you can use the kubectl explain command. #flashcard
+  id:: 63cfbcd1-fab8-470c-a1e2-3e0aa1950ed4
 -
 - id:: 63c66a0c-5171-46bd-a60d-ba42a00dadaa
    How can you **remove** the Kubernetes resources? #flashcard 
@@ -211,9 +218,11 @@ tags:: O'Reilly-Learning
 -
 ### Chapter 4. Replication and other controllers: deploying managed pods
 - Mention the purpose of a **liveness probe** in *Kubernetes* #flashcard 
+  id:: 63cfbcd1-5e1d-479d-97cd-a96349f2ced0
     Kubernetes can check if a container is still alive through liveness probes. You can specify a liveness probe for each container in the pod’s specification. Kubernetes will periodically execute the probe and restart the container if the probe fails.
 -
 - About liveness probe's terms #flashcard 
+  id:: 63cfbcd1-cfde-41f2-bea1-8ec6c44f71c9
     kubectl describe also displays additional information about the liveness probe:
      Liveness: http-get http://:8080/ delay=0s timeout=1s period=10s #success=1
      ➥ #failure=3
@@ -252,6 +261,7 @@ tags:: O'Reilly-Learning
   a single ReplicationController can’t match pods with the label env=production and those with the label env=devel at the same time. It can only match either pods with the env=production label or pods with the env=devel label. But a single ReplicaSet can match both sets of pods and treat them as a single group. #flashcard
 -
 - Example of **matchExpressions** selector in Kubernetes #flashcard 
+  id:: 63cfbcd1-c988-436f-8bd1-9317515ee28d
     Listing 4.9. A matchExpressions selector: kubia-replicaset-matchexpressions.yaml
      selector:
      matchExpressions:
@@ -296,6 +306,7 @@ tags:: O'Reilly-Learning
   If you later decide to migrate the external service to pods running inside Kubernetes, you can add a selector to the service, thereby making its Endpoints managed automatically. The same is also true in reverse—by removing the selector from a Service, Kubernetes stops updating its Endpoints. This means a service IP address can remain constant while the actual implementation of the service is changed. #flashcard
 -
 - About NodePort in Kubernetes #flashcard 
+  id:: 63cfbcd1-0d75-4744-93f1-919c2f1d2be0
     The first method of exposing a set of pods to external clients is by creating a service and setting its type to NodePort. By creating a NodePort service, you make Kubernetes reserve a port on all its nodes (the same port number is used across all of them) and forward incoming connections to the pods that are part of the service.
      This is similar to a regular service (their actual type is ClusterIP), but a NodePort service can be accessed not only through the service’s internal cluster IP, but also through any node’s IP and the reserved node port.
      This will make more sense when you try interacting with a NodePort service.

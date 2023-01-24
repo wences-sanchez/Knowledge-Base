@@ -9,21 +9,25 @@ category:: #books\
 ![](https://images-na.ssl-images-amazon.com/images/I/51wVGUlFdzL._SL200_.jpg)
 ## Highlights
 - This book looks at how you can use Puppet to manage your configuration. #flashcard 
+  id:: 63cfbcda-9f4c-46cb-a68a-f24e0fb42f19
   
   
     ([Location 670](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=670))
 -
 - ¿Qué es Puppet? #flashcard  #pink #rosa 
+  id:: 63cfbcda-0694-4b21-aa86-9023a6c7d2db
     Puppet is an open source framework and toolset for managing the configuration of computer systems.
   
     ([Location 670](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=670))
 -
 - ¿Qué tipo de arquitectura soporta Puppet? #flashcard  #blue #azul 
+  id:: 63cfbcda-c18e-44d5-8ef2-f2229a9f537e
     Puppet is Ruby-based configuration management software, licensed as Apache 2.0, and it can run in either client-server or stand-alone mode.
   
     ([Location 690](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=690))
 -
 - ¿Puppet es open-source o privativo? #flashcard  #blue #azul 
+  id:: 63cfbcda-2659-4a22-be43-aab86606ca54
     Puppet has two versions available: the open source version and the Enterprise version.
   
     ([Location 694](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=694))
@@ -41,11 +45,13 @@ category:: #books\
     ([Location 701](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=701))
 -
 - Deployment #flashcard  #blue #azul 
+  id:: 63cfbcda-8ed0-450a-8870-057283ca9e08
   
   
     ([Location 704](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=704))
 -
 - ¿Qué es un Puppet Master?
+  id:: 63cfbcda-4468-4ea3-97f2-6a9e254a71ec
    ¿Qué es un Puppet Agent?
    ¿Qué es un nodo? #flashcard  #pink #rosa 
     Puppet is usually deployed in a simple client-server model (Figure 1-2). The server is called a Puppet master, the Puppet client software is called an agent, and the host itself is defined as a node.
@@ -53,6 +59,7 @@ category:: #books\
     ([Location 704](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=704))
 -
 - ¿Qué es un Puppet Master? #flashcard  #pink #rosa 
+  id:: 63cfbcda-e23f-4dee-a060-caf4144fceeb
     The Puppet master runs as a daemon on a host and contains the configuration required for the specific environment.
   
     ([Location 707](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=707))
@@ -79,6 +86,7 @@ category:: #books\
     ([Location 714](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=714))
 -
 - The Configuration Language and Resource Abstraction Layer #flashcard  #blue #azul 
+  id:: 63cfbcda-6f7a-4a8d-963e-d22f474eca9d
   
   
     ([Location 723](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=723))
@@ -97,6 +105,7 @@ category:: #books\
     ([Location 730](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=730))
 -
 - Estructura de un resource en Puppet. #flashcard 
+  id:: 63cfbcda-a0ee-4ce7-b24a-0aa7d8306e98
     Each resource is made up of a type (what sort of resource is being managed: packages, services, or cron jobs), a title (the name of the resource), and a series of attributes (values that specify the state of the resource—for example, whether a service is started or stopped).
   
     ([Location 741](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=741))
@@ -142,11 +151,13 @@ category:: #books\
     ([Location 789](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=789))
 -
 - The first step Puppet takes is to analyze your configuration and calculate how to apply it to your agent. To do this, Puppet creates a graph showing all resources, with their relationships to each other and to each agent. This allows Puppet to work out the order, based on relationships you create, in which to apply each resource to your host. This model is one of Puppet’s most powerful features. #flashcard 
+  id:: 63cfbcda-f104-4d53-8575-fb0d88480c61
   
   
     ([Location 791](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=791))
 -
 - Puppet then takes the resources and compiles them into a catalog for each agent. The catalog is sent to the host and applied by the Puppet agent. The results of this application are then sent back to the master in the form of a report. #flashcard 
+  id:: 63cfbcda-614b-44e6-b289-51bd50c41a13
   
   
     ([Location 794](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=794))
@@ -159,11 +170,13 @@ category:: #books\
     ([Location 796](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=796))
 -
 - you can’t roll back transactions as you can with some databases. You can, however, model transactions in a “noop,” or no-operation mode, that allows you to test the execution of your changes without applying them. #flashcard  #blue #azul 
+  id:: 63cfbcda-2f97-4f71-b597-38da5bee9e97
   
   
     ([Location 799](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=799))
 -
 - ¿En qué fichero está la configuración principal del Puppet Master? #flashcard  #pink #rosa 
+  id:: 63cfbcda-5a0d-4985-b768-55b74d3e92a4
     Puppet’s configuration will be located under the /etc/puppet directory. Puppet’s principal configuration file is called puppet.conf and is stored at /etc/puppet/puppet.conf
   
     ([Location 1027](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1027))
@@ -216,11 +229,13 @@ category:: #books\
     ([Location 1134](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1134))
 -
 - puppet# puppet cert list #flashcard  #orange #naranja 
+  id:: 63cfbcda-d9e6-4238-8e57-5b00ba9273f5
   
   
     ([Location 1146](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1146))
 -
 - puppet# puppet cert sign node1.pro-puppet.com #flashcard  #orange #naranja 
+  id:: 63cfbcda-5ca1-4a9f-aa0d-9b6fa2c15f02
   
   
     ([Location 1153](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1153))
@@ -253,6 +268,7 @@ category:: #books\
     ([Location 1199](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1199))
 -
 - Definición mejorada de un nodo en site.pp #flashcard  #pink #rosa 
+  id:: 63cfbcda-f84d-4791-9fcf-8be6befbfe32
     Here we specify an include directive in our node definition; it specifies a collection of configurations, called a class, that we want to apply to our host.
   
     ([Location 1219](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1219))
@@ -278,6 +294,7 @@ category:: #books\
     ([Location 1229](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1229))
 -
 - A single module would contain everything required to configure a particular application. #flashcard  #blue #azul 
+  id:: 63cfbcda-c348-4cee-8e0e-d7316d3bb668
   
   
     ([Location 1236](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1236))
@@ -290,6 +307,7 @@ category:: #books\
     ([Location 1239](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1239))
 -
 - module path. #flashcard  #blue #azul 
+  id:: 63cfbcda-0da8-42df-ab42-576293e7d974
   
   
     ([Location 1241](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1241))
@@ -302,6 +320,7 @@ category:: #books\
     ([Location 1244](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1244))
 -
 - Module structure # mkdir –p /etc/puppet/modules/sudo/{files,templates,manifests} # touch /etc/puppet/modules/sudo/manifests/init.pp #flashcard  #orange #naranja 
+  id:: 63cfbcda-db03-4bf3-8ab7-bc2c29a1f735
   
   
     ([Location 1248](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1248))
@@ -314,6 +333,7 @@ category:: #books\
     ([Location 1250](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1250))
 -
 - The init.pp file is the core of your module, and every module should have one. #flashcard  #blue #azul 
+  id:: 63cfbcda-150f-46fc-b697-17427fb6142b
   
   
     ([Location 1251](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1251))
@@ -326,6 +346,7 @@ category:: #books\
     ([Location 1252](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1252))
 -
 - The init.pp file #flashcard 
+  id:: 63cfbcda-0016-4cfe-93c6-e251d60228a5
   
   
     ([Location 1253](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1253))
@@ -359,6 +380,7 @@ category:: #books\
     ([Location 1277](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1277))
 -
 - For example, if a file resource changes, you can tell Puppet to restart a service resource. #flashcard 
+  id:: 63cfbcda-b312-4731-90c0-894d0e5689be
   
   
     ([Location 1294](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1294))
@@ -378,6 +400,7 @@ category:: #books\
     ([Location 1306](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1306))
 -
 - The $::server variable contains the hostname of our Puppet server. #flashcard  #blue #azul 
+  id:: 63cfbcda-0878-46ed-a279-f3f1b780dba0
   
   
     ([Location 1309](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1309))
@@ -404,6 +427,7 @@ category:: #books\
     ([Location 1355](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1355))
 -
 - puppet# puppet master --no-daemonize --verbose --debug #flashcard  #orange #naranja 
+  id:: 63cfbcda-1c3f-42bd-a290-87670e9d8536
   
   
     ([Location 1364](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1364))
@@ -451,11 +475,13 @@ category:: #books\
     ([Location 1526](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1526))
 -
 - err: Cannot reassign variable location at /etc/puppet/manifests/node.pp:4 #flashcard  #orange #naranja 
+  id:: 63cfbcda-9895-4875-9bd3-14530f2ee70d
   
   
     ([Location 1540](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1540))
 -
 - Why does this happen? Puppet is a declarative language. Allowing variable reassignment would require us to rely on order in the file to determine the value of the variable, and order does not matter in a declarative language. #flashcard 
+  id:: 63cfbcda-1c31-44e0-bf83-ce00978c326c
   
   
     ([Location 1541](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1541))
@@ -468,11 +494,13 @@ category:: #books\
     ([Location 1543](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1543))
 -
 - At any given time, four scopes are available to Puppet: top scope, node scope, parent scope, and local scope. #flashcard  #pink #rosa 
+  id:: 63cfbcda-f6c5-4f08-b8fc-056249a3e076
   
   
     ([Location 1545](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1545))
 -
 - Top scope is anything declared in site.pp or imported manifests. #flashcard  #pink #rosa 
+  id:: 63cfbcda-da52-4215-9d43-b23e71e18d25
   
   
     ([Location 1545](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1545))
@@ -499,6 +527,7 @@ category:: #books\
     ([Location 1615](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1615))
 -
 - node ' puppet.example.com ' {   include sudo } #flashcard  #orange #naranja 
+  id:: 63cfbcda-661a-40f0-ae44-f0b135d58ec1
   
   
     ([Location 1642](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1642))
@@ -525,21 +554,25 @@ category:: #books\
     ([Location 1808](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1808))
 -
 - a best practice we recommend that you move all your conditional checks to a separate class. #flashcard 
+  id:: 63cfbcda-d198-4bf4-994f-3ef42c1ea6ff
   
   
     ([Location 1825](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1825))
 -
 - case $::osfamily {     Solaris: {       $ssh_package_name = 'cswopenssh'       $ssh_service_config = '/etc/opt/csw/ssh/sshd_config'     }     Debian: {       $ssh_package_name = 'openssh-server'       $ssh_service_config = '/etc/ssh/sshd_config'     }     RedHat: {       $ssh_package_name = 'openssh-server'       $ssh_service_config = '/etc/ssh/sshd_config'     }     default: {       fail("Module propuppet-ssh does not support osfamily: ${::osfamily}")     }   } #flashcard  #orange #naranja 
+  id:: 63cfbcda-0a92-40cb-a247-3769a22f0962
   
   
     ([Location 1890](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1890))
 -
 - It is a best practice to establish relationships with an entire class, rather than with a resource contained within another class, because this allows the internal structure of the class to change without refactoring the resource declarations related to the class. #flashcard 
+  id:: 63cfbcda-561a-4949-9246-91470251e030
   
   
     ([Location 1908](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1908))
 -
 - the require metaparameter tells Puppet that all the resources in the specified class must be processed prior to the current resource. #flashcard  #blue #azul 
+  id:: 63cfbcda-f8d3-407d-ab80-21511fc7506a
   
   
     ([Location 1910](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1910))
@@ -552,16 +585,19 @@ category:: #books\
     ([Location 1912](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1912))
 -
 - class ssh::service {   include ssh::params   service { $::ssh::params::ssh_service_name:     ensure      => running,     hasstatus   => true,     hasresstart => true,     enable      => true,     require     => Class['ssh::config'],   } } #flashcard  #orange #naranja 
+  id:: 63cfbcda-1cec-4780-b595-0e3ecf3f8930
   
   
     ([Location 1944](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=1944))
 -
 - File {     owner => 'postfix',     group => 'postfix',     mode  => 0644,   } #flashcard  #orange #naranja 
+  id:: 63cfbcda-a819-479e-aef1-9ba71a36a896
   
   
     ([Location 2011](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2011))
 -
 - we specified the File resource type capitalized and without a title. This syntax is called a resource default, and it allows us to specify defaults for a particular resource type. #flashcard  #blue #azul 
+  id:: 63cfbcda-4114-4df1-9bcd-37538dc9cf19
   
   
     ([Location 2021](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2021))
@@ -588,21 +624,25 @@ category:: #books\
     ([Location 2106](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2106))
 -
 - class mysql::install (   $user,   $group ){ #flashcard  #orange #naranja 
+  id:: 63cfbcda-348e-4096-9bb7-6b09808e11f0
   
   
     ([Location 2127](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2127))
 -
 - Definitions are collections of resources like classes, but unlike classes they can be specified and are evaluated multiple times on a host. They also accept parameters. #flashcard  #pink #rosa 
+  id:: 63cfbcda-f64f-4366-8fd2-85744d928077
   
   
     ([Location 2232](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2232))
 -
 - Tip Remember that classes are singletons. They can be included multiple times on a node, but they will only be evaluated ONCE. A definition, because it takes parameters, can be declared multiple times, and each new declaration will be evaluated. #flashcard  #pink #rosa 
+  id:: 63cfbcda-654b-43e5-b36b-634ae066982b
   
   
     ([Location 2233](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2233))
 -
 - The first definition define apache::vhost(   $docroot,   $port,   $priority,   $ssl=true,   $serveraliases = '',   $template='apache/vhost.conf.erb', ){   include apache   file {"/etc/apache2/sites-enabled/${priority}-${name}":     content => template($template),     owner   => 'root',     group   => 'root',     mode    => '0640',     require => Class['apache::install'],     notify  => Class['apache::service'],   } } #flashcard  #orange #naranja 
+  id:: 63cfbcda-2af9-4782-8aff-8c42d1c5c536
   
   
     ([Location 2236](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2236))
@@ -622,6 +662,7 @@ category:: #books\
     ([Location 2265](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2265))
 -
 - autoloading. Puppet scans your module and loads any .pp file in the manifests directory that is named after the class it contains; for example, the install.pp file contains the apache::install class and so is autoloaded. The same thing happens with definitions: #flashcard  #pink #rosa 
+  id:: 63cfbcda-21ef-4b26-83f9-4ad9d0e70b24
   
   
     ([Location 2319](https://readwise.io/to_kindle?action=open&asin=B00I1X40FE&location=2319))

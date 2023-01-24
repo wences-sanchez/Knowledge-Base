@@ -15,6 +15,7 @@ category:: #books\
      (Page 3)
 -
 - Which goals share dev and ops? #flashcard 
+  id:: 63cfbcc1-707d-4201-b421-e2aab456d79b
     With DevOps, Dev and Ops work together and share the same goals.
   
      (Page 13)
@@ -64,11 +65,13 @@ category:: #books\
      (Page 35)
 -
 - What is Continous Deployment? #flashcard 
+  id:: 63cfbcc1-8707-4362-936d-88b704123181
     Continuous Deployment: the practice of frequently deploying small code changes to production
   
      (Page 36)
 -
 - Stages of build automation. #flashcard 
+  id:: 63cfbcc1-745e-4acf-822b-5cc14aa212e4
     Each version of the code goes through a series of stages such as automated build, automated testing, and manual acceptance testing. The result of this process is an artifact or package that is able to be deployed.
   
      (Page 37)
@@ -86,6 +89,7 @@ category:: #books\
      (Page 40)
 -
 - Infrastructure as Code (IaC): manage and provision infrastructure through code and automation. #flashcard 
+  id:: 63cfbcc1-20db-498a-9771-99dda25a8240
   
   
      (Page 40)
@@ -107,6 +111,7 @@ category:: #books\
      (Page 44)
 -
 - What is orchestration?
+  id:: 63cfbcc1-8700-417a-9169-2c12775c3d70
    > With the help of tools, you can orchestrate a server resources by adding to the service more resource nodes programatically (or even automatically if you want) so that the application could use less (or more) resources dinamically. #flashcard 
     Orchestration: automation that supports processes and workflows, such as provisioning resources
   

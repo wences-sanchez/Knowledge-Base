@@ -44,6 +44,7 @@ category:: #books\
     ([Location 387](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=387))
 -
 - At its very simplest, a PHP document will output only HTML. #flashcard  #orange #naranja 
+  id:: 63cfbcd5-20d8-46c2-a762-558bdd32348b
   
   
     ([Location 688](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=688))
@@ -56,6 +57,7 @@ category:: #books\
     ([Location 696](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=696))
 -
 - $ in front of all variables. #flashcard  #orange #naranja 
+  id:: 63cfbcd5-fbb7-4422-8829-de8a0e724034
   
   
     ([Location 753](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=753))
@@ -68,6 +70,7 @@ category:: #books\
     ([Location 807](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=807))
 -
 - when you want to include the value of a variable inside a string, you do so by using double-quoted strings: #flashcard  #orange #naranja 
+  id:: 63cfbcd5-dfdb-4db9-ae91-231ac6e17521
   
   
     ([Location 1008](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1008))
@@ -94,6 +97,7 @@ category:: #books\
     ([Location 1106](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1106))
 -
 - define("ROOT_LOCATION", #flashcard 
+  id:: 63cfbcd5-0411-497f-b072-c1e0df9f417e
   
   
     ([Location 1112](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1112))
@@ -120,6 +124,7 @@ category:: #books\
     ([Location 1237](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1237))
 -
 - The next time the function is called, because $count has already been declared, the first line of the function is skipped. #flashcard  #orange #naranja 
+  id:: 63cfbcd5-6067-47b7-b00f-436253c8dd01
   
   
     ([Location 1247](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1247))
@@ -132,21 +137,25 @@ category:: #books\
     ([Location 1349](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1349))
 -
 - a literal, which simply means something that evaluates to itself, such as the number 73 or the string "Hello" #flashcard  #orange #naranja 
+  id:: 63cfbcd5-e729-467c-8676-f044f74e0212
   
   
     ([Location 1358](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1358))
 -
 - When you combine assignment or control-flow constructs with expressions, the result is a statement #flashcard  #orange #naranja 
+  id:: 63cfbcd5-3c52-4790-a81d-fc4411b4de3c
   
   
     ([Location 1370](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1370))
 -
 - identity operator #flashcard  #orange #naranja 
+  id:: 63cfbcd5-0f78-453b-90cf-431f49cb8acc
   
   
     ([Location 1549](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1549))
 -
 - Writing a file #flashcard  #orange #naranja 
+  id:: 63cfbcd5-cecb-45c1-a9a3-556143e0bdf8
   
   
     ([Location 1892](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=1892))
@@ -166,16 +175,19 @@ category:: #books\
     ([Location 2086](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2086))
 -
 - include_once #flashcard  #orange #naranja 
+  id:: 63cfbcd5-17f4-4009-8d47-df83e992a37d
   
   
     ([Location 2165](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2165))
 -
 - Using require and require_once #flashcard  #orange #naranja 
+  id:: 63cfbcd5-ffd7-41eb-9552-3bd00ecf659f
   
   
     ([Location 2167](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2167))
 -
 - the syntax for accessing an object’s property is $object-> #flashcard  #orange #naranja 
+  id:: 63cfbcd5-d2d7-4e45-8b9d-e82cf52a58a4
   
   
     ([Location 2262](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2262))
@@ -202,21 +214,25 @@ category:: #books\
     ([Location 2333](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2333))
 -
 - Se puede llamar al constructor sin parámetros. Siempre y cuando no afecte a las variables internas de la clase. Cuando también está el constructor propio. #flashcard  #orange #naranja 
+  id:: 63cfbcd5-6d91-4623-9768-edfdb2cad786
     It is not necessary to explicitly declare properties within classes, as they can be implicitly defined when first used.
   
     ([Location 2357](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2357))
 -
 - constants within a class #flashcard  #orange #naranja 
+  id:: 63cfbcd5-fd99-4f1c-9852-dd1740c9a770
   
   
     ([Location 2378](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2378))
 -
 - self keyword and double colon #flashcard  #orange #naranja 
+  id:: 63cfbcd5-8d56-48a3-a925-79691378e87f
   
   
     ([Location 2383](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2383))
 -
 - self. This is how a static property or constant can be directly accessed within a class. #flashcard  #orange #naranja 
+  id:: 63cfbcd5-90e0-487b-8978-036c9a6fa2c1
   
   
     ([Location 2434](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2434))
@@ -229,6 +245,7 @@ category:: #books\
     ([Location 2446](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2446))
 -
 - $this, which refers to the current values of the object being accessed. #flashcard  #orange #naranja 
+  id:: 63cfbcd5-c1db-43f3-bb99-2a846443195b
   
   
     ([Location 2452](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2452))
@@ -248,16 +265,19 @@ category:: #books\
     ([Location 2489](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2489))
 -
 - $paper[] #flashcard  #orange #naranja 
+  id:: 63cfbcd5-c07b-45f1-92b8-5e6076909d9e
   
   
     ([Location 2526](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2526))
 -
 - associative array #flashcard  #orange #naranja 
+  id:: 63cfbcd5-f30a-4aca-8a34-1b61ef5ad5e4
   
   
     ([Location 2573](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2573))
 -
 - foreach...as Loop #flashcard  #orange #naranja 
+  id:: 63cfbcd5-ed7d-439f-99ab-e598195e90b2
   
   
     ([Location 2590](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2590))
@@ -277,26 +297,31 @@ category:: #books\
     ([Location 2623](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2623))
 -
 - each function #flashcard  #orange #naranja 
+  id:: 63cfbcd5-c5ec-49e7-828d-7ed5848a73c8
   
   
     ([Location 2626](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2626))
 -
 - list($a, $b) = array('Alice', #flashcard  #orange #naranja 
+  id:: 63cfbcd5-12bb-4283-a3b8-fed8a9259d6f
   
   
     ([Location 2633](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2633))
 -
 - Multidimensional Arrays #flashcard  #orange #naranja 
+  id:: 63cfbcd5-9970-4654-ab1e-be5cf37f8705
   
   
     ([Location 2637](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2637))
 -
 - count #flashcard  #orange #naranja 
+  id:: 63cfbcd5-f92a-41e9-bff8-aadc047d709d
   
   
     ([Location 2706](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2706))
 -
 - Sort NO devuelve ningún array, es un procedimiento. #flashcard  #orange #naranja 
+  id:: 63cfbcd5-fef3-44fb-afa1-dfacd743882b
     sort
   
     ([Location 2713](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2713))
@@ -309,6 +334,7 @@ category:: #books\
     ([Location 2720](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2720))
 -
 - shuffle #flashcard  #orange #naranja 
+  id:: 63cfbcd5-5e3e-443d-aae1-9db5d7017b2f
   
   
     ([Location 2721](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2721))
@@ -320,6 +346,7 @@ category:: #books\
     ([Location 2725](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2725))
 -
 - extract($_GET, EXTR_PREFIX_ALL, #flashcard  #orange #naranja 
+  id:: 63cfbcd5-66ba-498a-9b0d-218252fbc8c8
   
   
     ([Location 2754](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2754))
@@ -332,16 +359,19 @@ category:: #books\
     ([Location 2764](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2764))
 -
 - print_r(compact(explode(' ', 'j temp address #flashcard  #orange #naranja 
+  id:: 63cfbcd5-253e-4e5f-977d-a0a95d9cbd1d
   
   
     ([Location 2773](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2773))
 -
 - Precision #flashcard  #orange #naranja 
+  id:: 63cfbcd5-6913-4f5f-920f-47d078a3829e
   
   
     ([Location 2840](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2840))
 -
 - sprintf #flashcard  #orange #naranja 
+  id:: 63cfbcd5-4cb8-43bc-be07-de5d840fb573
   
   
     ([Location 2897](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2897))
@@ -354,6 +384,7 @@ category:: #books\
     ([Location 2918](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2918))
 -
 - date($format, #flashcard  #orange #naranja 
+  id:: 63cfbcd5-4617-4010-8f33-c67d9d424177
   
   
     ([Location 2931](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=2931))
@@ -408,6 +439,7 @@ category:: #books\
     ([Location 3215](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3215))
 -
 - $n = "image.$ext";       move_uploaded_file($_FILES['filename']['tmp_name'], #flashcard  #orange #naranja 
+  id:: 63cfbcd5-77b3-421c-bd8b-f8c27c788a25
   
   
     ([Location 3228](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3228))
@@ -427,31 +459,37 @@ category:: #books\
     ([Location 3256](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3256))
 -
 - Structured Query Language #flashcard  #orange #naranja 
+  id:: 63cfbcd5-e2a8-403a-a9d4-a24eaafb7417
   
   
     ([Location 3334](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3334))
 -
 - mysql -u root -p #flashcard  #blue #azul 
+  id:: 63cfbcd5-7b07-4583-9267-8b31e4514bf4
   
   
     ([Location 3399](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3399))
 -
 - SHOW #flashcard  #orange #naranja 
+  id:: 63cfbcd5-e05b-4ddb-ae60-88dea347cd89
   
   
     ([Location 3402](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3402))
 -
 - don’t press Control-C! #flashcard  #blue #azul 
+  id:: 63cfbcd5-6806-4ed5-adf4-a963821af495
   
   
     ([Location 3443](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3443))
 -
 - Common MySQL commands #flashcard  #orange #naranja 
+  id:: 63cfbcd5-666e-45aa-84a3-cbfcb92b298e
   
   
     ([Location 3456](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3456))
 -
 - CREATE DATABASE #flashcard  #blue #azul 
+  id:: 63cfbcd5-0787-4793-9ad4-874b946a2bd8
   
   
     ([Location 3477](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3477))
@@ -464,6 +502,7 @@ category:: #books\
     ([Location 3479](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3479))
 -
 - GRANT PRIVILEGES ON database.object TO 'username'@'hostname'   IDENTIFIED BY #flashcard  #blue #azul 
+  id:: 63cfbcd5-020d-4ad3-8e32-d96e189fec15
   
   
     ([Location 3486](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3486))
@@ -490,6 +529,7 @@ category:: #books\
     ([Location 3672](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3672))
 -
 - ALTER TABLE classics ADD id INT UNSIGNED NOT NULL AUTO_INCREMENT #flashcard  #orange #naranja 
+  id:: 63cfbcd5-450b-4f91-ad4f-bb2fec0bcb3d
   
   
     ([Location 3676](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3676))
@@ -502,11 +542,13 @@ category:: #books\
     ([Location 3680](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3680))
 -
 - DESCRIBE #flashcard  #blue #azul 
+  id:: 63cfbcd5-10ee-416e-8027-cb8a73357bdd
   
   
     ([Location 3699](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3699))
 -
 - ALTER TABLE classics DROP #flashcard  #blue #azul 
+  id:: 63cfbcd5-8135-4cea-b195-daf725a3f167
   
   
     ([Location 3703](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3703))
@@ -519,11 +561,13 @@ category:: #books\
     ([Location 3704](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3704))
 -
 - INSERT INTO classics(author, title, type, year)  VALUES('Mark Twain','The Adventures of Tom #flashcard  #blue #azul 
+  id:: 63cfbcd5-a58c-4822-a962-aa5d4a8484e4
   
   
     ([Location 3710](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3710))
 -
 - SELECT * FROM #flashcard  #blue #azul 
+  id:: 63cfbcd5-c377-40d1-9cde-cf2b665e253e
   
   
     ([Location 3716](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3716))
@@ -536,6 +580,7 @@ category:: #books\
     ([Location 3734](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3734))
 -
 - ALTER TABLE classics MODIFY year #flashcard  #blue #azul 
+  id:: 63cfbcd5-cbe3-42c6-a338-bd75bb6d4964
   
   
     ([Location 3743](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3743))
@@ -548,16 +593,19 @@ category:: #books\
     ([Location 3749](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3749))
 -
 - ALTER TABLE classics CHANGE type category #flashcard  #blue #azul 
+  id:: 63cfbcd5-149b-45c6-ac42-f8de3d543aa3
   
   
     ([Location 3761](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3761))
 -
 - the CHANGE keyword requires the data type to be specified, even if you don’t intend to change it, #flashcard 
+  id:: 63cfbcd5-64fa-4740-9fdc-1b4135ace27c
   
   
     ([Location 3763](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3763))
 -
 - SHOW #flashcard 
+  id:: 63cfbcd5-25d2-425f-86a3-72788380d97a
   
   
     ([Location 3781](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3781))
@@ -577,6 +625,7 @@ category:: #books\
     ([Location 3849](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3849))
 -
 - UPDATE classics SET isbn='9781598184891' WHERE #flashcard  #blue #azul 
+  id:: 63cfbcd5-f10e-43f7-83d2-fde1c07f8a5d
   
   
     ([Location 3858](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3858))
@@ -589,11 +638,13 @@ category:: #books\
     ([Location 3860](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3860))
 -
 - PRIMARY KEY #flashcard  #blue #azul 
+  id:: 63cfbcd5-ed44-4f80-a4c5-16858f1457eb
   
   
     ([Location 3871](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3871))
 -
 - SELECT something FROM tablename; #flashcard  #blue #azul 
+  id:: 63cfbcd5-8719-4894-a9e1-329f7c687ae3
   
   
     ([Location 3912](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3912))
@@ -620,6 +671,7 @@ category:: #books\
     ([Location 3970](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3970))
 -
 - SELECT author,title FROM classics LIMIT #flashcard  #blue #azul 
+  id:: 63cfbcd4-7e19-4eba-bf26-1b6b07fde1ee
   
   
     ([Location 3988](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=3988))
@@ -632,21 +684,25 @@ category:: #books\
     ([Location 4036](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4036))
 -
 - SELECT author,title FROM classics ORDER BY title #flashcard  #blue #azul 
+  id:: 63cfbcd4-6d0a-40fe-bb72-be354e2bd7b9
   
   
     ([Location 4047](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4047))
 -
 - SELECT category,COUNT(author) FROM classics GROUP BY category; #flashcard  #blue #azul 
+  id:: 63cfbcd4-a228-433c-8b73-7045977a1666
   
   
     ([Location 4062](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4062))
 -
 - SELECT name,author,title from  customers AS cust, classics AS class WHERE #flashcard  #blue #azul 
+  id:: 63cfbcd4-a601-41b6-8c15-75e23f9b0252
   
   
     ([Location 4112](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4112))
 -
 - For authors and customers, you can just assign arbitrary keys, #flashcard  #orange #naranja 
+  id:: 63cfbcd4-f241-4710-b3a1-0d32e8290aeb
   
   
     ([Location 4208](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4208))
@@ -666,11 +722,13 @@ category:: #books\
     ([Location 4281](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4281))
 -
 - Third Normal Form #flashcard  #blue #azul 
+  id:: 63cfbcd4-af48-4b4e-b56e-5726599c51b1
   
   
     ([Location 4343](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4343))
 -
 - To create this relationship, add a third table containing the same key column from each of the other tables. #flashcard  #blue #azul 
+  id:: 63cfbcd4-4046-4217-bba6-edf9d990903d
   
   
     ([Location 4437](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4437))
@@ -690,6 +748,7 @@ category:: #books\
     ([Location 4578](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4578))
 -
 - UNLOCK #flashcard 
+  id:: 63cfbcd4-f3c7-4f4b-81b3-818af20ef070
   
   
     ([Location 4579](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4579))
@@ -702,6 +761,7 @@ category:: #books\
     ([Location 4606](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4606))
 -
 - mysql -u user -ppassword -D publications < publications.sql #flashcard  #blue #azul 
+  id:: 63cfbcd4-962f-4854-9763-ed47efe7f65d
   
   
     ([Location 4645](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4645))
@@ -721,6 +781,7 @@ category:: #books\
     ([Location 4801](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4801))
 -
 - real_escape_string #flashcard  #blue #azul 
+  id:: 63cfbcd4-c859-43d0-83f4-d940be57d273
   
   
     ([Location 4896](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=4896))
@@ -733,21 +794,25 @@ category:: #books\
     ([Location 5085](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5085))
 -
 - Using Placeholders #flashcard  #orange #naranja 
+  id:: 63cfbcd4-bb7a-452e-a431-b0d4d54a5add
   
   
     ([Location 5164](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5164))
 -
 - $stmt = $conn->prepare('INSERT INTO classics #flashcard  #blue #azul 
+  id:: 63cfbcd4-59e4-4692-a7b2-5d4e120da5ae
   
   
     ([Location 5175](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5175))
 -
 - $stmt->bind_param('sssss', $author, $title, $category, $year, #flashcard  #blue #azul 
+  id:: 63cfbcd4-a326-4fd1-b8e8-9467580a8045
   
   
     ([Location 5178](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5178))
 -
 - $stmt- #flashcard  #blue #azul 
+  id:: 63cfbcd4-ad0c-471d-aaeb-5d84d009d9b1
   
   
     ([Location 5187](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5187))
@@ -760,6 +825,7 @@ category:: #books\
     ([Location 5233](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5233))
 -
 - return $conn- #flashcard  #blue #azul 
+  id:: 63cfbcd4-9ced-4193-8825-ddc9864c0cba
   
   
     ([Location 5234](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5234))
@@ -779,11 +845,13 @@ category:: #books\
     ([Location 5387](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5387))
 -
 - default choice ensures that at least one delivery time will be chosen by the user, #flashcard 
+  id:: 63cfbcd4-f5f3-4c9e-bca2-9289465836f1
   
   
     ([Location 5457](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5457))
 -
 - What’s New in HTML5? #flashcard  #orange #naranja 
+  id:: 63cfbcd4-8d9a-4124-b353-1b753b584f4c
   
   
     ([Location 5599](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=5599))
@@ -817,6 +885,7 @@ category:: #books\
     ([Location 6188](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6188))
 -
 - <script type="text/javascript" #flashcard  #orange #naranja 
+  id:: 63cfbcd4-066d-43ba-a902-9b96bcd92d91
   
   
     ([Location 6223](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6223))
@@ -836,16 +905,19 @@ category:: #books\
     ([Location 6326](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6326))
 -
 - document.write("You have " + messages + " #flashcard  #orange #naranja 
+  id:: 63cfbcd4-5e9d-4dac-b5a5-1b3d05610519
   
   
     ([Location 6442](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6442))
 -
 - function product(a, b)   {     return a*b #flashcard  #orange #naranja 
+  id:: 63cfbcd4-84ea-4579-b9ff-5a3e03710850
   
   
     ([Location 6500](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6500))
 -
 - Arrays are passed to a function by reference, #flashcard  #orange #naranja 
+  id:: 63cfbcd4-aa69-46c6-a6c4-2fb619fe5bcf
   
   
     ([Location 6514](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6514))
@@ -865,6 +937,7 @@ category:: #books\
     ([Location 6519](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6519))
 -
 - if (typeof a != #flashcard  #orange #naranja 
+  id:: 63cfbcd4-6be7-44eb-93a8-36cb2fdda33c
   
   
     ([Location 6526](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6526))
@@ -884,26 +957,31 @@ category:: #books\
     ([Location 6590](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6590))
 -
 - history.back() #flashcard  #orange #naranja 
+  id:: 63cfbcd4-a57a-44be-a919-9760ec7dd95e
   
   
     ([Location 6615](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6615))
 -
 - true and false in lowercase. #flashcard  #orange #naranja 
+  id:: 63cfbcd4-a4fe-4f6b-98eb-aead07a432d9
   
   
     ([Location 6683](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6683))
 -
 - with (string) #flashcard  #orange #naranja 
+  id:: 63cfbcd4-432b-4195-b838-eb2130e3fdc3
   
   
     ([Location 6895](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6895))
 -
 - function errorHandler(message, url, #flashcard  #orange #naranja 
+  id:: 63cfbcd4-7f74-4cc6-a3c6-99d163059331
   
   
     ([Location 6912](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6912))
 -
 - onerror = #flashcard  #orange #naranja 
+  id:: 63cfbcd4-55e1-462d-86de-3eebe9a7074a
   
   
     ([Location 6912](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=6912))
@@ -923,6 +1001,7 @@ category:: #books\
     ([Location 7095](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7095))
 -
 - function User(forename, username, password)   {     this.forename = forename     this.username = username     this.password = password     this.showUser = showUser   } #flashcard  #orange #naranja 
+  id:: 63cfbcd4-4531-463c-af65-d5d5130aeff7
   
   
     ([Location 7258](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7258))
@@ -935,16 +1014,19 @@ category:: #books\
     ([Location 7266](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7266))
 -
 - details = new #flashcard  #orange #naranja 
+  id:: 63cfbcd4-6f49-4086-89ce-0e7d1dfda347
   
   
     ([Location 7268](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7268))
 -
 - details.forename = "Wolfgang" details.username = "w.a.mozart" details.password = #flashcard  #orange #naranja 
+  id:: 63cfbcd4-6a44-4cbd-86b3-39cb01f452e5
   
   
     ([Location 7268](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7268))
 -
 - The prototype Keyword #flashcard  #orange #naranja 
+  id:: 63cfbcd4-cf90-475a-a154-ccf99730680d
   
   
     ([Location 7280](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7280))
@@ -957,6 +1039,7 @@ category:: #books\
     ([Location 7285](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7285))
 -
 - User.prototype.showUser = function() #flashcard  #orange #naranja 
+  id:: 63cfbcd4-4766-4ef0-b315-6a57220673e8
   
   
     ([Location 7293](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7293))
@@ -976,16 +1059,19 @@ category:: #books\
     ([Location 7353](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7353))
 -
 - numbers = Array("One", "Two", #flashcard  #orange #naranja 
+  id:: 63cfbcd4-95db-4ed3-8681-5978b6b078c0
   
   
     ([Location 7367](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7367))
 -
 - balls = {"golf":    "Golf balls, 6",            "tennis":  "Tennis balls, 3",            "soccer":  "Soccer ball, 1",            "ping":    "Ping Pong balls, 1 doz"}   for (ball in #flashcard  #orange #naranja 
+  id:: 63cfbcd4-8312-4545-a47e-5db33ed9cf80
   
   
     ([Location 7377](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7377))
 -
 - removed = sports.pop() #flashcard  #orange #naranja 
+  id:: 63cfbcd4-a4fe-4cbb-93c7-1132191fc834
   
   
     ([Location 7461](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7461))
@@ -998,11 +1084,13 @@ category:: #books\
     ([Location 7489](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7489))
 -
 - validation to do in JavaScript are checking that fields have content if they are not to be left empty, ensuring that email addresses conform to the proper format, and ensuring that values entered are within expected bounds. #flashcard  #orange #naranja 
+  id:: 63cfbcd4-00b8-4ec5-a825-73fc159124cd
   
   
     ([Location 7527](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7527))
 -
 - Every regular expression must be enclosed in slashes. #flashcard  #orange #naranja 
+  id:: 63cfbcd4-1756-486c-9a72-2d25504a385c
   
   
     ([Location 7652](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=7652))
@@ -1029,11 +1117,13 @@ category:: #books\
     ([Location 8191](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=8191))
 -
 - p > b { color:red; #flashcard  #orange #naranja 
+  id:: 63cfbcd4-c59c-4352-9009-b0fe7648f73e
   
   
     ([Location 8518](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=8518))
 -
 - I don’t recommend using this form of selection because any JavaScript that also must access these elements cannot easily do so because the commonly used getElementByID() function will return only the first occurrence. #flashcard  #orange #naranja 
+  id:: 63cfbcd4-bb09-46ab-83ad-7cabf5b5b34e
   
   
     ([Location 8542](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=8542))
@@ -1046,6 +1136,7 @@ category:: #books\
     ([Location 8765](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=8765))
 -
 - Managing Text Styles #flashcard  #orange #naranja 
+  id:: 63cfbcd4-d39c-4812-82e6-9f64dc633661
   
   
     ([Location 8785](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=8785))
@@ -1058,26 +1149,31 @@ category:: #books\
     ([Location 8885](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=8885))
 -
 - The Box Model and Layout #flashcard  #orange #naranja 
+  id:: 63cfbcd4-0c70-4503-97c0-33bda8d2014e
   
   
     ([Location 9001](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=9001))
 -
 - The border-radius Property #flashcard 
+  id:: 63cfbcd4-a1ec-46a7-9f40-6419ee13a130
   
   
     ([Location 9268](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=9268))
 -
 - Box Shadows #flashcard 
+  id:: 63cfbcd4-7d1a-425d-8cd2-4b68a9c41038
   
   
     ([Location 9327](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=9327))
 -
 - The text-shadow Property #flashcard 
+  id:: 63cfbcd4-7c6d-45fd-9282-816354124025
   
   
     ([Location 9440](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=9440))
 -
 - Transitions #flashcard 
+  id:: 63cfbcd4-0f0a-4fbb-ae43-baf57858798b
   
   
     ([Location 9551](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=9551))
@@ -1097,6 +1193,7 @@ category:: #books\
     ([Location 13509](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=13509))
 -
 - When you combine a string with a number, the result is another string. #flashcard  #orange #naranja 
+  id:: 63cfbcd4-e3f7-42cf-829c-f9b695bda719
   
   
     ([Location 13553](https://readwise.io/to_kindle?action=open&asin=B00QUBHNFI&location=13553))

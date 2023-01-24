@@ -123,7 +123,13 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- You should use **$ nosetests** because it's better than unittest
 			- With `$ python3 -m unittests` you run your test cases as *dots* (if they pass) or as `E` (if they fail)
 			- With `$ python3 -m unittests -v` you run your test cases not with dots but with the description. But it's duplicated :(
-			- With `$ nosetests -v` we have the same that `unittests -v`
+			- With `$ nosetests -v` we have the same that `$ python3 unittests -v`. But without duplicates
+			- With `$ nosetests --with-spec --spec-color` we have color plus indications of test messages
+				- You have to install **nose** and **Pinocchio**
+				- *Note: In the output, green color indicates that all tests have passed. In case any test fails, the color for that test in the output will be red. Also note that you no longer need the *`-v`* because *`--with-spec`* already gives verbose output.*
+			- With `$ nosetests --with-spec --spec-color --with-coverage` (adding **--with-coverage**), you know if you’ve written enough tests, if you need to know how many lines of code your tests cover. The `coverage` tool will calculate the number of lines of code executed during your tests, against the total lines of code, and report that as a percentage of coverage.
+				- You have to install the **coverage** tool so that you can check your test coverage
+			-
 			-
 		-
 			-

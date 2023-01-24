@@ -7,21 +7,21 @@ deck:: [[IBM-DevOps::Introduction to Containers]]
 	- ### Understanding the Benefits of Containers
 		- #### Introduction to Containers
 			- What is a container? #flashcard
-<<<<<<< HEAD
+			  <<<<<<< HEAD
 			  id:: 636a1ae9-9272-47c7-ba1a-ffbb9d071b15
-=======
+			  =======
 			  id:: 6345458f-4c53-417d-83a9-7512f5a6179b
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+			  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 				- A **container** is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere, whether on a desktop, on-premisies, or in the cloud.
 				- Its key benefits are: **portabillity** and **lightweight**.
 				- ![image.png](../assets/image_1659713334665_0.png)
 		- #### Building Containers Images
 			- What is a Dockerfile? #flashcard
-<<<<<<< HEAD
+			  <<<<<<< HEAD
 			  id:: 636a1ae9-2c1d-458d-9dc8-abe8b70ab7d1
-=======
+			  =======
 			  id:: 6345458f-ebed-4064-a69a-e7aaaeae048e
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
+			  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 				- A Dockerfile is the blueprint from which an image is built. The Dockerfile outlines all the steps to be taken to build the desired image; Docker then builds that image.
 				- It's important to note the difference between a container and an image, which can also be called a container image.
 				- These are not interchangeable terms, but rather two distinct things. An image is an immutable file that contains the source code, libraries, and dependencies that are necessary for an application to run. That immutability means that images are read-only; if you change an image, you create a new image.

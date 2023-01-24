@@ -96,7 +96,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- PyUnit
 					- It's built into Python
 				- Pytest
-					- It has many setups and teardowns inside the framework
+					- It has many setups and teardowns levels featured inside the framework
 				- Doctest
 					- It include the tests in the docstrings.
 					- But it's limited and doesn't scale for complex code
@@ -105,7 +105,13 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 					- It's a test runner. It adds the color to tests.
 					- Coverage
 						- It also offer test coverage
-				-
+	-
+	- ## Methods for Test Driven Development
+		- ### Running tests with Nose
+			- There are two common methods to run Python unit tests:
+				- unittest
+					- The default Python test runner
+				- And a tool called **Nose** for *sniffing*
 		-
 			-
 			-

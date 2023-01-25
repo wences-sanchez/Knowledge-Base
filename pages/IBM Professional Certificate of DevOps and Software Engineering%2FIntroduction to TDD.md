@@ -142,6 +142,14 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 		- ### Test Fixtures
 			- We use test fixtures to establish an initial state of our tests
 				- And to run tests in isolation
+			- Test Fixtures in PyUnit:
+				- **setUpModule()** runs once before any tests
+				- **tearDownModule()** runs once after all tests
+				- **setUpClass(cls)** runs once before test case
+				- **tearDownClass(cls)** runs once after test case
+				- **setUp(self)** runs before each test
+				- **tearDown(self)** runs after each test
+			- ![image.png](../assets/image_1674645701398_0.png)
 			-
 			-
 			-

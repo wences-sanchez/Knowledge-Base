@@ -138,6 +138,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- setUp() and tearDown() are methods used to prepare and delete, respectively, the necessary objects in our tests
 				- It's a good idea to use them in your tests ;)
 		- ### Writing Test Assertions
+			- `$ nosetests --stop` tests the first test case only
 			-
 			-
 			-

@@ -139,6 +139,9 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- It's a good idea to use them in your tests ;)
 		- ### Writing Test Assertions
 			- `$ nosetests --stop` tests the first test case only
+		- ### Test Fixtures
+			- We use test fixtures to establish an initial state of our tests
+				- And to run tests in isolation
 			-
 			-
 			-

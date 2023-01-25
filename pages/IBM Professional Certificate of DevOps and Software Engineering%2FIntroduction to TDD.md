@@ -19,6 +19,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 	- TODO Week 4
 -
 - # Week 1
+  collapsed:: true
 	- ## Welcome
 	- ## Introduction to Testing
 		- ### The Importance of Testing
@@ -136,7 +137,8 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 		- ### Anatomy of a Test Case
 			- setUp() and tearDown() are methods used to prepare and delete, respectively, the necessary objects in our tests
 				- It's a good idea to use them in your tests ;)
-				-
+		- ### Writing Test Assertions
+			-
 			-
 			-
 			-

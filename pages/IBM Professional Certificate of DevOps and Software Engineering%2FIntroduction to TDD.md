@@ -121,6 +121,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- How to run Nose + Pinocchio (add color):
 				- `$ nosetests -v --with-spec --spec-color`
 		- ### Hands-on Lab
+		  collapsed:: true
 			- You should use **$ nosetests** because it's better than unittest
 			- With `$ python3 -m unittest` you run your test cases as *dots* (if they pass) or as `E` (if they fail)
 			- With `$ python3 -m unittest -v` you run your test cases not with dots but with the description. But it's duplicated :(
@@ -132,7 +133,10 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- You have to install the **coverage** tool so that you can check your test coverage
 			-
 			-
-		-
+		- ### Anatomy of a Test Case
+			- setUp() and tearDown() are methods used to prepare and delete, respectively, the necessary objects in our tests
+				- It's a good idea to use them in your tests ;)
+				-
 			-
 			-
 			-

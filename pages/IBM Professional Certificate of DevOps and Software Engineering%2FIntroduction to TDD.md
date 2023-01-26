@@ -165,8 +165,18 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 		- ### Factories and Fakes
 			- **FactoryBoy** is a tool for generating fake fixtures
 			- ``` python
+			  import factory
+			  from models import Account
+			  
+			  class AccountFactory(factory.Factory):
+			  	""" Creates fake accounts """
+			      class Meta:
+			        	model = Account
+			  # ...
+			  
+			  name = factory.Faker("name")
 			  ```
-			-
+		-
 -
 -
 -

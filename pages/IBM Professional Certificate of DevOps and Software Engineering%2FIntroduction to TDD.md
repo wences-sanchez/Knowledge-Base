@@ -9,30 +9,34 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 	  :LOGBOOK:
 	  CLOCK: [2023-01-23 Mon 12:47:06]--[2023-01-23 Mon 13:55:02] =>  01:07:56
 	  :END:
-	- DOING Week 2
+	- DONE Week 2
 	  id:: 63cfbc8e-bc6b-40ef-9426-5259d701627a
 	  :LOGBOOK:
 	  CLOCK: [2023-01-24 Tue 12:13:44]--[2023-01-24 Wed 14:03:44] =>  02:50:00
 	  CLOCK: [2023-01-25 Wed 10:22:11]--[2023-01-26 Wed 14:22:11] =>  04:00:00
 	  CLOCK: [2023-01-26 Thu 09:24:41]
 	  :END:
-	- TODO Week 3
+	- DOING Week 3
+	  id:: 63d24b96-77c2-4b39-bd87-774567537eb6
+	  :LOGBOOK:
+	  CLOCK: [2023-01-26 Thu 10:46:51]
+	  :END:
 	- TODO Week 4
 -
 - # Week 1
   collapsed:: true
 	- ## Welcome
 	- ## Introduction to Testing
-		- ### The Importance of Testing
+		- ### The Importance of Testing #flashcard
 			- > "If it's worth building, it's worth testing.
 			  If it's not worth testing, why are you wasting your time working on it?
 			  -- Scott Ambler, agiledata.org
-			- TDD is crucial for CD
+			- TDD is crucial for CI/CD
 		- ### Why Developers don't test
 			- Make sure that the tests pass before writing any new code
 			- The time that you are spending now in testing or TDD will save you hours and hours of later debugging
 			- Even when your code is good, you'll depend on third-party dependencies that could break your code -- So test is important!
-		- ### Testing Levels and Release Cycle
+		- ### Testing Levels and Release Cycle #flashcard
 			- At the lowest level, it's **unit testing**
 				- The purpose of this level is to validate that each unit performs as designed
 				- It requires close knowledge of the code
@@ -49,7 +53,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- At this point, we want to ensure the validation of our code which we've already developed (until now).
 			- ![image.png](../assets/image_1674476138370_0.png)
 			- ![image.png](../assets/image_1674476191183_0.png)
-		- ### TDD and BDD
+		- ### TDD and BDD #flashcard
 			- **BDD**
 				- Focuses on the behavior of the system from the outside
 				- NOT the minutia of how the system works from the inside
@@ -83,7 +87,8 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- **[x] TDD and BDD complement each other in the development process.**
 -
 - # Week 2
-	- ## Introduction to Test Driven Development
+  collapsed:: true
+	- ## Introduction to Test Driven Development #flashcard
 		- ### Benefits of Test Driven Development
 			- TDD means that your unit test cases drive the design of your code while developing
 				- It's a design approach to code.
@@ -109,7 +114,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 					- Coverage
 						- It also offer test coverage
 	-
-	- ## Methods for Test Driven Development
+	- ## Methods for Test Driven Development #flashcard
 		- ### Running tests with Nose
 			- There are two common methods to run Python unit tests:
 				- unittest
@@ -151,15 +156,12 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- **setUp(self)** runs before each test
 				- **tearDown(self)** runs after each test
 			- ![image.png](../assets/image_1674645701398_0.png)
-		-
-			-
-			-
 			-
 -
 # Week 3
-- ## Advanced Methods for Test Driven Development
-
--
+	- ## Advanced Methods for Test Driven Development
+		- ### Test Coverage
+			-
 -
 -
 -

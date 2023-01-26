@@ -161,6 +161,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 # Week 3
 	- ## Advanced Methods for Test Driven Development
 		- ### Test Coverage
+			- The **-m** in `$ coverage report -m` is for listing the missing uncoveraged files
 			-
 -
 -

@@ -151,7 +151,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- **setUp(self)** runs before each test
 				- **tearDown(self)** runs after each test
 			- ![image.png](../assets/image_1674645701398_0.png)
-			-
+		-
 			-
 			-
 			-

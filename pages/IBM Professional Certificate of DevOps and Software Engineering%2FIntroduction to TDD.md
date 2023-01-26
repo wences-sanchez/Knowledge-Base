@@ -162,6 +162,10 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 	- ## Advanced Methods for Test Driven Development
 		- ### Test Coverage
 			- The **-m** in `$ coverage report -m` is for listing the missing uncoveraged files
+		- ### Factories and Fakes
+			- **FactoryBoy** is a tool for generating fake fixtures
+			- ``` python
+			  ```
 			-
 -
 -

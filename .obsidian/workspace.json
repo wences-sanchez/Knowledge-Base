@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023_01_24.md",
+                "file": "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023_01_24.md",
+                "file": "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2023_01_24.md",
+                "file": "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023_01_24.md"
+                "file": "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -146,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ccb56b4a0176c67",
+  "active": "a74c5e64a398a679",
   "lastOpenFiles": [
+    "journals/2023_01_26.md",
     "journals/2023_01_17.md",
     "journals/2022_12_14.md",
     "journals/2022_12_16.md",
@@ -156,7 +158,6 @@
     "journals/2022_12_28.md",
     "test/Test.md",
     "Readwise/Books/Kubernetes in Action-2.md",
-    "pages/Web Knowledge-Base.md",
-    "pages/UNIR%2FCurso AWS%2FMódulo-1.md"
+    "pages/Web Knowledge-Base.md"
   ]
 }

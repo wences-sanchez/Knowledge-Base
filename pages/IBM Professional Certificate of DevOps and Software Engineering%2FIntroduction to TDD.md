@@ -156,6 +156,9 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			-
 			-
 -
+# Week 3
+- ## Advanced Methods for Test Driven Development
+
 -
 -
 -

@@ -180,7 +180,20 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 		- ### Mocking
 			- You should mock any external service that is not under test
 			- You can change the behavior of a dependent system under test
-			-
+			- There are two types of methods for mocking:
+				- **Patch**
+					- Patches a function call, allowing you to change the call's behavior.
+					- This is powerful tool to simulate error conditions or control what is returned from a call to any function. Including third party libraries.
+				- **Mock**
+					- Mocks an entire object changing its behavior.
+					- It's used when we need the whole object for our tests
+		- ### Mocking with Patch
+			- With **patching**, you can change the behavior of a function call.
+			- Patching is useful when the function calls an external system that is not under your control.
+				- Also, for simulating error conditions but you can't actually cause those errors while under test
+			- The mock library in Python gives you two ways of patching:
+				- Patching a function's return value
+				- Replacing a function with another functio
 -
 -
 -

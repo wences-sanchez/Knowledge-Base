@@ -164,6 +164,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- The **-m** in `$ coverage report -m` is for listing the missing uncoveraged files
 		- ### Factories and Fakes
 			- **FactoryBoy** is a tool for generating fake fixtures
+				- Also **Faker**
 			- ``` python
 			  import factory
 			  from models import Account

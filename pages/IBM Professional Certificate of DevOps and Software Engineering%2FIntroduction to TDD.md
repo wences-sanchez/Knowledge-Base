@@ -14,12 +14,12 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 	  :LOGBOOK:
 	  CLOCK: [2023-01-24 Tue 12:13:44]--[2023-01-24 Wed 14:03:44] =>  02:50:00
 	  CLOCK: [2023-01-25 Wed 10:22:11]--[2023-01-26 Wed 14:22:11] =>  04:00:00
-	  CLOCK: [2023-01-26 Thu 09:24:41]
 	  :END:
 	- DOING Week 3
 	  id:: 63d24b96-77c2-4b39-bd87-774567537eb6
 	  :LOGBOOK:
-	  CLOCK: [2023-01-26 Thu 10:46:51]
+	  CLOCK:  [2023-01-26 Thu 09:24:39]--[2023-01-26 Thu 12:15:39] =>  02:51:00
+	  CLOCK: [2023-01-27 Fri 09:41:44]
 	  :END:
 	- TODO Week 4
 -

@@ -177,7 +177,10 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			  
 			  name = factory.Faker("name")
 			  ```
-		-
+		- ### Mocking
+			- You should mock any external service that is not under test
+			- You can change the behavior of a dependent system under test
+			-
 -
 -
 -

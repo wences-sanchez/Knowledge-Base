@@ -197,8 +197,14 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 					- For example, to simulate return codes from servers.
 				- Replacing a function with another function (side effect)
 					- ![image.png](../assets/image_1674813169981_0.png)
+		- ### Mocking with Mock Objects
+			- A mock object is an object that simulates the behavior of a real object in ways that you can control.
+			- The two mock objects in unittest are:
+				- Mock
+					- ![image.png](../assets/image_1674813526780_0.png)
 					-
--
+				- MagicMock
+			- The only difference between them is that MagicMock implements all of the magic functions in Python.
 -
 -
 -

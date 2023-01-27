@@ -193,7 +193,11 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 				- Also, for simulating error conditions but you can't actually cause those errors while under test
 			- The mock library in Python gives you two ways of patching:
 				- Patching a function's return value
-				- Replacing a function with another functio
+					- This is useful for testing error handlers because you can pass back error condition codes and see how your applications behaves when it receives these return codes.
+					- For example, to simulate return codes from servers.
+				- Replacing a function with another function (side effect)
+					- ![image.png](../assets/image_1674813169981_0.png)
+					-
 -
 -
 -

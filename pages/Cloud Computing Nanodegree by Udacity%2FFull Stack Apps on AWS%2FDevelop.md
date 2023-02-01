@@ -14,7 +14,9 @@ deck:: [[Cloud Development Nanodegree]]
 	- ### What is an Application Program Interface (API)?
 		- **RESTful APIs** use request paths, types and bodies to perform a specific action
 		- ![image.png](../assets/image_1666345146402_0.png)
-		-
+		- ![image.png](../assets/image_1675244402173_0.png)
+	- ### Other Best Practices
+		- Only use nouns and no verbs. They should
 - ## 3. Standing up a Cloud Capable Server Locally using Node
 	- ### Standing up a Cloud Capable Server
 		- #### Introduction to Node

@@ -1,0 +1,2 @@
+- name: Logseq Publish
+  uses: pengx17/logseq-publish@0.1.7

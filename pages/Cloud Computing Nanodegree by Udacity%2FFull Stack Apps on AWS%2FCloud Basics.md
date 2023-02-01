@@ -17,6 +17,9 @@
 		- Microservices are individual specialized systems (software deployed on specialized infrastructure) designed to accomplish a specific task.  Specific tasks may include things like authentication, image processing, or data management.
 -
 - ## 3. Request Response and APIs
+	- ### Request Response and APIs
+		- ![image.png](../assets/image_1675243528825_0.png)
+		-
 	- ### HTTP Responses
 		- Some common Status Codes
 			- 200 Success
@@ -28,4 +31,6 @@
 			- ....many more
 			- It's important to specify each status in our code
 			- https://www.restapitutorial.com/httpstatuscodes.html
+-
+-
 -

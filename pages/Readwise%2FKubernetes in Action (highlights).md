@@ -750,3 +750,972 @@ tags:: DevOps O'Reilly-Learning
 			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added40-04fig07_alt_k1fWUme.jpg) #flashcard
 			- ([View Highlight](https://read.readwise.io/read/01gpzx2g3snsr28d9r14bzrj99))
 		- -
+- New highlights added [[Wednesday, 01-02-2023]] at 10:04 AM
+	- -
+		- Mention the four valid operators for selecting pods in Kubernetes #flashcard
+			- You can add additional expressions to the selector. As in the example, each expression must contain a key, an operator, and possibly (depending on the operator) a list of values. You’ll see four valid operators:
+			  
+			  •   In—Label’s value must match one of the specified values.
+			  •   NotIn—Label’s value must not match any of the specified values.
+			  •   Exists—Pod must include a label with the specified key (the value isn’t important). When using this operator, you shouldn’t specify the values field.
+			  •   DoesNotExist—Pod must not include a label with the specified key. The values property must not be specified.
+		- ([View Highlight](https://read.readwise.io/read/01gqyz30fch1rg98v7bwng57cf))
+	- -
+	- -
+		- Both ReplicationControllers and ReplicaSets are used for running a specific number of pods deployed anywhere in the Kubernetes cluster. But certain cases exist when you want a pod to run on each and every node in the cluster (and each node needs to run exactly one instance of the pod, as shown in [figure 4.8](https://readwise.io/reader/document_raw_content/26339439#ch04fig08)).
+		  
+		  Figure 4.8. DaemonSets run only a single pod replica on each node, whereas ReplicaSets scatter them around the whole cluster randomly.
+		  
+		  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added41-04fig08_alt_YyBfnOB.jpg)
+		  
+		  Those cases include infrastructure-related pods that perform system-level operations. For example, you’ll want to run a log collector and a resource monitor on every node. Another good example is Kubernetes’ own kube-proxy process, which needs to run on all nodes to make services work.
+		  
+		  Outside of Kubernetes, such processes would usually be started through system init scripts or the systemd daemon during node boot up. On Kubernetes nodes, you can still use systemd to run your system processes, but then you can’t take advantage of all the features Kubernetes provides. #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gqyz9s5kymdhzfc8dhyfjc6f))
+	- -
+	- -
+		- To run a pod on all cluster nodes, you create a DaemonSet object, which is much like a ReplicationController or a ReplicaSet, except that pods created by a DaemonSet already have a target node specified and skip the Kubernetes Scheduler. They aren’t scattered around the cluster randomly.
+		  
+		  A DaemonSet makes sure it creates as many pods as there are nodes and deploys each one on its own node, as shown in [figure 4.8](https://readwise.io/reader/document_raw_content/26339439#ch04fig08). #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gqyzapyykjphkzbh6ed7azf6))
+	- -
+	- -
+		- Let’s imagine having a daemon called ssd-monitor that needs to run on all nodes that contain a solid-state drive (SSD). You’ll create a DaemonSet that runs this daemon on all nodes that are marked as having an SSD. The cluster administrators have added the disk=ssd label to all such nodes, so you’ll create the DaemonSet with a node selector that only selects nodes with that label, as shown in [figure 4.9](https://readwise.io/reader/document_raw_content/26339439#ch04fig09).
+		  
+		  Figure 4.9. Using a DaemonSet with a node selector to deploy system pods only on certain nodes
+		  
+		  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added42-04fig09_alt_DdNtgIC.jpg) #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gqyzhpeqez7gxmkkzxh4ey8b))
+	- -
+	- -
+		- Up to now, we’ve only talked about pods than need to run continuously. You’ll have cases where you only want to run a task that terminates after completing its work. ReplicationControllers, ReplicaSets, and DaemonSets run continuous tasks that are never considered completed. Processes in such pods are restarted when they exit. But in a completable task, after its process terminates, it should not be restarted again.
+		  
+		  4.5.1. Introducing the Job resource
+		  
+		  Kubernetes includes support for this through the Job resource, which is similar to the other resources we’ve discussed in this chapter, but it allows you to run a pod whose container isn’t restarted when the process running inside finishes successfully. Once it does, the pod is considered complete.
+		  
+		  In the event of a node failure, the pods on that node that are managed by a Job will be rescheduled to other nodes the way ReplicaSet pods are. In the event of a failure of the process itself (when the process returns an error exit code), the Job can be configured to either restart the container or not. #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gqyzr572860k5thys5x0y12m))
+	- -
+	- -
+		- A YAML definition of a Job: exporter.yaml
+		  
+		  apiVersion: batch/v1                  ❶
+		  kind: Job                             ❶
+		  metadata:
+		  name: batch-job
+		  spec:                                 ❷
+		  template:
+		    metadata:
+		      labels:                         ❷
+		        app: batch-job                ❷
+		    spec:
+		      restartPolicy: OnFailure        ❸
+		      containers:
+		- ([View Highlight](https://read.readwise.io/read/01gqz00rw8v67emfxk53ejby24))
+	- -
+	- -
+		- Running job pods sequentially
+		  
+		  If you need a Job to run more than once, you set completions to how many times you want the Job’s pod to run. The following listing shows an example.
+		  
+		  Listing 4.12. A Job requiring multiple completions: multi-completion-batch-job.yaml
+		  
+		  apiVersion: batch/v1
+		  kind: Job
+		  metadata:
+		  name: multi-completion-batch-job
+		  spec:
+		  completions: 5                                ❶
+		  template:
+		    <template is the same as in listing 4.11>
+		  
+		  •   ❶ **Setting completions to 5 makes this Job run five pods sequentially.** #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gqz082rvy1wz8dxc571b38ef))
+	- -
+	- -
+		- Running job pods in parallel
+		  
+		  Instead of running single Job pods one after the other, you can also make the Job run multiple pods in parallel. You specify how many pods are allowed to run in parallel with the parallelism Job spec property, as shown in the following listing.
+		  
+		  Listing 4.13. Running Job pods in parallel: multi-completion-parallel-batch-job.yaml
+		  
+		  apiVersion: batch/v1
+		  kind: Job
+		  metadata:
+		  name: multi-completion-batch-job
+		  spec:
+		  completions: 5                      ❶
+		  parallelism: 2                      ❷
+		  template:
+		    <same as in listing 4.11>
+		  
+		  •   ❶ **This job must ensure five pods complete successfully.**
+		  •   ❷ **Up to two pods can run in parallel.** #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gqz08q1kmete2p7mkt2asv84))
+	- -
+	- -
+		- It may happen that the Job or pod is created and run relatively late. You may have a hard requirement for the job to not be started too far over the scheduled time. In that case, you can specify a deadline by specifying the startingDeadlineSeconds field in the CronJob specification as shown in the following listing.
+		  
+		  Listing 4.15. Specifying a startingDeadlineSeconds for a CronJob
+		  
+		  apiVersion: batch/v1beta1
+		  kind: CronJob
+		  spec:
+		  schedule: "0,15,30,45 * * * *"
+		  startingDeadlineSeconds: 15           ❶
+		  ...
+		  
+		  •   ❶ At the latest, the pod must start running at 15 seconds past the scheduled time.
+		  
+		  In the example in [listing 4.15](https://readwise.io/reader/document_raw_content/26339439#ch04ex15), one of the times the job is supposed to run is 10:30:00. If it doesn’t start by 10:30:15 for whatever reason, the job will not run and will be shown as Failed. #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gqz0j7amext8bqzzc6k5yky2))
+	- -
+	- Chapter 5. Services: enabling clients to discover and talk to pods
+		- -
+			- A Kubernetes Service is a resource you create to make a single, constant point of entry to a group of pods providing the same service. Each service has an IP address and port that never change while the service exists. Clients can open connections to that IP and port, and those connections are then routed to one of the pods backing that service. This way, clients of a service don’t need to know the location of individual pods providing the service, allowing those pods to be moved around the cluster at any time. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gqz1376pe44ypqbacm7ch2w7))
+		- -
+		- -
+			- Both internal and external clients usually connect to pods through services.
+			  
+			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added44-05fig01_alt_XYLW9ph.jpg) #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gqz17v184376xty7ky4742ky))
+		- -
+		- -
+			- Creating a service through a YAML descriptor
+			  
+			  Create a file called kubia-svc.yaml with the following listing’s contents.
+			  
+			  Listing 5.1. A definition of a service: kubia-svc.yaml
+			  
+			  apiVersion: v1
+			  kind: Service
+			  metadata:
+			  name: kubia
+			  spec:
+			  ports:
+			- ([View Highlight](https://read.readwise.io/read/01gqz1d70ch8mw87zsq4atenxk))
+		- -
+		- -
+			- Connecting to the service through its FQDN
+			  
+			  To revisit the frontend-backend example, a frontend pod can connect to the backend-database service by opening a connection to the following FQDN:
+			  
+			  backend-database.default.svc.cluster.local
+			  
+			  backend-database corresponds to the service name, default stands for the namespace the service is defined in, and svc.cluster.local is a configurable cluster domain suffix used in all cluster local service names. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr13w7bh1e2srq9sfhefg5q5))
+		- -
+		- -
+			- You can use the curl command to access the kubia service in any of the following ways:
+			  
+			  **root@kubia-3inly:/# curl http://kubia.default.svc.cluster.local**
+			  You've hit kubia-5asi2
+			  
+			  **root@kubia-3inly:/# curl http://kubia.default**
+			  You've hit kubia-3inly
+			  
+			  **root@kubia-3inly:/# curl http://kubia**
+			  You've hit kubia-8awf3 #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr141sssk89790k7rgf9gmxq))
+		- -
+		- -
+			- Pods consuming a service with two external endpoints.
+			  
+			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added47-05fig04_alt_lLFW7t0.jpg) #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr14stqc9jx13sv3b47z7evr))
+		- -
+		- -
+			- Creating an ExternalName service
+			  
+			  To create a service that serves as an alias for an external service, you create a Service resource with the type field set to ExternalName. For example, let’s imagine there’s a public API available at [api.somecompany.com](http://api.somecompany.com). You can define a service that points to it as shown in the following listing.
+			  
+			  Listing 5.10. An ExternalName-type service: external-service-externalname.yaml
+			  
+			  apiVersion: v1
+			  kind: Service
+			  metadata:
+			  name: external-service
+			  spec:
+			  type: ExternalName                         ❶
+			  externalName: someapi.somecompany.com      ❷
+			  ports:
+			- ([View Highlight](https://read.readwise.io/read/01gr1503yf7j8mnm13xphmrwej))
+		- -
+		- -
+			- Exposing a service to external clients
+			  
+			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added48-05fig05_alt_xJOpVxg.jpg)
+			  
+			  You have a few ways to make a service accessible externally:
+			  
+			  •   *Setting the service type to* *NodePort*—For a NodePort service, each cluster node opens a port on the node itself (hence the name) and redirects traffic received on that port to the underlying service. The service isn’t accessible only at the internal cluster IP and port, but also through a dedicated port on all nodes.
+			  •   *Setting the service type to* *LoadBalancer*, *an extension of the* *NodePort* *type*—This makes the service accessible through a dedicated load balancer, provisioned from the cloud infrastructure Kubernetes is running on. The load balancer redirects traffic to the node port across all the nodes. Clients connect to the service through the load balancer’s IP.
+			  •   *Creating an Ingress resource, a radically different mechanism for exposing multiple services through a single IP address*—It operates at the HTTP level (network layer 7) and can thus offer more features than layer 4 services can. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr1547mnpzp0732v7q2vrncq))
+		- -
+		- -
+			- Creating a NodePort service
+			  
+			  You’ll now create a NodePort service to see how you can use it. The following listing shows the YAML for the service.
+			  
+			  Listing 5.11. A NodePort service definition: kubia-svc-nodeport.yaml
+			  
+			  apiVersion: v1
+			  kind: Service
+			  metadata:
+			  name: kubia-nodeport
+			  spec:
+			  type: NodePort             ❶
+			  ports:
+			- ([View Highlight](https://read.readwise.io/read/01gr1579hkn5nkt1nehp95y0hj))
+		- -
+		- -
+			- Creating a LoadBalancer service
+			  
+			  To create a service with a load balancer in front, create the service from the following YAML manifest, as shown in the following listing.
+			  
+			  Listing 5.12. A LoadBalancer-type service: kubia-svc-loadbalancer.yaml
+			  
+			  apiVersion: v1
+			  kind: Service
+			  metadata:
+			  name: kubia-loadbalancer
+			  spec:
+			  type: LoadBalancer                ❶
+			  ports:
+			- ([View Highlight](https://read.readwise.io/read/01gr15mb6fwf1eyr5vnf0wkndf))
+		- -
+		- -
+			- See [figure 5.7](https://readwise.io/reader/document_raw_content/26339439#ch05fig07) to see how HTTP requests are delivered to the pod. External clients (curl in your case) connect to port 80 of the load balancer and get routed to the implicitly assigned node port on one of the nodes. From there, the connection is forwarded to one of the pod instances.
+			  
+			  Figure 5.7. An external client connecting to a LoadBalancer service
+			  
+			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added50-05fig07_alt_6c0nkJ4.jpg) #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr15r8er36w79qrh8qx38b86))
+		- -
+		- -
+			- Understanding why Ingresses are needed
+			  
+			  One important reason is that each LoadBalancer service requires its own load balancer with its own public IP address, whereas an Ingress only requires one, even when providing access to dozens of services. When a client sends an HTTP request to the Ingress, the host and path in the request determine which service the request is forwarded to, as shown in [figure 5.9](https://readwise.io/reader/document_raw_content/26339439#ch05fig09).
+			  
+			  Figure 5.9. Multiple services can be exposed through a single Ingress.
+			  
+			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added52-05fig09_alt_8dyTLSx.jpg) #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr16541d7rwr9py3ak5as2q9))
+		- -
+		- -
+			- You’ve confirmed there’s an Ingress controller running in your cluster, so you can now create an Ingress resource. The following listing shows what the YAML manifest for the Ingress looks like.
+			  
+			  Listing 5.13. An Ingress resource definition: kubia-ingress.yaml
+			  
+			  apiVersion: extensions/v1beta1
+			  kind: Ingress
+			  metadata:
+			  name: kubia
+			  spec:
+			  rules:
+			- ([View Highlight](https://read.readwise.io/read/01gr16hqkg32y7d7e0f3y3kpqg))
+		- -
+		- -
+			- Understanding how Ingresses work
+			  
+			  [Figure 5.10](https://readwise.io/reader/document_raw_content/26339439#ch05fig10) shows how the client connected to one of the pods through the Ingress controller. The client first performed a DNS lookup of kubia.example.com, and the DNS server (or the local operating system) returned the IP of the Ingress controller. The client then sent an HTTP request to the Ingress controller and specified kubia.example.com in the Host header. From that header, the controller determined which service the client is trying to access, looked up the pod IPs through the Endpoints object associated with the service, and forwarded the client’s request to one of the pods.
+			  
+			  Figure 5.10. Accessing pods through an Ingress
+			  
+			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added53-05fig10_alt_RNKLZ5I.jpg)
+			  
+			  As you can see, the Ingress controller didn’t forward the request to the service. It only used it to select a pod. Most, if not all, controllers work like this. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr16thbqf9566x7p2haqafbk))
+		- -
+		- -
+			- Mapping different services to different paths of the same host
+			  
+			  You can map multiple paths on the same host to different services, as shown in the following listing.
+			  
+			  Listing 5.14. Ingress exposing multiple services on same host, but different paths
+			  
+			  ...
+			- ([View Highlight](https://read.readwise.io/read/01gr1715jbhvnpqnr2qyfb8c8c))
+		- -
+		- -
+			- The readiness probe is invoked periodically and determines whether the specific pod should receive client requests or not. When a container’s readiness probe returns success, it’s signaling that the container is ready to accept requests.
+			  
+			  This notion of being ready is obviously something that’s specific to each container. Kubernetes can merely check if the app running in the container responds to a simple GET / request or it can hit a specific URL path, which causes the app to perform a whole list of checks to determine if it’s ready. Such a detailed readiness probe, which takes the app’s specifics into account, is the app developer’s responsibility.
+			  
+			  Types of readiness probes
+			  
+			  Like liveness probes, three types of readiness probes exist:
+			  
+			  •   An *Exec* probe, where a process is executed. The container’s status is determined by the process’ exit status code.
+			  •   An *HTTP GET* probe, which sends an HTTP GET request to the container and the HTTP status code of the response determines whether the container is ready or not.
+			  •   A *TCP Socket* probe, which opens a TCP connection to a specified port of the container. If the connection is established, the container is considered ready.
+			  
+			  Understanding the operation of readiness probes
+			  
+			  When a container is started, Kubernetes can be configured to wait for a configurable amount of time to pass before performing the first readiness check. After that, it invokes the probe periodically and acts based on the result of the readiness probe. If a pod reports that it’s not ready, it’s removed from the service. If the pod then becomes ready again, it’s re-added.
+			  
+			  Unlike liveness probes, if a container fails the readiness check, it won’t be killed or restarted. This is an important distinction between liveness and readiness probes. Liveness probes keep pods healthy by killing off unhealthy containers and replacing them with new, healthy ones, whereas readiness probes make sure that only pods that are ready to serve requests receive them. This is mostly necessary during container start up, but it’s also useful after the container has been running for a while.
+			  
+			  As you can see in [figure 5.11](https://readwise.io/reader/document_raw_content/26339439#ch05fig11), if a pod’s readiness probe fails, the pod is removed from the Endpoints object. Clients connecting to the service will not be redirected to the pod. The effect is the same as when the pod doesn’t match the service’s label selector at all.
+			  
+			  Figure 5.11. A pod whose readiness probe fails is removed as an endpoint of a service.
+			  
+			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added54-05fig11_alt_4BaTm00.jpg) #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr17fwfxxta026p80dgrnpdg))
+		- -
+		- -
+			- Tip
+			  
+			  If you want to add or remove a pod from a service manually, add enabled=true as a label to your pod and to the label selector of your service. Remove the label when you want to remove the pod from the service. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr17sva7zpwmmhrftfgr7ztr))
+		- -
+		- -
+			- Always define a readiness probe
+			  
+			  Before we conclude this section, there are two final notes about readiness probes that I need to emphasize. First, if you don’t add a readiness probe to your pods, they’ll become service endpoints almost immediately. If your application takes too long to start listening for incoming connections, client requests hitting the service will be forwarded to the pod while it’s still starting up and not ready to accept incoming connections. Clients will therefore see “Connection refused” types of errors.
+			  
+			  * * *
+			  
+			  Tip
+			  
+			  You should always define a readiness probe, even if it’s as simple as sending an HTTP request to the base URL. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr17vqp7bbrmyca8s6zpbwnj))
+		- -
+		- -
+			- Let’s use the newly created pod to perform a DNS lookup:
+			  
+			  **$ kubectl exec dnsutils nslookup kubia-headless**
+			  ...
+			  Name:    kubia-headless.default.svc.cluster.local
+			  Address: 10.108.1.4
+			  Name:    kubia-headless.default.svc.cluster.local
+			  Address: 10.108.2.5
+			  
+			  The DNS server returns two different IPs for the kubia-headless.default.svc.cluster.local FQDN. Those are the IPs of the two pods that are reporting being ready. You can confirm this by listing pods with kubectl get pods -o wide, which shows the pods’ IPs.
+			  
+			  This is different from what DNS returns for regular (non-headless) services, such as for your kubia service, where the returned IP is the service’s cluster IP:
+			  
+			  **$ kubectl exec dnsutils nslookup kubia**
+			  ...
+			  Name:    kubia.default.svc.cluster.local
+			  Address: 10.111.249.153
+			  
+			  Although headless services may seem different from regular services, they aren’t that different from the clients’ perspective. Even with a headless service, clients can connect to its pods by connecting to the service’s DNS name, as they can with regular services. But with headless services, because DNS returns the pods’ IPs, clients connect directly to the pods, instead of through the service proxy. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr18e8fcp0qha27ehqf1q2wt))
+		- -
+		- Chapter 6. Volumes: attaching disk storage to containers
+			- -
+				- Kubernetes provides this by defining storage *volumes*. They aren’t top-level resources like pods, but are instead defined as a part of a pod and share the same lifecycle as the pod. This means a volume is created when the pod is started and is destroyed when the pod is deleted. Because of this, a volume’s contents will persist across container restarts. After a container is restarted, the new container can see all the files that were written to the volume by the previous container. Also, if a pod contains multiple containers, the volume can be used by all of them at once. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr1pz02fqdyryg3fcppfnf57))
+			- -
+			- -
+				- Linux allows you to mount a filesystem at arbitrary locations in the file tree. When you do that, the contents of the mounted filesystem are accessible in the directory it’s mounted into. By mounting the same volume into two containers, they can operate on the same files. In your case, you’re mounting two volumes in three containers. By doing this, your three containers can work together and do something useful. Let me explain how.
+				  
+				  Figure 6.2. Three containers sharing two volumes mounted at various mount paths
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added56-06fig02_S38UUd5.jpg)
+				  
+				  First, the pod has a volume called publicHtml. This volume is mounted in the WebServer container at /var/htdocs, because that’s the directory the web server serves files from. The same volume is also mounted in the ContentAgent container, but at /var/html, because that’s where the agent writes the files to. By mounting this single volume like that, the web server will now serve the content generated by the content agent. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr1qa9vrwrx69s205zsmf5wc))
+			- -
+			- -
+				- A pod with two containers sharing the same volume: fortune-pod.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: fortune
+				  spec:
+				  containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr1r8fnj1a4rp9b3h7ksmc1b))
+			- -
+			- -
+				- A pod using a gitRepo volume: gitrepo-volume-pod.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: gitrepo-volume-pod
+				  spec:
+				  containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr1rvkbf79wz51d7bszce0eg))
+			- -
+			- -
+				- A hostPath volume points to a specific file or directory on the node’s filesystem (see [figure 6.4](https://readwise.io/reader/document_raw_content/26339439#ch06fig04)). Pods running on the same node and using the same path in their hostPath volume see the same files.
+				  
+				  Figure 6.4. A hostPath volume mounts a file or directory on the worker node into the container’s filesystem.
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added58-06fig04_alt_gDdEBb8.jpg)
+				  
+				  hostPath volumes are the first type of persistent storage we’re introducing, because both the gitRepo and emptyDir volumes’ contents get deleted when a pod is torn down, whereas a hostPath volume’s contents don’t. If a pod is deleted and the next pod uses a hostPath volume pointing to the same path on the host, the new pod will see whatever was left behind by the previous pod, but only if it’s scheduled to the same node as the first pod.
+				  
+				  If you’re thinking of using a hostPath volume as the place to store a database’s data directory, think again. Because the volume’s contents are stored on a specific node’s filesystem, when the database pod gets rescheduled to another node, it will no longer see the data. This explains why it’s not a good idea to use a hostPath volume for regular pods, because it makes the pod sensitive to what node it’s scheduled to. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr1sdbkdjvgsjqy6krchc2em))
+			- -
+			- -
+				- The reason you created the GCE Persistent Disk volume is because your Kubernetes cluster runs on Google Kubernetes Engine. When you run your cluster elsewhere, you should use other types of volumes, depending on the underlying infrastructure.
+				  
+				  If your Kubernetes cluster is running on Amazon’s AWS EC2, for example, you can use an awsElasticBlockStore volume to provide persistent storage for your pods. If your cluster runs on Microsoft Azure, you can use the azureFile or the azureDisk volume. We won’t go into detail on how to do that here, but it’s virtually the same as in the previous example. First, you need to create the actual underlying storage, and then set the appropriate properties in the volume definition.
+				  
+				  Using an AWS Elastic Block Store volume
+				  
+				  For example, to use an AWS elastic block store instead of the GCE Persistent Disk, you’d only need to change the volume definition as shown in the following listing (see those lines printed in bold).
+				  
+				  Listing 6.7. A pod using an awsElasticBlockStore volume: mongodb-pod-aws.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: mongodb
+				  spec:
+				  volumes:
+				- ([View Highlight](https://read.readwise.io/read/01gr1t8ecknva7xg6j79wxmm0b))
+			- -
+			- -
+				- To enable apps to request storage in a Kubernetes cluster without having to deal with infrastructure specifics, two new resources were introduced. They are Persistent-Volumes and PersistentVolumeClaims. The names may be a bit misleading, because as you’ve seen in the previous few sections, even regular Kubernetes volumes can be used to store persistent data.
+				  
+				  Using a PersistentVolume inside a pod is a little more complex than using a regular pod volume, so let’s illustrate how pods, PersistentVolumeClaims, PersistentVolumes, and the actual underlying storage relate to each other in [figure 6.6](https://readwise.io/reader/document_raw_content/26339439#ch06fig06).
+				  
+				  Figure 6.6. PersistentVolumes are provisioned by cluster admins and consumed by pods through PersistentVolumeClaims.
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added60-06fig06_alt_J9F1TQI.jpg)
+				  
+				  Instead of the developer adding a technology-specific volume to their pod, it’s the cluster administrator who sets up the underlying storage and then registers it in Kubernetes by creating a PersistentVolume resource through the Kubernetes API server. When creating the PersistentVolume, the admin specifies its size and the access modes it supports.
+				  
+				  When a cluster user needs to use persistent storage in one of their pods, they first create a PersistentVolumeClaim manifest, specifying the minimum size and the access mode they require. The user then submits the PersistentVolumeClaim manifest to the Kubernetes API server, and Kubernetes finds the appropriate PersistentVolume and binds the volume to the claim.
+				  
+				  The PersistentVolumeClaim can then be used as one of the volumes inside a pod. Other users cannot use the same PersistentVolume until it has been released by deleting the bound PersistentVolumeClaim #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr1tr6cbnkd583jn27z5a2cr))
+			- -
+			- -
+				- A gcePersistentDisk PersistentVolume: mongodb-pv-gcepd.yaml
+				  
+				  apiVersion: v1
+				  kind: PersistentVolume
+				  metadata:
+				  name: mongodb-pv
+				  spec:
+				  capacity:                                 ❶
+				    storage: 1Gi                            ❶
+				  accessModes:                              ❷
+				- ([View Highlight](https://read.readwise.io/read/01gr1twt8cmrr2qp51d2fad6n3))
+			- -
+			- -
+				- A PersistentVolumeClaim: mongodb-pvc.yaml
+				  
+				  apiVersion: v1
+				  kind: PersistentVolumeClaim
+				  metadata:
+				  name: mongodb-pvc              ❶
+				  spec:
+				  resources:
+				    requests:                    ❷
+				      storage: 1Gi               ❷
+				  accessModes:                   ❸
+				- ([View Highlight](https://read.readwise.io/read/01gr1v8jhzq8et5vgf8wheq67m))
+			- -
+			- -
+				- Note the abbreviations used for the access modes:
+				  
+				  •   RWO—ReadWriteOnce—Only a single node can mount the volume for reading and writing.
+				  •   ROX—ReadOnlyMany—Multiple nodes can mount the volume for reading.
+				  •   RWX—ReadWriteMany—Multiple nodes can mount the volume for both reading and writing.
+				  
+				  * * *
+				  
+				  Note
+				  
+				  RWO, ROX, and RWX pertain to the number of worker nodes that can use the volume at the same time, not to the number of pods! #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr1va6vnsbcxs5y2q3wjbvhm))
+			- -
+			- -
+				- Using a PersistentVolumeClaim in a pod
+				  
+				  The PersistentVolume is now yours to use. Nobody else can claim the same volume until you release it. To use it inside a pod, you need to reference the PersistentVolumeClaim by name inside the pod’s volume (yes, the PersistentVolumeClaim, not the PersistentVolume directly!), as shown in the following listing.
+				  
+				  Listing 6.12. A pod using a PersistentVolumeClaim volume: mongodb-pod-pvc.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: mongodb
+				  spec:
+				  containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr1vhbgkcsant7d87aqmwtxt))
+			- -
+			- -
+				- Using the GCE Persistent Disk directly or through a PVC and PV
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added62-06fig08_alt_wmZQAw9.jpg)
+				  
+				  Consider how using this indirect method of obtaining storage from the infrastructure is much simpler for the application developer (or cluster user). Yes, it does require the additional steps of creating the PersistentVolume and the Persistent-VolumeClaim, but the developer doesn’t have to know anything about the actual storage technology used underneath. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr1vmvzb2sm7wsh2jz9jy2k3))
+			- -
+			- -
+				- You’ve seen how using PersistentVolumes and PersistentVolumeClaims makes it easy to obtain persistent storage without the developer having to deal with the actual storage technology used underneath. But this still requires a cluster administrator to provision the actual storage up front. Luckily, Kubernetes can also perform this job automatically through dynamic provisioning of PersistentVolumes.
+				  
+				  The cluster admin, instead of creating PersistentVolumes, can deploy a PersistentVolume provisioner and define one or more StorageClass objects to let users choose what type of PersistentVolume they want. The users can refer to the StorageClass in their PersistentVolumeClaims and the provisioner will take that into account when provisioning the persistent storage.
+				  
+				  * * *
+				  
+				  Note
+				  
+				  Similar to PersistentVolumes, StorageClass resources aren’t namespaced.
+				  
+				  * * *
+				  
+				  Kubernetes includes provisioners for the most popular cloud providers, so the administrator doesn’t always need to deploy a provisioner. But if Kubernetes is deployed on-premises, a custom provisioner needs to be deployed.
+				  
+				  Instead of the administrator pre-provisioning a bunch of PersistentVolumes, they need to define one or two (or more) StorageClasses and let the system create a new PersistentVolume each time one is requested through a PersistentVolumeClaim. The great thing about this is that it’s impossible to run out of PersistentVolumes (obviously, you can run out of storage space).
+				  
+				  6.6.1. Defining the available storage types through StorageClass resources
+				  
+				  Before a user can create a PersistentVolumeClaim, which will result in a new Persistent-Volume being provisioned, an admin needs to create one or more StorageClass resources. Let’s look at an example of one in the following listing.
+				  
+				  Listing 6.14. A StorageClass definition: storageclass-fast-gcepd.yaml
+				  
+				  apiVersion: storage.k8s.io/v1
+				  kind: StorageClass
+				  metadata:
+				  name: fast
+				  provisioner: kubernetes.io/gce-pd        ❶
+				  parameters:
+				  type: pd-ssd                           ❷
+				  zone: europe-west1-b                   ❷
+				  
+				  •   ❶ The volume plugin to use for provisioning the PersistentVolume
+				  •   ❷ **The parameters passed to the provisioner** #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr1wanxbg8e8hrh216fpg40e))
+			- -
+			- -
+				- To summarize, the best way to attach persistent storage to a pod is to only create the PVC (with an explicitly specified storageClassName if necessary) and the pod (which refers to the PVC by name). Everything else is taken care of by the dynamic PersistentVolume provisioner.
+				  
+				  To get a complete picture of the steps involved in getting a dynamically provisioned PersistentVolume, examine [figure 6.10](https://readwise.io/reader/document_raw_content/26339439#ch06fig10).
+				  
+				  Figure 6.10. The complete picture of dynamic provisioning of PersistentVolumes
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added64-06fig10_alt_lbJce8p.jpg) #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr1x0wn3dj010fa188thstxp))
+			- -
+		- Chapter 7. ConfigMaps and Secrets: configuring applications
+			- -
+				- In a Dockerfile, two instructions define the two parts:
+				  
+				  •   ENTRYPOINT defines the executable invoked when the container is started.
+				  •   CMD specifies the arguments that get passed to the ENTRYPOINT.
+				  
+				  Although you can use the CMD instruction to specify the command you want to execute when the image is run, the correct way is to do it through the ENTRYPOINT instruction and to only specify the CMD if you want to define the default arguments. The image can then be run without specifying any arguments
+				  
+				  **$ docker run <image>**
+				  
+				  or with additional arguments, which override whatever’s set under CMD in the Dockerfile:
+				  
+				  **$ docker run <image> <arguments>** #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3gd78rhntvg9g23tq652jf))
+			- -
+			- -
+				- Specifying the executable and its arguments in Docker vs Kubernetes
+				  
+				  
+				  
+				  Docker
+				  
+				  Kubernetes
+				  
+				  Description
+				  
+				  ENTRYPOINT
+				  
+				  command
+				  
+				  The executable that’s executed inside the container
+				  
+				  CMD
+				  
+				  args
+				  
+				  The arguments passed to the executable #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3gmrgt6pe2fzqbvb5bs9pd))
+			- -
+			- -
+				- Defining an environment variable in a pod: fortune-pod-env.yaml
+				  
+				  kind: Pod
+				  spec:
+				   containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr3gytx2vqx0btv0fhbet635))
+			- -
+			- -
+				- Pods use ConfigMaps through environment variables and configMap volumes.
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added66-07fig02_OehCTBm.jpg) #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3h94m57a501te75a3d165t))
+			- -
+			- -
+				- You can define the map’s entries by passing literals to the kubectl command or you can create the ConfigMap from files stored on your disk. Use a simple literal first:
+				  
+				  **$ kubectl create configmap fortune-config --from-literal=sleep-interval=25**
+				  configmap "fortune-config" created #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3hgs3b1z1zczk33ykzk3tt))
+			- -
+			- -
+				- Pod with env var from a config map: fortune-pod-env-configmap.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: fortune-env-from-configmap
+				  spec:
+				  containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr3ja28s92frkhz2xfh4cnwp))
+			- -
+			- -
+				- Imagine having a ConfigMap with three keys called FOO, BAR, and FOO-BAR. You can expose them all as environment variables by using the envFrom attribute, instead of env the way you did in previous examples. The following listing shows an example.
+				  
+				  Listing 7.10. Pod with env vars from all entries of a ConfigMap
+				  
+				  spec:
+				  containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr3jefb13qg0ycqjntb95krk))
+			- -
+			- -
+				- A pod with ConfigMap entries mounted as files: fortune-pod-configmap-volume.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: fortune-configmap-volume
+				  spec:
+				  containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr3jyra3nwdr8ch1tn8th5cj))
+			- -
+			- -
+				- Luckily, you can populate a configMap volume with only part of the ConfigMap’s entries—in your case, only the my-nginx-config.conf entry. This won’t affect the fortuneloop container, because you’re passing the sleep-interval entry to it through an environment variable and not through the volume.
+				  
+				  To define which entries should be exposed as files in a configMap volume, use the volume’s items attribute as shown in the following listing.
+				  
+				  Listing 7.16. A pod with a specific ConfigMap entry mounted into a file directory: fortune-pod-configmap-volume-with-items.yaml
+				  
+				  volumes:
+				- ([View Highlight](https://read.readwise.io/read/01gr3k2xvstbeet2xbwx8ehp2s))
+			- -
+			- -
+				- We’ve said that one of the drawbacks of using environment variables or command-line arguments as a configuration source is the inability to update them while the process is running. Using a ConfigMap and exposing it through a volume brings the ability to update the configuration without having to recreate the pod or even restart the container.
+				  
+				  When you update a ConfigMap, the files in all the volumes referencing it are updated. It’s then up to the process to detect that they’ve been changed and reload them. But Kubernetes will most likely eventually also support sending a signal to the container after updating the files. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3mx6v3zk2zj4twh9zap6xf))
+			- -
+			- -
+				- YAML definition of the fortune-https pod: fortune-pod-https.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: fortune-https
+				  spec:
+				  containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr3nxa4gv97kcw2kp9kg9s2t))
+			- -
+			- -
+				- Creating a Secret for authenticating with a Docker registry
+				  
+				  Creating a Secret holding the credentials for authenticating with a Docker registry isn’t that different from creating the generic Secret you created in [section 7.5.3](https://readwise.io/reader/document_raw_content/26339439#ch07lev2sec16). You use the same kubectl create secret command, but with a different type and options:
+				  
+				  **$ kubectl create secret docker-registry mydockerhubsecret \**
+				  **--docker-username=myusername --docker-password=mypassword \**
+				  **--docker-email=my.email@provider.com**
+				  
+				  Rather than create a generic secret, you’re creating a docker-registry Secret called mydockerhubsecret. You’re specifying your Docker Hub username, password, and email. If you inspect the contents of the newly created Secret with kubectl describe, you’ll see that it includes a single entry called .dockercfg. This is equivalent to the .dockercfg file in your home directory, which is created by Docker when you run the docker login command.
+				  
+				  Using the docker-registry Secret in a pod definition
+				  
+				  To have Kubernetes use the Secret when pulling images from your private Docker Hub repository, all you need to do is specify the Secret’s name in the pod spec, as shown in the following listing.
+				  
+				  Listing 7.28. A pod definition using an image pull Secret: pod-with-private-image.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: private-pod
+				  spec:
+				  imagePullSecrets:                 ❶
+				- ([View Highlight](https://read.readwise.io/read/01gr3p97ctgn20fexxrhgvw8hv))
+			- -
+		- Chapter 8. Accessing pod metadata and other resources from applications
+			- -
+				- the Kubernetes Downward API. It allows you to pass metadata about the pod and its environment through environment variables or files (in a downwardAPI volume). Don’t be confused by the name. The Downward API isn’t like a REST endpoint that your app needs to hit so it can get the data. It’s a way of having environment variables or files populated with values from the pod’s specification or status, as shown in [figure 8.1](https://readwise.io/reader/document_raw_content/26339439#ch08fig01).
+				  
+				  Figure 8.1. The Downward API exposes pod metadata through environment variables or files.
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added77-08fig01_alt_IVRd6GK.jpg)
+				  
+				  8.1.1. Understanding the available metadata
+				  
+				  The Downward API enables you to expose the pod’s own metadata to the processes running inside that pod. Currently, it allows you to pass the following information to your containers:
+				  
+				  •   The pod’s name
+				  •   The pod’s IP address
+				  •   The namespace the pod belongs to
+				  •   The name of the node the pod is running on
+				  •   The name of the service account the pod is running under
+				  •   The CPU and memory requests for each container
+				  •   The CPU and memory limits for each container
+				  •   The pod’s labels
+				  •   The pod’s annotations #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3sc6x3bm243mk4fc9nh5nb))
+			- -
+			- -
+				- Pod with a downwardAPI volume: downward-api-volume.yaml
+				  
+				  apiVersion: v1
+				  kind: Pod
+				  metadata:
+				  name: downward
+				  labels:                                     ❶
+				    foo: bar                                  ❶
+				  annotations:                                ❶
+				    key1: value1                              ❶
+				    key2: |                                   ❶
+				      multi                                   ❶
+				      line                                    ❶
+				      value                                   ❶
+				  spec:
+				  containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr3ssrq1vgw4qkqdg0zdg8et))
+			- -
+		- Chapter 9. Deployments: updating applications declaratively
+			- -
+				- Deleting old pods and replacing them with new ones
+				  
+				  You already know how to get a ReplicationController to replace all its pod instances with pods running a new version. You probably remember the pod template of a ReplicationController can be updated at any time. When the ReplicationController creates new instances, it uses the updated pod template to create them.
+				  
+				  If you have a ReplicationController managing a set of v1 pods, you can easily replace them by modifying the pod template so it refers to version v2 of the image and then deleting the old pod instances. The ReplicationController will notice that no pods match its label selector and it will spin up new instances. The whole process is shown in [figure 9.2](https://readwise.io/reader/document_raw_content/26339439#ch09fig02).
+				  
+				  Figure 9.2. Updating pods by changing a ReplicationController’s pod template and deleting old Pods
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added85-09fig02_alt_atmHVbl.jpg)
+				  
+				  This is the simplest way to update a set of pods, if you can accept the short downtime between the time the old pods are deleted and new ones are started. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3w1paw7gqhwjdpj5vc69tj))
+			- -
+			- -
+				- If you don’t want to see any downtime and your app supports running multiple versions at once, you can turn the process around and first spin up all the new pods and only then delete the old ones. This will require more hardware resources, because you’ll have double the number of pods running at the same time for a short while.
+				  
+				  This is a slightly more complex method compared to the previous one, but you should be able to do it by combining what you’ve learned about ReplicationControllers and Services so far.
+				  
+				  Switching from the old to the new version at once
+				  
+				  Pods are usually fronted by a Service. It’s possible to have the Service front only the initial version of the pods while you bring up the pods running the new version. Then, once all the new pods are up, you can change the Service’s label selector and have the Service switch over to the new pods, as shown in [figure 9.3](https://readwise.io/reader/document_raw_content/26339439#ch09fig03). This is called a *blue-green deployment*. After switching over, and once you’re sure the new version functions correctly, you’re free to delete the old pods by deleting the old ReplicationController.
+				  
+				  * * *
+				  
+				  Note
+				  
+				  You can change a Service’s pod selector with the kubectl set selector command.
+				  
+				  * * *
+				  
+				  Figure 9.3. Switching a Service from the old pods to the new ones
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added86-09fig03_alt_yTCbKZe.jpg) #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3w5zqz0srmt8qe2wn74n7m))
+			- -
+			- -
+				- Performing a rolling update
+				  
+				  Instead of bringing up all the new pods and deleting the old pods at once, you can also perform a rolling update, which replaces pods step by step. You do this by slowly scaling down the previous ReplicationController and scaling up the new one. In this case, you’ll want the Service’s pod selector to include both the old and the new pods, so it directs requests toward both sets of pods. See [figure 9.4](https://readwise.io/reader/document_raw_content/26339439#ch09fig04).
+				  
+				  Figure 9.4. A rolling update of pods using two ReplicationControllers
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added87-09fig04_alt_fRehAeD.jpg) #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3wat3j7wf1sk8qmzktteym))
+			- -
+			- -
+				- A Deployment definition: kubia-deployment-v1.yaml
+				  
+				  apiVersion: apps/v1beta1          ❶
+				  kind: Deployment                  ❷
+				  metadata:
+				  name: kubia                     ❸
+				  spec:
+				  replicas: 3
+				  template:
+				    metadata:
+				      name: kubia
+				      labels:
+				        app: kubia
+				    spec:
+				      containers:
+				- ([View Highlight](https://read.readwise.io/read/01gr3x7t9frgn6qd7t0w9g7ydx))
+			- -
+			- -
+				- You’re now ready to create the Deployment:
+				  
+				  **$ kubectl create -f kubia-deployment-v1.yaml --record**
+				  deployment "kubia" created
+				  
+				  * * *
+				  
+				  Tip
+				  
+				  Be sure to include the --record command-line option when creating it. This records the command in the revision history, which will be useful later. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3y4b5wcqbtbj87zqt60h20))
+			- -
+			- -
+				- Displaying the status of the deployment rollout
+				  
+				  You can use the usual kubectl get deployment and the kubectl describe deployment commands to see details of the Deployment, but let me point you to an additional command, which is made specifically for checking a Deployment’s status:
+				  
+				  **$ kubectl rollout status deployment kubia**
+				  deployment kubia successfully rolled out
+				  
+				  According to this, the Deployment has been successfully rolled out, so you should see the three pod replicas up and running. Let’s see:
+				  
+				  **$ kubectl get po**
+				  NAME                     READY     STATUS    RESTARTS   AGE
+				  kubia-1506449474-otnnh   1/1       Running   0          14s
+				  kubia-1506449474-vmn7s   1/1       Running   0          14s
+				  kubia-1506449474-xis6m   1/1       Running   0          14s #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3xb2bswj1ajvrvwjp59nat))
+			- -
+			- -
+				- Understanding the awesomeness of Deployments
+				  
+				  Let’s think about what has happened. By changing the pod template in your Deployment resource, you’ve updated your app to a newer version—by changing a single field!
+				  
+				  The controllers running as part of the Kubernetes control plane then performed the update. The process wasn’t performed by the kubectl client, like it was when you used kubectl rolling-update. I don’t know about you, but I think that’s simpler than having to run a special command telling Kubernetes what to do and then waiting around for the process to be completed. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3xvaf5h5fjn7f24a527fp3))
+			- -
+			- -
+				- The events that occurred below the Deployment’s surface during the update are similar to what happened during the kubectl rolling-update. An additional ReplicaSet was created and it was then scaled up slowly, while the previous ReplicaSet was scaled down to zero (the initial and final states are shown in [figure 9.10](https://readwise.io/reader/document_raw_content/26339439#ch09fig10)).
+				  
+				  Figure 9.10. A Deployment at the start and end of a rolling update
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added93-09fig10_alt_cDksNJT.jpg) #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3xy3v1ww2v5grntaef27jx))
+			- -
+			- -
+				- You can’t have your users experiencing internal server errors, so you need to do something about it fast. In [section 9.3.6](https://readwise.io/reader/document_raw_content/26339439#ch09lev2sec11) you’ll see how to block bad rollouts automatically, but for now, let’s see what you can do about your bad rollout manually. Luckily, Deployments make it easy to roll back to the previously deployed version by telling Kubernetes to undo the last rollout of a Deployment:
+				  
+				  **$ kubectl rollout undo deployment kubia**
+				  deployment "kubia" rolled back
+				  
+				  This rolls the Deployment back to the previous revision. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3y1eyjaam0314ge96hz63h))
+			- -
+			- -
+				- The revision history can be displayed with the kubectl rollout history command:
+				  
+				  **$ kubectl rollout history deployment kubia**
+				  deployments "kubia":
+				  REVISION    CHANGE-CAUSE
+				  2           kubectl set image deployment kubia nodejs=luksa/kubia:v2
+				  3           kubectl set image deployment kubia nodejs=luksa/kubia:v3
+				  
+				  Remember the --record command-line option you used when creating the Deployment? Without it, the CHANGE-CAUSE column in the revision history would be empty, making it much harder to figure out what’s behind each revision.
+				  
+				  Rolling back to a specific Deployment revision
+				  
+				  You can roll back to a specific revision by specifying the revision in the undo command. For example, if you want to roll back to the first version, you’d execute the following command:
+				  
+				  **$ kubectl rollout undo deployment kubia --to-revision=1** #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3y6e1qnw23hj2g9azvxgym))
+			- -
+			- -
+				- Remember the inactive ReplicaSet left over when you modified the Deployment the first time? The ReplicaSet represents the first revision of your Deployment. All Replica-Sets created by a Deployment represent the complete revision history, as shown in [figure 9.11](https://readwise.io/reader/document_raw_content/26339439#ch09fig11). Each ReplicaSet stores the complete information of the Deployment at that specific revision, so you shouldn’t delete it manually. If you do, you’ll lose that specific revision from the Deployment’s history, preventing you from rolling back to it.
+				  
+				  Figure 9.11. A Deployment’s ReplicaSets also act as its revision history.
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added94-09fig11_alt_ct0Opmo.jpg)
+				  
+				  But having old ReplicaSets cluttering your ReplicaSet list is not ideal, so the length of the revision history is limited by the revisionHistoryLimit property on the Deployment resource. It defaults to two, so normally only the current and the previous revision are shown in the history (and only the current and the previous ReplicaSet are preserved). Older ReplicaSets are deleted automatically. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3y8kawxwy23jt1xd9ybp07))
+			- -
+			- -
+				- Specifying parameters for the rollingUpdate strategy
+				  
+				  spec:
+				  strategy:
+				    rollingUpdate:
+				      maxSurge: 1
+				      maxUnavailable: 0
+				    type: RollingUpdate
+				  
+				  What these properties do is explained in [table 9.2](https://readwise.io/reader/document_raw_content/26339439#ch09table02).
+				  
+				  Table 9.2. Properties for configuring the rate of the rolling update
+				  
+				  
+				  
+				  Property
+				  
+				  What it does
+				  
+				  maxSurge
+				  
+				  Determines how many pod instances you allow to exist above the desired replica count configured on the Deployment. It defaults to 25%, so there can be at most 25% more pod instances than the desired count. If the desired replica count is set to four, there will never be more than five pod instances running at the same time during an update. When converting a percentage to an absolute number, the number is rounded up. Instead of a percentage, the value can also be an absolute value (for example, one or two additional pods can be allowed).
+				  
+				  maxUnavailable
+				  
+				  Determines how many pod instances can be unavailable relative to the desired replica count during the update. It also defaults to 25%, so the number of available pod instances must never fall below 75% of the desired replica count. Here, when converting a percentage to an absolute number, the number is rounded down. If the desired replica count is set to four and the percentage is 25%, only one pod can be unavailable. There will always be at least three pod instances available to serve requests during the whole rollout. As with maxSurge, you can also specify an absolute value instead of a percentage. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3ydykmz43yfkag1nvwzqta))
+			- -
+			- -
+				- Rolling update of a Deployment with three replicas and default maxSurge and maxUnavailable
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added95-09fig12_alt_VXLD4xs.jpg)
+				  
+				  Understanding the maxUnavailable property
+				  
+				  The extensions/v1beta1 version of Deployments uses different defaults—it sets both maxSurge and maxUnavailable to 1 instead of 25%. In the case of three replicas, maxSurge is the same as before, but maxUnavailable is different (1 instead of 0). This makes the rollout process unwind a bit differently, as shown in [figure 9.13](https://readwise.io/reader/document_raw_content/26339439#ch09fig13).
+				  
+				  Figure 9.13. Rolling update of a Deployment with the maxSurge=1 and maxUnavailable=1
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added96-09fig13_alt_TfvOUw5.jpg)
+				  
+				  In this case, one replica can be unavailable, so if the desired replica count is three, only two of them need to be available. That’s why the rollout process immediately deletes one pod and creates two new ones. This ensures two pods are available and that the maximum number of pods isn’t exceeded (the maximum is four in this case—three plus one from maxSurge). As soon as the two new pods are available, the two remaining old pods are deleted. #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3yjym7kd6zb2v1x0kr2pw2))
+			- -
+			- -
+				- Deployment with a readiness probe: kubia-deployment-v3-with-readinesscheck.yaml
+				  
+				  apiVersion: apps/v1beta1
+				  kind: Deployment
+				  metadata:
+				  name: kubia
+				  spec:
+				  replicas: 3
+				  minReadySeconds: 10                 ❶
+				  strategy:
+				    rollingUpdate:
+				      maxSurge: 1
+				      maxUnavailable: 0               ❷
+				    type: RollingUpdate
+				  template:
+				    metadata:
+				      name: kubia
+				      labels:
+				        app: kubia
+				    spec:
+				      containers:
+				- tags:: [[code]]
+				- ([View Highlight](https://read.readwise.io/read/01gr3z4rhh6yryz3c6d6r1q2fd))
+			- -
+			- -
+				- Aha! There’s your problem (or as you’ll learn soon, your blessing)! The pod is shown as not ready, but I guess you’ve been expecting that, right? What has happened?
+				  
+				  Understanding how a readiness probe prevents bad versions from being rolled out
+				  
+				  As soon as your new pod starts, the readiness probe starts being hit every second (you set the probe’s interval to one second in the pod spec). On the fifth request the readiness probe began failing, because your app starts returning HTTP status code 500 from the fifth request onward.
+				  
+				  As a result, the pod is removed as an endpoint from the service (see [figure 9.14](https://readwise.io/reader/document_raw_content/26339439#ch09fig14)). By the time you start hitting the service in the curl loop, the pod has already been marked as not ready. This explains why you never hit the new pod with curl. And that’s exactly what you want, because you don’t want clients to hit a pod that’s not functioning properly.
+				  
+				  Figure 9.14. Deployment blocked by a failing readiness probe in the new pod
+				  
+				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added97-09fig14_alt_ER2oR2U.jpg) #flashcard
+				- ([View Highlight](https://read.readwise.io/read/01gr3z8t58c20drxnyyvk25e2j))
+			- -
+		- Chapter 10. StatefulSets: deploying replicated stateful applications

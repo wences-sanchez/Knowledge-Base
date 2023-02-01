@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md",
+                "file": "journals/2023_02_01.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md",
+                "file": "journals/2023_02_01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md",
+                "file": "journals/2023_02_01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,17 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md"
+                "file": "journals/2023_02_01.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ccb56b4a0176c67",
+  "active": "6482a18e29aebbf0",
   "lastOpenFiles": [
+    "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md",
     "journals/2023_01_26.md",
     "journals/2023_01_17.md",
     "journals/2022_12_14.md",
@@ -157,7 +157,6 @@
     "journals/2022_12_27.md",
     "journals/2022_12_28.md",
     "test/Test.md",
-    "Readwise/Books/Kubernetes in Action-2.md",
-    "pages/Web Knowledge-Base.md"
+    "Readwise/Books/Kubernetes in Action-2.md"
   ]
 }

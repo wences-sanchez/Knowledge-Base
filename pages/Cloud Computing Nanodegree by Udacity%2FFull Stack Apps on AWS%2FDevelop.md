@@ -1,3 +1,4 @@
+public:: true
 tags:: Udacity, Cloud Development
 deck:: [[Cloud Development Nanodegree]]
 

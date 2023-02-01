@@ -16,7 +16,11 @@ deck:: [[Cloud Development Nanodegree]]
 		- ![image.png](../assets/image_1666345146402_0.png)
 		- ![image.png](../assets/image_1675244402173_0.png)
 	- ### Other Best Practices
-		- Only use nouns and no verbs. They should
+		- Only use nouns and no verbs. They should be plural and consistent
+		- APIs should be versioned:
+			- **{{host}}/api/v0/cars/5**
+		- All responses should include data format (i.e. application/json)
+		-
 - ## 3. Standing up a Cloud Capable Server Locally using Node
 	- ### Standing up a Cloud Capable Server
 		- #### Introduction to Node

@@ -126,3 +126,85 @@ category:: #books
 			- tags:: [[testing]]
 			- ([View Highlight](https://read.readwise.io/read/01gr8yqggd5w9cmtds83xre69n))
 		- -
+- New highlights added [[Thursday, 02-02-2023]] at 1:48 PM
+	- -
+		- symbol
+		  
+		  `symbol` is a relatively new language feature that arrived with one of the latest major JavaScript revisions (ES2015). Symbols don’t come up often in practice; they are used as an alternative to string keys in objects and maps, in places where you want to be extra sure that people are using the right well-known key and didn’t accidentally set the key—think setting a default iterator for your object (`Symbol.iterator`), or overriding at runtime whether or not your object is an instance of something (`Symbol.hasInstance`). Symbols have the type `symbol`, and there isn’t all that much you can do with them:
+		  
+		    let #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gr8zg1zr2y3f8ecqhbtejpa0))
+	- -
+	- -
+		- About duck typing #flashcard
+			- JavaScript is generally *structurally typed*, so TypeScript favors that style of programming over a *nominally typed* style.
+			  
+			  Structural typing
+			  
+			  A style of programming where you just care that an object has certain properties, and not what its name is (nominal typing). Also called *duck typing* in some languages (or, not judging a book by its cover).
+		- ([View Highlight](https://read.readwise.io/read/01gr8zsjyr57cvtt28b1j57na9))
+	- -
+	- -
+		- Example of a class in Typescript #flashcard
+			- let
+			  
+			  `{firstName: string, lastName: string}` describes the *shape* of an object, and both the object literal and the class instance from the last example satisfy that shape, so TypeScript lets us assign a `Person` to `c`.
+		- tags:: [[code]]
+		- ([View Highlight](https://read.readwise.io/read/01gr9019sdpd3qqhqtk6ppbyda))
+	- -
+	- -
+		- What `[key: T] : U` means in TypeScript? #flashcard
+			- Index Signatures
+			  
+			  The `[key: T]: U` syntax is called an *index signature*, and this is the way you tell TypeScript that the given object might contain more keys. The way to read it is, “For this object, all keys of type `T` must have values of type `U`.” Index signatures let you safely add more keys to an object, in addition to any keys that you explicitly declared.
+			  
+			  There is one rule to keep in mind for index signatures: the index signature key’s type (`T`) must be assignable to either `number` or `string`
+		- ([View Highlight](https://read.readwise.io/read/01gr90ebmvsx5aapbgn52x21xq))
+	- -
+	- -
+		- How do you declare objects in TypeScript? #flashcard
+			- To summarize, there are four ways to declare objects in TypeScript:
+			  
+			  1.  Object literal notation (like `{a: string}`), also called a *shape*. Use this when you know which fields your object could have, or when all of your object’s values will have the same type.
+			    
+			  2.  Empty object literal notation (`{}`). Try to avoid this.
+			    
+			  3.  The `object` type. Use this when you just want an object, and don’t care about which fields it has.
+			    
+			  4.  The `Object` type. Try to avoid this.
+			    
+			  
+			  In your TypeScript programs, you should almost always stick to the first way and the third way. Be careful to avoid the second and fourth ways—use a linter to warn about them, complain about them in code reviews, print posters—use your team’s preferred tool to keep them far away from your codebase.
+		- ([View Highlight](https://read.readwise.io/read/01gr90xgqhhb159p1kpm915tym))
+	- -
+	- -
+		- Explain the type aliases in Typescript #flashcard
+			- Type aliases
+			  
+			  Just like you can use variable declarations (`let`, `const`, and `var`) to declare a variable that aliases a value, you can declare a type alias that points to a type. It looks like this:
+			  
+			    type
+			  
+			  `Age` is but a `number`. It can also help make the definition of the `Person` shape easier to understand.
+		- ([View Highlight](https://read.readwise.io/read/01gr914znh94xtsbjpb4e0zrdp))
+	- -
+	- -
+		- ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/31439948/img-idm46320586999832-prts_0302.png)Figure 3-2. Union (|) and intersection (& #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gr91cvgs5tgmpftb41qkryyw))
+	- -
+	- -
+		- About tuples in Typescript #flashcard
+			- Tuples
+			  
+			  Tuples are subtypes of `array`. They’re a special way to type arrays that have fixed lengths, where the values at each index have specific, known types. Unlike most other types, tuples have to be explicitly typed when you declare them. That’s because the JavaScript syntax is the same for tuples and arrays (both use square brackets), and TypeScript already has rules for inferring array types from square brackets:
+			  
+			    let
+		- ([View Highlight](https://read.readwise.io/read/01gr923r9p346hdpc2ef83mj0m))
+	- -
+	- -
+		- About indefinitely arguments in Typescript #flashcard
+			- Tuples also support rest elements, which you can use to type tuples with minimum lengths:
+			  
+			    // A list of strings with at least 1 element
+		- ([View Highlight](https://read.readwise.io/read/01gr92c4rc7snxye7knj5tfj38))
+	- -

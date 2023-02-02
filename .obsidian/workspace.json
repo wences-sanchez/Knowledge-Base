@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coursera/IBM Professional Certificate of DevOps and Software Engineering/Python for Data Science, AI & Development/Web Knowledge-Base.md",
+                "file": "pages/Cloud Computing Nanodegree by Udacity%2FFull Stack Apps on AWS%2FDevelop.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coursera/IBM Professional Certificate of DevOps and Software Engineering/Python for Data Science, AI & Development/Web Knowledge-Base.md",
+                "file": "pages/Cloud Computing Nanodegree by Udacity%2FFull Stack Apps on AWS%2FDevelop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coursera/IBM Professional Certificate of DevOps and Software Engineering/Python for Data Science, AI & Development/Web Knowledge-Base.md",
+                "file": "pages/Cloud Computing Nanodegree by Udacity%2FFull Stack Apps on AWS%2FDevelop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coursera/IBM Professional Certificate of DevOps and Software Engineering/Python for Data Science, AI & Development/Web Knowledge-Base.md"
+                "file": "pages/Cloud Computing Nanodegree by Udacity%2FFull Stack Apps on AWS%2FDevelop.md"
               }
             }
           }
@@ -161,6 +161,8 @@
   },
   "active": "55cc49ef238febe3",
   "lastOpenFiles": [
+    "pages/Readwise%2FCloud Computing Nanodegree by Udacity%2FFull Stack Apps on AWS%2FDevelop (highlights).md",
+    "Coursera/IBM Professional Certificate of DevOps and Software Engineering/Python for Data Science, AI & Development/Web Knowledge-Base.md",
     "pages/Web Knowledge-Base.md",
     "pages/Cloud Computing Nanodegree by Udacity%2FFull Stack Apps on AWS%2FDevelop.md",
     "journals/2023_02_02.md",
@@ -168,8 +170,6 @@
     "pages/IBM Professional Certificate of DevOps and Software Engineering%2FIntroduction to TDD.md",
     "journals/2023_01_26.md",
     "journals/2023_01_17.md",
-    "journals/2022_12_14.md",
-    "journals/2022_12_16.md",
-    "journals/2022_12_21.md"
+    "journals/2022_12_14.md"
   ]
 }

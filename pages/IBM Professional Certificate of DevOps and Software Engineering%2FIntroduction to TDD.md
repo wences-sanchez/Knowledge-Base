@@ -28,6 +28,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 	- ## Welcome
 	- ## Introduction to Testing
 		- ### The Importance of Testing #flashcard
+		  id:: 63db794e-d165-41d7-86e1-a10c47c25058
 			- > "If it's worth building, it's worth testing.
 			  If it's not worth testing, why are you wasting your time working on it?
 			  -- Scott Ambler, agiledata.org
@@ -37,6 +38,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- The time that you are spending now in testing or TDD will save you hours and hours of later debugging
 			- Even when your code is good, you'll depend on third-party dependencies that could break your code -- So test is important!
 		- ### Testing Levels and Release Cycle #flashcard
+		  id:: 63db794e-d32b-44e6-aea9-d5cd1b0e8d4f
 			- At the lowest level, it's **unit testing**
 				- The purpose of this level is to validate that each unit performs as designed
 				- It requires close knowledge of the code
@@ -54,6 +56,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 			- ![image.png](../assets/image_1674476138370_0.png)
 			- ![image.png](../assets/image_1674476191183_0.png)
 		- ### TDD and BDD #flashcard
+		  id:: 63db794e-e66e-48e7-9605-00a9dfa40d7d
 			- **BDD**
 				- Focuses on the behavior of the system from the outside
 				- NOT the minutia of how the system works from the inside
@@ -89,6 +92,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 - # Week 2
   collapsed:: true
 	- ## Introduction to Test Driven Development #flashcard
+	  id:: 63db794e-fb81-453a-8670-b254cbd91853
 		- ### Benefits of Test Driven Development
 			- TDD means that your unit test cases drive the design of your code while developing
 				- It's a design approach to code.
@@ -115,6 +119,7 @@ deck:: [[Coursera::IBM DevOps::Introduction to TDD]]
 						- It also offer test coverage
 	-
 	- ## Methods for Test Driven Development #flashcard
+	  id:: 63db794e-3d9b-4e25-afed-71ae60a78ac0
 		- ### Running tests with Nose
 			- There are two common methods to run Python unit tests:
 				- unittest

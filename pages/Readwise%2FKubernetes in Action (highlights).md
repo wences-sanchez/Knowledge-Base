@@ -753,6 +753,7 @@ tags:: DevOps O'Reilly-Learning
 - New highlights added [[Wednesday, 01-02-2023]] at 10:04 AM
 	- -
 		- Mention the four valid operators for selecting pods in Kubernetes #flashcard
+		  id:: 63dc0fdb-f579-4727-9a98-771b14b0d42f
 			- You can add additional expressions to the selector. As in the example, each expression must contain a key, an operator, and possibly (depending on the operator) a list of values. You’ll see four valid operators:
 			  
 			  •   In—Label’s value must match one of the specified values.
@@ -763,6 +764,7 @@ tags:: DevOps O'Reilly-Learning
 	- -
 	- -
 		- Both ReplicationControllers and ReplicaSets are used for running a specific number of pods deployed anywhere in the Kubernetes cluster. But certain cases exist when you want a pod to run on each and every node in the cluster (and each node needs to run exactly one instance of the pod, as shown in [figure 4.8](https://readwise.io/reader/document_raw_content/26339439#ch04fig08)).
+		  id:: 63dc0fdb-4dbc-4ab0-b189-b5baa2df4a4a
 		  
 		  Figure 4.8. DaemonSets run only a single pod replica on each node, whereas ReplicaSets scatter them around the whole cluster randomly.
 		  
@@ -775,12 +777,14 @@ tags:: DevOps O'Reilly-Learning
 	- -
 	- -
 		- To run a pod on all cluster nodes, you create a DaemonSet object, which is much like a ReplicationController or a ReplicaSet, except that pods created by a DaemonSet already have a target node specified and skip the Kubernetes Scheduler. They aren’t scattered around the cluster randomly.
+		  id:: 63dc0fdb-e390-4f94-a27c-1f5e9e44786b
 		  
 		  A DaemonSet makes sure it creates as many pods as there are nodes and deploys each one on its own node, as shown in [figure 4.8](https://readwise.io/reader/document_raw_content/26339439#ch04fig08). #flashcard
 		- ([View Highlight](https://read.readwise.io/read/01gqyzapyykjphkzbh6ed7azf6))
 	- -
 	- -
 		- Let’s imagine having a daemon called ssd-monitor that needs to run on all nodes that contain a solid-state drive (SSD). You’ll create a DaemonSet that runs this daemon on all nodes that are marked as having an SSD. The cluster administrators have added the disk=ssd label to all such nodes, so you’ll create the DaemonSet with a node selector that only selects nodes with that label, as shown in [figure 4.9](https://readwise.io/reader/document_raw_content/26339439#ch04fig09).
+		  id:: 63dc0fdb-3473-40be-8c55-713ee4e0b32f
 		  
 		  Figure 4.9. Using a DaemonSet with a node selector to deploy system pods only on certain nodes
 		  
@@ -789,6 +793,7 @@ tags:: DevOps O'Reilly-Learning
 	- -
 	- -
 		- Up to now, we’ve only talked about pods than need to run continuously. You’ll have cases where you only want to run a task that terminates after completing its work. ReplicationControllers, ReplicaSets, and DaemonSets run continuous tasks that are never considered completed. Processes in such pods are restarted when they exit. But in a completable task, after its process terminates, it should not be restarted again.
+		  id:: 63dc0fdb-ac5e-4fad-a1ca-625bd873bd32
 		  
 		  4.5.1. Introducing the Job resource
 		  
@@ -816,6 +821,7 @@ tags:: DevOps O'Reilly-Learning
 	- -
 	- -
 		- Running job pods sequentially
+		  id:: 63dc0fdb-bea7-4bc0-95b0-60f4aff005fd
 		  
 		  If you need a Job to run more than once, you set completions to how many times you want the Job’s pod to run. The following listing shows an example.
 		  
@@ -835,6 +841,7 @@ tags:: DevOps O'Reilly-Learning
 	- -
 	- -
 		- Running job pods in parallel
+		  id:: 63dc0fdb-ff34-4c91-b9cf-9d4d3fbd00d9
 		  
 		  Instead of running single Job pods one after the other, you can also make the Job run multiple pods in parallel. You specify how many pods are allowed to run in parallel with the parallelism Job spec property, as shown in the following listing.
 		  
@@ -856,6 +863,7 @@ tags:: DevOps O'Reilly-Learning
 	- -
 	- -
 		- It may happen that the Job or pod is created and run relatively late. You may have a hard requirement for the job to not be started too far over the scheduled time. In that case, you can specify a deadline by specifying the startingDeadlineSeconds field in the CronJob specification as shown in the following listing.
+		  id:: 63dc0fdb-4eee-458b-be7d-92caf4ba1b64
 		  
 		  Listing 4.15. Specifying a startingDeadlineSeconds for a CronJob
 		  
@@ -874,10 +882,12 @@ tags:: DevOps O'Reilly-Learning
 	- Chapter 5. Services: enabling clients to discover and talk to pods
 		- -
 			- A Kubernetes Service is a resource you create to make a single, constant point of entry to a group of pods providing the same service. Each service has an IP address and port that never change while the service exists. Clients can open connections to that IP and port, and those connections are then routed to one of the pods backing that service. This way, clients of a service don’t need to know the location of individual pods providing the service, allowing those pods to be moved around the cluster at any time. #flashcard
+			  id:: 63dc0fdb-c35c-4258-bb23-c67b04443277
 			- ([View Highlight](https://read.readwise.io/read/01gqz1376pe44ypqbacm7ch2w7))
 		- -
 		- -
 			- Both internal and external clients usually connect to pods through services.
+			  id:: 63dc0fdb-62a5-4e6f-a47d-ae4db6f6824c
 			  
 			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added44-05fig01_alt_XYLW9ph.jpg) #flashcard
 			- ([View Highlight](https://read.readwise.io/read/01gqz17v184376xty7ky4742ky))
@@ -899,6 +909,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- Connecting to the service through its FQDN
+			  id:: 63dc0fdb-65ed-4aa7-934a-1e39be32a4c5
 			  
 			  To revisit the frontend-backend example, a frontend pod can connect to the backend-database service by opening a connection to the following FQDN:
 			  
@@ -909,6 +920,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- You can use the curl command to access the kubia service in any of the following ways:
+			  id:: 63dc0fdb-f739-44e9-a0be-00100b9e4fd7
 			  
 			  **root@kubia-3inly:/# curl http://kubia.default.svc.cluster.local**
 			  You've hit kubia-5asi2
@@ -922,6 +934,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- Pods consuming a service with two external endpoints.
+			  id:: 63dc0fdb-63d7-4d68-8f88-f45cf9a6d99b
 			  
 			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added47-05fig04_alt_lLFW7t0.jpg) #flashcard
 			- ([View Highlight](https://read.readwise.io/read/01gr14stqc9jx13sv3b47z7evr))
@@ -945,6 +958,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- Exposing a service to external clients
+			  id:: 63dc0fdb-f1f3-4e88-8da6-95485b6e5727
 			  
 			  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added48-05fig05_alt_xJOpVxg.jpg)
 			  
@@ -989,6 +1003,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- See [figure 5.7](https://readwise.io/reader/document_raw_content/26339439#ch05fig07) to see how HTTP requests are delivered to the pod. External clients (curl in your case) connect to port 80 of the load balancer and get routed to the implicitly assigned node port on one of the nodes. From there, the connection is forwarded to one of the pod instances.
+			  id:: 63dc0fdb-ade4-406d-9890-096fd16b606f
 			  
 			  Figure 5.7. An external client connecting to a LoadBalancer service
 			  
@@ -997,6 +1012,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- Understanding why Ingresses are needed
+			  id:: 63dc0fdb-9908-4d05-bcc1-fcfcdfa35e07
 			  
 			  One important reason is that each LoadBalancer service requires its own load balancer with its own public IP address, whereas an Ingress only requires one, even when providing access to dozens of services. When a client sends an HTTP request to the Ingress, the host and path in the request determine which service the request is forwarded to, as shown in [figure 5.9](https://readwise.io/reader/document_raw_content/26339439#ch05fig09).
 			  
@@ -1020,6 +1036,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- Understanding how Ingresses work
+			  id:: 63dc0fdb-9a6d-4687-9860-7590da25607d
 			  
 			  [Figure 5.10](https://readwise.io/reader/document_raw_content/26339439#ch05fig10) shows how the client connected to one of the pods through the Ingress controller. The client first performed a DNS lookup of kubia.example.com, and the DNS server (or the local operating system) returned the IP of the Ingress controller. The client then sent an HTTP request to the Ingress controller and specified kubia.example.com in the Host header. From that header, the controller determined which service the client is trying to access, looked up the pod IPs through the Endpoints object associated with the service, and forwarded the client’s request to one of the pods.
 			  
@@ -1042,6 +1059,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- The readiness probe is invoked periodically and determines whether the specific pod should receive client requests or not. When a container’s readiness probe returns success, it’s signaling that the container is ready to accept requests.
+			  id:: 63dc0fdb-66cb-4086-8f50-1dcff369a7b4
 			  
 			  This notion of being ready is obviously something that’s specific to each container. Kubernetes can merely check if the app running in the container responds to a simple GET / request or it can hit a specific URL path, which causes the app to perform a whole list of checks to determine if it’s ready. Such a detailed readiness probe, which takes the app’s specifics into account, is the app developer’s responsibility.
 			  
@@ -1068,12 +1086,14 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- Tip
+			  id:: 63dc0fdb-7b28-4e25-bc44-08afa8524c94
 			  
 			  If you want to add or remove a pod from a service manually, add enabled=true as a label to your pod and to the label selector of your service. Remove the label when you want to remove the pod from the service. #flashcard
 			- ([View Highlight](https://read.readwise.io/read/01gr17sva7zpwmmhrftfgr7ztr))
 		- -
 		- -
 			- Always define a readiness probe
+			  id:: 63dc0fdb-bdf6-498f-8e9c-961145fd170c
 			  
 			  Before we conclude this section, there are two final notes about readiness probes that I need to emphasize. First, if you don’t add a readiness probe to your pods, they’ll become service endpoints almost immediately. If your application takes too long to start listening for incoming connections, client requests hitting the service will be forwarded to the pod while it’s still starting up and not ready to accept incoming connections. Clients will therefore see “Connection refused” types of errors.
 			  
@@ -1086,6 +1106,7 @@ tags:: DevOps O'Reilly-Learning
 		- -
 		- -
 			- Let’s use the newly created pod to perform a DNS lookup:
+			  id:: 63dc0fdb-009c-4233-bea5-1ee5be9a149d
 			  
 			  **$ kubectl exec dnsutils nslookup kubia-headless**
 			  ...
@@ -1109,10 +1130,12 @@ tags:: DevOps O'Reilly-Learning
 		- Chapter 6. Volumes: attaching disk storage to containers
 			- -
 				- Kubernetes provides this by defining storage *volumes*. They aren’t top-level resources like pods, but are instead defined as a part of a pod and share the same lifecycle as the pod. This means a volume is created when the pod is started and is destroyed when the pod is deleted. Because of this, a volume’s contents will persist across container restarts. After a container is restarted, the new container can see all the files that were written to the volume by the previous container. Also, if a pod contains multiple containers, the volume can be used by all of them at once. #flashcard
+				  id:: 63dc0fdb-cbe9-4ece-acbc-66f21fc66ef5
 				- ([View Highlight](https://read.readwise.io/read/01gr1pz02fqdyryg3fcppfnf57))
 			- -
 			- -
 				- Linux allows you to mount a filesystem at arbitrary locations in the file tree. When you do that, the contents of the mounted filesystem are accessible in the directory it’s mounted into. By mounting the same volume into two containers, they can operate on the same files. In your case, you’re mounting two volumes in three containers. By doing this, your three containers can work together and do something useful. Let me explain how.
+				  id:: 63dc0fdb-18a8-4478-b1a4-64590a920479
 				  
 				  Figure 6.2. Three containers sharing two volumes mounted at various mount paths
 				  
@@ -1145,6 +1168,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- A hostPath volume points to a specific file or directory on the node’s filesystem (see [figure 6.4](https://readwise.io/reader/document_raw_content/26339439#ch06fig04)). Pods running on the same node and using the same path in their hostPath volume see the same files.
+				  id:: 63dc0fdb-f515-461b-a228-0c82532642f9
 				  
 				  Figure 6.4. A hostPath volume mounts a file or directory on the worker node into the container’s filesystem.
 				  
@@ -1176,6 +1200,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- To enable apps to request storage in a Kubernetes cluster without having to deal with infrastructure specifics, two new resources were introduced. They are Persistent-Volumes and PersistentVolumeClaims. The names may be a bit misleading, because as you’ve seen in the previous few sections, even regular Kubernetes volumes can be used to store persistent data.
+				  id:: 63dc0fdb-ce0a-4286-87b5-d6204f90159f
 				  
 				  Using a PersistentVolume inside a pod is a little more complex than using a regular pod volume, so let’s illustrate how pods, PersistentVolumeClaims, PersistentVolumes, and the actual underlying storage relate to each other in [figure 6.6](https://readwise.io/reader/document_raw_content/26339439#ch06fig06).
 				  
@@ -1219,6 +1244,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Note the abbreviations used for the access modes:
+				  id:: 63dc0fdb-d536-48fc-83f7-0d5ad66c9aca
 				  
 				  •   RWO—ReadWriteOnce—Only a single node can mount the volume for reading and writing.
 				  •   ROX—ReadOnlyMany—Multiple nodes can mount the volume for reading.
@@ -1248,6 +1274,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Using the GCE Persistent Disk directly or through a PVC and PV
+				  id:: 63dc0fdb-09ee-44ef-9bda-8f5805cfb3aa
 				  
 				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added62-06fig08_alt_wmZQAw9.jpg)
 				  
@@ -1256,6 +1283,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- You’ve seen how using PersistentVolumes and PersistentVolumeClaims makes it easy to obtain persistent storage without the developer having to deal with the actual storage technology used underneath. But this still requires a cluster administrator to provision the actual storage up front. Luckily, Kubernetes can also perform this job automatically through dynamic provisioning of PersistentVolumes.
+				  id:: 63dc0fdb-28bd-4e41-ad60-8352a45d50de
 				  
 				  The cluster admin, instead of creating PersistentVolumes, can deploy a PersistentVolume provisioner and define one or more StorageClass objects to let users choose what type of PersistentVolume they want. The users can refer to the StorageClass in their PersistentVolumeClaims and the provisioner will take that into account when provisioning the persistent storage.
 				  
@@ -1292,6 +1320,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- To summarize, the best way to attach persistent storage to a pod is to only create the PVC (with an explicitly specified storageClassName if necessary) and the pod (which refers to the PVC by name). Everything else is taken care of by the dynamic PersistentVolume provisioner.
+				  id:: 63dc0fdb-6404-4419-aea8-b28f6815e439
 				  
 				  To get a complete picture of the steps involved in getting a dynamically provisioned PersistentVolume, examine [figure 6.10](https://readwise.io/reader/document_raw_content/26339439#ch06fig10).
 				  
@@ -1303,6 +1332,7 @@ tags:: DevOps O'Reilly-Learning
 		- Chapter 7. ConfigMaps and Secrets: configuring applications
 			- -
 				- In a Dockerfile, two instructions define the two parts:
+				  id:: 63dc0fdb-edf4-4ba5-877f-bf3800152e37
 				  
 				  •   ENTRYPOINT defines the executable invoked when the container is started.
 				  •   CMD specifies the arguments that get passed to the ENTRYPOINT.
@@ -1318,6 +1348,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Specifying the executable and its arguments in Docker vs Kubernetes
+				  id:: 63dc0fdb-e904-4046-8f34-68bb31142c70
 				  
 				  
 				  
@@ -1350,12 +1381,14 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Pods use ConfigMaps through environment variables and configMap volumes.
+				  id:: 63dc0fdb-beba-4c91-a97e-484ef76bf636
 				  
 				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added66-07fig02_OehCTBm.jpg) #flashcard
 				- ([View Highlight](https://read.readwise.io/read/01gr3h94m57a501te75a3d165t))
 			- -
 			- -
 				- You can define the map’s entries by passing literals to the kubectl command or you can create the ConfigMap from files stored on your disk. Use a simple literal first:
+				  id:: 63dc0fdb-90a3-4583-bb88-6a41165129e8
 				  
 				  **$ kubectl create configmap fortune-config --from-literal=sleep-interval=25**
 				  configmap "fortune-config" created #flashcard
@@ -1404,6 +1437,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- We’ve said that one of the drawbacks of using environment variables or command-line arguments as a configuration source is the inability to update them while the process is running. Using a ConfigMap and exposing it through a volume brings the ability to update the configuration without having to recreate the pod or even restart the container.
+				  id:: 63dc0fdb-f406-4054-96b9-fca3dca65b20
 				  
 				  When you update a ConfigMap, the files in all the volumes referencing it are updated. It’s then up to the process to detect that they’ve been changed and reload them. But Kubernetes will most likely eventually also support sending a signal to the container after updating the files. #flashcard
 				- ([View Highlight](https://read.readwise.io/read/01gr3mx6v3zk2zj4twh9zap6xf))
@@ -1447,6 +1481,7 @@ tags:: DevOps O'Reilly-Learning
 		- Chapter 8. Accessing pod metadata and other resources from applications
 			- -
 				- the Kubernetes Downward API. It allows you to pass metadata about the pod and its environment through environment variables or files (in a downwardAPI volume). Don’t be confused by the name. The Downward API isn’t like a REST endpoint that your app needs to hit so it can get the data. It’s a way of having environment variables or files populated with values from the pod’s specification or status, as shown in [figure 8.1](https://readwise.io/reader/document_raw_content/26339439#ch08fig01).
+				  id:: 63dc0fdb-297e-41c2-a538-d672f19ef8fd
 				  
 				  Figure 8.1. The Downward API exposes pod metadata through environment variables or files.
 				  
@@ -1489,6 +1524,7 @@ tags:: DevOps O'Reilly-Learning
 		- Chapter 9. Deployments: updating applications declaratively
 			- -
 				- Deleting old pods and replacing them with new ones
+				  id:: 63dc0fdb-10f7-4621-a40d-274287f020dd
 				  
 				  You already know how to get a ReplicationController to replace all its pod instances with pods running a new version. You probably remember the pod template of a ReplicationController can be updated at any time. When the ReplicationController creates new instances, it uses the updated pod template to create them.
 				  
@@ -1503,6 +1539,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- If you don’t want to see any downtime and your app supports running multiple versions at once, you can turn the process around and first spin up all the new pods and only then delete the old ones. This will require more hardware resources, because you’ll have double the number of pods running at the same time for a short while.
+				  id:: 63dc0fdb-f9e7-47a0-a32b-5da05443d23b
 				  
 				  This is a slightly more complex method compared to the previous one, but you should be able to do it by combining what you’ve learned about ReplicationControllers and Services so far.
 				  
@@ -1525,6 +1562,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Performing a rolling update
+				  id:: 63dc0fdb-f04c-4cc8-b067-e6ab00573cc4
 				  
 				  Instead of bringing up all the new pods and deleting the old pods at once, you can also perform a rolling update, which replaces pods step by step. You do this by slowly scaling down the previous ReplicationController and scaling up the new one. In this case, you’ll want the Service’s pod selector to include both the old and the new pods, so it directs requests toward both sets of pods. See [figure 9.4](https://readwise.io/reader/document_raw_content/26339439#ch09fig04).
 				  
@@ -1553,6 +1591,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- You’re now ready to create the Deployment:
+				  id:: 63dc0fdb-4d9d-416b-889a-56627b1cb0e9
 				  
 				  **$ kubectl create -f kubia-deployment-v1.yaml --record**
 				  deployment "kubia" created
@@ -1566,6 +1605,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Displaying the status of the deployment rollout
+				  id:: 63dc0fdb-92a1-42fd-9a3d-7b4a5f66e63b
 				  
 				  You can use the usual kubectl get deployment and the kubectl describe deployment commands to see details of the Deployment, but let me point you to an additional command, which is made specifically for checking a Deployment’s status:
 				  
@@ -1583,6 +1623,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Understanding the awesomeness of Deployments
+				  id:: 63dc0fdb-4dfe-43ae-8459-4ce0b9f1e79a
 				  
 				  Let’s think about what has happened. By changing the pod template in your Deployment resource, you’ve updated your app to a newer version—by changing a single field!
 				  
@@ -1591,6 +1632,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- The events that occurred below the Deployment’s surface during the update are similar to what happened during the kubectl rolling-update. An additional ReplicaSet was created and it was then scaled up slowly, while the previous ReplicaSet was scaled down to zero (the initial and final states are shown in [figure 9.10](https://readwise.io/reader/document_raw_content/26339439#ch09fig10)).
+				  id:: 63dc0fdb-6d06-4b04-ad6b-f1e706ac4fb2
 				  
 				  Figure 9.10. A Deployment at the start and end of a rolling update
 				  
@@ -1599,6 +1641,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- You can’t have your users experiencing internal server errors, so you need to do something about it fast. In [section 9.3.6](https://readwise.io/reader/document_raw_content/26339439#ch09lev2sec11) you’ll see how to block bad rollouts automatically, but for now, let’s see what you can do about your bad rollout manually. Luckily, Deployments make it easy to roll back to the previously deployed version by telling Kubernetes to undo the last rollout of a Deployment:
+				  id:: 63dc0fdb-4f28-42c0-b1f2-51c309d8a9c9
 				  
 				  **$ kubectl rollout undo deployment kubia**
 				  deployment "kubia" rolled back
@@ -1608,6 +1651,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- The revision history can be displayed with the kubectl rollout history command:
+				  id:: 63dc0fdb-6a87-4355-8511-e8e861bde18c
 				  
 				  **$ kubectl rollout history deployment kubia**
 				  deployments "kubia":
@@ -1626,6 +1670,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Remember the inactive ReplicaSet left over when you modified the Deployment the first time? The ReplicaSet represents the first revision of your Deployment. All Replica-Sets created by a Deployment represent the complete revision history, as shown in [figure 9.11](https://readwise.io/reader/document_raw_content/26339439#ch09fig11). Each ReplicaSet stores the complete information of the Deployment at that specific revision, so you shouldn’t delete it manually. If you do, you’ll lose that specific revision from the Deployment’s history, preventing you from rolling back to it.
+				  id:: 63dc0fdb-844b-438a-b5ee-e8057a271445
 				  
 				  Figure 9.11. A Deployment’s ReplicaSets also act as its revision history.
 				  
@@ -1636,6 +1681,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Specifying parameters for the rollingUpdate strategy
+				  id:: 63dc0fdb-7c80-47bf-a926-bf35fcdd1800
 				  
 				  spec:
 				  strategy:
@@ -1665,6 +1711,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Rolling update of a Deployment with three replicas and default maxSurge and maxUnavailable
+				  id:: 63dc0fdb-d877-497c-95a3-d5b41bae91ee
 				  
 				  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added95-09fig12_alt_VXLD4xs.jpg)
 				  
@@ -1706,6 +1753,7 @@ tags:: DevOps O'Reilly-Learning
 			- -
 			- -
 				- Aha! There’s your problem (or as you’ll learn soon, your blessing)! The pod is shown as not ready, but I guess you’ve been expecting that, right? What has happened?
+				  id:: 63dc0fdb-d7e1-41a9-912d-8f560b6b9668
 				  
 				  Understanding how a readiness probe prevents bad versions from being rolled out
 				  
@@ -1722,6 +1770,7 @@ tags:: DevOps O'Reilly-Learning
 - New highlights added [[Thursday, 02-02-2023]] at 12:48 PM
 	- -
 		- Instead of using a ReplicaSet to run these types of pods, you create a StatefulSet resource, which is specifically tailored to applications where instances of the application must be treated as non-fungible individuals, with each one having a stable name and state.
+		  id:: 63dc0fdb-ecee-4911-80c7-f069cf500b57
 		  
 		  10.2.1. Comparing StatefulSets with ReplicaSets
 		  
@@ -1734,6 +1783,7 @@ tags:: DevOps O'Reilly-Learning
 	- -
 	- -
 		- But in contrast to ReplicaSets, the replacement pod gets the same name and hostname as the pod that has disappeared (this distinction between ReplicaSets and StatefulSets is illustrated in [figure 10.6](https://readwise.io/reader/document_raw_content/26339439#ch10fig06)).
+		  id:: 63dc0fdb-879f-46b7-a9a1-cb77dbe99bb1
 		  
 		  Figure 10.6. A StatefulSet replaces a lost pod with a new one with the same identity, whereas a ReplicaSet replaces it with a completely new unrelated pod.
 		  
@@ -1744,6 +1794,7 @@ tags:: DevOps O'Reilly-Learning
 	- -
 	- -
 		- The StatefulSet has to create the PersistentVolumeClaims as well, the same way it’s creating the pods. For this reason, a StatefulSet can also have one or more volume claim templates, which enable it to stamp out PersistentVolumeClaims along with each pod instance (see [figure 10.8](https://readwise.io/reader/document_raw_content/26339439#ch10fig08)).
+		  id:: 63dc0fdb-2bb4-4d90-aae5-850c7ae5512a
 		  
 		  Figure 10.8. A StatefulSet creates both pods and PersistentVolumeClaims.
 		  
@@ -1760,6 +1811,7 @@ tags:: DevOps O'Reilly-Learning
 	- -
 	- -
 		- StatefulSets don’t delete PersistentVolumeClaims when scaling down; then they reattach them when scaling back up.
+		  id:: 63dc0fdb-31c9-4c79-8ae3-3bff386cbd0a
 		  
 		  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added106-10fig09_alt_gPs7iV2.jpg) #flashcard
 		- ([View Highlight](https://read.readwise.io/read/01gr4bp3zkgkr1c821sf7phhr6))

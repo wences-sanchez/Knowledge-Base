@@ -96,3 +96,33 @@ category:: #books
 				  This gradual typing is really useful for migrating legacy codebases from untyped JavaScript to typed TypeScript (more on that in [“Gradually Migrating from JavaScript to TypeScript”](#migrating-to-typescript)), but unless you’re in the middle of migrating your codebase, you should aim for 100% type coverage. #flashcard
 				- ([View Highlight](https://read.readwise.io/read/01gr8vac0j5t4184vds49egtee))
 			- -
+- New highlights added [[Thursday, 02-02-2023]] at 12:48 PM
+	- Chapter 3. All About Types
+		- -
+			- What is a type literal in TypeScript? #flashcard
+				- Type literal
+				  
+				  A type that represents a single value and nothing else.
+			- ([View Highlight](https://read.readwise.io/read/01gr8ybpaypkavad4rq25sk4j6))
+		- -
+		- -
+			- bigint
+			  
+			  `bigint` is a newcomer to JavaScript and TypeScript: it lets you work with large integers without running into rounding errors. While the `number` type can only represent whole numbers up to 253, `bigint` can represent integers bigger than that too. The `bigint` type is the set of all BigInts, and supports things like addition (`+`), subtraction (`-`), multiplication (*), division (`/`), and comparison (`<`). Use it like this:
+			  
+			    let
+			  
+			  Like with `boolean` and `number`, there are four ways to declare bigints. Try to let TypeScript infer your bigint’s type when you can.
+			  
+			  Warning
+			  
+			  At the time of writing, `bigint` is not yet natively supported by every JavaScript engine. If your application relies on `bigint`, be careful to check whether or not it’s supported by your target platform. #flashcard
+			- ([View Highlight](https://read.readwise.io/read/01gr8ym0hm2nnkk62wepg2vwc2))
+		- -
+		- -
+			- How exactly do we specify in TypeScript the type of a variable?
+			  With `var: type`. #flashcard
+				- `let` `a` `=` `'hello'` `// string` `var` `b` `=` `'billy'` `// string` `const` `c` `=` `'!'` `// '!'` `let` `d` `=` `a` `+` `' '` `+` `b` `+` `c` `// string` `let` `e`: `string` `=` `'zoom'` `// string` `let` `f``:` `'john'` `=` `'john'` `// 'john'` `let` `g``:` `'john'` `=` `'zoe'` `// Error TS2322: Type "zoe" is not assignable` `// to type "john".`
+			- tags:: [[testing]]
+			- ([View Highlight](https://read.readwise.io/read/01gr8yqggd5w9cmtds83xre69n))
+		- -

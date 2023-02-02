@@ -1719,3 +1719,66 @@ tags:: DevOps O'Reilly-Learning
 				- ([View Highlight](https://read.readwise.io/read/01gr3z8t58c20drxnyyvk25e2j))
 			- -
 		- Chapter 10. StatefulSets: deploying replicated stateful applications
+- New highlights added [[Thursday, 02-02-2023]] at 12:48 PM
+	- -
+		- Instead of using a ReplicaSet to run these types of pods, you create a StatefulSet resource, which is specifically tailored to applications where instances of the application must be treated as non-fungible individuals, with each one having a stable name and state.
+		  
+		  10.2.1. Comparing StatefulSets with ReplicaSets
+		  
+		  To understand the purpose of StatefulSets, it’s best to compare them to ReplicaSets or ReplicationControllers. But first let me explain them with a little analogy that’s widely used in the field.
+		  
+		  Understanding stateful pods with the pets vs. cattle analogy
+		  
+		  You may have already heard of the pets vs. cattle analogy. If not, let me explain it. We can treat our apps either as pets or as cattle. #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gr4asp5wfnt5f8txpnzpeyss))
+	- -
+	- -
+		- But in contrast to ReplicaSets, the replacement pod gets the same name and hostname as the pod that has disappeared (this distinction between ReplicaSets and StatefulSets is illustrated in [figure 10.6](https://readwise.io/reader/document_raw_content/26339439#ch10fig06)).
+		  
+		  Figure 10.6. A StatefulSet replaces a lost pod with a new one with the same identity, whereas a ReplicaSet replaces it with a completely new unrelated pod.
+		  
+		  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added103-10fig06_alt_3WjALxq.jpg)
+		  
+		  The new pod isn’t necessarily scheduled to the same node, but as you learned early on, what node a pod runs on shouldn’t matter. This holds true even for stateful pods. Even if the pod is scheduled to a different node, it will still be available and reachable under the same hostname as before. #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gr4bb4s0j7pf2hh8bzxht0zt))
+	- -
+	- -
+		- The StatefulSet has to create the PersistentVolumeClaims as well, the same way it’s creating the pods. For this reason, a StatefulSet can also have one or more volume claim templates, which enable it to stamp out PersistentVolumeClaims along with each pod instance (see [figure 10.8](https://readwise.io/reader/document_raw_content/26339439#ch10fig08)).
+		  
+		  Figure 10.8. A StatefulSet creates both pods and PersistentVolumeClaims.
+		  
+		  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added105-10fig08_alt_3fbTlAn.jpg)
+		  
+		  The PersistentVolumes for the claims can either be provisioned up-front by an administrator or just in time through dynamic provisioning of PersistentVolumes, as explained at the end of [chapter 6](https://readwise.io/reader/document_raw_content/26339439#ch06).
+		  
+		  Understanding the creation and deletion of PersistentVolumeClaims
+		  
+		  Scaling up a StatefulSet by one creates two or more API objects (the pod and one or more PersistentVolumeClaims referenced by the pod). Scaling down, however, deletes only the pod, leaving the claims alone. The reason for this is obvious, if you consider what happens when a claim is deleted. After a claim is deleted, the PersistentVolume it was bound to gets recycled or deleted and its contents are lost.
+		  
+		  Because stateful pods are meant to run stateful applications, which implies that the data they store in the volume is important, deleting the claim on scale-down of a Stateful-Set could be catastrophic—especially since triggering a scale-down is as simple as decreasing the replicas field of the StatefulSet. For this reason, you’re required to delete PersistentVolumeClaims manually to release the underlying PersistentVolume. #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gr4bmsa0b2dc02favhxdv1wf))
+	- -
+	- -
+		- StatefulSets don’t delete PersistentVolumeClaims when scaling down; then they reattach them when scaling back up.
+		  
+		  ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/26339439/added106-10fig09_alt_gPs7iV2.jpg) #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gr4bp3zkgkr1c821sf7phhr6))
+	- -
+	- -
+		- StatefulSet manifest: kubia-statefulset.yaml
+		  
+		  apiVersion: apps/v1beta1
+		  kind: StatefulSet
+		  metadata:
+		  name: kubia
+		  spec:
+		  serviceName: kubia
+		  replicas: 2
+		  template:
+		    metadata:
+		      labels:                        ❶
+		        app: kubia                   ❶
+		    spec:
+		      containers:
+		- ([View Highlight](https://read.readwise.io/read/01gr4cg0c53jntharg9ewtbwy7))
+	- -

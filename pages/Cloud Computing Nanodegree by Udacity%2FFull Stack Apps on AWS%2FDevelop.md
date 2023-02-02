@@ -12,8 +12,6 @@ deck:: [[Cloud Development Nanodegree]]
 		- We'll be using NodeJS
 			- NodeJS is a JavaScript based server-side environment to allow developers to build network applications.
 			-
-		- A later note ;)
-			-
 	- ### What is an Application Program Interface (API)?
 		- **RESTful APIs** use request paths, types and bodies to perform a specific action
 		- ![image.png](../assets/image_1666345146402_0.png)
@@ -51,6 +49,3 @@ deck:: [[Cloud Development Nanodegree]]
 			  ```
 			- Example of call: `GET /persons/?name=Wences` ==> `Hi, Wences!`
 -
-- Hola, adios!!!
--
-- ## I'm the King!!

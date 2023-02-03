@@ -28,6 +28,7 @@ deck:: [[Cloud Development Nanodegree]]
 			- [Node (aka NodeJs)](https://nodejs.org/en/) is a powerful framework to build network applications using JavaScript (in our case using TypeScript) outside of browsers. It has an asynchronous concurrent model which releases the developer from many concerns involving threading and dead-locking. Node is used as our server framework along with [Express](https://expressjs.com/) to handle web http requests and responses.
 		- **NodeJS** is a framework. And **Typescript** is the language that NodeJS uses.
 	- ### Running Our Server and Making Requests
+	  collapsed:: true
 		- Para usar una parte de la URL como parámetro de path en NodeJS, usamos: #flashcard
 		  id:: 63566061-d8fd-47ca-a4fa-63790eb870bc
 			- ```TypeScript
@@ -48,4 +49,8 @@ deck:: [[Cloud Development Nanodegree]]
 			  } );
 			  ```
 			- Example of call: `GET /persons/?name=Wences` ==> `Hi, Wences!`
+	- ### Running Our Server and Making Requests (v2.0)
+		- Para pasarle los datos a un servidor, se le pueden pasar de varias maneras:
+			- Como parámetro:
+				- Con UR
 -

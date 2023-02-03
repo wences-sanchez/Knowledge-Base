@@ -288,3 +288,12 @@ tags:: cloud O'Reilly-Learning
 				    function
 			- ([View Highlight](https://read.readwise.io/read/01grbad7vte39scbc2sg4sy03m))
 		- -
+- New highlights added [[Friday, 03-02-2023]] at 3:29 PM
+	- -
+		- The function type syntax we used in the last section—`type Fn = (...) => ...`—is a *shorthand call signature*. We can instead write it out more explicitly. Again taking the example of `Log`:
+		  
+		    // Shorthand call signature
+		  
+		  The two are completely equivalent in every way, and differ only in syntax. #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01grbp8ja7v85w3fygnh607zav))
+	- -

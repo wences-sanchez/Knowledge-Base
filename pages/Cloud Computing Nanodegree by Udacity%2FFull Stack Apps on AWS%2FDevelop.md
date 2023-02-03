@@ -52,5 +52,7 @@ deck:: [[Cloud Development Nanodegree]]
 	- ### Running Our Server and Making Requests (v2.0)
 		- Para pasarle los datos a un servidor, se le pueden pasar de varias maneras:
 			- Como parámetro:
-				- Con UR
+				- Con `URL/parametro/:valor`
+			- Como request en la url:
+				- Con `URL/parametro?variable=valor`
 -

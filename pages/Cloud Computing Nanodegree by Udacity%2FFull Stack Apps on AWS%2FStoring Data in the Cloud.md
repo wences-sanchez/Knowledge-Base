@@ -1,2 +1,3 @@
 - ## 1. Understanding Persistence
-	-
+	- Sometimes, it's a good idea to keep the data separated from the server. But just as **stubs**.
+		- But it's very important to be aware that those data should never be in json files, but in memory.

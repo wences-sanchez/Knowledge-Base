@@ -60,4 +60,5 @@ deck:: [[Cloud Development Nanodegree]]
 	- ![image.png](../assets/image_1675512973431_0.png)
 	- ![image.png](../assets/image_1675512992750_0.png)
 - ## 6. Using Packages
+	- As an engineer, you have to have the ability to asses the relevance and usefulness of libraries that make our tasks easier.
 	-

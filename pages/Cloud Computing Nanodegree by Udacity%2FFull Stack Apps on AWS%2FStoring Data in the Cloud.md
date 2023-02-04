@@ -1,3 +1,11 @@
 - ## 1. Understanding Persistence
 	- Sometimes, it's a good idea to keep the data separated from the server. But just as **stubs**.
 		- But it's very important to be aware that those data should never be in json files, but in memory.
+	- As soon as we have a bunch of servers that have to be consistent amongst them, the importance of keeping data as just one unit becomes obvious.
+		- Additionally, if we have so much amount of data, it's slow.
+		- We strongly need a way of treating our data correctly ==> databases
+	- Databases allow us to uncouple our systems.
+-
+- ## 2. Database Basics
+	- ### NoSQL - Simple Key:Value Stores
+		-

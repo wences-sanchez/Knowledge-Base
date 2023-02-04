@@ -24,5 +24,11 @@
 	-
 - ## 4. Filestore Basics
 	- **Filestores** allow us to store big amounts of data (like images, videos and documents) that are too expensive to save them in databases.
-	- We don't want to store any big file
+	- We don't want to store any big file nor object nor image nor document in our database
+	- ![image.png](../assets/image_1675524090543_0.png)
+	- ### S3 is a filestore
+	- Buckets are a simple directory-like system in which to store data.
+	- We can access our buckets (which are filestores) directly bypassing the server. That's great!
+	- ![image.png](../assets/image_1675524484058_0.png)
+	-
 	-

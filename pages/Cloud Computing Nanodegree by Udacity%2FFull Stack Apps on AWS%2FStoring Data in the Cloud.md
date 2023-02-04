@@ -15,4 +15,9 @@
 			- Although this is not a very good idea and leads to technical debt.
 	- ### Relational Databases - Structured and Queryable Datastores
 		- **SQL** stands for *Structured Query Languange*
+		- They're are easier to scale up than NoSQL
+		- They're lower when grow
 		-
+- ## 3. Provisioning a Cloud Database
+	-
+	-

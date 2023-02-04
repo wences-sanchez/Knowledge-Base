@@ -21,5 +21,8 @@
 - ## 3. Provisioning a Cloud Database
 	- We use the *postbird* tool to interact with our RDS (PostgreSQL) Database
 		- **Postbird** is used to interact with a PostgreSQL database
-		-
+	-
+- ## 4. Filestore Basics
+	- **Filestores** allow us to store big amounts of data (like images, videos and documents) that are too expensive to save them in databases.
+	- We don't want to store any big file
 	-

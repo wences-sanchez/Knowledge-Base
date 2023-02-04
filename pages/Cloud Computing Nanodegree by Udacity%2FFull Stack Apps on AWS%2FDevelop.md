@@ -57,4 +57,6 @@ deck:: [[Cloud Development Nanodegree]]
 				- Con `URL/parametro?variable=valor`
 -
 - ## 5. Using Git Effectively for the Cloud
+	- ![image.png](../assets/image_1675512973431_0.png)
+	- ![image.png](../assets/image_1675512992750_0.png)
 	-

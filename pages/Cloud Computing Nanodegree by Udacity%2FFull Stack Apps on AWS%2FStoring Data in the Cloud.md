@@ -30,5 +30,5 @@
 	- Buckets are a simple directory-like system in which to store data.
 	- We can access our buckets (which are filestores) directly bypassing the server. That's great!
 	- ![image.png](../assets/image_1675524484058_0.png)
-	-
+	- CORS (Cross-Origin Resource Sharing) allows clients and web applications to talk which one another and reject serv
 	-

@@ -8,4 +8,11 @@
 -
 - ## 2. Database Basics
 	- ### NoSQL - Simple Key:Value Stores
+		- They're very popular
+		- They have our data as a key-value pair, so they can quickly get our searches.
+		- They're very easy to scale out.
+		- And they allow us to change our data model (something that SQL-based can't)
+			- Although this is not a very good idea and leads to technical debt.
+	- ### Relational Databases - Structured and Queryable Datastores
+		- **SQL** stands for *Structured Query Languange*
 		-

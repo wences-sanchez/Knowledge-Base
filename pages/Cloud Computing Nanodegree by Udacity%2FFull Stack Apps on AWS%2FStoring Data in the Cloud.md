@@ -19,5 +19,7 @@
 		- They're lower when grow
 		-
 - ## 3. Provisioning a Cloud Database
-	-
+	- We use the *postbird* tool to interact with our RDS (PostgreSQL) Database
+		- **Postbird** is used to interact with a PostgreSQL database
+		-
 	-

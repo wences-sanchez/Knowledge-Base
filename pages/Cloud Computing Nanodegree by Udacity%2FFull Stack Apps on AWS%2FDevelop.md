@@ -56,3 +56,5 @@ deck:: [[Cloud Development Nanodegree]]
 			- Como request en la url:
 				- Con `URL/parametro?variable=valor`
 -
+- ## 5. Using Git Effectively for the Cloud
+	-

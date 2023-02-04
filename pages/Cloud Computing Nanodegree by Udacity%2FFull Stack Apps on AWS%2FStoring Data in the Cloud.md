@@ -42,7 +42,11 @@
 - ## 5.Creating an S3 Filestore Bucket in AWS
 - ## 6.Understanding Secrets
 	- It's better to use environment variables instead of text fields
-	- We can connect resources within a **VPC** using IAM **roles**
-	- We can connect developers with a
+	- We can connect **resources** (Servers with Services) within a **VPC** using IAM **roles**
+		- IAM service role: an IAM role gives a service a set of permissions to access one or more services.
+	- We can connect **developers** with a Service using IAM **Users**
+		- IAM user role: an IAM role can give a user a set of permissions to access one or more services.
+	-
+	-
 	-
 	-

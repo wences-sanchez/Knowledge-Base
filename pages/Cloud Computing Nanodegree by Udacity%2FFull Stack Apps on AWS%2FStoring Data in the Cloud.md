@@ -36,8 +36,13 @@
 		- ![image.png](../assets/image_1675525432939_0.png)
 		- This is for consuming this bucket in our application with our signedURL pattern
 	-
-- CORS (Cross Origin Resource Sharing): defines how a client can interact with a resource, and what the client can and cannot do with that resource. Setting the CORS policy of our S3 bucket allows our client to communicate with the S3 bucket using the SignedURL pattern.
-	-
+- Could you briefly explain what CORS is? #flashcard
+	- CORS (Cross Origin Resource Sharing o **Uso compartido de recursos entre orígenes**): defines how a client can interact with a resource, and what the client can and cannot do with that resource. Setting the CORS policy of our S3 bucket allows our client to communicate with the S3 bucket using the SignedURL pattern.
+		-
 - ## 5.Creating an S3 Filestore Bucket in AWS
+- ## 6.Understanding Secrets
+	- It's better to use environment variables instead of text fields
+	- We can connect resources within a **VPC** using IAM **roles**
+	- We can connect developers with a
 	-
 	-

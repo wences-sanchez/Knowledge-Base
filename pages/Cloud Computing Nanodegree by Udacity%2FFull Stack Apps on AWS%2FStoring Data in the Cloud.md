@@ -30,5 +30,9 @@
 	- Buckets are a simple directory-like system in which to store data.
 	- We can access our buckets (which are filestores) directly bypassing the server. That's great!
 	- ![image.png](../assets/image_1675524484058_0.png)
-	- CORS (Cross-Origin Resource Sharing) allows clients and web applications to talk which one another and reject serv
+	- CORS (Cross-Origin Resource Sharing) allows clients in web applications to talk which one another and reject certain requests from outsiders.
+		- By default, your S3 bucket will not allow requests from just any old domain.
+		- Instead, we have to add a course policy to allow certain hosts from accessing this type of information
+		- ![image.png](../assets/image_1675525432939_0.png)
+		- This is for consuming this bucket in our application with our signedURL pattern
 	-

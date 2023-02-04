@@ -1,4 +1,8 @@
-- ## 1. Cloud Basics and Parts of a Cloud
+tags:: #Udacity, #cloud
+deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
+
+-
+- ## 1. Cloud Basics and Parts of a Cloud #flashcard
 	- ### Defining Our Cloud
 		- Cloud can be used for a variety of purposes:
 			- Store data of all users into a central store
@@ -6,7 +10,7 @@
 			- Compute very hard math and cost problems
 			- Parallelize compute power
 			-
-- ## 2. Monolithic vs. Loosely Coupled Systems
+- ## 2. Monolithic vs. Loosely Coupled Systems #flashcard
 	- Traditionally, the different features were inside a single web server
 	- Often, those systems were **tightly coupled**.
 		- Tightly coupled systems are **quick to stand-up**, but may result in higher **Technical Debt**.
@@ -16,7 +20,7 @@
 	  id:: 63566061-94db-47f9-b52e-86e1f31ddcc7
 		- Microservices are individual specialized systems (software deployed on specialized infrastructure) designed to accomplish a specific task.  Specific tasks may include things like authentication, image processing, or data management.
 -
-- ## 3. Request Response and APIs
+- ## 3. Request Response and APIs #flashcard
 	- ### Request Response and APIs
 		- ![image.png](../assets/image_1675243528825_0.png)
 		-

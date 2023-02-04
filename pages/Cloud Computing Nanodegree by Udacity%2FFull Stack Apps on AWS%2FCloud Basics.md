@@ -3,6 +3,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 
 -
 - ## 1. Cloud Basics and Parts of a Cloud #flashcard
+  id:: 63db7934-5429-44cc-bd99-8d52a580cf60
 	- ### Defining Our Cloud
 		- Cloud can be used for a variety of purposes:
 			- Store data of all users into a central store
@@ -11,6 +12,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 			- Parallelize compute power
 			-
 - ## 2. Monolithic vs. Loosely Coupled Systems #flashcard
+  id:: 63db7934-95fa-4c61-a0c1-a461024191b2
 	- Traditionally, the different features were inside a single web server
 	- Often, those systems were **tightly coupled**.
 		- Tightly coupled systems are **quick to stand-up**, but may result in higher **Technical Debt**.
@@ -21,6 +23,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- Microservices are individual specialized systems (software deployed on specialized infrastructure) designed to accomplish a specific task.  Specific tasks may include things like authentication, image processing, or data management.
 -
 - ## 3. Request Response and APIs #flashcard
+  id:: 63db7934-b8ee-4c36-9336-ac9f6f7ec4ce
 	- ### Request Response and APIs
 		- ![image.png](../assets/image_1675243528825_0.png)
 		-

@@ -3,6 +3,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 
 -
 - ## 1. Understanding Persistence #flashcard
+  id:: 63de521e-3f5d-408d-8e73-4803639a0a2b
 	- Sometimes, it's a good idea to keep the data separated from the server. But just as **stubs**.
 		- But it's very important to be aware that those data should never be in json files, but in memory.
 	- As soon as we have a bunch of servers that have to be consistent amongst them, the importance of keeping data as just one unit becomes obvious.
@@ -11,6 +12,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 	- Databases allow us to uncouple our systems.
 -
 - ## 2. Database Basics #flashcard
+  id:: 63de569d-092b-4bc6-bf67-0686fbd92d39
 	- ### NoSQL - Simple Key:Value Stores
 		- They're very popular
 		- They have our data as a key-value pair, so they can quickly get our searches.
@@ -27,6 +29,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- **Postbird** is used to interact with a PostgreSQL database
 	-
 - ## 4. Filestore Basics #flashcard
+  id:: 63de7626-d495-4c4a-96bb-321698ebcf54
 	- **Filestores** allow us to store big amounts of data (like images, videos and documents) that are too expensive to save them in databases.
 	- We don't want to store any big file nor object nor image nor document in our database
 	- ![image.png](../assets/image_1675524090543_0.png)
@@ -41,6 +44,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- This is for consuming this bucket in our application with our signedURL pattern
 	-
 - Could you briefly explain what CORS is? #flashcard
+  id:: 63de811f-054b-4995-9d1a-98d0d867d92f
 	- CORS (Cross Origin Resource Sharing o **Uso compartido de recursos entre orígenes**): defines how a client can interact with a resource, and what the client can and cannot do with that resource. Setting the CORS policy of our S3 bucket allows our client to communicate with the S3 bucket using the SignedURL pattern.
 		-
 - ## 5.Creating an S3 Filestore Bucket in AWS

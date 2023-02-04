@@ -230,12 +230,14 @@ tags:: cloud O'Reilly-Learning
 - New highlights added [[Friday, 03-02-2023]] at 11:00 AM
 	- -
 		- TypeScript comes with a `readonly` array type out of the box, which you can use to create immutable arrays. Read-only arrays are just like regular arrays, but you can’t update them in place. To create a read-only array, use an explicit type annotation; to update a read-only array, use nonmutating methods like `.concat` and `.slice` instead of mutating ones like `.push` and `.splice`:
+		  id:: 63de231a-a54f-46a6-a865-e29ad8cf3066
 		  
 		    let #flashcard
 		- ([View Highlight](https://read.readwise.io/read/01grb8b0hejnvhfkwaw10kahy8))
 	- -
 	- -
 		- Enums
+		  id:: 63de231a-7057-4fad-b425-1fcc2f069e8f
 		  
 		  Enums are a way to *enumerate* the possible values for a type. They are unordered data structures that map keys to values. Think of them like objects where the keys are fixed at compile time, so TypeScript can check that the given key actually exists when you access it.
 		  
@@ -259,22 +261,26 @@ tags:: cloud O'Reilly-Learning
 	- Chapter 4. Functions
 		- -
 			- Example of a function in TypeScript #flashcard
+			  id:: 63de231a-22e7-44c3-8ab3-607e91f20b94
 				- `function` `add``(``a`: `number``,` `b`: `number``)``:` `number` `{` `return` `a` `+` `b` `}`
 			- ([View Highlight](https://read.readwise.io/read/01grb9pgaf4sk84gg9h6tz688y))
 		- -
 		- -
 			- More examples of functions in TypeScript #flashcard
+			  id:: 63de231a-1f14-41e2-b7d6-ddda1c67aebe
 				- `// Named function` `function` `greet``(``name`: `string``)` `{` `return` `'hello '` `+` `name` `}` `// Function expression` `let` `greet2` `=` `function``(``name`: `string``)` `{` `return` `'hello '` `+` `name` `}` `// Arrow function expression` `let` `greet3` `=` `(``name`: `string``)` `=>` `{` `return` `'hello '` `+` `name` `}` `// Shorthand arrow function expression` `let` `greet4` `=` `(``name`: `string``)` `=>` `'hello '` `+` `name` `// Function constructor` `let` `greet5` `=` `new` `Function``(``'name'``,` `'return "hello " + name'``)`
 			- ([View Highlight](https://read.readwise.io/read/01grb9wygzyjvs3nda54rw6pjz))
 		- -
 		- -
 			- Like in object and tuple types, you can use `?` to mark parameters as optional. When declaring your function’s parameters, required parameters have to come first, followed by optional parameters:
+			  id:: 63de231a-1c44-4b77-9384-66ca8706f6ec
 			  
 			    function #flashcard
 			- ([View Highlight](https://read.readwise.io/read/01grba34s0cj1qn16ejcvn54b0))
 		- -
 		- -
 			- Like in JavaScript, you can provide default values for optional parameters. Semantically it’s similar to making a parameter optional, in that callers no longer have to pass it in (a difference is that default parameters don’t have to be at the end of your list of parameters, while optional parameters do).
+			  id:: 63de231a-c29e-4fc6-a809-3a1d8d95be64
 			  
 			  For example, we can rewrite `log` as:
 			  
@@ -283,6 +289,7 @@ tags:: cloud O'Reilly-Learning
 		- -
 		- -
 			- How can you pass an undefined number of parameters to a function in TypeScript #flashcard
+			  id:: 63de231a-f1d3-4aa9-9d97-31a8cc661b6a
 				- we can instead use rest parameters to safely make our `sum` function accept any number of arguments:
 				  
 				    function
@@ -291,6 +298,7 @@ tags:: cloud O'Reilly-Learning
 - New highlights added [[Friday, 03-02-2023]] at 3:29 PM
 	- -
 		- The function type syntax we used in the last section—`type Fn = (...) => ...`—is a *shorthand call signature*. We can instead write it out more explicitly. Again taking the example of `Log`:
+		  id:: 63de231a-2b6c-4765-9ee0-663ba34a0bb4
 		  
 		    // Shorthand call signature
 		  

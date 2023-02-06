@@ -1,0 +1,463 @@
+title:: Readwise/CSS (highlights)
+deck:: [[Other-Books::CSS]]
+author:: [[David Sawyer McFarland]]
+full-title:: "CSS"
+category:: #books
+
+- ![](https://images-na.ssl-images-amazon.com/images/I/41Towyq7DyL._SL200_.jpg)
+- Highlights first synced by [[Readwise]] [[Monday, 06-02-2023]]
+	- -
+		- The <a> tag, or anchor tag, creates a hyperlink #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 163](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=163))
+	- -
+	- -
+		- The <section> tag contains a grouping of related content, #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 479](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=479))
+	- -
+	- -
+		- download the PDF from the HTML5doctor.com #flashcard
+		- tags:: [[pink]] [[rosa]]
+		- ([Location 494](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=494))
+	- -
+	- -
+		- <blockquote> tag for long passages or the <q> tag to place a short quote within a longer paragraph, #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 651](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=651))
+	- -
+	- -
+		- <cite> tag for referencing a book title, newspaper article, or website, #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 655](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=655))
+	- -
+	- -
+		- <link href="css/styles.css" #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 891](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=891))
+	- -
+	- -
+		- An em is the default browser font-size, so 2em is twice the normal text size. #flashcard
+		- ([Location 2053](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2053))
+	- -
+	- -
+		- A better method is to create a descendant selector (Styling Tags Within Tags), which targets only the <strong> tag when it’s inside one of these note boxes. #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 2151](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2151))
+	- -
+	- -
+		- The lines of text are too long to read comfortably. Fortunately, you can set a width for the page’s content, so it doesn’t get too wide to read. #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 2170](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2170))
+	- -
+	- -
+		- max-width: 760px; #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 2175](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2175))
+	- -
+	- -
+		- That’s the power of the max-width property, which sets a maximum width, but no minimum. #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 2181](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2181))
+	- -
+	- -
+		- margin: 0 auto; #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 2187](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2187))
+	- -
+	- -
+		- this line sets the left and right margins to auto, which tells the web browser to automatically figure out how much space to add to the left and right sides #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 2190](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2190))
+	- -
+	- -
+		- Siblings — to format the paragraph immediately following the first headline on the page. #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 2193](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2193))
+	- -
+	- -
+		- h1+p { #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 2196](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2196))
+	- -
+	- -
+		- border-left: solid 25px rgba(255,255,255,.5); #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 2397](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2397))
+	- -
+	- -
+		- http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class #flashcard
+		- ([Location 2755](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2755))
+	- -
+	- -
+		- http://meyerweb.com/eric/tools/css/reset #flashcard
+		- ([Location 2782](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2782))
+	- -
+	- -
+		- http://necolas.github.io/normalize.css/ #flashcard
+		- ([Location 2796](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2796))
+	- -
+	- -
+		- font-family: Arial, Helvetica, sans-serif; #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 2970](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2970))
+	- -
+	- -
+		- font-family: "Times New Roman", Times, serif; #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 2981](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2981))
+	- -
+	- -
+		- Serif fonts are best for long passages of text, #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 2984](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2984))
+	- -
+	- -
+		- Serif Fonts #flashcard
+		- ([Location 2984](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=2984))
+	- -
+	- -
+		- Sans-Serif Fonts #flashcard
+		- ([Location 3003](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3003))
+	- -
+	- -
+		- Monospaced and Fun Fonts #flashcard
+		- ([Location 3019](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3019))
+	- -
+	- -
+		- www.google.com/fonts #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 3418](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3418))
+	- -
+	- -
+		- For body text, you’ll usually want at least regular, italic, and bold. #flashcard
+		- ([Location 3480](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3480))
+	- -
+	- -
+		- it uses a numeric scale from 100 to 900. A value of 700 is bold, 400 is normal, and the other numbers indicate variations #flashcard
+		- ([Location 3532](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3532))
+	- -
+	- -
+		- font-size: 1em; #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 3641](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3641))
+	- -
+	- -
+		- ul ul {font-size: 100%} #flashcard
+		- ([Location 3746](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3746))
+	- -
+	- -
+		- text-transform: #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 3816](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3816))
+	- -
+	- -
+		- text-shadow: -4px 4px 3px #999999; #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 3878](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3878))
+	- -
+	- -
+		- it’s best to skip the ems and percentages for line heights and just use a simple numeric value. #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 3944](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3944))
+	- -
+	- -
+		- text-indent: 5em; #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 3970](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3970))
+	- -
+	- -
+		- A Shorthand Method for Text Formatting #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 3983](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=3983))
+	- -
+	- -
+		- ::first-letter and ::first-line pseudo-elements #flashcard
+		- ([Location 4031](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4031))
+	- -
+	- -
+		- you can’t use CSS to capitalize the letters of a paragraph’s first line in Chrome or Safari. #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 4055](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4055))
+	- -
+	- -
+		- numbering schemes — decimal, decimal-leading-zero, upper-alpha, lower-alpha, upper-roman, or lower-roman #flashcard
+		- ([Location 4065](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4065))
+	- -
+	- -
+		- list-style-type: #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 4069](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4069))
+	- -
+	- -
+		- To turn off the bullets, use the keyword none: list-style-type: none; #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 4096](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4096))
+	- -
+	- -
+		- The style should not apply to the <ul> or <ol> tag. #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 4128](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4128))
+	- -
+	- -
+		- list-style-image: url(images/bullet.gif); #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 4138](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4138))
+	- -
+	- -
+		- a negative margin actually pulls elements on top of each other. #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 4406](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4406))
+	- -
+	- -
+		- padding: 10px 5px 5px 10px; #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 4502](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4502))
+	- -
+	- -
+		- Either add a small amount of padding around the <div> tag or add a border to it. #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 4544](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4544))
+	- -
+	- -
+		- display: #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 4628](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4628))
+	- -
+	- -
+		- 7. CSS offers nine different border styles. #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 4657](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4657))
+	- -
+	- -
+		- background-color: #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 4742](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4742))
+	- -
+	- -
+		- border-radius: #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 4765](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4765))
+	- -
+	- -
+		- write something like border-radius: 20% #flashcard
+		- tags:: [[rosa]] [[pink]]
+		- ([Location 4782](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4782))
+	- -
+	- -
+		- box-shadow #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 4811](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4811))
+	- -
+	- -
+		- The general rule of thumb for setting heights on page elements is don’t #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 4898](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4898))
+	- -
+	- -
+		- The border-box value includes both the padding and the border thickness as part of the width and height values. #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 4937](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4937))
+	- -
+	- -
+		- overflow property. #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 4955](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4955))
+	- -
+	- -
+		- min-width: #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 4987](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=4987))
+	- -
+	- -
+		- Using clear: right; on the images prevents the photos from sitting next to each other #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 5086](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5086))
+	- -
+	- -
+		- background-repeat: #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 5455](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5455))
+	- -
+	- -
+		- The page content appears to float gracefully above the background. #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 5632](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5632))
+	- -
+	- -
+		- Finding Free Imagery #flashcard
+		- tags:: [[rosa]] [[pink]]
+		- ([Location 5775](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5775))
+	- -
+	- -
+		- Utilizing Gradient #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 5841](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5841))
+	- -
+	- -
+		- you should provide a backup color for IE9 and earlier. #flashcard
+		- ([Location 5942](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5942))
+	- -
+	- -
+		- experimentation with gradients. #flashcard
+		- tags:: [[rosa]] [[pink]]
+		- ([Location 5963](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=5963))
+	- -
+	- -
+		- states — :link, :visited, :hover, and :active #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 6387](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6387))
+	- -
+	- -
+		- <a href=“stale.html” class=“button”>Free Donuts Here! #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 6524](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6524))
+	- -
+	- -
+		- Padding gives you room. If you’re using an image #flashcard
+		- ([Location 6611](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6611))
+	- -
+	- -
+		- Building Navigation Bars #flashcard
+		- tags:: [[pink]] [[rosa]]
+		- ([Location 6628](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6628))
+	- -
+	- -
+		- display: block; #flashcard
+		- tags:: [[rosa]] [[pink]]
+		- ([Location 6810](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6810))
+	- -
+	- -
+		- CSS sprites #flashcard
+		- ([Location 6827](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=6827))
+	- -
+	- -
+		- < #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 8131](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8131))
+	- -
+	- -
+		- border-spacing: 0; #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 8228](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8228))
+	- -
+	- -
+		- border-collapse: #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 8238](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8238))
+	- -
+	- -
+		- The easiest approach is with an HTML table. #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 8361](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8361))
+	- -
+	- -
+		- fixed-width or liquid #flashcard
+		- tags:: [[azul]] [[blue]]
+		- ([Location 8650](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=8650))
+	- -
+	- -
+		- br.clear { clear: both; } #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 9129](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9129))
+	- -
+	- -
+		- Use the Micro Clear Fix #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 9143](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9143))
+	- -
+	- -
+		- box-sizing: border-box; #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 9347](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9347))
+	- -
+	- -
+		- position: absolute; #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 9656](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9656))
+	- -
+	- -
+		- the item that you want to position — the image — gets an absolute position, while the element you want to position the element relative to — the headline — gets a setting of relative. #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 9751](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=9751))
+	- -
+	- -
+		- z-index: -1; #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 10023](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10023))
+	- -
+	- -
+		- <meta name="viewport" content="width=device-width" #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 10172](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10172))
+	- -
+	- -
+		- breakpoints #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 10244](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10244))
+	- -
+	- -
+		- here’s a common starting point: #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 10251](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10251))
+	- -
+	- -
+		- <link href="css/small.css" rel="stylesheet" media="(max-width:480px)" #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 10284](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10284))
+	- -
+	- -
+		- @media (max-width: 480px) { #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 10325](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10325))
+	- -
+	- -
+		- .columns:after { #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 10380](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10380))
+	- -
+	- -
+		- * {   box-sizing: border-box; } #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 10423](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10423))
+	- -
+	- -
+		- width: auto; #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 10434](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10434))
+	- -
+	- -
+		- img { max-width: 100%; } #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 10468](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10468))
+	- -
+	- -
+		- Testing Responsive Designs #flashcard
+		- tags:: [[blue]] [[azul]]
+		- ([Location 10507](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10507))
+	- -
+	- -
+		- Foundation #flashcard
+		- tags:: [[rosa]] [[pink]]
+		- ([Location 10886](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10886))
+	- -
+	- -
+		- Bootstrap #flashcard
+		- tags:: [[pink]] [[rosa]]
+		- ([Location 10889](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=10889))
+	- -
+	- -
+		- display: flex; #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 11430](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=11430))
+	- -
+	- -
+		- flex: 1; #flashcard
+		- tags:: [[orange]] [[naranja]]
+		- ([Location 11438](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=11438))
+	- -
+	- -
+		- div:nth-of-type(1n+2) #flashcard
+		- tags:: [[naranja]] [[orange]]
+		- ([Location 11449](https://readwise.io/to_kindle?action=open&asin=B013VQ7N2M&location=11449))
+	- -

@@ -37,3 +37,12 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 	- #### Parameters
 		- The model contains instance parameters. These can be other models or primitive fields. We use the `@Column` decorator to link our parameters to the table columns. The bang symbol `!` specifies if the field in the table can be null. Sequelize handles the datatype mappings from TypeScript types to Postgres column datatypes.
 		- Read more at the [Sequelize docs entry on models](http://docs.sequelizejs.com/class/lib/model.js~Model.html).
+	- Sequelize is not for NoSQL databases.
+	- ![image.png](../assets/image_1675675537984_0.png)
+	- ORMS allow us to easily switch to a different dialect of SQL (e.g. PostgreSQL, MySQL), without having to modify the code that interacts with the database. If we were to write SQL queries directly, instead of using an ORM, we would have to modify our SQL statements to be compatible with the dialect of the database that we are using.
+	- ### Migrations
+		- Migration refers to modifying the database (by adding or removing tables or columns, for instance, or switching to a different dialect of SQL) to a newer version (usually based on new business requirements).
+			- Up migration is the process of modifying the database to a newer state.
+			- Down migration is the process of reversing an up migration, to a prior state.
+		- Read more at the [Sequelize docs on migrations](http://docs.sequelizejs.com/manual/migrations.html)
+			- > **Note** Migrations is a loaded term. We most commonly refer to migrations when changing database table states (new columns, adding tables, etc). However, it can also refer to migrating infrastructure - for examples Postgres to MySQL.

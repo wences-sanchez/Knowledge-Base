@@ -26,4 +26,14 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		  // THIS IS NOT THE ROOT BUT THE SUB-FOLDER ROOT
 		  ```
 	- In the file controllers/v0/feed/routes/feed.router.ts, the root directory `router.get('/',...` is not the server root directory. The root in this case is based on where the server is entering from, which in this case, is `api/v0/feed/routes`.
-	-
+-
+- ## 3. Connecting our RDS Database in Node
+	- We'll use **Sequelize**, which is a framework of Javascript that runs with Node.
+	- ORM works in both directions.
+	- ![image.png](../assets/image_1675675006851_0.png)
+	- ![image.png](../assets/image_1675675157977_0.png)
+	- #### Models
+		- A model is the data representation of some group of data. In object-oriented programing terms, a model is an object and is represented by a new class. It should usually represent a noun such as a user, a feed item, an order, etc. We use the `@Table` decorator and extend the base sequelize `Model` class to link our model to our database table.
+	- #### Parameters
+		- The model contains instance parameters. These can be other models or primitive fields. We use the `@Column` decorator to link our parameters to the table columns. The bang symbol `!` specifies if the field in the table can be null. Sequelize handles the datatype mappings from TypeScript types to Postgres column datatypes.
+		- Read more at the [Sequelize docs entry on models](http://docs.sequelizejs.com/class/lib/model.js~Model.html).

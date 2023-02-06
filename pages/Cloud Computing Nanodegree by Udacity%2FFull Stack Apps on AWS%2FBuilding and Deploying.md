@@ -14,4 +14,16 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		  ```
 	- In controllers/v0/index.router.ts:
 		- ```typescript
+		  const router: Router = Router()
+		  
+		  router.use("/feed", FeedRouter);
 		  ```
+	- In controllers/v0/feed/routes/feed.router.ts:
+		- ```TypeScript
+		  const router: Router = Router()
+		  
+		  router.get("/", ) //...) ...;
+		  // THIS IS NOT THE ROOT BUT THE SUB-FOLDER ROOT
+		  ```
+	- In the file controllers/v0/feed/routes/feed.router.ts, the root directory `router.get('/',...` is not the server root directory. The root in this case is based on where the server is entering from, which in this case, is `api/v0/feed/routes`.
+	-

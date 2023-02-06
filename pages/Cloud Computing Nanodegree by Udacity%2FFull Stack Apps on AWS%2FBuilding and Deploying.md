@@ -46,3 +46,9 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 			- Down migration is the process of reversing an up migration, to a prior state.
 		- Read more at the [Sequelize docs on migrations](http://docs.sequelizejs.com/manual/migrations.html)
 			- > **Note** Migrations is a loaded term. We most commonly refer to migrations when changing database table states (new columns, adding tables, etc). However, it can also refer to migrating infrastructure - for examples Postgres to MySQL.
+	- ### Seeding
+		- Seeds are default rows of data that will be inserted upon database formation. This may be helpful when provisioning databases frequently for specific applications and having welcome data populated, or when running tests on staging systems to simulate real-world conditions.
+			- Read more at the [Sequelize docs on seeding](http://docs.sequelizejs.com/manual/migrations.html#creating-first-seed)
+-
+-
+-

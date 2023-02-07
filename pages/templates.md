@@ -20,32 +20,35 @@
 	- #### ¿Qué te preocupa?¿Qué obstáculos de ahora te bloquean?
 		-
 	- #### ¿De qué te sientes orgulloso hoy?
-		-
-	- TODO Seguir leyendo "Los Miserables"
-	  todoistid:: 6383826732
+-
+	- {{renderer :todoistsync_oawzy}}
+	- TODO Estudiar inglés
+	  todoistid:: 6563296973
 	  attachment:: 
 	  comments:: 
-	  DEADLINE: <2023-02-04 Sat>
-	- TODO Ver documentales un poco
-	  todoistid:: 6385126965
+	  DEADLINE: <2023-02-07 Tue>
+	- TODO Repasar todo el inglés
+	  todoistid:: 6587877267
 	  attachment:: 
 	  comments:: 
-	  DEADLINE: <2023-02-04 Sat>
-	- TODO Leer un poco de no ficción
-	  todoistid:: 6563283981
+	  DEADLINE: <2023-02-07 Tue>
+	- TODO Preparar la clase de inglés
+	  todoistid:: 6590197628
 	  attachment:: 
 	  comments:: 
-	  DEADLINE: <2023-02-04 Sat>
-	- TODO Aprender un poco más de Ajedrez
-	  todoistid:: 6563285410
+	  DEADLINE: <2023-02-07 Tue>
+	- TODO Ir a la clase de inglés
+	  todoistid:: 6590198502
 	  attachment:: 
 	  comments:: 
-	  DEADLINE: <2023-02-04 Sat>
-	- TODO Programar all-day-long
-	  todoistid:: 6586096070
+	  DEADLINE: <2023-02-07 Tue>
+	- TODO Repasar inglés
+	  todoistid:: 6590199099
 	  attachment:: 
 	  comments:: 
-	  DEADLINE: <2023-02-04 Sat>
+	  DEADLINE: <2023-02-07 Tue>
+	-
+	-
 -
 	- ## Pomodoros #Pomodoros
 -

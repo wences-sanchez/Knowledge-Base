@@ -12,7 +12,6 @@ tags:: Docker, LinkedIn-Learning
 	-
 		- ### Flashcards
 			- Define registro en Docker: #flashcard
-			  id:: 6345459b-ecea-4303-9aed-e9559d7c267e
 				- Un **registro Docker** es un **repositorio** de **imágenes** Docker
 					- Podemos buscar SOs tanto como de apps específicas optimizado el contenedor
 				- Aparte, **Docker Store** empieza a tener cosas más *enterprise* como plugins o soporte extra y certificaciones.
@@ -28,7 +27,6 @@ tags:: Docker, LinkedIn-Learning
 	-
 		- ### Flashcards
 			- Acerca de las capas y su estructura en Docker: #flashcard
-			  id:: 6345459b-49d2-4eff-9de4-88f25ea62b36
 				- Desde la primera imagen que partimos (que es la que crea la base del contendor). Todos los cambios que se hacen, en vez de crearse sobre el fichero original, (es decir, modificar el almacenamiento que tenemos) van creando una capa encima que indica los cambios que se han realizado.
 				-
 				- Así, siempre tenemos acceso al estado anterior del fichero, parecido a *GIT*. --> Una capa se crea sobre la otra haciendo (mismo nombre) commits a la imagen base (la primera obligatoria del FROM).
@@ -42,13 +40,11 @@ tags:: Docker, LinkedIn-Learning
 	-
 		- ### Flashcards
 			- ¿Qué es el **Storage driver** en Docker? #flashcard
-			  id:: 6345459b-0d4b-485a-9c3b-801215466369
 				- El **storage driver** es el sistema de ficheros que Docker utiliza para almacenar las capas en disco.
 					- Docker NO almacena simplemente los ficheros tal cual, sino que usa un sistema para poder almacenar capa a capa los contenidos de los contenedores
 					- Hay varios. Los más comunes son **AUFS** y **OverlayFS** (overlay2)
 						- Overlay2 es el más rápido
 	- ## 4. Tags en Docker #flashcard
-	  id:: 6345459b-641a-4fce-a1ac-0cabf2e11550
 		- Normalmente, se usan para etiquetar la versión del software que tenemos incluido en esa imagen.
 			- Puede ser tanto números como palabras
 		- Es buena práctica no usar *latest* porque si hay un contenedor sin etiqueta usará ese.
@@ -76,7 +72,6 @@ tags:: Docker, LinkedIn-Learning
 	-
 		- ### Flashcards
 			- ¿Qué tres tipos de red ofrece Docker? #flashcard
-			  id:: 6345459b-12c7-4f48-b6c3-7aa482937390
 				- Docker nos ofrece 3 tipos de redes diferentes:
 					- #### 1. Bridge
 						- Es donde arrancarían todos nuestros contenedores por defecto.

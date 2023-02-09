@@ -1,9 +1,0 @@
--
-- ## Rutas de Aprendizaje
-	- ### [[Microsoft Azure Fundamentals/Aspectos básicos de Microsoft Azure: Descripción de los conceptos de nube]]
-	-
-	- ### [[Microsoft Azure Fundamentals/Aspectos básicos de Azure: Descripción de la arquitectura y los servicios de Azure]]
-	-
-	- ### [[Microsoft Azure Fundamentals/Describe Azure Management and Governance]]
--
--

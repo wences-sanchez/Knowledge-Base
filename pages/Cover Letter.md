@@ -46,19 +46,4 @@
 	  Best regards,  
 	  
 	  Wenceslao Sanchez
-- v1.0
-	- Soy un apasionado de la informática desde que tenía 11 años. Me encanta programar, así como diseñar y automatizar. Y disfruto trabajando en ambos roles.
-	  
-	  Tengo experiencia transversal tanto como de ingeniero QA como ingeniero de automatización, además de desarrollador.
-	  
-	  En cuanto a mi formación académica:
-	  
-	  Soy ingeniero informático (especializado en Ingeniería del Software) por la Universidad de Cádiz en 2014.
-	  
-	  Tengo un Máster en Ingeniería Informática por la UPC (Universidad Politécnica de Catalunya) en 2017.
-	  
-	  Y estoy terminando (a falta solo del proyecto) un segundo Máster en DevOps y Cloud Computing por la Universidad Internacional de La Rioja (UNIR). El cual estudié porque quería aprender más de DevOps y adentrarme en el mundo del Cloud.
-	  
-	  Además, poseo la certificación de AWS: AWS Certified Cloud Practitioner. 
-	  Y también la de Microsoft Azure: Azure Fundamentals.
--
+	-

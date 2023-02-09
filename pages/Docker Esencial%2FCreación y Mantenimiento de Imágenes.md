@@ -28,7 +28,6 @@ tags:: Docker, LinkedIn-Learning
 -
 - ## Flashcards
 	- Ejemplo completo (del flujo) de creación de Dockerfile y posterior despliegue en contenedor: #flashcard
-	  id:: 6345459b-69d7-4eff-a6ab-76148c554ec1
 		- Por ejemplo:
 		- ```
 		  FROM alpine:latest

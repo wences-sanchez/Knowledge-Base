@@ -1,13 +1,10 @@
 title:: IBM Professional Certificate of DevOps and Software Engineering/Python for Data Science, AI & Development/Week 4
 tags:: Coursera, DevOps, Python
-deck:: [[IBM-DevOps::Python for Data Science]]
 
--
 - #tags #Coursera #DevOps #python
 -
 - ## Reading & Writing Files with Open
-	- ### Reading Files with Open #flashcard
-	  id:: 634545b3-f9bf-46ec-a377-41a578b68767
+	- ### Reading Files with Open #spaced
 		- ![image.png](../assets/image_1665321413818_0.png)
 		- #### Modes of opening a file in Python
 			- **r** --> for reading
@@ -22,8 +19,7 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 	-
 	- ---
 	-
-	- ### Writing Files with Open #flashcard
-	  id:: 634545b3-4abc-4b18-8c48-ee02f3ccb5b5
+	- ### Writing Files with Open #spaced
 		- We can use the `.write()` method to write to a file
 		- The option **w** will overwrite the file if it already exists
 		- The option **a** will append our contents
@@ -40,8 +36,7 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 	- ### Loading Data with Pandas
 		- We use it with `import pandas (as pd)`
 		- `pd.read_csv(csv_path)`
-	- ### Pandas: Working with and Saving Data #flashcard
-	  id:: 634545b3-0cc2-4713-99e1-93633b54cad1
+	- ### Pandas: Working with and Saving Data #spaced
 		- **Pandas** is a popular library for data analysis built on top of the Python programming language. Pandas generally provide two data structures for manipulating data, They are:
 			- DataFrame
 				- A **DataFrame** is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns.
@@ -55,16 +50,14 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 				- An associated array of indexes or data labels.
 		- We create a DataFrame by:
 			- `dataframe = pandas.DataFrame(<source>)`
-	- When you pass the dataFrame an array, you are passing it just the array of headers of the column that you want to retrieve. #flashcard #dev-notes
-	  id:: 634545b3-dea6-475b-a720-ff6261fd7b0a
+	- When you pass the dataFrame an array, you are passing it just the array of headers of the column that you want to retrieve. #spaced #dev-notes
 		- **NOTE:** If you want DataFrame, use double brackets.
 			- If you want a Series, use single brackets. For example:
 		- `print(dataFrame [['ID']] )`
 		- `print(dataFrame [['ID', 'Name', 'Surname']] )`
 		- `print(dataFrame ['Name'])`
 		-
-	- ### loc[,] and iloc[,] functions #flashcard
-	  id:: 634545b3-8a85-4602-b267-c4c449d7b934
+	- ### loc[,] and iloc[,] functions #spaced
 		- `loc[,]` is a label-based data selecting method that recieves the name of the row or column.
 		- `iloc[,]` is an indexed-based selecting method that receives the integer index of a specific row or column.
 		- **Both deal with data, not with headers.**
@@ -90,16 +83,13 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 	-
 - ## Flaschards
 	- ¿Cómo puedes crear un DataFrame en Pandas que contenga solo los datos de 'Nombre' y 'Apellidos'?, ¿y un Series de Pandas? #flashcard
-	  id:: 634545b3-30a4-403d-8e9e-337ec9b6f3c3
 		- Con: `df = pandas.dataFrame(<source>)`
 		- `answer = df[['Nombre', 'Apellidos']]`
 		- Con un Series: `answer = df['Nombre', 'Apellidos']`
 	- ¿Cómo puedes mostrar solo las dos primeras líneas y las columnas desde la 2 hasta la 5 de un dataFrame (ya inicializado)? #flashcard
-	  id:: 634545b3-821d-4509-a0ac-db0a71258e3e
 		- Con iloc(), `df.iloc[0:2, 1:5] # Interval opened on the right`
 		- Con loc(), `df.loc['label1': 'label2', 'col_2': 'col_5']`
 	- ¿Con qué función puedes obtener valores a través de índices y labels de un dataFrame de Pandas? #flashcard
-	  id:: 634545b3-0693-4dfc-8276-35e61dd3d801
 		- Con `df.loc[ , ]` y `df.iloc[ , ]`
 	-
 		-

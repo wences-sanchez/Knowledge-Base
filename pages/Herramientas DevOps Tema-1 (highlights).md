@@ -3,44 +3,39 @@ author:: [[UNIR]]
 full-title:: "Herramientas DevOps Tema-1"
 category:: #books
 
-tags:: Herramientas-DevOps UNI
+tags:: #[[Herramientas-DevOps]] #[[UNI]]
 
+- #tags #[[Herramientas-DevOps]] #[[UNI]]
 - ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/05b1a9f4-8c51-47c3-928f-a0ddf346d4a0.jpg)
-- Highlights first synced by [[Readwise]] [[Monday, 31-10-2022]]
+- Highlights first synced by [[Readwise]] [[Thursday, 18-08-2022]]
 	- -
-		- Aunque las fases se traten linealmente en esta asignatura, estas no se implementarán en cascada. Una de las enseñanzas más importantes de DevOps es la necesidad de iterar e ir realizando pasos incrementales lo más frecuentes posibles.
-		  id:: cf427afa-2dec-4be1-8622-6cc2915231a8
-		  
-		  Esto nos llevará a hablar en todas las fases de cómo las diferentes herramientas pueden soportar esta iteración. #flashcard
+	- Aunque las fases se traten linealmente en esta asignatura, estas no se implementarán en cascada. Una de las enseñanzas más importantes de DevOps es la necesidad de iterar e ir realizando pasos incrementales lo más frecuentes posibles.
+	  
+	  Esto nos llevará a hablar en todas las fases de cómo las diferentes herramientas pueden soportar esta iteración. #ñspace
 		- (Page 5)
 	- -
 	- -
-		- Define despliegue. #flashcard
-		  id:: fe1d0285-30a0-42a4-bbea-8adc28d1053c
-			- Definiremos la Implementación y Despliegue como la fase en la que aplicamos una nueva versión de nuestra aplicación al entorno productivo. Es importante destacar que eso no es únicamente desplegar una nueva versión de código (aunque es una parte esencial y compleja en sí misma) sino desplegar un entorno nuevo, cambiar las piezas necesarias, desplegar componentes nuevos completos, configurar conexiones y eliminar las piezas que dejen de ser fundamentales.
-		- tags:: [[favorite]]
+	- Define despliegue. #card
+		- Definiremos la Implementación y Despliegue como la fase en la que aplicamos una nueva versión de nuestra aplicación al entorno productivo. Es importante destacar que eso no es únicamente desplegar una nueva versión de código (aunque es una parte esencial y compleja en sí misma) sino desplegar un entorno nuevo, cambiar las piezas necesarias, desplegar componentes nuevos completos, configurar conexiones y eliminar las piezas que dejen de ser fundamentales.
 		- (Page 7)
+		- #[[favorite]]
 	- -
 	- -
-		- ¿Qué es la infraestructura inmutable? #flashcard
-		  id:: d320c15d-33d0-49ed-9c0f-4f2ee58380c0
-			- La infraestructura inmutable es un paradigma que intenta considerar las piezas de infraestructura  como  inmutables  y,  por  tanto,  la  forma  de  cambiarlas  sería reemplazarlas por una nueva con la próxima versión.
+	- ¿Qué es la infraestructura inmutable? #card
+		- La infraestructura inmutable es un paradigma que intenta considerar las piezas de infraestructura  como  inmutables  y,  por  tanto,  la  forma  de  cambiarlas  sería reemplazarlas por una nueva con la próxima versión.
 		- (Page 9)
 	- -
 	- -
-		- Azure  Resource  Manager  permite  desplegar  recursos  en  un  Resource  Group  de Azure. #flashcard
-		  id:: 33a3eaea-b342-4054-8d70-72462c6d55b1
+	- Azure  Resource  Manager  permite  desplegar  recursos  en  un  Resource  Group  de Azure. #ñspace
 		- (Page 13)
 	- -
 	- -
-		- ¿En qué consiste mantener un sistema? #flashcard
-		  id:: 09b5be80-390c-479e-b468-e9972e804cc8
-			- El  mantenimiento  de  un  sistema  consiste  en  lograr  que  el  sistema  continúe funcionando y mantenga nuestro objetivo de nivel de servicio, SLO (del inglés Service Level  Objectives)  y  nuestros  acuerdos  de  servicio,  SLA  (del  inglés  Service  Level Agreement).
+	- ¿En qué consiste mantener un sistema? #card
+		- El  mantenimiento  de  un  sistema  consiste  en  lograr  que  el  sistema  continúe funcionando y mantenga nuestro objetivo de nivel de servicio, SLO (del inglés Service Level  Objectives)  y  nuestros  acuerdos  de  servicio,  SLA  (del  inglés  Service  Level Agreement).
 		- (Page 22)
 	- -
 	- -
-		- ¿De qué requiere la mejora continua? #flashcard
-		  id:: 8ed5271c-c1d4-4c48-8551-44017cd06546
-			- La  mejora  continua  requiere  de  un  análisis  de  la  situación  real,  y  además  de  un análisis  sobre  qué  cambios  queremos  realizar.  La  monitorización  nos  ayudará significativamente a conocer nuestros datos actuales a fin de predecir problemas y evitarlos en la siguiente iteración.
+	- ¿De qué requiere la mejora continua? #card
+		- La  mejora  continua  requiere  de  un  análisis  de  la  situación  real,  y  además  de  un análisis  sobre  qué  cambios  queremos  realizar.  La  monitorización  nos  ayudará significativamente a conocer nuestros datos actuales a fin de predecir problemas y evitarlos en la siguiente iteración.
 		- (Page 23)
 	- -

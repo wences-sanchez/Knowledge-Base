@@ -5,10 +5,8 @@ tags:: Coursera, Self-Learning
 - ## Week 1: Introduction to Networking
 	- ### The TCP/IP Five-Layer Network Model
 		- #### ¿Qué es un protocolo? #flashcard
-		  id:: 634545e1-035b-4ced-b376-140de803d66e
 			- Es un conjunto de estándares que los ordenadores deben seguir para comunicarse adecuadamente
 		- #### ¿A qué le llamamos “Networking”? #flashcard
-		  id:: 634545e1-9cab-46bf-b00d-d25c26baa336
 			- Al ámbito completo de cómo los ordenadores se comunican entre sí con cada otro.  
 			  Networking incluye asegurarse de que:
 				- los ordenadores puedan escuchar a los demás,
@@ -16,47 +14,37 @@ tags:: Coursera, Self-Learning
 				- de que repitan mensajes que no se hayan entregado totalmente, etc.
 				  Justo como los humanos nos comunicamos.
 		- ### La <> representa a los dispositivos físicos que interconectan los ordenadores #flashcard
-		  id:: 634545e1-03e2-44f4-8480-ec1695f1dd9f
 			- Hidden word: *[capa física]*
 			- Esto incluye las especificaciones para los cables de red y los conectores que unen dispositivos junto con la descripción de cómo las señales deben ser enviadas sobre esas conexiones.
-		- Mientras que la capa física se refiere a todo lo relacionado con cables, conectores y señales enviadas, la {capa de enlace} es responsable de definir una manera común de interpretar esas señales, para que los dispositivos de red puedan comunicarse. #flashcard
-		  id:: 634545e1-d742-4f24-be4d-5b6135307f2d
+		- Mientras que la capa física se refiere a todo lo relacionado con cables, conectores y señales enviadas, la {capa de enlace} es responsable de definir una manera común de interpretar esas señales, para que los dispositivos de red puedan comunicarse. #spaced
 			- ![image.png](../assets/image_1662206586194_0.png)
 			-
 		- Existen muchos protocolos en la capa de enlace, pero el más conocido es <>, aunque las tecnologías inalámbricas son cada vez más populares. #flashcard
-		  id:: 634545e1-50c9-4324-9b1c-bfffc8af937b
 			- Hidden word: *[Ethernet]*
 		-
 		- #### Más allá de especificar los atributos de la capa física, los estándares Ethernet también definen un <> responsable de obtener datos de los nodos de la misma red o enlace. #flashcard
-		  id:: 634545e1-9d90-45a9-b760-7fede010e619
 			- Hidden word *[protocolo]*
 		-
 		- #### La tercera capa, la <<>>, también es conocida como la capa de Internet. Permite a diferentes redes comunicarse con otras a través de dispositivos conocidos como routers. #flashcard
-		  id:: 634545e1-fe5e-4019-a0cf-2bac7081dc5c
 			- Hidden word: *[capa de red]*
 			- ![image.png](../assets/image_1662206925208_0.png)
 		- #### De entre los conjuntos de redes conectadas a través de routers, la más famosa de ellas es <<>>. #flashcard
-		  id:: 634545e1-f332-45ba-b03c-fcafb680ed76
 			- Hidden word: *[Internet]*
 		- #### Mientras que la capa de enlace es responsable de obtener datos a través de un único enlace, la capa de red es responsable de obtener los datos entregados a través de <<>>. Es esta capa la que obtiene los datos entre dos sitios distintos. #flashcard
-		  id:: 634545e1-134f-495e-a6b3-e74e2166ee76
 			- Hidden word *[un conjunto de redes]*
 			- Como cuando un dispositivo en tu red local se conecta a un servidor en la Internet.
 			-
 		- #### El protocolo más usado en la capa de red es <<>>. #flashcard
-		  id:: 634545e1-d5d2-4321-850b-566ac44ae62c
 			- Hidden word: *[IP (Internet Protocol)]*
 			- IP (Internet Protocol) es el corazón de Internet y la mayoría de pequeñas redes a lo largo del mundo.
 		- #### Mientras que la capa de red envía datos entre dos nodos individuales, la <<>> se encarga de solucionar qué cliente y qué programas del servidor tienen que recibir esos datos. #flashcard
-		  id:: 634545e1-9aba-4691-af85-6840f953e6dc
 			- Hidden word: *[capa de transporte]*
 		- #### El protocolo más usado en la cuarta capa, la capa de transporte, es conocido como <<>>. #flashcard
-		  id:: 634545e1-709b-4188-b818-5dae8eea0a06
 			- Hidden word: *[TCP (Transmission Control Protocol)]*
 			- Otros protocolos de transferencia de esta capa también usan IP para funcionar, como el protocolo UDP (User Datagram Protocol).
 		- La mayor diferencia entre TCP y UDP es que TCP provee mecanismos para asegurarse de {que los datos son fiables}, mientras que UDP no lo hace.
 #### La quinta capa es la {capa de aplicación}
-
+  
 ![Untitled](layers%201%20to%205.png)
 <!--ID: 1643445212959-->
 

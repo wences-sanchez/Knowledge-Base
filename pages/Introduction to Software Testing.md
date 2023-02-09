@@ -1,8 +1,7 @@
 - #tags #Coursera #SW-Testing
 - ## Week 1
 	- ### Lesson 1: Introduction to Testing
-		- **Verification** VS **Validation** #flashcard
-		  id:: 6345466f-486a-494d-adfc-2d2db23deb81
+		- **Verification** VS **Validation** #spaced
 			- **Validation** is when we make sure that the actual product against the expected result from the user's perspective. It's a dynamic testing. It answers the question:
 				- > Are we building the right product?
 			- **Verification** is when we check that the software is free from bugs, technically speaking. Upon our internal requirements. It answers the question:
@@ -10,19 +9,13 @@
 		- According to **Turing's halting problem**, it is theoretically not possible at all to check a perfect verification of one program by having another one checking it. #Curiosities
 		- ![image.png](../assets/image_1659351422358_0.png)
 	- ### Lesson 2: Why and How we Test
-		- Types of tests: #flashcard
-		  id:: 6345466f-ddd9-4696-99a8-cf71bb4ad9a7
+		- Types of tests: #spaced
 			- **Unit tests:** testing individual classes / functions
 			- **Integration tests:** testing packages / subsystems
 			- **System tests:** testing the entire system
 		- Even with **TDD**, there is *re-test* when you modify your code.
 		- The function f(x) of a program is not continuous, so we can't derive its output (unlike other engineering fields) to test it. #Curiosities
 		- *Optimistic* VS *Pessimistic* **testing** #flashcard
-<<<<<<< HEAD
-		  id:: 636a1b48-4696-4512-940f-5be916a23883
-=======
-		  id:: 6345466f-ba61-42cb-a1ee-5da7ed1e8431
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			- **Optimistic** means that the system gives you a lot of outputs. And you'll have to be careful because of the false positives.
 				- > They say your program is right, when in fact it may be wrong in some cases.
 			- **Pessimistic** means that the system gives you a lot of false negatives that you (the human) have to discard.
@@ -32,11 +25,6 @@
 		- #### Questions
 			- ##### Pregunta 3
 			- Is testing a (primarily) optimistic or pessimistic verification technique?
-<<<<<<< HEAD
-			  id:: 636a1b48-f584-42ef-9438-ee3c4fc982e0
-=======
-			  id:: 6345466f-dc5e-46ca-9a73-8c344fa20a6b
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  
 			  [ ] Optimistic
 			  [ ] Pessimistic
@@ -51,11 +39,6 @@
 		- We have to automate testing output upon ***the oracle***.
 		-
 		- Anatomy of the parts of a Test: #flashcard
-<<<<<<< HEAD
-		  id:: 636a1b48-ac1f-4b6b-83f2-59e61f52911f
-=======
-		  id:: 6345466f-d98f-49c9-8dea-1aa7222c7c9b
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			- 1. **Setup**: How you put the software under test into the state under which the test input would make sense.
 			  2. **Invocation**: Merely the execution of a single test case.
 			  3. **Assessment**: The act of observing the behavior of that software under test.
@@ -63,9 +46,8 @@
 - ---
 - ## Week 2
 	- ### Lesson 1: Testing Principles
-		- About *Lesson 1: Testing Principles* #flashcard
+		- About *Lesson 1: Testing Principles* #spaced
 		  collapsed:: true
-		  id:: 6345466f-2c92-4058-8d1b-cb646ad1cf7c
 			- **Dependability** is what you would expect.
 				- We're interested in determining whether or not the software is dependable, that is whether it delivers a service such that we can rely on it.
 			- **Service** is the system behavior as it's perceived by the user of the system.
@@ -85,11 +67,6 @@
 				- **Error removal:** minimizing, by *verification*, the presence of latent errors. (This is where **testing** stands).
 				- **Error forecasting:** estimating, by *evaluation*, the presence, the creation, and the consequences of errors.
 		- Explain the graph: ![image.png](../assets/image_1659425066865_0.png){:height 287, :width 472} #flashcard
-<<<<<<< HEAD
-		  id:: 636a1b48-ffa4-4a16-b7d8-849415df823d
-=======
-		  id:: 6345466f-2704-4afa-9b32-56ce3ff91411
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			-
 			- **Dependability**:
 				- **Impairments** (*things we're trying to avoid*):
@@ -110,19 +87,13 @@
 						- **Safety**: absence of catastrophic consequences
 						- **Integrity**: absences of improper system alteration (*exploitability*)
 						- **Maintainability**: ability for a process to undergo modifications and repairs
-		- Formulas of availability measures #flashcard
-		  id:: 6345466f-7f4e-4a75-a58b-0508c65af9f9
+		- Formulas of availability measures #spaced
 			- Formulas: ![image.png](../assets/image_1659426971116_0.png)
 			- Bugs flow:
 				- ![image.png](../assets/image_1659427299208_0.png)
 			-
 			- ![image.png](../assets/image_1659428454929_0.png)
 		- #### Testing Principles: Where #flashcard
-<<<<<<< HEAD
-		  id:: 636a1b48-4fdb-4bde-8937-ce38f4b754fd
-=======
-		  id:: 6345466f-6f9f-428e-a991-e0ad74282173
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			- Programmers tend to make mistakes in some frequent places or ways:
 				- Floating points (inherently imprecise in comparisons)
 				- Pointers (memory difficult issues)
@@ -140,11 +111,6 @@
 		- Quizzes
 		  collapsed:: true
 		- #flashcard Pregunta 3
-<<<<<<< HEAD
-		  id:: 636a1b48-8742-4044-8aa6-d30ce1293061
-=======
-		  id:: 6345466f-00d1-4444-a207-93ef912f373b
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		  
 		  *Is availability is the same as reliability?*
 		  
@@ -154,11 +120,6 @@
 			  
 			  >Correct: availability says the system is running, reliability says that it is doing the right thing.
 			- Pregunta 4
-<<<<<<< HEAD
-			  id:: 636a1b48-243f-4223-a1b6-cbca49140ce9
-=======
-			  id:: 6345466f-47dd-4699-9593-632be3788952
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  *A correct system (with respect to its requirements) will be safe.*
 			  [ ] True
 			  [ ] False #flashcard
@@ -166,19 +127,13 @@
 				  
 				  > Yes: A correct system will be safe if the requirements are adequate to ensure safety, but this is not a given.
 			- Pregunta 5
-<<<<<<< HEAD
-			  id:: 636a1b48-7b87-45d9-9631-9a1ae10314de
-=======
-			  id:: 6345466f-d52d-49af-a80a-f3deb3ae369e
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  *A correct system will be reliable.*
 			  [ ] True
 			  [ ] False #flashcard
 				- Correcto: *True*
 				  > Reliability is defined in terms of meeting requirements; by definition, a correct system is reliable.
 		-
-	- ### Lesson 2: Testing Principles: When (V Model) #flashcard
-	  id:: 6345466f-aa01-49ae-a4db-10ea9943c0be
+	- ### Lesson 2: Testing Principles: When (V Model) #spaced
 		- While the *V-Model* obviously has many drawbacks, we could pick up from it the idea of **test** at every stage of the **development lifecycle** (even though it's not a testing framework)
 		- **Validation & Verification**
 			- A product could meet the validation but also be very bad. (**That's not the goal XD**)
@@ -188,11 +143,6 @@
 		- Code Coverage
 		- #### Mutation Testing
 			- When do we say that a mutant is *killed* in Mutation testing? #flashcard
-<<<<<<< HEAD
-			  id:: 636a1b48-4458-4f7f-abc7-313a1f45f995
-=======
-			  id:: 6345466f-6702-47e2-8503-c737329d9788
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 				- A mutant is *killed* when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program.
 				- If all our tests pass after creating mutants in our AUT, then we have a problem.
 					- The next step should be write more test cases (in order to *kill* them) if the tests pass.
@@ -202,11 +152,6 @@
 		- #### Quizzes
 		  collapsed:: true
 			- #flashcard Pregunta 8: Adaptive cruise control software that continues to run in the presence of multiple hardware and service failures but regularly misjudges the distance between cars by a substantial amount is an example of a ______ system.
-<<<<<<< HEAD
-			  id:: 636a1b48-f6c4-4017-8866-a551f2c91de9
-=======
-			  id:: 6345466f-08dd-4a39-84cd-8de040a1f514
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  [ ] certainly reliable
 			  [ ] certainly correct
 			  [ ] certainly safe
@@ -217,11 +162,6 @@
 - ## Week 3
 	- ### Lesson 1: Fundamental Testing Processes
 		- #### What is a test plan? #flashcard
-<<<<<<< HEAD
-		  id:: 636a1b48-cbdb-4612-8633-0b778ad0632d
-=======
-		  id:: 6345466f-2151-4df4-a142-482ec4701698
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			- ![image.png](../assets/image_1659437816019_0.png)
 			- This plan is created by testers.
 			- The DVT *(Design Verification Test)* checks if we build the thing right.
@@ -229,11 +169,6 @@
 			- There is also the CAT *(Customer Acceptance Test)*
 			-
 		- Mention the components of a Test Plan: #flashcard
-<<<<<<< HEAD
-		  id:: 636a1b48-e1c2-43c1-bd83-0b07669a42df
-=======
-		  id:: 634545bd-aa8b-45c0-b68c-11c7ae5956ff
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			- ![image.png](../assets/image_1659438258912_0.png)
 			- **Scope:** means you know your domain.
 				- There's no way to properly definen your tests without knowing the bounds and the domain within your project works.
@@ -247,8 +182,7 @@
 				- It just puts it in front of management and development one more time.
 				- We are not the starting testing unless, or if we find *five* **defects**, we stop.
 				- That is, if we find too many defects, we hand it **back to development** for further unit testing before we really start our own work.
-		- #### Importance of a Good Test Plan #flashcard
-		  id:: 6345466f-8476-46bd-8389-6ff7a5bd33c8
+		- #### Importance of a Good Test Plan #spaced
 			- We use the Test Plan as a tool, not as a product.
 			- We have to be specific about what and who.
 			- A test plan is useful to:
@@ -280,17 +214,11 @@
 			- You have to compare the existing schedule versus the actual schedule that's being done.
 			- And list what defects are still open, so that the managers can see what things are still wrong.
 			- You have to communicate, you are not isolated.
-		- #### Risk-based Test Planning #flashcard
-		  id:: 6345466f-4728-4b5a-a87a-eb41134942ce
+		- #### Risk-based Test Planning #spaced
 			- ![image.png](../assets/image_1659451466829_0.png)
 			- **Testing** is our primary means of reducing **risk**.
 		- #### Quiz
 			- Question 2: #flashcard Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?
-<<<<<<< HEAD
-			  id:: 636a1b48-71a6-4e44-b2ae-da5ce8253569
-=======
-			  id:: 6345466f-8fb5-49c4-a57c-bb162680241e
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  [] System Validation Test
 			  [] Customer Acceptance Test
 			  [] Unit Test
@@ -303,18 +231,12 @@
 	- ## Lesson 2: Software Defect Reports
 		- #### Software Defect Reports
 			- What is the defect (bug) lifecycle? #flashcard
-<<<<<<< HEAD
-			  id:: 636a1b48-d1d0-4a7f-800a-a002d01a4207
-=======
-			  id:: 6345466f-42d5-4354-9bb0-520e417c7a62
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 				- 1. **Analyze**: Analyze bug to ensure proper reporting
 				  2. **Report**: Make report
 				  3. **Track**: Track status of the fix
 				  4. **Retest**: Retest bug
 				  5. **Close**: Close bug when problem is fixed
-		- #### Software Defect Reports: Analysis #flashcard
-		  id:: 6345466f-2e75-4df6-afa6-88fbc94d397f
+		- #### Software Defect Reports: Analysis #spaced
 			- Ideally by a tester or developer, not the user.
 			- Even reported, we don't know most of the times the exact root cause.
 			- What is the Analysis of a software defect?
@@ -323,8 +245,7 @@
 				- Attempt to isolate the defect
 				- Investigate alternative paths to the issue (to better solve the problem)
 				- Decide if it is worth reporting (formally)
-		- #### Software Defect Reports: Reporting #flashcard
-		  id:: 6345466f-202f-4bb0-937c-f749137bba5b
+		- #### Software Defect Reports: Reporting #spaced
 			- 1. Ensure it is not a duplicate
 			  2. Talk with the developer
 			  3. Enter it into the system
@@ -351,8 +272,7 @@
 			- Close
 - ---
 - ## Week 4
-	- ### Lesson 1: Test Doubles #flashcard
-	  id:: 6345466f-0bfc-4aa2-ab5c-486b197230db
+	- ### Lesson 1: Test Doubles #spaced
 		- #### Test Doubles: Introduction
 			- **Test Doubles** are lightweight versions of components that are necessary to test some class or system, usually designated the System Under Test (**SUT**).
 				- Like databases, real components that are not yet finished,...
@@ -384,11 +304,6 @@
 			-
 		- #### Quiz
 			- #flashcard **Pregunta 1:** When providing test inputs for test doubles, we want to use ____ and ____.
-<<<<<<< HEAD
-			  id:: 636a1b48-bf11-407b-964f-539bcc6b1bef
-=======
-			  id:: 6345466f-a2ce-4b22-82e0-6c67adebc4df
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  
 			  [ ] Mock objects; Spy objects
 			  [ ] Dummy objects; Mock objects
@@ -398,11 +313,6 @@
 				- > Correct! These would be dummy objects and test stubs. Mock and spy objects are used for outputs.
 			-
 			- #flashcard **Pregunta 2:** During constructing test doubles, you wish to provide outputs for just a handful of values. What do you use?
-<<<<<<< HEAD
-			  id:: 636a1b48-cc57-4b83-b89e-fe931af298b1
-=======
-			  id:: 6345466f-f0ef-4d5f-bceb-52bb278e681b
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  
 			  [ ] Dummy Objects
 			  [ ] Test Doubles
@@ -412,11 +322,6 @@
 				- > Test stubs would provide outputs for a few values.
 			-
 			- #flashcard **Pregunta 3:** During testing, you find that the unit tests require the use of a computationally expensive database. What could you use as a test double?
-<<<<<<< HEAD
-			  id:: 636a1b48-7f9a-4d1b-8844-3d70ed13b1c3
-=======
-			  id:: 634545bd-0ff0-42e1-8cf3-6034eafd765b
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  
 			  [ ] Test Stubs
 			  [ ] Fake Objects
@@ -424,11 +329,6 @@
 				- > Test stubs would only provide outputs for a few values.
 				- > Fake objects would replace expensive with cheap (for instance, an in memory database).
 			- #flashcard **Pregunta 4:** <...> objects allow us to observe interactions of fake objects. <...> objects allow us to observe interactions of real objects.
-<<<<<<< HEAD
-			  id:: 636a1b48-5260-4588-afba-1ec02225c62c
-=======
-			  id:: 6345466f-8fb2-40ea-94fb-3c789220c66b
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  
 			  Mock; Dummy
 			  Spy; Mock
@@ -437,11 +337,6 @@
 				- Correcto: *Mock; Spy*
 				- > Mock objects allow observation of the interaction of fake objects whereas spy objects allow us to observe the interactions of real objects.
 			- #flashcard **Pregunta 6:**
-<<<<<<< HEAD
-			  id:: 636a1b48-650a-4739-9764-14d6a15c6ae3
-=======
-			  id:: 6345466f-80a2-41b7-84d4-5ee7d4507ef9
->>>>>>> cd827be2af13b105731b701835027f11e7012c97
 			  In Mockito, it is possible to create an object that is both a stub and a mock.
 			  
 			  [ ] True

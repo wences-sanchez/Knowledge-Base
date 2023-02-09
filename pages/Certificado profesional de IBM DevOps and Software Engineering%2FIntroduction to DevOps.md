@@ -1,8 +1,6 @@
 title:: Certificado profesional de IBM DevOps and Software Engineering/Introduction to DevOps
 tags:: Coursera, DevOps, IBM
-deck:: [[IBM-DevOps::Introduction to DevOps]]
 
--
 - #tags #Coursera #DevOps
 -
 - ## Week 1
@@ -40,7 +38,6 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 		- ### Question
 			- Pregunta: What is DevOps?
 			  collapsed:: true
-			  id:: 6345458f-8967-4d71-ba7e-0c9a7a835f16
 			  [ ] DevOps is primarily a recognition that Dev and Ops must work together during the entire development life cycle.
 			  [ ] DevOps is primarily deploying ever larger monolithic applications that are all or nothing at deploy.
 			  [ ] DevOps is primarily adopting tools and procedures used by DevOps engineers for Dev and Ops.
@@ -60,8 +57,7 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 					- The different roles need to be in the same team
 				- Self-organizing teams
 				-
-			- **The Conway's Law:** #flashcard
-			  id:: 6345458f-fec8-4a6a-b29b-13d1e5ae7507
+			- **The Conway's Law:** #spaced
 				- > Any organization that designs a system (defined broadly) will produce a design whose structture is a copy of the organization's communication structure.
 					- If you have three teams dedicated to the same issue, you'll have a redundantly duplicated ammount of work.
 					- If you have those different teams working in different tiers, then you'll have a multi-tier app.
@@ -74,8 +70,7 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 						- **Conway’s Law** implies that a company’s design results are a direct **reflection** of the company’s communication **structures**.
 						- Successful DevOps **teams** should be organized around **business domains**.
 						- Each **team** should have a **mission** that **aligns** with a business **domain**.
-		- #### There is No DevOps Team #flashcard
-		  id:: 6345458f-f483-41f9-adbf-60aede93965f
+		- #### There is No DevOps Team #spaced
 			- > Here is a clue, if you’re not doing development, then you’re not doing DevOps, you’re just doing Ops.
 			- DevOps is **NOT** something that just **Ops** people do.
 			- What DevOps isn't and should be:
@@ -94,8 +89,7 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 			- When engineers work in silos they do not see or feel the effect of their poor work.
 	- ---
 	- ### Measuring DevOps
-		- #### Rewarding for "A" while hoping for "B" #flashcard
-		  id:: 6345458f-eaf3-4ab9-b389-9e3506a2332e
+		- #### Rewarding for "A" while hoping for "B" #spaced
 			- You end obtaining what you are measuring. For example, if you measure:
 				- ![image.png](../assets/image_1660986596529_0.png)
 				- You **get** what you **measure**.
@@ -103,8 +97,7 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 				- Do that following the DevOps principles of Continuous Improvement.
 				- Examples:
 					- Measure the **MTTR**: Mean Time To Recovery
-		- #### Vanity metrics VS Actionable metrics #flashcard
-		  id:: 6345458f-2a30-43c6-ac10-f7b06e35ef60
+		- #### Vanity metrics VS Actionable metrics #spaced
 			- It is not very useful to have a metric like the total number of clicks.
 			- Actionable metric examples:
 				- Reduce time to market
@@ -122,7 +115,6 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 				- 4. Mean Time To Recovery
 		- #### Comparison of DevOps to SRE
 			- What is **SRE** (Site Reliablity Engineering)? #flashcard
-			  id:: 6345458f-9cda-4fdc-88cc-8e25da2a2280
 				- SRE is...
 					- > "...what happens when a software engineer is tasked with what used to be called operations."
 					  Ben Treynor Sloss
@@ -133,7 +125,6 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 					- SRE teams are separate from development teams
 					- Developers rotate through operations
 			- What are the differences between SRE and DevOps teams? #flashcard
-			  id:: 6345458f-f5d4-41a6-8e92-32966aa2fcbf
 				- SRE maintains separate development and operations silos with one staffing pool
 					- If you need one more developer, you take it away from SRE team
 					- If you need one more SRE, you take it away from dev team
@@ -147,7 +138,6 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 						- Everyone is responsible for code
 						- *"You build it, you run it"*
 			- What is the commonality from SRE and DevOps? #flashcard
-			  id:: 6345458f-9677-4f25-a53c-b00019de4235
 				- Both seek to make both DEV and OPS work visible to each other
 				- Both require a blameless culture
 				- The objective of both is to deploy software faster with stability.
@@ -165,19 +155,14 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 			-
 	- ### Flashcards
 		- What is the metric which measures how long it takes to an idea to get to production? #flashcard
-		  id:: 6345458f-ca54-4ad8-9572-f69d84423609
 			- *Mean Lead Time*
 		- What is the metric which measures how often changes fail? #flashcard
-		  id:: 6345458f-fd11-45da-9aff-54243694fc98
 			- *Change Failure Rate*
 		- What is the metric which measures how quickly you can recover from failure? #flashcard
-		  id:: 6345458f-5181-4395-bd7b-df67eee1336b
 			- *Mean Time To Recovery (MTTR)*
 		- What does “rewarding for “A” while hoping for “B” mean? #flashcard
-		  id:: 6345458f-9d39-4307-8d37-3aca224db096
 			- People will seek to do the activities that are rewarded, so measure what matters.
 		- **Select the statement that correctly describes DevOps.**
-		  id:: 6345458f-121b-4f9a-8dfe-f1d3e8b677f8
 		  [ ] DevOps is a cultural change in which the development team and the operations team work together in cross-functional teams.
 		  [ ] DevOps is the combining of the development team and the operations team into one team.
 		  [ ] DevOps is primarily automation by DevOps Engineers.
@@ -186,7 +171,6 @@ deck:: [[IBM-DevOps::Introduction to DevOps]]
 				- Correcto: *DevOps is a cultural change in which the development team and the operations team work together in cross-functional teams.*
 				- Correct. DevOps includes automation, fast deploys, and tools, but it is essentially about Dev and Ops working together.
 		- **Select the correct statement regarding DevOps.**
-		  id:: 6345458f-3506-4d4a-9708-ea187d3bfb00
 		  [ ] DevOps is done primarily by Ops.
 		  [ ] DevOps is a separate team that sits between Dev and Ops.
 		  [ ] DevOps is Dev and Ops working together with the same mindset.

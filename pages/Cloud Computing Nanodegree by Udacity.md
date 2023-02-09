@@ -1,5 +1,0 @@
--
--
-- ## 3. Full Stack Apps on AWS
-	- ### [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Cloud Basics]]
--

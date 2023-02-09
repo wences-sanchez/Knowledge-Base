@@ -14,7 +14,6 @@ tags:: LinkedIn-Learning, Kubernetes
 		-
 	- ### Flashcards
 		- ¿Qué es un **daemonSet** en *Kubernetes*? #flashcard
-		  id:: 6345458a-0081-447e-8d70-21e1f45cbe60
 			- Un "daemonset" es un tipo de despliegue de Kubernetes que hace que siempre se esté ejecutando un POD determinado en cada uno de los nodos de nuestro clúster.
 			- En algunas ocasiones como, por ejemplo, para la monitorización del sistema nos puede interesar este formato
 			-
@@ -36,7 +35,6 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- ### Flashcards
 		- Acerca de los **Jobs** en *Kubernetes*. #flashcard
-		  id:: 6345458a-7a75-4c00-a63d-db1b8630e64e
 			- Son para tareas que tienen un inicio y un final definidos.
 			- No es como un servidor web que está ejecutándose continuamente.
 			- No tiene promesa de continuidad
@@ -54,7 +52,6 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- ### Flashcards
 		- ¿Cómo se pueden usar y configurar los **CronJobs** en Kubernetes? #flashcard
-		  id:: 6345458a-e5fc-471c-b27b-dfa327d0d7f8
 			- También se pueden ejecutar jobs en Kubernetes de forma periódica --> **CronJobs**
 			- `minuto; hora; dia; mes; dia_semana;`
 				- El `*` es igual a todos
@@ -70,7 +67,6 @@ tags:: LinkedIn-Learning, Kubernetes
 	-
 	- ### Flashcards
 		- Acerca de los volúmenes persistentes en Kubernetes. #flashcard
-		  id:: 6345458a-9313-4318-87fe-c6b18c0fd5b6
 			- Un volumen persistente de Kubernetes es un almacenamiento al que se conecta Kubernetes que permanece en el tiempo hasta que lo borremos, pase lo que pase con los pods que se conecten a él.
 			- hemos visto que si necesitamos almacenamiento permanente en Kubernetes, lo que vamos a hacer es una petición de volumen persistente.
 			- Estos volúmenes persistentes, aunque la definición sea siempre la misma, por detrás van a ser asignados por Kubernetes.

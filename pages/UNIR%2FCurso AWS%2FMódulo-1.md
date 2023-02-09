@@ -1,8 +1,6 @@
 title:: UNIR/Curso AWS/Módulo-1
 tags:: UNIR, AWS
-deck:: [[UNIR::Curso AWS::Módulo-1]]
 
--
 - #tags #UNI #AWS #Tema-1
 - # Módulo 1
 -

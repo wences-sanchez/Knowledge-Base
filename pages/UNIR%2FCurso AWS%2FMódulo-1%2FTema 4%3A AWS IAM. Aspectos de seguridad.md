@@ -1,14 +1,10 @@
 title:: UNIR/Curso AWS/Módulo-1/Tema 4: AWS IAM. Aspectos de seguridad
 tags:: UNIR, AWS
-deck:: [[UNIR::Curso AWS::Módulo-1]]
 
--
--
 - #tags #UNI #AWS #Tema-1
 -
 - ## Modelo de responsabilidad compartida de AWS
-	- ### Modelo de responsabilidad compartida de AWS #flashcard
-	  id:: 634545e3-5809-44aa-b6d2-d97eeb63fdad
+	- ### Modelo de responsabilidad compartida de AWS #spaced
 		- ![image.png](../assets/image_1665044543811_0.png)
 		- Tanto el cliente como AWS tenemos (diferentes) responsabilidades
 		- Como clientes, somos responsables de lo que ocurre dentro de la nube. Es decir, de que nuestras aplicaciones funcionen, de nuestros datos de clientes, de aplicaciones, de las identidades, accesos, configurar parches si tenemos máquinas virtuales, de la red, cortafuegos, etc.
@@ -38,8 +34,7 @@ deck:: [[UNIR::Curso AWS::Módulo-1]]
 -
 - ## AWS Identity and Access Management (IAM)
 	- Es un servicio gratuito que nos permite gestionar el acceso a los recurso de AWS.
-	- ### Recursos, usuarios, políticas, roles, autenticación y autorización en AWS #flashcard
-	  id:: 634545e3-4fa4-42d3-a588-0577f06cd508
+	- ### Recursos, usuarios, políticas, roles, autenticación y autorización en AWS #spaced
 		- ### Recursos en AWS
 			- Un recurso es una entidad en una cuenta de AWS con la que se puede trabajar.
 				- Por ejemplo, una instancia de EC2, un bucket de S3 o una lambda.
@@ -65,8 +60,7 @@ deck:: [[UNIR::Curso AWS::Módulo-1]]
 			- Se usa IAM para asignar permisos y determinar qué recursos y operaciones están permitidos.
 			- Por defecto, los permisos están todos denegados de forma implícita.
 			-
-	- ### Políticas de IAM #flashcard
-	  id:: 634545e3-a7e8-499a-b11d-7a6ee7573a84
+	- ### Políticas de IAM #spaced
 		- Es un documento en JSON que define permisos de control de acceso.
 		- Hay dos tipos de políticas:
 			- **Basadas en identidad:**
@@ -74,8 +68,7 @@ deck:: [[UNIR::Curso AWS::Módulo-1]]
 			- **Basadas en recursos:**
 				- Asociadas a recursos (como un bucket de S3).
 		-
-	- ### Roles de IAM #flashcard
-	  id:: 634545e3-1f7b-48fa-bc60-47caadf372fa
+	- ### Roles de IAM #spaced
 		- Un rol de IAM es una identidad de IAM con permisos específicos.
 		- Es similar a un usuario en IAM.
 			- Asocia políticas de permisos a él.
@@ -85,8 +78,7 @@ deck:: [[UNIR::Curso AWS::Módulo-1]]
 		- El rol proporciona credenciales de seguridad temporales
 -
 -
-- ## Protección de cuentas y datos #flashcard
-  id:: 634545e3-b041-4c0e-90a2-c2fcd8c12980
+- ## Protección de cuentas y datos #spaced
 	- ### Prácticas recomendadas para proteger una cuenta
 		- Eliminar las claves de acceso de usuario raíz de la cuenta
 		- Crear un usuario IAM para nosotros mismos y eliminar las claves SDK y clave secreta de la cuenta.

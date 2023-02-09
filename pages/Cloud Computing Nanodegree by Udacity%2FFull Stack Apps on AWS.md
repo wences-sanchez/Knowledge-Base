@@ -1,9 +1,0 @@
-- # 3. Full Stack Apps on AWS
-	- ## Lessons
-		- ### Lesson 1: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Cloud Basics]]
-		- ### Lesson 2: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Develop]]
-		- ### Lesson 3: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Storing Data in the Cloud]]
-		- ### Lesson 4: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Building and Deploying]]
-		-
-		-
-		-

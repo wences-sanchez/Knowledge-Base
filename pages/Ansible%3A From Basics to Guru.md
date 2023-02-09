@@ -50,7 +50,6 @@ title:: Ansible: From Basics to Guru
 	- ### Lesson 3: Using Ansible Playbook
 		- A playbook is a collection of plays
 		- Ansible goes task by task, waiting every host to finishes it before moving on to the next.
-		  id:: 6345458a-97cd-4834-ac8d-707fb4e23d8a
 		  
 		  
 		  
@@ -63,7 +62,7 @@ title:: Ansible: From Basics to Guru
 		  
 		  ---
 		  
-		  #flashcard
+		  #spaced
 		  > Let's run it Ansible playbook on run and test httpd.yaml. As you can see, we are skipping the fact gathering that makes it really much faster. And then it's trying to install the package again. 
 		  
 		  > That's something that's not needed anymore because we have already done that in the play that we were just running. 
@@ -72,7 +71,7 @@ title:: Ansible: From Basics to Guru
 		  
 		  ---
 		  
-		  #flashcard
+		  #spaced
 		  * If a task fails to run a specific host, the following ones are not executed unless we specify `ignore_errors: true`
 		  
 		  * There is no easy way to undo a playbook
@@ -89,11 +88,9 @@ title:: Ansible: From Basics to Guru
 
 ---
 # Module 2: Developing Flexible Playbooks
-id:: 6345458a-79cc-4b68-80ba-4350a09d3e95
 
-#flashcard
+#spaced
 ## Lesson 5: Working with Variables
-id:: 6345458a-44f5-48fe-bf75-b24223c9d038
 
 * You should separate information from the code
 
@@ -129,9 +126,9 @@ tasks:
 - name: ...
 tasks:
 - set_fact:
-my_var: my_value
+    my_var: my_value
 - debug:
-msg: The value is {{ my_var }}
+    msg: The value is {{ my_var }}
 ```
 
 7. **vars_prompt** to sensitive info
@@ -141,8 +138,8 @@ msg: The value is {{ my_var }}
 - name: ...
 vars_prompt:
 - name: package
-prompt: Wich package do you want?
-private: no
+  prompt: Wich package do you want?
+  private: no
 ```
 
 * It is possible to put variables inside a file that matches a host or group and then just simply target to it in the `hosts:` section.
@@ -154,9 +151,8 @@ private: no
 But is always recommended to use the ansible_facts key.
 
 ---
-#flashcard
+#spaced
 ### 5.6 Speeding up Fact Collection
-id:: 6345458a-68b8-4a4f-9d23-116313b0ad54
 
 > The issue is in some conditions, **fact collection** may be very **slow**. 
 > And if that is happening because you are just working against lots of host, you can use a fact cache but setting up a fact cache is a bit of additional work and it has disadvantages.
@@ -168,18 +164,16 @@ id:: 6345458a-68b8-4a4f-9d23-116313b0ad54
 
 ---
 
-* Cuando escribimos en YAML líneas con guiones, las líneas siguientes que están al mismo nivel están dentro del mismo item o elemento de esa lista. #flashcard #daily-notes #Ansible
+* Cuando escribimos en YAML líneas con guiones, las líneas siguientes que están al mismo nivel están dentro del mismo item o elemento de esa lista. #spaced #daily-notes #Ansible
 
 ---
 ### 5.8 Using magic variables
-id:: 6345458a-eaf4-4b4b-ae07-7c79e16369b7
 
 * **hostvars** can be used to address facts or inventory variables from other hosts:
 `{{ hostvars['machine2']['ansible_facts']...  }}`
 
-#flashcard
+#spaced
 ### 5.10 Ansible Vault
-id:: 6345458a-32d4-46a4-9ae2-6ae5249ae821
 
 * With **ansible-vault create**, we create a file with variables. And that file is encrypted by a password.
 
@@ -189,7 +183,7 @@ id:: 6345458a-32d4-46a4-9ae2-6ae5249ae821
 
 ---
 
-#flashcard
+#spaced
 ## Lesson 6: Using Conditionals
 
 * Si una task falla, el handler **NO** se ejecutará
@@ -217,7 +211,6 @@ id:: 6345458a-32d4-46a4-9ae2-6ae5249ae821
 * With **fail** module, you can print an error message, indicating with **when: `<expr> ` the case.
 * Using `<variable>.err` is a good idea to approach it.
 ### 6.8 Using the assert Module
-id:: 6345458a-49bf-4f6f-98a6-753dc089f339
 
 * With the assert Module you can set *fail* and *ok* messages
 
@@ -225,7 +218,7 @@ id:: 6345458a-49bf-4f6f-98a6-753dc089f339
 **$ ansible `<host>` -m setup
 ---
 
-#flashcard
+#spaced
 ## Lesson 7: Managing Files
 
 * **Synchronize** is more efficient than **copy**
@@ -240,10 +233,8 @@ id:: 6345458a-49bf-4f6f-98a6-753dc089f339
   
   ---
 - How can you copy content from a remote machine to a local host in Ansible? #flashcard
-  id:: 6345458a-12a7-4c86-83d5-77bc5d8230cf
 	- With the **fetch** module
 - What is the exact syntax of register a variable in Ansible? #flashcard
-  id:: 6345458a-32f6-4e95-bf8a-cb87c115990e
 	- With: `register: <var>` inside the parent module
 - Remember to remove the `{ }` when dealing with conditionals in Ansible!!!!
 - And include the `' '`#spaced 
@@ -277,5 +268,4 @@ id:: 6345458a-49bf-4f6f-98a6-753dc089f339
 # Module 3: Advanced Ansible Management
 ## Lesson 9: Ansible Best Practices and Optimization
 - What is the difference between include and import in Ansible? #flashcard
-  id:: 6345458a-fc3b-4976-a809-0cdfcf15b344
 	- *Include* is dynamic, *Import* is added statically (before the actual play is started).

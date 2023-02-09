@@ -1,8 +1,6 @@
 title:: IBM Professional Certificate of DevOps and Software Engineering/Python for Data Science, AI & Development/Week 3
 tags:: Coursera, DevOps, Python
-deck:: [[IBM-DevOps::Python for Data Science]]
 
--
 - #tags #Coursera #DevOps #python
 -
 - ## Conditions and Branching
@@ -17,27 +15,23 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 	-
 	- ### Flashcards
 		- Which is the interval of a `range(N)` in Python? And for a `range(N,M)`? #flashcard
-		  id:: 634545b3-8684-4d97-ada9-2fe5434335b9
 			- `range(N)` goes [0 ... N-1]
 			- `range(N,M)` goes [N ... M-1]
 		- How does `enumerate(seq)` works in Python? #flashcard
-		  id:: 634545b3-dc80-495f-af8a-1ac2958a1e97
 			- enumerate(sequence) returns a pair key-value (or index-elem)
 				- Example: `for index, elem in enumerate(my_list):`
 		- Instead of using a variable only for the loop, try using the index associated to the list
 -
 - ## Functions
 	- ### Functions
-		- When a function takes an argument beginning with an asterisk, it could have an undefined number of parameters. #flashcard
-		  id:: 634545b3-1f77-414a-bc75-ea8b0366f313
+		- When a function takes an argument beginning with an asterisk, it could have an undefined number of parameters. #spaced
 			- ```python
 			  def artist_names(*names):
 			    for name in names:
 			      print(name)
 			  
 			  ```
-		- When a function takes an argument beginning with two asterisks, it could be passed a dictionary with an undefined number of elements *key-value* #flashcard
-		  id:: 634545b3-fae7-45de-bf4d-acc41bec603e
+		- When a function takes an argument beginning with two asterisks, it could be passed a dictionary with an undefined number of elements *key-value* #spaced
 			- ```python
 			  def print_dictionary(**args):
 			    for key in args:
@@ -49,8 +43,7 @@ deck:: [[IBM-DevOps::Python for Data Science]]
 -
 - ## Exception Handling
 	- ### Exception Handling
-		- Example of try-except in Python #flashcard
-		  id:: 634545b3-9938-42bf-8d70-ac86437c82d6
+		- Example of try-except in Python #spaced
 			- ```python
 			  try:
 			  	getfile = open("myfile", "r")

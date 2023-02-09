@@ -29,8 +29,7 @@ tags:: UNI, AWS
 	-  **Híbrida**: una solución implementada conectando la infraestructura propia y los recursos en la nube para extender sus soluciones.
 	-  **En las instalaciones (on premises)**: también conocida como nube privada. Es casi idéntico al modelo de infraestructura propia y clásica que puede aprovecharse para lanzar tecnologías de virtualización y administración.
 	-
-- Por una parte, los servicios ofertados por los proveedores de nube pueden llegar desde ofrecer servidores virtuales hasta gestionar absolutamente todos los recursos necesarios para abstraernos y crear nosotros nuestros productos software. #flashcard
-  id:: 634545e6-9540-4229-b9de-5772c69fe660
+- Por una parte, los servicios ofertados por los proveedores de nube pueden llegar desde ofrecer servidores virtuales hasta gestionar absolutamente todos los recursos necesarios para abstraernos y crear nosotros nuestros productos software. #spaced
 	- Por otra parte, hay tres tipos de implementación de dichos servicios; independientemente:
 	- Una empresa puede tener contratado un servicio de PaaS y usar nube pública.
 	- Otra empresa puede tener servidores virtuales con IaaS pero usar nube privada (porque su ecosistema provea sus recursos dados).

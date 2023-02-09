@@ -1,8 +1,7 @@
 - #tags #Jenkins
 - tags:: #Jenkins #DevOps
 - ## 1. Jenkins and DevOps
-	- Image explaining the use of Jenkins #flashcard
-	  id:: 634545c0-6a3c-47bf-8669-8251da6cd2c8
+	- Image explaining the use of Jenkins #spaced
 		- ![image_1659967471696_0.png](../assets/image_1659967471696_0_1660211945049_0.png)
 		- The *loop* is divided into two groups with the first group representing the **development** stages of the cycle, and the second group representing the **operational** stages.
 		- In the **development** group we start with the stage labeled **plan** and then move on to **code**, **build** and **test**.
@@ -34,17 +33,11 @@
 			- DONE Install and Configure Jenkins
 	-
 - ## 2. The Jenkins Pipeline
-	- Comparison between paradigms in Jenkins #flashcard
-	  id:: 634545c0-4aa8-456f-a941-82ce5bee9889
+	- Comparison between paradigms in Jenkins #spaced
 		- | Scripted Pipeline | Declarative Pipeline |
 		  |`node {}` |  `pipeline { }` |
 		  | Groovy-based DSL | Specifically designed for configuring Jenkins projects as code |
 	- What are the four different parameters to specify an agent in Jenkins? #flashcard
-	  <<<<<<< HEAD
-	  id:: 636a1b4f-bd30-4e27-94cf-07a15fdf931f
-	  =======
-	  id:: 634545c0-4df2-43bd-82c4-26c594936605
-	  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- **any**: Run on the first available system
 			- `agent any`
 		- **label**: When we need to be specific about the agent that runs the pipeline, we can use the label parameter.
@@ -60,12 +53,6 @@
 		- **none**: Defer agent selection to what is specified in its more granular stages.
 	- Example of Jenkins Pipeline Outline: #flashcard
 	  collapsed:: true
-	  id:: 636e51f2-58c4-48e1-8bf7-69af8e1a7af5
-	  <<<<<<< HEAD
-	  id:: 636e51f2-58c4-48e1-8bf7-69af8e1a7af5
-	  =======
-	  id:: 636e51f2-58c4-48e1-8bf7-69af8e1a7af5
-	  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- ```
 		  pipeline {
 		  	agent any
@@ -93,11 +80,6 @@
 	- Some commands to write in the steps of a pipeline. More at: https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/
 		- ![image.png](../assets/image_1659976322192_0.png)
 	- Jenkins has 3 types of variables: #flashcard
-	  <<<<<<< HEAD
-	  id:: 636a1b4e-0198-45b7-9d78-fce8371144d9
-	  =======
-	  id:: 634545c0-2bd4-4798-aa51-8ed034928d6a
-	  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- Environment variables
 			- In upper case.
 			- Can be global or local to any stage
@@ -123,10 +105,8 @@
 		  }
 		  ```
 	- ### Notes
-		- If you want to show a message indicating a formal window, you can do it with `input` (more info at Jenkins help section) #flashcard #daily-notes
-		  id:: 634545c0-d145-466d-b2ad-6dced3aa6a81
-		- Example of list in parameter in Jenkins #flashcard
-		  id:: 634545c0-b496-4ffe-b780-3db5a500e80f
+		- If you want to show a message indicating a formal window, you can do it with `input` (more info at Jenkins help section) #spaced #daily-notes
+		- Example of list in parameter in Jenkins #spaced
 			- ```
 			  choice(name: 'CHOICE', choices: ['One', 'Two', 'Three'], description: 'Pick something')
 			  ...
@@ -188,15 +168,9 @@
 -
 - ## 3. Integrate Jenkins with Version Control Systems
 	- Where can you find the absolute path of a Jenkins project? #flashcard
-	  <<<<<<< HEAD
-	  id:: 636a1b4e-9eea-4a03-957a-0d136b82ca7d
-	  =======
-	  id:: 634545c0-f48c-4ffa-b7b2-398d195de71a
-	  >>>>>>> cd827be2af13b105731b701835027f11e7012c97
 		- env.WORKSPACE includes the absolute path of our project.
 	- To get the status badges we need the "embeddable build status" plugin for jenkins.
-	- You have to add `github-webhook/` to the end of the Jenkins URL when copying that in GitHub for a synchronization. And with **application/json** in the menu option #flashcard #daily-notes
-	  id:: 634545c0-0e27-4c45-a6e2-5a740da552bd
+	- You have to add `github-webhook/` to the end of the Jenkins URL when copying that in GitHub for a synchronization. And with **application/json** in the menu option #spaced #daily-notes
 	-
 	-
 	-
@@ -222,8 +196,7 @@
 			  CLOCK: [2022-08-09 Tue 13:47:04]--[2022-08-09 Tue 13:47:04] =>  00:00:00
 			  :END:
 - ---
-- ## 4. Agents and Distributed Builds #flashcard
-  id:: 634545c0-d503-47f8-81bc-c8161d600b9b
+- ## 4. Agents and Distributed Builds #spaced
 	- ![image.png](../assets/image_1660046446612_0.png)
 	- A Jenkins node type can be SSH or Docker.
 		- The Docker are more consistent.
@@ -257,8 +230,7 @@
 	-
 	- Put a cache inside the environment (instead of in /tmp, for example) boost the performance of the pipeline.
 - ---
-- ## 5. Artifacts and Testing #flashcard
-  id:: 634545c0-4622-4364-b397-13ac5ad7bc63
+- ## 5. Artifacts and Testing #spaced
 	- Artifacts can be compiled binaries like Docker images, or zip files, or a text file, or a xml file...
 	- The core function `archiveArtifacts` gives us a built step for identifying the files we want to save during or after a build.
 	- `archiveArtifacts` is often placed in the **post** section of a pipeline.

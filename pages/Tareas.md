@@ -1,5 +1,5 @@
 - Agenda
-	- DOING Repasar el contenido del módulo [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS]] >[2023-02-09 - 2023-02-10](#agenda://?start=1675897200000&end=1675983600000) >[🍅🍅🍅🍅🍅🍅 180min](#agenda-pomo://?t=f-1675932790765-1800%2Cf-1676028184926-1800%2Cf-1676032526012-1800%2Cf-1676034503266-1800%2Cf-1676276256052-1800%2Cf-1676278380690-1800)
+	- DOING Repasar el contenido del módulo [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS]] >[2023-02-09 - 2023-02-10](#agenda://?start=1675897200000&end=1675983600000) >[🍅🍅🍅🍅🍅🍅🍅 210min](#agenda-pomo://?t=f-1675932790765-1800%2Cf-1676028184926-1800%2Cf-1676032526012-1800%2Cf-1676034503266-1800%2Cf-1676276256052-1800%2Cf-1676278380690-1800%2Cf-1676280806247-1800)
 	  id:: 63e4b11e-f177-403d-95ca-5749af1dd88e
 	  :LOGBOOK:
 	  CLOCK: [2023-02-09 Thu 09:52:33]--[2023-02-09 Thu 10:26:36] =>  00:34:03

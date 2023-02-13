@@ -8,5 +8,14 @@
       "key": "Enter"
     }
   ],
-  "editor:cycle-list-checklist": []
+  "editor:cycle-list-checklist": [],
+  "flashcards-obsidian:generate-flashcard-current-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ]
 }

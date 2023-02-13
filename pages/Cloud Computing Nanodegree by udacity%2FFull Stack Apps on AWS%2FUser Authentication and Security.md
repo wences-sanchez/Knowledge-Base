@@ -1,0 +1,8 @@
+- ## 1.Basic Security and User Auth
+	- It's better to encrypt data in transit where are our passwords with HTTPS.
+	- ![image.png](../assets/image_1675769867404_0.png)
+	- ![image.png](../assets/image_1675769913028_0.png)
+	- ![image.png](../assets/image_1675770009354_0.png)
+-
+- ## 5.Storing Passwords on our Clients
+	-

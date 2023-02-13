@@ -3,7 +3,12 @@
 		- ### Lesson 1: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Cloud Basics]]
 		- ### Lesson 2: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Develop]]
 		- ### Lesson 3: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Storing Data in the Cloud]]
+		  id:: 63e1360e-0b7f-4e18-b7e0-cfdcad629a3e
 		- ### Lesson 4: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Building and Deploying]]
+		- ### Lesson 5: [[Cloud Computing Nanodegree by udacity/Full Stack Apps on AWS/User Authentication and Security]]
+		- ### Lesson 6: [[Cloud Computing Nanodegree by Udacity/Full Stack Apps on AWS/Scaling and Fixing]]
+		-
+		-
 		-
 		-
 		-

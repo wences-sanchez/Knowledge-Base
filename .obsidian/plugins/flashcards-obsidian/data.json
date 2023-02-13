@@ -1,0 +1,14 @@
+{
+  "contextAwareMode": false,
+  "sourceSupport": false,
+  "codeHighlightSupport": false,
+  "inlineID": false,
+  "contextSeparator": " > ",
+  "deck": "Export-to-csv",
+  "folderBasedDeck": true,
+  "flashcardsTag": "flashcard",
+  "inlineSeparator": "!!",
+  "inlineSeparatorReverse": "!!!",
+  "defaultAnkiTag": "apuntes",
+  "ankiConnectPermission": false
+}

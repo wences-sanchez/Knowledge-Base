@@ -1,0 +1,210 @@
+title:: Readwise/AWS Certified Cloud Practitioner (highlights)
+deck:: [[Other-Books::AWS Certified Cloud Practitioner]]
+author:: [[A Cloud Guru]]
+full-title:: "AWS Certified Cloud Practitioner"
+category:: #books
+
+tags:: Apuntes AWS
+
+- ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_22942/28536edf-2778-4116-9358-e27ad2efe0be.png)
+- Highlights first synced by [[Readwise]] [[Wednesday, 08-02-2023]]
+	- -
+		- EC2 is a foundational service used for managing our virtual instances.     - 1. You're able to provision an EC2 instance at the click of a button       2. You can preconfigure it with an AMI template       3. You can deploy applications there       4. You have 750 hours/month in the free tier plan You can use them to deploy a database or a web application #flashcard
+			- Mention some characteristics of EC2
+	- -
+	- -
+		- #### On-Demand              - A fixed price in which you are billed down to the second based on the instance type. No contract.              - Use it when:                  - You care about low cost without any upfront payment or long-term commitment.                  - Applications with unpredictable workloads that can't be interrupted                  - Your applications are under development                  - Your workloads will not run longer than a year          - #### Spot              - Your request of instances is fulfilled only if capacity is available.              - Use it when:                  - You are not concerned about the start and stop of your application                  - Your workloads can be interrupted          - #### Reserved Instances              - RIs allow you to commit to a specific instance type in a particular region for 1 or 3 years.          - #### Dedicated Hosts              - Allow you to pay for a physical server that is fully dedicated to running your instances.              - Use it when:                  - You want to bring your own server-bound software license from other vendors.              - Don't confuse it with reserved instances          - #### Savings Plans      - An ELB distributes the traffic across multiple EC2 instances. Whereas the EC2 Auto Scaling feature adds or replaces EC2 instances (it scales them out).          -      - Scale out means to add or remove instances, whereas scale up means to upgrade an instance by adding more power (CPU, RAM) to an existing server. #flashcard
+			- #### EC2 Pricing Options
+	- -
+	- -
+		- Serverless simply means that Amazon manages the servers for you and you cannot access them. You can pretend they don't exist. #flashcard
+			- What does Serverless mean?
+	- -
+	- -
+		- Compute time: Pay only for compute time used. There is no charge if your code is not running          - Request count: A request is counted each time it starts execution (including tests in the console).          - Always free: Even after the free-usage tier expires, you'll have access to 1 million free Lambda calls each month. #flashcard
+			- Describe the pricing model of Lambdas
+	- -
+	- -
+		- Objects are stored in buckets                  - Objects = files                  - Buckets = directories              - Essentially unlimited storage that can hold millions of objects per bucket              - Objects can be public or private              - You can upload objects via the console, the CLI or with the SDKs. #flashcard
+			- How is S3 structured?
+	- -
+	- -
+		- You can set security at the bucket level or individual object level using ACLs, bucket policies or access point policies.              - You can enable versioning to create multiple version of your file in order to protect against accidental deletion and to use a previous version.              - You can use S3 access logs to track the access to your buckets and objects.              - S3 is a regional service, but bucket names need to be globally unique. #flashcard
+			- How can you set security in S3 and manage its historical data?
+	- -
+	- -
+		- Durability answers the question: Will my data be there tomorrow?              - Availability answers the question: How quickly can I access my data? Can I have it right now?              - This is achievable becasue data stored on a S3 bucket inside a region is replicate acoss multiple servers #flashcard
+			- What do durability and availability mean?
+	- -
+	- -
+		- #### S3 Standard                  - General-purpose storage                  - Data stored across multiple AZs                  - Low latency                  - Recommended for frequently accessed data              - #### S3 Intelligent-Tiering                  - It automatically moves your data to the most cost-effective storage class                  - Uses Machine Learning to automate cost savings                  - Data stored across mutliple AZs                  - Recommended for: data with unknown or changing access pattern              - #### S3 Standard-Infrequent Access (IA)                  - For data accessed less frequently but requires rapid access                  - Data stored acrosss multiple AZs                  - Cheaper than S3 Standard                  - Recommended for: long-lived data or data infrequentlly accessed but needed in milliseconds              - #### S3 One Zone-Infrequent Access (IA)                  - Like S3 Standard-IA but data stored in a single AZ                  - Costs 20% less than S3 Standard-IA                  - Data stored in this storage class can be lost                  - You have eleven 9's of durability but only 99.5% of availability.                  - Recommended for: re-creatable data which it's infrequently accessed and with no essential durability              - #### S3 Glacier                  - Long-term data storage and archival with a very low cost                  - Data retrieval takes longer                  - 3 retrieval options:                      - 1-5 minutes                      - 3-5 hours                      - 5-12 hours                  - Data stored  across multiple AZs                  - Recommended for: long-term backups and cheaper storage options              - #### S3 Glacier Deep Archive                  - Like S3 Glacier but longer access times                  - 2 retrieval options:                      - 12 hours                      - 48 hours                  - Cheapest of all S3 options                  - Data stored across multiple AZs                  - Recommended for: long-term data archival accessed once or twice a year, for regulatory compliance requirements              - #### S3 Outposts                  - Provides object storage on-premises                  - A single storage class                  - Store data across multiple devices and servers                  - Recommended for: Data that needs to be kept local or demanding performance                  - #flashcard
+			- Mention and explain a little of storage classes in AWS.
+	- -
+	- -
+		- #### The bigger picture                  - We need content delivery because there are so many requests for almost everything and the idea of a near server which could bring us those contents is awesome!                  - A CDN is a mechanism to deliver content quickly and efficiently based on geographic location              - #### Amazon CloudFront                  - CloudFront makes content available globally or restricts it based on location                  - Speeds up delivery of static and dynamic web content                  - Uses edge locations to cache content                  -                   - #### Use Cases                      - S3 static websites                      - Prevent attacks (like DDoS)                      - IP address blocking (prevent users in certain countries from accessing content) #flashcard
+			- What is Amazon CloudFront and what are its use cases?
+	- -
+	- -
+		- #### Amazon Global Accelerator                  - Global Accelerator sends your users through the AWS global network when accessing your content, speeding up delivery.                  - Improves latency and availability of single-region applications                  - Sends traffic through the AWS global network infrastructure              - #### Amazon S3 Transfer Acceleration                  - S3 Transfer Acceleration improves content uploads and downloads to and from S3 buckets.                  - Fast transfer of files over long distances                  - Uses CloudFront's globally distributed edge locations. #flashcard
+			- Which uses do Amazon Global Accelerator and Amazon S3 Transfer Acceleration have?
+	- -
+	- -
+		- #### The Bigger Picture                  - Networking connects computers together and allows for the sharing of data and applications, around the globe, in a secure manner using virtual routers, firewalls, and network management services.              - #### Amazon Virtual Private Cloud (VPC)                  - VPC is a foundational service that allows you to create a secure private network in the AWS cloud where you launch your resources                  - Private virtual network                  - Launch resources like EC2 instances inside the VPC                  - Isolate and protect resources                  - A VPC spans AZs in a Region                  - An internet Gateway allows traffic to the public internet and peering connects 2 VPCs together.                  -               - #### VPC Peering Conection                  - Peering facilitates the transfer of data in a secure manner                  -           - #flashcard
+			- Explain a little what is a VPC and its contents (including its access)
+	- -
+	- -
+		- Route 53 is a DNS service that routes users to applications          - Domain name registration          - Performs health checks on AWS resources          - Supports hybrid cloud architectures #flashcard
+			- #### Amazon Route 53
+	- -
+	- -
+		- API Gateway allows you to build and manages APIs.          - Share data between systems          - Integrate with services like Lambda          -           - #flashcard
+			- #### API Gateway
+	- -
+	- -
+		- #### AWS Direct Connect                  - Direct Connect is a dedicated physical network connection from your on-premises data center to AWS                  - It supports hybrid cloud                  -                   - #### Use cases of AWS Direct Connect                      - 1. Large datasets                          - Transfer large datasets to AWS                      - 2. Business-critical data                          - Transfer internal data directly to AWS, bypassing your internet service provider                      - 3. Hybrid model                          - Build hybrid environments              - #### AWS VPN                  - Site-to-Site VPN creates a secure connection between your internal networks and your AWS VPCs.                  - It's similar to Direct Connect, but data travels over the public internet                  - Data is automatically encrypted                  - Connects your on-premises data center to AWS                  - Supports a hybrid environment                      - And it's cheaper than Direct Connect!                  -           - #flashcard
+			- #### Flashcards          - Talk about the different ways of connecting our resources to AWS, with and without the Internet.
+	- -
+	- -
+		- We need a way to collect, store, retrieve, sort, graph and manipulate the data of the world. And databases allow us to do it.              - Databases are used by many applicacions.              - You access the data stored in a database by querying it.              - Databases are necessary to persist data through runs of an application.          - #flashcard
+			- Why do we need databases?
+	- -
+	- -
+		- RDS          - Aurora          - DynamoDB          - DocumentDB          - ElastiCache          - Neptune          -          - #### Amazon Relational Database Sevice (RDS)              - Supports popular database engines              - Offers High Availability and Fault Tolerance using multi-AZ deployment option              - AWS manages the databases with automatic software patching, automated backups, operating system maintenance and more              - It simplyfies it. It launch read replicas across regions in order to provide enhanced performance and durability              -          - #### Amazon Aurora              - Aurora is a relational database compatible with MySQL and PostgreSQL that was created by AWS.              - 5x faster than normal MySQL and 3x faster than normal PostgreSQL              - Cheaper              - Scales automatically as needed.              - Managed by RDS              -          - #### Amazon DynamoDB              - DynamoDB is a fully managed NoSQL key-value and document database.              - NoSQL simply means that the database is self describing and it doesn't force relations between tables like a relational database              - NoSQL key-value database              - Fully managed and serverless              - Non-relational              - Scales automatically to massive workloads with fast performance              -          - #### Amazon DocumentDB              - DocumentDB is a fully managed document database that supports MongoDB          -          - #### Amazon ElastiCache              - ElastiCache is a fully managed in-memory datastore compatible with Redis or Memcached              - To speed-up responses              - Data can be lost          -          - #### Amazon Neptune              - Neptune is a fully managed graph database that supports highly connected datasets.              - Graph database service              - Supports highly connected datasets like social media networks              - Fully managed aand serverless              - Fast and reliable          - #flashcard
+			- #### AWS Database Ecosystem
+	- -
+	- -
+		- DMS helps you migrate databases to or within AWS.          - Migrate on-premises databases to AWS          - Continous data replication          - Supports homogeneous and heterogeneous migrations          - Virtually no downtime          - Use Cases:              - Oracle to Aurora MySQL                  - Migrate an on-premises Oracle database to Aurora MySQL              - Oracle to Oracle                  - Migrate an on-premises Oracle database to Oracle on EC2              - RDS Oracle to Aurora MySQL                  - Migrate an RDS Oracle database to Aurora MySQL      - #flashcard
+			- #### Database Migration Service (DMS)
+	- -
+	- -
+		- SMS allows you to migrate on-premises servers to AWS          - Server saved as a new Amazon Machine Image (AMI)          - Use AMI to launch serves ass EC2 instances      - #flashcard
+			- #### Server Migration Service (SMS)
+	- -
+	- -
+		- When you have a large ammount of data.          - It's better to start with smaller and then go big.          -          - #### Snowcone              - Smallest member of data transport devices              - 8 terabytes of usable storage              - Offline shipping              - Online with DataSync          - #### Snowball and Snowball Edge              - Petabyte-scale data transport solution              - Transfer data in and out              - Cheaper than internet transfer              - Snowball Edge supports EC2 and Lambda          - #### Snowmobile              - Multi-petabyte to exabyte scale              - Data loaded to S3              - Securely transported in trucks with GPS and 24/7 video security      - #flashcard
+			- #### The AWS Snow Family
+	- -
+	- -
+		- DataSync allows for online data transfer from on-premises to AWS storage services like S3 or EFS          - Migrates data from on-premises to AWS          - 10x faster than open source tools          - Copy data over Direct Connect or the internet          - Copy data between AWS storage services          - Replicate data cross-Region or cross-account          - #flashcard
+			- #### DataSync
+	- -
+	- -
+		- #### Snowball and Snowball Edge                  - Petabyte-scale data transport solution                  - Transfer data in and out                  - Cheaper than internet transfer                  - Snowball Edge supports EC2 and Lambda #flashcard
+			- What is Snowball Edge?
+	- -
+	- -
+		- #### Snowmobile                  - Multi-petabyte to exabyte scale                  - Data loaded to S3                  - Securely transported in trucks with GPS and 24/7 video security #flashcard
+			- What is Snowmobile?
+	- -
+	- -
+		- A data warehouse is a data storage solution that aggregates masive amounts of historical data from disparate sources.              - To combine multiple transactions providers in one umbrella.              - Its benefits are allowing support, querying, reporting, analytics, and business intelligence.              - They are not used for transaction processing. But for reporting and analytics. #flashcard
+			- What is a data warehouse?
+	- -
+	- -
+		- Analytics is the act of querying or processing your data.              - There are several services that allow you to gain deeper insights, enhance decision-making and act in real time to what your data is telling you. #flashcard
+			- What is Analytics?
+	- -
+	- -
+		- Redshift is a scalable data warehouse solution          - Improves speed and efficiency          - Handles exabyte-scale data          - Use Cases:              - Data Consolidation                  - When you need to consolidate multiple data sources for reporting              - Relational Databases                  - When you want to run a database that doesn't require real-time transaction processing (insert, update, delete) #flashcard
+			- #### Amazon Redshift
+	- -
+	- -
+		- Machine Learning is actually a form of Artificial Intelligence              - Artificial Intelligence (AI) teaches computers to do things that normally require human intelligence              - Businesses leverage AI and machine learning to add intelligence to their applications and leverage trends and patterns in data. #flashcard
+			- Define Machine Learning
+	- -
+	- -
+		- Software developers use tools to accelerate the software development and release cycle.              - And AWS provides useful tools for developers! #flashcard
+			- Why are tools important?
+	- -
+	- -
+		- #### Cloud9                  - Cloud9 is an Integrated Development Environment (IDE) that allows you to write code in it within your web browser.                  - Use Cases:                      - Build serverless applications                          - Cloud9 preconfigures the development environment with the needed SDKs and libraries. You can easily write the code for your Lambda function directly in your web browser.                  -              - #### CodeCommit                  - CodeCommit is a source control system for private Git repositories                  - You can create repositories to store code                  - You can commit, branch and merge code                  - You can collaborate with other software developers                  - Use Cases:                      - To manage source code files and their different versions              -              - #### CodeBuild                  - CodeBuild allows you to build and test your application source code                  - Compiles source code and runs tests                  - Enables continous integration and delivery                  - Produces build artifacts ready to be deployed                  - Use Cases:                      - Run tests before deploying a new version of an application to production                          - CodeBuild allows you to run as many parallel streams of tests as needed, allowing you to deploy your changes to production more quickly.              -              - #### CodeDeploy                  - CodeDeploy manages the deployment of code to compute services in the cloud or on-premises                  - Deploys code to:                      - EC2,                      - Fargate,                      - Lamda                      - and on-premises                  - Maintains application uptime                  - Use Cases:                      - Maintain application uptime when rolling out a new version                          - CodeDeploy eliminates the downtime of your application when deploying a new version due to its rolling deployments.              - #### CodePipeline                  - CodePipeline automates the software release process.                  - Quickly deliver new features and updates                  - Integrates with CodeBuild to run builds and unit tests                  - Integrates with CodeCommit to retrieve source code                  - Integrates eith CodeDeploy to deploy your changes                  - Use Cases:                      - Add automation to the building, testing and deployment of your application                          - When combined with other developer tools, CodePipeline helps devevelopment teams implement DevOps practices that automate testing to the movement of code to production.              -              - #### X-Ray                  - X-Ray helps you debug production applications                  - Analyze and debug production applications                  - Map application components                  - View requests end to end                  - Use Cases:                      - Trace calls to an RDS database                  -              - #### CodeStar                  - CodeStar helps developers collaboratively work on development projects                  - Developers connect their development environment                  - Integrates with CodeCommit, CodeBuild and CodeDeploy                  - Contains issue tracking dashboard                  - #flashcard
+			- Talk about the AWS Developer Tools (develop, commit, build, deploy, automate, debug and collaborate)
+	- -
+	- -
+		- #### CloudFormation                  - CloudFormation allows to provision AWS resources using Infrastructure as Code (IaC)                  - Provides a repeatable process for provisioning resources                  - Works with most AWS services                  - Create templates for the resourcees you want to provision                  - Use Cases:                      - Automate the infrastructure-provisioning process for EC2 servers              - #### Elastic Beanstalk                  - Elastic Beanstalk allows you to deploy your web applications and web services to AWS                  - Orchestration service that provisions resources                  - Automatically handles the deployment                  - Monitors application health via a health dashboard                  - Use Cases:                      - Quickly deploy a scalable Java-based web application to AWS                          - After you upload your Java code, Elastic Beanstalk deploys it and hadles capacity provisioning, load balancing, and Auto Scaling. Elastic Beanstalk even monitors the health of your application              - #### OpsWorks                  - OpsWorks allows you to use Chef or Puppet to automate the configuration of your servers and deploy code                  - Deploy code and manage applications                  - Manage on-premises servers or EC2 instances in AWS Cloud                  - Works with Chef and Puppet automation platforms                  - Use Cases:                      - Automate software configurations and infrastructure management for your application. #flashcard
+			- Talk about three main options in AWS for IaC and PaaS
+	- -
+	- -
+		- #### Simple Queue Service (SQS)          - SQS is a message queuing service that allows you to build loosely coupled systems          - Allows component-to-component communication using messages          - Multiple components (or producers) can add messages to the queue          - Messages are processed in an asynchronous manner          - Use Cases:              - Build a money transfer app that performs well under heavy load.              -               - #flashcard
+			- ### 3.21 Utilizing Messaging and Integration Services: SQS
+	- -
+	- -
+		- #### Simple Notification Service (SNS)          - SNS allows you to send emails and text messages from your applications          - Send email and text messages          - Publish messages to a topic          - Subscribers receive messages          - Use Cases:              - Send an email when CPU utilization of an EC2 instance goes above 80%              -           -      - #### Simple Email Service (SES)          - SES is an email service that allows you to send richly formatted HTML emails from your applications.          - Ideal choice for marketing campaigns or professional emails          - Unlike SNS, SES sends HTML emails          - #flashcard
+			- ### 3.22 Utilizing Messaging and Integration Services: SNS and SES
+	- -
+	- -
+		- These services give you insight into how well your systems are performing and help you proactively find and resolve errors. #flashcard
+			- Why do we need auditing, monitoring and logging?
+	- -
+	- -
+		- CloudWatch is a collection of services that help you monitor and observe your cloud resources.          - Collect metrics, logs and events          - Detect anomalies in your environment          - Set alarms          - Visualize logs          -          - #### Services              - #### CloudWatch Alarms                  - Set high resolution alarms. Something like a billing alarm              - #### CloudWatch Logs                  - Monitor application logs, i.e. Lambda.              - #### CloudWatch Metrics                  - Helps you visualize time-based data, i.e. the CPU over time              - #### CloudWatch Events                  - Allows to take automatic actions based on a condition #flashcard
+			- #### CloudWatch
+	- -
+	- -
+		- CloudTrail tracks user activity and API calls withing your account          - Log and retain account activity          - Track activity through the console, SDKs and CLI          - Identify which user made changes          - Detect unusual activity in your account          - Use Cases:              - Track the time a particular event occurred in your account.                  - You can troubleshoot events over the past 90 days using the CloudTrail event history log to find the specific time an event occurred on a per-region basis.                  - You can create a custom trail to extend past 90 days.          - We can track:              - Usernames              - events time and name              - IP address              - Access key              - Region              - Error code #flashcard
+			- #### CloudTrail
+	- -
+	- -
+		- Amazon WorkSpaces allows you to host virtual desktops in the cloud          - Virtualize Windows or Linux desktops          - Enables employees to work from home #flashcard
+			- #### Amazon WorkSpaces
+	- -
+	- -
+		- Amazon Connect is a cloud contact server service          - Provides customer service functionality          - Improves productivity of help desk agents in real-time #flashcard
+			- #### Amazon Connect
+	- -
+	- -
+		- AWS is also responsible for managed servers functionality.      - #### Responsibilities for Security IN the cloud          - You are responsible for how the services are implemented and managing your application data          - #### Application Data              - Your are responsible for managing your application data, which includes encryption options          - #### Security Configuration              - You are responsible for securing your account and API calls, rotating credentials, restricting internet access from your VPCs, and more          - #### Patching              - You are responsible for the guest operating system (OS), which includes updates and security patches          - #### Identity and Access Management              - You are responsible for application security and identity and access management          - #### Network Traffic              - You are responsible for network traffic protecion, which includes security group firewall configuration          - #### Installed Software              - You are responsible for your application code, installed software, and more.              - You should frequently scan for and patch vulnerabilities in your code      - #### Responsibilities of AWS          - EC2 Service          - Patching the host operating system          - Security of the physical server #flashcard
+			- ### 4.2 Understanding the Shared Responsibility Model
+	- -
+	- -
+		- #### Operational Excellence              -               - This pillar focuses on creating applications that effectively support production workloads          - #### Security              -           - #### Reliability              -           - #### Performance Efficiency              -           - #### Cost Optimization              -           - #### Sustainability              - #flashcard
+			- 6 Pillars of the Well-Architected Framework:
+	- -
+	- -
+		- #### Identity and Access Management (IAM)          - IAM allows you to control access to your AWS services and resources          - Helps you secure your cloud resources          - You define who has access          - You define what they can do          - A free global service          - Authentication VS Authorization #flashcard
+			- ### 4.4 Understanding IAM Users
+	- -
+	- -
+		- #### Roles          - Roles define access permissions and are temporarily assumed by and IAM user or service          - They can be multi-account      - #### Policies          - You manage permissions for IAM users, groups and roles by creating a policy document in JSON format and attaching it. #flashcard
+			- ### 4.5 Understanding IAM Permissions
+	- -
+	- -
+		- #### Web Application Firewall (WAF)                  - WAF helps protect your web applications against common web attacks                  - Detects patterns                  - Protects against SQL injection                  - Protects against cross-site scripting              - #### Shield                  - Shield is a managed Distributed Denial of Service (DDoS) protection service                  - Always-on detection                  - Shield standared is free (Advanced is a paid 24/7 service)              - #### Macie                  - Macie helps you discover and protect sensitive data                  - Uses machine learning                  - Evaluates S3 environment                  - Uncovers personally indentifiable information (PII)                  - Use Cases:                      - Discover passport or credit cards numbers, usernames… #flashcard
+			- How can you protect your account of SQL injections, cross-site, DDoS an sensitive data?
+	- -
+	- -
+		- #### Config                  - Config allows you to assess, audit and evaluate the configurations of your resources                  - Track configuration changes over time                  - Delivers configuration history file to S3                  - Notifications via SNS of every configuration change              - #### GuardDuty                  - GuardDuty is an intelligent threat detection system that uncovers unauthorized behavior.                  - Uses machine learning                  - Reviews logs                  - Use Cases:                      - Detect unusual API calls in your account              - #### Inspector                  - Inspector works with EC2 instances to uncover and report vulnerabilities                  - Agent installed on EC2 instances                  - Reports vulnerabilities found                  - Checks access from diverse sources                  - Use Cases:                      - Identrify unintended network access to an EC2 instance via a detailed report of security findings              - #### Artifact                  - Artifact offers on-demand access to AWS security and compliance reports.              - #### Cognito                  - Cognito helps you control access to mobile and web applications #flashcard
+			- What AWS services can we use to: keep track of changes over time, get advised, supervise our instance traffic, meet compliance or manage our own userss?
+	- -
+	- -
+		- #### Key Management Service (KMS)                  - KMS allows you to generate and store encryption keys                  - Automatically enabled for certain services              - #### CloudHSM                  - CloudHSM is a hardware security module (HSM) used to generate encryption keys.                  - Dedicated hardware for security                  - Generate and manage your own encryption keys                  - AWS does not have access to your keys              - #### Secrets Manager                  - Secrets Manager allows you to manage and retrieve secrets (passwords or keys)                  - Rotate, manage and retrieve secrets                  - Encrypt secrets at rest                  - Integrates with services like RDS, Redshift and DocumentDB                  - Use Cases:                      - Retrieve database credentials needed for your application code                      - Consumed by applications. There is no need to hardcode those information in your application code #flashcard
+			- How can we manage our keys (by us or by AWS) and protect our passwords?
+	- -
+	- -
+		- In S3, you only pay for the storage you use      - #### Application Discovery Service          - Application Discovery Service helps you plan migration projects to the AWS Cloud          - Plan migration projects          - Works with other services to migrate servers      - #### AWS Price List API          - The Price List API allows you to query the price of AWS services. #flashcard
+			- ### 5.2 Understanding AWS Pricing
+	- -
+	- -
+		- Budgets allows you to set custom budgets that alert you when your costs or usage exceed your budgeted amount.          - Improve planning and cost control          - Cost, usage and reservation budgets          - Budget alerts          - Budget Types:              - Cost Budgets:                  - Plan how much you want to spend on a service              - Usage Budgets:                  - Plan how much you want to use on one or more services              - Reservation Budgets:                  - Set RI or Saving Plans utilization or coverage targets          - Use Cases:              - Monitor Free Tier usage so you don't incur unwanted costs.          - It's so much easier than CloudWatch!!!! #flashcard
+			- #### Budgets
+	- -
+	- -
+		- The Cost and Usage Report contains the most comprehensive set of cost and usage data.          - When you recieve a bill and you want to know where each item comes from.          - Downloadable detailed and comprehensive report          - Lists usage for each service category          - Aggregate usage data on a daily, hourly or monthly level          - Use Cases:              - View the most granular data about your AWS bill. #flashcard
+			- #### Cost and Usage Report
+	- -
+	- -
+		- Cost Explorer allows you to visualize and forecast your costs and usage over time          - Visualize costs over time          - View past 12 months          - Forecast for up to 12 months          - #flashcard
+			- #### Cost Explorer
+	- -
+	- -
+		- AWS Organizations allows you to centrally manage multiple AWS accounts under one umbrella.          - Group multiple accounts          - Single payment for all acounts          - Automate account creation          - Allocate resources and apply policies across accounts          - Benefits:              - Consolidate Billing                  - You receive one bill for multiple accounts              - Cost Savings:                  - Volume discounts since usage is combined across accounts              - Account Governance:                  - You have a quick and automated way to create accounts or invite existing accounts.              - You can use reserved instance sharing! #flashcard
+			- #### AWS Organizations
+	- -
+	- -
+		- Control Tower helps you ensure your accounts conform to company-wide policies          - Helps set up new accounts using a multi-account strategy          - Works directly with AWS Organizations          - Provides a dashboard to manage accounts          - Use Cases:              - Disallow public write access to all S3 buckets across your accounts. #flashcard
+			- #### Control Tower
+	- -
+	- -
+		- #### AWS Partner Network (APN)         - APN is a global community of approved partners that offer software solutions and consulting services for AWS         - Offers technology partners that provide software solutions         - Provides consulting partners that offer professional services and AWS expertise         - Use Cases:             - You can use APN to get advise to a design     - #### Marketplace         - Marketplace is a digital catalog of prebuilt solutions you can purchase or license. You may also sell your own solutions to others via Marketplace     - #### Personal Health Dashboard         - Personal Health Dashboard alerts you to events that might impact your AWS environment.         - Provides troubleshooting guidance and feedback - ### 5.6 Exploring Support Plans  -  -  -              - - #flashcard
+			- ### 5.5 Utilizing Management Services
+	- -

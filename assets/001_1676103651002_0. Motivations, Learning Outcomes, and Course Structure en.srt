@@ -1,0 +1,443 @@
+1
+00:00:00,000 --> 00:00:04,726
+Hi everyone! Welcome to Dive Into Ansible. I'm James Spurin,
+
+2
+00:00:04,726 --> 00:00:07,319
+and I'm your instructor for this course.
+
+3
+00:00:07,319 --> 00:00:13,079
+I've worked in the IT industry for over 20 years for many leading companies
+
+4
+00:00:13,079 --> 00:00:19,956
+including Nomura, Goldman Sachs, Dell EMC, when I worked there it was just EMC,
+
+5
+00:00:19,956 --> 00:00:26,099
+Hitachi, Virgin Internet, and one of the first ever Internet providers in the UK
+
+6
+00:00:26,099 --> 00:00:30,175
+Demon Internet. While I was working, I also studied,
+
+7
+00:00:30,175 --> 00:00:35,189
+and I was one of the first to complete an online Masters in Software Engineering
+
+8
+00:00:35,189 --> 00:00:40,249
+at Liverpool University. Personally I love OpenSource and DevOps
+
+9
+00:00:40,249 --> 00:00:44,659
+technology, as well as Ansible, the likes of Docker,
+
+10
+00:00:44,659 --> 00:00:47,953
+which we'll also make you solve on this course.
+
+11
+00:00:48,400 --> 00:00:50,943
+In the OpenSource community itself,
+
+12
+00:00:50,943 --> 00:00:54,436
+I regularly give back. I'm the creator of
+
+13
+00:00:54,436 --> 00:01:01,012
+XMLdataset, a library for handling XML, featured on the Awesome Python list.
+
+14
+00:01:01,012 --> 00:01:05,006
+I maintain a popular Docker image for another OpenSource
+
+15
+00:01:05,006 --> 00:01:08,282
+software project called Hexo, a framework for
+
+16
+00:01:08,282 --> 00:01:12,192
+creating static websites. I also contribute
+
+17
+00:01:12,192 --> 00:01:14,935
+to a variety of OpenSource projects
+
+18
+00:01:14,935 --> 00:01:19,445
+including Ansible, which of course, this course is about.
+
+19
+00:01:19,445 --> 00:01:19,463
+Ansible, which of course, this course is about.
+
+20
+00:01:20,370 --> 00:01:23,550
+The course originally started back in 2018, as
+
+21
+00:01:23,580 --> 00:01:26,589
+Mastering Ansible, and since then it's been
+
+22
+00:01:26,589 --> 00:01:29,850
+refreshed and updated to what you see here, as
+
+23
+00:01:29,880 --> 00:01:34,050
+Dive Into Ansible. I regularly review and maintain
+
+24
+00:01:34,050 --> 00:01:37,080
+it, and so far, it's supported Ansible, right
+
+25
+00:01:37,080 --> 00:01:40,620
+through from version 2, to the current version.
+
+26
+00:01:41,310 --> 00:01:44,730
+With this course, I bring you a fantastic lab
+
+27
+00:01:44,730 --> 00:01:48,030
+experience, which directly mirrors what I'm
+
+28
+00:01:48,030 --> 00:01:52,170
+actually using in the lessons. Where Ansible and
+
+29
+00:01:52,200 --> 00:01:55,620
+all of the associated lab hosts are directly
+
+30
+00:01:55,620 --> 00:01:59,400
+accessible from your web browser, you can run this
+
+31
+00:01:59,430 --> 00:02:03,840
+locally on your own system, or via Google Cloud.
+
+32
+00:02:04,560 --> 00:02:09,090
+You get your Ansible control host, free Ubuntu, and
+
+33
+00:02:09,120 --> 00:02:12,750
+free CentOS systems. We intentionally use
+
+34
+00:02:12,750 --> 00:02:15,300
+different Linux systems so that we can really see
+
+35
+00:02:15,300 --> 00:02:19,290
+the power and versatility of Ansible when
+
+36
+00:02:19,290 --> 00:02:24,240
+targeting the systems simultaneously. By the way,
+
+37
+00:02:24,390 --> 00:02:27,030
+in this course, the container images and the
+
+38
+00:02:27,030 --> 00:02:29,820
+environment that I've created for the lab are
+
+39
+00:02:29,850 --> 00:02:33,390
+also OpenSource, so these are also available for
+
+40
+00:02:33,390 --> 00:02:36,540
+you to use yourself, or even just for learning
+
+41
+00:02:36,540 --> 00:02:40,230
+purposes. Personally, I now focus full time on
+
+42
+00:02:40,230 --> 00:02:42,540
+education and content, as the founder of this
+
+43
+00:02:42,540 --> 00:02:47,130
+company, DiveInto and especially love hearing and
+
+44
+00:02:47,130 --> 00:02:49,320
+connecting with people like yourselves who
+
+45
+00:02:49,320 --> 00:02:52,470
+clearly share the same interests in technology.
+
+46
+00:02:53,040 --> 00:02:55,590
+For whatever reason, you've decided to learn
+
+47
+00:02:55,590 --> 00:02:59,160
+Ansible today, take a moment and connect with me
+
+48
+00:02:59,190 --> 00:03:03,870
+on both Twitter, and LinkedIn. This course is
+
+49
+00:03:03,900 --> 00:03:07,680
+provided with a huge library of examples that
+
+50
+00:03:07,710 --> 00:03:11,310
+relate to each chapter, and has been designed so
+
+51
+00:03:11,310 --> 00:03:13,710
+that you can actually work through this in the
+
+52
+00:03:13,710 --> 00:03:17,820
+best way that suits you. Rather than me actually
+
+53
+00:03:17,880 --> 00:03:21,180
+dictating how you should learn, you can actually
+
+54
+00:03:21,180 --> 00:03:25,740
+choose your own preferred learning path. So you
+
+55
+00:03:25,740 --> 00:03:29,100
+can just watch through the videos if you rapidly
+
+56
+00:03:29,100 --> 00:03:32,550
+need to learn Ansible in a short amount of time.
+
+57
+00:03:33,090 --> 00:03:36,240
+Alternatively, you can follow the course and
+
+58
+00:03:36,660 --> 00:03:40,140
+directly run and interact with all of the examples
+
+59
+00:03:40,140 --> 00:03:44,760
+yourselves in exactly the same way that I'm using
+
+60
+00:03:44,820 --> 00:03:48,540
+throughout the course. Or again, you can use the
+
+61
+00:03:48,540 --> 00:03:52,920
+content as a reference and create your own content
+
+62
+00:03:52,980 --> 00:03:57,030
+based on what is taught. Regardless of which
+
+63
+00:03:57,030 --> 00:04:00,090
+approach you choose, at the end, you'll also have
+
+64
+00:04:00,090 --> 00:04:02,670
+a full library of resources that you can make use
+
+65
+00:04:02,670 --> 00:04:06,630
+of when you're using Ansible. So onto the
+
+66
+00:04:06,630 --> 00:04:09,870
+course content; we're currently in the first
+
+67
+00:04:09,870 --> 00:04:13,410
+section and after this overview, we'll start with
+
+68
+00:04:13,410 --> 00:04:18,329
+an introduction to Ansible. Next, we'll install
+
+69
+00:04:18,329 --> 00:04:20,880
+Docker, which is a requirement for our lab
+
+70
+00:04:20,880 --> 00:04:24,810
+environment. We'll configure the Ansible lab,
+
+71
+00:04:25,410 --> 00:04:28,170
+we'll set up a trusted relationship between our
+
+72
+00:04:28,170 --> 00:04:31,710
+hosts with SSH and we'll configure the course code
+
+73
+00:04:31,710 --> 00:04:34,530
+repository. In Section three, we'll look at
+
+74
+00:04:34,560 --> 00:04:38,190
+Ansible architecture and design. We'll start by
+
+75
+00:04:38,190 --> 00:04:41,790
+configuring Ansible where we'll make use of the
+
+76
+00:04:41,820 --> 00:04:45,510
+awesome Ansible command line tool to validate and
+
+77
+00:04:45,510 --> 00:04:48,510
+test our configuration. We'll also look at
+
+78
+00:04:48,510 --> 00:04:51,450
+inventories and modules, and how we can interact
+
+79
+00:04:51,450 --> 00:04:55,230
+with modules direct from the command line. In
+
+80
+00:04:55,230 --> 00:04:58,080
+section four, we'll get started with Playbooks.
+
+81
+00:04:58,440 --> 00:05:01,560
+We'll take a look at YAML, the various
+
+82
+00:05:01,560 --> 00:05:05,250
+sections that make up a Playbook, the use of
+
+83
+00:05:05,250 --> 00:05:09,810
+variables and facts, how to use templating with
+
+84
+00:05:09,810 --> 00:05:14,160
+Jinja2, and we'll create and execute a fully
+
+85
+00:05:14,160 --> 00:05:17,400
+fledged web server and website project with
+
+86
+00:05:17,400 --> 00:05:21,270
+Ansible. In Section five, we'll take a look at
+
+87
+00:05:21,270 --> 00:05:24,930
+some of the more common Playbook modules. We'll
+
+88
+00:05:24,930 --> 00:05:29,340
+look at Dynamic Inventories, both how to use them,
+
+89
+00:05:29,370 --> 00:05:33,540
+and how to create them. The use of register and
+
+90
+00:05:33,540 --> 00:05:37,140
+when for capturing information. The various ways
+
+91
+00:05:37,170 --> 00:05:40,560
+of using loops; we'll look at the performance
+
+92
+00:05:40,560 --> 00:05:43,530
+aspects with different means of execution such as
+
+93
+00:05:43,560 --> 00:05:48,420
+asynchronous, serial and parallel. Task delegation,
+
+94
+00:05:48,750 --> 00:05:54,060
+how to make a task run on a specific target, and
+
+95
+00:05:54,060 --> 00:05:59,490
+support magic variables and support blocks; and the
+
+96
+00:05:59,520 --> 00:06:04,320
+Ansible Vault for securing information. In Section
+
+97
+00:06:04,320 --> 00:06:07,350
+six, we'll see how we can structure Ansible
+
+98
+00:06:07,350 --> 00:06:11,400
+Playbooks through the use of includes and imports.
+
+99
+00:06:12,510 --> 00:06:16,440
+Tags, that will allow us to reuse specific entities
+
+100
+00:06:16,680 --> 00:06:19,950
+and roles where we can break our tasks into
+
+101
+00:06:19,950 --> 00:06:24,030
+reusable components. In Section seven, we'll make
+
+102
+00:06:24,030 --> 00:06:27,870
+use of popular areas with Ansible such as AWS, and
+
+103
+00:06:27,870 --> 00:06:32,340
+Docker. In Section eight, we'll create our own
+
+104
+00:06:32,340 --> 00:06:37,290
+modules and plugins. Section nine covers other
+
+105
+00:06:37,290 --> 00:06:40,050
+Ansible resources and areas such as
+
+106
+00:06:40,050 --> 00:06:44,550
+troubleshooting. Lastly, section 10 is
+
+107
+00:06:44,580 --> 00:06:48,360
+supplementary, and within this other areas and
+
+108
+00:06:48,360 --> 00:06:52,680
+resources that you may find useful. So with that
+
+109
+00:06:52,680 --> 00:06:56,130
+introduction and summary, let's dive into the next
+
+110
+00:06:56,130 --> 00:06:59,879
+video, Introduction to Ansible.
+
+111
+00:06:59,879 --> 00:07:02,826
+[No audio]

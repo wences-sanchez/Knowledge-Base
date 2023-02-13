@@ -223,3 +223,8 @@ tags:: Self-Help
 		- tags:: [[mind]]
 		- ([Location 3160](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=3160))
 	- -
+- New highlights added [[Friday, 10-02-2023]] at 4:19 PM
+	- -
+		- We need to understand each of these choosing steps to appreciate the important difference between good choosing, which results in reliably happy outcomes and more future prospects, and bad choosing, which preconditions us for an unhappy experience. #flashcard
+		- ([Location 2273](https://readwise.io/to_kindle?action=open&asin=B01BJSRSEC&location=2273))
+	- -

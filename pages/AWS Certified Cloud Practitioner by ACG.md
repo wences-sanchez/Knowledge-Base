@@ -1,4 +1,6 @@
-tags:: ACloudGuru, AWS
+
+
+[]()tags:: ACloudGuru, AWS
 deck:: [[ACloudGuru::AWS]]
 id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 
@@ -23,7 +25,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		- #### Edge Locations
 			- Edge locations reduce latency. They are used by **AWS CloudFront**
 			- Regions > Availability Zones > Datacenters #flashcard
-			  id:: 63454583-8fab-4d17-ad8c-819f4c634429
 				- There are more **Edge Locations** than **Regions** and **AZs**.
 	- ### Exploring your AWS Account
 		- The regions are isolated.
@@ -46,7 +47,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 		- #### Flashcards
 		  collapsed:: true
 			- Mention some characteristics of EC2 #flashcard
-			  id:: 634d4173-6293-43a5-ba2a-1277991d6518
 				- EC2 is a foundational service used for managing our virtual instances.
 					- 1. You're able to provision an EC2 instance at the click of a button
 					  2. You can preconfigure it with an AMI template
@@ -55,7 +55,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 				- You can use them to deploy a database or a web application
 		-
 		- #### Ways of access an EC2 Instance #flashcard
-		  id:: 634d3490-5a54-4dc2-8474-0335cbc84dc6
 			- AWS Management Console
 				- via a web browser
 			- Secure Shell (SSH)
@@ -67,7 +66,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 				- AWS Systems Manager es una solución segura de administración integral para entornos híbridos en la nube.
 			-
 		- #### EC2 Pricing Options #flashcard
-		  id:: 634d3596-a583-4351-8c0a-d8ba06fb0a30
 			- #### On-Demand
 				- A fixed price in which you are billed down to the second based on the instance type. No contract.
 				- Use it when:
@@ -96,19 +94,14 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 	- ### 3.4 Exploring Compute Services: Lambda
 	  collapsed:: true
 		- What does *Serverless* mean? #flashcard
-		  id:: 634d463b-2c50-4ce0-afd8-439cc0c83123
 			- **Serverless** simply means that Amazon manages the servers for you and you cannot access them. You can pretend they don't exist.
 		- Describe the pricing model of Lambdas #flashcard
-		  id:: 634d4919-d3be-4a84-9a31-15c1861e36bf
 			- **Compute time**: Pay only for compute time used. There is no charge if your code is not running
 			- **Request count**: A request is counted each time it starts execution (including tests in the console).
 			- **Always free**: Even after the free-usage tier expires, you'll have access to 1 million free Lambda calls each month.
 	- ### 3.5 Create a Lambda Function using the AWS Management Console
 		- You have to deploy your code before expecting it to succeed! #flashcard #dev-notes
-		  id:: 634e5c5a-77b3-481c-b335-8a2b65973134
 	- ### 3.6 Exploring Compute Services: Additional Compute Services #flashcard
-	  id:: 634e5c5a-ca93-414b-9040-2dffceb8b53e
-	  collapsed:: true
 		- What is the use of containers?
 			- To make our apps capable of executing again and again on different environments without worrying of machine specific configurations
 		- #### AWS Fargate
@@ -1374,3 +1367,4 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 -
 -
 -
+^1675847777125

@@ -193,6 +193,8 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 	- ### User IAM Profiles on AWS
 		- {{video https://www.youtube.com/watch?v=Aj5-83l6HMA}}
 		- ![image.png](../assets/image_1676287500743_0.png)
+	- ### Create User Profiles Using the AWS Console
+		- {{video https://www.youtube.com/watch?v=DJ0wYhp_-cc&t=16s}}
 		-
 	- It's better to use environment variables instead of text fields
 	- We can connect **resources** (Servers with Services) within a **VPC** using IAM **roles**

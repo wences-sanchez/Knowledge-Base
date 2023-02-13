@@ -218,6 +218,9 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- We can connect **developers** with a Service using IAM **Users**
 			- IAM user role: an IAM role can give a user a set of permissions to access one or more services.
 	- ### Creating IAM Service Roles
+		- {{video https://www.youtube.com/watch?v=rG0FQg9jzGY&t=5s}}
+			- {{youtube-timestamp 0}} a different type of I am credential that's equally important to use are for your servers and services within Amazon infrastructure these are not people so we don't need to have username or passwords but they will need to have policies attached so that Amazon knows what they can do within the system roles are structured in a very similar way to users there is a policy group with certain permissions or policies that are signed directly to the role the key differences this role is consumed by a server the role sits on top of that server or service and allows it to perform action on other Amazon infrastructure within the Amazon platform let's quickly walk through how to create a role within the AWS console in the I am window of the AWS console let's click on roles let's create a role and let's pretend like we have a service running on ec2 that we'll need to access our our s3 bucket we can choose ec2 as our primary consumer this is what we'll
+			- {{youtube-timestamp 59}} use the role and let's find our previously developed s3 dev Group you to Graham s3 dev media selecting this clicking Next and review we can now give our role a name in this case we'll call it Yuta Graham dev service role this way we know this is our service role that anything that our ec2 instances that are using our s3 bucket can use and we can go ahead and create the role now we don't have an easy-to instance to use this role in but we will be using this later on when we start consuming our service after we deploy it to the cloud
 		-
 	-
 	-

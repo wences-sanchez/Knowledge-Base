@@ -93,6 +93,28 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 			- {{youtube-timestamp 0}} if you've added the sequel correctly your sequel should look something like this to add a table for me will have an ID and a name and we'll create that table similar to before we can also insert into that table the last concept we'll talk about our views select queries are ways for us to filter items within our database table we talked a bit about these in the concept slides so let's go ahead and try copy and pasting some of those into our query and saving them as views the one key difference here is we add create view with a view name as which we'll use the information from this query to create those views view show up in post bird as blue tables then will show us the result of that select query our joint table will show us joins on our foreign primary key looking at the content we can see instead of an ID field we have our completed name field as expected similarly we have our view for filtering where we have our make is Toyota and
 			- {{youtube-timestamp 65}} looking at that content we see only records from Toyota go ahead and play with some of these queries try to break the system have fun with it and don't stress out if you're not following on completely there are some great resources we'll include that have more detail on how to write sequel but keep in mind we will be using an ORM a system within our JavaScript framework to complete these tasks automatically for us
 		-
+		- ```sql
+		  CREATE TABLE "public"."make" (
+		    id SERIAL PRIMARY KEY,
+		    name TEXT
+		  );
+		  
+		  INSERT INTO "public"."cars" ("type", "model", "cost", "make_id") VALUES 
+		  	('sedan', 'roadster', '33', '2'),
+		  	('sedan', 'prius', '22', '1'),
+		  	('sedan', 'focus', '18', '3'),
+		  	('suv', 'highlander', '40', '1');
+		  
+		  INSERT INTO "public"."make" ("id", "name") VALUES
+		  	(1, 'Tesla'),
+		  	(2, 'Chevrolet'),
+		  	(3, 'Ford');
+		    
+		  SELECT cars.model, cars.type, make.name 
+		  	FROM cars, make 
+		  	WHERE cars.make_id = make.id AND make.name = 'Tesla';
+		  ```
+		-
 		-
 - ## 4. Filestore Basics #flashcard
   id:: 63de7626-d495-4c4a-96bb-321698ebcf54

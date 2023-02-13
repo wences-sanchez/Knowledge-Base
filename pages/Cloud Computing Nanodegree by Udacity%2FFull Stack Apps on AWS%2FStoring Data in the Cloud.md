@@ -212,12 +212,13 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 			- {{youtube-timestamp 272}} say for example we had videos and we wanted to save that in a separate s3 bucket because that'll be more organized for us we can just add a new policy for that bucket to allow our dev group to access that bucket similarly we can have more diverse services if we have different types of ec2 instances or RDS servers or whatever else we're using within our dev environment we can add policies directly to this group and any user that has access to this group will have access to those resources for now we won't add any tags or keys let's give a quick review looks good it's also gonna be adding a policy to change the password since I gave that ability for logging into the console and then let's just go ahead and create this user now's a good time to basically drop down some of this information we've created our user we have a username and then we have new credentials provision for this account we have an access key a secret key and a password as soon as I click
 			- {{youtube-timestamp 335}} this show button this is now a compromised account but since this is prerecorded I probably have already revoked these credentials by the time this is published for now we're going to go ahead and download our credentials so we don't forget them and we'll keep this handy for while we install it locally and that's it you've created your first AWS I am user profile for your development environment I am is a super powerful tool and is a lot of options and features but you should begin to get into the habit of using it whenever possible to become a better cloud engineer
 		-
-	- It's better to use environment variables instead of text fields
-	- We can connect **resources** (Servers with Services) within a **VPC** using IAM **roles**
-		- IAM service role: an IAM role gives a service a set of permissions to access one or more services.
-	- We can connect **developers** with a Service using IAM **Users**
-		- IAM user role: an IAM role can give a user a set of permissions to access one or more services.
-	-
+		- It's better to use environment variables instead of text fields
+		- We can connect **resources** (Servers with Services) within a **VPC** using IAM **roles**
+			- IAM service role: an IAM role gives a service a set of permissions to access one or more services.
+		- We can connect **developers** with a Service using IAM **Users**
+			- IAM user role: an IAM role can give a user a set of permissions to access one or more services.
+	- ### Creating IAM Service Roles
+		-
 	-
 	-
 	-

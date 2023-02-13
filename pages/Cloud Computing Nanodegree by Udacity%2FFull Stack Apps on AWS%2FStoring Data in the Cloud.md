@@ -118,6 +118,10 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		-
 - ## 4. Filestore Basics #flashcard
   id:: 63de7626-d495-4c4a-96bb-321698ebcf54
+	- ### Benefits of Cloud Filestores
+		- {{video https://www.youtube.com/watch?v=Gs0adcq6WF4}}
+			- {{youtube-timestamp 0}} we've just learned that databases are great for structured data with small fields and things that we need to search for complex types of queries we might be looking for some type of subset of items with multiple parameters that help us find that item this type of data is expensive to store we have to not only store the data itself but we also have to store the indexes and all of the overhead associated with finding that information file stores allow us to store larger bits of information with lower cost things like images videos or documents where we're not necessarily looking within the content of that information but looking for the document itself should be stored in a file store this will save us in cost and also in speed to deliver that kind of resource
+	-
 	- **Filestores** allow us to store big amounts of data (like images, videos and documents) that are too expensive to save them in databases.
 	- We don't want to store any big file nor object nor image nor document in our database
 	- ![image.png](../assets/image_1675524090543_0.png)

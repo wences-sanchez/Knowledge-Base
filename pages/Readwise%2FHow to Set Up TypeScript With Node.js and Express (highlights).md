@@ -17,3 +17,20 @@ url:: https://blog.logrocket.com/how-to-set-up-node-typescript-express/
 		- tags:: [[code]]
 		- ([View Highlight](https://read.readwise.io/read/01gs7z7vammdh7p4e4aywaczjn))
 	- -
+- New highlights added [[Tuesday, 14-02-2023]] at 3:13 PM
+	- -
+		- After installing these dev dependencies, update the `scripts` in the `package.json` file:
+		  
+		  {
+		  "scripts": {
+		    "build": "npx tsc",
+		    "start": "node dist/index.js",
+		    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+		  }
+		  }
+		  
+		  The `build` command will compile the code in JavaScript inside a `dist` directory. The `dev` command is used to run the Node.js server in development mode.
+		  
+		  Now, go back to the terminal window and run `npm run dev` to trigger the development server: #flashcard
+		- ([View Highlight](https://read.readwise.io/read/01gs80z990gag7dr484gm0m8sz))
+	- -

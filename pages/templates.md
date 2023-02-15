@@ -11,15 +11,19 @@
   template-including-parent:: false
 	- ### Mis objetivos para hoy
 		-
-		-
-		-
+	-
+	-
+	-
 	- ### ¿Qué has aprendido hoy?
+		-
 	-
 	-
 	- ### ¿Qué harías para mejorar el día?
+		-
 	-
 	-
 	- ### ¿Qué te preocupa?¿Qué obstáculos de ahora te bloquean?
+		-
 	-
 	-
 	- ### ¿De qué te sientes orgulloso hoy?
@@ -28,8 +32,13 @@
 	-
 	-
 	- ## [[Tareas]]
+		-
+	-
+	-
 	-
 	- ## [[Pomodoros]]
+		-
+	-
 	-
 	-
 -

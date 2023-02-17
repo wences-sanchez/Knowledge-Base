@@ -80,7 +80,18 @@
 		-
 	- ## 1.5 Algorithms
 		- ![image.png](../assets/image_1676636402720_0.png)
-		- This is the fourth and final pillar for **Problem Solving**: **Algorithms**
+		- This is the fourth and final pillar for *Problem Solving*: **Algorithms**
+		- An algorithm is a set of step-by-step instructions of how to solve a problem.
+			- It identifies what is to be done (the instructions), and the order in which they should be done.
+			- For example, for making a cup of tea, we need:
+				- fill the tea
+				- bring it to a boil
+				- pour hot water
+				- ...
+				- Remove teabag
+		-
+		-
+		-
 		-
 		-
 		-

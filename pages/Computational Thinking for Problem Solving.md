@@ -112,6 +112,7 @@
 				- **Correct Answer:** *C. Determine which aisle each item is in. Cluster the list by items in the same aisle. Go through the aisles in order and place items in the shopping cart.*
 		-
 	- ## 1.6 Case Studies
+	  id:: 63ef7a73-e641-4d7a-9252-2de06ea67c09
 		-
 		-
 		-

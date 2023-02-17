@@ -34,7 +34,8 @@
 			- Discovering these patterns make the complex problem easier to solve since we can use the same solution for each occurrence of the pattern.
 		- Although the parts of the problem can be different from one another, some of them might share common parts.
 			- Identify those parts is what we call **Pattern Recognition**.
+			- We can use the same solution for each occurrence of the pattern.
 		- ![image.png](../assets/image_1676632057271_0.png)
-		-
+		- But, f
 	-
 -

@@ -56,5 +56,6 @@
 					- I apply spaced repetition to reinforce it over time.
 	-
 	- ## 1.4 Data Representation and Abstraction
-		-
+		- ![image.png](../assets/image_1676633927096_0.png)
+		- **Data Representation and abstraction**
 -

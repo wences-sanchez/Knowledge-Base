@@ -99,7 +99,7 @@
 			- Also, we can use conditionals
 		- ![image.png](../assets/image_1676637565396_0.png)
 		- An algorithm is, in some sense, the pinnacle of Computational Thinking.
-			- And builds on decomposition, pattern recognition and data abstraction.
+			- And builds on decomposition, pattern recognition and data abstraction by describing how the problem needs to be solved in a step-by-step manner (the instructions and their order).
 		-
 		-
 		-

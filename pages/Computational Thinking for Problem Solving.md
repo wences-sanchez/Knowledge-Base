@@ -6,7 +6,8 @@
 		- This course does not teach Programming (is that good or bad? I'll tell you in a while)
 	- ## 1.2 Decomposition
 		- Computational Thinking is an approach to solving problems using concepts and ideas from computer science.
-		- ![image.png](../assets/image_1676627644964_0.png)
+		  
+		  ![image.png](../assets/image_1676627644964_0.png)
 		- ![image.png](../assets/image_1676628003680_0.png)
 		- Rather than begin from start to finish, you probably start by developing an outline of the essay. Instead of making all at a time.
 		- You start with the main ideas, later you decompose in smaller tasks.
@@ -18,15 +19,15 @@
 		-
 		- ### Applying Decomposition in Your Life
 			- Think of a problem for which you could use computational thinking, describe it, and then describe how you would apply decomposition. You should describe at least 2 sub-problems.
-				- >
-					- Learn Cloud Computing
-						- Study Computing in general (i.e. DevOps)
-						- Study the fundamentals of Cloud Computing
-					- Practice programming a lot
-						- Study the concepts of Software Development
-						- Coding a lot
-					- Contact with the recruiters for a possible vacancy
-						- Make an outstanding CV
-						- Ask to anyone who has a potential offer
+				- 1. Learn Cloud Computing
+					- 1.1 Study Computing in general (i.e. DevOps)
+					- 1.2 Study the fundamentals of Cloud Computing
+				- 2. Practice programming a lot
+					- 2.1 Study the concepts of Software Development
+					- 2.2 Coding a lot
+				- 3. Contact with the recruiters for a possible vacancy
+					- 3.1 Make an outstanding CV
+					- 3.2 Ask to anyone who has a potential offer
+		-
 	-
 -

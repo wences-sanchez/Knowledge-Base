@@ -77,7 +77,11 @@
 						- the concrete example or uses of the dummy examples,
 						- the author of the programming books
 						- the deprecated features of the languages
-			-
+		-
+	- ## 1.5 Algorithms
+		- ![image.png](../assets/image_1676636402720_0.png)
+		- This is the fourth and final pillar for **Problem Solving**: **Algorithms**
+		-
 		-
 		-
 		-

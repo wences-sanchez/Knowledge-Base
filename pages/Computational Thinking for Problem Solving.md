@@ -12,6 +12,8 @@
 		- You start with the main ideas, later you decompose in smaller tasks.
 			- If you had to map the Earth, you won't be able to do all at once. You have to start with the satellites, later distribute them across the planet, add functionalities, zoom....
 		- **Decomposition** means breaking a complex problem into more manageable sub-problems
-			- Putting the solutions to the sub
+			- Putting the solutions to the sub-problems together gives a solution to the original, complex problem.
+		-
+			-
 	-
 -

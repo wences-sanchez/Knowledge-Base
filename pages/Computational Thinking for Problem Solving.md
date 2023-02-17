@@ -6,6 +6,6 @@
 		- This course does not teach Programming (is that good or bad? I'll tell you in a while)
 	- ## 1.2 Decomposition
 		- Computational Thinking is an approach to solving problems using concepts and ideas from computer science.
-		-
+		- /home/wences/Imágenes/Screenshot_20230217_104858.png
 	-
 -

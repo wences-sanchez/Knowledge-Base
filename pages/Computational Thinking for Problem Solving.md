@@ -15,7 +15,9 @@
 			- Putting the solutions to the sub-problems together gives a solution to the original, complex problem.
 			- **Decomposition** is NOT about *generalizing upon a smaller point*. That's another approach
 			- Also, the sub-tasks have to be related to the main problem. Completely different items are not allowed.
-		-
+		- # Applying Decomposition in Your Life
+		  
+		  Think of a problem for which you could use computational thinking, describe it, and then describe how you would apply decomposition. You should describe at least 2 sub-problems.
 			-
 	-
 -

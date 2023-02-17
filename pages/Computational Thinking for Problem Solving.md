@@ -31,6 +31,7 @@
 		- The second pillar of Computational Thinking is **Pattern Recognition**.
 			- When we decompose the problem, we frequently find patterns among the sub-problems.
 				- For example, similarities or shared characteristics.
-			- Discoverin
+			- Discovering these patterns make the complex problem easier to solve since we can use the same solution for each occurrence of the pattern.
+		-
 	-
 -

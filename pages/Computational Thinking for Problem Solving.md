@@ -7,6 +7,7 @@
 	- ## 1.2 Decomposition
 		- Computational Thinking is an approach to solving problems using concepts and ideas from computer science.
 		- ![image.png](../assets/image_1676627644964_0.png)
+		- ![image.png](../assets/image_1676628003680_0.png)
 		-
 	-
 -

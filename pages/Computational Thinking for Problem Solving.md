@@ -27,6 +27,10 @@
 					- 3.1 Make an outstanding CV
 					- 3.2 Ask to anyone who has a potential offer
 	- ## 1.3 Pattern Recognition
-		-
+		- ![image.png](../assets/image_1676631460143_0.png)
+		- The second pillar of Computational Thinking is **Pattern Recognition**.
+			- When we decompose the problem, we frequently find patterns among the sub-problems.
+				- For example, similarities or shared characteristics.
+			- Discoverin
 	-
 -

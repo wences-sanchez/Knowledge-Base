@@ -1,6 +1,7 @@
 -
 -
 - ## [[Computational Thinking for Problem Solving/Week 1: Pillars of Computational Thinking]]
+  id:: 63ef4a37-788a-4cf5-baf2-21583ca45ed3
 	- ## 1.1 Introduction
 		- Computational thinking is not just about computers at all.
 		- This course does not teach Programming (is that good or bad? I'll tell you in a while)
@@ -113,6 +114,7 @@
 		-
 	- ## 1.6 Case Studies
 	  id:: 63ef7a73-e641-4d7a-9252-2de06ea67c09
+		- ![image.png](../assets/image_1676652306644_0.png)
 		-
 		-
 		-

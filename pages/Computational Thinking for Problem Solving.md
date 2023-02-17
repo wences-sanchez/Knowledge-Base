@@ -115,6 +115,7 @@
 	- ## 1.6 Case Studies
 	  id:: 63ef7a73-e641-4d7a-9252-2de06ea67c09
 		- ![image.png](../assets/image_1676652306644_0.png)
+		- We're not yet ready to write code!
 		-
 		-
 		-

@@ -91,8 +91,9 @@
 				- remove teabag
 		- An instruction is something that humans understand
 			- Eventually translated into sequences of computer instructions
-		- #### It's very important to be aware of the order (and importance) of the steps in an algorithm (i.e. a recipe). Because if we don't do the things in order (like understand the task and write the pseudo-code) we'll fail dramatically. #InMyOwnWords #Favorites
-		-
+		- #### It's very important to be aware of the order (and importance) of the steps in an algorithm (i.e. a recipe). Because if we don't do the things in order (like *firstly* understand the task and write the pseudo-code) we'll fail dramatically. #InMyOwnWords #Favorites
+		- We are bound to change only part of our algorithms if we had designed them correctly.
+			- Because if we decompose it in little parts, and apply pattern recognition
 		-
 		-
 		-

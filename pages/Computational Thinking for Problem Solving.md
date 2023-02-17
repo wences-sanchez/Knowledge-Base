@@ -60,6 +60,7 @@
 		- **Data Representation and abstraction** involves determining what characteristics of the problem are important and filtering out those that are not.
 		- We have to decide which information is important and which not:
 			- ![image.png](../assets/image_1676634037685_0.png)
+		- We can also prioritize those components that **maximize satisfaction**.
 		-
 		-
 -

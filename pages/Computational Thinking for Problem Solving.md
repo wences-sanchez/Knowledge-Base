@@ -100,7 +100,16 @@
 		- ![image.png](../assets/image_1676637565396_0.png)
 		- An algorithm is, in some sense, the pinnacle of Computational Thinking.
 			- And builds on decomposition, pattern recognition and data abstraction by describing how the problem needs to be solved in a step-by-step manner (the instructions and their order).
-		-
+		- ### Preguntas
+			- You have a list of grocery items, and want to spend as little time as possible in the store picking them all up. Which of the following English descriptions is the best algorithm for doing this?
+			  
+			  A. Visit each aisle in the store. If there is an item on the list in that aisle, then put it in the shopping cart.
+			  
+			  B. For each item on list, go to the aisle it is in and put the item in the shopping cart.
+			  
+			  C. Determine which aisle each item is in. Cluster the list by items in the same aisle. Go through the aisles in order and place items in the shopping cart. #Favorites
+				- **Correct Answer:** *C. Determine which aisle each item is in. Cluster the list by items in the same aisle. Go through the aisles in order and place items in the shopping cart.*
+			-
 		-
 		-
 		-

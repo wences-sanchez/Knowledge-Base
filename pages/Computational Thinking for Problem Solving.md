@@ -40,7 +40,10 @@
 		- ### Pregunta:
 			- **[True/False] The following captures the definition of pattern recognition:**
 				- *Pattern recognition is the process in which one looks for repeated steps within a problem.*
-					- ~~True~~. **False**:
+				  collapsed:: true
+					- ~~True~~. **False**
+					- > This is an aspect of pattern recognition, but is too limited. Pattern recognition is finding similarities or shared characteristics within or between problems. This includes recognizing that a problem structure may be similar to another one, and therefore can be solved in a similar way.
 					-
+	-
 	-
 -

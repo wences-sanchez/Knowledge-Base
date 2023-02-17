@@ -56,6 +56,7 @@
 					- I apply spaced repetition to reinforce it over time.
 	-
 	- ## 1.4 Data Representation and Abstraction
+	  id:: 63ef4a50-52b0-48dd-9a54-c036a65b97ea
 		- ![image.png](../assets/image_1676633927096_0.png)
 		- **Data Representation and abstraction** involves determining what characteristics of the problem are important and filtering out those that are not.
 		- We have to decide which information is important and which not:

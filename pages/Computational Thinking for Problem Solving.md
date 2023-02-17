@@ -37,6 +37,10 @@
 			- We can use the same solution for each occurrence of the pattern.
 		- ![image.png](../assets/image_1676632057271_0.png)
 		- But first, we have to understand what data is needed to solve the sub-problems and that's what we'll see in *Data Representation and Abstraction*'s lesson.
-		-
+		- ### Pregunta:
+			- **[True/False] The following captures the definition of pattern recognition:**
+				- *Pattern recognition is the process in which one looks for repeated steps within a problem.*
+					- ~~True~~. **False**:
+					-
 	-
 -

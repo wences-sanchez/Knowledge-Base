@@ -93,7 +93,9 @@
 			- Eventually translated into sequences of computer instructions
 		- #### It's very important to be aware of the order (and importance) of the steps in an algorithm (i.e. a recipe). Because if we don't do the things in order (like *firstly* understand the task and write the pseudo-code) we'll fail dramatically. #InMyOwnWords #Favorites
 		- We are bound to change only part of our algorithms if we had designed them correctly.
-			- Because if we decompose it in little parts, and apply pattern recognition
+			- Because if we decompose it in little parts, and apply pattern recognition:
+				- we could change only the step in which we did that action
+				- and, since we applied pattern recognition, we can relate it with a step
 		-
 		-
 		-

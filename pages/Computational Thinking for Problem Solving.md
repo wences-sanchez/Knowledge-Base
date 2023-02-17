@@ -44,6 +44,17 @@
 					- ~~True~~. **False**
 					- > This is an aspect of pattern recognition, but is too limited. Pattern recognition is finding similarities or shared characteristics within or between problems. This includes recognizing that a problem structure may be similar to another one, and therefore can be solved in a similar way.
 					-
+		- ### Applying Pattern Recognition in Your Life
+			- Think of a problem for which you could use computational thinking, describe it, and then describe how you would apply pattern recognition.
+				- I am trying to study and learn a variety of computing topics.
+				  
+				  I would apply pattern recognition by realizing that I take the same steps when learning something.
+				- Those patterns are:
+					- I study a lesson (either video or textbook lesson).
+					- I memorize its contents.
+					- I try to explain to myself the contents to check if I have understood it.
+					- I apply spaced repetition to reinforce it over time.
 	-
-	-
+	- ## 1.4 Data Representation and Abstraction
+		-
 -

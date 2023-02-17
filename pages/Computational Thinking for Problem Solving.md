@@ -36,6 +36,7 @@
 			- Identify those parts is what we call **Pattern Recognition**.
 			- We can use the same solution for each occurrence of the pattern.
 		- ![image.png](../assets/image_1676632057271_0.png)
-		- But, f
+		- But first, we have to understand what data is needed to solve the sub-problems and that's what we'll see in *Data Representation and Abstraction*'s lesson.
+		-
 	-
 -

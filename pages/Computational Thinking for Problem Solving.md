@@ -66,17 +66,17 @@
 		- ### Applying Data Representation and Abstraction in Your Life
 			- Think of a problem for which you could use computational thinking, describe it, and then describe how you would apply data representation and abstraction.
 				- A problem of mine is learning computing staff as quickly as possible.
-				  
-				  I would apply data representation by noting:
-					- what the code means,
-					- what syntax should I use,
-					- its language
-			- and the code itself.
-			  
-			  I would abstract data like:
-			- the concrete example or uses of the dummy examples,
-			- the author of the programming books
-			- the deprecated features of the lenguages
+				  collapsed:: true
+					- I would apply data representation by noting:
+						- what the code means,
+						- what syntax should I use,
+						- its language
+						- and the code itself.
+					- I would abstract data like:
+						- the concrete example or uses of the dummy examples,
+						- the author of the programming books
+						- the deprecated features of the languages
+			-
 		-
 		-
 		-

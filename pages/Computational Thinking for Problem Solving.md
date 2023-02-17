@@ -97,7 +97,9 @@
 				- we could change only the step in which we did that action
 				- and, since we applied pattern recognition, we can relate it with a analogue step
 			- Also, we can use conditionals
-		-
+		- ![image.png](../assets/image_1676637565396_0.png)
+		- An algorithm is, in some sense, the pinnacle of Computational Thinking.
+			- And builds on decomposition, pattern recognition and data abstraction.
 		-
 		-
 		-

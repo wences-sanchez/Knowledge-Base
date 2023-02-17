@@ -32,6 +32,7 @@
 			- When we decompose the problem, we frequently find patterns among the sub-problems.
 				- For example, similarities or shared characteristics.
 			- Discovering these patterns make the complex problem easier to solve since we can use the same solution for each occurrence of the pattern.
-		-
+		- Although the parts of the problem can be different from one another, some of them might share common parts.
+			- Identify those parts is what we call **Pattern Re**
 	-
 -

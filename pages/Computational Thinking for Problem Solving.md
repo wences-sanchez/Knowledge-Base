@@ -88,7 +88,10 @@
 				- bring it to a boil
 				- pour hot water
 				- ...
-				- Remove teabag
+				- remove teabag
+		- An instruction is something that humans understand
+			- Eventually translated into sequences of computer instructions
+		-
 		-
 		-
 		-

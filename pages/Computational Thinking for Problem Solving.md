@@ -110,7 +110,9 @@
 			  
 			  C. Determine which aisle each item is in. Cluster the list by items in the same aisle. Go through the aisles in order and place items in the shopping cart. #Favorites
 				- **Correct Answer:** *C. Determine which aisle each item is in. Cluster the list by items in the same aisle. Go through the aisles in order and place items in the shopping cart.*
-			-
+		-
+	- ## 1.6 Case Studies
+		-
 		-
 		-
 		-

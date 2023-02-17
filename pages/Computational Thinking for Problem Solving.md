@@ -79,6 +79,7 @@
 						- the deprecated features of the languages
 		-
 	- ## 1.5 Algorithms
+	  id:: 63ef70b8-293a-421e-94a3-2ccee7c620d0
 		- ![image.png](../assets/image_1676636402720_0.png)
 		- This is the fourth and final pillar for *Problem Solving*: **Algorithms**
 		- An algorithm is a set of step-by-step instructions of how to solve a problem.

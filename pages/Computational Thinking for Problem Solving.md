@@ -1,3 +1,5 @@
+tags:: Coursera, Algorithms
+
 -
 -
 - ## [[Computational Thinking for Problem Solving/Week 1: Pillars of Computational Thinking]]

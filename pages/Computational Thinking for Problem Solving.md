@@ -57,5 +57,9 @@
 	-
 	- ## 1.4 Data Representation and Abstraction
 		- ![image.png](../assets/image_1676633927096_0.png)
-		- **Data Representation and abstraction**
+		- **Data Representation and abstraction** involves determining what characteristics of the problem are important and filtering out those that are not.
+		- We have to decide which information is important and which not:
+			- ![image.png](../assets/image_1676634037685_0.png)
+		-
+		-
 -

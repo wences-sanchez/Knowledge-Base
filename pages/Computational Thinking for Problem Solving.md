@@ -26,6 +26,7 @@
 				- 3. Contact with the recruiters for a possible vacancy
 					- 3.1 Make an outstanding CV
 					- 3.2 Ask to anyone who has a potential offer
+	- ## 1.3 Pattern Recognition
 		-
 	-
 -

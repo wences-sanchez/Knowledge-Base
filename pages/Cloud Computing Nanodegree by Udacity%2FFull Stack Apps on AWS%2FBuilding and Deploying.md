@@ -28,8 +28,9 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 	- In the file controllers/v0/feed/routes/feed.router.ts, the root directory `router.get('/',...` is not the server root directory. The root in this case is based on where the server is entering from, which in this case, is `api/v0/feed/routes`.
 -
 - ## 3. Connecting our RDS Database in Node
-	- We'll use **Sequelize**, which is a framework of Javascript that runs with Node.
-	- ORM works in both directions.
+	- ### Intro to Object-Relational Maps (ORM)
+		- We'll use **Sequelize**, which is a framework of Javascript that runs with Node.
+		- ORM works in both directions.
 	- ![image.png](../assets/image_1675675006851_0.png)
 	- ![image.png](../assets/image_1675675157977_0.png)
 	- #### Models
@@ -60,6 +61,8 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 	- ### Seeding
 		- Seeds are default rows of data that will be inserted upon database formation. This may be helpful when provisioning databases frequently for specific applications and having welcome data populated, or when running tests on staging systems to simulate real-world conditions.
 			- Read more at the [Sequelize docs on seeding](http://docs.sequelizejs.com/manual/migrations.html#creating-first-seed)
+	-
+-
 -
 - ## 5.Handling Secrets with Environment Variables
 	- ### 1. Shell - Linux/Mac Users

@@ -79,8 +79,49 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 				- iii. Return that to the user in a send data payload.
 				- iv. Use Postman to try it out
 			- 2. Create a PATCH endpoint that updates an existing record that it's in a database with some kind of body
-			-
 		-
+		- {{video https://www.youtube.com/watch?v=OJs3eMhKIZc}}
+			-
+		- #### Associations
+			- Associations allow our models to reference other models. For example, consider people and dog relationships. We might represent this as a person table and dog table.
+			  
+			  *person table*
+			  
+			  | id | name |
+			  | ---- | ---- | ---- |
+			  | 1 | Sally |
+			  | 2 | James |
+			  
+			  *dog table*
+			  
+			  | id | name |
+			  | ---- | ---- | ---- |
+			  | a | Ruffles |
+			  | b | Noodles |
+			  | c | Xander |
+		- #### One-To-One Association
+		- If the person has only one dog, we can use a foreign key column in the person table to reference a single row in the dog table. This is known as a One-To-One association.
+		  
+		  *person table (extended)*
+		  
+		  | id | name | dogId |
+		  | ---- | ---- | ---- |
+		  | 1 | Sally | a |
+		  | 2 | James | c |
+		- #### One-To-Many Association
+		  
+		  However, a person may have many dogs. In SQL we might represent this using a new separate table known as a Join table. This is essentially a table of two foreign key columns, one for person table and one for dog table. We can then find all dog foreign keys for a given person foreign key to find the relationship.
+		  
+		  *person-dog join table*
+		  
+		  | personId | dogId |
+		  | ---- | ---- | ---- |
+		  | 1 | a |
+		  | 1 | b |
+		  | 2 | c |
+		- ### Associations In Sequelize
+		  
+		  Check out the Sequelize documentation on associations to understand how to implement this pattern: [http://docs.sequelizejs.com/manual/associations.html](https://sequelize.org/master/manual/assocs.html)
 -
 -
 - ## 5.Handling Secrets with Environment Variables

@@ -66,6 +66,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- #### Decorators
 			- The Decorators (also known as Annotations) mentioned in this video are a feature of the sequelize-typescript package which allows us to link database features with our models. We exemplify this using the `@CreatedAt` and `@UpdatedAt`. This will set the option in the Postgres database to automatically set the date when any row is created, or updated and is useful when sorting and filtering our data.
 			- [Read more and view complete details on the model definition in the sequelize-typescript docs](https://www.npmjs.com/package/sequelize-typescript#model-definition)
+		- {{video https://www.youtube.com/watch?v=1FnTTG07Oxk}}
 		-
 		-
 -

@@ -248,7 +248,9 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- {{video https://www.youtube.com/watch?v=JTp-2V2V5Ps}}
 		- ![image.png](../assets/image_1676896984151_0.png)
 		- Elastic Beanstalk has images already prepared to our Node projects.
-		-
+		- Our Node applications run inside the above EC2 instance.
+			- But we don't want traffic from the internet be able to access to our EC2 instance!
+			- So we run a NGINX Proxy
 -
 -
 -

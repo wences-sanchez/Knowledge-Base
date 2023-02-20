@@ -123,6 +123,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 - ## 4. Connecting our S3 Filestore in Node
 	- ### SignedURL Refresher and Intro to AWS SDK
 		- We'll be using the Amazon Web Services (AWS) Javascript Software Development Kit (SDK) to implement the SignedURL pattern within our Node server.
+		- {{video https://www.youtube.com/watch?v=b89Tlx8rAho&t=1s}}
 		-
 -
 - ## 5.Handling Secrets with Environment Variables

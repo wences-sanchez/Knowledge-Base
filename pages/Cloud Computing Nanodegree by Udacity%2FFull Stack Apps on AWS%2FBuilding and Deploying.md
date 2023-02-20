@@ -75,7 +75,10 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- #### Exercise
 			- 1. Create a new GET endpoint that gets a specific record from the database using the **id** field
 				- i. Use the *sequelize* interface to find that record
-				- ii. Make some
+				- ii. Make some validation to make sure there's an id present
+				- iii. Return that to the user in a send data payload.
+				- iv. Use Postman to try it out
+			- 2. Create a PATCH endpoint that update an existing record that
 			-
 		-
 -

@@ -63,6 +63,10 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 				- Read more at the [Sequelize docs on seeding](http://docs.sequelizejs.com/manual/migrations.html#creating-first-seed)
 	- ### Using Sequelize in our Node RestAPI Source Code
 		- {{video https://www.youtube.com/watch?v=AHUp7GJh5ko}}
+		- #### Decorators
+			- The Decorators (also known as Annotations) mentioned in this video are a feature of the sequelize-typescript package which allows us to link database features with our models. We exemplify this using the `@CreatedAt` and `@UpdatedAt`. This will set the option in the Postgres database to automatically set the date when any row is created, or updated and is useful when sorting and filtering our data.
+			- [Read more and view complete details on the model definition in the sequelize-typescript docs](https://www.npmjs.com/package/sequelize-typescript#model-definition)
+		-
 		-
 -
 -

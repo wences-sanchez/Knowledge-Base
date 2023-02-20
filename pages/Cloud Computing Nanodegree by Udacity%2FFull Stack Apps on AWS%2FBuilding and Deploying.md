@@ -130,6 +130,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 	- ## Implementing the AWS S3 SDK in our Node Server
 		- ### Understanding the Stubbed Code
 			- {{video https://www.youtube.com/watch?v=OeNqid8icYA}}
+		- ### Unstubbing with AWS SDK
 			-
 	-
 	-

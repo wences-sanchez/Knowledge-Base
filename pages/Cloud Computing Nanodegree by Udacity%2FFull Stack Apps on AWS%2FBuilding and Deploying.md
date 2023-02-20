@@ -100,29 +100,30 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 			  | b | Noodles |
 			  | c | Xander |
 		- #### One-To-One Association
-		- If the person has only one dog, we can use a foreign key column in the person table to reference a single row in the dog table. This is known as a One-To-One association.
-		  
-		  *person table (extended)*
-		  
-		  | id | name | dogId |
-		  | ---- | ---- | ---- |
-		  | 1 | Sally | a |
-		  | 2 | James | c |
+			- If the person has only one dog, we can use a foreign key column in the person table to reference a single row in the dog table. This is known as a One-To-One association.
+			  
+			  *person table (extended)*
+			  
+			  | id | name | dogId |
+			  | ---- | ---- | ---- |
+			  | 1 | Sally | a |
+			  | 2 | James | c |
 		- #### One-To-Many Association
-		  
-		  However, a person may have many dogs. In SQL we might represent this using a new separate table known as a Join table. This is essentially a table of two foreign key columns, one for person table and one for dog table. We can then find all dog foreign keys for a given person foreign key to find the relationship.
-		  
-		  *person-dog join table*
-		  
-		  | personId | dogId |
-		  | ---- | ---- | ---- |
-		  | 1 | a |
-		  | 1 | b |
-		  | 2 | c |
-		- ### Associations In Sequelize
-		  
-		  Check out the Sequelize documentation on associations to understand how to implement this pattern: [http://docs.sequelizejs.com/manual/associations.html](https://sequelize.org/master/manual/assocs.html)
--
+			- However, a person may have many dogs. In SQL we might represent this using a new separate table known as a Join table. This is essentially a table of two foreign key columns, one for person table and one for dog table. We can then find all dog foreign keys for a given person foreign key to find the relationship.
+			  
+			  *person-dog join table*
+			  
+			  | personId | dogId |
+			  | ---- | ---- | ---- |
+			  | 1 | a |
+			  | 1 | b |
+			  | 2 | c |
+		- #### Associations In Sequelize
+			- Check out the Sequelize documentation on associations to understand how to implement this pattern: [http://docs.sequelizejs.com/manual/associations.html](https://sequelize.org/master/manual/assocs.html)
+- ## 4. Connecting our S3 Filestore in Node
+	- ### SignedURL Refresher and Intro to AWS SDK
+		- We'll be using the Amazon Web Services (AWS) Javascript Software Development Kit (SDK) to implement the SignedURL pattern within our Node server.
+		-
 -
 - ## 5.Handling Secrets with Environment Variables
 	- ### 1. Shell - Linux/Mac Users

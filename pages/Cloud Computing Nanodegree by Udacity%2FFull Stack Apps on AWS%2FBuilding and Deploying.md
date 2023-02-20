@@ -204,34 +204,30 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 				- Most Bash commands in the terminal give you instructions on how to use them when you type `man <command>` where `<command>` could be any CLI command. For example, typing `man bash` into the terminal will give you the manual page for `bash`.
 				  
 				  The *INVOCATION* section of this man page will give you some hints to where bash looks for profiles when starting.
-	- ### 3. Environment Variables - Windows Users
-		- Windows has the same concept of variable stored at the OS level to use within and across applications. Windows has two types of Environment Variables:
-		- **User Environment Variables** which are accessible only to the currently logged in user
-		- **System Environment Variables** which are available *all* users on the machine
-		- ##### Setting Windows Environment Variables
-		  
-		  Environment variables are set on Windows using a GUI (Graphical User Interface). On Windows 10, this can be found by:
-		- From the start menu, right-click the `Computer` icon
-		- Select `Properties`
-		- Select `Advanced System Settings` on the left
-		- In the new window, click `Environment Variables`
-		- Use the `New...` and `Edit...` buttons to set and modify your variables
-		- You can follow [this handy guide](https://www.computerhope.com/issues/ch000549.htm) for your flavor of Windows.
-	- ## 4. Run Linux Environment on Windows
-	  
-	  Windows OS also has a concept of the shell. The default shell in Windows is the command-line tool **Cmd.exe**. There is another shell available in Windows 7 SP1and above, [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7). PowerShell is primarily used for Windows system administration. Neither CMD nor PowerShell can run bash, ssh, git, apt, or any Linux commands by default.
-	  
-	  The solution is to use *either* of the options below:
-	- ### Option 1 - Windows Subsystem for Linux
-	  
-	  [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (WSL) - WSL allows us to run Linux environment, including most command-line tools, utilities, and applications, from the Windows Command Prompt (CMD). You can even mix the Linux and Windows commands after installing WSL. Refer to the installation instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install WSL on Windows.
-	  
-	  The next step is to install and run a Linux distribution parallelly on WSL. There are multiple choices for installing - Ubuntu, OpenSUSE, Debian, and many more. If you have no preference, you can install [Ubuntu on Windows](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) App, and proceed as mentioned in the installation instructions above.
-	- ### Option 2 - Git Bash on Windows
-	  
-	  Git is an open-source distributed Version Control System (VCS). Github is a repository hosting and version control service, where you can store, share, or download the repository content in collaboration with multiple contributors. Git provides a Unix style command-line tool called [Git for Windows](https://git-scm.com/download/win) to help users work with Github repositories. Once you download and install Git for Windows, it can be run either in CMD or a GUI.
-	  
-	  [Git Bash](https://www.atlassian.com/git/tutorials/git-bash) is a command-line tool by default included in Git for Windows. Besides running Git commands, Git Bash allows users to run Linux/Bash commands as well.
+		- #### 3. Environment Variables - Windows Users
+			- Windows has the same concept of variable stored at the OS level to use within and across applications. Windows has two types of Environment Variables:
+			- **User Environment Variables** which are accessible only to the currently logged in user
+			- **System Environment Variables** which are available *all* users on the machine
+			- #### Setting Windows Environment Variables
+			- Environment variables are set on Windows using a GUI (Graphical User Interface). On Windows 10, this can be found by:
+			- From the start menu, right-click the `Computer` icon
+			- Select `Properties`
+			- Select `Advanced System Settings` on the left
+			- In the new window, click `Environment Variables`
+			- Use the `New...` and `Edit...` buttons to set and modify your variables
+			- You can follow [this handy guide](https://www.computerhope.com/issues/ch000549.htm) for your flavor of Windows.
+			-
+		- #### 4. Run Linux Environment on Windows
+			- Windows OS also has a concept of the shell. The default shell in Windows is the command-line tool **Cmd.exe**. There is another shell available in Windows 7 SP1and above, [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7). PowerShell is primarily used for Windows system administration. Neither CMD nor PowerShell can run bash, ssh, git, apt, or any Linux commands by default.
+			  
+			  The solution is to use *either* of the options below:
+			- #### Option 1 - Windows Subsystem for Linux
+				- [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (WSL) - WSL allows us to run Linux environment, including most command-line tools, utilities, and applications, from the Windows Command Prompt (CMD). You can even mix the Linux and Windows commands after installing WSL. Refer to the installation instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install WSL on Windows.
+				  
+				  The next step is to install and run a Linux distribution parallelly on WSL. There are multiple choices for installing - Ubuntu, OpenSUSE, Debian, and many more. If you have no preference, you can install [Ubuntu on Windows](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) App, and proceed as mentioned in the installation instructions above.
+			- #### Option 2 - Git Bash on Windows
+				- Git is an open-source distributed Version Control System (VCS). Github is a repository hosting and version control service, where you can store, share, or download the repository content in collaboration with multiple contributors. Git provides a Unix style command-line tool called [Git for Windows](https://git-scm.com/download/win) to help users work with Github repositories. Once you download and install Git for Windows, it can be run either in CMD or a GUI.
+				- [Git Bash](https://www.atlassian.com/git/tutorials/git-bash) is a command-line tool by default included in Git for Windows. Besides running Git commands, Git Bash allows users to run Linux/Bash commands as well.
 -
 - ## 6.Permissions for Elastic Beanstalk
 	- ### Clarifying Profiles

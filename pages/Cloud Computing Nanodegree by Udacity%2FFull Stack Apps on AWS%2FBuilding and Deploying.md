@@ -132,6 +132,8 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 			- {{video https://www.youtube.com/watch?v=OeNqid8icYA}}
 		- ### Unstubbing with AWS SDK
 			- {{video https://www.youtube.com/watch?v=WkvBe0D0YlE}}
+		- ### Using Postman to Test The Image Upload
+			- {{video https://www.youtube.com/watch?v=91Xi2-RQzp8}}
 			-
 	-
 	-

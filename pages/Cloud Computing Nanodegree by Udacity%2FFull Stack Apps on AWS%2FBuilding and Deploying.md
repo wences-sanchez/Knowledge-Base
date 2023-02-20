@@ -78,7 +78,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 				- ii. Make some validation to make sure there's an id present
 				- iii. Return that to the user in a send data payload.
 				- iv. Use Postman to try it out
-			- 2. Create a PATCH endpoint that update an existing record that
+			- 2. Create a PATCH endpoint that updates an existing record that it's in a database with some kind of body
 			-
 		-
 -

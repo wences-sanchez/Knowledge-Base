@@ -277,17 +277,17 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- {{video https://www.youtube.com/watch?v=Sfzgp_4wlhI}}
 		-
 		- After running the `eb init` command and following the guided setup will create a new directory in our project named `.elasticbeanstalk`. Within this configuration file, there is a configuration file named `config.yml`. This is the set of instructions Elastic Beanstalk will follow when provisioning your AWS infrastructure and deploying your code.
-		- ### Generating SSH Keypairs
-		  
-		  Public-Key Cryptography is a method to encrypt and decrypt authentication information for connecting to your resources in the cloud. The keys you generate replace your password, but they should be treated as sensitive data that would grant anyone who holds them access to your running instance. AWS offers a great guide on how to create [Key Pairs for your EC2 Instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html).
-		- ## Creating Deployable Build Archives and Deploying
-		  
-		  Now that you have a running Beanstalk instance, we must package our code into a format that is usable by Elastic Beanstalk. We do this by transpiring our typescript into javascript and then zipping the contents into a single file which we can upload. NPM allows us to define simple script commands in the `package.json` file. As described in the video, we've included the `build` command to perform these steps for us.
-		  
-		  > ### Note for Windows Users
-		  
-		  Unlike Unix (Linux and Mac), The Windows Environment does not have a native CLI command for `zip`. Instead, you must install a utility called [UnixUtils](https://sourceforge.net/projects/unxutils/) to support this functionality. For more information and detailed instructions to install [UnixUtils](https://sourceforge.net/projects/unxutils/) refer to the prereq section in the [AWS Nodejs Tutorial](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-dynamodb-tutorial.html#nodejs-dynamodb-tutorial-prereqs).
 		-
+		- #### Generating SSH Keypairs
+			- Public-Key Cryptography is a method to encrypt and decrypt authentication information for connecting to your resources in the cloud. The keys you generate replace your password, but they should be treated as sensitive data that would grant anyone who holds them access to your running instance. AWS offers a great guide on how to create [Key Pairs for your EC2 Instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html).
+		-
+		- #### Creating Deployable Build Archives and Deploying
+			- Now that you have a running Beanstalk instance, we must package our code into a format that is usable by Elastic Beanstalk. We do this by transpiring our typescript into javascript and then zipping the contents into a single file which we can upload. NPM allows us to define simple script commands in the `package.json` file. As described in the video, we've included the `build` command to perform these steps for us.
+			  
+			  > ### Note for Windows Users
+			  
+			  Unlike Unix (Linux and Mac), The Windows Environment does not have a native CLI command for `zip`. Instead, you must install a utility called [UnixUtils](https://sourceforge.net/projects/unxutils/) to support this functionality. For more information and detailed instructions to install [UnixUtils](https://sourceforge.net/projects/unxutils/) refer to the prereq section in the [AWS Nodejs Tutorial](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-dynamodb-tutorial.html#nodejs-dynamodb-tutorial-prereqs).
+			-
 -
 -
 -

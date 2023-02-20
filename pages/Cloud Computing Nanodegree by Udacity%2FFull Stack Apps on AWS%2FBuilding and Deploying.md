@@ -137,7 +137,9 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 			-
 -
 - ## 5.Handling Secrets with Environment Variables
-	- ### Handling Secrets with
+	- ### Handling Secrets with Environment Variables
+		- {{video https://www.youtube.com/watch?v=YvSJGpoNtdE}}
+		-
 	- ### 1. Shell - Linux/Mac Users
 		- For Unix/Linux/Mac operating systems, a shell is a command-line program that accepts users' commands and executes those commands on the underlying kernel. Each command has a specific job to perform.
 		  

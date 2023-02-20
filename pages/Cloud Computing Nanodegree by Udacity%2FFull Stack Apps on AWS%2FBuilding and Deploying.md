@@ -274,6 +274,8 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- #### EB CLI
 			- We'll be using the Command Line Interface to work with Elastic Beanstalk. This will provide us with a set of commands to create new applications and deploy code to these systems. Before continuing, you must install the EB CLI by reading the [AWS Doc Instructions for Install](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html) for your platform.
 		-
+		- {{video https://www.youtube.com/watch?v=Sfzgp_4wlhI}}
+		-
 		-
 -
 -

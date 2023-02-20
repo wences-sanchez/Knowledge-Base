@@ -72,6 +72,8 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- Enter `npm run dev` in terminal to start the server
 		- {{video https://www.youtube.com/watch?v=XFHB26f_JyY&t=2s}}
 		-
+		- #### Exercise
+			- 1.
 		-
 -
 -

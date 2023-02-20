@@ -286,7 +286,16 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 				- > Note for Windows Users
 				  Unlike Unix (Linux and Mac), The Windows Environment does not have a native CLI command for `zip`. Instead, you must install a utility called [UnixUtils](https://sourceforge.net/projects/unxutils/) to support this functionality. For more information and detailed instructions to install [UnixUtils](https://sourceforge.net/projects/unxutils/) refer to the prereq section in the [AWS Nodejs Tutorial](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-dynamodb-tutorial.html#nodejs-dynamodb-tutorial-prereqs).
 			- {{video https://www.youtube.com/watch?v=4Tmx2ZUxwMw}}
+			- After running `npm run build` to transpile and package our code into a zip, we need to configure Elastic Beanstalk to use this build archive. This is accomplished with the following addition to the .easticbeanstalk/config.yml configuration file:
 			-
+			- ```yaml
+			  deploy:
+			      artifact: ./www/Archive.zip
+			  ```
+			-
+	- ### Setting Environment Variables in Elastic Beanstalk
+		- Just like our local code, we'll need to access certain variables from our system within our Node server. We can set these variables through the AWS Console.
+		-
 -
 -
 -

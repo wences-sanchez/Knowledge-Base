@@ -69,6 +69,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- {{video https://www.youtube.com/watch?v=1FnTTG07Oxk}}
 		-
 		-
+		-
 -
 -
 - ## 5.Handling Secrets with Environment Variables

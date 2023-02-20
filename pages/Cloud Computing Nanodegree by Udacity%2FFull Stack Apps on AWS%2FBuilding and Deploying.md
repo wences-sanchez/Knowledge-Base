@@ -254,7 +254,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 				- A: EC2 is elastic cloud compute cloud compute 2 sees easy 2 is a service offered by Amazon to provide computational platforms in their cloud, these are servers running on AWS infrastructure.
 			- Q: What is Amazon machine images? #flashcard
 				- A: Amazon machine images are snapshots of the OS at a particular state which makes it extremely convenient to stand up infrastructure for whatever environment you really need to run.
-			- Q: What does elastic Beanstalk do?
+			- Q: What does elastic Beanstalk do? #flashcard
 			- A: Elastic Beanstalk automatically adds an engine X proxy which will take external traffic and route it internally within that instance to a running node application. 
 			  
 			  Flashcard #5

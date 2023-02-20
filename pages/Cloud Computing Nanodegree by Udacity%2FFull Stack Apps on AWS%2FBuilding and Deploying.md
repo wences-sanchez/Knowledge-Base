@@ -295,6 +295,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 			-
 	- ### Setting Environment Variables in Elastic Beanstalk
 		- Just like our local code, we'll need to access certain variables from our system within our Node server. We can set these variables through the AWS Console.
+		- {{video https://www.youtube.com/watch?v=GnFd-a0dAyI}}
 		-
 -
 -

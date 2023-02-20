@@ -243,3 +243,17 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		  }
 		  ```
 -
+- ## 7. Deploying Our Server to the Cloud
+	- ### Basic AWS Architecture
+		- {{video https://www.youtube.com/watch?v=JTp-2V2V5Ps}}
+		- ![image.png](../assets/image_1676896984151_0.png)
+		- Elastic Beanstalk has images already prepared to our Node projects.
+		-
+-
+-
+-
+-
+-
+-
+-
+-

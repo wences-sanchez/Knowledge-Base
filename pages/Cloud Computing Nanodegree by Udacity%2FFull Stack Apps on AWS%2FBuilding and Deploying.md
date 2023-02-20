@@ -128,6 +128,20 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- ![image.png](../assets/image_1676893191231_0.png)
 		- > *tip*: AWS SDK dependencies are included in the project's `package.json` file. If you're starting a new project, you will need to install these dependencies using NPM. AWS offers clear instructions for setting it up in a new project: [https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/installing-jssdk.html](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/installing-jssdk.html).
 	- ## Implementing the AWS S3 SDK in our Node Server
+		- ### Understanding the Stubbed Code
+			- {{video https://www.youtube.com/watch?v=OeNqid8icYA}}
+			-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
 	-
 -
 - ## 5.Handling Secrets with Environment Variables

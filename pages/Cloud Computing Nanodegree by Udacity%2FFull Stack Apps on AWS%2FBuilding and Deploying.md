@@ -73,7 +73,10 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- {{video https://www.youtube.com/watch?v=XFHB26f_JyY&t=2s}}
 		-
 		- #### Exercise
-			- 1.
+			- 1. Create a new GET endpoint that gets a specific record from the database using the **id** field
+				- i. Use the *sequelize* interface to find that record
+				- ii. Make some
+			-
 		-
 -
 -

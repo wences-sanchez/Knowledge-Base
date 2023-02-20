@@ -230,6 +230,8 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 				- [Git Bash](https://www.atlassian.com/git/tutorials/git-bash) is a command-line tool by default included in Git for Windows. Besides running Git commands, Git Bash allows users to run Linux/Bash commands as well.
 -
 - ## 6.Permissions for Elastic Beanstalk
+	- {{video https://www.youtube.com/watch?v=aa1DH7eClIc&t=4s}}
+	-
 	- ### Clarifying Profiles
 		- When we're working locally, we need to specify which AWS profile to use (a refresher on named profiles can be found [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)). When we're deploying to an AWS ElasticBeanstalk instance, the profile will be implicitly set by the instance. We can use the logic control to implicitly not specify these AWS credentials in this deployed state.
 		- ```

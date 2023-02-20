@@ -131,6 +131,7 @@ deck:: [[Cloud Development Nanodegree::Full Stack Apps on AWS]]
 		- ### Understanding the Stubbed Code
 			- {{video https://www.youtube.com/watch?v=OeNqid8icYA}}
 		- ### Unstubbing with AWS SDK
+			- {{video https://www.youtube.com/watch?v=WkvBe0D0YlE}}
 			-
 	-
 	-

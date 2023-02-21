@@ -1,8 +1,6 @@
-
-
-[]()tags:: ACloudGuru, AWS
-deck:: [[ACloudGuru::AWS]]
 id:: 6350f726-077a-4ecc-80c6-6a532aedab05
+tags:: ACloudGuru, AWS
+deck:: [[ACloudGuru::AWS]]
 
 - #tags #AWS #CCP-Exam
 -
@@ -36,7 +34,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 	- ### Section Introduction
 		- The different services are for different use cases. That's the reason why there are so many!
 	- ### 3.2 Exploring Compute Services: EC2
-	  collapsed:: true
 		- EC2 is a foundational service used for managing our virtual instances.
 			- 1. You're able to provision an EC2 instance at the click of a button
 			  2. You can preconfigure it with an AMI template
@@ -92,7 +89,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 	-
 	- ### 3.3 Exploring Compute Services: EC2 in Action
 	- ### 3.4 Exploring Compute Services: Lambda
-	  collapsed:: true
 		- What does *Serverless* mean? #flashcard
 			- **Serverless** simply means that Amazon manages the servers for you and you cannot access them. You can pretend they don't exist.
 		- Describe the pricing model of Lambdas #flashcard
@@ -123,7 +119,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			- Dynamically provisions instances based on volume.
 			- It works with other services as AWS Fargate, Amazon EC2 or spot instances.
 	- ### 3.7 Leveraging Storage Services: S3
-	  collapsed:: true
 		- Companies collect lots of data because they need to analyze it and compare it over years.
 		- #### Amazon S3
 		  collapsed:: true
@@ -274,7 +269,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 				-
 	- ### 3.8 Leveraging Storage Services: S3 in Action
 	- ### 3.9 Leveraging Storage Services: Additional Storage Services
-	  collapsed:: true
 		- #### EC2 Storage
 			- EC2 supports several storage options for your isntances
 				- EBS
@@ -376,7 +370,6 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 					- Create a backup plan that includes frequency and retention (how quickly and how long)
 		-
 	- ### 3.10 Understanding Content Delivery Services
-	  collapsed:: true
 		- #### The bigger picture
 			- We need content delivery because there are so many requests for almost everything and the idea of a near server which could bring us those contents is awesome!
 			- A CDN is a mechanism to deliver content quickly and efficiently based on geographic location
@@ -1366,5 +1359,4 @@ id:: 6350f726-077a-4ecc-80c6-6a532aedab05
 			-
 -
 -
--
-^1675847777125
+- ^1675847777125
